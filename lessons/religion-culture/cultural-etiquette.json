@@ -1,0 +1,2543 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras clave",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú / usted",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_he_she",
+      "kind": "word",
+      "texts": {
+        "en": "he / she / they",
+        "th": "เขา",
+        "fa": "او / آن‌ها",
+        "ar": "هو / هي / هم",
+        "es": "él / ella / ellos",
+        "zh": "他 / 她 / 他们",
+        "ja": "彼 / 彼女 / 彼ら"
+      }
+    },
+    {
+      "id": "word_we",
+      "kind": "word",
+      "texts": {
+        "en": "we",
+        "th": "เรา",
+        "fa": "ما",
+        "ar": "نحن",
+        "es": "nosotros",
+        "zh": "我们",
+        "ja": "私たち"
+      }
+    },
+    {
+      "id": "word_do_not",
+      "kind": "word",
+      "texts": {
+        "en": "do not",
+        "th": "อย่า",
+        "fa": "نکن",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不要",
+        "ja": "しないで"
+      }
+    },
+    {
+      "id": "word_not",
+      "kind": "word",
+      "texts": {
+        "en": "not",
+        "th": "ไม่",
+        "fa": "نه",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不",
+        "ja": "ない"
+      }
+    },
+    {
+      "id": "word_can",
+      "kind": "word",
+      "texts": {
+        "en": "can",
+        "th": "ได้",
+        "fa": "توانستن",
+        "ar": "يستطيع",
+        "es": "poder",
+        "zh": "能",
+        "ja": "できる"
+      }
+    },
+    {
+      "id": "word_must",
+      "kind": "word",
+      "texts": {
+        "en": "must",
+        "th": "ต้อง",
+        "fa": "باید",
+        "ar": "يجب",
+        "es": "deber",
+        "zh": "必须",
+        "ja": "しなければならない"
+      }
+    },
+    {
+      "id": "word_should",
+      "kind": "word",
+      "texts": {
+        "en": "should",
+        "th": "ควร",
+        "fa": "بهتر است",
+        "ar": "ينبغي",
+        "es": "debería",
+        "zh": "应该",
+        "ja": "〜すべきだ"
+      }
+    },
+    {
+      "id": "word_and",
+      "kind": "word",
+      "texts": {
+        "en": "and",
+        "th": "และ",
+        "fa": "و",
+        "ar": "و",
+        "es": "y",
+        "zh": "和",
+        "ja": "と"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Body Etiquette — The Head & The Feet",
+        "th": "สถานการณ์ 1: มารยาททางร่างกาย — หัวและเท้า",
+        "fa": "سناریو ۱: آداب بدنی — سر و پا",
+        "ar": "السيناريو 1: آداب الجسد — الرأس والقدمان",
+        "es": "Escenario 1: Etiqueta corporal — La cabeza y los pies",
+        "zh": "场景一：身体礼仪——头部与脚部",
+        "ja": "シナリオ1：身体の作法——頭と足"
+      }
+    },
+    {
+      "id": "sentence_etiq_dont_touch_head",
+      "kind": "sentence",
+      "itemIds": [
+        "word_do_not",
+        "word_touch",
+        "word_head"
+      ],
+      "texts": {
+        "en": "Don't touch the head",
+        "th": "อย่าแตะหัว",
+        "fa": "سر را لمس نکن",
+        "ar": "لا تلمس الرأس",
+        "es": "No toques la cabeza",
+        "zh": "不要摸头",
+        "ja": "頭を触らないで"
+      },
+      "tokens": {
+        "en": [
+          "Don't",
+          "touch",
+          "the",
+          "head"
+        ],
+        "th": [
+          "อย่า",
+          "แตะ",
+          "หัว"
+        ],
+        "fa": [
+          "سر",
+          "را",
+          "لمس",
+          "نکن"
+        ],
+        "ar": [
+          "لا",
+          "تلمس",
+          "الرأس"
+        ],
+        "es": [
+          "No",
+          "toques",
+          "la",
+          "cabeza"
+        ],
+        "zh": [
+          "不要",
+          "摸",
+          "头"
+        ],
+        "ja": [
+          "頭",
+          "を",
+          "触らないで"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_dont_point_foot",
+      "kind": "sentence",
+      "itemIds": [
+        "word_do_not",
+        "word_point",
+        "word_foot"
+      ],
+      "texts": {
+        "en": "Don't point feet",
+        "th": "อย่าชี้เท้า",
+        "fa": "با پا اشاره نکن",
+        "ar": "لا تؤشر بقدميك",
+        "es": "No apuntes con los pies",
+        "zh": "不要用脚指",
+        "ja": "足で指差さないで"
+      },
+      "tokens": {
+        "en": [
+          "Don't",
+          "point",
+          "feet"
+        ],
+        "th": [
+          "อย่า",
+          "ชี้",
+          "เท้า"
+        ],
+        "fa": [
+          "با",
+          "پا",
+          "اشاره",
+          "نکن"
+        ],
+        "ar": [
+          "لا",
+          "تؤشر",
+          "بقدميك"
+        ],
+        "es": [
+          "No",
+          "apuntes",
+          "con",
+          "los",
+          "pies"
+        ],
+        "zh": [
+          "不要",
+          "用",
+          "脚",
+          "指"
+        ],
+        "ja": [
+          "足",
+          "で",
+          "指差さないで"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_head_is_high",
+      "kind": "sentence",
+      "itemIds": [
+        "word_head",
+        "word_be",
+        "word_high"
+      ],
+      "texts": {
+        "en": "The head is the highest part",
+        "th": "หัวเป็นส่วนสูงสุด",
+        "fa": "سر بالاترین بخش است",
+        "ar": "الرأس هو أعلى جزء",
+        "es": "La cabeza es la parte más alta",
+        "zh": "头是最高的部分",
+        "ja": "頭は最も高い部分です"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "head",
+          "is",
+          "the",
+          "highest",
+          "part"
+        ],
+        "th": [
+          "หัว",
+          "เป็น",
+          "ส่วน",
+          "สูงสุด"
+        ],
+        "fa": [
+          "سر",
+          "بالاترین",
+          "بخش",
+          "است"
+        ],
+        "ar": [
+          "الرأس",
+          "هو",
+          "أعلى",
+          "جزء"
+        ],
+        "es": [
+          "La",
+          "cabeza",
+          "es",
+          "la",
+          "parte",
+          "más",
+          "alta"
+        ],
+        "zh": [
+          "头",
+          "是",
+          "最高",
+          "的",
+          "部分"
+        ],
+        "ja": [
+          "頭",
+          "は",
+          "最も",
+          "高い",
+          "部分",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_feet_are_low",
+      "kind": "sentence",
+      "itemIds": [
+        "word_foot",
+        "word_be",
+        "word_low"
+      ],
+      "texts": {
+        "en": "The feet are the lowest part",
+        "th": "เท้าเป็นส่วนต่ำสุด",
+        "fa": "پاها پایین‌ترین بخش هستند",
+        "ar": "القدمان هما أدنى جزء",
+        "es": "Los pies son la parte más baja",
+        "zh": "脚是最低的部分",
+        "ja": "足は最も低い部分です"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "feet",
+          "are",
+          "the",
+          "lowest",
+          "part"
+        ],
+        "th": [
+          "เท้า",
+          "เป็น",
+          "ส่วน",
+          "ต่ำสุด"
+        ],
+        "fa": [
+          "پاها",
+          "پایین‌ترین",
+          "بخش",
+          "هستند"
+        ],
+        "ar": [
+          "القدمان",
+          "هما",
+          "أدنى",
+          "جزء"
+        ],
+        "es": [
+          "Los",
+          "pies",
+          "son",
+          "la",
+          "parte",
+          "más",
+          "baja"
+        ],
+        "zh": [
+          "脚",
+          "是",
+          "最低",
+          "的",
+          "部分"
+        ],
+        "ja": [
+          "足",
+          "は",
+          "最も",
+          "低い",
+          "部分",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_dont_step_over",
+      "kind": "sentence",
+      "itemIds": [
+        "word_do_not",
+        "word_step_over",
+        "word_foot"
+      ],
+      "texts": {
+        "en": "Don't step over someone's feet",
+        "th": "อย่าก้าวข้ามเท้าคนอื่น",
+        "fa": "از روی پای کسی رد نشو",
+        "ar": "لا تخطو فوق قدمي شخص",
+        "es": "No pises por encima de los pies de alguien",
+        "zh": "不要跨过别人的脚",
+        "ja": "人の足をまたがないで"
+      },
+      "tokens": {
+        "en": [
+          "Don't",
+          "step",
+          "over",
+          "someone's",
+          "feet"
+        ],
+        "th": [
+          "อย่า",
+          "ก้าวข้าม",
+          "เท้า",
+          "คนอื่น"
+        ],
+        "fa": [
+          "از",
+          "روی",
+          "پای",
+          "کسی",
+          "رد",
+          "نشو"
+        ],
+        "ar": [
+          "لا",
+          "تخطو",
+          "فوق",
+          "قدمي",
+          "شخص"
+        ],
+        "es": [
+          "No",
+          "pises",
+          "por",
+          "encima",
+          "de",
+          "los",
+          "pies",
+          "de",
+          "alguien"
+        ],
+        "zh": [
+          "不要",
+          "跨过",
+          "别人",
+          "的",
+          "脚"
+        ],
+        "ja": [
+          "人",
+          "の",
+          "足",
+          "を",
+          "またがないで"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_dont_touch_hair",
+      "kind": "sentence",
+      "itemIds": [
+        "word_do_not",
+        "word_touch",
+        "word_hair"
+      ],
+      "texts": {
+        "en": "Don't touch someone's hair",
+        "th": "อย่าแตะผมคนอื่น",
+        "fa": "به موی کسی دست نزن",
+        "ar": "لا تلمس شعر شخص",
+        "es": "No toques el pelo de alguien",
+        "zh": "不要摸别人的头发",
+        "ja": "人の髪を触らないで"
+      },
+      "tokens": {
+        "en": [
+          "Don't",
+          "touch",
+          "someone's",
+          "hair"
+        ],
+        "th": [
+          "อย่า",
+          "แตะ",
+          "ผม",
+          "คนอื่น"
+        ],
+        "fa": [
+          "به",
+          "موی",
+          "کسی",
+          "دست",
+          "نزن"
+        ],
+        "ar": [
+          "لا",
+          "تلمس",
+          "شعر",
+          "شخص"
+        ],
+        "es": [
+          "No",
+          "toques",
+          "el",
+          "pelo",
+          "de",
+          "alguien"
+        ],
+        "zh": [
+          "不要",
+          "摸",
+          "别人",
+          "的",
+          "头发"
+        ],
+        "ja": [
+          "人",
+          "の",
+          "髪",
+          "を",
+          "触らないで"
+        ]
+      }
+    },
+    {
+      "id": "word_head",
+      "kind": "word",
+      "texts": {
+        "en": "head",
+        "th": "หัว",
+        "fa": "سر",
+        "ar": "رأس",
+        "es": "cabeza",
+        "zh": "头",
+        "ja": "頭"
+      }
+    },
+    {
+      "id": "word_foot",
+      "kind": "word",
+      "texts": {
+        "en": "foot",
+        "th": "เท้า",
+        "fa": "پا",
+        "ar": "قدم",
+        "es": "pie",
+        "zh": "脚",
+        "ja": "足"
+      }
+    },
+    {
+      "id": "word_touch",
+      "kind": "word",
+      "texts": {
+        "en": "touch",
+        "th": "แตะ",
+        "fa": "لمس کردن",
+        "ar": "يلمس",
+        "es": "tocar",
+        "zh": "摸",
+        "ja": "触る"
+      }
+    },
+    {
+      "id": "word_point",
+      "kind": "word",
+      "texts": {
+        "en": "point",
+        "th": "ชี้",
+        "fa": "اشاره کردن",
+        "ar": "يؤشر",
+        "es": "apuntar",
+        "zh": "指",
+        "ja": "指差す"
+      }
+    },
+    {
+      "id": "word_hair",
+      "kind": "word",
+      "texts": {
+        "en": "hair",
+        "th": "ผม",
+        "fa": "مو",
+        "ar": "شعر",
+        "es": "pelo",
+        "zh": "头发",
+        "ja": "髪"
+      }
+    },
+    {
+      "id": "word_high",
+      "kind": "word",
+      "texts": {
+        "en": "high",
+        "th": "สูง",
+        "fa": "بالا",
+        "ar": "عالي",
+        "es": "alto",
+        "zh": "高",
+        "ja": "高い"
+      }
+    },
+    {
+      "id": "word_low",
+      "kind": "word",
+      "texts": {
+        "en": "low",
+        "th": "ต่ำ",
+        "fa": "پایین",
+        "ar": "منخفض",
+        "es": "bajo",
+        "zh": "低",
+        "ja": "低い"
+      }
+    },
+    {
+      "id": "word_step_over",
+      "kind": "word",
+      "texts": {
+        "en": "step over",
+        "th": "ก้าวข้าม",
+        "fa": "رد شدن از روی",
+        "ar": "يتخطى",
+        "es": "pasar por encima",
+        "zh": "跨过",
+        "ja": "またぐ"
+      }
+    },
+    {
+      "id": "word_be",
+      "kind": "word",
+      "texts": {
+        "en": "is / are",
+        "th": "เป็น / คือ",
+        "fa": "است / هستند",
+        "ar": "يكون",
+        "es": "ser / estar",
+        "zh": "是",
+        "ja": "です"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Polite Requests & Advice (G22)",
+        "th": "สถานการณ์ 2: คำขอร้องและคำแนะนำอย่างสุภาพ (G22)",
+        "fa": "سناریو ۲: درخواست‌ها و پندهای مؤدبانه (G22)",
+        "ar": "السيناريو 2: الطلبات والنصائح المهذبة (G22)",
+        "es": "Escenario 2: Peticiones y consejos corteses (G22)",
+        "zh": "场景二：礼貌请求与建议（G22）",
+        "ja": "シナリオ2：丁寧な依頼と助言（G22）"
+      }
+    },
+    {
+      "id": "sentence_etiq_sit_polite",
+      "kind": "sentence",
+      "itemIds": [
+        "word_sit",
+        "word_polite"
+      ],
+      "texts": {
+        "en": "Sit politely",
+        "th": "นั่งสุภาพ",
+        "fa": "مؤدبانه بنشینید",
+        "ar": "اجلس بأدب",
+        "es": "Siéntate educadamente",
+        "zh": "礼貌地坐",
+        "ja": "丁寧に座って"
+      },
+      "tokens": {
+        "en": [
+          "Sit",
+          "politely"
+        ],
+        "th": [
+          "นั่ง",
+          "สุภาพ"
+        ],
+        "fa": [
+          "مؤدبانه",
+          "بنشینید"
+        ],
+        "ar": [
+          "اجلس",
+          "بأدب"
+        ],
+        "es": [
+          "Siéntate",
+          "educadamente"
+        ],
+        "zh": [
+          "礼貌地",
+          "坐"
+        ],
+        "ja": [
+          "丁寧",
+          "に",
+          "座って"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_please_sit",
+      "kind": "sentence",
+      "itemIds": [
+        "word_please_formal",
+        "word_sit"
+      ],
+      "texts": {
+        "en": "Please sit down",
+        "th": "กรุณานั่งลง",
+        "fa": "لطفاً بنشینید",
+        "ar": "من فضلك اجلس",
+        "es": "Por favor, siéntate",
+        "zh": "请坐",
+        "ja": "どうぞお座りください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "sit",
+          "down"
+        ],
+        "th": [
+          "กรุณา",
+          "นั่งลง"
+        ],
+        "fa": [
+          "لطفاً",
+          "بنشینید"
+        ],
+        "ar": [
+          "من",
+          "فضلك",
+          "اجلس"
+        ],
+        "es": [
+          "Por",
+          "favor,",
+          "siéntate"
+        ],
+        "zh": [
+          "请",
+          "坐"
+        ],
+        "ja": [
+          "どうぞ",
+          "お座り",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_please_wait",
+      "kind": "sentence",
+      "itemIds": [
+        "word_please_formal",
+        "word_wait",
+        "word_a_little_bit"
+      ],
+      "texts": {
+        "en": "Please wait a moment",
+        "th": "กรุณารอสักครู่",
+        "fa": "لطفاً یک لحظه صبر کنید",
+        "ar": "من فضلك انتظر لحظة",
+        "es": "Por favor, espera un momento",
+        "zh": "请稍等一会儿",
+        "ja": "少々お待ちください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "wait",
+          "a",
+          "moment"
+        ],
+        "th": [
+          "กรุณา",
+          "รอ",
+          "สักครู่"
+        ],
+        "fa": [
+          "لطفاً",
+          "یک",
+          "لحظه",
+          "صبر",
+          "کنید"
+        ],
+        "ar": [
+          "من",
+          "فضلك",
+          "انتظر",
+          "لحظة"
+        ],
+        "es": [
+          "Por",
+          "favor,",
+          "espera",
+          "un",
+          "momento"
+        ],
+        "zh": [
+          "请",
+          "稍等",
+          "一会儿"
+        ],
+        "ja": [
+          "少々",
+          "お待ち",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_help_me",
+      "kind": "sentence",
+      "itemIds": [
+        "word_help_request",
+        "word_i",
+        "word_a_little_bit"
+      ],
+      "texts": {
+        "en": "Please help me a little",
+        "th": "ช่วยฉันหน่อย",
+        "fa": "لطفاً کمی به من کمک کنید",
+        "ar": "من فضلك ساعدني قليلاً",
+        "es": "Por favor, ayúdame un poco",
+        "zh": "请帮帮我一下",
+        "ja": "少し手伝ってください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "help",
+          "me",
+          "a",
+          "little"
+        ],
+        "th": [
+          "ช่วย",
+          "ฉัน",
+          "หน่อย"
+        ],
+        "fa": [
+          "لطفاً",
+          "کمی",
+          "به",
+          "من",
+          "کمک",
+          "کنید"
+        ],
+        "ar": [
+          "من",
+          "فضلك",
+          "ساعدني",
+          "قليلاً"
+        ],
+        "es": [
+          "Por",
+          "favor,",
+          "ayúdame",
+          "un",
+          "poco"
+        ],
+        "zh": [
+          "请",
+          "帮帮",
+          "我",
+          "一下"
+        ],
+        "ja": [
+          "少し",
+          "手伝って",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_please_speak_slowly",
+      "kind": "sentence",
+      "itemIds": [
+        "word_please_formal",
+        "word_speak",
+        "word_slowly"
+      ],
+      "texts": {
+        "en": "Please speak slowly",
+        "th": "กรุณาพูดช้า ๆ",
+        "fa": "لطفاً آهسته صحبت کنید",
+        "ar": "من فضلك تحدث ببطء",
+        "es": "Por favor, habla despacio",
+        "zh": "请说慢一点",
+        "ja": "ゆっくり話してください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "speak",
+          "slowly"
+        ],
+        "th": [
+          "กรุณา",
+          "พูด",
+          "ช้า ๆ"
+        ],
+        "fa": [
+          "لطفاً",
+          "آهسته",
+          "صحبت",
+          "کنید"
+        ],
+        "ar": [
+          "من",
+          "فضلك",
+          "تحدث",
+          "ببطء"
+        ],
+        "es": [
+          "Por",
+          "favor,",
+          "habla",
+          "despacio"
+        ],
+        "zh": [
+          "请",
+          "说",
+          "慢一点"
+        ],
+        "ja": [
+          "ゆっくり",
+          "話して",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "word_please_formal",
+      "kind": "word",
+      "texts": {
+        "en": "please (formal)",
+        "th": "กรุณา",
+        "fa": "لطفاً",
+        "ar": "من فضلك",
+        "es": "por favor",
+        "zh": "请",
+        "ja": "どうぞ / ください"
+      }
+    },
+    {
+      "id": "word_help_request",
+      "kind": "word",
+      "texts": {
+        "en": "help (request)",
+        "th": "ช่วย",
+        "fa": "کمک کردن",
+        "ar": "يساعد",
+        "es": "ayudar",
+        "zh": "帮",
+        "ja": "手伝う"
+      }
+    },
+    {
+      "id": "word_a_little_bit",
+      "kind": "word",
+      "texts": {
+        "en": "a little bit (softener)",
+        "th": "หน่อย",
+        "fa": "کمی / لطفاً",
+        "ar": "قليلاً / من فضلك",
+        "es": "un poco / por favor",
+        "zh": "一下",
+        "ja": "少し / 〜てください"
+      }
+    },
+    {
+      "id": "word_sit",
+      "kind": "word",
+      "texts": {
+        "en": "sit",
+        "th": "นั่ง",
+        "fa": "نشستن",
+        "ar": "يجلس",
+        "es": "sentarse",
+        "zh": "坐",
+        "ja": "座る"
+      }
+    },
+    {
+      "id": "word_wait",
+      "kind": "word",
+      "texts": {
+        "en": "wait",
+        "th": "รอ",
+        "fa": "صبر کردن",
+        "ar": "ينتظر",
+        "es": "esperar",
+        "zh": "等",
+        "ja": "待つ"
+      }
+    },
+    {
+      "id": "word_speak",
+      "kind": "word",
+      "texts": {
+        "en": "speak",
+        "th": "พูด",
+        "fa": "صحبت کردن",
+        "ar": "يتكلم",
+        "es": "hablar",
+        "zh": "说",
+        "ja": "話す"
+      }
+    },
+    {
+      "id": "word_slowly",
+      "kind": "word",
+      "texts": {
+        "en": "slowly",
+        "th": "ช้า ๆ",
+        "fa": "آهسته",
+        "ar": "ببطء",
+        "es": "despacio",
+        "zh": "慢慢地",
+        "ja": "ゆっくり"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Prohibitions & Negation (G4)",
+        "th": "สถานการณ์ 3: ข้อห้ามและการปฏิเสธ (G4)",
+        "fa": "سناریو ۳: ممنوعات و نفی (G4)",
+        "ar": "السيناريو 3: المحظورات والنفي (G4)",
+        "es": "Escenario 3: Prohibiciones y negación (G4)",
+        "zh": "场景三：禁止与否定（G4）",
+        "ja": "シナリオ3：禁止と否定（G4）"
+      }
+    },
+    {
+      "id": "sentence_etiq_woman_monk",
+      "kind": "sentence",
+      "itemIds": [
+        "word_woman",
+        "word_touch",
+        "word_monk",
+        "word_not",
+        "word_can"
+      ],
+      "texts": {
+        "en": "Women cannot touch monks",
+        "th": "ผู้หญิงแตะพระสงฆ์ไม่ได้",
+        "fa": "زنان نمی‌توانند راهب را لمس کنند",
+        "ar": "لا يمكن للمرأة لمس الراهب",
+        "es": "Las mujeres no pueden tocar monjes",
+        "zh": "女人不能碰僧侣",
+        "ja": "女性は僧侶に触れません"
+      },
+      "tokens": {
+        "en": [
+          "Women",
+          "cannot",
+          "touch",
+          "monks"
+        ],
+        "th": [
+          "ผู้หญิง",
+          "แตะ",
+          "พระสงฆ์",
+          "ไม่ได้"
+        ],
+        "fa": [
+          "زنان",
+          "نمی‌توانند",
+          "راهب",
+          "را",
+          "لمس",
+          "کنند"
+        ],
+        "ar": [
+          "لا",
+          "يمكن",
+          "للمرأة",
+          "لمس",
+          "الراهب"
+        ],
+        "es": [
+          "Las",
+          "mujeres",
+          "no",
+          "pueden",
+          "tocar",
+          "monjes"
+        ],
+        "zh": [
+          "女人",
+          "不能",
+          "碰",
+          "僧侣"
+        ],
+        "ja": [
+          "女性",
+          "は",
+          "僧侶",
+          "に",
+          "触れ",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_no_smoking",
+      "kind": "sentence",
+      "itemIds": [
+        "word_forbidden",
+        "word_smoke"
+      ],
+      "texts": {
+        "en": "Smoking is forbidden",
+        "th": "ห้ามสูบบุหรี่",
+        "fa": "سیگار کشیدن ممنوع است",
+        "ar": "التدخين ممنوع",
+        "es": "Prohibido fumar",
+        "zh": "禁止吸烟",
+        "ja": "喫煙禁止"
+      },
+      "tokens": {
+        "en": [
+          "Smoking",
+          "is",
+          "forbidden"
+        ],
+        "th": [
+          "ห้าม",
+          "สูบบุหรี่"
+        ],
+        "fa": [
+          "سیگار",
+          "کشیدن",
+          "ممنوع",
+          "است"
+        ],
+        "ar": [
+          "التدخين",
+          "ممنوع"
+        ],
+        "es": [
+          "Prohibido",
+          "fumar"
+        ],
+        "zh": [
+          "禁止",
+          "吸烟"
+        ],
+        "ja": [
+          "喫煙",
+          "禁止"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_not_allowed",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_not",
+        "word_can",
+        "word_photo"
+      ],
+      "texts": {
+        "en": "I can't take photos",
+        "th": "ฉันถ่ายรูปไม่ได้",
+        "fa": "من نمی‌توانم عکس بگیرم",
+        "ar": "لا أستطيع التصوير",
+        "es": "No puedo tomar fotos",
+        "zh": "我不能拍照",
+        "ja": "写真を撮れません"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "can't",
+          "take",
+          "photos"
+        ],
+        "th": [
+          "ฉัน",
+          "ถ่ายรูป",
+          "ไม่ได้"
+        ],
+        "fa": [
+          "من",
+          "نمی‌توانم",
+          "عکس",
+          "بگیرم"
+        ],
+        "ar": [
+          "لا",
+          "أستطيع",
+          "التصوير"
+        ],
+        "es": [
+          "No",
+          "puedo",
+          "tomar",
+          "fotos"
+        ],
+        "zh": [
+          "我",
+          "不能",
+          "拍照"
+        ],
+        "ja": [
+          "写真",
+          "を",
+          "撮れ",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_do_not_enter",
+      "kind": "sentence",
+      "itemIds": [
+        "word_do_not",
+        "word_enter"
+      ],
+      "texts": {
+        "en": "Do not enter",
+        "th": "อย่าเข้าไป",
+        "fa": "وارد نشوید",
+        "ar": "لا تدخل",
+        "es": "No entre",
+        "zh": "请勿进入",
+        "ja": "入らないで"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "not",
+          "enter"
+        ],
+        "th": [
+          "อย่า",
+          "เข้าไป"
+        ],
+        "fa": [
+          "وارد",
+          "نشوید"
+        ],
+        "ar": [
+          "لا",
+          "تدخل"
+        ],
+        "es": [
+          "No",
+          "entre"
+        ],
+        "zh": [
+          "请勿",
+          "进入"
+        ],
+        "ja": [
+          "入らないで"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_is_not_allowed",
+      "kind": "sentence",
+      "itemIds": [
+        "word_this",
+        "word_is_not",
+        "word_allowed"
+      ],
+      "texts": {
+        "en": "This is not allowed",
+        "th": "สิ่งนี้ไม่ได้รับอนุญาต",
+        "fa": "این مجاز نیست",
+        "ar": "هذا غير مسموح",
+        "es": "Esto no está permitido",
+        "zh": "这是不允许的",
+        "ja": "これは許可されていません"
+      },
+      "tokens": {
+        "en": [
+          "This",
+          "is",
+          "not",
+          "allowed"
+        ],
+        "th": [
+          "สิ่งนี้",
+          "ไม่",
+          "ได้รับอนุญาต"
+        ],
+        "fa": [
+          "این",
+          "مجاز",
+          "نیست"
+        ],
+        "ar": [
+          "هذا",
+          "غير",
+          "مسموح"
+        ],
+        "es": [
+          "Esto",
+          "no",
+          "está",
+          "permitido"
+        ],
+        "zh": [
+          "这",
+          "是",
+          "不允许",
+          "的"
+        ],
+        "ja": [
+          "これ",
+          "は",
+          "許可",
+          "されて",
+          "いません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_forbidden_photo",
+      "kind": "sentence",
+      "itemIds": [
+        "word_forbidden",
+        "word_photo",
+        "word_in",
+        "word_temple"
+      ],
+      "texts": {
+        "en": "Photography is forbidden in the temple",
+        "th": "ห้ามถ่ายรูปในวัด",
+        "fa": "عکاسی در معبد ممنوع است",
+        "ar": "التصوير ممنوع في المعبد",
+        "es": "Prohibido fotografiar en el templo",
+        "zh": "寺庙内禁止拍照",
+        "ja": "寺院での写真撮影は禁止です"
+      },
+      "tokens": {
+        "en": [
+          "Photography",
+          "is",
+          "forbidden",
+          "in",
+          "the",
+          "temple"
+        ],
+        "th": [
+          "ห้าม",
+          "ถ่ายรูป",
+          "ใน",
+          "วัด"
+        ],
+        "fa": [
+          "عکاسی",
+          "در",
+          "معبد",
+          "ممنوع",
+          "است"
+        ],
+        "ar": [
+          "التصوير",
+          "ممنوع",
+          "في",
+          "المعبد"
+        ],
+        "es": [
+          "Prohibido",
+          "fotografiar",
+          "en",
+          "el",
+          "templo"
+        ],
+        "zh": [
+          "寺庙",
+          "内",
+          "禁止",
+          "拍照"
+        ],
+        "ja": [
+          "寺院",
+          "での",
+          "写真撮影",
+          "は",
+          "禁止",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "word_forbidden",
+      "kind": "word",
+      "texts": {
+        "en": "forbidden / do not (ห้าม)",
+        "th": "ห้าม",
+        "fa": "ممنوع",
+        "ar": "ممنوع",
+        "es": "prohibido",
+        "zh": "禁止",
+        "ja": "禁止"
+      }
+    },
+    {
+      "id": "word_not_allowed",
+      "kind": "word",
+      "texts": {
+        "en": "cannot / not allowed",
+        "th": "ไม่ได้",
+        "fa": "نمی‌شود / مجاز نیست",
+        "ar": "لا يمكن / غير مسموح",
+        "es": "no se puede",
+        "zh": "不能 / 不行",
+        "ja": "できない / だめ"
+      }
+    },
+    {
+      "id": "word_is_not",
+      "kind": "word",
+      "texts": {
+        "en": "is not (ไม่ใช่)",
+        "th": "ไม่ใช่",
+        "fa": "نیست / نیست که",
+        "ar": "ليس",
+        "es": "no es",
+        "zh": "不是",
+        "ja": "ではない"
+      }
+    },
+    {
+      "id": "word_smoke",
+      "kind": "word",
+      "texts": {
+        "en": "smoke",
+        "th": "สูบบุหรี่",
+        "fa": "سیگار کشیدن",
+        "ar": "يدخن",
+        "es": "fumar",
+        "zh": "吸烟",
+        "ja": "喫煙する"
+      }
+    },
+    {
+      "id": "word_enter",
+      "kind": "word",
+      "texts": {
+        "en": "enter",
+        "th": "เข้าไป",
+        "fa": "وارد شدن",
+        "ar": "يدخل",
+        "es": "entrar",
+        "zh": "进入",
+        "ja": "入る"
+      }
+    },
+    {
+      "id": "word_photo",
+      "kind": "word",
+      "texts": {
+        "en": "photo / photography",
+        "th": "ถ่ายรูป",
+        "fa": "عکس / عکاسی",
+        "ar": "صورة / تصوير",
+        "es": "foto / fotografía",
+        "zh": "拍照",
+        "ja": "写真"
+      }
+    },
+    {
+      "id": "word_this",
+      "kind": "word",
+      "texts": {
+        "en": "this",
+        "th": "สิ่งนี้",
+        "fa": "این",
+        "ar": "هذا",
+        "es": "esto",
+        "zh": "这",
+        "ja": "これ"
+      }
+    },
+    {
+      "id": "word_allowed",
+      "kind": "word",
+      "texts": {
+        "en": "allowed",
+        "th": "ได้รับอนุญาต",
+        "fa": "مجاز",
+        "ar": "مسموح",
+        "es": "permitido",
+        "zh": "允许",
+        "ja": "許可"
+      }
+    },
+    {
+      "id": "word_in",
+      "kind": "word",
+      "texts": {
+        "en": "in",
+        "th": "ใน",
+        "fa": "در",
+        "ar": "في",
+        "es": "en",
+        "zh": "在…里",
+        "ja": "〜の中"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Hierarchy & Respect (G1)",
+        "th": "สถานการณ์ 4: ลำดับชั้นและความเคารพ (G1)",
+        "fa": "سناریو ۴: سلسله مراتب و احترام (G1)",
+        "ar": "السيناريو 4: التسلسل الهرمي والاحترام (G1)",
+        "es": "Escenario 4: Jerarquía y respeto (G1)",
+        "zh": "场景四：等级与尊重（G1）",
+        "ja": "シナリオ4：階層と敬意（G1）"
+      }
+    },
+    {
+      "id": "sentence_etiq_respect_elder",
+      "kind": "sentence",
+      "itemIds": [
+        "word_respect",
+        "word_elder"
+      ],
+      "texts": {
+        "en": "Respect elders",
+        "th": "เคารพผู้ใหญ่",
+        "fa": "به بزرگترها احترام بگذارید",
+        "ar": "احترم الكبار",
+        "es": "Respeta a los mayores",
+        "zh": "尊重长辈",
+        "ja": "目上の人を尊敬して"
+      },
+      "tokens": {
+        "en": [
+          "Respect",
+          "elders"
+        ],
+        "th": [
+          "เคารพ",
+          "ผู้ใหญ่"
+        ],
+        "fa": [
+          "به",
+          "بزرگترها",
+          "احترام",
+          "بگذارید"
+        ],
+        "ar": [
+          "احترم",
+          "الكبار"
+        ],
+        "es": [
+          "Respeta",
+          "a",
+          "los",
+          "mayores"
+        ],
+        "zh": [
+          "尊重",
+          "长辈"
+        ],
+        "ja": [
+          "目上",
+          "の",
+          "人",
+          "を",
+          "尊敬して"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_wai_elder",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_wai",
+        "word_elder"
+      ],
+      "texts": {
+        "en": "I wai to the elders",
+        "th": "ฉันไหว้ผู้ใหญ่",
+        "fa": "من به بزرگترها تعظیم می‌کنم",
+        "ar": "أنا أؤدي التحية للكبار",
+        "es": "Hago el wai a los mayores",
+        "zh": "我向长辈行合十礼",
+        "ja": "私は目上の人にワイをします"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "wai",
+          "to",
+          "the",
+          "elders"
+        ],
+        "th": [
+          "ฉัน",
+          "ไหว้",
+          "ผู้ใหญ่"
+        ],
+        "fa": [
+          "من",
+          "به",
+          "بزرگترها",
+          "تعظیم",
+          "می‌کنم"
+        ],
+        "ar": [
+          "أنا",
+          "أؤدي",
+          "التحية",
+          "للكبار"
+        ],
+        "es": [
+          "Hago",
+          "el",
+          "wai",
+          "a",
+          "los",
+          "mayores"
+        ],
+        "zh": [
+          "我",
+          "向",
+          "长辈",
+          "行",
+          "合十礼"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "目上",
+          "の",
+          "人",
+          "に",
+          "ワイ",
+          "を",
+          "し",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_thai_respect",
+      "kind": "sentence",
+      "itemIds": [
+        "word_thai_people",
+        "word_respect",
+        "word_elder"
+      ],
+      "texts": {
+        "en": "Thai people respect elders",
+        "th": "คนไทยเคารพผู้ใหญ่",
+        "fa": "مردم تایلند به بزرگترها احترام می‌گذارند",
+        "ar": "الشعب التايلاندي يحترم الكبار",
+        "es": "Los tailandeses respetan a los mayores",
+        "zh": "泰国人尊重长辈",
+        "ja": "タイ人は目上の人を尊敬します"
+      },
+      "tokens": {
+        "en": [
+          "Thai",
+          "people",
+          "respect",
+          "elders"
+        ],
+        "th": [
+          "คนไทย",
+          "เคารพ",
+          "ผู้ใหญ่"
+        ],
+        "fa": [
+          "مردم",
+          "تایلند",
+          "به",
+          "بزرگترها",
+          "احترام",
+          "می‌گذارند"
+        ],
+        "ar": [
+          "الشعب",
+          "التايلاندي",
+          "يحترم",
+          "الكبار"
+        ],
+        "es": [
+          "Los",
+          "tailandeses",
+          "respetan",
+          "a",
+          "los",
+          "mayores"
+        ],
+        "zh": [
+          "泰国人",
+          "尊重",
+          "长辈"
+        ],
+        "ja": [
+          "タイ人",
+          "は",
+          "目上",
+          "の",
+          "人",
+          "を",
+          "尊敬",
+          "し",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_teacher",
+      "kind": "sentence",
+      "itemIds": [
+        "word_teacher",
+        "word_be",
+        "word_important"
+      ],
+      "texts": {
+        "en": "The teacher is important",
+        "th": "ครูสำคัญ",
+        "fa": "معلم مهم است",
+        "ar": "المعلم مهم",
+        "es": "El maestro es importante",
+        "zh": "老师很重要",
+        "ja": "先生は大切です"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "teacher",
+          "is",
+          "important"
+        ],
+        "th": [
+          "ครู",
+          "สำคัญ"
+        ],
+        "fa": [
+          "معلم",
+          "مهم",
+          "است"
+        ],
+        "ar": [
+          "المعلم",
+          "مهم"
+        ],
+        "es": [
+          "El",
+          "maestro",
+          "es",
+          "importante"
+        ],
+        "zh": [
+          "老师",
+          "很",
+          "重要"
+        ],
+        "ja": [
+          "先生",
+          "は",
+          "大切",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_parent",
+      "kind": "sentence",
+      "itemIds": [
+        "word_we",
+        "word_must",
+        "word_respect",
+        "word_parent"
+      ],
+      "texts": {
+        "en": "We must respect our parents",
+        "th": "เราต้องเคารพพ่อแม่",
+        "fa": "ما باید به والدین احترام بگذاریم",
+        "ar": "يجب أن نحترم والدينا",
+        "es": "Debemos respetar a nuestros padres",
+        "zh": "我们必须尊重父母",
+        "ja": "私たちは両親を尊敬しなければなりません"
+      },
+      "tokens": {
+        "en": [
+          "We",
+          "must",
+          "respect",
+          "our",
+          "parents"
+        ],
+        "th": [
+          "เรา",
+          "ต้อง",
+          "เคารพ",
+          "พ่อแม่"
+        ],
+        "fa": [
+          "ما",
+          "باید",
+          "به",
+          "والدین",
+          "احترام",
+          "بگذاریم"
+        ],
+        "ar": [
+          "يجب",
+          "أن",
+          "نحترم",
+          "والدينا"
+        ],
+        "es": [
+          "Debemos",
+          "respetar",
+          "a",
+          "nuestros",
+          "padres"
+        ],
+        "zh": [
+          "我们",
+          "必须",
+          "尊重",
+          "父母"
+        ],
+        "ja": [
+          "私たち",
+          "は",
+          "両親",
+          "を",
+          "尊敬",
+          "しなければ",
+          "なりません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_boss",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he_she",
+        "word_be",
+        "word_boss"
+      ],
+      "texts": {
+        "en": "He is my boss",
+        "th": "เขาเป็นเจ้านายของฉัน",
+        "fa": "او رئیس من است",
+        "ar": "هو مديري",
+        "es": "Él es mi jefe",
+        "zh": "他是我的老板",
+        "ja": "彼は私の上司です"
+      },
+      "tokens": {
+        "en": [
+          "He",
+          "is",
+          "my",
+          "boss"
+        ],
+        "th": [
+          "เขา",
+          "เป็น",
+          "เจ้านาย",
+          "ของ",
+          "ฉัน"
+        ],
+        "fa": [
+          "او",
+          "رئیس",
+          "من",
+          "است"
+        ],
+        "ar": [
+          "هو",
+          "مديري"
+        ],
+        "es": [
+          "Él",
+          "es",
+          "mi",
+          "jefe"
+        ],
+        "zh": [
+          "他",
+          "是",
+          "我的",
+          "老板"
+        ],
+        "ja": [
+          "彼",
+          "は",
+          "私の",
+          "上司",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "word_elder",
+      "kind": "word",
+      "texts": {
+        "en": "elder",
+        "th": "ผู้ใหญ่",
+        "fa": "بزرگتر",
+        "ar": "أكبر سنا",
+        "es": "mayor",
+        "zh": "长辈",
+        "ja": "目上の人"
+      }
+    },
+    {
+      "id": "word_respect",
+      "kind": "word",
+      "texts": {
+        "en": "respect",
+        "th": "เคารพ",
+        "fa": "احترام",
+        "ar": "احترام",
+        "es": "respeto",
+        "zh": "尊重",
+        "ja": "尊敬"
+      }
+    },
+    {
+      "id": "word_monk",
+      "kind": "word",
+      "texts": {
+        "en": "monk",
+        "th": "พระสงฆ์",
+        "fa": "راهب",
+        "ar": "راهب",
+        "es": "monje",
+        "zh": "僧侣",
+        "ja": "僧侶"
+      }
+    },
+    {
+      "id": "word_woman",
+      "kind": "word",
+      "texts": {
+        "en": "woman",
+        "th": "ผู้หญิง",
+        "fa": "زن",
+        "ar": "امرأة",
+        "es": "mujer",
+        "zh": "女人",
+        "ja": "女性"
+      }
+    },
+    {
+      "id": "word_wai",
+      "kind": "word",
+      "texts": {
+        "en": "wai (Thai greeting)",
+        "th": "ไหว้",
+        "fa": "وای (تعظیم)",
+        "ar": "واي (تحيّة)",
+        "es": "wai",
+        "zh": "合十礼",
+        "ja": "ワイ"
+      }
+    },
+    {
+      "id": "word_teacher",
+      "kind": "word",
+      "texts": {
+        "en": "teacher",
+        "th": "ครู",
+        "fa": "معلم",
+        "ar": "معلم",
+        "es": "maestro",
+        "zh": "老师",
+        "ja": "先生"
+      }
+    },
+    {
+      "id": "word_parent",
+      "kind": "word",
+      "texts": {
+        "en": "parent",
+        "th": "พ่อแม่",
+        "fa": "والدین",
+        "ar": "والدان",
+        "es": "padres",
+        "zh": "父母",
+        "ja": "両親"
+      }
+    },
+    {
+      "id": "word_boss",
+      "kind": "word",
+      "texts": {
+        "en": "boss",
+        "th": "เจ้านาย",
+        "fa": "رئیس",
+        "ar": "مدير",
+        "es": "jefe",
+        "zh": "老板",
+        "ja": "上司"
+      }
+    },
+    {
+      "id": "word_thai_people",
+      "kind": "word",
+      "texts": {
+        "en": "Thai people",
+        "th": "คนไทย",
+        "fa": "مردم تایلند",
+        "ar": "الشعب التايلاندي",
+        "es": "los tailandeses",
+        "zh": "泰国人",
+        "ja": "タイ人"
+      }
+    },
+    {
+      "id": "word_important",
+      "kind": "word",
+      "texts": {
+        "en": "important",
+        "th": "สำคัญ",
+        "fa": "مهم",
+        "ar": "مهم",
+        "es": "importante",
+        "zh": "重要",
+        "ja": "大切"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Public Behavior & Dress Code",
+        "th": "สถานการณ์ 5: พฤติกรรมในที่สาธารณะและการแต่งกาย",
+        "fa": "سناریو ۵: رفتار عمومی و پوشش",
+        "ar": "السيناريو 5: السلوك العام واللباس",
+        "es": "Escenario 5: Comportamiento público y vestimenta",
+        "zh": "场景五：公共行为与着装",
+        "ja": "シナリオ5：公的な振る舞いと服装"
+      }
+    },
+    {
+      "id": "sentence_etiq_remove_shoes",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_must",
+        "word_remove",
+        "word_shoes"
+      ],
+      "texts": {
+        "en": "You must remove your shoes",
+        "th": "คุณต้องถอดรองเท้า",
+        "fa": "باید کفش‌ها را درآورید",
+        "ar": "يجب خلع الحذاء",
+        "es": "Debes quitarte los zapatos",
+        "zh": "你必须脱鞋",
+        "ja": "靴を脱がなければなりません"
+      },
+      "tokens": {
+        "en": [
+          "You",
+          "must",
+          "remove",
+          "your",
+          "shoes"
+        ],
+        "th": [
+          "คุณ",
+          "ต้อง",
+          "ถอด",
+          "รองเท้า"
+        ],
+        "fa": [
+          "باید",
+          "کفش‌ها",
+          "را",
+          "درآورید"
+        ],
+        "ar": [
+          "يجب",
+          "خلع",
+          "الحذاء"
+        ],
+        "es": [
+          "Debes",
+          "quitarte",
+          "los",
+          "zapatos"
+        ],
+        "zh": [
+          "你",
+          "必须",
+          "脱",
+          "鞋"
+        ],
+        "ja": [
+          "靴",
+          "を",
+          "脱が",
+          "なければ",
+          "なり",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_dress_polite",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_should",
+        "word_wear",
+        "word_appropriate"
+      ],
+      "texts": {
+        "en": "You should dress appropriately",
+        "th": "คุณควรแต่งตัวให้เหมาะสม",
+        "fa": "باید مناسب لباس بپوشید",
+        "ar": "ينبغي أن ترتدي ملابس مناسبة",
+        "es": "Debes vestir apropiadamente",
+        "zh": "你应该穿着得体",
+        "ja": "適切な服装をすべきです"
+      },
+      "tokens": {
+        "en": [
+          "You",
+          "should",
+          "dress",
+          "appropriately"
+        ],
+        "th": [
+          "คุณ",
+          "ควร",
+          "แต่งตัว",
+          "ให้",
+          "เหมาะสม"
+        ],
+        "fa": [
+          "باید",
+          "مناسب",
+          "لباس",
+          "بپوشید"
+        ],
+        "ar": [
+          "ينبغي",
+          "أن",
+          "ترتدي",
+          "ملابس",
+          "مناسبة"
+        ],
+        "es": [
+          "Debes",
+          "vestir",
+          "apropiadamente"
+        ],
+        "zh": [
+          "你",
+          "应该",
+          "穿着",
+          "得体"
+        ],
+        "ja": [
+          "適切",
+          "な",
+          "服装",
+          "を",
+          "すべき",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_be_quiet",
+      "kind": "sentence",
+      "itemIds": [
+        "word_please_formal",
+        "word_be",
+        "word_quiet"
+      ],
+      "texts": {
+        "en": "Please be quiet",
+        "th": "กรุณาเงียบ ๆ",
+        "fa": "لطفاً ساکت باشید",
+        "ar": "من فضلك كن هادئاً",
+        "es": "Por favor, guarda silencio",
+        "zh": "请保持安静",
+        "ja": "静かにしてください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "be",
+          "quiet"
+        ],
+        "th": [
+          "กรุณา",
+          "เงียบ ๆ"
+        ],
+        "fa": [
+          "لطفاً",
+          "ساکت",
+          "باشید"
+        ],
+        "ar": [
+          "من",
+          "فضلك",
+          "كن",
+          "هادئاً"
+        ],
+        "es": [
+          "Por",
+          "favor,",
+          "guarda",
+          "silencio"
+        ],
+        "zh": [
+          "请",
+          "保持",
+          "安静"
+        ],
+        "ja": [
+          "静か",
+          "に",
+          "して",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_no_shorts_temple",
+      "kind": "sentence",
+      "itemIds": [
+        "word_do_not",
+        "word_wear",
+        "word_shorts",
+        "word_in",
+        "word_temple"
+      ],
+      "texts": {
+        "en": "Don't wear shorts in the temple",
+        "th": "อย่าใส่ขาสั้นในวัด",
+        "fa": "در معبد شلوارک نپوشید",
+        "ar": "لا تلبس الشورت في المعبد",
+        "es": "No uses pantalones cortos en el templo",
+        "zh": "在寺庙不要穿短裤",
+        "ja": "寺院では短パンを履かないで"
+      },
+      "tokens": {
+        "en": [
+          "Don't",
+          "wear",
+          "shorts",
+          "in",
+          "the",
+          "temple"
+        ],
+        "th": [
+          "อย่า",
+          "ใส่",
+          "ขาสั้น",
+          "ใน",
+          "วัด"
+        ],
+        "fa": [
+          "در",
+          "معبد",
+          "شلوارک",
+          "نپوشید"
+        ],
+        "ar": [
+          "لا",
+          "تلبس",
+          "الشورت",
+          "في",
+          "المعبد"
+        ],
+        "es": [
+          "No",
+          "uses",
+          "pantalones",
+          "cortos",
+          "en",
+          "el",
+          "templo"
+        ],
+        "zh": [
+          "在",
+          "寺庙",
+          "不要",
+          "穿",
+          "短裤"
+        ],
+        "ja": [
+          "寺院",
+          "では",
+          "短パン",
+          "を",
+          "履かないで"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiq_cover_shoulders",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_must",
+        "word_cover",
+        "word_shoulder"
+      ],
+      "texts": {
+        "en": "You must cover your shoulders",
+        "th": "คุณต้องคลุมไหล่",
+        "fa": "باید شانه‌ها را بپوشانید",
+        "ar": "يجب تغطية الكتفين",
+        "es": "Debes cubrirte los hombros",
+        "zh": "你必须遮住肩膀",
+        "ja": "肩を覆わなければなりません"
+      },
+      "tokens": {
+        "en": [
+          "You",
+          "must",
+          "cover",
+          "your",
+          "shoulders"
+        ],
+        "th": [
+          "คุณ",
+          "ต้อง",
+          "คลุม",
+          "ไหล่"
+        ],
+        "fa": [
+          "باید",
+          "شانه‌ها",
+          "را",
+          "بپوشانید"
+        ],
+        "ar": [
+          "يجب",
+          "تغطية",
+          "الكتفين"
+        ],
+        "es": [
+          "Debes",
+          "cubrirte",
+          "los",
+          "hombros"
+        ],
+        "zh": [
+          "你",
+          "必须",
+          "遮住",
+          "肩膀"
+        ],
+        "ja": [
+          "肩",
+          "を",
+          "覆わ",
+          "なければ",
+          "なり",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "word_shoes",
+      "kind": "word",
+      "texts": {
+        "en": "shoes",
+        "th": "รองเท้า",
+        "fa": "کفش",
+        "ar": "حذاء",
+        "es": "zapatos",
+        "zh": "鞋子",
+        "ja": "靴"
+      }
+    },
+    {
+      "id": "word_remove",
+      "kind": "word",
+      "texts": {
+        "en": "remove / take off",
+        "th": "ถอด",
+        "fa": "درآوردن",
+        "ar": "يخلع",
+        "es": "quitarse",
+        "zh": "脱",
+        "ja": "脱ぐ"
+      }
+    },
+    {
+      "id": "word_wear",
+      "kind": "word",
+      "texts": {
+        "en": "wear",
+        "th": "ใส่",
+        "fa": "پوشیدن",
+        "ar": "يرتدي",
+        "es": "vestir / usar",
+        "zh": "穿",
+        "ja": "着る / 履く"
+      }
+    },
+    {
+      "id": "word_appropriate",
+      "kind": "word",
+      "texts": {
+        "en": "appropriate",
+        "th": "เหมาะสม",
+        "fa": "مناسب",
+        "ar": "مناسب",
+        "es": "apropiado",
+        "zh": "得体",
+        "ja": "適切"
+      }
+    },
+    {
+      "id": "word_quiet",
+      "kind": "word",
+      "texts": {
+        "en": "quiet",
+        "th": "เงียบ",
+        "fa": "ساکت",
+        "ar": "هادئ",
+        "es": "silencioso",
+        "zh": "安静",
+        "ja": "静か"
+      }
+    },
+    {
+      "id": "word_shorts",
+      "kind": "word",
+      "texts": {
+        "en": "shorts",
+        "th": "ขาสั้น",
+        "fa": "شلوارک",
+        "ar": "شورت",
+        "es": "pantalones cortos",
+        "zh": "短裤",
+        "ja": "短パン"
+      }
+    },
+    {
+      "id": "word_temple",
+      "kind": "word",
+      "texts": {
+        "en": "temple",
+        "th": "วัด",
+        "fa": "معبد",
+        "ar": "معبد",
+        "es": "templo",
+        "zh": "寺庙",
+        "ja": "寺院"
+      }
+    },
+    {
+      "id": "word_cover",
+      "kind": "word",
+      "texts": {
+        "en": "cover",
+        "th": "คลุม",
+        "fa": "پوشاندن",
+        "ar": "يغطي",
+        "es": "cubrir",
+        "zh": "遮盖",
+        "ja": "覆う"
+      }
+    },
+    {
+      "id": "word_shoulder",
+      "kind": "word",
+      "texts": {
+        "en": "shoulder",
+        "th": "ไหล่",
+        "fa": "شانه",
+        "ar": "كتف",
+        "es": "hombro",
+        "zh": "肩膀",
+        "ja": "肩"
+      }
+    },
+    {
+      "id": "word_polite",
+      "kind": "word",
+      "texts": {
+        "en": "polite",
+        "th": "สุภาพ",
+        "fa": "مؤدب",
+        "ar": "مهذب",
+        "es": "educado",
+        "zh": "礼貌",
+        "ja": "丁寧"
+      }
+    }
+  ]
+}

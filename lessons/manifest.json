@@ -1,0 +1,2017 @@
+{
+  "name": "Zabon",
+  "short_name": "Zabon",
+  "description": "Language-agnostic language learning app",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f6f2e9",
+  "theme_color": "#2f6f4f",
+  "version": 2,
+  "zabon": {
+    "version": 2,
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "names": {
+          "en": "English",
+          "th": "อังกฤษ",
+          "fa": "انگلیسی",
+          "ar": "الإنجليزية",
+          "es": "Inglés",
+          "zh": "英语",
+          "ja": "英語"
+        },
+        "bcp47": "en-US",
+        "dir": "ltr",
+        "segmentation": "whitespace"
+      },
+      {
+        "code": "th",
+        "label": "Thai",
+        "names": {
+          "en": "Thai",
+          "th": "ไทย",
+          "fa": "تایلندی",
+          "ar": "التايلاندية",
+          "es": "Tailandés",
+          "zh": "泰语",
+          "ja": "タイ語"
+        },
+        "bcp47": "th-TH",
+        "dir": "ltr",
+        "segmentation": "segmenter"
+      },
+      {
+        "code": "fa",
+        "label": "Persian",
+        "names": {
+          "en": "Persian",
+          "th": "เปอร์เซีย",
+          "fa": "فارسی",
+          "ar": "الفارسية",
+          "es": "Persa",
+          "zh": "波斯语",
+          "ja": "ペルシャ語"
+        },
+        "bcp47": "fa-IR",
+        "dir": "rtl",
+        "segmentation": "whitespace"
+      },
+      {
+        "code": "ar",
+        "label": "Arabic",
+        "names": {
+          "en": "Arabic",
+          "th": "อาหรับ",
+          "fa": "عربی",
+          "ar": "العربية",
+          "es": "Árabe",
+          "zh": "阿拉伯语",
+          "ja": "アラビア語"
+        },
+        "bcp47": "ar-EG",
+        "dir": "rtl",
+        "segmentation": "whitespace"
+      },
+      {
+        "code": "es",
+        "label": "Spanish",
+        "names": {
+          "en": "Spanish",
+          "th": "สเปน",
+          "fa": "اسپانیایی",
+          "ar": "الإسبانية",
+          "es": "Español",
+          "zh": "西班牙语",
+          "ja": "スペイン語"
+        },
+        "bcp47": "es-ES",
+        "dir": "ltr",
+        "segmentation": "whitespace"
+      },
+      {
+        "code": "zh",
+        "label": "Chinese",
+        "names": {
+          "en": "Chinese",
+          "th": "จีน",
+          "fa": "چینی",
+          "ar": "الصينية",
+          "es": "Chino",
+          "zh": "中文",
+          "ja": "中国語"
+        },
+        "bcp47": "zh-CN",
+        "dir": "ltr",
+        "segmentation": "segmenter"
+      },
+      {
+        "code": "ja",
+        "label": "Japanese",
+        "names": {
+          "en": "Japanese",
+          "th": "ญี่ปุ่น",
+          "fa": "ژاپنی",
+          "ar": "اليابانية",
+          "es": "Japonés",
+          "zh": "日语",
+          "ja": "日本語"
+        },
+        "bcp47": "ja-JP",
+        "dir": "ltr",
+        "segmentation": "segmenter"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "cat_test",
+      "title": {
+        "en": "Test Data",
+        "th": "ข้อมูลทดสอบ",
+        "fa": "داده آزمایشی",
+        "ar": "بيانات الاختبار",
+        "es": "Datos de prueba",
+        "zh": "测试数据",
+        "ja": "テストデータ"
+      },
+      "lessons": [
+        {
+          "id": "lesson_test",
+          "title": {
+            "en": "Food Basics",
+            "th": "อาหารพื้นฐาน",
+            "fa": "غذاهای پایه",
+            "ar": "أساسيات الطعام",
+            "es": "Comidas básicas",
+            "zh": "食物基础",
+            "ja": "食べ物の基本"
+          },
+          "file": "lessons/test.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
+        }
+      ]
+    },
+    {
+      "id": "cat_greetings",
+      "title": {
+        "en": "Greetings & Social",
+        "th": "การทักทายและสังคม",
+        "fa": "احوالپرسی و اجتماعی",
+        "ar": "التحيات والاجتماعية",
+        "es": "Saludos y social",
+        "zh": "问候与社交",
+        "ja": "挨拶と社交"
+      },
+      "lessons": [
+        {
+          "id": "lesson_1_1",
+          "title": {
+            "en": "Meeting People",
+            "th": "การพบปะผู้คน",
+            "fa": "ملاقات با مردم",
+            "ar": "مقابلة الناس",
+            "es": "Conocer gente",
+            "zh": "结识朋友",
+            "ja": "人々と会う"
+          },
+          "file": "lessons/greetings/meeting-people.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 1,
+          "proficiency": "beginner",
+          "grammar": ["G1", "G2"]
+        },
+        {
+          "id": "lesson_1_2",
+          "title": {
+            "en": "Introductions",
+            "th": "การแนะนำตัว",
+            "fa": "معرفی",
+            "ar": "التعريف",
+            "es": "Presentaciones",
+            "zh": "自我介绍",
+            "ja": "自己紹介"
+          },
+          "file": "lessons/greetings/introductions.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 1,
+          "proficiency": "beginner",
+          "grammar": ["G1", "G5"]
+        },
+        {
+          "id": "lesson_1_3",
+          "title": {
+            "en": "Apologies & Thanks",
+            "th": "การขอโทษและขอบคุณ",
+            "fa": "عذرخواهی و تشکر",
+            "ar": "الاعتذار والشكر",
+            "es": "Disculpas y gracias",
+            "zh": "道歉与感谢",
+            "ja": "謝罪と感謝"
+          },
+          "file": "lessons/greetings/apologies-thanks.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 1,
+          "proficiency": "beginner",
+          "grammar": ["G2"]
+        },
+        {
+          "id": "lesson_5_7",
+          "title": {
+            "en": "Small Talk",
+            "th": "การสนทนาทั่วไป",
+            "fa": "گپ دوستانه",
+            "ar": "حديث جانبي",
+            "es": "Charla casual",
+            "zh": "闲聊",
+            "ja": "スモールトーク"
+          },
+          "file": "lessons/greetings/small-talk.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 5,
+          "proficiency": "intermediate",
+          "grammar": ["G19", "G21"]
+        },
+        {
+          "id": "lesson_8_3",
+          "title": {
+            "en": "Opinions & Debate",
+            "th": "ความคิดเห็นและการโต้แย้ง",
+            "fa": "نظرات و بحث",
+            "ar": "الآراء والنقاش",
+            "es": "Opiniones y debate",
+            "zh": "观点与辩论",
+            "ja": "意見と討論"
+          },
+          "file": "lessons/greetings/opinions-debate.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 8,
+          "proficiency": "advanced",
+          "grammar": ["G1", "G3", "G16", "G19"]
+        }
+      ]
+    },
+    {
+      "id": "cat_basics",
+      "title": {
+        "en": "Survival Basics",
+        "th": "พื้นฐานการเอาตัวรอด",
+        "fa": "مبانی بقا",
+        "ar": "أساسيات البقاء",
+        "es": "Conceptos básicos",
+        "zh": "生存基础",
+        "ja": "サバイバル基礎"
+      },
+      "lessons": [
+        {
+          "id": "lesson_1_4",
+          "title": {
+            "en": "Numbers",
+            "th": "ตัวเลข",
+            "fa": "اعداد",
+            "ar": "الأرقام",
+            "es": "Números",
+            "zh": "数字",
+            "ja": "数字"
+          },
+          "file": "lessons/basics/numbers.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 1,
+          "proficiency": "beginner",
+          "grammar": ["G1"]
+        },
+        {
+          "id": "lesson_1_5",
+          "title": {
+            "en": "Yes/No Questions",
+            "th": "คำถามใช่/ไม่ใช่",
+            "fa": "سوالات بله/خیر",
+            "ar": "أسئلة نعم/لا",
+            "es": "Preguntas de sí/no",
+            "zh": "是非问句",
+            "ja": "はい/いいえ質問"
+          },
+          "file": "lessons/basics/yes-no-questions.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 1,
+          "proficiency": "beginner",
+          "grammar": ["G3"]
+        },
+        {
+          "id": "lesson_1_6",
+          "title": {
+            "en": "Wants & Needs",
+            "th": "ความต้องการ",
+            "fa": "خواسته‌ها و نیازها",
+            "ar": "الرغبات والاحتياجات",
+            "es": "Deseos y necesidades",
+            "zh": "想要与需要",
+            "ja": "欲求と必要性"
+          },
+          "file": "lessons/basics/wants-needs.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 1,
+          "proficiency": "beginner",
+          "grammar": ["G1", "G4"]
+        },
+        {
+          "id": "lesson_1_7",
+          "title": {
+            "en": "Where is it?",
+            "th": "มันอยู่ที่ไหน",
+            "fa": "کجاست؟",
+            "ar": "أين هو؟",
+            "es": "¿Dónde está?",
+            "zh": "在哪里？",
+            "ja": "どこですか？"
+          },
+          "file": "lessons/basics/where-is.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 1,
+          "proficiency": "beginner",
+          "grammar": ["G5"]
+        },
+        {
+          "id": "lesson_1_8",
+          "title": {
+            "en": "Help!",
+            "th": "ช่วยด้วย!",
+            "fa": "کمک!",
+            "ar": "النجدة!",
+            "es": "¡Ayuda!",
+            "zh": "救命！",
+            "ja": "助けて！"
+          },
+          "file": "lessons/basics/help.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 1,
+          "proficiency": "beginner",
+          "grammar": ["G22"]
+        },
+        {
+          "id": "lesson_2_7",
+          "title": {
+            "en": "Time & Days",
+            "th": "เวลาและวัน",
+            "fa": "زمان و روزها",
+            "ar": "الوقت والأيام",
+            "es": "Hora y días",
+            "zh": "时间与日子",
+            "ja": "時間と曜日"
+          },
+          "file": "lessons/basics/time-days.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 2,
+          "proficiency": "beginner",
+          "grammar": ["G5", "G8"]
+        }
+      ]
+    },
+    {
+      "id": "cat_food",
+      "title": {
+        "en": "Food & Dining",
+        "th": "อาหารและการรับประทานอาหาร",
+        "fa": "غذا و غذاخوری",
+        "ar": "الطعام وتناول الطعام",
+        "es": "Comida y cena",
+        "zh": "食物与用餐",
+        "ja": "食べ物と食事"
+      },
+      "lessons": [
+        {
+          "id": "lesson_2_1",
+          "title": {
+            "en": "Ordering (Restaurant)",
+            "th": "การสั่งอาหาร (ร้านอาหาร)",
+            "fa": "سفارش (رستوران)",
+            "ar": "الطلب (مطعم)",
+            "es": "Pedir (restaurante)",
+            "zh": "点餐 (餐厅)",
+            "ja": "注文 (レストラン)"
+          },
+          "file": "lessons/food-dining/ordering-restaurant.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 2,
+          "proficiency": "beginner",
+          "grammar": ["G1", "G22"]
+        },
+        {
+          "id": "lesson_2_2",
+          "title": {
+            "en": "Street Food",
+            "th": "อาหารริมทาง",
+            "fa": "غذای خیابانی",
+            "ar": "طعام الشارع",
+            "es": "Comida callejera",
+            "zh": "街头美食",
+            "ja": "屋台料理"
+          },
+          "file": "lessons/food-dining/street-food.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 2,
+          "proficiency": "beginner",
+          "grammar": ["G6", "G9"]
+        },
+        {
+          "id": "lesson_2_3",
+          "title": {
+            "en": "Paying the Bill",
+            "th": "การจ่ายบิล",
+            "fa": "پرداخت صورت‌حساب",
+            "ar": "دفع الفاتورة",
+            "es": "Pagar la cuenta",
+            "zh": "买单",
+            "ja": "お会計"
+          },
+          "file": "lessons/food-dining/paying-bill.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 2,
+          "proficiency": "beginner",
+          "grammar": ["G3", "G15"]
+        }
+      ]
+    },
+    {
+      "id": "cat_shopping",
+      "title": {
+        "en": "Shopping & Bargaining",
+        "th": "การช้อปปิ้งและการต่อรอง",
+        "fa": "خرید و چانه‌زنی",
+        "ar": "التسوق والمساومة",
+        "es": "Compras y regateo",
+        "zh": "购物与砍价",
+        "ja": "買い物と値引き"
+      },
+      "lessons": [
+        {
+          "id": "lesson_2_4",
+          "title": {
+            "en": "Grocery Market",
+            "th": "ตลาดขายของชำ",
+            "fa": "بازار مواد غذایی",
+            "ar": "سوق البقالة",
+            "es": "Mercado",
+            "zh": "杂货市场",
+            "ja": "食料品市場"
+          },
+          "file": "lessons/shopping/grocery-market.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 2,
+          "proficiency": "beginner",
+          "grammar": ["G9", "G18"]
+        },
+        {
+          "id": "lesson_2_5",
+          "title": {
+            "en": "Bargaining",
+            "th": "การต่อรองราคา",
+            "fa": "چانه‌زنی",
+            "ar": "المساومة",
+            "es": "Regateo",
+            "zh": "砍价",
+            "ja": "値引き交渉"
+          },
+          "file": "lessons/shopping/bargaining.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 2,
+          "proficiency": "beginner",
+          "grammar": ["G12", "G16"]
+        }
+      ]
+    },
+    {
+      "id": "cat_money",
+      "title": {
+        "en": "Money & Banking",
+        "th": "เงินและการธนาคาร",
+        "fa": "پول و بانکداری",
+        "ar": "المال والخدمات المصرفية",
+        "es": "Dinero y banca",
+        "zh": "货币与银行",
+        "ja": "お金と銀行"
+      },
+      "lessons": [
+        {
+          "id": "lesson_2_6",
+          "title": {
+            "en": "Currency Exchange",
+            "th": "การแลกเปลี่ยนเงินตรา",
+            "fa": "صرافی",
+            "ar": "صرف العملات",
+            "es": "Cambio de divisas",
+            "zh": "货币兑换",
+            "ja": "両替"
+          },
+          "file": "lessons/money-bank/currency-exchange.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 2,
+          "proficiency": "beginner",
+          "grammar": ["G3", "G9"]
+        },
+        {
+          "id": "lesson_4_6",
+          "title": {
+            "en": "Bank Basics",
+            "th": "พื้นฐานการธนาคาร",
+            "fa": "مبانی بانکداری",
+            "ar": "أساسيات البنك",
+            "es": "Conceptos bancarios",
+            "zh": "银行基础",
+            "ja": "銀行の基本"
+          },
+          "file": "lessons/money-bank/bank-basics.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 4,
+          "proficiency": "intermediate",
+          "grammar": ["G15", "G22"]
+        }
+      ]
+    },
+    {
+      "id": "cat_transport",
+      "title": {
+        "en": "Transport & Directions",
+        "th": "การขนส่งและเส้นทาง",
+        "fa": "حمل و نقل و جهت‌ها",
+        "ar": "النقل والاتجاهات",
+        "es": "Transporte y direcciones",
+        "zh": "交通与方向",
+        "ja": "交通と道順"
+      },
+      "lessons": [
+        {
+          "id": "lesson_3_1",
+          "title": {
+            "en": "Asking Directions",
+            "th": "การถามทาง",
+            "fa": "پرسیدن آدرس",
+            "ar": "طلب الاتجاهات",
+            "es": "Pedir direcciones",
+            "zh": "问路",
+            "ja": "道を尋ねる"
+          },
+          "file": "lessons/transport/asking-directions.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 3,
+          "proficiency": "beginner",
+          "grammar": ["G5", "G11"]
+        },
+        {
+          "id": "lesson_3_2",
+          "title": {
+            "en": "Taxi Ride",
+            "th": "การนั่งแท็กซี่",
+            "fa": "تاکسی سواری",
+            "ar": "رحلة تاكسي",
+            "es": "Viaje en taxi",
+            "zh": "乘坐出租车",
+            "ja": "タクシー乗車"
+          },
+          "file": "lessons/transport/taxi-ride.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 3,
+          "proficiency": "beginner",
+          "grammar": ["G11", "G22"]
+        },
+        {
+          "id": "lesson_3_3",
+          "title": {
+            "en": "Bus & Train",
+            "th": "รถเมล์และรถไฟ",
+            "fa": "اتوبوس و قطار",
+            "ar": "الحافلة والقطار",
+            "es": "Autobús y tren",
+            "zh": "公交与火车",
+            "ja": "バスと電車"
+          },
+          "file": "lessons/transport/bus-train.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 3,
+          "proficiency": "beginner",
+          "grammar": ["G5", "G8"]
+        },
+        {
+          "id": "lesson_3_4",
+          "title": {
+            "en": "Airport",
+            "th": "สนามบิน",
+            "fa": "فرودگاه",
+            "ar": "المطار",
+            "es": "Aeropuerto",
+            "zh": "机场",
+            "ja": "空港"
+          },
+          "file": "lessons/transport/airport.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 3,
+          "proficiency": "intermediate",
+          "grammar": ["G14", "G17"]
+        }
+      ]
+    },
+    {
+      "id": "cat_weather",
+      "title": {
+        "en": "Weather",
+        "th": "สภาพอากาศ",
+        "fa": "آب و هوا",
+        "ar": "الطقس",
+        "es": "Clima",
+        "zh": "天气",
+        "ja": "天気"
+      },
+      "lessons": [
+        {
+          "id": "lesson_3_5",
+          "title": {
+            "en": "Weather Talk",
+            "th": "การคุยเรื่องอากาศ",
+            "fa": "صحبت درباره آب و هوا",
+            "ar": "الحديث عن الطقس",
+            "es": "Hablar del clima",
+            "zh": "谈论天气",
+            "ja": "天気の話"
+          },
+          "file": "lessons/weather/weather-talk.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 3,
+          "proficiency": "beginner",
+          "grammar": ["G6", "G16"]
+        }
+      ]
+    },
+    {
+      "id": "cat_home",
+      "title": {
+        "en": "Home & Daily Life",
+        "th": "บ้านและชีวิตประจำวัน",
+        "fa": "خانه و زندگی روزمره",
+        "ar": "المنزل والحياة اليومية",
+        "es": "Hogar y vida diaria",
+        "zh": "家庭与日常生活",
+        "ja": "家庭と日常生活"
+      },
+      "lessons": [
+        {
+          "id": "lesson_3_6",
+          "title": {
+            "en": "Daily Routine",
+            "th": "กิจวัตรประจำวัน",
+            "fa": "روال روزانه",
+            "ar": "الروتين اليومي",
+            "es": "Rutina diaria",
+            "zh": "日常作息",
+            "ja": "日課"
+          },
+          "file": "lessons/home-daily/daily-routine.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 3,
+          "proficiency": "intermediate",
+          "grammar": ["G8", "G11", "G18"]
+        }
+      ]
+    },
+    {
+      "id": "cat_health",
+      "title": {
+        "en": "Health & Pharmacy",
+        "th": "สุขภาพและร้านขายยา",
+        "fa": "سلامت و داروخانه",
+        "ar": "الصيدلية والصحة",
+        "es": "Salud y farmacia",
+        "zh": "健康与药房",
+        "ja": "健康と薬局"
+      },
+      "lessons": [
+        {
+          "id": "lesson_4_1",
+          "title": {
+            "en": "Pharmacy",
+            "th": "ร้านขายยา",
+            "fa": "داروخانه",
+            "ar": "الصيدلية",
+            "es": "Farmacia",
+            "zh": "药房",
+            "ja": "薬局"
+          },
+          "file": "lessons/health/pharmacy.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 4,
+          "proficiency": "intermediate",
+          "grammar": ["G6", "G22"]
+        },
+        {
+          "id": "lesson_4_2",
+          "title": {
+            "en": "Doctor Clinic",
+            "th": "คลินิกหมอ",
+            "fa": "کلینیک دکتر",
+            "ar": "عيادة الطبيب",
+            "es": "Clínica médica",
+            "zh": "诊所",
+            "ja": "診療所"
+          },
+          "file": "lessons/health/doctor-clinic.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 4,
+          "proficiency": "intermediate",
+          "grammar": ["G13", "G17"]
+        }
+      ]
+    },
+    {
+      "id": "cat_personal",
+      "title": {
+        "en": "Personal Care",
+        "th": "การดูแลส่วนบุคคล",
+        "fa": "مراقبت شخصی",
+        "ar": "العناية الشخصية",
+        "es": "Cuidado personal",
+        "zh": "个人护理",
+        "ja": "身だしなみ"
+      },
+      "lessons": [
+        {
+          "id": "lesson_4_3",
+          "title": {
+            "en": "Hair Salon",
+            "th": "ร้านทำผม",
+            "fa": "آرایشگاه",
+            "ar": "صالون حلاقة",
+            "es": "Peluquería",
+            "zh": "美发沙龙",
+            "ja": "美容室"
+          },
+          "file": "lessons/personal-care/hair-salon.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 4,
+          "proficiency": "intermediate",
+          "grammar": ["G15", "G22"]
+        }
+      ]
+    },
+    {
+      "id": "cat_post",
+      "title": {
+        "en": "Post & Communication",
+        "th": "ไปรษณีย์และการสื่อสาร",
+        "fa": "پست و ارتباطات",
+        "ar": "البريد والاتصالات",
+        "es": "Correo y comunicación",
+        "zh": "邮政与通讯",
+        "ja": "郵便と通信"
+      },
+      "lessons": [
+        {
+          "id": "lesson_4_4",
+          "title": {
+            "en": "Post Office",
+            "th": "ที่ทำการไปรษณีย์",
+            "fa": "دفتر پست",
+            "ar": "مكتب البريد",
+            "es": "Oficina de correos",
+            "zh": "邮局",
+            "ja": "郵便局"
+          },
+          "file": "lessons/post-communication/post-office.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 4,
+          "proficiency": "intermediate",
+          "grammar": ["G5", "G11"]
+        },
+        {
+          "id": "lesson_4_5",
+          "title": {
+            "en": "Phone & SIM",
+            "th": "โทรศัพท์และซิม",
+            "fa": "تلفن و سیم کارت",
+            "ar": "الهاتف والشريحة",
+            "es": "Teléfono y SIM",
+            "zh": "手机与SIM卡",
+            "ja": "携帯とSIM"
+          },
+          "file": "lessons/post-communication/phone-sim.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 4,
+          "proficiency": "intermediate",
+          "grammar": ["G3", "G17"]
+        },
+        {
+          "id": "lesson_5_6",
+          "title": {
+            "en": "Phone Calls",
+            "th": "การโทรศัพท์",
+            "fa": "تماس‌های تلفنی",
+            "ar": "المكالمات الهاتفية",
+            "es": "Llamadas",
+            "zh": "打电话",
+            "ja": "電話"
+          },
+          "file": "lessons/post-communication/phone-calls.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 5,
+          "proficiency": "intermediate",
+          "grammar": ["G20", "G22"]
+        }
+      ]
+    },
+    {
+      "id": "cat_entertainment",
+      "title": {
+        "en": "Entertainment & Fitness",
+        "th": "ความบันเทิงและการออกกำลังกาย",
+        "fa": "سرگرمی و تناسب اندام",
+        "ar": "الترفيه واللياقة",
+        "es": "Entretenimiento y gimnasio",
+        "zh": "娱乐与健身",
+        "ja": "娯楽とフィットネス"
+      },
+      "lessons": [
+        {
+          "id": "lesson_4_7",
+          "title": {
+            "en": "Gym & Fitness",
+            "th": "ยิมและการออกกำลังกาย",
+            "fa": "باشگاه و تناسب اندام",
+            "ar": "النادي الرياضي",
+            "es": "Gimnasio",
+            "zh": "健身房",
+            "ja": "ジム"
+          },
+          "file": "lessons/entertainment/gym-fitness.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 4,
+          "proficiency": "intermediate",
+          "grammar": ["G8", "G17"]
+        },
+        {
+          "id": "lesson_5_3",
+          "title": {
+            "en": "Cinema",
+            "th": "โรงภาพยนตร์",
+            "fa": "سینما",
+            "ar": "السينما",
+            "es": "Cine",
+            "zh": "电影院",
+            "ja": "映画館"
+          },
+          "file": "lessons/entertainment/cinema.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 5,
+          "proficiency": "intermediate",
+          "grammar": ["G9", "G12"]
+        },
+        {
+          "id": "lesson_8_4",
+          "title": {
+            "en": "News & Events",
+            "th": "ข่าวและเหตุการณ์",
+            "fa": "اخبار و رویدادها",
+            "ar": "الأخبار والأحداث",
+            "es": "Noticias y eventos",
+            "zh": "新闻与事件",
+            "ja": "ニュースと出来事"
+          },
+          "file": "lessons/entertainment/news-events.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 8,
+          "proficiency": "advanced",
+          "grammar": ["G1", "G8", "G13"]
+        }
+      ]
+    },
+    {
+      "id": "cat_family",
+      "title": {
+        "en": "Family & Relationships",
+        "th": "ครอบครัวและความสัมพันธ์",
+        "fa": "خانواده و روابط",
+        "ar": "العائلة والعلاقات",
+        "es": "Familia y relaciones",
+        "zh": "家庭与关系",
+        "ja": "家族と人間関係"
+      },
+      "lessons": [
+        {
+          "id": "lesson_5_1",
+          "title": {
+            "en": "Making Friends",
+            "th": "การผูกมิตร",
+            "fa": "دوست‌یابی",
+            "ar": "تكوين الصداقات",
+            "es": "Hacer amigos",
+            "zh": "交友",
+            "ja": "友達作り"
+          },
+          "file": "lessons/family-relationships/making-friends.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 5,
+          "proficiency": "intermediate",
+          "grammar": ["G3", "G10"]
+        },
+        {
+          "id": "lesson_5_2",
+          "title": {
+            "en": "Making Plans",
+            "th": "การนัดหมาย",
+            "fa": "برنامه‌ریزی",
+            "ar": "وضع الخطط",
+            "es": "Hacer planes",
+            "zh": "制定计划",
+            "ja": "予定を立てる"
+          },
+          "file": "lessons/family-relationships/making-plans.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 5,
+          "proficiency": "intermediate",
+          "grammar": ["G8", "G16"]
+        },
+        {
+          "id": "lesson_5_4",
+          "title": {
+            "en": "Visiting",
+            "th": "การเยี่ยมเยียน",
+            "fa": "دید و بازدید",
+            "ar": "الزيارات",
+            "es": "Visitas",
+            "zh": "拜访",
+            "ja": "訪問"
+          },
+          "file": "lessons/family-relationships/visiting.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 5,
+          "proficiency": "intermediate",
+          "grammar": ["G11", "G15"]
+        },
+        {
+          "id": "lesson_5_5",
+          "title": {
+            "en": "Family Members",
+            "th": "สมาชิกในครอบครัว",
+            "fa": "اعضای خانواده",
+            "ar": "أفراد العائلة",
+            "es": "Miembros de la familia",
+            "zh": "家庭成员",
+            "ja": "家族"
+          },
+          "file": "lessons/family-relationships/family-members.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 5,
+          "proficiency": "intermediate",
+          "grammar": ["G7", "G9"]
+        }
+      ]
+    },
+    {
+      "id": "cat_accommodation",
+      "title": {
+        "en": "Accommodation",
+        "th": "ที่พัก",
+        "fa": "اقامتگاه",
+        "ar": "الإقامة",
+        "es": "Alojamiento",
+        "zh": "住宿",
+        "ja": "宿泊"
+      },
+      "lessons": [
+        {
+          "id": "lesson_6_1",
+          "title": {
+            "en": "Hotel Check-in",
+            "th": "การเช็คอินโรงแรม",
+            "fa": "پذیرش هتل",
+            "ar": "تسجيل الوصول",
+            "es": "Registro de hotel",
+            "zh": "酒店入住",
+            "ja": "ホテルチェックイン"
+          },
+          "file": "lessons/accommodation/hotel-checkin.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 6,
+          "proficiency": "intermediate",
+          "grammar": ["G1", "G22"]
+        },
+        {
+          "id": "lesson_6_2",
+          "title": {
+            "en": "Hotel Requests",
+            "th": "การร้องขอในโรงแรม",
+            "fa": "درخواست‌های هتل",
+            "ar": "طلبات الفندق",
+            "es": "Peticiones de hotel",
+            "zh": "酒店服务请求",
+            "ja": "ホテルの依頼"
+          },
+          "file": "lessons/accommodation/hotel-requests.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 6,
+          "proficiency": "intermediate",
+          "grammar": ["G15", "G22"]
+        }
+      ]
+    },
+    {
+      "id": "cat_travel",
+      "title": {
+        "en": "Travel & Tourism",
+        "th": "การเดินทางและการท่องเที่ยว",
+        "fa": "سفر و گردشگری",
+        "ar": "السفر والسياحة",
+        "es": "Viajes y turismo",
+        "zh": "旅行与旅游",
+        "ja": "旅行と観光"
+      },
+      "lessons": [
+        {
+          "id": "lesson_6_3",
+          "title": {
+            "en": "Sightseeing",
+            "th": "การเที่ยวชม",
+            "fa": "بازدید از اماکن دیدنی",
+            "ar": "مشاهدة المعالم",
+            "es": "Turismo",
+            "zh": "观光",
+            "ja": "観光"
+          },
+          "file": "lessons/travel-tourism/sightseeing.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 6,
+          "proficiency": "intermediate",
+          "grammar": ["G5", "G11"]
+        },
+        {
+          "id": "lesson_6_4",
+          "title": {
+            "en": "Trip Planning",
+            "th": "การวางแผนทริป",
+            "fa": "برنامه‌ریزی سفر",
+            "ar": "تخطيط الرحلة",
+            "es": "Planificación de viajes",
+            "zh": "行程规划",
+            "ja": "旅行計画"
+          },
+          "file": "lessons/travel-tourism/trip-planning.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 6,
+          "proficiency": "intermediate",
+          "grammar": ["G8", "G16"]
+        },
+        {
+          "id": "lesson_6_6",
+          "title": {
+            "en": "Border Immigration",
+            "th": "ด่านตรวจคนเข้าเมือง",
+            "fa": "مرز و مهاجرت",
+            "ar": "الهجرة والحدود",
+            "es": "Inmigración",
+            "zh": "边检移民",
+            "ja": "入国審査"
+          },
+          "file": "lessons/travel-tourism/border-immigration.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 6,
+          "proficiency": "intermediate",
+          "grammar": ["G3", "G8", "G20"]
+        }
+      ]
+    },
+    {
+      "id": "cat_emergency",
+      "title": {
+        "en": "Emergency & Lost",
+        "th": "เหตุฉุกเฉินและของหาย",
+        "fa": "اورژانس و مفقودی",
+        "ar": "الطوارئ والمفقودات",
+        "es": "Emergencias y perdidos",
+        "zh": "紧急与遗失",
+        "ja": "緊急と紛失"
+      },
+      "lessons": [
+        {
+          "id": "lesson_6_5",
+          "title": {
+            "en": "Lost Items",
+            "th": "ของหาย",
+            "fa": "اشیاء گم شده",
+            "ar": "الأشياء المفقودة",
+            "es": "Objetos perdidos",
+            "zh": "失物",
+            "ja": "紛失物"
+          },
+          "file": "lessons/emergency/lost-items.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 6,
+          "proficiency": "intermediate",
+          "grammar": ["G14", "G5"]
+        },
+        {
+          "id": "lesson_9_1",
+          "title": {
+            "en": "Hospital Emergency",
+            "th": "เหตุฉุกเฉินในโรงพยาบาล",
+            "fa": "اورژانس بیمارستان",
+            "ar": "طوارئ المستشفى",
+            "es": "Emergencia hospitalaria",
+            "zh": "医院急诊",
+            "ja": "病院の緊急事態"
+          },
+          "file": "lessons/emergency/hospital-emergency.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 9,
+          "proficiency": "advanced",
+          "grammar": ["G1", "G3", "G5"]
+        },
+        {
+          "id": "lesson_9_2",
+          "title": {
+            "en": "Police Report",
+            "th": "การแจ้งความตำรวจ",
+            "fa": "گزارش پلیس",
+            "ar": "بلاغ الشرطة",
+            "es": "Reporte policial",
+            "zh": "报警",
+            "ja": "警察への届出"
+          },
+          "file": "lessons/emergency/police-report.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 9,
+          "proficiency": "advanced",
+          "grammar": ["G1", "G5", "G6"]
+        },
+        {
+          "id": "lesson_9_3",
+          "title": {
+            "en": "Natural Disaster",
+            "th": "ภัยธรรมชาติ",
+            "fa": "بلایای طبیعی",
+            "ar": "الكوارث الطبيعية",
+            "es": "Desastre natural",
+            "zh": "自然灾害",
+            "ja": "自然災害"
+          },
+          "file": "lessons/emergency/natural-disaster.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 9,
+          "proficiency": "advanced",
+          "grammar": ["G1", "G8", "G22"]
+        }
+      ]
+    },
+    {
+      "id": "cat_work",
+      "title": {
+        "en": "Work & Professional",
+        "th": "การทำงานและวิชาชีพ",
+        "fa": "کار و حرفه‌ای",
+        "ar": "العمل والمهنية",
+        "es": "Trabajo y profesional",
+        "zh": "工作与职业",
+        "ja": "仕事とプロフェッショナル"
+      },
+      "lessons": [
+        {
+          "id": "lesson_7_1",
+          "title": {
+            "en": "Job Interview",
+            "th": "การสัมภาษณ์งาน",
+            "fa": "مصاحبه شغلی",
+            "ar": "مقابلة عمل",
+            "es": "Entrevista de trabajo",
+            "zh": "求职面试",
+            "ja": "就職面接"
+          },
+          "file": "lessons/work/job-interview.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 7,
+          "proficiency": "advanced",
+          "grammar": ["G1", "G2", "G24"]
+        },
+        {
+          "id": "lesson_7_2",
+          "title": {
+            "en": "Office Basics",
+            "th": "พื้นฐานสำนักงาน",
+            "fa": "مبانی اداری",
+            "ar": "أساسيات المكتب",
+            "es": "Conceptos básicos de oficina",
+            "zh": "办公室基础",
+            "ja": "オフィスの基本"
+          },
+          "file": "lessons/work/office-basics.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 7,
+          "proficiency": "advanced",
+          "grammar": ["G1", "G5", "G22"]
+        },
+        {
+          "id": "lesson_7_3",
+          "title": {
+            "en": "Meetings",
+            "th": "การประชุม",
+            "fa": "جلسات",
+            "ar": "الاجتماعات",
+            "es": "Reuniones",
+            "zh": "会议",
+            "ja": "会議"
+          },
+          "file": "lessons/work/meetings.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 7,
+          "proficiency": "advanced",
+          "grammar": ["G1", "G3", "G19"]
+        },
+        {
+          "id": "lesson_7_4",
+          "title": {
+            "en": "Email & Messages",
+            "th": "อีเมลและข้อความ",
+            "fa": "ایمیل و پیام‌ها",
+            "ar": "البريد الإلكتروني والرسائل",
+            "es": "Correo electrónico y mensajes",
+            "zh": "电子邮件与消息",
+            "ja": "メールとメッセージ"
+          },
+          "file": "lessons/work/email-messages.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 7,
+          "proficiency": "advanced",
+          "grammar": ["G1", "G8", "G22"]
+        },
+        {
+          "id": "lesson_7_5",
+          "title": {
+            "en": "Complaints & Feedback",
+            "th": "การร้องเรียนและข้อเสนอแนะ",
+            "fa": "شکایات و بازخوردها",
+            "ar": "الشكاوى والملاحظات",
+            "es": "Quejas y comentarios",
+            "zh": "投诉与反馈",
+            "ja": "苦情とフィードバック"
+          },
+          "file": "lessons/work/complaints.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 7,
+          "proficiency": "advanced",
+          "grammar": ["G1", "G15", "G24"]
+        }
+      ]
+    },
+    {
+      "id": "cat_religion_culture",
+      "title": {
+        "en": "Religion & Culture",
+        "th": "ศาสนาและวัฒนธรรม",
+        "fa": "دین و فرهنگ",
+        "ar": "الدين والثقافة",
+        "es": "Religión y cultura",
+        "zh": "宗教与文化",
+        "ja": "宗教と文化"
+      },
+      "lessons": [
+        {
+          "id": "lesson_8_1",
+          "title": {
+            "en": "Temple & Merit",
+            "th": "วัดและการทำบุญ",
+            "fa": "معبد و ثواب",
+            "ar": "المعبد وكسب الأجر",
+            "es": "Templo y méritos",
+            "zh": "寺庙与功德",
+            "ja": "寺院と功徳"
+          },
+          "file": "lessons/religion-culture/temple.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 8,
+          "proficiency": "advanced",
+          "grammar": ["G1", "G5", "G11"]
+        },
+        {
+          "id": "lesson_8_2",
+          "title": {
+            "en": "Festivals & Traditions",
+            "th": "เทศกาลและประเพณี",
+            "fa": "جشنواره‌ها و سنت‌ها",
+            "ar": "المهرجانات والتقاليد",
+            "es": "Festivales y tradiciones",
+            "zh": "节日与传统",
+            "ja": "祭りと伝統"
+          },
+          "file": "lessons/religion-culture/festivals.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 8,
+          "proficiency": "advanced",
+          "grammar": ["G1", "G6", "G8"]
+        },
+        {
+          "id": "lesson_8_5",
+          "title": {
+            "en": "Idioms & Slang",
+            "th": "สำนวนและภาษาพูด",
+            "fa": "اصطلاحات و عامیانه",
+            "ar": "التعابير والعامية",
+            "es": "Modismos y jerga",
+            "zh": "成语与俚语",
+            "ja": "慣用句とスラング"
+          },
+          "file": "lessons/religion-culture/idioms-slang.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 8,
+          "proficiency": "advanced",
+          "grammar": ["G1", "G6"]
+        },
+        {
+          "id": "lesson_8_6",
+          "title": {
+            "en": "Cultural Etiquette",
+            "th": "มารยาททางวัฒนธรรม",
+            "fa": "آداب فرهنگی",
+            "ar": "الآداب الثقافية",
+            "es": "Etiqueta cultural",
+            "zh": "文化礼仪",
+            "ja": "文化的マナー"
+          },
+          "file": "lessons/religion-culture/cultural-etiquette.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 8,
+          "proficiency": "advanced",
+          "grammar": ["G1", "G4", "G22"]
+        }
+      ]
+    },
+    {
+      "id": "cat_grammar",
+      "title": {
+        "en": "Grammar",
+        "th": "ไวยากรณ์",
+        "fa": "دستور زبان",
+        "ar": "القواعد",
+        "es": "Gramática",
+        "zh": "语法",
+        "ja": "文法"
+      },
+      "lessons": [
+        {
+          "id": "lesson_g01",
+          "title": {
+            "en": "G1: Basic SVO",
+            "th": "G1: ประธาน-กริยา-กรรม",
+            "fa": "G1: نهاد-فعل-مفعول",
+            "ar": "G1: فاعل-فعل-مفعول",
+            "es": "G1: Sujeto-Verbo-Objeto",
+            "zh": "G1: 主谓宾基础",
+            "ja": "G1: 基本SVO"
+          },
+          "file": "lessons/grammar/g01-svo-basic.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 1,
+          "proficiency": "beginner",
+          "grammar": ["G1"]
+        },
+        {
+          "id": "lesson_g02",
+          "title": {
+            "en": "G2: Politeness Particles",
+            "th": "G2: คำลงท้าย",
+            "fa": "G2: ذرات ادب",
+            "ar": "G2: أدوات الأدب",
+            "es": "G2: Partículas de cortesía",
+            "zh": "G2: 礼貌助词",
+            "ja": "G2: 丁寧語"
+          },
+          "file": "lessons/grammar/g02-politeness-particles.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 1,
+          "proficiency": "beginner",
+          "grammar": ["G2"]
+        },
+        {
+          "id": "lesson_g03",
+          "title": {
+            "en": "G3: Yes/No Questions",
+            "th": "G3: คำถาม ใช่/ไม่ใช่",
+            "fa": "G3: سوالات بله/خیر",
+            "ar": "G3: أسئلة نعم/لا",
+            "es": "G3: Preguntas de sí/no",
+            "zh": "G3: 是非问句",
+            "ja": "G3: はい/いいえ質問"
+          },
+          "file": "lessons/grammar/g03-yes-no-questions.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 1,
+          "proficiency": "beginner",
+          "grammar": ["G3"]
+        },
+        {
+          "id": "lesson_g04",
+          "title": {
+            "en": "G4: Negation",
+            "th": "G4: การปฏิเสธ",
+            "fa": "G4: منفی کردن",
+            "ar": "G4: النفي",
+            "es": "G4: Negación",
+            "zh": "G4: 否定",
+            "ja": "G4: 否定"
+          },
+          "file": "lessons/grammar/g04-negation.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 2,
+          "proficiency": "beginner",
+          "grammar": ["G4"]
+        },
+        {
+          "id": "lesson_g05",
+          "title": {
+            "en": "G5: Wh- Questions",
+            "th": "G5: คำถาม_wh",
+            "fa": "G5: سوالات پرسشی",
+            "ar": "G5: أسئلة الاستفهام",
+            "es": "G5: Preguntas informativas",
+            "zh": "G5: 特殊疑问句",
+            "ja": "G5: 疑問詞質問"
+          },
+          "file": "lessons/grammar/g05-wh-questions.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 2,
+          "proficiency": "beginner",
+          "grammar": ["G5"]
+        },
+        {
+          "id": "lesson_g06",
+          "title": {
+            "en": "G6: Descriptive",
+            "th": "G6: คำขยาย",
+            "fa": "G6: توصیفی",
+            "ar": "G6: الوصف",
+            "es": "G6: Descriptivo",
+            "zh": "G6: 描述",
+            "ja": "G6: 記述"
+          },
+          "file": "lessons/grammar/g06-descriptive.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 2,
+          "proficiency": "beginner",
+          "grammar": ["G6"]
+        },
+        {
+          "id": "lesson_g07",
+          "title": {
+            "en": "G7: Possession",
+            "th": "G7: การแสดงความเป็นเจ้าของ",
+            "fa": "G7: مالکیت",
+            "ar": "G7: الملكية",
+            "es": "G7: Posesión",
+            "zh": "G7: 所属",
+            "ja": "G7: 所有"
+          },
+          "file": "lessons/grammar/g07-possession.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 3,
+          "proficiency": "intermediate",
+          "grammar": ["G7"]
+        },
+        {
+          "id": "lesson_g08",
+          "title": {
+            "en": "G8: Tense & Aspect",
+            "th": "G8: กาลและลักษณะการกระทำ",
+            "fa": "G8: زمان و نمود",
+            "ar": "G8: الزمن والجانب",
+            "es": "G8: Tiempo y aspecto",
+            "zh": "G8: 时态与体",
+            "ja": "G8: テンスとアスペクト"
+          },
+          "file": "lessons/grammar/g08-tense-aspect.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 3,
+          "proficiency": "intermediate",
+          "grammar": ["G8"]
+        },
+        {
+          "id": "lesson_g09",
+          "title": {
+            "en": "G9: Classifiers",
+            "th": "G9: ลักษณนาม",
+            "fa": "G9: شمارنده‌ها",
+            "ar": "G9: التصنيفات",
+            "es": "G9: Clasificadores",
+            "zh": "G9: 量词",
+            "ja": "G9: 助数詞"
+          },
+          "file": "lessons/grammar/g09-classifiers.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 3,
+          "proficiency": "intermediate",
+          "grammar": ["G9"]
+        },
+        {
+          "id": "lesson_g10",
+          "title": {
+            "en": "G10: Topic-Comment",
+            "th": "G10: ประธาน-ภาคแสดง",
+            "fa": "G10: موضوع-توضیح",
+            "ar": "G10: الموضوع-التعليق",
+            "es": "G10: Tema-Comentario",
+            "zh": "G10: 主题-评论",
+            "ja": "G10: トピック-コメント"
+          },
+          "file": "lessons/grammar/g10-topic-comment.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 4,
+          "proficiency": "intermediate",
+          "grammar": ["G10"]
+        },
+        {
+          "id": "lesson_g11",
+          "title": {
+            "en": "G11: Serial Verbs",
+            "th": "G11: กริยาต่อเนื่อง",
+            "fa": "G11: افعال متوالی",
+            "ar": "G11: الأفعال المتسلسلة",
+            "es": "G11: Verbos seriales",
+            "zh": "G11: 连动句",
+            "ja": "G11: 連動詞"
+          },
+          "file": "lessons/grammar/g11-serial-verbs.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 4,
+          "proficiency": "intermediate",
+          "grammar": ["G11"]
+        },
+        {
+          "id": "lesson_g12",
+          "title": {
+            "en": "G12: Comparatives",
+            "th": "G12: การเปรียบเทียบ",
+            "fa": "G12: صفت‌های تفضیلی",
+            "ar": "G12: المقارنات",
+            "es": "G12: Comparativos",
+            "zh": "G12: 比较级",
+            "ja": "G12: 比較"
+          },
+          "file": "lessons/grammar/g12-comparatives.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 4,
+          "proficiency": "intermediate",
+          "grammar": ["G12"]
+        },
+        {
+          "id": "lesson_g13",
+          "title": {
+            "en": "G13: Relative Clauses",
+            "th": "G13: ประโยคขยายความ",
+            "fa": "G13: جملات موصولی",
+            "ar": "G13: الجمل الموصولة",
+            "es": "G13: Cláusulas relativas",
+            "zh": "G13: 定语从句",
+            "ja": "G13: 関係節"
+          },
+          "file": "lessons/grammar/g13-relative-clauses.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 5,
+          "proficiency": "intermediate",
+          "grammar": ["G13"]
+        },
+        {
+          "id": "lesson_g14",
+          "title": {
+            "en": "G14: Passive Voice",
+            "th": "G14: กรรมวาจก",
+            "fa": "G14: مجهول",
+            "ar": "G14: المبني للمجهول",
+            "es": "G14: Voz pasiva",
+            "zh": "G14: 被动语态",
+            "ja": "G14: 受動態"
+          },
+          "file": "lessons/grammar/g14-passive.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 5,
+          "proficiency": "intermediate",
+          "grammar": ["G14"]
+        },
+        {
+          "id": "lesson_g15",
+          "title": {
+            "en": "G15: Causative",
+            "th": "G15: ประโยคกรรมตรง",
+            "fa": "G15: سببی",
+            "ar": "G15: التسبب",
+            "es": "G15: Causativo",
+            "zh": "G15: 使役动词",
+            "ja": "G15: 使役"
+          },
+          "file": "lessons/grammar/g15-causative.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 5,
+          "proficiency": "intermediate",
+          "grammar": ["G15"]
+        },
+        {
+          "id": "lesson_g16",
+          "title": {
+            "en": "G16: Conditionals",
+            "th": "G16: ประโยคเงื่อนไข",
+            "fa": "G16: شرطی",
+            "ar": "G16: الجمل الشرطية",
+            "es": "G16: Condicionales",
+            "zh": "G16: 条件句",
+            "ja": "G16: 条件法"
+          },
+          "file": "lessons/grammar/g16-conditionals.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 6,
+          "proficiency": "intermediate",
+          "grammar": ["G16"]
+        },
+        {
+          "id": "lesson_g17",
+          "title": {
+            "en": "G17: Ability",
+            "th": "G17: ความสามารถ",
+            "fa": "G17: توانایی",
+            "ar": "G17: القدرة",
+            "es": "G17: Habilidad",
+            "zh": "G17: 能力",
+            "ja": "G17: 能力"
+          },
+          "file": "lessons/grammar/g17-ability.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 6,
+          "proficiency": "intermediate",
+          "grammar": ["G17"]
+        },
+        {
+          "id": "lesson_g18",
+          "title": {
+            "en": "G18: Quantifiers",
+            "th": "G18: คำบอกปริมาณ",
+            "fa": "G18: کمیت‌سنج‌ها",
+            "ar": "G18: المحددات",
+            "es": "G18: Cuantificadores",
+            "zh": "G18: 量词与限定词",
+            "ja": "G18: 数量詞"
+          },
+          "file": "lessons/grammar/g18-quantifiers.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 6,
+          "proficiency": "intermediate",
+          "grammar": ["G18"]
+        },
+        {
+          "id": "lesson_g19",
+          "title": {
+            "en": "G19: Conjunctions",
+            "th": "G19: คำสันธาน",
+            "fa": "G19: حروف ربط",
+            "ar": "G19: حروف العطف",
+            "es": "G19: Conjunciones",
+            "zh": "G19: 连词",
+            "ja": "G19: 接続詞"
+          },
+          "file": "lessons/grammar/g19-conjunctions.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 7,
+          "proficiency": "advanced",
+          "grammar": ["G19"]
+        },
+        {
+          "id": "lesson_g20",
+          "title": {
+            "en": "G20: Reported Speech",
+            "th": "G20: คำพูดอ้างอิง",
+            "fa": "G20: نقل قول",
+            "ar": "G20: الكلام المنقول",
+            "es": "G20: Estilo indirecto",
+            "zh": "G20: 间接引语",
+            "ja": "G20: 間接話法"
+          },
+          "file": "lessons/grammar/g20-reported-speech.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 7,
+          "proficiency": "advanced",
+          "grammar": ["G20"]
+        },
+        {
+          "id": "lesson_g21",
+          "title": {
+            "en": "G21: Emphasis Particles",
+            "th": "G21: คำลงท้ายเน้นความ",
+            "fa": "G21: ذرات تأکیدی",
+            "ar": "G21: أدوات التأكيد",
+            "es": "G21: Partículas de énfasis",
+            "zh": "G21: 语气助词",
+            "ja": "G21: 強調の終助詞"
+          },
+          "file": "lessons/grammar/g21-emphasis-particles.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 7,
+          "proficiency": "advanced",
+          "grammar": ["G21"]
+        },
+        {
+          "id": "lesson_g22",
+          "title": {
+            "en": "G22: Requests & Imperatives",
+            "th": "G22: คำขอร้องและคำสั่ง",
+            "fa": "G22: درخواست‌ها و افعال امری",
+            "ar": "G22: الطلبات والأوامر",
+            "es": "G22: Peticiones e imperativos",
+            "zh": "G22: 请求与祈使句",
+            "ja": "G22: 依頼と命令"
+          },
+          "file": "lessons/grammar/g22-requests-imperatives.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 8,
+          "proficiency": "advanced",
+          "grammar": ["G22"]
+        },
+        {
+          "id": "lesson_g23",
+          "title": {
+            "en": "G23: Exclamations",
+            "th": "G23: คำอุทาน",
+            "fa": "G23: علائم تعجب",
+            "ar": "G23: التعجبات",
+            "es": "G23: Exclamaciones",
+            "zh": "G23: 感叹词",
+            "ja": "G23: 感嘆詞"
+          },
+          "file": "lessons/grammar/g23-exclamations.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 8,
+          "proficiency": "advanced",
+          "grammar": ["G23"]
+        },
+        {
+          "id": "lesson_g24",
+          "title": {
+            "en": "G24: Register Switching",
+            "th": "G24: การปรับระดับภาษา",
+            "fa": "G24: تغییر لحن",
+            "ar": "G24: تبديل السجل",
+            "es": "G24: Cambio de registro",
+            "zh": "G24: 语体转换",
+            "ja": "G24: 文体の切り替え"
+          },
+          "file": "lessons/grammar/g24-register-switching.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 9,
+          "proficiency": "advanced",
+          "grammar": ["G24"]
+        }
+      ]
+    },
+    {
+      "id": "cat_reading_writing",
+      "standalone": true,
+      "title": {
+        "en": "Reading & Writing Thai",
+        "th": "การอ่านและการเขียนภาษาไทย",
+        "fa": "خواندن و نوشتن تایلندی",
+        "ar": "القراءة والكتابة التايلاندية",
+        "es": "Lectura y escritura tailandesa",
+        "zh": "泰语读写",
+        "ja": "タイ語の読み書き"
+      },
+      "lessons": [
+        {
+          "id": "lesson_rw1",
+          "title": {
+            "en": "Consonants, Vowels & Tones",
+            "th": "พยัญชนะ สระ และวรรณยุกต์",
+            "fa": "همخوان‌ها، واکه‌ها و تُن‌ها",
+            "ar": "الحروف والحركات والنغمات",
+            "es": "Consonantes, vocales y tonos",
+            "zh": "辅音、元音与声调",
+            "ja": "子音・母音・声調"
+          },
+          "file": "lessons/reading-writing/consonants-vowels-tones.json",
+          "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "level": 1,
+          "proficiency": "beginner",
+          "skill": "reading",
+          "grammar": [],
+          "displayMode": "phonetic"
+        },
+        {
+          "id": "lesson_rw2",
+          "title": {
+            "en": "Thai Tone Rules",
+            "th": "กฎวรรณยุกต์ไทย",
+            "fa": "قوانین تُن تایلندی",
+            "ar": "قواعد النغمات التايلاندية",
+            "es": "Reglas de tonos tailandeses",
+            "zh": "泰语声调规则",
+            "ja": "タイ語声調規則"
+          },
+          "file": "lessons/reading-writing/tone-rules.json",
+          "displayMode": "phonetic",
+          "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"],
+          "level": 1,
+          "proficiency": "beginner",
+          "grammar": [],
+          "skill": "reading"
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "topic_tsl",
+      "title": {
+        "en": "TSL",
+        "th": "TSL",
+        "fa": "TSL",
+        "ar": "TSL",
+        "es": "TSL",
+        "zh": "TSL",
+        "ja": "TSL"
+      },
+      "books": [
+        {
+          "id": "book_ls1",
+          "title": {
+            "en": "Listening and Speaking 1",
+            "th": "การฟังและการพูด 1",
+            "fa": "گوش دادن و صحبت کردن ۱",
+            "ar": "الاستماع والتحدث 1",
+            "es": "Escuchar y Hablar 1",
+            "zh": "听说 1",
+            "ja": "リスニングとスピーキング 1"
+          },
+          "lessons": [
+            {
+              "id": "lesson_ls1_1",
+              "title": {
+                "en": "Lesson 1: Greetings",
+                "th": "บทที่ 1: การทักทาย",
+                "fa": "درس ۱: احوالپرسی",
+                "ar": "الدرس 1: التحيات",
+                "es": "Lección 1: Saludos",
+                "zh": "第一课：问候",
+                "ja": "第1課：挨拶"
+              },
+              "file": "lessons/TSL/LS1-lesson-1-greetings.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
+            },
+            {
+              "id": "lesson_ls1_2",
+              "title": {
+                "en": "Lesson 2: What are you doing?",
+                "th": "บทที่ 2: คุณกำลังทำอะไรอยู่",
+                "fa": "درس ۲: داری چکار می‌کنی؟",
+                "ar": "الدرس 2: ماذا تفعل؟",
+                "es": "Lección 2: ¿Qué estás haciendo?",
+                "zh": "第二课：你在做什么？",
+                "ja": "第2課：何をしていますか？"
+              },
+              "file": "lessons/TSL/LS1-lesson-2-what-are-you-doing.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
+            },
+            {
+              "id": "lesson_ls1_3",
+              "title": {
+                "en": "Lesson 3: How is Thai food?",
+                "th": "บทที่ 3: อาหารไทยเป็นยังไง",
+                "fa": "درس ۳: غذای تایلندی چطور است؟",
+                "ar": "الدرس 3: كيف هو الطعام التايلاندي؟",
+                "es": "Lección 3: ¿Cómo es la comida tailandesa?",
+                "zh": "第三课：泰国菜怎么样？",
+                "ja": "第3課：タイ料理はどうですか？"
+              },
+              "file": "lessons/TSL/LS1-lesson-3-how-is-thai-food.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
+            },
+            {
+              "id": "lesson_ls1_4",
+              "title": {
+                "en": "Lesson 4: Go Shopping",
+                "th": "บทที่ 4: ไปช้อปปิ้ง",
+                "fa": "درس ۴: خرید رفتن",
+                "ar": "الدرس 4: الذهاب للتسوق",
+                "es": "Lección 4: Ir de compras",
+                "zh": "第四课：去购物",
+                "ja": "第4課：買い物に行く"
+              },
+              "file": "lessons/TSL/LS1-lesson-4-go-shopping.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
+            },
+            {
+              "id": "lesson_ls1_5",
+              "title": {
+                "en": "Lesson 5: Where is the hospital?",
+                "th": "บทที่ 5: โรงพยาบาลอยู่ที่ไหน",
+                "fa": "درس ۵: بیمارستان کجاست؟",
+                "ar": "الدرس 5: أين المستشفى؟",
+                "es": "Lección 5: ¿Dónde está el hospital?",
+                "zh": "第五课：医院在哪里？",
+                "ja": "第5課：病院はどこですか？"
+              },
+              "file": "lessons/TSL/LS1-lesson-5-where-is-the-hospital.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
+            }
+          ]
+        },
+        {
+          "id": "book_ls2",
+          "title": {
+            "en": "Listening and Speaking 2",
+            "th": "การฟังและการพูด 2",
+            "fa": "گوش دادن و صحبت کردن ۲",
+            "ar": "",
+            "es": "",
+            "zh": "",
+            "ja": ""
+          },
+          "lessons": [
+            {
+              "id": "lesson_ls2_1",
+              "title": {
+                "en": "Lesson 1: What would you like to order?",
+                "th": "บทที่ 1: คุณจะสั่งอะไร",
+                "fa": "درس ۱: چه چیزی سفارش می‌دهید؟",
+                "ar": "",
+                "es": "",
+                "zh": "",
+                "ja": ""
+              },
+              "file": "lessons/TSL/LS2-lesson-1-what-would-you-like-to-order.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
+            },
+            {
+              "id": "lesson_ls2_2",
+              "title": {
+                "en": "Lesson 2: What would you like to drink?",
+                "th": "บทที่ 2: คุณจะดื่มอะไร",
+                "fa": "درس ۲: چه چیزی می‌نوشید؟",
+                "ar": "",
+                "es": "",
+                "zh": "",
+                "ja": ""
+              },
+              "file": "lessons/TSL/LS2-lesson-2-what-would-you-like-to-drink.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
+            },
+            {
+              "id": "lesson_ls2_3",
+              "title": {
+                "en": "Lesson 3: Fruits",
+                "th": "บทที่ 3: ผลไม้",
+                "fa": "درس ۳: میوه‌ها",
+                "ar": "",
+                "es": "",
+                "zh": "",
+                "ja": ""
+              },
+              "file": "lessons/TSL/LS2-lesson-3-fruits.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
+            },
+            {
+              "id": "lesson_ls2_4",
+              "title": {
+                "en": "Lesson 4: Colors",
+                "th": "บทที่ 4: สี",
+                "fa": "درس ۴: رنگ‌ها",
+                "ar": "",
+                "es": "",
+                "zh": "",
+                "ja": ""
+              },
+              "file": "lessons/TSL/LS2-lesson-4-colors.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
+            },
+            {
+              "id": "lesson_ls2_5",
+              "title": {
+                "en": "Lesson 5: Classifiers",
+                "th": "บทที่ 5: ลักษณนาม",
+                "fa": "درس ۵: شمارشگرها",
+                "ar": "",
+                "es": "",
+                "zh": "",
+                "ja": ""
+              },
+              "file": "lessons/TSL/LS2-lesson-5-classifiers.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
+            },
+            {
+              "id": "lesson_ls2_6",
+              "title": {
+                "en": "Lesson 6: Prepositions",
+                "th": "บทที่ 6: คำบุพบท",
+                "fa": "درس ۶: حروف اضافه",
+                "ar": "",
+                "es": "",
+                "zh": "",
+                "ja": ""
+              },
+              "file": "lessons/TSL/LS2-lesson-6-prepositions.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

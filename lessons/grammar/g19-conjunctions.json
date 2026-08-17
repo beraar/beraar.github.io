@@ -1,0 +1,548 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "sentence_g19_tea_coffee",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_like",
+        "word_tea",
+        "word_and",
+        "word_coffee"
+      ],
+      "texts": {
+        "en": "I like tea and coffee",
+        "th": "ฉันชอบชาและกาแฟ",
+        "fa": "من چای و قهوه دوست دارم",
+        "ar": "أنا أحب الشاي والقهوة",
+        "es": "Me gusta el té y el café",
+        "zh": "我喜欢茶和咖啡",
+        "ja": "私はお茶とコーヒーが好きです"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "like",
+          "tea",
+          "and",
+          "coffee"
+        ],
+        "th": [
+          "ฉัน",
+          "ชอบ",
+          "ชา",
+          "และ",
+          "กาแฟ"
+        ],
+        "fa": [
+          "من",
+          "چای",
+          "و",
+          "قهوه",
+          "دوست",
+          "دارم"
+        ],
+        "ar": [
+          "أنا",
+          "أحب",
+          "الشاي",
+          "والقهوة"
+        ],
+        "es": [
+          "Me",
+          "gusta",
+          "el",
+          "té",
+          "y",
+          "el",
+          "café"
+        ],
+        "zh": [
+          "我",
+          "喜欢",
+          "茶",
+          "和",
+          "咖啡"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "お茶",
+          "と",
+          "コーヒー",
+          "が",
+          "好き",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g19_go_but_tired",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_want",
+        "word_go",
+        "word_but",
+        "word_tired"
+      ],
+      "texts": {
+        "en": "I want to go but I am tired",
+        "th": "ฉันอยากไปแต่ฉันเหนื่อย",
+        "fa": "من می‌خواهم بروم اما خسته‌ام",
+        "ar": "أريد أن أذهب لكنني متعب",
+        "es": "Quiero ir pero estoy cansado",
+        "zh": "我想去但是我累了",
+        "ja": "私は行きたいが疲れている"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "want",
+          "to",
+          "go",
+          "but",
+          "I",
+          "am",
+          "tired"
+        ],
+        "th": [
+          "ฉัน",
+          "อยาก",
+          "ไป",
+          "แต่",
+          "ฉัน",
+          "เหนื่อย"
+        ],
+        "fa": [
+          "من",
+          "می‌خواهم",
+          "بروم",
+          "اما",
+          "خسته‌ام"
+        ],
+        "ar": [
+          "أريد",
+          "أن",
+          "أذهب",
+          "لكنني",
+          "متعب"
+        ],
+        "es": [
+          "Quiero",
+          "ir",
+          "pero",
+          "estoy",
+          "cansado"
+        ],
+        "zh": [
+          "我",
+          "想",
+          "去",
+          "但是",
+          "我",
+          "累",
+          "了"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "行き",
+          "たい",
+          "が",
+          "疲れて",
+          "いる"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g19_stay_because_rain",
+      "kind": "sentence",
+      "itemIds": [
+        "word_we",
+        "word_stay",
+        "word_home",
+        "word_because",
+        "word_rain"
+      ],
+      "texts": {
+        "en": "We stay home because it rains",
+        "th": "เราอยู่บ้านเพราะฝนตก",
+        "fa": "ما در خانه می‌مانیم زیرا باران می‌بارد",
+        "ar": "نبقى في المنزل لأن المطر يهطل",
+        "es": "Nos quedamos en casa porque llueve",
+        "zh": "我们待在家里因为下雨",
+        "ja": "雨が降るので家にいる"
+      },
+      "tokens": {
+        "en": [
+          "We",
+          "stay",
+          "home",
+          "because",
+          "it",
+          "rains"
+        ],
+        "th": [
+          "เรา",
+          "อยู่",
+          "บ้าน",
+          "เพราะ",
+          "ฝนตก"
+        ],
+        "fa": [
+          "ما",
+          "در",
+          "خانه",
+          "می‌مانیم",
+          "زیرا",
+          "باران",
+          "می‌بارد"
+        ],
+        "ar": [
+          "نبقى",
+          "في",
+          "المنزل",
+          "لأن",
+          "المطر",
+          "يهطل"
+        ],
+        "es": [
+          "Nos",
+          "quedamos",
+          "en",
+          "casa",
+          "porque",
+          "llueve"
+        ],
+        "zh": [
+          "我们",
+          "待",
+          "在",
+          "家里",
+          "因为",
+          "下雨"
+        ],
+        "ja": [
+          "雨",
+          "が",
+          "降る",
+          "ので",
+          "家",
+          "に",
+          "いる"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g19_rice_or_noodles",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_want",
+        "word_rice",
+        "word_or",
+        "word_noodles"
+      ],
+      "texts": {
+        "en": "Do you want rice or noodles",
+        "th": "คุณอยากกินข้าวหรือก๋วยเตี๋ยว",
+        "fa": "برنج می‌خواهید یا رشته",
+        "ar": "هل تريد أرزاً أم معكرونة",
+        "es": "¿Quieres arroz o fideos",
+        "zh": "你想要米饭还是面条",
+        "ja": "ご飯と麺のどちらが欲しいですか"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "want",
+          "rice",
+          "or",
+          "noodles"
+        ],
+        "th": [
+          "คุณ",
+          "อยาก",
+          "กิน",
+          "ข้าว",
+          "หรือ",
+          "ก๋วยเตี๋ยว"
+        ],
+        "fa": [
+          "برنج",
+          "می‌خواهید",
+          "یا",
+          "رشته"
+        ],
+        "ar": [
+          "هل",
+          "تريد",
+          "أرزاً",
+          "أم",
+          "معكرونة"
+        ],
+        "es": [
+          "¿Quieres",
+          "arroz",
+          "o",
+          "fideos"
+        ],
+        "zh": [
+          "你",
+          "想要",
+          "米饭",
+          "还是",
+          "面条"
+        ],
+        "ja": [
+          "ご飯",
+          "と",
+          "麺",
+          "の",
+          "どちら",
+          "が",
+          "欲しい",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_we",
+      "kind": "word",
+      "texts": {
+        "en": "we",
+        "th": "เรา",
+        "fa": "ما",
+        "ar": "نحن",
+        "es": "nosotros",
+        "zh": "我们",
+        "ja": "私たち"
+      }
+    },
+    {
+      "id": "word_like",
+      "kind": "word",
+      "texts": {
+        "en": "like",
+        "th": "ชอบ",
+        "fa": "دوست داشتن",
+        "ar": "يحب",
+        "es": "gustar",
+        "zh": "喜欢",
+        "ja": "好き"
+      }
+    },
+    {
+      "id": "word_want",
+      "kind": "word",
+      "texts": {
+        "en": "want",
+        "th": "อยาก",
+        "fa": "خواستن",
+        "ar": "يريد",
+        "es": "querer",
+        "zh": "想要",
+        "ja": "したい"
+      }
+    },
+    {
+      "id": "word_go",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "word_stay",
+      "kind": "word",
+      "texts": {
+        "en": "stay",
+        "th": "อยู่",
+        "fa": "ماندن",
+        "ar": "يبقى",
+        "es": "quedarse",
+        "zh": "待",
+        "ja": "いる"
+      }
+    },
+    {
+      "id": "word_tired",
+      "kind": "word",
+      "texts": {
+        "en": "tired",
+        "th": "เหนื่อย",
+        "fa": "خسته",
+        "ar": "متعب",
+        "es": "cansado",
+        "zh": "累",
+        "ja": "疲れた"
+      }
+    },
+    {
+      "id": "word_and",
+      "kind": "word",
+      "texts": {
+        "en": "and",
+        "th": "และ",
+        "fa": "و",
+        "ar": "و",
+        "es": "y",
+        "zh": "和",
+        "ja": "と"
+      }
+    },
+    {
+      "id": "word_but",
+      "kind": "word",
+      "texts": {
+        "en": "but",
+        "th": "แต่",
+        "fa": "اما",
+        "ar": "لكن",
+        "es": "pero",
+        "zh": "但是",
+        "ja": "しかし"
+      }
+    },
+    {
+      "id": "word_or",
+      "kind": "word",
+      "texts": {
+        "en": "or",
+        "th": "หรือ",
+        "fa": "یا",
+        "ar": "أو",
+        "es": "o",
+        "zh": "或",
+        "ja": "または"
+      }
+    },
+    {
+      "id": "word_because",
+      "kind": "word",
+      "texts": {
+        "en": "because",
+        "th": "เพราะ",
+        "fa": "زیرا",
+        "ar": "لأن",
+        "es": "porque",
+        "zh": "因为",
+        "ja": "だから"
+      }
+    },
+    {
+      "id": "word_tea",
+      "kind": "word",
+      "texts": {
+        "en": "tea",
+        "th": "ชา",
+        "fa": "چای",
+        "ar": "شاي",
+        "es": "té",
+        "zh": "茶",
+        "ja": "お茶"
+      }
+    },
+    {
+      "id": "word_coffee",
+      "kind": "word",
+      "texts": {
+        "en": "coffee",
+        "th": "กาแฟ",
+        "fa": "قهوه",
+        "ar": "قهوة",
+        "es": "café",
+        "zh": "咖啡",
+        "ja": "コーヒー"
+      }
+    },
+    {
+      "id": "word_rice",
+      "kind": "word",
+      "texts": {
+        "en": "rice",
+        "th": "ข้าว",
+        "fa": "برنج",
+        "ar": "أرز",
+        "es": "arroz",
+        "zh": "米饭",
+        "ja": "ご飯"
+      }
+    },
+    {
+      "id": "word_noodles",
+      "kind": "word",
+      "texts": {
+        "en": "noodles",
+        "th": "ก๋วยเตี๋ยว",
+        "fa": "رشته",
+        "ar": "معكرونة",
+        "es": "fideos",
+        "zh": "面条",
+        "ja": "麺"
+      }
+    },
+    {
+      "id": "word_rain",
+      "kind": "word",
+      "texts": {
+        "en": "rain",
+        "th": "ฝน",
+        "fa": "باران",
+        "ar": "مطر",
+        "es": "lluvia",
+        "zh": "雨",
+        "ja": "雨"
+      }
+    },
+    {
+      "id": "word_home",
+      "kind": "word",
+      "texts": {
+        "en": "home",
+        "th": "บ้าน",
+        "fa": "خانه",
+        "ar": "منزل",
+        "es": "casa",
+        "zh": "家",
+        "ja": "家"
+      }
+    }
+  ]
+}

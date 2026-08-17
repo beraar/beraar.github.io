@@ -1,0 +1,1058 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras clave",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_i_male",
+      "kind": "word",
+      "texts": {
+        "en": "I (formal, male)",
+        "th": "ผม",
+        "fa": "من (مردانه)",
+        "ar": "أنا (للرجال)",
+        "es": "yo (masculino)",
+        "zh": "我（男性）",
+        "ja": "私（男性）"
+      }
+    },
+    {
+      "id": "word_he",
+      "kind": "word",
+      "texts": {
+        "en": "he",
+        "th": "เขา",
+        "fa": "او",
+        "ar": "هو",
+        "es": "él",
+        "zh": "他",
+        "ja": "彼"
+      }
+    },
+    {
+      "id": "word_she",
+      "kind": "word",
+      "texts": {
+        "en": "she",
+        "th": "เธอ",
+        "fa": "او (زن)",
+        "ar": "هي",
+        "es": "ella",
+        "zh": "她",
+        "ja": "彼女"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú / usted",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_is",
+      "kind": "word",
+      "texts": {
+        "en": "is",
+        "th": "คือ",
+        "fa": "است",
+        "ar": "هو",
+        "es": "es",
+        "zh": "是",
+        "ja": "です"
+      }
+    },
+    {
+      "id": "word_be",
+      "kind": "word",
+      "texts": {
+        "en": "be",
+        "th": "เป็น",
+        "fa": "بودن",
+        "ar": "يكون",
+        "es": "ser",
+        "zh": "是",
+        "ja": "です"
+      }
+    },
+    {
+      "id": "word_of",
+      "kind": "word",
+      "texts": {
+        "en": "of",
+        "th": "ของ",
+        "fa": "از",
+        "ar": "من",
+        "es": "de",
+        "zh": "的",
+        "ja": "の"
+      }
+    },
+    {
+      "id": "word_that",
+      "kind": "word",
+      "texts": {
+        "en": "that",
+        "th": "ที่",
+        "fa": "که",
+        "ar": "الذي",
+        "es": "que",
+        "zh": "那",
+        "ja": "こと"
+      }
+    },
+    {
+      "id": "word_get",
+      "kind": "word",
+      "texts": {
+        "en": "get",
+        "th": "ได้",
+        "fa": "گرفتن",
+        "ar": "يحصل",
+        "es": "conseguir",
+        "zh": "得到",
+        "ja": "得る"
+      }
+    },
+    {
+      "id": "word_what",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه",
+        "ar": "ماذا",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_where",
+      "kind": "word",
+      "texts": {
+        "en": "where",
+        "th": "ที่ไหน",
+        "fa": "کجا",
+        "ar": "أين",
+        "es": "dónde",
+        "zh": "哪里",
+        "ja": "どこ"
+      }
+    },
+    {
+      "id": "word_who",
+      "kind": "word",
+      "texts": {
+        "en": "who",
+        "th": "ใคร",
+        "fa": "کی",
+        "ar": "من",
+        "es": "quién",
+        "zh": "谁",
+        "ja": "誰"
+      }
+    },
+    {
+      "id": "word_from",
+      "kind": "word",
+      "texts": {
+        "en": "from",
+        "th": "จาก",
+        "fa": "از",
+        "ar": "من",
+        "es": "de",
+        "zh": "从",
+        "ja": "から"
+      }
+    },
+    {
+      "id": "word_come",
+      "kind": "word",
+      "texts": {
+        "en": "come",
+        "th": "มา",
+        "fa": "آمدن",
+        "ar": "يأتي",
+        "es": "venir",
+        "zh": "来",
+        "ja": "来る"
+      }
+    },
+    {
+      "id": "word_do",
+      "kind": "word",
+      "texts": {
+        "en": "do",
+        "th": "ทำ",
+        "fa": "انجام دادن",
+        "ar": "يفعل",
+        "es": "hacer",
+        "zh": "做",
+        "ja": "する"
+      }
+    },
+    {
+      "id": "word_polite_particle",
+      "kind": "word",
+      "texts": {
+        "en": "polite particle",
+        "th": "ครับ / ค่ะ",
+        "fa": "ذره ادب",
+        "ar": "أداة أدب",
+        "es": "partícula de cortesía",
+        "zh": "礼貌助词",
+        "ja": "丁寧語"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Meeting & Greetings",
+        "th": "สถานการณ์ 1: การพบปะและทักทาย",
+        "fa": "سناریو ۱: ملاقات و احوالپرسی",
+        "ar": "السيناريو 1: اللقاء والتحية",
+        "es": "Escenario 1: Encuentros y saludos",
+        "zh": "场景一：见面与问候",
+        "ja": "シナリオ1：出会いと挨拶"
+      }
+    },
+    {
+      "id": "sentence_hello",
+      "kind": "sentence",
+      "itemIds": ["word_hello"],
+      "texts": {
+        "en": "Hello",
+        "th": "สวัสดี",
+        "fa": "سلام",
+        "ar": "مرحبا",
+        "es": "Hola",
+        "zh": "你好",
+        "ja": "こんにちは"
+      },
+      "tokens": {
+        "en": ["Hello"],
+        "th": ["สวัสดี"],
+        "fa": ["سلام"],
+        "ar": ["مرحبا"],
+        "es": ["Hola"],
+        "zh": ["你好"],
+        "ja": ["こんにちは"]
+      }
+    },
+    {
+      "id": "sentence_hello_male",
+      "kind": "sentence",
+      "itemIds": ["word_hello", "word_polite_particle"],
+      "texts": {
+        "en": "Hello (male)",
+        "th": "สวัสดีครับ",
+        "fa": "سلام (گوینده مرد)",
+        "ar": "مرحباً (يقولها الرجل)",
+        "es": "Hola (hombre)",
+        "zh": "你好（男性说）",
+        "ja": "こんにちは（男性）"
+      },
+      "tokens": {
+        "en": ["Hello", "(male)"],
+        "th": ["สวัสดี", "ครับ"],
+        "fa": ["سلام", "(گوینده", "مرد)"],
+        "ar": ["مرحباً", "(يقولها", "الرجل)"],
+        "es": ["Hola", "(hombre)"],
+        "zh": ["你好", "（男性说）"],
+        "ja": ["こんにちは", "（男性）"]
+      }
+    },
+    {
+      "id": "sentence_hello_female",
+      "kind": "sentence",
+      "itemIds": ["word_hello", "word_polite_particle"],
+      "texts": {
+        "en": "Hello (female)",
+        "th": "สวัสดีค่ะ",
+        "fa": "سلام (گوینده زن)",
+        "ar": "مرحباً (تقولها المرأة)",
+        "es": "Hola (mujer)",
+        "zh": "你好（女性说）",
+        "ja": "こんにちは（女性）"
+      },
+      "tokens": {
+        "en": ["Hello", "(female)"],
+        "th": ["สวัสดี", "ค่ะ"],
+        "fa": ["سلام", "(گوینده", "زن)"],
+        "ar": ["مرحباً", "(تقولها", "المرأة)"],
+        "es": ["Hola", "(mujer)"],
+        "zh": ["你好", "（女性说）"],
+        "ja": ["こんにちは", "（女性）"]
+      }
+    },
+    {
+      "id": "sentence_nice_meet",
+      "kind": "sentence",
+      "itemIds": ["word_glad", "word_that", "word_get", "word_know"],
+      "texts": {
+        "en": "Nice to meet you",
+        "th": "ยินดีที่ได้รู้จัก",
+        "fa": "از آشنایی با شما خوشحالم",
+        "ar": "سعيد بلقائك",
+        "es": "Encantado de conocerte",
+        "zh": "很高兴认识你",
+        "ja": "お会いできて嬉しいです"
+      },
+      "tokens": {
+        "en": ["Nice", "to", "meet", "you"],
+        "th": ["ยินดี", "ที่", "ได้", "รู้จัก"],
+        "fa": ["از", "آشنایی", "با", "شما", "خوشحالم"],
+        "ar": ["سعيد", "بلقائك"],
+        "es": ["Encantado", "de", "conocerte"],
+        "zh": ["很", "高兴", "认识", "你"],
+        "ja": ["お会い", "でき", "て", "嬉しい", "です"]
+      }
+    },
+    {
+      "id": "sentence_nice_meet_you",
+      "kind": "sentence",
+      "itemIds": [
+        "word_glad",
+        "word_that",
+        "word_get",
+        "word_know",
+        "word_you",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "Nice to meet you (male)",
+        "th": "ยินดีที่ได้รู้จักคุณครับ",
+        "fa": "از آشنایی با شما خوشحالم (گوینده مرد)",
+        "ar": "سعيد بلقائك (يقولها الرجل)",
+        "es": "Encantado de conocerte (hombre)",
+        "zh": "很高兴认识你（男性说）",
+        "ja": "お会いできて嬉しいです（男性）"
+      },
+      "tokens": {
+        "en": ["Nice", "to", "meet", "you", "(male)"],
+        "th": ["ยินดี", "ที่", "ได้", "รู้จัก", "คุณ", "ครับ"],
+        "fa": ["از", "آشنایی", "با", "شما", "خوشحالم", "(گوینده", "مرد)"],
+        "ar": ["سعيد", "بلقائك", "(يقولها", "الرجل)"],
+        "es": ["Encantado", "de", "conocerte", "(hombre)"],
+        "zh": ["很", "高兴", "认识", "你", "（男性说）"],
+        "ja": ["お会い", "でき", "て", "嬉しい", "です", "（男性）"]
+      }
+    },
+    {
+      "id": "word_hello",
+      "kind": "word",
+      "texts": {
+        "en": "hello",
+        "th": "สวัสดี",
+        "fa": "سلام",
+        "ar": "مرحبا",
+        "es": "hola",
+        "zh": "你好",
+        "ja": "こんにちは"
+      }
+    },
+    {
+      "id": "word_glad",
+      "kind": "word",
+      "texts": {
+        "en": "glad",
+        "th": "ยินดี",
+        "fa": "خوشحال",
+        "ar": "سعيد",
+        "es": "encantado",
+        "zh": "高兴",
+        "ja": "嬉しい"
+      }
+    },
+    {
+      "id": "word_know",
+      "kind": "word",
+      "texts": {
+        "en": "know",
+        "th": "รู้จัก",
+        "fa": "شناختن",
+        "ar": "يعرف",
+        "es": "conocer",
+        "zh": "认识",
+        "ja": "知る"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Asking & Telling Names",
+        "th": "สถานการณ์ 2: การถามและบอกชื่อ",
+        "fa": "سناریو ۲: پرسیدن و گفتن نام",
+        "ar": "السيناريو 2: السؤال عن الأسماء وذكرها",
+        "es": "Escenario 2: Preguntar y decir nombres",
+        "zh": "场景二：问名字与说名字",
+        "ja": "シナリオ2：名前を聞く・伝える"
+      }
+    },
+    {
+      "id": "sentence_what_his_name",
+      "kind": "sentence",
+      "itemIds": ["word_he", "word_name", "word_what"],
+      "texts": {
+        "en": "What is his name?",
+        "th": "เขาชื่ออะไร",
+        "fa": "نام او چیست؟",
+        "ar": "ما اسمه؟",
+        "es": "¿Cómo se llama él?",
+        "zh": "他叫什么名字？",
+        "ja": "彼の名前は何ですか？"
+      },
+      "tokens": {
+        "en": ["What", "is", "his", "name?"],
+        "th": ["เขา", "ชื่อ", "อะไร"],
+        "fa": ["نام", "او", "چیست؟"],
+        "ar": ["ما", "اسمه؟"],
+        "es": ["¿Cómo", "se", "llama", "él?"],
+        "zh": ["他", "叫", "什么", "名字？"],
+        "ja": ["彼", "の", "名前", "は", "何", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_what_your_name",
+      "kind": "sentence",
+      "itemIds": ["word_you", "word_name", "word_what", "word_polite_particle"],
+      "texts": {
+        "en": "What is your name?",
+        "th": "คุณชื่ออะไรครับ",
+        "fa": "نام شما چیست؟",
+        "ar": "ما اسمك؟",
+        "es": "¿Cómo te llamas?",
+        "zh": "你叫什么名字？",
+        "ja": "お名前は何ですか？"
+      },
+      "tokens": {
+        "en": ["What", "is", "your", "name?"],
+        "th": ["คุณ", "ชื่อ", "อะไร", "ครับ"],
+        "fa": ["نام", "شما", "چیست؟"],
+        "ar": ["ما", "اسمك؟"],
+        "es": ["¿Cómo", "te", "llamas?"],
+        "zh": ["你", "叫", "什么", "名字？"],
+        "ja": ["お名前", "は", "何", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_his_name",
+      "kind": "sentence",
+      "itemIds": ["word_he", "word_name", "word_somchai"],
+      "texts": {
+        "en": "His name is Somchai",
+        "th": "เขาชื่อสมชาย",
+        "fa": "نام او سمچای است",
+        "ar": "اسمه سومتشاي",
+        "es": "Su nombre es Somchai",
+        "zh": "他的名字是颂猜",
+        "ja": "彼の名前はソンチャイです"
+      },
+      "tokens": {
+        "en": ["His", "name", "is", "Somchai"],
+        "th": ["เขา", "ชื่อ", "สมชาย"],
+        "fa": ["نام", "او", "سمچای", "است"],
+        "ar": ["اسمه", "سومتشاي"],
+        "es": ["Su", "nombre", "es", "Somchai"],
+        "zh": ["他", "的", "名字", "是", "颂猜"],
+        "ja": ["彼", "の", "名前", "は", "ソンチャイ", "です"]
+      }
+    },
+    {
+      "id": "sentence_my_name",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_name",
+        "word_somying",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "My name is Somying (female)",
+        "th": "ฉันชื่อสมหญิงค่ะ",
+        "fa": "نام من سمیینگ است (گوینده زن)",
+        "ar": "اسمي سوميينغ (تقولها المرأة)",
+        "es": "Mi nombre es Somying (mujer)",
+        "zh": "我的名字是颂英（女性说）",
+        "ja": "私の名前はソムインです（女性）"
+      },
+      "tokens": {
+        "en": ["My", "name", "is", "Somying", "(female)"],
+        "th": ["ฉัน", "ชื่อ", "สมหญิง", "ค่ะ"],
+        "fa": ["نام", "من", "سمیینگ", "است", "(گوینده", "زن)"],
+        "ar": ["اسمي", "سوميينغ", "(تقولها", "المرأة)"],
+        "es": ["Mi", "nombre", "es", "Somying", "(mujer)"],
+        "zh": ["我", "的", "名字", "是", "颂英", "（女性说）"],
+        "ja": ["私", "の", "名前", "は", "ソムイン", "です", "（女性）"]
+      }
+    },
+    {
+      "id": "word_name",
+      "kind": "word",
+      "texts": {
+        "en": "name",
+        "th": "ชื่อ",
+        "fa": "نام",
+        "ar": "اسم",
+        "es": "nombre",
+        "zh": "名字",
+        "ja": "名前"
+      }
+    },
+    {
+      "id": "word_somchai",
+      "kind": "word",
+      "texts": {
+        "en": "Somchai",
+        "th": "สมชาย",
+        "fa": "سمچای",
+        "ar": "سومتشاي",
+        "es": "Somchai",
+        "zh": "颂猜",
+        "ja": "ソンチャイ"
+      }
+    },
+    {
+      "id": "word_somying",
+      "kind": "word",
+      "texts": {
+        "en": "Somying",
+        "th": "สมหญิง",
+        "fa": "سمیینگ",
+        "ar": "سوميينغ",
+        "es": "Somying",
+        "zh": "颂英",
+        "ja": "ソムイン"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Where Are You From? (มาจากไหน)",
+        "th": "สถานการณ์ 3: คุณมาจากไหน",
+        "fa": "سناریو ۳: اهل کجایید؟ (มาจากไหน)",
+        "ar": "السيناريو 3: من أين أنت؟ (มาจากไหน)",
+        "es": "Escenario 3: ¿De dónde eres? (มาจากไหน)",
+        "zh": "场景三：你从哪里来？ (มาจากไหน)",
+        "ja": "シナリオ3：どこから来ましたか？ (มาจากไหน)"
+      }
+    },
+    {
+      "id": "sentence_where_from",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_come",
+        "word_from",
+        "word_where",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "Where are you from?",
+        "th": "คุณมาจากที่ไหนครับ",
+        "fa": "شما از کجا می‌آیید؟",
+        "ar": "من أين أنت؟",
+        "es": "¿De dónde eres?",
+        "zh": "你来自哪里？",
+        "ja": "どこから来ましたか？"
+      },
+      "tokens": {
+        "en": ["Where", "are", "you", "from?"],
+        "th": ["คุณ", "มา", "จาก", "ที่ไหน", "ครับ"],
+        "fa": ["شما", "از", "کجا", "می‌آیید؟"],
+        "ar": ["من", "أين", "أنت؟"],
+        "es": ["¿De", "dónde", "eres?"],
+        "zh": ["你", "来自", "哪里？"],
+        "ja": ["どこ", "から", "来", "ました", "か？"]
+      }
+    },
+    {
+      "id": "sentence_i_from_thailand",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_come",
+        "word_from",
+        "word_country",
+        "word_thai",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "I am from Thailand (female)",
+        "th": "ฉันมาจากประเทศไทยค่ะ",
+        "fa": "من از تایلند می‌آیم (گوینده زن)",
+        "ar": "أنا من تايلاند (تقولها المرأة)",
+        "es": "Soy de Tailandia (mujer)",
+        "zh": "我来自泰国（女性说）",
+        "ja": "タイから来ました（女性）"
+      },
+      "tokens": {
+        "en": ["I", "am", "from", "Thailand", "(female)"],
+        "th": ["ฉัน", "มา", "จาก", "ประเทศ", "ไทย", "ค่ะ"],
+        "fa": ["من", "از", "تایلند", "می‌آیم", "(گوینده", "زن)"],
+        "ar": ["أنا", "من", "تايلاند", "(تقولها", "المرأة)"],
+        "es": ["Soy", "de", "Tailandia", "(mujer)"],
+        "zh": ["我", "来自", "泰国", "（女性说）"],
+        "ja": ["タイ", "から", "来", "ました", "（女性）"]
+      }
+    },
+    {
+      "id": "sentence_he_from_china",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he",
+        "word_come",
+        "word_from",
+        "word_country",
+        "word_china",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "He is from China (male)",
+        "th": "เขามาจากประเทศจีนครับ",
+        "fa": "او از چین می‌آید (گوینده مرد)",
+        "ar": "هو من الصين (يقولها الرجل)",
+        "es": "Él es de China (hombre)",
+        "zh": "他来自中国（男性说）",
+        "ja": "彼は中国から来ました（男性）"
+      },
+      "tokens": {
+        "en": ["He", "is", "from", "China", "(male)"],
+        "th": ["เขา", "มา", "จาก", "ประเทศ", "จีน", "ครับ"],
+        "fa": ["او", "از", "چین", "می‌آید", "(گوینده", "مرد)"],
+        "ar": ["هو", "من", "الصين", "(يقولها", "الرجل)"],
+        "es": ["Él", "es", "de", "China", "(hombre)"],
+        "zh": ["他", "来自", "中国", "（男性说）"],
+        "ja": ["彼", "は", "中国", "から", "来", "ました", "（男性）"]
+      }
+    },
+    {
+      "id": "sentence_he_from_japan",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he",
+        "word_come",
+        "word_from",
+        "word_country",
+        "word_japan",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "She is from Japan (female)",
+        "th": "เขามาจากประเทศญี่ปุ่นค่ะ",
+        "fa": "او از ژاپن می‌آید (گوینده زن)",
+        "ar": "هي من اليابان (تقولها المرأة)",
+        "es": "Ella es de Japón (mujer)",
+        "zh": "她来自日本（女性说）",
+        "ja": "彼女は日本から来ました（女性）"
+      },
+      "tokens": {
+        "en": ["She", "is", "from", "Japan", "(female)"],
+        "th": ["เขา", "มา", "จาก", "ประเทศ", "ญี่ปุ่น", "ค่ะ"],
+        "fa": ["او", "از", "ژاپن", "می‌آید", "(گوینده", "زن)"],
+        "ar": ["هي", "من", "اليابان", "(تقولها", "المرأة)"],
+        "es": ["Ella", "es", "de", "Japón", "(mujer)"],
+        "zh": ["她", "来自", "日本", "（女性说）"],
+        "ja": ["彼女", "は", "日本", "から", "来", "ました", "（女性）"]
+      }
+    },
+    {
+      "id": "word_country",
+      "kind": "word",
+      "texts": {
+        "en": "country",
+        "th": "ประเทศ",
+        "fa": "کشور",
+        "ar": "بلد",
+        "es": "país",
+        "zh": "国家",
+        "ja": "国"
+      }
+    },
+    {
+      "id": "word_thai",
+      "kind": "word",
+      "texts": {
+        "en": "Thai",
+        "th": "ไทย",
+        "fa": "تایلندی",
+        "ar": "تايلاندي",
+        "es": "tailandés",
+        "zh": "泰国（的）",
+        "ja": "タイ（の）"
+      }
+    },
+    {
+      "id": "word_china",
+      "kind": "word",
+      "texts": {
+        "en": "China",
+        "th": "จีน",
+        "fa": "چین",
+        "ar": "الصين",
+        "es": "China",
+        "zh": "中国",
+        "ja": "中国"
+      }
+    },
+    {
+      "id": "word_japan",
+      "kind": "word",
+      "texts": {
+        "en": "Japan",
+        "th": "ญี่ปุ่น",
+        "fa": "ژاپن",
+        "ar": "اليابان",
+        "es": "Japón",
+        "zh": "日本",
+        "ja": "日本"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Who Is That? (นั่นใคร)",
+        "th": "สถานการณ์ 4: นั่นใคร",
+        "fa": "سناریو ۴: آن کیست؟ (นั่นใคร)",
+        "ar": "السيناريو 4: من ذلك؟ (นั่นใคร)",
+        "es": "Escenario 4: ¿Quién es ese? (นั่นใคร)",
+        "zh": "场景四：那是谁？ (นั่นใคร)",
+        "ja": "シナリオ4：あれは誰？ (นั่นใคร)"
+      }
+    },
+    {
+      "id": "sentence_who_that",
+      "kind": "sentence",
+      "itemIds": ["word_there", "word_who", "word_polite_particle"],
+      "texts": {
+        "en": "Who is that?",
+        "th": "นั่นใครครับ",
+        "fa": "آن کیست؟",
+        "ar": "من ذلك؟",
+        "es": "¿Quién es ese?",
+        "zh": "那是谁？",
+        "ja": "あれは誰ですか？"
+      },
+      "tokens": {
+        "en": ["Who", "is", "that?"],
+        "th": ["นั่น", "ใคร", "ครับ"],
+        "fa": ["آن", "کیست؟"],
+        "ar": ["من", "ذلك؟"],
+        "es": ["¿Quién", "es", "ese?"],
+        "zh": ["那", "是", "谁？"],
+        "ja": ["あれ", "は", "誰", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_who_answer",
+      "kind": "sentence",
+      "itemIds": [
+        "word_there",
+        "word_friend",
+        "word_of",
+        "word_i",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "That is my friend (female)",
+        "th": "นั่นเพื่อนของฉันค่ะ",
+        "fa": "آن دوست من است (گوینده زن)",
+        "ar": "تلك صديقتي (تقولها المرأة)",
+        "es": "Esa es mi amiga (mujer)",
+        "zh": "那是我的朋友（女性说）",
+        "ja": "あれは私の友達です（女性）"
+      },
+      "tokens": {
+        "en": ["That", "is", "my", "friend", "(female)"],
+        "th": ["นั่น", "เพื่อน", "ของ", "ฉัน", "ค่ะ"],
+        "fa": ["آن", "دوست", "من", "است", "(گوینده", "زن)"],
+        "ar": ["تلك", "صديقتي", "(تقولها", "المرأة)"],
+        "es": ["Esa", "es", "mi", "amiga", "(mujer)"],
+        "zh": ["那", "是", "我", "的", "朋友", "（女性说）"],
+        "ja": ["あれ", "は", "私", "の", "友達", "です", "（女性）"]
+      }
+    },
+    {
+      "id": "sentence_this_is_friend",
+      "kind": "sentence",
+      "itemIds": ["word_this", "word_is", "word_friend", "word_of", "word_i"],
+      "texts": {
+        "en": "This is my friend",
+        "th": "นี่คือเพื่อนของฉัน",
+        "fa": "این دوست من است",
+        "ar": "هذا صديقي",
+        "es": "Este es mi amigo",
+        "zh": "这是我的朋友",
+        "ja": "これは私の友達です"
+      },
+      "tokens": {
+        "en": ["This", "is", "my", "friend"],
+        "th": ["นี่", "คือ", "เพื่อน", "ของ", "ฉัน"],
+        "fa": ["این", "دوست", "من", "است"],
+        "ar": ["هذا", "صديقي"],
+        "es": ["Este", "es", "mi", "amigo"],
+        "zh": ["这", "是", "我", "的", "朋友"],
+        "ja": ["これ", "は", "私", "の", "友達", "です"]
+      }
+    },
+    {
+      "id": "sentence_he_my_friend",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he",
+        "word_be",
+        "word_friend",
+        "word_of",
+        "word_i",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "He is my friend (male)",
+        "th": "เขาเป็นเพื่อนของฉันครับ",
+        "fa": "او دوست من است (گوینده مرد)",
+        "ar": "هو صديقي (يقولها الرجل)",
+        "es": "Él es mi amigo (hombre)",
+        "zh": "他是我的朋友（男性说）",
+        "ja": "彼は私の友達です（男性）"
+      },
+      "tokens": {
+        "en": ["He", "is", "my", "friend", "(male)"],
+        "th": ["เขา", "เป็น", "เพื่อน", "ของ", "ฉัน", "ครับ"],
+        "fa": ["او", "دوست", "من", "است", "(گوینده", "مرد)"],
+        "ar": ["هو", "صديقي", "(يقولها", "الرجل)"],
+        "es": ["Él", "es", "mi", "amigo", "(hombre)"],
+        "zh": ["他", "是", "我", "的", "朋友", "（男性说）"],
+        "ja": ["彼", "は", "私", "の", "友達", "です", "（男性）"]
+      }
+    },
+    {
+      "id": "word_this",
+      "kind": "word",
+      "texts": {
+        "en": "this",
+        "th": "นี่",
+        "fa": "این",
+        "ar": "هذا",
+        "es": "esto",
+        "zh": "这",
+        "ja": "これ"
+      }
+    },
+    {
+      "id": "word_there",
+      "kind": "word",
+      "texts": {
+        "en": "that (over there)",
+        "th": "นั่น",
+        "fa": "آن",
+        "ar": "ذلك",
+        "es": "eso / ese",
+        "zh": "那",
+        "ja": "あれ"
+      }
+    },
+    {
+      "id": "word_friend",
+      "kind": "word",
+      "texts": {
+        "en": "friend",
+        "th": "เพื่อน",
+        "fa": "دوست",
+        "ar": "صديق",
+        "es": "amigo",
+        "zh": "朋友",
+        "ja": "友達"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: About Me — Jobs & Basic SVO",
+        "th": "สถานการณ์ 5: เกี่ยวกับฉัน — อาชีพและประโยคพื้นฐาน",
+        "fa": "سناریو ۵: درباره من — شغل‌ها و جمله پایه",
+        "ar": "السيناريو 5: عني — الوظائف والجمل الأساسية",
+        "es": "Escenario 5: Sobre mí — trabajos y oraciones básicas",
+        "zh": "场景五：关于我——职业与基本句式",
+        "ja": "シナリオ5：自己紹介——職業と基本文"
+      }
+    },
+    {
+      "id": "sentence_what_her_name",
+      "kind": "sentence",
+      "itemIds": ["word_she", "word_name", "word_what", "word_polite_particle"],
+      "texts": {
+        "en": "What is her name?",
+        "th": "เธอชื่ออะไรครับ",
+        "fa": "نام او چیست؟",
+        "ar": "ما اسمها؟",
+        "es": "¿Cómo se llama ella?",
+        "zh": "她叫什么名字？",
+        "ja": "彼女の名前はなんですか？"
+      },
+      "tokens": {
+        "en": ["What", "is", "her", "name?"],
+        "th": ["เธอ", "ชื่อ", "อะไร", "ครับ"],
+        "fa": ["نام", "او", "چیست؟"],
+        "ar": ["ما", "اسمها؟"],
+        "es": ["¿Cómo", "se", "llama", "ella?"],
+        "zh": ["她", "叫", "什么", "名字？"],
+        "ja": ["彼女", "の", "名前", "は", "何", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_i_student",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_be", "word_student", "word_polite_particle"],
+      "texts": {
+        "en": "I am a student (female)",
+        "th": "ฉันเป็นนักเรียนค่ะ",
+        "fa": "من دانش‌آموز هستم (گوینده زن)",
+        "ar": "أنا طالبة (تقولها المرأة)",
+        "es": "Soy estudiante (mujer)",
+        "zh": "我是学生（女性说）",
+        "ja": "私は学生です（女性）"
+      },
+      "tokens": {
+        "en": ["I", "am", "a", "student", "(female)"],
+        "th": ["ฉัน", "เป็น", "นักเรียน", "ค่ะ"],
+        "fa": ["من", "دانش‌آموز", "هستم", "(گوینده", "زن)"],
+        "ar": ["أنا", "طالبة", "(تقولها", "المرأة)"],
+        "es": ["Soy", "estudiante", "(mujer)"],
+        "zh": ["我", "是", "学生", "（女性说）"],
+        "ja": ["私", "は", "学生", "です", "（女性）"]
+      }
+    },
+    {
+      "id": "sentence_i_teacher",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i_male",
+        "word_be",
+        "word_teacher",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "I am a teacher (male)",
+        "th": "ผมเป็นครูครับ",
+        "fa": "من معلم هستم (گوینده مرد)",
+        "ar": "أنا معلم (يقولها الرجل)",
+        "es": "Soy profesor (hombre)",
+        "zh": "我是老师（男性说）",
+        "ja": "私は先生です（男性）"
+      },
+      "tokens": {
+        "en": ["I", "am", "a", "teacher", "(male)"],
+        "th": ["ผม", "เป็น", "ครู", "ครับ"],
+        "fa": ["من", "معلم", "هستم", "(گوینده", "مرد)"],
+        "ar": ["أنا", "معلم", "(يقولها", "الرجل)"],
+        "es": ["Soy", "profesor", "(hombre)"],
+        "zh": ["我", "是", "老师", "（男性说）"],
+        "ja": ["私", "は", "先生", "です", "（男性）"]
+      }
+    },
+    {
+      "id": "sentence_what_do",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_do",
+        "word_occupation",
+        "word_what",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "What do you do? (work)",
+        "th": "คุณทำอาชีพอะไรครับ",
+        "fa": "شما چه کاری انجام می‌دهید؟",
+        "ar": "ما مهنتك؟",
+        "es": "¿A qué te dedicas?",
+        "zh": "你做什么工作？",
+        "ja": "お仕事は何ですか？"
+      },
+      "tokens": {
+        "en": ["What", "do", "you", "do?", "(work)"],
+        "th": ["คุณ", "ทำ", "อาชีพ", "อะไร", "ครับ"],
+        "fa": ["شما", "چه", "کاری", "انجام", "می‌دهید؟"],
+        "ar": ["ما", "مهنتك؟"],
+        "es": ["¿A", "qué", "te", "dedicas?"],
+        "zh": ["你", "做", "什么", "工作？"],
+        "ja": ["お仕事", "は", "何", "です", "か？"]
+      }
+    },
+    {
+      "id": "word_student",
+      "kind": "word",
+      "texts": {
+        "en": "student",
+        "th": "นักเรียน",
+        "fa": "دانش‌آموز",
+        "ar": "طالب",
+        "es": "estudiante",
+        "zh": "学生",
+        "ja": "学生"
+      }
+    },
+    {
+      "id": "word_teacher",
+      "kind": "word",
+      "texts": {
+        "en": "teacher",
+        "th": "ครู",
+        "fa": "معلم",
+        "ar": "معلم",
+        "es": "profesor",
+        "zh": "老师",
+        "ja": "先生"
+      }
+    },
+    {
+      "id": "word_occupation",
+      "kind": "word",
+      "texts": {
+        "en": "occupation",
+        "th": "อาชีพ",
+        "fa": "شغل",
+        "ar": "مهنة",
+        "es": "profesión",
+        "zh": "职业",
+        "ja": "職業"
+      }
+    }
+  ]
+}

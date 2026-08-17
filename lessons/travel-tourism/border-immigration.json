@@ -1,0 +1,1000 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras clave",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_we",
+      "kind": "word",
+      "texts": {
+        "en": "we",
+        "th": "เรา",
+        "fa": "ما",
+        "ar": "نحن",
+        "es": "nosotros",
+        "zh": "我们",
+        "ja": "私たち"
+      }
+    },
+    {
+      "id": "word_he",
+      "kind": "word",
+      "texts": {
+        "en": "he / she",
+        "th": "เขา",
+        "fa": "او",
+        "ar": "هو / هي",
+        "es": "él / ella",
+        "zh": "他 / 她",
+        "ja": "彼 / 彼女"
+      }
+    },
+    {
+      "id": "word_have",
+      "kind": "word",
+      "texts": {
+        "en": "have",
+        "th": "มี",
+        "fa": "داشتن",
+        "ar": "يملك",
+        "es": "tener",
+        "zh": "有",
+        "ja": "ある"
+      }
+    },
+    {
+      "id": "word_can",
+      "kind": "word",
+      "texts": {
+        "en": "can",
+        "th": "ได้",
+        "fa": "توانستن",
+        "ar": "يستطيع",
+        "es": "poder",
+        "zh": "可以",
+        "ja": "できる"
+      }
+    },
+    {
+      "id": "word_of",
+      "kind": "word",
+      "texts": {
+        "en": "of",
+        "th": "ของ",
+        "fa": "مالِ / از",
+        "ar": "خاص بـ",
+        "es": "de",
+        "zh": "的",
+        "ja": "の"
+      }
+    },
+    {
+      "id": "word_question_particle",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_will",
+      "kind": "word",
+      "texts": {
+        "en": "will / future marker",
+        "th": "จะ",
+        "fa": "خواهد (نشانه آینده)",
+        "ar": "سوف",
+        "es": "partícula de futuro",
+        "zh": "将 / 会",
+        "ja": "〜するつもり (未来のマーカー)"
+      }
+    },
+    {
+      "id": "word_progressive",
+      "kind": "word",
+      "texts": {
+        "en": "currently / -ing marker",
+        "th": "กำลัง",
+        "fa": "در حال (نشانه استمراری)",
+        "ar": "قيد / الآن",
+        "es": "estar + gerundio",
+        "zh": "正在",
+        "ja": "〜している (進行のマーカー)"
+      }
+    },
+    {
+      "id": "word_already",
+      "kind": "word",
+      "texts": {
+        "en": "already / completed marker",
+        "th": "แล้ว",
+        "fa": "قبلاً / انجام شد",
+        "ar": "قد / بالفعل",
+        "es": "ya",
+        "zh": "已经",
+        "ja": "もう〜した (完了のマーカー)"
+      }
+    },
+    {
+      "id": "word_ever",
+      "kind": "word",
+      "texts": {
+        "en": "ever / have done before",
+        "th": "เคย",
+        "fa": "تا به حال / سابقه داشتن",
+        "ar": "سبق أن",
+        "es": "alguna vez / haber hecho",
+        "zh": "曾经",
+        "ja": "〜したことがある (経験)"
+      }
+    },
+    {
+      "id": "word_say",
+      "kind": "word",
+      "texts": {
+        "en": "say / tell",
+        "th": "บอก",
+        "fa": "گفتن",
+        "ar": "يقول",
+        "es": "decir",
+        "zh": "说 / 告诉",
+        "ja": "言う"
+      }
+    },
+    {
+      "id": "word_ask",
+      "kind": "word",
+      "texts": {
+        "en": "ask",
+        "th": "ถาม",
+        "fa": "پرسیدن",
+        "ar": "يسأل",
+        "es": "preguntar",
+        "zh": "问",
+        "ja": "尋ねる"
+      }
+    },
+    {
+      "id": "word_that",
+      "kind": "word",
+      "texts": {
+        "en": "that (clause marker)",
+        "th": "ว่า",
+        "fa": "که",
+        "ar": "أنّ",
+        "es": "que",
+        "zh": "引语标记（说／道）",
+        "ja": "〜と (引用のマーカー)"
+      }
+    },
+    {
+      "id": "word_here",
+      "kind": "word",
+      "texts": {
+        "en": "here",
+        "th": "ที่นี่",
+        "fa": "اینجا",
+        "ar": "هنا",
+        "es": "aquí",
+        "zh": "这里",
+        "ja": "ここ"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Passport Check",
+        "th": "สถานการณ์ 1: การตรวจหนังสือเดินทาง",
+        "fa": "سناریو ۱: کنترل گذرنامه",
+        "ar": "السيناريو 1: فحص جواز السفر",
+        "es": "Escenario 1: Control de pasaporte",
+        "zh": "场景一：护照检查",
+        "ja": "シナリオ1：パスポート検査"
+      }
+    },
+    {
+      "id": "sentence_imm_see_passport",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_see",
+        "word_passport",
+        "word_of",
+        "word_you",
+        "word_can"
+      ],
+      "texts": {
+        "en": "May I see your passport",
+        "th": "ขอดูหนังสือเดินทางของคุณได้ไหม",
+        "fa": "می‌توانم گذرنامه شما را ببینم",
+        "ar": "هل يمكنني رؤية جواز سفرك",
+        "es": "Puedo ver tu pasaporte",
+        "zh": "我能看看你的护照吗",
+        "ja": "パスポートを見せていただけますか"
+      },
+      "tokens": {
+        "en": ["May", "I", "see", "your", "passport"],
+        "th": ["ขอ", "ดู", "หนังสือเดินทาง", "ของ", "คุณ", "ได้", "ไหม"],
+        "fa": ["می‌توانم", "گذرنامه", "شما", "را", "ببینم"],
+        "ar": ["هل", "يمكنني", "رؤية", "جواز", "سفرك"],
+        "es": ["Puedo", "ver", "tu", "pasaporte"],
+        "zh": ["我", "能", "看看", "你的", "护照", "吗"],
+        "ja": ["パスポート", "を", "見せて", "いただけます", "か"]
+      }
+    },
+    {
+      "id": "sentence_imm_here_passport",
+      "kind": "sentence",
+      "itemIds": ["word_here", "word_passport", "word_of", "word_i"],
+      "texts": {
+        "en": "Here is my passport",
+        "th": "นี่คือหนังสือเดินทางของฉัน",
+        "fa": "این گذرنامه من است",
+        "ar": "هذا جواز سفري",
+        "es": "Aquí está mi pasaporte",
+        "zh": "这是我的护照",
+        "ja": "これが私のパスポートです"
+      },
+      "tokens": {
+        "en": ["Here", "is", "my", "passport"],
+        "th": ["นี่", "คือ", "หนังสือเดินทาง", "ของ", "ฉัน"],
+        "fa": ["این", "گذرنامه", "من", "است"],
+        "ar": ["هذا", "جواز", "سفري"],
+        "es": ["Aquí", "está", "mi", "pasaporte"],
+        "zh": ["这", "是", "我的", "护照"],
+        "ja": ["これ", "が", "私", "の", "パスポート", "です"]
+      }
+    },
+    {
+      "id": "word_passport",
+      "kind": "word",
+      "texts": {
+        "en": "passport",
+        "th": "หนังสือเดินทาง",
+        "fa": "گذرنامه",
+        "ar": "جواز سفر",
+        "es": "pasaporte",
+        "zh": "护照",
+        "ja": "パスポート"
+      }
+    },
+    {
+      "id": "word_see",
+      "kind": "word",
+      "texts": {
+        "en": "see",
+        "th": "ดู",
+        "fa": "دیدن",
+        "ar": "يرى",
+        "es": "ver",
+        "zh": "看",
+        "ja": "見る"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Purpose of Visit",
+        "th": "สถานการณ์ 2: จุดประสงค์การมาเยือน",
+        "fa": "سناریو ۲: هدف از بازدید",
+        "ar": "السيناريو 2: غرض الزيارة",
+        "es": "Escenario 2: Propósito de la visita",
+        "zh": "场景二：访问目的",
+        "ja": "シナリオ2：訪問の目的"
+      }
+    },
+    {
+      "id": "sentence_imm_what_purpose",
+      "kind": "sentence",
+      "itemIds": [
+        "word_what",
+        "word_purpose",
+        "word_visit",
+        "word_of",
+        "word_you"
+      ],
+      "texts": {
+        "en": "What is the purpose of your visit",
+        "th": "จุดประสงค์การเยี่ยมชมของคุณคืออะไร",
+        "fa": "هدف از بازدید شما چیست",
+        "ar": "ما هو غرض زيارتك",
+        "es": "Cuál es el propósito de tu visita",
+        "zh": "你访问的目的是什么",
+        "ja": "訪問の目的は何ですか"
+      },
+      "tokens": {
+        "en": ["What", "is", "the", "purpose", "of", "your", "visit"],
+        "th": ["จุดประสงค์", "การ", "เยี่ยมชม", "ของ", "คุณ", "คือ", "อะไร"],
+        "fa": ["هدف", "از", "بازدید", "شما", "چیست"],
+        "ar": ["ما", "هو", "غرض", "زيارتك"],
+        "es": ["Cuál", "es", "el", "propósito", "de", "tu", "visita"],
+        "zh": ["你", "访问", "的", "目的", "是", "什么"],
+        "ja": ["訪問", "の", "目的", "は", "何", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_imm_here_holiday",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_here", "word_holiday"],
+      "texts": {
+        "en": "I am here for a holiday",
+        "th": "ฉันมาที่นี่เพื่อวันหยุด",
+        "fa": "من برای تعطیلات اینجا هستم",
+        "ar": "أنا هنا من أجل الإجازة",
+        "es": "Estoy aquí de vacaciones",
+        "zh": "我来这里度假",
+        "ja": "休暇でここに来ました"
+      },
+      "tokens": {
+        "en": ["I", "am", "here", "for", "a", "holiday"],
+        "th": ["ฉัน", "มา", "ที่นี่", "เพื่อ", "วันหยุด"],
+        "fa": ["من", "برای", "تعطیلات", "اینجا", "هستم"],
+        "ar": ["أنا", "هنا", "من", "أجل", "الإجازة"],
+        "es": ["Estoy", "aquí", "de", "vacaciones"],
+        "zh": ["我", "来", "这里", "度假"],
+        "ja": ["休暇", "で", "ここ", "に", "来", "まし", "た"]
+      }
+    },
+    {
+      "id": "word_what",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه",
+        "ar": "ماذا",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_purpose",
+      "kind": "word",
+      "texts": {
+        "en": "purpose",
+        "th": "จุดประสงค์",
+        "fa": "هدف",
+        "ar": "غرض",
+        "es": "propósito",
+        "zh": "目的",
+        "ja": "目的"
+      }
+    },
+    {
+      "id": "word_visit",
+      "kind": "word",
+      "texts": {
+        "en": "visit",
+        "th": "เยี่ยมชม",
+        "fa": "بازدید",
+        "ar": "زيارة",
+        "es": "visitar",
+        "zh": "访问",
+        "ja": "訪問"
+      }
+    },
+    {
+      "id": "word_holiday",
+      "kind": "word",
+      "texts": {
+        "en": "holiday",
+        "th": "วันหยุด",
+        "fa": "تعطیلات",
+        "ar": "إجازة",
+        "es": "vacaciones",
+        "zh": "假期",
+        "ja": "休暇"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Duration of Stay",
+        "th": "สถานการณ์ 3: ระยะเวลาที่พำนัก",
+        "fa": "سناریو ۳: مدت اقامت",
+        "ar": "السيناريو 3: مدة الإقامة",
+        "es": "Escenario 3: Duración de la estancia",
+        "zh": "场景三：停留时间",
+        "ja": "シナリオ3：滞在期間"
+      }
+    },
+    {
+      "id": "sentence_imm_how_many_days_stay",
+      "kind": "sentence",
+      "itemIds": ["word_how_many", "word_day", "word_you", "word_stay"],
+      "texts": {
+        "en": "How many days will you stay",
+        "th": "คุณจะพักกี่วัน",
+        "fa": "چند روز می‌مانید",
+        "ar": "كم يوما ستبقى",
+        "es": "Cuántos días te quedarás",
+        "zh": "你将停留多少天",
+        "ja": "何日間滞在しますか"
+      },
+      "tokens": {
+        "en": ["How", "many", "days", "will", "you", "stay"],
+        "th": ["คุณ", "จะ", "พัก", "กี่", "วัน"],
+        "fa": ["چند", "روز", "می‌مانید"],
+        "ar": ["كم", "يوما", "ستبقى"],
+        "es": ["Cuántos", "días", "te", "quedarás"],
+        "zh": ["你", "将", "停留", "多少", "天"],
+        "ja": ["何日間", "滞在", "します", "か"]
+      }
+    },
+    {
+      "id": "sentence_imm_stay_five_days",
+      "kind": "sentence",
+      "itemIds": ["word_we", "word_stay", "word_five", "word_day"],
+      "texts": {
+        "en": "We will stay for five days",
+        "th": "เราจะพักห้าวัน",
+        "fa": "ما پنج روز می‌مانیم",
+        "ar": "سنبقى لمدة خمسة أيام",
+        "es": "Nos quedaremos cinco días",
+        "zh": "我们将停留五天",
+        "ja": "五日間滞在します"
+      },
+      "tokens": {
+        "en": ["We", "will", "stay", "for", "five", "days"],
+        "th": ["เรา", "จะ", "พัก", "ห้า", "วัน"],
+        "fa": ["ما", "پنج", "روز", "می‌مانیم"],
+        "ar": ["سنبقى", "لمدة", "خمسة", "أيام"],
+        "es": ["Nos", "quedaremos", "cinco", "días"],
+        "zh": ["我们", "将", "停留", "五天"],
+        "ja": ["五日間", "滞在", "します"]
+      }
+    },
+    {
+      "id": "sentence_imm_will_leave_tomorrow",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_will", "word_leave", "word_tomorrow"],
+      "texts": {
+        "en": "I will leave tomorrow",
+        "th": "ฉันจะกลับพรุ่งนี้ค่ะ",
+        "fa": "من فردا می‌روم",
+        "ar": "سأغادر غدا",
+        "es": "Me iré mañana",
+        "zh": "我明天离开",
+        "ja": "明日出発します"
+      },
+      "tokens": {
+        "en": ["I", "will", "leave", "tomorrow"],
+        "th": ["ฉัน", "จะ", "กลับ", "พรุ่งนี้", "ค่ะ"],
+        "fa": ["من", "فردا", "می‌روم"],
+        "ar": ["سأغادر", "غدا"],
+        "es": ["Me", "iré", "mañana"],
+        "zh": ["我", "明天", "离开"],
+        "ja": ["明日", "出発", "し", "ます"]
+      }
+    },
+    {
+      "id": "word_how_many",
+      "kind": "word",
+      "texts": {
+        "en": "how many",
+        "th": "กี่",
+        "fa": "چند",
+        "ar": "كم",
+        "es": "cuántos",
+        "zh": "多少",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_day",
+      "kind": "word",
+      "texts": {
+        "en": "day",
+        "th": "วัน",
+        "fa": "روز",
+        "ar": "يوم",
+        "es": "día",
+        "zh": "天",
+        "ja": "日"
+      }
+    },
+    {
+      "id": "word_stay",
+      "kind": "word",
+      "texts": {
+        "en": "stay",
+        "th": "พัก",
+        "fa": "ماندن",
+        "ar": "يبقى",
+        "es": "quedarse",
+        "zh": "停留",
+        "ja": "滞在する"
+      }
+    },
+    {
+      "id": "word_five",
+      "kind": "word",
+      "texts": {
+        "en": "five",
+        "th": "ห้า",
+        "fa": "پنج",
+        "ar": "خمسة",
+        "es": "cinco",
+        "zh": "五",
+        "ja": "五"
+      }
+    },
+    {
+      "id": "word_leave",
+      "kind": "word",
+      "texts": {
+        "en": "leave / go back",
+        "th": "กลับ",
+        "fa": "برگشتن / ترک کردن",
+        "ar": "يغادر",
+        "es": "irse / regresar",
+        "zh": "离开 / 回",
+        "ja": "帰る / 出発する"
+      }
+    },
+    {
+      "id": "word_tomorrow",
+      "kind": "word",
+      "texts": {
+        "en": "tomorrow",
+        "th": "พรุ่งนี้",
+        "fa": "فردا",
+        "ar": "غدا",
+        "es": "mañana",
+        "zh": "明天",
+        "ja": "明日"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Customs Declaration — Yes/No Questions (G3)",
+        "th": "สถานการณ์ 4: การสำแดงของผ่านศุลกากร — คำถามใช่/ไม่ใช่ (G3)",
+        "fa": "سناریو ۴: اظهار گمرکی — سوالات بله/خیر (G3)",
+        "ar": "السيناريو 4: التصريح الجمركي — أسئلة نعم/لا (G3)",
+        "es": "Escenario 4: Declaración de aduana — preguntas de sí/no (G3)",
+        "zh": "场景四：海关申报——是非问句 (G3)",
+        "ja": "シナリオ4：税関申告 — はい/いいえ質問 (G3)"
+      }
+    },
+    {
+      "id": "sentence_imm_anything_declare",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_have",
+        "word_declare",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Do you have anything to declare",
+        "th": "คุณมีอะไรต้องสำแดงไหม",
+        "fa": "آیا چیزی برای اظهار کردن دارید",
+        "ar": "هل لديك أي شيء لتصرح به",
+        "es": "Tienes algo que declarar",
+        "zh": "你有任何需要申报的东西吗",
+        "ja": "申告するものはありますか"
+      },
+      "tokens": {
+        "en": ["Do", "you", "have", "anything", "to", "declare"],
+        "th": ["คุณ", "มี", "อะไร", "ต้อง", "สำแดง", "ไหม"],
+        "fa": ["آیا", "چیزی", "برای", "اظهار", "کردن", "دارید"],
+        "ar": ["هل", "لديك", "أي", "شيء", "لتصرح", "به"],
+        "es": ["Tienes", "algo", "que", "declarar"],
+        "zh": ["你", "有", "任何", "需要", "申报", "的", "东西", "吗"],
+        "ja": ["申告", "する", "もの", "は", "あります", "か"]
+      }
+    },
+    {
+      "id": "sentence_imm_nothing",
+      "kind": "sentence",
+      "itemIds": ["word_nothing"],
+      "texts": {
+        "en": "Nothing",
+        "th": "ไม่มีอะไร",
+        "fa": "هیچ چیز",
+        "ar": "لا شيء",
+        "es": "Nada",
+        "zh": "没有",
+        "ja": "何も"
+      },
+      "tokens": {
+        "en": ["Nothing"],
+        "th": ["ไม่มีอะไร"],
+        "fa": ["هیچ", "چیز"],
+        "ar": ["لا", "شيء"],
+        "es": ["Nada"],
+        "zh": ["没有"],
+        "ja": ["何も"]
+      }
+    },
+    {
+      "id": "sentence_imm_welcome",
+      "kind": "sentence",
+      "itemIds": ["word_welcome"],
+      "texts": {
+        "en": "Welcome to Thailand",
+        "th": "ยินดีต้อนรับสู่ประเทศไทย",
+        "fa": "به تایلند خوش آمدید",
+        "ar": "أهلا وسهلا بك في تايلاند",
+        "es": "Bienvenido a Tailandia",
+        "zh": "欢迎来到泰国",
+        "ja": "タイへようこそ"
+      },
+      "tokens": {
+        "en": ["Welcome", "to", "Thailand"],
+        "th": ["ยินดีต้อนรับ", "สู่", "ประเทศ", "ไทย"],
+        "fa": ["به", "تایلند", "خوش", "آمدید"],
+        "ar": ["أهلا", "وسهلا", "بك", "في", "تايلاند"],
+        "es": ["Bienvenido", "a", "Tailandia"],
+        "zh": ["欢迎", "来到", "泰国"],
+        "ja": ["タイ", "へ", "ようこそ"]
+      }
+    },
+    {
+      "id": "word_declare",
+      "kind": "word",
+      "texts": {
+        "en": "declare",
+        "th": "สำแดง",
+        "fa": "اظهار کردن",
+        "ar": "يصرح",
+        "es": "declarar",
+        "zh": "申报",
+        "ja": "申告する"
+      }
+    },
+    {
+      "id": "word_nothing",
+      "kind": "word",
+      "texts": {
+        "en": "nothing",
+        "th": "ไม่มีอะไร",
+        "fa": "هیچ چیز",
+        "ar": "لا شيء",
+        "es": "nada",
+        "zh": "没有",
+        "ja": "何も"
+      }
+    },
+    {
+      "id": "word_welcome",
+      "kind": "word",
+      "texts": {
+        "en": "welcome",
+        "th": "ยินดีต้อนรับ",
+        "fa": "خوش آمدید",
+        "ar": "أهلا وسهلا",
+        "es": "bienvenido",
+        "zh": "欢迎",
+        "ja": "ようこそ"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Tense & Aspect — จะ/แล้ว/เคย/กำลัง (G8)",
+        "th": "สถานการณ์ 5: กาลและลักษณะการกระทำ — จะ/แล้ว/เคย/กำลัง (G8)",
+        "fa": "سناریو ۵: زمان و نمود — จะ/แล้ว/เคย/กำลัง (G8)",
+        "ar": "السيناريو 5: الزمن والجانب — จะ/แล้ว/เคย/กำลัง (G8)",
+        "es": "Escenario 5: Tiempo y aspecto — จะ/แล้ว/เคย/กำลัง (G8)",
+        "zh": "场景五：时态与体——จะ/แล้ว/เคย/กำลัง (G8)",
+        "ja": "シナリオ5：テンスとアスペクト — จะ/แล้ว/เคย/กำลัง (G8)"
+      }
+    },
+    {
+      "id": "sentence_imm_arrived_already",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_arrive", "word_already"],
+      "texts": {
+        "en": "I have already arrived",
+        "th": "ฉันมาถึงแล้วค่ะ",
+        "fa": "من رسیده‌ام",
+        "ar": "لقد وصلت بالفعل",
+        "es": "Ya he llegado",
+        "zh": "我已经到了",
+        "ja": "もう到着しました"
+      },
+      "tokens": {
+        "en": ["I", "have", "already", "arrived"],
+        "th": ["ฉัน", "มาถึง", "แล้ว", "ค่ะ"],
+        "fa": ["من", "رسیده‌ام"],
+        "ar": ["لقد", "وصلت", "بالفعل"],
+        "es": ["Ya", "he", "llegado"],
+        "zh": ["我", "已经", "到了"],
+        "ja": ["もう", "到着", "し", "ました"]
+      }
+    },
+    {
+      "id": "sentence_imm_ever_been_thailand",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_ever",
+        "word_thailand",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Have you ever been to Thailand?",
+        "th": "คุณเคยมาประเทศไทยไหมครับ",
+        "fa": "آیا تا به حال به تایلند آمده‌اید؟",
+        "ar": "هل سبق أن زرت تايلاند؟",
+        "es": "¿Alguna vez has ido a Tailandia?",
+        "zh": "你曾经来过泰国吗？",
+        "ja": "タイに来たことはありますか？"
+      },
+      "tokens": {
+        "en": ["Have", "you", "ever", "been", "to", "Thailand?"],
+        "th": ["คุณ", "เคย", "มา", "ประเทศไทย", "ไหม", "ครับ"],
+        "fa": ["آیا", "تا", "به", "حال", "به", "تایلند", "آمده‌اید؟"],
+        "ar": ["هل", "سبق", "أن", "زرت", "تايلاند؟"],
+        "es": ["¿Alguna", "vez", "has", "ido", "a", "Tailandia?"],
+        "zh": ["你", "曾经", "来过", "泰国", "吗？"],
+        "ja": ["タイ", "に", "来た", "こと", "は", "あります", "か？"]
+      }
+    },
+    {
+      "id": "sentence_imm_waiting_luggage",
+      "kind": "sentence",
+      "itemIds": ["word_we", "word_progressive", "word_wait", "word_luggage"],
+      "texts": {
+        "en": "We are waiting for the luggage",
+        "th": "เรากำลังรอกระเป๋าอยู่ครับ",
+        "fa": "ما منتظر چمدان‌ها هستیم",
+        "ar": "نحن ننتظر الأمتعة",
+        "es": "Estamos esperando el equipaje",
+        "zh": "我们正在等行李",
+        "ja": "荷物を待っています"
+      },
+      "tokens": {
+        "en": ["We", "are", "waiting", "for", "the", "luggage"],
+        "th": ["เรา", "กำลัง", "รอ", "กระเป๋า", "อยู่", "ครับ"],
+        "fa": ["ما", "منتظر", "چمدان‌ها", "هستیم"],
+        "ar": ["نحن", "ننتظر", "الأمتعة"],
+        "es": ["Estamos", "esperando", "el", "equipaje"],
+        "zh": ["我们", "正在", "等", "行李"],
+        "ja": ["荷物", "を", "待って", "います"]
+      }
+    },
+    {
+      "id": "word_arrive",
+      "kind": "word",
+      "texts": {
+        "en": "arrive",
+        "th": "มาถึง",
+        "fa": "رسیدن",
+        "ar": "يصل",
+        "es": "llegar",
+        "zh": "到达",
+        "ja": "到着する"
+      }
+    },
+    {
+      "id": "word_thailand",
+      "kind": "word",
+      "texts": {
+        "en": "Thailand",
+        "th": "ประเทศไทย",
+        "fa": "تایلند",
+        "ar": "تايلاند",
+        "es": "Tailandia",
+        "zh": "泰国",
+        "ja": "タイ"
+      }
+    },
+    {
+      "id": "word_wait",
+      "kind": "word",
+      "texts": {
+        "en": "wait",
+        "th": "รอ",
+        "fa": "صبر کردن / منتظر ماندن",
+        "ar": "ينتظر",
+        "es": "esperar",
+        "zh": "等",
+        "ja": "待つ"
+      }
+    },
+    {
+      "id": "word_luggage",
+      "kind": "word",
+      "texts": {
+        "en": "luggage",
+        "th": "กระเป๋า",
+        "fa": "چمدان",
+        "ar": "أمتعة",
+        "es": "equipaje",
+        "zh": "行李",
+        "ja": "荷物"
+      }
+    },
+    {
+      "id": "header_scenario6",
+      "header": true,
+      "texts": {
+        "en": "Scenario 6: Reported Speech — บอกว่า/ถามว่า (G20)",
+        "th": "สถานการณ์ 6: คำพูดอ้างอิง — บอกว่า/ถามว่า (G20)",
+        "fa": "سناریو ۶: نقل قول — บอกว่า/ถามว่า (G20)",
+        "ar": "السيناريو 6: الكلام المنقول — บอกว่า/ถามว่า (G20)",
+        "es": "Escenario 6: Estilo indirecto — บอกว่า/ถามว่า (G20)",
+        "zh": "场景六：间接引语——บอกว่า/ถามว่า (G20)",
+        "ja": "シナリオ6：間接話法 — บอกว่า/ถามว่า (G20)"
+      }
+    },
+    {
+      "id": "sentence_imm_officer_said_wait",
+      "kind": "sentence",
+      "itemIds": ["word_officer", "word_say", "word_that", "word_wait"],
+      "texts": {
+        "en": "The officer said to wait here",
+        "th": "เจ้าหน้าที่บอกว่าให้รอที่นี่ครับ",
+        "fa": "مأمور گفت که اینجا صبر کنیم",
+        "ar": "قال الموظف أن ننتظر هنا",
+        "es": "El funcionario dijo que esperáramos aquí",
+        "zh": "工作人员说让我们在这里等",
+        "ja": "職員はここで待つように言いました"
+      },
+      "tokens": {
+        "en": ["The", "officer", "said", "to", "wait", "here"],
+        "th": ["เจ้าหน้าที่", "บอก", "ว่า", "ให้", "รอ", "ที่นี่", "ครับ"],
+        "fa": ["مأمور", "گفت", "که", "اینجا", "صبر", "کنیم"],
+        "ar": ["قال", "الموظف", "أن", "ننتظر", "هنا"],
+        "es": ["El", "funcionario", "dijo", "que", "esperáramos", "aquí"],
+        "zh": ["工作人员", "说", "让", "我们", "在", "这里", "等"],
+        "ja": [
+          "職員",
+          "は",
+          "ここ",
+          "で",
+          "待つ",
+          "よう",
+          "に",
+          "言い",
+          "ました"
+        ]
+      }
+    },
+    {
+      "id": "sentence_imm_asked_came_from",
+      "kind": "sentence",
+      "itemIds": ["word_he", "word_ask", "word_that", "word_we"],
+      "texts": {
+        "en": "He asked where we came from",
+        "th": "เขาถามว่าเรามาจากไหนครับ",
+        "fa": "او پرسید که ما از کجا آمده‌ایم",
+        "ar": "سأل من أين جئنا",
+        "es": "Preguntó de dónde vinimos",
+        "zh": "他问我们来自哪里",
+        "ja": "彼はどこから来たのか尋ねました"
+      },
+      "tokens": {
+        "en": ["He", "asked", "where", "we", "came", "from"],
+        "th": ["เขา", "ถาม", "ว่า", "เรา", "มาจาก", "ไหน", "ครับ"],
+        "fa": ["او", "پرسید", "که", "ما", "از", "کجا", "آمده‌ایم"],
+        "ar": ["سأل", "من", "أين", "جئنا"],
+        "es": ["Preguntó", "de", "dónde", "vinimos"],
+        "zh": ["他", "问", "我们", "来自", "哪里"],
+        "ja": ["彼", "は", "どこ", "から", "来た", "のか", "尋ね", "ました"]
+      }
+    },
+    {
+      "id": "sentence_imm_told_officer_holiday",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_say",
+        "word_officer",
+        "word_that",
+        "word_holiday"
+      ],
+      "texts": {
+        "en": "I told the officer that I came for a holiday",
+        "th": "ฉันบอกเจ้าหน้าที่ว่ามาเที่ยววันหยุดค่ะ",
+        "fa": "به مأمور گفتم که برای تعطیلات آمده‌ام",
+        "ar": "قلت للموظف أنني جئت من أجل الإجازة",
+        "es": "Le dije al funcionario que vine de vacaciones",
+        "zh": "我告诉工作人员我是来度假的",
+        "ja": "職員に休暇で来たと伝えました"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "told",
+          "the",
+          "officer",
+          "that",
+          "I",
+          "came",
+          "for",
+          "a",
+          "holiday"
+        ],
+        "th": [
+          "ฉัน",
+          "บอก",
+          "เจ้าหน้าที่",
+          "ว่า",
+          "มา",
+          "เที่ยว",
+          "วันหยุด",
+          "ค่ะ"
+        ],
+        "fa": ["به", "مأمور", "گفتم", "که", "برای", "تعطیلات", "آمده‌ام"],
+        "ar": ["قلت", "للموظف", "أنني", "جئت", "من", "أجل", "الإجازة"],
+        "es": [
+          "Le",
+          "dije",
+          "al",
+          "funcionario",
+          "que",
+          "vine",
+          "de",
+          "vacaciones"
+        ],
+        "zh": ["我", "告诉", "工作人员", "我", "是", "来", "度假", "的"],
+        "ja": ["職員", "に", "休暇", "で", "来た", "と", "伝え", "ました"]
+      }
+    },
+    {
+      "id": "word_officer",
+      "kind": "word",
+      "texts": {
+        "en": "officer",
+        "th": "เจ้าหน้าที่",
+        "fa": "مأمور / افسر",
+        "ar": "موظف / ضابط",
+        "es": "oficial / funcionario",
+        "zh": "官员 / 工作人员",
+        "ja": "職員 / 係官"
+      }
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_he",
+      "kind": "word",
+      "texts": {
+        "en": "he",
+        "th": "เขา",
+        "fa": "او",
+        "ar": "هو",
+        "es": "él",
+        "zh": "他",
+        "ja": "彼"
+      }
+    },
+    {
+      "id": "sentence_g20_he_said_come",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he",
+        "word_say",
+        "word_that_conj",
+        "word_he",
+        "word_will",
+        "word_come",
+        "word_tomorrow"
+      ],
+      "texts": {
+        "en": "He said that he will come tomorrow",
+        "th": "เขาพูดว่าเขาจะมาพรุ่งนี้",
+        "fa": "او گفت که فردا خواهد آمد",
+        "ar": "قال إنه سيأتي غدا",
+        "es": "Él dijo que vendrá mañana",
+        "zh": "他说他明天会来",
+        "ja": "彼は明日彼が来ると言った"
+      },
+      "tokens": {
+        "en": [
+          "He",
+          "said",
+          "that",
+          "he",
+          "will",
+          "come",
+          "tomorrow"
+        ],
+        "th": [
+          "เขา",
+          "พูด",
+          "ว่า",
+          "เขา",
+          "จะ",
+          "มา",
+          "พรุ่งนี้"
+        ],
+        "fa": [
+          "او",
+          "گفت",
+          "که",
+          "فردا",
+          "خواهد",
+          "آمد"
+        ],
+        "ar": [
+          "قال",
+          "إنه",
+          "سيأتي",
+          "غدا"
+        ],
+        "es": [
+          "Él",
+          "dijo",
+          "que",
+          "vendrá",
+          "mañana"
+        ],
+        "zh": [
+          "他",
+          "说",
+          "他",
+          "明天",
+          "会",
+          "来"
+        ],
+        "ja": [
+          "彼",
+          "は",
+          "明日",
+          "彼",
+          "が",
+          "来る",
+          "と",
+          "言った"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g20_she_told_not_know",
+      "kind": "sentence",
+      "itemIds": [
+        "word_she",
+        "word_tell",
+        "word_i",
+        "word_that_conj",
+        "word_she",
+        "word_not",
+        "word_know"
+      ],
+      "texts": {
+        "en": "She told me that she doesn't know",
+        "th": "เธอบอกฉันว่าเธอไม่รู้",
+        "fa": "او به من گفت که نمی‌داند",
+        "ar": "أخبرتني أنها لا تعرف",
+        "es": "Ella me dijo que no sabe",
+        "zh": "她告诉我她不知道",
+        "ja": "彼女は私に彼女は知らないと伝えた"
+      },
+      "tokens": {
+        "en": [
+          "She",
+          "told",
+          "me",
+          "that",
+          "she",
+          "doesn't",
+          "know"
+        ],
+        "th": [
+          "เธอ",
+          "บอก",
+          "ฉัน",
+          "ว่า",
+          "เธอ",
+          "ไม่",
+          "รู้"
+        ],
+        "fa": [
+          "او",
+          "به",
+          "من",
+          "گفت",
+          "که",
+          "نمی‌داند"
+        ],
+        "ar": [
+          "أخبرتني",
+          "أنها",
+          "لا",
+          "تعرف"
+        ],
+        "es": [
+          "Ella",
+          "me",
+          "dijo",
+          "que",
+          "no",
+          "sabe"
+        ],
+        "zh": [
+          "她",
+          "告诉",
+          "我",
+          "她",
+          "不",
+          "知道"
+        ],
+        "ja": [
+          "彼女",
+          "は",
+          "私",
+          "に",
+          "彼女",
+          "は",
+          "知ら",
+          "ない",
+          "と",
+          "伝えた"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g20_they_said_delicious",
+      "kind": "sentence",
+      "itemIds": [
+        "word_they",
+        "word_say",
+        "word_that_conj",
+        "word_food",
+        "word_delicious"
+      ],
+      "texts": {
+        "en": "They said that the food is delicious",
+        "th": "พวกเขาพูดว่าอาหารอร่อย",
+        "fa": "آنها گفتند که غذا خوشمزه است",
+        "ar": "قالوا إن الطعام لذيذ",
+        "es": "Ellos dijeron que la comida es deliciosa",
+        "zh": "他们说食物很好吃",
+        "ja": "彼らは食べ物がおいしいと言った"
+      },
+      "tokens": {
+        "en": [
+          "They",
+          "said",
+          "that",
+          "the",
+          "food",
+          "is",
+          "delicious"
+        ],
+        "th": [
+          "พวกเขา",
+          "พูด",
+          "ว่า",
+          "อาหาร",
+          "อร่อย"
+        ],
+        "fa": [
+          "آنها",
+          "گفتند",
+          "که",
+          "غذا",
+          "خوشمزه",
+          "است"
+        ],
+        "ar": [
+          "قالوا",
+          "إن",
+          "الطعام",
+          "لذيذ"
+        ],
+        "es": [
+          "Ellos",
+          "dijeron",
+          "que",
+          "la",
+          "comida",
+          "es",
+          "deliciosa"
+        ],
+        "zh": [
+          "他们",
+          "说",
+          "食物",
+          "很",
+          "好吃"
+        ],
+        "ja": [
+          "彼ら",
+          "は",
+          "食べ物",
+          "が",
+          "おいしい",
+          "と",
+          "言った"
+        ]
+      }
+    },
+    {
+      "id": "word_say",
+      "kind": "word",
+      "texts": {
+        "en": "say",
+        "th": "พูด",
+        "fa": "گفتن",
+        "ar": "يقول",
+        "es": "decir",
+        "zh": "说",
+        "ja": "言う"
+      }
+    },
+    {
+      "id": "word_that_conj",
+      "kind": "word",
+      "texts": {
+        "en": "that (conjunction)",
+        "th": "ว่า",
+        "fa": "که",
+        "ar": "أن",
+        "es": "que",
+        "zh": "that(连词)",
+        "ja": "と"
+      }
+    },
+    {
+      "id": "word_will",
+      "kind": "word",
+      "texts": {
+        "en": "will",
+        "th": "จะ",
+        "fa": "خواه",
+        "ar": "سوف",
+        "es": "futuro",
+        "zh": "将",
+        "ja": "でしょう"
+      }
+    },
+    {
+      "id": "word_come",
+      "kind": "word",
+      "texts": {
+        "en": "come",
+        "th": "มา",
+        "fa": "آمدن",
+        "ar": "يأتي",
+        "es": "venir",
+        "zh": "来",
+        "ja": "来る"
+      }
+    },
+    {
+      "id": "word_tomorrow",
+      "kind": "word",
+      "texts": {
+        "en": "tomorrow",
+        "th": "พรุ่งนี้",
+        "fa": "فردا",
+        "ar": "غدا",
+        "es": "mañana",
+        "zh": "明天",
+        "ja": "明日"
+      }
+    },
+    {
+      "id": "word_she",
+      "kind": "word",
+      "texts": {
+        "en": "she",
+        "th": "เธอ",
+        "fa": "او",
+        "ar": "هي",
+        "es": "ella",
+        "zh": "她",
+        "ja": "彼女"
+      }
+    },
+    {
+      "id": "word_tell",
+      "kind": "word",
+      "texts": {
+        "en": "tell",
+        "th": "บอก",
+        "fa": "گفتن به",
+        "ar": "يخبر",
+        "es": "decir a",
+        "zh": "告诉",
+        "ja": "伝える"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_not",
+      "kind": "word",
+      "texts": {
+        "en": "not",
+        "th": "ไม่",
+        "fa": "نه",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不",
+        "ja": "ない"
+      }
+    },
+    {
+      "id": "word_know",
+      "kind": "word",
+      "texts": {
+        "en": "know",
+        "th": "รู้",
+        "fa": "دانستن",
+        "ar": "يعرف",
+        "es": "saber",
+        "zh": "知道",
+        "ja": "知る"
+      }
+    },
+    {
+      "id": "word_they",
+      "kind": "word",
+      "texts": {
+        "en": "they",
+        "th": "พวกเขา",
+        "fa": "آنها",
+        "ar": "هم",
+        "es": "ellos",
+        "zh": "他们",
+        "ja": "彼ら"
+      }
+    },
+    {
+      "id": "word_food",
+      "kind": "word",
+      "texts": {
+        "en": "food",
+        "th": "อาหาร",
+        "fa": "غذا",
+        "ar": "طعام",
+        "es": "comida",
+        "zh": "食物",
+        "ja": "食べ物"
+      }
+    },
+    {
+      "id": "word_delicious",
+      "kind": "word",
+      "texts": {
+        "en": "delicious",
+        "th": "อร่อย",
+        "fa": "خوشمزه",
+        "ar": "لذيذ",
+        "es": "delicioso",
+        "zh": "好吃",
+        "ja": "おいしい"
+      }
+    }
+  ]
+}

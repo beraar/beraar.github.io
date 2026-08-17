@@ -1,0 +1,356 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "sentence_g1_i_eat_rice",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_eat",
+        "word_rice"
+      ],
+      "texts": {
+        "en": "I eat rice",
+        "th": "ฉันกินข้าว",
+        "fa": "من برنج می‌خورم",
+        "ar": "أنا آكل الأرز",
+        "es": "Yo como arroz",
+        "zh": "我吃米饭",
+        "ja": "私はご飯を食べます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "eat",
+          "rice"
+        ],
+        "th": [
+          "ฉัน",
+          "กิน",
+          "ข้าว"
+        ],
+        "fa": [
+          "من",
+          "برنج",
+          "می‌خورم"
+        ],
+        "ar": [
+          "أنا",
+          "آكل",
+          "الأرز"
+        ],
+        "es": [
+          "Yo",
+          "como",
+          "arroz"
+        ],
+        "zh": [
+          "我",
+          "吃",
+          "米饭"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "ご飯",
+          "を",
+          "食べ",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g1_you_drink_water",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_drink",
+        "word_water"
+      ],
+      "texts": {
+        "en": "You drink water",
+        "th": "คุณดื่มน้ำ",
+        "fa": "شما آب می‌نوشید",
+        "ar": "أنت تشرب الماء",
+        "es": "Tú bebes agua",
+        "zh": "你喝水",
+        "ja": "あなたは水を飲みます"
+      },
+      "tokens": {
+        "en": [
+          "You",
+          "drink",
+          "water"
+        ],
+        "th": [
+          "คุณ",
+          "ดื่ม",
+          "น้ำ"
+        ],
+        "fa": [
+          "شما",
+          "آب",
+          "می‌نوشید"
+        ],
+        "ar": [
+          "أنت",
+          "تشرب",
+          "الماء"
+        ],
+        "es": [
+          "Tú",
+          "bebes",
+          "agua"
+        ],
+        "zh": [
+          "你",
+          "喝",
+          "水"
+        ],
+        "ja": [
+          "あなた",
+          "は",
+          "水",
+          "を",
+          "飲み",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g1_we_read_book",
+      "kind": "sentence",
+      "itemIds": [
+        "word_we",
+        "word_read",
+        "word_book"
+      ],
+      "texts": {
+        "en": "We read books",
+        "th": "เราอ่านหนังสือ",
+        "fa": "ما کتاب می‌خوانیم",
+        "ar": "نحن نقرأ الكتب",
+        "es": "Nosotros leemos libros",
+        "zh": "我们读书",
+        "ja": "私たちは本を読みます"
+      },
+      "tokens": {
+        "en": [
+          "We",
+          "read",
+          "books"
+        ],
+        "th": [
+          "เรา",
+          "อ่าน",
+          "หนังสือ"
+        ],
+        "fa": [
+          "ما",
+          "کتاب",
+          "می‌خوانیم"
+        ],
+        "ar": [
+          "نحن",
+          "نقرأ",
+          "الكتب"
+        ],
+        "es": [
+          "Nosotros",
+          "leemos",
+          "libros"
+        ],
+        "zh": [
+          "我们",
+          "读",
+          "书"
+        ],
+        "ja": [
+          "私たち",
+          "は",
+          "本",
+          "を",
+          "読み",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g1_i_read_book",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_read",
+        "word_book"
+      ],
+      "texts": {
+        "en": "I read a book",
+        "th": "ฉันอ่านหนังสือ",
+        "fa": "من کتاب می‌خوانم",
+        "ar": "أنا أقرأ كتابا",
+        "es": "Yo leo un libro",
+        "zh": "我读书",
+        "ja": "私は本を読みます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "read",
+          "a",
+          "book"
+        ],
+        "th": [
+          "ฉัน",
+          "อ่าน",
+          "หนังสือ"
+        ],
+        "fa": [
+          "من",
+          "کتاب",
+          "می‌خوانم"
+        ],
+        "ar": [
+          "أنا",
+          "أقرأ",
+          "كتابا"
+        ],
+        "es": [
+          "Yo",
+          "leo",
+          "un",
+          "libro"
+        ],
+        "zh": [
+          "我",
+          "读",
+          "书"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "本",
+          "を",
+          "読み",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_we",
+      "kind": "word",
+      "texts": {
+        "en": "we",
+        "th": "เรา",
+        "fa": "ما",
+        "ar": "نحن",
+        "es": "nosotros",
+        "zh": "我们",
+        "ja": "私たち"
+      }
+    },
+    {
+      "id": "word_eat",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "يأكل",
+        "es": "comer",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "word_drink",
+      "kind": "word",
+      "texts": {
+        "en": "drink",
+        "th": "ดื่ม",
+        "fa": "نوشیدن",
+        "ar": "يشرب",
+        "es": "beber",
+        "zh": "喝",
+        "ja": "飲む"
+      }
+    },
+    {
+      "id": "word_read",
+      "kind": "word",
+      "texts": {
+        "en": "read",
+        "th": "อ่าน",
+        "fa": "خواندن",
+        "ar": "يقرأ",
+        "es": "leer",
+        "zh": "读",
+        "ja": "読む"
+      }
+    },
+    {
+      "id": "word_rice",
+      "kind": "word",
+      "texts": {
+        "en": "rice",
+        "th": "ข้าว",
+        "fa": "برنج",
+        "ar": "أرز",
+        "es": "arroz",
+        "zh": "米饭",
+        "ja": "ご飯"
+      }
+    },
+    {
+      "id": "word_water",
+      "kind": "word",
+      "texts": {
+        "en": "water",
+        "th": "น้ำ",
+        "fa": "آب",
+        "ar": "ماء",
+        "es": "agua",
+        "zh": "水",
+        "ja": "水"
+      }
+    },
+    {
+      "id": "word_book",
+      "kind": "word",
+      "texts": {
+        "en": "book",
+        "th": "หนังสือ",
+        "fa": "کتاب",
+        "ar": "كتاب",
+        "es": "libro",
+        "zh": "书",
+        "ja": "本"
+      }
+    }
+  ]
+}

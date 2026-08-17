@@ -1,0 +1,2748 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras clave",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú / usted",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_yes",
+      "kind": "word",
+      "texts": {
+        "en": "yes",
+        "th": "ใช่",
+        "fa": "بله",
+        "ar": "نعم",
+        "es": "sí",
+        "zh": "是",
+        "ja": "はい"
+      }
+    },
+    {
+      "id": "word_no",
+      "kind": "word",
+      "texts": {
+        "en": "no / not",
+        "th": "ไม่",
+        "fa": "نه / نمی",
+        "ar": "لا / ليس",
+        "es": "no",
+        "zh": "不",
+        "ja": "いいえ / 〜ない"
+      }
+    },
+    {
+      "id": "word_question_particle",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_confirmation_particle",
+      "kind": "word",
+      "texts": {
+        "en": "right? / isn't it?",
+        "th": "ใช่ไหม",
+        "fa": "درست است؟ / نیست؟",
+        "ar": "أليس كذلك؟",
+        "es": "¿verdad? / ¿no?",
+        "zh": "对吗？",
+        "ja": "ですか？ / ですよね？"
+      }
+    },
+    {
+      "id": "word_polite_particle",
+      "kind": "word",
+      "texts": {
+        "en": "polite particle",
+        "th": "ครับ / ค่ะ",
+        "fa": "ذره ادب",
+        "ar": "أداة أدب",
+        "es": "partícula de cortesía",
+        "zh": "礼貌助词",
+        "ja": "丁寧語"
+      }
+    },
+    {
+      "id": "word_can",
+      "kind": "word",
+      "texts": {
+        "en": "can",
+        "th": "ได้",
+        "fa": "توانستن",
+        "ar": "يستطيع",
+        "es": "poder",
+        "zh": "可以",
+        "ja": "できる"
+      }
+    },
+    {
+      "id": "word_have",
+      "kind": "word",
+      "texts": {
+        "en": "have",
+        "th": "มี",
+        "fa": "داشتن",
+        "ar": "يملك",
+        "es": "tener",
+        "zh": "有",
+        "ja": "ある"
+      }
+    },
+    {
+      "id": "word_eat",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "يأكل",
+        "es": "comer",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "word_drink",
+      "kind": "word",
+      "texts": {
+        "en": "drink",
+        "th": "ดื่ม",
+        "fa": "نوشیدن",
+        "ar": "يشرب",
+        "es": "beber",
+        "zh": "喝",
+        "ja": "飲む"
+      }
+    },
+    {
+      "id": "word_speak",
+      "kind": "word",
+      "texts": {
+        "en": "speak",
+        "th": "พูด",
+        "fa": "صحبت کردن",
+        "ar": "يتكلم",
+        "es": "hablar",
+        "zh": "说",
+        "ja": "話す"
+      }
+    },
+    {
+      "id": "word_come",
+      "kind": "word",
+      "texts": {
+        "en": "come",
+        "th": "มา",
+        "fa": "آمدن",
+        "ar": "يأتي",
+        "es": "venir",
+        "zh": "来",
+        "ja": "来る"
+      }
+    },
+    {
+      "id": "word_go",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "word_please",
+      "kind": "word",
+      "texts": {
+        "en": "please",
+        "th": "กรุณา",
+        "fa": "لطفاً",
+        "ar": "من فضلك",
+        "es": "por favor",
+        "zh": "请",
+        "ja": "お願いします"
+      }
+    },
+    {
+      "id": "word_thank",
+      "kind": "word",
+      "texts": {
+        "en": "thank",
+        "th": "ขอบคุณ",
+        "fa": "تشکر",
+        "ar": "شكر",
+        "es": "gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
+      }
+    },
+    {
+      "id": "word_a_little",
+      "kind": "word",
+      "texts": {
+        "en": "a little",
+        "th": "นิดหน่อย",
+        "fa": "کمی",
+        "ar": "قليلاً",
+        "es": "un poco",
+        "zh": "一点",
+        "ja": "少し"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Basic Questions with ไหม",
+        "th": "สถานการณ์ 1: คำถามพื้นฐานด้วย ไหม",
+        "fa": "سناریو ۱: سوالات پایه با ไหม",
+        "ar": "السيناريو 1: أسئلة أساسية بـ ไหม",
+        "es": "Escenario 1: Preguntas básicas con ไหม",
+        "zh": "场景一：用 ไหม 的基本问句",
+        "ja": "シナリオ1：ไหม で基本質問"
+      }
+    },
+    {
+      "id": "sentence_basic_eat_rice",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_eat",
+        "word_rice",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Do you eat rice?",
+        "th": "คุณกินข้าวไหมครับ",
+        "fa": "آیا برنج می‌خورید؟",
+        "ar": "هل تأكل الأرز؟",
+        "es": "¿Comes arroz?",
+        "zh": "你吃米饭吗？",
+        "ja": "ご飯を食べますか？"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "eat",
+          "rice?"
+        ],
+        "th": [
+          "คุณ",
+          "กิน",
+          "ข้าว",
+          "ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "آیا",
+          "برنج",
+          "می‌خورید؟"
+        ],
+        "ar": [
+          "هل",
+          "تأكل",
+          "الأرز؟"
+        ],
+        "es": [
+          "¿Comes",
+          "arroz?"
+        ],
+        "zh": [
+          "你",
+          "吃",
+          "米饭",
+          "吗？"
+        ],
+        "ja": [
+          "ご飯",
+          "を",
+          "食べ",
+          "ます",
+          "か？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_basic_yes_eat",
+      "kind": "sentence",
+      "itemIds": [
+        "word_yes",
+        "word_i",
+        "word_eat",
+        "word_rice"
+      ],
+      "texts": {
+        "en": "Yes, I eat rice",
+        "th": "ใช่ค่ะ ฉันกินข้าว",
+        "fa": "بله، من برنج می‌خورم",
+        "ar": "نعم، أنا آكل الأرز",
+        "es": "Sí, yo como arroz",
+        "zh": "是的，我吃米饭",
+        "ja": "はい、ご飯を食べます"
+      },
+      "tokens": {
+        "en": [
+          "Yes,",
+          "I",
+          "eat",
+          "rice"
+        ],
+        "th": [
+          "ใช่",
+          "ค่ะ",
+          "ฉัน",
+          "กิน",
+          "ข้าว"
+        ],
+        "fa": [
+          "بله،",
+          "من",
+          "برنج",
+          "می‌خورم"
+        ],
+        "ar": [
+          "نعم،",
+          "أنا",
+          "آكل",
+          "الأرز"
+        ],
+        "es": [
+          "Sí,",
+          "yo",
+          "como",
+          "arroz"
+        ],
+        "zh": [
+          "是的，",
+          "我",
+          "吃",
+          "米饭"
+        ],
+        "ja": [
+          "はい、",
+          "ご飯",
+          "を",
+          "食べ",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_basic_no_eat",
+      "kind": "sentence",
+      "itemIds": [
+        "word_no",
+        "word_i",
+        "word_eat",
+        "word_rice"
+      ],
+      "texts": {
+        "en": "No, I don't eat rice",
+        "th": "ไม่ค่ะ ฉันไม่กินข้าว",
+        "fa": "نه، من برنج نمی‌خورم",
+        "ar": "لا، أنا لا آكل الأرز",
+        "es": "No, yo no como arroz",
+        "zh": "不，我不吃米饭",
+        "ja": "いいえ、ご飯を食べません"
+      },
+      "tokens": {
+        "en": [
+          "No,",
+          "I",
+          "don't",
+          "eat",
+          "rice"
+        ],
+        "th": [
+          "ไม่",
+          "ค่ะ",
+          "ฉัน",
+          "ไม่",
+          "กิน",
+          "ข้าว"
+        ],
+        "fa": [
+          "نه،",
+          "من",
+          "برنج",
+          "نمی‌خورم"
+        ],
+        "ar": [
+          "لا،",
+          "أنا",
+          "لا",
+          "آكل",
+          "الأرز"
+        ],
+        "es": [
+          "No,",
+          "yo",
+          "no",
+          "como",
+          "arroz"
+        ],
+        "zh": [
+          "不，",
+          "我",
+          "不吃",
+          "米饭"
+        ],
+        "ja": [
+          "いいえ、",
+          "ご飯",
+          "を",
+          "食べ",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_basic_drink_water",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_drink",
+        "word_water",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Do you drink water?",
+        "th": "คุณดื่มน้ำไหมครับ",
+        "fa": "آیا آب می‌نوشید؟",
+        "ar": "هل تشرب الماء؟",
+        "es": "¿Bebes agua?",
+        "zh": "你喝水吗？",
+        "ja": "水を飲みますか？"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "drink",
+          "water?"
+        ],
+        "th": [
+          "คุณ",
+          "ดื่ม",
+          "น้ำ",
+          "ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "آیا",
+          "آب",
+          "می‌نوشید؟"
+        ],
+        "ar": [
+          "هل",
+          "تشرب",
+          "الماء؟"
+        ],
+        "es": [
+          "¿Bebes",
+          "agua?"
+        ],
+        "zh": [
+          "你",
+          "喝",
+          "水",
+          "吗？"
+        ],
+        "ja": [
+          "水",
+          "を",
+          "飲み",
+          "ます",
+          "か？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_basic_hungry",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_hungry",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Are you hungry?",
+        "th": "คุณหิวไหมครับ",
+        "fa": "آیا گرسنه هستید؟",
+        "ar": "هل أنت جائع؟",
+        "es": "¿Tienes hambre?",
+        "zh": "你饿吗？",
+        "ja": "お腹が空いていますか？"
+      },
+      "tokens": {
+        "en": [
+          "Are",
+          "you",
+          "hungry?"
+        ],
+        "th": [
+          "คุณ",
+          "หิว",
+          "ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "آیا",
+          "گرسنه",
+          "هستید؟"
+        ],
+        "ar": [
+          "هل",
+          "أنت",
+          "جائع؟"
+        ],
+        "es": [
+          "¿Tienes",
+          "hambre?"
+        ],
+        "zh": [
+          "你",
+          "饿",
+          "吗？"
+        ],
+        "ja": [
+          "お腹",
+          "が",
+          "空いて",
+          "います",
+          "か？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_basic_yes_hungry",
+      "kind": "sentence",
+      "itemIds": [
+        "word_yes",
+        "word_i",
+        "word_hungry"
+      ],
+      "texts": {
+        "en": "Yes, I am hungry",
+        "th": "ใช่ค่ะ ฉันหิว",
+        "fa": "بله، من گرسنه هستم",
+        "ar": "نعم، أنا جائع",
+        "es": "Sí, tengo hambre",
+        "zh": "是的，我饿了",
+        "ja": "はい、お腹が空いています"
+      },
+      "tokens": {
+        "en": [
+          "Yes,",
+          "I",
+          "am",
+          "hungry"
+        ],
+        "th": [
+          "ใช่",
+          "ค่ะ",
+          "ฉัน",
+          "หิว"
+        ],
+        "fa": [
+          "بله،",
+          "من",
+          "گرسنه",
+          "هستم"
+        ],
+        "ar": [
+          "نعم،",
+          "أنا",
+          "جائع"
+        ],
+        "es": [
+          "Sí,",
+          "tengo",
+          "hambre"
+        ],
+        "zh": [
+          "是的，",
+          "我",
+          "饿了"
+        ],
+        "ja": [
+          "はい、",
+          "お腹",
+          "が",
+          "空いて",
+          "います"
+        ]
+      }
+    },
+    {
+      "id": "sentence_basic_thirsty",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_thirsty"
+      ],
+      "texts": {
+        "en": "I am thirsty",
+        "th": "ฉันกระหายน้ำค่ะ",
+        "fa": "من تشنه هستم",
+        "ar": "أنا عطشان",
+        "es": "Tengo sed",
+        "zh": "我渴了",
+        "ja": "喉が渇いています"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "am",
+          "thirsty"
+        ],
+        "th": [
+          "ฉัน",
+          "กระหาย",
+          "น้ำ",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "تشنه",
+          "هستم"
+        ],
+        "ar": [
+          "أنا",
+          "عطشان"
+        ],
+        "es": [
+          "Tengo",
+          "sed"
+        ],
+        "zh": [
+          "我",
+          "渴了"
+        ],
+        "ja": [
+          "喉",
+          "が",
+          "渇いて",
+          "います"
+        ]
+      }
+    },
+    {
+      "id": "word_rice",
+      "kind": "word",
+      "texts": {
+        "en": "rice",
+        "th": "ข้าว",
+        "fa": "برنج",
+        "ar": "أرز",
+        "es": "arroz",
+        "zh": "米饭",
+        "ja": "ご飯"
+      }
+    },
+    {
+      "id": "word_water",
+      "kind": "word",
+      "texts": {
+        "en": "water",
+        "th": "น้ำ",
+        "fa": "آب",
+        "ar": "ماء",
+        "es": "agua",
+        "zh": "水",
+        "ja": "水"
+      }
+    },
+    {
+      "id": "word_food",
+      "kind": "word",
+      "texts": {
+        "en": "food",
+        "th": "อาหาร",
+        "fa": "غذا",
+        "ar": "طعام",
+        "es": "comida",
+        "zh": "食物",
+        "ja": "食べ物"
+      }
+    },
+    {
+      "id": "word_hungry",
+      "kind": "word",
+      "texts": {
+        "en": "hungry",
+        "th": "หิว",
+        "fa": "گرسنه",
+        "ar": "جائع",
+        "es": "hambriento",
+        "zh": "饿",
+        "ja": "お腹が空いた"
+      }
+    },
+    {
+      "id": "word_thirsty",
+      "kind": "word",
+      "texts": {
+        "en": "thirsty",
+        "th": "กระหายน้ำ",
+        "fa": "تشنه",
+        "ar": "عطشان",
+        "es": "sediento",
+        "zh": "渴",
+        "ja": "喉が渇いた"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Confirmation with ใช่ไหม",
+        "th": "สถานการณ์ 2: การยืนยันด้วย ใช่ไหม",
+        "fa": "سناریو ۲: تأیید با ใช่ไหม",
+        "ar": "السيناريو 2: التأكيد بـ ใช่ไหม",
+        "es": "Escenario 2: Confirmación con ใช่ไหม",
+        "zh": "场景二：用 ใช่ไหม 确认",
+        "ja": "シナリオ2：ใช่ไหม で確認"
+      }
+    },
+    {
+      "id": "sentence_confirm_thai",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_thai",
+        "word_confirmation_particle"
+      ],
+      "texts": {
+        "en": "You are Thai, right?",
+        "th": "คุณเป็นคนไทยใช่ไหมครับ",
+        "fa": "شما تایلندی هستید، درست است؟",
+        "ar": "أنت تايلاندي، أليس كذلك؟",
+        "es": "Eres tailandés, ¿verdad?",
+        "zh": "你是泰国人，对吗？",
+        "ja": "タイ人ですよね？"
+      },
+      "tokens": {
+        "en": [
+          "You",
+          "are",
+          "Thai,",
+          "right?"
+        ],
+        "th": [
+          "คุณ",
+          "เป็น",
+          "คน",
+          "ไทย",
+          "ใช่ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "شما",
+          "تایلندی",
+          "هستید،",
+          "درست",
+          "است؟"
+        ],
+        "ar": [
+          "أنت",
+          "تايلاندي،",
+          "أليس",
+          "كذلك؟"
+        ],
+        "es": [
+          "Eres",
+          "tailandés,",
+          "¿verdad?"
+        ],
+        "zh": [
+          "你",
+          "是",
+          "泰国人，",
+          "对吗？"
+        ],
+        "ja": [
+          "タイ人",
+          "です",
+          "よね？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_confirm_yes_thai",
+      "kind": "sentence",
+      "itemIds": [
+        "word_yes",
+        "word_i",
+        "word_thai"
+      ],
+      "texts": {
+        "en": "Yes, I am Thai",
+        "th": "ใช่ค่ะ ฉันเป็นคนไทย",
+        "fa": "بله، من تایلندی هستم",
+        "ar": "نعم، أنا تايلاندي",
+        "es": "Sí, soy tailandés",
+        "zh": "是的，我是泰国人",
+        "ja": "はい、タイ人です"
+      },
+      "tokens": {
+        "en": [
+          "Yes,",
+          "I",
+          "am",
+          "Thai"
+        ],
+        "th": [
+          "ใช่",
+          "ค่ะ",
+          "ฉัน",
+          "เป็น",
+          "คน",
+          "ไทย"
+        ],
+        "fa": [
+          "بله،",
+          "من",
+          "تایلندی",
+          "هستم"
+        ],
+        "ar": [
+          "نعم،",
+          "أنا",
+          "تايلاندي"
+        ],
+        "es": [
+          "Sí,",
+          "soy",
+          "tailandés"
+        ],
+        "zh": [
+          "是的，",
+          "我",
+          "是",
+          "泰国人"
+        ],
+        "ja": [
+          "はい、",
+          "タイ人",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_confirm_not_thai",
+      "kind": "sentence",
+      "itemIds": [
+        "word_no",
+        "word_i",
+        "word_no",
+        "word_thai",
+        "word_foreign"
+      ],
+      "texts": {
+        "en": "No, I am not Thai. I am a foreigner",
+        "th": "ไม่ค่ะ ฉันไม่ใช่คนไทย ฉันเป็นชาวต่างชาติ",
+        "fa": "نه، من تایلندی نیستم. من خارجی هستم",
+        "ar": "لا، أنا لست تايلاندياً. أنا أجنبي",
+        "es": "No, no soy tailandés. Soy extranjero",
+        "zh": "不，我不是泰国人。我是外国人",
+        "ja": "いいえ、タイ人ではありません。外国人です"
+      },
+      "tokens": {
+        "en": [
+          "No,",
+          "I",
+          "am",
+          "not",
+          "Thai.",
+          "I",
+          "am",
+          "a",
+          "foreigner"
+        ],
+        "th": [
+          "ไม่",
+          "ค่ะ",
+          "ฉัน",
+          "ไม่ใช่",
+          "คน",
+          "ไทย",
+          "ฉัน",
+          "เป็น",
+          "ชาวต่างชาติ"
+        ],
+        "fa": [
+          "نه،",
+          "من",
+          "تایلندی",
+          "نیستم.",
+          "من",
+          "خارجی",
+          "هستم"
+        ],
+        "ar": [
+          "لا،",
+          "أنا",
+          "لست",
+          "تايلاندياً.",
+          "أنا",
+          "أجنبي"
+        ],
+        "es": [
+          "No,",
+          "no",
+          "soy",
+          "tailandés.",
+          "Soy",
+          "extranjero"
+        ],
+        "zh": [
+          "不，",
+          "我",
+          "不是",
+          "泰国人。",
+          "我",
+          "是",
+          "外国人"
+        ],
+        "ja": [
+          "いいえ、",
+          "タイ人",
+          "では",
+          "ありません。",
+          "外国人",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_confirm_book",
+      "kind": "sentence",
+      "itemIds": [
+        "word_this",
+        "word_book",
+        "word_of",
+        "word_you",
+        "word_confirmation_particle"
+      ],
+      "texts": {
+        "en": "This is your book, right?",
+        "th": "นี่คือหนังสือของคุณใช่ไหมครับ",
+        "fa": "این کتاب شماست، درست است؟",
+        "ar": "هذا كتابك، أليس كذلك؟",
+        "es": "Este es tu libro, ¿verdad?",
+        "zh": "这是你的书，对吗？",
+        "ja": "これはあなたの本ですよね？"
+      },
+      "tokens": {
+        "en": [
+          "This",
+          "is",
+          "your",
+          "book,",
+          "right?"
+        ],
+        "th": [
+          "นี่",
+          "คือ",
+          "หนังสือ",
+          "ของ",
+          "คุณ",
+          "ใช่ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "این",
+          "کتاب",
+          "شماست،",
+          "درست",
+          "است؟"
+        ],
+        "ar": [
+          "هذا",
+          "كتابك،",
+          "أليس",
+          "كذلك؟"
+        ],
+        "es": [
+          "Este",
+          "es",
+          "tu",
+          "libro,",
+          "¿verdad?"
+        ],
+        "zh": [
+          "这",
+          "是",
+          "你的",
+          "书，",
+          "对吗？"
+        ],
+        "ja": [
+          "これ",
+          "は",
+          "あなた",
+          "の",
+          "本",
+          "です",
+          "よね？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_confirm_yes_book",
+      "kind": "sentence",
+      "itemIds": [
+        "word_yes",
+        "word_this",
+        "word_book"
+      ],
+      "texts": {
+        "en": "Yes, it is my book",
+        "th": "ใช่ค่ะ นี่คือหนังสือของฉัน",
+        "fa": "بله، این کتاب من است",
+        "ar": "نعم، هذا كتابي",
+        "es": "Sí, es mi libro",
+        "zh": "是的，这是我的书",
+        "ja": "はい、私の本です"
+      },
+      "tokens": {
+        "en": [
+          "Yes,",
+          "it",
+          "is",
+          "my",
+          "book"
+        ],
+        "th": [
+          "ใช่",
+          "ค่ะ",
+          "นี่",
+          "คือ",
+          "หนังสือ",
+          "ของ",
+          "ฉัน"
+        ],
+        "fa": [
+          "بله،",
+          "این",
+          "کتاب",
+          "من",
+          "است"
+        ],
+        "ar": [
+          "نعم،",
+          "هذا",
+          "كتابي"
+        ],
+        "es": [
+          "Sí,",
+          "es",
+          "mi",
+          "libro"
+        ],
+        "zh": [
+          "是的，",
+          "这",
+          "是",
+          "我的",
+          "书"
+        ],
+        "ja": [
+          "はい、",
+          "私",
+          "の",
+          "本",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_confirm_understand",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_understand",
+        "word_confirmation_particle"
+      ],
+      "texts": {
+        "en": "You understand, right?",
+        "th": "คุณเข้าใจใช่ไหมครับ",
+        "fa": "شما می‌فهمید، درست است؟",
+        "ar": "أنت تفهم، أليس كذلك؟",
+        "es": "Entiendes, ¿verdad?",
+        "zh": "你明白了，对吗？",
+        "ja": "わかりますよね？"
+      },
+      "tokens": {
+        "en": [
+          "You",
+          "understand,",
+          "right?"
+        ],
+        "th": [
+          "คุณ",
+          "เข้าใจ",
+          "ใช่ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "شما",
+          "می‌فهمید،",
+          "درست",
+          "است؟"
+        ],
+        "ar": [
+          "أنت",
+          "تفهم،",
+          "أليس",
+          "كذلك؟"
+        ],
+        "es": [
+          "Entiendes,",
+          "¿verdad?"
+        ],
+        "zh": [
+          "你",
+          "明白了，",
+          "对吗？"
+        ],
+        "ja": [
+          "わかり",
+          "ます",
+          "よね？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_confirm_yes_understand",
+      "kind": "sentence",
+      "itemIds": [
+        "word_yes",
+        "word_i",
+        "word_understand"
+      ],
+      "texts": {
+        "en": "Yes, I understand",
+        "th": "ใช่ค่ะ ฉันเข้าใจ",
+        "fa": "بله، من می‌فهمم",
+        "ar": "نعم، أنا أفهم",
+        "es": "Sí, entiendo",
+        "zh": "是的，我明白了",
+        "ja": "はい、わかります"
+      },
+      "tokens": {
+        "en": [
+          "Yes,",
+          "I",
+          "understand"
+        ],
+        "th": [
+          "ใช่",
+          "ค่ะ",
+          "ฉัน",
+          "เข้าใจ"
+        ],
+        "fa": [
+          "بله،",
+          "من",
+          "می‌فهمم"
+        ],
+        "ar": [
+          "نعم،",
+          "أنا",
+          "أفهم"
+        ],
+        "es": [
+          "Sí,",
+          "entiendo"
+        ],
+        "zh": [
+          "是的，",
+          "我",
+          "明白了"
+        ],
+        "ja": [
+          "はい、",
+          "わかり",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "word_thai",
+      "kind": "word",
+      "texts": {
+        "en": "Thai",
+        "th": "ไทย",
+        "fa": "تایلندی",
+        "ar": "تايلاندي",
+        "es": "tailandés",
+        "zh": "泰国（的）",
+        "ja": "タイ（の）"
+      }
+    },
+    {
+      "id": "word_foreign",
+      "kind": "word",
+      "texts": {
+        "en": "foreigner",
+        "th": "ชาวต่างชาติ",
+        "fa": "خارجی",
+        "ar": "أجنبي",
+        "es": "extranjero",
+        "zh": "外国人",
+        "ja": "外国人"
+      }
+    },
+    {
+      "id": "word_book",
+      "kind": "word",
+      "texts": {
+        "en": "book",
+        "th": "หนังสือ",
+        "fa": "کتاب",
+        "ar": "كتاب",
+        "es": "libro",
+        "zh": "书",
+        "ja": "本"
+      }
+    },
+    {
+      "id": "word_this",
+      "kind": "word",
+      "texts": {
+        "en": "this",
+        "th": "นี่",
+        "fa": "این",
+        "ar": "هذا",
+        "es": "esto / este",
+        "zh": "这",
+        "ja": "これ"
+      }
+    },
+    {
+      "id": "word_that",
+      "kind": "word",
+      "texts": {
+        "en": "that",
+        "th": "นั่น",
+        "fa": "آن",
+        "ar": "ذلك",
+        "es": "eso / ese",
+        "zh": "那",
+        "ja": "それ"
+      }
+    },
+    {
+      "id": "word_of",
+      "kind": "word",
+      "texts": {
+        "en": "of",
+        "th": "ของ",
+        "fa": "مالِ / از",
+        "ar": "خاص بـ",
+        "es": "de",
+        "zh": "的",
+        "ja": "の"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Negation Patterns",
+        "th": "สถานการณ์ 3: รูปปฏิเสธ",
+        "fa": "سناریو ۳: الگوهای منفی",
+        "ar": "السيناريو 3: أنماط النفي",
+        "es": "Escenario 3: Patrones de negación",
+        "zh": "场景三：否定句式",
+        "ja": "シナリオ3：否定の形"
+      }
+    },
+    {
+      "id": "sentence_neg_not_understand",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_no",
+        "word_understand"
+      ],
+      "texts": {
+        "en": "I don't understand",
+        "th": "ฉันไม่เข้าใจค่ะ",
+        "fa": "من نمی‌فهمم",
+        "ar": "أنا لا أفهم",
+        "es": "No entiendo",
+        "zh": "我不明白",
+        "ja": "わかりません"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "don't",
+          "understand"
+        ],
+        "th": [
+          "ฉัน",
+          "ไม่",
+          "เข้าใจ",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "نمی‌فهمم"
+        ],
+        "ar": [
+          "أنا",
+          "لا",
+          "أفهم"
+        ],
+        "es": [
+          "No",
+          "entiendo"
+        ],
+        "zh": [
+          "我",
+          "不",
+          "明白"
+        ],
+        "ja": [
+          "わかり",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_neg_not_know",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_no",
+        "word_know"
+      ],
+      "texts": {
+        "en": "I don't know",
+        "th": "ฉันไม่รู้ค่ะ",
+        "fa": "من نمی‌دانم",
+        "ar": "أنا لا أعرف",
+        "es": "No sé",
+        "zh": "我不知道",
+        "ja": "知りません"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "don't",
+          "know"
+        ],
+        "th": [
+          "ฉัน",
+          "ไม่",
+          "รู้",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "نمی‌دانم"
+        ],
+        "ar": [
+          "أنا",
+          "لا",
+          "أعرف"
+        ],
+        "es": [
+          "No",
+          "sé"
+        ],
+        "zh": [
+          "我",
+          "不",
+          "知道"
+        ],
+        "ja": [
+          "知り",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_neg_not_want",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_no",
+        "word_want"
+      ],
+      "texts": {
+        "en": "I don't want it",
+        "th": "ฉันไม่ต้องการค่ะ",
+        "fa": "من نمی‌خواهم",
+        "ar": "أنا لا أريد",
+        "es": "No lo quiero",
+        "zh": "我不要",
+        "ja": "いりません"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "don't",
+          "want",
+          "it"
+        ],
+        "th": [
+          "ฉัน",
+          "ไม่",
+          "ต้องการ",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "نمی‌خواهم"
+        ],
+        "ar": [
+          "أنا",
+          "لا",
+          "أريد"
+        ],
+        "es": [
+          "No",
+          "lo",
+          "quiero"
+        ],
+        "zh": [
+          "我",
+          "不要"
+        ],
+        "ja": [
+          "いり",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_neg_not_like",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_no",
+        "word_like",
+        "word_spicy"
+      ],
+      "texts": {
+        "en": "I don't like spicy food",
+        "th": "ฉันไม่ชอบอาหารเผ็ดค่ะ",
+        "fa": "من غذای تند دوست ندارم",
+        "ar": "أنا لا أحب الطعام الحار",
+        "es": "No me gusta la comida picante",
+        "zh": "我不喜欢辣的食物",
+        "ja": "辛い食べ物が好きではありません"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "don't",
+          "like",
+          "spicy",
+          "food"
+        ],
+        "th": [
+          "ฉัน",
+          "ไม่",
+          "ชอบ",
+          "อาหาร",
+          "เผ็ด",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "غذای",
+          "تند",
+          "دوست",
+          "ندارم"
+        ],
+        "ar": [
+          "أنا",
+          "لا",
+          "أحب",
+          "الطعام",
+          "الحار"
+        ],
+        "es": [
+          "No",
+          "me",
+          "gusta",
+          "la",
+          "comida",
+          "picante"
+        ],
+        "zh": [
+          "我",
+          "不",
+          "喜欢",
+          "辣的",
+          "食物"
+        ],
+        "ja": [
+          "辛い",
+          "食べ物",
+          "が",
+          "好き",
+          "では",
+          "ありません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_neg_do_you_like",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_like",
+        "word_food",
+        "word_thai",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Do you like Thai food?",
+        "th": "คุณชอบอาหารไทยไหมครับ",
+        "fa": "آیا غذای تایلندی دوست دارید؟",
+        "ar": "هل تحب الطعام التايلاندي؟",
+        "es": "¿Te gusta la comida tailandesa?",
+        "zh": "你喜欢泰国菜吗？",
+        "ja": "タイ料理は好きですか？"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "like",
+          "Thai",
+          "food?"
+        ],
+        "th": [
+          "คุณ",
+          "ชอบ",
+          "อาหาร",
+          "ไทย",
+          "ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "آیا",
+          "غذای",
+          "تایلندی",
+          "دوست",
+          "دارید؟"
+        ],
+        "ar": [
+          "هل",
+          "تحب",
+          "الطعام",
+          "التايلاندي؟"
+        ],
+        "es": [
+          "¿Te",
+          "gusta",
+          "la",
+          "comida",
+          "tailandesa?"
+        ],
+        "zh": [
+          "你",
+          "喜欢",
+          "泰国菜",
+          "吗？"
+        ],
+        "ja": [
+          "タイ料理",
+          "は",
+          "好き",
+          "です",
+          "か？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_neg_havent_eaten",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_still_not",
+        "word_eat",
+        "word_food"
+      ],
+      "texts": {
+        "en": "I haven't eaten yet",
+        "th": "ฉันยังไม่กินข้าวค่ะ",
+        "fa": "من هنوز غذا نخورده‌ام",
+        "ar": "أنا لم آكل بعد",
+        "es": "Aún no he comido",
+        "zh": "我还没吃饭",
+        "ja": "まだ食べていません"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "haven't",
+          "eaten",
+          "yet"
+        ],
+        "th": [
+          "ฉัน",
+          "ยังไม่",
+          "กิน",
+          "ข้าว",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "هنوز",
+          "غذا",
+          "نخورده‌ام"
+        ],
+        "ar": [
+          "أنا",
+          "لم",
+          "آكل",
+          "بعد"
+        ],
+        "es": [
+          "Aún",
+          "no",
+          "he",
+          "comido"
+        ],
+        "zh": [
+          "我",
+          "还没",
+          "吃饭"
+        ],
+        "ja": [
+          "まだ",
+          "食べて",
+          "いません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_neg_havent_come",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he",
+        "word_still_not",
+        "word_come"
+      ],
+      "texts": {
+        "en": "He hasn't come yet",
+        "th": "เขายังไม่มาครับ",
+        "fa": "او هنوز نیامده است",
+        "ar": "هو لم يأتِ بعد",
+        "es": "Él aún no ha venido",
+        "zh": "他还没来",
+        "ja": "彼はまだ来ていません"
+      },
+      "tokens": {
+        "en": [
+          "He",
+          "hasn't",
+          "come",
+          "yet"
+        ],
+        "th": [
+          "เขา",
+          "ยังไม่",
+          "มา",
+          "ครับ"
+        ],
+        "fa": [
+          "او",
+          "هنوز",
+          "نیامده",
+          "است"
+        ],
+        "ar": [
+          "هو",
+          "لم",
+          "يأتِ",
+          "بعد"
+        ],
+        "es": [
+          "Él",
+          "aún",
+          "no",
+          "ha",
+          "venido"
+        ],
+        "zh": [
+          "他",
+          "还没",
+          "来"
+        ],
+        "ja": [
+          "彼",
+          "は",
+          "まだ",
+          "来て",
+          "いません"
+        ]
+      }
+    },
+    {
+      "id": "word_understand",
+      "kind": "word",
+      "texts": {
+        "en": "understand",
+        "th": "เข้าใจ",
+        "fa": "فهمیدن",
+        "ar": "يفهم",
+        "es": "entender",
+        "zh": "明白",
+        "ja": "わかる"
+      }
+    },
+    {
+      "id": "word_know",
+      "kind": "word",
+      "texts": {
+        "en": "know",
+        "th": "รู้",
+        "fa": "دانستن",
+        "ar": "يعرف",
+        "es": "saber",
+        "zh": "知道",
+        "ja": "知る"
+      }
+    },
+    {
+      "id": "word_want",
+      "kind": "word",
+      "texts": {
+        "en": "want",
+        "th": "ต้องการ",
+        "fa": "خواستن",
+        "ar": "يريد",
+        "es": "querer",
+        "zh": "想要",
+        "ja": "欲しい"
+      }
+    },
+    {
+      "id": "word_like",
+      "kind": "word",
+      "texts": {
+        "en": "like",
+        "th": "ชอบ",
+        "fa": "دوست داشتن",
+        "ar": "يحب",
+        "es": "gustar",
+        "zh": "喜欢",
+        "ja": "好き"
+      }
+    },
+    {
+      "id": "word_spicy",
+      "kind": "word",
+      "texts": {
+        "en": "spicy",
+        "th": "เผ็ด",
+        "fa": "تند",
+        "ar": "حار",
+        "es": "picante",
+        "zh": "辣",
+        "ja": "辛い"
+      }
+    },
+    {
+      "id": "word_still_not",
+      "kind": "word",
+      "texts": {
+        "en": "haven't yet / still not",
+        "th": "ยังไม่",
+        "fa": "هنوز نه",
+        "ar": "لم بعد",
+        "es": "aún no",
+        "zh": "还没",
+        "ja": "まだ〜ない"
+      }
+    },
+    {
+      "id": "word_he",
+      "kind": "word",
+      "texts": {
+        "en": "he / she",
+        "th": "เขา",
+        "fa": "او",
+        "ar": "هو / هي",
+        "es": "él / ella",
+        "zh": "他 / 她",
+        "ja": "彼 / 彼女"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Ability & Permission (ได้ไหม)",
+        "th": "สถานการณ์ 4: ความสามารถและการขออนุญาต (ได้ไหม)",
+        "fa": "سناریو ۴: توانایی و اجازه (ได้ไหม)",
+        "ar": "السيناريو 4: القدرة والإذن (ได้ไหม)",
+        "es": "Escenario 4: Habilidad y permiso (ได้ไหม)",
+        "zh": "场景四：能力与许可 (ได้ไหม)",
+        "ja": "シナリオ4：能力と許可 (ได้ไหม)"
+      }
+    },
+    {
+      "id": "sentence_ability_help",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_help",
+        "word_can",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Can you help me?",
+        "th": "คุณช่วยฉันได้ไหมครับ",
+        "fa": "می‌توانید به من کمک کنید؟",
+        "ar": "هل يمكنك مساعدتي؟",
+        "es": "¿Puedes ayudarme?",
+        "zh": "你能帮我吗？",
+        "ja": "手伝ってもらえますか？"
+      },
+      "tokens": {
+        "en": [
+          "Can",
+          "you",
+          "help",
+          "me?"
+        ],
+        "th": [
+          "คุณ",
+          "ช่วย",
+          "ฉัน",
+          "ได้",
+          "ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "می‌توانید",
+          "به",
+          "من",
+          "کمک",
+          "کنید؟"
+        ],
+        "ar": [
+          "هل",
+          "يمكنك",
+          "مساعدتي؟"
+        ],
+        "es": [
+          "¿Puedes",
+          "ayudarme?"
+        ],
+        "zh": [
+          "你",
+          "能",
+          "帮",
+          "我",
+          "吗？"
+        ],
+        "ja": [
+          "手伝って",
+          "もらえます",
+          "か？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ability_yes_help",
+      "kind": "sentence",
+      "itemIds": [
+        "word_yes",
+        "word_i",
+        "word_can",
+        "word_help"
+      ],
+      "texts": {
+        "en": "Yes, I can help you",
+        "th": "ได้ครับ ผมช่วยคุณได้",
+        "fa": "بله، می‌توانم به شما کمک کنم",
+        "ar": "نعم، أستطيع مساعدتك",
+        "es": "Sí, puedo ayudarte",
+        "zh": "可以，我能帮你",
+        "ja": "はい、手伝えます"
+      },
+      "tokens": {
+        "en": [
+          "Yes,",
+          "I",
+          "can",
+          "help",
+          "you"
+        ],
+        "th": [
+          "ได้",
+          "ครับ",
+          "ผม",
+          "ช่วย",
+          "คุณ",
+          "ได้"
+        ],
+        "fa": [
+          "بله،",
+          "می‌توانم",
+          "به",
+          "شما",
+          "کمک",
+          "کنم"
+        ],
+        "ar": [
+          "نعم،",
+          "أستطيع",
+          "مساعدتك"
+        ],
+        "es": [
+          "Sí,",
+          "puedo",
+          "ayudarte"
+        ],
+        "zh": [
+          "可以，",
+          "我",
+          "能",
+          "帮",
+          "你"
+        ],
+        "ja": [
+          "はい、",
+          "手伝え",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ability_cannot_help",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_no",
+        "word_can",
+        "word_help"
+      ],
+      "texts": {
+        "en": "I can't help you",
+        "th": "ฉันช่วยคุณไม่ได้ค่ะ",
+        "fa": "من نمی‌توانم به شما کمک کنم",
+        "ar": "أنا لا أستطيع مساعدتك",
+        "es": "No puedo ayudarte",
+        "zh": "我帮不了你",
+        "ja": "手伝えません"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "can't",
+          "help",
+          "you"
+        ],
+        "th": [
+          "ฉัน",
+          "ช่วย",
+          "คุณ",
+          "ไม่ได้",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "نمی‌توانم",
+          "به",
+          "شما",
+          "کمک",
+          "کنم"
+        ],
+        "ar": [
+          "أنا",
+          "لا",
+          "أستطيع",
+          "مساعدتك"
+        ],
+        "es": [
+          "No",
+          "puedo",
+          "ayudarte"
+        ],
+        "zh": [
+          "我",
+          "帮不了",
+          "你"
+        ],
+        "ja": [
+          "手伝え",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ability_speak_slowly",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_speak",
+        "word_slowly",
+        "word_can",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Can you speak slowly?",
+        "th": "คุณพูดช้า ๆ ได้ไหมคะ",
+        "fa": "می‌توانید آهسته صحبت کنید؟",
+        "ar": "هل يمكنك التحدث ببطء؟",
+        "es": "¿Puedes hablar despacio?",
+        "zh": "你能说慢一点吗？",
+        "ja": "ゆっくり話してもらえますか？"
+      },
+      "tokens": {
+        "en": [
+          "Can",
+          "you",
+          "speak",
+          "slowly?"
+        ],
+        "th": [
+          "คุณ",
+          "พูด",
+          "ช้า ๆ",
+          "ได้",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "می‌توانید",
+          "آهسته",
+          "صحبت",
+          "کنید؟"
+        ],
+        "ar": [
+          "هل",
+          "يمكنك",
+          "التحدث",
+          "ببطء؟"
+        ],
+        "es": [
+          "¿Puedes",
+          "hablar",
+          "despacio?"
+        ],
+        "zh": [
+          "你",
+          "能",
+          "说",
+          "慢一点",
+          "吗？"
+        ],
+        "ja": [
+          "ゆっくり",
+          "話して",
+          "もらえます",
+          "か？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ability_come_in",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_come",
+        "word_enter",
+        "word_can",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Can I come in?",
+        "th": "ฉันเข้าไปข้างในได้ไหมคะ",
+        "fa": "می‌توانم وارد شوم؟",
+        "ar": "هل يمكنني الدخول؟",
+        "es": "¿Puedo entrar?",
+        "zh": "我能进去吗？",
+        "ja": "入ってもいいですか？"
+      },
+      "tokens": {
+        "en": [
+          "Can",
+          "I",
+          "come",
+          "in?"
+        ],
+        "th": [
+          "ฉัน",
+          "เข้า",
+          "ไป",
+          "ข้างใน",
+          "ได้",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "می‌توانم",
+          "وارد",
+          "شوم؟"
+        ],
+        "ar": [
+          "هل",
+          "يمكنني",
+          "الدخول؟"
+        ],
+        "es": [
+          "¿Puedo",
+          "entrar?"
+        ],
+        "zh": [
+          "我",
+          "能",
+          "进去",
+          "吗？"
+        ],
+        "ja": [
+          "入っても",
+          "いい",
+          "です",
+          "か？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ability_wait",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_wait",
+        "word_can",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Can you wait a moment?",
+        "th": "คุณรอสักครู่ได้ไหมครับ",
+        "fa": "می‌توانید یک لحظه صبر کنید؟",
+        "ar": "هل يمكنك الانتظار لحظة؟",
+        "es": "¿Puedes esperar un momento?",
+        "zh": "你能等一下吗？",
+        "ja": "少し待ってもらえますか？"
+      },
+      "tokens": {
+        "en": [
+          "Can",
+          "you",
+          "wait",
+          "a",
+          "moment?"
+        ],
+        "th": [
+          "คุณ",
+          "รอ",
+          "สักครู่",
+          "ได้",
+          "ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "می‌توانید",
+          "یک",
+          "لحظه",
+          "صبر",
+          "کنید؟"
+        ],
+        "ar": [
+          "هل",
+          "يمكنك",
+          "الانتظار",
+          "لحظة؟"
+        ],
+        "es": [
+          "¿Puedes",
+          "esperar",
+          "un",
+          "momento?"
+        ],
+        "zh": [
+          "你",
+          "能",
+          "等一下",
+          "吗？"
+        ],
+        "ja": [
+          "少し",
+          "待って",
+          "もらえます",
+          "か？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ability_speak_again",
+      "kind": "sentence",
+      "itemIds": [
+        "word_speak",
+        "word_again",
+        "word_can",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Can you say that again?",
+        "th": "พูดอีกครั้งได้ไหมคะ",
+        "fa": "می‌توانید دوباره بگویید؟",
+        "ar": "هل يمكنك قول ذلك مرة أخرى؟",
+        "es": "¿Puedes decir eso de nuevo?",
+        "zh": "你能再说一遍吗？",
+        "ja": "もう一度言ってもらえますか？"
+      },
+      "tokens": {
+        "en": [
+          "Can",
+          "you",
+          "say",
+          "that",
+          "again?"
+        ],
+        "th": [
+          "พูด",
+          "อีกครั้ง",
+          "ได้",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "می‌توانید",
+          "دوباره",
+          "بگویید؟"
+        ],
+        "ar": [
+          "هل",
+          "يمكنك",
+          "قول",
+          "ذلك",
+          "مرة",
+          "أخرى؟"
+        ],
+        "es": [
+          "¿Puedes",
+          "decir",
+          "eso",
+          "de",
+          "nuevo?"
+        ],
+        "zh": [
+          "你",
+          "能",
+          "再说",
+          "一遍",
+          "吗？"
+        ],
+        "ja": [
+          "もう",
+          "一度",
+          "言って",
+          "もらえます",
+          "か？"
+        ]
+      }
+    },
+    {
+      "id": "word_help",
+      "kind": "word",
+      "texts": {
+        "en": "help",
+        "th": "ช่วย",
+        "fa": "کمک کردن",
+        "ar": "يساعد",
+        "es": "ayudar",
+        "zh": "帮助",
+        "ja": "手伝う"
+      }
+    },
+    {
+      "id": "word_slowly",
+      "kind": "word",
+      "texts": {
+        "en": "slowly",
+        "th": "ช้า ๆ",
+        "fa": "آهسته",
+        "ar": "ببطء",
+        "es": "despacio",
+        "zh": "慢慢地",
+        "ja": "ゆっくり"
+      }
+    },
+    {
+      "id": "word_wait",
+      "kind": "word",
+      "texts": {
+        "en": "wait",
+        "th": "รอ",
+        "fa": "صبر کردن",
+        "ar": "ينتظر",
+        "es": "esperar",
+        "zh": "等",
+        "ja": "待つ"
+      }
+    },
+    {
+      "id": "word_again",
+      "kind": "word",
+      "texts": {
+        "en": "again",
+        "th": "อีกครั้ง",
+        "fa": "دوباره",
+        "ar": "مرة أخرى",
+        "es": "otra vez",
+        "zh": "再 / 又",
+        "ja": "もう一度"
+      }
+    },
+    {
+      "id": "word_enter",
+      "kind": "word",
+      "texts": {
+        "en": "enter / go in",
+        "th": "เข้าไป",
+        "fa": "وارد شدن",
+        "ar": "يدخل",
+        "es": "entrar",
+        "zh": "进入",
+        "ja": "入る"
+      }
+    },
+    {
+      "id": "word_cannot",
+      "kind": "word",
+      "texts": {
+        "en": "can't / didn't (ได้ + ไม่ได้)",
+        "th": "ไม่ได้",
+        "fa": "نمی‌توان / نتوانست",
+        "ar": "لا يستطيع / لم",
+        "es": "no poder / no hizo",
+        "zh": "不能 / 没",
+        "ja": "できない / できなかった"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Polite Responses",
+        "th": "สถานการณ์ 5: การตอบอย่างสุภาพ",
+        "fa": "سناریو ۵: پاسخ‌های مؤدبانه",
+        "ar": "السيناريو 5: الردود المهذبة",
+        "es": "Escenario 5: Respuestas corteses",
+        "zh": "场景五：礼貌回应",
+        "ja": "シナリオ5：丁寧な返答"
+      }
+    },
+    {
+      "id": "sentence_polite_yes_please",
+      "kind": "sentence",
+      "itemIds": [
+        "word_yes",
+        "word_please"
+      ],
+      "texts": {
+        "en": "Yes, please",
+        "th": "ค่ะ กรุณา",
+        "fa": "بله، لطفاً",
+        "ar": "نعم، من فضلك",
+        "es": "Sí, por favor",
+        "zh": "好的，请",
+        "ja": "はい、お願いします"
+      },
+      "tokens": {
+        "en": [
+          "Yes,",
+          "please"
+        ],
+        "th": [
+          "ค่ะ",
+          "กรุณา"
+        ],
+        "fa": [
+          "بله،",
+          "لطفاً"
+        ],
+        "ar": [
+          "نعم،",
+          "من",
+          "فضلك"
+        ],
+        "es": [
+          "Sí,",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "好的，",
+          "请"
+        ],
+        "ja": [
+          "はい、",
+          "お願い",
+          "します"
+        ]
+      }
+    },
+    {
+      "id": "sentence_polite_no_thank",
+      "kind": "sentence",
+      "itemIds": [
+        "word_no",
+        "word_thank"
+      ],
+      "texts": {
+        "en": "No, thank you",
+        "th": "ไม่ค่ะ ขอบคุณค่ะ",
+        "fa": "نه، متشکرم",
+        "ar": "لا، شكراً",
+        "es": "No, gracias",
+        "zh": "不用了，谢谢",
+        "ja": "いいえ、結構です"
+      },
+      "tokens": {
+        "en": [
+          "No,",
+          "thank",
+          "you"
+        ],
+        "th": [
+          "ไม่",
+          "ค่ะ",
+          "ขอบคุณ",
+          "ค่ะ"
+        ],
+        "fa": [
+          "نه،",
+          "متشکرم"
+        ],
+        "ar": [
+          "لا،",
+          "شكراً"
+        ],
+        "es": [
+          "No,",
+          "gracias"
+        ],
+        "zh": [
+          "不用了，",
+          "谢谢"
+        ],
+        "ja": [
+          "いいえ、",
+          "結構",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_polite_sorry_cannot",
+      "kind": "sentence",
+      "itemIds": [
+        "word_sorry",
+        "word_i",
+        "word_cannot"
+      ],
+      "texts": {
+        "en": "I'm sorry, I can't",
+        "th": "ขอโทษค่ะ ฉันไม่ได้ค่ะ",
+        "fa": "متأسفم، نمی‌توانم",
+        "ar": "أنا آسف، لا أستطيع",
+        "es": "Lo siento, no puedo",
+        "zh": "抱歉，我不行",
+        "ja": "すみません、できません"
+      },
+      "tokens": {
+        "en": [
+          "I'm",
+          "sorry,",
+          "I",
+          "can't"
+        ],
+        "th": [
+          "ขอโทษ",
+          "ค่ะ",
+          "ฉัน",
+          "ไม่ได้",
+          "ค่ะ"
+        ],
+        "fa": [
+          "متأسفم،",
+          "نمی‌توانم"
+        ],
+        "ar": [
+          "أنا",
+          "آسف،",
+          "لا",
+          "أستطيع"
+        ],
+        "es": [
+          "Lo",
+          "siento,",
+          "no",
+          "puedo"
+        ],
+        "zh": [
+          "抱歉，",
+          "我",
+          "不行"
+        ],
+        "ja": [
+          "すみません、",
+          "でき",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_polite_maybe",
+      "kind": "sentence",
+      "itemIds": [
+        "word_maybe"
+      ],
+      "texts": {
+        "en": "Maybe",
+        "th": "อาจจะค่ะ",
+        "fa": "شاید",
+        "ar": "ربما",
+        "es": "Tal vez",
+        "zh": "也许",
+        "ja": "たぶん"
+      },
+      "tokens": {
+        "en": [
+          "Maybe"
+        ],
+        "th": [
+          "อาจจะ",
+          "ค่ะ"
+        ],
+        "fa": [
+          "شاید"
+        ],
+        "ar": [
+          "ربما"
+        ],
+        "es": [
+          "Tal",
+          "vez"
+        ],
+        "zh": [
+          "也许"
+        ],
+        "ja": [
+          "たぶん"
+        ]
+      }
+    },
+    {
+      "id": "sentence_polite_of_course",
+      "kind": "sentence",
+      "itemIds": [
+        "word_of_course"
+      ],
+      "texts": {
+        "en": "Of course",
+        "th": "แน่นอนครับ",
+        "fa": "البته",
+        "ar": "بالطبع",
+        "es": "Por supuesto",
+        "zh": "当然",
+        "ja": "もちろん"
+      },
+      "tokens": {
+        "en": [
+          "Of",
+          "course"
+        ],
+        "th": [
+          "แน่นอน",
+          "ครับ"
+        ],
+        "fa": [
+          "البته"
+        ],
+        "ar": [
+          "بالطبع"
+        ],
+        "es": [
+          "Por",
+          "supuesto"
+        ],
+        "zh": [
+          "当然"
+        ],
+        "ja": [
+          "もちろん"
+        ]
+      }
+    },
+    {
+      "id": "sentence_polite_no_problem",
+      "kind": "sentence",
+      "itemIds": [
+        "word_no",
+        "word_problem"
+      ],
+      "texts": {
+        "en": "No problem",
+        "th": "ไม่มีปัญหาครับ",
+        "fa": "مشکلی نیست",
+        "ar": "لا مشكلة",
+        "es": "No hay problema",
+        "zh": "没问题",
+        "ja": "大丈夫です"
+      },
+      "tokens": {
+        "en": [
+          "No",
+          "problem"
+        ],
+        "th": [
+          "ไม่",
+          "มี",
+          "ปัญหา",
+          "ครับ"
+        ],
+        "fa": [
+          "مشکلی",
+          "نیست"
+        ],
+        "ar": [
+          "لا",
+          "مشكلة"
+        ],
+        "es": [
+          "No",
+          "hay",
+          "problema"
+        ],
+        "zh": [
+          "没",
+          "问题"
+        ],
+        "ja": [
+          "大丈夫",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "word_sorry",
+      "kind": "word",
+      "texts": {
+        "en": "sorry",
+        "th": "ขอโทษ",
+        "fa": "متأسفم / عذرخواهی",
+        "ar": "آسف / عذراً",
+        "es": "lo siento / perdón",
+        "zh": "抱歉",
+        "ja": "すみません"
+      }
+    },
+    {
+      "id": "word_maybe",
+      "kind": "word",
+      "texts": {
+        "en": "maybe",
+        "th": "อาจจะ",
+        "fa": "شاید",
+        "ar": "ربما",
+        "es": "tal vez",
+        "zh": "也许",
+        "ja": "たぶん"
+      }
+    },
+    {
+      "id": "word_of_course",
+      "kind": "word",
+      "texts": {
+        "en": "of course",
+        "th": "แน่นอน",
+        "fa": "البته",
+        "ar": "بالطبع",
+        "es": "por supuesto",
+        "zh": "当然",
+        "ja": "もちろん"
+      }
+    },
+    {
+      "id": "word_problem",
+      "kind": "word",
+      "texts": {
+        "en": "problem",
+        "th": "ปัญหา",
+        "fa": "مشکل",
+        "ar": "مشكلة",
+        "es": "problema",
+        "zh": "问题",
+        "ja": "問題"
+      }
+    },
+    {
+      "id": "word_never_mind",
+      "kind": "word",
+      "texts": {
+        "en": "never mind / it's okay",
+        "th": "ไม่เป็นไร",
+        "fa": "اشکالی ندارد",
+        "ar": "لا بأس",
+        "es": "no importa / está bien",
+        "zh": "没关系",
+        "ja": "大丈夫 / 構わない"
+      }
+    }
+  ]
+}

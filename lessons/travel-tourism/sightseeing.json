@@ -1,0 +1,905 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras clave",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú / usted",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_we",
+      "kind": "word",
+      "texts": {
+        "en": "we",
+        "th": "เรา",
+        "fa": "ما",
+        "ar": "نحن",
+        "es": "nosotros",
+        "zh": "我们",
+        "ja": "私たち"
+      }
+    },
+    {
+      "id": "word_want",
+      "kind": "word",
+      "texts": {
+        "en": "want",
+        "th": "ต้องการ",
+        "fa": "خواستن",
+        "ar": "يريد",
+        "es": "querer",
+        "zh": "想要",
+        "ja": "欲しい"
+      }
+    },
+    {
+      "id": "word_have",
+      "kind": "word",
+      "texts": {
+        "en": "have",
+        "th": "มี",
+        "fa": "داشتن",
+        "ar": "يملك",
+        "es": "tener",
+        "zh": "有",
+        "ja": "ある"
+      }
+    },
+    {
+      "id": "word_go",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "word_where",
+      "kind": "word",
+      "texts": {
+        "en": "where",
+        "th": "ที่ไหน",
+        "fa": "کجا",
+        "ar": "أين",
+        "es": "dónde",
+        "zh": "哪里",
+        "ja": "どこ"
+      }
+    },
+    {
+      "id": "word_question_particle",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Asking Where and How",
+        "th": "สถานการณ์ 1: การถามว่าที่ไหนและอย่างไร",
+        "fa": "سناریو ۱: پرسیدن کجا و چگونه",
+        "ar": "السيناريو 1: السؤال عن المكان والطريقة",
+        "es": "Escenario 1: Preguntar dónde y cómo",
+        "zh": "场景一：询问地点与方式",
+        "ja": "シナリオ1：場所と方法を尋ねる"
+      }
+    },
+    {
+      "id": "sentence_sightseeing_have_map_question",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_have",
+        "word_map",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Do you have a map",
+        "th": "คุณมีแผนที่ไหม",
+        "fa": "آیا نقشه دارید",
+        "ar": "هل لديك خريطة",
+        "es": "Tienes un mapa",
+        "zh": "你有地图吗",
+        "ja": "地図はありますか"
+      },
+      "tokens": {
+        "en": ["Do", "you", "have", "a", "map"],
+        "th": ["คุณ", "มี", "แผนที่", "ไหม"],
+        "fa": ["آیا", "نقشه", "دارید"],
+        "ar": ["هل", "لديك", "خريطة"],
+        "es": ["Tienes", "un", "mapa"],
+        "zh": ["你", "有", "地图", "吗"],
+        "ja": ["地図", "は", "あります", "か"]
+      }
+    },
+    {
+      "id": "sentence_sightseeing_where_museum",
+      "kind": "sentence",
+      "itemIds": ["word_where", "word_museum"],
+      "texts": {
+        "en": "Where is the museum",
+        "th": "พิพิธภัณฑ์อยู่ที่ไหน",
+        "fa": "موزه کجاست",
+        "ar": "أين المتحف",
+        "es": "Dónde está el museo",
+        "zh": "博物馆在哪里",
+        "ja": "博物館はどこですか"
+      },
+      "tokens": {
+        "en": ["Where", "is", "the", "museum"],
+        "th": ["พิพิธภัณฑ์", "อยู่", "ที่ไหน"],
+        "fa": ["موزه", "کجاست"],
+        "ar": ["أين", "المتحف"],
+        "es": ["Dónde", "está", "el", "museo"],
+        "zh": ["博物馆", "在", "哪里"],
+        "ja": ["博物館", "は", "どこ", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_sightseeing_where_entrance",
+      "kind": "sentence",
+      "itemIds": ["word_where", "word_entrance"],
+      "texts": {
+        "en": "Where is the entrance",
+        "th": "ทางเข้าอยู่ที่ไหน",
+        "fa": "ورودی کجاست",
+        "ar": "أين المدخل",
+        "es": "Dónde está la entrada",
+        "zh": "入口在哪里",
+        "ja": "入口はどこですか"
+      },
+      "tokens": {
+        "en": ["Where", "is", "the", "entrance"],
+        "th": ["ทางเข้า", "อยู่", "ที่ไหน"],
+        "fa": ["ورودی", "کجاست"],
+        "ar": ["أين", "المدخل"],
+        "es": ["Dónde", "está", "la", "entrada"],
+        "zh": ["入口", "在", "哪里"],
+        "ja": ["入口", "は", "どこ", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_sightseeing_how_get_temple",
+      "kind": "sentence",
+      "itemIds": ["word_go", "word_temple", "word_how"],
+      "texts": {
+        "en": "How do I get to the temple?",
+        "th": "ไปวัดยังไงครับ",
+        "fa": "چطور به معبد بروم؟",
+        "ar": "كيف أصل إلى المعبد؟",
+        "es": "¿Cómo llego al templo?",
+        "zh": "去寺庙怎么走？",
+        "ja": "寺院にはどうやって行きますか？"
+      },
+      "tokens": {
+        "en": ["How", "do", "I", "get", "to", "the", "temple?"],
+        "th": ["ไป", "วัด", "ยังไง", "ครับ"],
+        "fa": ["چطور", "به", "معبد", "بروم؟"],
+        "ar": ["كيف", "أصل", "إلى", "المعبد؟"],
+        "es": ["¿Cómo", "llego", "al", "templo?"],
+        "zh": ["去", "寺庙", "怎么", "走？"],
+        "ja": ["寺院", "に", "は", "どうやって", "行き", "ます", "か？"]
+      }
+    },
+    {
+      "id": "word_map",
+      "kind": "word",
+      "texts": {
+        "en": "map",
+        "th": "แผนที่",
+        "fa": "نقشه",
+        "ar": "خريطة",
+        "es": "mapa",
+        "zh": "地图",
+        "ja": "地図"
+      }
+    },
+    {
+      "id": "word_museum",
+      "kind": "word",
+      "texts": {
+        "en": "museum",
+        "th": "พิพิธภัณฑ์",
+        "fa": "موزه",
+        "ar": "متحف",
+        "es": "museo",
+        "zh": "博物馆",
+        "ja": "博物館"
+      }
+    },
+    {
+      "id": "word_entrance",
+      "kind": "word",
+      "texts": {
+        "en": "entrance",
+        "th": "ทางเข้า",
+        "fa": "ورودی",
+        "ar": "مدخل",
+        "es": "entrada",
+        "zh": "入口",
+        "ja": "入口"
+      }
+    },
+    {
+      "id": "word_how",
+      "kind": "word",
+      "texts": {
+        "en": "how",
+        "th": "ยังไง / อย่างไร",
+        "fa": "چطور",
+        "ar": "كيف",
+        "es": "cómo",
+        "zh": "怎么",
+        "ja": "どう / どうやって"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Tickets, Prices & Opening Hours",
+        "th": "สถานการณ์ 2: ตั๋ว ราคา และเวลาเปิด",
+        "fa": "سناریو ۲: بلیت، قیمت و ساعت باز بودن",
+        "ar": "السيناريو 2: التذاكر والأسعار وساعات الفتح",
+        "es": "Escenario 2: Entradas, precios y horarios de apertura",
+        "zh": "场景二：门票、价格与开放时间",
+        "ja": "シナリオ2：チケット・料金・開館時間"
+      }
+    },
+    {
+      "id": "sentence_sightseeing_two_tickets",
+      "kind": "sentence",
+      "itemIds": ["word_ticket", "word_two"],
+      "texts": {
+        "en": "Two tickets please",
+        "th": "ขอตั๋วสองใบ",
+        "fa": "دو بلیت لطفا",
+        "ar": "تذكرتين من فضلك",
+        "es": "Dos entradas por favor",
+        "zh": "请给我两张票",
+        "ja": "チケットを二枚お願いします"
+      },
+      "tokens": {
+        "en": ["Two", "tickets", "please"],
+        "th": ["ขอ", "ตั๋ว", "สอง", "ใบ"],
+        "fa": ["دو", "بلیت", "لطفا"],
+        "ar": ["تذكرتين", "من", "فضلك"],
+        "es": ["Dos", "entradas", "por", "favor"],
+        "zh": ["请", "给", "我", "两张", "票"],
+        "ja": ["チケット", "を", "二枚", "お願い", "します"]
+      }
+    },
+    {
+      "id": "sentence_sightseeing_how_much_ticket",
+      "kind": "sentence",
+      "itemIds": ["word_ticket", "word_how_much"],
+      "texts": {
+        "en": "How much is the ticket?",
+        "th": "ตั๋วเท่าไหร่ครับ",
+        "fa": "بلیت چقدر است؟",
+        "ar": "كم سعر التذكرة؟",
+        "es": "¿Cuánto cuesta la entrada?",
+        "zh": "票多少钱？",
+        "ja": "チケットはいくらですか？"
+      },
+      "tokens": {
+        "en": ["How", "much", "is", "the", "ticket?"],
+        "th": ["ตั๋ว", "เท่าไหร่", "ครับ"],
+        "fa": ["بلیت", "چقدر", "است؟"],
+        "ar": ["كم", "سعر", "التذكرة؟"],
+        "es": ["¿Cuánto", "cuesta", "la", "entrada?"],
+        "zh": ["票", "多少", "钱？"],
+        "ja": ["チケット", "は", "いくら", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_sightseeing_open_what_time",
+      "kind": "sentence",
+      "itemIds": ["word_museum", "word_open", "word_what_time"],
+      "texts": {
+        "en": "What time does the museum open?",
+        "th": "พิพิธภัณฑ์เปิดกี่โมงครับ",
+        "fa": "موزه ساعت چند باز می‌شود؟",
+        "ar": "متى يفتح المتحف؟",
+        "es": "¿A qué hora abre el museo?",
+        "zh": "博物馆几点开门？",
+        "ja": "博物館は何時に開きますか？"
+      },
+      "tokens": {
+        "en": ["What", "time", "does", "the", "museum", "open?"],
+        "th": ["พิพิธภัณฑ์", "เปิด", "กี่โมง", "ครับ"],
+        "fa": ["موزه", "ساعت", "چند", "باز", "می‌شود؟"],
+        "ar": ["متى", "يفتح", "المتحف؟"],
+        "es": ["¿A", "qué", "hora", "abre", "el", "museo?"],
+        "zh": ["博物馆", "几点", "开门？"],
+        "ja": ["博物館", "は", "何時", "に", "開き", "ます", "か？"]
+      }
+    },
+    {
+      "id": "word_ticket",
+      "kind": "word",
+      "texts": {
+        "en": "ticket",
+        "th": "ตั๋ว",
+        "fa": "بلیت",
+        "ar": "تذكرة",
+        "es": "entrada",
+        "zh": "票",
+        "ja": "チケット"
+      }
+    },
+    {
+      "id": "word_two",
+      "kind": "word",
+      "texts": {
+        "en": "two",
+        "th": "สอง",
+        "fa": "دو",
+        "ar": "اثنان",
+        "es": "dos",
+        "zh": "两",
+        "ja": "二"
+      }
+    },
+    {
+      "id": "word_how_much",
+      "kind": "word",
+      "texts": {
+        "en": "how much",
+        "th": "เท่าไหร่",
+        "fa": "چقدر",
+        "ar": "كم",
+        "es": "cuánto",
+        "zh": "多少",
+        "ja": "いくら"
+      }
+    },
+    {
+      "id": "word_what_time",
+      "kind": "word",
+      "texts": {
+        "en": "what time",
+        "th": "กี่โมง",
+        "fa": "ساعت چند",
+        "ar": "متى / كم الساعة",
+        "es": "a qué hora",
+        "zh": "几点",
+        "ja": "何時"
+      }
+    },
+    {
+      "id": "word_open",
+      "kind": "word",
+      "texts": {
+        "en": "open",
+        "th": "เปิด",
+        "fa": "باز شدن",
+        "ar": "يفتح",
+        "es": "abrir",
+        "zh": "开 / 开放",
+        "ja": "開く"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Describing Sights & Taking Photos",
+        "th": "สถานการณ์ 3: การบรรยายสถานที่และถ่ายรูป",
+        "fa": "سناریو ۳: توصیف دیدنی‌ها و عکس گرفتن",
+        "ar": "السيناريو 3: وصف المعالم والتقاط الصور",
+        "es": "Escenario 3: Describir lugares y tomar fotos",
+        "zh": "场景三：描述景点与拍照",
+        "ja": "シナリオ3：名所の描写と写真撮影"
+      }
+    },
+    {
+      "id": "sentence_sightseeing_temple_beautiful",
+      "kind": "sentence",
+      "itemIds": ["word_temple", "word_beautiful", "word_much"],
+      "texts": {
+        "en": "The temple is very beautiful",
+        "th": "วัดสวยมาก",
+        "fa": "معبد خیلی زیبا است",
+        "ar": "المعبد جميل جدا",
+        "es": "El templo es muy hermoso",
+        "zh": "寺庙非常漂亮",
+        "ja": "寺院はとても美しいです"
+      },
+      "tokens": {
+        "en": ["The", "temple", "is", "very", "beautiful"],
+        "th": ["วัด", "สวย", "มาก"],
+        "fa": ["معبد", "خیلی", "زیبا", "است"],
+        "ar": ["المعبد", "جميل", "جدا"],
+        "es": ["El", "templo", "es", "muy", "hermoso"],
+        "zh": ["寺庙", "非常", "漂亮"],
+        "ja": ["寺院", "は", "とても", "美しい", "です"]
+      }
+    },
+    {
+      "id": "sentence_sightseeing_take_photo",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_want", "word_take", "word_photo"],
+      "texts": {
+        "en": "I want to take a photo",
+        "th": "ฉันต้องการถ่ายรูป",
+        "fa": "من می‌خواهم عکس بگیرم",
+        "ar": "أريد أن آخذ صورة",
+        "es": "Quiero tomar una foto",
+        "zh": "我想拍照片",
+        "ja": "写真を撮りたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "take", "a", "photo"],
+        "th": ["ฉัน", "ต้องการ", "ถ่าย", "รูปถ่าย"],
+        "fa": ["من", "می‌خواهم", "عکس", "بگیرم"],
+        "ar": ["أريد", "أن", "آخذ", "صورة"],
+        "es": ["Quiero", "tomar", "una", "foto"],
+        "zh": ["我", "想", "拍", "照片"],
+        "ja": ["写真", "を", "撮り", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_sightseeing_view_beautiful",
+      "kind": "sentence",
+      "itemIds": ["word_view", "word_beautiful", "word_much"],
+      "texts": {
+        "en": "The view is very beautiful",
+        "th": "วิวสวยมากครับ",
+        "fa": "منظره خیلی زیبا است",
+        "ar": "المنظر جميل جدا",
+        "es": "La vista es muy hermosa",
+        "zh": "风景非常漂亮",
+        "ja": "景色がとても美しいです"
+      },
+      "tokens": {
+        "en": ["The", "view", "is", "very", "beautiful"],
+        "th": ["วิว", "สวย", "มาก", "ครับ"],
+        "fa": ["منظره", "خیلی", "زیبا", "است"],
+        "ar": ["المنظر", "جميل", "جدا"],
+        "es": ["La", "vista", "es", "muy", "hermosa"],
+        "zh": ["风景", "非常", "漂亮"],
+        "ja": ["景色", "が", "とても", "美しい", "です"]
+      }
+    },
+    {
+      "id": "sentence_sightseeing_take_photo_here",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_want",
+        "word_take",
+        "word_photo",
+        "word_here"
+      ],
+      "texts": {
+        "en": "I want to take a photo here",
+        "th": "ฉันต้องการถ่ายรูปที่นี่ค่ะ",
+        "fa": "من می‌خواهم اینجا عکس بگیرم",
+        "ar": "أريد أن آخذ صورة هنا",
+        "es": "Quiero tomar una foto aquí",
+        "zh": "我想在这里拍照",
+        "ja": "ここで写真を撮りたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "take", "a", "photo", "here"],
+        "th": ["ฉัน", "ต้องการ", "ถ่าย", "รูปถ่าย", "ที่นี่", "ค่ะ"],
+        "fa": ["من", "می‌خواهم", "اینجا", "عکس", "بگیرم"],
+        "ar": ["أريد", "أن", "آخذ", "صورة", "هنا"],
+        "es": ["Quiero", "tomar", "una", "foto", "aquí"],
+        "zh": ["我", "想", "在", "这里", "拍照"],
+        "ja": ["ここ", "で", "写真", "を", "撮り", "たい", "です"]
+      }
+    },
+    {
+      "id": "word_temple",
+      "kind": "word",
+      "texts": {
+        "en": "temple",
+        "th": "วัด",
+        "fa": "معبد",
+        "ar": "معبد",
+        "es": "templo",
+        "zh": "寺庙",
+        "ja": "寺院"
+      }
+    },
+    {
+      "id": "word_beautiful",
+      "kind": "word",
+      "texts": {
+        "en": "beautiful",
+        "th": "สวย",
+        "fa": "زیبا",
+        "ar": "جميل",
+        "es": "hermoso",
+        "zh": "漂亮",
+        "ja": "美しい"
+      }
+    },
+    {
+      "id": "word_much",
+      "kind": "word",
+      "texts": {
+        "en": "very",
+        "th": "มาก",
+        "fa": "خیلی",
+        "ar": "جدا",
+        "es": "muy",
+        "zh": "非常",
+        "ja": "とても"
+      }
+    },
+    {
+      "id": "word_take",
+      "kind": "word",
+      "texts": {
+        "en": "take",
+        "th": "ถ่าย",
+        "fa": "گرفتن",
+        "ar": "يأخذ",
+        "es": "tomar",
+        "zh": "拍",
+        "ja": "撮る"
+      }
+    },
+    {
+      "id": "word_photo",
+      "kind": "word",
+      "texts": {
+        "en": "photo",
+        "th": "รูปถ่าย",
+        "fa": "عکس",
+        "ar": "صورة",
+        "es": "foto",
+        "zh": "照片",
+        "ja": "写真"
+      }
+    },
+    {
+      "id": "word_view",
+      "kind": "word",
+      "texts": {
+        "en": "view / scenery",
+        "th": "วิว",
+        "fa": "منظره",
+        "ar": "منظر",
+        "es": "vista / paisaje",
+        "zh": "风景",
+        "ja": "景色"
+      }
+    },
+    {
+      "id": "word_here",
+      "kind": "word",
+      "texts": {
+        "en": "here",
+        "th": "ที่นี่",
+        "fa": "اینجا",
+        "ar": "هنا",
+        "es": "aquí",
+        "zh": "这里",
+        "ja": "ここ"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Going Sightseeing — Serial Verbs",
+        "th": "สถานการณ์ 4: การไปเที่ยวชม — กริยาต่อเนื่อง",
+        "fa": "سناریو ۴: گشت‌وگذار — افعال متوالی",
+        "ar": "السيناريو 4: الذهاب للمشاهدة — الأفعال المتسلسلة",
+        "es": "Escenario 4: Ir de turismo — verbos seriales",
+        "zh": "场景四：观光游览——连动句",
+        "ja": "シナリオ4：観光に出かける — 連動詞"
+      }
+    },
+    {
+      "id": "sentence_sightseeing_go_visit",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_want",
+        "word_go",
+        "word_visit",
+        "word_temple"
+      ],
+      "texts": {
+        "en": "I want to go visit the temple",
+        "th": "ฉันต้องการไปเที่ยววัดค่ะ",
+        "fa": "من می‌خواهم برای بازدید به معبد بروم",
+        "ar": "أريد أن أذهب لزيارة المعبد",
+        "es": "Quiero ir a visitar el templo",
+        "zh": "我想去参观寺庙",
+        "ja": "寺院に観光に行きたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "go", "visit", "the", "temple"],
+        "th": ["ฉัน", "ต้องการ", "ไป", "เที่ยว", "วัด", "ค่ะ"],
+        "fa": ["من", "می‌خواهم", "برای", "بازدید", "به", "معبد", "بروم"],
+        "ar": ["أريد", "أن", "أذهب", "لزيارة", "المعبد"],
+        "es": ["Quiero", "ir", "a", "visitar", "el", "templo"],
+        "zh": ["我", "想", "去", "参观", "寺庙"],
+        "ja": ["寺院", "に", "観光", "に", "行き", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_sightseeing_walk_visit",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_want",
+        "word_walk",
+        "word_visit",
+        "word_see",
+        "word_temple"
+      ],
+      "texts": {
+        "en": "I want to walk around and see the temple",
+        "th": "ฉันต้องการเดินเที่ยวชมวัดค่ะ",
+        "fa": "من می‌خواهم در معبد قدم بزنم و آن را ببینم",
+        "ar": "أريد أن أمشي وأتجول لأشاهد المعبد",
+        "es": "Quiero caminar y ver el templo",
+        "zh": "我想步行游览寺庙",
+        "ja": "寺院を歩いて見学したいです"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "want",
+          "to",
+          "walk",
+          "around",
+          "and",
+          "see",
+          "the",
+          "temple"
+        ],
+        "th": ["ฉัน", "ต้องการ", "เดิน", "เที่ยว", "ชม", "วัด", "ค่ะ"],
+        "fa": [
+          "من",
+          "می‌خواهم",
+          "در",
+          "معبد",
+          "قدم",
+          "بزنم",
+          "و",
+          "آن",
+          "را",
+          "ببینم"
+        ],
+        "ar": ["أريد", "أن", "أمشي", "وأتجول", "لأشاهد", "المعبد"],
+        "es": ["Quiero", "caminar", "y", "ver", "el", "templo"],
+        "zh": ["我", "想", "步行", "游览", "寺庙"],
+        "ja": ["寺院", "を", "歩いて", "見学", "し", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_sightseeing_go_buy_ticket",
+      "kind": "sentence",
+      "itemIds": ["word_go", "word_buy", "word_ticket"],
+      "texts": {
+        "en": "Let's go buy the tickets",
+        "th": "ไปซื้อตั๋วกันเถอะครับ",
+        "fa": "بیایید برویم بلیت بخریم",
+        "ar": "لنذهب لشراء التذاكر",
+        "es": "Vamos a comprar las entradas",
+        "zh": "我们去买票吧",
+        "ja": "チケットを買いに行きましょう"
+      },
+      "tokens": {
+        "en": ["Let's", "go", "buy", "the", "tickets"],
+        "th": ["ไป", "ซื้อ", "ตั๋ว", "กัน", "เถอะ", "ครับ"],
+        "fa": ["بیایید", "برویم", "بلیت", "بخریم"],
+        "ar": ["لنذهب", "لشراء", "التذاكر"],
+        "es": ["Vamos", "a", "comprar", "las", "entradas"],
+        "zh": ["我们", "去", "买", "票", "吧"],
+        "ja": ["チケット", "を", "買い", "に", "行き", "ましょう"]
+      }
+    },
+    {
+      "id": "word_visit",
+      "kind": "word",
+      "texts": {
+        "en": "visit / sightsee",
+        "th": "เที่ยว",
+        "fa": "بازدید کردن / گشتن",
+        "ar": "يزور / يتجول",
+        "es": "visitar / hacer turismo",
+        "zh": "游览 / 玩",
+        "ja": "観光する / 遊びに行く"
+      }
+    },
+    {
+      "id": "word_walk",
+      "kind": "word",
+      "texts": {
+        "en": "walk",
+        "th": "เดิน",
+        "fa": "راه رفتن / قدم زدن",
+        "ar": "يمشي",
+        "es": "caminar",
+        "zh": "走 / 步行",
+        "ja": "歩く"
+      }
+    },
+    {
+      "id": "word_see",
+      "kind": "word",
+      "texts": {
+        "en": "see / look at",
+        "th": "ชม / ดู",
+        "fa": "دیدن / تماشا کردن",
+        "ar": "يشاهد / يرى",
+        "es": "ver / contemplar",
+        "zh": "看 / 观赏",
+        "ja": "見る / 鑑賞する"
+      }
+    },
+    {
+      "id": "word_buy",
+      "kind": "word",
+      "texts": {
+        "en": "buy",
+        "th": "ซื้อ",
+        "fa": "خریدن",
+        "ar": "يشتري",
+        "es": "comprar",
+        "zh": "买",
+        "ja": "買う"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Getting Around — Serial Verbs with Transport",
+        "th": "สถานการณ์ 5: การเดินทางด้วยยานพาหนะ — กริยาต่อเนื่อง",
+        "fa": "سناریو ۵: رفت‌وآمد — افعال متوالی با حمل‌ونقل",
+        "ar": "السيناريو 5: التنقل — الأفعال المتسلسلة مع وسائل النقل",
+        "es": "Escenario 5: Moverse — verbos seriales con transporte",
+        "zh": "场景五：出行——交通工具连动句",
+        "ja": "シナリオ5：移動 — 交通手段の連動詞"
+      }
+    },
+    {
+      "id": "sentence_sightseeing_boat_ride",
+      "kind": "sentence",
+      "itemIds": [
+        "word_we",
+        "word_ride",
+        "word_boat",
+        "word_go",
+        "word_temple"
+      ],
+      "texts": {
+        "en": "We take a boat to the temple",
+        "th": "เรานั่งเรือไปวัดครับ",
+        "fa": "ما با قایق به معبد می‌رویم",
+        "ar": "نذهب إلى المعبد بالقارب",
+        "es": "Vamos al templo en barco",
+        "zh": "我们坐船去寺庙",
+        "ja": "ボートに乗って寺院へ行きます"
+      },
+      "tokens": {
+        "en": ["We", "take", "a", "boat", "to", "the", "temple"],
+        "th": ["เรา", "นั่ง", "เรือ", "ไป", "วัด", "ครับ"],
+        "fa": ["ما", "با", "قایق", "به", "معبد", "می‌رویم"],
+        "ar": ["نذهب", "إلى", "المعبد", "بالقارب"],
+        "es": ["Vamos", "al", "templo", "en", "barco"],
+        "zh": ["我们", "坐", "船", "去", "寺庙"],
+        "ja": ["ボート", "に", "乗って", "寺院", "へ", "行き", "ます"]
+      }
+    },
+    {
+      "id": "sentence_sightseeing_ride_to_museum",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_ride", "word_car", "word_museum", "word_go"],
+      "texts": {
+        "en": "I take a car to the museum",
+        "th": "ฉันนั่งรถไปพิพิธภัณฑ์ค่ะ",
+        "fa": "من با ماشین به موزه می‌روم",
+        "ar": "أذهب إلى المتحف بالسيارة",
+        "es": "Voy al museo en coche",
+        "zh": "我坐车去博物馆",
+        "ja": "車で博物館に行きます"
+      },
+      "tokens": {
+        "en": ["I", "take", "a", "car", "to", "the", "museum"],
+        "th": ["ฉัน", "นั่ง", "รถ", "ไป", "พิพิธภัณฑ์", "ค่ะ"],
+        "fa": ["من", "با", "ماشین", "به", "موزه", "می‌روم"],
+        "ar": ["أذهب", "إلى", "المتحف", "بالسيارة"],
+        "es": ["Voy", "al", "museo", "en", "coche"],
+        "zh": ["我", "坐", "车", "去", "博物馆"],
+        "ja": ["車", "で", "博物館", "に", "行き", "ます"]
+      }
+    },
+    {
+      "id": "word_ride",
+      "kind": "word",
+      "texts": {
+        "en": "ride / sit",
+        "th": "นั่ง",
+        "fa": "سوار شدن / نشستن",
+        "ar": "يركب",
+        "es": "montar / viajar en",
+        "zh": "坐 / 乘坐",
+        "ja": "乗る"
+      }
+    },
+    {
+      "id": "word_boat",
+      "kind": "word",
+      "texts": {
+        "en": "boat",
+        "th": "เรือ",
+        "fa": "قایق",
+        "ar": "قارب",
+        "es": "barco",
+        "zh": "船",
+        "ja": "船"
+      }
+    },
+    {
+      "id": "word_car",
+      "kind": "word",
+      "texts": {
+        "en": "car / vehicle",
+        "th": "รถ",
+        "fa": "ماشین",
+        "ar": "سيارة",
+        "es": "coche / carro",
+        "zh": "车",
+        "ja": "車"
+      }
+    }
+  ]
+}

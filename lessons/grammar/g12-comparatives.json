@@ -1,0 +1,332 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_this_one",
+      "kind": "word",
+      "texts": {
+        "en": "this one",
+        "th": "อันนี้",
+        "fa": "این یکی",
+        "ar": "هذا",
+        "es": "este",
+        "zh": "这个",
+        "ja": "これ"
+      }
+    },
+    {
+      "id": "sentence_g12_this_bigger",
+      "kind": "sentence",
+      "itemIds": [
+        "word_this_one",
+        "word_big",
+        "word_more"
+      ],
+      "texts": {
+        "en": "This one is bigger",
+        "th": "อันนี้ใหญ่กว่า",
+        "fa": "این یکی بزرگتر است",
+        "ar": "هذا أكبر",
+        "es": "Este es más grande",
+        "zh": "这个更大",
+        "ja": "これの方が大きい"
+      },
+      "tokens": {
+        "en": [
+          "This",
+          "one",
+          "is",
+          "bigger"
+        ],
+        "th": [
+          "อันนี้",
+          "ใหญ่",
+          "กว่า"
+        ],
+        "fa": [
+          "این",
+          "یکی",
+          "بزرگتر",
+          "است"
+        ],
+        "ar": [
+          "هذا",
+          "أكبر"
+        ],
+        "es": [
+          "Este",
+          "es",
+          "más",
+          "grande"
+        ],
+        "zh": [
+          "这个",
+          "更",
+          "大"
+        ],
+        "ja": [
+          "これ",
+          "の",
+          "方",
+          "が",
+          "大きい"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g12_thai_food_most_delicious",
+      "kind": "sentence",
+      "itemIds": [
+        "word_thai_food",
+        "word_delicious",
+        "word_most"
+      ],
+      "texts": {
+        "en": "Thai food is the most delicious",
+        "th": "อาหารไทยอร่อยที่สุด",
+        "fa": "غذای تایلندی خوشمزه‌ترین است",
+        "ar": "الطعام التايلاندي هو الألذ",
+        "es": "La comida tailandesa es la más deliciosa",
+        "zh": "泰国菜最好吃",
+        "ja": "タイ料理が一番おいしい"
+      },
+      "tokens": {
+        "en": [
+          "Thai",
+          "food",
+          "is",
+          "the",
+          "most",
+          "delicious"
+        ],
+        "th": [
+          "อาหารไทย",
+          "อร่อย",
+          "ที่สุด"
+        ],
+        "fa": [
+          "غذای",
+          "تایلندی",
+          "خوشمزه‌ترین",
+          "است"
+        ],
+        "ar": [
+          "الطعام",
+          "التايلاندي",
+          "هو",
+          "الألذ"
+        ],
+        "es": [
+          "La",
+          "comida",
+          "tailandesa",
+          "es",
+          "la",
+          "más",
+          "deliciosa"
+        ],
+        "zh": [
+          "泰国菜",
+          "最",
+          "好吃"
+        ],
+        "ja": [
+          "タイ料理",
+          "が",
+          "一番",
+          "おいしい"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g12_he_runs_faster",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he",
+        "word_run",
+        "word_fast",
+        "word_more",
+        "word_i"
+      ],
+      "texts": {
+        "en": "He runs faster than me",
+        "th": "เขาวิ่งเร็วกว่าฉัน",
+        "fa": "او سریعتر از من می‌دود",
+        "ar": "هو يركض أسرع مني",
+        "es": "Él corre más rápido que yo",
+        "zh": "他跑得比我快",
+        "ja": "彼は私より速く走る"
+      },
+      "tokens": {
+        "en": [
+          "He",
+          "runs",
+          "faster",
+          "than",
+          "me"
+        ],
+        "th": [
+          "เขา",
+          "วิ่ง",
+          "เร็ว",
+          "กว่า",
+          "ฉัน"
+        ],
+        "fa": [
+          "او",
+          "سریعتر",
+          "از",
+          "من",
+          "می‌دود"
+        ],
+        "ar": [
+          "هو",
+          "يركض",
+          "أسرع",
+          "مني"
+        ],
+        "es": [
+          "Él",
+          "corre",
+          "más",
+          "rápido",
+          "que",
+          "yo"
+        ],
+        "zh": [
+          "他",
+          "跑",
+          "得",
+          "比",
+          "我",
+          "快"
+        ],
+        "ja": [
+          "彼",
+          "は",
+          "私",
+          "より",
+          "速く",
+          "走る"
+        ]
+      }
+    },
+    {
+      "id": "word_big",
+      "kind": "word",
+      "texts": {
+        "en": "big",
+        "th": "ใหญ่",
+        "fa": "بزرگ",
+        "ar": "كبير",
+        "es": "grande",
+        "zh": "大",
+        "ja": "大きい"
+      }
+    },
+    {
+      "id": "word_more",
+      "kind": "word",
+      "texts": {
+        "en": "more (comparative)",
+        "th": "กว่า",
+        "fa": "تر",
+        "ar": "أكثر",
+        "es": "más",
+        "zh": "更",
+        "ja": "より"
+      }
+    },
+    {
+      "id": "word_thai_food",
+      "kind": "word",
+      "texts": {
+        "en": "Thai food",
+        "th": "อาหารไทย",
+        "fa": "غذای تایلندی",
+        "ar": "طعام تايلاندي",
+        "es": "comida tailandesa",
+        "zh": "泰国菜",
+        "ja": "タイ料理"
+      }
+    },
+    {
+      "id": "word_delicious",
+      "kind": "word",
+      "texts": {
+        "en": "delicious",
+        "th": "อร่อย",
+        "fa": "خوشمزه",
+        "ar": "لذيذ",
+        "es": "delicioso",
+        "zh": "好吃",
+        "ja": "おいしい"
+      }
+    },
+    {
+      "id": "word_most",
+      "kind": "word",
+      "texts": {
+        "en": "most (superlative)",
+        "th": "ที่สุด",
+        "fa": "ترین",
+        "ar": "الأكثر",
+        "es": "más",
+        "zh": "最",
+        "ja": "最も"
+      }
+    },
+    {
+      "id": "word_he",
+      "kind": "word",
+      "texts": {
+        "en": "he",
+        "th": "เขา",
+        "fa": "او",
+        "ar": "هو",
+        "es": "él",
+        "zh": "他",
+        "ja": "彼"
+      }
+    },
+    {
+      "id": "word_run",
+      "kind": "word",
+      "texts": {
+        "en": "run",
+        "th": "วิ่ง",
+        "fa": "دویدن",
+        "ar": "يركض",
+        "es": "correr",
+        "zh": "跑",
+        "ja": "走る"
+      }
+    },
+    {
+      "id": "word_fast",
+      "kind": "word",
+      "texts": {
+        "en": "fast",
+        "th": "เร็ว",
+        "fa": "سریع",
+        "ar": "سريع",
+        "es": "rápido",
+        "zh": "快",
+        "ja": "速い"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    }
+  ]
+}

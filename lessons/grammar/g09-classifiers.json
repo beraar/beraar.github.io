@@ -1,0 +1,382 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "sentence_g9_two_dogs",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_have",
+        "word_dog",
+        "word_two",
+        "word_animal_classifier"
+      ],
+      "texts": {
+        "en": "I have two dogs",
+        "th": "ฉันมีหมาสองตัว",
+        "fa": "من دو سگ دارم",
+        "ar": "لدي كلبان",
+        "es": "Tengo dos perros",
+        "zh": "我有两只狗",
+        "ja": "私は犬を二匹飼っています"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "have",
+          "two",
+          "dogs"
+        ],
+        "th": [
+          "ฉัน",
+          "มี",
+          "หมา",
+          "สอง",
+          "ตัว"
+        ],
+        "fa": [
+          "من",
+          "دو",
+          "سگ",
+          "دارم"
+        ],
+        "ar": [
+          "لدي",
+          "كلبان"
+        ],
+        "es": [
+          "Tengo",
+          "dos",
+          "perros"
+        ],
+        "zh": [
+          "我",
+          "有",
+          "两只",
+          "狗"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "犬",
+          "を",
+          "二匹",
+          "飼って",
+          "います"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g9_three_books",
+      "kind": "sentence",
+      "itemIds": [
+        "word_she",
+        "word_buy",
+        "word_book",
+        "word_three",
+        "word_book_classifier"
+      ],
+      "texts": {
+        "en": "She bought three books",
+        "th": "เธอซื้อหนังสือสามเล่ม",
+        "fa": "او سه کتاب خرید",
+        "ar": "اشترت ثلاثة كتب",
+        "es": "Ella compró tres libros",
+        "zh": "她买了三本书",
+        "ja": "彼女は本を三冊買いました"
+      },
+      "tokens": {
+        "en": [
+          "She",
+          "bought",
+          "three",
+          "books"
+        ],
+        "th": [
+          "เธอ",
+          "ซื้อ",
+          "หนังสือ",
+          "สาม",
+          "เล่ม"
+        ],
+        "fa": [
+          "او",
+          "سه",
+          "کتاب",
+          "خرید"
+        ],
+        "ar": [
+          "اشترت",
+          "ثلاثة",
+          "كتب"
+        ],
+        "es": [
+          "Ella",
+          "compró",
+          "tres",
+          "libros"
+        ],
+        "zh": [
+          "她",
+          "买",
+          "了",
+          "三本",
+          "书"
+        ],
+        "ja": [
+          "彼女",
+          "は",
+          "本",
+          "を",
+          "三冊",
+          "買い",
+          "まし",
+          "た"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g9_one_car",
+      "kind": "sentence",
+      "itemIds": [
+        "word_there_is",
+        "word_car",
+        "word_one",
+        "word_car_classifier"
+      ],
+      "texts": {
+        "en": "There is one car",
+        "th": "มีรถหนึ่งคัน",
+        "fa": "یک ماشین وجود دارد",
+        "ar": "توجد سيارة واحدة",
+        "es": "Hay un coche",
+        "zh": "有一辆车",
+        "ja": "車が一台あります"
+      },
+      "tokens": {
+        "en": [
+          "There",
+          "is",
+          "one",
+          "car"
+        ],
+        "th": [
+          "มี",
+          "รถ",
+          "หนึ่ง",
+          "คัน"
+        ],
+        "fa": [
+          "یک",
+          "ماشین",
+          "وجود",
+          "دارد"
+        ],
+        "ar": [
+          "توجد",
+          "سيارة",
+          "واحدة"
+        ],
+        "es": [
+          "Hay",
+          "un",
+          "coche"
+        ],
+        "zh": [
+          "有",
+          "一辆",
+          "车"
+        ],
+        "ja": [
+          "車",
+          "が",
+          "一台",
+          "あり",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "word_have",
+      "kind": "word",
+      "texts": {
+        "en": "have",
+        "th": "มี",
+        "fa": "داشتن",
+        "ar": "يملك",
+        "es": "tener",
+        "zh": "有",
+        "ja": "ある"
+      }
+    },
+    {
+      "id": "word_dog",
+      "kind": "word",
+      "texts": {
+        "en": "dog",
+        "th": "หมา",
+        "fa": "سگ",
+        "ar": "كلب",
+        "es": "perro",
+        "zh": "狗",
+        "ja": "犬"
+      }
+    },
+    {
+      "id": "word_two",
+      "kind": "word",
+      "texts": {
+        "en": "two",
+        "th": "สอง",
+        "fa": "دو",
+        "ar": "اثنان",
+        "es": "dos",
+        "zh": "两",
+        "ja": "二"
+      }
+    },
+    {
+      "id": "word_animal_classifier",
+      "kind": "word",
+      "texts": {
+        "en": "animal classifier",
+        "th": "ตัว",
+        "fa": "شمارنده حیوان",
+        "ar": "تصنيف حيوان",
+        "es": "clasificador animal",
+        "zh": "动物量词",
+        "ja": "動物の助数詞"
+      }
+    },
+    {
+      "id": "word_she",
+      "kind": "word",
+      "texts": {
+        "en": "she",
+        "th": "เธอ",
+        "fa": "او",
+        "ar": "هي",
+        "es": "ella",
+        "zh": "她",
+        "ja": "彼女"
+      }
+    },
+    {
+      "id": "word_buy",
+      "kind": "word",
+      "texts": {
+        "en": "buy",
+        "th": "ซื้อ",
+        "fa": "خریدن",
+        "ar": "يشتري",
+        "es": "comprar",
+        "zh": "买",
+        "ja": "買う"
+      }
+    },
+    {
+      "id": "word_book",
+      "kind": "word",
+      "texts": {
+        "en": "book",
+        "th": "หนังสือ",
+        "fa": "کتاب",
+        "ar": "كتاب",
+        "es": "libro",
+        "zh": "书",
+        "ja": "本"
+      }
+    },
+    {
+      "id": "word_three",
+      "kind": "word",
+      "texts": {
+        "en": "three",
+        "th": "สาม",
+        "fa": "سه",
+        "ar": "ثلاثة",
+        "es": "tres",
+        "zh": "三",
+        "ja": "三"
+      }
+    },
+    {
+      "id": "word_book_classifier",
+      "kind": "word",
+      "texts": {
+        "en": "book classifier",
+        "th": "เล่ม",
+        "fa": "شمارنده کتاب",
+        "ar": "تصنيف كتاب",
+        "es": "clasificador libro",
+        "zh": "书量词",
+        "ja": "本の助数詞"
+      }
+    },
+    {
+      "id": "word_there_is",
+      "kind": "word",
+      "texts": {
+        "en": "there is",
+        "th": "มี",
+        "fa": "وجود دارد",
+        "ar": "يوجد",
+        "es": "hay",
+        "zh": "有",
+        "ja": "ある"
+      }
+    },
+    {
+      "id": "word_car",
+      "kind": "word",
+      "texts": {
+        "en": "car",
+        "th": "รถ",
+        "fa": "ماشین",
+        "ar": "سيارة",
+        "es": "coche",
+        "zh": "车",
+        "ja": "車"
+      }
+    },
+    {
+      "id": "word_one",
+      "kind": "word",
+      "texts": {
+        "en": "one",
+        "th": "หนึ่ง",
+        "fa": "یک",
+        "ar": "واحد",
+        "es": "uno",
+        "zh": "一",
+        "ja": "一"
+      }
+    },
+    {
+      "id": "word_car_classifier",
+      "kind": "word",
+      "texts": {
+        "en": "vehicle classifier",
+        "th": "คัน",
+        "fa": "شمارنده وسیله",
+        "ar": "تصنيف سيارة",
+        "es": "clasificador vehículo",
+        "zh": "车辆词",
+        "ja": "車両の助数詞"
+      }
+    }
+  ]
+}

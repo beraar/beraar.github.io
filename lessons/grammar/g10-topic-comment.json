@@ -1,0 +1,355 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_thai_food",
+      "kind": "word",
+      "texts": {
+        "en": "Thai food",
+        "th": "อาหารไทย",
+        "fa": "غذای تایلندی",
+        "ar": "طعام تايلاندي",
+        "es": "comida tailandesa",
+        "zh": "泰国菜",
+        "ja": "タイ料理"
+      }
+    },
+    {
+      "id": "sentence_g10_thai_food_like",
+      "kind": "sentence",
+      "itemIds": [
+        "word_thai_food",
+        "word_i",
+        "word_like"
+      ],
+      "texts": {
+        "en": "Thai food, I like it",
+        "th": "อาหารไทย ฉันชอบ",
+        "fa": "غذای تایلندی، من دوست دارم",
+        "ar": "الطعام التايلاندي، أنا أحبه",
+        "es": "La comida tailandesa, me gusta",
+        "zh": "泰国菜，我喜欢",
+        "ja": "タイ料理は、私が好きです"
+      },
+      "tokens": {
+        "en": [
+          "Thai",
+          "food,",
+          "I",
+          "like",
+          "it"
+        ],
+        "th": [
+          "อาหารไทย",
+          "ฉัน",
+          "ชอบ"
+        ],
+        "fa": [
+          "غذای",
+          "تایلندی،",
+          "من",
+          "دوست",
+          "دارم"
+        ],
+        "ar": [
+          "الطعام",
+          "التايلاندي،",
+          "أنا",
+          "أحبه"
+        ],
+        "es": [
+          "La",
+          "comida",
+          "tailandesa,",
+          "me",
+          "gusta"
+        ],
+        "zh": [
+          "泰国菜",
+          "我",
+          "喜欢"
+        ],
+        "ja": [
+          "タイ料理",
+          "は",
+          "私",
+          "が",
+          "好き",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g10_spicy_not_eat",
+      "kind": "sentence",
+      "itemIds": [
+        "word_spicy_food",
+        "word_i",
+        "word_not",
+        "word_eat"
+      ],
+      "texts": {
+        "en": "Spicy food, I don't eat",
+        "th": "อาหารเผ็ด ฉันไม่กิน",
+        "fa": "غذای تند، من نمی‌خورم",
+        "ar": "الطعام الحار، أنا لا آكله",
+        "es": "La comida picante, no la como",
+        "zh": "辣的食物，我不吃",
+        "ja": "辛い食べ物は、私は食べません"
+      },
+      "tokens": {
+        "en": [
+          "Spicy",
+          "food,",
+          "I",
+          "don't",
+          "eat"
+        ],
+        "th": [
+          "อาหารเผ็ด",
+          "ฉัน",
+          "ไม่",
+          "กิน"
+        ],
+        "fa": [
+          "غذای",
+          "تند،",
+          "من",
+          "نمی‌خورم"
+        ],
+        "ar": [
+          "الطعام",
+          "الحار،",
+          "أنا",
+          "لا",
+          "آكله"
+        ],
+        "es": [
+          "La",
+          "comida",
+          "picante,",
+          "no",
+          "la",
+          "como"
+        ],
+        "zh": [
+          "辣的",
+          "食物",
+          "我",
+          "不",
+          "吃"
+        ],
+        "ja": [
+          "辛い",
+          "食べ物",
+          "は",
+          "私",
+          "は",
+          "食べ",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g10_this_movie_fun",
+      "kind": "sentence",
+      "itemIds": [
+        "word_movie",
+        "word_classifier_story",
+        "word_this",
+        "word_fun",
+        "word_very"
+      ],
+      "texts": {
+        "en": "This movie is very fun",
+        "th": "หนังเรื่องนี้ สนุกมาก",
+        "fa": "این فیلم خیلی سرگرم کننده است",
+        "ar": "هذا الفيلم ممتع جدا",
+        "es": "Esta película es muy divertida",
+        "zh": "这部电影很有趣",
+        "ja": "この映画はとても楽しい"
+      },
+      "tokens": {
+        "en": [
+          "This",
+          "movie",
+          "is",
+          "very",
+          "fun"
+        ],
+        "th": [
+          "หนัง",
+          "เรื่อง",
+          "นี้",
+          "สนุก",
+          "มาก"
+        ],
+        "fa": [
+          "این",
+          "فیلم",
+          "خیلی",
+          "سرگرم",
+          "کننده",
+          "است"
+        ],
+        "ar": [
+          "هذا",
+          "الفيلم",
+          "ممتع",
+          "جدا"
+        ],
+        "es": [
+          "Esta",
+          "película",
+          "es",
+          "muy",
+          "divertida"
+        ],
+        "zh": [
+          "这",
+          "部",
+          "电影",
+          "很",
+          "有趣"
+        ],
+        "ja": [
+          "この",
+          "映画",
+          "は",
+          "とても",
+          "楽しい"
+        ]
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_like",
+      "kind": "word",
+      "texts": {
+        "en": "like",
+        "th": "ชอบ",
+        "fa": "دوست داشتن",
+        "ar": "يحب",
+        "es": "gustar",
+        "zh": "喜欢",
+        "ja": "好き"
+      }
+    },
+    {
+      "id": "word_spicy_food",
+      "kind": "word",
+      "texts": {
+        "en": "spicy food",
+        "th": "อาหารเผ็ด",
+        "fa": "غذای تند",
+        "ar": "طعام حار",
+        "es": "comida picante",
+        "zh": "辣食",
+        "ja": "辛い食べ物"
+      }
+    },
+    {
+      "id": "word_not",
+      "kind": "word",
+      "texts": {
+        "en": "not",
+        "th": "ไม่",
+        "fa": "نه",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不",
+        "ja": "ない"
+      }
+    },
+    {
+      "id": "word_eat",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "يأكل",
+        "es": "comer",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "word_movie",
+      "kind": "word",
+      "texts": {
+        "en": "movie",
+        "th": "หนัง",
+        "fa": "فیلم",
+        "ar": "فيلم",
+        "es": "película",
+        "zh": "电影",
+        "ja": "映画"
+      }
+    },
+    {
+      "id": "word_classifier_story",
+      "kind": "word",
+      "texts": {
+        "en": "story classifier",
+        "th": "เรื่อง",
+        "fa": "شمارنده داستان",
+        "ar": "تصنيف قصة",
+        "es": "clasificador historia",
+        "zh": "部(电影)",
+        "ja": "作品の助数詞"
+      }
+    },
+    {
+      "id": "word_this",
+      "kind": "word",
+      "texts": {
+        "en": "this",
+        "th": "นี้",
+        "fa": "این",
+        "ar": "هذا",
+        "es": "este",
+        "zh": "这",
+        "ja": "この"
+      }
+    },
+    {
+      "id": "word_fun",
+      "kind": "word",
+      "texts": {
+        "en": "fun",
+        "th": "สนุก",
+        "fa": "سرگرم کننده",
+        "ar": "ممتع",
+        "es": "divertido",
+        "zh": "有趣",
+        "ja": "楽しい"
+      }
+    },
+    {
+      "id": "word_very",
+      "kind": "word",
+      "texts": {
+        "en": "very",
+        "th": "มาก",
+        "fa": "خیلی",
+        "ar": "جدا",
+        "es": "muy",
+        "zh": "非常",
+        "ja": "とても"
+      }
+    }
+  ]
+}

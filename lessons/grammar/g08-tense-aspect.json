@@ -1,0 +1,331 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "sentence_g8_already_ate",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_eat",
+        "word_rice",
+        "word_already"
+      ],
+      "texts": {
+        "en": "I already ate",
+        "th": "ฉันกินข้าวแล้ว",
+        "fa": "من قبلا برنج خوردم",
+        "ar": "لقد أكلت الأرز بالفعل",
+        "es": "Ya comí arroz",
+        "zh": "我已经吃饭了",
+        "ja": "私はもうご飯を食べました"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "already",
+          "ate"
+        ],
+        "th": [
+          "ฉัน",
+          "กิน",
+          "ข้าว",
+          "แล้ว"
+        ],
+        "fa": [
+          "من",
+          "قبلا",
+          "برنج",
+          "خوردم"
+        ],
+        "ar": [
+          "لقد",
+          "أكلت",
+          "الأرز",
+          "بالفعل"
+        ],
+        "es": [
+          "Ya",
+          "comí",
+          "arroz"
+        ],
+        "zh": [
+          "我",
+          "已经",
+          "吃饭",
+          "了"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "もう",
+          "ご飯",
+          "を",
+          "食べ",
+          "まし",
+          "た"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g8_is_sleeping",
+      "kind": "sentence",
+      "itemIds": [
+        "word_she",
+        "word_ing",
+        "word_sleep"
+      ],
+      "texts": {
+        "en": "She is sleeping",
+        "th": "เธอกำลังนอนหลับ",
+        "fa": "او در حال خوابیدن است",
+        "ar": "هي نائمة الآن",
+        "es": "Ella está durmiendo",
+        "zh": "她正在睡觉",
+        "ja": "彼女は寝ている"
+      },
+      "tokens": {
+        "en": [
+          "She",
+          "is",
+          "sleeping"
+        ],
+        "th": [
+          "เธอ",
+          "กำลัง",
+          "นอนหลับ"
+        ],
+        "fa": [
+          "او",
+          "در",
+          "حال",
+          "خوابیدن",
+          "است"
+        ],
+        "ar": [
+          "هي",
+          "نائمة",
+          "الآن"
+        ],
+        "es": [
+          "Ella",
+          "está",
+          "durmiendo"
+        ],
+        "zh": [
+          "她",
+          "正在",
+          "睡觉"
+        ],
+        "ja": [
+          "彼女",
+          "は",
+          "寝て",
+          "いる"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g8_will_go_tomorrow",
+      "kind": "sentence",
+      "itemIds": [
+        "word_we",
+        "word_will",
+        "word_go",
+        "word_tomorrow"
+      ],
+      "texts": {
+        "en": "We will go tomorrow",
+        "th": "เราจะไปพรุ่งนี้",
+        "fa": "ما فردا خواهیم رفت",
+        "ar": "سنذهب غدا",
+        "es": "Iremos mañana",
+        "zh": "我们明天将去",
+        "ja": "私たちは明日行くでしょう"
+      },
+      "tokens": {
+        "en": [
+          "We",
+          "will",
+          "go",
+          "tomorrow"
+        ],
+        "th": [
+          "เรา",
+          "จะ",
+          "ไป",
+          "พรุ่งนี้"
+        ],
+        "fa": [
+          "ما",
+          "فردا",
+          "خواهیم",
+          "رفت"
+        ],
+        "ar": [
+          "سنذهب",
+          "غدا"
+        ],
+        "es": [
+          "Iremos",
+          "mañana"
+        ],
+        "zh": [
+          "我们",
+          "明天",
+          "将",
+          "去"
+        ],
+        "ja": [
+          "私たち",
+          "は",
+          "明日",
+          "行く",
+          "でしょう"
+        ]
+      }
+    },
+    {
+      "id": "word_eat",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "يأكل",
+        "es": "comer",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "word_rice",
+      "kind": "word",
+      "texts": {
+        "en": "rice",
+        "th": "ข้าว",
+        "fa": "برنج",
+        "ar": "أرز",
+        "es": "arroz",
+        "zh": "米饭",
+        "ja": "ご飯"
+      }
+    },
+    {
+      "id": "word_already",
+      "kind": "word",
+      "texts": {
+        "en": "already",
+        "th": "แล้ว",
+        "fa": "قبلا",
+        "ar": "بالفعل",
+        "es": "ya",
+        "zh": "已经",
+        "ja": "もう"
+      }
+    },
+    {
+      "id": "word_she",
+      "kind": "word",
+      "texts": {
+        "en": "she",
+        "th": "เธอ",
+        "fa": "او",
+        "ar": "هي",
+        "es": "ella",
+        "zh": "她",
+        "ja": "彼女"
+      }
+    },
+    {
+      "id": "word_ing",
+      "kind": "word",
+      "texts": {
+        "en": "progressive marker",
+        "th": "กำลัง",
+        "fa": "در حال",
+        "ar": "قيد",
+        "es": "progresivo",
+        "zh": "正在",
+        "ja": "している"
+      }
+    },
+    {
+      "id": "word_sleep",
+      "kind": "word",
+      "texts": {
+        "en": "sleep",
+        "th": "นอนหลับ",
+        "fa": "خوابیدن",
+        "ar": "ينام",
+        "es": "dormir",
+        "zh": "睡觉",
+        "ja": "寝る"
+      }
+    },
+    {
+      "id": "word_we",
+      "kind": "word",
+      "texts": {
+        "en": "we",
+        "th": "เรา",
+        "fa": "ما",
+        "ar": "نحن",
+        "es": "nosotros",
+        "zh": "我们",
+        "ja": "私たち"
+      }
+    },
+    {
+      "id": "word_will",
+      "kind": "word",
+      "texts": {
+        "en": "will",
+        "th": "จะ",
+        "fa": "خواه",
+        "ar": "سوف",
+        "es": "futuro",
+        "zh": "将",
+        "ja": "でしょう"
+      }
+    },
+    {
+      "id": "word_go",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "word_tomorrow",
+      "kind": "word",
+      "texts": {
+        "en": "tomorrow",
+        "th": "พรุ่งนี้",
+        "fa": "فردا",
+        "ar": "غدا",
+        "es": "mañana",
+        "zh": "明天",
+        "ja": "明日"
+      }
+    }
+  ]
+}

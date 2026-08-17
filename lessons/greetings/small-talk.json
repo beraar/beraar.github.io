@@ -1,0 +1,1158 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras clave",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_of",
+      "kind": "word",
+      "texts": {
+        "en": "of",
+        "th": "ของ",
+        "fa": "از / مالِ",
+        "ar": "خاص بـ",
+        "es": "de",
+        "zh": "的",
+        "ja": "の"
+      }
+    },
+    {
+      "id": "word_what",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه",
+        "ar": "ماذا",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_how",
+      "kind": "word",
+      "texts": {
+        "en": "how",
+        "th": "อย่างไร",
+        "fa": "چگونه",
+        "ar": "كيف",
+        "es": "cómo",
+        "zh": "怎么",
+        "ja": "どう"
+      }
+    },
+    {
+      "id": "word_feel",
+      "kind": "word",
+      "texts": {
+        "en": "feel",
+        "th": "รู้สึก",
+        "fa": "احساس کردن",
+        "ar": "يشعر",
+        "es": "sentir",
+        "zh": "感觉",
+        "ja": "感じる"
+      }
+    },
+    {
+      "id": "word_like",
+      "kind": "word",
+      "texts": {
+        "en": "like",
+        "th": "ชอบ",
+        "fa": "دوست داشتن",
+        "ar": "يحب",
+        "es": "gustar",
+        "zh": "喜欢",
+        "ja": "好き"
+      }
+    },
+    {
+      "id": "word_much",
+      "kind": "word",
+      "texts": {
+        "en": "much",
+        "th": "มาก",
+        "fa": "زیاد",
+        "ar": "كثيرا",
+        "es": "mucho",
+        "zh": "非常",
+        "ja": "とても"
+      }
+    },
+    {
+      "id": "word_good",
+      "kind": "word",
+      "texts": {
+        "en": "good",
+        "th": "ดี",
+        "fa": "خوب",
+        "ar": "جيد",
+        "es": "bueno",
+        "zh": "好",
+        "ja": "良い"
+      }
+    },
+    {
+      "id": "word_khrap",
+      "kind": "word",
+      "texts": {
+        "en": "polite particle (male)",
+        "th": "ครับ",
+        "fa": "ذره ادب (مردانه)",
+        "ar": "أداة أدب (للرجال)",
+        "es": "partícula de cortesía (masculina)",
+        "zh": "礼貌助词（男性）",
+        "ja": "丁寧語（男性）"
+      }
+    },
+    {
+      "id": "word_kha",
+      "kind": "word",
+      "texts": {
+        "en": "polite particle (female, statement)",
+        "th": "ค่ะ",
+        "fa": "ذره ادب (زنانه، خبری)",
+        "ar": "أداة أدب (للنساء، جملة خبرية)",
+        "es": "partícula de cortesía (femenina, afirmación)",
+        "zh": "礼貌助词（女性，陈述）",
+        "ja": "丁寧語（女性・平叙）"
+      }
+    },
+    {
+      "id": "word_and_then",
+      "kind": "word",
+      "texts": {
+        "en": "then / and / already",
+        "th": "แล้ว",
+        "fa": "سپس / و / قبلاً",
+        "ar": "ثم / و / بالفعل",
+        "es": "entonces / y / ya",
+        "zh": "然后 / 和 / 已经",
+        "ja": "それから / そしても"
+      }
+    },
+    {
+      "id": "word_also",
+      "kind": "word",
+      "texts": {
+        "en": "also / then",
+        "th": "ก็",
+        "fa": "هم / پس",
+        "ar": "أيضاً / فـ",
+        "es": "también / entonces",
+        "zh": "也 / 就",
+        "ja": "〜も / 〜すると"
+      }
+    },
+    {
+      "id": "word_but",
+      "kind": "word",
+      "texts": {
+        "en": "but",
+        "th": "แต่",
+        "fa": "اما",
+        "ar": "لكن",
+        "es": "pero",
+        "zh": "但是",
+        "ja": "しかし"
+      }
+    },
+    {
+      "id": "word_and",
+      "kind": "word",
+      "texts": {
+        "en": "and",
+        "th": "และ",
+        "fa": "و",
+        "ar": "و",
+        "es": "y",
+        "zh": "和",
+        "ja": "と"
+      }
+    },
+    {
+      "id": "word_or",
+      "kind": "word",
+      "texts": {
+        "en": "or",
+        "th": "หรือ",
+        "fa": "یا",
+        "ar": "أو",
+        "es": "o",
+        "zh": "或",
+        "ja": "または"
+      }
+    },
+    {
+      "id": "word_because",
+      "kind": "word",
+      "texts": {
+        "en": "because",
+        "th": "เพราะ",
+        "fa": "زیرا",
+        "ar": "لأن",
+        "es": "porque",
+        "zh": "因为",
+        "ja": "〜だから"
+      }
+    },
+    {
+      "id": "word_na",
+      "kind": "word",
+      "texts": {
+        "en": "softening particle",
+        "th": "นะ",
+        "fa": "ذره نرم‌کننده",
+        "ar": "أداة تلطيف",
+        "es": "partícula suavizante",
+        "zh": "语气助词（柔和）",
+        "ja": "和らげの終助詞"
+      }
+    },
+    {
+      "id": "word_loei",
+      "kind": "word",
+      "texts": {
+        "en": "at all / really (emphatic)",
+        "th": "เลย",
+        "fa": "اصلاً / کاملاً",
+        "ar": "على الإطلاق / تماماً",
+        "es": "en absoluto / del todo",
+        "zh": "完全 / 根本",
+        "ja": "まったく / ずっと"
+      }
+    },
+    {
+      "id": "word_si",
+      "kind": "word",
+      "texts": {
+        "en": "particle: go on! / urging",
+        "th": "สิ",
+        "fa": "ذره ترغیب",
+        "ar": "أداة حث",
+        "es": "partícula de ánimo / insistencia",
+        "zh": "语气助词（催促）",
+        "ja": "促しの終助詞"
+      }
+    },
+    {
+      "id": "word_rok",
+      "kind": "word",
+      "texts": {
+        "en": "particle: really / reassurance (often with negatives)",
+        "th": "หรอก",
+        "fa": "ذره تأکید / تسکین",
+        "ar": "أداة تأكيد / طمأنة",
+        "es": "partícula de énfasis / consuelo",
+        "zh": "语气助词（强调，常与否定连用）",
+        "ja": "強調・なだめの終助詞"
+      }
+    },
+    {
+      "id": "word_lah",
+      "kind": "word",
+      "texts": {
+        "en": "particle: and you? / soft emphasis",
+        "th": "ล่ะ",
+        "fa": "ذره پرسشی / تأکید ملایم",
+        "ar": "أداة استفهام / تلطيف",
+        "es": "partícula: ¿y tú? / énfasis suave",
+        "zh": "语气助词（…呢）",
+        "ja": "終助詞（〜は？／軽い強調）"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: How Are You?",
+        "th": "สถานการณ์ 1: คุณเป็นอย่างไรบ้าง",
+        "fa": "سناریو ۱: حالتان چطور است؟",
+        "ar": "السيناريو 1: كيف حالك؟",
+        "es": "Escenario 1: ¿Cómo estás?",
+        "zh": "场景一：你好吗？",
+        "ja": "シナリオ1：お元気ですか？"
+      }
+    },
+    {
+      "id": "sentence_talk_how_are_you",
+      "kind": "sentence",
+      "itemIds": ["word_today", "word_you", "word_how"],
+      "texts": {
+        "en": "How are you today?",
+        "th": "วันนี้คุณเป็นอย่างไรบ้าง",
+        "fa": "امروز حالتان چطور است؟",
+        "ar": "كيف حالك اليوم؟",
+        "es": "¿Cómo estás hoy?",
+        "zh": "你今天怎么样？",
+        "ja": "今日の調子はどうですか？"
+      },
+      "tokens": {
+        "en": ["How", "are", "you", "today?"],
+        "th": ["วันนี้", "คุณ", "เป็น", "อย่างไร", "บ้าง"],
+        "fa": ["امروز", "حالتان", "چطور", "است؟"],
+        "ar": ["كيف", "حالك", "اليوم؟"],
+        "es": ["¿Cómo", "estás", "hoy?"],
+        "zh": ["你", "今天", "怎么样？"],
+        "ja": ["今日", "の", "調子", "は", "どう", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_talk_feel_tired",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_feel", "word_much", "word_tired"],
+      "texts": {
+        "en": "I feel very tired",
+        "th": "ฉันรู้สึกเหนื่อยมาก",
+        "fa": "من خیلی احساس خستگی می‌کنم",
+        "ar": "أنا أشعر بالتعب جدا",
+        "es": "Me siento muy cansado",
+        "zh": "我感觉很累",
+        "ja": "私はとても疲れています"
+      },
+      "tokens": {
+        "en": ["I", "feel", "very", "tired"],
+        "th": ["ฉัน", "รู้สึก", "เหนื่อย", "มาก"],
+        "fa": ["من", "خیلی", "احساس", "خستگی", "می‌کنم"],
+        "ar": ["أنا", "أشعر", "بالتعب", "جدا"],
+        "es": ["Me", "siento", "muy", "cansado"],
+        "zh": ["我", "感觉", "很", "累"],
+        "ja": ["私", "は", "とても", "疲れて", "います"]
+      }
+    },
+    {
+      "id": "sentence_i_fine",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_fine", "word_kha"],
+      "texts": {
+        "en": "I am fine (female)",
+        "th": "ฉันสบายดีค่ะ",
+        "fa": "خوب هستم (گوینده زن)",
+        "ar": "أنا بخير (تقولها المرأة)",
+        "es": "Estoy bien (mujer)",
+        "zh": "我很好（女性说）",
+        "ja": "元気です（女性）"
+      },
+      "tokens": {
+        "en": ["I", "am", "fine", "(female)"],
+        "th": ["ฉัน", "สบาย", "ดี", "ค่ะ"],
+        "fa": ["خوب", "هستم", "(گوینده", "زن)"],
+        "ar": ["أنا", "بخير", "(تقولها", "المرأة)"],
+        "es": ["Estoy", "bien", "(mujer)"],
+        "zh": ["我", "很好", "（女性说）"],
+        "ja": ["元気", "です", "（女性）"]
+      }
+    },
+    {
+      "id": "sentence_and_you",
+      "kind": "sentence",
+      "itemIds": ["word_and_then", "word_you", "word_lah", "word_khrap"],
+      "texts": {
+        "en": "And you?",
+        "th": "แล้วคุณล่ะครับ",
+        "fa": "و شما چطور؟",
+        "ar": "وأنت؟",
+        "es": "¿Y tú?",
+        "zh": "你呢？",
+        "ja": "あなたは？"
+      },
+      "tokens": {
+        "en": ["And", "you?"],
+        "th": ["แล้ว", "คุณ", "ล่ะ", "ครับ"],
+        "fa": ["و", "شما", "چطور؟"],
+        "ar": ["وأنت؟"],
+        "es": ["¿Y", "tú?"],
+        "zh": ["你", "呢？"],
+        "ja": ["あなた", "は？"]
+      }
+    },
+    {
+      "id": "word_today",
+      "kind": "word",
+      "texts": {
+        "en": "today",
+        "th": "วันนี้",
+        "fa": "امروز",
+        "ar": "اليوم",
+        "es": "hoy",
+        "zh": "今天",
+        "ja": "今日"
+      }
+    },
+    {
+      "id": "word_tired",
+      "kind": "word",
+      "texts": {
+        "en": "tired",
+        "th": "เหนื่อย",
+        "fa": "خسته",
+        "ar": "متعب",
+        "es": "cansado",
+        "zh": "累",
+        "ja": "疲れた"
+      }
+    },
+    {
+      "id": "word_fine",
+      "kind": "word",
+      "texts": {
+        "en": "fine / well",
+        "th": "สบาย",
+        "fa": "خوب / راحت",
+        "ar": "بخير",
+        "es": "bien",
+        "zh": "舒服 / 安好",
+        "ja": "元気 / 快適"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Hobbies & Free Time",
+        "th": "สถานการณ์ 2: งานอดิเรกและเวลาว่าง",
+        "fa": "سناریو ۲: سرگرمی‌ها و اوقات فراغت",
+        "ar": "السيناريو 2: الهوايات وأوقات الفراغ",
+        "es": "Escenario 2: Pasatiempos y tiempo libre",
+        "zh": "场景二：爱好与空闲时间",
+        "ja": "シナリオ2：趣味と自由時間"
+      }
+    },
+    {
+      "id": "sentence_talk_what_hobby",
+      "kind": "sentence",
+      "itemIds": ["word_hobby", "word_of", "word_you", "word_what"],
+      "texts": {
+        "en": "What is your hobby?",
+        "th": "งานอดิเรกของคุณคืออะไร",
+        "fa": "سرگرمی شما چیست؟",
+        "ar": "ما هي هوايتك؟",
+        "es": "¿Cuál es tu pasatiempo?",
+        "zh": "你的爱好是什么？",
+        "ja": "趣味は何ですか？"
+      },
+      "tokens": {
+        "en": ["What", "is", "your", "hobby?"],
+        "th": ["งานอดิเรก", "ของ", "คุณ", "คือ", "อะไร"],
+        "fa": ["سرگرمی", "شما", "چیست؟"],
+        "ar": ["ما", "هي", "هوايتك؟"],
+        "es": ["¿Cuál", "es", "tu", "pasatiempo?"],
+        "zh": ["你", "的", "爱好", "是", "什么？"],
+        "ja": ["趣味", "は", "何", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_talk_like_read",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_like", "word_read", "word_book"],
+      "texts": {
+        "en": "I like to read books",
+        "th": "ฉันชอบอ่านหนังสือ",
+        "fa": "من دوست دارم کتاب بخوانم",
+        "ar": "أنا أحب قراءة الكتب",
+        "es": "Me gusta leer libros",
+        "zh": "我喜欢看书",
+        "ja": "私は本を読むのが好きです"
+      },
+      "tokens": {
+        "en": ["I", "like", "to", "read", "books"],
+        "th": ["ฉัน", "ชอบ", "อ่าน", "หนังสือ"],
+        "fa": ["من", "دوست", "دارم", "کتاب", "بخوانم"],
+        "ar": ["أنا", "أحب", "قراءة", "الكتب"],
+        "es": ["Me", "gusta", "leer", "libros"],
+        "zh": ["我", "喜欢", "看", "书"],
+        "ja": ["私", "は", "本", "を", "読む", "の", "が", "好き", "です"]
+      }
+    },
+    {
+      "id": "sentence_what_read_question",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_like",
+        "word_read",
+        "word_book",
+        "word_what",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "What do you like to read? (male)",
+        "th": "คุณชอบอ่านหนังสืออะไรครับ",
+        "fa": "چه چیزی دوست دارید بخوانید؟ (گوینده مرد)",
+        "ar": "ماذا تحب أن تقرأ؟ (يقولها الرجل)",
+        "es": "¿Qué te gusta leer? (hombre)",
+        "zh": "你喜欢读什么书？（男性说）",
+        "ja": "何の本が好きですか？（男性）"
+      },
+      "tokens": {
+        "en": ["What", "do", "you", "like", "to", "read?", "(male)"],
+        "th": ["คุณ", "ชอบ", "อ่าน", "หนังสือ", "อะไร", "ครับ"],
+        "fa": ["چه", "چیزی", "دوست", "دارید", "بخوانید؟", "(گوینده", "مرد)"],
+        "ar": ["ماذا", "تحب", "أن", "تقرأ؟", "(يقولها", "الرجل)"],
+        "es": ["¿Qué", "te", "gusta", "leer?", "(hombre)"],
+        "zh": ["你", "喜欢", "读", "什么", "书？", "（男性说）"],
+        "ja": ["何", "の", "本", "が", "好き", "です", "か？", "（男性）"]
+      }
+    },
+    {
+      "id": "sentence_i_like_read_too",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_also",
+        "word_like",
+        "word_read",
+        "word_book",
+        "word_kha"
+      ],
+      "texts": {
+        "en": "I like to read too (female)",
+        "th": "ฉันก็ชอบอ่านหนังสือค่ะ",
+        "fa": "من هم خواندن را دوست دارم (گوینده زن)",
+        "ar": "أنا أيضاً أحب القراءة (تقولها المرأة)",
+        "es": "A mí también me gusta leer (mujer)",
+        "zh": "我也喜欢看书（女性说）",
+        "ja": "私も読むのが好きです（女性）"
+      },
+      "tokens": {
+        "en": ["I", "like", "to", "read", "too", "(female)"],
+        "th": ["ฉัน", "ก็", "ชอบ", "อ่าน", "หนังสือ", "ค่ะ"],
+        "fa": ["من", "هم", "خواندن", "را", "دوست", "دارم", "(گوینده", "زن)"],
+        "ar": ["أنا", "أيضاً", "أحب", "القراءة", "(تقولها", "المرأة)"],
+        "es": ["A", "mí", "también", "me", "gusta", "leer", "(mujer)"],
+        "zh": ["我", "也", "喜欢", "看书", "（女性说）"],
+        "ja": ["私", "も", "読む", "の", "が", "好き", "です", "（女性）"]
+      }
+    },
+    {
+      "id": "word_hobby",
+      "kind": "word",
+      "texts": {
+        "en": "hobby",
+        "th": "งานอดิเรก",
+        "fa": "سرگرمی",
+        "ar": "هواية",
+        "es": "pasatiempo",
+        "zh": "爱好",
+        "ja": "趣味"
+      }
+    },
+    {
+      "id": "word_read",
+      "kind": "word",
+      "texts": {
+        "en": "read",
+        "th": "อ่าน",
+        "fa": "خواندن",
+        "ar": "يقرأ",
+        "es": "leer",
+        "zh": "读",
+        "ja": "読む"
+      }
+    },
+    {
+      "id": "word_book",
+      "kind": "word",
+      "texts": {
+        "en": "book",
+        "th": "หนังสือ",
+        "fa": "کتاب",
+        "ar": "كتاب",
+        "es": "libro",
+        "zh": "书",
+        "ja": "本"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Weekend & Well-Wishes",
+        "th": "สถานการณ์ 3: สุดสัปดาห์และคำอวยพร",
+        "fa": "سناریو ۳: آخر هفته و آرزوهای خوب",
+        "ar": "السيناريو 3: عطلة نهاية الأسبوع والتمنيات الطيبة",
+        "es": "Escenario 3: Fin de semana y buenos deseos",
+        "zh": "场景三：周末与祝福",
+        "ja": "シナリオ3：週末とあいさつの言葉"
+      }
+    },
+    {
+      "id": "sentence_talk_good_weekend",
+      "kind": "sentence",
+      "itemIds": ["word_weekend", "word_good"],
+      "texts": {
+        "en": "Have a good weekend",
+        "th": "ขอให้สุดสัปดาห์มีความสุข",
+        "fa": "آخر هفته خوبی داشته باشید",
+        "ar": "أتمنى لك عطلة نهاية أسبوع جيدة",
+        "es": "Que tengas un buen fin de semana",
+        "zh": "周末愉快",
+        "ja": "良い週末を"
+      },
+      "tokens": {
+        "en": ["Have", "a", "good", "weekend"],
+        "th": ["ขอ", "ให้", "สุดสัปดาห์", "มี", "ความสุข"],
+        "fa": ["آخر", "هفته", "خوبی", "داشته", "باشید"],
+        "ar": ["أتمنى", "لك", "عطلة", "نهاية", "أسبوع", "جيدة"],
+        "es": ["Que", "tengas", "un", "buen", "fin", "de", "semana"],
+        "zh": ["周末", "愉快"],
+        "ja": ["良い", "週末", "を"]
+      }
+    },
+    {
+      "id": "sentence_weekend_read",
+      "kind": "sentence",
+      "itemIds": [
+        "word_weekend",
+        "word_i",
+        "word_like",
+        "word_read",
+        "word_book",
+        "word_kha"
+      ],
+      "texts": {
+        "en": "On weekends I like to read (female)",
+        "th": "สุดสัปดาห์ฉันชอบอ่านหนังสือค่ะ",
+        "fa": "آخر هفته‌ها خواندن را دوست دارم (گوینده زن)",
+        "ar": "في عطلة نهاية الأسبوع أحب القراءة (تقولها المرأة)",
+        "es": "Los fines de semana me gusta leer (mujer)",
+        "zh": "周末我喜欢看书（女性说）",
+        "ja": "週末は読むのが好きです（女性）"
+      },
+      "tokens": {
+        "en": ["On", "weekends", "I", "like", "to", "read", "(female)"],
+        "th": ["สุดสัปดาห์", "ฉัน", "ชอบ", "อ่าน", "หนังสือ", "ค่ะ"],
+        "fa": [
+          "آخر",
+          "هفته‌ها",
+          "خواندن",
+          "را",
+          "دوست",
+          "دارم",
+          "(گوینده",
+          "زن)"
+        ],
+        "ar": [
+          "في",
+          "عطلة",
+          "نهاية",
+          "الأسبوع",
+          "أحب",
+          "القراءة",
+          "(تقولها",
+          "المرأة)"
+        ],
+        "es": [
+          "Los",
+          "fines",
+          "de",
+          "semana",
+          "me",
+          "gusta",
+          "leer",
+          "(mujer)"
+        ],
+        "zh": ["周末", "我", "喜欢", "看书", "（女性说）"],
+        "ja": ["週末", "は", "読む", "の", "が", "好き", "です", "（女性）"]
+      }
+    },
+    {
+      "id": "sentence_weekend_happy_male",
+      "kind": "sentence",
+      "itemIds": ["word_weekend", "word_khrap"],
+      "texts": {
+        "en": "Have a good weekend (male)",
+        "th": "ขอให้สุดสัปดาห์มีความสุขครับ",
+        "fa": "آخر هفته خوبی داشته باشید (گوینده مرد)",
+        "ar": "أتمنى لك عطلة نهاية أسبوع سعيدة (يقولها الرجل)",
+        "es": "Que tengas un buen fin de semana (hombre)",
+        "zh": "周末愉快（男性说）",
+        "ja": "良い週末を（男性）"
+      },
+      "tokens": {
+        "en": ["Have", "a", "good", "weekend", "(male)"],
+        "th": ["ขอ", "ให้", "สุดสัปดาห์", "มี", "ความสุข", "ครับ"],
+        "fa": ["آخر", "هفته", "خوبی", "داشته", "باشید", "(گوینده", "مرد)"],
+        "ar": [
+          "أتمنى",
+          "لك",
+          "عطلة",
+          "نهاية",
+          "أسبوع",
+          "سعيدة",
+          "(يقولها",
+          "الرجل)"
+        ],
+        "es": [
+          "Que",
+          "tengas",
+          "un",
+          "buen",
+          "fin",
+          "de",
+          "semana",
+          "(hombre)"
+        ],
+        "zh": ["周末", "愉快", "（男性说）"],
+        "ja": ["良い", "週末", "を", "（男性）"]
+      }
+    },
+    {
+      "id": "word_weekend",
+      "kind": "word",
+      "texts": {
+        "en": "weekend",
+        "th": "สุดสัปดาห์",
+        "fa": "آخر هفته",
+        "ar": "عطلة نهاية الأسبوع",
+        "es": "fin de semana",
+        "zh": "周末",
+        "ja": "週末"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Conjunctions in Small Talk (แต่ / และ / หรือ / เพราะ)",
+        "th": "สถานการณ์ 4: คำสันธานในการสนทนา (แต่ / และ / หรือ / เพราะ)",
+        "fa": "سناریو ۴: حروف ربط در گپ دوستانه (แต่ / และ / หรือ / เพราะ)",
+        "ar": "السيناريو 4: حروف العطف في الحديث الجانبي (แต่ / และ / หรือ / เพราะ)",
+        "es": "Escenario 4: Conjunciones en la charla (แต่ / และ / หรือ / เพราะ)",
+        "zh": "场景四：闲聊中的连词 (แต่ / และ / หรือ / เพราะ)",
+        "ja": "シナリオ4：雑談の接続詞 (แต่ / และ / หรือ / เพราะ)"
+      }
+    },
+    {
+      "id": "sentence_tired_but_happy",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_tired", "word_but", "word_khrap"],
+      "texts": {
+        "en": "I am tired but happy (male)",
+        "th": "ฉันเหนื่อยแต่มีความสุขครับ",
+        "fa": "خسته‌ام اما خوشحالم (گوینده مرد)",
+        "ar": "أنا متعب لكنني سعيد (يقولها الرجل)",
+        "es": "Estoy cansado pero contento (hombre)",
+        "zh": "我很累但很开心（男性说）",
+        "ja": "疲れているけど嬉しいです（男性）"
+      },
+      "tokens": {
+        "en": ["I", "am", "tired", "but", "happy", "(male)"],
+        "th": ["ฉัน", "เหนื่อย", "แต่", "มีความสุข", "ครับ"],
+        "fa": ["خسته‌ام", "اما", "خوشحالم", "(گوینده", "مرد)"],
+        "ar": ["أنا", "متعب", "لكنني", "سعيد", "(يقولها", "الرجل)"],
+        "es": ["Estoy", "cansado", "pero", "contento", "(hombre)"],
+        "zh": ["我", "很", "累", "但", "很", "开心", "（男性说）"],
+        "ja": ["疲れて", "いる", "けど", "嬉しい", "です", "（男性）"]
+      }
+    },
+    {
+      "id": "sentence_tired_and_busy",
+      "kind": "sentence",
+      "itemIds": [
+        "word_today",
+        "word_i",
+        "word_tired",
+        "word_and",
+        "word_busy",
+        "word_much",
+        "word_kha"
+      ],
+      "texts": {
+        "en": "Today I am tired and very busy (female)",
+        "th": "วันนี้ฉันเหนื่อยและยุ่งมากค่ะ",
+        "fa": "امروز خسته و خیلی سرم شلوغ است (گوینده زن)",
+        "ar": "اليوم أنا متعبة ومشغولة جداً (تقولها المرأة)",
+        "es": "Hoy estoy cansada y muy ocupada (mujer)",
+        "zh": "今天我又累又忙（女性说）",
+        "ja": "今日は疲れていてとても忙しいです（女性）"
+      },
+      "tokens": {
+        "en": ["Today", "I", "am", "tired", "and", "very", "busy", "(female)"],
+        "th": ["วันนี้", "ฉัน", "เหนื่อย", "และ", "ยุ่ง", "มาก", "ค่ะ"],
+        "fa": [
+          "امروز",
+          "خسته",
+          "و",
+          "خیلی",
+          "سرم",
+          "شلوغ",
+          "است",
+          "(گوینده",
+          "زن)"
+        ],
+        "ar": [
+          "اليوم",
+          "أنا",
+          "متعبة",
+          "ومشغولة",
+          "جداً",
+          "(تقولها",
+          "المرأة)"
+        ],
+        "es": ["Hoy", "estoy", "cansada", "y", "muy", "ocupada", "(mujer)"],
+        "zh": ["今天", "我", "又", "累", "又", "忙", "（女性说）"],
+        "ja": [
+          "今日",
+          "は",
+          "疲れて",
+          "いて",
+          "とても",
+          "忙しい",
+          "です",
+          "（女性）"
+        ]
+      }
+    },
+    {
+      "id": "sentence_read_or_write",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_like",
+        "word_read",
+        "word_or",
+        "word_write",
+        "word_book",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "Do you like to read or write? (male)",
+        "th": "คุณชอบอ่านหรือเขียนหนังสือครับ",
+        "fa": "خواندن را دوست دارید یا نوشتن؟ (گوینده مرد)",
+        "ar": "هل تحب القراءة أم الكتابة؟ (يقولها الرجل)",
+        "es": "¿Te gusta leer o escribir? (hombre)",
+        "zh": "你喜欢读书还是写作？（男性说）",
+        "ja": "読むのと書くの、どちらが好きですか？（男性）"
+      },
+      "tokens": {
+        "en": ["Do", "you", "like", "to", "read", "or", "write?", "(male)"],
+        "th": ["คุณ", "ชอบ", "อ่าน", "หรือ", "เขียน", "หนังสือ", "ครับ"],
+        "fa": [
+          "خواندن",
+          "را",
+          "دوست",
+          "دارید",
+          "یا",
+          "نوشتن؟",
+          "(گوینده",
+          "مرد)"
+        ],
+        "ar": ["هل", "تحب", "القراءة", "أم", "الكتابة؟", "(يقولها", "الرجل)"],
+        "es": ["¿Te", "gusta", "leer", "o", "escribir?", "(hombre)"],
+        "zh": ["你", "喜欢", "读书", "还是", "写作？", "（男性说）"],
+        "ja": [
+          "読む",
+          "の",
+          "と",
+          "書く",
+          "の、",
+          "どちら",
+          "が",
+          "好き",
+          "です",
+          "か？",
+          "（男性）"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tired_because_work",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_tired",
+        "word_because",
+        "word_work",
+        "word_much",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "I am tired because I work a lot (male)",
+        "th": "ฉันเหนื่อยเพราะทำงานมากครับ",
+        "fa": "خسته‌ام چون زیاد کار می‌کنم (گوینده مرد)",
+        "ar": "أنا متعب لأنني أعمل كثيراً (يقولها الرجل)",
+        "es": "Estoy cansado porque trabajo mucho (hombre)",
+        "zh": "我很累，因为工作很多（男性说）",
+        "ja": "たくさん働くので疲れています（男性）"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "am",
+          "tired",
+          "because",
+          "I",
+          "work",
+          "a",
+          "lot",
+          "(male)"
+        ],
+        "th": ["ฉัน", "เหนื่อย", "เพราะ", "ทำงาน", "มาก", "ครับ"],
+        "fa": ["خسته‌ام", "چون", "زیاد", "کار", "می‌کنم", "(گوینده", "مرد)"],
+        "ar": ["أنا", "متعب", "لأنني", "أعمل", "كثيراً", "(يقولها", "الرجل)"],
+        "es": ["Estoy", "cansado", "porque", "trabajo", "mucho", "(hombre)"],
+        "zh": ["我", "很", "累，", "因为", "工作", "很多", "（男性说）"],
+        "ja": ["たくさん", "働く", "ので", "疲れて", "います", "（男性）"]
+      }
+    },
+    {
+      "id": "word_busy",
+      "kind": "word",
+      "texts": {
+        "en": "busy",
+        "th": "ยุ่ง",
+        "fa": "مشغول",
+        "ar": "مشغول",
+        "es": "ocupado",
+        "zh": "忙",
+        "ja": "忙しい"
+      }
+    },
+    {
+      "id": "word_work",
+      "kind": "word",
+      "texts": {
+        "en": "work",
+        "th": "ทำงาน",
+        "fa": "کار کردن",
+        "ar": "يعمل",
+        "es": "trabajar",
+        "zh": "工作",
+        "ja": "働く"
+      }
+    },
+    {
+      "id": "word_write",
+      "kind": "word",
+      "texts": {
+        "en": "write",
+        "th": "เขียน",
+        "fa": "نوشتن",
+        "ar": "يكتب",
+        "es": "escribir",
+        "zh": "写",
+        "ja": "書く"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Emphasis Particles (นะ / เลย / สิ / หรอก / ล่ะ)",
+        "th": "สถานการณ์ 5: คำลงท้ายเน้นความ (นะ / เลย / สิ / หรอก / ล่ะ)",
+        "fa": "سناریو ۵: ذرات تأکیدی (นะ / เลย / สิ / หรอก / ล่ะ)",
+        "ar": "السيناريو 5: أدوات التأكيد (นะ / เลย / สิ / หรอก / ล่ะ)",
+        "es": "Escenario 5: Partículas de énfasis (นะ / เลย / สิ / หรอก / ล่ะ)",
+        "zh": "场景五：语气助词 (นะ / เลย / สิ / หรอก / ล่ะ)",
+        "ja": "シナリオ5：強調の終助詞 (นะ / เลย / สิ / หรอก / ล่ะ)"
+      }
+    },
+    {
+      "id": "sentence_very_tired_loei",
+      "kind": "sentence",
+      "itemIds": ["word_tired", "word_much", "word_loei", "word_khrap"],
+      "texts": {
+        "en": "I am really tired! (male)",
+        "th": "เหนื่อยมากเลยครับ",
+        "fa": "خیلی خسته‌ام! (گوینده مرد)",
+        "ar": "متعب جداً! (يقولها الرجل)",
+        "es": "¡Estoy muy cansado! (hombre)",
+        "zh": "真的好累啊！（男性说）",
+        "ja": "すごく疲れました！（男性）"
+      },
+      "tokens": {
+        "en": ["I", "am", "really", "tired!", "(male)"],
+        "th": ["เหนื่อย", "มาก", "เลย", "ครับ"],
+        "fa": ["خیلی", "خسته‌ام!", "(گوینده", "مرد)"],
+        "ar": ["متعب", "جداً!", "(يقولها", "الرجل)"],
+        "es": ["¡Estoy", "muy", "cansado!", "(hombre)"],
+        "zh": ["真的", "好", "累", "啊！", "（男性说）"],
+        "ja": ["すごく", "疲れ", "ました！", "（男性）"]
+      }
+    },
+    {
+      "id": "sentence_tell_me_si",
+      "kind": "sentence",
+      "itemIds": ["word_tell", "word_si", "word_khrap"],
+      "texts": {
+        "en": "Go on, tell me (male)",
+        "th": "เล่าสิครับ",
+        "fa": "تعریف کن! (گوینده مرد)",
+        "ar": "احكِ لي! (يقولها الرجل)",
+        "es": "¡Cuéntame! (hombre)",
+        "zh": "说说看嘛！（男性说）",
+        "ja": "話してよ！（男性）"
+      },
+      "tokens": {
+        "en": ["Go", "on,", "tell", "me", "(male)"],
+        "th": ["เล่า", "สิ", "ครับ"],
+        "fa": ["تعریف", "کن!", "(گوینده", "مرد)"],
+        "ar": ["احكِ", "لي!", "(يقولها", "الرجل)"],
+        "es": ["¡Cuéntame!", "(hombre)"],
+        "zh": ["说说", "看", "嘛！", "（男性说）"],
+        "ja": ["話して", "よ！", "（男性）"]
+      }
+    },
+    {
+      "id": "sentence_its_okay_rok",
+      "kind": "sentence",
+      "itemIds": ["word_never_mind", "word_rok", "word_kha"],
+      "texts": {
+        "en": "It's really nothing, don't worry (female)",
+        "th": "ไม่เป็นไรหรอกค่ะ",
+        "fa": "واقعاً اشکالی ندارد (گوینده زن)",
+        "ar": "لا بأس حقاً (تقولها المرأة)",
+        "es": "No pasa nada, de verdad (mujer)",
+        "zh": "真的没关系（女性说）",
+        "ja": "本当になんでもありません（女性）"
+      },
+      "tokens": {
+        "en": ["It's", "really", "nothing,", "don't", "worry", "(female)"],
+        "th": ["ไม่เป็นไร", "หรอก", "ค่ะ"],
+        "fa": ["واقعاً", "اشکالی", "ندارد", "(گوینده", "زن)"],
+        "ar": ["لا", "بأس", "حقاً", "(تقولها", "المرأة)"],
+        "es": ["No", "pasa", "nada,", "de", "verdad", "(mujer)"],
+        "zh": ["真的", "没关系", "（女性说）"],
+        "ja": ["本当", "に", "なんでも", "ありません", "（女性）"]
+      }
+    },
+    {
+      "id": "sentence_see_you_na",
+      "kind": "sentence",
+      "itemIds": ["word_and_then", "word_meet", "word_na", "word_khrap"],
+      "texts": {
+        "en": "See you later, okay? (male)",
+        "th": "แล้วเจอกันนะครับ",
+        "fa": "بعداً می‌بینمت، باشه؟ (گوینده مرد)",
+        "ar": "نلتقي لاحقاً، حسناً؟ (يقولها الرجل)",
+        "es": "Nos vemos luego, ¿vale? (hombre)",
+        "zh": "回头见哦！（男性说）",
+        "ja": "じゃあまたね！（男性）"
+      },
+      "tokens": {
+        "en": ["See", "you", "later,", "okay?", "(male)"],
+        "th": ["แล้ว", "เจอ", "กัน", "นะ", "ครับ"],
+        "fa": ["بعداً", "می‌بینمت،", "باشه؟", "(گوینده", "مرد)"],
+        "ar": ["نلتقي", "لاحقاً،", "حسناً؟", "(يقولها", "الرجل)"],
+        "es": ["Nos", "vemos", "luego,", "¿vale?", "(hombre)"],
+        "zh": ["回头", "见", "哦！", "（男性说）"],
+        "ja": ["じゃあ", "また", "ね！", "（男性）"]
+      }
+    },
+    {
+      "id": "sentence_rest_na_female",
+      "kind": "sentence",
+      "itemIds": ["word_rest", "word_na", "word_kha"],
+      "texts": {
+        "en": "Get some rest, okay? (female)",
+        "th": "พักผ่อนนะคะ",
+        "fa": "استراحت کن، باشه؟ (گوینده زن)",
+        "ar": "استريحي قليلاً، حسناً؟ (تقولها المرأة)",
+        "es": "Descansa un poco, ¿vale? (mujer)",
+        "zh": "好好休息哦（女性说）",
+        "ja": "ゆっくり休んでね（女性）"
+      },
+      "tokens": {
+        "en": ["Get", "some", "rest,", "okay?", "(female)"],
+        "th": ["พักผ่อน", "นะ", "ค่ะ"],
+        "fa": ["استراحت", "کن،", "باشه؟", "(گوینده", "زن)"],
+        "ar": ["استريحي", "قليلاً،", "حسناً؟", "(تقولها", "المرأة)"],
+        "es": ["Descansa", "un", "poco,", "¿vale?", "(mujer)"],
+        "zh": ["好好", "休息", "哦", "（女性说）"],
+        "ja": ["ゆっくり", "休んで", "ね", "（女性）"]
+      }
+    },
+    {
+      "id": "word_tell",
+      "kind": "word",
+      "texts": {
+        "en": "tell / narrate",
+        "th": "เล่า",
+        "fa": "تعریف کردن",
+        "ar": "يحكي",
+        "es": "contar",
+        "zh": "讲述",
+        "ja": "話す"
+      }
+    },
+    {
+      "id": "word_meet",
+      "kind": "word",
+      "texts": {
+        "en": "meet",
+        "th": "เจอ",
+        "fa": "دیدن / برخورد کردن",
+        "ar": "يقابل",
+        "es": "encontrarse",
+        "zh": "遇见",
+        "ja": "会う"
+      }
+    },
+    {
+      "id": "word_never_mind",
+      "kind": "word",
+      "texts": {
+        "en": "never mind / it's okay",
+        "th": "ไม่เป็นไร",
+        "fa": "اشکالی ندارد",
+        "ar": "لا بأس",
+        "es": "no importa / está bien",
+        "zh": "没关系",
+        "ja": "大丈夫 / 構わない"
+      }
+    },
+    {
+      "id": "word_rest",
+      "kind": "word",
+      "texts": {
+        "en": "rest",
+        "th": "พักผ่อน",
+        "fa": "استراحت کردن",
+        "ar": "يستريح",
+        "es": "descansar",
+        "zh": "休息",
+        "ja": "休む"
+      }
+    }
+  ]
+}

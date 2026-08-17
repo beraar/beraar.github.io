@@ -1,0 +1,1700 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras clave",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_we",
+      "kind": "word",
+      "texts": {
+        "en": "we",
+        "th": "เรา",
+        "fa": "ما",
+        "ar": "نحن",
+        "es": "nosotros",
+        "zh": "我们",
+        "ja": "私たち"
+      }
+    },
+    {
+      "id": "word_person",
+      "kind": "word",
+      "texts": {
+        "en": "person",
+        "th": "คน",
+        "fa": "نفر / شخص",
+        "ar": "شخص",
+        "es": "persona",
+        "zh": "人",
+        "ja": "人"
+      }
+    },
+    {
+      "id": "word_happen",
+      "kind": "word",
+      "texts": {
+        "en": "happen",
+        "th": "เกิด",
+        "fa": "رخ دادن",
+        "ar": "يحدث",
+        "es": "ocurrir",
+        "zh": "发生",
+        "ja": "起きる"
+      }
+    },
+    {
+      "id": "word_ing",
+      "kind": "word",
+      "texts": {
+        "en": "progressive marker",
+        "th": "กำลัง",
+        "fa": "در حال",
+        "ar": "قيد",
+        "es": "progresivo",
+        "zh": "正在",
+        "ja": "している"
+      }
+    },
+    {
+      "id": "word_will",
+      "kind": "word",
+      "texts": {
+        "en": "future marker",
+        "th": "จะ",
+        "fa": "نشانه آینده",
+        "ar": "سوف",
+        "es": "marcador de futuro",
+        "zh": "将会",
+        "ja": "〜するつもり"
+      }
+    },
+    {
+      "id": "word_already",
+      "kind": "word",
+      "texts": {
+        "en": "already / completed",
+        "th": "แล้ว",
+        "fa": "نشانه کامل شدن",
+        "ar": "قد / بالفعل",
+        "es": "ya (completado)",
+        "zh": "已经",
+        "ja": "もう〜した"
+      }
+    },
+    {
+      "id": "word_come",
+      "kind": "word",
+      "texts": {
+        "en": "come",
+        "th": "มา",
+        "fa": "آمدن",
+        "ar": "يأتي",
+        "es": "venir",
+        "zh": "来",
+        "ja": "来る"
+      }
+    },
+    {
+      "id": "word_go",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "word_run",
+      "kind": "word",
+      "texts": {
+        "en": "run",
+        "th": "วิ่ง",
+        "fa": "دویدن",
+        "ar": "يركض",
+        "es": "correr",
+        "zh": "跑",
+        "ja": "走る"
+      }
+    },
+    {
+      "id": "word_at",
+      "kind": "word",
+      "texts": {
+        "en": "to / at",
+        "th": "ที่",
+        "fa": "به",
+        "ar": "إلى",
+        "es": "a",
+        "zh": "到 / 在",
+        "ja": "へ"
+      }
+    },
+    {
+      "id": "word_have",
+      "kind": "word",
+      "texts": {
+        "en": "have / there is",
+        "th": "มี",
+        "fa": "داشتن / وجود داشتن",
+        "ar": "يملك / يوجد",
+        "es": "tener / haber",
+        "zh": "有",
+        "ja": "ある"
+      }
+    },
+    {
+      "id": "word_dangerous",
+      "kind": "word",
+      "texts": {
+        "en": "dangerous",
+        "th": "อันตราย",
+        "fa": "خطرناک",
+        "ar": "خطر",
+        "es": "peligroso",
+        "zh": "危险",
+        "ja": "危険"
+      }
+    },
+    {
+      "id": "word_safe",
+      "kind": "word",
+      "texts": {
+        "en": "safe",
+        "th": "ปลอดภัย",
+        "fa": "امن",
+        "ar": "بأمان",
+        "es": "a salvo",
+        "zh": "安全",
+        "ja": "安全"
+      }
+    },
+    {
+      "id": "word_question_particle",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_please",
+      "kind": "word",
+      "texts": {
+        "en": "please",
+        "th": "กรุณา",
+        "fa": "لطفا",
+        "ar": "من فضلك",
+        "es": "por favor",
+        "zh": "请",
+        "ja": "どうぞ"
+      }
+    },
+    {
+      "id": "word_help",
+      "kind": "word",
+      "texts": {
+        "en": "help",
+        "th": "ช่วย",
+        "fa": "کمک کردن",
+        "ar": "يساعد",
+        "es": "ayudar",
+        "zh": "帮助",
+        "ja": "手伝う"
+      }
+    },
+    {
+      "id": "word_need",
+      "kind": "word",
+      "texts": {
+        "en": "need",
+        "th": "ต้องการ",
+        "fa": "نیاز داشتن",
+        "ar": "يحتاج",
+        "es": "necesitar",
+        "zh": "需要",
+        "ja": "必要とする"
+      }
+    },
+    {
+      "id": "word_dont",
+      "kind": "word",
+      "texts": {
+        "en": "don't (imperative)",
+        "th": "อย่า",
+        "fa": "نکنید (نهی)",
+        "ar": "لا (للنهي)",
+        "es": "no (imperativo)",
+        "zh": "别 / 不要",
+        "ja": "〜しないで"
+      }
+    },
+    {
+      "id": "word_prohibit",
+      "kind": "word",
+      "texts": {
+        "en": "forbidden / must not",
+        "th": "ห้าม",
+        "fa": "ممنوع",
+        "ar": "ممنوع",
+        "es": "prohibido",
+        "zh": "禁止",
+        "ja": "禁止されている"
+      }
+    },
+    {
+      "id": "word_call",
+      "kind": "word",
+      "texts": {
+        "en": "call (by phone)",
+        "th": "โทร",
+        "fa": "تماس گرفتن",
+        "ar": "يتصل",
+        "es": "llamar",
+        "zh": "打电话",
+        "ja": "電話する"
+      }
+    },
+    {
+      "id": "word_use",
+      "kind": "word",
+      "texts": {
+        "en": "use",
+        "th": "ใช้",
+        "fa": "استفاده کردن",
+        "ar": "يستخدم",
+        "es": "usar",
+        "zh": "使用",
+        "ja": "使う"
+      }
+    },
+    {
+      "id": "word_follow",
+      "kind": "word",
+      "texts": {
+        "en": "follow",
+        "th": "ตาม",
+        "fa": "دنبال کردن",
+        "ar": "يتبع",
+        "es": "seguir",
+        "zh": "跟随",
+        "ja": "ついて行く"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Reporting a Disaster",
+        "th": "สถานการณ์ 1: การแจ้งเหตุภัยพิบัติ",
+        "fa": "سناریو ۱: گزارش فاجعه",
+        "ar": "السيناريو 1: الإبلاغ عن كارثة",
+        "es": "Escenario 1: Informar de un desastre",
+        "zh": "场景一：报告灾害",
+        "ja": "シナリオ1：災害の報告"
+      }
+    },
+    {
+      "id": "sentence_disaster_earthquake",
+      "kind": "sentence",
+      "itemIds": ["word_happen", "word_earthquake"],
+      "texts": {
+        "en": "There is an earthquake",
+        "th": "เกิดแผ่นดินไหว",
+        "fa": "زلزله شده است",
+        "ar": "هناك زلزال",
+        "es": "Hay un terremoto",
+        "zh": "发生地震了",
+        "ja": "地震が起きた"
+      },
+      "tokens": {
+        "en": ["There", "is", "an", "earthquake"],
+        "th": ["เกิด", "แผ่นดินไหว"],
+        "fa": ["زلزله", "شده", "است"],
+        "ar": ["هناك", "زلزال"],
+        "es": ["Hay", "un", "terremoto"],
+        "zh": ["发生", "地震", "了"],
+        "ja": ["地震", "が", "起きた"]
+      }
+    },
+    {
+      "id": "sentence_report_fire",
+      "kind": "sentence",
+      "itemIds": ["word_happen", "word_fire", "word_burn"],
+      "texts": {
+        "en": "A fire has broken out",
+        "th": "เกิดไฟไหม้",
+        "fa": "آتش‌سوزی رخ داده است",
+        "ar": "اندلع حريق",
+        "es": "Se ha declarado un incendio",
+        "zh": "发生火灾了",
+        "ja": "火事が起きた"
+      },
+      "tokens": {
+        "en": ["A", "fire", "has", "broken", "out"],
+        "th": ["เกิด", "ไฟ", "ไหม้"],
+        "fa": ["آتش‌سوزی", "رخ", "داده", "است"],
+        "ar": ["اندلع", "حريق"],
+        "es": ["Se", "ha", "declarado", "un", "incendio"],
+        "zh": ["发生", "火灾", "了"],
+        "ja": ["火事", "が", "起きた"]
+      }
+    },
+    {
+      "id": "sentence_report_tsunami",
+      "kind": "sentence",
+      "itemIds": ["word_tsunami", "word_ing", "word_come"],
+      "texts": {
+        "en": "A tsunami is coming",
+        "th": "สึนามิกำลังมา",
+        "fa": "سونامی در حال آمدن است",
+        "ar": "تسونامي قادم",
+        "es": "Viene un tsunami",
+        "zh": "海啸要来了",
+        "ja": "津波が来ている"
+      },
+      "tokens": {
+        "en": ["A", "tsunami", "is", "coming"],
+        "th": ["สึนามิ", "กำลัง", "มา"],
+        "fa": ["سونامی", "در", "حال", "آمدن", "است"],
+        "ar": ["تسونامي", "قادم"],
+        "es": ["Viene", "un", "tsunami"],
+        "zh": ["海啸", "要", "来", "了"],
+        "ja": ["津波", "が", "来て", "いる"]
+      }
+    },
+    {
+      "id": "sentence_report_water_rising",
+      "kind": "sentence",
+      "itemIds": ["word_water", "word_ing", "word_rise"],
+      "texts": {
+        "en": "The water is rising",
+        "th": "น้ำกำลังขึ้น",
+        "fa": "آب در حال بالا آمدن است",
+        "ar": "الماء يرتفع",
+        "es": "El agua está subiendo",
+        "zh": "水位正在上涨",
+        "ja": "水が増えている"
+      },
+      "tokens": {
+        "en": ["The", "water", "is", "rising"],
+        "th": ["น้ำ", "กำลัง", "ขึ้น"],
+        "fa": ["آب", "در", "حال", "بالا", "آمدن", "است"],
+        "ar": ["الماء", "يرتفع"],
+        "es": ["El", "agua", "está", "subiendo"],
+        "zh": ["水位", "正在", "上涨"],
+        "ja": ["水", "が", "増えて", "いる"]
+      }
+    },
+    {
+      "id": "sentence_disaster_flood",
+      "kind": "sentence",
+      "itemIds": ["word_river", "word_flood"],
+      "texts": {
+        "en": "The river is flooding",
+        "th": "แม่น้ำน้ำท่วม",
+        "fa": "رودخانه سیل آمده است",
+        "ar": "النهر يفيض",
+        "es": "El río se está inundando",
+        "zh": "河流泛滥了",
+        "ja": "川が氾濫している"
+      },
+      "tokens": {
+        "en": ["The", "river", "is", "flooding"],
+        "th": ["แม่น้ำ", "น้ำท่วม"],
+        "fa": ["رودخانه", "سیل", "آمده", "است"],
+        "ar": ["النهر", "يفيض"],
+        "es": ["El", "río", "se", "está", "inundando"],
+        "zh": ["河流", "泛滥", "了"],
+        "ja": ["川", "が", "氾濫", "している"]
+      }
+    },
+    {
+      "id": "sentence_disaster_storm",
+      "kind": "sentence",
+      "itemIds": ["word_storm", "word_ing", "word_come"],
+      "texts": {
+        "en": "A storm is coming",
+        "th": "พายุกำลังมา",
+        "fa": "طوفان در راه است",
+        "ar": "عاصفة قادمة",
+        "es": "Una tormenta se acerca",
+        "zh": "风暴要来了",
+        "ja": "嵐が来る"
+      },
+      "tokens": {
+        "en": ["A", "storm", "is", "coming"],
+        "th": ["พายุ", "กำลัง", "มา"],
+        "fa": ["طوفان", "در", "راه", "است"],
+        "ar": ["عاصفة", "قادمة"],
+        "es": ["Una", "tormenta", "se", "acerca"],
+        "zh": ["风暴", "要", "来", "了"],
+        "ja": ["嵐", "が", "来る"]
+      }
+    },
+    {
+      "id": "sentence_report_flooded",
+      "kind": "sentence",
+      "itemIds": ["word_water", "word_flood", "word_already"],
+      "texts": {
+        "en": "It is already flooded",
+        "th": "น้ำท่วมแล้ว",
+        "fa": "سیل آمده است",
+        "ar": "حدث فيضان بالفعل",
+        "es": "Ya está inundado",
+        "zh": "已经发洪水了",
+        "ja": "もう氾濫している"
+      },
+      "tokens": {
+        "en": ["It", "is", "already", "flooded"],
+        "th": ["น้ำท่วม", "แล้ว"],
+        "fa": ["سیل", "آمده", "است"],
+        "ar": ["حدث", "فيضان", "بالفعل"],
+        "es": ["Ya", "está", "inundado"],
+        "zh": ["已经", "发洪水", "了"],
+        "ja": ["もう", "氾濫", "して", "いる"]
+      }
+    },
+    {
+      "id": "sentence_report_will_evacuate",
+      "kind": "sentence",
+      "itemIds": ["word_we", "word_will", "word_evacuate", "word_now"],
+      "texts": {
+        "en": "We will evacuate now",
+        "th": "เราจะอพยพเดี๋ยวนี้",
+        "fa": "ما الان تخلیه خواهیم کرد",
+        "ar": "سنجلي الآن",
+        "es": "Evacuaremos ahora",
+        "zh": "我们现在就疏散",
+        "ja": "今すぐ避難します"
+      },
+      "tokens": {
+        "en": ["We", "will", "evacuate", "now"],
+        "th": ["เรา", "จะ", "อพยพ", "เดี๋ยวนี้"],
+        "fa": ["ما", "الان", "تخلیه", "خواهیم", "کرد"],
+        "ar": ["سنجلي", "الآن"],
+        "es": ["Evacuaremos", "ahora"],
+        "zh": ["我们", "现在", "就", "疏散"],
+        "ja": ["今すぐ", "避難", "します"]
+      }
+    },
+    {
+      "id": "sentence_disaster_dangerous",
+      "kind": "sentence",
+      "itemIds": ["word_dangerous"],
+      "texts": {
+        "en": "It is dangerous",
+        "th": "มันอันตราย",
+        "fa": "خطرناک است",
+        "ar": "إنه خطر",
+        "es": "Es peligroso",
+        "zh": "这很危险",
+        "ja": "それは危険だ"
+      },
+      "tokens": {
+        "en": ["It", "is", "dangerous"],
+        "th": ["มัน", "อันตราย"],
+        "fa": ["خطرناک", "است"],
+        "ar": ["إنه", "خطر"],
+        "es": ["Es", "peligroso"],
+        "zh": ["这", "很", "危险"],
+        "ja": ["それ", "は", "危険", "だ"]
+      }
+    },
+    {
+      "id": "word_earthquake",
+      "kind": "word",
+      "texts": {
+        "en": "earthquake",
+        "th": "แผ่นดินไหว",
+        "fa": "زلزله",
+        "ar": "زلزال",
+        "es": "terremoto",
+        "zh": "地震",
+        "ja": "地震"
+      }
+    },
+    {
+      "id": "word_tsunami",
+      "kind": "word",
+      "texts": {
+        "en": "tsunami",
+        "th": "สึนามิ",
+        "fa": "سونامی",
+        "ar": "تسونامي",
+        "es": "tsunami",
+        "zh": "海啸",
+        "ja": "津波"
+      }
+    },
+    {
+      "id": "word_fire",
+      "kind": "word",
+      "texts": {
+        "en": "fire",
+        "th": "ไฟ",
+        "fa": "آتش",
+        "ar": "حريق",
+        "es": "incendio",
+        "zh": "火",
+        "ja": "火"
+      }
+    },
+    {
+      "id": "word_burn",
+      "kind": "word",
+      "texts": {
+        "en": "burn",
+        "th": "ไหม้",
+        "fa": "سوختن",
+        "ar": "يحترق",
+        "es": "quemarse",
+        "zh": "燃烧",
+        "ja": "燃える"
+      }
+    },
+    {
+      "id": "word_river",
+      "kind": "word",
+      "texts": {
+        "en": "river",
+        "th": "แม่น้ำ",
+        "fa": "رودخانه",
+        "ar": "نهر",
+        "es": "río",
+        "zh": "河流",
+        "ja": "川"
+      }
+    },
+    {
+      "id": "word_flood",
+      "kind": "word",
+      "texts": {
+        "en": "flood",
+        "th": "น้ำท่วม",
+        "fa": "سیل",
+        "ar": "فيضان",
+        "es": "inundación",
+        "zh": "泛滥",
+        "ja": "氾濫"
+      }
+    },
+    {
+      "id": "word_water",
+      "kind": "word",
+      "texts": {
+        "en": "water",
+        "th": "น้ำ",
+        "fa": "آب",
+        "ar": "ماء",
+        "es": "agua",
+        "zh": "水",
+        "ja": "水"
+      }
+    },
+    {
+      "id": "word_rise",
+      "kind": "word",
+      "texts": {
+        "en": "rise",
+        "th": "ขึ้น",
+        "fa": "بالا آمدن",
+        "ar": "يرتفع",
+        "es": "subir",
+        "zh": "上涨",
+        "ja": "上がる"
+      }
+    },
+    {
+      "id": "word_storm",
+      "kind": "word",
+      "texts": {
+        "en": "storm",
+        "th": "พายุ",
+        "fa": "طوفان",
+        "ar": "عاصفة",
+        "es": "tormenta",
+        "zh": "风暴",
+        "ja": "嵐"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Warnings & Instructions",
+        "th": "สถานการณ์ 2: คำเตือนและคำสั่ง",
+        "fa": "سناریو ۲: هشدارها و دستورالعمل‌ها",
+        "ar": "السيناريو 2: التحذيرات والتعليمات",
+        "es": "Escenario 2: Advertencias e instrucciones",
+        "zh": "场景二：警告与指示",
+        "ja": "シナリオ2：警告と指示"
+      }
+    },
+    {
+      "id": "sentence_warn_stay_calm",
+      "kind": "sentence",
+      "itemIds": ["word_calm"],
+      "texts": {
+        "en": "Stay calm",
+        "th": "ตั้งสติไว้ครับ",
+        "fa": "آرام باشید",
+        "ar": "حافظ على هدوئك",
+        "es": "Mantén la calma",
+        "zh": "保持冷静",
+        "ja": "落ち着いてください"
+      },
+      "tokens": {
+        "en": ["Stay", "calm"],
+        "th": ["ตั้งสติ", "ไว้", "ครับ"],
+        "fa": ["آرام", "باشید"],
+        "ar": ["حافظ", "على", "هدوئك"],
+        "es": ["Mantén", "la", "calma"],
+        "zh": ["保持", "冷静"],
+        "ja": ["落ち着いて", "ください"]
+      }
+    },
+    {
+      "id": "sentence_warn_dont_panic",
+      "kind": "sentence",
+      "itemIds": ["word_dont", "word_panic"],
+      "texts": {
+        "en": "Don't panic",
+        "th": "อย่าตื่นตระหนกครับ",
+        "fa": "وحشت نکنید",
+        "ar": "لا تهلع",
+        "es": "No entres en pánico",
+        "zh": "不要恐慌",
+        "ja": "パニックにならないでください"
+      },
+      "tokens": {
+        "en": ["Don't", "panic"],
+        "th": ["อย่า", "ตื่นตระหนก", "ครับ"],
+        "fa": ["وحشت", "نکنید"],
+        "ar": ["لا", "تهلع"],
+        "es": ["No", "entres", "en", "pánico"],
+        "zh": ["不要", "恐慌"],
+        "ja": ["パニック", "に", "ならないで", "ください"]
+      }
+    },
+    {
+      "id": "sentence_warn_no_elevator",
+      "kind": "sentence",
+      "itemIds": ["word_prohibit", "word_use", "word_elevator"],
+      "texts": {
+        "en": "Do not use the elevator",
+        "th": "ห้ามใช้ลิฟต์ครับ",
+        "fa": "از آسانسور استفاده نکنید",
+        "ar": "ممنوع استخدام المصعد",
+        "es": "Prohibido usar el ascensor",
+        "zh": "禁止使用电梯",
+        "ja": "エレベーターを使わないでください"
+      },
+      "tokens": {
+        "en": ["Do", "not", "use", "the", "elevator"],
+        "th": ["ห้าม", "ใช้", "ลิฟต์", "ครับ"],
+        "fa": ["از", "آسانسور", "استفاده", "نکنید"],
+        "ar": ["ممنوع", "استخدام", "المصعد"],
+        "es": ["Prohibido", "usar", "el", "ascensor"],
+        "zh": ["禁止", "使用", "电梯"],
+        "ja": ["エレベーター", "を", "使わないで", "ください"]
+      }
+    },
+    {
+      "id": "sentence_warn_use_stairs",
+      "kind": "sentence",
+      "itemIds": ["word_use", "word_stairs"],
+      "texts": {
+        "en": "Use the stairs",
+        "th": "ใช้บันไดครับ",
+        "fa": "از پله‌ها استفاده کنید",
+        "ar": "استخدم الدرج",
+        "es": "Usa las escaleras",
+        "zh": "走楼梯",
+        "ja": "階段を使ってください"
+      },
+      "tokens": {
+        "en": ["Use", "the", "stairs"],
+        "th": ["ใช้", "บันได", "ครับ"],
+        "fa": ["از", "پله‌ها", "استفاده", "کنید"],
+        "ar": ["استخدم", "الدرج"],
+        "es": ["Usa", "las", "escaleras"],
+        "zh": ["走", "楼梯"],
+        "ja": ["階段", "を", "使って", "ください"]
+      }
+    },
+    {
+      "id": "sentence_warn_high_ground",
+      "kind": "sentence",
+      "itemIds": ["word_go", "word_high_ground"],
+      "texts": {
+        "en": "Go to high ground",
+        "th": "ไปที่สูงครับ",
+        "fa": "به محل مرتفع بروید",
+        "ar": "اذهب إلى مكان مرتفع",
+        "es": "Ve a una zona alta",
+        "zh": "去高处",
+        "ja": "高台に行ってください"
+      },
+      "tokens": {
+        "en": ["Go", "to", "high", "ground"],
+        "th": ["ไป", "ที่สูง", "ครับ"],
+        "fa": ["به", "محل", "مرتفع", "بروید"],
+        "ar": ["اذهب", "إلى", "مكان", "مرتفع"],
+        "es": ["Ve", "a", "una", "zona", "alta"],
+        "zh": ["去", "高处"],
+        "ja": ["高台", "に", "行って", "ください"]
+      }
+    },
+    {
+      "id": "sentence_disaster_run_shelter",
+      "kind": "sentence",
+      "itemIds": ["word_run", "word_go", "word_at", "word_shelter"],
+      "texts": {
+        "en": "Run to the shelter",
+        "th": "วิ่งไปที่ที่พักพิง",
+        "fa": "به سمت پناهگاه بدوید",
+        "ar": "اركض إلى الملجأ",
+        "es": "Corre al refugio",
+        "zh": "跑去避难所",
+        "ja": "避難所へ走って"
+      },
+      "tokens": {
+        "en": ["Run", "to", "the", "shelter"],
+        "th": ["วิ่ง", "ไป", "ที่", "ที่พักพิง"],
+        "fa": ["به", "سمت", "پناهگاه", "بدوید"],
+        "ar": ["اركض", "إلى", "الملجأ"],
+        "es": ["Corre", "al", "refugio"],
+        "zh": ["跑", "去", "避难所"],
+        "ja": ["避難所", "へ", "走って"]
+      }
+    },
+    {
+      "id": "sentence_warn_follow",
+      "kind": "sentence",
+      "itemIds": ["word_follow", "word_official", "word_go"],
+      "texts": {
+        "en": "Follow the officials",
+        "th": "ตามเจ้าหน้าที่ไปครับ",
+        "fa": "دنبال مأموران بروید",
+        "ar": "اتبع رجال الإنقاذ",
+        "es": "Sigue a los rescatistas",
+        "zh": "跟随救援人员",
+        "ja": "職員について行ってください"
+      },
+      "tokens": {
+        "en": ["Follow", "the", "officials"],
+        "th": ["ตาม", "เจ้าหน้าที่", "ไป", "ครับ"],
+        "fa": ["دنبال", "مأموران", "بروید"],
+        "ar": ["اتبع", "رجال", "الإنقاذ"],
+        "es": ["Sigue", "a", "los", "rescatistas"],
+        "zh": ["跟随", "救援人员"],
+        "ja": ["職員", "に", "ついて", "行って", "ください"]
+      }
+    },
+    {
+      "id": "word_calm",
+      "kind": "word",
+      "texts": {
+        "en": "stay calm",
+        "th": "ตั้งสติ",
+        "fa": "خونسردی / آرامش",
+        "ar": "الهدوء",
+        "es": "mantener la calma",
+        "zh": "保持冷静",
+        "ja": "落ち着く"
+      }
+    },
+    {
+      "id": "word_panic",
+      "kind": "word",
+      "texts": {
+        "en": "panic",
+        "th": "ตื่นตระหนก",
+        "fa": "وحشت کردن",
+        "ar": "يهلع",
+        "es": "entrar en pánico",
+        "zh": "恐慌",
+        "ja": "パニックになる"
+      }
+    },
+    {
+      "id": "word_elevator",
+      "kind": "word",
+      "texts": {
+        "en": "elevator",
+        "th": "ลิฟต์",
+        "fa": "آسانسور",
+        "ar": "مصعد",
+        "es": "ascensor",
+        "zh": "电梯",
+        "ja": "エレベーター"
+      }
+    },
+    {
+      "id": "word_stairs",
+      "kind": "word",
+      "texts": {
+        "en": "stairs",
+        "th": "บันได",
+        "fa": "پله‌ها",
+        "ar": "درج",
+        "es": "escaleras",
+        "zh": "楼梯",
+        "ja": "階段"
+      }
+    },
+    {
+      "id": "word_official",
+      "kind": "word",
+      "texts": {
+        "en": "official / rescuer",
+        "th": "เจ้าหน้าที่",
+        "fa": "مأمور / نیروی امدادی",
+        "ar": "مسؤول / منقذ",
+        "es": "funcionario / rescatista",
+        "zh": "工作人员",
+        "ja": "職員"
+      }
+    },
+    {
+      "id": "word_high_ground",
+      "kind": "word",
+      "texts": {
+        "en": "high ground",
+        "th": "ที่สูง",
+        "fa": "محل مرتفع",
+        "ar": "مكان مرتفع",
+        "es": "zona alta",
+        "zh": "高处",
+        "ja": "高台"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Safety & Getting Help",
+        "th": "สถานการณ์ 3: ความปลอดภัยและการขอความช่วยเหลือ",
+        "fa": "سناریو ۳: ایمنی و کمک گرفتن",
+        "ar": "السيناريو 3: السلامة وطلب المساعدة",
+        "es": "Escenario 3: Seguridad y pedir ayuda",
+        "zh": "场景三：安全与求助",
+        "ja": "シナリオ3：安全と救助の要請"
+      }
+    },
+    {
+      "id": "sentence_disaster_safe",
+      "kind": "sentence",
+      "itemIds": ["word_you", "word_safe", "word_question_particle"],
+      "texts": {
+        "en": "Are you safe",
+        "th": "คุณปลอดภัยไหม",
+        "fa": "آیا امن هستید",
+        "ar": "هل أنت بأمان",
+        "es": "Estás a salvo",
+        "zh": "你安全吗",
+        "ja": "安全ですか"
+      },
+      "tokens": {
+        "en": ["Are", "you", "safe"],
+        "th": ["คุณ", "ปลอดภัย", "ไหม"],
+        "fa": ["آیا", "امن", "هستید"],
+        "ar": ["هل", "أنت", "بأمان"],
+        "es": ["Estás", "a", "salvo"],
+        "zh": ["你", "安全", "吗"],
+        "ja": ["安全", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_safe_answer",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_safe"],
+      "texts": {
+        "en": "I am safe",
+        "th": "ฉันปลอดภัยค่ะ",
+        "fa": "من امن هستم",
+        "ar": "أنا بأمان",
+        "es": "Estoy a salvo",
+        "zh": "我安全",
+        "ja": "無事です"
+      },
+      "tokens": {
+        "en": ["I", "am", "safe"],
+        "th": ["ฉัน", "ปลอดภัย", "ค่ะ"],
+        "fa": ["من", "امن", "هستم"],
+        "ar": ["أنا", "بأمان"],
+        "es": ["Estoy", "a", "salvo"],
+        "zh": ["我", "安全"],
+        "ja": ["無事", "です"]
+      }
+    },
+    {
+      "id": "sentence_help_need",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_need", "word_help_noun"],
+      "texts": {
+        "en": "I need help",
+        "th": "ฉันต้องการความช่วยเหลือค่ะ",
+        "fa": "من به کمک نیاز دارم",
+        "ar": "أحتاج إلى مساعدة",
+        "es": "Necesito ayuda",
+        "zh": "我需要帮助",
+        "ja": "助けが必要です"
+      },
+      "tokens": {
+        "en": ["I", "need", "help"],
+        "th": ["ฉัน", "ต้องการ", "ความช่วยเหลือ", "ค่ะ"],
+        "fa": ["من", "به", "کمک", "نیاز", "دارم"],
+        "ar": ["أحتاج", "إلى", "مساعدة"],
+        "es": ["Necesito", "ayuda"],
+        "zh": ["我", "需要", "帮助"],
+        "ja": ["助け", "が", "必要", "です"]
+      }
+    },
+    {
+      "id": "sentence_help_i_injured",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_injured"],
+      "texts": {
+        "en": "I am injured",
+        "th": "ฉันบาดเจ็บค่ะ",
+        "fa": "من مجروح شده‌ام",
+        "ar": "أنا مصاب",
+        "es": "Estoy herido",
+        "zh": "我受伤了",
+        "ja": "けがをしています"
+      },
+      "tokens": {
+        "en": ["I", "am", "injured"],
+        "th": ["ฉัน", "บาดเจ็บ", "ค่ะ"],
+        "fa": ["من", "مجروح", "شده‌ام"],
+        "ar": ["أنا", "مصاب"],
+        "es": ["Estoy", "herido"],
+        "zh": ["我", "受伤", "了"],
+        "ja": ["けが", "を", "して", "います"]
+      }
+    },
+    {
+      "id": "sentence_help_someone_injured",
+      "kind": "sentence",
+      "itemIds": ["word_have", "word_person", "word_injured"],
+      "texts": {
+        "en": "Someone is injured",
+        "th": "มีคนบาดเจ็บครับ",
+        "fa": "یک نفر مجروح شده است",
+        "ar": "هناك شخص مصاب",
+        "es": "Hay alguien herido",
+        "zh": "有人受伤了",
+        "ja": "けがをした人がいます"
+      },
+      "tokens": {
+        "en": ["Someone", "is", "injured"],
+        "th": ["มี", "คน", "บาดเจ็บ", "ครับ"],
+        "fa": ["یک", "نفر", "مجروح", "شده", "است"],
+        "ar": ["هناك", "شخص", "مصاب"],
+        "es": ["Hay", "alguien", "herido"],
+        "zh": ["有人", "受伤", "了"],
+        "ja": ["けが", "を", "した", "人", "が", "います"]
+      }
+    },
+    {
+      "id": "sentence_disaster_help_evacuate",
+      "kind": "sentence",
+      "itemIds": ["word_please", "word_help", "word_we", "word_evacuate"],
+      "texts": {
+        "en": "Please help us evacuate",
+        "th": "กรุณาช่วยเราอพยพ",
+        "fa": "لطفا به ما در تخلیه کمک کنید",
+        "ar": "من فضلك ساعدنا على الإخلاء",
+        "es": "Por favor ayúdanos a evacuar",
+        "zh": "请帮助我们疏散",
+        "ja": "避難を手伝ってください"
+      },
+      "tokens": {
+        "en": ["Please", "help", "us", "evacuate"],
+        "th": ["กรุณา", "ช่วย", "เรา", "อพยพ"],
+        "fa": ["لطفا", "به", "ما", "در", "تخلیه", "کمک", "کنید"],
+        "ar": ["من", "فضلك", "ساعدنا", "على", "الإخلاء"],
+        "es": ["Por", "favor", "ayúdanos", "a", "evacuar"],
+        "zh": ["请", "帮助", "我们", "疏散"],
+        "ja": ["避難", "を", "手伝って", "ください"]
+      }
+    },
+    {
+      "id": "sentence_help_call_for_help",
+      "kind": "sentence",
+      "itemIds": ["word_please", "word_call", "word_help_noun"],
+      "texts": {
+        "en": "Please call for help",
+        "th": "กรุณาโทรขอความช่วยเหลือครับ",
+        "fa": "لطفاً برای کمک تماس بگیرید",
+        "ar": "من فضلك اتصل طلباً للمساعدة",
+        "es": "Por favor llama pidiendo ayuda",
+        "zh": "请打电话求助",
+        "ja": "電話で助けを呼んでください"
+      },
+      "tokens": {
+        "en": ["Please", "call", "for", "help"],
+        "th": ["กรุณา", "โทร", "ขอ", "ความช่วยเหลือ", "ครับ"],
+        "fa": ["لطفاً", "برای", "کمک", "تماس", "بگیرید"],
+        "ar": ["من", "فضلك", "اتصل", "طلباً", "للمساعدة"],
+        "es": ["Por", "favor", "llama", "pidiendo", "ayuda"],
+        "zh": ["请", "打电话", "求助"],
+        "ja": ["電話", "で", "助け", "を", "呼んで", "ください"]
+      }
+    },
+    {
+      "id": "sentence_help_call_emergency",
+      "kind": "sentence",
+      "itemIds": ["word_call", "word_emergency"],
+      "texts": {
+        "en": "Call the emergency services",
+        "th": "โทรแจ้งหน่วยฉุกเฉินครับ",
+        "fa": "با خدمات اورژانس تماس بگیرید",
+        "ar": "اتصل بخدمات الطوارئ",
+        "es": "Llama a los servicios de emergencia",
+        "zh": "请拨打急救电话",
+        "ja": "緊急サービスに連絡してください"
+      },
+      "tokens": {
+        "en": ["Call", "the", "emergency", "services"],
+        "th": ["โทร", "แจ้ง", "หน่วย", "ฉุกเฉิน", "ครับ"],
+        "fa": ["با", "خدمات", "اورژانس", "تماس", "بگیرید"],
+        "ar": ["اتصل", "بخدمات", "الطوارئ"],
+        "es": ["Llama", "a", "los", "servicios", "de", "emergencia"],
+        "zh": ["请", "拨打", "急救", "电话"],
+        "ja": ["緊急", "サービス", "に", "連絡", "して", "ください"]
+      }
+    },
+    {
+      "id": "sentence_help_come_quickly",
+      "kind": "sentence",
+      "itemIds": ["word_come", "word_quickly"],
+      "texts": {
+        "en": "Come quickly",
+        "th": "มาเร็ว ๆ หน่อยครับ",
+        "fa": "لطفاً سریع بیایید",
+        "ar": "تعالَ بسرعة",
+        "es": "Ven rápido",
+        "zh": "快来",
+        "ja": "早く来てください"
+      },
+      "tokens": {
+        "en": ["Come", "quickly"],
+        "th": ["มา", "เร็ว ๆ", "หน่อย", "ครับ"],
+        "fa": ["لطفاً", "سریع", "بیایید"],
+        "ar": ["تعالَ", "بسرعة"],
+        "es": ["Ven", "rápido"],
+        "zh": ["快", "来"],
+        "ja": ["早く", "来て", "ください"]
+      }
+    },
+    {
+      "id": "word_injured",
+      "kind": "word",
+      "texts": {
+        "en": "injured",
+        "th": "บาดเจ็บ",
+        "fa": "مجروح",
+        "ar": "مصاب",
+        "es": "herido",
+        "zh": "受伤",
+        "ja": "けがをした"
+      }
+    },
+    {
+      "id": "word_help_noun",
+      "kind": "word",
+      "texts": {
+        "en": "help / assistance",
+        "th": "ความช่วยเหลือ",
+        "fa": "کمک",
+        "ar": "مساعدة",
+        "es": "ayuda",
+        "zh": "帮助",
+        "ja": "助け"
+      }
+    },
+    {
+      "id": "word_emergency",
+      "kind": "word",
+      "texts": {
+        "en": "emergency",
+        "th": "ฉุกเฉิน",
+        "fa": "اورژانسی",
+        "ar": "طوارئ",
+        "es": "emergencia",
+        "zh": "紧急",
+        "ja": "緊急"
+      }
+    },
+    {
+      "id": "word_quickly",
+      "kind": "word",
+      "texts": {
+        "en": "quickly",
+        "th": "เร็ว ๆ",
+        "fa": "به‌سرعت",
+        "ar": "بسرعة",
+        "es": "rápido",
+        "zh": "快快",
+        "ja": "早く"
+      }
+    },
+    {
+      "id": "word_now",
+      "kind": "word",
+      "texts": {
+        "en": "right now",
+        "th": "เดี๋ยวนี้",
+        "fa": "همین حالا",
+        "ar": "الآن",
+        "es": "ahora mismo",
+        "zh": "现在",
+        "ja": "今すぐ"
+      }
+    },
+    {
+      "id": "word_evacuate",
+      "kind": "word",
+      "texts": {
+        "en": "evacuate",
+        "th": "อพยพ",
+        "fa": "تخلیه کردن",
+        "ar": "إجلاء",
+        "es": "evacuar",
+        "zh": "疏散",
+        "ja": "避難する"
+      }
+    },
+    {
+      "id": "word_shelter",
+      "kind": "word",
+      "texts": {
+        "en": "shelter",
+        "th": "ที่พักพิง",
+        "fa": "پناهگاه",
+        "ar": "ملجأ",
+        "es": "refugio",
+        "zh": "避难所",
+        "ja": "避難所"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: After the Disaster",
+        "th": "สถานการณ์ 4: หลังเกิดภัยพิบัติ",
+        "fa": "سناریو ۴: پس از فاجعه",
+        "ar": "السيناريو 4: بعد الكارثة",
+        "es": "Escenario 4: Después del desastre",
+        "zh": "场景四：灾后",
+        "ja": "シナリオ4：災害の後"
+      }
+    },
+    {
+      "id": "sentence_after_house_damaged",
+      "kind": "sentence",
+      "itemIds": ["word_house", "word_damage"],
+      "texts": {
+        "en": "My house is damaged",
+        "th": "บ้านของฉันเสียหาย",
+        "fa": "خانه من آسیب دیده است",
+        "ar": "منزلي متضرر",
+        "es": "Mi casa está dañada",
+        "zh": "我的房子受损了",
+        "ja": "家が損傷しています"
+      },
+      "tokens": {
+        "en": ["My", "house", "is", "damaged"],
+        "th": ["บ้าน", "ของ", "ฉัน", "เสียหาย"],
+        "fa": ["خانه", "من", "آسیب", "دیده", "است"],
+        "ar": ["منزلي", "متضرر"],
+        "es": ["Mi", "casa", "está", "dañada"],
+        "zh": ["我的", "房子", "受损", "了"],
+        "ja": ["家", "が", "損傷", "して", "います"]
+      }
+    },
+    {
+      "id": "sentence_after_road_closed",
+      "kind": "sentence",
+      "itemIds": ["word_road", "word_closed"],
+      "texts": {
+        "en": "The road is closed",
+        "th": "ถนนปิดแล้ว",
+        "fa": "جاده بسته است",
+        "ar": "الطريق مغلق",
+        "es": "La carretera está cerrada",
+        "zh": "道路封闭了",
+        "ja": "道路は閉鎖されています"
+      },
+      "tokens": {
+        "en": ["The", "road", "is", "closed"],
+        "th": ["ถนน", "ปิด", "แล้ว"],
+        "fa": ["جاده", "بسته", "است"],
+        "ar": ["الطريق", "مغلق"],
+        "es": ["La", "carretera", "está", "cerrada"],
+        "zh": ["道路", "封闭", "了"],
+        "ja": ["道路", "は", "閉鎖", "されて", "います"]
+      }
+    },
+    {
+      "id": "sentence_after_bridge_broken",
+      "kind": "sentence",
+      "itemIds": ["word_bridge", "word_damage"],
+      "texts": {
+        "en": "The bridge is broken",
+        "th": "สะพานพังแล้ว",
+        "fa": "پل شکسته است",
+        "ar": "الجسر مكسور",
+        "es": "El puente está roto",
+        "zh": "桥坏了",
+        "ja": "橋が壊れています"
+      },
+      "tokens": {
+        "en": ["The", "bridge", "is", "broken"],
+        "th": ["สะพาน", "พัง", "แล้ว"],
+        "fa": ["پل", "شکسته", "است"],
+        "ar": ["الجسر", "مكسور"],
+        "es": ["El", "puente", "está", "roto"],
+        "zh": ["桥", "坏", "了"],
+        "ja": ["橋", "が", "壊れて", "います"]
+      }
+    },
+    {
+      "id": "sentence_after_check_gas",
+      "kind": "sentence",
+      "itemIds": ["word_check", "word_gas"],
+      "texts": {
+        "en": "Check the gas before entering",
+        "th": "ตรวจแก๊สก่อนเข้าไป",
+        "fa": "گاز را قبل از ورود بررسی کنید",
+        "ar": "افحص الغاز قبل الدخول",
+        "es": "Revisa el gas antes de entrar",
+        "zh": "进入前检查燃气",
+        "ja": "入る前にガスを点検してください"
+      },
+      "tokens": {
+        "en": ["Check", "the", "gas", "before", "entering"],
+        "th": ["ตรวจ", "แก๊ส", "ก่อน", "เข้าไป"],
+        "fa": ["گاز", "را", "قبل", "از", "ورود", "بررسی", "کنید"],
+        "ar": ["افحص", "الغاز", "قبل", "الدخول"],
+        "es": ["Revisa", "el", "gas", "antes", "de", "entrar"],
+        "zh": ["进入", "前", "检查", "燃气"],
+        "ja": ["入る", "前に", "ガス", "を", "点検", "して", "ください"]
+      }
+    },
+    {
+      "id": "sentence_after_no_electricity",
+      "kind": "sentence",
+      "itemIds": ["word_dont", "word_use", "word_electricity"],
+      "texts": {
+        "en": "Do not use electricity yet",
+        "th": "อย่าใช้ไฟฟ้าตอนนี้",
+        "fa": "هنوز از برق استفاده نکنید",
+        "ar": "لا تستخدم الكهرباء بعد",
+        "es": "No uses la electricidad todavía",
+        "zh": "现在不要用电",
+        "ja": "まだ電気を使わないでください"
+      },
+      "tokens": {
+        "en": ["Do", "not", "use", "electricity", "yet"],
+        "th": ["อย่า", "ใช้", "ไฟฟ้า", "ตอนนี้"],
+        "fa": ["هنوز", "از", "برق", "استفاده", "نکنید"],
+        "ar": ["لا", "تستخدم", "الكهرباء", "بعد"],
+        "es": ["No", "uses", "la", "electricidad", "todavía"],
+        "zh": ["现在", "不要", "用", "电"],
+        "ja": ["まだ", "電気", "を", "使わないで", "ください"]
+      }
+    },
+    {
+      "id": "word_damage",
+      "kind": "word",
+      "texts": {
+        "en": "damage",
+        "th": "ความเสียหาย",
+        "fa": "آسیب",
+        "ar": "ضرر",
+        "es": "daño",
+        "zh": "损坏",
+        "ja": "損傷"
+      }
+    },
+    {
+      "id": "word_house",
+      "kind": "word",
+      "texts": {
+        "en": "house",
+        "th": "บ้าน",
+        "fa": "خانه",
+        "ar": "منزل",
+        "es": "casa",
+        "zh": "房子",
+        "ja": "家"
+      }
+    },
+    {
+      "id": "word_road",
+      "kind": "word",
+      "texts": {
+        "en": "road",
+        "th": "ถนน",
+        "fa": "جاده",
+        "ar": "طريق",
+        "es": "carretera",
+        "zh": "道路",
+        "ja": "道路"
+      }
+    },
+    {
+      "id": "word_bridge",
+      "kind": "word",
+      "texts": {
+        "en": "bridge",
+        "th": "สะพาน",
+        "fa": "پل",
+        "ar": "جسر",
+        "es": "puente",
+        "zh": "桥",
+        "ja": "橋"
+      }
+    },
+    {
+      "id": "word_closed",
+      "kind": "word",
+      "texts": {
+        "en": "closed",
+        "th": "ปิด",
+        "fa": "بسته",
+        "ar": "مغلق",
+        "es": "cerrado",
+        "zh": "封闭",
+        "ja": "閉鎖"
+      }
+    },
+    {
+      "id": "word_check",
+      "kind": "word",
+      "texts": {
+        "en": "check",
+        "th": "ตรวจ",
+        "fa": "بررسی کردن",
+        "ar": "يفحص",
+        "es": "revisar",
+        "zh": "检查",
+        "ja": "点検する"
+      }
+    },
+    {
+      "id": "word_gas",
+      "kind": "word",
+      "texts": {
+        "en": "gas",
+        "th": "แก๊ส",
+        "fa": "گاز",
+        "ar": "غاز",
+        "es": "gas",
+        "zh": "燃气",
+        "ja": "ガス"
+      }
+    },
+    {
+      "id": "word_electricity",
+      "kind": "word",
+      "texts": {
+        "en": "electricity",
+        "th": "ไฟฟ้า",
+        "fa": "برق",
+        "ar": "كهرباء",
+        "es": "electricidad",
+        "zh": "电",
+        "ja": "電気"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Recovery & Aid",
+        "th": "สถานการณ์ 5: การฟื้นฟูและความช่วยเหลือ",
+        "fa": "سناریو ۵: بهبودی و امداد",
+        "ar": "السيناريو 5: التعافي والمساعدات",
+        "es": "Escenario 5: Recuperación y ayuda",
+        "zh": "场景五：恢复与援助",
+        "ja": "シナリオ5：復旧と支援"
+      }
+    },
+    {
+      "id": "sentence_recovery_need_food_water",
+      "kind": "sentence",
+      "itemIds": ["word_we", "word_need", "word_food", "word_water"],
+      "texts": {
+        "en": "We need food and water",
+        "th": "เราต้องการอาหารและน้ำ",
+        "fa": "ما به غذا و آب نیاز داریم",
+        "ar": "نحتاج إلى طعام وماء",
+        "es": "Necesitamos comida y agua",
+        "zh": "我们需要食物和水",
+        "ja": "私たちは食べ物と水が必要です"
+      },
+      "tokens": {
+        "en": ["We", "need", "food", "and", "water"],
+        "th": ["เรา", "ต้องการ", "อาหาร", "และ", "น้ำ"],
+        "fa": ["ما", "به", "غذا", "و", "آب", "نیاز", "داریم"],
+        "ar": ["نحتاج", "إلى", "طعام", "وماء"],
+        "es": ["Necesitamos", "comida", "y", "agua"],
+        "zh": ["我们", "需要", "食物", "和", "水"],
+        "ja": ["私たち", "は", "食べ物", "と", "水", "が", "必要", "です"]
+      }
+    },
+    {
+      "id": "sentence_recovery_volunteers_help",
+      "kind": "sentence",
+      "itemIds": ["word_volunteer", "word_help", "word_person", "word_ing"],
+      "texts": {
+        "en": "Volunteers are helping people",
+        "th": "อาสาสมัครกำลังช่วยผู้คน",
+        "fa": "داوطلبان به مردم کمک می‌کنند",
+        "ar": "المتطوعون يساعدون الناس",
+        "es": "Los voluntarios están ayudando a las personas",
+        "zh": "志愿者正在帮助人们",
+        "ja": "ボランティアが人々を助けています"
+      },
+      "tokens": {
+        "en": ["Volunteers", "are", "helping", "people"],
+        "th": ["อาสาสมัคร", "กำลัง", "ช่วย", "ผู้คน"],
+        "fa": ["داوطلبان", "به", "مردم", "کمک", "می‌کنند"],
+        "ar": ["المتطوعون", "يساعدون", "الناس"],
+        "es": [
+          "Los",
+          "voluntarios",
+          "están",
+          "ayudando",
+          "a",
+          "las",
+          "personas"
+        ],
+        "zh": ["志愿者", "正在", "帮助", "人们"],
+        "ja": ["ボランティア", "が", "人々", "を", "助けて", "います"]
+      }
+    },
+    {
+      "id": "sentence_recovery_shelter_blankets",
+      "kind": "sentence",
+      "itemIds": ["word_shelter", "word_have", "word_blanket"],
+      "texts": {
+        "en": "The shelter has blankets",
+        "th": "ที่พักพิงมีผ้าห่ม",
+        "fa": "پناهگاه پتو دارد",
+        "ar": "يوجد في الملجأ بطانيات",
+        "es": "El refugio tiene mantas",
+        "zh": "避难所有毯子",
+        "ja": "避難所に毛布があります"
+      },
+      "tokens": {
+        "en": ["The", "shelter", "has", "blankets"],
+        "th": ["ที่พักพิง", "มี", "ผ้าห่ม"],
+        "fa": ["پناهگاه", "پتو", "دارد"],
+        "ar": ["يوجد", "في", "الملجأ", "بطانيات"],
+        "es": ["El", "refugio", "tiene", "mantas"],
+        "zh": ["避难所", "有", "毯子"],
+        "ja": ["避難所", "に", "毛布", "が", "あります"]
+      }
+    },
+    {
+      "id": "sentence_recovery_give_medicine",
+      "kind": "sentence",
+      "itemIds": [
+        "word_please",
+        "word_medicine",
+        "word_injured",
+        "word_person"
+      ],
+      "texts": {
+        "en": "Please give medicine to the injured person",
+        "th": "กรุณาให้ยาแก่คนบาดเจ็บ",
+        "fa": "لطفاً به شخص مجروح دارو بدهید",
+        "ar": "يرجى إعطاء الدواء للشخص المصاب",
+        "es": "Por favor da medicina a la persona herida",
+        "zh": "请给受伤的人药",
+        "ja": "けがをした人に薬をあげてください"
+      },
+      "tokens": {
+        "en": ["Please", "give", "medicine", "to", "the", "injured", "person"],
+        "th": ["กรุณา", "ให้", "ยา", "แก่", "คน", "บาดเจ็บ"],
+        "fa": ["لطفاً", "به", "شخص", "مجروح", "دارو", "بدهید"],
+        "ar": ["يرجى", "إعطاء", "الدواء", "للشخص", "المصاب"],
+        "es": [
+          "Por",
+          "favor",
+          "da",
+          "medicina",
+          "a",
+          "la",
+          "persona",
+          "herida"
+        ],
+        "zh": ["请", "给", "受伤", "的", "人", "药"],
+        "ja": [
+          "けが",
+          "を",
+          "した",
+          "人",
+          "に",
+          "薬",
+          "を",
+          "あげて",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_recovery_return_home",
+      "kind": "sentence",
+      "itemIds": ["word_we", "word_will", "word_return", "word_home"],
+      "texts": {
+        "en": "We will return home soon",
+        "th": "เราจะกลับบ้านเร็ว ๆ นี้",
+        "fa": "ما به‌زودی به خانه برمی‌گردیم",
+        "ar": "سنعود إلى المنزل قريباً",
+        "es": "Volveremos a casa pronto",
+        "zh": "我们很快会回家",
+        "ja": "私たちはすぐ家に帰ります"
+      },
+      "tokens": {
+        "en": ["We", "will", "return", "home", "soon"],
+        "th": ["เรา", "จะ", "กลับ", "บ้าน", "เร็ว ๆ", "นี้"],
+        "fa": ["ما", "به‌زودی", "به", "خانه", "برمی‌گردیم"],
+        "ar": ["سنعود", "إلى", "المنزل", "قريباً"],
+        "es": ["Volveremos", "a", "casa", "pronto"],
+        "zh": ["我们", "很快", "会", "回家"],
+        "ja": ["私たち", "は", "すぐ", "家", "に", "帰り", "ます"]
+      }
+    },
+    {
+      "id": "word_food",
+      "kind": "word",
+      "texts": {
+        "en": "food",
+        "th": "อาหาร",
+        "fa": "غذا",
+        "ar": "طعام",
+        "es": "comida",
+        "zh": "食物",
+        "ja": "食べ物"
+      }
+    },
+    {
+      "id": "word_volunteer",
+      "kind": "word",
+      "texts": {
+        "en": "volunteer",
+        "th": "อาสาสมัคร",
+        "fa": "داوطلب",
+        "ar": "متطوع",
+        "es": "voluntario",
+        "zh": "志愿者",
+        "ja": "ボランティア"
+      }
+    },
+    {
+      "id": "word_blanket",
+      "kind": "word",
+      "texts": {
+        "en": "blanket",
+        "th": "ผ้าห่ม",
+        "fa": "پتو",
+        "ar": "بطانية",
+        "es": "manta",
+        "zh": "毯子",
+        "ja": "毛布"
+      }
+    },
+    {
+      "id": "word_medicine",
+      "kind": "word",
+      "texts": {
+        "en": "medicine",
+        "th": "ยา",
+        "fa": "دارو",
+        "ar": "دواء",
+        "es": "medicina",
+        "zh": "药",
+        "ja": "薬"
+      }
+    },
+    {
+      "id": "word_return",
+      "kind": "word",
+      "texts": {
+        "en": "return",
+        "th": "กลับ",
+        "fa": "برگشتن",
+        "ar": "يعود",
+        "es": "regresar",
+        "zh": "返回",
+        "ja": "帰る"
+      }
+    },
+    {
+      "id": "word_home",
+      "kind": "word",
+      "texts": {
+        "en": "home",
+        "th": "บ้าน",
+        "fa": "خانه",
+        "ar": "منزل",
+        "es": "casa",
+        "zh": "家",
+        "ja": "家"
+      }
+    }
+  ]
+}

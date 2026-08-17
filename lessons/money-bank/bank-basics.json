@@ -1,0 +1,1513 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำหลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras básicas",
+        "zh": "核心词汇",
+        "ja": "コア単語"
+      }
+    },
+    {
+      "id": "word_bank",
+      "kind": "word",
+      "texts": {
+        "en": "bank",
+        "th": "ธนาคาร",
+        "fa": "بانک",
+        "ar": "بنك",
+        "es": "banco",
+        "zh": "银行",
+        "ja": "銀行"
+      }
+    },
+    {
+      "id": "word_account",
+      "kind": "word",
+      "texts": {
+        "en": "account",
+        "th": "บัญชี",
+        "fa": "حساب",
+        "ar": "حساب",
+        "es": "cuenta",
+        "zh": "账户",
+        "ja": "口座"
+      }
+    },
+    {
+      "id": "word_money",
+      "kind": "word",
+      "texts": {
+        "en": "money",
+        "th": "เงิน",
+        "fa": "پول",
+        "ar": "نقود",
+        "es": "dinero",
+        "zh": "钱",
+        "ja": "お金"
+      }
+    },
+    {
+      "id": "word_deposit",
+      "kind": "word",
+      "texts": {
+        "en": "deposit",
+        "th": "ฝากเงิน",
+        "fa": "واریز کردن",
+        "ar": "إيداع",
+        "es": "depositar",
+        "zh": "存款",
+        "ja": "預金"
+      }
+    },
+    {
+      "id": "word_withdraw",
+      "kind": "word",
+      "texts": {
+        "en": "withdraw",
+        "th": "ถอนเงิน",
+        "fa": "برداشت کردن",
+        "ar": "سحب نقود",
+        "es": "retirar",
+        "zh": "取款",
+        "ja": "引き出し"
+      }
+    },
+    {
+      "id": "word_atm",
+      "kind": "word",
+      "texts": {
+        "en": "ATM",
+        "th": "เอทีเอ็ม",
+        "fa": "عابر بانک",
+        "ar": "صراف آلي",
+        "es": "cajero automático",
+        "zh": "自动取款机",
+        "ja": "ATM"
+      }
+    },
+    {
+      "id": "word_card",
+      "kind": "word",
+      "texts": {
+        "en": "card",
+        "th": "บัตร",
+        "fa": "کارت",
+        "ar": "بطاقة",
+        "es": "tarjeta",
+        "zh": "卡",
+        "ja": "カード"
+      }
+    },
+    {
+      "id": "word_password",
+      "kind": "word",
+      "texts": {
+        "en": "password",
+        "th": "รหัสผ่าน",
+        "fa": "رمز عبور",
+        "ar": "كلمة مرور",
+        "es": "contraseña",
+        "zh": "密码",
+        "ja": "パスワード"
+      }
+    },
+    {
+      "id": "word_passport",
+      "kind": "word",
+      "texts": {
+        "en": "passport",
+        "th": "พาสปอร์ต",
+        "fa": "گذرنامه",
+        "ar": "جواز سفر",
+        "es": "pasaporte",
+        "zh": "护照",
+        "ja": "パスポート"
+      }
+    },
+    {
+      "id": "word_passbook",
+      "kind": "word",
+      "texts": {
+        "en": "passbook",
+        "th": "สมุดบัญชี",
+        "fa": "دفترچه حساب",
+        "ar": "دفتر التوفير",
+        "es": "libreta de ahorro",
+        "zh": "存折",
+        "ja": "通帳"
+      }
+    },
+    {
+      "id": "word_fee",
+      "kind": "word",
+      "texts": {
+        "en": "fee",
+        "th": "ค่าธรรมเนียม",
+        "fa": "کارمزد",
+        "ar": "رسوم",
+        "es": "comisión",
+        "zh": "手续费",
+        "ja": "手数料"
+      }
+    },
+    {
+      "id": "word_baht",
+      "kind": "word",
+      "texts": {
+        "en": "baht",
+        "th": "บาท",
+        "fa": "بات",
+        "ar": "بات",
+        "es": "baht",
+        "zh": "泰铢",
+        "ja": "バーツ"
+      }
+    },
+    {
+      "id": "word_how_much",
+      "kind": "word",
+      "texts": {
+        "en": "how much",
+        "th": "เท่าไหร่",
+        "fa": "چقدر",
+        "ar": "كم",
+        "es": "cuánto",
+        "zh": "多少",
+        "ja": "いくら"
+      }
+    },
+    {
+      "id": "word_question",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_not",
+      "kind": "word",
+      "texts": {
+        "en": "not",
+        "th": "ไม่",
+        "fa": "نه",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不",
+        "ja": "ない"
+      }
+    },
+    {
+      "id": "word_can",
+      "kind": "word",
+      "texts": {
+        "en": "can",
+        "th": "ได้",
+        "fa": "توانستن",
+        "ar": "يستطيع",
+        "es": "poder",
+        "zh": "可以",
+        "ja": "できる"
+      }
+    },
+    {
+      "id": "word_very",
+      "kind": "word",
+      "texts": {
+        "en": "very",
+        "th": "มาก",
+        "fa": "خیلی",
+        "ar": "جداً",
+        "es": "muy",
+        "zh": "非常",
+        "ja": "とても"
+      }
+    },
+    {
+      "id": "word_I",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_request",
+      "kind": "word",
+      "texts": {
+        "en": "request",
+        "th": "ขอ",
+        "fa": "خواستن",
+        "ar": "يطلب",
+        "es": "pedir",
+        "zh": "请给",
+        "ja": "ください"
+      }
+    },
+    {
+      "id": "word_take",
+      "kind": "word",
+      "texts": {
+        "en": "take",
+        "th": "เอา",
+        "fa": "گرفتن",
+        "ar": "آخذ",
+        "es": "llevar",
+        "zh": "要",
+        "ja": "もらう"
+      }
+    },
+    {
+      "id": "word_sign",
+      "kind": "word",
+      "texts": {
+        "en": "sign",
+        "th": "เซ็นชื่อ",
+        "fa": "امضا کردن",
+        "ar": "يوقع",
+        "es": "firmar",
+        "zh": "签名",
+        "ja": "サインする"
+      }
+    },
+    {
+      "id": "word_thank",
+      "kind": "word",
+      "texts": {
+        "en": "thank",
+        "th": "ขอบคุณ",
+        "fa": "تشکر",
+        "ar": "شكر",
+        "es": "gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
+      }
+    },
+    {
+      "id": "word_goodbye",
+      "kind": "word",
+      "texts": {
+        "en": "goodbye",
+        "th": "ลาก่อน",
+        "fa": "خداحافظ",
+        "ar": "مع السلامة",
+        "es": "adiós",
+        "zh": "再见",
+        "ja": "さようなら"
+      }
+    },
+    {
+      "id": "header_scenario_1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Opening an Account",
+        "th": "สถานการณ์ 1: เปิดบัญชี",
+        "fa": "سناریوی ۱: افتتاح حساب",
+        "ar": "السيناريو ١: فتح حساب",
+        "es": "Escenario 1: Abrir una cuenta",
+        "zh": "场景一：开户",
+        "ja": "シーン1：口座開設"
+      }
+    },
+    {
+      "id": "sentence_bb_s1_want_open_account",
+      "kind": "sentence",
+      "itemIds": ["word_I", "word_open", "word_bank", "word_account"],
+      "texts": {
+        "en": "I want to open a bank account",
+        "th": "ฉันอยากเปิดบัญชีธนาคารค่ะ",
+        "fa": "می‌خواهم حساب بانکی افتتاح کنم",
+        "ar": "أريد فتح حساب بنكي",
+        "es": "Quiero abrir una cuenta bancaria",
+        "zh": "我想开一个银行账户",
+        "ja": "銀行口座を開設したいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "open", "a", "bank", "account"],
+        "th": ["ฉัน", "อยาก", "เปิด", "บัญชี", "ธนาคาร", "ค่ะ"],
+        "fa": ["می‌خواهم", "حساب", "بانکی", "افتتاح", "کنم"],
+        "ar": ["أريد", "فتح", "حساب", "بنكي"],
+        "es": ["Quiero", "abrir", "una", "cuenta", "bancaria"],
+        "zh": ["我", "想", "开", "一个", "银行", "账户"],
+        "ja": ["銀行", "口座", "を", "開設", "したい", "です"]
+      }
+    },
+    {
+      "id": "sentence_bb_s1_documents_needed",
+      "kind": "sentence",
+      "itemIds": ["word_document", "word_question"],
+      "texts": {
+        "en": "What documents do I need",
+        "th": "ต้องใช้เอกสารอะไรบ้างคะ",
+        "fa": "چه مدارکی نیاز دارم",
+        "ar": "ما هي المستندات المطلوبة",
+        "es": "Qué documentos necesito",
+        "zh": "我需要哪些文件",
+        "ja": "どんな書類が必要ですか"
+      },
+      "tokens": {
+        "en": ["What", "documents", "do", "I", "need"],
+        "th": ["ต้อง", "ใช้", "เอกสาร", "อะไร", "บ้าง", "คะ"],
+        "fa": ["چه", "مدارکی", "نیاز", "دارم"],
+        "ar": ["ما", "هي", "المستندات", "المطلوبة"],
+        "es": ["Qué", "documentos", "necesito"],
+        "zh": ["我", "需要", "哪些", "文件"],
+        "ja": ["どんな", "書類", "が", "必要", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_bb_s1_here_passport",
+      "kind": "sentence",
+      "itemIds": ["word_passport"],
+      "texts": {
+        "en": "Here is my passport",
+        "th": "นี่คือพาสปอร์ตของฉันค่ะ",
+        "fa": "این گذرنامه من است",
+        "ar": "هذا جواز سفري",
+        "es": "Aquí está mi pasaporte",
+        "zh": "这是我的护照",
+        "ja": "これが私のパスポートです"
+      },
+      "tokens": {
+        "en": ["Here", "is", "my", "passport"],
+        "th": ["นี่", "คือ", "พาสปอร์ต", "ของ", "ฉัน", "ค่ะ"],
+        "fa": ["این", "گذرنامه", "من", "است"],
+        "ar": ["هذا", "جواز", "سفري"],
+        "es": ["Aquí", "está", "mi", "pasaporte"],
+        "zh": ["这", "是", "我", "的", "护照"],
+        "ja": ["これ", "が", "私", "の", "パスポート", "です"]
+      }
+    },
+    {
+      "id": "sentence_bb_s1_have_work_permit",
+      "kind": "sentence",
+      "itemIds": ["word_work_permit", "word_question"],
+      "texts": {
+        "en": "Do you have a work permit",
+        "th": "คุณมีเวิร์คเพอร์มิตไหมครับ",
+        "fa": "آیا اجازه کار دارید",
+        "ar": "هل لديك تصريح عمل",
+        "es": "Tiene permiso de trabajo",
+        "zh": "你有工作许可吗",
+        "ja": "労働許可証をお持ちですか"
+      },
+      "tokens": {
+        "en": ["Do", "you", "have", "a", "work", "permit"],
+        "th": ["คุณ", "มี", "เวิร์คเพอร์มิต", "ไหม", "ครับ"],
+        "fa": ["آیا", "اجازه", "کار", "دارید"],
+        "ar": ["هل", "لديك", "تصريح", "عمل"],
+        "es": ["Tiene", "permiso", "de", "trabajo"],
+        "zh": ["你", "有", "工作许可", "吗"],
+        "ja": ["労働", "許可証", "を", "お持ち", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_bb_s1_need_visa_copy",
+      "kind": "sentence",
+      "itemIds": ["word_visa"],
+      "texts": {
+        "en": "I need a copy of your visa",
+        "th": "ขอสำเนาวีซ่าด้วยครับ",
+        "fa": "یک کپی ویزای شما نیاز دارم",
+        "ar": "أحتاج نسخة من تأشيرتك",
+        "es": "Necesito una copia de su visa",
+        "zh": "我需要你的签证复印件",
+        "ja": "ビザのコピーをお願いします"
+      },
+      "tokens": {
+        "en": ["I", "need", "a", "copy", "of", "your", "visa"],
+        "th": ["ขอ", "สำเนา", "วีซ่า", "ด้วย", "ครับ"],
+        "fa": ["یک", "کپی", "ویزای", "شما", "نیاز", "دارم"],
+        "ar": ["أحتاج", "نسخة", "من", "تأشيرتك"],
+        "es": ["Necesito", "una", "copia", "de", "su", "visa"],
+        "zh": ["我", "需要", "你", "的", "签证", "复印件"],
+        "ja": ["ビザ", "の", "コピー", "を", "お願い", "します"]
+      }
+    },
+    {
+      "id": "sentence_bb_s1_fill_form",
+      "kind": "sentence",
+      "itemIds": ["word_form"],
+      "texts": {
+        "en": "Please fill out this form",
+        "th": "กรอกแบบฟอร์มนี้ด้วยครับ",
+        "fa": "لطفاً این فرم را پر کنید",
+        "ar": "يرجى ملء هذه الاستمارة",
+        "es": "Por favor llene este formulario",
+        "zh": "请填写这个表格",
+        "ja": "このフォームにご記入ください"
+      },
+      "tokens": {
+        "en": ["Please", "fill", "out", "this", "form"],
+        "th": ["กรอก", "แบบฟอร์ม", "นี้", "ด้วย", "ครับ"],
+        "fa": ["لطفاً", "این", "فرم", "را", "پر", "کنید"],
+        "ar": ["يرجى", "ملء", "هذه", "الاستمارة"],
+        "es": ["Por", "favor", "llene", "este", "formulario"],
+        "zh": ["请", "填写", "这个", "表格"],
+        "ja": ["この", "フォーム", "に", "ご記入", "ください"]
+      }
+    },
+    {
+      "id": "sentence_bb_s1_sign_here",
+      "kind": "sentence",
+      "itemIds": ["word_sign"],
+      "texts": {
+        "en": "Sign here please",
+        "th": "เซ็นชื่อตรงนี้ด้วยครับ",
+        "fa": "لطفاً اینجا امضا کنید",
+        "ar": "يرجى التوقيع هنا",
+        "es": "Firme aquí por favor",
+        "zh": "请在这里签名",
+        "ja": "ここにサインしてください"
+      },
+      "tokens": {
+        "en": ["Sign", "here", "please"],
+        "th": ["เซ็น", "ชื่อ", "ตรง", "นี้", "ด้วย", "ครับ"],
+        "fa": ["لطفاً", "اینجا", "امضا", "کنید"],
+        "ar": ["يرجى", "التوقيع", "هنا"],
+        "es": ["Firme", "aquí", "por", "favor"],
+        "zh": ["请", "在", "这里", "签名"],
+        "ja": ["ここ", "に", "サイン", "して", "ください"]
+      }
+    },
+    {
+      "id": "word_open",
+      "kind": "word",
+      "texts": {
+        "en": "open",
+        "th": "เปิด",
+        "fa": "باز کردن",
+        "ar": "يفتح",
+        "es": "abrir",
+        "zh": "开",
+        "ja": "開く"
+      }
+    },
+    {
+      "id": "word_visa",
+      "kind": "word",
+      "texts": {
+        "en": "visa",
+        "th": "วีซ่า",
+        "fa": "ویزا",
+        "ar": "تأشيرة",
+        "es": "visa",
+        "zh": "签证",
+        "ja": "ビザ"
+      }
+    },
+    {
+      "id": "word_work_permit",
+      "kind": "word",
+      "texts": {
+        "en": "work permit",
+        "th": "เวิร์คเพอร์มิต",
+        "fa": "اجازه کار",
+        "ar": "تصريح عمل",
+        "es": "permiso de trabajo",
+        "zh": "工作许可",
+        "ja": "労働許可証"
+      }
+    },
+    {
+      "id": "word_document",
+      "kind": "word",
+      "texts": {
+        "en": "document",
+        "th": "เอกสาร",
+        "fa": "مدارک",
+        "ar": "مستند",
+        "es": "documento",
+        "zh": "文件",
+        "ja": "書類"
+      }
+    },
+    {
+      "id": "word_form",
+      "kind": "word",
+      "texts": {
+        "en": "form",
+        "th": "แบบฟอร์ม",
+        "fa": "فرم",
+        "ar": "استمارة",
+        "es": "formulario",
+        "zh": "表格",
+        "ja": "フォーム"
+      }
+    },
+    {
+      "id": "header_scenario_2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Using the ATM",
+        "th": "สถานการณ์ 2: ใช้เอทีเอ็ม",
+        "fa": "سناریوی ۲: استفاده از عابر بانک",
+        "ar": "السيناريو ٢: استخدام الصراف الآلي",
+        "es": "Escenario 2: Usar el cajero automático",
+        "zh": "场景二：使用自动取款机",
+        "ja": "シーン2：ATMを使う"
+      }
+    },
+    {
+      "id": "sentence_bb_s2_where_atm",
+      "kind": "sentence",
+      "itemIds": ["word_atm", "word_where"],
+      "texts": {
+        "en": "Where is the ATM",
+        "th": "เอทีเอ็มอยู่ที่ไหนคะ",
+        "fa": "عابر بانک کجاست",
+        "ar": "أين الصراف الآلي",
+        "es": "Dónde está el cajero automático",
+        "zh": "自动取款机在哪里",
+        "ja": "ATMはどこですか"
+      },
+      "tokens": {
+        "en": ["Where", "is", "the", "ATM"],
+        "th": ["เอทีเอ็ม", "อยู่", "ที่", "ไหน", "คะ"],
+        "fa": ["عابر", "بانک", "کجاست"],
+        "ar": ["أين", "الصراف", "الآلي"],
+        "es": ["Dónde", "está", "el", "cajero", "automático"],
+        "zh": ["自动取款机", "在", "哪里"],
+        "ja": ["ATM", "は", "どこ", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_bb_s2_withdraw_500",
+      "kind": "sentence",
+      "itemIds": ["word_I", "word_withdraw", "word_money", "word_baht"],
+      "texts": {
+        "en": "I want to withdraw 500 baht",
+        "th": "ฉันอยากถอนเงินห้าร้อยบาทค่ะ",
+        "fa": "می‌خواهم پانصد بات برداشت کنم",
+        "ar": "أريد سحب خمسمائة بات",
+        "es": "Quiero retirar quinientos baht",
+        "zh": "我想取五百泰铢",
+        "ja": "五百バーツ引き出したいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "withdraw", "500", "baht"],
+        "th": ["ฉัน", "อยาก", "ถอนเงิน", "ห้าร้อย", "บาท", "ค่ะ"],
+        "fa": ["می‌خواهم", "پانصد", "بات", "برداشت", "کنم"],
+        "ar": ["أريد", "سحب", "خمسمائة", "بات"],
+        "es": ["Quiero", "retirar", "quinientos", "baht"],
+        "zh": ["我", "想", "取", "五百", "泰铢"],
+        "ja": ["五百", "バーツ", "引き出し", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_bb_s2_atm_swallowed",
+      "kind": "sentence",
+      "itemIds": ["word_atm", "word_swallowed", "word_card"],
+      "texts": {
+        "en": "The ATM swallowed my card",
+        "th": "เอทีเอ็มกลืนบัตรของฉันค่ะ",
+        "fa": "عابر بانک کارت من را بلعید",
+        "ar": "ابتلع الصراف الآلي بطاقتي",
+        "es": "El cajero automático tragó mi tarjeta",
+        "zh": "取款机吞了我的卡",
+        "ja": "ATMにカードを飲み込まれました"
+      },
+      "tokens": {
+        "en": ["The", "ATM", "swallowed", "my", "card"],
+        "th": ["เอทีเอ็ม", "กลืน", "บัตร", "ของ", "ฉัน", "ค่ะ"],
+        "fa": ["عابر", "بانک", "کارت", "من", "را", "بلعید"],
+        "ar": ["ابتلع", "الصراف", "الآلي", "بطاقتي"],
+        "es": ["El", "cajero", "automático", "tragó", "mi", "tarjeta"],
+        "zh": ["取款机", "吞", "了", "我", "的", "卡"],
+        "ja": ["ATM", "に", "カード", "を", "飲み込まれ", "ました"]
+      }
+    },
+    {
+      "id": "sentence_bb_s2_forgot_pin",
+      "kind": "sentence",
+      "itemIds": ["word_I", "word_forgot", "word_pin"],
+      "texts": {
+        "en": "I forgot my PIN",
+        "th": "ฉันลืมรหัสค่ะ",
+        "fa": "رمزم را فراموش کردم",
+        "ar": "نسيت رقمي السري",
+        "es": "Olvidé mi PIN",
+        "zh": "我忘了密码",
+        "ja": "暗証番号を忘れました"
+      },
+      "tokens": {
+        "en": ["I", "forgot", "my", "PIN"],
+        "th": ["ฉัน", "ลืม", "รหัส", "ค่ะ"],
+        "fa": ["رمزم", "را", "فراموش", "کردم"],
+        "ar": ["نسيت", "رقمي", "السري"],
+        "es": ["Olvidé", "mi", "PIN"],
+        "zh": ["我", "忘", "了", "密码"],
+        "ja": ["暗証", "番号", "を", "忘れ", "ました"]
+      }
+    },
+    {
+      "id": "sentence_bb_s2_press_button",
+      "kind": "sentence",
+      "itemIds": ["word_button"],
+      "texts": {
+        "en": "Press this button",
+        "th": "กดปุ่มนี้ครับ",
+        "fa": "این دکمه را فشار دهید",
+        "ar": "اضغط هذا الزر",
+        "es": "Presione este botón",
+        "zh": "按这个按钮",
+        "ja": "このボタンを押してください"
+      },
+      "tokens": {
+        "en": ["Press", "this", "button"],
+        "th": ["กด", "ปุ่ม", "นี้", "ครับ"],
+        "fa": ["این", "دکمه", "را", "فشار", "دهید"],
+        "ar": ["اضغط", "هذا", "الزر"],
+        "es": ["Presione", "este", "botón"],
+        "zh": ["按", "这个", "按钮"],
+        "ja": ["この", "ボタン", "を", "押して", "ください"]
+      }
+    },
+    {
+      "id": "sentence_bb_s2_how_much_withdraw",
+      "kind": "sentence",
+      "itemIds": ["word_how_much", "word_can", "word_withdraw"],
+      "texts": {
+        "en": "How much can I withdraw",
+        "th": "ถอนเงินได้เท่าไหร่คะ",
+        "fa": "چقدر می‌توانم برداشت کنم",
+        "ar": "كم يمكنني أن أسحب",
+        "es": "Cuánto puedo retirar",
+        "zh": "我最多能取多少",
+        "ja": "いくら引き出せますか"
+      },
+      "tokens": {
+        "en": ["How", "much", "can", "I", "withdraw"],
+        "th": ["ถอนเงิน", "ได้", "เท่าไหร่", "คะ"],
+        "fa": ["چقدر", "می‌توانم", "برداشت", "کنم"],
+        "ar": ["كم", "يمكنني", "أن", "أسحب"],
+        "es": ["Cuánto", "puedo", "retirar"],
+        "zh": ["我", "最多", "能", "取", "多少"],
+        "ja": ["いくら", "引き出せ", "ます", "か"]
+      }
+    },
+    {
+      "id": "sentence_bb_s2_take_card",
+      "kind": "sentence",
+      "itemIds": ["word_card"],
+      "texts": {
+        "en": "Please take your card",
+        "th": "กรุณารับบัตรของคุณด้วยครับ",
+        "fa": "لطفاً کارت خود را بردارید",
+        "ar": "يرجى أخذ بطاقتك",
+        "es": "Por favor tome su tarjeta",
+        "zh": "请取走你的卡",
+        "ja": "カードをお取りください"
+      },
+      "tokens": {
+        "en": ["Please", "take", "your", "card"],
+        "th": ["กรุณา", "รับ", "บัตร", "ของ", "คุณ", "ด้วย", "ครับ"],
+        "fa": ["لطفاً", "کارت", "خود", "را", "بردارید"],
+        "ar": ["يرجى", "أخذ", "بطاقتك"],
+        "es": ["Por", "favor", "tome", "su", "tarjeta"],
+        "zh": ["请", "取走", "你", "的", "卡"],
+        "ja": ["カード", "を", "お取り", "ください"]
+      }
+    },
+    {
+      "id": "word_pin",
+      "kind": "word",
+      "texts": {
+        "en": "PIN",
+        "th": "รหัส",
+        "fa": "رمز",
+        "ar": "رقم سري",
+        "es": "PIN",
+        "zh": "密码",
+        "ja": "暗証番号"
+      }
+    },
+    {
+      "id": "word_forgot",
+      "kind": "word",
+      "texts": {
+        "en": "forgot",
+        "th": "ลืม",
+        "fa": "فراموش کردن",
+        "ar": "نسي",
+        "es": "olvidar",
+        "zh": "忘记",
+        "ja": "忘れる"
+      }
+    },
+    {
+      "id": "word_swallowed",
+      "kind": "word",
+      "texts": {
+        "en": "swallowed",
+        "th": "กลืน",
+        "fa": "بلعیدن",
+        "ar": "ابتلع",
+        "es": "tragó",
+        "zh": "吞",
+        "ja": "取り込まれる"
+      }
+    },
+    {
+      "id": "word_button",
+      "kind": "word",
+      "texts": {
+        "en": "button",
+        "th": "ปุ่ม",
+        "fa": "دکمه",
+        "ar": "زر",
+        "es": "botón",
+        "zh": "按钮",
+        "ja": "ボタン"
+      }
+    },
+    {
+      "id": "word_where",
+      "kind": "word",
+      "texts": {
+        "en": "where",
+        "th": "ที่ไหน",
+        "fa": "کجا",
+        "ar": "أين",
+        "es": "dónde",
+        "zh": "哪里",
+        "ja": "どこ"
+      }
+    },
+    {
+      "id": "header_scenario_3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Counter Services",
+        "th": "สถานการณ์ 3: บริการเคาน์เตอร์",
+        "fa": "سناریوی ۳: خدمات باجه",
+        "ar": "السيناريو ٣: خدمات الشباك",
+        "es": "Escenario 3: Servicios de ventanilla",
+        "zh": "场景三：柜台服务",
+        "ja": "シーン3：窓口サービス"
+      }
+    },
+    {
+      "id": "sentence_bb_s3_want_deposit",
+      "kind": "sentence",
+      "itemIds": ["word_I", "word_deposit", "word_money"],
+      "texts": {
+        "en": "I want to deposit money",
+        "th": "ฉันอยากฝากเงินค่ะ",
+        "fa": "می‌خواهم پول واریز کنم",
+        "ar": "أريد إيداع نقود",
+        "es": "Quiero depositar dinero",
+        "zh": "我想存款",
+        "ja": "お金を預けたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "deposit", "money"],
+        "th": ["ฉัน", "อยาก", "ฝากเงิน", "ค่ะ"],
+        "fa": ["می‌خواهم", "پول", "واریز", "کنم"],
+        "ar": ["أريد", "إيداع", "نقود"],
+        "es": ["Quiero", "depositar", "dinero"],
+        "zh": ["我", "想", "存款"],
+        "ja": ["お金", "を", "預け", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_bb_s3_want_withdraw",
+      "kind": "sentence",
+      "itemIds": ["word_I", "word_withdraw", "word_money"],
+      "texts": {
+        "en": "I want to withdraw money",
+        "th": "ฉันอยากถอนเงินค่ะ",
+        "fa": "می‌خواهم پول برداشت کنم",
+        "ar": "أريد سحب نقود",
+        "es": "Quiero retirar dinero",
+        "zh": "我想取款",
+        "ja": "お金を引き出したいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "withdraw", "money"],
+        "th": ["ฉัน", "อยาก", "ถอนเงิน", "ค่ะ"],
+        "fa": ["می‌خواهم", "پول", "برداشت", "کنم"],
+        "ar": ["أريد", "سحب", "نقود"],
+        "es": ["Quiero", "retirar", "dinero"],
+        "zh": ["我", "想", "取款"],
+        "ja": ["お金", "を", "引き出し", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_bb_s3_fill_slip",
+      "kind": "sentence",
+      "itemIds": ["word_slip"],
+      "texts": {
+        "en": "Fill out this slip",
+        "th": "กรอกใบนำฝากนี้ด้วยครับ",
+        "fa": "این برگه واریز را پر کنید",
+        "ar": "املأ قسيمة الإيداع هذه",
+        "es": "Llene esta papeleta de depósito",
+        "zh": "请填写这个存款单",
+        "ja": "この入金伝票にご記入ください"
+      },
+      "tokens": {
+        "en": ["Fill", "out", "this", "slip"],
+        "th": ["กรอก", "ใบนำฝาก", "นี้", "ด้วย", "ครับ"],
+        "fa": ["این", "برگه", "واریز", "را", "پر", "کنید"],
+        "ar": ["املأ", "قسيمة", "الإيداع", "هذه"],
+        "es": ["Llene", "esta", "papeleta", "de", "depósito"],
+        "zh": ["请", "填写", "这个", "存款单"],
+        "ja": ["この", "入金", "伝票", "に", "ご記入", "ください"]
+      }
+    },
+    {
+      "id": "sentence_bb_s3_account_number",
+      "kind": "sentence",
+      "itemIds": ["word_account", "word_number"],
+      "texts": {
+        "en": "What is your account number",
+        "th": "เลขที่บัญชีของคุณคืออะไรครับ",
+        "fa": "شماره حساب شما چیست",
+        "ar": "ما هو رقم حسابك",
+        "es": "Cuál es su número de cuenta",
+        "zh": "你的账号是什么",
+        "ja": "口座番号は何ですか"
+      },
+      "tokens": {
+        "en": ["What", "is", "your", "account", "number"],
+        "th": ["เลขที่", "บัญชี", "ของ", "คุณ", "คือ", "อะไร", "ครับ"],
+        "fa": ["شماره", "حساب", "شما", "چیست"],
+        "ar": ["ما", "هو", "رقم", "حسابك"],
+        "es": ["Cuál", "es", "su", "número", "de", "cuenta"],
+        "zh": ["你", "的", "账号", "是", "什么"],
+        "ja": ["口座", "番号", "は", "何", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_bb_s3_here_passbook",
+      "kind": "sentence",
+      "itemIds": ["word_passbook"],
+      "texts": {
+        "en": "Here is your passbook",
+        "th": "นี่คือสมุดบัญชีของคุณครับ",
+        "fa": "این دفترچه حساب شماست",
+        "ar": "هذا دفتر التوفير الخاص بك",
+        "es": "Aquí tiene su libreta de ahorro",
+        "zh": "这是你的存折",
+        "ja": "通帳はこちらです"
+      },
+      "tokens": {
+        "en": ["Here", "is", "your", "passbook"],
+        "th": ["นี่", "คือ", "สมุดบัญชี", "ของ", "คุณ", "ครับ"],
+        "fa": ["این", "دفترچه", "حساب", "شماست"],
+        "ar": ["هذا", "دفتر", "التوفير", "الخاص", "بك"],
+        "es": ["Aquí", "tiene", "su", "libreta", "de", "ahorro"],
+        "zh": ["这", "是", "你", "的", "存折"],
+        "ja": ["通帳", "は", "こちら", "です"]
+      }
+    },
+    {
+      "id": "sentence_bb_s3_balance_5000",
+      "kind": "sentence",
+      "itemIds": ["word_balance", "word_baht"],
+      "texts": {
+        "en": "Your balance is five thousand baht",
+        "th": "ยอดคงเหลือของคุณคือห้าพันบาทครับ",
+        "fa": "موجودی شما پنج هزار بات است",
+        "ar": "رصيدك خمسة آلاف بات",
+        "es": "Su saldo es de cinco mil baht",
+        "zh": "你的余额是五千泰铢",
+        "ja": "残高は五千バーツです"
+      },
+      "tokens": {
+        "en": ["Your", "balance", "is", "five", "thousand", "baht"],
+        "th": ["ยอดคงเหลือ", "ของ", "คุณ", "คือ", "ห้าพัน", "บาท", "ครับ"],
+        "fa": ["موجودی", "شما", "پنج", "هزار", "بات", "است"],
+        "ar": ["رصيدك", "خمسة", "آلاف", "بات"],
+        "es": ["Su", "saldo", "es", "de", "cinco", "mil", "baht"],
+        "zh": ["你", "的", "余额", "是", "五千", "泰铢"],
+        "ja": ["残高", "は", "五千", "バーツ", "です"]
+      }
+    },
+    {
+      "id": "sentence_bb_s3_thank_you",
+      "kind": "sentence",
+      "itemIds": ["word_thank"],
+      "texts": {
+        "en": "Thank you",
+        "th": "ขอบคุณค่ะ",
+        "fa": "متشکرم",
+        "ar": "شكراً",
+        "es": "Gracias",
+        "zh": "谢谢",
+        "ja": "ありがとうございます"
+      },
+      "tokens": {
+        "en": ["Thank", "you"],
+        "th": ["ขอบคุณ", "ค่ะ"],
+        "fa": ["متشکرم"],
+        "ar": ["شكراً"],
+        "es": ["Gracias"],
+        "zh": ["谢谢"],
+        "ja": ["ありがとう", "ございます"]
+      }
+    },
+    {
+      "id": "word_slip",
+      "kind": "word",
+      "texts": {
+        "en": "slip",
+        "th": "ใบนำฝาก",
+        "fa": "برگه واریز",
+        "ar": "قسيمة إيداع",
+        "es": "papeleta de depósito",
+        "zh": "存款单",
+        "ja": "入金伝票"
+      }
+    },
+    {
+      "id": "word_teller",
+      "kind": "word",
+      "texts": {
+        "en": "teller",
+        "th": "พนักงาน",
+        "fa": "تحویلدار",
+        "ar": "موظف الشباك",
+        "es": "cajero",
+        "zh": "柜员",
+        "ja": "窓口係"
+      }
+    },
+    {
+      "id": "word_balance",
+      "kind": "word",
+      "texts": {
+        "en": "balance",
+        "th": "ยอดคงเหลือ",
+        "fa": "موجودی",
+        "ar": "الرصيد",
+        "es": "saldo",
+        "zh": "余额",
+        "ja": "残高"
+      }
+    },
+    {
+      "id": "word_number",
+      "kind": "word",
+      "texts": {
+        "en": "number",
+        "th": "เลขที่",
+        "fa": "شماره",
+        "ar": "رقم",
+        "es": "número",
+        "zh": "号码",
+        "ja": "番号"
+      }
+    },
+    {
+      "id": "header_scenario_4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Mobile & Online Banking",
+        "th": "สถานการณ์ 4: โมบายและออนไลน์แบงก์กิ้ง",
+        "fa": "سناریوی ۴: بانکداری موبایل و آنلاین",
+        "ar": "السيناريو ٤: الخدمات المصرفية عبر الهاتف والإنترنت",
+        "es": "Escenario 4: Banca móvil y en línea",
+        "zh": "场景四：手机与网上银行",
+        "ja": "シーン4：モバイル＆オンラインバンキング"
+      }
+    },
+    {
+      "id": "sentence_bb_s4_activate_mobile",
+      "kind": "sentence",
+      "itemIds": ["word_activate", "word_app"],
+      "texts": {
+        "en": "How do I activate mobile banking",
+        "th": "เปิดใช้งานโมบายแบงก์กิ้งยังไงคะ",
+        "fa": "چطور بانکداری موبایل را فعال کنم",
+        "ar": "كيف أفعّل الخدمات المصرفية عبر الهاتف",
+        "es": "Cómo activo la banca móvil",
+        "zh": "我如何激活手机银行",
+        "ja": "モバイルバンキングを有効にするにはどうすればいいですか"
+      },
+      "tokens": {
+        "en": ["How", "do", "I", "activate", "mobile", "banking"],
+        "th": ["เปิดใช้งาน", "โมบายแบงก์กิ้ง", "ยังไง", "คะ"],
+        "fa": ["چطور", "بانکداری", "موبایل", "را", "فعال", "کنم"],
+        "ar": ["كيف", "أفعّل", "الخدمات", "المصرفية", "عبر", "الهاتف"],
+        "es": ["Cómo", "activo", "la", "banca", "móvil"],
+        "zh": ["我", "如何", "激活", "手机银行"],
+        "ja": [
+          "モバイル",
+          "バンキング",
+          "を",
+          "有効",
+          "に",
+          "する",
+          "には",
+          "どう",
+          "すれ",
+          "ば",
+          "いい",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_bb_s4_scan_qr_pay",
+      "kind": "sentence",
+      "itemIds": ["word_scan", "word_qr"],
+      "texts": {
+        "en": "Scan the QR to pay",
+        "th": "สแกนคิวอาร์เพื่อจ่ายเงินครับ",
+        "fa": "برای پرداخت کیوآر را اسکن کنید",
+        "ar": "امسح رمز QR للدفع",
+        "es": "Escanee el QR para pagar",
+        "zh": "扫描二维码付款",
+        "ja": "QRコードをスキャンして支払ってください"
+      },
+      "tokens": {
+        "en": ["Scan", "the", "QR", "to", "pay"],
+        "th": ["สแกน", "คิวอาร์", "เพื่อ", "จ่าย", "เงิน", "ครับ"],
+        "fa": ["برای", "پرداخت", "کیوآر", "را", "اسکن", "کنید"],
+        "ar": ["امسح", "رمز", "QR", "للدفع"],
+        "es": ["Escanee", "el", "QR", "para", "pagar"],
+        "zh": ["扫描", "二维码", "付款"],
+        "ja": ["QR", "コード", "を", "スキャン", "して", "支払って", "ください"]
+      }
+    },
+    {
+      "id": "sentence_bb_s4_want_transfer",
+      "kind": "sentence",
+      "itemIds": ["word_I", "word_transfer", "word_money"],
+      "texts": {
+        "en": "I want to transfer money",
+        "th": "ฉันอยากโอนเงินค่ะ",
+        "fa": "می‌خواهم پول انتقال دهم",
+        "ar": "أريد تحويل نقود",
+        "es": "Quiero transferir dinero",
+        "zh": "我想转账",
+        "ja": "お金を送金したいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "transfer", "money"],
+        "th": ["ฉัน", "อยาก", "โอน", "เงิน", "ค่ะ"],
+        "fa": ["می‌خواهم", "پول", "انتقال", "دهم"],
+        "ar": ["أريد", "تحويل", "نقود"],
+        "es": ["Quiero", "transferir", "dinero"],
+        "zh": ["我", "想", "转账"],
+        "ja": ["お金", "を", "送金", "したい", "です"]
+      }
+    },
+    {
+      "id": "sentence_bb_s4_have_promptpay",
+      "kind": "sentence",
+      "itemIds": ["word_promptpay", "word_question"],
+      "texts": {
+        "en": "Do you have PromptPay",
+        "th": "คุณมีพร้อมเพย์ไหมครับ",
+        "fa": "آیا پرامپت‌پی دارید",
+        "ar": "هل لديك برومبت باي",
+        "es": "Tiene PromptPay",
+        "zh": "你有PromptPay吗",
+        "ja": "プロンプトペイをお持ちですか"
+      },
+      "tokens": {
+        "en": ["Do", "you", "have", "PromptPay"],
+        "th": ["คุณ", "มี", "พร้อมเพย์", "ไหม", "ครับ"],
+        "fa": ["آیا", "پرامپت‌پی", "دارید"],
+        "ar": ["هل", "لديك", "برومبت", "باي"],
+        "es": ["Tiene", "PromptPay"],
+        "zh": ["你", "有", "PromptPay", "吗"],
+        "ja": ["プロンプトペイ", "を", "お持ち", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_bb_s4_app_not_working",
+      "kind": "sentence",
+      "itemIds": ["word_app", "word_not"],
+      "texts": {
+        "en": "The app is not working",
+        "th": "แอปใช้งานไม่ได้ค่ะ",
+        "fa": "اپلیکیشن کار نمی‌کند",
+        "ar": "التطبيق لا يعمل",
+        "es": "La aplicación no funciona",
+        "zh": "应用无法使用",
+        "ja": "アプリが動作しません"
+      },
+      "tokens": {
+        "en": ["The", "app", "is", "not", "working"],
+        "th": ["แอป", "ใช้งาน", "ไม่", "ได้", "ค่ะ"],
+        "fa": ["اپلیکیشن", "کار", "نمی‌کند"],
+        "ar": ["التطبيق", "لا", "يعمل"],
+        "es": ["La", "aplicación", "no", "funciona"],
+        "zh": ["应用", "无法", "使用"],
+        "ja": ["アプリ", "が", "動作", "し", "ません"]
+      }
+    },
+    {
+      "id": "sentence_bb_s4_use_phone_number",
+      "kind": "sentence",
+      "itemIds": ["word_can", "word_question"],
+      "texts": {
+        "en": "Can I use my phone number",
+        "th": "ใช้เบอร์โทรศัพท์ได้ไหมคะ",
+        "fa": "می‌توانم از شماره تلفنم استفاده کنم",
+        "ar": "هل يمكنني استخدام رقم هاتفي",
+        "es": "Puedo usar mi número de teléfono",
+        "zh": "我可以用我的手机号吗",
+        "ja": "電話番号を使えますか"
+      },
+      "tokens": {
+        "en": ["Can", "I", "use", "my", "phone", "number"],
+        "th": ["ใช้", "เบอร์", "โทรศัพท์", "ได้", "ไหม", "คะ"],
+        "fa": ["می‌توانم", "از", "شماره", "تلفنم", "استفاده", "کنم"],
+        "ar": ["هل", "يمكنني", "استخدام", "رقم", "هاتفي"],
+        "es": ["Puedo", "usar", "mi", "número", "de", "teléfono"],
+        "zh": ["我", "可以", "用", "我", "的", "手机号", "吗"],
+        "ja": ["電話", "番号", "を", "使え", "ます", "か"]
+      }
+    },
+    {
+      "id": "sentence_bb_s4_download_app",
+      "kind": "sentence",
+      "itemIds": ["word_app"],
+      "texts": {
+        "en": "Please download this app",
+        "th": "กรุณาดาวน์โหลดแอปนี้ครับ",
+        "fa": "لطفاً این اپلیکیشن را دانلود کنید",
+        "ar": "يرجى تنزيل هذا التطبيق",
+        "es": "Por favor descargue esta aplicación",
+        "zh": "请下载这个应用",
+        "ja": "このアプリをダウンロードしてください"
+      },
+      "tokens": {
+        "en": ["Please", "download", "this", "app"],
+        "th": ["กรุณา", "ดาวน์โหลด", "แอป", "นี้", "ครับ"],
+        "fa": ["لطفاً", "این", "اپلیکیشن", "را", "دانلود", "کنید"],
+        "ar": ["يرجى", "تنزيل", "هذا", "التطبيق"],
+        "es": ["Por", "favor", "descargue", "esta", "aplicación"],
+        "zh": ["请", "下载", "这个", "应用"],
+        "ja": ["この", "アプリ", "を", "ダウンロード", "して", "ください"]
+      }
+    },
+    {
+      "id": "word_app",
+      "kind": "word",
+      "texts": {
+        "en": "app",
+        "th": "แอป",
+        "fa": "اپلیکیشن",
+        "ar": "تطبيق",
+        "es": "aplicación",
+        "zh": "应用",
+        "ja": "アプリ"
+      }
+    },
+    {
+      "id": "word_activate",
+      "kind": "word",
+      "texts": {
+        "en": "activate",
+        "th": "เปิดใช้งาน",
+        "fa": "فعال‌سازی",
+        "ar": "تفعيل",
+        "es": "activar",
+        "zh": "激活",
+        "ja": "有効にする"
+      }
+    },
+    {
+      "id": "word_scan",
+      "kind": "word",
+      "texts": {
+        "en": "scan",
+        "th": "สแกน",
+        "fa": "اسکن",
+        "ar": "مسح ضوئي",
+        "es": "escanear",
+        "zh": "扫描",
+        "ja": "スキャンする"
+      }
+    },
+    {
+      "id": "word_qr",
+      "kind": "word",
+      "texts": {
+        "en": "QR",
+        "th": "คิวอาร์",
+        "fa": "کیوآر",
+        "ar": "رمز QR",
+        "es": "QR",
+        "zh": "二维码",
+        "ja": "QRコード"
+      }
+    },
+    {
+      "id": "word_promptpay",
+      "kind": "word",
+      "texts": {
+        "en": "PromptPay",
+        "th": "พร้อมเพย์",
+        "fa": "پرامپت‌پی",
+        "ar": "برومبت باي",
+        "es": "PromptPay",
+        "zh": "PromptPay",
+        "ja": "プロンプトペイ"
+      }
+    },
+    {
+      "id": "word_transfer",
+      "kind": "word",
+      "texts": {
+        "en": "transfer",
+        "th": "โอน",
+        "fa": "انتقال",
+        "ar": "تحويل",
+        "es": "transferir",
+        "zh": "转账",
+        "ja": "送金する"
+      }
+    },
+    {
+      "id": "header_scenario_5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Problems & Wrapping Up",
+        "th": "สถานการณ์ 5: ปัญหาและการสรุป",
+        "fa": "سناریوی ۵: مشکلات و جمع‌بندی",
+        "ar": "السيناريو ٥: المشاكل والختام",
+        "es": "Escenario 5: Problemas y cierre",
+        "zh": "场景五：问题与结束",
+        "ja": "シーン5：トラブルと締めくくり"
+      }
+    },
+    {
+      "id": "sentence_bb_s5_lost_card",
+      "kind": "sentence",
+      "itemIds": ["word_I", "word_lost", "word_card"],
+      "texts": {
+        "en": "I lost my card",
+        "th": "ฉันทำบัตรหายค่ะ",
+        "fa": "کارتم را گم کردم",
+        "ar": "فقدت بطاقتي",
+        "es": "Perdí mi tarjeta",
+        "zh": "我的卡丢了",
+        "ja": "カードをなくしました"
+      },
+      "tokens": {
+        "en": ["I", "lost", "my", "card"],
+        "th": ["ฉัน", "ทำ", "บัตร", "หาย", "ค่ะ"],
+        "fa": ["کارتم", "را", "گم", "کردم"],
+        "ar": ["فقدت", "بطاقتي"],
+        "es": ["Perdí", "mi", "tarjeta"],
+        "zh": ["我", "的", "卡", "丢", "了"],
+        "ja": ["カード", "を", "なくし", "ました"]
+      }
+    },
+    {
+      "id": "sentence_bb_s5_block_card",
+      "kind": "sentence",
+      "itemIds": ["word_block", "word_card"],
+      "texts": {
+        "en": "Please block my card",
+        "th": "ช่วยอายัดบัตรของฉันด้วยค่ะ",
+        "fa": "لطفاً کارت من را مسدود کنید",
+        "ar": "يرجى حظر بطاقتي",
+        "es": "Por favor bloquee mi tarjeta",
+        "zh": "请冻结我的卡",
+        "ja": "カードを凍結してください"
+      },
+      "tokens": {
+        "en": ["Please", "block", "my", "card"],
+        "th": ["ช่วย", "อายัด", "บัตร", "ของ", "ฉัน", "ด้วย", "ค่ะ"],
+        "fa": ["لطفاً", "کارت", "من", "را", "مسدود", "کنید"],
+        "ar": ["يرجى", "حظر", "بطاقتي"],
+        "es": ["Por", "favor", "bloquee", "mi", "tarjeta"],
+        "zh": ["请", "冻结", "我", "的", "卡"],
+        "ja": ["カード", "を", "凍結", "して", "ください"]
+      }
+    },
+    {
+      "id": "sentence_bb_s5_want_new_card",
+      "kind": "sentence",
+      "itemIds": ["word_I", "word_new", "word_card"],
+      "texts": {
+        "en": "I want a new card",
+        "th": "ฉันอยากได้บัตรใหม่ค่ะ",
+        "fa": "یک کارت جدید می‌خواهم",
+        "ar": "أريد بطاقة جديدة",
+        "es": "Quiero una tarjeta nueva",
+        "zh": "我想要一张新卡",
+        "ja": "新しいカードが欲しいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "a", "new", "card"],
+        "th": ["ฉัน", "อยาก", "ได้", "บัตร", "ใหม่", "ค่ะ"],
+        "fa": ["یک", "کارت", "جدید", "می‌خواهم"],
+        "ar": ["أريد", "بطاقة", "جديدة"],
+        "es": ["Quiero", "una", "tarjeta", "nueva"],
+        "zh": ["我", "想要", "一张", "新", "卡"],
+        "ja": ["新しい", "カード", "が", "欲しい", "です"]
+      }
+    },
+    {
+      "id": "sentence_bb_s5_which_branch",
+      "kind": "sentence",
+      "itemIds": ["word_branch"],
+      "texts": {
+        "en": "Which branch",
+        "th": "สาขาไหนคะ",
+        "fa": "کدام شعبه",
+        "ar": "أي فرع",
+        "es": "Qué sucursal",
+        "zh": "哪个分行",
+        "ja": "どの支店ですか"
+      },
+      "tokens": {
+        "en": ["Which", "branch"],
+        "th": ["สาขา", "ไหน", "คะ"],
+        "fa": ["کدام", "شعبه"],
+        "ar": ["أي", "فرع"],
+        "es": ["Qué", "sucursal"],
+        "zh": ["哪个", "分行"],
+        "ja": ["どの", "支店", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_bb_s5_bring_passport",
+      "kind": "sentence",
+      "itemIds": ["word_passport"],
+      "texts": {
+        "en": "Please bring your passport",
+        "th": "กรุณานำพาสปอร์ตมาด้วยครับ",
+        "fa": "لطفاً گذرنامه خود را بیاورید",
+        "ar": "يرجى إحضار جواز سفرك",
+        "es": "Por favor traiga su pasaporte",
+        "zh": "请带上你的护照",
+        "ja": "パスポートをお持ちください"
+      },
+      "tokens": {
+        "en": ["Please", "bring", "your", "passport"],
+        "th": ["กรุณา", "นำ", "พาสปอร์ต", "มา", "ด้วย", "ครับ"],
+        "fa": ["لطفاً", "گذرنامه", "خود", "را", "بیاورید"],
+        "ar": ["يرجى", "إحضار", "جواز", "سفرك"],
+        "es": ["Por", "favor", "traiga", "su", "pasaporte"],
+        "zh": ["请", "带", "上", "你", "的", "护照"],
+        "ja": ["パスポート", "を", "お持ち", "ください"]
+      }
+    },
+    {
+      "id": "sentence_bb_s5_thank_very_much",
+      "kind": "sentence",
+      "itemIds": ["word_very"],
+      "texts": {
+        "en": "Thank you very much",
+        "th": "ขอบคุณมากค่ะ",
+        "fa": "خیلی متشکرم",
+        "ar": "شكراً جزيلاً",
+        "es": "Muchas gracias",
+        "zh": "非常感谢",
+        "ja": "どうもありがとうございます"
+      },
+      "tokens": {
+        "en": ["Thank", "you", "very", "much"],
+        "th": ["ขอบคุณ", "มาก", "ค่ะ"],
+        "fa": ["خیلی", "متشکرم"],
+        "ar": ["شكراً", "جزيلاً"],
+        "es": ["Muchas", "gracias"],
+        "zh": ["非常", "感谢"],
+        "ja": ["どうも", "ありがとう", "ございます"]
+      }
+    },
+    {
+      "id": "sentence_bb_s5_goodbye",
+      "kind": "sentence",
+      "itemIds": ["word_goodbye"],
+      "texts": {
+        "en": "Goodbye",
+        "th": "สวัสดีค่ะ",
+        "fa": "خداحافظ",
+        "ar": "مع السلامة",
+        "es": "Adiós",
+        "zh": "再见",
+        "ja": "さようなら"
+      },
+      "tokens": {
+        "en": ["Goodbye"],
+        "th": ["สวัสดี", "ค่ะ"],
+        "fa": ["خداحافظ"],
+        "ar": ["مع", "السلامة"],
+        "es": ["Adiós"],
+        "zh": ["再见"],
+        "ja": ["さようなら"]
+      }
+    },
+    {
+      "id": "word_lost",
+      "kind": "word",
+      "texts": {
+        "en": "lost",
+        "th": "หาย",
+        "fa": "گم شده",
+        "ar": "مفقود",
+        "es": "perdido",
+        "zh": "丢失",
+        "ja": "紛失する"
+      }
+    },
+    {
+      "id": "word_block",
+      "kind": "word",
+      "texts": {
+        "en": "block",
+        "th": "อายัด",
+        "fa": "مسدود کردن",
+        "ar": "حظر",
+        "es": "bloquear",
+        "zh": "冻结",
+        "ja": "凍結する"
+      }
+    },
+    {
+      "id": "word_new",
+      "kind": "word",
+      "texts": {
+        "en": "new",
+        "th": "ใหม่",
+        "fa": "جدید",
+        "ar": "جديد",
+        "es": "nuevo",
+        "zh": "新",
+        "ja": "新しい"
+      }
+    },
+    {
+      "id": "word_branch",
+      "kind": "word",
+      "texts": {
+        "en": "branch",
+        "th": "สาขา",
+        "fa": "شعبه",
+        "ar": "فرع",
+        "es": "sucursal",
+        "zh": "分行",
+        "ja": "支店"
+      }
+    }
+  ]
+}

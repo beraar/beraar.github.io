@@ -1,0 +1,900 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras clave",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_i_male",
+      "kind": "word",
+      "texts": {
+        "en": "I (formal, male)",
+        "th": "ผม",
+        "fa": "من (مردانه)",
+        "ar": "أنا (للرجال)",
+        "es": "yo (masculino)",
+        "zh": "我（男性）",
+        "ja": "私（男性）"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_what",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه",
+        "ar": "ماذا",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_where",
+      "kind": "word",
+      "texts": {
+        "en": "where",
+        "th": "ที่ไหน",
+        "fa": "کجا",
+        "ar": "أين",
+        "es": "dónde",
+        "zh": "哪里",
+        "ja": "どこ"
+      }
+    },
+    {
+      "id": "word_come",
+      "kind": "word",
+      "texts": {
+        "en": "come",
+        "th": "มา",
+        "fa": "آمدن",
+        "ar": "يأتي",
+        "es": "venir",
+        "zh": "来",
+        "ja": "来る"
+      }
+    },
+    {
+      "id": "word_from",
+      "kind": "word",
+      "texts": {
+        "en": "from",
+        "th": "จาก",
+        "fa": "از",
+        "ar": "من",
+        "es": "de",
+        "zh": "从",
+        "ja": "から"
+      }
+    },
+    {
+      "id": "word_that",
+      "kind": "word",
+      "texts": {
+        "en": "that",
+        "th": "ที่",
+        "fa": "که",
+        "ar": "الذي",
+        "es": "que",
+        "zh": "那",
+        "ja": "こと"
+      }
+    },
+    {
+      "id": "word_get",
+      "kind": "word",
+      "texts": {
+        "en": "get",
+        "th": "ได้",
+        "fa": "گرفتن",
+        "ar": "يحصل",
+        "es": "conseguir",
+        "zh": "得到",
+        "ja": "得る"
+      }
+    },
+    {
+      "id": "word_khrap",
+      "kind": "word",
+      "texts": {
+        "en": "polite particle (male)",
+        "th": "ครับ",
+        "fa": "ذره ادب (مردانه)",
+        "ar": "أداة أدب (للرجال)",
+        "es": "partícula de cortesía (masculina)",
+        "zh": "礼貌助词（男性）",
+        "ja": "丁寧語（男性）"
+      }
+    },
+    {
+      "id": "word_kha",
+      "kind": "word",
+      "texts": {
+        "en": "polite particle (female, statement)",
+        "th": "ค่ะ",
+        "fa": "ذره ادب (زنانه، خبری)",
+        "ar": "أداة أدب (للنساء، جملة خبرية)",
+        "es": "partícula de cortesía (femenina, afirmación)",
+        "zh": "礼貌助词（女性，陈述）",
+        "ja": "丁寧語（女性・平叙）"
+      }
+    },
+    {
+      "id": "word_kha_question",
+      "kind": "word",
+      "texts": {
+        "en": "polite particle (female, question)",
+        "th": "คะ",
+        "fa": "ذره ادب (زنانه، پرسشی)",
+        "ar": "أداة أدب (للنساء، سؤال)",
+        "es": "partícula de cortesía (femenina, pregunta)",
+        "zh": "礼貌助词（女性，疑问）",
+        "ja": "丁寧語（女性・疑問）"
+      }
+    },
+    {
+      "id": "word_na",
+      "kind": "word",
+      "texts": {
+        "en": "softening particle",
+        "th": "นะ",
+        "fa": "ذره نرم‌کننده",
+        "ar": "أداة تلطيف",
+        "es": "partícula suavizante",
+        "zh": "语气助词（柔和）",
+        "ja": "和らげの終助詞"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Saying Hello",
+        "th": "สถานการณ์ 1: การกล่าวสวัสดี",
+        "fa": "سناریو ۱: سلام کردن",
+        "ar": "السيناريو 1: إلقاء التحية",
+        "es": "Escenario 1: Saludar",
+        "zh": "场景一：打招呼",
+        "ja": "シナリオ1：挨拶をする"
+      }
+    },
+    {
+      "id": "sentence_hello",
+      "kind": "sentence",
+      "itemIds": ["word_hello"],
+      "texts": {
+        "en": "Hello",
+        "th": "สวัสดี",
+        "fa": "سلام",
+        "ar": "مرحبا",
+        "es": "Hola",
+        "zh": "你好",
+        "ja": "こんにちは"
+      },
+      "tokens": {
+        "en": ["Hello"],
+        "th": ["สวัสดี"],
+        "fa": ["سلام"],
+        "ar": ["مرحبا"],
+        "es": ["Hola"],
+        "zh": ["你好"],
+        "ja": ["こんにちは"]
+      }
+    },
+    {
+      "id": "sentence_hello_male",
+      "kind": "sentence",
+      "itemIds": ["word_hello", "word_khrap"],
+      "texts": {
+        "en": "Hello (male)",
+        "th": "สวัสดีครับ",
+        "fa": "سلام (گوینده مرد)",
+        "ar": "مرحباً (يقولها الرجل)",
+        "es": "Hola (hombre)",
+        "zh": "你好（男性说）",
+        "ja": "こんにちは（男性）"
+      },
+      "tokens": {
+        "en": ["Hello", "(male)"],
+        "th": ["สวัสดี", "ครับ"],
+        "fa": ["سلام", "(گوینده", "مرد)"],
+        "ar": ["مرحباً", "(يقولها", "الرجل)"],
+        "es": ["Hola", "(hombre)"],
+        "zh": ["你好", "（男性说）"],
+        "ja": ["こんにちは", "（男性）"]
+      }
+    },
+    {
+      "id": "sentence_hello_female",
+      "kind": "sentence",
+      "itemIds": ["word_hello", "word_kha"],
+      "texts": {
+        "en": "Hello (female)",
+        "th": "สวัสดีค่ะ",
+        "fa": "سلام (گوینده زن)",
+        "ar": "مرحباً (تقولها المرأة)",
+        "es": "Hola (mujer)",
+        "zh": "你好（女性说）",
+        "ja": "こんにちは（女性）"
+      },
+      "tokens": {
+        "en": ["Hello", "(female)"],
+        "th": ["สวัสดี", "ค่ะ"],
+        "fa": ["سلام", "(گوینده", "زن)"],
+        "ar": ["مرحباً", "(تقولها", "المرأة)"],
+        "es": ["Hola", "(mujer)"],
+        "zh": ["你好", "（女性说）"],
+        "ja": ["こんにちは", "（女性）"]
+      }
+    },
+    {
+      "id": "word_hello",
+      "kind": "word",
+      "texts": {
+        "en": "hello",
+        "th": "สวัสดี",
+        "fa": "سلام",
+        "ar": "مرحبا",
+        "es": "hola",
+        "zh": "你好",
+        "ja": "こんにちは"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Asking & Telling Names",
+        "th": "สถานการณ์ 2: การถามและบอกชื่อ",
+        "fa": "سناریو ۲: پرسیدن و گفتن نام",
+        "ar": "السيناريو 2: السؤال عن الأسماء وذكرها",
+        "es": "Escenario 2: Preguntar y decir nombres",
+        "zh": "场景二：问名字与说名字",
+        "ja": "シナリオ2：名前を聞く・伝える"
+      }
+    },
+    {
+      "id": "sentence_what_name",
+      "kind": "sentence",
+      "itemIds": ["word_you", "word_name", "word_what"],
+      "texts": {
+        "en": "What is your name?",
+        "th": "คุณชื่ออะไร",
+        "fa": "نام شما چیست؟",
+        "ar": "ما اسمك؟",
+        "es": "¿Cómo te llamas?",
+        "zh": "你叫什么名字？",
+        "ja": "お名前は何ですか？"
+      },
+      "tokens": {
+        "en": ["What", "is", "your", "name?"],
+        "th": ["คุณ", "ชื่อ", "อะไร"],
+        "fa": ["نام", "شما", "چیست؟"],
+        "ar": ["ما", "اسمك؟"],
+        "es": ["¿Cómo", "te", "llamas?"],
+        "zh": ["你", "叫", "什么", "名字？"],
+        "ja": ["お名前", "は", "何", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_what_name_polite",
+      "kind": "sentence",
+      "itemIds": ["word_you", "word_name", "word_what", "word_khrap"],
+      "texts": {
+        "en": "What is your name? (male)",
+        "th": "คุณชื่ออะไรครับ",
+        "fa": "نام شما چیست؟ (گوینده مرد)",
+        "ar": "ما اسمك؟ (يقولها الرجل)",
+        "es": "¿Cómo te llamas? (hombre)",
+        "zh": "你叫什么名字？（男性说）",
+        "ja": "お名前は何ですか？（男性）"
+      },
+      "tokens": {
+        "en": ["What", "is", "your", "name?", "(male)"],
+        "th": ["คุณ", "ชื่อ", "อะไร", "ครับ"],
+        "fa": ["نام", "شما", "چیست؟", "(گوینده", "مرد)"],
+        "ar": ["ما", "اسمك؟", "(يقولها", "الرجل)"],
+        "es": ["¿Cómo", "te", "llamas?", "(hombre)"],
+        "zh": ["你", "叫", "什么", "名字？", "（男性说）"],
+        "ja": ["お名前", "は", "何", "です", "か？", "（男性）"]
+      }
+    },
+    {
+      "id": "sentence_my_name",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_name", "word_anna"],
+      "texts": {
+        "en": "My name is Anna",
+        "th": "ฉันชื่อแอนนา",
+        "fa": "نام من آنا است",
+        "ar": "اسمي آنا",
+        "es": "Me llamo Anna",
+        "zh": "我的名字是安娜",
+        "ja": "私の名前はアンナです"
+      },
+      "tokens": {
+        "en": ["My", "name", "is", "Anna"],
+        "th": ["ฉัน", "ชื่อ", "แอนนา"],
+        "fa": ["نام", "من", "آنا", "است"],
+        "ar": ["اسمي", "آنا"],
+        "es": ["Me", "llamo", "Anna"],
+        "zh": ["我", "的", "名字", "是", "安娜"],
+        "ja": ["私", "の", "名前", "は", "アンナ", "です"]
+      }
+    },
+    {
+      "id": "sentence_my_name_male",
+      "kind": "sentence",
+      "itemIds": ["word_i_male", "word_name", "word_somchai", "word_khrap"],
+      "texts": {
+        "en": "My name is Somchai (male)",
+        "th": "ผมชื่อสมชายครับ",
+        "fa": "نام من سمچای است (گوینده مرد)",
+        "ar": "اسمي سومتشاي (يقولها الرجل)",
+        "es": "Mi nombre es Somchai (hombre)",
+        "zh": "我的名字是颂猜（男性说）",
+        "ja": "私の名前はソンチャイです（男性）"
+      },
+      "tokens": {
+        "en": ["My", "name", "is", "Somchai", "(male)"],
+        "th": ["ผม", "ชื่อ", "สมชาย", "ครับ"],
+        "fa": ["نام", "من", "سمچای", "است", "(گوینده", "مرد)"],
+        "ar": ["اسمي", "سومتشاي", "(يقولها", "الرجل)"],
+        "es": ["Mi", "nombre", "es", "Somchai", "(hombre)"],
+        "zh": ["我", "的", "名字", "是", "颂猜", "（男性说）"],
+        "ja": ["私", "の", "名前", "は", "ソンチャイ", "です", "（男性）"]
+      }
+    },
+    {
+      "id": "word_name",
+      "kind": "word",
+      "texts": {
+        "en": "name",
+        "th": "ชื่อ",
+        "fa": "نام",
+        "ar": "اسم",
+        "es": "nombre",
+        "zh": "名字",
+        "ja": "名前"
+      }
+    },
+    {
+      "id": "word_anna",
+      "kind": "word",
+      "texts": {
+        "en": "Anna",
+        "th": "แอนนา",
+        "fa": "آنا",
+        "ar": "آنا",
+        "es": "Anna",
+        "zh": "安娜",
+        "ja": "アンナ"
+      }
+    },
+    {
+      "id": "word_somchai",
+      "kind": "word",
+      "texts": {
+        "en": "Somchai",
+        "th": "สมชาย",
+        "fa": "سمچای",
+        "ar": "سومتشاي",
+        "es": "Somchai",
+        "zh": "颂猜",
+        "ja": "ソンチャイ"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Where Are You From?",
+        "th": "สถานการณ์ 3: คุณมาจากที่ไหน",
+        "fa": "سناریو ۳: اهل کجایید؟",
+        "ar": "السيناريو 3: من أين أنت؟",
+        "es": "Escenario 3: ¿De dónde eres?",
+        "zh": "场景三：你从哪里来？",
+        "ja": "シナリオ3：どこから来ましたか？"
+      }
+    },
+    {
+      "id": "sentence_where_from",
+      "kind": "sentence",
+      "itemIds": ["word_you", "word_come", "word_from", "word_where"],
+      "texts": {
+        "en": "Where are you from?",
+        "th": "คุณมาจากที่ไหน",
+        "fa": "شما اهل کجا هستید؟",
+        "ar": "من أين أنت؟",
+        "es": "¿De dónde eres?",
+        "zh": "你从哪里来？",
+        "ja": "どこから来ましたか？"
+      },
+      "tokens": {
+        "en": ["Where", "are", "you", "from?"],
+        "th": ["คุณ", "มา", "จาก", "ที่ไหน"],
+        "fa": ["شما", "اهل", "کجا", "هستید؟"],
+        "ar": ["من", "أين", "أنت؟"],
+        "es": ["¿De", "dónde", "eres?"],
+        "zh": ["你", "从", "哪里", "来？"],
+        "ja": ["どこ", "から", "来", "ました", "か？"]
+      }
+    },
+    {
+      "id": "sentence_come_from",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_come", "word_from", "word_england"],
+      "texts": {
+        "en": "I come from England",
+        "th": "ฉันมาจากอังกฤษ",
+        "fa": "من از انگلستان آمده‌ام",
+        "ar": "أنا من إنجلترا",
+        "es": "Vengo de Inglaterra",
+        "zh": "我来自英国",
+        "ja": "私はイギリスから来ました"
+      },
+      "tokens": {
+        "en": ["I", "come", "from", "England"],
+        "th": ["ฉัน", "มา", "จาก", "อังกฤษ"],
+        "fa": ["من", "از", "انگلستان", "آمده‌ام"],
+        "ar": ["أنا", "من", "إنجلترا"],
+        "es": ["Vengo", "de", "Inglaterra"],
+        "zh": ["我", "来自", "英国"],
+        "ja": ["私", "は", "イギリス", "から", "来", "まし", "た"]
+      }
+    },
+    {
+      "id": "sentence_from_thailand",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_come",
+        "word_from",
+        "word_country",
+        "word_thai",
+        "word_kha"
+      ],
+      "texts": {
+        "en": "I am from Thailand (female)",
+        "th": "ฉันมาจากประเทศไทยค่ะ",
+        "fa": "من از تایلند می‌آیم (گوینده زن)",
+        "ar": "أنا من تايلاند (تقولها المرأة)",
+        "es": "Soy de Tailandia (mujer)",
+        "zh": "我来自泰国（女性说）",
+        "ja": "タイから来ました（女性）"
+      },
+      "tokens": {
+        "en": ["I", "am", "from", "Thailand", "(female)"],
+        "th": ["ฉัน", "มา", "จาก", "ประเทศ", "ไทย", "ค่ะ"],
+        "fa": ["من", "از", "تایلند", "می‌آیم", "(گوینده", "زن)"],
+        "ar": ["أنا", "من", "تايلاند", "(تقولها", "المرأة)"],
+        "es": ["Soy", "de", "Tailandia", "(mujer)"],
+        "zh": ["我", "来自", "泰国", "（女性说）"],
+        "ja": ["タイ", "から", "来", "ました", "（女性）"]
+      }
+    },
+    {
+      "id": "word_england",
+      "kind": "word",
+      "texts": {
+        "en": "England",
+        "th": "อังกฤษ",
+        "fa": "انگلستان",
+        "ar": "إنجلترا",
+        "es": "Inglaterra",
+        "zh": "英国",
+        "ja": "イギリス"
+      }
+    },
+    {
+      "id": "word_country",
+      "kind": "word",
+      "texts": {
+        "en": "country",
+        "th": "ประเทศ",
+        "fa": "کشور",
+        "ar": "بلد",
+        "es": "país",
+        "zh": "国家",
+        "ja": "国"
+      }
+    },
+    {
+      "id": "word_thai",
+      "kind": "word",
+      "texts": {
+        "en": "Thai",
+        "th": "ไทย",
+        "fa": "تایلندی",
+        "ar": "تايلاندي",
+        "es": "tailandés",
+        "zh": "泰国（的）",
+        "ja": "タイ（の）"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Nice to Meet You",
+        "th": "สถานการณ์ 4: ยินดีที่ได้รู้จัก",
+        "fa": "سناریو ۴: از آشنایی خوشحالم",
+        "ar": "السيناريو 4: سعيد بلقائك",
+        "es": "Escenario 4: Encantado de conocerte",
+        "zh": "场景四：很高兴认识你",
+        "ja": "シナリオ4：お会いできて嬉しい"
+      }
+    },
+    {
+      "id": "sentence_nice_meet",
+      "kind": "sentence",
+      "itemIds": ["word_glad", "word_that", "word_get", "word_know"],
+      "texts": {
+        "en": "Nice to meet you",
+        "th": "ยินดีที่ได้รู้จัก",
+        "fa": "از آشنایی با شما خوشحالم",
+        "ar": "سعيد بلقائك",
+        "es": "Encantado de conocerte",
+        "zh": "很高兴认识你",
+        "ja": "お会いできて嬉しいです"
+      },
+      "tokens": {
+        "en": ["Nice", "to", "meet", "you"],
+        "th": ["ยินดี", "ที่", "ได้", "รู้จัก"],
+        "fa": ["از", "آشنایی", "با", "شما", "خوشحالم"],
+        "ar": ["سعيد", "بلقائك"],
+        "es": ["Encantado", "de", "conocerte"],
+        "zh": ["很", "高兴", "认识", "你"],
+        "ja": ["お会い", "でき", "て", "嬉しい", "です"]
+      }
+    },
+    {
+      "id": "sentence_nice_meet_male",
+      "kind": "sentence",
+      "itemIds": [
+        "word_glad",
+        "word_that",
+        "word_get",
+        "word_know",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "Nice to meet you (male)",
+        "th": "ยินดีที่ได้รู้จักครับ",
+        "fa": "از آشنایی با شما خوشحالم (گوینده مرد)",
+        "ar": "سعيد بلقائك (يقولها الرجل)",
+        "es": "Encantado de conocerte (hombre)",
+        "zh": "很高兴认识你（男性说）",
+        "ja": "お会いできて嬉しいです（男性）"
+      },
+      "tokens": {
+        "en": ["Nice", "to", "meet", "you", "(male)"],
+        "th": ["ยินดี", "ที่", "ได้", "รู้จัก", "ครับ"],
+        "fa": ["از", "آشنایی", "با", "شما", "خوشحالم", "(گوینده", "مرد)"],
+        "ar": ["سعيد", "بلقائك", "(يقولها", "الرجل)"],
+        "es": ["Encantado", "de", "conocerte", "(hombre)"],
+        "zh": ["很", "高兴", "认识", "你", "（男性说）"],
+        "ja": ["お会い", "でき", "て", "嬉しい", "です", "（男性）"]
+      }
+    },
+    {
+      "id": "sentence_nice_meet_you_female",
+      "kind": "sentence",
+      "itemIds": [
+        "word_glad",
+        "word_that",
+        "word_get",
+        "word_know",
+        "word_you",
+        "word_kha"
+      ],
+      "texts": {
+        "en": "Nice to meet you (female)",
+        "th": "ยินดีที่ได้รู้จักคุณค่ะ",
+        "fa": "از آشنایی با شما خوشحالم (گوینده زن)",
+        "ar": "سعيدة بلقائك (تقولها المرأة)",
+        "es": "Encantada de conocerte (mujer)",
+        "zh": "很高兴认识你（女性说）",
+        "ja": "お会いできて嬉しいです（女性）"
+      },
+      "tokens": {
+        "en": ["Nice", "to", "meet", "you", "(female)"],
+        "th": ["ยินดี", "ที่", "ได้", "รู้จัก", "คุณ", "ค่ะ"],
+        "fa": ["از", "آشنایی", "با", "شما", "خوشحالم", "(گوینده", "زن)"],
+        "ar": ["سعيدة", "بلقائك", "(تقولها", "المرأة)"],
+        "es": ["Encantada", "de", "conocerte", "(mujer)"],
+        "zh": ["很", "高兴", "认识", "你", "（女性说）"],
+        "ja": ["お会い", "でき", "て", "嬉しい", "です", "（女性）"]
+      }
+    },
+    {
+      "id": "word_glad",
+      "kind": "word",
+      "texts": {
+        "en": "glad",
+        "th": "ยินดี",
+        "fa": "خوشحال",
+        "ar": "سعيد",
+        "es": "encantado",
+        "zh": "高兴",
+        "ja": "嬉しい"
+      }
+    },
+    {
+      "id": "word_know",
+      "kind": "word",
+      "texts": {
+        "en": "know",
+        "th": "รู้จัก",
+        "fa": "شناختن",
+        "ar": "يعرف",
+        "es": "conocer",
+        "zh": "认识",
+        "ja": "知る"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Polite Particles in Action (ครับ / ค่ะ / คะ)",
+        "th": "สถานการณ์ 5: คำลงท้ายสุภาพ (ครับ / ค่ะ / คะ)",
+        "fa": "سناریو ۵: ذرات ادب در عمل (ครับ / ค่ะ / คะ)",
+        "ar": "السيناريو 5: أدوات الأدب عملياً (ครับ / ค่ะ / คะ)",
+        "es": "Escenario 5: Partículas de cortesía en acción (ครับ / ค่ะ / คะ)",
+        "zh": "场景五：礼貌助词实战 (ครับ / ค่ะ / คะ)",
+        "ja": "シナリオ5：丁寧語の実践 (ครับ / ค่ะ / คะ)"
+      }
+    },
+    {
+      "id": "sentence_hello_soft_female",
+      "kind": "sentence",
+      "itemIds": ["word_hello", "word_na", "word_kha_question"],
+      "texts": {
+        "en": "Hello, soft and polite (female)",
+        "th": "สวัสดีนะคะ",
+        "fa": "سلام، نرم و مؤدبانه (گوینده زن)",
+        "ar": "مرحباً بلطف (تقولها المرأة)",
+        "es": "Hola, suave y cortés (mujer)",
+        "zh": "你好（柔和礼貌，女性说）",
+        "ja": "こんにちは（やわらかく丁寧に・女性）"
+      },
+      "tokens": {
+        "en": ["Hello,", "soft", "and", "polite", "(female)"],
+        "th": ["สวัสดี", "นะ", "คะ"],
+        "fa": ["سلام،", "نرم", "و", "مؤدبانه", "(گوینده", "زن)"],
+        "ar": ["مرحباً", "بلطف", "(تقولها", "المرأة)"],
+        "es": ["Hola,", "suave", "y", "cortés", "(mujer)"],
+        "zh": ["你好", "（柔和礼貌，女性说）"],
+        "ja": ["こんにちは", "（やわらかく丁寧に・女性）"]
+      }
+    },
+    {
+      "id": "sentence_nice_meet_soft_male",
+      "kind": "sentence",
+      "itemIds": [
+        "word_glad",
+        "word_that",
+        "word_get",
+        "word_know",
+        "word_na",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "Nice to meet you, soft and polite (male)",
+        "th": "ยินดีที่ได้รู้จักนะครับ",
+        "fa": "از آشنایی با شما خوشحالم (نرم، گوینده مرد)",
+        "ar": "سعيد بلقائك بلطف (يقولها الرجل)",
+        "es": "Encantado de conocerte, suave y cortés (hombre)",
+        "zh": "很高兴认识你（柔和礼貌，男性说）",
+        "ja": "お会いできて嬉しいです（やわらかく丁寧に・男性）"
+      },
+      "tokens": {
+        "en": ["Nice", "to", "meet", "you,", "soft", "and", "polite", "(male)"],
+        "th": ["ยินดี", "ที่", "ได้", "รู้จัก", "นะ", "ครับ"],
+        "fa": [
+          "از",
+          "آشنایی",
+          "با",
+          "شما",
+          "خوشحالم",
+          "(نرم،",
+          "گوینده",
+          "مرد)"
+        ],
+        "ar": ["سعيد", "بلقائك", "بلطف", "(يقولها", "الرجل)"],
+        "es": [
+          "Encantado",
+          "de",
+          "conocerte,",
+          "suave",
+          "y",
+          "cortés",
+          "(hombre)"
+        ],
+        "zh": ["很", "高兴", "认识", "你", "（柔和礼貌，男性说）"],
+        "ja": [
+          "お会い",
+          "でき",
+          "て",
+          "嬉しい",
+          "です",
+          "（やわらかく丁寧に・男性）"
+        ]
+      }
+    },
+    {
+      "id": "sentence_happy_meet_female",
+      "kind": "sentence",
+      "itemIds": [
+        "word_happy",
+        "word_that",
+        "word_get",
+        "word_know",
+        "word_kha"
+      ],
+      "texts": {
+        "en": "I'm glad to meet you (female)",
+        "th": "ดีใจที่ได้รู้จักค่ะ",
+        "fa": "از آشنایی خوشحالم (گوینده زن)",
+        "ar": "سعيدة بلقائك (تقولها المرأة)",
+        "es": "Me alegra conocerte (mujer)",
+        "zh": "认识你很高兴（女性说）",
+        "ja": "会えてうれしいです（女性）"
+      },
+      "tokens": {
+        "en": ["I'm", "glad", "to", "meet", "you", "(female)"],
+        "th": ["ดีใจ", "ที่", "ได้", "รู้จัก", "ค่ะ"],
+        "fa": ["از", "آشنایی", "خوشحالم", "(گوینده", "زن)"],
+        "ar": ["سعيدة", "بلقائك", "(تقولها", "المرأة)"],
+        "es": ["Me", "alegra", "conocerte", "(mujer)"],
+        "zh": ["认识", "你", "很", "高兴", "（女性说）"],
+        "ja": ["会え", "て", "うれしい", "です", "（女性）"]
+      }
+    },
+    {
+      "id": "sentence_calling_female",
+      "kind": "sentence",
+      "itemIds": ["word_you", "word_anna", "word_kha_question"],
+      "texts": {
+        "en": "Excuse me, Anna (calling, female)",
+        "th": "คุณแอนนาคะ",
+        "fa": "خانم آنا (صدا کردن، گوینده زن)",
+        "ar": "يا آنسة آنا (نداء، امرأة)",
+        "es": "Señorita Anna (llamando, mujer)",
+        "zh": "安娜小姐（呼唤，女性说）",
+        "ja": "アンナさん（呼びかけ・女性）"
+      },
+      "tokens": {
+        "en": ["Excuse", "me,", "Anna", "(calling,", "female)"],
+        "th": ["คุณ", "แอนนา", "คะ"],
+        "fa": ["خانم", "آنا", "(صدا", "کردن،", "گوینده", "زن)"],
+        "ar": ["يا", "آنسة", "آنا", "(نداء،", "امرأة)"],
+        "es": ["Señorita", "Anna", "(llamando,", "mujer)"],
+        "zh": ["安娜", "小姐", "（呼唤，女性说）"],
+        "ja": ["アンナ", "さん", "（呼びかけ・女性）"]
+      }
+    },
+    {
+      "id": "sentence_intro_combo_male",
+      "kind": "sentence",
+      "itemIds": [
+        "word_hello",
+        "word_khrap",
+        "word_i_male",
+        "word_name",
+        "word_somchai"
+      ],
+      "texts": {
+        "en": "Hello, my name is Somchai (male)",
+        "th": "สวัสดีครับ ผมชื่อสมชาย",
+        "fa": "سلام، نام من سمچای است (گوینده مرد)",
+        "ar": "مرحباً، اسمي سومتشاي (يقولها الرجل)",
+        "es": "Hola, mi nombre es Somchai (hombre)",
+        "zh": "你好，我的名字是颂猜（男性说）",
+        "ja": "こんにちは、私の名前はソンチャイです（男性）"
+      },
+      "tokens": {
+        "en": ["Hello,", "my", "name", "is", "Somchai", "(male)"],
+        "th": ["สวัสดี", "ครับ", "ผม", "ชื่อ", "สมชาย"],
+        "fa": ["سلام،", "نام", "من", "سمچای", "است", "(گوینده", "مرد)"],
+        "ar": ["مرحباً،", "اسمي", "سومتشاي", "(يقولها", "الرجل)"],
+        "es": ["Hola,", "mi", "nombre", "es", "Somchai", "(hombre)"],
+        "zh": ["你好，", "我", "的", "名字", "是", "颂猜", "（男性说）"],
+        "ja": [
+          "こんにちは、",
+          "私",
+          "の",
+          "名前",
+          "は",
+          "ソンチャイ",
+          "です",
+          "（男性）"
+        ]
+      }
+    },
+    {
+      "id": "sentence_intro_combo_female",
+      "kind": "sentence",
+      "itemIds": ["word_hello", "word_kha", "word_i", "word_name", "word_anna"],
+      "texts": {
+        "en": "Hello, my name is Anna (female)",
+        "th": "สวัสดีค่ะ ฉันชื่อแอนนา",
+        "fa": "سلام، نام من آنا است (گوینده زن)",
+        "ar": "مرحباً، اسمي آنا (تقولها المرأة)",
+        "es": "Hola, mi nombre es Anna (mujer)",
+        "zh": "你好，我的名字是安娜（女性说）",
+        "ja": "こんにちは、私の名前はアンナです（女性）"
+      },
+      "tokens": {
+        "en": ["Hello,", "my", "name", "is", "Anna", "(female)"],
+        "th": ["สวัสดี", "ค่ะ", "ฉัน", "ชื่อ", "แอนนา"],
+        "fa": ["سلام،", "نام", "من", "آنا", "است", "(گوینده", "زن)"],
+        "ar": ["مرحباً،", "اسمي", "آنا", "(تقولها", "المرأة)"],
+        "es": ["Hola,", "mi", "nombre", "es", "Anna", "(mujer)"],
+        "zh": ["你好，", "我", "的", "名字", "是", "安娜", "（女性说）"],
+        "ja": [
+          "こんにちは、",
+          "私",
+          "の",
+          "名前",
+          "は",
+          "アンナ",
+          "です",
+          "（女性）"
+        ]
+      }
+    },
+    {
+      "id": "word_happy",
+      "kind": "word",
+      "texts": {
+        "en": "happy / glad",
+        "th": "ดีใจ",
+        "fa": "خوشحال",
+        "ar": "سعيد",
+        "es": "contento / alegre",
+        "zh": "高兴",
+        "ja": "うれしい"
+      }
+    }
+  ]
+}

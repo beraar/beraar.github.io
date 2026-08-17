@@ -1,0 +1,1546 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras clave",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú / usted",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_need",
+      "kind": "word",
+      "texts": {
+        "en": "need / require (formal)",
+        "th": "ต้องการ",
+        "fa": "نیاز داشتن",
+        "ar": "يحتاج",
+        "es": "necesitar",
+        "zh": "需要",
+        "ja": "必要とする"
+      }
+    },
+    {
+      "id": "word_want",
+      "kind": "word",
+      "texts": {
+        "en": "want to / feel like (casual)",
+        "th": "อยาก",
+        "fa": "خواستن / میل داشتن",
+        "ar": "يريد / يرغب",
+        "es": "querer / apetecer",
+        "zh": "想 / 想要",
+        "ja": "〜したい"
+      }
+    },
+    {
+      "id": "word_what",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه",
+        "ar": "ماذا",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_question_particle",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_polite_particle",
+      "kind": "word",
+      "texts": {
+        "en": "polite particle",
+        "th": "ครับ / ค่ะ",
+        "fa": "ذره ادب",
+        "ar": "أداة أدب",
+        "es": "partícula de cortesía",
+        "zh": "礼貌助词",
+        "ja": "丁寧語"
+      }
+    },
+    {
+      "id": "word_yes",
+      "kind": "word",
+      "texts": {
+        "en": "yes",
+        "th": "ใช่",
+        "fa": "بله",
+        "ar": "نعم",
+        "es": "sí",
+        "zh": "是",
+        "ja": "はい"
+      }
+    },
+    {
+      "id": "word_not",
+      "kind": "word",
+      "texts": {
+        "en": "no / not",
+        "th": "ไม่",
+        "fa": "نه / نمی",
+        "ar": "لا / ليس",
+        "es": "no",
+        "zh": "不",
+        "ja": "いいえ / 〜ない"
+      }
+    },
+    {
+      "id": "word_please",
+      "kind": "word",
+      "texts": {
+        "en": "please",
+        "th": "กรุณา",
+        "fa": "لطفاً",
+        "ar": "من فضلك",
+        "es": "por favor",
+        "zh": "请",
+        "ja": "お願いします"
+      }
+    },
+    {
+      "id": "word_eat",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "يأكل",
+        "es": "comer",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "word_drink",
+      "kind": "word",
+      "texts": {
+        "en": "drink",
+        "th": "ดื่ม",
+        "fa": "نوشیدن",
+        "ar": "يشرب",
+        "es": "beber",
+        "zh": "喝",
+        "ja": "飲む"
+      }
+    },
+    {
+      "id": "word_food",
+      "kind": "word",
+      "texts": {
+        "en": "food",
+        "th": "อาหาร",
+        "fa": "غذا",
+        "ar": "طعام",
+        "es": "comida",
+        "zh": "食物",
+        "ja": "食べ物"
+      }
+    },
+    {
+      "id": "word_delicious",
+      "kind": "word",
+      "texts": {
+        "en": "delicious",
+        "th": "อร่อย",
+        "fa": "خوشمزه",
+        "ar": "لذيذ",
+        "es": "delicioso",
+        "zh": "好吃",
+        "ja": "おいしい"
+      }
+    },
+    {
+      "id": "word_this",
+      "kind": "word",
+      "texts": {
+        "en": "this",
+        "th": "อันนี้ / นี่",
+        "fa": "این",
+        "ar": "هذا",
+        "es": "esto / este",
+        "zh": "这个",
+        "ja": "これ"
+      }
+    },
+    {
+      "id": "word_person",
+      "kind": "word",
+      "texts": {
+        "en": "person / people",
+        "th": "คน",
+        "fa": "نفر / شخص",
+        "ar": "شخص",
+        "es": "persona",
+        "zh": "人",
+        "ja": "人"
+      }
+    },
+    {
+      "id": "word_have",
+      "kind": "word",
+      "texts": {
+        "en": "have",
+        "th": "มี",
+        "fa": "داشتن",
+        "ar": "يملك",
+        "es": "tener",
+        "zh": "有",
+        "ja": "ある"
+      }
+    },
+    {
+      "id": "word_rice",
+      "kind": "word",
+      "texts": {
+        "en": "rice",
+        "th": "ข้าว",
+        "fa": "برنج",
+        "ar": "أرز",
+        "es": "arroz",
+        "zh": "米饭",
+        "ja": "ご飯"
+      }
+    },
+    {
+      "id": "word_water",
+      "kind": "word",
+      "texts": {
+        "en": "water",
+        "th": "น้ำ",
+        "fa": "آب",
+        "ar": "ماء",
+        "es": "agua",
+        "zh": "水",
+        "ja": "水"
+      }
+    },
+    {
+      "id": "word_can",
+      "kind": "word",
+      "texts": {
+        "en": "can",
+        "th": "ได้",
+        "fa": "توانستن",
+        "ar": "يستطيع",
+        "es": "poder",
+        "zh": "可以",
+        "ja": "できる"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Arriving & Seating",
+        "th": "สถานการณ์ 1: การมาถึงและที่นั่ง",
+        "fa": "سناریو ۱: ورود و نشستن",
+        "ar": "السيناريو 1: الوصول والجلوس",
+        "es": "Escenario 1: Llegada y asiento",
+        "zh": "场景一：到达与入座",
+        "ja": "シナリオ1：到着と着席"
+      }
+    },
+    {
+      "id": "sentence_arrive_how_many_people",
+      "kind": "sentence",
+      "itemIds": ["word_how_many", "word_person", "word_polite_particle"],
+      "texts": {
+        "en": "How many people?",
+        "th": "กี่คนครับ",
+        "fa": "چند نفر؟",
+        "ar": "كم شخصاً؟",
+        "es": "¿Cuántas personas?",
+        "zh": "几位？",
+        "ja": "何名様ですか？"
+      },
+      "tokens": {
+        "en": ["How", "many", "people?"],
+        "th": ["กี่", "คน", "ครับ"],
+        "fa": ["چند", "نفر؟"],
+        "ar": ["كم", "شخصاً؟"],
+        "es": ["¿Cuántas", "personas?"],
+        "zh": ["几位？"],
+        "ja": ["何名", "様", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_arrive_two_people",
+      "kind": "sentence",
+      "itemIds": ["word_two", "word_person", "word_polite_particle"],
+      "texts": {
+        "en": "Two people, please",
+        "th": "สองคนค่ะ",
+        "fa": "دو نفر، لطفاً",
+        "ar": "شخصان، من فضلك",
+        "es": "Dos personas, por favor",
+        "zh": "两位",
+        "ja": "2人です"
+      },
+      "tokens": {
+        "en": ["Two", "people,", "please"],
+        "th": ["สอง", "คน", "ค่ะ"],
+        "fa": ["دو", "نفر،", "لطفاً"],
+        "ar": ["شخصان،", "من", "فضلك"],
+        "es": ["Dos", "personas,", "por", "favor"],
+        "zh": ["两位"],
+        "ja": ["2人", "です"]
+      }
+    },
+    {
+      "id": "sentence_arrive_have_table",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_have",
+        "word_table",
+        "word_question_particle",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "Do you have a table?",
+        "th": "คุณมีโต๊ะไหมคะ",
+        "fa": "آیا میز دارید؟",
+        "ar": "هل لديك طاولة؟",
+        "es": "¿Tienes una mesa?",
+        "zh": "有空桌吗？",
+        "ja": "空いているテーブルはありますか？"
+      },
+      "tokens": {
+        "en": ["Do", "you", "have", "a", "table?"],
+        "th": ["คุณ", "มี", "โต๊ะ", "ไหม", "คะ"],
+        "fa": ["آیا", "میز", "دارید؟"],
+        "ar": ["هل", "لديك", "طاولة؟"],
+        "es": ["¿Tienes", "una", "mesa?"],
+        "zh": ["有", "空桌", "吗？"],
+        "ja": ["空いて", "いる", "テーブル", "は", "あります", "か？"]
+      }
+    },
+    {
+      "id": "sentence_arrive_want_sit",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_want", "word_sit", "word_polite_particle"],
+      "texts": {
+        "en": "I want to sit",
+        "th": "ฉันอยากนั่งค่ะ",
+        "fa": "من می‌خواهم بنشینم",
+        "ar": "أريد أن أجلس",
+        "es": "Quiero sentarme",
+        "zh": "我想坐下",
+        "ja": "座りたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "sit"],
+        "th": ["ฉัน", "อยาก", "นั่ง", "ค่ะ"],
+        "fa": ["من", "می‌خواهم", "بنشینم"],
+        "ar": ["أريد", "أن", "أجلس"],
+        "es": ["Quiero", "sentarme"],
+        "zh": ["我", "想", "坐下"],
+        "ja": ["座り", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_arrive_need_menu",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_need", "word_menu", "word_polite_particle"],
+      "texts": {
+        "en": "I need a menu",
+        "th": "ฉันต้องการเมนูค่ะ",
+        "fa": "من یک منو نیاز دارم",
+        "ar": "أحتاج إلى قائمة طعام",
+        "es": "Necesito un menú",
+        "zh": "我需要菜单",
+        "ja": "メニューが必要です"
+      },
+      "tokens": {
+        "en": ["I", "need", "a", "menu"],
+        "th": ["ฉัน", "ต้องการ", "เมนู", "ค่ะ"],
+        "fa": ["من", "یک", "منو", "نیاز", "دارم"],
+        "ar": ["أحتاج", "إلى", "قائمة", "طعام"],
+        "es": ["Necesito", "un", "menú"],
+        "zh": ["我", "需要", "菜单"],
+        "ja": ["メニュー", "が", "必要", "です"]
+      }
+    },
+    {
+      "id": "sentence_arrive_see_menu",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_want",
+        "word_see",
+        "word_menu",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "I want to see the menu",
+        "th": "ฉันอยากดูเมนูค่ะ",
+        "fa": "من می‌خواهم منو را ببینم",
+        "ar": "أريد أن أرى قائمة الطعام",
+        "es": "Quiero ver el menú",
+        "zh": "我想看看菜单",
+        "ja": "メニューを見たいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "see", "the", "menu"],
+        "th": ["ฉัน", "อยาก", "ดู", "เมนู", "ค่ะ"],
+        "fa": ["من", "می‌خواهم", "منو", "را", "ببینم"],
+        "ar": ["أريد", "أن", "أرى", "قائمة", "الطعام"],
+        "es": ["Quiero", "ver", "el", "menú"],
+        "zh": ["我", "想", "看看", "菜单"],
+        "ja": ["メニュー", "を", "見たい", "です"]
+      }
+    },
+    {
+      "id": "word_how_many",
+      "kind": "word",
+      "texts": {
+        "en": "how many",
+        "th": "กี่",
+        "fa": "چند",
+        "ar": "كم",
+        "es": "cuántos",
+        "zh": "几",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_table",
+      "kind": "word",
+      "texts": {
+        "en": "table",
+        "th": "โต๊ะ",
+        "fa": "میز",
+        "ar": "طاولة",
+        "es": "mesa",
+        "zh": "桌子",
+        "ja": "テーブル"
+      }
+    },
+    {
+      "id": "word_menu",
+      "kind": "word",
+      "texts": {
+        "en": "menu",
+        "th": "เมนู",
+        "fa": "منو",
+        "ar": "قائمة طعام",
+        "es": "menú",
+        "zh": "菜单",
+        "ja": "メニュー"
+      }
+    },
+    {
+      "id": "word_two",
+      "kind": "word",
+      "texts": {
+        "en": "two",
+        "th": "สอง",
+        "fa": "دو",
+        "ar": "اثنان",
+        "es": "dos",
+        "zh": "二",
+        "ja": "二"
+      }
+    },
+    {
+      "id": "word_sit",
+      "kind": "word",
+      "texts": {
+        "en": "sit",
+        "th": "นั่ง",
+        "fa": "نشستن",
+        "ar": "يجلس",
+        "es": "sentarse",
+        "zh": "坐",
+        "ja": "座る"
+      }
+    },
+    {
+      "id": "word_see",
+      "kind": "word",
+      "texts": {
+        "en": "see / look",
+        "th": "ดู",
+        "fa": "دیدن / نگاه کردن",
+        "ar": "يرى / ينظر",
+        "es": "ver / mirar",
+        "zh": "看",
+        "ja": "見る"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Ordering from the Menu",
+        "th": "สถานการณ์ 2: การสั่งอาหารจากเมนู",
+        "fa": "سناریو ۲: سفارش از منو",
+        "ar": "السيناريو 2: الطلب من القائمة",
+        "es": "Escenario 2: Pedir del menú",
+        "zh": "场景二：看菜单点餐",
+        "ja": "シナリオ2：メニューからの注文"
+      }
+    },
+    {
+      "id": "sentence_order_want_order",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_need",
+        "word_order",
+        "word_food",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "I want to order food",
+        "th": "ฉันต้องการสั่งอาหารค่ะ",
+        "fa": "من می‌خواهم غذا سفارش دهم",
+        "ar": "أريد أن أطلب طعاماً",
+        "es": "Quiero pedir comida",
+        "zh": "我想点餐",
+        "ja": "料理を注文したいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "order", "food"],
+        "th": ["ฉัน", "ต้องการ", "สั่ง", "อาหาร", "ค่ะ"],
+        "fa": ["من", "می‌خواهم", "غذا", "سفارش", "دهم"],
+        "ar": ["أريد", "أن", "أطلب", "طعاماً"],
+        "es": ["Quiero", "pedir", "comida"],
+        "zh": ["我", "想", "点餐"],
+        "ja": ["料理", "を", "注文", "したい", "です"]
+      }
+    },
+    {
+      "id": "sentence_order_recommend",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_recommend",
+        "word_what",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "What do you recommend?",
+        "th": "คุณแนะนำอะไรคะ",
+        "fa": "شما چه چیزی را پیشنهاد می‌کنید؟",
+        "ar": "بماذا تنصح؟",
+        "es": "¿Qué recomiendas?",
+        "zh": "你推荐什么？",
+        "ja": "何をおすすめしますか？"
+      },
+      "tokens": {
+        "en": ["What", "do", "you", "recommend?"],
+        "th": ["คุณ", "แนะนำ", "อะไร", "คะ"],
+        "fa": ["شما", "چه", "چیزی", "را", "پیشنهاد", "می‌کنید؟"],
+        "ar": ["بماذا", "تنصح؟"],
+        "es": ["¿Qué", "recomiendas?"],
+        "zh": ["你", "推荐", "什么？"],
+        "ja": ["何", "を", "おすすめ", "します", "か？"]
+      }
+    },
+    {
+      "id": "sentence_order_chicken",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_want",
+        "word_eat",
+        "word_chicken",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "I want to eat chicken",
+        "th": "ฉันอยากกินไก่ค่ะ",
+        "fa": "من می‌خواهم مرغ بخورم",
+        "ar": "أريد أن آكل دجاجاً",
+        "es": "Quiero comer pollo",
+        "zh": "我想吃鸡肉",
+        "ja": "鶏肉を食べたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "eat", "chicken"],
+        "th": ["ฉัน", "อยาก", "กิน", "ไก่", "ค่ะ"],
+        "fa": ["من", "می‌خواهم", "مرغ", "بخورم"],
+        "ar": ["أريد", "أن", "آكل", "دجاجاً"],
+        "es": ["Quiero", "comer", "pollo"],
+        "zh": ["我", "想", "吃", "鸡肉"],
+        "ja": ["鶏肉", "を", "食べ", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_order_pork",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_want",
+        "word_eat",
+        "word_pork",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "I want to eat pork",
+        "th": "ฉันอยากกินหมูค่ะ",
+        "fa": "من می‌خواهم گوشت خوک بخورم",
+        "ar": "أريد أن آكل لحم خنزير",
+        "es": "Quiero comer cerdo",
+        "zh": "我想吃猪肉",
+        "ja": "豚肉を食べたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "eat", "pork"],
+        "th": ["ฉัน", "อยาก", "กิน", "หมู", "ค่ะ"],
+        "fa": ["من", "می‌خواهم", "گوشت", "خوک", "بخورم"],
+        "ar": ["أريد", "أن", "آكل", "لحم", "خنزير"],
+        "es": ["Quiero", "comer", "cerdo"],
+        "zh": ["我", "想", "吃", "猪肉"],
+        "ja": ["豚肉", "を", "食べ", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_order_fish",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_want",
+        "word_eat",
+        "word_fish",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "I want to eat fish",
+        "th": "ฉันอยากกินปลาค่ะ",
+        "fa": "من می‌خواهم ماهی بخورم",
+        "ar": "أريد أن آكل سمكاً",
+        "es": "Quiero comer pescado",
+        "zh": "我想吃鱼",
+        "ja": "魚を食べたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "eat", "fish"],
+        "th": ["ฉัน", "อยาก", "กิน", "ปลา", "ค่ะ"],
+        "fa": ["من", "می‌خواهم", "ماهی", "بخورم"],
+        "ar": ["أريد", "أن", "آكل", "سمكاً"],
+        "es": ["Quiero", "comer", "pescado"],
+        "zh": ["我", "想", "吃", "鱼"],
+        "ja": ["魚", "を", "食べ", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_order_this_one",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_need", "word_this", "word_polite_particle"],
+      "texts": {
+        "en": "I want this one",
+        "th": "ฉันต้องการอันนี้ค่ะ",
+        "fa": "من این یکی را می‌خواهم",
+        "ar": "أريد هذا",
+        "es": "Quiero este",
+        "zh": "我要这个",
+        "ja": "これが欲しいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "this", "one"],
+        "th": ["ฉัน", "ต้องการ", "อันนี้", "ค่ะ"],
+        "fa": ["من", "این", "یکی", "را", "می‌خواهم"],
+        "ar": ["أريد", "هذا"],
+        "es": ["Quiero", "este"],
+        "zh": ["我", "要", "这个"],
+        "ja": ["これ", "が", "欲しい", "です"]
+      }
+    },
+    {
+      "id": "word_order",
+      "kind": "word",
+      "texts": {
+        "en": "order",
+        "th": "สั่ง",
+        "fa": "سفارش دادن",
+        "ar": "يطلب",
+        "es": "pedir / ordenar",
+        "zh": "点餐",
+        "ja": "注文する"
+      }
+    },
+    {
+      "id": "word_recommend",
+      "kind": "word",
+      "texts": {
+        "en": "recommend",
+        "th": "แนะนำ",
+        "fa": "پیشنهاد کردن",
+        "ar": "ينصح / يقترح",
+        "es": "recomendar",
+        "zh": "推荐",
+        "ja": "勧める"
+      }
+    },
+    {
+      "id": "word_chicken",
+      "kind": "word",
+      "texts": {
+        "en": "chicken",
+        "th": "ไก่",
+        "fa": "مرغ",
+        "ar": "دجاج",
+        "es": "pollo",
+        "zh": "鸡肉",
+        "ja": "鶏肉"
+      }
+    },
+    {
+      "id": "word_pork",
+      "kind": "word",
+      "texts": {
+        "en": "pork",
+        "th": "หมู",
+        "fa": "گوشت خوک",
+        "ar": "لحم خنزير",
+        "es": "cerdo",
+        "zh": "猪肉",
+        "ja": "豚肉"
+      }
+    },
+    {
+      "id": "word_fish",
+      "kind": "word",
+      "texts": {
+        "en": "fish",
+        "th": "ปลา",
+        "fa": "ماهی",
+        "ar": "سمك",
+        "es": "pescado",
+        "zh": "鱼",
+        "ja": "魚"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Customizing Taste & Drinks",
+        "th": "สถานการณ์ 3: การปรับรสชาติและเครื่องดื่ม",
+        "fa": "سناریو ۳: تنظیم طعم و نوشیدنی‌ها",
+        "ar": "السيناريو 3: تخصيص المذاق والمشروبات",
+        "es": "Escenario 3: Personalizar sabor y bebidas",
+        "zh": "场景三：定制口味与饮品",
+        "ja": "シナリオ3：味と飲み物のカスタマイズ"
+      }
+    },
+    {
+      "id": "sentence_taste_not_spicy",
+      "kind": "sentence",
+      "itemIds": ["word_not", "word_spicy", "word_polite_particle"],
+      "texts": {
+        "en": "Not spicy",
+        "th": "ไม่เผ็ดค่ะ",
+        "fa": "تند نباشد",
+        "ar": "غير حار",
+        "es": "No picante",
+        "zh": "不辣",
+        "ja": "辛くしないで"
+      },
+      "tokens": {
+        "en": ["Not", "spicy"],
+        "th": ["ไม่", "เผ็ด", "ค่ะ"],
+        "fa": ["تند", "نباشد"],
+        "ar": ["غير", "حار"],
+        "es": ["No", "picante"],
+        "zh": ["不", "辣"],
+        "ja": ["辛く", "しないで"]
+      }
+    },
+    {
+      "id": "sentence_taste_little_spicy",
+      "kind": "sentence",
+      "itemIds": ["word_spicy", "word_a_little", "word_polite_particle"],
+      "texts": {
+        "en": "A little spicy",
+        "th": "เผ็ดนิดหน่อยค่ะ",
+        "fa": "کمی تند",
+        "ar": "حار قليلاً",
+        "es": "Un poco picante",
+        "zh": "微辣",
+        "ja": "少し辛く"
+      },
+      "tokens": {
+        "en": ["A", "little", "spicy"],
+        "th": ["เผ็ด", "นิดหน่อย", "ค่ะ"],
+        "fa": ["کمی", "تند"],
+        "ar": ["حار", "قليلاً"],
+        "es": ["Un", "poco", "picante"],
+        "zh": ["微", "辣"],
+        "ja": ["少し", "辛く"]
+      }
+    },
+    {
+      "id": "sentence_taste_very_spicy",
+      "kind": "sentence",
+      "itemIds": ["word_spicy", "word_very", "word_polite_particle"],
+      "texts": {
+        "en": "Very spicy",
+        "th": "เผ็ดมากค่ะ",
+        "fa": "خیلی تند",
+        "ar": "حار جداً",
+        "es": "Muy picante",
+        "zh": "很辣",
+        "ja": "とても辛く"
+      },
+      "tokens": {
+        "en": ["Very", "spicy"],
+        "th": ["เผ็ด", "มาก", "ค่ะ"],
+        "fa": ["خیلی", "تند"],
+        "ar": ["حار", "جداً"],
+        "es": ["Muy", "picante"],
+        "zh": ["很", "辣"],
+        "ja": ["とても", "辛く"]
+      }
+    },
+    {
+      "id": "sentence_taste_want_ice",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_need", "word_ice", "word_polite_particle"],
+      "texts": {
+        "en": "I want ice",
+        "th": "ฉันต้องการน้ำแข็งค่ะ",
+        "fa": "من یخ می‌خواهم",
+        "ar": "أريد ثلجاً",
+        "es": "Quiero hielo",
+        "zh": "我要冰",
+        "ja": "氷が必要です"
+      },
+      "tokens": {
+        "en": ["I", "want", "ice"],
+        "th": ["ฉัน", "ต้องการ", "น้ำแข็ง", "ค่ะ"],
+        "fa": ["من", "یخ", "می‌خواهم"],
+        "ar": ["أريد", "ثلجاً"],
+        "es": ["Quiero", "hielo"],
+        "zh": ["我", "要", "冰"],
+        "ja": ["氷", "が", "必要", "です"]
+      }
+    },
+    {
+      "id": "sentence_taste_no_sugar",
+      "kind": "sentence",
+      "itemIds": ["word_without", "word_sugar", "word_polite_particle"],
+      "texts": {
+        "en": "Without sugar",
+        "th": "ไม่ใส่น้ำตาลค่ะ",
+        "fa": "بدون شکر",
+        "ar": "بدون سكر",
+        "es": "Sin azúcar",
+        "zh": "不加糖",
+        "ja": "砂糖抜きで"
+      },
+      "tokens": {
+        "en": ["Without", "sugar"],
+        "th": ["ไม่ใส่", "น้ำตาล", "ค่ะ"],
+        "fa": ["بدون", "شکر"],
+        "ar": ["بدون", "سكر"],
+        "es": ["Sin", "azúcar"],
+        "zh": ["不", "加糖"],
+        "ja": ["砂糖", "抜き", "で"]
+      }
+    },
+    {
+      "id": "sentence_taste_no_ice",
+      "kind": "sentence",
+      "itemIds": ["word_without", "word_ice", "word_polite_particle"],
+      "texts": {
+        "en": "Without ice",
+        "th": "ไม่ใส่น้ำแข็งค่ะ",
+        "fa": "بدون یخ",
+        "ar": "بدون ثلج",
+        "es": "Sin hielo",
+        "zh": "不加冰",
+        "ja": "氷抜きで"
+      },
+      "tokens": {
+        "en": ["Without", "ice"],
+        "th": ["ไม่ใส่", "น้ำแข็ง", "ค่ะ"],
+        "fa": ["بدون", "یخ"],
+        "ar": ["بدون", "ثلج"],
+        "es": ["Sin", "hielo"],
+        "zh": ["不", "加冰"],
+        "ja": ["氷", "抜き", "で"]
+      }
+    },
+    {
+      "id": "sentence_taste_is_spicy",
+      "kind": "sentence",
+      "itemIds": [
+        "word_spicy",
+        "word_question_particle",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "Is it spicy?",
+        "th": "เผ็ดไหมคะ",
+        "fa": "آیا تند است؟",
+        "ar": "هل هو حار؟",
+        "es": "¿Está picante?",
+        "zh": "辣吗？",
+        "ja": "辛いですか？"
+      },
+      "tokens": {
+        "en": ["Is", "it", "spicy?"],
+        "th": ["เผ็ด", "ไหม", "คะ"],
+        "fa": ["آیا", "تند", "است؟"],
+        "ar": ["هل", "هو", "حار؟"],
+        "es": ["¿Está", "picante?"],
+        "zh": ["辣", "吗？"],
+        "ja": ["辛い", "です", "か？"]
+      }
+    },
+    {
+      "id": "word_spicy",
+      "kind": "word",
+      "texts": {
+        "en": "spicy",
+        "th": "เผ็ด",
+        "fa": "تند",
+        "ar": "حار",
+        "es": "picante",
+        "zh": "辣",
+        "ja": "辛い"
+      }
+    },
+    {
+      "id": "word_a_little",
+      "kind": "word",
+      "texts": {
+        "en": "a little",
+        "th": "นิดหน่อย",
+        "fa": "کمی",
+        "ar": "قليلاً",
+        "es": "un poco",
+        "zh": "一点",
+        "ja": "少し"
+      }
+    },
+    {
+      "id": "word_very",
+      "kind": "word",
+      "texts": {
+        "en": "very",
+        "th": "มาก",
+        "fa": "خیلی",
+        "ar": "جداً",
+        "es": "muy",
+        "zh": "非常",
+        "ja": "とても"
+      }
+    },
+    {
+      "id": "word_sugar",
+      "kind": "word",
+      "texts": {
+        "en": "sugar",
+        "th": "น้ำตาล",
+        "fa": "شکر",
+        "ar": "سكر",
+        "es": "azúcar",
+        "zh": "糖",
+        "ja": "砂糖"
+      }
+    },
+    {
+      "id": "word_ice",
+      "kind": "word",
+      "texts": {
+        "en": "ice",
+        "th": "น้ำแข็ง",
+        "fa": "یخ",
+        "ar": "ثلج",
+        "es": "hielo",
+        "zh": "冰",
+        "ja": "氷"
+      }
+    },
+    {
+      "id": "word_without",
+      "kind": "word",
+      "texts": {
+        "en": "without / do not put",
+        "th": "ไม่ใส่",
+        "fa": "بدون / نگذاشتن",
+        "ar": "بدون / لا تضع",
+        "es": "sin / no poner",
+        "zh": "不加 / 无",
+        "ja": "〜抜き / 入れない"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Dietary Restrictions & Allergies",
+        "th": "สถานการณ์ 4: ข้อจำกัดทางอาหารและภูมิแพ้",
+        "fa": "سناریو ۴: محدودیت‌های غذایی و آلرژی",
+        "ar": "السيناريو 4: القيود الغذائية والحساسية",
+        "es": "Escenario 4: Restricciones dietéticas y alergias",
+        "zh": "场景四：饮食限制与过敏",
+        "ja": "シナリオ4：食事制限とアレルギー"
+      }
+    },
+    {
+      "id": "sentence_diet_vegetarian",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_eat",
+        "word_vegetarian",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "I eat vegetarian",
+        "th": "ฉันกินมังสวิรัติค่ะ",
+        "fa": "من گیاهخوار هستم",
+        "ar": "أنا آكل نباتياً",
+        "es": "Soy vegetariano",
+        "zh": "我吃素",
+        "ja": "ベジタリアンです"
+      },
+      "tokens": {
+        "en": ["I", "eat", "vegetarian"],
+        "th": ["ฉัน", "กิน", "มังสวิรัติ", "ค่ะ"],
+        "fa": ["من", "گیاهخوار", "هستم"],
+        "ar": ["أنا", "آكل", "نباتياً"],
+        "es": ["Soy", "vegetariano"],
+        "zh": ["我", "吃素"],
+        "ja": ["ベジタリアン", "です"]
+      }
+    },
+    {
+      "id": "sentence_diet_no_meat",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_not",
+        "word_eat",
+        "word_meat",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "I do not eat meat",
+        "th": "ฉันไม่กินเนื้อสัตว์ค่ะ",
+        "fa": "من گوشت نمی‌خورم",
+        "ar": "أنا لا آكل اللحم",
+        "es": "No como carne",
+        "zh": "我不吃肉",
+        "ja": "肉は食べません"
+      },
+      "tokens": {
+        "en": ["I", "do", "not", "eat", "meat"],
+        "th": ["ฉัน", "ไม่", "กิน", "เนื้อสัตว์", "ค่ะ"],
+        "fa": ["من", "گوشت", "نمی‌خورم"],
+        "ar": ["أنا", "لا", "آكل", "اللحم"],
+        "es": ["No", "como", "carne"],
+        "zh": ["我", "不吃", "肉"],
+        "ja": ["肉", "は", "食べ", "ません"]
+      }
+    },
+    {
+      "id": "sentence_diet_allergy_peanut",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_allergy",
+        "word_peanut",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "I am allergic to peanuts",
+        "th": "ฉันแพ้ถั่วค่ะ",
+        "fa": "من به بادام زمینی آلرژی دارم",
+        "ar": "لدي حساسية من الفول السوداني",
+        "es": "Soy alérgico a los cacahuetes",
+        "zh": "我对花生过敏",
+        "ja": "ピーナッツアレルギーです"
+      },
+      "tokens": {
+        "en": ["I", "am", "allergic", "to", "peanuts"],
+        "th": ["ฉัน", "แพ้", "ถั่ว", "ค่ะ"],
+        "fa": ["من", "به", "بادام", "زمینی", "آلرژی", "دارم"],
+        "ar": ["لدي", "حساسية", "من", "الفول", "السوداني"],
+        "es": ["Soy", "alérgico", "a", "los", "cacahuetes"],
+        "zh": ["我", "对", "花生", "过敏"],
+        "ja": ["ピーナッツ", "アレルギー", "です"]
+      }
+    },
+    {
+      "id": "sentence_diet_allergy_seafood",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_allergy",
+        "word_seafood",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "I am allergic to seafood",
+        "th": "ฉันแพ้อาหารทะเลค่ะ",
+        "fa": "من به غذای دریایی آلرژی دارم",
+        "ar": "لدي حساسية من المأكولات البحرية",
+        "es": "Soy alérgico a los mariscos",
+        "zh": "我对海鲜过敏",
+        "ja": "海鮮アレルギーです"
+      },
+      "tokens": {
+        "en": ["I", "am", "allergic", "to", "seafood"],
+        "th": ["ฉัน", "แพ้", "อาหารทะเล", "ค่ะ"],
+        "fa": ["من", "به", "غذای", "دریایی", "آلرژی", "دارم"],
+        "ar": ["لدي", "حساسية", "من", "المأكولات", "البحرية"],
+        "es": ["Soy", "alérgico", "a", "los", "mariscos"],
+        "zh": ["我", "对", "海鲜", "过敏"],
+        "ja": ["海鮮", "アレルギー", "です"]
+      }
+    },
+    {
+      "id": "sentence_diet_have_meat",
+      "kind": "sentence",
+      "itemIds": [
+        "word_this",
+        "word_have",
+        "word_meat",
+        "word_question_particle",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "Does this have meat?",
+        "th": "อันนี้มีเนื้อสัตว์ไหมคะ",
+        "fa": "آیا این گوشت دارد؟",
+        "ar": "هل هذا يحتوي على لحم؟",
+        "es": "¿Esto tiene carne?",
+        "zh": "这个里面有肉吗？",
+        "ja": "これに肉は入っていますか？"
+      },
+      "tokens": {
+        "en": ["Does", "this", "have", "meat?"],
+        "th": ["อันนี้", "มี", "เนื้อสัตว์", "ไหม", "คะ"],
+        "fa": ["آیا", "این", "گوشت", "دارد؟"],
+        "ar": ["هل", "هذا", "يحتوي", "على", "لحم؟"],
+        "es": ["¿Esto", "tiene", "carne?"],
+        "zh": ["这个", "里面", "有", "肉", "吗？"],
+        "ja": ["これ", "に", "肉", "は", "入って", "います", "か？"]
+      }
+    },
+    {
+      "id": "sentence_diet_no_beef",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_not",
+        "word_eat",
+        "word_beef",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "I do not eat beef",
+        "th": "ฉันไม่กินเนื้อวัวค่ะ",
+        "fa": "من گوشت گاو نمی‌خورم",
+        "ar": "أنا لا آكل لحم البقر",
+        "es": "No como carne de res",
+        "zh": "我不吃牛肉",
+        "ja": "牛肉は食べません"
+      },
+      "tokens": {
+        "en": ["I", "do", "not", "eat", "beef"],
+        "th": ["ฉัน", "ไม่", "กิน", "เนื้อวัว", "ค่ะ"],
+        "fa": ["من", "گوشت", "گاو", "نمی‌خورم"],
+        "ar": ["أنا", "لا", "آكل", "لحم", "البقر"],
+        "es": ["No", "como", "carne", "de", "res"],
+        "zh": ["我", "不吃", "牛肉"],
+        "ja": ["牛肉", "は", "食べ", "ません"]
+      }
+    },
+    {
+      "id": "word_vegetarian",
+      "kind": "word",
+      "texts": {
+        "en": "vegetarian",
+        "th": "มังสวิรัติ",
+        "fa": "گیاهخوار",
+        "ar": "نباتي",
+        "es": "vegetariano",
+        "zh": "素食",
+        "ja": "ベジタリアン"
+      }
+    },
+    {
+      "id": "word_meat",
+      "kind": "word",
+      "texts": {
+        "en": "meat",
+        "th": "เนื้อสัตว์",
+        "fa": "گوشت",
+        "ar": "لحم",
+        "es": "carne",
+        "zh": "肉",
+        "ja": "肉"
+      }
+    },
+    {
+      "id": "word_allergy",
+      "kind": "word",
+      "texts": {
+        "en": "allergy / allergic",
+        "th": "แพ้",
+        "fa": "آلرژی / حساسیت",
+        "ar": "حساسية",
+        "es": "alergia / alérgico",
+        "zh": "过敏",
+        "ja": "アレルギー"
+      }
+    },
+    {
+      "id": "word_peanut",
+      "kind": "word",
+      "texts": {
+        "en": "peanut",
+        "th": "ถั่ว",
+        "fa": "بادام زمینی",
+        "ar": "فول سوداني",
+        "es": "cacahuete",
+        "zh": "花生",
+        "ja": "ピーナッツ"
+      }
+    },
+    {
+      "id": "word_seafood",
+      "kind": "word",
+      "texts": {
+        "en": "seafood",
+        "th": "อาหารทะเล",
+        "fa": "غذای دریایی",
+        "ar": "مأكولات بحرية",
+        "es": "mariscos",
+        "zh": "海鲜",
+        "ja": "海鮮"
+      }
+    },
+    {
+      "id": "word_beef",
+      "kind": "word",
+      "texts": {
+        "en": "beef",
+        "th": "เนื้อวัว",
+        "fa": "گوشت گاو",
+        "ar": "لحم بقر",
+        "es": "carne de res",
+        "zh": "牛肉",
+        "ja": "牛肉"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: During the Meal",
+        "th": "สถานการณ์ 5: ระหว่างมื้ออาหาร",
+        "fa": "سناریو ۵: در حین غذا",
+        "ar": "السيناريو 5: أثناء الوجبة",
+        "es": "Escenario 5: Durante la comida",
+        "zh": "场景五：用餐期间",
+        "ja": "シナリオ5：食事中"
+      }
+    },
+    {
+      "id": "sentence_meal_very_delicious",
+      "kind": "sentence",
+      "itemIds": ["word_delicious", "word_very", "word_polite_particle"],
+      "texts": {
+        "en": "Very delicious!",
+        "th": "อร่อยมากค่ะ",
+        "fa": "خیلی خوشمزه است!",
+        "ar": "لذيذ جداً!",
+        "es": "¡Muy delicioso!",
+        "zh": "非常好吃！",
+        "ja": "とてもおいしいです！"
+      },
+      "tokens": {
+        "en": ["Very", "delicious!"],
+        "th": ["อร่อย", "มาก", "ค่ะ"],
+        "fa": ["خیلی", "خوشمزه", "است!"],
+        "ar": ["لذيذ", "جداً!"],
+        "es": ["¡Muy", "delicioso!"],
+        "zh": ["非常", "好吃！"],
+        "ja": ["とても", "おいしい", "です！"]
+      }
+    },
+    {
+      "id": "sentence_meal_more_rice",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_need",
+        "word_rice",
+        "word_more",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "I want more rice",
+        "th": "ฉันต้องการข้าวเพิ่มค่ะ",
+        "fa": "من برنج بیشتری می‌خواهم",
+        "ar": "أريد المزيد من الأرز",
+        "es": "Quiero más arroz",
+        "zh": "我想要添点米饭",
+        "ja": "ご飯をおかわりしたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "more", "rice"],
+        "th": ["ฉัน", "ต้องการ", "ข้าว", "เพิ่ม", "ค่ะ"],
+        "fa": ["من", "برنج", "بیشتری", "می‌خواهم"],
+        "ar": ["أريد", "المزيد", "من", "الأرز"],
+        "es": ["Quiero", "más", "arroz"],
+        "zh": ["我", "想要", "添点", "米饭"],
+        "ja": ["ご飯", "を", "おかわり", "したい", "です"]
+      }
+    },
+    {
+      "id": "sentence_meal_more_water",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_need",
+        "word_water",
+        "word_more",
+        "word_polite_particle"
+      ],
+      "texts": {
+        "en": "I want more water",
+        "th": "ฉันต้องการน้ำเพิ่มค่ะ",
+        "fa": "من آب بیشتری می‌خواهم",
+        "ar": "أريد المزيد من الماء",
+        "es": "Quiero más agua",
+        "zh": "我想要添点水",
+        "ja": "水をおかわりしたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "more", "water"],
+        "th": ["ฉัน", "ต้องการ", "น้ำ", "เพิ่ม", "ค่ะ"],
+        "fa": ["من", "آب", "بیشتری", "می‌خواهم"],
+        "ar": ["أريد", "المزيد", "من", "الماء"],
+        "es": ["Quiero", "más", "agua"],
+        "zh": ["我", "想要", "添点", "水"],
+        "ja": ["水", "を", "おかわり", "したい", "です"]
+      }
+    },
+    {
+      "id": "sentence_meal_need_fork",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_need", "word_fork", "word_polite_particle"],
+      "texts": {
+        "en": "I need a fork",
+        "th": "ฉันต้องการส้อมค่ะ",
+        "fa": "من یک چنگال نیاز دارم",
+        "ar": "أحتاج إلى شوكة",
+        "es": "Necesito un tenedor",
+        "zh": "我需要一把叉子",
+        "ja": "フォークが必要です"
+      },
+      "tokens": {
+        "en": ["I", "need", "a", "fork"],
+        "th": ["ฉัน", "ต้องการ", "ส้อม", "ค่ะ"],
+        "fa": ["من", "یک", "چنگال", "نیاز", "دارم"],
+        "ar": ["أحتاج", "إلى", "شوكة"],
+        "es": ["Necesito", "un", "tenedor"],
+        "zh": ["我", "需要", "一把", "叉子"],
+        "ja": ["フォーク", "が", "必要", "です"]
+      }
+    },
+    {
+      "id": "sentence_meal_need_spoon",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_need", "word_spoon", "word_polite_particle"],
+      "texts": {
+        "en": "I need a spoon",
+        "th": "ฉันต้องการช้อนค่ะ",
+        "fa": "من یک قاشق نیاز دارم",
+        "ar": "أحتاج إلى ملعقة",
+        "es": "Necesito una cuchara",
+        "zh": "我需要一把勺子",
+        "ja": "スプーンが必要です"
+      },
+      "tokens": {
+        "en": ["I", "need", "a", "spoon"],
+        "th": ["ฉัน", "ต้องการ", "ช้อน", "ค่ะ"],
+        "fa": ["من", "یک", "قاشق", "نیاز", "دارم"],
+        "ar": ["أحتاج", "إلى", "ملعقة"],
+        "es": ["Necesito", "una", "cuchara"],
+        "zh": ["我", "需要", "一把", "勺子"],
+        "ja": ["スプーン", "が", "必要", "です"]
+      }
+    },
+    {
+      "id": "sentence_meal_need_tissue",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_need", "word_tissue", "word_polite_particle"],
+      "texts": {
+        "en": "I need a tissue",
+        "th": "ฉันต้องการทิชชูค่ะ",
+        "fa": "من یک دستمال کاغذی نیاز دارم",
+        "ar": "أحتاج إلى منديل",
+        "es": "Necesito un pañuelo",
+        "zh": "我需要纸巾",
+        "ja": "ティッシュが必要です"
+      },
+      "tokens": {
+        "en": ["I", "need", "a", "tissue"],
+        "th": ["ฉัน", "ต้องการ", "ทิชชู", "ค่ะ"],
+        "fa": ["من", "یک", "دستمال", "کاغذی", "نیاز", "دارم"],
+        "ar": ["أحتاج", "إلى", "منديل"],
+        "es": ["Necesito", "un", "pañuelo"],
+        "zh": ["我", "需要", "纸巾"],
+        "ja": ["ティッシュ", "が", "必要", "です"]
+      }
+    },
+    {
+      "id": "sentence_meal_need_glass",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_need", "word_glass", "word_polite_particle"],
+      "texts": {
+        "en": "I need a glass",
+        "th": "ฉันต้องการแก้วค่ะ",
+        "fa": "من یک لیوان نیاز دارم",
+        "ar": "أحتاج إلى كوب",
+        "es": "Necesito un vaso",
+        "zh": "我需要一个杯子",
+        "ja": "コップが必要です"
+      },
+      "tokens": {
+        "en": ["I", "need", "a", "glass"],
+        "th": ["ฉัน", "ต้องการ", "แก้ว", "ค่ะ"],
+        "fa": ["من", "یک", "لیوان", "نیاز", "دارم"],
+        "ar": ["أحتاج", "إلى", "كوب"],
+        "es": ["Necesito", "un", "vaso"],
+        "zh": ["我", "需要", "一个", "杯子"],
+        "ja": ["コップ", "が", "必要", "です"]
+      }
+    },
+    {
+      "id": "word_more",
+      "kind": "word",
+      "texts": {
+        "en": "more / extra",
+        "th": "เพิ่ม",
+        "fa": "بیشتر / اضافی",
+        "ar": "المزيد",
+        "es": "más",
+        "zh": "更多 / 添",
+        "ja": "もっと / おかわり"
+      }
+    },
+    {
+      "id": "word_fork",
+      "kind": "word",
+      "texts": {
+        "en": "fork",
+        "th": "ส้อม",
+        "fa": "چنگال",
+        "ar": "شوكة",
+        "es": "tenedor",
+        "zh": "叉子",
+        "ja": "フォーク"
+      }
+    },
+    {
+      "id": "word_spoon",
+      "kind": "word",
+      "texts": {
+        "en": "spoon",
+        "th": "ช้อน",
+        "fa": "قاشق",
+        "ar": "ملعقة",
+        "es": "cuchara",
+        "zh": "勺子",
+        "ja": "スプーン"
+      }
+    },
+    {
+      "id": "word_tissue",
+      "kind": "word",
+      "texts": {
+        "en": "tissue / napkin",
+        "th": "ทิชชู",
+        "fa": "دستمال کاغذی",
+        "ar": "منديل",
+        "es": "pañuelo / servilleta",
+        "zh": "纸巾",
+        "ja": "ティッシュ"
+      }
+    },
+    {
+      "id": "word_plate",
+      "kind": "word",
+      "texts": {
+        "en": "plate",
+        "th": "จาน",
+        "fa": "بشقاب",
+        "ar": "طبق",
+        "es": "plato",
+        "zh": "盘子",
+        "ja": "皿"
+      }
+    },
+    {
+      "id": "word_glass",
+      "kind": "word",
+      "texts": {
+        "en": "glass / cup",
+        "th": "แก้ว",
+        "fa": "لیوان",
+        "ar": "كوب",
+        "es": "vaso",
+        "zh": "杯子",
+        "ja": "コップ"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1994 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras clave",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_we",
+      "kind": "word",
+      "texts": {
+        "en": "we",
+        "th": "เรา",
+        "fa": "ما",
+        "ar": "نحن",
+        "es": "nosotros",
+        "zh": "我们",
+        "ja": "私たち"
+      }
+    },
+    {
+      "id": "word_not",
+      "kind": "word",
+      "texts": {
+        "en": "not",
+        "th": "ไม่",
+        "fa": "نه",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不",
+        "ja": "ない"
+      }
+    },
+    {
+      "id": "word_what",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه",
+        "ar": "ماذا",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_think",
+      "kind": "word",
+      "texts": {
+        "en": "think",
+        "th": "คิด",
+        "fa": "فکر کردن",
+        "ar": "يعتقد",
+        "es": "pensar",
+        "zh": "认为",
+        "ja": "思う"
+      }
+    },
+    {
+      "id": "word_understand",
+      "kind": "word",
+      "texts": {
+        "en": "understand",
+        "th": "เข้าใจ",
+        "fa": "فهمیدن",
+        "ar": "يفهم",
+        "es": "entender",
+        "zh": "理解",
+        "ja": "わかる"
+      }
+    },
+    {
+      "id": "word_discuss",
+      "kind": "word",
+      "texts": {
+        "en": "discuss",
+        "th": "หารือ",
+        "fa": "بحث کردن",
+        "ar": "يناقش",
+        "es": "discutir",
+        "zh": "讨论",
+        "ja": "話し合う"
+      }
+    },
+    {
+      "id": "word_if",
+      "kind": "word",
+      "texts": {
+        "en": "if",
+        "th": "ถ้า",
+        "fa": "اگر",
+        "ar": "إذا",
+        "es": "si",
+        "zh": "如果",
+        "ja": "もし"
+      }
+    },
+    {
+      "id": "word_then",
+      "kind": "word",
+      "texts": {
+        "en": "then / so",
+        "th": "ก็",
+        "fa": "پس",
+        "ar": "ثم / فـ",
+        "es": "entonces",
+        "zh": "就",
+        "ja": "〜すると"
+      }
+    },
+    {
+      "id": "word_but",
+      "kind": "word",
+      "texts": {
+        "en": "but",
+        "th": "แต่",
+        "fa": "اما",
+        "ar": "لكن",
+        "es": "pero",
+        "zh": "但是",
+        "ja": "しかし"
+      }
+    },
+    {
+      "id": "word_and",
+      "kind": "word",
+      "texts": {
+        "en": "and",
+        "th": "และ",
+        "fa": "و",
+        "ar": "و",
+        "es": "y",
+        "zh": "和",
+        "ja": "と"
+      }
+    },
+    {
+      "id": "word_or",
+      "kind": "word",
+      "texts": {
+        "en": "or",
+        "th": "หรือ",
+        "fa": "یا",
+        "ar": "أو",
+        "es": "o",
+        "zh": "或",
+        "ja": "または"
+      }
+    },
+    {
+      "id": "word_because",
+      "kind": "word",
+      "texts": {
+        "en": "because",
+        "th": "เพราะ",
+        "fa": "زیرا",
+        "ar": "لأن",
+        "es": "porque",
+        "zh": "因为",
+        "ja": "〜だから"
+      }
+    },
+    {
+      "id": "word_question_particle",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_confirmation_particle",
+      "kind": "word",
+      "texts": {
+        "en": "right? / isn't it?",
+        "th": "ใช่ไหม",
+        "fa": "درست است؟ / نیست؟",
+        "ar": "أليس كذلك؟",
+        "es": "¿verdad? / ¿no?",
+        "zh": "对吗？",
+        "ja": "ですか？ / ですよね？"
+      }
+    },
+    {
+      "id": "word_khrap",
+      "kind": "word",
+      "texts": {
+        "en": "polite particle (male)",
+        "th": "ครับ",
+        "fa": "ذره ادب (مردانه)",
+        "ar": "أداة أدب (للرجال)",
+        "es": "partícula de cortesía (masculina)",
+        "zh": "礼貌助词（男性）",
+        "ja": "丁寧語（男性）"
+      }
+    },
+    {
+      "id": "word_kha",
+      "kind": "word",
+      "texts": {
+        "en": "polite particle (female, statement)",
+        "th": "ค่ะ",
+        "fa": "ذره ادب (زنانه، خبری)",
+        "ar": "أداة أدب (للنساء، جملة خبرية)",
+        "es": "partícula de cortesía (femenina, afirmación)",
+        "zh": "礼貌助词（女性，陈述）",
+        "ja": "丁寧語（女性・平叙）"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Giving Opinions",
+        "th": "สถานการณ์ 1: การแสดงความคิดเห็น",
+        "fa": "سناریو ۱: بیان نظرات",
+        "ar": "السيناريو 1: إبداء الآراء",
+        "es": "Escenario 1: Dar opiniones",
+        "zh": "场景一：表达观点",
+        "ja": "シナリオ1：意見を述べる"
+      }
+    },
+    {
+      "id": "sentence_debate_think_policy",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_think",
+        "word_policy",
+        "word_not",
+        "word_good"
+      ],
+      "texts": {
+        "en": "I think this policy is not good",
+        "th": "ฉันคิดว่านโยบายนี้ไม่ดี",
+        "fa": "من فکر می‌کنم این سیاست خوب نیست",
+        "ar": "أعتقد أن هذه السياسة ليست جيدة",
+        "es": "Creo que esta política no es buena",
+        "zh": "我认为这项政策不好",
+        "ja": "私はこの政策が良くないと思います"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "think",
+          "this",
+          "policy",
+          "is",
+          "not",
+          "good"
+        ],
+        "th": [
+          "ฉัน",
+          "คิด",
+          "ว่า",
+          "นโยบาย",
+          "นี้",
+          "ไม่",
+          "ดี"
+        ],
+        "fa": [
+          "من",
+          "فکر",
+          "می‌کنم",
+          "این",
+          "سیاست",
+          "خوب",
+          "نیست"
+        ],
+        "ar": [
+          "أعتقد",
+          "أن",
+          "هذه",
+          "السياسة",
+          "ليست",
+          "جيدة"
+        ],
+        "es": [
+          "Creo",
+          "que",
+          "esta",
+          "política",
+          "no",
+          "es",
+          "buena"
+        ],
+        "zh": [
+          "我",
+          "认为",
+          "这项",
+          "政策",
+          "不",
+          "好"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "この",
+          "政策",
+          "が",
+          "良く",
+          "ない",
+          "と",
+          "思い",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_i_think_necessary",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_think",
+        "word_necessary",
+        "word_kha"
+      ],
+      "texts": {
+        "en": "I think it is necessary (female)",
+        "th": "ฉันคิดว่าจำเป็นค่ะ",
+        "fa": "فکر می‌کنم ضروری است (گوینده زن)",
+        "ar": "أعتقد أنه ضروري (تقولها المرأة)",
+        "es": "Creo que es necesario (mujer)",
+        "zh": "我认为这是必要的（女性说）",
+        "ja": "必要だと思います（女性）"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "think",
+          "it",
+          "is",
+          "necessary",
+          "(female)"
+        ],
+        "th": [
+          "ฉัน",
+          "คิด",
+          "ว่า",
+          "จำเป็น",
+          "ค่ะ"
+        ],
+        "fa": [
+          "فکر",
+          "می‌کنم",
+          "ضروری",
+          "است",
+          "(گوینده",
+          "زن)"
+        ],
+        "ar": [
+          "أعتقد",
+          "أنه",
+          "ضروري",
+          "(تقولها",
+          "المرأة)"
+        ],
+        "es": [
+          "Creo",
+          "que",
+          "es",
+          "necesario",
+          "(mujer)"
+        ],
+        "zh": [
+          "我",
+          "认为",
+          "这",
+          "是",
+          "必要的",
+          "（女性说）"
+        ],
+        "ja": [
+          "必要",
+          "だ",
+          "と",
+          "思い",
+          "ます",
+          "（女性）"
+        ]
+      }
+    },
+    {
+      "id": "sentence_i_think_good",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_think",
+        "word_policy",
+        "word_good",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "I think this policy is good (male)",
+        "th": "ฉันคิดว่านโยบายนี้ดีครับ",
+        "fa": "فکر می‌کنم این سیاست خوب است (گوینده مرد)",
+        "ar": "أعتقد أن هذه السياسة جيدة (يقولها الرجل)",
+        "es": "Creo que esta política es buena (hombre)",
+        "zh": "我认为这项政策很好（男性说）",
+        "ja": "この政策は良いと思います（男性）"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "think",
+          "this",
+          "policy",
+          "is",
+          "good",
+          "(male)"
+        ],
+        "th": [
+          "ฉัน",
+          "คิด",
+          "ว่า",
+          "นโยบาย",
+          "นี้",
+          "ดี",
+          "ครับ"
+        ],
+        "fa": [
+          "فکر",
+          "می‌کنم",
+          "این",
+          "سیاست",
+          "خوب",
+          "است",
+          "(گوینده",
+          "مرد)"
+        ],
+        "ar": [
+          "أعتقد",
+          "أن",
+          "هذه",
+          "السياسة",
+          "جيدة",
+          "(يقولها",
+          "الرجل)"
+        ],
+        "es": [
+          "Creo",
+          "que",
+          "esta",
+          "política",
+          "es",
+          "buena",
+          "(hombre)"
+        ],
+        "zh": [
+          "我",
+          "认为",
+          "这项",
+          "政策",
+          "很",
+          "好",
+          "（男性说）"
+        ],
+        "ja": [
+          "この",
+          "政策",
+          "は",
+          "良い",
+          "と",
+          "思い",
+          "ます",
+          "（男性）"
+        ]
+      }
+    },
+    {
+      "id": "word_policy",
+      "kind": "word",
+      "texts": {
+        "en": "policy",
+        "th": "นโยบาย",
+        "fa": "سیاست",
+        "ar": "سياسة",
+        "es": "política",
+        "zh": "政策",
+        "ja": "政策"
+      }
+    },
+    {
+      "id": "word_good",
+      "kind": "word",
+      "texts": {
+        "en": "good",
+        "th": "ดี",
+        "fa": "خوب",
+        "ar": "جيد",
+        "es": "bueno",
+        "zh": "好",
+        "ja": "良い"
+      }
+    },
+    {
+      "id": "word_opinion",
+      "kind": "word",
+      "texts": {
+        "en": "opinion",
+        "th": "ความคิดเห็น",
+        "fa": "نظر",
+        "ar": "رأي",
+        "es": "opinión",
+        "zh": "意见",
+        "ja": "意見"
+      }
+    },
+    {
+      "id": "word_necessary",
+      "kind": "word",
+      "texts": {
+        "en": "necessary",
+        "th": "จำเป็น",
+        "fa": "ضروری",
+        "ar": "ضروري",
+        "es": "necesario",
+        "zh": "必要",
+        "ja": "必要"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Agreeing & Disagreeing (ไหม / ใช่ไหม)",
+        "th": "สถานการณ์ 2: การเห็นด้วยและไม่เห็นด้วย (ไหม / ใช่ไหม)",
+        "fa": "سناریو ۲: موافقت و مخالفت (ไหม / ใช่ไหม)",
+        "ar": "السيناريو 2: الموافقة والاختلاف (ไหม / ใช่ไหม)",
+        "es": "Escenario 2: Acordar y disentir (ไหม / ใช่ไหม)",
+        "zh": "场景二：同意与反对 (ไหม / ใช่ไหม)",
+        "ja": "シナリオ2：賛成と反対 (ไหม / ใช่ไหม)"
+      }
+    },
+    {
+      "id": "sentence_agree_question",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_agree",
+        "word_question_particle",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "Do you agree?",
+        "th": "คุณเห็นด้วยไหมครับ",
+        "fa": "آیا موافق هستید؟",
+        "ar": "هل توافق؟",
+        "es": "¿Estás de acuerdo?",
+        "zh": "你同意吗？",
+        "ja": "賛成ですか？"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "agree?"
+        ],
+        "th": [
+          "คุณ",
+          "เห็นด้วย",
+          "ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "آیا",
+          "موافق",
+          "هستید؟"
+        ],
+        "ar": [
+          "هل",
+          "توافق؟"
+        ],
+        "es": [
+          "¿Estás",
+          "de",
+          "acuerdo?"
+        ],
+        "zh": [
+          "你",
+          "同意",
+          "吗？"
+        ],
+        "ja": [
+          "賛成",
+          "です",
+          "か？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_agree_answer",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_agree",
+        "word_kha"
+      ],
+      "texts": {
+        "en": "I agree (female)",
+        "th": "ฉันเห็นด้วยค่ะ",
+        "fa": "من موافقم (گوینده زن)",
+        "ar": "أنا أوافق (تقولها المرأة)",
+        "es": "Estoy de acuerdo (mujer)",
+        "zh": "我同意（女性说）",
+        "ja": "賛成です（女性）"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "agree",
+          "(female)"
+        ],
+        "th": [
+          "ฉัน",
+          "เห็นด้วย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "موافقم",
+          "(گوینده",
+          "زن)"
+        ],
+        "ar": [
+          "أنا",
+          "أوافق",
+          "(تقولها",
+          "المرأة)"
+        ],
+        "es": [
+          "Estoy",
+          "de",
+          "acuerdo",
+          "(mujer)"
+        ],
+        "zh": [
+          "我",
+          "同意",
+          "（女性说）"
+        ],
+        "ja": [
+          "賛成",
+          "です",
+          "（女性）"
+        ]
+      }
+    },
+    {
+      "id": "sentence_disagree_answer",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_disagree",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "I disagree (male)",
+        "th": "ฉันไม่เห็นด้วยครับ",
+        "fa": "من مخالفم (گوینده مرد)",
+        "ar": "أنا أختلف (يقولها الرجل)",
+        "es": "No estoy de acuerdo (hombre)",
+        "zh": "我不同意（男性说）",
+        "ja": "反対です（男性）"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "disagree",
+          "(male)"
+        ],
+        "th": [
+          "ฉัน",
+          "ไม่เห็นด้วย",
+          "ครับ"
+        ],
+        "fa": [
+          "من",
+          "مخالفم",
+          "(گوینده",
+          "مرد)"
+        ],
+        "ar": [
+          "أنا",
+          "أختلف",
+          "(يقولها",
+          "الرجل)"
+        ],
+        "es": [
+          "No",
+          "estoy",
+          "de",
+          "acuerdo",
+          "(hombre)"
+        ],
+        "zh": [
+          "我",
+          "不同意",
+          "（男性说）"
+        ],
+        "ja": [
+          "反対",
+          "です",
+          "（男性）"
+        ]
+      }
+    },
+    {
+      "id": "sentence_debate_disagree_necessary",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_disagree",
+        "word_you",
+        "word_think",
+        "word_necessary"
+      ],
+      "texts": {
+        "en": "I disagree with you, I think it is necessary",
+        "th": "ฉันไม่เห็นด้วยกับคุณ ฉันคิดว่ามันจำเป็น",
+        "fa": "من با شما مخالفم، فکر می‌کنم ضروری است",
+        "ar": "أنا أختلف معك، أعتقد أنه ضروري",
+        "es": "No estoy de acuerdo contigo, creo que es necesario",
+        "zh": "我不同意你的看法，我认为这是必要的",
+        "ja": "私はあなたに反対です、それは必要だと思います"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "disagree",
+          "with",
+          "you,",
+          "I",
+          "think",
+          "it",
+          "is",
+          "necessary"
+        ],
+        "th": [
+          "ฉัน",
+          "ไม่เห็นด้วย",
+          "กับ",
+          "คุณ",
+          "ฉัน",
+          "คิด",
+          "ว่า",
+          "มัน",
+          "จำเป็น"
+        ],
+        "fa": [
+          "من",
+          "با",
+          "شما",
+          "مخالفم،",
+          "فکر",
+          "می‌کنم",
+          "ضروری",
+          "است"
+        ],
+        "ar": [
+          "أنا",
+          "أختلف",
+          "معك،",
+          "أعتقد",
+          "أنه",
+          "ضروري"
+        ],
+        "es": [
+          "No",
+          "estoy",
+          "de",
+          "acuerdo",
+          "contigo,",
+          "creo",
+          "que",
+          "es",
+          "necesario"
+        ],
+        "zh": [
+          "我",
+          "不同意",
+          "你的",
+          "看法",
+          "我",
+          "认为",
+          "这",
+          "是",
+          "必要的"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "あなた",
+          "に",
+          "反対",
+          "です",
+          "それ",
+          "は",
+          "必要",
+          "だ",
+          "と",
+          "思い",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_confirm_agree",
+      "kind": "sentence",
+      "itemIds": [
+        "word_policy",
+        "word_necessary",
+        "word_confirmation_particle",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "This policy is necessary, right?",
+        "th": "นโยบายนี้จำเป็นใช่ไหมครับ",
+        "fa": "این سیاست ضروری است، درست است؟",
+        "ar": "هذه السياسة ضرورية، أليس كذلك؟",
+        "es": "Esta política es necesaria, ¿verdad?",
+        "zh": "这项政策是必要的，对吗？",
+        "ja": "この政策は必要ですよね？"
+      },
+      "tokens": {
+        "en": [
+          "This",
+          "policy",
+          "is",
+          "necessary,",
+          "right?"
+        ],
+        "th": [
+          "นโยบาย",
+          "นี้",
+          "จำเป็น",
+          "ใช่ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "این",
+          "سیاست",
+          "ضروری",
+          "است،",
+          "درست",
+          "است؟"
+        ],
+        "ar": [
+          "هذه",
+          "السياسة",
+          "ضرورية،",
+          "أليس",
+          "كذلك؟"
+        ],
+        "es": [
+          "Esta",
+          "política",
+          "es",
+          "necesaria,",
+          "¿verdad?"
+        ],
+        "zh": [
+          "这项",
+          "政策",
+          "是",
+          "必要的，",
+          "对吗？"
+        ],
+        "ja": [
+          "この",
+          "政策",
+          "は",
+          "必要",
+          "です",
+          "よね？"
+        ]
+      }
+    },
+    {
+      "id": "word_agree",
+      "kind": "word",
+      "texts": {
+        "en": "agree",
+        "th": "เห็นด้วย",
+        "fa": "موافق بودن",
+        "ar": "يوافق",
+        "es": "estar de acuerdo",
+        "zh": "同意",
+        "ja": "賛成する"
+      }
+    },
+    {
+      "id": "word_disagree",
+      "kind": "word",
+      "texts": {
+        "en": "disagree",
+        "th": "ไม่เห็นด้วย",
+        "fa": "مخالف بودن",
+        "ar": "يختلف",
+        "es": "disentir",
+        "zh": "不同意",
+        "ja": "反対する"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Asking & Giving Reasons",
+        "th": "สถานการณ์ 3: การถามและให้เหตุผล",
+        "fa": "سناریو ۳: پرسیدن و بیان دلیل",
+        "ar": "السيناريو 3: السؤال عن الأسباب وتقديمها",
+        "es": "Escenario 3: Preguntar y dar razones",
+        "zh": "场景三：询问与说明理由",
+        "ja": "シナリオ3：理由を尋ねる・述べる"
+      }
+    },
+    {
+      "id": "sentence_debate_reason",
+      "kind": "sentence",
+      "itemIds": [
+        "word_what",
+        "word_reason",
+        "word_you"
+      ],
+      "texts": {
+        "en": "What is your reason?",
+        "th": "เหตุผลของคุณคืออะไร",
+        "fa": "دلیل شما چیست؟",
+        "ar": "ما هو سببك؟",
+        "es": "¿Cuál es tu razón?",
+        "zh": "你的理由是什么？",
+        "ja": "あなたの理由は何ですか？"
+      },
+      "tokens": {
+        "en": [
+          "What",
+          "is",
+          "your",
+          "reason?"
+        ],
+        "th": [
+          "เหตุผล",
+          "ของ",
+          "คุณ",
+          "คือ",
+          "อะไร"
+        ],
+        "fa": [
+          "دلیل",
+          "شما",
+          "چیست؟"
+        ],
+        "ar": [
+          "ما",
+          "هو",
+          "سببك؟"
+        ],
+        "es": [
+          "¿Cuál",
+          "es",
+          "tu",
+          "razón?"
+        ],
+        "zh": [
+          "你的",
+          "理由",
+          "是",
+          "什么？"
+        ],
+        "ja": [
+          "あなた",
+          "の",
+          "理由",
+          "は",
+          "何",
+          "です",
+          "か？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_because_not_good",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_disagree",
+        "word_because",
+        "word_policy",
+        "word_not",
+        "word_good",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "I disagree because this policy is not good (male)",
+        "th": "ฉันไม่เห็นด้วย เพราะนโยบายนี้ไม่ดีครับ",
+        "fa": "مخالقم، چون این سیاست خوب نیست (گوینده مرد)",
+        "ar": "أنا أختلف لأن هذه السياسة ليست جيدة (يقولها الرجل)",
+        "es": "No estoy de acuerdo porque esta política no es buena (hombre)",
+        "zh": "我不同意，因为这项政策不好（男性说）",
+        "ja": "この政策は良くないので反対です（男性）"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "disagree",
+          "because",
+          "this",
+          "policy",
+          "is",
+          "not",
+          "good",
+          "(male)"
+        ],
+        "th": [
+          "ฉัน",
+          "ไม่เห็นด้วย",
+          "เพราะ",
+          "นโยบาย",
+          "นี้",
+          "ไม่",
+          "ดี",
+          "ครับ"
+        ],
+        "fa": [
+          "مخالقم،",
+          "چون",
+          "این",
+          "سیاست",
+          "خوب",
+          "نیست",
+          "(گوینده",
+          "مرد)"
+        ],
+        "ar": [
+          "أنا",
+          "أختلف",
+          "لأن",
+          "هذه",
+          "السياسة",
+          "ليست",
+          "جيدة",
+          "(يقولها",
+          "الرجل)"
+        ],
+        "es": [
+          "No",
+          "estoy",
+          "de",
+          "acuerdo",
+          "porque",
+          "esta",
+          "política",
+          "no",
+          "es",
+          "buena",
+          "(hombre)"
+        ],
+        "zh": [
+          "我",
+          "不同意，",
+          "因为",
+          "这项",
+          "政策",
+          "不好",
+          "（男性说）"
+        ],
+        "ja": [
+          "この",
+          "政策",
+          "は",
+          "良く",
+          "ない",
+          "ので",
+          "反対",
+          "です",
+          "（男性）"
+        ]
+      }
+    },
+    {
+      "id": "sentence_because_necessary",
+      "kind": "sentence",
+      "itemIds": [
+        "word_because",
+        "word_necessary",
+        "word_kha"
+      ],
+      "texts": {
+        "en": "Because it is necessary (female)",
+        "th": "เพราะมันจำเป็นค่ะ",
+        "fa": "چون ضروری است (گوینده زن)",
+        "ar": "لأنه ضروري (تقولها المرأة)",
+        "es": "Porque es necesario (mujer)",
+        "zh": "因为这是必要的（女性说）",
+        "ja": "必要だからです（女性）"
+      },
+      "tokens": {
+        "en": [
+          "Because",
+          "it",
+          "is",
+          "necessary",
+          "(female)"
+        ],
+        "th": [
+          "เพราะ",
+          "มัน",
+          "จำเป็น",
+          "ค่ะ"
+        ],
+        "fa": [
+          "چون",
+          "ضروری",
+          "است",
+          "(گوینده",
+          "زن)"
+        ],
+        "ar": [
+          "لأنه",
+          "ضروري",
+          "(تقولها",
+          "المرأة)"
+        ],
+        "es": [
+          "Porque",
+          "es",
+          "necesario",
+          "(mujer)"
+        ],
+        "zh": [
+          "因为",
+          "这",
+          "是",
+          "必要的",
+          "（女性说）"
+        ],
+        "ja": [
+          "必要",
+          "だから",
+          "です",
+          "（女性）"
+        ]
+      }
+    },
+    {
+      "id": "sentence_you_think_confirm",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_think",
+        "word_necessary",
+        "word_confirmation_particle",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "You think it is necessary, right?",
+        "th": "คุณคิดว่าจำเป็นใช่ไหมครับ",
+        "fa": "شما فکر می‌کنید ضروری است، درست است؟",
+        "ar": "تعتقد أنه ضروري، أليس كذلك؟",
+        "es": "Crees que es necesario, ¿verdad?",
+        "zh": "你认为这是必要的，对吗？",
+        "ja": "必要だと思いますよね？"
+      },
+      "tokens": {
+        "en": [
+          "You",
+          "think",
+          "it",
+          "is",
+          "necessary,",
+          "right?"
+        ],
+        "th": [
+          "คุณ",
+          "คิด",
+          "ว่า",
+          "จำเป็น",
+          "ใช่ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "شما",
+          "فکر",
+          "می‌کنید",
+          "ضروری",
+          "است،",
+          "درست",
+          "است؟"
+        ],
+        "ar": [
+          "تعتقد",
+          "أنه",
+          "ضروري،",
+          "أليس",
+          "كذلك؟"
+        ],
+        "es": [
+          "Crees",
+          "que",
+          "es",
+          "necesario,",
+          "¿verdad?"
+        ],
+        "zh": [
+          "你",
+          "认为",
+          "这",
+          "是",
+          "必要的，",
+          "对吗？"
+        ],
+        "ja": [
+          "必要",
+          "だ",
+          "と",
+          "思い",
+          "ます",
+          "よね？"
+        ]
+      }
+    },
+    {
+      "id": "word_reason",
+      "kind": "word",
+      "texts": {
+        "en": "reason",
+        "th": "เหตุผล",
+        "fa": "دلیل",
+        "ar": "سبب",
+        "es": "razón",
+        "zh": "理由",
+        "ja": "理由"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Conditionals (ถ้า...ก็...)",
+        "th": "สถานการณ์ 4: ประโยคเงื่อนไข (ถ้า...ก็...)",
+        "fa": "سناریو ۴: جملات شرطی (ถ้า...ก็...)",
+        "ar": "السيناريو 4: الجمل الشرطية (ถ้า...ก็...)",
+        "es": "Escenario 4: Condicionales (ถ้า...ก็...)",
+        "zh": "场景四：条件句 (ถ้า...ก็...)",
+        "ja": "シナリオ4：条件文 (ถ้า...ก็...)"
+      }
+    },
+    {
+      "id": "sentence_if_good_agree",
+      "kind": "sentence",
+      "itemIds": [
+        "word_if",
+        "word_policy",
+        "word_good",
+        "word_we",
+        "word_then",
+        "word_agree",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "If this policy is good, we agree (male)",
+        "th": "ถ้านโยบายนี้ดี เราก็เห็นด้วยครับ",
+        "fa": "اگر این سیاست خوب باشد، ما موافقیم (گوینده مرد)",
+        "ar": "إذا كانت هذه السياسة جيدة، فنحن نوافق (يقولها الرجل)",
+        "es": "Si esta política es buena, estamos de acuerdo (hombre)",
+        "zh": "如果这项政策好，我们就同意（男性说）",
+        "ja": "この政策が良ければ、私たちは賛成です（男性）"
+      },
+      "tokens": {
+        "en": [
+          "If",
+          "this",
+          "policy",
+          "is",
+          "good,",
+          "we",
+          "agree",
+          "(male)"
+        ],
+        "th": [
+          "ถ้า",
+          "นโยบาย",
+          "นี้",
+          "ดี",
+          "เรา",
+          "ก็",
+          "เห็นด้วย",
+          "ครับ"
+        ],
+        "fa": [
+          "اگر",
+          "این",
+          "سیاست",
+          "خوب",
+          "باشد،",
+          "ما",
+          "موافقیم",
+          "(گوینده",
+          "مرد)"
+        ],
+        "ar": [
+          "إذا",
+          "كانت",
+          "هذه",
+          "السياسة",
+          "جيدة،",
+          "فنحن",
+          "نوافق",
+          "(يقولها",
+          "الرجل)"
+        ],
+        "es": [
+          "Si",
+          "esta",
+          "política",
+          "es",
+          "buena,",
+          "estamos",
+          "de",
+          "acuerdo",
+          "(hombre)"
+        ],
+        "zh": [
+          "如果",
+          "这项",
+          "政策",
+          "好，",
+          "我们",
+          "就",
+          "同意",
+          "（男性说）"
+        ],
+        "ja": [
+          "この",
+          "政策",
+          "が",
+          "良けれ",
+          "ば、",
+          "私たち",
+          "は",
+          "賛成",
+          "です",
+          "（男性）"
+        ]
+      }
+    },
+    {
+      "id": "sentence_if_disagree_discuss",
+      "kind": "sentence",
+      "itemIds": [
+        "word_if",
+        "word_you",
+        "word_disagree",
+        "word_we",
+        "word_then",
+        "word_discuss",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "If you disagree, let's discuss it (male)",
+        "th": "ถ้าคุณไม่เห็นด้วย เราก็หารือกันครับ",
+        "fa": "اگر مخالفید، بیایید بحث کنیم (گوینده مرد)",
+        "ar": "إذا كنت لا توافق، فلنناقش الأمر (يقولها الرجل)",
+        "es": "Si no estás de acuerdo, discutámoslo (hombre)",
+        "zh": "如果你不同意，我们就讨论一下（男性说）",
+        "ja": "反対なら、話し合いましょう（男性）"
+      },
+      "tokens": {
+        "en": [
+          "If",
+          "you",
+          "disagree,",
+          "let's",
+          "discuss",
+          "it",
+          "(male)"
+        ],
+        "th": [
+          "ถ้า",
+          "คุณ",
+          "ไม่เห็นด้วย",
+          "เรา",
+          "ก็",
+          "หารือ",
+          "กัน",
+          "ครับ"
+        ],
+        "fa": [
+          "اگر",
+          "مخالفید،",
+          "بیایید",
+          "بحث",
+          "کنیم",
+          "(گوینده",
+          "مرد)"
+        ],
+        "ar": [
+          "إذا",
+          "كنت",
+          "لا",
+          "توافق،",
+          "فلنناقش",
+          "الأمر",
+          "(يقولها",
+          "الرجل)"
+        ],
+        "es": [
+          "Si",
+          "no",
+          "estás",
+          "de",
+          "acuerdo,",
+          "discutámoslo",
+          "(hombre)"
+        ],
+        "zh": [
+          "如果",
+          "你",
+          "不同意，",
+          "我们",
+          "就",
+          "讨论",
+          "一下",
+          "（男性说）"
+        ],
+        "ja": [
+          "反対",
+          "なら、",
+          "話し合い",
+          "ましょう",
+          "（男性）"
+        ]
+      }
+    },
+    {
+      "id": "sentence_if_understand_agree",
+      "kind": "sentence",
+      "itemIds": [
+        "word_if",
+        "word_you",
+        "word_understand",
+        "word_we",
+        "word_then",
+        "word_agree",
+        "word_kha"
+      ],
+      "texts": {
+        "en": "If you understand, we agree (female)",
+        "th": "ถ้าคุณเข้าใจ เราก็เห็นด้วยค่ะ",
+        "fa": "اگر متوجه شدید، ما موافقیم (گوینده زن)",
+        "ar": "إذا فهمت، فنحن نوافق (تقولها المرأة)",
+        "es": "Si entiendes, estamos de acuerdo (mujer)",
+        "zh": "如果你理解，我们就同意（女性说）",
+        "ja": "ご理解いただければ、私たちは賛成です（女性）"
+      },
+      "tokens": {
+        "en": [
+          "If",
+          "you",
+          "understand,",
+          "we",
+          "agree",
+          "(female)"
+        ],
+        "th": [
+          "ถ้า",
+          "คุณ",
+          "เข้าใจ",
+          "เรา",
+          "ก็",
+          "เห็นด้วย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "اگر",
+          "متوجه",
+          "شدید،",
+          "ما",
+          "موافقیم",
+          "(گوینده",
+          "زن)"
+        ],
+        "ar": [
+          "إذا",
+          "فهمت،",
+          "فنحن",
+          "نوافق",
+          "(تقولها",
+          "المرأة)"
+        ],
+        "es": [
+          "Si",
+          "entiendes,",
+          "estamos",
+          "de",
+          "acuerdo",
+          "(mujer)"
+        ],
+        "zh": [
+          "如果",
+          "你",
+          "理解，",
+          "我们",
+          "就",
+          "同意",
+          "（女性说）"
+        ],
+        "ja": [
+          "ご",
+          "理解",
+          "いただけ",
+          "ば、",
+          "私たち",
+          "は",
+          "賛成",
+          "です",
+          "（女性）"
+        ]
+      }
+    },
+    {
+      "id": "sentence_debate_compromise",
+      "kind": "sentence",
+      "itemIds": [
+        "word_maybe",
+        "word_we",
+        "word_compromise"
+      ],
+      "texts": {
+        "en": "Maybe we can compromise",
+        "th": "บางทีเราอาจจะประนีประนอมกันได้",
+        "fa": "شاید بتوانیم مصالحه کنیم",
+        "ar": "ربما يمكننا التنازل",
+        "es": "Tal vez podamos transigir",
+        "zh": "也许我们可以妥协",
+        "ja": "たぶん私たちは妥協できるでしょう"
+      },
+      "tokens": {
+        "en": [
+          "Maybe",
+          "we",
+          "can",
+          "compromise"
+        ],
+        "th": [
+          "บางที",
+          "เรา",
+          "อาจ",
+          "จะ",
+          "ประนีประนอม",
+          "กัน",
+          "ได้"
+        ],
+        "fa": [
+          "شاید",
+          "بتوانیم",
+          "مصالحه",
+          "کنیم"
+        ],
+        "ar": [
+          "ربما",
+          "يمكننا",
+          "التنازل"
+        ],
+        "es": [
+          "Tal",
+          "vez",
+          "podamos",
+          "transigir"
+        ],
+        "zh": [
+          "也许",
+          "我们",
+          "可以",
+          "妥协"
+        ],
+        "ja": [
+          "たぶん",
+          "私たち",
+          "は",
+          "妥協",
+          "できる",
+          "でしょう"
+        ]
+      }
+    },
+    {
+      "id": "word_maybe",
+      "kind": "word",
+      "texts": {
+        "en": "maybe",
+        "th": "บางที",
+        "fa": "شاید",
+        "ar": "ربما",
+        "es": "tal vez",
+        "zh": "也许",
+        "ja": "たぶん"
+      }
+    },
+    {
+      "id": "word_compromise",
+      "kind": "word",
+      "texts": {
+        "en": "compromise",
+        "th": "ประนีประนอม",
+        "fa": "مصالحه کردن",
+        "ar": "يتنازل",
+        "es": "transigir",
+        "zh": "妥协",
+        "ja": "妥協する"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Conjunctions in Debate (แต่ / และ / หรือ)",
+        "th": "สถานการณ์ 5: คำสันธานในการอภิปราย (แต่ / และ / หรือ)",
+        "fa": "سناریو ۵: حروف ربط در بحث (แต่ / และ / หรือ)",
+        "ar": "السيناريو 5: حروف العطف في النقاش (แต่ / และ / หรือ)",
+        "es": "Escenario 5: Conjunciones en el debate (แต่ / และ / หรือ)",
+        "zh": "场景五：辩论中的连词 (แต่ / และ / หรือ)",
+        "ja": "シナリオ5：討論の接続詞 (แต่ / และ / หรือ)"
+      }
+    },
+    {
+      "id": "sentence_debate_understand_discuss",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_understand",
+        "word_opinion",
+        "word_you",
+        "word_we",
+        "word_discuss"
+      ],
+      "texts": {
+        "en": "I understand your opinion, but we should discuss more",
+        "th": "ฉันเข้าใจความคิดเห็นของคุณ แต่เราควรหารือเพิ่มเติม",
+        "fa": "من نظر شما را درک می‌کنم، اما باید بیشتر بحث کنیم",
+        "ar": "أنا أفهم رأيك، ولكن يجب أن نناقش أكثر",
+        "es": "Entiendo tu opinión, pero deberíamos discutir más",
+        "zh": "我理解你的意见，但我们应该进一步讨论",
+        "ja": "あなたの意見は理解しますが、もっと話し合うべきです"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "understand",
+          "your",
+          "opinion,",
+          "but",
+          "we",
+          "should",
+          "discuss",
+          "more"
+        ],
+        "th": [
+          "ฉัน",
+          "เข้าใจ",
+          "ความคิดเห็น",
+          "ของ",
+          "คุณ",
+          "แต่",
+          "เรา",
+          "ควร",
+          "หารือ",
+          "เพิ่มเติม"
+        ],
+        "fa": [
+          "من",
+          "نظر",
+          "شما",
+          "را",
+          "درک",
+          "می‌کنم،",
+          "اما",
+          "باید",
+          "بیشتر",
+          "بحث",
+          "کنیم"
+        ],
+        "ar": [
+          "أنا",
+          "أفهم",
+          "رأيك،",
+          "ولكن",
+          "يجب",
+          "أن",
+          "نناقش",
+          "أكثر"
+        ],
+        "es": [
+          "Entiendo",
+          "tu",
+          "opinión,",
+          "pero",
+          "deberíamos",
+          "discutir",
+          "más"
+        ],
+        "zh": [
+          "我",
+          "理解",
+          "你的",
+          "意见",
+          "但",
+          "我们",
+          "应该",
+          "进一步",
+          "讨论"
+        ],
+        "ja": [
+          "あなた",
+          "の",
+          "意見",
+          "は",
+          "理解",
+          "します",
+          "が",
+          "もっと",
+          "話し合う",
+          "べき",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_but_disagree",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_understand",
+        "word_but",
+        "word_disagree",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "I understand, but I disagree (male)",
+        "th": "ฉันเข้าใจ แต่ฉันไม่เห็นด้วยครับ",
+        "fa": "متوجه هستم، اما مخالفم (گوینده مرد)",
+        "ar": "أنا أفهم، لكنني أختلف (يقولها الرجل)",
+        "es": "Entiendo, pero no estoy de acuerdo (hombre)",
+        "zh": "我理解，但我不同意（男性说）",
+        "ja": "理解しますが、反対です（男性）"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "understand,",
+          "but",
+          "I",
+          "disagree",
+          "(male)"
+        ],
+        "th": [
+          "ฉัน",
+          "เข้าใจ",
+          "แต่",
+          "ฉัน",
+          "ไม่เห็นด้วย",
+          "ครับ"
+        ],
+        "fa": [
+          "متوجه",
+          "هستم،",
+          "اما",
+          "مخالفم",
+          "(گوینده",
+          "مرد)"
+        ],
+        "ar": [
+          "أنا",
+          "أفهم،",
+          "لكنني",
+          "أختلف",
+          "(يقولها",
+          "الرجل)"
+        ],
+        "es": [
+          "Entiendo,",
+          "pero",
+          "no",
+          "estoy",
+          "de",
+          "acuerdo",
+          "(hombre)"
+        ],
+        "zh": [
+          "我",
+          "理解，",
+          "但",
+          "我",
+          "不同意",
+          "（男性说）"
+        ],
+        "ja": [
+          "理解",
+          "します",
+          "が、",
+          "反対",
+          "です",
+          "（男性）"
+        ]
+      }
+    },
+    {
+      "id": "sentence_and_agree",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_understand",
+        "word_and",
+        "word_agree",
+        "word_kha"
+      ],
+      "texts": {
+        "en": "I understand and agree (female)",
+        "th": "ฉันเข้าใจและเห็นด้วยค่ะ",
+        "fa": "متوجه هستم و موافقم (گوینده زن)",
+        "ar": "أنا أفهم وأوافق (تقولها المرأة)",
+        "es": "Entiendo y estoy de acuerdo (mujer)",
+        "zh": "我理解并且同意（女性说）",
+        "ja": "理解していますし賛成です（女性）"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "understand",
+          "and",
+          "agree",
+          "(female)"
+        ],
+        "th": [
+          "ฉัน",
+          "เข้าใจ",
+          "และ",
+          "เห็นด้วย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "متوجه",
+          "هستم",
+          "و",
+          "موافقم",
+          "(گوینده",
+          "زن)"
+        ],
+        "ar": [
+          "أنا",
+          "أفهم",
+          "وأوافق",
+          "(تقولها",
+          "المرأة)"
+        ],
+        "es": [
+          "Entiendo",
+          "y",
+          "estoy",
+          "de",
+          "acuerdo",
+          "(mujer)"
+        ],
+        "zh": [
+          "我",
+          "理解",
+          "并且",
+          "同意",
+          "（女性说）"
+        ],
+        "ja": [
+          "理解",
+          "して",
+          "います",
+          "し",
+          "賛成",
+          "です",
+          "（女性）"
+        ]
+      }
+    },
+    {
+      "id": "sentence_or_agree",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_agree",
+        "word_or",
+        "word_disagree",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "Do you agree or disagree?",
+        "th": "คุณเห็นด้วยหรือไม่เห็นด้วยครับ",
+        "fa": "موافقید یا مخالف؟",
+        "ar": "هل توافق أم تختلف؟",
+        "es": "¿Estás de acuerdo o no?",
+        "zh": "你同意还是不同意？",
+        "ja": "賛成ですか、それとも反対ですか？"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "agree",
+          "or",
+          "disagree?"
+        ],
+        "th": [
+          "คุณ",
+          "เห็นด้วย",
+          "หรือ",
+          "ไม่เห็นด้วย",
+          "ครับ"
+        ],
+        "fa": [
+          "موافقید",
+          "یا",
+          "مخالف؟"
+        ],
+        "ar": [
+          "هل",
+          "توافق",
+          "أم",
+          "تختلف؟"
+        ],
+        "es": [
+          "¿Estás",
+          "de",
+          "acuerdo",
+          "o",
+          "no?"
+        ],
+        "zh": [
+          "你",
+          "同意",
+          "还是",
+          "不同意？"
+        ],
+        "ja": [
+          "賛成",
+          "です",
+          "か、",
+          "それとも",
+          "反対",
+          "です",
+          "か？"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_good",
+      "kind": "word",
+      "texts": {
+        "en": "good",
+        "th": "ดี",
+        "fa": "خوب",
+        "ar": "جيد",
+        "es": "bueno",
+        "zh": "好",
+        "ja": "良い"
+      }
+    },
+    {
+      "id": "sentence_g21_good_na",
+      "kind": "sentence",
+      "itemIds": [
+        "word_good",
+        "word_na"
+      ],
+      "texts": {
+        "en": "It's good, you know",
+        "th": "ดีนะ",
+        "fa": "خوب است، می‌دانی",
+        "ar": "إنه جيد، كما تعلم",
+        "es": "Es bueno, ¿sabes?",
+        "zh": "很好哦",
+        "ja": "いいんだよ"
+      },
+      "tokens": {
+        "en": [
+          "It's",
+          "good,",
+          "you",
+          "know"
+        ],
+        "th": [
+          "ดี",
+          "นะ"
+        ],
+        "fa": [
+          "خوب",
+          "است،",
+          "می‌دانی"
+        ],
+        "ar": [
+          "إنه",
+          "جيد،",
+          "كما",
+          "تعلم"
+        ],
+        "es": [
+          "Es",
+          "bueno,",
+          "¿sabes?"
+        ],
+        "zh": [
+          "很",
+          "好",
+          "哦"
+        ],
+        "ja": [
+          "いい",
+          "ん",
+          "だ",
+          "よ"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g21_do_si",
+      "kind": "sentence",
+      "itemIds": [
+        "word_do",
+        "word_si"
+      ],
+      "texts": {
+        "en": "Do it!",
+        "th": "ทำสิ",
+        "fa": "انجامش بده!",
+        "ar": "افعلها!",
+        "es": "¡Hazlo!",
+        "zh": "做啊！",
+        "ja": "やってよ！"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "it!"
+        ],
+        "th": [
+          "ทำ",
+          "สิ"
+        ],
+        "fa": [
+          "انجامش",
+          "بده!"
+        ],
+        "ar": [
+          "افعلها!"
+        ],
+        "es": [
+          "¡Hazlo!"
+        ],
+        "zh": [
+          "做",
+          "啊"
+        ],
+        "ja": [
+          "やって",
+          "よ"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g21_dont_go_na",
+      "kind": "sentence",
+      "itemIds": [
+        "word_do_not",
+        "word_go",
+        "word_na"
+      ],
+      "texts": {
+        "en": "Don't go, okay?",
+        "th": "อย่าไปนะ",
+        "fa": "نرو، باشه؟",
+        "ar": "لا تذهب، حسنا؟",
+        "es": "No vayas, ¿vale?",
+        "zh": "别去哦",
+        "ja": "行かないでね"
+      },
+      "tokens": {
+        "en": [
+          "Don't",
+          "go,",
+          "okay?"
+        ],
+        "th": [
+          "อย่า",
+          "ไป",
+          "นะ"
+        ],
+        "fa": [
+          "نرو،",
+          "باشه؟"
+        ],
+        "ar": [
+          "لا",
+          "تذهب،",
+          "حسنا؟"
+        ],
+        "es": [
+          "No",
+          "vayas,",
+          "¿vale?"
+        ],
+        "zh": [
+          "别",
+          "去",
+          "哦"
+        ],
+        "ja": [
+          "行かないで",
+          "ね"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g21_what_about_you",
+      "kind": "sentence",
+      "itemIds": [
+        "word_then",
+        "word_you",
+        "word_la"
+      ],
+      "texts": {
+        "en": "What about you?",
+        "th": "แล้วคุณล่ะ",
+        "fa": "و شما چطور؟",
+        "ar": "وماذا عنك؟",
+        "es": "¿Y tú?",
+        "zh": "你呢？",
+        "ja": "あなたは？"
+      },
+      "tokens": {
+        "en": [
+          "What",
+          "about",
+          "you?"
+        ],
+        "th": [
+          "แล้ว",
+          "คุณ",
+          "ล่ะ"
+        ],
+        "fa": [
+          "و",
+          "شما",
+          "چطور؟"
+        ],
+        "ar": [
+          "وماذا",
+          "عنك؟"
+        ],
+        "es": [
+          "¿Y",
+          "tú?"
+        ],
+        "zh": [
+          "你",
+          "呢"
+        ],
+        "ja": [
+          "あなた",
+          "は"
+        ]
+      }
+    },
+    {
+      "id": "word_na",
+      "kind": "word",
+      "texts": {
+        "en": "soft emphasis particle",
+        "th": "นะ",
+        "fa": "ذره نرم",
+        "ar": "أداة تخفيف",
+        "es": "partícula suave",
+        "zh": "语气助词(哦)",
+        "ja": "ね"
+      }
+    },
+    {
+      "id": "word_do",
+      "kind": "word",
+      "texts": {
+        "en": "do",
+        "th": "ทำ",
+        "fa": "انجام دادن",
+        "ar": "يفعل",
+        "es": "hacer",
+        "zh": "做",
+        "ja": "する"
+      }
+    },
+    {
+      "id": "word_si",
+      "kind": "word",
+      "texts": {
+        "en": "strong emphasis particle",
+        "th": "สิ",
+        "fa": "ذره تاکید",
+        "ar": "أداة تأكيد",
+        "es": "partícula fuerte",
+        "zh": "语气助词(啊)",
+        "ja": "よ"
+      }
+    },
+    {
+      "id": "word_do_not",
+      "kind": "word",
+      "texts": {
+        "en": "do not",
+        "th": "อย่า",
+        "fa": "نکن",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不要",
+        "ja": "しないで"
+      }
+    },
+    {
+      "id": "word_go",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "word_then",
+      "kind": "word",
+      "texts": {
+        "en": "then / what about",
+        "th": "แล้ว",
+        "fa": "سپس",
+        "ar": "ثم",
+        "es": "entonces",
+        "zh": "那么",
+        "ja": "では"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_la",
+      "kind": "word",
+      "texts": {
+        "en": "continuation particle",
+        "th": "ล่ะ",
+        "fa": "ذره ادامه",
+        "ar": "أداة استكمال",
+        "es": "partícula continúa",
+        "zh": "语气助词(呢)",
+        "ja": "は"
+      }
+    }
+  ]
+}

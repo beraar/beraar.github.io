@@ -1,0 +1,2765 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำหลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras básicas",
+        "zh": "核心词汇",
+        "ja": "コア単語"
+      }
+    },
+    {
+      "id": "word_wake",
+      "kind": "word",
+      "texts": {
+        "en": "wake up",
+        "th": "ตื่น",
+        "fa": "بیدار شدن",
+        "ar": "يستيقظ",
+        "es": "despertarse",
+        "zh": "醒",
+        "ja": "起きる"
+      }
+    },
+    {
+      "id": "word_sleep",
+      "kind": "word",
+      "texts": {
+        "en": "sleep",
+        "th": "นอน",
+        "fa": "خوابیدن",
+        "ar": "ينام",
+        "es": "dormir",
+        "zh": "睡觉",
+        "ja": "寝る"
+      }
+    },
+    {
+      "id": "word_eat",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "يأكل",
+        "es": "comer",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "word_work",
+      "kind": "word",
+      "texts": {
+        "en": "work",
+        "th": "ทำงาน",
+        "fa": "کار کردن",
+        "ar": "يعمل",
+        "es": "trabajar",
+        "zh": "工作",
+        "ja": "働く"
+      }
+    },
+    {
+      "id": "word_study",
+      "kind": "word",
+      "texts": {
+        "en": "study",
+        "th": "เรียน",
+        "fa": "درس خواندن",
+        "ar": "يدرس",
+        "es": "estudiar",
+        "zh": "学习",
+        "ja": "勉強する"
+      }
+    },
+    {
+      "id": "word_time",
+      "kind": "word",
+      "texts": {
+        "en": "time",
+        "th": "เวลา",
+        "fa": "زمان",
+        "ar": "وقت",
+        "es": "tiempo",
+        "zh": "时间",
+        "ja": "時間"
+      }
+    },
+    {
+      "id": "word_morning",
+      "kind": "word",
+      "texts": {
+        "en": "morning",
+        "th": "เช้า",
+        "fa": "صبح",
+        "ar": "صباح",
+        "es": "mañana",
+        "zh": "早上",
+        "ja": "朝"
+      }
+    },
+    {
+      "id": "word_evening",
+      "kind": "word",
+      "texts": {
+        "en": "evening",
+        "th": "เย็น",
+        "fa": "عصر",
+        "ar": "مساء",
+        "es": "tarde",
+        "zh": "傍晚",
+        "ja": "夕方"
+      }
+    },
+    {
+      "id": "word_night",
+      "kind": "word",
+      "texts": {
+        "en": "night",
+        "th": "กลางคืน",
+        "fa": "شب",
+        "ar": "ليل",
+        "es": "noche",
+        "zh": "夜晚",
+        "ja": "夜"
+      }
+    },
+    {
+      "id": "word_shower",
+      "kind": "word",
+      "texts": {
+        "en": "take a shower",
+        "th": "อาบน้ำ",
+        "fa": "دوش گرفتن",
+        "ar": "يستحم",
+        "es": "ducharse",
+        "zh": "洗澡",
+        "ja": "シャワーを浴びる"
+      }
+    },
+    {
+      "id": "word_brush_teeth",
+      "kind": "word",
+      "texts": {
+        "en": "brush teeth",
+        "th": "แปรงฟัน",
+        "fa": "مسواک زدن",
+        "ar": "يغسل أسنانه",
+        "es": "cepillarse los dientes",
+        "zh": "刷牙",
+        "ja": "歯を磨く"
+      }
+    },
+    {
+      "id": "word_today",
+      "kind": "word",
+      "texts": {
+        "en": "today",
+        "th": "วันนี้",
+        "fa": "امروز",
+        "ar": "اليوم",
+        "es": "hoy",
+        "zh": "今天",
+        "ja": "今日"
+      }
+    },
+    {
+      "id": "word_every_day",
+      "kind": "word",
+      "texts": {
+        "en": "every day",
+        "th": "ทุกวัน",
+        "fa": "هر روز",
+        "ar": "كل يوم",
+        "es": "todos los días",
+        "zh": "每天",
+        "ja": "毎日"
+      }
+    },
+    {
+      "id": "word_I",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_go",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "word_return",
+      "kind": "word",
+      "texts": {
+        "en": "return",
+        "th": "กลับ",
+        "fa": "برگشتن",
+        "ar": "يعود",
+        "es": "volver",
+        "zh": "回",
+        "ja": "帰る"
+      }
+    },
+    {
+      "id": "word_very",
+      "kind": "word",
+      "texts": {
+        "en": "very",
+        "th": "มาก",
+        "fa": "خیلی",
+        "ar": "جداً",
+        "es": "muy",
+        "zh": "很",
+        "ja": "とても"
+      }
+    },
+    {
+      "id": "word_tired",
+      "kind": "word",
+      "texts": {
+        "en": "tired",
+        "th": "เหนื่อย",
+        "fa": "خسته",
+        "ar": "متعب",
+        "es": "cansado",
+        "zh": "累",
+        "ja": "疲れる"
+      }
+    },
+    {
+      "id": "word_home",
+      "kind": "word",
+      "texts": {
+        "en": "home",
+        "th": "บ้าน",
+        "fa": "خانه",
+        "ar": "منزل",
+        "es": "casa",
+        "zh": "家",
+        "ja": "家"
+      }
+    },
+    {
+      "id": "word_drink",
+      "kind": "word",
+      "texts": {
+        "en": "drink",
+        "th": "ดื่ม",
+        "fa": "نوشیدن",
+        "ar": "يشرب",
+        "es": "beber",
+        "zh": "喝",
+        "ja": "飲む"
+      }
+    },
+    {
+      "id": "header_scenario_1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Morning Routine",
+        "th": "สถานการณ์ 1: กิจวัตรตอนเช้า",
+        "fa": "سناریوی ۱: روال صبحگاهی",
+        "ar": "السيناريو ١: الروتين الصباحي",
+        "es": "Escenario 1: Rutina matutina",
+        "zh": "场景一：早晨作息",
+        "ja": "シーン1：朝のルーティン"
+      }
+    },
+    {
+      "id": "sentence_dr_s1_wake_6am",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_wake",
+        "word_morning"
+      ],
+      "texts": {
+        "en": "I wake up at 6 AM",
+        "th": "ฉันตื่นตอนหกโมงเช้าค่ะ",
+        "fa": "من ساعت شش صبح بیدار می‌شوم",
+        "ar": "أستيقظ الساعة السادسة صباحاً",
+        "es": "Me despierto a las seis de la mañana",
+        "zh": "我早上六点起床",
+        "ja": "朝6時に起きます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "wake",
+          "up",
+          "at",
+          "6",
+          "AM"
+        ],
+        "th": [
+          "ฉัน",
+          "ตื่น",
+          "ตอน",
+          "หก",
+          "โมง",
+          "เช้า",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "ساعت",
+          "شش",
+          "صبح",
+          "بیدار",
+          "می‌شوم"
+        ],
+        "ar": [
+          "أستيقظ",
+          "الساعة",
+          "السادسة",
+          "صباحاً"
+        ],
+        "es": [
+          "Me",
+          "despierto",
+          "a",
+          "las",
+          "seis",
+          "de",
+          "la",
+          "mañana"
+        ],
+        "zh": [
+          "我",
+          "早上",
+          "六点",
+          "起床"
+        ],
+        "ja": [
+          "朝",
+          "6時",
+          "に",
+          "起き",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s1_shower",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_shower"
+      ],
+      "texts": {
+        "en": "I take a shower",
+        "th": "ฉันอาบน้ำค่ะ",
+        "fa": "من دوش می‌گیرم",
+        "ar": "أستحم",
+        "es": "Me ducho",
+        "zh": "我洗澡",
+        "ja": "シャワーを浴びます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "take",
+          "a",
+          "shower"
+        ],
+        "th": [
+          "ฉัน",
+          "อาบน้ำ",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "دوش",
+          "می‌گیرم"
+        ],
+        "ar": [
+          "أستحم"
+        ],
+        "es": [
+          "Me",
+          "ducho"
+        ],
+        "zh": [
+          "我",
+          "洗澡"
+        ],
+        "ja": [
+          "シャワー",
+          "を",
+          "浴び",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s1_brush_teeth",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_brush_teeth"
+      ],
+      "texts": {
+        "en": "I brush my teeth",
+        "th": "ฉันแปรงฟันค่ะ",
+        "fa": "من مسواک می‌زنم",
+        "ar": "أغسل أسناني",
+        "es": "Me cepillo los dientes",
+        "zh": "我刷牙",
+        "ja": "歯を磨きます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "brush",
+          "my",
+          "teeth"
+        ],
+        "th": [
+          "ฉัน",
+          "แปรงฟัน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "مسواک",
+          "می‌زنم"
+        ],
+        "ar": [
+          "أغسل",
+          "أسناني"
+        ],
+        "es": [
+          "Me",
+          "cepillo",
+          "los",
+          "dientes"
+        ],
+        "zh": [
+          "我",
+          "刷牙"
+        ],
+        "ja": [
+          "歯",
+          "を",
+          "磨き",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s1_get_dressed",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_get_dressed",
+        "word_fast"
+      ],
+      "texts": {
+        "en": "I get dressed fast",
+        "th": "ฉันแต่งตัวเร็วค่ะ",
+        "fa": "من سریع لباس می‌پوشم",
+        "ar": "أرتدي ملابسي بسرعة",
+        "es": "Me visto rápido",
+        "zh": "我快速穿好衣服",
+        "ja": "早く着替えます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "get",
+          "dressed",
+          "fast"
+        ],
+        "th": [
+          "ฉัน",
+          "แต่งตัว",
+          "เร็ว",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "سریع",
+          "لباس",
+          "می‌پوشم"
+        ],
+        "ar": [
+          "أرتدي",
+          "ملابسي",
+          "بسرعة"
+        ],
+        "es": [
+          "Me",
+          "visto",
+          "rápido"
+        ],
+        "zh": [
+          "我",
+          "快速",
+          "穿好",
+          "衣服"
+        ],
+        "ja": [
+          "早く",
+          "着替え",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s1_breakfast",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_eat",
+        "word_breakfast"
+      ],
+      "texts": {
+        "en": "I eat breakfast",
+        "th": "ฉันกินอาหารเช้าค่ะ",
+        "fa": "من صبحانه می‌خورم",
+        "ar": "أتناول الفطور",
+        "es": "Desayuno",
+        "zh": "我吃早餐",
+        "ja": "朝ご飯を食べます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "eat",
+          "breakfast"
+        ],
+        "th": [
+          "ฉัน",
+          "กิน",
+          "อาหารเช้า",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "صبحانه",
+          "می‌خورم"
+        ],
+        "ar": [
+          "أتناول",
+          "الفطور"
+        ],
+        "es": [
+          "Desayuno"
+        ],
+        "zh": [
+          "我",
+          "吃",
+          "早餐"
+        ],
+        "ja": [
+          "朝ご飯",
+          "を",
+          "食べ",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s1_coffee",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_drink",
+        "word_coffee"
+      ],
+      "texts": {
+        "en": "I drink coffee",
+        "th": "ฉันดื่มกาแฟค่ะ",
+        "fa": "من قهوه می‌نوشم",
+        "ar": "أشرب القهوة",
+        "es": "Bebo café",
+        "zh": "我喝咖啡",
+        "ja": "コーヒーを飲みます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "drink",
+          "coffee"
+        ],
+        "th": [
+          "ฉัน",
+          "ดื่ม",
+          "กาแฟ",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "قهوه",
+          "می‌نوشم"
+        ],
+        "ar": [
+          "أشرب",
+          "القهوة"
+        ],
+        "es": [
+          "Bebo",
+          "café"
+        ],
+        "zh": [
+          "我",
+          "喝",
+          "咖啡"
+        ],
+        "ja": [
+          "コーヒー",
+          "を",
+          "飲み",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s1_leave",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_leave",
+        "word_home"
+      ],
+      "texts": {
+        "en": "I leave the house",
+        "th": "ฉันออกจากบ้านค่ะ",
+        "fa": "از خانه خارج می‌شوم",
+        "ar": "أغادر المنزل",
+        "es": "Salgo de casa",
+        "zh": "我出门",
+        "ja": "家を出ます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "leave",
+          "the",
+          "house"
+        ],
+        "th": [
+          "ฉัน",
+          "ออก",
+          "จาก",
+          "บ้าน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "از",
+          "خانه",
+          "خارج",
+          "می‌شوم"
+        ],
+        "ar": [
+          "أغادر",
+          "المنزل"
+        ],
+        "es": [
+          "Salgo",
+          "de",
+          "casa"
+        ],
+        "zh": [
+          "我",
+          "出门"
+        ],
+        "ja": [
+          "家",
+          "を",
+          "出",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "word_breakfast",
+      "kind": "word",
+      "texts": {
+        "en": "breakfast",
+        "th": "อาหารเช้า",
+        "fa": "صبحانه",
+        "ar": "فطور",
+        "es": "desayuno",
+        "zh": "早餐",
+        "ja": "朝ご飯"
+      }
+    },
+    {
+      "id": "word_coffee",
+      "kind": "word",
+      "texts": {
+        "en": "coffee",
+        "th": "กาแฟ",
+        "fa": "قهوه",
+        "ar": "قهوة",
+        "es": "café",
+        "zh": "咖啡",
+        "ja": "コーヒー"
+      }
+    },
+    {
+      "id": "word_fast",
+      "kind": "word",
+      "texts": {
+        "en": "fast",
+        "th": "เร็ว",
+        "fa": "سریع",
+        "ar": "سريع",
+        "es": "rápido",
+        "zh": "快",
+        "ja": "早く"
+      }
+    },
+    {
+      "id": "word_get_dressed",
+      "kind": "word",
+      "texts": {
+        "en": "get dressed",
+        "th": "แต่งตัว",
+        "fa": "لباس پوشیدن",
+        "ar": "يرتدي ملابسه",
+        "es": "vestirse",
+        "zh": "穿衣服",
+        "ja": "着替える"
+      }
+    },
+    {
+      "id": "word_leave",
+      "kind": "word",
+      "texts": {
+        "en": "leave",
+        "th": "ออก",
+        "fa": "خارج شدن",
+        "ar": "يغادر",
+        "es": "salir",
+        "zh": "出",
+        "ja": "出る"
+      }
+    },
+    {
+      "id": "word_prepare",
+      "kind": "word",
+      "texts": {
+        "en": "prepare",
+        "th": "เตรียม",
+        "fa": "آماده کردن",
+        "ar": "يحضر",
+        "es": "preparar",
+        "zh": "准备",
+        "ja": "準備する"
+      }
+    },
+    {
+      "id": "header_scenario_2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Telling Time (The Thai Way)",
+        "th": "สถานการณ์ 2: การบอกเวลา (แบบไทย)",
+        "fa": "سناریوی ۲: گفتن ساعت (به روش تایلندی)",
+        "ar": "السيناريو ٢: إخبار الوقت (بالطريقة التايلاندية)",
+        "es": "Escenario 2: Decir la hora (estilo tailandés)",
+        "zh": "场景二：泰式时间表达",
+        "ja": "シーン2：タイ式の時間の言い方"
+      }
+    },
+    {
+      "id": "sentence_dr_s2_what_time",
+      "kind": "sentence",
+      "itemIds": [
+        "word_now",
+        "word_time"
+      ],
+      "texts": {
+        "en": "What time is it now",
+        "th": "ตอนนี้กี่โมงคะ",
+        "fa": "الان ساعت چند است",
+        "ar": "كم الساعة الآن",
+        "es": "Qué hora es ahora",
+        "zh": "现在几点",
+        "ja": "今何時ですか"
+      },
+      "tokens": {
+        "en": [
+          "What",
+          "time",
+          "is",
+          "it",
+          "now"
+        ],
+        "th": [
+          "ตอนนี้",
+          "กี่",
+          "โมง",
+          "คะ"
+        ],
+        "fa": [
+          "الان",
+          "ساعت",
+          "چند",
+          "است"
+        ],
+        "ar": [
+          "كم",
+          "الساعة",
+          "الآن"
+        ],
+        "es": [
+          "Qué",
+          "hora",
+          "es",
+          "ahora"
+        ],
+        "zh": [
+          "现在",
+          "几点"
+        ],
+        "ja": [
+          "今",
+          "何時",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s2_8am",
+      "kind": "sentence",
+      "itemIds": [
+        "word_oclock",
+        "word_morning"
+      ],
+      "texts": {
+        "en": "It is 8 AM",
+        "th": "แปดโมงเช้าค่ะ",
+        "fa": "ساعت هشت صبح است",
+        "ar": "الساعة الثامنة صباحاً",
+        "es": "Son las ocho de la mañana",
+        "zh": "早上八点",
+        "ja": "朝8時です"
+      },
+      "tokens": {
+        "en": [
+          "It",
+          "is",
+          "8",
+          "AM"
+        ],
+        "th": [
+          "แปด",
+          "โมง",
+          "เช้า",
+          "ค่ะ"
+        ],
+        "fa": [
+          "ساعت",
+          "هشت",
+          "صبح",
+          "است"
+        ],
+        "ar": [
+          "الساعة",
+          "الثامنة",
+          "صباحاً"
+        ],
+        "es": [
+          "Son",
+          "las",
+          "ocho",
+          "de",
+          "la",
+          "mañana"
+        ],
+        "zh": [
+          "早上",
+          "八点"
+        ],
+        "ja": [
+          "朝",
+          "8時",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s2_1pm",
+      "kind": "sentence",
+      "itemIds": [
+        "word_bai",
+        "word_oclock"
+      ],
+      "texts": {
+        "en": "It is 1 PM",
+        "th": "บ่ายโมงค่ะ",
+        "fa": "ساعت یک بعدازظهر است",
+        "ar": "الساعة الواحدة ظهراً",
+        "es": "Es la una de la tarde",
+        "zh": "下午一点",
+        "ja": "午後1時です"
+      },
+      "tokens": {
+        "en": [
+          "It",
+          "is",
+          "1",
+          "PM"
+        ],
+        "th": [
+          "บ่าย",
+          "โมง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "ساعت",
+          "یک",
+          "بعدازظهر",
+          "است"
+        ],
+        "ar": [
+          "الساعة",
+          "الواحدة",
+          "ظهراً"
+        ],
+        "es": [
+          "Es",
+          "la",
+          "una",
+          "de",
+          "la",
+          "tarde"
+        ],
+        "zh": [
+          "下午",
+          "一点"
+        ],
+        "ja": [
+          "午後",
+          "1時",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s2_7pm",
+      "kind": "sentence",
+      "itemIds": [
+        "word_thum"
+      ],
+      "texts": {
+        "en": "It is 7 PM",
+        "th": "หนึ่งทุ่มค่ะ",
+        "fa": "ساعت هفت شب است",
+        "ar": "الساعة السابعة مساءً",
+        "es": "Son las siete de la noche",
+        "zh": "晚上七点",
+        "ja": "夜7時です"
+      },
+      "tokens": {
+        "en": [
+          "It",
+          "is",
+          "7",
+          "PM"
+        ],
+        "th": [
+          "หนึ่ง",
+          "ทุ่ม",
+          "ค่ะ"
+        ],
+        "fa": [
+          "ساعت",
+          "هفت",
+          "شب",
+          "است"
+        ],
+        "ar": [
+          "الساعة",
+          "السابعة",
+          "مساءً"
+        ],
+        "es": [
+          "Son",
+          "las",
+          "siete",
+          "de",
+          "la",
+          "noche"
+        ],
+        "zh": [
+          "晚上",
+          "七点"
+        ],
+        "ja": [
+          "夜",
+          "7時",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s2_10pm",
+      "kind": "sentence",
+      "itemIds": [
+        "word_thum"
+      ],
+      "texts": {
+        "en": "It is 10 PM",
+        "th": "สี่ทุ่มค่ะ",
+        "fa": "ساعت ده شب است",
+        "ar": "الساعة العاشرة مساءً",
+        "es": "Son las diez de la noche",
+        "zh": "晚上十点",
+        "ja": "夜10時です"
+      },
+      "tokens": {
+        "en": [
+          "It",
+          "is",
+          "10",
+          "PM"
+        ],
+        "th": [
+          "สี่",
+          "ทุ่ม",
+          "ค่ะ"
+        ],
+        "fa": [
+          "ساعت",
+          "ده",
+          "شب",
+          "است"
+        ],
+        "ar": [
+          "الساعة",
+          "العاشرة",
+          "مساءً"
+        ],
+        "es": [
+          "Son",
+          "las",
+          "diez",
+          "de",
+          "la",
+          "noche"
+        ],
+        "zh": [
+          "晚上",
+          "十点"
+        ],
+        "ja": [
+          "夜",
+          "10時",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s2_2am",
+      "kind": "sentence",
+      "itemIds": [
+        "word_tee"
+      ],
+      "texts": {
+        "en": "It is 2 AM",
+        "th": "ตีสองค่ะ",
+        "fa": "ساعت دو نیمه‌شب است",
+        "ar": "الساعة الثانية فجراً",
+        "es": "Son las dos de la madrugada",
+        "zh": "凌晨两点",
+        "ja": "午前2時です"
+      },
+      "tokens": {
+        "en": [
+          "It",
+          "is",
+          "2",
+          "AM"
+        ],
+        "th": [
+          "ตี",
+          "สอง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "ساعت",
+          "دو",
+          "نیمه‌شب",
+          "است"
+        ],
+        "ar": [
+          "الساعة",
+          "الثانية",
+          "فجراً"
+        ],
+        "es": [
+          "Son",
+          "las",
+          "dos",
+          "de",
+          "la",
+          "madrugada"
+        ],
+        "zh": [
+          "凌晨",
+          "两点"
+        ],
+        "ja": [
+          "午前",
+          "2時",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s2_half_past_5",
+      "kind": "sentence",
+      "itemIds": [
+        "word_oclock",
+        "word_half"
+      ],
+      "texts": {
+        "en": "It is half past five",
+        "th": "ห้าโมงครึ่งค่ะ",
+        "fa": "ساعت پنج و نیم است",
+        "ar": "الساعة الخامسة والنصف",
+        "es": "Son las cinco y media",
+        "zh": "五点半",
+        "ja": "5時半です"
+      },
+      "tokens": {
+        "en": [
+          "It",
+          "is",
+          "half",
+          "past",
+          "five"
+        ],
+        "th": [
+          "ห้า",
+          "โมง",
+          "ครึ่ง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "ساعت",
+          "پنج",
+          "و",
+          "نیم",
+          "است"
+        ],
+        "ar": [
+          "الساعة",
+          "الخامسة",
+          "والنصف"
+        ],
+        "es": [
+          "Son",
+          "las",
+          "cinco",
+          "y",
+          "media"
+        ],
+        "zh": [
+          "五点",
+          "半"
+        ],
+        "ja": [
+          "5時",
+          "半",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "word_oclock",
+      "kind": "word",
+      "texts": {
+        "en": "o'clock (morning)",
+        "th": "โมง",
+        "fa": "ساعت",
+        "ar": "الساعة",
+        "es": "en punto",
+        "zh": "点",
+        "ja": "時"
+      }
+    },
+    {
+      "id": "word_bai",
+      "kind": "word",
+      "texts": {
+        "en": "1 PM - 4 PM",
+        "th": "บ่าย",
+        "fa": "بعدازظهر",
+        "ar": "ظهراً",
+        "es": "de la tarde",
+        "zh": "下午",
+        "ja": "午後"
+      }
+    },
+    {
+      "id": "word_thum",
+      "kind": "word",
+      "texts": {
+        "en": "7 PM - 11 PM",
+        "th": "ทุ่ม",
+        "fa": "شب",
+        "ar": "مساءً",
+        "es": "de la noche",
+        "zh": "晚上",
+        "ja": "夜"
+      }
+    },
+    {
+      "id": "word_tee",
+      "kind": "word",
+      "texts": {
+        "en": "1 AM - 5 AM",
+        "th": "ตี",
+        "fa": "نیمه‌شب",
+        "ar": "فجراً",
+        "es": "de la madrugada",
+        "zh": "凌晨",
+        "ja": "午前"
+      }
+    },
+    {
+      "id": "word_half",
+      "kind": "word",
+      "texts": {
+        "en": "half",
+        "th": "ครึ่ง",
+        "fa": "نیم",
+        "ar": "والنصف",
+        "es": "y media",
+        "zh": "半",
+        "ja": "半"
+      }
+    },
+    {
+      "id": "word_now",
+      "kind": "word",
+      "texts": {
+        "en": "now",
+        "th": "ตอนนี้",
+        "fa": "الان",
+        "ar": "الآن",
+        "es": "ahora",
+        "zh": "现在",
+        "ja": "今"
+      }
+    },
+    {
+      "id": "header_scenario_3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Work, Study & Commute",
+        "th": "สถานการณ์ 3: การทำงาน เรียน และเดินทาง",
+        "fa": "سناریوی ۳: کار، مطالعه و رفت‌وآمد",
+        "ar": "السيناريو ٣: العمل والدراسة والتنقل",
+        "es": "Escenario 3: Trabajo, estudio y desplazamiento",
+        "zh": "场景三：工作、学习与通勤",
+        "ja": "シーン3：仕事、勉強と通勤"
+      }
+    },
+    {
+      "id": "sentence_dr_s3_work_office",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_work",
+        "word_office"
+      ],
+      "texts": {
+        "en": "I work at the office",
+        "th": "ฉันทำงานที่ออฟฟิศค่ะ",
+        "fa": "من در دفتر کار می‌کنم",
+        "ar": "أعمل في المكتب",
+        "es": "Trabajo en la oficina",
+        "zh": "我在办公室工作",
+        "ja": "オフィスで働きます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "work",
+          "at",
+          "the",
+          "office"
+        ],
+        "th": [
+          "ฉัน",
+          "ทำงาน",
+          "ที่",
+          "ออฟฟิศ",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "در",
+          "دفتر",
+          "کار",
+          "می‌کنم"
+        ],
+        "ar": [
+          "أعمل",
+          "في",
+          "المكتب"
+        ],
+        "es": [
+          "Trabajo",
+          "en",
+          "la",
+          "oficina"
+        ],
+        "zh": [
+          "我",
+          "在",
+          "办公室",
+          "工作"
+        ],
+        "ja": [
+          "オフィス",
+          "で",
+          "働き",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s3_study_thai",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_study"
+      ],
+      "texts": {
+        "en": "I study Thai",
+        "th": "ฉันเรียนภาษาไทยค่ะ",
+        "fa": "من تایلندی می‌خوانم",
+        "ar": "أدرس التايلاندية",
+        "es": "Estudio tailandés",
+        "zh": "我学习泰语",
+        "ja": "タイ語を勉強します"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "study",
+          "Thai"
+        ],
+        "th": [
+          "ฉัน",
+          "เรียน",
+          "ภาษาไทย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "تایلندی",
+          "می‌خوانم"
+        ],
+        "ar": [
+          "أدرس",
+          "التايلاندية"
+        ],
+        "es": [
+          "Estudio",
+          "tailandés"
+        ],
+        "zh": [
+          "我",
+          "学习",
+          "泰语"
+        ],
+        "ja": [
+          "タイ語",
+          "を",
+          "勉強",
+          "し",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s3_traffic",
+      "kind": "sentence",
+      "itemIds": [
+        "word_traffic",
+        "word_very"
+      ],
+      "texts": {
+        "en": "The traffic is bad",
+        "th": "รถติดมากค่ะ",
+        "fa": "ترافیک خیلی سنگین است",
+        "ar": "حركة المرور سيئة جداً",
+        "es": "El tráfico está muy mal",
+        "zh": "非常堵车",
+        "ja": "とても渋滞しています"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "traffic",
+          "is",
+          "bad"
+        ],
+        "th": [
+          "รถติด",
+          "มาก",
+          "ค่ะ"
+        ],
+        "fa": [
+          "ترافیک",
+          "خیلی",
+          "سنگین",
+          "است"
+        ],
+        "ar": [
+          "حركة",
+          "المرور",
+          "سيئة",
+          "جداً"
+        ],
+        "es": [
+          "El",
+          "tráfico",
+          "está",
+          "muy",
+          "mal"
+        ],
+        "zh": [
+          "非常",
+          "堵车"
+        ],
+        "ja": [
+          "とても",
+          "渋滞",
+          "して",
+          "います"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s3_BTS",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_BTS"
+      ],
+      "texts": {
+        "en": "I take the BTS",
+        "th": "ฉันนั่งบีทีเอสค่ะ",
+        "fa": "من با بی‌تی‌اس می‌روم",
+        "ar": "أركب القطار الكهربائي",
+        "es": "Tomo el BTS",
+        "zh": "我坐轻轨",
+        "ja": "スカイトレインに乗ります"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "take",
+          "the",
+          "BTS"
+        ],
+        "th": [
+          "ฉัน",
+          "นั่ง",
+          "บีทีเอส",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "با",
+          "بی‌تی‌اس",
+          "می‌روم"
+        ],
+        "ar": [
+          "أركب",
+          "القطار",
+          "الكهربائي"
+        ],
+        "es": [
+          "Tomo",
+          "el",
+          "BTS"
+        ],
+        "zh": [
+          "我",
+          "坐",
+          "轻轨"
+        ],
+        "ja": [
+          "スカイトレイン",
+          "に",
+          "乗り",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s3_finish_5pm",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_finish",
+        "word_evening"
+      ],
+      "texts": {
+        "en": "I finish work at 5 PM",
+        "th": "ฉันเลิกงานตอนห้าโมงเย็นค่ะ",
+        "fa": "من ساعت پنج عصر کارم تمام می‌شود",
+        "ar": "أنتهي من العمل الساعة الخامسة مساءً",
+        "es": "Termino de trabajar a las cinco de la tarde",
+        "zh": "我下午五点下班",
+        "ja": "午後5時に仕事が終わります"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "finish",
+          "work",
+          "at",
+          "5",
+          "PM"
+        ],
+        "th": [
+          "ฉัน",
+          "เลิกงาน",
+          "ตอน",
+          "ห้า",
+          "โมง",
+          "เย็น",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "ساعت",
+          "پنج",
+          "عصر",
+          "کارم",
+          "تمام",
+          "می‌شود"
+        ],
+        "ar": [
+          "أنتهي",
+          "من",
+          "العمل",
+          "الساعة",
+          "الخامسة",
+          "مساءً"
+        ],
+        "es": [
+          "Termino",
+          "de",
+          "trabajar",
+          "a",
+          "las",
+          "cinco",
+          "de",
+          "la",
+          "tarde"
+        ],
+        "zh": [
+          "我",
+          "下午",
+          "五点",
+          "下班"
+        ],
+        "ja": [
+          "午後",
+          "5時",
+          "に",
+          "仕事",
+          "が",
+          "終わり",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s3_rest",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_rest"
+      ],
+      "texts": {
+        "en": "I take a rest",
+        "th": "ฉันพักผ่อนค่ะ",
+        "fa": "من استراحت می‌کنم",
+        "ar": "آخذ قسطاً من الراحة",
+        "es": "Descanso",
+        "zh": "我休息",
+        "ja": "休みます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "take",
+          "a",
+          "rest"
+        ],
+        "th": [
+          "ฉัน",
+          "พักผ่อน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "استراحت",
+          "می‌کنم"
+        ],
+        "ar": [
+          "آخذ",
+          "قسطاً",
+          "من",
+          "الراحة"
+        ],
+        "es": [
+          "Descanso"
+        ],
+        "zh": [
+          "我",
+          "休息"
+        ],
+        "ja": [
+          "休み",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s3_return",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_return",
+        "word_home"
+      ],
+      "texts": {
+        "en": "I return home",
+        "th": "ฉันกลับบ้านค่ะ",
+        "fa": "به خانه برمی‌گردم",
+        "ar": "أعود إلى المنزل",
+        "es": "Vuelvo a casa",
+        "zh": "我回家",
+        "ja": "家に帰ります"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "return",
+          "home"
+        ],
+        "th": [
+          "ฉัน",
+          "กลับ",
+          "บ้าน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "به",
+          "خانه",
+          "برمی‌گردم"
+        ],
+        "ar": [
+          "أعود",
+          "إلى",
+          "المنزل"
+        ],
+        "es": [
+          "Vuelvo",
+          "a",
+          "casa"
+        ],
+        "zh": [
+          "我",
+          "回家"
+        ],
+        "ja": [
+          "家",
+          "に",
+          "帰り",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "word_office",
+      "kind": "word",
+      "texts": {
+        "en": "office",
+        "th": "ออฟฟิศ",
+        "fa": "دفتر",
+        "ar": "مكتب",
+        "es": "oficina",
+        "zh": "办公室",
+        "ja": "オフィス"
+      }
+    },
+    {
+      "id": "word_traffic",
+      "kind": "word",
+      "texts": {
+        "en": "traffic jam",
+        "th": "รถติด",
+        "fa": "ترافیک",
+        "ar": "ازدحام مروري",
+        "es": "atasco",
+        "zh": "堵车",
+        "ja": "渋滞"
+      }
+    },
+    {
+      "id": "word_BTS",
+      "kind": "word",
+      "texts": {
+        "en": "BTS",
+        "th": "บีทีเอส",
+        "fa": "بی‌تی‌اس",
+        "ar": "القطار الكهربائي",
+        "es": "BTS",
+        "zh": "轻轨",
+        "ja": "スカイトレイン"
+      }
+    },
+    {
+      "id": "word_rest",
+      "kind": "word",
+      "texts": {
+        "en": "rest",
+        "th": "พักผ่อน",
+        "fa": "استراحت کردن",
+        "ar": "يستريح",
+        "es": "descansar",
+        "zh": "休息",
+        "ja": "休む"
+      }
+    },
+    {
+      "id": "word_finish",
+      "kind": "word",
+      "texts": {
+        "en": "finish work",
+        "th": "เลิกงาน",
+        "fa": "تمام شدن کار",
+        "ar": "ينتهي من العمل",
+        "es": "terminar de trabajar",
+        "zh": "下班",
+        "ja": "仕事が終わる"
+      }
+    },
+    {
+      "id": "word_commute",
+      "kind": "word",
+      "texts": {
+        "en": "commute",
+        "th": "เดินทาง",
+        "fa": "رفت‌وآمد کردن",
+        "ar": "يتنقل",
+        "es": "desplazarse",
+        "zh": "通勤",
+        "ja": "通勤する"
+      }
+    },
+    {
+      "id": "header_scenario_4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Evening & Relaxing",
+        "th": "สถานการณ์ 4: ตอนเย็นและการผ่อนคลาย",
+        "fa": "سناریوی ۴: عصر و استراحت",
+        "ar": "السيناريو ٤: المساء والاسترخاء",
+        "es": "Escenario 4: Tarde y relajación",
+        "zh": "场景四：傍晚与放松",
+        "ja": "シーン4：夕方とリラックス"
+      }
+    },
+    {
+      "id": "sentence_dr_s4_dinner",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_eat",
+        "word_dinner"
+      ],
+      "texts": {
+        "en": "I eat dinner",
+        "th": "ฉันกินอาหารเย็นค่ะ",
+        "fa": "من شام می‌خورم",
+        "ar": "أتناول العشاء",
+        "es": "Ceno",
+        "zh": "我吃晚饭",
+        "ja": "晩ご飯を食べます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "eat",
+          "dinner"
+        ],
+        "th": [
+          "ฉัน",
+          "กิน",
+          "อาหารเย็น",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "شام",
+          "می‌خورم"
+        ],
+        "ar": [
+          "أتناول",
+          "العشاء"
+        ],
+        "es": [
+          "Ceno"
+        ],
+        "zh": [
+          "我",
+          "吃",
+          "晚饭"
+        ],
+        "ja": [
+          "晩ご飯",
+          "を",
+          "食べ",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s4_TV",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_watch",
+        "word_TV"
+      ],
+      "texts": {
+        "en": "I watch TV",
+        "th": "ฉันดูทีวีค่ะ",
+        "fa": "تلویزیون تماشا می‌کنم",
+        "ar": "أشاهد التلفاز",
+        "es": "Veo la televisión",
+        "zh": "我看电视",
+        "ja": "テレビを見ます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "watch",
+          "TV"
+        ],
+        "th": [
+          "ฉัน",
+          "ดู",
+          "ทีวี",
+          "ค่ะ"
+        ],
+        "fa": [
+          "تلویزیون",
+          "تماشا",
+          "می‌کنم"
+        ],
+        "ar": [
+          "أشاهد",
+          "التلفاز"
+        ],
+        "es": [
+          "Veo",
+          "la",
+          "televisión"
+        ],
+        "zh": [
+          "我",
+          "看",
+          "电视"
+        ],
+        "ja": [
+          "テレビ",
+          "を",
+          "見",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s4_exercise",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_exercise"
+      ],
+      "texts": {
+        "en": "I exercise",
+        "th": "ฉันออกกำลังกายค่ะ",
+        "fa": "من ورزش می‌کنم",
+        "ar": "أمارس الرياضة",
+        "es": "Hago ejercicio",
+        "zh": "我锻炼",
+        "ja": "運動します"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "exercise"
+        ],
+        "th": [
+          "ฉัน",
+          "ออกกำลังกาย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "ورزش",
+          "می‌کنم"
+        ],
+        "ar": [
+          "أمارس",
+          "الرياضة"
+        ],
+        "es": [
+          "Hago",
+          "ejercicio"
+        ],
+        "zh": [
+          "我",
+          "锻炼"
+        ],
+        "ja": [
+          "運動",
+          "し",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s4_phone",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_phone"
+      ],
+      "texts": {
+        "en": "I play on my phone",
+        "th": "ฉันเล่นมือถือค่ะ",
+        "fa": "با گوشی بازی می‌کنم",
+        "ar": "ألعب على هاتفي",
+        "es": "Juego con mi teléfono",
+        "zh": "我玩手机",
+        "ja": "スマホをいじります"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "play",
+          "on",
+          "my",
+          "phone"
+        ],
+        "th": [
+          "ฉัน",
+          "เล่น",
+          "มือถือ",
+          "ค่ะ"
+        ],
+        "fa": [
+          "با",
+          "گوشی",
+          "بازی",
+          "می‌کنم"
+        ],
+        "ar": [
+          "ألعب",
+          "على",
+          "هاتفي"
+        ],
+        "es": [
+          "Juego",
+          "con",
+          "mi",
+          "teléfono"
+        ],
+        "zh": [
+          "我",
+          "玩",
+          "手机"
+        ],
+        "ja": [
+          "スマホ",
+          "を",
+          "いじり",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s4_tired",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_tired",
+        "word_very"
+      ],
+      "texts": {
+        "en": "I am very tired",
+        "th": "ฉันเหนื่อยมากค่ะ",
+        "fa": "من خیلی خسته‌ام",
+        "ar": "أنا متعب جداً",
+        "es": "Estoy muy cansada",
+        "zh": "我很累",
+        "ja": "とても疲れています"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "am",
+          "very",
+          "tired"
+        ],
+        "th": [
+          "ฉัน",
+          "เหนื่อย",
+          "มาก",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "خیلی",
+          "خسته‌ام"
+        ],
+        "ar": [
+          "أنا",
+          "متعب",
+          "جداً"
+        ],
+        "es": [
+          "Estoy",
+          "muy",
+          "cansada"
+        ],
+        "zh": [
+          "我",
+          "很",
+          "累"
+        ],
+        "ja": [
+          "とても",
+          "疲れて",
+          "います"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s4_relax",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_relax",
+        "word_home"
+      ],
+      "texts": {
+        "en": "I relax at home",
+        "th": "ฉันผ่อนคลายอยู่บ้านค่ะ",
+        "fa": "در خانه استراحت می‌کنم",
+        "ar": "أستريح في المنزل",
+        "es": "Me relajo en casa",
+        "zh": "我在家放松",
+        "ja": "家でリラックスします"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "relax",
+          "at",
+          "home"
+        ],
+        "th": [
+          "ฉัน",
+          "ผ่อนคลาย",
+          "อยู่",
+          "บ้าน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "در",
+          "خانه",
+          "استراحت",
+          "می‌کنم"
+        ],
+        "ar": [
+          "أستريح",
+          "في",
+          "المنزل"
+        ],
+        "es": [
+          "Me",
+          "relajo",
+          "en",
+          "casa"
+        ],
+        "zh": [
+          "我",
+          "在",
+          "家",
+          "放松"
+        ],
+        "ja": [
+          "家",
+          "で",
+          "リラックス",
+          "し",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s4_study_everyday",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_study",
+        "word_every_day"
+      ],
+      "texts": {
+        "en": "Every day I study",
+        "th": "ฉันเรียนทุกวันค่ะ",
+        "fa": "من هر روز درس می‌خوانم",
+        "ar": "أدرس كل يوم",
+        "es": "Estudio todos los días",
+        "zh": "我每天学习",
+        "ja": "毎日勉強します"
+      },
+      "tokens": {
+        "en": [
+          "Every",
+          "day",
+          "I",
+          "study"
+        ],
+        "th": [
+          "ฉัน",
+          "เรียน",
+          "ทุกวัน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "هر",
+          "روز",
+          "درس",
+          "می‌خوانم"
+        ],
+        "ar": [
+          "أدرس",
+          "كل",
+          "يوم"
+        ],
+        "es": [
+          "Estudio",
+          "todos",
+          "los",
+          "días"
+        ],
+        "zh": [
+          "我",
+          "每天",
+          "学习"
+        ],
+        "ja": [
+          "毎日",
+          "勉強",
+          "し",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "word_dinner",
+      "kind": "word",
+      "texts": {
+        "en": "dinner",
+        "th": "อาหารเย็น",
+        "fa": "شام",
+        "ar": "عشاء",
+        "es": "cena",
+        "zh": "晚饭",
+        "ja": "晩ご飯"
+      }
+    },
+    {
+      "id": "word_watch",
+      "kind": "word",
+      "texts": {
+        "en": "watch",
+        "th": "ดู",
+        "fa": "تماشا کردن",
+        "ar": "يشاهد",
+        "es": "ver",
+        "zh": "看",
+        "ja": "見る"
+      }
+    },
+    {
+      "id": "word_TV",
+      "kind": "word",
+      "texts": {
+        "en": "TV",
+        "th": "ทีวี",
+        "fa": "تلویزیون",
+        "ar": "تلفاز",
+        "es": "televisión",
+        "zh": "电视",
+        "ja": "テレビ"
+      }
+    },
+    {
+      "id": "word_exercise",
+      "kind": "word",
+      "texts": {
+        "en": "exercise",
+        "th": "ออกกำลังกาย",
+        "fa": "ورزش کردن",
+        "ar": "يمارس الرياضة",
+        "es": "hacer ejercicio",
+        "zh": "锻炼",
+        "ja": "運動する"
+      }
+    },
+    {
+      "id": "word_phone",
+      "kind": "word",
+      "texts": {
+        "en": "phone",
+        "th": "มือถือ",
+        "fa": "گوشی",
+        "ar": "هاتف",
+        "es": "teléfono",
+        "zh": "手机",
+        "ja": "スマホ"
+      }
+    },
+    {
+      "id": "word_relax",
+      "kind": "word",
+      "texts": {
+        "en": "relax",
+        "th": "ผ่อนคลาย",
+        "fa": "استراحت کردن",
+        "ar": "يسترخي",
+        "es": "relajarse",
+        "zh": "放松",
+        "ja": "リラックスする"
+      }
+    },
+    {
+      "id": "header_scenario_5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Wrapping Up & Sleep",
+        "th": "สถานการณ์ 5: สรุปและการเข้านอน",
+        "fa": "سناریوی ۵: جمع‌بندی و خواب",
+        "ar": "السيناريو ٥: الختام والنوم",
+        "es": "Escenario 5: Cierre y dormir",
+        "zh": "场景五：结束与睡眠",
+        "ja": "シーン5：締めくくりと睡眠"
+      }
+    },
+    {
+      "id": "sentence_dr_s5_late",
+      "kind": "sentence",
+      "itemIds": [
+        "word_late",
+        "word_very"
+      ],
+      "texts": {
+        "en": "It is very late",
+        "th": "ดึกมากแล้วค่ะ",
+        "fa": "خیلی دیر شده است",
+        "ar": "لقد تأخر الوقت جداً",
+        "es": "Es muy tarde",
+        "zh": "很晚了",
+        "ja": "とても遅いです"
+      },
+      "tokens": {
+        "en": [
+          "It",
+          "is",
+          "very",
+          "late"
+        ],
+        "th": [
+          "ดึก",
+          "มาก",
+          "แล้ว",
+          "ค่ะ"
+        ],
+        "fa": [
+          "خیلی",
+          "دیر",
+          "شده",
+          "است"
+        ],
+        "ar": [
+          "لقد",
+          "تأخر",
+          "الوقت",
+          "جداً"
+        ],
+        "es": [
+          "Es",
+          "muy",
+          "tarde"
+        ],
+        "zh": [
+          "很晚",
+          "了"
+        ],
+        "ja": [
+          "とても",
+          "遅い",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s5_sleepy",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_sleepy"
+      ],
+      "texts": {
+        "en": "I am sleepy",
+        "th": "ฉันง่วงค่ะ",
+        "fa": "من خوابم می‌آید",
+        "ar": "أشعر بالنعاس",
+        "es": "Tengo sueño",
+        "zh": "我困了",
+        "ja": "眠いです"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "am",
+          "sleepy"
+        ],
+        "th": [
+          "ฉัน",
+          "ง่วง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "خوابم",
+          "می‌آید"
+        ],
+        "ar": [
+          "أشعر",
+          "بالنعاس"
+        ],
+        "es": [
+          "Tengo",
+          "sueño"
+        ],
+        "zh": [
+          "我",
+          "困了"
+        ],
+        "ja": [
+          "眠い",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s5_bed",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_go",
+        "word_bed"
+      ],
+      "texts": {
+        "en": "I go to bed",
+        "th": "ฉันเข้านอนค่ะ",
+        "fa": "به رختخواب می‌روم",
+        "ar": "أذهب إلى السرير",
+        "es": "Me voy a la cama",
+        "zh": "我上床睡觉",
+        "ja": "寝ます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "go",
+          "to",
+          "bed"
+        ],
+        "th": [
+          "ฉัน",
+          "เข้า",
+          "นอน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "به",
+          "رختخواب",
+          "می‌روم"
+        ],
+        "ar": [
+          "أذهب",
+          "إلى",
+          "السرير"
+        ],
+        "es": [
+          "Me",
+          "voy",
+          "a",
+          "la",
+          "cama"
+        ],
+        "zh": [
+          "我",
+          "上床",
+          "睡觉"
+        ],
+        "ja": [
+          "寝",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s5_alarm",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_alarm"
+      ],
+      "texts": {
+        "en": "I set the alarm",
+        "th": "ฉันตั้งนาฬิกาปลุกค่ะ",
+        "fa": "ساعت زنگ‌دار را تنظیم می‌کنم",
+        "ar": "أضبط المنبه",
+        "es": "Pongo la alarma",
+        "zh": "我定闹钟",
+        "ja": "目覚まし時計をセットします"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "set",
+          "the",
+          "alarm"
+        ],
+        "th": [
+          "ฉัน",
+          "ตั้ง",
+          "นาฬิกาปลุก",
+          "ค่ะ"
+        ],
+        "fa": [
+          "ساعت",
+          "زنگ‌دار",
+          "را",
+          "تنظیم",
+          "می‌کنم"
+        ],
+        "ar": [
+          "أضبط",
+          "المنبه"
+        ],
+        "es": [
+          "Pongo",
+          "la",
+          "alarma"
+        ],
+        "zh": [
+          "我",
+          "定",
+          "闹钟"
+        ],
+        "ja": [
+          "目覚まし時計",
+          "を",
+          "セット",
+          "し",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s5_sleep_11pm",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_sleep",
+        "word_thum"
+      ],
+      "texts": {
+        "en": "I sleep at 11 PM",
+        "th": "ฉันนอนตอนห้าทุ่มค่ะ",
+        "fa": "ساعت یازده شب می‌خوابم",
+        "ar": "أنام الساعة الحادية عشرة مساءً",
+        "es": "Me duermo a las once de la noche",
+        "zh": "我晚上十一点睡觉",
+        "ja": "夜11時に寝ます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "sleep",
+          "at",
+          "11",
+          "PM"
+        ],
+        "th": [
+          "ฉัน",
+          "นอน",
+          "ตอน",
+          "ห้า",
+          "ทุ่ม",
+          "ค่ะ"
+        ],
+        "fa": [
+          "ساعت",
+          "یازده",
+          "شب",
+          "می‌خوابم"
+        ],
+        "ar": [
+          "أنام",
+          "الساعة",
+          "الحادية",
+          "عشرة",
+          "مساءً"
+        ],
+        "es": [
+          "Me",
+          "duermo",
+          "a",
+          "las",
+          "once",
+          "de",
+          "la",
+          "noche"
+        ],
+        "zh": [
+          "我",
+          "晚上",
+          "十一点",
+          "睡觉"
+        ],
+        "ja": [
+          "夜",
+          "11時",
+          "に",
+          "寝",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s5_light",
+      "kind": "sentence",
+      "itemIds": [
+        "word_light"
+      ],
+      "texts": {
+        "en": "Turn off the light",
+        "th": "ปิดไฟค่ะ",
+        "fa": "چراغ را خاموش کنید",
+        "ar": "أطفئ الضوء",
+        "es": "Apaga la luz",
+        "zh": "关灯",
+        "ja": "電気を消します"
+      },
+      "tokens": {
+        "en": [
+          "Turn",
+          "off",
+          "the",
+          "light"
+        ],
+        "th": [
+          "ปิด",
+          "ไฟ",
+          "ค่ะ"
+        ],
+        "fa": [
+          "چراغ",
+          "را",
+          "خاموش",
+          "کنید"
+        ],
+        "ar": [
+          "أطفئ",
+          "الضوء"
+        ],
+        "es": [
+          "Apaga",
+          "la",
+          "luz"
+        ],
+        "zh": [
+          "关灯"
+        ],
+        "ja": [
+          "電気",
+          "を",
+          "消し",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dr_s5_good_night",
+      "kind": "sentence",
+      "itemIds": [
+        "word_good_night"
+      ],
+      "texts": {
+        "en": "Good night",
+        "th": "ฝันดีค่ะ",
+        "fa": "شب بخیر",
+        "ar": "تصبح على خير",
+        "es": "Buenas noches",
+        "zh": "晚安",
+        "ja": "おやすみなさい"
+      },
+      "tokens": {
+        "en": [
+          "Good",
+          "night"
+        ],
+        "th": [
+          "ฝันดี",
+          "ค่ะ"
+        ],
+        "fa": [
+          "شب",
+          "بخیر"
+        ],
+        "ar": [
+          "تصبح",
+          "على",
+          "خير"
+        ],
+        "es": [
+          "Buenas",
+          "noches"
+        ],
+        "zh": [
+          "晚安"
+        ],
+        "ja": [
+          "おやすみなさい"
+        ]
+      }
+    },
+    {
+      "id": "word_late",
+      "kind": "word",
+      "texts": {
+        "en": "late",
+        "th": "ดึก",
+        "fa": "دیر",
+        "ar": "متأخر",
+        "es": "tarde",
+        "zh": "晚",
+        "ja": "遅い"
+      }
+    },
+    {
+      "id": "word_bed",
+      "kind": "word",
+      "texts": {
+        "en": "bed",
+        "th": "เตียง",
+        "fa": "رختخواب",
+        "ar": "سرير",
+        "es": "cama",
+        "zh": "床",
+        "ja": "ベッド"
+      }
+    },
+    {
+      "id": "word_alarm",
+      "kind": "word",
+      "texts": {
+        "en": "alarm clock",
+        "th": "นาฬิกาปลุก",
+        "fa": "ساعت زنگ‌دار",
+        "ar": "منبه",
+        "es": "despertador",
+        "zh": "闹钟",
+        "ja": "目覚まし時計"
+      }
+    },
+    {
+      "id": "word_sleepy",
+      "kind": "word",
+      "texts": {
+        "en": "sleepy",
+        "th": "ง่วง",
+        "fa": "خواب‌آلود",
+        "ar": "نعسان",
+        "es": "soñoliento",
+        "zh": "困",
+        "ja": "眠い"
+      }
+    },
+    {
+      "id": "word_good_night",
+      "kind": "word",
+      "texts": {
+        "en": "good night",
+        "th": "ฝันดี",
+        "fa": "شب بخیر",
+        "ar": "تصبح على خير",
+        "es": "buenas noches",
+        "zh": "晚安",
+        "ja": "おやすみなさい"
+      }
+    },
+    {
+      "id": "word_light",
+      "kind": "word",
+      "texts": {
+        "en": "light",
+        "th": "ไฟ",
+        "fa": "چراغ",
+        "ar": "ضوء",
+        "es": "luz",
+        "zh": "灯",
+        "ja": "電気"
+      }
+    }
+  ]
+}

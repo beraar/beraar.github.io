@@ -1,0 +1,339 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_this",
+      "kind": "word",
+      "texts": {
+        "en": "this",
+        "th": "นี่",
+        "fa": "این",
+        "ar": "هذا",
+        "es": "esto",
+        "zh": "这",
+        "ja": "これ"
+      }
+    },
+    {
+      "id": "sentence_g7_this_my_book",
+      "kind": "sentence",
+      "itemIds": [
+        "word_this",
+        "word_is",
+        "word_book",
+        "word_of",
+        "word_i"
+      ],
+      "texts": {
+        "en": "This is my book",
+        "th": "นี่คือหนังสือของฉัน",
+        "fa": "این کتاب من است",
+        "ar": "هذا كتابي",
+        "es": "Este es mi libro",
+        "zh": "这是我的书",
+        "ja": "これは私の本です"
+      },
+      "tokens": {
+        "en": [
+          "This",
+          "is",
+          "my",
+          "book"
+        ],
+        "th": [
+          "นี่",
+          "คือ",
+          "หนังสือ",
+          "ของ",
+          "ฉัน"
+        ],
+        "fa": [
+          "این",
+          "کتاب",
+          "من",
+          "است"
+        ],
+        "ar": [
+          "هذا",
+          "كتابي"
+        ],
+        "es": [
+          "Este",
+          "es",
+          "mi",
+          "libro"
+        ],
+        "zh": [
+          "这",
+          "是",
+          "我的",
+          "书"
+        ],
+        "ja": [
+          "これ",
+          "は",
+          "私",
+          "の",
+          "本",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g7_where_your_car",
+      "kind": "sentence",
+      "itemIds": [
+        "word_car",
+        "word_of",
+        "word_you",
+        "word_where"
+      ],
+      "texts": {
+        "en": "Where is your car",
+        "th": "รถของคุณอยู่ที่ไหน",
+        "fa": "ماشین شما کجاست",
+        "ar": "أين سيارتك",
+        "es": "Dónde está tu coche",
+        "zh": "你的车在哪里",
+        "ja": "あなたの車はどこですか"
+      },
+      "tokens": {
+        "en": [
+          "Where",
+          "is",
+          "your",
+          "car"
+        ],
+        "th": [
+          "รถ",
+          "ของ",
+          "คุณ",
+          "อยู่",
+          "ที่ไหน"
+        ],
+        "fa": [
+          "ماشین",
+          "شما",
+          "کجاست"
+        ],
+        "ar": [
+          "أين",
+          "سيارتك"
+        ],
+        "es": [
+          "Dónde",
+          "está",
+          "tu",
+          "coche"
+        ],
+        "zh": [
+          "你的",
+          "车",
+          "在",
+          "哪里"
+        ],
+        "ja": [
+          "あなた",
+          "の",
+          "車",
+          "は",
+          "どこ",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g7_his_house_big",
+      "kind": "sentence",
+      "itemIds": [
+        "word_house",
+        "word_of",
+        "word_he",
+        "word_big"
+      ],
+      "texts": {
+        "en": "His house is big",
+        "th": "บ้านของเขาใหญ่",
+        "fa": "خانه او بزرگ است",
+        "ar": "منزله كبير",
+        "es": "Su casa es grande",
+        "zh": "他的房子很大",
+        "ja": "彼の家は大きい"
+      },
+      "tokens": {
+        "en": [
+          "His",
+          "house",
+          "is",
+          "big"
+        ],
+        "th": [
+          "บ้าน",
+          "ของ",
+          "เขา",
+          "ใหญ่"
+        ],
+        "fa": [
+          "خانه",
+          "او",
+          "بزرگ",
+          "است"
+        ],
+        "ar": [
+          "منزله",
+          "كبير"
+        ],
+        "es": [
+          "Su",
+          "casa",
+          "es",
+          "grande"
+        ],
+        "zh": [
+          "他的",
+          "房子",
+          "很",
+          "大"
+        ],
+        "ja": [
+          "彼",
+          "の",
+          "家",
+          "は",
+          "大きい"
+        ]
+      }
+    },
+    {
+      "id": "word_is",
+      "kind": "word",
+      "texts": {
+        "en": "is",
+        "th": "คือ",
+        "fa": "است",
+        "ar": "هو",
+        "es": "es",
+        "zh": "是",
+        "ja": "です"
+      }
+    },
+    {
+      "id": "word_book",
+      "kind": "word",
+      "texts": {
+        "en": "book",
+        "th": "หนังสือ",
+        "fa": "کتاب",
+        "ar": "كتاب",
+        "es": "libro",
+        "zh": "书",
+        "ja": "本"
+      }
+    },
+    {
+      "id": "word_of",
+      "kind": "word",
+      "texts": {
+        "en": "of",
+        "th": "ของ",
+        "fa": "از",
+        "ar": "من",
+        "es": "de",
+        "zh": "的",
+        "ja": "の"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_where",
+      "kind": "word",
+      "texts": {
+        "en": "where",
+        "th": "ที่ไหน",
+        "fa": "کجا",
+        "ar": "أين",
+        "es": "dónde",
+        "zh": "哪里",
+        "ja": "どこ"
+      }
+    },
+    {
+      "id": "word_car",
+      "kind": "word",
+      "texts": {
+        "en": "car",
+        "th": "รถ",
+        "fa": "ماشین",
+        "ar": "سيارة",
+        "es": "coche",
+        "zh": "车",
+        "ja": "車"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_house",
+      "kind": "word",
+      "texts": {
+        "en": "house",
+        "th": "บ้าน",
+        "fa": "خانه",
+        "ar": "منزل",
+        "es": "casa",
+        "zh": "房子",
+        "ja": "家"
+      }
+    },
+    {
+      "id": "word_he",
+      "kind": "word",
+      "texts": {
+        "en": "he",
+        "th": "เขา",
+        "fa": "او",
+        "ar": "هو",
+        "es": "él",
+        "zh": "他",
+        "ja": "彼"
+      }
+    },
+    {
+      "id": "word_big",
+      "kind": "word",
+      "texts": {
+        "en": "big",
+        "th": "ใหญ่",
+        "fa": "بزرگ",
+        "ar": "كبير",
+        "es": "grande",
+        "zh": "大",
+        "ja": "大きい"
+      }
+    }
+  ]
+}

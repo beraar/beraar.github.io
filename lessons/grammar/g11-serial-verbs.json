@@ -1,0 +1,344 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "sentence_g11_go_buy_food",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_go",
+        "word_buy",
+        "word_food"
+      ],
+      "texts": {
+        "en": "I go buy food",
+        "th": "ฉันไปซื้ออาหาร",
+        "fa": "من می‌روم غذا بخرم",
+        "ar": "أنا أذهب لشراء الطعام",
+        "es": "Voy a comprar comida",
+        "zh": "我去买食物",
+        "ja": "私は食べ物を買いに行く"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "go",
+          "buy",
+          "food"
+        ],
+        "th": [
+          "ฉัน",
+          "ไป",
+          "ซื้อ",
+          "อาหาร"
+        ],
+        "fa": [
+          "من",
+          "می‌روم",
+          "غذا",
+          "بخرم"
+        ],
+        "ar": [
+          "أنا",
+          "أذهب",
+          "لشراء",
+          "الطعام"
+        ],
+        "es": [
+          "Voy",
+          "a",
+          "comprar",
+          "comida"
+        ],
+        "zh": [
+          "我",
+          "去",
+          "买",
+          "食物"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "食べ物",
+          "を",
+          "買い",
+          "に",
+          "行く"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g11_come_eat_rice",
+      "kind": "sentence",
+      "itemIds": [
+        "word_come",
+        "word_eat",
+        "word_rice"
+      ],
+      "texts": {
+        "en": "Come eat rice",
+        "th": "มากินข้าว",
+        "fa": "بیا برنج بخور",
+        "ar": "تعال كل الأرز",
+        "es": "Ven a comer arroz",
+        "zh": "来吃饭",
+        "ja": "ご飯を食べに来て"
+      },
+      "tokens": {
+        "en": [
+          "Come",
+          "eat",
+          "rice"
+        ],
+        "th": [
+          "มา",
+          "กิน",
+          "ข้าว"
+        ],
+        "fa": [
+          "بیا",
+          "برنج",
+          "بخور"
+        ],
+        "ar": [
+          "تعال",
+          "كل",
+          "الأرز"
+        ],
+        "es": [
+          "Ven",
+          "a",
+          "comer",
+          "arroz"
+        ],
+        "zh": [
+          "来",
+          "吃",
+          "饭"
+        ],
+        "ja": [
+          "ご飯",
+          "を",
+          "食べ",
+          "に",
+          "来て"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g11_sit_watch_movie",
+      "kind": "sentence",
+      "itemIds": [
+        "word_we",
+        "word_sit",
+        "word_watch",
+        "word_movie"
+      ],
+      "texts": {
+        "en": "We sit and watch a movie",
+        "th": "เรานั่งดูหนัง",
+        "fa": "ما می‌نشینیم و فیلم تماشا می‌کنیم",
+        "ar": "نحن نجلس ونشاهد فيلما",
+        "es": "Nos sentamos a ver una película",
+        "zh": "我们坐着看电影",
+        "ja": "私たちは座って映画を見る"
+      },
+      "tokens": {
+        "en": [
+          "We",
+          "sit",
+          "and",
+          "watch",
+          "a",
+          "movie"
+        ],
+        "th": [
+          "เรา",
+          "นั่ง",
+          "ดู",
+          "หนัง"
+        ],
+        "fa": [
+          "ما",
+          "می‌نشینیم",
+          "و",
+          "فیلم",
+          "تماشا",
+          "می‌کنیم"
+        ],
+        "ar": [
+          "نحن",
+          "نجلس",
+          "ونشاهد",
+          "فيلما"
+        ],
+        "es": [
+          "Nos",
+          "sentamos",
+          "a",
+          "ver",
+          "una",
+          "película"
+        ],
+        "zh": [
+          "我们",
+          "坐",
+          "着",
+          "看",
+          "电影"
+        ],
+        "ja": [
+          "私たち",
+          "は",
+          "座って",
+          "映画",
+          "を",
+          "見る"
+        ]
+      }
+    },
+    {
+      "id": "word_go",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "word_buy",
+      "kind": "word",
+      "texts": {
+        "en": "buy",
+        "th": "ซื้อ",
+        "fa": "خریدن",
+        "ar": "يشتري",
+        "es": "comprar",
+        "zh": "买",
+        "ja": "買う"
+      }
+    },
+    {
+      "id": "word_food",
+      "kind": "word",
+      "texts": {
+        "en": "food",
+        "th": "อาหาร",
+        "fa": "غذا",
+        "ar": "طعام",
+        "es": "comida",
+        "zh": "食物",
+        "ja": "食べ物"
+      }
+    },
+    {
+      "id": "word_come",
+      "kind": "word",
+      "texts": {
+        "en": "come",
+        "th": "มา",
+        "fa": "آمدن",
+        "ar": "يأتي",
+        "es": "venir",
+        "zh": "来",
+        "ja": "来る"
+      }
+    },
+    {
+      "id": "word_eat",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "يأكل",
+        "es": "comer",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "word_rice",
+      "kind": "word",
+      "texts": {
+        "en": "rice",
+        "th": "ข้าว",
+        "fa": "برنج",
+        "ar": "أرز",
+        "es": "arroz",
+        "zh": "米饭",
+        "ja": "ご飯"
+      }
+    },
+    {
+      "id": "word_we",
+      "kind": "word",
+      "texts": {
+        "en": "we",
+        "th": "เรา",
+        "fa": "ما",
+        "ar": "نحن",
+        "es": "nosotros",
+        "zh": "我们",
+        "ja": "私たち"
+      }
+    },
+    {
+      "id": "word_sit",
+      "kind": "word",
+      "texts": {
+        "en": "sit",
+        "th": "นั่ง",
+        "fa": "نشستن",
+        "ar": "يجلس",
+        "es": "sentarse",
+        "zh": "坐",
+        "ja": "座る"
+      }
+    },
+    {
+      "id": "word_watch",
+      "kind": "word",
+      "texts": {
+        "en": "watch",
+        "th": "ดู",
+        "fa": "تماشا کردن",
+        "ar": "يشاهد",
+        "es": "ver",
+        "zh": "看",
+        "ja": "見る"
+      }
+    },
+    {
+      "id": "word_movie",
+      "kind": "word",
+      "texts": {
+        "en": "movie",
+        "th": "หนัง",
+        "fa": "فیلم",
+        "ar": "فيلم",
+        "es": "película",
+        "zh": "电影",
+        "ja": "映画"
+      }
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "sentence_g3_hungry",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_hungry",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Are you hungry",
+        "th": "คุณหิวไหม",
+        "fa": "آیا گرسنه هستید",
+        "ar": "هل أنت جائع",
+        "es": "Estás hambriento",
+        "zh": "你饿吗",
+        "ja": "お腹が空いていますか"
+      },
+      "tokens": {
+        "en": [
+          "Are",
+          "you",
+          "hungry"
+        ],
+        "th": [
+          "คุณ",
+          "หิว",
+          "ไหม"
+        ],
+        "fa": [
+          "آیا",
+          "گرسنه",
+          "هستید"
+        ],
+        "ar": [
+          "هل",
+          "أنت",
+          "جائع"
+        ],
+        "es": [
+          "Estás",
+          "hambriento"
+        ],
+        "zh": [
+          "你",
+          "饿",
+          "吗"
+        ],
+        "ja": [
+          "お腹",
+          "が",
+          "空いて",
+          "います",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g3_tired",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_tired",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Are you tired",
+        "th": "คุณเหนื่อยไหม",
+        "fa": "آیا خسته هستید",
+        "ar": "هل أنت متعب",
+        "es": "Estás cansado",
+        "zh": "你累吗",
+        "ja": "疲れていますか"
+      },
+      "tokens": {
+        "en": [
+          "Are",
+          "you",
+          "tired"
+        ],
+        "th": [
+          "คุณ",
+          "เหนื่อย",
+          "ไหม"
+        ],
+        "fa": [
+          "آیا",
+          "خسته",
+          "هستید"
+        ],
+        "ar": [
+          "هل",
+          "أنت",
+          "متعب"
+        ],
+        "es": [
+          "Estás",
+          "cansado"
+        ],
+        "zh": [
+          "你",
+          "累",
+          "吗"
+        ],
+        "ja": [
+          "疲れて",
+          "います",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g3_want_go",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_want",
+        "word_go",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Do you want to go",
+        "th": "คุณต้องการไปไหม",
+        "fa": "آیا می‌خواهید بروید",
+        "ar": "هل تريد أن تذهب",
+        "es": "Quieres ir",
+        "zh": "你想去吗",
+        "ja": "行きたいですか"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "want",
+          "to",
+          "go"
+        ],
+        "th": [
+          "คุณ",
+          "ต้องการ",
+          "ไป",
+          "ไหม"
+        ],
+        "fa": [
+          "آیا",
+          "می‌خواهید",
+          "بروید"
+        ],
+        "ar": [
+          "هل",
+          "تريد",
+          "أن",
+          "تذهب"
+        ],
+        "es": [
+          "Quieres",
+          "ir"
+        ],
+        "zh": [
+          "你",
+          "想",
+          "去",
+          "吗"
+        ],
+        "ja": [
+          "行き",
+          "たい",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g3_delicious",
+      "kind": "sentence",
+      "itemIds": [
+        "word_delicious",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Is it delicious",
+        "th": "อร่อยไหม",
+        "fa": "آیا خوشمزه است",
+        "ar": "هل هو لذيذ",
+        "es": "Es delicioso",
+        "zh": "好吃吗",
+        "ja": "おいしいですか"
+      },
+      "tokens": {
+        "en": [
+          "Is",
+          "it",
+          "delicious"
+        ],
+        "th": [
+          "อร่อย",
+          "ไหม"
+        ],
+        "fa": [
+          "آیا",
+          "خوشمزه",
+          "است"
+        ],
+        "ar": [
+          "هل",
+          "هو",
+          "لذيذ"
+        ],
+        "es": [
+          "Es",
+          "delicioso"
+        ],
+        "zh": [
+          "好吃",
+          "吗"
+        ],
+        "ja": [
+          "おいしい",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "word_hungry",
+      "kind": "word",
+      "texts": {
+        "en": "hungry",
+        "th": "หิว",
+        "fa": "گرسنه",
+        "ar": "جائع",
+        "es": "hambriento",
+        "zh": "饿",
+        "ja": "お腹が空いた"
+      }
+    },
+    {
+      "id": "word_tired",
+      "kind": "word",
+      "texts": {
+        "en": "tired",
+        "th": "เหนื่อย",
+        "fa": "خسته",
+        "ar": "متعب",
+        "es": "cansado",
+        "zh": "累",
+        "ja": "疲れた"
+      }
+    },
+    {
+      "id": "word_want",
+      "kind": "word",
+      "texts": {
+        "en": "want",
+        "th": "ต้องการ",
+        "fa": "خواستن",
+        "ar": "يريد",
+        "es": "querer",
+        "zh": "想要",
+        "ja": "欲しい"
+      }
+    },
+    {
+      "id": "word_go",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "word_delicious",
+      "kind": "word",
+      "texts": {
+        "en": "delicious",
+        "th": "อร่อย",
+        "fa": "خوشمزه",
+        "ar": "لذيذ",
+        "es": "delicioso",
+        "zh": "好吃",
+        "ja": "おいしい"
+      }
+    },
+    {
+      "id": "word_question_particle",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    }
+  ]
+}

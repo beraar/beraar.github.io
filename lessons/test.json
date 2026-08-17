@@ -1,0 +1,711 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "Yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "sentence_i_eat_rice",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_eat",
+        "word_rice"
+      ],
+      "texts": {
+        "en": "I eat rice",
+        "th": "ฉันกินข้าว",
+        "fa": "من برنج می‌خورم",
+        "ar": "أنا آكل الأرز",
+        "es": "Yo como arroz",
+        "zh": "我吃米饭",
+        "ja": "私はご飯を食べる"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "eat",
+          "rice"
+        ],
+        "th": [
+          "ฉัน",
+          "กิน",
+          "ข้าว"
+        ],
+        "fa": [
+          "من",
+          "برنج",
+          "می‌خورم"
+        ],
+        "ar": [
+          "أنا",
+          "آكل",
+          "الأرز"
+        ],
+        "es": [
+          "Yo",
+          "como",
+          "arroz"
+        ],
+        "zh": [
+          "我",
+          "吃",
+          "米饭"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "ご飯",
+          "を",
+          "食べる"
+        ]
+      }
+    },
+    {
+      "id": "sentence_you_drink_water",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_drink",
+        "word_water"
+      ],
+      "texts": {
+        "en": "You drink water",
+        "th": "คุณดื่มน้ำ",
+        "fa": "تو آب می‌نوشی",
+        "ar": "أنت تشرب الماء",
+        "es": "Tú bebes agua",
+        "zh": "你喝水",
+        "ja": "あなたは水を飲む"
+      },
+      "tokens": {
+        "en": [
+          "You",
+          "drink",
+          "water"
+        ],
+        "th": [
+          "คุณ",
+          "ดื่ม",
+          "น้ำ"
+        ],
+        "fa": [
+          "تو",
+          "آب",
+          "می‌نوشی"
+        ],
+        "ar": [
+          "أنت",
+          "تشرب",
+          "الماء"
+        ],
+        "es": [
+          "Tú",
+          "bebes",
+          "agua"
+        ],
+        "zh": [
+          "你",
+          "喝",
+          "水"
+        ],
+        "ja": [
+          "あなた",
+          "は",
+          "水",
+          "を",
+          "飲む"
+        ]
+      }
+    },
+    {
+      "id": "sentence_we_eat_bread",
+      "kind": "sentence",
+      "itemIds": [
+        "word_we",
+        "word_eat",
+        "word_bread"
+      ],
+      "texts": {
+        "en": "We eat bread",
+        "th": "เรากินขนมปัง",
+        "fa": "ما نان می‌خوریم",
+        "ar": "نحن نأكل الخبز",
+        "es": "Nosotros comemos pan",
+        "zh": "我们吃面包",
+        "ja": "私たちはパンを食べる"
+      },
+      "tokens": {
+        "en": [
+          "We",
+          "eat",
+          "bread"
+        ],
+        "th": [
+          "เรา",
+          "กิน",
+          "ขนมปัง"
+        ],
+        "fa": [
+          "ما",
+          "نان",
+          "می‌خوریم"
+        ],
+        "ar": [
+          "نحن",
+          "نأكل",
+          "الخبز"
+        ],
+        "es": [
+          "Nosotros",
+          "comemos",
+          "pan"
+        ],
+        "zh": [
+          "我们",
+          "吃",
+          "面包"
+        ],
+        "ja": [
+          "私たち",
+          "は",
+          "パン",
+          "を",
+          "食べる"
+        ]
+      }
+    },
+    {
+      "id": "sentence_i_drink_tea",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_drink",
+        "word_tea"
+      ],
+      "texts": {
+        "en": "I drink tea",
+        "th": "ฉันดื่มชา",
+        "fa": "من چای می‌نوشم",
+        "ar": "أنا أشرب الشاي",
+        "es": "Yo bebo té",
+        "zh": "我喝茶",
+        "ja": "私はお茶を飲む"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "drink",
+          "tea"
+        ],
+        "th": [
+          "ฉัน",
+          "ดื่ม",
+          "ชา"
+        ],
+        "fa": [
+          "من",
+          "چای",
+          "می‌نوشم"
+        ],
+        "ar": [
+          "أنا",
+          "أشرب",
+          "الشاي"
+        ],
+        "es": [
+          "Yo",
+          "bebo",
+          "té"
+        ],
+        "zh": [
+          "我",
+          "喝",
+          "茶"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "お茶",
+          "を",
+          "飲む"
+        ]
+      }
+    },
+    {
+      "id": "sentence_apple_delicious",
+      "kind": "sentence",
+      "itemIds": [
+        "word_apple",
+        "word_delicious"
+      ],
+      "texts": {
+        "en": "The apple is delicious",
+        "th": "แอปเปิ้ลอร่อย",
+        "fa": "سیب خوشمزه است",
+        "ar": "التفاحة لذيذة",
+        "es": "La manzana es deliciosa",
+        "zh": "苹果好吃",
+        "ja": "りんごはおいしい"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "apple",
+          "is",
+          "delicious"
+        ],
+        "th": [
+          "แอปเปิ้ล",
+          "อร่อย"
+        ],
+        "fa": [
+          "سیب",
+          "خوشمزه",
+          "است"
+        ],
+        "ar": [
+          "التفاحة",
+          "لذيذة"
+        ],
+        "es": [
+          "La",
+          "manzana",
+          "es",
+          "deliciosa"
+        ],
+        "zh": [
+          "苹果",
+          "好吃"
+        ],
+        "ja": [
+          "りんご",
+          "は",
+          "おいしい"
+        ]
+      }
+    },
+    {
+      "id": "sentence_chicken_delicious",
+      "kind": "sentence",
+      "itemIds": [
+        "word_chicken",
+        "word_delicious"
+      ],
+      "texts": {
+        "en": "The chicken is delicious",
+        "th": "ไก่อร่อย",
+        "fa": "مرغ خوشمزه است",
+        "ar": "الدجاج لذيذ",
+        "es": "El pollo es delicioso",
+        "zh": "鸡肉好吃",
+        "ja": "鶏肉はおいしい"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "chicken",
+          "is",
+          "delicious"
+        ],
+        "th": [
+          "ไก่",
+          "อร่อย"
+        ],
+        "fa": [
+          "مرغ",
+          "خوشمزه",
+          "است"
+        ],
+        "ar": [
+          "الدجاج",
+          "لذيذ"
+        ],
+        "es": [
+          "El",
+          "pollo",
+          "es",
+          "delicioso"
+        ],
+        "zh": [
+          "鸡肉",
+          "好吃"
+        ],
+        "ja": [
+          "鶏肉",
+          "は",
+          "おいしい"
+        ]
+      }
+    },
+    {
+      "id": "sentence_i_eat_chicken_and_rice",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_eat",
+        "word_chicken",
+        "word_rice"
+      ],
+      "texts": {
+        "en": "I eat chicken and rice",
+        "th": "ฉันกินไก่และข้าว",
+        "fa": "من مرغ و برنج می‌خورم",
+        "ar": "أنا آكل الدجاج والأرز",
+        "es": "Yo como pollo y arroz",
+        "zh": "我吃鸡肉和米饭",
+        "ja": "私は鶏肉とご飯を食べる"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "eat",
+          "chicken",
+          "and",
+          "rice"
+        ],
+        "th": [
+          "ฉัน",
+          "กิน",
+          "ไก่",
+          "และ",
+          "ข้าว"
+        ],
+        "fa": [
+          "من",
+          "مرغ",
+          "و",
+          "برنج",
+          "می‌خورم"
+        ],
+        "ar": [
+          "أنا",
+          "آكل",
+          "الدجاج",
+          "والأرز"
+        ],
+        "es": [
+          "Yo",
+          "como",
+          "pollo",
+          "y",
+          "arroz"
+        ],
+        "zh": [
+          "我",
+          "吃",
+          "鸡肉",
+          "和",
+          "米饭"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "鶏肉",
+          "と",
+          "ご飯",
+          "を",
+          "食べる"
+        ]
+      }
+    },
+    {
+      "id": "sentence_thank_you",
+      "kind": "sentence",
+      "itemIds": [
+        "word_thanks"
+      ],
+      "texts": {
+        "en": "Thank you",
+        "th": "ขอบคุณ",
+        "fa": "متشکرم",
+        "ar": "شكرا",
+        "es": "Gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
+      },
+      "tokens": {
+        "en": [
+          "Thank",
+          "you"
+        ],
+        "th": [
+          "ขอบคุณ"
+        ],
+        "fa": [
+          "متشکرم"
+        ],
+        "ar": [
+          "شكرا"
+        ],
+        "es": [
+          "Gracias"
+        ],
+        "zh": [
+          "谢谢"
+        ],
+        "ja": [
+          "ありがとう"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hello_world",
+      "kind": "sentence",
+      "itemIds": [
+        "word_hello"
+      ],
+      "texts": {
+        "en": "Hello world",
+        "th": "สวัสดีชาวโลก",
+        "fa": "سلام دنیا",
+        "ar": "مرحبا بالعالم",
+        "es": "Hola mundo",
+        "zh": "你好世界",
+        "ja": "こんにちは世界"
+      }
+    },
+    {
+      "id": "sentence_i_drink_water",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_drink",
+        "word_water"
+      ],
+      "texts": {
+        "en": "I drink water",
+        "th": "ฉันดื่มน้ำ",
+        "fa": "من آب می‌نوشم",
+        "es": "Yo bebo agua",
+        "zh": "我喝水",
+        "ja": "私は水を飲む"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "drink",
+          "water"
+        ],
+        "th": [
+          "ฉัน",
+          "ดื่ม",
+          "น้ำ"
+        ],
+        "fa": [
+          "من",
+          "آب",
+          "می‌نوشم"
+        ],
+        "es": [
+          "Yo",
+          "bebo",
+          "agua"
+        ],
+        "zh": [
+          "我",
+          "喝",
+          "水"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "水",
+          "を",
+          "飲む"
+        ]
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "تو",
+        "ar": "أنت",
+        "es": "Tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_we",
+      "kind": "word",
+      "texts": {
+        "en": "we",
+        "th": "เรา",
+        "fa": "ما",
+        "ar": "نحن",
+        "es": "Nosotros",
+        "zh": "我们",
+        "ja": "私たち"
+      }
+    },
+    {
+      "id": "word_eat",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "أكل",
+        "es": "comer",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "word_drink",
+      "kind": "word",
+      "texts": {
+        "en": "drink",
+        "th": "ดื่ม",
+        "fa": "نوشیدن",
+        "ar": "شرب",
+        "es": "beber",
+        "zh": "喝",
+        "ja": "飲む"
+      }
+    },
+    {
+      "id": "word_rice",
+      "kind": "word",
+      "texts": {
+        "en": "rice",
+        "th": "ข้าว",
+        "fa": "برنج",
+        "ar": "أرز",
+        "es": "arroz",
+        "zh": "米饭",
+        "ja": "ご飯"
+      }
+    },
+    {
+      "id": "word_water",
+      "kind": "word",
+      "texts": {
+        "en": "water",
+        "th": "น้ำ",
+        "fa": "آب",
+        "ar": "ماء",
+        "es": "agua",
+        "zh": "水",
+        "ja": "水"
+      }
+    },
+    {
+      "id": "word_bread",
+      "kind": "word",
+      "texts": {
+        "en": "bread",
+        "th": "ขนมปัง",
+        "fa": "نان",
+        "ar": "خبز",
+        "es": "pan",
+        "zh": "面包",
+        "ja": "パン"
+      }
+    },
+    {
+      "id": "word_tea",
+      "kind": "word",
+      "texts": {
+        "en": "tea",
+        "th": "ชา",
+        "fa": "چای",
+        "ar": "شاي",
+        "es": "té",
+        "zh": "茶",
+        "ja": "お茶"
+      }
+    },
+    {
+      "id": "word_apple",
+      "kind": "word",
+      "texts": {
+        "en": "apple",
+        "th": "แอปเปิ้ล",
+        "fa": "سیب",
+        "ar": "تفاحة",
+        "es": "manzana",
+        "zh": "苹果",
+        "ja": "りんご"
+      }
+    },
+    {
+      "id": "word_chicken",
+      "kind": "word",
+      "texts": {
+        "en": "chicken",
+        "th": "ไก่",
+        "fa": "مرغ",
+        "ar": "دجاج",
+        "es": "pollo",
+        "zh": "鸡肉",
+        "ja": "鶏肉"
+      }
+    },
+    {
+      "id": "word_delicious",
+      "kind": "word",
+      "texts": {
+        "en": "delicious",
+        "th": "อร่อย",
+        "fa": "خوشمزه",
+        "ar": "لذيذ",
+        "es": "delicioso",
+        "zh": "好吃",
+        "ja": "おいしい"
+      }
+    },
+    {
+      "id": "word_thanks",
+      "kind": "word",
+      "texts": {
+        "en": "thank you",
+        "th": "ขอบคุณ",
+        "fa": "متشکرم",
+        "ar": "شكرا",
+        "es": "Gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
+      }
+    },
+    {
+      "id": "word_hello",
+      "kind": "word",
+      "texts": {
+        "en": "hello",
+        "th": "สวัสดี",
+        "fa": "سلام",
+        "ar": "مرحبا",
+        "es": "Hola",
+        "zh": "你好",
+        "ja": "こんにちは"
+      }
+    },
+    {
+      "id": "word_soup",
+      "kind": "word",
+      "texts": {
+        "en": "soup",
+        "th": "ซุป",
+        "fa": "سوپ",
+        "ar": "حساء",
+        "es": "sopa",
+        "zh": "汤"
+      }
+    }
+  ]
+}

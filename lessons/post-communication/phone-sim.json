@@ -1,0 +1,1669 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำหลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras básicas",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "sentence_core_buy_sim",
+      "kind": "sentence",
+      "itemIds": ["word_want", "word_buy", "word_sim"],
+      "texts": {
+        "en": "I want to buy a SIM",
+        "th": "ต้องการซื้อซิมครับ",
+        "fa": "می‌خواهم سیم‌کارت بخرم",
+        "ar": "أريد شراء شريحة SIM",
+        "es": "Quiero comprar una tarjeta SIM",
+        "zh": "我想买一张SIM卡",
+        "ja": "SIMカードを買いたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "buy", "a", "SIM"],
+        "th": ["ต้องการ", "ซื้อ", "ซิม", "ครับ"],
+        "fa": ["می‌خواهم", "سیم‌کارت", "بخرم"],
+        "ar": ["أريد", "شراء", "شريحة", "SIM"],
+        "es": ["Quiero", "comprar", "una", "tarjeta", "SIM"],
+        "zh": ["我", "想", "买", "一张", "SIM卡"],
+        "ja": ["SIMカード", "を", "買い", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_core_number_question",
+      "kind": "sentence",
+      "itemIds": [
+        "word_want",
+        "word_phone",
+        "word_number",
+        "word_also",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Do you want a phone number too",
+        "th": "ต้องการเบอร์ด้วยไหมคะ",
+        "fa": "شماره تلفن هم می‌خواهید",
+        "ar": "هل تريد رقم هاتف أيضا",
+        "es": "Quieres un número de teléfono también",
+        "zh": "你也想要电话号码吗",
+        "ja": "電話番号も欲しいですか"
+      },
+      "tokens": {
+        "en": ["Do", "you", "want", "a", "phone", "number", "too"],
+        "th": ["ต้องการ", "เบอร์", "ด้วย", "ไหม", "คะ"],
+        "fa": ["شماره", "تلفن", "هم", "می‌خواهید"],
+        "ar": ["هل", "تريد", "رقم", "هاتف", "أيضا"],
+        "es": ["Quieres", "un", "número", "de", "teléfono", "también"],
+        "zh": ["你", "也", "想要", "电话", "号码", "吗"],
+        "ja": ["電話", "番号", "も", "欲しい", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_core_number_answer",
+      "kind": "sentence",
+      "itemIds": ["word_want", "word_phone", "word_number", "word_also"],
+      "texts": {
+        "en": "I want a phone number too",
+        "th": "ต้องการเบอร์ด้วยครับ",
+        "fa": "شماره تلفن هم می‌خواهم",
+        "ar": "أريد رقم هاتف أيضا",
+        "es": "Quiero un número de teléfono también",
+        "zh": "我也想要电话号码",
+        "ja": "電話番号も欲しいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "a", "phone", "number", "too"],
+        "th": ["ต้องการ", "เบอร์", "ด้วย", "ครับ"],
+        "fa": ["شماره", "تلفن", "هم", "می‌خواهم"],
+        "ar": ["أريد", "رقم", "هاتف", "أيضا"],
+        "es": ["Quiero", "un", "número", "de", "teléfono", "también"],
+        "zh": ["我", "也", "想要", "电话", "号码"],
+        "ja": ["電話", "番号", "も", "欲しい", "です"]
+      }
+    },
+    {
+      "id": "sentence_core_sim_price",
+      "kind": "sentence",
+      "itemIds": ["word_sim", "word_how_much"],
+      "texts": {
+        "en": "How much is the SIM",
+        "th": "ซิมราคาเท่าไหร่ครับ",
+        "fa": "سیم‌کارت چند است",
+        "ar": "كم سعر شريحة SIM",
+        "es": "Cuánto cuesta la tarjeta SIM",
+        "zh": "SIM卡多少钱",
+        "ja": "SIMカードはいくらですか"
+      },
+      "tokens": {
+        "en": ["How", "much", "is", "the", "SIM"],
+        "th": ["ซิม", "ราคา", "เท่าไหร่", "ครับ"],
+        "fa": ["سیم‌کارت", "چند", "است"],
+        "ar": ["كم", "سعر", "شريحة", "SIM"],
+        "es": ["Cuánto", "cuesta", "la", "tarjeta", "SIM"],
+        "zh": ["SIM卡", "多少", "钱"],
+        "ja": ["SIMカード", "は", "いくら", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_core_thanks_pleasure",
+      "kind": "sentence",
+      "itemIds": ["word_thank", "word_glad"],
+      "texts": {
+        "en": "Thank you very much my pleasure",
+        "th": "ขอบคุณมากครับ ยินดีครับ",
+        "fa": "بسیار متشکرم با کمال میل",
+        "ar": "شكرا جزيلا على الرحب والسعة",
+        "es": "Muchas gracias con gusto",
+        "zh": "非常感谢不客气",
+        "ja": "ありがとうございますどういたしまして"
+      },
+      "tokens": {
+        "en": ["Thank", "you", "very", "much", "my", "pleasure"],
+        "th": ["ขอบคุณ", "มาก", "ครับ", "ยินดี", "ครับ"],
+        "fa": ["بسیار", "متشکرم", "با", "کمال", "میل"],
+        "ar": ["شكرا", "جزيلا", "على", "الرحب", "والسعة"],
+        "es": ["Muchas", "gracias", "con", "gusto"],
+        "zh": ["非常", "感谢", "不", "客气"],
+        "ja": ["ありがとう", "ございます", "どう", "いたし", "まし", "て"]
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_want",
+      "kind": "word",
+      "texts": {
+        "en": "want",
+        "th": "ต้องการ",
+        "fa": "خواستن",
+        "ar": "يريد",
+        "es": "querer",
+        "zh": "想要",
+        "ja": "欲しい"
+      }
+    },
+    {
+      "id": "word_buy",
+      "kind": "word",
+      "texts": {
+        "en": "buy",
+        "th": "ซื้อ",
+        "fa": "خریدن",
+        "ar": "يشتري",
+        "es": "comprar",
+        "zh": "买",
+        "ja": "買う"
+      }
+    },
+    {
+      "id": "word_sim",
+      "kind": "word",
+      "texts": {
+        "en": "SIM card",
+        "th": "ซิม",
+        "fa": "سیم‌کارت",
+        "ar": "شريحة SIM",
+        "es": "tarjeta SIM",
+        "zh": "SIM卡",
+        "ja": "SIMカード"
+      }
+    },
+    {
+      "id": "word_phone",
+      "kind": "word",
+      "texts": {
+        "en": "phone",
+        "th": "โทรศัพท์",
+        "fa": "تلفن",
+        "ar": "هاتف",
+        "es": "teléfono",
+        "zh": "电话",
+        "ja": "電話"
+      }
+    },
+    {
+      "id": "word_number",
+      "kind": "word",
+      "texts": {
+        "en": "number",
+        "th": "เบอร์",
+        "fa": "شماره",
+        "ar": "رقم",
+        "es": "número",
+        "zh": "号码",
+        "ja": "番号"
+      }
+    },
+    {
+      "id": "word_yes",
+      "kind": "word",
+      "texts": {
+        "en": "yes",
+        "th": "ใช่",
+        "fa": "بله",
+        "ar": "نعم",
+        "es": "sí",
+        "zh": "是",
+        "ja": "はい"
+      }
+    },
+    {
+      "id": "word_no",
+      "kind": "word",
+      "texts": {
+        "en": "no",
+        "th": "ไม่",
+        "fa": "نه",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不",
+        "ja": "いいえ"
+      }
+    },
+    {
+      "id": "word_how_much",
+      "kind": "word",
+      "texts": {
+        "en": "how much",
+        "th": "เท่าไหร่",
+        "fa": "چقدر",
+        "ar": "كم",
+        "es": "cuánto",
+        "zh": "多少",
+        "ja": "いくら"
+      }
+    },
+    {
+      "id": "word_baht",
+      "kind": "word",
+      "texts": {
+        "en": "baht",
+        "th": "บาท",
+        "fa": "بات",
+        "ar": "بات",
+        "es": "baht",
+        "zh": "泰铢",
+        "ja": "バーツ"
+      }
+    },
+    {
+      "id": "word_top_up",
+      "kind": "word",
+      "texts": {
+        "en": "top up",
+        "th": "เติมเงิน",
+        "fa": "شارژ کردن",
+        "ar": "إعادة شحن",
+        "es": "recargar",
+        "zh": "充值",
+        "ja": "チャージ"
+      }
+    },
+    {
+      "id": "word_question_particle",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_thank",
+      "kind": "word",
+      "texts": {
+        "en": "thank",
+        "th": "ขอบคุณ",
+        "fa": "تشکر",
+        "ar": "شكر",
+        "es": "gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
+      }
+    },
+    {
+      "id": "word_glad",
+      "kind": "word",
+      "texts": {
+        "en": "glad",
+        "th": "ยินดี",
+        "fa": "خوشحال",
+        "ar": "سعيد",
+        "es": "encantado",
+        "zh": "高兴",
+        "ja": "嬉しい"
+      }
+    },
+    {
+      "id": "word_have",
+      "kind": "word",
+      "texts": {
+        "en": "have",
+        "th": "มี",
+        "fa": "داشتن",
+        "ar": "يملك",
+        "es": "tener",
+        "zh": "有",
+        "ja": "ある"
+      }
+    },
+    {
+      "id": "word_also",
+      "kind": "word",
+      "texts": {
+        "en": "also / too",
+        "th": "ด้วย",
+        "fa": "هم",
+        "ar": "أيضا",
+        "es": "también",
+        "zh": "也",
+        "ja": "も"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Buying & Registering a SIM",
+        "th": "สถานการณ์ 1: ซื้อและลงทะเบียนซิม",
+        "fa": "سناریوی 1: خرید و ثبت سیم‌کارت",
+        "ar": "السيناريو 1: شراء شريحة وتسجيلها",
+        "es": "Escenario 1: Comprar y registrar una SIM",
+        "zh": "场景 1：购买并登记SIM卡",
+        "ja": "場面1：SIMの購入と登録"
+      }
+    },
+    {
+      "id": "sentence_buy_tourist_sim",
+      "kind": "sentence",
+      "itemIds": ["word_have", "word_tourist_sim", "word_question_particle"],
+      "texts": {
+        "en": "Do you have a tourist SIM",
+        "th": "มีซิมสำหรับนักท่องเที่ยวไหมครับ",
+        "fa": "سیم‌کارت توریستی دارید",
+        "ar": "هل لديك شريحة سياحية",
+        "es": "Tiene una SIM turística",
+        "zh": "有游客SIM卡吗",
+        "ja": "観光客用SIMはありますか"
+      },
+      "tokens": {
+        "en": ["Do", "you", "have", "a", "tourist", "SIM"],
+        "th": ["มี", "ซิม", "สำหรับ", "นักท่องเที่ยว", "ไหม", "ครับ"],
+        "fa": ["سیم‌کارت", "توریستی", "دارید"],
+        "ar": ["هل", "لديك", "شريحة", "سياحية"],
+        "es": ["Tiene", "una", "SIM", "turística"],
+        "zh": ["有", "游客", "SIM卡", "吗"],
+        "ja": ["観光客", "用", "SIM", "は", "あり", "ます", "か"]
+      }
+    },
+    {
+      "id": "sentence_buy_passport_needed",
+      "kind": "sentence",
+      "itemIds": ["word_passport", "word_question_particle"],
+      "texts": {
+        "en": "Do I need to use a passport",
+        "th": "ต้องใช้พาสปอร์ตไหมครับ",
+        "fa": "باید از پاسپورت استفاده کنم",
+        "ar": "هل يجب استخدام جواز السفر",
+        "es": "Necesito usar un pasaporte",
+        "zh": "需要用护照吗",
+        "ja": "パスポートを使う必要がありますか"
+      },
+      "tokens": {
+        "en": ["Do", "I", "need", "to", "use", "a", "passport"],
+        "th": ["ต้อง", "ใช้", "พาสปอร์ต", "ไหม", "ครับ"],
+        "fa": ["باید", "از", "پاسپورت", "استفاده", "کنم"],
+        "ar": ["هل", "يجب", "استخدام", "جواز", "السفر"],
+        "es": ["Necesito", "usar", "un", "pasaporte"],
+        "zh": ["需要", "用", "护照", "吗"],
+        "ja": ["パスポート", "を", "使う", "必要", "が", "あり", "ます", "か"]
+      }
+    },
+    {
+      "id": "sentence_buy_passport_or_id",
+      "kind": "sentence",
+      "itemIds": ["word_passport", "word_id_card"],
+      "texts": {
+        "en": "Use a passport or an ID card",
+        "th": "ใช้พาสปอร์ตหรือบัตรประชาชนคะ",
+        "fa": "از پاسپورت یا کارت ملی استفاده کنید",
+        "ar": "استخدم جواز السفر أو بطاقة الهوية",
+        "es": "Use un pasaporte o un documento de identidad",
+        "zh": "用护照或身份证",
+        "ja": "パスポートか身分証明書を使ってください"
+      },
+      "tokens": {
+        "en": ["Use", "a", "passport", "or", "an", "ID", "card"],
+        "th": ["ใช้", "พาสปอร์ต", "หรือ", "บัตรประชาชน", "คะ"],
+        "fa": ["از", "پاسپورت", "یا", "کارت", "ملی", "استفاده", "کنید"],
+        "ar": ["استخدم", "جواز", "السفر", "أو", "بطاقة", "الهوية"],
+        "es": [
+          "Use",
+          "un",
+          "pasaporte",
+          "o",
+          "un",
+          "documento",
+          "de",
+          "identidad"
+        ],
+        "zh": ["用", "护照", "或", "身份证"],
+        "ja": ["パスポート", "か", "身分証明書", "を", "使っ", "て", "ください"]
+      }
+    },
+    {
+      "id": "sentence_buy_register_passport",
+      "kind": "sentence",
+      "itemIds": ["word_register", "word_sim", "word_passport"],
+      "texts": {
+        "en": "Register the SIM with a passport",
+        "th": "ลงทะเบียนซิมด้วยพาสปอร์ตครับ",
+        "fa": "سیم‌کارت را با پاسپورت ثبت کنید",
+        "ar": "سجل الشريحة بجواز السفر",
+        "es": "Registre la SIM con un pasaporte",
+        "zh": "用护照登记SIM卡",
+        "ja": "パスポートでSIMを登録してください"
+      },
+      "tokens": {
+        "en": ["Register", "the", "SIM", "with", "a", "passport"],
+        "th": ["ลงทะเบียน", "ซิม", "ด้วย", "พาสปอร์ต", "ครับ"],
+        "fa": ["سیم‌کارت", "را", "با", "پاسپورت", "ثبت", "کنید"],
+        "ar": ["سجل", "الشريحة", "بجواز", "السفر"],
+        "es": ["Registre", "la", "SIM", "con", "un", "pasaporte"],
+        "zh": ["用", "护照", "登记", "SIM卡"],
+        "ja": ["パスポート", "で", "SIM", "を", "登録", "し", "て", "ください"]
+      }
+    },
+    {
+      "id": "sentence_buy_convenience_store",
+      "kind": "sentence",
+      "itemIds": [
+        "word_buy",
+        "word_convenience_store",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Can I buy it at a convenience store",
+        "th": "ซื้อที่ร้านสะดวกซื้อได้ไหมครับ",
+        "fa": "می‌توانم از فروشگاه زنجیره‌ای بخرم",
+        "ar": "هل يمكن الشراء من المتجر الصغير",
+        "es": "Puedo comprarla en una tienda de conveniencia",
+        "zh": "可以在便利店买吗",
+        "ja": "コンビニで買うことができますか"
+      },
+      "tokens": {
+        "en": ["Can", "I", "buy", "it", "at", "a", "convenience", "store"],
+        "th": ["ซื้อ", "ที่", "ร้านสะดวกซื้อ", "ได้", "ไหม", "ครับ"],
+        "fa": ["می‌توانم", "از", "فروشگاه", "زنجیره‌ای", "بخرم"],
+        "ar": ["هل", "يمكن", "الشراء", "من", "المتجر", "الصغير"],
+        "es": [
+          "Puedo",
+          "comprarla",
+          "en",
+          "una",
+          "tienda",
+          "de",
+          "conveniencia"
+        ],
+        "zh": ["可以", "在", "便利店", "买", "吗"],
+        "ja": ["コンビニ", "で", "買う", "こと", "が", "でき", "ます", "か"]
+      }
+    },
+    {
+      "id": "sentence_buy_activate",
+      "kind": "sentence",
+      "itemIds": ["word_activate"],
+      "texts": {
+        "en": "It can be activated right away",
+        "th": "เปิดใช้งานได้เลยค่ะ",
+        "fa": "می‌تواند فوراً فعال شود",
+        "ar": "يمكن تفعيلها فورا",
+        "es": "Se puede activar de inmediato",
+        "zh": "可以马上激活",
+        "ja": "すぐに有効化できます"
+      },
+      "tokens": {
+        "en": ["It", "can", "be", "activated", "right", "away"],
+        "th": ["เปิดใช้งาน", "ได้", "เลย", "ค่ะ"],
+        "fa": ["می‌تواند", "فوراً", "فعال", "شود"],
+        "ar": ["يمكن", "تفعيلها", "فورا"],
+        "es": ["Se", "puede", "activar", "de", "inmediato"],
+        "zh": ["可以", "马上", "激活"],
+        "ja": ["すぐ", "に", "有効化", "でき", "ます"]
+      }
+    },
+    {
+      "id": "word_tourist_sim",
+      "kind": "word",
+      "texts": {
+        "en": "tourist SIM",
+        "th": "ซิมสำหรับนักท่องเที่ยว",
+        "fa": "سیم‌کارت توریستی",
+        "ar": "شريحة سياحية",
+        "es": "SIM turística",
+        "zh": "游客SIM卡",
+        "ja": "観光客用SIM"
+      }
+    },
+    {
+      "id": "word_passport",
+      "kind": "word",
+      "texts": {
+        "en": "passport",
+        "th": "หนังสือเดินทาง",
+        "fa": "پاسپورت",
+        "ar": "جواز سفر",
+        "es": "pasaporte",
+        "zh": "护照",
+        "ja": "パスポート"
+      }
+    },
+    {
+      "id": "word_id_card",
+      "kind": "word",
+      "texts": {
+        "en": "ID card",
+        "th": "บัตรประชาชน",
+        "fa": "کارت ملی",
+        "ar": "بطاقة هوية",
+        "es": "documento de identidad",
+        "zh": "身份证",
+        "ja": "身分証明書"
+      }
+    },
+    {
+      "id": "word_register",
+      "kind": "word",
+      "texts": {
+        "en": "register",
+        "th": "ลงทะเบียน",
+        "fa": "ثبت کردن",
+        "ar": "تسجيل",
+        "es": "registrar",
+        "zh": "登记",
+        "ja": "登録する"
+      }
+    },
+    {
+      "id": "word_shop",
+      "kind": "word",
+      "texts": {
+        "en": "shop",
+        "th": "ร้าน",
+        "fa": "مغازه",
+        "ar": "متجر",
+        "es": "tienda",
+        "zh": "商店",
+        "ja": "店"
+      }
+    },
+    {
+      "id": "word_convenience_store",
+      "kind": "word",
+      "texts": {
+        "en": "convenience store",
+        "th": "ร้านสะดวกซื้อ",
+        "fa": "فروشگاه زنجیره‌ای",
+        "ar": "متجر صغير",
+        "es": "tienda de conveniencia",
+        "zh": "便利店",
+        "ja": "コンビニ"
+      }
+    },
+    {
+      "id": "word_activate",
+      "kind": "word",
+      "texts": {
+        "en": "activate",
+        "th": "เปิดใช้งาน",
+        "fa": "فعال کردن",
+        "ar": "تفعيل",
+        "es": "activar",
+        "zh": "激活",
+        "ja": "有効化する"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Choosing a Plan",
+        "th": "สถานการณ์ 2: เลือกแพ็กเกจ",
+        "fa": "سناریوی 2: انتخاب بسته",
+        "ar": "السيناريو 2: اختيار باقة",
+        "es": "Escenario 2: Elegir un plan",
+        "zh": "场景 2：选择套餐",
+        "ja": "場面2：プランを選ぶ"
+      }
+    },
+    {
+      "id": "sentence_plan_packages",
+      "kind": "sentence",
+      "itemIds": ["word_have", "word_package"],
+      "texts": {
+        "en": "What packages are available",
+        "th": "มีแพ็กเกจไหนบ้างครับ",
+        "fa": "چه بسته‌هایی دارید",
+        "ar": "ما الباقات المتاحة",
+        "es": "Qué paquetes hay disponibles",
+        "zh": "有哪些套餐",
+        "ja": "どんなパッケージがありますか"
+      },
+      "tokens": {
+        "en": ["What", "packages", "are", "available"],
+        "th": ["มี", "แพ็กเกจ", "ไหน", "บ้าง", "ครับ"],
+        "fa": ["چه", "بسته‌هایی", "دارید"],
+        "ar": ["ما", "الباقات", "المتاحة"],
+        "es": ["Qué", "paquetes", "hay", "disponibles"],
+        "zh": ["有", "哪些", "套餐"],
+        "ja": ["どんな", "パッケージ", "が", "あり", "ます", "か"]
+      }
+    },
+    {
+      "id": "sentence_plan_internet_lot",
+      "kind": "sentence",
+      "itemIds": ["word_want", "word_internet"],
+      "texts": {
+        "en": "I want a lot of internet",
+        "th": "ต้องการอินเทอร์เน็ตเยอะครับ",
+        "fa": "اینترنت زیاد می‌خواهم",
+        "ar": "أريد إنترنت كثيرا",
+        "es": "Quiero mucho internet",
+        "zh": "我想要很多互联网",
+        "ja": "インターネットがたくさん欲しいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "a", "lot", "of", "internet"],
+        "th": ["ต้องการ", "อินเทอร์เน็ต", "เยอะ", "ครับ"],
+        "fa": ["اینترنت", "زیاد", "می‌خواهم"],
+        "ar": ["أريد", "إنترنت", "كثيرا"],
+        "es": ["Quiero", "mucho", "internet"],
+        "zh": ["我", "想要", "很多", "互联网"],
+        "ja": ["インターネット", "が", "たくさん", "欲しい", "です"]
+      }
+    },
+    {
+      "id": "sentence_plan_month_price",
+      "kind": "sentence",
+      "itemIds": ["word_package", "word_month", "word_how_much"],
+      "texts": {
+        "en": "How much is this package per month",
+        "th": "แพ็กเกจนี้เดือนละเท่าไหร่ครับ",
+        "fa": "این بسته ماهی چند است",
+        "ar": "كم سعر هذه الباقة شهريا",
+        "es": "Cuánto cuesta este paquete al mes",
+        "zh": "这个套餐每月多少钱",
+        "ja": "このパッケージは月額いくらですか"
+      },
+      "tokens": {
+        "en": ["How", "much", "is", "this", "package", "per", "month"],
+        "th": ["แพ็กเกจ", "นี้", "เดือนละ", "เท่าไหร่", "ครับ"],
+        "fa": ["این", "بسته", "ماهی", "چند", "است"],
+        "ar": ["كم", "سعر", "هذه", "الباقة", "شهريا"],
+        "es": ["Cuánto", "cuesta", "este", "paquete", "al", "mes"],
+        "zh": ["这个", "套餐", "每月", "多少", "钱"],
+        "ja": ["この", "パッケージ", "は", "月額", "いくら", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_plan_unlimited",
+      "kind": "sentence",
+      "itemIds": ["word_have", "word_unlimited", "word_question_particle"],
+      "texts": {
+        "en": "Is there an unlimited plan",
+        "th": "มีแบบไม่จำกัดไหมครับ",
+        "fa": "طرح نامحدود دارید",
+        "ar": "هل توجد باقة غير محدودة",
+        "es": "Hay un plan ilimitado",
+        "zh": "有无限套餐吗",
+        "ja": "無制限プランはありますか"
+      },
+      "tokens": {
+        "en": ["Is", "there", "an", "unlimited", "plan"],
+        "th": ["มี", "แบบ", "ไม่จำกัด", "ไหม", "ครับ"],
+        "fa": ["طرح", "نامحدود", "دارید"],
+        "ar": ["هل", "توجد", "باقة", "غير", "محدودة"],
+        "es": ["Hay", "un", "plan", "ilimitado"],
+        "zh": ["有", "无限", "套餐", "吗"],
+        "ja": ["無制限", "プラン", "は", "あり", "ます", "か"]
+      }
+    },
+    {
+      "id": "sentence_plan_minutes_days",
+      "kind": "sentence",
+      "itemIds": ["word_minutes", "word_day", "word_how_many"],
+      "texts": {
+        "en": "How many minutes and how many days does it work",
+        "th": "มีกี่นาทีและใช้ได้กี่วันครับ",
+        "fa": "چند دقیقه و چند روز کار می‌کند",
+        "ar": "كم دقيقة وكم يوم تعمل",
+        "es": "Cuántos minutos y cuántos días funciona",
+        "zh": "有多少分钟和多少天",
+        "ja": "何分と何日使えますか"
+      },
+      "tokens": {
+        "en": [
+          "How",
+          "many",
+          "minutes",
+          "and",
+          "how",
+          "many",
+          "days",
+          "does",
+          "it",
+          "work"
+        ],
+        "th": ["มี", "กี่นาที", "และ", "ใช้ได้", "กี่วัน", "ครับ"],
+        "fa": ["چند", "دقیقه", "و", "چند", "روز", "کار", "می‌کند"],
+        "ar": ["كم", "دقيقة", "وكم", "يوم", "تعمل"],
+        "es": ["Cuántos", "minutos", "y", "cuántos", "días", "funciona"],
+        "zh": ["有", "多少", "分钟", "和", "多少", "天"],
+        "ja": ["何分", "と", "何日", "使え", "ます", "か"]
+      }
+    },
+    {
+      "id": "sentence_plan_speed",
+      "kind": "sentence",
+      "itemIds": ["word_speed", "word_how_much"],
+      "texts": {
+        "en": "What is the speed",
+        "th": "ความเร็วเท่าไหร่ครับ",
+        "fa": "سرعت چقدر است",
+        "ar": "كم السرعة",
+        "es": "Cuál es la velocidad",
+        "zh": "速度是多少",
+        "ja": "速度はどれくらいですか"
+      },
+      "tokens": {
+        "en": ["What", "is", "the", "speed"],
+        "th": ["ความเร็ว", "เท่าไหร่", "ครับ"],
+        "fa": ["سرعت", "چقدر", "است"],
+        "ar": ["كم", "السرعة"],
+        "es": ["Cuál", "es", "la", "velocidad"],
+        "zh": ["速度", "是", "多少"],
+        "ja": ["速度", "は", "どれくらい", "です", "か"]
+      }
+    },
+    {
+      "id": "word_package",
+      "kind": "word",
+      "texts": {
+        "en": "package",
+        "th": "แพ็กเกจ",
+        "fa": "بسته",
+        "ar": "باقة",
+        "es": "paquete",
+        "zh": "套餐",
+        "ja": "パッケージ"
+      }
+    },
+    {
+      "id": "word_internet",
+      "kind": "word",
+      "texts": {
+        "en": "internet",
+        "th": "อินเทอร์เน็ต",
+        "fa": "اینترنت",
+        "ar": "الإنترنت",
+        "es": "internet",
+        "zh": "互联网",
+        "ja": "インターネット"
+      }
+    },
+    {
+      "id": "word_minutes",
+      "kind": "word",
+      "texts": {
+        "en": "minutes",
+        "th": "นาที",
+        "fa": "دقیقه",
+        "ar": "دقائق",
+        "es": "minutos",
+        "zh": "分钟",
+        "ja": "分"
+      }
+    },
+    {
+      "id": "word_day",
+      "kind": "word",
+      "texts": {
+        "en": "day",
+        "th": "วัน",
+        "fa": "روز",
+        "ar": "يوم",
+        "es": "día",
+        "zh": "天",
+        "ja": "日"
+      }
+    },
+    {
+      "id": "word_month",
+      "kind": "word",
+      "texts": {
+        "en": "month",
+        "th": "เดือน",
+        "fa": "ماه",
+        "ar": "شهر",
+        "es": "mes",
+        "zh": "月",
+        "ja": "ヶ月"
+      }
+    },
+    {
+      "id": "word_unlimited",
+      "kind": "word",
+      "texts": {
+        "en": "unlimited",
+        "th": "ไม่จำกัด",
+        "fa": "نامحدود",
+        "ar": "غير محدود",
+        "es": "ilimitado",
+        "zh": "无限",
+        "ja": "無制限"
+      }
+    },
+    {
+      "id": "word_speed",
+      "kind": "word",
+      "texts": {
+        "en": "speed",
+        "th": "ความเร็ว",
+        "fa": "سرعت",
+        "ar": "سرعة",
+        "es": "velocidad",
+        "zh": "速度",
+        "ja": "速度"
+      }
+    },
+    {
+      "id": "word_how_many",
+      "kind": "word",
+      "texts": {
+        "en": "how many",
+        "th": "กี่",
+        "fa": "چند",
+        "ar": "كم",
+        "es": "cuántos",
+        "zh": "几",
+        "ja": "いくつ / 何"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Top-Up & Payment",
+        "th": "สถานการณ์ 3: เติมเงินและการชำระเงิน",
+        "fa": "سناریوی 3: شارژ و پرداخت",
+        "ar": "السيناريو 3: إعادة الشحن والدفع",
+        "es": "Escenario 3: Recarga y pago",
+        "zh": "场景 3：充值与付款",
+        "ja": "場面3：チャージと支払い"
+      }
+    },
+    {
+      "id": "sentence_topup_want",
+      "kind": "sentence",
+      "itemIds": ["word_want", "word_top_up"],
+      "texts": {
+        "en": "I want to top up",
+        "th": "ต้องการเติมเงินครับ",
+        "fa": "می‌خواهم شارژ کنم",
+        "ar": "أريد إعادة الشحن",
+        "es": "Quiero recargar",
+        "zh": "我想充值",
+        "ja": "チャージしたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "top", "up"],
+        "th": ["ต้องการ", "เติมเงิน", "ครับ"],
+        "fa": ["می‌خواهم", "شارژ", "کنم"],
+        "ar": ["أريد", "إعادة", "الشحن"],
+        "es": ["Quiero", "recargar"],
+        "zh": ["我", "想", "充值"],
+        "ja": ["チャージ", "し", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_topup_amount",
+      "kind": "sentence",
+      "itemIds": ["word_top_up", "word_how_much"],
+      "texts": {
+        "en": "How much would you like to top up",
+        "th": "เติมเท่าไหร่คะ",
+        "fa": "چقدر شارژ می‌کنید",
+        "ar": "كم تريد أن تشحن",
+        "es": "Cuánto quiere recargar",
+        "zh": "充值多少",
+        "ja": "いくらチャージしますか"
+      },
+      "tokens": {
+        "en": ["How", "much", "would", "you", "like", "to", "top", "up"],
+        "th": ["เติม", "เท่าไหร่", "คะ"],
+        "fa": ["چقدر", "شارژ", "می‌کنید"],
+        "ar": ["كم", "تريد", "أن", "تشحن"],
+        "es": ["Cuánto", "quiere", "recargar"],
+        "zh": ["充值", "多少"],
+        "ja": ["いくら", "チャージ", "し", "ます", "か"]
+      }
+    },
+    {
+      "id": "sentence_topup_100",
+      "kind": "sentence",
+      "itemIds": ["word_top_up", "word_baht"],
+      "texts": {
+        "en": "Top up one hundred baht",
+        "th": "เติมหนึ่งร้อยบาทครับ",
+        "fa": "صد بات شارژ کنید",
+        "ar": "اشحن مائة بات",
+        "es": "Recargue cien baht",
+        "zh": "充值一百泰铢",
+        "ja": "百バーツチャージしてください"
+      },
+      "tokens": {
+        "en": ["Top", "up", "one", "hundred", "baht"],
+        "th": ["เติม", "หนึ่งร้อย", "บาท", "ครับ"],
+        "fa": ["صد", "بات", "شارژ", "کنید"],
+        "ar": ["اشحن", "مائة", "بات"],
+        "es": ["Recargue", "cien", "baht"],
+        "zh": ["充值", "一百", "泰铢"],
+        "ja": ["百", "バーツ", "チャージ", "し", "て", "ください"]
+      }
+    },
+    {
+      "id": "sentence_topup_cash_promptpay",
+      "kind": "sentence",
+      "itemIds": ["word_pay", "word_cash", "word_promptpay"],
+      "texts": {
+        "en": "Will you pay with cash or PromptPay",
+        "th": "จ่ายด้วยเงินสดหรือพร้อมเพย์คะ",
+        "fa": "با نقد پرداخت می‌کنید یا پرامپت‌پی",
+        "ar": "هل تدفع نقدا أم ببرومبت باي",
+        "es": "Paga con efectivo o PromptPay",
+        "zh": "用现金还是PromptPay支付",
+        "ja": "現金とプロンプトペイのどちらで支払いますか"
+      },
+      "tokens": {
+        "en": ["Will", "you", "pay", "with", "cash", "or", "PromptPay"],
+        "th": ["จ่าย", "ด้วย", "เงินสด", "หรือ", "พร้อมเพย์", "คะ"],
+        "fa": ["با", "نقد", "پرداخت", "می‌کنید", "یا", "پرامپت‌پی"],
+        "ar": ["هل", "تدفع", "نقدا", "أم", "ببرومبت", "باي"],
+        "es": ["Paga", "con", "efectivo", "o", "PromptPay"],
+        "zh": ["用", "现金", "还是", "PromptPay", "支付"],
+        "ja": [
+          "現金",
+          "と",
+          "プロンプトペイ",
+          "の",
+          "どちら",
+          "で",
+          "支払い",
+          "ます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_topup_qr",
+      "kind": "sentence",
+      "itemIds": ["word_qr_code", "word_question_particle"],
+      "texts": {
+        "en": "Can I scan a QR code",
+        "th": "สแกนคิวอาร์โค้ดได้ไหมครับ",
+        "fa": "می‌توانم کیوآر کد اسکن کنم",
+        "ar": "هل يمكن مسح رمز QR",
+        "es": "Puedo escanear un código QR",
+        "zh": "可以扫二维码吗",
+        "ja": "QRコードをスキャンできますか"
+      },
+      "tokens": {
+        "en": ["Can", "I", "scan", "a", "QR", "code"],
+        "th": ["สแกน", "คิวอาร์โค้ด", "ได้", "ไหม", "ครับ"],
+        "fa": ["می‌توانم", "کیوآر", "کد", "اسکن", "کنم"],
+        "ar": ["هل", "يمكن", "مسح", "رمز", "QR"],
+        "es": ["Puedo", "escanear", "un", "código", "QR"],
+        "zh": ["可以", "扫", "二维码", "吗"],
+        "ja": ["QRコード", "を", "スキャン", "でき", "ます", "か"]
+      }
+    },
+    {
+      "id": "sentence_topup_balance",
+      "kind": "sentence",
+      "itemIds": ["word_balance", "word_how_much"],
+      "texts": {
+        "en": "How much balance is left",
+        "th": "ยอดคงเหลือเท่าไหร่ครับ",
+        "fa": "موجودی چقدر است",
+        "ar": "كم الرصيد المتبقي",
+        "es": "Cuánto saldo queda",
+        "zh": "余额是多少",
+        "ja": "残高はいくらですか"
+      },
+      "tokens": {
+        "en": ["How", "much", "balance", "is", "left"],
+        "th": ["ยอดคงเหลือ", "เท่าไหร่", "ครับ"],
+        "fa": ["موجودی", "چقدر", "است"],
+        "ar": ["كم", "الرصيد", "المتبقي"],
+        "es": ["Cuánto", "saldo", "queda"],
+        "zh": ["余额", "是", "多少"],
+        "ja": ["残高", "は", "いくら", "です", "か"]
+      }
+    },
+    {
+      "id": "word_amount",
+      "kind": "word",
+      "texts": {
+        "en": "amount",
+        "th": "จำนวน",
+        "fa": "مقدار",
+        "ar": "مبلغ",
+        "es": "cantidad",
+        "zh": "金额",
+        "ja": "金額"
+      }
+    },
+    {
+      "id": "word_cash",
+      "kind": "word",
+      "texts": {
+        "en": "cash",
+        "th": "เงินสด",
+        "fa": "نقد",
+        "ar": "نقدا",
+        "es": "efectivo",
+        "zh": "现金",
+        "ja": "現金"
+      }
+    },
+    {
+      "id": "word_promptpay",
+      "kind": "word",
+      "texts": {
+        "en": "PromptPay",
+        "th": "พร้อมเพย์",
+        "fa": "پرامپت‌پی",
+        "ar": "برومبت باي",
+        "es": "PromptPay",
+        "zh": "PromptPay",
+        "ja": "プロンプトペイ"
+      }
+    },
+    {
+      "id": "word_qr_code",
+      "kind": "word",
+      "texts": {
+        "en": "QR code",
+        "th": "คิวอาร์โค้ด",
+        "fa": "کیوآر کد",
+        "ar": "رمز QR",
+        "es": "código QR",
+        "zh": "二维码",
+        "ja": "QRコード"
+      }
+    },
+    {
+      "id": "word_code",
+      "kind": "word",
+      "texts": {
+        "en": "code",
+        "th": "รหัส",
+        "fa": "کد",
+        "ar": "رمز",
+        "es": "código",
+        "zh": "代码",
+        "ja": "コード"
+      }
+    },
+    {
+      "id": "word_balance",
+      "kind": "word",
+      "texts": {
+        "en": "balance",
+        "th": "ยอดคงเหลือ",
+        "fa": "موجودی",
+        "ar": "رصيد",
+        "es": "saldo",
+        "zh": "余额",
+        "ja": "残高"
+      }
+    },
+    {
+      "id": "word_payment",
+      "kind": "word",
+      "texts": {
+        "en": "payment",
+        "th": "การชำระเงิน",
+        "fa": "پرداخت",
+        "ar": "دفع",
+        "es": "pago",
+        "zh": "付款",
+        "ja": "支払い"
+      }
+    },
+    {
+      "id": "word_pay",
+      "kind": "word",
+      "texts": {
+        "en": "pay",
+        "th": "จ่าย",
+        "fa": "پرداخت کردن",
+        "ar": "يدفع",
+        "es": "pagar",
+        "zh": "付款",
+        "ja": "払う"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Phone Numbers & Contact",
+        "th": "สถานการณ์ 4: เบอร์โทรศัพท์และการติดต่อ",
+        "fa": "سناریوی 4: شماره‌های تلفن و تماس",
+        "ar": "السيناريو 4: أرقام الهواتف والتواصل",
+        "es": "Escenario 4: Números de teléfono y contacto",
+        "zh": "场景 4：电话号码与联系",
+        "ja": "場面4：電話番号と連絡"
+      }
+    },
+    {
+      "id": "sentence_contact_your_number",
+      "kind": "sentence",
+      "itemIds": ["word_phone", "word_number", "word_you", "word_what"],
+      "texts": {
+        "en": "What is your phone number",
+        "th": "เบอร์ของคุณคืออะไรครับ",
+        "fa": "شماره تلفن شما چیست",
+        "ar": "ما رقم هاتفك",
+        "es": "Cuál es tu número de teléfono",
+        "zh": "你的电话号码是什么",
+        "ja": "あなたの電話番号は何ですか"
+      },
+      "tokens": {
+        "en": ["What", "is", "your", "phone", "number"],
+        "th": ["เบอร์", "ของ", "คุณ", "คือ", "อะไร", "ครับ"],
+        "fa": ["شماره", "تلفن", "شما", "چیست"],
+        "ar": ["ما", "رقم", "هاتفك"],
+        "es": ["Cuál", "es", "tu", "número", "de", "teléfono"],
+        "zh": ["你", "的", "电话", "号码", "是", "什么"],
+        "ja": ["あなた", "の", "電話", "番号", "は", "何", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_contact_my_number",
+      "kind": "sentence",
+      "itemIds": ["word_phone", "word_number", "word_i", "word_what"],
+      "texts": {
+        "en": "What is my phone number",
+        "th": "เบอร์ของฉันคืออะไรครับ",
+        "fa": "شماره تلفن من چیست",
+        "ar": "ما رقم هاتفي",
+        "es": "Cuál es mi número de teléfono",
+        "zh": "我的电话号码是什么",
+        "ja": "私の電話番号は何ですか"
+      },
+      "tokens": {
+        "en": ["What", "is", "my", "phone", "number"],
+        "th": ["เบอร์", "ของ", "ฉัน", "คือ", "อะไร", "ครับ"],
+        "fa": ["شماره", "تلفن", "من", "چیست"],
+        "ar": ["ما", "رقم", "هاتفي"],
+        "es": ["Cuál", "es", "mi", "número", "de", "teléfono"],
+        "zh": ["我", "的", "电话", "号码", "是", "什么"],
+        "ja": ["私", "の", "電話", "番号", "は", "何", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_contact_call_me",
+      "kind": "sentence",
+      "itemIds": ["word_call", "word_i", "word_question_particle"],
+      "texts": {
+        "en": "Can you call me",
+        "th": "โทรหาฉันได้ไหมครับ",
+        "fa": "می‌توانید به من زنگ بزنید",
+        "ar": "هل يمكنك الاتصال بي",
+        "es": "Puedes llamarme",
+        "zh": "可以给我打电话吗",
+        "ja": "私に電話できますか"
+      },
+      "tokens": {
+        "en": ["Can", "you", "call", "me"],
+        "th": ["โทร", "หา", "ฉัน", "ได้", "ไหม", "ครับ"],
+        "fa": ["می‌توانید", "به", "من", "زنگ", "بزنید"],
+        "ar": ["هل", "يمكنك", "الاتصال", "بي"],
+        "es": ["Puedes", "llamarme"],
+        "zh": ["可以", "给", "我", "打电话", "吗"],
+        "ja": ["私", "に", "電話", "でき", "ます", "か"]
+      }
+    },
+    {
+      "id": "sentence_contact_message",
+      "kind": "sentence",
+      "itemIds": ["word_send", "word_message", "word_question_particle"],
+      "texts": {
+        "en": "Can you send a message",
+        "th": "ส่งข้อความได้ไหมครับ",
+        "fa": "می‌توانید پیام بفرستید",
+        "ar": "هل يمكنك إرسال رسالة",
+        "es": "Puedes enviar un mensaje",
+        "zh": "可以发短信吗",
+        "ja": "メッセージを送れますか"
+      },
+      "tokens": {
+        "en": ["Can", "you", "send", "a", "message"],
+        "th": ["ส่ง", "ข้อความ", "ได้", "ไหม", "ครับ"],
+        "fa": ["می‌توانید", "پیام", "بفرستید"],
+        "ar": ["هل", "يمكنك", "إرسال", "رسالة"],
+        "es": ["Puedes", "enviar", "un", "mensaje"],
+        "zh": ["可以", "发", "短信", "吗"],
+        "ja": ["メッセージ", "を", "送れ", "ます", "か"]
+      }
+    },
+    {
+      "id": "sentence_contact_save_number",
+      "kind": "sentence",
+      "itemIds": ["word_save", "word_number", "word_also"],
+      "texts": {
+        "en": "Please save the number",
+        "th": "บันทึกเบอร์ด้วยครับ",
+        "fa": "لطفاً شماره را ذخیره کنید",
+        "ar": "من فضلك احفظ الرقم",
+        "es": "Guarda el número por favor",
+        "zh": "请保存号码",
+        "ja": "番号を保存してください"
+      },
+      "tokens": {
+        "en": ["Please", "save", "the", "number"],
+        "th": ["บันทึก", "เบอร์", "ด้วย", "ครับ"],
+        "fa": ["لطفاً", "شماره", "را", "ذخیره", "کنید"],
+        "ar": ["من", "فضلك", "احفظ", "الرقم"],
+        "es": ["Guarda", "el", "número", "por", "favor"],
+        "zh": ["请", "保存", "号码"],
+        "ja": ["番号", "を", "保存", "し", "て", "ください"]
+      }
+    },
+    {
+      "id": "sentence_contact_add_line",
+      "kind": "sentence",
+      "itemIds": [
+        "word_add",
+        "word_line",
+        "word_also",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Can I add LINE too",
+        "th": "เพิ่มไลน์ด้วยได้ไหมครับ",
+        "fa": "می‌توانم لاین را هم اضافه کنم",
+        "ar": "هل يمكن إضافة لاين أيضا",
+        "es": "Puedo añadir LINE también",
+        "zh": "可以添加LINE吗",
+        "ja": "LINEも追加できますか"
+      },
+      "tokens": {
+        "en": ["Can", "I", "add", "LINE", "too"],
+        "th": ["เพิ่ม", "ไลน์", "ด้วย", "ได้", "ไหม", "ครับ"],
+        "fa": ["می‌توانم", "لاین", "را", "هم", "اضافه", "کنم"],
+        "ar": ["هل", "يمكن", "إضافة", "لاين", "أيضا"],
+        "es": ["Puedo", "añadir", "LINE", "también"],
+        "zh": ["可以", "添加", "LINE", "吗"],
+        "ja": ["LINE", "も", "追加", "でき", "ます", "か"]
+      }
+    },
+    {
+      "id": "word_call",
+      "kind": "word",
+      "texts": {
+        "en": "call",
+        "th": "โทร",
+        "fa": "تماس گرفتن",
+        "ar": "اتصال",
+        "es": "llamada",
+        "zh": "打电话",
+        "ja": "電話する"
+      }
+    },
+    {
+      "id": "word_message",
+      "kind": "word",
+      "texts": {
+        "en": "message",
+        "th": "ข้อความ",
+        "fa": "پیام",
+        "ar": "رسالة",
+        "es": "mensaje",
+        "zh": "短信",
+        "ja": "メッセージ"
+      }
+    },
+    {
+      "id": "word_save",
+      "kind": "word",
+      "texts": {
+        "en": "save",
+        "th": "บันทึก",
+        "fa": "ذخیره کردن",
+        "ar": "حفظ",
+        "es": "guardar",
+        "zh": "保存",
+        "ja": "保存する"
+      }
+    },
+    {
+      "id": "word_add",
+      "kind": "word",
+      "texts": {
+        "en": "add",
+        "th": "เพิ่ม",
+        "fa": "افزودن",
+        "ar": "إضافة",
+        "es": "añadir",
+        "zh": "添加",
+        "ja": "追加する"
+      }
+    },
+    {
+      "id": "word_wrong_number",
+      "kind": "word",
+      "texts": {
+        "en": "wrong number",
+        "th": "เบอร์ผิด",
+        "fa": "شماره اشتباه",
+        "ar": "رقم خاطئ",
+        "es": "número equivocado",
+        "zh": "错误号码",
+        "ja": "間違い番号"
+      }
+    },
+    {
+      "id": "word_contact",
+      "kind": "word",
+      "texts": {
+        "en": "contact",
+        "th": "ติดต่อ",
+        "fa": "ارتباط",
+        "ar": "تواصل",
+        "es": "contactar",
+        "zh": "联系",
+        "ja": "連絡する"
+      }
+    },
+    {
+      "id": "word_line",
+      "kind": "word",
+      "texts": {
+        "en": "LINE",
+        "th": "ไลน์",
+        "fa": "لاین",
+        "ar": "لاين",
+        "es": "LINE",
+        "zh": "LINE",
+        "ja": "LINE"
+      }
+    },
+    {
+      "id": "word_what",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه",
+        "ar": "ماذا",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_send",
+      "kind": "word",
+      "texts": {
+        "en": "send",
+        "th": "ส่ง",
+        "fa": "فرستادن",
+        "ar": "يرسل",
+        "es": "enviar",
+        "zh": "发",
+        "ja": "送る"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Signal, Expiry & Support",
+        "th": "สถานการณ์ 5: สัญญาณ การหมดอายุ และการสนับสนุน",
+        "fa": "سناریوی 5: آنتن، انقضا و پشتیبانی",
+        "ar": "السيناريو 5: الإشارة والصلاحية والدعم",
+        "es": "Escenario 5: Señal, caducidad y soporte",
+        "zh": "场景 5：信号、有效期与支持",
+        "ja": "場面5：電波・期限・サポート"
+      }
+    },
+    {
+      "id": "sentence_support_no_signal",
+      "kind": "sentence",
+      "itemIds": ["word_no", "word_have", "word_signal"],
+      "texts": {
+        "en": "There is no signal",
+        "th": "ไม่มีสัญญาณครับ",
+        "fa": "آنتن نیست",
+        "ar": "لا توجد إشارة",
+        "es": "No hay señal",
+        "zh": "没有信号",
+        "ja": "電波がありません"
+      },
+      "tokens": {
+        "en": ["There", "is", "no", "signal"],
+        "th": ["ไม่", "มี", "สัญญาณ", "ครับ"],
+        "fa": ["آنتن", "نیست"],
+        "ar": ["لا", "توجد", "إشارة"],
+        "es": ["No", "hay", "señal"],
+        "zh": ["没有", "信号"],
+        "ja": ["電波", "が", "あり", "ません"]
+      }
+    },
+    {
+      "id": "sentence_support_slow",
+      "kind": "sentence",
+      "itemIds": ["word_internet", "word_slow"],
+      "texts": {
+        "en": "The internet is slow",
+        "th": "อินเทอร์เน็ตช้าครับ",
+        "fa": "اینترنت آهسته است",
+        "ar": "الإنترنت بطيء",
+        "es": "El internet está lento",
+        "zh": "互联网很慢",
+        "ja": "インターネットが遅いです"
+      },
+      "tokens": {
+        "en": ["The", "internet", "is", "slow"],
+        "th": ["อินเทอร์เน็ต", "ช้า", "ครับ"],
+        "fa": ["اینترنت", "آهسته", "است"],
+        "ar": ["الإنترنت", "بطيء"],
+        "es": ["El", "internet", "está", "lento"],
+        "zh": ["互联网", "很", "慢"],
+        "ja": ["インターネット", "が", "遅い", "です"]
+      }
+    },
+    {
+      "id": "sentence_support_expired",
+      "kind": "sentence",
+      "itemIds": ["word_sim", "word_expired"],
+      "texts": {
+        "en": "Has the SIM expired yet",
+        "th": "ซิมหมดอายุหรือยังครับ",
+        "fa": "سیم‌کارت منقضی شده است",
+        "ar": "هل انتهت صلاحية الشريحة",
+        "es": "La SIM ya caducó",
+        "zh": "SIM卡过期了吗",
+        "ja": "SIMは期限切れですか"
+      },
+      "tokens": {
+        "en": ["Has", "the", "SIM", "expired", "yet"],
+        "th": ["ซิม", "หมดอายุ", "หรือยัง", "ครับ"],
+        "fa": ["سیم‌کارت", "منقضی", "شده", "است"],
+        "ar": ["هل", "انتهت", "صلاحية", "الشريحة"],
+        "es": ["La", "SIM", "ya", "caducó"],
+        "zh": ["SIM卡", "过期", "了", "吗"],
+        "ja": ["SIM", "は", "期限切れ", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_support_customer_service",
+      "kind": "sentence",
+      "itemIds": ["word_contact", "word_customer_service"],
+      "texts": {
+        "en": "You can contact customer service",
+        "th": "ติดต่อฝ่ายบริการลูกค้าได้ครับ",
+        "fa": "می‌توانید با خدمات مشتریان تماس بگیرید",
+        "ar": "يمكنك التواصل مع خدمة العملاء",
+        "es": "Puede contactar con servicio al cliente",
+        "zh": "可以联系客服",
+        "ja": "カスタマーサービスに連絡できます"
+      },
+      "tokens": {
+        "en": ["You", "can", "contact", "customer", "service"],
+        "th": ["ติดต่อ", "ฝ่ายบริการลูกค้า", "ได้", "ครับ"],
+        "fa": ["می‌توانید", "با", "خدمات", "مشتریان", "تماس", "بگیرید"],
+        "ar": ["يمكنك", "التواصل", "مع", "خدمة", "العملاء"],
+        "es": ["Puede", "contactar", "con", "servicio", "al", "cliente"],
+        "zh": ["可以", "联系", "客服"],
+        "ja": ["カスタマーサービス", "に", "連絡", "でき", "ます"]
+      }
+    },
+    {
+      "id": "sentence_support_esim",
+      "kind": "sentence",
+      "itemIds": ["word_esim", "word_question_particle"],
+      "texts": {
+        "en": "Can I use an eSIM",
+        "th": "ใช้ eSIM ได้ไหมครับ",
+        "fa": "می‌توانم از ای‌سیم استفاده کنم",
+        "ar": "هل يمكن استخدام eSIM",
+        "es": "Puedo usar una eSIM",
+        "zh": "可以使用eSIM吗",
+        "ja": "eSIMを使えますか"
+      },
+      "tokens": {
+        "en": ["Can", "I", "use", "an", "eSIM"],
+        "th": ["ใช้", "eSIM", "ได้", "ไหม", "ครับ"],
+        "fa": ["می‌توانم", "از", "ای‌سیم", "استفاده", "کنم"],
+        "ar": ["هل", "يمكن", "استخدام", "eSIM"],
+        "es": ["Puedo", "usar", "una", "eSIM"],
+        "zh": ["可以", "使用", "eSIM", "吗"],
+        "ja": ["eSIM", "を", "使え", "ます", "か"]
+      }
+    },
+    {
+      "id": "sentence_support_restart",
+      "kind": "sentence",
+      "itemIds": ["word_help", "word_restart", "word_phone"],
+      "texts": {
+        "en": "Please help restart the phone first",
+        "th": "ช่วยรีสตาร์ทโทรศัพท์ก่อนครับ",
+        "fa": "لطفاً تلفن را دوباره راه‌اندازی کنید",
+        "ar": "من فضلك أعد تشغيل الهاتف أولا",
+        "es": "Por favor reinicia el teléfono primero",
+        "zh": "请先帮忙重启电话",
+        "ja": "先に電話を再起動してください"
+      },
+      "tokens": {
+        "en": ["Please", "help", "restart", "the", "phone", "first"],
+        "th": ["ช่วย", "รีสตาร์ท", "โทรศัพท์", "ก่อน", "ครับ"],
+        "fa": ["لطفاً", "تلفن", "را", "دوباره", "راه‌اندازی", "کنید"],
+        "ar": ["من", "فضلك", "أعد", "تشغيل", "الهاتف", "أولا"],
+        "es": ["Por", "favor", "reinicia", "el", "teléfono", "primero"],
+        "zh": ["请", "先", "帮忙", "重启", "电话"],
+        "ja": ["先", "に", "電話", "を", "再起動", "し", "て", "ください"]
+      }
+    },
+    {
+      "id": "word_signal",
+      "kind": "word",
+      "texts": {
+        "en": "signal",
+        "th": "สัญญาณ",
+        "fa": "آنتن",
+        "ar": "إشارة",
+        "es": "señal",
+        "zh": "信号",
+        "ja": "電波"
+      }
+    },
+    {
+      "id": "word_slow",
+      "kind": "word",
+      "texts": {
+        "en": "slow",
+        "th": "ช้า",
+        "fa": "آهسته",
+        "ar": "بطيء",
+        "es": "lento",
+        "zh": "慢",
+        "ja": "遅い"
+      }
+    },
+    {
+      "id": "word_expired",
+      "kind": "word",
+      "texts": {
+        "en": "expired",
+        "th": "หมดอายุ",
+        "fa": "منقضی",
+        "ar": "منتهي الصلاحية",
+        "es": "caducado",
+        "zh": "过期",
+        "ja": "期限切れ"
+      }
+    },
+    {
+      "id": "word_customer_service",
+      "kind": "word",
+      "texts": {
+        "en": "customer service",
+        "th": "ฝ่ายบริการลูกค้า",
+        "fa": "خدمات مشتریان",
+        "ar": "خدمة العملاء",
+        "es": "servicio al cliente",
+        "zh": "客服",
+        "ja": "カスタマーサービス"
+      }
+    },
+    {
+      "id": "word_esim",
+      "kind": "word",
+      "texts": {
+        "en": "eSIM",
+        "th": "eSIM",
+        "fa": "ای‌سیم",
+        "ar": "eSIM",
+        "es": "eSIM",
+        "zh": "eSIM",
+        "ja": "eSIM"
+      }
+    },
+    {
+      "id": "word_restart",
+      "kind": "word",
+      "texts": {
+        "en": "restart",
+        "th": "รีสตาร์ท",
+        "fa": "راه‌اندازی مجدد",
+        "ar": "إعادة تشغيل",
+        "es": "reiniciar",
+        "zh": "重启",
+        "ja": "再起動する"
+      }
+    },
+    {
+      "id": "word_help",
+      "kind": "word",
+      "texts": {
+        "en": "help",
+        "th": "ช่วย",
+        "fa": "کمک",
+        "ar": "مساعدة",
+        "es": "ayuda",
+        "zh": "帮助",
+        "ja": "助ける"
+      }
+    }
+  ]
+}

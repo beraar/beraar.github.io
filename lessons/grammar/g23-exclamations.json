@@ -1,0 +1,383 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_wow",
+      "kind": "word",
+      "texts": {
+        "en": "wow",
+        "th": "โห",
+        "fa": "وای",
+        "ar": "واو",
+        "es": "guau",
+        "zh": "哇",
+        "ja": "わあ"
+      }
+    },
+    {
+      "id": "sentence_g23_wow_delicious",
+      "kind": "sentence",
+      "itemIds": [
+        "word_wow",
+        "word_delicious",
+        "word_very"
+      ],
+      "texts": {
+        "en": "Wow, very delicious!",
+        "th": "โห อร่อยมาก",
+        "fa": "وای، خیلی خوشمزه!",
+        "ar": "واو، لذيذ جدا!",
+        "es": "¡Guau, muy delicioso!",
+        "zh": "哇，非常好吃！",
+        "ja": "わあ、とてもおいしい！"
+      },
+      "tokens": {
+        "en": [
+          "Wow,",
+          "very",
+          "delicious!"
+        ],
+        "th": [
+          "โห",
+          "อร่อย",
+          "มาก"
+        ],
+        "fa": [
+          "وای،",
+          "خیلی",
+          "خوشمزه!"
+        ],
+        "ar": [
+          "واو،",
+          "لذيذ",
+          "جدا!"
+        ],
+        "es": [
+          "¡Guau,",
+          "muy",
+          "delicioso!"
+        ],
+        "zh": [
+          "哇",
+          "非常",
+          "好吃"
+        ],
+        "ja": [
+          "わあ",
+          "とても",
+          "おいしい"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g23_oops_broke",
+      "kind": "sentence",
+      "itemIds": [
+        "word_oops",
+        "word_break",
+        "word_already"
+      ],
+      "texts": {
+        "en": "Oops, it broke!",
+        "th": "อุ๊ย แตกแล้ว",
+        "fa": "اوه، شکست!",
+        "ar": "أوبس، انكسر!",
+        "es": "¡Uy, se rompió!",
+        "zh": "哎呀，碎了！",
+        "ja": "おっと、割れた！"
+      },
+      "tokens": {
+        "en": [
+          "Oops,",
+          "it",
+          "broke!"
+        ],
+        "th": [
+          "อุ๊ย",
+          "แตก",
+          "แล้ว"
+        ],
+        "fa": [
+          "اوه،",
+          "شکست!"
+        ],
+        "ar": [
+          "أوبس،",
+          "انكسر!"
+        ],
+        "es": [
+          "¡Uy,",
+          "se",
+          "rompió!"
+        ],
+        "zh": [
+          "哎呀",
+          "碎",
+          "了"
+        ],
+        "ja": [
+          "おっと",
+          "割れた"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g23_oh_no_forget",
+      "kind": "sentence",
+      "itemIds": [
+        "word_oh_no",
+        "word_i",
+        "word_forget"
+      ],
+      "texts": {
+        "en": "Oh no, I forgot!",
+        "th": "แย่แล้ว ฉันลืม",
+        "fa": "اوه نه، من فراموش کردم!",
+        "ar": "أوه لا، لقد نسيت!",
+        "es": "¡Oh no, olvidé!",
+        "zh": "糟了，我忘了！",
+        "ja": "大変だ、忘れた！"
+      },
+      "tokens": {
+        "en": [
+          "Oh",
+          "no,",
+          "I",
+          "forgot!"
+        ],
+        "th": [
+          "แย่แล้ว",
+          "ฉัน",
+          "ลืม"
+        ],
+        "fa": [
+          "اوه",
+          "نه،",
+          "من",
+          "فراموش",
+          "کردم!"
+        ],
+        "ar": [
+          "أوه",
+          "لا،",
+          "لقد",
+          "نسيت!"
+        ],
+        "es": [
+          "¡Oh",
+          "no,",
+          "olvidé!"
+        ],
+        "zh": [
+          "糟了",
+          "我",
+          "忘",
+          "了"
+        ],
+        "ja": [
+          "大変だ",
+          "忘れた"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g23_yay_win",
+      "kind": "sentence",
+      "itemIds": [
+        "word_yay",
+        "word_we",
+        "word_win",
+        "word_already"
+      ],
+      "texts": {
+        "en": "Yay, we won!",
+        "th": "ไชโย เราชนะแล้ว",
+        "fa": "هورا، ما بردیم!",
+        "ar": "ياي، لقد فزنا!",
+        "es": "¡Sí, ganamos!",
+        "zh": "好耶，我们赢了！",
+        "ja": "やった、勝った！"
+      },
+      "tokens": {
+        "en": [
+          "Yay,",
+          "we",
+          "won!"
+        ],
+        "th": [
+          "ไชโย",
+          "เรา",
+          "ชนะ",
+          "แล้ว"
+        ],
+        "fa": [
+          "هورا،",
+          "ما",
+          "بردیم!"
+        ],
+        "ar": [
+          "ياي،",
+          "لقد",
+          "فزنا!"
+        ],
+        "es": [
+          "¡Sí,",
+          "ganamos!"
+        ],
+        "zh": [
+          "好耶",
+          "我们",
+          "赢",
+          "了"
+        ],
+        "ja": [
+          "やった",
+          "勝った"
+        ]
+      }
+    },
+    {
+      "id": "word_delicious",
+      "kind": "word",
+      "texts": {
+        "en": "delicious",
+        "th": "อร่อย",
+        "fa": "خوشمزه",
+        "ar": "لذيذ",
+        "es": "delicioso",
+        "zh": "好吃",
+        "ja": "おいしい"
+      }
+    },
+    {
+      "id": "word_very",
+      "kind": "word",
+      "texts": {
+        "en": "very",
+        "th": "มาก",
+        "fa": "خیلی",
+        "ar": "جدا",
+        "es": "muy",
+        "zh": "非常",
+        "ja": "とても"
+      }
+    },
+    {
+      "id": "word_oops",
+      "kind": "word",
+      "texts": {
+        "en": "oops",
+        "th": "อุ๊ย",
+        "fa": "اوه",
+        "ar": "أوبس",
+        "es": "uy",
+        "zh": "哎呀",
+        "ja": "おっと"
+      }
+    },
+    {
+      "id": "word_break",
+      "kind": "word",
+      "texts": {
+        "en": "break",
+        "th": "แตก",
+        "fa": "شکستن",
+        "ar": "ينكسر",
+        "es": "romper",
+        "zh": "碎",
+        "ja": "割れる"
+      }
+    },
+    {
+      "id": "word_already",
+      "kind": "word",
+      "texts": {
+        "en": "already",
+        "th": "แล้ว",
+        "fa": "قبلا",
+        "ar": "بالفعل",
+        "es": "ya",
+        "zh": "了",
+        "ja": "た"
+      }
+    },
+    {
+      "id": "word_oh_no",
+      "kind": "word",
+      "texts": {
+        "en": "oh no",
+        "th": "แย่แล้ว",
+        "fa": "اوه نه",
+        "ar": "أوه لا",
+        "es": "oh no",
+        "zh": "糟了",
+        "ja": "大変だ"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_forget",
+      "kind": "word",
+      "texts": {
+        "en": "forget",
+        "th": "ลืม",
+        "fa": "فراموش کردن",
+        "ar": "ينسى",
+        "es": "olvidar",
+        "zh": "忘记",
+        "ja": "忘れる"
+      }
+    },
+    {
+      "id": "word_yay",
+      "kind": "word",
+      "texts": {
+        "en": "yay",
+        "th": "ไชโย",
+        "fa": "هورا",
+        "ar": "ياي",
+        "es": "sí",
+        "zh": "好耶",
+        "ja": "やった"
+      }
+    },
+    {
+      "id": "word_we",
+      "kind": "word",
+      "texts": {
+        "en": "we",
+        "th": "เรา",
+        "fa": "ما",
+        "ar": "نحن",
+        "es": "nosotros",
+        "zh": "我们",
+        "ja": "私たち"
+      }
+    },
+    {
+      "id": "word_win",
+      "kind": "word",
+      "texts": {
+        "en": "win",
+        "th": "ชนะ",
+        "fa": "بردن",
+        "ar": "يفوز",
+        "es": "ganar",
+        "zh": "赢",
+        "ja": "勝つ"
+      }
+    }
+  ]
+}

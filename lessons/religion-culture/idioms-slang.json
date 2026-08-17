@@ -1,0 +1,3062 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words & Descriptive Markers",
+        "th": "คำศัพท์หลักและคำขยาย",
+        "fa": "واژه‌های اصلی و نشانگرهای توصیفی",
+        "ar": "الكلمات الأساسية ومؤشرات الوصف",
+        "es": "Palabras clave y marcadores descriptivos",
+        "zh": "核心词汇与描述性标记",
+        "ja": "基本単語と記述マーカー"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú / usted",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_he_she",
+      "kind": "word",
+      "texts": {
+        "en": "he / she / they",
+        "th": "เขา",
+        "fa": "او / آن‌ها",
+        "ar": "هو / هي / هم",
+        "es": "él / ella / ellos",
+        "zh": "他 / 她 / 他们",
+        "ja": "彼 / 彼女 / 彼ら"
+      }
+    },
+    {
+      "id": "word_very",
+      "kind": "word",
+      "texts": {
+        "en": "very",
+        "th": "มาก",
+        "fa": "خیلی",
+        "ar": "جداً",
+        "es": "muy",
+        "zh": "很 / 非常",
+        "ja": "とても"
+      }
+    },
+    {
+      "id": "word_really",
+      "kind": "word",
+      "texts": {
+        "en": "really",
+        "th": "จริงๆ",
+        "fa": "واقعاً",
+        "ar": "حقاً",
+        "es": "realmente",
+        "zh": "真的",
+        "ja": "本当に"
+      }
+    },
+    {
+      "id": "word_extremely",
+      "kind": "word",
+      "texts": {
+        "en": "extremely / to the max",
+        "th": "สุดๆ",
+        "fa": "به شدت / نهایتاً",
+        "ar": "للغاية / إلى أقصى حد",
+        "es": "extremadamente / al máximo",
+        "zh": "极其 / 到了极点",
+        "ja": "最高に / 極度に"
+      }
+    },
+    {
+      "id": "word_quite",
+      "kind": "word",
+      "texts": {
+        "en": "quite / rather",
+        "th": "ค่อนข้าง",
+        "fa": "نسبتاً",
+        "ar": "إلى حد ما",
+        "es": "bastante",
+        "zh": "相当 / 比较",
+        "ja": "かなり / 割と"
+      }
+    },
+    {
+      "id": "word_a_little",
+      "kind": "word",
+      "texts": {
+        "en": "a little bit",
+        "th": "นิดหน่อย",
+        "fa": "کمی / یک chút",
+        "ar": "قليلاً",
+        "es": "un poco",
+        "zh": "一点",
+        "ja": "少し"
+      }
+    },
+    {
+      "id": "word_do_not",
+      "kind": "word",
+      "texts": {
+        "en": "do not / don't (imperative)",
+        "th": "อย่า",
+        "fa": "نکن / نباید",
+        "ar": "لا تفعل",
+        "es": "no hagas",
+        "zh": "别 / 不要",
+        "ja": "〜しないで"
+      }
+    },
+    {
+      "id": "word_this",
+      "kind": "word",
+      "texts": {
+        "en": "this",
+        "th": "นี้",
+        "fa": "این",
+        "ar": "هذا",
+        "es": "este / esta",
+        "zh": "这",
+        "ja": "この"
+      }
+    },
+    {
+      "id": "word_that",
+      "kind": "word",
+      "texts": {
+        "en": "that",
+        "th": "นั้น",
+        "fa": "آن",
+        "ar": "ذلك",
+        "es": "ese / esa",
+        "zh": "那",
+        "ja": "その"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: The 'Heart' (ใจ) — Emotions & Character",
+        "th": "สถานการณ์ 1: 'ใจ' — อารมณ์และนิสัย",
+        "fa": "سناریو ۱: 'قلب' (ใจ) — احساسات و شخصیت",
+        "ar": "السيناريو 1: 'القلب' (ใจ) — المشاعر والشخصية",
+        "es": "Escenario 1: El 'Corazón' (ใจ) — Emociones y carácter",
+        "zh": "场景一：“心”（ใจ）——情绪与性格",
+        "ja": "シナリオ1：「心」（ใจ）——感情と性格"
+      }
+    },
+    {
+      "id": "sentence_heart_kind",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he_she",
+        "word_kind",
+        "word_very"
+      ],
+      "texts": {
+        "en": "She is very kind.",
+        "th": "เขาใจดีมาก",
+        "fa": "او خیلی مهربان است.",
+        "ar": "هي طيبة القلب جداً.",
+        "es": "Ella es muy amable.",
+        "zh": "她非常善良。",
+        "ja": "彼女はとても親切だ。"
+      },
+      "tokens": {
+        "en": [
+          "She",
+          "is",
+          "very",
+          "kind."
+        ],
+        "th": [
+          "เขา",
+          "ใจดี",
+          "มาก"
+        ],
+        "fa": [
+          "او",
+          "خیلی",
+          "مهربان",
+          "است."
+        ],
+        "ar": [
+          "هي",
+          "طيبة",
+          "القلب",
+          "جداً."
+        ],
+        "es": [
+          "Ella",
+          "es",
+          "muy",
+          "amable."
+        ],
+        "zh": [
+          "她",
+          "非常",
+          "善良。"
+        ],
+        "ja": [
+          "彼女",
+          "は",
+          "とても",
+          "親切",
+          "だ。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_heart_impatient",
+      "kind": "sentence",
+      "itemIds": [
+        "word_do_not",
+        "word_impatient"
+      ],
+      "texts": {
+        "en": "Don't be so impatient.",
+        "th": "อย่าใจร้อนนัก",
+        "fa": "اینقدر عجله نکن.",
+        "ar": "لا تكن غير صبور جداً.",
+        "es": "No seas tan impaciente.",
+        "zh": "别这么急躁。",
+        "ja": "そんなに短気にならないで。"
+      },
+      "tokens": {
+        "en": [
+          "Don't",
+          "be",
+          "so",
+          "impatient."
+        ],
+        "th": [
+          "อย่า",
+          "ใจร้อน",
+          "นัก"
+        ],
+        "fa": [
+          "اینقدر",
+          "عجله",
+          "نکن."
+        ],
+        "ar": [
+          "لا",
+          "تكن",
+          "غير",
+          "صبور",
+          "جداً."
+        ],
+        "es": [
+          "No",
+          "seas",
+          "tan",
+          "impaciente."
+        ],
+        "zh": [
+          "别",
+          "这么",
+          "急躁。"
+        ],
+        "ja": [
+          "そんなに",
+          "短気",
+          "に",
+          "ならないで。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_heart_calm",
+      "kind": "sentence",
+      "itemIds": [
+        "word_calm"
+      ],
+      "texts": {
+        "en": "Please stay calm.",
+        "th": "ใจเย็นๆ นะ",
+        "fa": "لطفاً آرام باش.",
+        "ar": "ارجوك ابق هادئاً.",
+        "es": "Por favor, mantén la calma.",
+        "zh": "请保持冷静。",
+        "ja": "どうか冷静にしていて。"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "stay",
+          "calm."
+        ],
+        "th": [
+          "ใจเย็นๆ",
+          "นะ"
+        ],
+        "fa": [
+          "لطفاً",
+          "آرام",
+          "باش."
+        ],
+        "ar": [
+          "ارجوك",
+          "ابق",
+          "هادئاً."
+        ],
+        "es": [
+          "Por",
+          "favor,",
+          "mantén",
+          "la",
+          "calma."
+        ],
+        "zh": [
+          "请",
+          "保持",
+          "冷静。"
+        ],
+        "ja": [
+          "どうか",
+          "冷静",
+          "に",
+          "していて。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_heart_cruel",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he_she",
+        "word_cruel",
+        "word_very"
+      ],
+      "texts": {
+        "en": "That person is very cruel.",
+        "th": "คนนั้นใจดำมาก",
+        "fa": "آن شخص خیلی بی‌رحم است.",
+        "ar": "ذلك الشخص قاسي القلب جداً.",
+        "es": "Esa persona es muy cruel.",
+        "zh": "那个人非常狠心。",
+        "ja": "あの人はとても冷酷だ。"
+      },
+      "tokens": {
+        "en": [
+          "That",
+          "person",
+          "is",
+          "very",
+          "cruel."
+        ],
+        "th": [
+          "คน",
+          "นั้น",
+          "ใจดำ",
+          "มาก"
+        ],
+        "fa": [
+          "آن",
+          "شخص",
+          "خیلی",
+          "بی‌رحم",
+          "است."
+        ],
+        "ar": [
+          "ذلك",
+          "الشخص",
+          "قاسي",
+          "القلب",
+          "جداً."
+        ],
+        "es": [
+          "Esa",
+          "persona",
+          "es",
+          "muy",
+          "cruel."
+        ],
+        "zh": [
+          "那个",
+          "人",
+          "非常",
+          "狠心。"
+        ],
+        "ja": [
+          "あの",
+          "人",
+          "は",
+          "とても",
+          "冷酷",
+          "だ。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_heart_generous",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he_she",
+        "word_generous"
+      ],
+      "texts": {
+        "en": "My boss is generous.",
+        "th": "เจ้านายฉันใจกว้าง",
+        "fa": "رئیس من سخی است.",
+        "ar": "مديري كريم جداً.",
+        "es": "Mi jefe es generoso.",
+        "zh": "我的老板很慷慨。",
+        "ja": "私の上司は寛大だ。"
+      },
+      "tokens": {
+        "en": [
+          "My",
+          "boss",
+          "is",
+          "generous."
+        ],
+        "th": [
+          "เจ้านาย",
+          "ฉัน",
+          "ใจกว้าง"
+        ],
+        "fa": [
+          "رئیس",
+          "من",
+          "سخی",
+          "است."
+        ],
+        "ar": [
+          "مديري",
+          "كريم",
+          "جداً."
+        ],
+        "es": [
+          "Mi",
+          "jefe",
+          "es",
+          "generoso."
+        ],
+        "zh": [
+          "我的",
+          "老板",
+          "很",
+          "慷慨。"
+        ],
+        "ja": [
+          "私の",
+          "上司",
+          "は",
+          "寛大",
+          "だ。"
+        ]
+      }
+    },
+    {
+      "id": "word_heart",
+      "kind": "word",
+      "texts": {
+        "en": "heart / mind",
+        "th": "ใจ",
+        "fa": "قلب / ذهن",
+        "ar": "قلب / عقل",
+        "es": "corazón / mente",
+        "zh": "心",
+        "ja": "心"
+      }
+    },
+    {
+      "id": "word_kind",
+      "kind": "word",
+      "texts": {
+        "en": "kind / good-hearted",
+        "th": "ใจดี",
+        "fa": "مهربان",
+        "ar": "طيب القلب",
+        "es": "amable / de buen corazón",
+        "zh": "好心 / 善良",
+        "ja": "親切な"
+      }
+    },
+    {
+      "id": "word_impatient",
+      "kind": "word",
+      "texts": {
+        "en": "impatient / hot-tempered",
+        "th": "ใจร้อน",
+        "fa": "عجول / زودجوش",
+        "ar": "غير صبور / سريع الغضب",
+        "es": "impaciente",
+        "zh": "急躁 / 性急",
+        "ja": "短気な"
+      }
+    },
+    {
+      "id": "word_calm",
+      "kind": "word",
+      "texts": {
+        "en": "calm / patient",
+        "th": "ใจเย็น",
+        "fa": "آرام / صبور",
+        "ar": "هادئ / صبور",
+        "es": "tranquilo / paciente",
+        "zh": "冷静 / 耐心",
+        "ja": "冷静な"
+      }
+    },
+    {
+      "id": "word_cruel",
+      "kind": "word",
+      "texts": {
+        "en": "cruel / selfish",
+        "th": "ใจดำ",
+        "fa": "بی‌رحم / خودخواه",
+        "ar": "قاسي / أناني",
+        "es": "cruel / egoísta",
+        "zh": "狠心 / 黑心",
+        "ja": "冷酷な"
+      }
+    },
+    {
+      "id": "word_generous",
+      "kind": "word",
+      "texts": {
+        "en": "generous / broad-minded",
+        "th": "ใจกว้าง",
+        "fa": "سخی / روشن‌فکر",
+        "ar": "كريم / متسامح",
+        "es": "generoso / de mente abierta",
+        "zh": "慷慨 / 心胸宽广",
+        "ja": "寛大な"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: The 'Face' (หน้า) — Reputation & Social",
+        "th": "สถานการณ์ 2: 'หน้า' — ชื่อเสียงและสังคม",
+        "fa": "سناریو ۲: 'صورت' (หน้า) — آبرو و اجتماع",
+        "ar": "السيناريو 2: 'الوجه' (หน้า) — السمعة والمجتمع",
+        "es": "Escenario 2: La 'Cara' (หน้า) — Reputación y sociedad",
+        "zh": "场景二：“脸面”（หน้า）——声誉与社交",
+        "ja": "シナリオ2：「顔」（หน้า）——評判と社会"
+      }
+    },
+    {
+      "id": "sentence_face_lose",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_do_not",
+        "word_lose_face"
+      ],
+      "texts": {
+        "en": "I don't want to lose face.",
+        "th": "ฉันไม่อยากเสียหน้า",
+        "fa": "من نمی‌خواهم آبرویم برود.",
+        "ar": "لا أريد أن أفقد ماء وجهي.",
+        "es": "No quiero perder el prestigio.",
+        "zh": "我不想丢脸。",
+        "ja": "私は面目を失いたくない。"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "don't",
+          "want",
+          "to",
+          "lose",
+          "face."
+        ],
+        "th": [
+          "ฉัน",
+          "ไม่",
+          "อยาก",
+          "เสียหน้า"
+        ],
+        "fa": [
+          "من",
+          "نمی‌خواهم",
+          "آبرویم",
+          "برود."
+        ],
+        "ar": [
+          "لا",
+          "أريد",
+          "أن",
+          "أفقد",
+          "ماء",
+          "وجهي."
+        ],
+        "es": [
+          "No",
+          "quiero",
+          "perder",
+          "el",
+          "prestigio."
+        ],
+        "zh": [
+          "我",
+          "不想",
+          "丢脸。"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "面目",
+          "を",
+          "失い",
+          "たくない。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_face_save",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he_she",
+        "word_save_face"
+      ],
+      "texts": {
+        "en": "He is trying to save face.",
+        "th": "เขาพยายามรักษาหน้า",
+        "fa": "او سعی دارد آبروی خود را حفظ کند.",
+        "ar": "هو يحاول حفظ ماء وجهه.",
+        "es": "Él está intentando salvar las apariencias.",
+        "zh": "他正试图保全面子。",
+        "ja": "彼は面目を保とうとしている。"
+      },
+      "tokens": {
+        "en": [
+          "He",
+          "is",
+          "trying",
+          "to",
+          "save",
+          "face."
+        ],
+        "th": [
+          "เขา",
+          "พยายาม",
+          "รักษาหน้า"
+        ],
+        "fa": [
+          "او",
+          "سعی",
+          "دارد",
+          "آبروی",
+          "خود",
+          "را",
+          "حفظ",
+          "کند."
+        ],
+        "ar": [
+          "هو",
+          "يحاول",
+          "حفظ",
+          "ماء",
+          "وجهه."
+        ],
+        "es": [
+          "Él",
+          "está",
+          "intentando",
+          "salvar",
+          "las",
+          "apariencias."
+        ],
+        "zh": [
+          "他",
+          "正",
+          "试图",
+          "保全",
+          "面子。"
+        ],
+        "ja": [
+          "彼",
+          "は",
+          "面目",
+          "を",
+          "保とう",
+          "として",
+          "いる。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_face_shameless",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he_she",
+        "word_shameless",
+        "word_extremely"
+      ],
+      "texts": {
+        "en": "He is completely shameless.",
+        "th": "เขาหน้าด้านสุดๆ",
+        "fa": "او به شدت بی‌شرم است.",
+        "ar": "هو وقح إلى أقصى حد.",
+        "es": "Él es completamente descarado.",
+        "zh": "他真是厚脸皮到了极点。",
+        "ja": "彼は最高に厚かましい。"
+      },
+      "tokens": {
+        "en": [
+          "He",
+          "is",
+          "completely",
+          "shameless."
+        ],
+        "th": [
+          "เขา",
+          "หน้าด้าน",
+          "สุดๆ"
+        ],
+        "fa": [
+          "او",
+          "به",
+          "شدت",
+          "بی‌شرم",
+          "است."
+        ],
+        "ar": [
+          "هو",
+          "وقح",
+          "إلى",
+          "أقصى",
+          "حد."
+        ],
+        "es": [
+          "Él",
+          "es",
+          "completamente",
+          "descarado."
+        ],
+        "zh": [
+          "他",
+          "真是",
+          "厚脸皮",
+          "到了极点。"
+        ],
+        "ja": [
+          "彼",
+          "は",
+          "最高に",
+          "厚かましい。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_face_thin",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he_she",
+        "word_thin_skinned"
+      ],
+      "texts": {
+        "en": "She is easily embarrassed.",
+        "th": "เธอหน้าบาง",
+        "fa": "او زودرنج است.",
+        "ar": "هي سريعة الخجل.",
+        "es": "Ella es muy susceptible.",
+        "zh": "她脸皮很薄。",
+        "ja": "彼女は恥ずかしがり屋だ。"
+      },
+      "tokens": {
+        "en": [
+          "She",
+          "is",
+          "easily",
+          "embarrassed."
+        ],
+        "th": [
+          "เธอ",
+          "หน้าบาง"
+        ],
+        "fa": [
+          "او",
+          "زودرنج",
+          "است."
+        ],
+        "ar": [
+          "هي",
+          "سريعة",
+          "الخجل."
+        ],
+        "es": [
+          "Ella",
+          "es",
+          "muy",
+          "susceptible."
+        ],
+        "zh": [
+          "她",
+          "脸皮",
+          "很薄。"
+        ],
+        "ja": [
+          "彼女",
+          "は",
+          "恥ずかしがり屋",
+          "だ。"
+        ]
+      }
+    },
+    {
+      "id": "word_face",
+      "kind": "word",
+      "texts": {
+        "en": "face / reputation",
+        "th": "หน้า",
+        "fa": "صورت / آبرو",
+        "ar": "وجه / سمعة",
+        "es": "cara / reputación",
+        "zh": "脸 / 面子",
+        "ja": "顔 / 面目"
+      }
+    },
+    {
+      "id": "word_lose_face",
+      "kind": "word",
+      "texts": {
+        "en": "lose face",
+        "th": "เสียหน้า",
+        "fa": "آبرو باختن",
+        "ar": "يفقد ماء الوجه",
+        "es": "perder el prestigio",
+        "zh": "丢脸",
+        "ja": "面目を失う"
+      }
+    },
+    {
+      "id": "word_save_face",
+      "kind": "word",
+      "texts": {
+        "en": "save face",
+        "th": "รักษาหน้า",
+        "fa": "حفظ آبرو",
+        "ar": "يحفظ ماء الوجه",
+        "es": "salvar las apariencias",
+        "zh": "保全面子",
+        "ja": "面目を保つ"
+      }
+    },
+    {
+      "id": "word_shameless",
+      "kind": "word",
+      "texts": {
+        "en": "shameless / thick-skinned",
+        "th": "หน้าด้าน",
+        "fa": "بی‌شرم / پررو",
+        "ar": "وقح / قليل الحياء",
+        "es": "descarado / caradura",
+        "zh": "厚脸皮 / 无耻",
+        "ja": "厚かましい"
+      }
+    },
+    {
+      "id": "word_thin_skinned",
+      "kind": "word",
+      "texts": {
+        "en": "easily embarrassed / thin-skinned",
+        "th": "หน้าบาง",
+        "fa": "زودرنج / خجالتی",
+        "ar": "سريع الخجل / رقيق الجلد",
+        "es": "susceptible / de piel fina",
+        "zh": "脸皮薄 / 容易害羞",
+        "ja": "恥ずかしがり屋"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Body Parts — Senses & Traits",
+        "th": "สถานการณ์ 3: อวัยวะ — ประสาทสัมผัสและลักษณะ",
+        "fa": "سناریو ۳: اعضای بدن — حواس و ویژگی‌ها",
+        "ar": "السيناريو 3: أجزاء الجسم — الحواس والسمات",
+        "es": "Escenario 3: Partes del cuerpo — Sentidos y rasgos",
+        "zh": "场景三：身体部位——感官与特质",
+        "ja": "シナリオ3：体の部分——感覚と特徴"
+      }
+    },
+    {
+      "id": "sentence_body_gullible",
+      "kind": "sentence",
+      "itemIds": [
+        "word_do_not",
+        "word_gullible"
+      ],
+      "texts": {
+        "en": "Don't be so gullible.",
+        "th": "อย่าหูเบาง่ายๆ",
+        "fa": "اینقدر ساده‌لوح نباش.",
+        "ar": "لا تكن ساذجاً بسهولة.",
+        "es": "No seas tan crédulo.",
+        "zh": "别这么耳根软。",
+        "ja": "そんなに信じやすくないで。"
+      },
+      "tokens": {
+        "en": [
+          "Don't",
+          "be",
+          "so",
+          "gullible."
+        ],
+        "th": [
+          "อย่า",
+          "หูเบา",
+          "ง่ายๆ"
+        ],
+        "fa": [
+          "اینقدر",
+          "ساده‌لوح",
+          "نباش."
+        ],
+        "ar": [
+          "لا",
+          "تكن",
+          "ساذجاً",
+          "بسهولة."
+        ],
+        "es": [
+          "No",
+          "seas",
+          "tan",
+          "crédulo."
+        ],
+        "zh": [
+          "别",
+          "这么",
+          "耳根软。"
+        ],
+        "ja": [
+          "そんなに",
+          "信じやすく",
+          "ないで。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_body_sweet",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he_she",
+        "word_sweet_talker",
+        "word_very"
+      ],
+      "texts": {
+        "en": "She is a sweet talker.",
+        "th": "เธอปากหวานมาก",
+        "fa": "او خیلی چرب‌زبان است.",
+        "ar": "هي معسولة الكلام جداً.",
+        "es": "Ella es muy aduladora.",
+        "zh": "她嘴非常甜。",
+        "ja": "彼女はとても口がうまい。"
+      },
+      "tokens": {
+        "en": [
+          "She",
+          "is",
+          "a",
+          "sweet",
+          "talker."
+        ],
+        "th": [
+          "เธอ",
+          "ปากหวาน",
+          "มาก"
+        ],
+        "fa": [
+          "او",
+          "خیلی",
+          "چرب‌زبان",
+          "است."
+        ],
+        "ar": [
+          "هي",
+          "معسولة",
+          "الكلام",
+          "جداً."
+        ],
+        "es": [
+          "Ella",
+          "es",
+          "muy",
+          "aduladora."
+        ],
+        "zh": [
+          "她",
+          "嘴",
+          "非常",
+          "甜。"
+        ],
+        "ja": [
+          "彼女",
+          "は",
+          "とても",
+          "口",
+          "が",
+          "うまい。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_body_sharp",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he_she",
+        "word_sharp_eyed",
+        "word_very"
+      ],
+      "texts": {
+        "en": "The guard is very sharp-eyed.",
+        "th": "ยามตาไวมาก",
+        "fa": "نگهبان خیلی تیزبین است.",
+        "ar": "الحارس حاد البصر جداً.",
+        "es": "El guardia es muy observador.",
+        "zh": "保安眼非常尖。",
+        "ja": "警備員はとても目が早い。"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "guard",
+          "is",
+          "very",
+          "sharp-eyed."
+        ],
+        "th": [
+          "ยาม",
+          "ตาไว",
+          "มาก"
+        ],
+        "fa": [
+          "نگهبان",
+          "خیلی",
+          "تیزبین",
+          "است."
+        ],
+        "ar": [
+          "الحارس",
+          "حاد",
+          "البصر",
+          "جداً."
+        ],
+        "es": [
+          "El",
+          "guardia",
+          "es",
+          "muy",
+          "observador."
+        ],
+        "zh": [
+          "保安",
+          "眼",
+          "非常",
+          "尖。"
+        ],
+        "ja": [
+          "警備員",
+          "は",
+          "とても",
+          "目",
+          "が",
+          "早い。"
+        ]
+      }
+    },
+    {
+      "id": "word_gullible",
+      "kind": "word",
+      "texts": {
+        "en": "gullible / easily swayed",
+        "th": "หูเบา",
+        "fa": "زودباور / ساده‌لوح",
+        "ar": "سريع التصديق / ساذج",
+        "es": "crédulo / influenciable",
+        "zh": "耳根软 / 轻信",
+        "ja": "信じやすい"
+      }
+    },
+    {
+      "id": "word_sweet_talker",
+      "kind": "word",
+      "texts": {
+        "en": "sweet talker / flatterer",
+        "th": "ปากหวาน",
+        "fa": "چرب‌زبان / شیرین‌سخن",
+        "ar": "معسول الكلام / متملق",
+        "es": "hablador dulzón / adulador",
+        "zh": "嘴甜 / 会说话",
+        "ja": "口がうまい"
+      }
+    },
+    {
+      "id": "word_sharp_eyed",
+      "kind": "word",
+      "texts": {
+        "en": "sharp-eyed / observant",
+        "th": "ตาไว",
+        "fa": "تیزبین / هوشیار",
+        "ar": "حاد البصر / يقظ",
+        "es": "de vista aguda / observador",
+        "zh": "眼尖 / 敏锐",
+        "ja": "目の早い / 観察力がある"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Animals & Nature (Classic Idioms)",
+        "th": "สถานการณ์ 4: สัตว์และธรรมชาติ (สำนวนคลาสสิก)",
+        "fa": "سناریو ۴: حیوانات و طبیعت (اصطلاحات کلاسیک)",
+        "ar": "السيناريو 4: الحيوانات والطبيعة (التعابير الكلاسيكية)",
+        "es": "Escenario 4: Animales y naturaleza (Modismos clásicos)",
+        "zh": "场景四：动物与自然（经典成语）",
+        "ja": "シナリオ4：動物と自然（古典的な慣用句）"
+      }
+    },
+    {
+      "id": "sentence_animal_cow",
+      "kind": "sentence",
+      "itemIds": [
+        "word_idiom_cow_fence"
+      ],
+      "texts": {
+        "en": "Doing it now is locking the stable after the cow is stolen.",
+        "th": "ทำตอนนี้ก็เหมือนวัวหายล้อมคอก",
+        "fa": "انجام دادن آن اکنون مانند بستن طویله بعد از دزدیده شدن گاو است.",
+        "ar": "فعل ذلك الآن يشبه إغلاق الإسطبل بعد سرقة البقرة.",
+        "es": "Hacerlo ahora es como cerrar el establo después de que roben la vaca.",
+        "zh": "现在做就像是亡羊补牢（为时已晚）。",
+        "ja": "今やるのは牛を盗まれてから囲いを作るようなものだ。"
+      },
+      "tokens": {
+        "en": [
+          "Doing",
+          "it",
+          "now",
+          "is",
+          "locking",
+          "the",
+          "stable",
+          "after",
+          "the",
+          "cow",
+          "is",
+          "stolen."
+        ],
+        "th": [
+          "ทำ",
+          "ตอนนี้",
+          "ก็",
+          "เหมือน",
+          "วัวหายล้อมคอก"
+        ],
+        "fa": [
+          "انجام",
+          "دادن",
+          "آن",
+          "اکنون",
+          "مانند",
+          "بستن",
+          "طویله",
+          "بعد",
+          "از",
+          "دزدیده",
+          "شدن",
+          "گاو",
+          "است."
+        ],
+        "ar": [
+          "فعل",
+          "ذلك",
+          "الآن",
+          "يشبه",
+          "إغلاق",
+          "الإسطبل",
+          "بعد",
+          "سرقة",
+          "البقرة."
+        ],
+        "es": [
+          "Hacerlo",
+          "ahora",
+          "es",
+          "como",
+          "cerrar",
+          "el",
+          "establo",
+          "después",
+          "de",
+          "que",
+          "roben",
+          "la",
+          "vaca."
+        ],
+        "zh": [
+          "现在",
+          "做",
+          "就",
+          "像是",
+          "亡羊补牢",
+          "（为时已晚）。"
+        ],
+        "ja": [
+          "今",
+          "やる",
+          "の",
+          "は",
+          "牛",
+          "を",
+          "盗まれて",
+          "から",
+          "囲い",
+          "を",
+          "作る",
+          "ような",
+          "もの",
+          "だ。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_animal_lemon",
+      "kind": "sentence",
+      "itemIds": [
+        "word_idiom_dry_lemon"
+      ],
+      "texts": {
+        "en": "That party was completely dull.",
+        "th": "งานปาร์ตี้นั้นมะนาวไม่มีน้ำ",
+        "fa": "آن مهمانی کاملاً بی‌روح بود.",
+        "ar": "كان ذلك الحفل مملاً تماماً.",
+        "es": "Esa fiesta fue completamente sosa.",
+        "zh": "那个派对真是索然无味。",
+        "ja": "あのパーティーは全く面白みがなかった。"
+      },
+      "tokens": {
+        "en": [
+          "That",
+          "party",
+          "was",
+          "completely",
+          "dull."
+        ],
+        "th": [
+          "งานปาร์ตี้",
+          "นั้น",
+          "มะนาวไม่มีน้ำ"
+        ],
+        "fa": [
+          "آن",
+          "مهمانی",
+          "کاملاً",
+          "بی‌روح",
+          "بود."
+        ],
+        "ar": [
+          "كان",
+          "ذلك",
+          "الحفل",
+          "مملاً",
+          "تماماً."
+        ],
+        "es": [
+          "Esa",
+          "fiesta",
+          "fue",
+          "completamente",
+          "sosa."
+        ],
+        "zh": [
+          "那个",
+          "派对",
+          "真是",
+          "索然无味。"
+        ],
+        "ja": [
+          "あの",
+          "パーティー",
+          "は",
+          "全く",
+          "面白み",
+          "が",
+          "なかった。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_animal_fish",
+      "kind": "sentence",
+      "itemIds": [
+        "word_do_not",
+        "word_idiom_two_fish"
+      ],
+      "texts": {
+        "en": "You can't catch fish with two hands.",
+        "th": "อย่าจับปลาสองมือ",
+        "fa": "نمی‌توانی دو ماهی را با دو دست بگیری.",
+        "ar": "لا يمكنك صيد سمكتين بيد واحدة.",
+        "es": "No puedes atrapar dos peces con dos manos.",
+        "zh": "别双手抓鱼（别贪多）。",
+        "ja": "両手で二匹の魚を捕まえるな。"
+      },
+      "tokens": {
+        "en": [
+          "You",
+          "can't",
+          "catch",
+          "fish",
+          "with",
+          "two",
+          "hands."
+        ],
+        "th": [
+          "อย่า",
+          "จับปลาสองมือ"
+        ],
+        "fa": [
+          "نمی‌توانی",
+          "دو",
+          "ماهی",
+          "را",
+          "با",
+          "دو",
+          "دست",
+          "بگیری."
+        ],
+        "ar": [
+          "لا",
+          "يمكنك",
+          "صيد",
+          "سمكتين",
+          "بيد",
+          "واحدة."
+        ],
+        "es": [
+          "No",
+          "puedes",
+          "atrapar",
+          "dos",
+          "peces",
+          "con",
+          "dos",
+          "manos."
+        ],
+        "zh": [
+          "别",
+          "双手",
+          "抓鱼",
+          "（别贪多）。"
+        ],
+        "ja": [
+          "両手",
+          "で",
+          "二匹",
+          "の",
+          "魚",
+          "を",
+          "捕まえる",
+          "な。"
+        ]
+      }
+    },
+    {
+      "id": "word_idiom_cow_fence",
+      "kind": "word",
+      "texts": {
+        "en": "lock the stable after the cow is stolen",
+        "th": "วัวหายล้อมคอก",
+        "fa": "بستن طویله بعد از دزدیده شدن گاو (دیر اقدام کردن)",
+        "ar": "إغلاق الإسطبل بعد سرقة البقرة (بعد فوات الأوان)",
+        "es": "cerrar el establo después de robar la vaca",
+        "zh": "亡羊补牢（为时已晚）",
+        "ja": "牛を盗まれてから囲いを作る（手遅れ）"
+      }
+    },
+    {
+      "id": "word_idiom_dry_lemon",
+      "kind": "word",
+      "texts": {
+        "en": "dry lemon (dull / boring)",
+        "th": "มะนาวไม่มีน้ำ",
+        "fa": "لیموی خشک (بی‌روح و خسته‌کننده)",
+        "ar": "ليمون بلا ماء (ممل تماماً)",
+        "es": "limón sin agua (soso / aburrido)",
+        "zh": "没水的柠檬（枯燥乏味）",
+        "ja": "水のないライム（全く面白みがない）"
+      }
+    },
+    {
+      "id": "word_idiom_two_fish",
+      "kind": "word",
+      "texts": {
+        "en": "catch fish with two hands (fail by wanting both)",
+        "th": "จับปลาสองมือ",
+        "fa": "گرفتن دو ماهی با دو دست (طمع ورزیدن و باختن)",
+        "ar": "صيد سمكتين بيد واحدة (الجشع والفشل)",
+        "es": "atrapar dos peces con dos manos (querer todo y perder)",
+        "zh": "双手抓鱼（脚踏两只船 / 贪多嚼不烂）",
+        "ja": "両手で二匹の魚を捕まえる（二兎を追う者は一兎をも得ず）"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Food & Daily Life Idioms",
+        "th": "สถานการณ์ 5: อาหารและชีวิตประจำวัน (สำนวน)",
+        "fa": "سناریو ۵: غذا و زندگی روزمره (اصطلاحات)",
+        "ar": "السيناريو 5: الطعام والحياة اليومية (التعابير)",
+        "es": "Escenario 5: Comida y vida diaria (Modismos)",
+        "zh": "场景五：食物与日常生活（成语）",
+        "ja": "シナリオ5：食べ物と日常生活（慣用句）"
+      }
+    },
+    {
+      "id": "sentence_food_coriander",
+      "kind": "sentence",
+      "itemIds": [
+        "word_idiom_coriander"
+      ],
+      "texts": {
+        "en": "His report is just a superficial fix.",
+        "th": "รายงานของเขาแค่ผักชีโรยหน้า",
+        "fa": "گزارش او فقط یک اصلاح ظاهری است.",
+        "ar": "تقريره مجرد ترقيع سطحي.",
+        "es": "Su informe es solo un arreglo superficial.",
+        "zh": "他的报告只是表面功夫。",
+        "ja": "彼の報告書はただの表面だけの取り繕いだ。"
+      },
+      "tokens": {
+        "en": [
+          "His",
+          "report",
+          "is",
+          "just",
+          "a",
+          "superficial",
+          "fix."
+        ],
+        "th": [
+          "รายงาน",
+          "ของ",
+          "เขา",
+          "แค่",
+          "ผักชีโรยหน้า"
+        ],
+        "fa": [
+          "گزارش",
+          "او",
+          "فقط",
+          "یک",
+          "اصلاح",
+          "ظاهری",
+          "است."
+        ],
+        "ar": [
+          "تقريره",
+          "مجرد",
+          "ترقيع",
+          "سطحي."
+        ],
+        "es": [
+          "Su",
+          "informe",
+          "es",
+          "solo",
+          "un",
+          "arreglo",
+          "superficial."
+        ],
+        "zh": [
+          "他的",
+          "报告",
+          "只是",
+          "表面功夫。"
+        ],
+        "ja": [
+          "彼の",
+          "報告書",
+          "は",
+          "ただの",
+          "表面",
+          "だけの",
+          "取り繕い",
+          "だ。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_food_chili",
+      "kind": "sentence",
+      "itemIds": [
+        "word_do_not",
+        "word_idiom_old_chili"
+      ],
+      "texts": {
+        "en": "Stop repeating the same old story.",
+        "th": "อย่ากินน้ำพริกถ้วยเก่าอีกเลย",
+        "fa": "دست از تکرار حرف‌های تکراری بردار.",
+        "ar": "توقف عن تكرار نفس القصة القديمة.",
+        "es": "Deja de repetir la misma historia de siempre.",
+        "zh": "别再老调重弹了。",
+        "ja": "同じ古い話を繰り返すのはやめて。"
+      },
+      "tokens": {
+        "en": [
+          "Stop",
+          "repeating",
+          "the",
+          "same",
+          "old",
+          "story."
+        ],
+        "th": [
+          "อย่า",
+          "กินน้ำพริกถ้วยเก่า",
+          "อีกเลย"
+        ],
+        "fa": [
+          "دست",
+          "از",
+          "تکرار",
+          "حرف‌های",
+          "تکراری",
+          "بردار."
+        ],
+        "ar": [
+          "توقف",
+          "عن",
+          "تكرار",
+          "نفس",
+          "القصة",
+          "القديمة."
+        ],
+        "es": [
+          "Deja",
+          "de",
+          "repetir",
+          "la",
+          "misma",
+          "historia",
+          "de",
+          "siempre."
+        ],
+        "zh": [
+          "别再",
+          "老调重弹",
+          "了。"
+        ],
+        "ja": [
+          "同じ",
+          "古い",
+          "話",
+          "を",
+          "繰り返す",
+          "の",
+          "は",
+          "やめて。"
+        ]
+      }
+    },
+    {
+      "id": "word_idiom_coriander",
+      "kind": "word",
+      "texts": {
+        "en": "coriander sprinkled on top (superficial fix)",
+        "th": "ผักชีโรยหน้า",
+        "fa": "گشنیز روی غذا (اصلاح ظاهری و سطحی)",
+        "ar": "رش الكزبرة على السطح (ترقيع سطحي)",
+        "es": "cilantro espolvoreado (arreglo superficial)",
+        "zh": "表面撒香菜（表面功夫 / 敷衍了事）",
+        "ja": "パクチーを表面に散らす（上辺だけの取り繕い）"
+      }
+    },
+    {
+      "id": "word_idiom_old_chili",
+      "kind": "word",
+      "texts": {
+        "en": "eat chili paste from the old cup (repeat old stories)",
+        "th": "กินน้ำพริกถ้วยเก่า",
+        "fa": "خوردن چیلی از کاسه قدیمی (تکرار حرف‌های تکراری)",
+        "ar": "أكل معجون الفلفل من الكوب القديم (تكرار نفس القصة)",
+        "es": "comer pasta de chile del taza viejo (repetir lo mismo)",
+        "zh": "吃旧杯里的辣椒酱（老调重弹 / 炒冷饭）",
+        "ja": "古い器のナムプリックを食べる（同じ古い話を繰り返す）"
+      }
+    },
+    {
+      "id": "header_scenario6",
+      "header": true,
+      "texts": {
+        "en": "Scenario 6: Describing Character (G6 Focus)",
+        "th": "สถานการณ์ 6: การบรรยายลักษณะนิสัย (เน้น G6)",
+        "fa": "سناریو ۶: توصیف شخصیت (تمرکز بر G6)",
+        "ar": "السيناريو 6: وصف الشخصية (التركيز على G6)",
+        "es": "Escenario 6: Describir el carácter (Enfoque G6)",
+        "zh": "场景六：描述性格（G6 重点）",
+        "ja": "シナリオ6：性格を描写する（G6重点）"
+      }
+    },
+    {
+      "id": "sentence_char_lazy",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he_she",
+        "word_lazy",
+        "word_quite"
+      ],
+      "texts": {
+        "en": "He is quite lazy.",
+        "th": "เขาค่อนข้างขี้เกียจ",
+        "fa": "او نسبتاً تنبل است.",
+        "ar": "هو كسول إلى حد ما.",
+        "es": "Él es bastante perezoso.",
+        "zh": "他相当懒惰。",
+        "ja": "彼はかなり怠け者だ。"
+      },
+      "tokens": {
+        "en": [
+          "He",
+          "is",
+          "quite",
+          "lazy."
+        ],
+        "th": [
+          "เขา",
+          "ค่อนข้าง",
+          "ขี้เกียจ"
+        ],
+        "fa": [
+          "او",
+          "نسبتاً",
+          "تنبل",
+          "است."
+        ],
+        "ar": [
+          "هو",
+          "كسول",
+          "إلى",
+          "حد",
+          "ما."
+        ],
+        "es": [
+          "Él",
+          "es",
+          "bastante",
+          "perezoso."
+        ],
+        "zh": [
+          "他",
+          "相当",
+          "懒惰。"
+        ],
+        "ja": [
+          "彼",
+          "は",
+          "かなり",
+          "怠け者",
+          "だ。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_char_hardworking",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he_she",
+        "word_hardworking",
+        "word_extremely"
+      ],
+      "texts": {
+        "en": "She is extremely hardworking.",
+        "th": "เขาขยันสุดๆ",
+        "fa": "او به شدت سخت‌کوش است.",
+        "ar": "هي مجتهدة للغاية.",
+        "es": "Ella es extremadamente trabajadora.",
+        "zh": "她极其勤奋。",
+        "ja": "彼女は最高に勤勉だ。"
+      },
+      "tokens": {
+        "en": [
+          "She",
+          "is",
+          "extremely",
+          "hardworking."
+        ],
+        "th": [
+          "เขา",
+          "ขยัน",
+          "สุดๆ"
+        ],
+        "fa": [
+          "او",
+          "به",
+          "شدت",
+          "سخت‌کوش",
+          "است."
+        ],
+        "ar": [
+          "هي",
+          "مجتهدة",
+          "للغاية."
+        ],
+        "es": [
+          "Ella",
+          "es",
+          "extremadamente",
+          "trabajadora."
+        ],
+        "zh": [
+          "她",
+          "极其",
+          "勤奋。"
+        ],
+        "ja": [
+          "彼女",
+          "は",
+          "最高に",
+          "勤勉",
+          "だ。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_char_shy",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he_she",
+        "word_shy",
+        "word_very"
+      ],
+      "texts": {
+        "en": "The child is very shy.",
+        "th": "เด็กขี้อายมาก",
+        "fa": "بچه خیلی خجالتی است.",
+        "ar": "الطفل خجول جداً.",
+        "es": "El niño es muy tímido.",
+        "zh": "这孩子非常害羞。",
+        "ja": "その子はとても内気だ。"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "child",
+          "is",
+          "very",
+          "shy."
+        ],
+        "th": [
+          "เด็ก",
+          "ขี้อาย",
+          "มาก"
+        ],
+        "fa": [
+          "بچه",
+          "خیلی",
+          "خجالتی",
+          "است."
+        ],
+        "ar": [
+          "الطفل",
+          "خجول",
+          "جداً."
+        ],
+        "es": [
+          "El",
+          "niño",
+          "es",
+          "muy",
+          "tímido."
+        ],
+        "zh": [
+          "这孩子",
+          "非常",
+          "害羞。"
+        ],
+        "ja": [
+          "その",
+          "子",
+          "は",
+          "とても",
+          "内気",
+          "だ。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_char_angry",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he_she",
+        "word_angry"
+      ],
+      "texts": {
+        "en": "My friend is hot-tempered.",
+        "th": "เพื่อนฉันขี้โมโห",
+        "fa": "دوست من زودخشم است.",
+        "ar": "صديقي سريع الغضب.",
+        "es": "Mi amigo es de mal genio.",
+        "zh": "我的朋友脾气暴躁。",
+        "ja": "私の友人は怒りっぽい。"
+      },
+      "tokens": {
+        "en": [
+          "My",
+          "friend",
+          "is",
+          "hot-tempered."
+        ],
+        "th": [
+          "เพื่อน",
+          "ฉัน",
+          "ขี้โมโห"
+        ],
+        "fa": [
+          "دوست",
+          "من",
+          "زودخشم",
+          "است."
+        ],
+        "ar": [
+          "صديقي",
+          "سريع",
+          "الغضب."
+        ],
+        "es": [
+          "Mi",
+          "amigo",
+          "es",
+          "de",
+          "mal",
+          "genio."
+        ],
+        "zh": [
+          "我的",
+          "朋友",
+          "脾气",
+          "暴躁。"
+        ],
+        "ja": [
+          "私の",
+          "友人",
+          "は",
+          "怒りっぽい。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_char_boastful",
+      "kind": "sentence",
+      "itemIds": [
+        "word_do_not",
+        "word_boastful"
+      ],
+      "texts": {
+        "en": "Don't be a braggart.",
+        "th": "อย่าขี้โม้",
+        "fa": "لاف نزن.",
+        "ar": "لا تكن متباهياً.",
+        "es": "No seas fanfarrón.",
+        "zh": "别爱吹牛。",
+        "ja": "自慢ばかりするな。"
+      },
+      "tokens": {
+        "en": [
+          "Don't",
+          "be",
+          "a",
+          "braggart."
+        ],
+        "th": [
+          "อย่า",
+          "ขี้โม้"
+        ],
+        "fa": [
+          "لاف",
+          "نزن."
+        ],
+        "ar": [
+          "لا",
+          "تكن",
+          "متباهياً."
+        ],
+        "es": [
+          "No",
+          "seas",
+          "fanfarrón."
+        ],
+        "zh": [
+          "别",
+          "爱",
+          "吹牛。"
+        ],
+        "ja": [
+          "自慢",
+          "ばかり",
+          "する",
+          "な。"
+        ]
+      }
+    },
+    {
+      "id": "word_lazy",
+      "kind": "word",
+      "texts": {
+        "en": "lazy",
+        "th": "ขี้เกียจ",
+        "fa": "تنبل",
+        "ar": "كسول",
+        "es": "perezoso",
+        "zh": "懒惰",
+        "ja": "怠け者"
+      }
+    },
+    {
+      "id": "word_hardworking",
+      "kind": "word",
+      "texts": {
+        "en": "hardworking",
+        "th": "ขยัน",
+        "fa": "سخت‌کوش",
+        "ar": "مجتهد / hardworking",
+        "es": "trabajador",
+        "zh": "勤奋",
+        "ja": "勤勉"
+      }
+    },
+    {
+      "id": "word_shy",
+      "kind": "word",
+      "texts": {
+        "en": "shy",
+        "th": "ขี้อาย",
+        "fa": "خجالتی",
+        "ar": "خجول",
+        "es": "tímido",
+        "zh": "害羞",
+        "ja": "内気"
+      }
+    },
+    {
+      "id": "word_angry",
+      "kind": "word",
+      "texts": {
+        "en": "hot-tempered / easily angered",
+        "th": "ขี้โมโห",
+        "fa": "زودخشم / عصبی",
+        "ar": "سريع الغضب",
+        "es": "irascible / de mal genio",
+        "zh": "易怒 / 脾气暴躁",
+        "ja": "怒りっぽい"
+      }
+    },
+    {
+      "id": "word_boastful",
+      "kind": "word",
+      "texts": {
+        "en": "boastful / braggart",
+        "th": "ขี้โม้",
+        "fa": "لاف‌زن / متکبر",
+        "ar": "متباهي / ثرثار",
+        "es": "fanfarrón / jactancioso",
+        "zh": "爱吹牛",
+        "ja": "自慢屋"
+      }
+    },
+    {
+      "id": "header_scenario7",
+      "header": true,
+      "texts": {
+        "en": "Scenario 7: Everyday Spoken Expressions",
+        "th": "สถานการณ์ 7: สำนวนพูดในชีวิตประจำวัน",
+        "fa": "سناریو ۷: عبارات رایج روزمره",
+        "ar": "السيناريو 7: التعابير اليومية الشائعة",
+        "es": "Escenario 7: Expresiones cotidianas",
+        "zh": "场景七：日常口语表达",
+        "ja": "シナリオ7：日常の話し言葉表現"
+      }
+    },
+    {
+      "id": "sentence_exp_boring",
+      "kind": "sentence",
+      "itemIds": [
+        "word_boring",
+        "word_extremely"
+      ],
+      "texts": {
+        "en": "I'm extremely bored today.",
+        "th": "วันนี้เบื่อสุดๆ",
+        "fa": "امروز به شدت حوصله‌ام سر رفته.",
+        "ar": "أنا ممّل للغاية اليوم.",
+        "es": "Estoy extremadamente aburrido hoy.",
+        "zh": "今天无聊到了极点。",
+        "ja": "今日は最高に退屈だ。"
+      },
+      "tokens": {
+        "en": [
+          "I'm",
+          "extremely",
+          "bored",
+          "today."
+        ],
+        "th": [
+          "วันนี้",
+          "เบื่อ",
+          "สุดๆ"
+        ],
+        "fa": [
+          "امروز",
+          "به",
+          "شدت",
+          "حوصله‌ام",
+          "سر",
+          "رفته."
+        ],
+        "ar": [
+          "أنا",
+          "ممّل",
+          "للغاية",
+          "اليوم."
+        ],
+        "es": [
+          "Estoy",
+          "extremadamente",
+          "aburrido",
+          "hoy."
+        ],
+        "zh": [
+          "今天",
+          "无聊",
+          "到了极点。"
+        ],
+        "ja": [
+          "今日",
+          "は",
+          "最高に",
+          "退屈",
+          "だ。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_exp_frustrated",
+      "kind": "sentence",
+      "itemIds": [
+        "word_frustrated",
+        "word_very"
+      ],
+      "texts": {
+        "en": "I'm so frustrated with the traffic.",
+        "th": "รถติดเซ็งมาก",
+        "fa": "از ترافیک خیلی کلافه‌ام.",
+        "ar": "أنا محبط جداً من الازدحام.",
+        "es": "Estoy muy frustrado con el tráfico.",
+        "zh": "堵车真让人郁闷。",
+        "ja": "渋滞には本当にうんざりだ。"
+      },
+      "tokens": {
+        "en": [
+          "I'm",
+          "so",
+          "frustrated",
+          "with",
+          "the",
+          "traffic."
+        ],
+        "th": [
+          "รถติด",
+          "เซ็ง",
+          "มาก"
+        ],
+        "fa": [
+          "از",
+          "ترافیک",
+          "خیلی",
+          "کلافه‌ام."
+        ],
+        "ar": [
+          "أنا",
+          "محبط",
+          "جداً",
+          "من",
+          "الازدحام."
+        ],
+        "es": [
+          "Estoy",
+          "muy",
+          "frustrado",
+          "con",
+          "el",
+          "tráfico."
+        ],
+        "zh": [
+          "堵车",
+          "真",
+          "让人",
+          "郁闷。"
+        ],
+        "ja": [
+          "渋滞",
+          "に",
+          "は",
+          "本当に",
+          "うんざり",
+          "だ。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_exp_chill",
+      "kind": "sentence",
+      "itemIds": [
+        "word_chill"
+      ],
+      "texts": {
+        "en": "Just take it easy.",
+        "th": "ทำใจชิลๆ เถอะ",
+        "fa": "راحت باش / سخت نگیر.",
+        "ar": "خذ الأمر ببساطة.",
+        "es": "Simplemente tómatelo con calma.",
+        "zh": "放轻松点吧。",
+        "ja": "まあリラックスして。"
+      },
+      "tokens": {
+        "en": [
+          "Just",
+          "take",
+          "it",
+          "easy."
+        ],
+        "th": [
+          "ทำใจ",
+          "ชิลๆ",
+          "เถอะ"
+        ],
+        "fa": [
+          "راحت",
+          "باش",
+          "/",
+          "سخت",
+          "نگیر."
+        ],
+        "ar": [
+          "خذ",
+          "الأمر",
+          "ببساطة."
+        ],
+        "es": [
+          "Simplemente",
+          "tómatelo",
+          "con",
+          "calma."
+        ],
+        "zh": [
+          "放轻松",
+          "点吧。"
+        ],
+        "ja": [
+          "まあ",
+          "リラックス",
+          "して。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_exp_serious",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_serious"
+      ],
+      "texts": {
+        "en": "Are you serious?",
+        "th": "คุณจริงจังเหรอ",
+        "fa": "جدی می‌گویی؟",
+        "ar": "هل أنت جاد؟",
+        "es": "¿Estás hablando en serio?",
+        "zh": "你是认真的吗？",
+        "ja": "本気ですか？"
+      },
+      "tokens": {
+        "en": [
+          "Are",
+          "you",
+          "serious?"
+        ],
+        "th": [
+          "คุณ",
+          "จริงจัง",
+          "เหรอ"
+        ],
+        "fa": [
+          "جدی",
+          "می‌گویی؟"
+        ],
+        "ar": [
+          "هل",
+          "أنت",
+          "جاد؟"
+        ],
+        "es": [
+          "¿Estás",
+          "hablando",
+          "en",
+          "serio?"
+        ],
+        "zh": [
+          "你",
+          "是",
+          "认真的",
+          "吗？"
+        ],
+        "ja": [
+          "本気",
+          "です",
+          "か？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_exp_exaggerated",
+      "kind": "sentence",
+      "itemIds": [
+        "word_that",
+        "word_exaggerated",
+        "word_very"
+      ],
+      "texts": {
+        "en": "That story is totally exaggerated.",
+        "th": "เรื่องนั้นเว่อร์มาก",
+        "fa": "آن داستان خیلی اغراق‌آمیز است.",
+        "ar": "تلك القصة مبالغ فيها جداً.",
+        "es": "Esa historia es totalmente exagerada.",
+        "zh": "那个故事太夸张了。",
+        "ja": "その話はとても誇張している。"
+      },
+      "tokens": {
+        "en": [
+          "That",
+          "story",
+          "is",
+          "totally",
+          "exaggerated."
+        ],
+        "th": [
+          "เรื่อง",
+          "นั้น",
+          "เว่อร์",
+          "มาก"
+        ],
+        "fa": [
+          "آن",
+          "داستان",
+          "خیلی",
+          "اغراق‌آمیز",
+          "است."
+        ],
+        "ar": [
+          "تلك",
+          "القصة",
+          "مبالغ",
+          "فيها",
+          "جداً."
+        ],
+        "es": [
+          "Esa",
+          "historia",
+          "es",
+          "totalmente",
+          "exagerada."
+        ],
+        "zh": [
+          "那个",
+          "故事",
+          "太",
+          "夸张",
+          "了。"
+        ],
+        "ja": [
+          "その",
+          "話",
+          "は",
+          "とても",
+          "誇張",
+          "して",
+          "いる。"
+        ]
+      }
+    },
+    {
+      "id": "word_boring",
+      "kind": "word",
+      "texts": {
+        "en": "bored / boring",
+        "th": "เบื่อ",
+        "fa": "حوصله‌سررفته / خسته‌کننده",
+        "ar": "ملل / ممل",
+        "es": "aburrido",
+        "zh": "无聊 / 厌烦",
+        "ja": "退屈な"
+      }
+    },
+    {
+      "id": "word_frustrated",
+      "kind": "word",
+      "texts": {
+        "en": "frustrated / fed up",
+        "th": "เซ็ง",
+        "fa": "کلافه / ناامید",
+        "ar": "محبط / ضجر",
+        "es": "frustrado / harto",
+        "zh": "郁闷 / 烦躁",
+        "ja": "うんざりした"
+      }
+    },
+    {
+      "id": "word_chill",
+      "kind": "word",
+      "texts": {
+        "en": "chill / relaxed",
+        "th": "ชิลๆ",
+        "fa": "راحت / بی‌خیال",
+        "ar": "مسترخي / هادئ",
+        "es": "relajado / tranquilo",
+        "zh": "轻松 / 悠闲",
+        "ja": "リラックスした"
+      }
+    },
+    {
+      "id": "word_serious",
+      "kind": "word",
+      "texts": {
+        "en": "serious / for real",
+        "th": "จริงจัง",
+        "fa": "جدی / واقعی",
+        "ar": "جاد / حقيقي",
+        "es": "serio / en serio",
+        "zh": "认真 / 当真",
+        "ja": "本気"
+      }
+    },
+    {
+      "id": "word_exaggerated",
+      "kind": "word",
+      "texts": {
+        "en": "exaggerated / over the top",
+        "th": "เว่อร์",
+        "fa": "اغراق‌آمیز / بزرگ‌نمایی",
+        "ar": "مبالغ فيه",
+        "es": "exagerado",
+        "zh": "夸张",
+        "ja": "誇張した"
+      }
+    },
+    {
+      "id": "header_scenario8",
+      "header": true,
+      "texts": {
+        "en": "Scenario 8: Effort, Success & Luck",
+        "th": "สถานการณ์ 8: ความพยายาม ความสำเร็จ และโชค",
+        "fa": "سناریو ۸: تلاش، موفقیت و شانس",
+        "ar": "السيناريو 8: الجهد والنجاح والحظ",
+        "es": "Escenario 8: Esfuerzo, éxito y suerte",
+        "zh": "场景八：努力、成功与运气",
+        "ja": "シナリオ8：努力、成功、運"
+      }
+    },
+    {
+      "id": "sentence_effort_hardwork",
+      "kind": "sentence",
+      "itemIds": [
+        "word_this",
+        "word_idiom_hard_work",
+        "word_i"
+      ],
+      "texts": {
+        "en": "This house is from my own hard work.",
+        "th": "บ้านนี้เป็นน้ำพักน้ำแรงของฉัน",
+        "fa": "این خانه حاصل زحمات خودم است.",
+        "ar": "هذا المنزل هو ثمرة جهدي الخاص.",
+        "es": "Esta casa es fruto de mi propio esfuerzo.",
+        "zh": "这房子是我自己辛勤劳动的成果。",
+        "ja": "この家は私の汗水流して働いた結晶だ。"
+      },
+      "tokens": {
+        "en": [
+          "This",
+          "house",
+          "is",
+          "from",
+          "my",
+          "own",
+          "hard",
+          "work."
+        ],
+        "th": [
+          "บ้าน",
+          "นี้",
+          "เป็น",
+          "น้ำพักน้ำแรง",
+          "ของ",
+          "ฉัน"
+        ],
+        "fa": [
+          "این",
+          "خانه",
+          "حاصل",
+          "زحمات",
+          "خودم",
+          "است."
+        ],
+        "ar": [
+          "هذا",
+          "المنزل",
+          "هو",
+          "ثمرة",
+          "جهدي",
+          "الخاص."
+        ],
+        "es": [
+          "Esta",
+          "casa",
+          "es",
+          "fruto",
+          "de",
+          "mi",
+          "propio",
+          "esfuerzo."
+        ],
+        "zh": [
+          "这",
+          "房子",
+          "是",
+          "我自己",
+          "辛勤劳动",
+          "的",
+          "成果。"
+        ],
+        "ja": [
+          "この",
+          "家",
+          "は",
+          "私の",
+          "汗水",
+          "流して",
+          "働いた",
+          "結晶",
+          "だ。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_effort_luck",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he_she",
+        "word_luck",
+        "word_extremely"
+      ],
+      "texts": {
+        "en": "He is very lucky this year.",
+        "th": "ปีนี้เขาดวงดีสุดๆ",
+        "fa": "امسال او به شدت خوش‌شانس است.",
+        "ar": "هو محظوظ للغاية هذا العام.",
+        "es": "Él tiene muy buena suerte este año.",
+        "zh": "今年他运气好到了极点。",
+        "ja": "今年は彼の運が最高に良い。"
+      },
+      "tokens": {
+        "en": [
+          "He",
+          "is",
+          "very",
+          "lucky",
+          "this",
+          "year."
+        ],
+        "th": [
+          "ปีนี้",
+          "เขา",
+          "ดวงดี",
+          "สุดๆ"
+        ],
+        "fa": [
+          "امسال",
+          "او",
+          "به",
+          "شدت",
+          "خوش‌شانس",
+          "است."
+        ],
+        "ar": [
+          "هو",
+          "محظوظ",
+          "للغاية",
+          "هذا",
+          "العام."
+        ],
+        "es": [
+          "Él",
+          "tiene",
+          "muy",
+          "buena",
+          "suerte",
+          "este",
+          "año."
+        ],
+        "zh": [
+          "今年",
+          "他",
+          "运气",
+          "好",
+          "到了极点。"
+        ],
+        "ja": [
+          "今年",
+          "は",
+          "彼の",
+          "運",
+          "が",
+          "最高に",
+          "良い。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_effort_fluke",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_fluke"
+      ],
+      "texts": {
+        "en": "I passed the exam by a fluke.",
+        "th": "ฉันสอบผ่านแบบฟลุ๊คๆ",
+        "fa": "من شانسی در آزمون قبول شدم.",
+        "ar": "نجحت في الامتحان بالصدفة.",
+        "es": "Aprobé el examen de chiripa.",
+        "zh": "我侥幸通过了考试。",
+        "ja": "私はまぐれで試験に受かった。"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "passed",
+          "the",
+          "exam",
+          "by",
+          "a",
+          "fluke."
+        ],
+        "th": [
+          "ฉัน",
+          "สอบผ่าน",
+          "แบบ",
+          "ฟลุ๊คๆ"
+        ],
+        "fa": [
+          "من",
+          "شانسی",
+          "در",
+          "آزمون",
+          "قبول",
+          "شدم."
+        ],
+        "ar": [
+          "نجحت",
+          "في",
+          "الامتحان",
+          "بالصدفة."
+        ],
+        "es": [
+          "Aprobé",
+          "el",
+          "examen",
+          "de",
+          "chiripa."
+        ],
+        "zh": [
+          "我",
+          "侥幸",
+          "通过",
+          "了",
+          "考试。"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "まぐれ",
+          "で",
+          "試験",
+          "に",
+          "受かった。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_effort_try",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_try",
+        "word_very"
+      ],
+      "texts": {
+        "en": "You must try hard.",
+        "th": "คุณต้องพยายามมากๆ",
+        "fa": "تو باید خیلی تلاش کنی.",
+        "ar": "يجب أن تحاول بجهد.",
+        "es": "Debes intentarlo con fuerza.",
+        "zh": "你必须非常努力。",
+        "ja": "あなたは非常に努力しなければならない。"
+      },
+      "tokens": {
+        "en": [
+          "You",
+          "must",
+          "try",
+          "hard."
+        ],
+        "th": [
+          "คุณ",
+          "ต้อง",
+          "พยายาม",
+          "มากๆ"
+        ],
+        "fa": [
+          "تو",
+          "باید",
+          "خیلی",
+          "تلاش",
+          "کنی."
+        ],
+        "ar": [
+          "يجب",
+          "أن",
+          "تحاول",
+          "بجهد."
+        ],
+        "es": [
+          "Debes",
+          "intentarlo",
+          "con",
+          "fuerza."
+        ],
+        "zh": [
+          "你",
+          "必须",
+          "非常",
+          "努力。"
+        ],
+        "ja": [
+          "あなた",
+          "は",
+          "非常に",
+          "努力",
+          "しなければ",
+          "ならない。"
+        ]
+      }
+    },
+    {
+      "id": "word_idiom_hard_work",
+      "kind": "word",
+      "texts": {
+        "en": "sweat and effort (hard-earned)",
+        "th": "น้ำพักน้ำแรง",
+        "fa": "عرق و تلاش (حاصل زحمت)",
+        "ar": "قطرات العرق والجهد (ثمرة التعب)",
+        "es": "sudor y esfuerzo (fruto del trabajo)",
+        "zh": "汗水与力量（辛勤所得）",
+        "ja": "汗水流して得たもの"
+      }
+    },
+    {
+      "id": "word_luck",
+      "kind": "word",
+      "texts": {
+        "en": "luck / fortune",
+        "th": "ดวง",
+        "fa": "شانس / اقبال",
+        "ar": "حظ",
+        "es": "suerte",
+        "zh": "运气",
+        "ja": "運"
+      }
+    },
+    {
+      "id": "word_fluke",
+      "kind": "word",
+      "texts": {
+        "en": "fluke / by chance",
+        "th": "ฟลุ๊ค",
+        "fa": "اتفاقی / شانسی",
+        "ar": "صدفة / حظاً",
+        "es": "chiripa / de casualidad",
+        "zh": "碰巧 / 侥幸",
+        "ja": "まぐれ"
+      }
+    },
+    {
+      "id": "word_try",
+      "kind": "word",
+      "texts": {
+        "en": "try / attempt",
+        "th": "พยายาม",
+        "fa": "تلاش کردن",
+        "ar": "يحاول",
+        "es": "intentar",
+        "zh": "努力 / 尝试",
+        "ja": "努力する"
+      }
+    },
+    {
+      "id": "header_scenario9",
+      "header": true,
+      "texts": {
+        "en": "Scenario 9: Conversational Reactions",
+        "th": "สถานการณ์ 9: การตอบโต้ในบทสนทนา",
+        "fa": "سناریو ۹: واکنش‌های مکالمه",
+        "ar": "السيناريو 9: ردود الفعل في المحادثة",
+        "es": "Escenario 9: Reacciones conversacionales",
+        "zh": "场景九：对话反应",
+        "ja": "シナリオ9：会話の反応"
+      }
+    },
+    {
+      "id": "sentence_conv_ofcourse",
+      "kind": "sentence",
+      "itemIds": [
+        "word_of_course",
+        "word_i",
+        "word_you"
+      ],
+      "texts": {
+        "en": "Of course, I will help you.",
+        "th": "แน่นอน ฉันจะช่วยคุณ",
+        "fa": "حتماً، من به تو کمک خواهم کرد.",
+        "ar": "بالطبع، سأساعدك.",
+        "es": "Por supuesto, te ayudaré.",
+        "zh": "当然，我会帮你的。",
+        "ja": "もちろん、私はあなたを助けるよ。"
+      },
+      "tokens": {
+        "en": [
+          "Of",
+          "course,",
+          "I",
+          "will",
+          "help",
+          "you."
+        ],
+        "th": [
+          "แน่นอน",
+          "ฉัน",
+          "จะ",
+          "ช่วย",
+          "คุณ"
+        ],
+        "fa": [
+          "حتماً،",
+          "من",
+          "به",
+          "تو",
+          "کمک",
+          "خواهم",
+          "کرد."
+        ],
+        "ar": [
+          "بالطبع،",
+          "سأساعدك."
+        ],
+        "es": [
+          "Por",
+          "supuesto,",
+          "te",
+          "ayudaré."
+        ],
+        "zh": [
+          "当然，",
+          "我会",
+          "帮",
+          "你的。"
+        ],
+        "ja": [
+          "もちろん、",
+          "私",
+          "は",
+          "あなた",
+          "を",
+          "助ける",
+          "よ。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_conv_really",
+      "kind": "sentence",
+      "itemIds": [
+        "word_really_q",
+        "word_i"
+      ],
+      "texts": {
+        "en": "Really? I didn't know.",
+        "th": "จริงเหรอ ฉันไม่รู้เลย",
+        "fa": "واقعاً؟ من اصلاً نمی‌دانستم.",
+        "ar": "حقاً؟ لم أكن أعلم.",
+        "es": "¿De verdad? No lo sabía.",
+        "zh": "真的吗？我都不知道。",
+        "ja": "本当に？私は全く知らなかった。"
+      },
+      "tokens": {
+        "en": [
+          "Really?",
+          "I",
+          "didn't",
+          "know."
+        ],
+        "th": [
+          "จริงเหรอ",
+          "ฉัน",
+          "ไม่",
+          "รู้เลย"
+        ],
+        "fa": [
+          "واقعاً؟",
+          "من",
+          "اصلاً",
+          "نمی‌دانستم."
+        ],
+        "ar": [
+          "حقاً؟",
+          "لم",
+          "أكن",
+          "أعلم."
+        ],
+        "es": [
+          "¿De",
+          "verdad?",
+          "No",
+          "lo",
+          "sabía."
+        ],
+        "zh": [
+          "真的吗？",
+          "我",
+          "都",
+          "不知道。"
+        ],
+        "ja": [
+          "本当に？",
+          "私",
+          "は",
+          "全く",
+          "知らなかった。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_conv_noway",
+      "kind": "sentence",
+      "itemIds": [
+        "word_no_way"
+      ],
+      "texts": {
+        "en": "No way, it's impossible.",
+        "th": "ไม่มีทาง เป็นไปไม่ได้",
+        "fa": "محال است، غیرممکن است.",
+        "ar": "مستحيل، هذا لا يمكن.",
+        "es": "De ninguna manera, es imposible.",
+        "zh": "没门，这是不可能的。",
+        "ja": "ありえない、それは不可能だ。"
+      },
+      "tokens": {
+        "en": [
+          "No",
+          "way,",
+          "it's",
+          "impossible."
+        ],
+        "th": [
+          "ไม่มีทาง",
+          "เป็นไปไม่ได้"
+        ],
+        "fa": [
+          "محال",
+          "است،",
+          "غیرممکن",
+          "است."
+        ],
+        "ar": [
+          "مستحيل،",
+          "هذا",
+          "لا",
+          "يمكن."
+        ],
+        "es": [
+          "De",
+          "ninguna",
+          "manera,",
+          "es",
+          "imposible."
+        ],
+        "zh": [
+          "没门，",
+          "这是",
+          "不可能的。"
+        ],
+        "ja": [
+          "ありえない、",
+          "それ",
+          "は",
+          "不可能",
+          "だ。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_conv_same",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_same"
+      ],
+      "texts": {
+        "en": "I feel the same way.",
+        "th": "ฉันก็รู้สึกเหมือนกัน",
+        "fa": "من هم همین احساس را دارم.",
+        "ar": "أنا أشعر بنفس الشيء.",
+        "es": "Yo siento lo mismo.",
+        "zh": "我也有同感。",
+        "ja": "私も同じように感じる。"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "feel",
+          "the",
+          "same",
+          "way."
+        ],
+        "th": [
+          "ฉัน",
+          "ก็",
+          "รู้สึก",
+          "เหมือนกัน"
+        ],
+        "fa": [
+          "من",
+          "هم",
+          "همین",
+          "احساس",
+          "را",
+          "دارم."
+        ],
+        "ar": [
+          "أنا",
+          "أشعر",
+          "بنفس",
+          "الشيء."
+        ],
+        "es": [
+          "Yo",
+          "siento",
+          "lo",
+          "mismo."
+        ],
+        "zh": [
+          "我",
+          "也",
+          "有",
+          "同感。"
+        ],
+        "ja": [
+          "私",
+          "も",
+          "同じ",
+          "ように",
+          "感じる。"
+        ]
+      }
+    },
+    {
+      "id": "word_of_course",
+      "kind": "word",
+      "texts": {
+        "en": "of course / definitely",
+        "th": "แน่นอน",
+        "fa": "حتماً / البته",
+        "ar": "بالطبع / أكيد",
+        "es": "por supuesto / claro",
+        "zh": "当然 / 肯定",
+        "ja": "もちろん / 確実に"
+      }
+    },
+    {
+      "id": "word_really_q",
+      "kind": "word",
+      "texts": {
+        "en": "really? / is that so?",
+        "th": "จริงเหรอ",
+        "fa": "واقعاً؟ / اینطور؟",
+        "ar": "حقاً؟ / هل هذا صحيح؟",
+        "es": "¿de verdad? / ¿en serio?",
+        "zh": "真的吗？",
+        "ja": "本当に？ / そうなの？"
+      }
+    },
+    {
+      "id": "word_no_way",
+      "kind": "word",
+      "texts": {
+        "en": "no way / impossible",
+        "th": "ไม่มีทาง",
+        "fa": "محال است / غیرممکن",
+        "ar": "مستحيل / لا يمكن",
+        "es": "de ninguna manera / imposible",
+        "zh": "没门 / 不可能",
+        "ja": "とんでもない / ありえない"
+      }
+    },
+    {
+      "id": "word_same",
+      "kind": "word",
+      "texts": {
+        "en": "same / alike",
+        "th": "เหมือนกัน",
+        "fa": "همچنین / مشابه",
+        "ar": "كذلك / نفس الشيء",
+        "es": "igual / lo mismo",
+        "zh": "一样 / 同样",
+        "ja": "同じ / 同様に"
+      }
+    }
+  ]
+}

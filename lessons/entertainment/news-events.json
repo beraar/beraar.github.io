@@ -1,0 +1,1401 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras clave",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_we",
+      "kind": "word",
+      "texts": {
+        "en": "we",
+        "th": "เรา",
+        "fa": "ما",
+        "ar": "نحن",
+        "es": "nosotros",
+        "zh": "我们",
+        "ja": "私たち"
+      }
+    },
+    {
+      "id": "word_read",
+      "kind": "word",
+      "texts": {
+        "en": "read",
+        "th": "อ่าน",
+        "fa": "خواندن",
+        "ar": "يقرأ",
+        "es": "leer",
+        "zh": "读",
+        "ja": "読む"
+      }
+    },
+    {
+      "id": "word_watch",
+      "kind": "word",
+      "texts": {
+        "en": "watch",
+        "th": "ดู",
+        "fa": "تماشا کردن",
+        "ar": "يشاهد",
+        "es": "ver",
+        "zh": "看",
+        "ja": "見る"
+      }
+    },
+    {
+      "id": "word_check",
+      "kind": "word",
+      "texts": {
+        "en": "check",
+        "th": "ตรวจสอบ",
+        "fa": "بررسی کردن",
+        "ar": "يتحقق",
+        "es": "comprobar",
+        "zh": "检查",
+        "ja": "確認する"
+      }
+    },
+    {
+      "id": "word_believe",
+      "kind": "word",
+      "texts": {
+        "en": "believe",
+        "th": "เชื่อ",
+        "fa": "باور کردن",
+        "ar": "يصدق",
+        "es": "creer",
+        "zh": "相信",
+        "ja": "信じる"
+      }
+    },
+    {
+      "id": "word_news",
+      "kind": "word",
+      "texts": {
+        "en": "news",
+        "th": "ข่าว",
+        "fa": "اخبار",
+        "ar": "أخبار",
+        "es": "noticias",
+        "zh": "新闻",
+        "ja": "ニュース"
+      }
+    },
+    {
+      "id": "word_internet",
+      "kind": "word",
+      "texts": {
+        "en": "internet",
+        "th": "อินเทอร์เน็ต",
+        "fa": "اینترنت",
+        "ar": "إنترنت",
+        "es": "internet",
+        "zh": "互联网",
+        "ja": "インターネット"
+      }
+    },
+    {
+      "id": "word_true",
+      "kind": "word",
+      "texts": {
+        "en": "true",
+        "th": "จริง",
+        "fa": "واقعی",
+        "ar": "حقيقي",
+        "es": "verdadero",
+        "zh": "真实",
+        "ja": "本当"
+      }
+    },
+    {
+      "id": "word_fake",
+      "kind": "word",
+      "texts": {
+        "en": "fake",
+        "th": "ปลอม",
+        "fa": "جعلی",
+        "ar": "مزيف",
+        "es": "falso",
+        "zh": "虚假",
+        "ja": "偽"
+      }
+    },
+    {
+      "id": "word_not",
+      "kind": "word",
+      "texts": {
+        "en": "no / not",
+        "th": "ไม่",
+        "fa": "نه / نمی",
+        "ar": "لا / ليس",
+        "es": "no",
+        "zh": "不",
+        "ja": "ない"
+      }
+    },
+    {
+      "id": "word_question_particle",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_that",
+      "kind": "word",
+      "texts": {
+        "en": "that / which / who",
+        "th": "ที่",
+        "fa": "که",
+        "ar": "الذي / التي",
+        "es": "que (relativo)",
+        "zh": "的（关系从句）",
+        "ja": "（関係節の目印）"
+      }
+    },
+    {
+      "id": "word_ing",
+      "kind": "word",
+      "texts": {
+        "en": "progressive marker",
+        "th": "กำลัง",
+        "fa": "در حال",
+        "ar": "قيد",
+        "es": "progresivo",
+        "zh": "正在",
+        "ja": "している"
+      }
+    },
+    {
+      "id": "word_already",
+      "kind": "word",
+      "texts": {
+        "en": "already / completed",
+        "th": "แล้ว",
+        "fa": "نشانه کامل شدن",
+        "ar": "قد / بالفعل",
+        "es": "ya (completado)",
+        "zh": "已经",
+        "ja": "もう〜した"
+      }
+    },
+    {
+      "id": "word_ever",
+      "kind": "word",
+      "texts": {
+        "en": "ever (experience)",
+        "th": "เคย",
+        "fa": "تا به حال / تجربه",
+        "ar": "سبق أن",
+        "es": "alguna vez",
+        "zh": "曾经",
+        "ja": "〜したことがある"
+      }
+    },
+    {
+      "id": "word_will",
+      "kind": "word",
+      "texts": {
+        "en": "future marker",
+        "th": "จะ",
+        "fa": "نشانه آینده",
+        "ar": "سوف",
+        "es": "marcador de futuro",
+        "zh": "将会",
+        "ja": "〜するつもり"
+      }
+    },
+    {
+      "id": "word_every_day",
+      "kind": "word",
+      "texts": {
+        "en": "every day",
+        "th": "ทุกวัน",
+        "fa": "هر روز",
+        "ar": "كل يوم",
+        "es": "todos los días",
+        "zh": "每天",
+        "ja": "毎日"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Getting the News",
+        "th": "สถานการณ์ 1: การติดตามข่าวสาร",
+        "fa": "سناریو ۱: دریافت اخبار",
+        "ar": "السيناريو 1: متابعة الأخبار",
+        "es": "Escenario 1: Recibir las noticias",
+        "zh": "场景一：获取新闻",
+        "ja": "シナリオ1：ニュースの入手"
+      }
+    },
+    {
+      "id": "sentence_news_read_internet",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_read", "word_news", "word_internet"],
+      "texts": {
+        "en": "I read the news on the internet every day",
+        "th": "ฉันอ่านข่าวบนอินเทอร์เน็ตทุกวัน",
+        "fa": "من هر روز اخبار را در اینترنت می‌خوانم",
+        "ar": "أقرأ الأخبار على الإنترنت كل يوم",
+        "es": "Leo las noticias en internet todos los días",
+        "zh": "我每天在互联网上看新闻",
+        "ja": "私は毎日インターネットでニュースを読みます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "read",
+          "the",
+          "news",
+          "on",
+          "the",
+          "internet",
+          "every",
+          "day"
+        ],
+        "th": ["ฉัน", "อ่าน", "ข่าว", "บน", "อินเทอร์เน็ต", "ทุกวัน"],
+        "fa": ["من", "هر", "روز", "اخبار", "را", "در", "اینترنت", "می‌خوانم"],
+        "ar": ["أقرأ", "الأخبار", "على", "الإنترنت", "كل", "يوم"],
+        "es": [
+          "Leo",
+          "las",
+          "noticias",
+          "en",
+          "internet",
+          "todos",
+          "los",
+          "días"
+        ],
+        "zh": ["我", "每天", "在", "互联网", "上", "看", "新闻"],
+        "ja": [
+          "私",
+          "は",
+          "毎日",
+          "インターネット",
+          "で",
+          "ニュース",
+          "を",
+          "読み",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_news_watch_daily",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_watch", "word_news", "word_every_day"],
+      "texts": {
+        "en": "I watch the news every day",
+        "th": "ฉันดูข่าวทุกวัน",
+        "fa": "من هر روز اخبار تماشا می‌کنم",
+        "ar": "أنا أشاهد الأخبار كل يوم",
+        "es": "Veo las noticias todos los días",
+        "zh": "我每天看新闻",
+        "ja": "私は毎日ニュースを見ます"
+      },
+      "tokens": {
+        "en": ["I", "watch", "the", "news", "every", "day"],
+        "th": ["ฉัน", "ดู", "ข่าว", "ทุกวัน"],
+        "fa": ["من", "هر", "روز", "اخبار", "تماشا", "می‌کنم"],
+        "ar": ["أنا", "أشاهد", "الأخبار", "كل", "يوم"],
+        "es": ["Veo", "las", "noticias", "todos", "los", "días"],
+        "zh": ["我", "每天", "看", "新闻"],
+        "ja": ["私", "は", "毎日", "ニュース", "を", "見", "ます"]
+      }
+    },
+    {
+      "id": "sentence_news_reading_now",
+      "kind": "sentence",
+      "itemIds": ["word_now", "word_i", "word_ing", "word_read", "word_news"],
+      "texts": {
+        "en": "I am reading the news now",
+        "th": "ตอนนี้ฉันกำลังอ่านข่าว",
+        "fa": "من الان در حال خواندن اخبار هستم",
+        "ar": "أنا أقرأ الأخبار الآن",
+        "es": "Estoy leyendo las noticias ahora",
+        "zh": "我正在看新闻",
+        "ja": "今ニュースを読んでいます"
+      },
+      "tokens": {
+        "en": ["I", "am", "reading", "the", "news", "now"],
+        "th": ["ตอนนี้", "ฉัน", "กำลัง", "อ่าน", "ข่าว"],
+        "fa": ["من", "الان", "در", "حال", "خواندن", "اخبار", "هستم"],
+        "ar": ["أنا", "أقرأ", "الأخبار", "الآن"],
+        "es": ["Estoy", "leyendo", "las", "noticias", "ahora"],
+        "zh": ["我", "正在", "看", "新闻"],
+        "ja": ["今", "ニュース", "を", "読んで", "います"]
+      }
+    },
+    {
+      "id": "word_now",
+      "kind": "word",
+      "texts": {
+        "en": "now",
+        "th": "ตอนนี้",
+        "fa": "الان",
+        "ar": "الآن",
+        "es": "ahora",
+        "zh": "现在",
+        "ja": "今"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Fake News & Fact-Checking",
+        "th": "สถานการณ์ 2: ข่าวปลอมและการตรวจสอบข่าว",
+        "fa": "سناریو ۲: اخبار جعلی و راستی‌آزمایی",
+        "ar": "السيناريو 2: الأخبار المزيفة والتحقق منها",
+        "es": "Escenario 2: Noticias falsas y verificación",
+        "zh": "场景二：假新闻与事实核查",
+        "ja": "シナリオ2：フェイクニュースとファクトチェック"
+      }
+    },
+    {
+      "id": "sentence_news_fake",
+      "kind": "sentence",
+      "itemIds": ["word_news", "word_internet", "word_fake"],
+      "texts": {
+        "en": "Some news on the internet is fake",
+        "th": "ข่าวบางข่าวบนอินเทอร์เน็ตเป็นข่าวปลอม",
+        "fa": "برخی از اخبار در اینترنت جعلی هستند",
+        "ar": "بعض الأخبار على الإنترنت مزيفة",
+        "es": "Algunas noticias en internet son falsas",
+        "zh": "互联网上的一些新闻是假的",
+        "ja": "インターネット上のいくつかのニュースは偽です"
+      },
+      "tokens": {
+        "en": ["Some", "news", "on", "the", "internet", "is", "fake"],
+        "th": ["ข่าว", "บางข่าว", "บน", "อินเทอร์เน็ต", "เป็น", "ข่าวปลอม"],
+        "fa": ["برخی", "از", "اخبار", "در", "اینترنت", "جعلی", "هستند"],
+        "ar": ["بعض", "الأخبار", "على", "الإنترنت", "مزيفة"],
+        "es": ["Algunas", "noticias", "en", "internet", "son", "falsas"],
+        "zh": ["互联网", "上", "的", "一些", "新闻", "是", "假的"],
+        "ja": [
+          "インターネット",
+          "上",
+          "の",
+          "いくつか",
+          "の",
+          "ニュース",
+          "は",
+          "偽",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_news_check_true",
+      "kind": "sentence",
+      "itemIds": ["word_we", "word_check", "word_news", "word_true"],
+      "texts": {
+        "en": "We must check if the news is true",
+        "th": "เราต้องตรวจสอบว่าข่าวเป็นความจริงไหม",
+        "fa": "ما باید بررسی کنیم که آیا اخبار واقعی است",
+        "ar": "يجب أن نتحقق مما إذا كانت الأخبار حقيقية",
+        "es": "Debemos comprobar si las noticias son verdaderas",
+        "zh": "我们必须检查新闻是否真实",
+        "ja": "ニュースが本当かどうか確認しなければなりません"
+      },
+      "tokens": {
+        "en": ["We", "must", "check", "if", "the", "news", "is", "true"],
+        "th": [
+          "เรา",
+          "ต้อง",
+          "ตรวจสอบ",
+          "ว่า",
+          "ข่าว",
+          "เป็น",
+          "ความจริง",
+          "ไหม"
+        ],
+        "fa": [
+          "ما",
+          "باید",
+          "بررسی",
+          "کنیم",
+          "که",
+          "آیا",
+          "اخبار",
+          "واقعی",
+          "است"
+        ],
+        "ar": ["يجب", "أن", "نتحقق", "مما", "إذا", "كانت", "الأخبار", "حقيقية"],
+        "es": [
+          "Debemos",
+          "comprobar",
+          "si",
+          "las",
+          "noticias",
+          "son",
+          "verdaderas"
+        ],
+        "zh": ["我们", "必须", "检查", "新闻", "是否", "真实"],
+        "ja": [
+          "ニュース",
+          "が",
+          "本当",
+          "か",
+          "どう",
+          "か",
+          "確認",
+          "し",
+          "なければ",
+          "なりません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_news_ever_read_fake",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_ever",
+        "word_read",
+        "word_fake_news",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Have you ever read fake news?",
+        "th": "คุณเคยอ่านข่าวปลอมไหม",
+        "fa": "آیا تا به حال اخبار جعلی خوانده‌اید؟",
+        "ar": "هل قرأت أخباراً مزيفة من قبل؟",
+        "es": "¿Has leído alguna vez noticias falsas?",
+        "zh": "你读过假新闻吗？",
+        "ja": "フェイクニュースを読んだことがありますか？"
+      },
+      "tokens": {
+        "en": ["Have", "you", "ever", "read", "fake", "news?"],
+        "th": ["คุณ", "เคย", "อ่าน", "ข่าวปลอม", "ไหม"],
+        "fa": ["آیا", "تا", "به", "حال", "اخبار", "جعلی", "خوانده‌اید؟"],
+        "ar": ["هل", "قرأت", "أخباراً", "مزيفة", "من", "قبل؟"],
+        "es": ["¿Has", "leído", "alguna", "vez", "noticias", "falsas?"],
+        "zh": ["你", "读过", "假新闻", "吗？"],
+        "ja": [
+          "フェイクニュース",
+          "を",
+          "読んだ",
+          "こと",
+          "が",
+          "あります",
+          "か？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_news_never_read",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_not", "word_ever", "word_read"],
+      "texts": {
+        "en": "I have never read it",
+        "th": "ฉันไม่เคยอ่าน",
+        "fa": "من هرگز نخوانده‌ام",
+        "ar": "لم أقرأها أبداً",
+        "es": "Nunca las he leído",
+        "zh": "我从未读过",
+        "ja": "一度も読んだことがありません"
+      },
+      "tokens": {
+        "en": ["I", "have", "never", "read", "it"],
+        "th": ["ฉัน", "ไม่", "เคย", "อ่าน"],
+        "fa": ["من", "هرگز", "نخوانده‌ام"],
+        "ar": ["لم", "أقرأها", "أبداً"],
+        "es": ["Nunca", "las", "he", "leído"],
+        "zh": ["我", "从未", "读过"],
+        "ja": ["一度も", "読んだ", "こと", "が", "ありません"]
+      }
+    },
+    {
+      "id": "sentence_news_already_checked",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_check", "word_news", "word_already"],
+      "texts": {
+        "en": "I have already checked the news",
+        "th": "ฉันตรวจสอบข่าวแล้ว",
+        "fa": "من اخبار را بررسی کرده‌ام",
+        "ar": "لقد تحققت من الأخبار بالفعل",
+        "es": "Ya he comprobado las noticias",
+        "zh": "我已经核实了新闻",
+        "ja": "もうニュースを確認しました"
+      },
+      "tokens": {
+        "en": ["I", "have", "already", "checked", "the", "news"],
+        "th": ["ฉัน", "ตรวจสอบ", "ข่าว", "แล้ว"],
+        "fa": ["من", "اخبار", "را", "بررسی", "کرده‌ام"],
+        "ar": ["لقد", "تحققت", "من", "الأخبار", "بالفعل"],
+        "es": ["Ya", "he", "comprobado", "las", "noticias"],
+        "zh": ["我", "已经", "核实了", "新闻"],
+        "ja": ["もう", "ニュース", "を", "確認", "しました"]
+      }
+    },
+    {
+      "id": "sentence_news_will_check",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_will", "word_check", "word_news"],
+      "texts": {
+        "en": "I will check the news",
+        "th": "ฉันจะตรวจสอบข่าว",
+        "fa": "من اخبار را بررسی خواهم کرد",
+        "ar": "سأتأكد من الأخبار",
+        "es": "Comprobaré las noticias",
+        "zh": "我会核实新闻",
+        "ja": "ニュースを確認するつもりです"
+      },
+      "tokens": {
+        "en": ["I", "will", "check", "the", "news"],
+        "th": ["ฉัน", "จะ", "ตรวจสอบ", "ข่าว"],
+        "fa": ["من", "اخبار", "را", "بررسی", "خواهم", "کرد"],
+        "ar": ["سأتأكد", "من", "الأخبار"],
+        "es": ["Comprobaré", "las", "noticias"],
+        "zh": ["我", "会", "核实", "新闻"],
+        "ja": ["ニュース", "を", "確認", "する", "つもり", "です"]
+      }
+    },
+    {
+      "id": "word_fake_news",
+      "kind": "word",
+      "texts": {
+        "en": "fake news",
+        "th": "ข่าวปลอม",
+        "fa": "اخبار جعلی",
+        "ar": "أخبار مزيفة",
+        "es": "noticias falsas",
+        "zh": "假新闻",
+        "ja": "フェイクニュース"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: News That Affects Us",
+        "th": "สถานการณ์ 3: ข่าวที่ส่งผลกระทบต่อเรา",
+        "fa": "سناریو ۳: اخباری که بر ما تأثیر می‌گذارند",
+        "ar": "السيناريو 3: الأخبار التي تؤثر علينا",
+        "es": "Escenario 3: Noticias que nos afectan",
+        "zh": "场景三：影响我们的新闻",
+        "ja": "シナリオ3：私たちに影響するニュース"
+      }
+    },
+    {
+      "id": "sentence_news_watch_economy",
+      "kind": "sentence",
+      "itemIds": ["word_you", "word_watch", "word_news", "word_economy"],
+      "texts": {
+        "en": "Did you watch the news about the economy",
+        "th": "คุณดูข่าวเกี่ยวกับเศรษฐกิจไหม",
+        "fa": "آیا اخبار مربوط به اقتصاد را تماشا کردید",
+        "ar": "هل شاهدت الأخبار عن الاقتصاد",
+        "es": "Viste las noticias sobre la economía",
+        "zh": "你看关于经济的新闻了吗",
+        "ja": "経済に関するニュースを見ましたか"
+      },
+      "tokens": {
+        "en": ["Did", "you", "watch", "the", "news", "about", "the", "economy"],
+        "th": ["คุณ", "ดู", "ข่าว", "เกี่ยวกับ", "เศรษฐกิจ", "ไหม"],
+        "fa": ["آیا", "اخبار", "مربوط", "به", "اقتصاد", "را", "تماشا", "کردید"],
+        "ar": ["هل", "شاهدت", "الأخبار", "عن", "الاقتصاد"],
+        "es": ["Viste", "las", "noticias", "sobre", "la", "economía"],
+        "zh": ["你", "看", "关于", "经济", "的", "新闻", "了", "吗"],
+        "ja": ["経済", "に関する", "ニュース", "を", "見", "まし", "た", "か"]
+      }
+    },
+    {
+      "id": "sentence_news_event_affect",
+      "kind": "sentence",
+      "itemIds": ["word_event", "word_affect", "word_society"],
+      "texts": {
+        "en": "This event affects our society",
+        "th": "เหตุการณ์นี้ส่งผลกระทบต่อสังคมของเรา",
+        "fa": "این رویداد بر جامعه ما تأثیر می‌گذارد",
+        "ar": "هذا الحدث يؤثر على مجتمعنا",
+        "es": "Este evento afecta a nuestra sociedad",
+        "zh": "这个事件影响我们的社会",
+        "ja": "この出来事は私たちの社会に影響を与えます"
+      },
+      "tokens": {
+        "en": ["This", "event", "affects", "our", "society"],
+        "th": ["เหตุการณ์", "นี้", "ส่งผลกระทบ", "ต่อ", "สังคม", "ของ", "เรา"],
+        "fa": ["این", "رویداد", "بر", "جامعه", "ما", "تأثیر", "می‌گذارد"],
+        "ar": ["هذا", "الحدث", "يؤثر", "على", "مجتمعنا"],
+        "es": ["Este", "evento", "afecta", "a", "nuestra", "sociedad"],
+        "zh": ["这个", "事件", "影响", "我们的", "社会"],
+        "ja": [
+          "この",
+          "出来事",
+          "は",
+          "私たち",
+          "の",
+          "社会",
+          "に",
+          "影響",
+          "を",
+          "与え",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_news_is_it_true",
+      "kind": "sentence",
+      "itemIds": [
+        "word_news",
+        "word_that",
+        "word_you",
+        "word_read",
+        "word_true",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Is the news that you read true?",
+        "th": "ข่าวที่คุณอ่านจริงไหม",
+        "fa": "آیا خبری که می‌خوانید واقعی است؟",
+        "ar": "هل الخبر الذي تقرأه حقيقي؟",
+        "es": "¿Es verdadera la noticia que lees?",
+        "zh": "你读的新闻是真的吗？",
+        "ja": "あなたが読むニュースは本当ですか？"
+      },
+      "tokens": {
+        "en": ["Is", "the", "news", "that", "you", "read", "true?"],
+        "th": ["ข่าว", "ที่", "คุณ", "อ่าน", "จริง", "ไหม"],
+        "fa": ["آیا", "خبری", "که", "می‌خوانید", "واقعی", "است؟"],
+        "ar": ["هل", "الخبر", "الذي", "تقرأه", "حقيقي؟"],
+        "es": ["¿Es", "verdadera", "la", "noticia", "que", "lees?"],
+        "zh": ["你", "读的", "新闻", "是", "真的", "吗？"],
+        "ja": ["あなた", "が", "読む", "ニュース", "は", "本当", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_news_people_who_check",
+      "kind": "sentence",
+      "itemIds": [
+        "word_person",
+        "word_that",
+        "word_read",
+        "word_news",
+        "word_internet",
+        "word_check"
+      ],
+      "texts": {
+        "en": "People who read news on the internet must check it",
+        "th": "คนที่อ่านข่าวบนอินเทอร์เน็ตต้องตรวจสอบข่าว",
+        "fa": "کسانی که اخبار را در اینترنت می‌خوانند باید آن را بررسی کنند",
+        "ar": "الأشخاص الذين يقرؤون الأخبار على الإنترنت يجب أن يتحققوا منها",
+        "es": "Las personas que leen noticias en internet deben comprobarlas",
+        "zh": "在互联网上读新闻的人必须核实新闻",
+        "ja": "インターネットでニュースを読む人はニュースを確認しなければなりません"
+      },
+      "tokens": {
+        "en": [
+          "People",
+          "who",
+          "read",
+          "news",
+          "on",
+          "the",
+          "internet",
+          "must",
+          "check",
+          "it"
+        ],
+        "th": [
+          "คน",
+          "ที่",
+          "อ่าน",
+          "ข่าว",
+          "บน",
+          "อินเทอร์เน็ต",
+          "ต้อง",
+          "ตรวจสอบ",
+          "ข่าว"
+        ],
+        "fa": [
+          "کسانی",
+          "که",
+          "اخبار",
+          "را",
+          "در",
+          "اینترنت",
+          "می‌خوانند",
+          "باید",
+          "آن",
+          "را",
+          "بررسی",
+          "کنند"
+        ],
+        "ar": [
+          "الأشخاص",
+          "الذين",
+          "يقرؤون",
+          "الأخبار",
+          "على",
+          "الإنترنت",
+          "يجب",
+          "أن",
+          "يتحققوا",
+          "منها"
+        ],
+        "es": [
+          "Las",
+          "personas",
+          "que",
+          "leen",
+          "noticias",
+          "en",
+          "internet",
+          "deben",
+          "comprobarlas"
+        ],
+        "zh": [
+          "在",
+          "互联网",
+          "上",
+          "读",
+          "新闻",
+          "的",
+          "人",
+          "必须",
+          "核实",
+          "新闻"
+        ],
+        "ja": [
+          "インターネット",
+          "で",
+          "ニュース",
+          "を",
+          "読む",
+          "人",
+          "は",
+          "ニュース",
+          "を",
+          "確認",
+          "し",
+          "なければ",
+          "なりません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_news_economy_affects",
+      "kind": "sentence",
+      "itemIds": [
+        "word_news",
+        "word_that",
+        "word_economy",
+        "word_affect",
+        "word_society"
+      ],
+      "texts": {
+        "en": "News about the economy affects society",
+        "th": "ข่าวที่เกี่ยวกับเศรษฐกิจส่งผลกระทบต่อสังคม",
+        "fa": "اخبار مربوط به اقتصاد بر جامعه تأثیر می‌گذارد",
+        "ar": "الأخبار المتعلقة بالاقتصاد تؤثر على المجتمع",
+        "es": "Las noticias sobre la economía afectan a la sociedad",
+        "zh": "关于经济的新闻影响社会",
+        "ja": "経済に関するニュースは社会に影響を与えます"
+      },
+      "tokens": {
+        "en": ["News", "about", "the", "economy", "affects", "society"],
+        "th": [
+          "ข่าว",
+          "ที่",
+          "เกี่ยวกับ",
+          "เศรษฐกิจ",
+          "ส่งผลกระทบ",
+          "ต่อ",
+          "สังคม"
+        ],
+        "fa": [
+          "اخبار",
+          "مربوط",
+          "به",
+          "اقتصاد",
+          "بر",
+          "جامعه",
+          "تأثیر",
+          "می‌گذارد"
+        ],
+        "ar": ["الأخبار", "المتعلقة", "بالاقتصاد", "تؤثر", "على", "المجتمع"],
+        "es": [
+          "Las",
+          "noticias",
+          "sobre",
+          "la",
+          "economía",
+          "afectan",
+          "a",
+          "la",
+          "sociedad"
+        ],
+        "zh": ["关于", "经济", "的", "新闻", "影响", "社会"],
+        "ja": [
+          "経済",
+          "に関する",
+          "ニュース",
+          "は",
+          "社会",
+          "に",
+          "影響",
+          "を",
+          "与え",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_news_believe_what_read",
+      "kind": "sentence",
+      "itemIds": [
+        "word_believe",
+        "word_news",
+        "word_that",
+        "word_you",
+        "word_read",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Do you believe the news that you read?",
+        "th": "คุณเชื่อข่าวที่คุณอ่านไหม",
+        "fa": "آیا خبری را که می‌خوانید باور می‌کنید؟",
+        "ar": "هل تصدق الأخبار التي تقرأها؟",
+        "es": "¿Crees las noticias que lees?",
+        "zh": "你相信你读的新闻吗？",
+        "ja": "あなたが読むニュースを信じますか？"
+      },
+      "tokens": {
+        "en": ["Do", "you", "believe", "the", "news", "that", "you", "read?"],
+        "th": ["คุณ", "เชื่อ", "ข่าว", "ที่", "คุณ", "อ่าน", "ไหม"],
+        "fa": ["آیا", "خبری", "را", "که", "می‌خوانید", "باور", "می‌کنید؟"],
+        "ar": ["هل", "تصدق", "الأخبار", "التي", "تقرأها؟"],
+        "es": ["¿Crees", "las", "noticias", "que", "lees?"],
+        "zh": ["你", "相信", "你", "读的", "新闻", "吗？"],
+        "ja": ["あなた", "が", "読む", "ニュース", "を", "信じ", "ます", "か？"]
+      }
+    },
+    {
+      "id": "word_economy",
+      "kind": "word",
+      "texts": {
+        "en": "economy",
+        "th": "เศรษฐกิจ",
+        "fa": "اقتصاد",
+        "ar": "اقتصاد",
+        "es": "economía",
+        "zh": "经济",
+        "ja": "経済"
+      }
+    },
+    {
+      "id": "word_event",
+      "kind": "word",
+      "texts": {
+        "en": "event",
+        "th": "เหตุการณ์",
+        "fa": "رویداد",
+        "ar": "حدث",
+        "es": "evento",
+        "zh": "事件",
+        "ja": "出来事"
+      }
+    },
+    {
+      "id": "word_affect",
+      "kind": "word",
+      "texts": {
+        "en": "affect",
+        "th": "ส่งผลกระทบ",
+        "fa": "تأثیر گذاشتن",
+        "ar": "يؤثر",
+        "es": "afectar",
+        "zh": "影响",
+        "ja": "影響する"
+      }
+    },
+    {
+      "id": "word_society",
+      "kind": "word",
+      "texts": {
+        "en": "society",
+        "th": "สังคม",
+        "fa": "جامعه",
+        "ar": "مجتمع",
+        "es": "sociedad",
+        "zh": "社会",
+        "ja": "社会"
+      }
+    },
+    {
+      "id": "word_person",
+      "kind": "word",
+      "texts": {
+        "en": "person / people",
+        "th": "คน",
+        "fa": "نفر / شخص",
+        "ar": "شخص",
+        "es": "persona",
+        "zh": "人",
+        "ja": "人"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: News Categories",
+        "th": "สถานการณ์ 4: ประเภทของข่าว",
+        "fa": "سناریو ۴: دسته‌بندی اخبار",
+        "ar": "السيناريو 4: فئات الأخبار",
+        "es": "Escenario 4: Categorías de noticias",
+        "zh": "场景四：新闻类别",
+        "ja": "シナリオ4：ニュースのカテゴリー"
+      }
+    },
+    {
+      "id": "sentence_news_sports_popular",
+      "kind": "sentence",
+      "itemIds": ["word_news", "word_sport", "word_true"],
+      "texts": {
+        "en": "Sports news is very popular",
+        "th": "ข่าวกีฬาเป็นที่นิยมมาก",
+        "fa": "اخبار ورزشی بسیار محبوب است",
+        "ar": "الأخبار الرياضية شائعة جداً",
+        "es": "Las noticias deportivas son muy populares",
+        "zh": "体育新闻非常受欢迎",
+        "ja": "スポーツニュースはとても人気があります"
+      },
+      "tokens": {
+        "en": ["Sports", "news", "is", "very", "popular"],
+        "th": ["ข่าว", "กีฬา", "เป็น", "ที่นิยม", "มาก"],
+        "fa": ["اخبار", "ورزشی", "بسیار", "محبوب", "است"],
+        "ar": ["الأخبار", "الرياضية", "شائعة", "جداً"],
+        "es": ["Las", "noticias", "deportivas", "son", "muy", "populares"],
+        "zh": ["体育", "新闻", "非常", "受欢迎"],
+        "ja": ["スポーツ", "ニュース", "は", "とても", "人気", "が", "あります"]
+      }
+    },
+    {
+      "id": "sentence_news_weather_rain",
+      "kind": "sentence",
+      "itemIds": ["word_weather", "word_news", "word_will"],
+      "texts": {
+        "en": "The weather news says it will rain tomorrow",
+        "th": "ข่าวอากาศบอกว่าพรุ่งนี้ฝนจะตก",
+        "fa": "اخبار آب و هوا می‌گوید فردا باران خواهد بارید",
+        "ar": "أخبار الطقس تقول إن المطر سيهطل غداً",
+        "es": "Las noticias del clima dicen que lloverá mañana",
+        "zh": "天气新闻说明天会下雨",
+        "ja": "天気ニュースは明日雨が降ると言っています"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "weather",
+          "news",
+          "says",
+          "it",
+          "will",
+          "rain",
+          "tomorrow"
+        ],
+        "th": ["ข่าว", "อากาศ", "บอก", "ว่า", "พรุ่งนี้", "ฝน", "จะ", "ตก"],
+        "fa": [
+          "اخبار",
+          "آب",
+          "و",
+          "هوا",
+          "می‌گوید",
+          "فردا",
+          "باران",
+          "خواهد",
+          "بارید"
+        ],
+        "ar": ["أخبار", "الطقس", "تقول", "إن", "المطر", "سيهطل", "غداً"],
+        "es": [
+          "Las",
+          "noticias",
+          "del",
+          "clima",
+          "dicen",
+          "que",
+          "lloverá",
+          "mañana"
+        ],
+        "zh": ["天气", "新闻", "说", "明天", "会", "下雨"],
+        "ja": [
+          "天気",
+          "ニュース",
+          "は",
+          "明日",
+          "雨",
+          "が",
+          "降る",
+          "と",
+          "言って",
+          "います"
+        ]
+      }
+    },
+    {
+      "id": "sentence_news_government_affects",
+      "kind": "sentence",
+      "itemIds": ["word_government", "word_news", "word_affect"],
+      "texts": {
+        "en": "Government news affects our lives",
+        "th": "ข่าวรัฐบาลส่งผลกระทบต่อชีวิตของเรา",
+        "fa": "اخبار دولت بر زندگی ما تأثیر می‌گذارد",
+        "ar": "أخبار الحكومة تؤثر على حياتنا",
+        "es": "Las noticias del gobierno afectan nuestras vidas",
+        "zh": "政府新闻影响我们的生活",
+        "ja": "政府のニュースは私たちの生活に影響を与えます"
+      },
+      "tokens": {
+        "en": ["Government", "news", "affects", "our", "lives"],
+        "th": ["ข่าว", "รัฐบาล", "ส่งผลกระทบ", "ต่อ", "ชีวิต", "ของ", "เรา"],
+        "fa": ["اخبار", "دولت", "بر", "زندگی", "ما", "تأثیر", "می‌گذارد"],
+        "ar": ["أخبار", "الحكومة", "تؤثر", "على", "حياتنا"],
+        "es": [
+          "Las",
+          "noticias",
+          "del",
+          "gobierno",
+          "afectan",
+          "nuestras",
+          "vidas"
+        ],
+        "zh": ["政府", "新闻", "影响", "我们的", "生活"],
+        "ja": [
+          "政府",
+          "の",
+          "ニュース",
+          "は",
+          "私たち",
+          "の",
+          "生活",
+          "に",
+          "影響",
+          "を",
+          "与え",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_news_kind_like",
+      "kind": "sentence",
+      "itemIds": [
+        "word_news",
+        "word_you",
+        "word_read",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "What kind of news do you like to read?",
+        "th": "คุณชอบอ่านข่าวประเภทไหน",
+        "fa": "چه نوع اخباری را دوست دارید بخوانید؟",
+        "ar": "أي نوع من الأخبار تحب أن تقرأ؟",
+        "es": "¿Qué tipo de noticias te gusta leer?",
+        "zh": "你喜欢读哪类新闻？",
+        "ja": "どんなニュースを読むのが好きですか？"
+      },
+      "tokens": {
+        "en": [
+          "What",
+          "kind",
+          "of",
+          "news",
+          "do",
+          "you",
+          "like",
+          "to",
+          "read?"
+        ],
+        "th": ["คุณ", "ชอบ", "อ่าน", "ข่าว", "ประเภท", "ไหน"],
+        "fa": ["چه", "نوع", "اخباری", "را", "دوست", "دارید", "بخوانید؟"],
+        "ar": ["أي", "نوع", "من", "الأخبار", "تحب", "أن", "تقرأ؟"],
+        "es": ["¿Qué", "tipo", "de", "noticias", "te", "gusta", "leer?"],
+        "zh": ["你", "喜欢", "读", "哪类", "新闻？"],
+        "ja": [
+          "どんな",
+          "ニュース",
+          "を",
+          "読む",
+          "の",
+          "が",
+          "好き",
+          "です",
+          "か？"
+        ]
+      }
+    },
+    {
+      "id": "word_sport",
+      "kind": "word",
+      "texts": {
+        "en": "sport",
+        "th": "กีฬา",
+        "fa": "ورزش",
+        "ar": "رياضة",
+        "es": "deporte",
+        "zh": "体育",
+        "ja": "スポーツ"
+      }
+    },
+    {
+      "id": "word_weather",
+      "kind": "word",
+      "texts": {
+        "en": "weather",
+        "th": "อากาศ",
+        "fa": "آب و هوا",
+        "ar": "طقس",
+        "es": "clima",
+        "zh": "天气",
+        "ja": "天気"
+      }
+    },
+    {
+      "id": "word_government",
+      "kind": "word",
+      "texts": {
+        "en": "government",
+        "th": "รัฐบาล",
+        "fa": "دولت",
+        "ar": "حكومة",
+        "es": "gobierno",
+        "zh": "政府",
+        "ja": "政府"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Sharing & Hearing News",
+        "th": "สถานการณ์ 5: การแชร์และรับฟังข่าว",
+        "fa": "سناریو ۵: اشتراک‌گذاری و شنیدن اخبار",
+        "ar": "السيناريو 5: مشاركة الأخبار وسماعها",
+        "es": "Escenario 5: Compartir y escuchar noticias",
+        "zh": "场景五：分享与听闻新闻",
+        "ja": "シナリオ5：ニュースの共有と伝聞"
+      }
+    },
+    {
+      "id": "sentence_news_ever_heard",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_ever",
+        "word_hear",
+        "word_news",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Have you heard the news?",
+        "th": "คุณเคยได้ยินข่าวนี้ไหม",
+        "fa": "آیا این اخبار را شنیده‌اید؟",
+        "ar": "هل سمعت هذا الخبر؟",
+        "es": "¿Has oído las noticias?",
+        "zh": "你听说这个消息了吗？",
+        "ja": "そのニュースを聞きましたか？"
+      },
+      "tokens": {
+        "en": ["Have", "you", "heard", "the", "news?"],
+        "th": ["คุณ", "เคย", "ได้ยิน", "ข่าว", "นี้", "ไหม"],
+        "fa": ["آیا", "این", "اخبار", "را", "شنیده‌اید؟"],
+        "ar": ["هل", "سمعت", "هذا", "الخبر؟"],
+        "es": ["¿Has", "oído", "las", "noticias?"],
+        "zh": ["你", "听说", "这个", "消息", "了吗？"],
+        "ja": ["その", "ニュース", "を", "聞き", "まし", "た", "か？"]
+      }
+    },
+    {
+      "id": "sentence_news_friend_told",
+      "kind": "sentence",
+      "itemIds": ["word_friend", "word_tell", "word_news", "word_already"],
+      "texts": {
+        "en": "My friend already told me the news",
+        "th": "เพื่อนของผมบอกข่าวผมแล้ว",
+        "fa": "دوستم این اخبار را به من گفته است",
+        "ar": "أخبرني صديقي الأخبار بالفعل",
+        "es": "Mi amigo ya me contó las noticias",
+        "zh": "我的朋友已经告诉我这个消息了",
+        "ja": "友達がもうニュースを教えてくれました"
+      },
+      "tokens": {
+        "en": ["My", "friend", "already", "told", "me", "the", "news"],
+        "th": ["เพื่อน", "ของ", "ผม", "บอก", "ข่าว", "ผม", "แล้ว"],
+        "fa": ["دوستم", "این", "اخبار", "را", "به", "من", "گفته", "است"],
+        "ar": ["أخبرني", "صديقي", "الأخبار", "بالفعل"],
+        "es": ["Mi", "amigo", "ya", "me", "contó", "las", "noticias"],
+        "zh": ["我的", "朋友", "已经", "告诉", "我", "这个", "消息", "了"],
+        "ja": [
+          "友達",
+          "が",
+          "もう",
+          "ニュース",
+          "を",
+          "教え",
+          "て",
+          "くれ",
+          "まし",
+          "た"
+        ]
+      }
+    },
+    {
+      "id": "sentence_news_what_happened",
+      "kind": "sentence",
+      "itemIds": ["word_happen", "word_event", "word_question_particle"],
+      "texts": {
+        "en": "What happened at the event?",
+        "th": "เกิดอะไรขึ้นที่งานนั้น",
+        "fa": "در آن رویداد چه اتفاقی افتاد؟",
+        "ar": "ماذا حدث في الحدث؟",
+        "es": "¿Qué pasó en el evento?",
+        "zh": "那个活动发生了什么？",
+        "ja": "その出来事で何が起こりましたか？"
+      },
+      "tokens": {
+        "en": ["What", "happened", "at", "the", "event?"],
+        "th": ["เกิด", "อะไร", "ขึ้น", "ที่", "งาน", "นั้น"],
+        "fa": ["در", "آن", "رویداد", "چه", "اتفاقی", "افتاد؟"],
+        "ar": ["ماذا", "حدث", "في", "الحدث؟"],
+        "es": ["¿Qué", "pasó", "en", "el", "evento?"],
+        "zh": ["那个", "活动", "发生", "了", "什么？"],
+        "ja": [
+          "その",
+          "出来事",
+          "で",
+          "何",
+          "が",
+          "起こり",
+          "まし",
+          "た",
+          "か？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_news_tell_you",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_tell", "word_you", "word_news"],
+      "texts": {
+        "en": "Let me tell you the news",
+        "th": "ให้ผมบอกข่าวให้คุณฟัง",
+        "fa": "بگذارید اخبار را به شما بگویم",
+        "ar": "دعني أخبرك بالأخبار",
+        "es": "Déjame contarte las noticias",
+        "zh": "让我告诉你这个消息",
+        "ja": "ニュースを教えてあげます"
+      },
+      "tokens": {
+        "en": ["Let", "me", "tell", "you", "the", "news"],
+        "th": ["ให้", "ผม", "บอก", "ข่าว", "ให้", "คุณ", "ฟัง"],
+        "fa": ["بگذارید", "اخبار", "را", "به", "شما", "بگویم"],
+        "ar": ["دعني", "أخبرك", "بالأخبار"],
+        "es": ["Déjame", "contarte", "las", "noticias"],
+        "zh": ["让", "我", "告诉", "你", "这个", "消息"],
+        "ja": ["ニュース", "を", "教え", "て", "あげ", "ます"]
+      }
+    },
+    {
+      "id": "word_hear",
+      "kind": "word",
+      "texts": {
+        "en": "hear",
+        "th": "ได้ยิน",
+        "fa": "شنیدن",
+        "ar": "يسمع",
+        "es": "oír",
+        "zh": "听见",
+        "ja": "聞く"
+      }
+    },
+    {
+      "id": "word_tell",
+      "kind": "word",
+      "texts": {
+        "en": "tell",
+        "th": "บอก",
+        "fa": "گفتن",
+        "ar": "يخبر",
+        "es": "decir",
+        "zh": "告诉",
+        "ja": "話す"
+      }
+    },
+    {
+      "id": "word_friend",
+      "kind": "word",
+      "texts": {
+        "en": "friend",
+        "th": "เพื่อน",
+        "fa": "دوست",
+        "ar": "صديق",
+        "es": "amigo",
+        "zh": "朋友",
+        "ja": "友達"
+      }
+    },
+    {
+      "id": "word_happen",
+      "kind": "word",
+      "texts": {
+        "en": "happen",
+        "th": "เกิดขึ้น",
+        "fa": "اتفاق افتادن",
+        "ar": "يحدث",
+        "es": "ocurrir",
+        "zh": "发生",
+        "ja": "起こる"
+      }
+    }
+  ]
+}

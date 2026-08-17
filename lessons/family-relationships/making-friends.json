@@ -1,0 +1,1125 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras clave",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_question_particle",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_yes",
+      "kind": "word",
+      "texts": {
+        "en": "yes",
+        "th": "ใช่",
+        "fa": "بله",
+        "ar": "نعم",
+        "es": "sí",
+        "zh": "是",
+        "ja": "はい"
+      }
+    },
+    {
+      "id": "word_not",
+      "kind": "word",
+      "texts": {
+        "en": "not",
+        "th": "ไม่",
+        "fa": "نه",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不",
+        "ja": "ない"
+      }
+    },
+    {
+      "id": "word_want",
+      "kind": "word",
+      "texts": {
+        "en": "want",
+        "th": "ต้องการ",
+        "fa": "خواستن",
+        "ar": "يريد",
+        "es": "querer",
+        "zh": "想要",
+        "ja": "欲しい"
+      }
+    },
+    {
+      "id": "word_talk",
+      "kind": "word",
+      "texts": {
+        "en": "talk",
+        "th": "คุย",
+        "fa": "صحبت کردن",
+        "ar": "يتحدث",
+        "es": "hablar",
+        "zh": "聊天",
+        "ja": "話す"
+      }
+    },
+    {
+      "id": "word_go",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "word_today",
+      "kind": "word",
+      "texts": {
+        "en": "today",
+        "th": "วันนี้",
+        "fa": "امروز",
+        "ar": "اليوم",
+        "es": "hoy",
+        "zh": "今天",
+        "ja": "今日"
+      }
+    },
+    {
+      "id": "word_tomorrow",
+      "kind": "word",
+      "texts": {
+        "en": "tomorrow",
+        "th": "พรุ่งนี้",
+        "fa": "فردا",
+        "ar": "غدا",
+        "es": "mañana",
+        "zh": "明天",
+        "ja": "明日"
+      }
+    },
+    {
+      "id": "word_morning",
+      "kind": "word",
+      "texts": {
+        "en": "morning",
+        "th": "ตอนเช้า",
+        "fa": "صبح",
+        "ar": "صباح",
+        "es": "mañana",
+        "zh": "早上",
+        "ja": "朝"
+      }
+    },
+    {
+      "id": "word_evening",
+      "kind": "word",
+      "texts": {
+        "en": "evening",
+        "th": "ตอนเย็น",
+        "fa": "عصر",
+        "ar": "مساء",
+        "es": "tarde",
+        "zh": "晚上",
+        "ja": "夕方"
+      }
+    },
+    {
+      "id": "word_what_time",
+      "kind": "word",
+      "texts": {
+        "en": "what time",
+        "th": "กี่โมง",
+        "fa": "چه ساعتی",
+        "ar": "كم الساعة",
+        "es": "qué hora",
+        "zh": "几点",
+        "ja": "何時"
+      }
+    },
+    {
+      "id": "word_oclock",
+      "kind": "word",
+      "texts": {
+        "en": "o'clock",
+        "th": "โมง",
+        "fa": "ساعت",
+        "ar": "تمام الساعة",
+        "es": "en punto",
+        "zh": "点",
+        "ja": "時"
+      }
+    },
+    {
+      "id": "word_ten",
+      "kind": "word",
+      "texts": {
+        "en": "ten",
+        "th": "สิบ",
+        "fa": "ده",
+        "ar": "عشرة",
+        "es": "diez",
+        "zh": "十",
+        "ja": "十"
+      }
+    },
+    {
+      "id": "word_thank",
+      "kind": "word",
+      "texts": {
+        "en": "thank",
+        "th": "ขอบคุณ",
+        "fa": "تشکر",
+        "ar": "شكر",
+        "es": "gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
+      }
+    },
+    {
+      "id": "word_glad",
+      "kind": "word",
+      "texts": {
+        "en": "glad",
+        "th": "ยินดี",
+        "fa": "خوشحال",
+        "ar": "سعيد",
+        "es": "encantado",
+        "zh": "高兴",
+        "ja": "嬉しい"
+      }
+    },
+    {
+      "id": "word_friend",
+      "kind": "word",
+      "texts": {
+        "en": "friend",
+        "th": "เพื่อน",
+        "fa": "دوست",
+        "ar": "صديق",
+        "es": "amigo",
+        "zh": "朋友",
+        "ja": "友達"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Wanting to Meet & Talk",
+        "th": "สถานการณ์ 1: ต้องการพบและคุย",
+        "fa": "سناریو ۱: تمایل به دیدار و صحبت",
+        "ar": "السيناريو 1: الرغبة في اللقاء والتحدث",
+        "es": "Escenario 1: Querer encontrarse y hablar",
+        "zh": "场景一：想要见面和聊天",
+        "ja": "シナリオ1：会って話したい"
+      }
+    },
+    {
+      "id": "sentence_friends_i_want_talk_friend",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_want", "word_talk", "word_friend"],
+      "texts": {
+        "en": "I want to talk with a friend",
+        "th": "ฉันต้องการคุยกับเพื่อน",
+        "fa": "من می‌خواهم با دوست صحبت کنم",
+        "ar": "أريد أن أتحدث مع صديق",
+        "es": "Quiero hablar con un amigo",
+        "zh": "我想和朋友聊天",
+        "ja": "友達と話したいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "talk", "with", "a", "friend"],
+        "th": ["ฉัน", "ต้องการ", "คุย", "กับ", "เพื่อน"],
+        "fa": ["من", "می‌خواهم", "با", "دوست", "صحبت", "کنم"],
+        "ar": ["أريد", "أن", "أتحدث", "مع", "صديق"],
+        "es": ["Quiero", "hablar", "con", "un", "amigo"],
+        "zh": ["我", "想", "和", "朋友", "聊天"],
+        "ja": ["友達", "と", "話し", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_friends_you_want_talk_question",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_want",
+        "word_talk",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Do you want to talk",
+        "th": "คุณต้องการคุยไหม",
+        "fa": "آیا می‌خواهید صحبت کنید",
+        "ar": "هل تريد أن تتحدث",
+        "es": "Quieres hablar",
+        "zh": "你想聊天吗",
+        "ja": "話したいですか"
+      },
+      "tokens": {
+        "en": ["Do", "you", "want", "to", "talk"],
+        "th": ["คุณ", "ต้องการ", "คุย", "ไหม"],
+        "fa": ["آیا", "می‌خواهید", "صحبت", "کنید"],
+        "ar": ["هل", "تريد", "أن", "تتحدث"],
+        "es": ["Quieres", "hablar"],
+        "zh": ["你", "想", "聊天", "吗"],
+        "ja": ["話し", "たい", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_friends_yes_i_want_talk",
+      "kind": "sentence",
+      "itemIds": ["word_yes", "word_i", "word_want", "word_talk"],
+      "texts": {
+        "en": "Yes I want to talk",
+        "th": "ใช่ ฉันต้องการคุย",
+        "fa": "بله من می‌خواهم صحبت کنم",
+        "ar": "نعم أريد أن أتحدث",
+        "es": "Sí quiero hablar",
+        "zh": "是我想聊天",
+        "ja": "はい 話したいです"
+      },
+      "tokens": {
+        "en": ["Yes", "I", "want", "to", "talk"],
+        "th": ["ใช่", "ฉัน", "ต้องการ", "คุย"],
+        "fa": ["بله", "من", "می‌خواهم", "صحبت", "کنم"],
+        "ar": ["نعم", "أريد", "أن", "أتحدث"],
+        "es": ["Sí", "quiero", "hablar"],
+        "zh": ["是", "我", "想", "聊天"],
+        "ja": ["はい", "話し", "たい", "です"]
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Making Plans",
+        "th": "สถานการณ์ 2: การนัดหมาย",
+        "fa": "سناریو ۲: برنامه‌ریزی",
+        "ar": "السيناريو 2: وضع الخطط",
+        "es": "Escenario 2: Hacer planes",
+        "zh": "场景二：制定计划",
+        "ja": "シナリオ2：予定を立てる"
+      }
+    },
+    {
+      "id": "sentence_friends_you_want_go_today_question",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_want",
+        "word_go",
+        "word_today",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Do you want to go today",
+        "th": "คุณต้องการไปวันนี้ไหม",
+        "fa": "آیا می‌خواهید امروز بروید",
+        "ar": "هل تريد الذهاب اليوم",
+        "es": "Quieres ir hoy",
+        "zh": "你想今天去吗",
+        "ja": "今日行きたいですか"
+      },
+      "tokens": {
+        "en": ["Do", "you", "want", "to", "go", "today"],
+        "th": ["คุณ", "ต้องการ", "ไป", "วันนี้", "ไหม"],
+        "fa": ["آیا", "می‌خواهید", "امروز", "بروید"],
+        "ar": ["هل", "تريد", "الذهاب", "اليوم"],
+        "es": ["Quieres", "ir", "hoy"],
+        "zh": ["你", "想", "今天", "去", "吗"],
+        "ja": ["今日", "行き", "たい", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_friends_yes_i_want_go_today",
+      "kind": "sentence",
+      "itemIds": ["word_yes", "word_i", "word_want", "word_go", "word_today"],
+      "texts": {
+        "en": "Yes I want to go today",
+        "th": "ใช่ ฉันต้องการไปวันนี้",
+        "fa": "بله من می‌خواهم امروز بروم",
+        "ar": "نعم أريد الذهاب اليوم",
+        "es": "Sí quiero ir hoy",
+        "zh": "是我想今天去",
+        "ja": "はい 今日行きたいです"
+      },
+      "tokens": {
+        "en": ["Yes", "I", "want", "to", "go", "today"],
+        "th": ["ใช่", "ฉัน", "ต้องการ", "ไป", "วันนี้"],
+        "fa": ["بله", "من", "می‌خواهم", "امروز", "بروم"],
+        "ar": ["نعم", "أريد", "الذهاب", "اليوم"],
+        "es": ["Sí", "quiero", "ir", "hoy"],
+        "zh": ["是", "我", "想", "今天", "去"],
+        "ja": ["はい", "今日", "行き", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_friends_what_time",
+      "kind": "sentence",
+      "itemIds": ["word_what_time"],
+      "texts": {
+        "en": "What time",
+        "th": "กี่โมง",
+        "fa": "چه ساعتی",
+        "ar": "كم الساعة",
+        "es": "Qué hora",
+        "zh": "几点",
+        "ja": "何時"
+      },
+      "tokens": {
+        "en": ["What", "time"],
+        "th": ["กี่โมง"],
+        "fa": ["چه", "ساعتی"],
+        "ar": ["كم", "الساعة"],
+        "es": ["Qué", "hora"],
+        "zh": ["几点"],
+        "ja": ["何時"]
+      }
+    },
+    {
+      "id": "sentence_friends_ten_oclock",
+      "kind": "sentence",
+      "itemIds": ["word_ten", "word_oclock"],
+      "texts": {
+        "en": "Ten o'clock",
+        "th": "สิบโมง",
+        "fa": "ساعت ده",
+        "ar": "الساعة العاشرة",
+        "es": "Las diez",
+        "zh": "十点",
+        "ja": "十時"
+      },
+      "tokens": {
+        "en": ["Ten", "o'clock"],
+        "th": ["สิบ", "โมง"],
+        "fa": ["ساعت", "ده"],
+        "ar": ["الساعة", "العاشرة"],
+        "es": ["Las", "diez"],
+        "zh": ["十点"],
+        "ja": ["十", "時"]
+      }
+    },
+    {
+      "id": "sentence_friends_tomorrow_morning_question",
+      "kind": "sentence",
+      "itemIds": ["word_tomorrow", "word_morning", "word_question_particle"],
+      "texts": {
+        "en": "Tomorrow morning",
+        "th": "พรุ่งนี้ตอนเช้าไหม",
+        "fa": "صبح فردا",
+        "ar": "صباح الغد",
+        "es": "Mañana por la mañana",
+        "zh": "明天早上吗",
+        "ja": "明日の朝ですか"
+      },
+      "tokens": {
+        "en": ["Tomorrow", "morning"],
+        "th": ["พรุ่งนี้", "ตอนเช้า", "ไหม"],
+        "fa": ["صبح", "فردا"],
+        "ar": ["صباح", "الغد"],
+        "es": ["Mañana", "por", "la", "mañana"],
+        "zh": ["明天", "早上", "吗"],
+        "ja": ["明日", "の", "朝", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_friends_not_tomorrow_evening",
+      "kind": "sentence",
+      "itemIds": ["word_not", "word_tomorrow", "word_evening"],
+      "texts": {
+        "en": "Not tomorrow evening",
+        "th": "ไม่ พรุ่งนี้ตอนเย็น",
+        "fa": "نه فردا عصر",
+        "ar": "ليس مساء الغد",
+        "es": "No mañana por la tarde",
+        "zh": "不是明天晚上",
+        "ja": "明日の夕方ではありません"
+      },
+      "tokens": {
+        "en": ["Not", "tomorrow", "evening"],
+        "th": ["ไม่", "พรุ่งนี้", "ตอนเย็น"],
+        "fa": ["نه", "فردا", "عصر"],
+        "ar": ["ليس", "مساء", "الغد"],
+        "es": ["No", "mañana", "por", "la", "tarde"],
+        "zh": ["不是", "明天", "晚上"],
+        "ja": ["明日", "の", "夕方", "では", "ありません"]
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Polite Responses",
+        "th": "สถานการณ์ 3: การตอบอย่างสุภาพ",
+        "fa": "سناریو ۳: پاسخ‌های مؤدبانه",
+        "ar": "السيناريو 3: الردود المهذبة",
+        "es": "Escenario 3: Respuestas corteses",
+        "zh": "场景三：礼貌回应",
+        "ja": "シナリオ3：丁寧な返答"
+      }
+    },
+    {
+      "id": "sentence_friends_thank_you",
+      "kind": "sentence",
+      "itemIds": ["word_thank"],
+      "texts": {
+        "en": "Thank you",
+        "th": "ขอบคุณ",
+        "fa": "متشکرم",
+        "ar": "شكرا",
+        "es": "Gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
+      },
+      "tokens": {
+        "en": ["Thank", "you"],
+        "th": ["ขอบคุณ"],
+        "fa": ["متشکرم"],
+        "ar": ["شكرا"],
+        "es": ["Gracias"],
+        "zh": ["谢谢"],
+        "ja": ["ありがとう"]
+      }
+    },
+    {
+      "id": "sentence_friends_glad",
+      "kind": "sentence",
+      "itemIds": ["word_glad"],
+      "texts": {
+        "en": "My pleasure",
+        "th": "ยินดี",
+        "fa": "با کمال میل",
+        "ar": "على الرحب",
+        "es": "Con gusto",
+        "zh": "很高兴",
+        "ja": "嬉しいです"
+      },
+      "tokens": {
+        "en": ["My", "pleasure"],
+        "th": ["ยินดี"],
+        "fa": ["با", "کمال", "میل"],
+        "ar": ["على", "الرحب"],
+        "es": ["Con", "gusto"],
+        "zh": ["很", "高兴"],
+        "ja": ["嬉しい", "です"]
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Introducing Yourself",
+        "th": "สถานการณ์ 4: การแนะนำตัว",
+        "fa": "سناریو ۴: معرفی خود",
+        "ar": "السيناريو 4: التعريف بنفسك",
+        "es": "Escenario 4: Presentarte",
+        "zh": "场景四：自我介绍",
+        "ja": "シナリオ4：自己紹介"
+      }
+    },
+    {
+      "id": "sentence_friends_what_name",
+      "kind": "sentence",
+      "itemIds": ["word_you", "word_name", "word_what"],
+      "texts": {
+        "en": "What is your name?",
+        "th": "คุณชื่ออะไร",
+        "fa": "اسم شما چیست؟",
+        "ar": "ما اسمك؟",
+        "es": "¿Cómo te llamas?",
+        "zh": "你叫什么名字？",
+        "ja": "名前は何ですか？"
+      },
+      "tokens": {
+        "en": ["What", "is", "your", "name?"],
+        "th": ["คุณ", "ชื่อ", "อะไร"],
+        "fa": ["اسم", "شما", "چیست؟"],
+        "ar": ["ما", "اسمك؟"],
+        "es": ["¿Cómo", "te", "llamas?"],
+        "zh": ["你", "叫", "什么", "名字？"],
+        "ja": ["名前", "は", "何", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_friends_my_name",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_name"],
+      "texts": {
+        "en": "My name is Anna",
+        "th": "ฉันชื่อแอนนา",
+        "fa": "اسم من آنا است",
+        "ar": "اسمي آنا",
+        "es": "Me llamo Anna",
+        "zh": "我叫安娜",
+        "ja": "私はアンナです"
+      },
+      "tokens": {
+        "en": ["My", "name", "is", "Anna"],
+        "th": ["ฉัน", "ชื่อ", "แอนนา"],
+        "fa": ["اسم", "من", "آنا", "است"],
+        "ar": ["اسمي", "آنا"],
+        "es": ["Me", "llamo", "Anna"],
+        "zh": ["我", "叫", "安娜"],
+        "ja": ["私", "は", "アンナ", "です"]
+      }
+    },
+    {
+      "id": "sentence_friends_nice_to_meet",
+      "kind": "sentence",
+      "itemIds": ["word_nice_to_meet"],
+      "texts": {
+        "en": "Nice to meet you",
+        "th": "ยินดีที่ได้รู้จัก",
+        "fa": "از آشنایی شما خوشحالم",
+        "ar": "سعيد بلقائك",
+        "es": "Encantado de conocerte",
+        "zh": "很高兴认识你",
+        "ja": "会えて嬉しいです"
+      },
+      "tokens": {
+        "en": ["Nice", "to", "meet", "you"],
+        "th": ["ยินดี", "ที่", "ได้", "รู้จัก"],
+        "fa": ["از", "آشنایی", "شما", "خوشحالم"],
+        "ar": ["سعيد", "بلقائك"],
+        "es": ["Encantado", "de", "conocerte"],
+        "zh": ["很", "高兴", "认识", "你"],
+        "ja": ["会えて", "嬉しい", "です"]
+      }
+    },
+    {
+      "id": "word_name",
+      "kind": "word",
+      "texts": {
+        "en": "name",
+        "th": "ชื่อ",
+        "fa": "اسم",
+        "ar": "اسم",
+        "es": "nombre",
+        "zh": "名字",
+        "ja": "名前"
+      }
+    },
+    {
+      "id": "word_what",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه / چی",
+        "ar": "ماذا / ما",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_nice_to_meet",
+      "kind": "word",
+      "texts": {
+        "en": "nice to meet you",
+        "th": "ยินดีที่ได้รู้จัก",
+        "fa": "از آشنایی خوشحالم",
+        "ar": "سعيد بلقائك",
+        "es": "encantado de conocerte",
+        "zh": "很高兴认识你",
+        "ja": "会えて嬉しい"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Yes/No Questions for Friendship (G3)",
+        "th": "สถานการณ์ 5: คำถามใช่/ไม่ใช่สำหรับมิตรภาพ (G3)",
+        "fa": "سناریو ۵: سوالات بله/خیر برای دوستی (G3)",
+        "ar": "السيناريو 5: أسئلة نعم/لا للصداقة (G3)",
+        "es": "Escenario 5: Preguntas de sí/no para la amistad (G3)",
+        "zh": "场景五：交友中的是非问句 (G3)",
+        "ja": "シナリオ5：友情のためのはい/いいえ質問 (G3)"
+      }
+    },
+    {
+      "id": "sentence_friends_be_friend_question",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_want",
+        "word_be_friend",
+        "word_i",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Do you want to be my friend?",
+        "th": "คุณอยากเป็นเพื่อนกับฉันไหม",
+        "fa": "آیا می‌خواهید دوست من باشید؟",
+        "ar": "هل تريد أن تكون صديقي؟",
+        "es": "¿Quieres ser mi amigo?",
+        "zh": "你想做我的朋友吗？",
+        "ja": "私の友達になりたいですか？"
+      },
+      "tokens": {
+        "en": ["Do", "you", "want", "to", "be", "my", "friend?"],
+        "th": ["คุณ", "อยาก", "เป็น", "เพื่อน", "กับ", "ฉัน", "ไหม"],
+        "fa": ["آیا", "می‌خواهید", "دوست", "من", "باشید؟"],
+        "ar": ["هل", "تريد", "أن", "تكون", "صديقي؟"],
+        "es": ["¿Quieres", "ser", "mi", "amigo?"],
+        "zh": ["你", "想", "做", "我的", "朋友", "吗？"],
+        "ja": ["私", "の", "友達", "に", "なり", "たい", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_friends_yes_be_friend",
+      "kind": "sentence",
+      "itemIds": [
+        "word_yes",
+        "word_i",
+        "word_want",
+        "word_be_friend",
+        "word_you"
+      ],
+      "texts": {
+        "en": "Yes, I want to be your friend",
+        "th": "ใช่ ฉันอยากเป็นเพื่อนกับคุณ",
+        "fa": "بله، من می‌خواهم دوست شما باشم",
+        "ar": "نعم، أريد أن أكون صديقك",
+        "es": "Sí, quiero ser tu amigo",
+        "zh": "是的，我想做你的朋友",
+        "ja": "はい、あなたの友達になりたいです"
+      },
+      "tokens": {
+        "en": ["Yes,", "I", "want", "to", "be", "your", "friend"],
+        "th": ["ใช่", "ฉัน", "อยาก", "เป็น", "เพื่อน", "กับ", "คุณ"],
+        "fa": ["بله،", "من", "می‌خواهم", "دوست", "شما", "باشم"],
+        "ar": ["نعم،", "أريد", "أن", "أكون", "صديقك"],
+        "es": ["Sí,", "quiero", "ser", "tu", "amigo"],
+        "zh": ["是的，", "我", "想", "做", "你的", "朋友"],
+        "ja": ["はい、", "あなた", "の", "友達", "に", "なり", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_friends_free_time_question",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_have",
+        "word_free_time",
+        "word_tomorrow",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Do you have free time tomorrow?",
+        "th": "พรุ่งนี้คุณมีเวลาว่างไหม",
+        "fa": "آیا فردا وقت آزاد دارید؟",
+        "ar": "هل لديك وقت فراغ غداً؟",
+        "es": "¿Tienes tiempo libre mañana?",
+        "zh": "你明天有空吗？",
+        "ja": "明日は暇ですか？"
+      },
+      "tokens": {
+        "en": ["Do", "you", "have", "free", "time", "tomorrow?"],
+        "th": ["พรุ่งนี้", "คุณ", "มี", "เวลาว่าง", "ไหม"],
+        "fa": ["آیا", "فردا", "وقت", "آزاد", "دارید؟"],
+        "ar": ["هل", "لديك", "وقت", "فراغ", "غداً؟"],
+        "es": ["¿Tienes", "tiempo", "libre", "mañana?"],
+        "zh": ["你", "明天", "有", "空", "吗？"],
+        "ja": ["明日", "は", "暇", "です", "か？"]
+      }
+    },
+    {
+      "id": "word_be_friend",
+      "kind": "word",
+      "texts": {
+        "en": "be friends / be a friend",
+        "th": "เป็นเพื่อน",
+        "fa": "دوست بودن",
+        "ar": "يكون صديقاً",
+        "es": "ser amigo",
+        "zh": "做朋友",
+        "ja": "友達になる"
+      }
+    },
+    {
+      "id": "word_have",
+      "kind": "word",
+      "texts": {
+        "en": "have",
+        "th": "มี",
+        "fa": "داشتن",
+        "ar": "يملك",
+        "es": "tener",
+        "zh": "有",
+        "ja": "ある"
+      }
+    },
+    {
+      "id": "word_free_time",
+      "kind": "word",
+      "texts": {
+        "en": "free time",
+        "th": "เวลาว่าง",
+        "fa": "وقت آزاد",
+        "ar": "وقت فراغ",
+        "es": "tiempo libre",
+        "zh": "空闲时间",
+        "ja": "暇な時間"
+      }
+    },
+    {
+      "id": "header_scenario6",
+      "header": true,
+      "texts": {
+        "en": "Scenario 6: Topic-Comment Descriptions (G10)",
+        "th": "สถานการณ์ 6: ประโยคประธาน-ภาคแสดง (G10)",
+        "fa": "سناریو ۶: جمله‌های موضوع-توضیح (G10)",
+        "ar": "السيناريو 6: جمل الموضوع والتعليق (G10)",
+        "es": "Escenario 6: Oraciones de tema-comentario (G10)",
+        "zh": "场景六：主题-评论句式 (G10)",
+        "ja": "シナリオ6：トピック-コメント文 (G10)"
+      }
+    },
+    {
+      "id": "sentence_friends_today_busy",
+      "kind": "sentence",
+      "itemIds": ["word_today", "word_i", "word_busy"],
+      "texts": {
+        "en": "As for today, I am busy",
+        "th": "วันนี้ฉันยุ่ง",
+        "fa": "امروز من مشغول هستم",
+        "ar": "اليوم أنا مشغول",
+        "es": "Hoy estoy ocupado",
+        "zh": "今天我很忙",
+        "ja": "今日は忙しいです"
+      },
+      "tokens": {
+        "en": ["As", "for", "today,", "I", "am", "busy"],
+        "th": ["วันนี้", "ฉัน", "ยุ่ง"],
+        "fa": ["امروز", "من", "مشغول", "هستم"],
+        "ar": ["اليوم", "أنا", "مشغول"],
+        "es": ["Hoy", "estoy", "ocupado"],
+        "zh": ["今天", "我", "很", "忙"],
+        "ja": ["今日", "は", "忙しい", "です"]
+      }
+    },
+    {
+      "id": "sentence_friends_tomorrow_free",
+      "kind": "sentence",
+      "itemIds": ["word_tomorrow", "word_i", "word_free"],
+      "texts": {
+        "en": "As for tomorrow, I am free",
+        "th": "พรุ่งนี้ฉันว่าง",
+        "fa": "فردا من آزاد هستم",
+        "ar": "غداً أنا متفرغ",
+        "es": "Mañana estoy libre",
+        "zh": "明天我有空",
+        "ja": "明日は暇です"
+      },
+      "tokens": {
+        "en": ["As", "for", "tomorrow,", "I", "am", "free"],
+        "th": ["พรุ่งนี้", "ฉัน", "ว่าง"],
+        "fa": ["فردا", "من", "آزاد", "هستم"],
+        "ar": ["غداً", "أنا", "متفرغ"],
+        "es": ["Mañana", "estoy", "libre"],
+        "zh": ["明天", "我", "有", "空"],
+        "ja": ["明日", "は", "暇", "です"]
+      }
+    },
+    {
+      "id": "sentence_friends_friend_kind",
+      "kind": "sentence",
+      "itemIds": ["word_friend", "word_of", "word_i", "word_kind", "word_very"],
+      "texts": {
+        "en": "As for this friend of mine, they are very kind",
+        "th": "เพื่อนของฉันคนนี้ใจดีมาก",
+        "fa": "این دوست من خیلی مهربان است",
+        "ar": "هذا الصديق لي طيب جداً",
+        "es": "Este amigo mío es muy amable",
+        "zh": "我的这个朋友很善良",
+        "ja": "私のこの友達はとても親切です"
+      },
+      "tokens": {
+        "en": [
+          "As",
+          "for",
+          "this",
+          "friend",
+          "of",
+          "mine,",
+          "they",
+          "are",
+          "very",
+          "kind"
+        ],
+        "th": ["เพื่อน", "ของ", "ฉัน", "คนนี้", "ใจดี", "มาก"],
+        "fa": ["این", "دوست", "من", "خیلی", "مهربان", "است"],
+        "ar": ["هذا", "الصديق", "لي", "طيب", "جداً"],
+        "es": ["Este", "amigo", "mío", "es", "muy", "amable"],
+        "zh": ["我的", "这个", "朋友", "很", "善良"],
+        "ja": ["私", "の", "この", "友達", "は", "とても", "親切", "です"]
+      }
+    },
+    {
+      "id": "word_busy",
+      "kind": "word",
+      "texts": {
+        "en": "busy",
+        "th": "ยุ่ง",
+        "fa": "مشغول",
+        "ar": "مشغول",
+        "es": "ocupado",
+        "zh": "忙",
+        "ja": "忙しい"
+      }
+    },
+    {
+      "id": "word_free",
+      "kind": "word",
+      "texts": {
+        "en": "free / available",
+        "th": "ว่าง",
+        "fa": "آزاد",
+        "ar": "متفرغ",
+        "es": "libre",
+        "zh": "有空",
+        "ja": "暇"
+      }
+    },
+    {
+      "id": "word_kind",
+      "kind": "word",
+      "texts": {
+        "en": "kind / nice",
+        "th": "ใจดี",
+        "fa": "مهربان",
+        "ar": "طيب",
+        "es": "amable",
+        "zh": "善良",
+        "ja": "親切"
+      }
+    },
+    {
+      "id": "word_very",
+      "kind": "word",
+      "texts": {
+        "en": "very / much",
+        "th": "มาก",
+        "fa": "خیلی",
+        "ar": "جداً",
+        "es": "muy",
+        "zh": "很",
+        "ja": "とても"
+      }
+    },
+    {
+      "id": "word_of",
+      "kind": "word",
+      "texts": {
+        "en": "of",
+        "th": "ของ",
+        "fa": "از",
+        "ar": "من",
+        "es": "de",
+        "zh": "的",
+        "ja": "の"
+      }
+    },
+    {
+      "id": "header_scenario7",
+      "header": true,
+      "texts": {
+        "en": "Scenario 7: Interests & Activities",
+        "th": "สถานการณ์ 7: ความสนใจและกิจกรรม",
+        "fa": "سناریو ۷: علایق و فعالیت‌ها",
+        "ar": "السيناريو 7: الاهتمامات والأنشطة",
+        "es": "Escenario 7: Intereses y actividades",
+        "zh": "场景七：兴趣与活动",
+        "ja": "シナリオ7：趣味と活動"
+      }
+    },
+    {
+      "id": "sentence_friends_like_thai_food",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_like",
+        "word_thai_food",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Do you like Thai food?",
+        "th": "คุณชอบอาหารไทยไหม",
+        "fa": "آیا غذای تایلندی دوست دارید؟",
+        "ar": "هل تحب الطعام التايلاندي؟",
+        "es": "¿Te gusta la comida tailandesa?",
+        "zh": "你喜欢泰国菜吗？",
+        "ja": "タイ料理は好きですか？"
+      },
+      "tokens": {
+        "en": ["Do", "you", "like", "Thai", "food?"],
+        "th": ["คุณ", "ชอบ", "อาหาร", "ไทย", "ไหม"],
+        "fa": ["آیا", "غذای", "تایلندی", "دوست", "دارید؟"],
+        "ar": ["هل", "تحب", "الطعام", "التايلاندي؟"],
+        "es": ["¿Te", "gusta", "la", "comida", "tailandesa?"],
+        "zh": ["你", "喜欢", "泰国菜", "吗？"],
+        "ja": ["タイ料理", "は", "好き", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_friends_what_like_do",
+      "kind": "sentence",
+      "itemIds": ["word_you", "word_like", "word_do", "word_what"],
+      "texts": {
+        "en": "What do you like to do?",
+        "th": "คุณชอบทำอะไร",
+        "fa": "دوست دارید چه کار کنید؟",
+        "ar": "ماذا تحب أن تفعل؟",
+        "es": "¿Qué te gusta hacer?",
+        "zh": "你喜欢做什么？",
+        "ja": "何をするのが好きですか？"
+      },
+      "tokens": {
+        "en": ["What", "do", "you", "like", "to", "do?"],
+        "th": ["คุณ", "ชอบ", "ทำ", "อะไร"],
+        "fa": ["دوست", "دارید", "چه", "کار", "کنید؟"],
+        "ar": ["ماذا", "تحب", "أن", "تفعل؟"],
+        "es": ["¿Qué", "te", "gusta", "hacer?"],
+        "zh": ["你", "喜欢", "做", "什么？"],
+        "ja": ["何", "を", "する", "のが", "好き", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_friends_like_play_sport",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_like", "word_play", "word_sport"],
+      "texts": {
+        "en": "I like to play sports",
+        "th": "ฉันชอบเล่นกีฬา",
+        "fa": "من ورزش کردن را دوست دارم",
+        "ar": "أنا أحب ممارسة الرياضة",
+        "es": "Me gusta practicar deportes",
+        "zh": "我喜欢做运动",
+        "ja": "スポーツをするのが好きです"
+      },
+      "tokens": {
+        "en": ["I", "like", "to", "play", "sports"],
+        "th": ["ฉัน", "ชอบ", "เล่น", "กีฬา"],
+        "fa": ["من", "ورزش", "کردن", "را", "دوست", "دارم"],
+        "ar": ["أنا", "أحب", "ممارسة", "الرياضة"],
+        "es": ["Me", "gusta", "practicar", "deportes"],
+        "zh": ["我", "喜欢", "做", "运动"],
+        "ja": ["スポーツ", "を", "する", "のが", "好き", "です"]
+      }
+    },
+    {
+      "id": "word_like",
+      "kind": "word",
+      "texts": {
+        "en": "like",
+        "th": "ชอบ",
+        "fa": "دوست داشتن",
+        "ar": "يحب",
+        "es": "gustar",
+        "zh": "喜欢",
+        "ja": "好き"
+      }
+    },
+    {
+      "id": "word_do",
+      "kind": "word",
+      "texts": {
+        "en": "do",
+        "th": "ทำ",
+        "fa": "انجام دادن",
+        "ar": "يفعل",
+        "es": "hacer",
+        "zh": "做",
+        "ja": "する"
+      }
+    },
+    {
+      "id": "word_thai_food",
+      "kind": "word",
+      "texts": {
+        "en": "Thai food",
+        "th": "อาหารไทย",
+        "fa": "غذای تایلندی",
+        "ar": "الطعام التايلاندي",
+        "es": "comida tailandesa",
+        "zh": "泰国菜",
+        "ja": "タイ料理"
+      }
+    },
+    {
+      "id": "word_play",
+      "kind": "word",
+      "texts": {
+        "en": "play",
+        "th": "เล่น",
+        "fa": "بازی کردن",
+        "ar": "يلعب",
+        "es": "jugar / practicar",
+        "zh": "玩 / 做",
+        "ja": "する / 遊ぶ"
+      }
+    },
+    {
+      "id": "word_sport",
+      "kind": "word",
+      "texts": {
+        "en": "sport",
+        "th": "กีฬา",
+        "fa": "ورزش",
+        "ar": "رياضة",
+        "es": "deporte",
+        "zh": "运动",
+        "ja": "スポーツ"
+      }
+    }
+  ]
+}

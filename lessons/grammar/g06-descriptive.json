@@ -1,0 +1,386 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_food",
+      "kind": "word",
+      "texts": {
+        "en": "food",
+        "th": "อาหาร",
+        "fa": "غذا",
+        "ar": "طعام",
+        "es": "comida",
+        "zh": "食物",
+        "ja": "食べ物"
+      }
+    },
+    {
+      "id": "sentence_g6_food_delicious",
+      "kind": "sentence",
+      "itemIds": [
+        "word_food",
+        "word_delicious",
+        "word_very"
+      ],
+      "texts": {
+        "en": "The food is very delicious",
+        "th": "อาหารอร่อยมาก",
+        "fa": "غذا خیلی خوشمزه است",
+        "ar": "الطعام لذيذ جدا",
+        "es": "La comida es muy deliciosa",
+        "zh": "食物非常好吃",
+        "ja": "食べ物はとてもおいしいです"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "food",
+          "is",
+          "very",
+          "delicious"
+        ],
+        "th": [
+          "อาหาร",
+          "อร่อย",
+          "มาก"
+        ],
+        "fa": [
+          "غذا",
+          "خیلی",
+          "خوشمزه",
+          "است"
+        ],
+        "ar": [
+          "الطعام",
+          "لذيذ",
+          "جدا"
+        ],
+        "es": [
+          "La",
+          "comida",
+          "es",
+          "muy",
+          "deliciosa"
+        ],
+        "zh": [
+          "食物",
+          "非常",
+          "好吃"
+        ],
+        "ja": [
+          "食べ物",
+          "は",
+          "とても",
+          "おいしい",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g6_house_big",
+      "kind": "sentence",
+      "itemIds": [
+        "word_house",
+        "word_big",
+        "word_very"
+      ],
+      "texts": {
+        "en": "The house is very big",
+        "th": "บ้านใหญ่มาก",
+        "fa": "خانه خیلی بزرگ است",
+        "ar": "المنزل كبير جدا",
+        "es": "La casa es muy grande",
+        "zh": "房子非常大",
+        "ja": "家はとても大きいです"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "house",
+          "is",
+          "very",
+          "big"
+        ],
+        "th": [
+          "บ้าน",
+          "ใหญ่",
+          "มาก"
+        ],
+        "fa": [
+          "خانه",
+          "خیلی",
+          "بزرگ",
+          "است"
+        ],
+        "ar": [
+          "المنزل",
+          "كبير",
+          "جدا"
+        ],
+        "es": [
+          "La",
+          "casa",
+          "es",
+          "muy",
+          "grande"
+        ],
+        "zh": [
+          "房子",
+          "非常",
+          "大"
+        ],
+        "ja": [
+          "家",
+          "は",
+          "とても",
+          "大きい",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g6_tea_hot",
+      "kind": "sentence",
+      "itemIds": [
+        "word_tea",
+        "word_hot",
+        "word_a_little"
+      ],
+      "texts": {
+        "en": "The tea is a little hot",
+        "th": "ชาร้อนนิดหน่อย",
+        "fa": "چای کمی داغ است",
+        "ar": "الشاي حار قليلا",
+        "es": "El té está un poco caliente",
+        "zh": "茶有一点热",
+        "ja": "お茶は少し熱いです"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "tea",
+          "is",
+          "a",
+          "little",
+          "hot"
+        ],
+        "th": [
+          "ชา",
+          "ร้อน",
+          "นิดหน่อย"
+        ],
+        "fa": [
+          "چای",
+          "کمی",
+          "داغ",
+          "است"
+        ],
+        "ar": [
+          "الشاي",
+          "حار",
+          "قليلا"
+        ],
+        "es": [
+          "El",
+          "té",
+          "está",
+          "un",
+          "poco",
+          "caliente"
+        ],
+        "zh": [
+          "茶",
+          "有",
+          "一点",
+          "热"
+        ],
+        "ja": [
+          "お茶",
+          "は",
+          "少し",
+          "熱い",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g6_water_cold",
+      "kind": "sentence",
+      "itemIds": [
+        "word_water",
+        "word_cold",
+        "word_very"
+      ],
+      "texts": {
+        "en": "The water is very cold",
+        "th": "น้ำเย็นมาก",
+        "fa": "آب خیلی سرد است",
+        "ar": "الماء بارد جدا",
+        "es": "El agua está muy fría",
+        "zh": "水非常冷",
+        "ja": "水はとても冷たいです"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "water",
+          "is",
+          "very",
+          "cold"
+        ],
+        "th": [
+          "น้ำ",
+          "เย็น",
+          "มาก"
+        ],
+        "fa": [
+          "آب",
+          "خیلی",
+          "سرد",
+          "است"
+        ],
+        "ar": [
+          "الماء",
+          "بارد",
+          "جدا"
+        ],
+        "es": [
+          "El",
+          "agua",
+          "está",
+          "muy",
+          "fría"
+        ],
+        "zh": [
+          "水",
+          "非常",
+          "冷"
+        ],
+        "ja": [
+          "水",
+          "は",
+          "とても",
+          "冷たい",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "word_house",
+      "kind": "word",
+      "texts": {
+        "en": "house",
+        "th": "บ้าน",
+        "fa": "خانه",
+        "ar": "منزل",
+        "es": "casa",
+        "zh": "房子",
+        "ja": "家"
+      }
+    },
+    {
+      "id": "word_tea",
+      "kind": "word",
+      "texts": {
+        "en": "tea",
+        "th": "ชา",
+        "fa": "چای",
+        "ar": "شاي",
+        "es": "té",
+        "zh": "茶",
+        "ja": "お茶"
+      }
+    },
+    {
+      "id": "word_water",
+      "kind": "word",
+      "texts": {
+        "en": "water",
+        "th": "น้ำ",
+        "fa": "آب",
+        "ar": "ماء",
+        "es": "agua",
+        "zh": "水",
+        "ja": "水"
+      }
+    },
+    {
+      "id": "word_delicious",
+      "kind": "word",
+      "texts": {
+        "en": "delicious",
+        "th": "อร่อย",
+        "fa": "خوشمزه",
+        "ar": "لذيذ",
+        "es": "delicioso",
+        "zh": "好吃",
+        "ja": "おいしい"
+      }
+    },
+    {
+      "id": "word_big",
+      "kind": "word",
+      "texts": {
+        "en": "big",
+        "th": "ใหญ่",
+        "fa": "بزرگ",
+        "ar": "كبير",
+        "es": "grande",
+        "zh": "大",
+        "ja": "大きい"
+      }
+    },
+    {
+      "id": "word_hot",
+      "kind": "word",
+      "texts": {
+        "en": "hot",
+        "th": "ร้อน",
+        "fa": "داغ",
+        "ar": "حار",
+        "es": "caliente",
+        "zh": "热",
+        "ja": "暑い"
+      }
+    },
+    {
+      "id": "word_cold",
+      "kind": "word",
+      "texts": {
+        "en": "cold",
+        "th": "เย็น",
+        "fa": "سرد",
+        "ar": "بارد",
+        "es": "frío",
+        "zh": "冷",
+        "ja": "冷たい"
+      }
+    },
+    {
+      "id": "word_very",
+      "kind": "word",
+      "texts": {
+        "en": "very",
+        "th": "มาก",
+        "fa": "خیلی",
+        "ar": "جدا",
+        "es": "muy",
+        "zh": "非常",
+        "ja": "とても"
+      }
+    },
+    {
+      "id": "word_a_little",
+      "kind": "word",
+      "texts": {
+        "en": "a little",
+        "th": "นิดหน่อย",
+        "fa": "کمی",
+        "ar": "قليلا",
+        "es": "un poco",
+        "zh": "一点",
+        "ja": "少し"
+      }
+    }
+  ]
+}

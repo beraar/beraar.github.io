@@ -1,0 +1,340 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "sentence_g17_swim",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_swim",
+        "word_able"
+      ],
+      "texts": {
+        "en": "I can swim",
+        "th": "ฉันว่ายน้ำได้",
+        "fa": "من می‌توانم شنا کنم",
+        "ar": "يمكنني السباحة",
+        "es": "Puedo nadar",
+        "zh": "我会游泳",
+        "ja": "私は泳げる"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "can",
+          "swim"
+        ],
+        "th": [
+          "ฉัน",
+          "ว่ายน้ำ",
+          "ได้"
+        ],
+        "fa": [
+          "من",
+          "می‌توانم",
+          "شنا",
+          "کنم"
+        ],
+        "ar": [
+          "يمكنني",
+          "السباحة"
+        ],
+        "es": [
+          "Puedo",
+          "nadar"
+        ],
+        "zh": [
+          "我",
+          "会",
+          "游泳"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "泳げる"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g17_speak_thai",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_speak",
+        "word_thai_lang",
+        "word_able",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Can you speak Thai",
+        "th": "คุณพูดภาษาไทยได้ไหม",
+        "fa": "آیا می‌توانید تایلندی صحبت کنید",
+        "ar": "هل يمكنك التحدث بالتايلاندية",
+        "es": "Puedes hablar tailandés",
+        "zh": "你会说泰语吗",
+        "ja": "タイ語を話せますか"
+      },
+      "tokens": {
+        "en": [
+          "Can",
+          "you",
+          "speak",
+          "Thai"
+        ],
+        "th": [
+          "คุณ",
+          "พูด",
+          "ภาษาไทย",
+          "ได้",
+          "ไหม"
+        ],
+        "fa": [
+          "آیا",
+          "می‌توانید",
+          "تایلندی",
+          "صحبت",
+          "کنید"
+        ],
+        "ar": [
+          "هل",
+          "يمكنك",
+          "التحدث",
+          "بالتايلاندية"
+        ],
+        "es": [
+          "Puedes",
+          "hablar",
+          "tailandés"
+        ],
+        "zh": [
+          "你",
+          "会",
+          "说",
+          "泰语",
+          "吗"
+        ],
+        "ja": [
+          "タイ語",
+          "を",
+          "話せます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g17_cook_drive",
+      "kind": "sentence",
+      "itemIds": [
+        "word_she",
+        "word_cook",
+        "word_and",
+        "word_drive",
+        "word_able"
+      ],
+      "texts": {
+        "en": "She can cook and drive",
+        "th": "เธอทำอาหารและขับรถได้",
+        "fa": "او می‌تواند آشپزی و رانندگی کند",
+        "ar": "يمكنها الطبخ والقيادة",
+        "es": "Ella puede cocinar y conducir",
+        "zh": "她会做饭和开车",
+        "ja": "彼女は料理と運転ができる"
+      },
+      "tokens": {
+        "en": [
+          "She",
+          "can",
+          "cook",
+          "and",
+          "drive"
+        ],
+        "th": [
+          "เธอ",
+          "ทำอาหาร",
+          "และ",
+          "ขับรถ",
+          "ได้"
+        ],
+        "fa": [
+          "او",
+          "می‌تواند",
+          "آشپزی",
+          "و",
+          "رانندگی",
+          "کند"
+        ],
+        "ar": [
+          "يمكنها",
+          "الطبخ",
+          "والقيادة"
+        ],
+        "es": [
+          "Ella",
+          "puede",
+          "cocinar",
+          "y",
+          "conducir"
+        ],
+        "zh": [
+          "她",
+          "会",
+          "做饭",
+          "和",
+          "开车"
+        ],
+        "ja": [
+          "彼女",
+          "は",
+          "料理",
+          "と",
+          "運転",
+          "が",
+          "できる"
+        ]
+      }
+    },
+    {
+      "id": "word_swim",
+      "kind": "word",
+      "texts": {
+        "en": "swim",
+        "th": "ว่ายน้ำ",
+        "fa": "شنا کردن",
+        "ar": "يسبح",
+        "es": "nadar",
+        "zh": "游泳",
+        "ja": "泳ぐ"
+      }
+    },
+    {
+      "id": "word_able",
+      "kind": "word",
+      "texts": {
+        "en": "able to (post-verbal)",
+        "th": "ได้",
+        "fa": "توانستن",
+        "ar": "يستطيع",
+        "es": "poder",
+        "zh": "能/会",
+        "ja": "できる"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_speak",
+      "kind": "word",
+      "texts": {
+        "en": "speak",
+        "th": "พูด",
+        "fa": "صحبت کردن",
+        "ar": "يتحدث",
+        "es": "hablar",
+        "zh": "说",
+        "ja": "話す"
+      }
+    },
+    {
+      "id": "word_thai_lang",
+      "kind": "word",
+      "texts": {
+        "en": "Thai language",
+        "th": "ภาษาไทย",
+        "fa": "زبان تایلندی",
+        "ar": "اللغة التايلاندية",
+        "es": "idioma tailandés",
+        "zh": "泰语",
+        "ja": "タイ語"
+      }
+    },
+    {
+      "id": "word_question_particle",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_she",
+      "kind": "word",
+      "texts": {
+        "en": "she",
+        "th": "เธอ",
+        "fa": "او",
+        "ar": "هي",
+        "es": "ella",
+        "zh": "她",
+        "ja": "彼女"
+      }
+    },
+    {
+      "id": "word_cook",
+      "kind": "word",
+      "texts": {
+        "en": "cook",
+        "th": "ทำอาหาร",
+        "fa": "آشپزی کردن",
+        "ar": "يطبخ",
+        "es": "cocinar",
+        "zh": "做饭",
+        "ja": "料理する"
+      }
+    },
+    {
+      "id": "word_and",
+      "kind": "word",
+      "texts": {
+        "en": "and",
+        "th": "และ",
+        "fa": "و",
+        "ar": "و",
+        "es": "y",
+        "zh": "和",
+        "ja": "と"
+      }
+    },
+    {
+      "id": "word_drive",
+      "kind": "word",
+      "texts": {
+        "en": "drive",
+        "th": "ขับรถ",
+        "fa": "رانندگی کردن",
+        "ar": "يقود",
+        "es": "conducir",
+        "zh": "开车",
+        "ja": "運転する"
+      }
+    }
+  ]
+}

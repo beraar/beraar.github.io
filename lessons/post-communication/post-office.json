@@ -1,0 +1,1747 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำหลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras básicas",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "sentence_core_want_send_letter",
+      "kind": "sentence",
+      "itemIds": ["word_want", "word_send", "word_letter"],
+      "texts": {
+        "en": "I want to send a letter",
+        "th": "ต้องการส่งจดหมายครับ",
+        "fa": "می‌خواهم یک نامه بفرستم",
+        "ar": "أريد إرسال رسالة",
+        "es": "Quiero enviar una carta",
+        "zh": "我想寄一封信",
+        "ja": "手紙を送りたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "send", "a", "letter"],
+        "th": ["ต้องการ", "ส่ง", "จดหมาย", "ครับ"],
+        "fa": ["می‌خواهم", "یک", "نامه", "بفرستم"],
+        "ar": ["أريد", "إرسال", "رسالة"],
+        "es": ["Quiero", "enviar", "una", "carta"],
+        "zh": ["我", "想", "寄", "一封", "信"],
+        "ja": ["手紙", "を", "送り", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_core_want_send_package",
+      "kind": "sentence",
+      "itemIds": ["word_want", "word_send", "word_package"],
+      "texts": {
+        "en": "I want to send a package",
+        "th": "ต้องการส่งพัสดุครับ",
+        "fa": "می‌خواهم یک بسته بفرستم",
+        "ar": "أريد إرسال طرد",
+        "es": "Quiero enviar un paquete",
+        "zh": "我想寄一个包裹",
+        "ja": "荷物を送りたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "send", "a", "package"],
+        "th": ["ต้องการ", "ส่ง", "พัสดุ", "ครับ"],
+        "fa": ["می‌خواهم", "یک", "بسته", "بفرستم"],
+        "ar": ["أريد", "إرسال", "طرد"],
+        "es": ["Quiero", "enviar", "un", "paquete"],
+        "zh": ["我", "想", "寄", "一个", "包裹"],
+        "ja": ["荷物", "を", "送り", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_core_want_stamp",
+      "kind": "sentence",
+      "itemIds": ["word_want", "word_stamp"],
+      "texts": {
+        "en": "I want a stamp",
+        "th": "ต้องการแสตมป์ครับ",
+        "fa": "یک تمبر می‌خواهم",
+        "ar": "أريد طابعا",
+        "es": "Quiero un sello",
+        "zh": "我想要一张邮票",
+        "ja": "切手が欲しいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "a", "stamp"],
+        "th": ["ต้องการ", "แสตมป์", "ครับ"],
+        "fa": ["یک", "تمبر", "می‌خواهم"],
+        "ar": ["أريد", "طابعا"],
+        "es": ["Quiero", "un", "sello"],
+        "zh": ["我", "想要", "一张", "邮票"],
+        "ja": ["切手", "が", "欲しい", "です"]
+      }
+    },
+    {
+      "id": "sentence_core_where_post_office",
+      "kind": "sentence",
+      "itemIds": ["word_where", "word_post_office"],
+      "texts": {
+        "en": "Where is the post office",
+        "th": "ไปรษณีย์อยู่ที่ไหนครับ",
+        "fa": "اداره پست کجاست",
+        "ar": "أين مكتب البريد",
+        "es": "Dónde está la oficina de correos",
+        "zh": "邮局在哪里",
+        "ja": "郵便局はどこですか"
+      },
+      "tokens": {
+        "en": ["Where", "is", "the", "post", "office"],
+        "th": ["ไปรษณีย์", "อยู่", "ที่ไหน", "ครับ"],
+        "fa": ["اداره", "پست", "کجاست"],
+        "ar": ["أين", "مكتب", "البريد"],
+        "es": ["Dónde", "está", "la", "oficina", "de", "correos"],
+        "zh": ["邮局", "在", "哪里"],
+        "ja": ["郵便局", "は", "どこ", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_core_post_office_here",
+      "kind": "sentence",
+      "itemIds": ["word_post_office", "word_here"],
+      "texts": {
+        "en": "The post office is here",
+        "th": "ไปรษณีย์อยู่ที่นี่ครับ",
+        "fa": "اداره پست اینجاست",
+        "ar": "مكتب البريد هنا",
+        "es": "La oficina de correos está aquí",
+        "zh": "邮局在这里",
+        "ja": "郵便局はここです"
+      },
+      "tokens": {
+        "en": ["The", "post", "office", "is", "here"],
+        "th": ["ไปรษณีย์", "อยู่", "ที่นี่", "ครับ"],
+        "fa": ["اداره", "پست", "اینجاست"],
+        "ar": ["مكتب", "البريد", "هنا"],
+        "es": ["La", "oficina", "de", "correos", "está", "aquí"],
+        "zh": ["邮局", "在", "这里"],
+        "ja": ["郵便局", "は", "ここ", "です"]
+      }
+    },
+    {
+      "id": "word_want",
+      "kind": "word",
+      "texts": {
+        "en": "want",
+        "th": "ต้องการ",
+        "fa": "خواستن",
+        "ar": "يريد",
+        "es": "querer",
+        "zh": "想要",
+        "ja": "欲しい"
+      }
+    },
+    {
+      "id": "word_send",
+      "kind": "word",
+      "texts": {
+        "en": "send",
+        "th": "ส่ง",
+        "fa": "فرستادن",
+        "ar": "يرسل",
+        "es": "enviar",
+        "zh": "寄",
+        "ja": "送る"
+      }
+    },
+    {
+      "id": "word_letter",
+      "kind": "word",
+      "texts": {
+        "en": "letter",
+        "th": "จดหมาย",
+        "fa": "نامه",
+        "ar": "رسالة",
+        "es": "carta",
+        "zh": "信",
+        "ja": "手紙"
+      }
+    },
+    {
+      "id": "word_package",
+      "kind": "word",
+      "texts": {
+        "en": "package",
+        "th": "พัสดุ",
+        "fa": "بسته",
+        "ar": "طرد",
+        "es": "paquete",
+        "zh": "包裹",
+        "ja": "荷物"
+      }
+    },
+    {
+      "id": "word_stamp",
+      "kind": "word",
+      "texts": {
+        "en": "stamp",
+        "th": "แสตมป์",
+        "fa": "تمبر",
+        "ar": "طابع",
+        "es": "sello",
+        "zh": "邮票",
+        "ja": "切手"
+      }
+    },
+    {
+      "id": "word_post_office",
+      "kind": "word",
+      "texts": {
+        "en": "post office",
+        "th": "ไปรษณีย์",
+        "fa": "اداره پست",
+        "ar": "مكتب البريد",
+        "es": "oficina de correos",
+        "zh": "邮局",
+        "ja": "郵便局"
+      }
+    },
+    {
+      "id": "word_postage",
+      "kind": "word",
+      "texts": {
+        "en": "postage",
+        "th": "ค่าส่ง",
+        "fa": "هزینه پست",
+        "ar": "رسوم البريد",
+        "es": "coste de envío",
+        "zh": "邮资",
+        "ja": "郵便料金"
+      }
+    },
+    {
+      "id": "word_baht",
+      "kind": "word",
+      "texts": {
+        "en": "baht",
+        "th": "บาท",
+        "fa": "بات",
+        "ar": "بات",
+        "es": "baht",
+        "zh": "泰铢",
+        "ja": "バーツ"
+      }
+    },
+    {
+      "id": "word_how_much",
+      "kind": "word",
+      "texts": {
+        "en": "how much",
+        "th": "เท่าไหร่",
+        "fa": "چقدر",
+        "ar": "كم",
+        "es": "cuánto",
+        "zh": "多少",
+        "ja": "いくら"
+      }
+    },
+    {
+      "id": "word_where",
+      "kind": "word",
+      "texts": {
+        "en": "where",
+        "th": "ที่ไหน",
+        "fa": "کجا",
+        "ar": "أين",
+        "es": "dónde",
+        "zh": "哪里",
+        "ja": "どこ"
+      }
+    },
+    {
+      "id": "word_here",
+      "kind": "word",
+      "texts": {
+        "en": "here",
+        "th": "ที่นี่",
+        "fa": "اینجا",
+        "ar": "هنا",
+        "es": "aquí",
+        "zh": "这里",
+        "ja": "ここ"
+      }
+    },
+    {
+      "id": "word_thank",
+      "kind": "word",
+      "texts": {
+        "en": "thank",
+        "th": "ขอบคุณ",
+        "fa": "تشکر",
+        "ar": "شكر",
+        "es": "gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
+      }
+    },
+    {
+      "id": "word_glad",
+      "kind": "word",
+      "texts": {
+        "en": "glad",
+        "th": "ยินดี",
+        "fa": "خوشحال",
+        "ar": "سعيد",
+        "es": "encantado",
+        "zh": "高兴",
+        "ja": "嬉しい"
+      }
+    },
+    {
+      "id": "word_receipt",
+      "kind": "word",
+      "texts": {
+        "en": "receipt",
+        "th": "ใบเสร็จ",
+        "fa": "رسید",
+        "ar": "إيصال",
+        "es": "recibo",
+        "zh": "收据",
+        "ja": "領収書"
+      }
+    },
+    {
+      "id": "word_tracking_number",
+      "kind": "word",
+      "texts": {
+        "en": "tracking number",
+        "th": "เลขพัสดุ",
+        "fa": "شماره مرسوله",
+        "ar": "رقم الطرد",
+        "es": "número de seguimiento",
+        "zh": "包裹单号",
+        "ja": "追跡番号"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Sending a Letter or Postcard",
+        "th": "สถานการณ์ 1: ส่งจดหมายหรือไปรษณียบัตร",
+        "fa": "سناریوی 1: فرستادن نامه یا کارت پستال",
+        "ar": "السيناريو 1: إرسال رسالة أو بطاقة بريدية",
+        "es": "Escenario 1: Enviar una carta o postal",
+        "zh": "场景 1：寄信或明信片",
+        "ja": "場面1：手紙やはがきを送る"
+      }
+    },
+    {
+      "id": "sentence_letter_postcard_abroad",
+      "kind": "sentence",
+      "itemIds": ["word_want", "word_send", "word_postcard", "word_abroad"],
+      "texts": {
+        "en": "I want to send a postcard abroad",
+        "th": "ต้องการส่งไปรษณียบัตรไปต่างประเทศครับ",
+        "fa": "می‌خواهم کارت پستال به خارج بفرستم",
+        "ar": "أريد إرسال بطاقة بريدية إلى الخارج",
+        "es": "Quiero enviar una postal al extranjero",
+        "zh": "我想寄一张明信片到国外",
+        "ja": "海外にはがきを送りたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "send", "a", "postcard", "abroad"],
+        "th": ["ต้องการ", "ส่ง", "ไปรษณียบัตร", "ไป", "ต่างประเทศ", "ครับ"],
+        "fa": ["می‌خواهم", "کارت", "پستال", "به", "خارج", "بفرستم"],
+        "ar": ["أريد", "إرسال", "بطاقة", "بريدية", "إلى", "الخارج"],
+        "es": ["Quiero", "enviar", "una", "postal", "al", "extranjero"],
+        "zh": ["我", "想", "寄", "一张", "明信片", "到", "国外"],
+        "ja": ["海外", "に", "はがき", "を", "送り", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_letter_which_country",
+      "kind": "sentence",
+      "itemIds": ["word_send", "word_which", "word_country"],
+      "texts": {
+        "en": "Which country are you sending to",
+        "th": "ส่งไปประเทศอะไรคะ",
+        "fa": "به کدام کشور می‌فرستید",
+        "ar": "إلى أي بلد ترسل",
+        "es": "A qué país lo envía",
+        "zh": "寄到哪个国家",
+        "ja": "どの国に送りますか"
+      },
+      "tokens": {
+        "en": ["Which", "country", "are", "you", "sending", "to"],
+        "th": ["ส่ง", "ไป", "ประเทศ", "อะไร", "คะ"],
+        "fa": ["به", "کدام", "کشور", "می‌فرستید"],
+        "ar": ["إلى", "أي", "بلد", "ترسل"],
+        "es": ["A", "qué", "país", "lo", "envía"],
+        "zh": ["寄", "到", "哪个", "国家"],
+        "ja": ["どの", "国", "に", "送り", "ます", "か"]
+      }
+    },
+    {
+      "id": "sentence_letter_to_america",
+      "kind": "sentence",
+      "itemIds": ["word_send", "word_america"],
+      "texts": {
+        "en": "I am sending it to America",
+        "th": "ส่งไปอเมริกาครับ",
+        "fa": "به آمریکا می‌فرستم",
+        "ar": "أرسلها إلى أمريكا",
+        "es": "La envío a Estados Unidos",
+        "zh": "寄到美国",
+        "ja": "アメリカに送ります"
+      },
+      "tokens": {
+        "en": ["I", "am", "sending", "it", "to", "America"],
+        "th": ["ส่ง", "ไป", "อเมริกา", "ครับ"],
+        "fa": ["به", "آمریکا", "می‌فرستم"],
+        "ar": ["أرسلها", "إلى", "أمريكا"],
+        "es": ["La", "envío", "a", "Estados", "Unidos"],
+        "zh": ["寄", "到", "美国"],
+        "ja": ["アメリカ", "に", "送り", "ます"]
+      }
+    },
+    {
+      "id": "sentence_letter_airmail_or_ordinary",
+      "kind": "sentence",
+      "itemIds": ["word_airmail", "word_ordinary"],
+      "texts": {
+        "en": "Would you like airmail or ordinary mail",
+        "th": "ส่งทางอากาศหรือส่งธรรมดาคะ",
+        "fa": "پست هوایی بفرستیم یا عادی",
+        "ar": "ترسل بالبريد الجوي أم العادي",
+        "es": "Lo envía por correo aéreo o ordinario",
+        "zh": "寄航空邮件还是普通邮件",
+        "ja": "航空便と普通郵便のどちらにしますか"
+      },
+      "tokens": {
+        "en": ["Would", "you", "like", "airmail", "or", "ordinary", "mail"],
+        "th": ["ส่ง", "ทางอากาศ", "หรือ", "ส่ง", "ธรรมดา", "คะ"],
+        "fa": ["پست", "هوایی", "بفرستیم", "یا", "عادی"],
+        "ar": ["ترسل", "بالبريد", "الجوي", "أم", "العادي"],
+        "es": ["Lo", "envía", "por", "correo", "aéreo", "o", "ordinario"],
+        "zh": ["寄", "航空邮件", "还是", "普通邮件"],
+        "ja": [
+          "航空便",
+          "と",
+          "普通郵便",
+          "の",
+          "どちら",
+          "に",
+          "し",
+          "ます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_letter_airmail",
+      "kind": "sentence",
+      "itemIds": ["word_send", "word_airmail"],
+      "texts": {
+        "en": "Please send it by airmail",
+        "th": "ส่งทางอากาศครับ",
+        "fa": "لطفاً پست هوایی بفرستید",
+        "ar": "أرسلها بالبريد الجوي من فضلك",
+        "es": "Envíelo por correo aéreo por favor",
+        "zh": "请寄航空邮件",
+        "ja": "航空便でお願いします"
+      },
+      "tokens": {
+        "en": ["Please", "send", "it", "by", "airmail"],
+        "th": ["ส่ง", "ทางอากาศ", "ครับ"],
+        "fa": ["لطفاً", "پست", "هوایی", "بفرستید"],
+        "ar": ["أرسلها", "بالبريد", "الجوي", "من", "فضلك"],
+        "es": ["Envíelo", "por", "correo", "aéreo", "por", "favor"],
+        "zh": ["请", "寄", "航空邮件"],
+        "ja": ["航空便", "で", "お", "願い", "し", "ます"]
+      }
+    },
+    {
+      "id": "sentence_letter_write_address",
+      "kind": "sentence",
+      "itemIds": ["word_write", "word_address"],
+      "texts": {
+        "en": "Please write the address clearly",
+        "th": "เขียนที่อยู่ให้ชัดเจนนะครับ",
+        "fa": "لطفاً آدرس را واضح بنویسید",
+        "ar": "من فضلك اكتب العنوان بوضوح",
+        "es": "Escriba la dirección con claridad por favor",
+        "zh": "请清楚写地址",
+        "ja": "住所をはっきり書いてください"
+      },
+      "tokens": {
+        "en": ["Please", "write", "the", "address", "clearly"],
+        "th": ["เขียน", "ที่อยู่", "ให้", "ชัดเจน", "นะ", "ครับ"],
+        "fa": ["لطفاً", "آدرس", "را", "واضح", "بنویسید"],
+        "ar": ["من", "فضلك", "اكتب", "العنوان", "بوضوح"],
+        "es": ["Escriba", "la", "dirección", "con", "claridad", "por", "favor"],
+        "zh": ["请", "清楚", "写", "地址"],
+        "ja": ["住所", "を", "はっきり", "書い", "て", "ください"]
+      }
+    },
+    {
+      "id": "word_postcard",
+      "kind": "word",
+      "texts": {
+        "en": "postcard",
+        "th": "ไปรษณียบัตร",
+        "fa": "کارت پستال",
+        "ar": "بطاقة بريدية",
+        "es": "postal",
+        "zh": "明信片",
+        "ja": "はがき"
+      }
+    },
+    {
+      "id": "word_abroad",
+      "kind": "word",
+      "texts": {
+        "en": "abroad",
+        "th": "ต่างประเทศ",
+        "fa": "خارج",
+        "ar": "الخارج",
+        "es": "extranjero",
+        "zh": "国外",
+        "ja": "海外"
+      }
+    },
+    {
+      "id": "word_country",
+      "kind": "word",
+      "texts": {
+        "en": "country",
+        "th": "ประเทศ",
+        "fa": "کشور",
+        "ar": "بلد",
+        "es": "país",
+        "zh": "国家",
+        "ja": "国"
+      }
+    },
+    {
+      "id": "word_airmail",
+      "kind": "word",
+      "texts": {
+        "en": "airmail",
+        "th": "ทางอากาศ",
+        "fa": "پست هوایی",
+        "ar": "بريد جوي",
+        "es": "correo aéreo",
+        "zh": "航空邮件",
+        "ja": "航空便"
+      }
+    },
+    {
+      "id": "word_ordinary",
+      "kind": "word",
+      "texts": {
+        "en": "ordinary",
+        "th": "ธรรมดา",
+        "fa": "عادی",
+        "ar": "عادي",
+        "es": "ordinario",
+        "zh": "普通",
+        "ja": "普通"
+      }
+    },
+    {
+      "id": "word_address",
+      "kind": "word",
+      "texts": {
+        "en": "address",
+        "th": "ที่อยู่",
+        "fa": "آدرس",
+        "ar": "عنوان",
+        "es": "dirección",
+        "zh": "地址",
+        "ja": "住所"
+      }
+    },
+    {
+      "id": "word_write",
+      "kind": "word",
+      "texts": {
+        "en": "write",
+        "th": "เขียน",
+        "fa": "نوشتن",
+        "ar": "كتابة",
+        "es": "escribir",
+        "zh": "写",
+        "ja": "書く"
+      }
+    },
+    {
+      "id": "word_which",
+      "kind": "word",
+      "texts": {
+        "en": "which",
+        "th": "ไหน",
+        "fa": "کدام",
+        "ar": "أي",
+        "es": "cuál",
+        "zh": "哪",
+        "ja": "どの"
+      }
+    },
+    {
+      "id": "word_america",
+      "kind": "word",
+      "texts": {
+        "en": "America",
+        "th": "อเมริกา",
+        "fa": "آمریکا",
+        "ar": "أمريكا",
+        "es": "Estados Unidos",
+        "zh": "美国",
+        "ja": "アメリカ"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Sending a Package",
+        "th": "สถานการณ์ 2: ส่งพัสดุ",
+        "fa": "سناریوی 2: فرستادن بسته",
+        "ar": "السيناريو 2: إرسال طرد",
+        "es": "Escenario 2: Enviar un paquete",
+        "zh": "场景 2：寄包裹",
+        "ja": "場面2：荷物を送る"
+      }
+    },
+    {
+      "id": "sentence_package_chiang_mai",
+      "kind": "sentence",
+      "itemIds": ["word_want", "word_send", "word_package", "word_chiang_mai"],
+      "texts": {
+        "en": "I want to send a parcel to Chiang Mai",
+        "th": "ส่งพัสดุไปเชียงใหม่ครับ",
+        "fa": "می‌خواهم بسته‌ای به چیانگ‌مای بفرستم",
+        "ar": "أريد إرسال طرد إلى شيانغ ماي",
+        "es": "Quiero enviar un paquete a Chiang Mai",
+        "zh": "我想寄包裹去清迈",
+        "ja": "チェンマイに荷物を送りたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "send", "a", "parcel", "to", "Chiang", "Mai"],
+        "th": ["ส่ง", "พัสดุ", "ไป", "เชียงใหม่", "ครับ"],
+        "fa": ["می‌خواهم", "بسته‌ای", "به", "چیانگ‌مای", "بفرستم"],
+        "ar": ["أريد", "إرسال", "طرد", "إلى", "شيانغ", "ماي"],
+        "es": ["Quiero", "enviar", "un", "paquete", "a", "Chiang", "Mai"],
+        "zh": ["我", "想", "寄", "包裹", "去", "清迈"],
+        "ja": ["チェンマイ", "に", "荷物", "を", "送り", "たい", "です"]
+      }
+    },
+    {
+      "id": "sentence_package_contents_question",
+      "kind": "sentence",
+      "itemIds": ["word_inside", "word_what"],
+      "texts": {
+        "en": "What is inside the package",
+        "th": "ข้างในเป็นอะไรคะ",
+        "fa": "داخل بسته چیست",
+        "ar": "ماذا يوجد داخل الطرد",
+        "es": "Qué hay dentro del paquete",
+        "zh": "包裹里面是什么",
+        "ja": "中身は何ですか"
+      },
+      "tokens": {
+        "en": ["What", "is", "inside", "the", "package"],
+        "th": ["ข้างใน", "เป็น", "อะไร", "คะ"],
+        "fa": ["داخل", "بسته", "چیست"],
+        "ar": ["ماذا", "يوجد", "داخل", "الطرد"],
+        "es": ["Qué", "hay", "dentro", "del", "paquete"],
+        "zh": ["包裹", "里面", "是", "什么"],
+        "ja": ["中身", "は", "何", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_package_personal_items",
+      "kind": "sentence",
+      "itemIds": ["word_inside", "word_contents"],
+      "texts": {
+        "en": "They are personal items",
+        "th": "ข้างในเป็นของใช้ส่วนตัวครับ",
+        "fa": "داخلش وسایل شخصی است",
+        "ar": "داخله أغراض شخصية",
+        "es": "Son objetos personales",
+        "zh": "里面是个人用品",
+        "ja": "中身は私物です"
+      },
+      "tokens": {
+        "en": ["They", "are", "personal", "items"],
+        "th": ["ข้างใน", "เป็น", "ของใช้", "ส่วนตัว", "ครับ"],
+        "fa": ["داخلش", "وسایل", "شخصی", "است"],
+        "ar": ["داخله", "أغراض", "شخصية"],
+        "es": ["Son", "objetos", "personales"],
+        "zh": ["里面", "是", "个人", "用品"],
+        "ja": ["中身", "は", "私物", "です"]
+      }
+    },
+    {
+      "id": "sentence_package_weigh_first",
+      "kind": "sentence",
+      "itemIds": ["word_weigh"],
+      "texts": {
+        "en": "We need to weigh it first",
+        "th": "ต้องชั่งน้ำหนักก่อนค่ะ",
+        "fa": "باید اول آن را وزن کنیم",
+        "ar": "يجب وزنه أولا",
+        "es": "Tenemos que pesarlo primero",
+        "zh": "需要先称重",
+        "ja": "先に計量する必要があります"
+      },
+      "tokens": {
+        "en": ["We", "need", "to", "weigh", "it", "first"],
+        "th": ["ต้อง", "ชั่ง", "น้ำหนัก", "ก่อน", "ค่ะ"],
+        "fa": ["باید", "اول", "آن", "را", "وزن", "کنیم"],
+        "ar": ["يجب", "وزنه", "أولا"],
+        "es": ["Tenemos", "que", "pesarlo", "primero"],
+        "zh": ["需要", "先", "称重"],
+        "ja": ["先", "に", "計量", "する", "必要", "が", "あり", "ます"]
+      }
+    },
+    {
+      "id": "sentence_package_weight_two_kg",
+      "kind": "sentence",
+      "itemIds": ["word_weight", "word_total", "word_kilogram"],
+      "texts": {
+        "en": "The total weight is two kilograms",
+        "th": "หนักรวมสองกิโลกรัมค่ะ",
+        "fa": "وزن کل دو کیلوگرم است",
+        "ar": "الوزن الإجمالي كيلوغرامان",
+        "es": "El peso total es dos kilogramos",
+        "zh": "总重量是两公斤",
+        "ja": "合計の重さは二キログラムです"
+      },
+      "tokens": {
+        "en": ["The", "total", "weight", "is", "two", "kilograms"],
+        "th": ["หนัก", "รวม", "สอง", "กิโลกรัม", "ค่ะ"],
+        "fa": ["وزن", "کل", "دو", "کیلوگرم", "است"],
+        "ar": ["الوزن", "الإجمالي", "كيلوغرامان"],
+        "es": ["El", "peso", "total", "es", "dos", "kilogramos"],
+        "zh": ["总", "重量", "是", "两", "公斤"],
+        "ja": ["合計", "の", "重さ", "は", "二", "キログラム", "です"]
+      }
+    },
+    {
+      "id": "sentence_package_fragile_question",
+      "kind": "sentence",
+      "itemIds": ["word_fragile"],
+      "texts": {
+        "en": "Is it fragile",
+        "th": "เป็นของแตกง่ายไหมคะ",
+        "fa": "آیا شکستنی است",
+        "ar": "هل هو قابل للكسر",
+        "es": "Es frágil",
+        "zh": "是易碎品吗",
+        "ja": "壊れやすいですか"
+      },
+      "tokens": {
+        "en": ["Is", "it", "fragile"],
+        "th": ["เป็น", "ของ", "แตกง่าย", "ไหม", "คะ"],
+        "fa": ["آیا", "شکستنی", "است"],
+        "ar": ["هل", "هو", "قابل", "للكسر"],
+        "es": ["Es", "frágil"],
+        "zh": ["是", "易碎品", "吗"],
+        "ja": ["壊れやすい", "です", "か"]
+      }
+    },
+    {
+      "id": "word_weigh",
+      "kind": "word",
+      "texts": {
+        "en": "weigh",
+        "th": "ชั่ง",
+        "fa": "وزن کردن",
+        "ar": "وزن",
+        "es": "pesar",
+        "zh": "称重",
+        "ja": "計量する"
+      }
+    },
+    {
+      "id": "word_weight",
+      "kind": "word",
+      "texts": {
+        "en": "weight",
+        "th": "น้ำหนัก",
+        "fa": "وزن",
+        "ar": "الوزن",
+        "es": "peso",
+        "zh": "重量",
+        "ja": "重さ"
+      }
+    },
+    {
+      "id": "word_kilogram",
+      "kind": "word",
+      "texts": {
+        "en": "kilogram",
+        "th": "กิโลกรัม",
+        "fa": "کیلوگرم",
+        "ar": "كيلوغرام",
+        "es": "kilogramo",
+        "zh": "公斤",
+        "ja": "キログラム"
+      }
+    },
+    {
+      "id": "word_inside",
+      "kind": "word",
+      "texts": {
+        "en": "inside",
+        "th": "ข้างใน",
+        "fa": "داخل",
+        "ar": "داخل",
+        "es": "dentro",
+        "zh": "里面",
+        "ja": "中"
+      }
+    },
+    {
+      "id": "word_contents",
+      "kind": "word",
+      "texts": {
+        "en": "contents",
+        "th": "สิ่งของ",
+        "fa": "محتوا",
+        "ar": "محتويات",
+        "es": "contenido",
+        "zh": "内件",
+        "ja": "中身"
+      }
+    },
+    {
+      "id": "word_fragile",
+      "kind": "word",
+      "texts": {
+        "en": "fragile",
+        "th": "แตกง่าย",
+        "fa": "شکستنی",
+        "ar": "قابل للكسر",
+        "es": "frágil",
+        "zh": "易碎",
+        "ja": "壊れやすい"
+      }
+    },
+    {
+      "id": "word_insurance",
+      "kind": "word",
+      "texts": {
+        "en": "insurance",
+        "th": "ประกัน",
+        "fa": "بیمه",
+        "ar": "تأمين",
+        "es": "seguro",
+        "zh": "保险",
+        "ja": "保険"
+      }
+    },
+    {
+      "id": "word_what",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه",
+        "ar": "ماذا",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_chiang_mai",
+      "kind": "word",
+      "texts": {
+        "en": "Chiang Mai",
+        "th": "เชียงใหม่",
+        "fa": "چیانگ‌مای",
+        "ar": "شيانغ ماي",
+        "es": "Chiang Mai",
+        "zh": "清迈",
+        "ja": "チェンマイ"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Choosing a Service Type",
+        "th": "สถานการณ์ 3: เลือกประเภทบริการ",
+        "fa": "سناریوی 3: انتخاب نوع سرویس",
+        "ar": "السيناريو 3: اختيار نوع الخدمة",
+        "es": "Escenario 3: Elegir un tipo de servicio",
+        "zh": "场景 3：选择服务类型",
+        "ja": "場面3：サービスを選ぶ"
+      }
+    },
+    {
+      "id": "sentence_service_ems_or_ordinary",
+      "kind": "sentence",
+      "itemIds": ["word_ems", "word_ordinary"],
+      "texts": {
+        "en": "Would you like EMS or ordinary mail",
+        "th": "ส่ง EMS หรือส่งธรรมดาคะ",
+        "fa": "EMS بفرستیم یا پست عادی",
+        "ar": "ترسل بالبريد السريع EMS أم العادي",
+        "es": "Lo envía por EMS o correo ordinario",
+        "zh": "寄EMS还是普通邮件",
+        "ja": "EMSと普通郵便のどちらにしますか"
+      },
+      "tokens": {
+        "en": ["Would", "you", "like", "EMS", "or", "ordinary", "mail"],
+        "th": ["ส่ง", "EMS", "หรือ", "ส่ง", "ธรรมดา", "คะ"],
+        "fa": ["EMS", "بفرستیم", "یا", "پست", "عادی"],
+        "ar": ["ترسل", "بالبريد", "السريع", "EMS", "أم", "العادي"],
+        "es": ["Lo", "envía", "por", "EMS", "o", "correo", "ordinario"],
+        "zh": ["寄", "EMS", "还是", "普通邮件"],
+        "ja": [
+          "EMS",
+          "と",
+          "普通郵便",
+          "の",
+          "どちら",
+          "に",
+          "し",
+          "ます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_service_ems_days",
+      "kind": "sentence",
+      "itemIds": ["word_ems", "word_how_many", "word_day"],
+      "texts": {
+        "en": "How many days does EMS take",
+        "th": "ส่ง EMS ถึงกี่วันครับ",
+        "fa": "EMS چند روزه می‌رسد",
+        "ar": "كم يوما يستغرق EMS",
+        "es": "Cuántos días tarda EMS",
+        "zh": "EMS几天到",
+        "ja": "EMSは何日で届きますか"
+      },
+      "tokens": {
+        "en": ["How", "many", "days", "does", "EMS", "take"],
+        "th": ["ส่ง", "EMS", "ถึง", "กี่วัน", "ครับ"],
+        "fa": ["EMS", "چند", "روزه", "می‌رسد"],
+        "ar": ["كم", "يوما", "يستغرق", "EMS"],
+        "es": ["Cuántos", "días", "tarda", "EMS"],
+        "zh": ["EMS", "几天", "到"],
+        "ja": ["EMS", "は", "何日", "で", "届き", "ます", "か"]
+      }
+    },
+    {
+      "id": "sentence_service_ems_tomorrow",
+      "kind": "sentence",
+      "itemIds": ["word_ems", "word_tomorrow"],
+      "texts": {
+        "en": "EMS arrives tomorrow",
+        "th": "ส่ง EMS ถึงพรุ่งนี้ค่ะ",
+        "fa": "EMS فردا می‌رسد",
+        "ar": "يصل EMS غدا",
+        "es": "EMS llega mañana",
+        "zh": "EMS明天到",
+        "ja": "EMSは明日届きます"
+      },
+      "tokens": {
+        "en": ["EMS", "arrives", "tomorrow"],
+        "th": ["ส่ง", "EMS", "ถึง", "พรุ่งนี้", "ค่ะ"],
+        "fa": ["EMS", "فردا", "می‌رسد"],
+        "ar": ["يصل", "EMS", "غدا"],
+        "es": ["EMS", "llega", "mañana"],
+        "zh": ["EMS", "明天", "到"],
+        "ja": ["EMS", "は", "明日", "届き", "ます"]
+      }
+    },
+    {
+      "id": "sentence_service_registered_too",
+      "kind": "sentence",
+      "itemIds": ["word_registered", "word_also"],
+      "texts": {
+        "en": "I would like registered mail too",
+        "th": "ขอส่งลงทะเบียนด้วยครับ",
+        "fa": "لطفاً پست سفارشی هم باشد",
+        "ar": "أريد البريد المسجل أيضا",
+        "es": "Quiero correo certificado también",
+        "zh": "我也想要挂号信",
+        "ja": "書留もお願いします"
+      },
+      "tokens": {
+        "en": ["I", "would", "like", "registered", "mail", "too"],
+        "th": ["ขอ", "ส่ง", "ลงทะเบียน", "ด้วย", "ครับ"],
+        "fa": ["لطفاً", "پست", "سفارشی", "هم", "باشد"],
+        "ar": ["أريد", "البريد", "المسجل", "أيضا"],
+        "es": ["Quiero", "correo", "certificado", "también"],
+        "zh": ["我", "也", "想要", "挂号信"],
+        "ja": ["書留", "も", "お", "願い", "し", "ます"]
+      }
+    },
+    {
+      "id": "sentence_service_registered_faster",
+      "kind": "sentence",
+      "itemIds": ["word_registered", "word_fast", "word_ordinary"],
+      "texts": {
+        "en": "Registered mail is faster than ordinary mail",
+        "th": "ลงทะเบียนเร็วกว่าธรรมดาค่ะ",
+        "fa": "پست سفارشی سریع‌تر از عادی است",
+        "ar": "البريد المسجل أسرع من العادي",
+        "es": "El correo certificado es más rápido que el ordinario",
+        "zh": "挂号信比普通邮件快",
+        "ja": "書留は普通郵便より速いです"
+      },
+      "tokens": {
+        "en": [
+          "Registered",
+          "mail",
+          "is",
+          "faster",
+          "than",
+          "ordinary",
+          "mail"
+        ],
+        "th": ["ลงทะเบียน", "เร็ว", "กว่า", "ธรรมดา", "ค่ะ"],
+        "fa": ["پست", "سفارشی", "سریع‌تر", "از", "عادی", "است"],
+        "ar": ["البريد", "المسجل", "أسرع", "من", "العادي"],
+        "es": [
+          "El",
+          "correo",
+          "certificado",
+          "es",
+          "más",
+          "rápido",
+          "que",
+          "el",
+          "ordinario"
+        ],
+        "zh": ["挂号信", "比", "普通邮件", "快"],
+        "ja": ["書留", "は", "普通郵便", "より", "速い", "です"]
+      }
+    },
+    {
+      "id": "sentence_service_choose_ems",
+      "kind": "sentence",
+      "itemIds": ["word_ems", "word_service"],
+      "texts": {
+        "en": "I would like to use EMS service",
+        "th": "ขอใช้บริการ EMS ครับ",
+        "fa": "می‌خواهم از سرویس EMS استفاده کنم",
+        "ar": "أريد استخدام خدمة EMS",
+        "es": "Quiero usar el servicio EMS",
+        "zh": "我想使用EMS服务",
+        "ja": "EMSサービスを利用したいです"
+      },
+      "tokens": {
+        "en": ["I", "would", "like", "to", "use", "EMS", "service"],
+        "th": ["ขอ", "ใช้", "บริการ", "EMS", "ครับ"],
+        "fa": ["می‌خواهم", "از", "سرویس", "EMS", "استفاده", "کنم"],
+        "ar": ["أريد", "استخدام", "خدمة", "EMS"],
+        "es": ["Quiero", "usar", "el", "servicio", "EMS"],
+        "zh": ["我", "想", "使用", "EMS", "服务"],
+        "ja": ["EMS", "サービス", "を", "利用", "し", "たい", "です"]
+      }
+    },
+    {
+      "id": "word_ems",
+      "kind": "word",
+      "texts": {
+        "en": "EMS",
+        "th": "EMS",
+        "fa": "EMS",
+        "ar": "EMS",
+        "es": "EMS",
+        "zh": "EMS",
+        "ja": "EMS"
+      }
+    },
+    {
+      "id": "word_express",
+      "kind": "word",
+      "texts": {
+        "en": "express",
+        "th": "ด่วน",
+        "fa": "فوری",
+        "ar": "عاجل",
+        "es": "urgente",
+        "zh": "特快",
+        "ja": "速達"
+      }
+    },
+    {
+      "id": "word_registered",
+      "kind": "word",
+      "texts": {
+        "en": "registered",
+        "th": "ลงทะเบียน",
+        "fa": "سفارشی",
+        "ar": "مسجل",
+        "es": "certificado",
+        "zh": "挂号",
+        "ja": "書留"
+      }
+    },
+    {
+      "id": "word_service",
+      "kind": "word",
+      "texts": {
+        "en": "service",
+        "th": "บริการ",
+        "fa": "سرویس",
+        "ar": "خدمة",
+        "es": "servicio",
+        "zh": "服务",
+        "ja": "サービス"
+      }
+    },
+    {
+      "id": "word_fast",
+      "kind": "word",
+      "texts": {
+        "en": "fast",
+        "th": "เร็ว",
+        "fa": "سریع",
+        "ar": "سريع",
+        "es": "rápido",
+        "zh": "快",
+        "ja": "速い"
+      }
+    },
+    {
+      "id": "word_slow",
+      "kind": "word",
+      "texts": {
+        "en": "slow",
+        "th": "ช้า",
+        "fa": "آهسته",
+        "ar": "بطيء",
+        "es": "lento",
+        "zh": "慢",
+        "ja": "遅い"
+      }
+    },
+    {
+      "id": "word_guarantee",
+      "kind": "word",
+      "texts": {
+        "en": "guarantee",
+        "th": "รับประกัน",
+        "fa": "تضمین",
+        "ar": "ضمان",
+        "es": "garantía",
+        "zh": "保证",
+        "ja": "保証"
+      }
+    },
+    {
+      "id": "word_how_many",
+      "kind": "word",
+      "texts": {
+        "en": "how many",
+        "th": "กี่",
+        "fa": "چند",
+        "ar": "كم",
+        "es": "cuántos",
+        "zh": "几",
+        "ja": "いくつ / 何"
+      }
+    },
+    {
+      "id": "word_day",
+      "kind": "word",
+      "texts": {
+        "en": "day",
+        "th": "วัน",
+        "fa": "روز",
+        "ar": "يوم",
+        "es": "día",
+        "zh": "天",
+        "ja": "日"
+      }
+    },
+    {
+      "id": "word_tomorrow",
+      "kind": "word",
+      "texts": {
+        "en": "tomorrow",
+        "th": "พรุ่งนี้",
+        "fa": "فردا",
+        "ar": "غدا",
+        "es": "mañana",
+        "zh": "明天",
+        "ja": "明日"
+      }
+    },
+    {
+      "id": "word_also",
+      "kind": "word",
+      "texts": {
+        "en": "also / too",
+        "th": "ด้วย",
+        "fa": "هم",
+        "ar": "أيضا",
+        "es": "también",
+        "zh": "也",
+        "ja": "も"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Postage, Payment & Receipt",
+        "th": "สถานการณ์ 4: ค่าส่ง การชำระเงิน และใบเสร็จ",
+        "fa": "سناریوی 4: هزینه پست، پرداخت و رسید",
+        "ar": "السيناريو 4: رسوم البريد والدفع والإيصال",
+        "es": "Escenario 4: Franqueo, pago y recibo",
+        "zh": "场景 4：邮资、付款和收据",
+        "ja": "場面4：郵便料金・支払い・領収書"
+      }
+    },
+    {
+      "id": "sentence_pay_total_how_much",
+      "kind": "sentence",
+      "itemIds": ["word_how_much", "word_total", "word_postage"],
+      "texts": {
+        "en": "How much is the total postage",
+        "th": "ค่าส่งทั้งหมดเท่าไหร่ครับ",
+        "fa": "هزینه کل پست چقدر است",
+        "ar": "كم إجمالي رسوم البريد",
+        "es": "Cuánto es el coste de envío total",
+        "zh": "总邮资是多少",
+        "ja": "郵便料金の合計はいくらですか"
+      },
+      "tokens": {
+        "en": ["How", "much", "is", "the", "total", "postage"],
+        "th": ["ค่าส่ง", "ทั้งหมด", "เท่าไหร่", "ครับ"],
+        "fa": ["هزینه", "کل", "پست", "چقدر", "است"],
+        "ar": ["كم", "إجمالي", "رسوم", "البريد"],
+        "es": ["Cuánto", "es", "el", "coste", "de", "envío", "total"],
+        "zh": ["总", "邮资", "是", "多少"],
+        "ja": ["郵便料金", "の", "合計", "は", "いくら", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_pay_150_baht",
+      "kind": "sentence",
+      "itemIds": ["word_postage", "word_baht"],
+      "texts": {
+        "en": "The postage is one hundred fifty baht",
+        "th": "ค่าส่งหนึ่งร้อยห้าสิบบาทค่ะ",
+        "fa": "هزینه پست صد و پنجاه بات است",
+        "ar": "رسوم البريد مئة وخمسون بات",
+        "es": "El coste de envío es ciento cincuenta baht",
+        "zh": "邮资是一百五十泰铢",
+        "ja": "郵便料金は百五十バーツです"
+      },
+      "tokens": {
+        "en": ["The", "postage", "is", "one", "hundred", "fifty", "baht"],
+        "th": ["ค่าส่ง", "หนึ่งร้อย", "ห้าสิบ", "บาท", "ค่ะ"],
+        "fa": ["هزینه", "پست", "صد", "و", "پنجاه", "بات", "است"],
+        "ar": ["رسوم", "البريد", "مئة", "وخمسون", "بات"],
+        "es": [
+          "El",
+          "coste",
+          "de",
+          "envío",
+          "es",
+          "ciento",
+          "cincuenta",
+          "baht"
+        ],
+        "zh": ["邮资", "是", "一百五十", "泰铢"],
+        "ja": ["郵便料金", "は", "百五十", "バーツ", "です"]
+      }
+    },
+    {
+      "id": "sentence_pay_cash_or_card",
+      "kind": "sentence",
+      "itemIds": ["word_pay", "word_cash", "word_credit_card"],
+      "texts": {
+        "en": "Will you pay by cash or credit card",
+        "th": "จ่ายด้วยเงินสดหรือบัตรเครดิตคะ",
+        "fa": "با نقد پرداخت می‌کنید یا کارت اعتباری",
+        "ar": "هل تدفع نقدا أم ببطاقة الائتمان",
+        "es": "Paga en efectivo o con tarjeta de crédito",
+        "zh": "用现金还是信用卡支付",
+        "ja": "現金とクレジットカードのどちらで支払いますか"
+      },
+      "tokens": {
+        "en": ["Will", "you", "pay", "by", "cash", "or", "credit", "card"],
+        "th": ["จ่าย", "ด้วย", "เงินสด", "หรือ", "บัตรเครดิต", "คะ"],
+        "fa": ["با", "نقد", "پرداخت", "می‌کنید", "یا", "کارت", "اعتباری"],
+        "ar": ["هل", "تدفع", "نقدا", "أم", "ببطاقة", "الائتمان"],
+        "es": [
+          "Paga",
+          "en",
+          "efectivo",
+          "o",
+          "con",
+          "tarjeta",
+          "de",
+          "crédito"
+        ],
+        "zh": ["用", "现金", "还是", "信用卡", "支付"],
+        "ja": [
+          "現金",
+          "と",
+          "クレジットカード",
+          "の",
+          "どちら",
+          "で",
+          "支払い",
+          "ます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_pay_cash",
+      "kind": "sentence",
+      "itemIds": ["word_pay", "word_cash"],
+      "texts": {
+        "en": "I will pay by cash",
+        "th": "จ่ายด้วยเงินสดครับ",
+        "fa": "با نقد پرداخت می‌کنم",
+        "ar": "سأدفع نقدا",
+        "es": "Pago en efectivo",
+        "zh": "我用现金支付",
+        "ja": "現金で支払います"
+      },
+      "tokens": {
+        "en": ["I", "will", "pay", "by", "cash"],
+        "th": ["จ่าย", "ด้วย", "เงินสด", "ครับ"],
+        "fa": ["با", "نقد", "پرداخت", "می‌کنم"],
+        "ar": ["سأدفع", "نقدا"],
+        "es": ["Pago", "en", "efectivo"],
+        "zh": ["我", "用", "现金", "支付"],
+        "ja": ["現金", "で", "支払い", "ます"]
+      }
+    },
+    {
+      "id": "sentence_pay_receipt",
+      "kind": "sentence",
+      "itemIds": ["word_receipt", "word_also"],
+      "texts": {
+        "en": "Please give me a receipt too",
+        "th": "ขอใบเสร็จด้วยครับ",
+        "fa": "لطفاً رسید هم بدهید",
+        "ar": "أريد إيصالا أيضا",
+        "es": "Deme un recibo también por favor",
+        "zh": "请也给我收据",
+        "ja": "領収書もお願いします"
+      },
+      "tokens": {
+        "en": ["Please", "give", "me", "a", "receipt", "too"],
+        "th": ["ขอ", "ใบเสร็จ", "ด้วย", "ครับ"],
+        "fa": ["لطفاً", "رسید", "هم", "بدهید"],
+        "ar": ["أريد", "إيصالا", "أيضا"],
+        "es": ["Deme", "un", "recibo", "también", "por", "favor"],
+        "zh": ["请", "也", "给", "我", "收据"],
+        "ja": ["領収書", "も", "お", "願い", "し", "ます"]
+      }
+    },
+    {
+      "id": "sentence_pay_thanks_pleasure",
+      "kind": "sentence",
+      "itemIds": ["word_thank", "word_glad"],
+      "texts": {
+        "en": "Thank you very much my pleasure",
+        "th": "ขอบคุณมากค่ะ ยินดีค่ะ",
+        "fa": "بسیار متشکرم با کمال میل",
+        "ar": "شكرا جزيلا على الرحب والسعة",
+        "es": "Muchas gracias con gusto",
+        "zh": "非常感谢不客气",
+        "ja": "ありがとうございますどういたしまして"
+      },
+      "tokens": {
+        "en": ["Thank", "you", "very", "much", "my", "pleasure"],
+        "th": ["ขอบคุณ", "มาก", "ค่ะ", "ยินดี", "ค่ะ"],
+        "fa": ["بسیار", "متشکرم", "با", "کمال", "میل"],
+        "ar": ["شكرا", "جزيلا", "على", "الرحب", "والسعة"],
+        "es": ["Muchas", "gracias", "con", "gusto"],
+        "zh": ["非常", "感谢", "不", "客气"],
+        "ja": ["ありがとう", "ございます", "どう", "いたし", "まし", "て"]
+      }
+    },
+    {
+      "id": "word_total",
+      "kind": "word",
+      "texts": {
+        "en": "total",
+        "th": "ทั้งหมด",
+        "fa": "کل",
+        "ar": "المجموع",
+        "es": "total",
+        "zh": "总计",
+        "ja": "合計"
+      }
+    },
+    {
+      "id": "word_cash",
+      "kind": "word",
+      "texts": {
+        "en": "cash",
+        "th": "เงินสด",
+        "fa": "نقد",
+        "ar": "نقد",
+        "es": "efectivo",
+        "zh": "现金",
+        "ja": "現金"
+      }
+    },
+    {
+      "id": "word_credit_card",
+      "kind": "word",
+      "texts": {
+        "en": "credit card",
+        "th": "บัตรเครดิต",
+        "fa": "کارت اعتباری",
+        "ar": "بطاقة ائتمان",
+        "es": "tarjeta de crédito",
+        "zh": "信用卡",
+        "ja": "クレジットカード"
+      }
+    },
+    {
+      "id": "word_bank_transfer",
+      "kind": "word",
+      "texts": {
+        "en": "bank transfer",
+        "th": "โอนเงิน",
+        "fa": "حواله بانکی",
+        "ar": "تحويل بنكي",
+        "es": "transferencia bancaria",
+        "zh": "银行转账",
+        "ja": "銀行振込"
+      }
+    },
+    {
+      "id": "word_pay",
+      "kind": "word",
+      "texts": {
+        "en": "pay",
+        "th": "จ่าย",
+        "fa": "پرداخت",
+        "ar": "دفع",
+        "es": "pagar",
+        "zh": "支付",
+        "ja": "支払う"
+      }
+    },
+    {
+      "id": "word_change",
+      "kind": "word",
+      "texts": {
+        "en": "change",
+        "th": "เงินทอน",
+        "fa": "باقی پول",
+        "ar": "باقي",
+        "es": "cambio",
+        "zh": "找零",
+        "ja": "お釣り"
+      }
+    },
+    {
+      "id": "word_expensive",
+      "kind": "word",
+      "texts": {
+        "en": "expensive",
+        "th": "แพง",
+        "fa": "گران",
+        "ar": "غالي",
+        "es": "caro",
+        "zh": "贵",
+        "ja": "高い"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Picking Up, Tracking & Logistics",
+        "th": "สถานการณ์ 5: รับพัสดุ การติดตาม และเวลาทำการ",
+        "fa": "سناریوی 5: تحویل گرفتن، رهگیری و ساعت کاری",
+        "ar": "السيناريو 5: الاستلام والتتبع وساعات العمل",
+        "es": "Escenario 5: Recoger, seguimiento y logística",
+        "zh": "场景 5：领取、追踪和营业时间",
+        "ja": "場面5：受け取り・追跡・営業時間"
+      }
+    },
+    {
+      "id": "sentence_pickup_package",
+      "kind": "sentence",
+      "itemIds": ["word_pick_up", "word_package", "word_here"],
+      "texts": {
+        "en": "I am here to pick up a package",
+        "th": "มารับพัสดุครับ",
+        "fa": "برای تحویل گرفتن بسته آمده‌ام",
+        "ar": "جئت لاستلام طرد",
+        "es": "Vengo a recoger un paquete",
+        "zh": "我来领取包裹",
+        "ja": "荷物を受け取りに来ました"
+      },
+      "tokens": {
+        "en": ["I", "am", "here", "to", "pick", "up", "a", "package"],
+        "th": ["มา", "รับ", "พัสดุ", "ครับ"],
+        "fa": ["برای", "تحویل", "گرفتن", "بسته", "آمده‌ام"],
+        "ar": ["جئت", "لاستلام", "طرد"],
+        "es": ["Vengo", "a", "recoger", "un", "paquete"],
+        "zh": ["我", "来", "领取", "包裹"],
+        "ja": ["荷物", "を", "受け取り", "に", "来", "まし", "た"]
+      }
+    },
+    {
+      "id": "sentence_pickup_tracking_number",
+      "kind": "sentence",
+      "itemIds": ["word_have", "word_tracking_number"],
+      "texts": {
+        "en": "I have the tracking number with me",
+        "th": "มีเลขพัสดุมาด้วยครับ",
+        "fa": "شماره مرسوله را هم دارم",
+        "ar": "معي رقم الطرد",
+        "es": "Tengo el número de seguimiento",
+        "zh": "我有包裹单号",
+        "ja": "追跡番号を持っています"
+      },
+      "tokens": {
+        "en": ["I", "have", "the", "tracking", "number", "with", "me"],
+        "th": ["มี", "เลขพัสดุ", "มา", "ด้วย", "ครับ"],
+        "fa": ["شماره", "مرسوله", "را", "هم", "دارم"],
+        "ar": ["معي", "رقم", "الطرد"],
+        "es": ["Tengo", "el", "número", "de", "seguimiento"],
+        "zh": ["我", "有", "包裹", "单号"],
+        "ja": ["追跡番号", "を", "持って", "い", "ます"]
+      }
+    },
+    {
+      "id": "sentence_pickup_not_arrived",
+      "kind": "sentence",
+      "itemIds": ["word_package", "word_not_yet"],
+      "texts": {
+        "en": "The package has not arrived yet",
+        "th": "พัสดุยังไม่ถึงค่ะ",
+        "fa": "بسته هنوز نرسیده است",
+        "ar": "الطرد لم يصل بعد",
+        "es": "El paquete aún no ha llegado",
+        "zh": "包裹还未到",
+        "ja": "荷物はまだ届いていません"
+      },
+      "tokens": {
+        "en": ["The", "package", "has", "not", "arrived", "yet"],
+        "th": ["พัสดุ", "ยัง", "ไม่", "ถึง", "ค่ะ"],
+        "fa": ["بسته", "هنوز", "نرسیده", "است"],
+        "ar": ["الطرد", "لم", "يصل", "بعد"],
+        "es": ["El", "paquete", "aún", "no", "ha", "llegado"],
+        "zh": ["包裹", "还", "未", "到"],
+        "ja": ["荷物", "は", "まだ", "届い", "て", "い", "ません"]
+      }
+    },
+    {
+      "id": "sentence_pickup_open_time",
+      "kind": "sentence",
+      "itemIds": ["word_post_office", "word_open", "word_time", "word_what"],
+      "texts": {
+        "en": "What time does the post office open",
+        "th": "ไปรษณีย์เปิดกี่โมงครับ",
+        "fa": "اداره پست ساعت چند باز می‌شود",
+        "ar": "متى يفتح مكتب البريد",
+        "es": "A qué hora abre la oficina de correos",
+        "zh": "邮局几点开门",
+        "ja": "郵便局は何時に開きますか"
+      },
+      "tokens": {
+        "en": ["What", "time", "does", "the", "post", "office", "open"],
+        "th": ["ไปรษณีย์", "เปิด", "กี่โมง", "ครับ"],
+        "fa": ["اداره", "پست", "ساعت", "چند", "باز", "می‌شود"],
+        "ar": ["متى", "يفتح", "مكتب", "البريد"],
+        "es": ["A", "qué", "hora", "abre", "la", "oficina", "de", "correos"],
+        "zh": ["邮局", "几点", "开门"],
+        "ja": ["郵便局", "は", "何時", "に", "開き", "ます", "か"]
+      }
+    },
+    {
+      "id": "sentence_pickup_open_8",
+      "kind": "sentence",
+      "itemIds": ["word_open", "word_eight"],
+      "texts": {
+        "en": "It opens from eight in the morning",
+        "th": "เปิดตั้งแต่แปดโมงเช้าค่ะ",
+        "fa": "از ساعت هشت صبح باز است",
+        "ar": "يفتح من الثامنة صباحا",
+        "es": "Abre desde las ocho de la mañana",
+        "zh": "早上八点开门",
+        "ja": "午前八時から開いています"
+      },
+      "tokens": {
+        "en": ["It", "opens", "from", "eight", "in", "the", "morning"],
+        "th": ["เปิด", "ตั้งแต่", "แปดโมงเช้า", "ค่ะ"],
+        "fa": ["از", "ساعت", "هشت", "صبح", "باز", "است"],
+        "ar": ["يفتح", "من", "الثامنة", "صباحا"],
+        "es": ["Abre", "desde", "las", "ocho", "de", "la", "mañana"],
+        "zh": ["早上", "八点", "开门"],
+        "ja": ["午前", "八時", "から", "開い", "て", "い", "ます"]
+      }
+    },
+    {
+      "id": "sentence_pickup_closed_sunday",
+      "kind": "sentence",
+      "itemIds": ["word_branch", "word_close", "word_sunday"],
+      "texts": {
+        "en": "This branch is closed on Sundays",
+        "th": "สาขานี้ปิดวันอาทิตย์ค่ะ",
+        "fa": "این شعبه یکشنبه‌ها بسته است",
+        "ar": "هذا الفرع مغلق يوم الأحد",
+        "es": "Esta sucursal cierra los domingos",
+        "zh": "这家分店星期天关门",
+        "ja": "この支店は日曜日が休みです"
+      },
+      "tokens": {
+        "en": ["This", "branch", "is", "closed", "on", "Sundays"],
+        "th": ["สาขา", "นี้", "ปิด", "วันอาทิตย์", "ค่ะ"],
+        "fa": ["این", "شعبه", "یکشنبه‌ها", "بسته", "است"],
+        "ar": ["هذا", "الفرع", "مغلق", "يوم", "الأحد"],
+        "es": ["Esta", "sucursal", "cierra", "los", "domingos"],
+        "zh": ["这家", "分店", "星期天", "关门"],
+        "ja": ["この", "支店", "は", "日曜日", "が", "休み", "です"]
+      }
+    },
+    {
+      "id": "word_pick_up",
+      "kind": "word",
+      "texts": {
+        "en": "pick up",
+        "th": "รับ",
+        "fa": "تحویل گرفتن",
+        "ar": "استلام",
+        "es": "recoger",
+        "zh": "领取",
+        "ja": "受け取る"
+      }
+    },
+    {
+      "id": "word_not_yet",
+      "kind": "word",
+      "texts": {
+        "en": "not yet",
+        "th": "ยังไม่ถึง",
+        "fa": "هنوز نرسیده",
+        "ar": "لم يصل بعد",
+        "es": "aún no ha llegado",
+        "zh": "还未到",
+        "ja": "まだ届いていない"
+      }
+    },
+    {
+      "id": "word_open",
+      "kind": "word",
+      "texts": {
+        "en": "open",
+        "th": "เปิด",
+        "fa": "باز",
+        "ar": "فتح",
+        "es": "abrir",
+        "zh": "开放",
+        "ja": "開く"
+      }
+    },
+    {
+      "id": "word_close",
+      "kind": "word",
+      "texts": {
+        "en": "close",
+        "th": "ปิด",
+        "fa": "بسته",
+        "ar": "إغلاق",
+        "es": "cerrar",
+        "zh": "关闭",
+        "ja": "閉まる"
+      }
+    },
+    {
+      "id": "word_time",
+      "kind": "word",
+      "texts": {
+        "en": "time",
+        "th": "เวลา",
+        "fa": "زمان",
+        "ar": "وقت",
+        "es": "hora",
+        "zh": "时间",
+        "ja": "時間"
+      }
+    },
+    {
+      "id": "word_branch",
+      "kind": "word",
+      "texts": {
+        "en": "branch",
+        "th": "สาขา",
+        "fa": "شعبه",
+        "ar": "فرع",
+        "es": "sucursal",
+        "zh": "分店",
+        "ja": "支店"
+      }
+    },
+    {
+      "id": "word_id_card",
+      "kind": "word",
+      "texts": {
+        "en": "ID card",
+        "th": "บัตรประชาชน",
+        "fa": "کارت ملی",
+        "ar": "بطاقة هوية",
+        "es": "documento de identidad",
+        "zh": "身份证",
+        "ja": "身分証明書"
+      }
+    },
+    {
+      "id": "word_have",
+      "kind": "word",
+      "texts": {
+        "en": "have",
+        "th": "มี",
+        "fa": "داشتن",
+        "ar": "يملك",
+        "es": "tener",
+        "zh": "有",
+        "ja": "ある"
+      }
+    },
+    {
+      "id": "word_eight",
+      "kind": "word",
+      "texts": {
+        "en": "eight",
+        "th": "แปด",
+        "fa": "هشت",
+        "ar": "ثمانية",
+        "es": "ocho",
+        "zh": "八",
+        "ja": "八"
+      }
+    },
+    {
+      "id": "word_sunday",
+      "kind": "word",
+      "texts": {
+        "en": "Sunday",
+        "th": "วันอาทิตย์",
+        "fa": "یکشنبه",
+        "ar": "الأحد",
+        "es": "domingo",
+        "zh": "星期天",
+        "ja": "日曜日"
+      }
+    }
+  ]
+}

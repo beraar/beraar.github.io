@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zabon</title>
+    <meta
+      name="description"
+      content="Zabon is a free, open language learning app: lessons, flashcards, quizzes and speech in English, Thai, Persian, Arabic, Spanish, Chinese and Japanese."
+    />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="https://ebbi.github.io/og.png" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://ebbi.github.io/" />
+    <meta name="theme-color" content="#2f6f4f" />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="#0a0a0a"
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Zabon" />
+    <meta property="og:title" content="Zabon — Learn languages" />
+    <meta
+      property="og:description"
+      content="Zabon is a free, open language learning app: lessons, flashcards, quizzes and speech in English, Thai, Persian, Arabic, Spanish, Chinese and Japanese."
+    />
+    <meta property="og:url" content="https://ebbi.github.io/" />
+    <meta property="og:image" content="https://ebbi.github.io/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="800" />
+    <meta property="og:image:alt" content="Zabon" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="th_TH" />
+    <meta property="og:locale:alternate" content="fa_IR" />
+    <meta property="og:locale:alternate" content="ar_EG" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:locale:alternate" content="ja_JP" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Zabon — Learn Languages" />
+    <meta
+      name="twitter:description"
+      content="Zabon is a free, open language learning app: lessons, flashcards, quizzes and speech in English, Thai, Persian, Arabic, Spanish, Chinese and Japanese."
+    />
+    <meta name="twitter:image" content="https://ebbi.github.io/og.png" />
+
+    <!-- JSON-LD structured data (WebApplication) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Zabon",
+        "url": "https://ebbi.github.io/",
+        "image": "https://ebbi.github.io/og.png",
+        "description": "Zabon is a free, open language learning app: lessons, flashcards, quizzes and speech in English, Thai, Persian, Arabic, Spanish, Chinese and Japanese.",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "inLanguage": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+        "teaches": "languages",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+
+    <!-- Preconnect to Google Fonts servers for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Dynamic Google Fonts API link (Always serves the latest valid versions) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Noto+Serif+Thai:wght@400;600&family=Prompt:wght@400;600&family=Vazirmatn:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="main.min.css" />
+  </head>
+
+  <body>
+    <noscript>
+      <p style="padding: 1rem; font-family: system-ui, sans-serif">
+        Zabon requires JavaScript. Please enable JavaScript to use the app.
+      </p>
+    </noscript>
+    <div class="app-shell">
+      <header class="app-toolbar">
+        <h1 class="app-toolbar__title" data-ui-string="appTitle">Zabon</h1>
+        <button
+          type="button"
+          class="icon-button"
+          data-action="toggle-hamburger"
+          aria-expanded="false"
+          aria-label="Menu"
+        >
+          ☰
+        </button>
+      </header>
+
+      <main class="app-main">
+        <section id="onboarding-view" class="view" hidden></section>
+        <section id="home-view" class="view"></section>
+        <section id="lesson-view" class="view" hidden></section>
+        <section id="flashcard-view" class="view" hidden></section>
+        <section id="quiz-view" class="view" hidden></section>
+        <section id="build-view" class="view" hidden></section>
+        <section id="progress-view" class="view" hidden></section>
+        <section id="help-view" class="view" hidden></section>
+        <section id="voicetest-view" class="view" hidden></section>
+      </main>
+
+      <div id="action-bar" class="action-bar" hidden>
+        <button
+          type="button"
+          class="icon-button"
+          data-action="open-flashcards"
+          data-ui-label="wordFlashcards"
+          aria-label="Word flashcards"
+        >
+          🃏
+        </button>
+        <button
+          type="button"
+          class="icon-button"
+          data-action="open-sentence-flashcards"
+          data-ui-label="sentenceFlashcards"
+          aria-label="Sentence flashcards"
+        >
+          💬
+        </button>
+        <button
+          type="button"
+          class="icon-button"
+          data-action="open-quiz"
+          data-ui-label="wordQuiz"
+          aria-label="Word quiz"
+        >
+          ❓
+        </button>
+        <button
+          type="button"
+          class="icon-button"
+          data-action="open-sentence-quiz"
+          data-ui-label="sentenceQuiz"
+          aria-label="Sentence quiz"
+        >
+          📝
+        </button>
+        <button
+          type="button"
+          class="icon-button"
+          data-action="open-build-sentence"
+          data-ui-label="buildSentence"
+          aria-label="Build a sentence"
+        >
+          🧩
+        </button>
+      </div>
+
+      <div id="bottom-bar" class="bottom-bar" hidden>
+        <button
+          type="button"
+          class="icon-button icon-button--large"
+          data-action="media-play"
+          aria-label="Play"
+        >
+          ▶
+        </button>
+        <button
+          type="button"
+          class="icon-button icon-button--large"
+          data-action="media-stop"
+          aria-label="Stop"
+          disabled
+        >
+          ◼
+        </button>
+        <button
+          type="button"
+          class="icon-button icon-button--large"
+          data-action="open-settings"
+          aria-label="Settings"
+        >
+          ⚙
+        </button>
+      </div>
+
+      <div
+        id="hamburger-backdrop"
+        class="backdrop"
+        data-action="close-hamburger"
+        hidden
+      ></div>
+      <div id="hamburger-panel" class="hamburger-panel" hidden>
+        <div class="panel-row">
+          <button
+            type="button"
+            class="panel-nav__button"
+            data-action="open-help"
+          >
+            <span class="panel-nav__icon">💡</span>
+            <span
+              class="panel-toggle__label"
+              data-ui-string="gettingStarted"
+            ></span>
+          </button>
+
+          <button type="button" class="panel-toggle" data-action="cycle-theme">
+            <span id="theme-icon" class="panel-toggle__icon">🌗</span>
+            <span id="theme-label" class="panel-toggle__label"
+              >Theme: Auto</span
+            >
+          </button>
+          <button type="button" class="panel-toggle" data-action="cycle-font">
+            <span id="font-icon" class="panel-toggle__icon">🔤</span>
+            <span id="font-label" class="panel-toggle__label"
+              >Font: Modern</span
+            >
+          </button>
+          <div class="panel-field">
+            <span class="panel-field__label" data-ui-string="appLanguage"
+              >App language</span
+            >
+            <div id="app-language-control"></div>
+          </div>
+        </div>
+        <div class="panel-nav">
+          <button
+            type="button"
+            class="panel-nav__button"
+            data-action="show-progress"
+          >
+            <span class="panel-nav__icon" aria-hidden="true">📈</span>
+            <span data-ui-string="studyPlanAndProgress"></span>
+          </button>
+          <button
+            type="button"
+            class="panel-nav__button"
+            data-action="open-voice-test"
+          >
+            <span class="panel-toggle__icon">🔊</span>
+            <span class="panel-toggle__label" data-ui-string="testVoices"
+              >Test voices</span
+            >
+          </button>
+        </div>
+      </div>
+
+      <div id="settings-sheet" class="sheet" hidden>
+        <div class="sheet__backdrop" data-action="close-settings"></div>
+        <div class="sheet__panel">
+          <div class="sheet__header">
+            <h2 class="sheet__title" data-ui-string="lessonSettings">
+              Lesson settings
+            </h2>
+            <button
+              type="button"
+              class="icon-button"
+              data-action="close-settings"
+              aria-label="Close"
+            >
+              ✕
+            </button>
+          </div>
+          <div id="settings-body" class="sheet__body"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.min.js"></script>
+  </body>
+</html>

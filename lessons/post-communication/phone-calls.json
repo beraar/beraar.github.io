@@ -1,0 +1,2826 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำหลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras básicas",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "sentence_core_hello",
+      "kind": "sentence",
+      "itemIds": [
+        "word_hello"
+      ],
+      "texts": {
+        "en": "Hello",
+        "th": "สวัสดีครับ",
+        "fa": "سلام",
+        "ar": "مرحبا",
+        "es": "Hola",
+        "zh": "你好",
+        "ja": "こんにちは"
+      },
+      "tokens": {
+        "en": [
+          "Hello"
+        ],
+        "th": [
+          "สวัสดี",
+          "ครับ"
+        ],
+        "fa": [
+          "سلام"
+        ],
+        "ar": [
+          "مرحبا"
+        ],
+        "es": [
+          "Hola"
+        ],
+        "zh": [
+          "你好"
+        ],
+        "ja": [
+          "こんにちは"
+        ]
+      }
+    },
+    {
+      "id": "sentence_core_call_friend",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_want",
+        "word_call",
+        "word_friend"
+      ],
+      "texts": {
+        "en": "I want to call my friend",
+        "th": "ต้องการโทรหาเพื่อนครับ",
+        "fa": "می‌خواهم به دوستم زنگ بزنم",
+        "ar": "أريد الاتصال بصديقي",
+        "es": "Quiero llamar a mi amigo",
+        "zh": "我想给朋友打电话",
+        "ja": "友達に電話したいです"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "want",
+          "to",
+          "call",
+          "my",
+          "friend"
+        ],
+        "th": [
+          "ต้องการ",
+          "โทร",
+          "หา",
+          "เพื่อน",
+          "ครับ"
+        ],
+        "fa": [
+          "می‌خواهم",
+          "به",
+          "دوستم",
+          "زنگ",
+          "بزنم"
+        ],
+        "ar": [
+          "أريد",
+          "الاتصال",
+          "بصديقي"
+        ],
+        "es": [
+          "Quiero",
+          "llamar",
+          "a",
+          "mi",
+          "amigo"
+        ],
+        "zh": [
+          "我",
+          "想",
+          "给",
+          "朋友",
+          "打电话"
+        ],
+        "ja": [
+          "友達",
+          "に",
+          "電話",
+          "し",
+          "たい",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_core_who",
+      "kind": "sentence",
+      "itemIds": [
+        "word_who"
+      ],
+      "texts": {
+        "en": "Who is this",
+        "th": "ใครครับ",
+        "fa": "کی هستید",
+        "ar": "من المتصل",
+        "es": "Quién habla",
+        "zh": "哪位",
+        "ja": "どちら様ですか"
+      },
+      "tokens": {
+        "en": [
+          "Who",
+          "is",
+          "this"
+        ],
+        "th": [
+          "ใคร",
+          "ครับ"
+        ],
+        "fa": [
+          "کی",
+          "هستید"
+        ],
+        "ar": [
+          "من",
+          "المتصل"
+        ],
+        "es": [
+          "Quién",
+          "habla"
+        ],
+        "zh": [
+          "哪位"
+        ],
+        "ja": [
+          "どちら様",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_core_wait_moment",
+      "kind": "sentence",
+      "itemIds": [
+        "word_wait",
+        "word_moment"
+      ],
+      "texts": {
+        "en": "Please wait a moment",
+        "th": "รอสักครู่ครับ",
+        "fa": "لطفاً یک لحظه صبر کنید",
+        "ar": "انتظر لحظة من فضلك",
+        "es": "Espera un momento por favor",
+        "zh": "请稍等",
+        "ja": "少々お待ちください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "wait",
+          "a",
+          "moment"
+        ],
+        "th": [
+          "รอ",
+          "สักครู่",
+          "ครับ"
+        ],
+        "fa": [
+          "لطفاً",
+          "یک",
+          "لحظه",
+          "صبر",
+          "کنید"
+        ],
+        "ar": [
+          "انتظر",
+          "لحظة",
+          "من",
+          "فضلك"
+        ],
+        "es": [
+          "Espera",
+          "un",
+          "momento",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "请",
+          "稍等"
+        ],
+        "ja": [
+          "少々",
+          "お待ち",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_core_wrong_number",
+      "kind": "sentence",
+      "itemIds": [
+        "word_sorry",
+        "word_wrong_number"
+      ],
+      "texts": {
+        "en": "Sorry wrong number",
+        "th": "ขอโทษครับ โทรผิดครับ",
+        "fa": "ببخشید شماره اشتباه است",
+        "ar": "عذرا رقم خاطئ",
+        "es": "Perdón número equivocado",
+        "zh": "对不起打错了",
+        "ja": "すみません間違い電話です"
+      },
+      "tokens": {
+        "en": [
+          "Sorry",
+          "wrong",
+          "number"
+        ],
+        "th": [
+          "ขอโทษ",
+          "ครับ",
+          "โทรผิด",
+          "ครับ"
+        ],
+        "fa": [
+          "ببخشید",
+          "شماره",
+          "اشتباه",
+          "است"
+        ],
+        "ar": [
+          "عذرا",
+          "رقم",
+          "خاطئ"
+        ],
+        "es": [
+          "Perdón",
+          "número",
+          "equivocado"
+        ],
+        "zh": [
+          "对不起",
+          "打错",
+          "了"
+        ],
+        "ja": [
+          "すみません",
+          "間違い",
+          "電話",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_want",
+      "kind": "word",
+      "texts": {
+        "en": "want",
+        "th": "ต้องการ",
+        "fa": "خواستن",
+        "ar": "يريد",
+        "es": "querer",
+        "zh": "想要",
+        "ja": "欲しい"
+      }
+    },
+    {
+      "id": "word_call",
+      "kind": "word",
+      "texts": {
+        "en": "call",
+        "th": "โทร",
+        "fa": "تماس گرفتن",
+        "ar": "اتصال",
+        "es": "llamada",
+        "zh": "打电话",
+        "ja": "電話する"
+      }
+    },
+    {
+      "id": "word_phone",
+      "kind": "word",
+      "texts": {
+        "en": "phone",
+        "th": "โทรศัพท์",
+        "fa": "تلفن",
+        "ar": "هاتف",
+        "es": "teléfono",
+        "zh": "电话",
+        "ja": "電話"
+      }
+    },
+    {
+      "id": "word_answer",
+      "kind": "word",
+      "texts": {
+        "en": "answer",
+        "th": "รับ",
+        "fa": "جواب دادن",
+        "ar": "رد",
+        "es": "contestar",
+        "zh": "接",
+        "ja": "出る"
+      }
+    },
+    {
+      "id": "word_hello",
+      "kind": "word",
+      "texts": {
+        "en": "hello",
+        "th": "สวัสดี",
+        "fa": "سلام",
+        "ar": "مرحبا",
+        "es": "hola",
+        "zh": "你好",
+        "ja": "こんにちは"
+      }
+    },
+    {
+      "id": "word_who",
+      "kind": "word",
+      "texts": {
+        "en": "who",
+        "th": "ใคร",
+        "fa": "چه کسی",
+        "ar": "من",
+        "es": "quién",
+        "zh": "谁",
+        "ja": "誰"
+      }
+    },
+    {
+      "id": "word_friend",
+      "kind": "word",
+      "texts": {
+        "en": "friend",
+        "th": "เพื่อน",
+        "fa": "دوست",
+        "ar": "صديق",
+        "es": "amigo",
+        "zh": "朋友",
+        "ja": "友達"
+      }
+    },
+    {
+      "id": "word_wait",
+      "kind": "word",
+      "texts": {
+        "en": "wait",
+        "th": "รอ",
+        "fa": "صبر کردن",
+        "ar": "انتظار",
+        "es": "esperar",
+        "zh": "等",
+        "ja": "待つ"
+      }
+    },
+    {
+      "id": "word_moment",
+      "kind": "word",
+      "texts": {
+        "en": "moment",
+        "th": "ครู่",
+        "fa": "لحظه",
+        "ar": "لحظة",
+        "es": "momento",
+        "zh": "一会儿",
+        "ja": "少々"
+      }
+    },
+    {
+      "id": "word_sorry",
+      "kind": "word",
+      "texts": {
+        "en": "sorry",
+        "th": "ขอโทษ",
+        "fa": "ببخشید",
+        "ar": "عذرا",
+        "es": "perdón",
+        "zh": "对不起",
+        "ja": "すみません"
+      }
+    },
+    {
+      "id": "word_wrong_number",
+      "kind": "word",
+      "texts": {
+        "en": "wrong number",
+        "th": "โทรผิด",
+        "fa": "شماره اشتباه",
+        "ar": "رقم خاطئ",
+        "es": "número equivocado",
+        "zh": "打错电话",
+        "ja": "間違い電話"
+      }
+    },
+    {
+      "id": "word_later",
+      "kind": "word",
+      "texts": {
+        "en": "later",
+        "th": "ทีหลัง",
+        "fa": "بعداً",
+        "ar": "لاحقاً",
+        "es": "más tarde",
+        "zh": "以后",
+        "ja": "後で"
+      }
+    },
+    {
+      "id": "word_number",
+      "kind": "word",
+      "texts": {
+        "en": "number",
+        "th": "เบอร์",
+        "fa": "شماره",
+        "ar": "رقم",
+        "es": "número",
+        "zh": "号码",
+        "ja": "番号"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Answering & Identifying",
+        "th": "สถานการณ์ 1: รับสายและระบุตัวตน",
+        "fa": "سناریوی 1: پاسخ و شناسایی",
+        "ar": "السيناريو 1: الرد والتعريف",
+        "es": "Escenario 1: Contestar e identificar",
+        "zh": "场景 1：接听与识别",
+        "ja": "場面1：応答と本人確認"
+      }
+    },
+    {
+      "id": "sentence_answer_speaking",
+      "kind": "sentence",
+      "itemIds": [
+        "word_hello",
+        "word_speak"
+      ],
+      "texts": {
+        "en": "Hello Somchai speaking",
+        "th": "สวัสดีครับ สมชายพูดครับ",
+        "fa": "سلام سمچای هستم",
+        "ar": "مرحبا أنا سومشاي",
+        "es": "Hola habla Somchai",
+        "zh": "你好我是颂猜",
+        "ja": "もしもしソムチャイです"
+      },
+      "tokens": {
+        "en": [
+          "Hello",
+          "Somchai",
+          "speaking"
+        ],
+        "th": [
+          "สวัสดี",
+          "ครับ",
+          "สมชาย",
+          "พูด",
+          "ครับ"
+        ],
+        "fa": [
+          "سلام",
+          "سمچای",
+          "هستم"
+        ],
+        "ar": [
+          "مرحبا",
+          "أنا",
+          "سومشاي"
+        ],
+        "es": [
+          "Hola",
+          "habla",
+          "Somchai"
+        ],
+        "zh": [
+          "你好",
+          "我",
+          "是",
+          "颂猜"
+        ],
+        "ja": [
+          "もしもし",
+          "ソムチャイ",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_answer_ask_name",
+      "kind": "sentence",
+      "itemIds": [
+        "word_ask",
+        "word_name"
+      ],
+      "texts": {
+        "en": "May I ask your name",
+        "th": "ขอถามชื่อได้ไหมครับ",
+        "fa": "می‌توانم نام شما را بپرسم",
+        "ar": "هل يمكنني سؤالك عن اسمك",
+        "es": "Puedo preguntarle su nombre",
+        "zh": "可以问您的名字吗",
+        "ja": "お名前を伺ってもいいですか"
+      },
+      "tokens": {
+        "en": [
+          "May",
+          "I",
+          "ask",
+          "your",
+          "name"
+        ],
+        "th": [
+          "ขอ",
+          "ถาม",
+          "ชื่อ",
+          "ได้",
+          "ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "می‌توانم",
+          "نام",
+          "شما",
+          "را",
+          "بپرسم"
+        ],
+        "ar": [
+          "هل",
+          "يمكنني",
+          "سؤالك",
+          "عن",
+          "اسمك"
+        ],
+        "es": [
+          "Puedo",
+          "preguntarle",
+          "su",
+          "nombre"
+        ],
+        "zh": [
+          "可以",
+          "问",
+          "您",
+          "的",
+          "名字",
+          "吗"
+        ],
+        "ja": [
+          "お",
+          "名前",
+          "を",
+          "伺っ",
+          "て",
+          "も",
+          "いい",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_answer_who_that",
+      "kind": "sentence",
+      "itemIds": [
+        "word_who"
+      ],
+      "texts": {
+        "en": "Who is that",
+        "th": "นั่นใครครับ",
+        "fa": "آن کیست",
+        "ar": "من هناك",
+        "es": "Quién es",
+        "zh": "那是谁",
+        "ja": "どちらさまですか"
+      },
+      "tokens": {
+        "en": [
+          "Who",
+          "is",
+          "that"
+        ],
+        "th": [
+          "นั่น",
+          "ใคร",
+          "ครับ"
+        ],
+        "fa": [
+          "آن",
+          "کیست"
+        ],
+        "ar": [
+          "من",
+          "هناك"
+        ],
+        "es": [
+          "Quién",
+          "es"
+        ],
+        "zh": [
+          "那",
+          "是",
+          "谁"
+        ],
+        "ja": [
+          "どちら",
+          "さま",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_answer_my_name",
+      "kind": "sentence",
+      "itemIds": [
+        "word_name"
+      ],
+      "texts": {
+        "en": "My name is Somchai",
+        "th": "ชื่อสมชายครับ",
+        "fa": "نام من سمچای است",
+        "ar": "اسمي سومشاي",
+        "es": "Me llamo Somchai",
+        "zh": "我叫颂猜",
+        "ja": "名前はソムチャイです"
+      },
+      "tokens": {
+        "en": [
+          "My",
+          "name",
+          "is",
+          "Somchai"
+        ],
+        "th": [
+          "ชื่อ",
+          "สมชาย",
+          "ครับ"
+        ],
+        "fa": [
+          "نام",
+          "من",
+          "سمچای",
+          "است"
+        ],
+        "ar": [
+          "اسمي",
+          "سومشاي"
+        ],
+        "es": [
+          "Me",
+          "llamo",
+          "Somchai"
+        ],
+        "zh": [
+          "我",
+          "叫",
+          "颂猜"
+        ],
+        "ja": [
+          "名前",
+          "は",
+          "ソムチャイ",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_answer_hear_clear",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_hear",
+        "word_clear"
+      ],
+      "texts": {
+        "en": "I can hear clearly",
+        "th": "ได้ยินชัดเจนครับ",
+        "fa": "واضح می‌شنوم",
+        "ar": "أسمع بوضوح",
+        "es": "Escucho claramente",
+        "zh": "我听得很清楚",
+        "ja": "はっきり聞こえます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "can",
+          "hear",
+          "clearly"
+        ],
+        "th": [
+          "ได้ยิน",
+          "ชัดเจน",
+          "ครับ"
+        ],
+        "fa": [
+          "واضح",
+          "می‌شنوم"
+        ],
+        "ar": [
+          "أسمع",
+          "بوضوح"
+        ],
+        "es": [
+          "Escucho",
+          "claramente"
+        ],
+        "zh": [
+          "我",
+          "听",
+          "得",
+          "很",
+          "清楚"
+        ],
+        "ja": [
+          "はっきり",
+          "聞こえ",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_answer_please_speak",
+      "kind": "sentence",
+      "itemIds": [
+        "word_please",
+        "word_speak"
+      ],
+      "texts": {
+        "en": "Please speak",
+        "th": "กรุณาพูดด้วยครับ",
+        "fa": "لطفاً صحبت کنید",
+        "ar": "من فضلك تكلم",
+        "es": "Hable por favor",
+        "zh": "请说",
+        "ja": "話してください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "speak"
+        ],
+        "th": [
+          "กรุณา",
+          "พูด",
+          "ด้วย",
+          "ครับ"
+        ],
+        "fa": [
+          "لطفاً",
+          "صحبت",
+          "کنید"
+        ],
+        "ar": [
+          "من",
+          "فضلك",
+          "تكلم"
+        ],
+        "es": [
+          "Hable",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "请",
+          "说"
+        ],
+        "ja": [
+          "話し",
+          "て",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "word_name",
+      "kind": "word",
+      "texts": {
+        "en": "name",
+        "th": "ชื่อ",
+        "fa": "نام",
+        "ar": "اسم",
+        "es": "nombre",
+        "zh": "名字",
+        "ja": "名前"
+      }
+    },
+    {
+      "id": "word_speak",
+      "kind": "word",
+      "texts": {
+        "en": "speak",
+        "th": "พูด",
+        "fa": "صحبت کردن",
+        "ar": "يتكلم",
+        "es": "hablar",
+        "zh": "说",
+        "ja": "話す"
+      }
+    },
+    {
+      "id": "word_ask",
+      "kind": "word",
+      "texts": {
+        "en": "ask",
+        "th": "ถาม",
+        "fa": "پرسیدن",
+        "ar": "يسأل",
+        "es": "preguntar",
+        "zh": "问",
+        "ja": "尋ねる"
+      }
+    },
+    {
+      "id": "word_hear",
+      "kind": "word",
+      "texts": {
+        "en": "hear",
+        "th": "ได้ยิน",
+        "fa": "شنیدن",
+        "ar": "يسمع",
+        "es": "oír",
+        "zh": "听见",
+        "ja": "聞こえる"
+      }
+    },
+    {
+      "id": "word_caller",
+      "kind": "word",
+      "texts": {
+        "en": "caller",
+        "th": "ผู้โทร",
+        "fa": "تماس‌گیرنده",
+        "ar": "المتصل",
+        "es": "persona que llama",
+        "zh": "来电者",
+        "ja": "発信者"
+      }
+    },
+    {
+      "id": "word_please",
+      "kind": "word",
+      "texts": {
+        "en": "please",
+        "th": "กรุณา",
+        "fa": "لطفاً",
+        "ar": "من فضلك",
+        "es": "por favor",
+        "zh": "请",
+        "ja": "お願いします"
+      }
+    },
+    {
+      "id": "word_clear",
+      "kind": "word",
+      "texts": {
+        "en": "clear",
+        "th": "ชัด",
+        "fa": "واضح",
+        "ar": "واضح",
+        "es": "claro",
+        "zh": "清楚",
+        "ja": "はっきり"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Asking for Someone & Holding",
+        "th": "สถานการณ์ 2: ขอพูดกับบุคคลและรอสาย",
+        "fa": "سناریوی 2: درخواست صحبت و انتظار",
+        "ar": "السيناريو 2: طلب شخص والانتظار",
+        "es": "Escenario 2: Pedir hablar con alguien y esperar",
+        "zh": "场景 2：找人与等待",
+        "ja": "場面2：取次ぎと保留"
+      }
+    },
+    {
+      "id": "sentence_ask_may_speak",
+      "kind": "sentence",
+      "itemIds": [
+        "word_speak"
+      ],
+      "texts": {
+        "en": "May I speak with Somying",
+        "th": "ขอพูดกับสมหญิงได้ไหมครับ",
+        "fa": "می‌توانم با سومیینگ صحبت کنم",
+        "ar": "هل يمكنني التحدث مع سوميينغ",
+        "es": "Puedo hablar con Somying",
+        "zh": "我可以和颂英说话吗",
+        "ja": "ソムインと代わっていただけますか"
+      },
+      "tokens": {
+        "en": [
+          "May",
+          "I",
+          "speak",
+          "with",
+          "Somying"
+        ],
+        "th": [
+          "ขอ",
+          "พูด",
+          "กับ",
+          "สมหญิง",
+          "ได้",
+          "ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "می‌توانم",
+          "با",
+          "سومیینگ",
+          "صحبت",
+          "کنم"
+        ],
+        "ar": [
+          "هل",
+          "يمكنني",
+          "التحدث",
+          "مع",
+          "سوميينغ"
+        ],
+        "es": [
+          "Puedo",
+          "hablar",
+          "con",
+          "Somying"
+        ],
+        "zh": [
+          "我",
+          "可以",
+          "和",
+          "颂英",
+          "说话",
+          "吗"
+        ],
+        "ja": [
+          "ソムイン",
+          "と",
+          "代わっ",
+          "て",
+          "いただけ",
+          "ます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ask_not_available",
+      "kind": "sentence",
+      "itemIds": [
+        "word_available"
+      ],
+      "texts": {
+        "en": "Somying is not available",
+        "th": "สมหญิงไม่ว่างครับ",
+        "fa": "سومیینگ در دسترس نیست",
+        "ar": "سوميينغ غير متاحة",
+        "es": "Somying no está disponible",
+        "zh": "颂英没空",
+        "ja": "ソムインは手が空いていません"
+      },
+      "tokens": {
+        "en": [
+          "Somying",
+          "is",
+          "not",
+          "available"
+        ],
+        "th": [
+          "สมหญิง",
+          "ไม่",
+          "ว่าง",
+          "ครับ"
+        ],
+        "fa": [
+          "سومیینگ",
+          "در",
+          "دسترس",
+          "نیست"
+        ],
+        "ar": [
+          "سوميينغ",
+          "غير",
+          "متاحة"
+        ],
+        "es": [
+          "Somying",
+          "no",
+          "está",
+          "disponible"
+        ],
+        "zh": [
+          "颂英",
+          "没空"
+        ],
+        "ja": [
+          "ソムイン",
+          "は",
+          "手",
+          "が",
+          "空い",
+          "て",
+          "い",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ask_hold_line",
+      "kind": "sentence",
+      "itemIds": [
+        "word_please",
+        "word_hold",
+        "word_line",
+        "word_moment"
+      ],
+      "texts": {
+        "en": "Please hold the line for a moment",
+        "th": "กรุณารอสายสักครู่ครับ",
+        "fa": "لطفاً خط را کمی نگه دارید",
+        "ar": "من فضلك انتظر على الخط لحظة",
+        "es": "Espere en la línea un momento por favor",
+        "zh": "请在线路稍等",
+        "ja": "そのまましばらくお待ちください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "hold",
+          "the",
+          "line",
+          "for",
+          "a",
+          "moment"
+        ],
+        "th": [
+          "กรุณา",
+          "รอสาย",
+          "สักครู่",
+          "ครับ"
+        ],
+        "fa": [
+          "لطفاً",
+          "خط",
+          "را",
+          "کمی",
+          "نگه",
+          "دارید"
+        ],
+        "ar": [
+          "من",
+          "فضلك",
+          "انتظر",
+          "على",
+          "الخط",
+          "لحظة"
+        ],
+        "es": [
+          "Espere",
+          "en",
+          "la",
+          "línea",
+          "un",
+          "momento",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "请",
+          "在",
+          "线路",
+          "稍等"
+        ],
+        "ja": [
+          "そのまま",
+          "しばらく",
+          "お",
+          "待ち",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ask_busy",
+      "kind": "sentence",
+      "itemIds": [
+        "word_busy",
+        "word_call"
+      ],
+      "texts": {
+        "en": "He is busy on another call",
+        "th": "เขาติดสายอยู่ครับ",
+        "fa": "او روی خط دیگری است",
+        "ar": "هو مشغول بمكالمة أخرى",
+        "es": "Está ocupado en otra llamada",
+        "zh": "他正在打电话",
+        "ja": "彼は別の電話に出ています"
+      },
+      "tokens": {
+        "en": [
+          "He",
+          "is",
+          "busy",
+          "on",
+          "another",
+          "call"
+        ],
+        "th": [
+          "เขา",
+          "ติดสาย",
+          "อยู่",
+          "ครับ"
+        ],
+        "fa": [
+          "او",
+          "روی",
+          "خط",
+          "دیگری",
+          "است"
+        ],
+        "ar": [
+          "هو",
+          "مشغول",
+          "بمكالمة",
+          "أخرى"
+        ],
+        "es": [
+          "Está",
+          "ocupado",
+          "en",
+          "otra",
+          "llamada"
+        ],
+        "zh": [
+          "他",
+          "正在",
+          "打",
+          "电话"
+        ],
+        "ja": [
+          "彼",
+          "は",
+          "別",
+          "の",
+          "電話",
+          "に",
+          "出",
+          "て",
+          "い",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ask_transfer",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_transfer",
+        "word_call"
+      ],
+      "texts": {
+        "en": "I will transfer the call",
+        "th": "จะโอนสายให้ครับ",
+        "fa": "تماس را وصل می‌کنم",
+        "ar": "سأحول المكالمة",
+        "es": "Transferiré la llamada",
+        "zh": "我会转接电话",
+        "ja": "電話を転送します"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "will",
+          "transfer",
+          "the",
+          "call"
+        ],
+        "th": [
+          "จะ",
+          "โอนสาย",
+          "ให้",
+          "ครับ"
+        ],
+        "fa": [
+          "تماس",
+          "را",
+          "وصل",
+          "می‌کنم"
+        ],
+        "ar": [
+          "سأحول",
+          "المكالمة"
+        ],
+        "es": [
+          "Transferiré",
+          "la",
+          "llamada"
+        ],
+        "zh": [
+          "我",
+          "会",
+          "转接",
+          "电话"
+        ],
+        "ja": [
+          "電話",
+          "を",
+          "転送",
+          "し",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ask_coming",
+      "kind": "sentence",
+      "itemIds": [
+        "word_come"
+      ],
+      "texts": {
+        "en": "He will come shortly",
+        "th": "เดี๋ยวเขามาครับ",
+        "fa": "او به‌زودی می‌آید",
+        "ar": "سيأتي قريبا",
+        "es": "Vendrá enseguida",
+        "zh": "他马上来",
+        "ja": "すぐ来ます"
+      },
+      "tokens": {
+        "en": [
+          "He",
+          "will",
+          "come",
+          "shortly"
+        ],
+        "th": [
+          "เดี๋ยว",
+          "เขา",
+          "มา",
+          "ครับ"
+        ],
+        "fa": [
+          "او",
+          "به‌زودی",
+          "می‌آید"
+        ],
+        "ar": [
+          "سيأتي",
+          "قريبا"
+        ],
+        "es": [
+          "Vendrá",
+          "enseguida"
+        ],
+        "zh": [
+          "他",
+          "马上",
+          "来"
+        ],
+        "ja": [
+          "すぐ",
+          "来",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "word_person",
+      "kind": "word",
+      "texts": {
+        "en": "person",
+        "th": "คน",
+        "fa": "شخص",
+        "ar": "شخص",
+        "es": "persona",
+        "zh": "人",
+        "ja": "人"
+      }
+    },
+    {
+      "id": "word_available",
+      "kind": "word",
+      "texts": {
+        "en": "available",
+        "th": "ว่าง",
+        "fa": "در دسترس",
+        "ar": "متاح",
+        "es": "disponible",
+        "zh": "有空",
+        "ja": "手が空いている"
+      }
+    },
+    {
+      "id": "word_hold",
+      "kind": "word",
+      "texts": {
+        "en": "hold",
+        "th": "รอสาย",
+        "fa": "نگه داشتن",
+        "ar": "انتظار",
+        "es": "esperar",
+        "zh": "稍等",
+        "ja": "保留する"
+      }
+    },
+    {
+      "id": "word_line",
+      "kind": "word",
+      "texts": {
+        "en": "line",
+        "th": "สาย",
+        "fa": "خط",
+        "ar": "خط",
+        "es": "línea",
+        "zh": "线路",
+        "ja": "回線"
+      }
+    },
+    {
+      "id": "word_transfer",
+      "kind": "word",
+      "texts": {
+        "en": "transfer",
+        "th": "โอนสาย",
+        "fa": "وصل کردن",
+        "ar": "تحويل",
+        "es": "transferir",
+        "zh": "转接",
+        "ja": "転送する"
+      }
+    },
+    {
+      "id": "word_busy",
+      "kind": "word",
+      "texts": {
+        "en": "busy",
+        "th": "ติดสาย",
+        "fa": "مشغول",
+        "ar": "مشغول",
+        "es": "ocupado",
+        "zh": "占线",
+        "ja": "話し中"
+      }
+    },
+    {
+      "id": "word_come",
+      "kind": "word",
+      "texts": {
+        "en": "come",
+        "th": "มา",
+        "fa": "آمدن",
+        "ar": "يأتي",
+        "es": "venir",
+        "zh": "来",
+        "ja": "来る"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Call Problems & Repetition",
+        "th": "สถานการณ์ 3: ปัญหาการโทรและการพูดซ้ำ",
+        "fa": "سناریوی 3: مشکلات تماس و تکرار",
+        "ar": "السيناريو 3: مشكلات المكالمة والتكرار",
+        "es": "Escenario 3: Problemas de llamada y repetición",
+        "zh": "场景 3：通话问题与重复",
+        "ja": "場面3：通話トラブルと繰り返し"
+      }
+    },
+    {
+      "id": "sentence_problem_signal",
+      "kind": "sentence",
+      "itemIds": [
+        "word_signal"
+      ],
+      "texts": {
+        "en": "The signal is bad",
+        "th": "สัญญาณไม่ดีครับ",
+        "fa": "آنتن ضعیف است",
+        "ar": "الإشارة ضعيفة",
+        "es": "La señal es mala",
+        "zh": "信号不好",
+        "ja": "電波が悪いです"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "signal",
+          "is",
+          "bad"
+        ],
+        "th": [
+          "สัญญาณ",
+          "ไม่",
+          "ดี",
+          "ครับ"
+        ],
+        "fa": [
+          "آنتن",
+          "ضعیف",
+          "است"
+        ],
+        "ar": [
+          "الإشارة",
+          "ضعيفة"
+        ],
+        "es": [
+          "La",
+          "señal",
+          "es",
+          "mala"
+        ],
+        "zh": [
+          "信号",
+          "不好"
+        ],
+        "ja": [
+          "電波",
+          "が",
+          "悪い",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_problem_not_clear",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_hear",
+        "word_clear"
+      ],
+      "texts": {
+        "en": "I cannot hear clearly",
+        "th": "ได้ยินไม่ชัดครับ",
+        "fa": "واضح نمی‌شنوم",
+        "ar": "لا أسمع بوضوح",
+        "es": "No escucho claramente",
+        "zh": "我听不清楚",
+        "ja": "よく聞こえません"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "cannot",
+          "hear",
+          "clearly"
+        ],
+        "th": [
+          "ได้ยิน",
+          "ไม่",
+          "ชัด",
+          "ครับ"
+        ],
+        "fa": [
+          "واضح",
+          "نمی‌شنوم"
+        ],
+        "ar": [
+          "لا",
+          "أسمع",
+          "بوضوح"
+        ],
+        "es": [
+          "No",
+          "escucho",
+          "claramente"
+        ],
+        "zh": [
+          "我",
+          "听",
+          "不",
+          "清楚"
+        ],
+        "ja": [
+          "よく",
+          "聞こえ",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_problem_slow",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_speak",
+        "word_slow"
+      ],
+      "texts": {
+        "en": "Can you speak slowly",
+        "th": "พูดช้าๆ ได้ไหมครับ",
+        "fa": "می‌توانید آهسته صحبت کنید",
+        "ar": "هل يمكنك التحدث ببطء",
+        "es": "Puedes hablar despacio",
+        "zh": "你可以说慢一点吗",
+        "ja": "ゆっくり話せますか"
+      },
+      "tokens": {
+        "en": [
+          "Can",
+          "you",
+          "speak",
+          "slowly"
+        ],
+        "th": [
+          "พูด",
+          "ช้าๆ",
+          "ได้",
+          "ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "می‌توانید",
+          "آهسته",
+          "صحبت",
+          "کنید"
+        ],
+        "ar": [
+          "هل",
+          "يمكنك",
+          "التحدث",
+          "ببطء"
+        ],
+        "es": [
+          "Puedes",
+          "hablar",
+          "despacio"
+        ],
+        "zh": [
+          "你",
+          "可以",
+          "说",
+          "慢",
+          "一点",
+          "吗"
+        ],
+        "ja": [
+          "ゆっくり",
+          "話せ",
+          "ます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_problem_repeat",
+      "kind": "sentence",
+      "itemIds": [
+        "word_repeat"
+      ],
+      "texts": {
+        "en": "Could you say that again",
+        "th": "ช่วยพูดอีกครั้งได้ไหมครับ",
+        "fa": "می‌توانید دوباره بگویید",
+        "ar": "هل يمكنك تكرار ذلك",
+        "es": "Puedes repetirlo",
+        "zh": "你可以再说一遍吗",
+        "ja": "もう一度言っていただけますか"
+      },
+      "tokens": {
+        "en": [
+          "Could",
+          "you",
+          "say",
+          "that",
+          "again"
+        ],
+        "th": [
+          "ช่วย",
+          "พูด",
+          "อีกครั้ง",
+          "ได้",
+          "ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "می‌توانید",
+          "دوباره",
+          "بگویید"
+        ],
+        "ar": [
+          "هل",
+          "يمكنك",
+          "تكرار",
+          "ذلك"
+        ],
+        "es": [
+          "Puedes",
+          "repetirlo"
+        ],
+        "zh": [
+          "你",
+          "可以",
+          "再",
+          "说",
+          "一遍",
+          "吗"
+        ],
+        "ja": [
+          "もう",
+          "一度",
+          "言っ",
+          "て",
+          "いただけ",
+          "ます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_problem_understand",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_understand"
+      ],
+      "texts": {
+        "en": "I understand now",
+        "th": "เข้าใจแล้วครับ",
+        "fa": "حالا فهمیدم",
+        "ar": "فهمت الآن",
+        "es": "Ahora entiendo",
+        "zh": "我明白了",
+        "ja": "わかりました"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "understand",
+          "now"
+        ],
+        "th": [
+          "เข้าใจ",
+          "แล้ว",
+          "ครับ"
+        ],
+        "fa": [
+          "حالا",
+          "فهمیدم"
+        ],
+        "ar": [
+          "فهمت",
+          "الآن"
+        ],
+        "es": [
+          "Ahora",
+          "entiendo"
+        ],
+        "zh": [
+          "我",
+          "明白",
+          "了"
+        ],
+        "ja": [
+          "わかり",
+          "まし",
+          "た"
+        ]
+      }
+    },
+    {
+      "id": "sentence_problem_loud",
+      "kind": "sentence",
+      "itemIds": [
+        "word_loud"
+      ],
+      "texts": {
+        "en": "The sound is too loud",
+        "th": "เสียงดังไปครับ",
+        "fa": "صدا خیلی بلند است",
+        "ar": "الصوت مرتفع جدا",
+        "es": "El sonido está demasiado alto",
+        "zh": "声音太大了",
+        "ja": "音が大きすぎます"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "sound",
+          "is",
+          "too",
+          "loud"
+        ],
+        "th": [
+          "เสียง",
+          "ดัง",
+          "ไป",
+          "ครับ"
+        ],
+        "fa": [
+          "صدا",
+          "خیلی",
+          "بلند",
+          "است"
+        ],
+        "ar": [
+          "الصوت",
+          "مرتفع",
+          "جدا"
+        ],
+        "es": [
+          "El",
+          "sonido",
+          "está",
+          "demasiado",
+          "alto"
+        ],
+        "zh": [
+          "声音",
+          "太大",
+          "了"
+        ],
+        "ja": [
+          "音",
+          "が",
+          "大きすぎ",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "word_signal",
+      "kind": "word",
+      "texts": {
+        "en": "signal",
+        "th": "สัญญาณ",
+        "fa": "آنتن",
+        "ar": "إشارة",
+        "es": "señal",
+        "zh": "信号",
+        "ja": "電波"
+      }
+    },
+    {
+      "id": "word_loud",
+      "kind": "word",
+      "texts": {
+        "en": "loud",
+        "th": "ดัง",
+        "fa": "بلند",
+        "ar": "مرتفع",
+        "es": "alto",
+        "zh": "大声",
+        "ja": "大きい"
+      }
+    },
+    {
+      "id": "word_slow",
+      "kind": "word",
+      "texts": {
+        "en": "slow",
+        "th": "ช้า",
+        "fa": "آهسته",
+        "ar": "بطيء",
+        "es": "lento",
+        "zh": "慢",
+        "ja": "遅い"
+      }
+    },
+    {
+      "id": "word_repeat",
+      "kind": "word",
+      "texts": {
+        "en": "repeat",
+        "th": "พูดอีกครั้ง",
+        "fa": "تکرار کردن",
+        "ar": "يكرر",
+        "es": "repetir",
+        "zh": "再说一遍",
+        "ja": "もう一度言う"
+      }
+    },
+    {
+      "id": "word_understand",
+      "kind": "word",
+      "texts": {
+        "en": "understand",
+        "th": "เข้าใจ",
+        "fa": "فهمیدن",
+        "ar": "يفهم",
+        "es": "entender",
+        "zh": "明白",
+        "ja": "分かる"
+      }
+    },
+    {
+      "id": "word_noise",
+      "kind": "word",
+      "texts": {
+        "en": "noise",
+        "th": "เสียงรบกวน",
+        "fa": "سر و صدا",
+        "ar": "ضوضاء",
+        "es": "ruido",
+        "zh": "噪音",
+        "ja": "雑音"
+      }
+    },
+    {
+      "id": "word_quiet",
+      "kind": "word",
+      "texts": {
+        "en": "quiet",
+        "th": "เงียบ",
+        "fa": "ساکت",
+        "ar": "هادئ",
+        "es": "silencioso",
+        "zh": "安静",
+        "ja": "静か"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Messages & Callbacks",
+        "th": "สถานการณ์ 4: ข้อความและการโทรกลับ",
+        "fa": "سناریوی 4: پیام‌ها و تماس‌های بازگشت",
+        "ar": "السيناريو 4: الرسائل والاتصال اللاحق",
+        "es": "Escenario 4: Mensajes y devoluciones de llamada",
+        "zh": "场景 4：留言与回电",
+        "ja": "場面4：伝言と折り返し電話"
+      }
+    },
+    {
+      "id": "sentence_msg_leave",
+      "kind": "sentence",
+      "itemIds": [
+        "word_leave",
+        "word_message"
+      ],
+      "texts": {
+        "en": "Can I leave a message",
+        "th": "ฝากข้อความได้ไหมครับ",
+        "fa": "می‌توانم پیام بگذارم",
+        "ar": "هل يمكنني ترك رسالة",
+        "es": "Puedo dejar un mensaje",
+        "zh": "我可以留言吗",
+        "ja": "伝言を残せますか"
+      },
+      "tokens": {
+        "en": [
+          "Can",
+          "I",
+          "leave",
+          "a",
+          "message"
+        ],
+        "th": [
+          "ฝาก",
+          "ข้อความ",
+          "ได้",
+          "ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "می‌توانم",
+          "پیام",
+          "بگذارم"
+        ],
+        "ar": [
+          "هل",
+          "يمكنني",
+          "ترك",
+          "رسالة"
+        ],
+        "es": [
+          "Puedo",
+          "dejar",
+          "un",
+          "mensaje"
+        ],
+        "zh": [
+          "我",
+          "可以",
+          "留言",
+          "吗"
+        ],
+        "ja": [
+          "伝言",
+          "を",
+          "残せ",
+          "ます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_msg_tell_call_back",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_tell",
+        "word_call_back"
+      ],
+      "texts": {
+        "en": "Could you tell him to call back",
+        "th": "ช่วยบอกเขาให้โทรกลับได้ไหมครับ",
+        "fa": "لطفاً به او بگویید تماس بازگشت بگیرد",
+        "ar": "هل يمكنك إخباره أن يعاود الاتصال",
+        "es": "Puedes decirle que devuelva la llamada",
+        "zh": "请告诉他回电话",
+        "ja": "折り返し電話するように伝えていただけますか"
+      },
+      "tokens": {
+        "en": [
+          "Could",
+          "you",
+          "tell",
+          "him",
+          "to",
+          "call",
+          "back"
+        ],
+        "th": [
+          "ช่วย",
+          "บอก",
+          "เขา",
+          "ให้",
+          "โทรกลับ",
+          "ได้",
+          "ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "لطفاً",
+          "به",
+          "او",
+          "بگویید",
+          "تماس",
+          "بازگشت",
+          "بگیرد"
+        ],
+        "ar": [
+          "هل",
+          "يمكنك",
+          "إخباره",
+          "أن",
+          "يعاود",
+          "الاتصال"
+        ],
+        "es": [
+          "Puedes",
+          "decirle",
+          "que",
+          "devuelva",
+          "la",
+          "llamada"
+        ],
+        "zh": [
+          "请",
+          "告诉",
+          "他",
+          "回",
+          "电话"
+        ],
+        "ja": [
+          "折り返し",
+          "電話",
+          "する",
+          "よう",
+          "に",
+          "伝え",
+          "て",
+          "いただけ",
+          "ます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_msg_call_later",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_call_back",
+        "word_later"
+      ],
+      "texts": {
+        "en": "I will call back later",
+        "th": "เดี๋ยวโทรกลับครับ",
+        "fa": "بعداً تماس بازگشت می‌گیرم",
+        "ar": "سأعاود الاتصال لاحقاً",
+        "es": "Devolveré la llamada más tarde",
+        "zh": "我晚点回电话",
+        "ja": "後で折り返します"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "will",
+          "call",
+          "back",
+          "later"
+        ],
+        "th": [
+          "เดี๋ยว",
+          "โทรกลับ",
+          "ครับ"
+        ],
+        "fa": [
+          "بعداً",
+          "تماس",
+          "بازگشت",
+          "می‌گیرم"
+        ],
+        "ar": [
+          "سأعاود",
+          "الاتصال",
+          "لاحقاً"
+        ],
+        "es": [
+          "Devolveré",
+          "la",
+          "llamada",
+          "más",
+          "tarde"
+        ],
+        "zh": [
+          "我",
+          "晚点",
+          "回",
+          "电话"
+        ],
+        "ja": [
+          "後で",
+          "折り返し",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_msg_urgent",
+      "kind": "sentence",
+      "itemIds": [
+        "word_urgent"
+      ],
+      "texts": {
+        "en": "This matter is urgent",
+        "th": "เรื่องนี้เร่งด่วนครับ",
+        "fa": "این موضوع فوری است",
+        "ar": "هذا الأمر عاجل",
+        "es": "Este asunto es urgente",
+        "zh": "这件事很紧急",
+        "ja": "この件は緊急です"
+      },
+      "tokens": {
+        "en": [
+          "This",
+          "matter",
+          "is",
+          "urgent"
+        ],
+        "th": [
+          "เรื่อง",
+          "นี้",
+          "เร่งด่วน",
+          "ครับ"
+        ],
+        "fa": [
+          "این",
+          "موضوع",
+          "فوری",
+          "است"
+        ],
+        "ar": [
+          "هذا",
+          "الأمر",
+          "عاجل"
+        ],
+        "es": [
+          "Este",
+          "asunto",
+          "es",
+          "urgente"
+        ],
+        "zh": [
+          "这",
+          "件",
+          "事",
+          "很",
+          "紧急"
+        ],
+        "ja": [
+          "この",
+          "件",
+          "は",
+          "緊急",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_msg_time_callback",
+      "kind": "sentence",
+      "itemIds": [
+        "word_time",
+        "word_you",
+        "word_call_back"
+      ],
+      "texts": {
+        "en": "What time can you call back",
+        "th": "โทรกลับเวลาไหนได้ครับ",
+        "fa": "چه ساعتی می‌توانید تماس بازگشت بگیرید",
+        "ar": "متى يمكنك معاودة الاتصال",
+        "es": "A qué hora puedes devolver la llamada",
+        "zh": "什么时间可以回电话",
+        "ja": "何時に折り返せますか"
+      },
+      "tokens": {
+        "en": [
+          "What",
+          "time",
+          "can",
+          "you",
+          "call",
+          "back"
+        ],
+        "th": [
+          "โทรกลับ",
+          "เวลา",
+          "ไหน",
+          "ได้",
+          "ครับ"
+        ],
+        "fa": [
+          "چه",
+          "ساعتی",
+          "می‌توانید",
+          "تماس",
+          "بازگشت",
+          "بگیرید"
+        ],
+        "ar": [
+          "متى",
+          "يمكنك",
+          "معاودة",
+          "الاتصال"
+        ],
+        "es": [
+          "A",
+          "qué",
+          "hora",
+          "puedes",
+          "devolver",
+          "la",
+          "llamada"
+        ],
+        "zh": [
+          "什么",
+          "时间",
+          "可以",
+          "回",
+          "电话"
+        ],
+        "ja": [
+          "何時",
+          "に",
+          "折り返せ",
+          "ます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_msg_contact_message",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_contact",
+        "word_message"
+      ],
+      "texts": {
+        "en": "You can contact by message",
+        "th": "ติดต่อทางข้อความได้ครับ",
+        "fa": "می‌توانید از طریق پیام تماس بگیرید",
+        "ar": "يمكنك التواصل عبر الرسالة",
+        "es": "Puedes contactar por mensaje",
+        "zh": "可以通过消息联系",
+        "ja": "メッセージで連絡できます"
+      },
+      "tokens": {
+        "en": [
+          "You",
+          "can",
+          "contact",
+          "by",
+          "message"
+        ],
+        "th": [
+          "ติดต่อ",
+          "ทาง",
+          "ข้อความ",
+          "ได้",
+          "ครับ"
+        ],
+        "fa": [
+          "می‌توانید",
+          "از",
+          "طریق",
+          "پیام",
+          "تماس",
+          "بگیرید"
+        ],
+        "ar": [
+          "يمكنك",
+          "التواصل",
+          "عبر",
+          "الرسالة"
+        ],
+        "es": [
+          "Puedes",
+          "contactar",
+          "por",
+          "mensaje"
+        ],
+        "zh": [
+          "可以",
+          "通过",
+          "消息",
+          "联系"
+        ],
+        "ja": [
+          "メッセージ",
+          "で",
+          "連絡",
+          "でき",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "word_message",
+      "kind": "word",
+      "texts": {
+        "en": "message",
+        "th": "ข้อความ",
+        "fa": "پیام",
+        "ar": "رسالة",
+        "es": "mensaje",
+        "zh": "消息",
+        "ja": "メッセージ"
+      }
+    },
+    {
+      "id": "word_leave",
+      "kind": "word",
+      "texts": {
+        "en": "leave",
+        "th": "ฝาก",
+        "fa": "گذاشتن",
+        "ar": "يترك",
+        "es": "dejar",
+        "zh": "留下",
+        "ja": "残す"
+      }
+    },
+    {
+      "id": "word_tell",
+      "kind": "word",
+      "texts": {
+        "en": "tell",
+        "th": "บอก",
+        "fa": "گفتن",
+        "ar": "يخبر",
+        "es": "decir",
+        "zh": "告诉",
+        "ja": "伝える"
+      }
+    },
+    {
+      "id": "word_call_back",
+      "kind": "word",
+      "texts": {
+        "en": "call back",
+        "th": "โทรกลับ",
+        "fa": "تماس بازگشت",
+        "ar": "يعاود الاتصال",
+        "es": "devolver la llamada",
+        "zh": "回电话",
+        "ja": "折り返す"
+      }
+    },
+    {
+      "id": "word_urgent",
+      "kind": "word",
+      "texts": {
+        "en": "urgent",
+        "th": "เร่งด่วน",
+        "fa": "فوری",
+        "ar": "عاجل",
+        "es": "urgente",
+        "zh": "紧急",
+        "ja": "緊急"
+      }
+    },
+    {
+      "id": "word_time",
+      "kind": "word",
+      "texts": {
+        "en": "time",
+        "th": "เวลา",
+        "fa": "زمان",
+        "ar": "وقت",
+        "es": "hora",
+        "zh": "时间",
+        "ja": "時間"
+      }
+    },
+    {
+      "id": "word_contact",
+      "kind": "word",
+      "texts": {
+        "en": "contact",
+        "th": "ติดต่อ",
+        "fa": "تماس گرفتن",
+        "ar": "يتواصل",
+        "es": "contactar",
+        "zh": "联系",
+        "ja": "連絡する"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Ending & Polite Closings",
+        "th": "สถานการณ์ 5: การวางสายและการปิดท้ายอย่างสุภาพ",
+        "fa": "سناریوی 5: پایان تماس و خداحافظی مؤدبانه",
+        "ar": "السيناريو 5: إنهاء المكالمة والخاتمة المهذبة",
+        "es": "Escenario 5: Terminar y despedirse cortésmente",
+        "zh": "场景 5：结束与礼貌道别",
+        "ja": "場面5：終わりと丁寧な別れ"
+      }
+    },
+    {
+      "id": "sentence_end_thank",
+      "kind": "sentence",
+      "itemIds": [
+        "word_thank",
+        "word_you"
+      ],
+      "texts": {
+        "en": "Thank you very much",
+        "th": "ขอบคุณมากครับ",
+        "fa": "بسیار متشکرم",
+        "ar": "شكرا جزيلا",
+        "es": "Muchas gracias",
+        "zh": "非常感谢",
+        "ja": "ありがとうございます"
+      },
+      "tokens": {
+        "en": [
+          "Thank",
+          "you",
+          "very",
+          "much"
+        ],
+        "th": [
+          "ขอบคุณ",
+          "มาก",
+          "ครับ"
+        ],
+        "fa": [
+          "بسیار",
+          "متشکرم"
+        ],
+        "ar": [
+          "شكرا",
+          "جزيلا"
+        ],
+        "es": [
+          "Muchas",
+          "gracias"
+        ],
+        "zh": [
+          "非常",
+          "感谢"
+        ],
+        "ja": [
+          "ありがとう",
+          "ございます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_end_glad",
+      "kind": "sentence",
+      "itemIds": [
+        "word_glad"
+      ],
+      "texts": {
+        "en": "My pleasure",
+        "th": "ยินดีครับ",
+        "fa": "با کمال میل",
+        "ar": "على الرحب والسعة",
+        "es": "Con gusto",
+        "zh": "不客气",
+        "ja": "どういたしまして"
+      },
+      "tokens": {
+        "en": [
+          "My",
+          "pleasure"
+        ],
+        "th": [
+          "ยินดี",
+          "ครับ"
+        ],
+        "fa": [
+          "با",
+          "کمال",
+          "میل"
+        ],
+        "ar": [
+          "على",
+          "الرحب",
+          "والسعة"
+        ],
+        "es": [
+          "Con",
+          "gusto"
+        ],
+        "zh": [
+          "不",
+          "客气"
+        ],
+        "ja": [
+          "どう",
+          "いたし",
+          "まし",
+          "て"
+        ]
+      }
+    },
+    {
+      "id": "sentence_end_goodbye",
+      "kind": "sentence",
+      "itemIds": [
+        "word_goodbye"
+      ],
+      "texts": {
+        "en": "Goodbye",
+        "th": "ลาก่อนครับ",
+        "fa": "خداحافظ",
+        "ar": "وداعا",
+        "es": "Adiós",
+        "zh": "再见",
+        "ja": "さようなら"
+      },
+      "tokens": {
+        "en": [
+          "Goodbye"
+        ],
+        "th": [
+          "ลาก่อน",
+          "ครับ"
+        ],
+        "fa": [
+          "خداحافظ"
+        ],
+        "ar": [
+          "وداعا"
+        ],
+        "es": [
+          "Adiós"
+        ],
+        "zh": [
+          "再见"
+        ],
+        "ja": [
+          "さようなら"
+        ]
+      }
+    },
+    {
+      "id": "sentence_end_talk_later",
+      "kind": "sentence",
+      "itemIds": [
+        "word_talk_later",
+        "word_later"
+      ],
+      "texts": {
+        "en": "Let us talk again later",
+        "th": "ไว้คุยกันทีหลังครับ",
+        "fa": "بعداً صحبت می‌کنیم",
+        "ar": "سنتحدث لاحقاً",
+        "es": "Hablaremos más tarde",
+        "zh": "我们以后再聊",
+        "ja": "また後で話しましょう"
+      },
+      "tokens": {
+        "en": [
+          "Let",
+          "us",
+          "talk",
+          "again",
+          "later"
+        ],
+        "th": [
+          "ไว้",
+          "คุย",
+          "กัน",
+          "ทีหลัง",
+          "ครับ"
+        ],
+        "fa": [
+          "بعداً",
+          "صحبت",
+          "می‌کنیم"
+        ],
+        "ar": [
+          "سنتحدث",
+          "لاحقاً"
+        ],
+        "es": [
+          "Hablaremos",
+          "más",
+          "tarde"
+        ],
+        "zh": [
+          "我们",
+          "以后",
+          "再",
+          "聊"
+        ],
+        "ja": [
+          "また",
+          "後で",
+          "話し",
+          "ましょう"
+        ]
+      }
+    },
+    {
+      "id": "sentence_end_take_care",
+      "kind": "sentence",
+      "itemIds": [
+        "word_please",
+        "word_take_care"
+      ],
+      "texts": {
+        "en": "Please take care",
+        "th": "ดูแลสุขภาพด้วยนะครับ",
+        "fa": "لطفاً مراقب خودتان باشید",
+        "ar": "اعتن بنفسك من فضلك",
+        "es": "Cuídate por favor",
+        "zh": "请保重",
+        "ja": "お体を大切にしてください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "take",
+          "care"
+        ],
+        "th": [
+          "ดูแล",
+          "สุขภาพ",
+          "ด้วย",
+          "นะ",
+          "ครับ"
+        ],
+        "fa": [
+          "لطفاً",
+          "مراقب",
+          "خودتان",
+          "باشید"
+        ],
+        "ar": [
+          "اعتن",
+          "بنفسك",
+          "من",
+          "فضلك"
+        ],
+        "es": [
+          "Cuídate",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "请",
+          "保重"
+        ],
+        "ja": [
+          "お",
+          "体",
+          "を",
+          "大切",
+          "に",
+          "し",
+          "て",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_end_hang_up",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_hang_up"
+      ],
+      "texts": {
+        "en": "You may hang up now",
+        "th": "วางสายได้เลยครับ",
+        "fa": "می‌توانید قطع کنید",
+        "ar": "يمكنك إنهاء المكالمة الآن",
+        "es": "Ya puedes colgar",
+        "zh": "你可以挂断了",
+        "ja": "もう電話を切っても大丈夫です"
+      },
+      "tokens": {
+        "en": [
+          "You",
+          "may",
+          "hang",
+          "up",
+          "now"
+        ],
+        "th": [
+          "วางสาย",
+          "ได้",
+          "เลย",
+          "ครับ"
+        ],
+        "fa": [
+          "می‌توانید",
+          "قطع",
+          "کنید"
+        ],
+        "ar": [
+          "يمكنك",
+          "إنهاء",
+          "المكالمة",
+          "الآن"
+        ],
+        "es": [
+          "Ya",
+          "puedes",
+          "colgar"
+        ],
+        "zh": [
+          "你",
+          "可以",
+          "挂断",
+          "了"
+        ],
+        "ja": [
+          "もう",
+          "電話",
+          "を",
+          "切っ",
+          "て",
+          "も",
+          "大丈夫",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "word_thank",
+      "kind": "word",
+      "texts": {
+        "en": "thank",
+        "th": "ขอบคุณ",
+        "fa": "تشکر",
+        "ar": "شكر",
+        "es": "gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
+      }
+    },
+    {
+      "id": "word_glad",
+      "kind": "word",
+      "texts": {
+        "en": "glad",
+        "th": "ยินดี",
+        "fa": "خوشحال",
+        "ar": "سعيد",
+        "es": "encantado",
+        "zh": "高兴",
+        "ja": "嬉しい"
+      }
+    },
+    {
+      "id": "word_goodbye",
+      "kind": "word",
+      "texts": {
+        "en": "goodbye",
+        "th": "ลาก่อน",
+        "fa": "خداحافظ",
+        "ar": "وداعاً",
+        "es": "adiós",
+        "zh": "再见",
+        "ja": "さようなら"
+      }
+    },
+    {
+      "id": "word_talk_later",
+      "kind": "word",
+      "texts": {
+        "en": "talk later",
+        "th": "ไว้คุยกันทีหลัง",
+        "fa": "بعداً صحبت کنیم",
+        "ar": "نتحدث لاحقاً",
+        "es": "hablar más tarde",
+        "zh": "以后再聊",
+        "ja": "後で話す"
+      }
+    },
+    {
+      "id": "word_see_you",
+      "kind": "word",
+      "texts": {
+        "en": "see you",
+        "th": "แล้วเจอกัน",
+        "fa": "به امید دیدار",
+        "ar": "أراك",
+        "es": "hasta luego",
+        "zh": "回头见",
+        "ja": "また会いましょう"
+      }
+    },
+    {
+      "id": "word_take_care",
+      "kind": "word",
+      "texts": {
+        "en": "take care",
+        "th": "ดูแลตัวเอง",
+        "fa": "مراقب خود بودن",
+        "ar": "يعتني بنفسه",
+        "es": "cuidarse",
+        "zh": "保重",
+        "ja": "気をつける"
+      }
+    },
+    {
+      "id": "word_hang_up",
+      "kind": "word",
+      "texts": {
+        "en": "hang up",
+        "th": "วางสาย",
+        "fa": "قطع کردن",
+        "ar": "يقطع الاتصال",
+        "es": "colgar",
+        "zh": "挂断",
+        "ja": "電話を切る"
+      }
+    }
+  ]
+}

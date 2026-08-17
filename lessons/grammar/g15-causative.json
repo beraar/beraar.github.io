@@ -1,0 +1,377 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "sentence_g15_clean_room",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_causative",
+        "word_he",
+        "word_clean",
+        "word_room"
+      ],
+      "texts": {
+        "en": "I make him clean the room",
+        "th": "ฉันให้เขาทำความสะอาดห้อง",
+        "fa": "من او را مجبور می‌کنم اتاق را تمیز کند",
+        "ar": "أجعله ينظف الغرفة",
+        "es": "Hago que él limpie la habitación",
+        "zh": "我让他打扫房间",
+        "ja": "私は彼に部屋を掃除させる"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "make",
+          "him",
+          "clean",
+          "the",
+          "room"
+        ],
+        "th": [
+          "ฉัน",
+          "ให้",
+          "เขา",
+          "ทำความสะอาด",
+          "ห้อง"
+        ],
+        "fa": [
+          "من",
+          "او",
+          "را",
+          "مجبور",
+          "می‌کنم",
+          "اتاق",
+          "را",
+          "تمیز",
+          "کند"
+        ],
+        "ar": [
+          "أجعله",
+          "ينظف",
+          "الغرفة"
+        ],
+        "es": [
+          "Hago",
+          "que",
+          "él",
+          "limpie",
+          "la",
+          "habitación"
+        ],
+        "zh": [
+          "我",
+          "让",
+          "他",
+          "打扫",
+          "房间"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "彼",
+          "に",
+          "部屋",
+          "を",
+          "掃除",
+          "させる"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g15_child_play",
+      "kind": "sentence",
+      "itemIds": [
+        "word_mother",
+        "word_causative",
+        "word_child",
+        "word_play"
+      ],
+      "texts": {
+        "en": "Mother lets the child play",
+        "th": "แม่ให้เด็กเล่น",
+        "fa": "مادر به کودک اجازه می‌دهد بازی کند",
+        "ar": "تسمح الأم للطفل باللعب",
+        "es": "La madre deja que el niño juegue",
+        "zh": "母亲让孩子玩",
+        "ja": "母は子供を遊ばせる"
+      },
+      "tokens": {
+        "en": [
+          "Mother",
+          "lets",
+          "the",
+          "child",
+          "play"
+        ],
+        "th": [
+          "แม่",
+          "ให้",
+          "เด็ก",
+          "เล่น"
+        ],
+        "fa": [
+          "مادر",
+          "به",
+          "کودک",
+          "اجازه",
+          "می‌دهد",
+          "بازی",
+          "کند"
+        ],
+        "ar": [
+          "تسمح",
+          "الأم",
+          "للطفل",
+          "باللعب"
+        ],
+        "es": [
+          "La",
+          "madre",
+          "deja",
+          "que",
+          "el",
+          "niño",
+          "juegue"
+        ],
+        "zh": [
+          "母亲",
+          "让",
+          "孩子",
+          "玩"
+        ],
+        "ja": [
+          "母",
+          "は",
+          "子供",
+          "を",
+          "遊ばせる"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g15_repair_car",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_causative",
+        "word_mechanic",
+        "word_repair",
+        "word_car"
+      ],
+      "texts": {
+        "en": "I had the mechanic repair the car",
+        "th": "ฉันให้ช่างซ่อมรถ",
+        "fa": "من از مکانیک خواستم ماشین را تعمیر کند",
+        "ar": "تركت الميكانيكي يصلح السيارة",
+        "es": "Hice que el mecánico reparara el coche",
+        "zh": "我让修理工修车",
+        "ja": "私は整備士に車を修理させた"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "had",
+          "the",
+          "mechanic",
+          "repair",
+          "the",
+          "car"
+        ],
+        "th": [
+          "ฉัน",
+          "ให้",
+          "ช่าง",
+          "ซ่อม",
+          "รถ"
+        ],
+        "fa": [
+          "من",
+          "از",
+          "مکانیک",
+          "خواستم",
+          "ماشین",
+          "را",
+          "تعمیر",
+          "کند"
+        ],
+        "ar": [
+          "تركت",
+          "الميكانيكي",
+          "يصلح",
+          "السيارة"
+        ],
+        "es": [
+          "Hice",
+          "que",
+          "el",
+          "mecánico",
+          "reparara",
+          "el",
+          "coche"
+        ],
+        "zh": [
+          "我",
+          "让",
+          "修理工",
+          "修",
+          "车"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "整備士",
+          "に",
+          "車",
+          "を",
+          "修理",
+          "させた"
+        ]
+      }
+    },
+    {
+      "id": "word_causative",
+      "kind": "word",
+      "texts": {
+        "en": "causative marker",
+        "th": "ให้",
+        "fa": "وا داشتن",
+        "ar": "يجعل",
+        "es": "hacer que",
+        "zh": "让/使",
+        "ja": "させる"
+      }
+    },
+    {
+      "id": "word_he",
+      "kind": "word",
+      "texts": {
+        "en": "he",
+        "th": "เขา",
+        "fa": "او",
+        "ar": "هو",
+        "es": "él",
+        "zh": "他",
+        "ja": "彼"
+      }
+    },
+    {
+      "id": "word_clean",
+      "kind": "word",
+      "texts": {
+        "en": "clean",
+        "th": "ทำความสะอาด",
+        "fa": "تمیز کردن",
+        "ar": "ينظف",
+        "es": "limpiar",
+        "zh": "打扫",
+        "ja": "掃除する"
+      }
+    },
+    {
+      "id": "word_room",
+      "kind": "word",
+      "texts": {
+        "en": "room",
+        "th": "ห้อง",
+        "fa": "اتاق",
+        "ar": "غرفة",
+        "es": "habitación",
+        "zh": "房间",
+        "ja": "部屋"
+      }
+    },
+    {
+      "id": "word_mother",
+      "kind": "word",
+      "texts": {
+        "en": "mother",
+        "th": "แม่",
+        "fa": "مادر",
+        "ar": "أم",
+        "es": "madre",
+        "zh": "母亲",
+        "ja": "母"
+      }
+    },
+    {
+      "id": "word_child",
+      "kind": "word",
+      "texts": {
+        "en": "child",
+        "th": "เด็ก",
+        "fa": "کودک",
+        "ar": "طفل",
+        "es": "niño",
+        "zh": "孩子",
+        "ja": "子供"
+      }
+    },
+    {
+      "id": "word_play",
+      "kind": "word",
+      "texts": {
+        "en": "play",
+        "th": "เล่น",
+        "fa": "بازی کردن",
+        "ar": "يلعب",
+        "es": "jugar",
+        "zh": "玩",
+        "ja": "遊ぶ"
+      }
+    },
+    {
+      "id": "word_mechanic",
+      "kind": "word",
+      "texts": {
+        "en": "mechanic",
+        "th": "ช่าง",
+        "fa": "مکانیک",
+        "ar": "ميكانيكي",
+        "es": "mecánico",
+        "zh": "修理工",
+        "ja": "整備士"
+      }
+    },
+    {
+      "id": "word_repair",
+      "kind": "word",
+      "texts": {
+        "en": "repair",
+        "th": "ซ่อม",
+        "fa": "تعمیر کردن",
+        "ar": "يصلح",
+        "es": "reparar",
+        "zh": "修理",
+        "ja": "修理する"
+      }
+    },
+    {
+      "id": "word_car",
+      "kind": "word",
+      "texts": {
+        "en": "car",
+        "th": "รถ",
+        "fa": "ماشین",
+        "ar": "سيارة",
+        "es": "coche",
+        "zh": "车",
+        "ja": "車"
+      }
+    }
+  ]
+}

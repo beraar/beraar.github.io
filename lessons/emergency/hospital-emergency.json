@@ -1,0 +1,3098 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Emergency Words",
+        "th": "คำศัพท์ฉุกเฉินหลัก",
+        "fa": "کلمات اصلی اورژانس",
+        "ar": "كلمات الطوارئ الأساسية",
+        "es": "Palabras clave de emergencia",
+        "zh": "核心急救词汇",
+        "ja": "緊急核心単語"
+      }
+    },
+    {
+      "id": "word_help",
+      "kind": "word",
+      "texts": {
+        "en": "help",
+        "th": "ช่วยด้วย",
+        "fa": "کمک",
+        "ar": "النجدة",
+        "es": "ayuda",
+        "zh": "救命",
+        "ja": "助けて"
+      }
+    },
+    {
+      "id": "word_emergency",
+      "kind": "word",
+      "texts": {
+        "en": "emergency",
+        "th": "ฉุกเฉิน",
+        "fa": "اورژانس",
+        "ar": "طوارئ",
+        "es": "emergencia",
+        "zh": "紧急",
+        "ja": "緊急"
+      }
+    },
+    {
+      "id": "word_accident",
+      "kind": "word",
+      "texts": {
+        "en": "accident",
+        "th": "อุบัติเหต",
+        "fa": "تصادف",
+        "ar": "حادث",
+        "es": "accidente",
+        "zh": "事故",
+        "ja": "事故"
+      }
+    },
+    {
+      "id": "word_hospital",
+      "kind": "word",
+      "texts": {
+        "en": "hospital",
+        "th": "โรงพยาบาล",
+        "fa": "بیمارستان",
+        "ar": "مستشفى",
+        "es": "hospital",
+        "zh": "医院",
+        "ja": "病院"
+      }
+    },
+    {
+      "id": "word_ambulance",
+      "kind": "word",
+      "texts": {
+        "en": "ambulance",
+        "th": "รถพยาบาล",
+        "fa": "آمبولانس",
+        "ar": "سيارة إسعاف",
+        "es": "ambulancia",
+        "zh": "救护车",
+        "ja": "救急車"
+      }
+    },
+    {
+      "id": "word_doctor",
+      "kind": "word",
+      "texts": {
+        "en": "doctor",
+        "th": "หมอ",
+        "fa": "دکتر",
+        "ar": "طبيب",
+        "es": "médico",
+        "zh": "医生",
+        "ja": "医者"
+      }
+    },
+    {
+      "id": "word_nurse",
+      "kind": "word",
+      "texts": {
+        "en": "nurse",
+        "th": "พยาบาล",
+        "fa": "پرستار",
+        "ar": "ممرضة",
+        "es": "enfermero",
+        "zh": "护士",
+        "ja": "看護師"
+      }
+    },
+    {
+      "id": "word_pain",
+      "kind": "word",
+      "texts": {
+        "en": "pain",
+        "th": "ความเจ็บปวด",
+        "fa": "درد",
+        "ar": "ألم",
+        "es": "dolor",
+        "zh": "疼痛",
+        "ja": "痛み"
+      }
+    },
+    {
+      "id": "word_blood",
+      "kind": "word",
+      "texts": {
+        "en": "blood",
+        "th": "เลือด",
+        "fa": "خون",
+        "ar": "دم",
+        "es": "sangre",
+        "zh": "血液",
+        "ja": "血液"
+      }
+    },
+    {
+      "id": "word_unconscious",
+      "kind": "word",
+      "texts": {
+        "en": "unconscious",
+        "th": "หมดสติ",
+        "fa": "بیهوش",
+        "ar": "فاقد الوعي",
+        "es": "inconsciente",
+        "zh": "失去知觉",
+        "ja": "意識不明"
+      }
+    },
+    {
+      "id": "word_breathe",
+      "kind": "word",
+      "texts": {
+        "en": "breathe",
+        "th": "หายใจ",
+        "fa": "نفس کشیدن",
+        "ar": "يتنفس",
+        "es": "respirar",
+        "zh": "呼吸",
+        "ja": "呼吸する"
+      }
+    },
+    {
+      "id": "word_allergic",
+      "kind": "word",
+      "texts": {
+        "en": "allergic",
+        "th": "แพ้",
+        "fa": "حساسیت",
+        "ar": "حساسية",
+        "es": "alérgico",
+        "zh": "过敏",
+        "ja": "アレルギー"
+      }
+    },
+    {
+      "id": "word_injury",
+      "kind": "word",
+      "texts": {
+        "en": "injury",
+        "th": "บาดแผล",
+        "fa": "جراحت",
+        "ar": "إصابة",
+        "es": "herida",
+        "zh": "伤口",
+        "ja": "怪我"
+      }
+    },
+    {
+      "id": "word_symptom",
+      "kind": "word",
+      "texts": {
+        "en": "symptom",
+        "th": "อาการ",
+        "fa": "علامت",
+        "ar": "عرض",
+        "es": "síntoma",
+        "zh": "症状",
+        "ja": "症状"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Calling for Help (1669)",
+        "th": "สถานการณ์ 1: โทรขอความช่วยเหลือ (1669)",
+        "fa": "سناریو ۱: تماس برای کمک (۱۶۶۹)",
+        "ar": "السيناريو 1: الاتصال طلباً للمساعدة (1669)",
+        "es": "Escenario 1: Llamar por ayuda (1669)",
+        "zh": "场景 1：拨打急救电话 (1669)",
+        "ja": "シナリオ 1：助けを呼ぶ (1669)"
+      }
+    },
+    {
+      "id": "sentence_hosp_call_1669",
+      "kind": "sentence",
+      "itemIds": [
+        "word_call",
+        "word_quickly"
+      ],
+      "texts": {
+        "en": "Please call 1669 immediately.",
+        "th": "โปรดโทร 1669 ทันทีครับ",
+        "fa": "لطفاً فوراً با ۱۶۶۹ تماس بگیرید.",
+        "ar": "يرجى الاتصال بـ 1669 فوراً.",
+        "es": "Por favor, llame al 1669 inmediatamente.",
+        "zh": "请立即拨打1669。",
+        "ja": "すぐに1669に電話してください。"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "call",
+          "1669",
+          "immediately."
+        ],
+        "th": [
+          "โปรด",
+          "โทร",
+          "1669",
+          "ทันที",
+          "ครับ"
+        ],
+        "fa": [
+          "لطفاً",
+          "فوراً",
+          "با",
+          "۱۶۶۹",
+          "تماس",
+          "بگیرید."
+        ],
+        "ar": [
+          "يرجى",
+          "الاتصال",
+          "بـ",
+          "1669",
+          "فوراً."
+        ],
+        "es": [
+          "Por",
+          "favor,",
+          "llame",
+          "al",
+          "1669",
+          "inmediatamente."
+        ],
+        "zh": [
+          "请",
+          "立即",
+          "拨打",
+          "1669。"
+        ],
+        "ja": [
+          "すぐに",
+          "1669に",
+          "電話して",
+          "ください。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_accident_serious",
+      "kind": "sentence",
+      "itemIds": [
+        "word_accident"
+      ],
+      "texts": {
+        "en": "There has been a serious accident.",
+        "th": "เกิดอุบัติเหตร้ายแรงครับ",
+        "fa": "تصادف شدیدی رخ داده است.",
+        "ar": "وقع حادث خطير.",
+        "es": "Ha ocurrido un accidente grave.",
+        "zh": "发生了严重的事故。",
+        "ja": "重大な事故が起きました。"
+      },
+      "tokens": {
+        "en": [
+          "There",
+          "has",
+          "been",
+          "a",
+          "serious",
+          "accident."
+        ],
+        "th": [
+          "เกิด",
+          "อุบัติเหต",
+          "ร้ายแรง",
+          "ครับ"
+        ],
+        "fa": [
+          "تصادف",
+          "شدیدی",
+          "رخ",
+          "داده",
+          "است."
+        ],
+        "ar": [
+          "وقع",
+          "حادث",
+          "خطير."
+        ],
+        "es": [
+          "Ha",
+          "ocurrido",
+          "un",
+          "accidente",
+          "grave."
+        ],
+        "zh": [
+          "发生",
+          "了",
+          "严重",
+          "的",
+          "事故。"
+        ],
+        "ja": [
+          "重大な",
+          "事故が",
+          "起きました。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_send_ambulance",
+      "kind": "sentence",
+      "itemIds": [
+        "word_send",
+        "word_ambulance",
+        "word_location",
+        "word_quickly"
+      ],
+      "texts": {
+        "en": "Send an ambulance to this location quickly.",
+        "th": "โปรดส่งรถพยาบาลมาที่สถานที่นี้เร็ว ๆ ครับ",
+        "fa": "لطفاً سریع یک آمبولانس به این مکان بفرستید.",
+        "ar": "أرسل سيارة إسعاف إلى هذا الموقع بسرعة.",
+        "es": "Envíe una ambulancia a esta ubicación rápidamente.",
+        "zh": "请快派救护车到这个地点。",
+        "ja": "すぐにこの場所へ救急車を派遣してください。"
+      },
+      "tokens": {
+        "en": [
+          "Send",
+          "an",
+          "ambulance",
+          "to",
+          "this",
+          "location",
+          "quickly."
+        ],
+        "th": [
+          "โปรด",
+          "ส่ง",
+          "รถพยาบาล",
+          "มาที่",
+          "สถานที่",
+          "นี้",
+          "เร็ว ๆ",
+          "ครับ"
+        ],
+        "fa": [
+          "لطفاً",
+          "سریع",
+          "یک",
+          "آمبولانس",
+          "به",
+          "این",
+          "مکان",
+          "بفرستید."
+        ],
+        "ar": [
+          "أرسل",
+          "سيارة",
+          "إسعاف",
+          "إلى",
+          "هذا",
+          "الموقع",
+          "بسرعة."
+        ],
+        "es": [
+          "Envíe",
+          "una",
+          "ambulancia",
+          "a",
+          "esta",
+          "ubicación",
+          "rápidamente."
+        ],
+        "zh": [
+          "请",
+          "快",
+          "派",
+          "救护车",
+          "到",
+          "这个",
+          "地点。"
+        ],
+        "ja": [
+          "すぐに",
+          "この",
+          "場所へ",
+          "救急車を",
+          "派遣して",
+          "ください。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_unconscious_breathe",
+      "kind": "sentence",
+      "itemIds": [
+        "word_unconscious",
+        "word_breathe"
+      ],
+      "texts": {
+        "en": "A man is unconscious and not breathing.",
+        "th": "มีผู้ชายหมดสติและไม่หายใจครับ",
+        "fa": "یک مرد بیهوش است و نفس نمی‌کشد.",
+        "ar": "رجل فاقد للوعي ولا يتنفس.",
+        "es": "Un hombre está inconsciente y no respira.",
+        "zh": "一名男子失去知觉，没有呼吸。",
+        "ja": "男性が意識不明で呼吸をしていません。"
+      },
+      "tokens": {
+        "en": [
+          "A",
+          "man",
+          "is",
+          "unconscious",
+          "and",
+          "not",
+          "breathing."
+        ],
+        "th": [
+          "มี",
+          "ผู้ชาย",
+          "หมดสติ",
+          "และ",
+          "ไม่",
+          "หายใจ",
+          "ครับ"
+        ],
+        "fa": [
+          "یک",
+          "مرد",
+          "بیهوش",
+          "است",
+          "و",
+          "نفس",
+          "نمی‌کشد."
+        ],
+        "ar": [
+          "رجل",
+          "فاقد",
+          "للوعي",
+          "ولا",
+          "يتنفس."
+        ],
+        "es": [
+          "Un",
+          "hombre",
+          "está",
+          "inconsciente",
+          "y",
+          "no",
+          "respira."
+        ],
+        "zh": [
+          "一名",
+          "男子",
+          "失去知觉",
+          "，",
+          "没有",
+          "呼吸。"
+        ],
+        "ja": [
+          "男性が",
+          "意識不明で",
+          "呼吸を",
+          "していません。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_bleed_head",
+      "kind": "sentence",
+      "itemIds": [
+        "word_blood"
+      ],
+      "texts": {
+        "en": "She is bleeding heavily from her head.",
+        "th": "เธอเลือดออกที่ศีรษะอย่างหนักครับ",
+        "fa": "او از سرش به شدت خونریزی می‌کند.",
+        "ar": "هي تنزف بغزارة من رأسها.",
+        "es": "Ella está sangrando abundantemente por la cabeza.",
+        "zh": "她的头部正在大量出血。",
+        "ja": "彼女の頭から大量に出血しています。"
+      },
+      "tokens": {
+        "en": [
+          "She",
+          "is",
+          "bleeding",
+          "heavily",
+          "from",
+          "her",
+          "head."
+        ],
+        "th": [
+          "เธอ",
+          "เลือดออก",
+          "ที่",
+          "ศีรษะ",
+          "อย่างหนัก",
+          "ครับ"
+        ],
+        "fa": [
+          "او",
+          "از",
+          "سرش",
+          "به",
+          "شدت",
+          "خونریزی",
+          "می‌کند."
+        ],
+        "ar": [
+          "هي",
+          "تنزف",
+          "بغزارة",
+          "من",
+          "رأسها."
+        ],
+        "es": [
+          "Ella",
+          "está",
+          "sangrando",
+          "abundantemente",
+          "por",
+          "la",
+          "cabeza."
+        ],
+        "zh": [
+          "她的",
+          "头部",
+          "正在",
+          "大量",
+          "出血。"
+        ],
+        "ja": [
+          "彼女の",
+          "頭から",
+          "大量に",
+          "出血して",
+          "います。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_wait_intersection",
+      "kind": "sentence",
+      "itemIds": [
+        "word_intersection"
+      ],
+      "texts": {
+        "en": "I am waiting outside the intersection.",
+        "th": "ผมรออยู่หน้าสี่แยกครับ",
+        "fa": "من بیرون تقاطع منتظر هستم.",
+        "ar": "أنا أنتظر خارج التقاطع.",
+        "es": "Estoy esperando fuera de la intersección.",
+        "zh": "我在十字路口外面等着。",
+        "ja": "交差点の外で待っています。"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "am",
+          "waiting",
+          "outside",
+          "the",
+          "intersection."
+        ],
+        "th": [
+          "ผม",
+          "รอ",
+          "อยู่",
+          "หน้า",
+          "สี่แยก",
+          "ครับ"
+        ],
+        "fa": [
+          "من",
+          "بیرون",
+          "تقاطع",
+          "منتظر",
+          "هستم."
+        ],
+        "ar": [
+          "أنا",
+          "أنتظر",
+          "خارج",
+          "التقاطع."
+        ],
+        "es": [
+          "Estoy",
+          "esperando",
+          "fuera",
+          "de",
+          "la",
+          "intersección."
+        ],
+        "zh": [
+          "我",
+          "在",
+          "十字路口",
+          "外面",
+          "等着。"
+        ],
+        "ja": [
+          "交差点の",
+          "外で",
+          "待って",
+          "います。"
+        ]
+      }
+    },
+    {
+      "id": "word_call",
+      "kind": "word",
+      "texts": {
+        "en": "call",
+        "th": "โทร",
+        "fa": "تماس گرفتن",
+        "ar": "يتصل",
+        "es": "llamar",
+        "zh": "打电话",
+        "ja": "電話する"
+      }
+    },
+    {
+      "id": "word_quickly",
+      "kind": "word",
+      "texts": {
+        "en": "quickly",
+        "th": "เร็ว",
+        "fa": "سریع",
+        "ar": "بسرعة",
+        "es": "rápido",
+        "zh": "快",
+        "ja": "早く"
+      }
+    },
+    {
+      "id": "word_location",
+      "kind": "word",
+      "texts": {
+        "en": "location",
+        "th": "สถานที่",
+        "fa": "مکان",
+        "ar": "موقع",
+        "es": "ubicación",
+        "zh": "地点",
+        "ja": "場所"
+      }
+    },
+    {
+      "id": "word_send",
+      "kind": "word",
+      "texts": {
+        "en": "send",
+        "th": "ส่ง",
+        "fa": "فرستادن",
+        "ar": "يرسل",
+        "es": "enviar",
+        "zh": "发送",
+        "ja": "送る"
+      }
+    },
+    {
+      "id": "word_intersection",
+      "kind": "word",
+      "texts": {
+        "en": "intersection",
+        "th": "สี่แยก",
+        "fa": "تقاطع",
+        "ar": "تقاطع",
+        "es": "intersección",
+        "zh": "十字路口",
+        "ja": "交差点"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: ER Triage & Symptoms",
+        "th": "สถานการณ์ 2: คัดกรองฉุกเฉินและอาการ",
+        "fa": "سناریو ۲: تریاژ اورژانس و علائم",
+        "ar": "السيناريو 2: فرز الطوارئ والأعراض",
+        "es": "Escenario 2: Triaje de urgencias y síntomas",
+        "zh": "场景 2：急诊分诊与症状",
+        "ja": "シナリオ 2：救急トリアージと症状"
+      }
+    },
+    {
+      "id": "sentence_hosp_fever_high",
+      "kind": "sentence",
+      "itemIds": [
+        "word_fever"
+      ],
+      "texts": {
+        "en": "He has a very high fever.",
+        "th": "เขามีไข้สูงมากครับ",
+        "fa": "او تب بسیار بالایی دارد.",
+        "ar": "لديه حمى مرتفعة جداً.",
+        "es": "Él tiene una fiebre muy alta.",
+        "zh": "他发高烧了。",
+        "ja": "彼はとても高い熱があります。"
+      },
+      "tokens": {
+        "en": [
+          "He",
+          "has",
+          "a",
+          "very",
+          "high",
+          "fever."
+        ],
+        "th": [
+          "เขา",
+          "มี",
+          "ไข้",
+          "สูง",
+          "มาก",
+          "ครับ"
+        ],
+        "fa": [
+          "او",
+          "تب",
+          "بسیار",
+          "بالایی",
+          "دارد."
+        ],
+        "ar": [
+          "لديه",
+          "حمى",
+          "مرتفعة",
+          "جداً."
+        ],
+        "es": [
+          "Él",
+          "tiene",
+          "una",
+          "fiebre",
+          "muy",
+          "alta."
+        ],
+        "zh": [
+          "他",
+          "发",
+          "高烧",
+          "了。"
+        ],
+        "ja": [
+          "彼は",
+          "とても",
+          "高い",
+          "熱が",
+          "あります。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_chest_breathe",
+      "kind": "sentence",
+      "itemIds": [
+        "word_chest",
+        "word_breathe"
+      ],
+      "texts": {
+        "en": "My chest hurts when I breathe.",
+        "th": "หน้าอกของผมเจ็บเวลาหายใจครับ",
+        "fa": "قفسه سینه‌ام هنگام نفس کشیدن درد می‌کند.",
+        "ar": "صدري يؤلمني عندما أتتنفس.",
+        "es": "Me duele el pecho cuando respiro.",
+        "zh": "我呼吸时胸部很痛。",
+        "ja": "呼吸すると胸が痛みます。"
+      },
+      "tokens": {
+        "en": [
+          "My",
+          "chest",
+          "hurts",
+          "when",
+          "I",
+          "breathe."
+        ],
+        "th": [
+          "หน้าอก",
+          "ของ",
+          "ผม",
+          "เจ็บ",
+          "เวลา",
+          "หายใจ",
+          "ครับ"
+        ],
+        "fa": [
+          "قفسه",
+          "سینه‌ام",
+          "هنگام",
+          "نفس",
+          "کشیدن",
+          "درد",
+          "می‌کند."
+        ],
+        "ar": [
+          "صدري",
+          "يؤلمني",
+          "عندما",
+          "أتتنفس."
+        ],
+        "es": [
+          "Me",
+          "duele",
+          "el",
+          "pecho",
+          "cuando",
+          "respiro."
+        ],
+        "zh": [
+          "我",
+          "呼吸",
+          "时",
+          "胸部",
+          "很痛。"
+        ],
+        "ja": [
+          "呼吸する",
+          "と",
+          "胸が",
+          "痛みます。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_stomach_swollen",
+      "kind": "sentence",
+      "itemIds": [
+        "word_stomach",
+        "word_swollen"
+      ],
+      "texts": {
+        "en": "Her stomach has been swollen since yesterday.",
+        "th": "ท้องของเธอ บวมตั้งแต่เมื่อวานครับ",
+        "fa": "معده او از دیروز متورم شده است.",
+        "ar": "معدتها متورمة منذ الأمس.",
+        "es": "Su estómago ha estado hinchado desde ayer.",
+        "zh": "她的肚子从昨天开始肿胀。",
+        "ja": "彼女の胃は昨日から腫れています。"
+      },
+      "tokens": {
+        "en": [
+          "Her",
+          "stomach",
+          "has",
+          "been",
+          "swollen",
+          "since",
+          "yesterday."
+        ],
+        "th": [
+          "ท้อง",
+          "ของ",
+          "เธอ",
+          "บวม",
+          "ตั้งแต่",
+          "เมื่อวาน",
+          "ครับ"
+        ],
+        "fa": [
+          "معده",
+          "او",
+          "از",
+          "دیروز",
+          "متورم",
+          "شده",
+          "است."
+        ],
+        "ar": [
+          "معدتها",
+          "متورمة",
+          "منذ",
+          "الأمس."
+        ],
+        "es": [
+          "Su",
+          "estómago",
+          "ha",
+          "estado",
+          "hinchado",
+          "desde",
+          "ayer."
+        ],
+        "zh": [
+          "她的",
+          "肚子",
+          "从昨天",
+          "开始",
+          "肿胀。"
+        ],
+        "ja": [
+          "彼女の",
+          "胃は",
+          "昨日から",
+          "腫れて",
+          "います。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_allergic_penicillin",
+      "kind": "sentence",
+      "itemIds": [
+        "word_allergic",
+        "word_allergy"
+      ],
+      "texts": {
+        "en": "I am severely allergic to penicillin.",
+        "th": "ผมแพ้เพนิซิลลินอย่างรุนแรงครับ",
+        "fa": "من به پنی‌سیلین حساسیت شدیدی دارم.",
+        "ar": "لدي حساسية شديدة من البنسلين.",
+        "es": "Soy severamente alérgico a la penicilina.",
+        "zh": "我对青霉素严重过敏。",
+        "ja": "私はペニシリンに重度のアレルギーがあります。"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "am",
+          "severely",
+          "allergic",
+          "to",
+          "penicillin."
+        ],
+        "th": [
+          "ผม",
+          "แพ้",
+          "เพนิซิลลิน",
+          "อย่างรุนแรง",
+          "ครับ"
+        ],
+        "fa": [
+          "من",
+          "به",
+          "پنی‌سیلین",
+          "حساسیت",
+          "شدیدی",
+          "دارم."
+        ],
+        "ar": [
+          "لدي",
+          "حساسية",
+          "شديدة",
+          "من",
+          "البنسلين."
+        ],
+        "es": [
+          "Soy",
+          "severamente",
+          "alérgico",
+          "a",
+          "la",
+          "penicilina."
+        ],
+        "zh": [
+          "我",
+          "对",
+          "青霉素",
+          "严重",
+          "过敏。"
+        ],
+        "ja": [
+          "私は",
+          "ペニシリンに",
+          "重度の",
+          "アレルギーが",
+          "あります。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_pain_unbearable",
+      "kind": "sentence",
+      "itemIds": [
+        "word_pain"
+      ],
+      "texts": {
+        "en": "The pain in my leg is unbearable.",
+        "th": "ความเจ็บปวดที่ขาของผม ทนไม่ไหวครับ",
+        "fa": "درد در پایم غیرقابل تحمل است.",
+        "ar": "الألم في ساقي لا يُحتمل.",
+        "es": "El dolor en mi pierna es insoportable.",
+        "zh": "我腿上的疼痛难以忍受。",
+        "ja": "足の痛みが耐え難いです。"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "pain",
+          "in",
+          "my",
+          "leg",
+          "is",
+          "unbearable."
+        ],
+        "th": [
+          "ความเจ็บปวด",
+          "ที่",
+          "ขา",
+          "ของ",
+          "ผม",
+          "ทนไม่ไหว",
+          "ครับ"
+        ],
+        "fa": [
+          "درد",
+          "در",
+          "پایم",
+          "غیرقابل",
+          "تحمل",
+          "است."
+        ],
+        "ar": [
+          "الألم",
+          "في",
+          "ساقي",
+          "لا",
+          "يُحتمل."
+        ],
+        "es": [
+          "El",
+          "dolor",
+          "en",
+          "mi",
+          "pierna",
+          "es",
+          "insoportable."
+        ],
+        "zh": [
+          "我",
+          "腿上",
+          "的",
+          "疼痛",
+          "难以忍受。"
+        ],
+        "ja": [
+          "足の",
+          "痛みが",
+          "耐え難い",
+          "です。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_head_dizzy",
+      "kind": "sentence",
+      "itemIds": [
+        "word_injury"
+      ],
+      "texts": {
+        "en": "He hit his head and feels dizzy.",
+        "th": "เขาชนศีรษะและรู้สึกเวียนศีรษะครับ",
+        "fa": "او سرش را ضربه زد و احساس سرگیجه می‌کند.",
+        "ar": "لقد ضرب رأسه ويشعر بالدوار.",
+        "es": "Él se golpeó la cabeza y se siente mareado.",
+        "zh": "他撞到了头，感觉头晕。",
+        "ja": "彼は頭を打ち、めまいを感じています。"
+      },
+      "tokens": {
+        "en": [
+          "He",
+          "hit",
+          "his",
+          "head",
+          "and",
+          "feels",
+          "dizzy."
+        ],
+        "th": [
+          "เขา",
+          "ชน",
+          "ศีรษะ",
+          "และ",
+          "รู้สึก",
+          "เวียนศีรษะ",
+          "ครับ"
+        ],
+        "fa": [
+          "او",
+          "سرش",
+          "را",
+          "ضربه",
+          "زد",
+          "و",
+          "احساس",
+          "سرگیجه",
+          "می‌کند."
+        ],
+        "ar": [
+          "لقد",
+          "ضرب",
+          "رأسه",
+          "ويشعر",
+          "بالدوار."
+        ],
+        "es": [
+          "Él",
+          "se",
+          "golpeó",
+          "la",
+          "cabeza",
+          "y",
+          "se",
+          "siente",
+          "mareado."
+        ],
+        "zh": [
+          "他",
+          "撞到了",
+          "头",
+          "，",
+          "感觉",
+          "头晕。"
+        ],
+        "ja": [
+          "彼は",
+          "頭を",
+          "打ち",
+          "めまいを",
+          "感じて",
+          "います。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_vomit_keep",
+      "kind": "sentence",
+      "itemIds": [
+        "word_vomit"
+      ],
+      "texts": {
+        "en": "She keeps trying to vomit.",
+        "th": "เธอพยายามจะอาเจียนตลอดเวลาครับ",
+        "fa": "او مداوم تلاش می‌کند استفراغ کند.",
+        "ar": "هي تحاول التقيؤ باستمرار.",
+        "es": "Ella sigue intentando vomitar.",
+        "zh": "她一直想呕吐。",
+        "ja": "彼女はずっと嘔吐しようとしています。"
+      },
+      "tokens": {
+        "en": [
+          "She",
+          "keeps",
+          "trying",
+          "to",
+          "vomit."
+        ],
+        "th": [
+          "เธอ",
+          "พยายาม",
+          "จะ",
+          "อาเจียน",
+          "ตลอดเวลา",
+          "ครับ"
+        ],
+        "fa": [
+          "او",
+          "مداوم",
+          "تلاش",
+          "می‌کند",
+          "استفراغ",
+          "کند."
+        ],
+        "ar": [
+          "هي",
+          "تحاول",
+          "التقيؤ",
+          "باستمرار."
+        ],
+        "es": [
+          "Ella",
+          "sigue",
+          "intentando",
+          "vomitar."
+        ],
+        "zh": [
+          "她",
+          "一直",
+          "想",
+          "呕吐。"
+        ],
+        "ja": [
+          "彼女は",
+          "ずっと",
+          "嘔吐し",
+          "ようとして",
+          "います。"
+        ]
+      }
+    },
+    {
+      "id": "word_fever",
+      "kind": "word",
+      "texts": {
+        "en": "fever",
+        "th": "ไข้",
+        "fa": "تب",
+        "ar": "حمى",
+        "es": "fiebre",
+        "zh": "发烧",
+        "ja": "熱"
+      }
+    },
+    {
+      "id": "word_swollen",
+      "kind": "word",
+      "texts": {
+        "en": "swollen",
+        "th": "บวม",
+        "fa": "متورم",
+        "ar": "متورم",
+        "es": "hinchado",
+        "zh": "肿胀",
+        "ja": "腫れた"
+      }
+    },
+    {
+      "id": "word_chest",
+      "kind": "word",
+      "texts": {
+        "en": "chest",
+        "th": "หน้าอก",
+        "fa": "قفسه سینه",
+        "ar": "صدر",
+        "es": "pecho",
+        "zh": "胸部",
+        "ja": "胸"
+      }
+    },
+    {
+      "id": "word_stomach",
+      "kind": "word",
+      "texts": {
+        "en": "stomach",
+        "th": "ท้อง",
+        "fa": "معده",
+        "ar": "معدة",
+        "es": "estómago",
+        "zh": "胃",
+        "ja": "胃"
+      }
+    },
+    {
+      "id": "word_allergy",
+      "kind": "word",
+      "texts": {
+        "en": "allergy",
+        "th": "ภูมิแพ้",
+        "fa": "آلرژی",
+        "ar": "حساسية",
+        "es": "alergia",
+        "zh": "过敏",
+        "ja": "アレルギー"
+      }
+    },
+    {
+      "id": "word_vomit",
+      "kind": "word",
+      "texts": {
+        "en": "vomit",
+        "th": "อาเจียน",
+        "fa": "استفراغ",
+        "ar": "يتقيأ",
+        "es": "vomitar",
+        "zh": "呕吐",
+        "ja": "嘔吐する"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Doctor Consultation & Tests",
+        "th": "สถานการณ์ 3: ปรึกษาหมอและตรวจ",
+        "fa": "سناریو ۳: ویزیت پزشک و آزمایش‌ها",
+        "ar": "السيناريو 3: استشارة الطبيب والفحوصات",
+        "es": "Escenario 3: Consulta médica y pruebas",
+        "zh": "场景 3：医生问诊与检查",
+        "ja": "シナリオ 3：医師の診察と検査"
+      }
+    },
+    {
+      "id": "sentence_hosp_examine_wound",
+      "kind": "sentence",
+      "itemIds": [
+        "word_doctor",
+        "word_examine",
+        "word_injury"
+      ],
+      "texts": {
+        "en": "The doctor needs to examine the wound.",
+        "th": "หมอต้องตรวจบาดแผลค่ะ",
+        "fa": "پزشک نیاز دارد زخم را معاینه کند.",
+        "ar": "يحتاج الطبيب إلى فحص الجرح.",
+        "es": "El médico necesita examinar la herida.",
+        "zh": "医生需要检查伤口。",
+        "ja": "医者は傷口を診察する必要があります。"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "doctor",
+          "needs",
+          "to",
+          "examine",
+          "the",
+          "wound."
+        ],
+        "th": [
+          "หมอ",
+          "ต้อง",
+          "ตรวจ",
+          "บาดแผล",
+          "ค่ะ"
+        ],
+        "fa": [
+          "پزشک",
+          "نیاز",
+          "دارد",
+          "زخم",
+          "را",
+          "معاینه",
+          "کند."
+        ],
+        "ar": [
+          "يحتاج",
+          "الطبيب",
+          "إلى",
+          "فحص",
+          "الجرح."
+        ],
+        "es": [
+          "El",
+          "médico",
+          "necesita",
+          "examinar",
+          "la",
+          "herida."
+        ],
+        "zh": [
+          "医生",
+          "需要",
+          "检查",
+          "伤口。"
+        ],
+        "ja": [
+          "医者は",
+          "傷口を",
+          "診察する",
+          "必要が",
+          "あります。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_xray_arm",
+      "kind": "sentence",
+      "itemIds": [
+        "word_xray"
+      ],
+      "texts": {
+        "en": "We must take an X-ray of your arm.",
+        "th": "เราต้องเอกซเรย์แขนของคุณค่ะ",
+        "fa": "ما باید از بازوی شما عکس‌برداری کنیم.",
+        "ar": "يجب أن نجري أشعة سينية على ذراعك.",
+        "es": "Debemos tomar una radiografía de su brazo.",
+        "zh": "我们必须给您的手臂拍X光。",
+        "ja": "腕のレントゲンを撮る必要があります。"
+      },
+      "tokens": {
+        "en": [
+          "We",
+          "must",
+          "take",
+          "an",
+          "X-ray",
+          "of",
+          "your",
+          "arm."
+        ],
+        "th": [
+          "เรา",
+          "ต้อง",
+          "เอกซเรย์",
+          "แขน",
+          "ของ",
+          "คุณ",
+          "ค่ะ"
+        ],
+        "fa": [
+          "ما",
+          "باید",
+          "از",
+          "بازوی",
+          "شما",
+          "عکس‌برداری",
+          "کنیم."
+        ],
+        "ar": [
+          "يجب",
+          "أن",
+          "نجري",
+          "أشعة",
+          "سينية",
+          "على",
+          "ذراعك."
+        ],
+        "es": [
+          "Debemos",
+          "tomar",
+          "una",
+          "radiografía",
+          "de",
+          "su",
+          "brazo."
+        ],
+        "zh": [
+          "我们",
+          "必须",
+          "给",
+          "您的",
+          "手臂",
+          "拍",
+          "X光。"
+        ],
+        "ja": [
+          "腕の",
+          "レントゲンを",
+          "撮る",
+          "必要が",
+          "あります。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_bloodtest_lab",
+      "kind": "sentence",
+      "itemIds": [
+        "word_bloodtest"
+      ],
+      "texts": {
+        "en": "Please go to the lab for a blood test.",
+        "th": "โปรดไปห้องแล็บเพื่อตรวจเลือดค่ะ",
+        "fa": "لطفاً برای آزمایش خون به آزمایشگاه بروید.",
+        "ar": "يرجى الذهاب إلى المختبر لإجراء تحليل الدم.",
+        "es": "Por favor, vaya al laboratorio para un análisis de sangre.",
+        "zh": "请去化验室验血。",
+        "ja": "検査室へ血液検査を受けに行っててください。"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "go",
+          "to",
+          "the",
+          "lab",
+          "for",
+          "a",
+          "blood",
+          "test."
+        ],
+        "th": [
+          "โปรด",
+          "ไป",
+          "ห้องแล็บ",
+          "เพื่อ",
+          "ตรวจเลือด",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفاً",
+          "برای",
+          "آزمایش",
+          "خون",
+          "به",
+          "آزمایشگاه",
+          "بروید."
+        ],
+        "ar": [
+          "يرجى",
+          "الذهاب",
+          "إلى",
+          "المختبر",
+          "لإجراء",
+          "تحليل",
+          "الدم."
+        ],
+        "es": [
+          "Por",
+          "favor,",
+          "vaya",
+          "al",
+          "laboratorio",
+          "para",
+          "un",
+          "análisis",
+          "de",
+          "sangre."
+        ],
+        "zh": [
+          "请",
+          "去",
+          "化验室",
+          "验血。"
+        ],
+        "ja": [
+          "検査室へ",
+          "血液検査を",
+          "受けに",
+          "行って",
+          "ください。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_result_hour",
+      "kind": "sentence",
+      "itemIds": [
+        "word_result"
+      ],
+      "texts": {
+        "en": "The results will be ready in an hour.",
+        "th": "ผลจะพร้อมในหนึ่งชั่วโมงค่ะ",
+        "fa": "نتایج در یک ساعت آماده خواهند شد.",
+        "ar": "ستكون النتائج جاهزة في غضون ساعة.",
+        "es": "Los resultados estarán listos en una hora.",
+        "zh": "结果将在一小时后出来。",
+        "ja": "結果は1時間で出ます。"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "results",
+          "will",
+          "be",
+          "ready",
+          "in",
+          "an",
+          "hour."
+        ],
+        "th": [
+          "ผล",
+          "จะ",
+          "พร้อม",
+          "ใน",
+          "หนึ่ง",
+          "ชั่วโมง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "نتایج",
+          "در",
+          "یک",
+          "ساعت",
+          "آماده",
+          "خواهند",
+          "شد."
+        ],
+        "ar": [
+          "ستكون",
+          "النتائج",
+          "جاهزة",
+          "في",
+          "غضون",
+          "ساعة."
+        ],
+        "es": [
+          "Los",
+          "resultados",
+          "estarán",
+          "listos",
+          "en",
+          "una",
+          "hora."
+        ],
+        "zh": [
+          "结果",
+          "将",
+          "在",
+          "一小时",
+          "后",
+          "出来。"
+        ],
+        "ja": [
+          "結果は",
+          "1時間で",
+          "出ます。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_prescribe_antibiotics",
+      "kind": "sentence",
+      "itemIds": [
+        "word_doctor",
+        "word_prescribe"
+      ],
+      "texts": {
+        "en": "The doctor will prescribe some antibiotics.",
+        "th": "หมอจะสั่งยาปฏิชีวนะให้ค่ะ",
+        "fa": "پزشک برخی آنتی‌بیوتیک‌ها را تجویز خواهد کرد.",
+        "ar": "سيصف الطبيب بعض المضادات الحيوية.",
+        "es": "El médico recetará algunos antibióticos.",
+        "zh": "医生会开一些抗生素。",
+        "ja": "医者は抗生物質を処方します。"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "doctor",
+          "will",
+          "prescribe",
+          "some",
+          "antibiotics."
+        ],
+        "th": [
+          "หมอ",
+          "จะ",
+          "สั่งยา",
+          "ปฏิชีวนะ",
+          "ให้",
+          "ค่ะ"
+        ],
+        "fa": [
+          "پزشک",
+          "برخی",
+          "آنتی‌بیوتیک‌ها",
+          "را",
+          "تجویز",
+          "خواهد",
+          "کرد."
+        ],
+        "ar": [
+          "سيصف",
+          "الطبيب",
+          "بعض",
+          "المضادات",
+          "الحيوية."
+        ],
+        "es": [
+          "El",
+          "médico",
+          "recetará",
+          "algunos",
+          "antibióticos."
+        ],
+        "zh": [
+          "医生",
+          "会",
+          "开",
+          "一些",
+          "抗生素。"
+        ],
+        "ja": [
+          "医者は",
+          "抗生物質を",
+          "処方します。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_stay_overnight",
+      "kind": "sentence",
+      "itemIds": [
+        "word_hospital"
+      ],
+      "texts": {
+        "en": "You need to stay in the hospital overnight.",
+        "th": "คุณต้องนอนโรงพยาบาลค้างคืนค่ะ",
+        "fa": "شما باید شب در بیمارستان بمانید.",
+        "ar": "تحتاج إلى البقاء في المستشفى للمبيت.",
+        "es": "Necesita quedarse en el hospital toda la noche.",
+        "zh": "您需要在医院过夜。",
+        "ja": "病院に一泊する必要があります。"
+      },
+      "tokens": {
+        "en": [
+          "You",
+          "need",
+          "to",
+          "stay",
+          "in",
+          "the",
+          "hospital",
+          "overnight."
+        ],
+        "th": [
+          "คุณ",
+          "ต้อง",
+          "นอน",
+          "โรงพยาบาล",
+          "ค้างคืน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "شما",
+          "باید",
+          "شب",
+          "در",
+          "بیمارستان",
+          "بمانید."
+        ],
+        "ar": [
+          "تحتاج",
+          "إلى",
+          "البقاء",
+          "في",
+          "المستشفى",
+          "للمبيت."
+        ],
+        "es": [
+          "Necesita",
+          "quedarse",
+          "en",
+          "el",
+          "hospital",
+          "toda",
+          "la",
+          "noche."
+        ],
+        "zh": [
+          "您",
+          "需要",
+          "在",
+          "医院",
+          "过夜。"
+        ],
+        "ja": [
+          "病院に",
+          "一泊する",
+          "必要が",
+          "あります。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_ultrasound_stomach",
+      "kind": "sentence",
+      "itemIds": [
+        "word_ultrasound",
+        "word_stomach"
+      ],
+      "texts": {
+        "en": "Let's do an ultrasound of your stomach.",
+        "th": "มาอัลตราซาวด์ท้องของคุณกันค่ะ",
+        "fa": "بیایید از معده شما سونوگرافی انجام دهیم.",
+        "ar": "لنجري فحصاً بالموجات فوق الصوتية لمعدتك.",
+        "es": "Hagamos una ecografía de su estómago.",
+        "zh": "我们给您的胃部做个超声波吧。",
+        "ja": "胃の超音波検査をしましょう。"
+      },
+      "tokens": {
+        "en": [
+          "Let's",
+          "do",
+          "an",
+          "ultrasound",
+          "of",
+          "your",
+          "stomach."
+        ],
+        "th": [
+          "มา",
+          "อัลตราซาวด์",
+          "ท้อง",
+          "ของ",
+          "คุณ",
+          "กัน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "بیایید",
+          "از",
+          "معده",
+          "شما",
+          "سونوگرافی",
+          "انجام",
+          "دهیم."
+        ],
+        "ar": [
+          "لنجري",
+          "فحصاً",
+          "بالموجات",
+          "فوق",
+          "الصوتية",
+          "لمعدتك."
+        ],
+        "es": [
+          "Hagamos",
+          "una",
+          "ecografía",
+          "de",
+          "su",
+          "estómago."
+        ],
+        "zh": [
+          "我们",
+          "给",
+          "您的",
+          "胃部",
+          "做",
+          "个",
+          "超声波",
+          "吧。"
+        ],
+        "ja": [
+          "胃の",
+          "超音波検査を",
+          "しましょう。"
+        ]
+      }
+    },
+    {
+      "id": "word_examine",
+      "kind": "word",
+      "texts": {
+        "en": "examine",
+        "th": "ตรวจ",
+        "fa": "معاینه کردن",
+        "ar": "يفحص",
+        "es": "examinar",
+        "zh": "检查",
+        "ja": "診察する"
+      }
+    },
+    {
+      "id": "word_xray",
+      "kind": "word",
+      "texts": {
+        "en": "X-ray",
+        "th": "เอกซเรย์",
+        "fa": "عکس‌برداری",
+        "ar": "أشعة سينية",
+        "es": "radiografía",
+        "zh": "X光",
+        "ja": "レントゲン"
+      }
+    },
+    {
+      "id": "word_bloodtest",
+      "kind": "word",
+      "texts": {
+        "en": "blood test",
+        "th": "ตรวจเลือด",
+        "fa": "آزمایش خون",
+        "ar": "تحليل الدم",
+        "es": "análisis de sangre",
+        "zh": "验血",
+        "ja": "血液検査"
+      }
+    },
+    {
+      "id": "word_result",
+      "kind": "word",
+      "texts": {
+        "en": "result",
+        "th": "ผล",
+        "fa": "نتیجه",
+        "ar": "نتيجة",
+        "es": "resultado",
+        "zh": "结果",
+        "ja": "結果"
+      }
+    },
+    {
+      "id": "word_prescribe",
+      "kind": "word",
+      "texts": {
+        "en": "prescribe",
+        "th": "สั่งยา",
+        "fa": "تجویز کردن",
+        "ar": "يصف",
+        "es": "recetar",
+        "zh": "开处方",
+        "ja": "処方する"
+      }
+    },
+    {
+      "id": "word_ultrasound",
+      "kind": "word",
+      "texts": {
+        "en": "ultrasound",
+        "th": "อัลตราซาวด์",
+        "fa": "سونوگرافی",
+        "ar": "موجات فوق صوتية",
+        "es": "ultrasonido",
+        "zh": "超声波",
+        "ja": "超音波"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Pharmacy & Instructions",
+        "th": "สถานการณ์ 4: ร้านขายยาและคำแนะนำ",
+        "fa": "سناریو ۴: داروخانه و دستورالعمل‌ها",
+        "ar": "السيناريو 4: الصيدلية والتعليمات",
+        "es": "Escenario 4: Farmacia e instrucciones",
+        "zh": "场景 4：药房与用药指导",
+        "ja": "シナリオ 4：薬局と服用指示"
+      }
+    },
+    {
+      "id": "sentence_hosp_pills_threetimes",
+      "kind": "sentence",
+      "itemIds": [
+        "word_pill"
+      ],
+      "texts": {
+        "en": "Take these pills three times a day.",
+        "th": "ทานยาเม็ดนี้วันละสามครั้งค่ะ",
+        "fa": "این قرص‌ها را سه بار در روز مصرف کنید.",
+        "ar": "تناول هذه الحبوب ثلاث مرات في اليوم.",
+        "es": "Tome estas pastillas tres veces al día.",
+        "zh": "这些药丸每天吃三次。",
+        "ja": "この錠剤を1日3回飲んでください。"
+      },
+      "tokens": {
+        "en": [
+          "Take",
+          "these",
+          "pills",
+          "three",
+          "times",
+          "a",
+          "day."
+        ],
+        "th": [
+          "ทาน",
+          "ยา",
+          "เม็ด",
+          "นี้",
+          "วันละ",
+          "สาม",
+          "ครั้ง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "این",
+          "قرص‌ها",
+          "را",
+          "سه",
+          "بار",
+          "در",
+          "روز",
+          "مصرف",
+          "کنید."
+        ],
+        "ar": [
+          "تناول",
+          "هذه",
+          "الحبوب",
+          "ثلاث",
+          "مرات",
+          "في",
+          "اليوم."
+        ],
+        "es": [
+          "Tome",
+          "estas",
+          "pastillas",
+          "tres",
+          "veces",
+          "al",
+          "día."
+        ],
+        "zh": [
+          "这些",
+          "药丸",
+          "每天",
+          "吃",
+          "三次。"
+        ],
+        "ja": [
+          "この",
+          "錠剤を",
+          "1日",
+          "3回",
+          "飲んで",
+          "ください。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_medicine_meal",
+      "kind": "sentence",
+      "itemIds": [
+        "word_medicine",
+        "word_meal"
+      ],
+      "texts": {
+        "en": "You must take this medicine after a meal.",
+        "th": "คุณต้องทานยานี้หลังมื้ออาหารค่ะ",
+        "fa": "شما باید این دارو را بعد از وعده غذایی مصرف کنید.",
+        "ar": "يجب أن تتناول هذا الدواء بعد الوجبة.",
+        "es": "Debe tomar esta medicina después de una comida.",
+        "zh": "您必须在饭后服用这种药。",
+        "ja": "この薬は食後に飲んでください。"
+      },
+      "tokens": {
+        "en": [
+          "You",
+          "must",
+          "take",
+          "this",
+          "medicine",
+          "after",
+          "a",
+          "meal."
+        ],
+        "th": [
+          "คุณ",
+          "ต้อง",
+          "ทาน",
+          "ยา",
+          "นี้",
+          "หลัง",
+          "มื้ออาหาร",
+          "ค่ะ"
+        ],
+        "fa": [
+          "شما",
+          "باید",
+          "این",
+          "دارو",
+          "را",
+          "بعد",
+          "از",
+          "وعده",
+          "غذایی",
+          "مصرف",
+          "کنید."
+        ],
+        "ar": [
+          "يجب",
+          "أن",
+          "تتناول",
+          "هذا",
+          "الدواء",
+          "بعد",
+          "الوجبة."
+        ],
+        "es": [
+          "Debe",
+          "tomar",
+          "esta",
+          "medicina",
+          "después",
+          "de",
+          "una",
+          "comida."
+        ],
+        "zh": [
+          "您",
+          "必须",
+          "在",
+          "饭后",
+          "服用",
+          "这种",
+          "药。"
+        ],
+        "ja": [
+          "この",
+          "薬は",
+          "食後に",
+          "飲んで",
+          "ください。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_sideeffect_drowsy",
+      "kind": "sentence",
+      "itemIds": [
+        "word_sideeffect"
+      ],
+      "texts": {
+        "en": "This medication may cause drowsiness as a side effect.",
+        "th": "ยานี้อาจทำให้เกิดอาการง่วงนอนเป็นผลข้างเคียงค่ะ",
+        "fa": "این دارو ممکن است باعث خواب‌آلودگی به عنوان عوارض جانبی شود.",
+        "ar": "قد يسبب هذا الدواء النعاس كأثر جانبي.",
+        "es": "Este medicamento puede causar somnolencia como efecto secundario.",
+        "zh": "这种药可能会引起嗜睡的副作用。",
+        "ja": "この薬は副作用として眠気を引き起こす可能性があります。"
+      },
+      "tokens": {
+        "en": [
+          "This",
+          "medication",
+          "may",
+          "cause",
+          "drowsiness",
+          "as",
+          "a",
+          "side",
+          "effect."
+        ],
+        "th": [
+          "ยา",
+          "นี้",
+          "อาจ",
+          "ทำให้",
+          "เกิด",
+          "อาการง่วงนอน",
+          "เป็น",
+          "ผลข้างเคียง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "این",
+          "دارو",
+          "ممکن",
+          "است",
+          "باعث",
+          "خواب‌آلودگی",
+          "به",
+          "عنوان",
+          "عوارض",
+          "جانبی",
+          "شود."
+        ],
+        "ar": [
+          "قد",
+          "يسبب",
+          "هذا",
+          "الدواء",
+          "النعاس",
+          "كأثر",
+          "جانبي."
+        ],
+        "es": [
+          "Este",
+          "medicamento",
+          "puede",
+          "causar",
+          "somnolencia",
+          "como",
+          "efecto",
+          "secundario."
+        ],
+        "zh": [
+          "这种",
+          "药",
+          "可能",
+          "会",
+          "引起",
+          "嗜睡",
+          "的",
+          "副作用。"
+        ],
+        "ja": [
+          "この",
+          "薬は",
+          "副作用として",
+          "眠気を",
+          "引き起こす",
+          "可能性が",
+          "あります。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_no_alcohol",
+      "kind": "sentence",
+      "itemIds": [
+        "word_medicine"
+      ],
+      "texts": {
+        "en": "Do not drink alcohol while taking this prescription.",
+        "th": "งดดื่มแอลกอฮอล์ขณะทานยานี้ค่ะ",
+        "fa": "در هنگام مصرف این دارو، الکل ننوشید.",
+        "ar": "لا تشرب الكحول أثناء تناول هذه الوصفة.",
+        "es": "No beba alcohol mientras toma esta receta.",
+        "zh": "服用此处方药期间请勿饮酒。",
+        "ja": "この処方薬の服用中はアルコールを飲まないでください。"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "not",
+          "drink",
+          "alcohol",
+          "while",
+          "taking",
+          "this",
+          "prescription."
+        ],
+        "th": [
+          "งด",
+          "ดื่ม",
+          "แอลกอฮอล์",
+          "ขณะ",
+          "ทาน",
+          "ยา",
+          "นี้",
+          "ค่ะ"
+        ],
+        "fa": [
+          "در",
+          "هنگام",
+          "مصرف",
+          "این",
+          "دارو،",
+          "الکل",
+          "ننوشید."
+        ],
+        "ar": [
+          "لا",
+          "تشرب",
+          "الكحول",
+          "أثناء",
+          "تناول",
+          "هذه",
+          "الوصفة."
+        ],
+        "es": [
+          "No",
+          "beba",
+          "alcohol",
+          "mientras",
+          "toma",
+          "esta",
+          "receta."
+        ],
+        "zh": [
+          "服用",
+          "此",
+          "处方药",
+          "期间",
+          "请勿",
+          "饮酒。"
+        ],
+        "ja": [
+          "この",
+          "処方薬の",
+          "服用中は",
+          "アルコールを",
+          "飲まないで",
+          "ください。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_ointment_wound",
+      "kind": "sentence",
+      "itemIds": [
+        "word_ointment",
+        "word_injury"
+      ],
+      "texts": {
+        "en": "Apply this ointment to the wound twice daily.",
+        "th": "ทายานี้ที่บาดแผลวันละสองครั้งค่ะ",
+        "fa": "این پماد را روزی دو بار روی زخم بمالید.",
+        "ar": "ضع هذا المرهم على الجرح مرتين يومياً.",
+        "es": "Aplique esta pomada en la herida dos veces al día.",
+        "zh": "每天两次将这种药膏涂在伤口上。",
+        "ja": "この軟膏を傷口に1日2回塗ってください。"
+      },
+      "tokens": {
+        "en": [
+          "Apply",
+          "this",
+          "ointment",
+          "to",
+          "the",
+          "wound",
+          "twice",
+          "daily."
+        ],
+        "th": [
+          "ทา",
+          "ยา",
+          "นี้",
+          "ที่",
+          "บาดแผล",
+          "วันละ",
+          "สอง",
+          "ครั้ง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "این",
+          "پماد",
+          "را",
+          "روزی",
+          "دو",
+          "بار",
+          "روی",
+          "زخم",
+          "بمالید."
+        ],
+        "ar": [
+          "ضع",
+          "هذا",
+          "المرهم",
+          "على",
+          "الجرح",
+          "مرتين",
+          "يومياً."
+        ],
+        "es": [
+          "Aplique",
+          "esta",
+          "pomada",
+          "en",
+          "la",
+          "herida",
+          "dos",
+          "veces",
+          "al",
+          "día."
+        ],
+        "zh": [
+          "每天",
+          "两次",
+          "将",
+          "这种",
+          "药膏",
+          "涂在",
+          "伤口",
+          "上。"
+        ],
+        "ja": [
+          "この",
+          "軟膏を",
+          "傷口に",
+          "1日",
+          "2回",
+          "塗って",
+          "ください。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_symptom_worsen",
+      "kind": "sentence",
+      "itemIds": [
+        "word_symptom"
+      ],
+      "texts": {
+        "en": "If the symptoms worsen, please return immediately.",
+        "th": "หากอาการแย่ลง โปรดกลับมาทันทีค่ะ",
+        "fa": "اگر علائم بدتر شد، لطفاً فوراً بازگردید.",
+        "ar": "إذا ساءت الأعراض، يرجى العودة فوراً.",
+        "es": "Si los síntomas empeoran, por favor regrese inmediatamente.",
+        "zh": "如果症状恶化，请立即复诊。",
+        "ja": "症状が悪化した場合は、すぐに戻ってきてください。"
+      },
+      "tokens": {
+        "en": [
+          "If",
+          "the",
+          "symptoms",
+          "worsen,",
+          "please",
+          "return",
+          "immediately."
+        ],
+        "th": [
+          "หาก",
+          "อาการ",
+          "แย่ลง",
+          "โปรด",
+          "กลับมา",
+          "ทันที",
+          "ค่ะ"
+        ],
+        "fa": [
+          "اگر",
+          "علائم",
+          "بدتر",
+          "شد،",
+          "لطفاً",
+          "فوراً",
+          "بازگردید."
+        ],
+        "ar": [
+          "إذا",
+          "ساءت",
+          "الأعراض،",
+          "يرجى",
+          "العودة",
+          "فوراً."
+        ],
+        "es": [
+          "Si",
+          "los",
+          "síntomas",
+          "empeoran,",
+          "por",
+          "favor",
+          "regrese",
+          "inmediatamente."
+        ],
+        "zh": [
+          "如果",
+          "症状",
+          "恶化",
+          "，",
+          "请",
+          "立即",
+          "复诊。"
+        ],
+        "ja": [
+          "症状が",
+          "悪化した",
+          "場合は",
+          "すぐに",
+          "戻って",
+          "きて",
+          "ください。"
+        ]
+      }
+    },
+    {
+      "id": "word_medicine",
+      "kind": "word",
+      "texts": {
+        "en": "medicine",
+        "th": "ยา",
+        "fa": "دارو",
+        "ar": "دواء",
+        "es": "medicina",
+        "zh": "药",
+        "ja": "薬"
+      }
+    },
+    {
+      "id": "word_pill",
+      "kind": "word",
+      "texts": {
+        "en": "pill",
+        "th": "เม็ด",
+        "fa": "قرص",
+        "ar": "حبة",
+        "es": "pastilla",
+        "zh": "药丸",
+        "ja": "錠剤"
+      }
+    },
+    {
+      "id": "word_sideeffect",
+      "kind": "word",
+      "texts": {
+        "en": "side effect",
+        "th": "ผลข้างเคียง",
+        "fa": "عوارض جانبی",
+        "ar": "آثار جانبية",
+        "es": "efecto secundario",
+        "zh": "副作用",
+        "ja": "副作用"
+      }
+    },
+    {
+      "id": "word_meal",
+      "kind": "word",
+      "texts": {
+        "en": "meal",
+        "th": "มื้ออาหาร",
+        "fa": "وعده غذایی",
+        "ar": "وجبة",
+        "es": "comida",
+        "zh": "餐",
+        "ja": "食事"
+      }
+    },
+    {
+      "id": "word_ointment",
+      "kind": "word",
+      "texts": {
+        "en": "ointment",
+        "th": "ยาทา",
+        "fa": "پماد",
+        "ar": "مرهم",
+        "es": "pomada",
+        "zh": "药膏",
+        "ja": "軟膏"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Insurance & Discharge",
+        "th": "สถานการณ์ 5: ประกันภัยและการจำหน่าย",
+        "fa": "سناریو ۵: بیمه و ترخیص",
+        "ar": "السيناريو 5: التأمين والخروج",
+        "es": "Escenario 5: Seguro y alta",
+        "zh": "场景 5：保险与出院",
+        "ja": "シナリオ 5：保険と退院"
+      }
+    },
+    {
+      "id": "sentence_hosp_cert_insurance",
+      "kind": "sentence",
+      "itemIds": [
+        "word_cert",
+        "word_insurance"
+      ],
+      "texts": {
+        "en": "I need a medical certificate for my travel insurance.",
+        "th": "ผมขอใบรับรองแพทย์สำหรับประกันภัยการเดินทางครับ",
+        "fa": "من به یک گواهی پزشکی برای بیمه مسافرتی‌ام نیاز دارم.",
+        "ar": "أحتاج إلى شهادة طبية لتأمين السفر الخاص بي.",
+        "es": "Necesito un certificado médico para mi seguro de viaje.",
+        "zh": "我需要一份医疗证明来索赔我的旅行保险。",
+        "ja": "旅行保険のために診断書が必要です。"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "need",
+          "a",
+          "medical",
+          "certificate",
+          "for",
+          "my",
+          "travel",
+          "insurance."
+        ],
+        "th": [
+          "ผม",
+          "ขอ",
+          "ใบรับรองแพทย์",
+          "สำหรับ",
+          "ประกันภัย",
+          "การเดินทาง",
+          "ครับ"
+        ],
+        "fa": [
+          "من",
+          "به",
+          "یک",
+          "گواهی",
+          "پزشکی",
+          "برای",
+          "بیمه",
+          "مسافرتی‌ام",
+          "نیاز",
+          "دارم."
+        ],
+        "ar": [
+          "أحتاج",
+          "إلى",
+          "شهادة",
+          "طبية",
+          "لتأمين",
+          "السفر",
+          "الخاص",
+          "بي."
+        ],
+        "es": [
+          "Necesito",
+          "un",
+          "certificado",
+          "médico",
+          "para",
+          "mi",
+          "seguro",
+          "de",
+          "viaje."
+        ],
+        "zh": [
+          "我",
+          "需要",
+          "一份",
+          "医疗",
+          "证明",
+          "来",
+          "索赔",
+          "我的",
+          "旅行",
+          "保险。"
+        ],
+        "ja": [
+          "旅行",
+          "保険の",
+          "ために",
+          "診断書が",
+          "必要です。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_receipt_bill",
+      "kind": "sentence",
+      "itemIds": [
+        "word_receipt",
+        "word_bill"
+      ],
+      "texts": {
+        "en": "Please issue an itemized receipt for the bill.",
+        "th": "โปรดออกใบเสร็จแบบแสดงรายการสำหรับบิลด้วยครับ",
+        "fa": "لطفاً یک رسید مفصل برای صورت‌حساب صادر کنید.",
+        "ar": "يرجى إصدار إيصال مفصل للفاتورة.",
+        "es": "Por favor, emita un recibo detallado para la factura.",
+        "zh": "请为账单开具详细收据。",
+        "ja": "請求書の明細付き領収書を発行してください。"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "issue",
+          "an",
+          "itemized",
+          "receipt",
+          "for",
+          "the",
+          "bill."
+        ],
+        "th": [
+          "โปรด",
+          "ออก",
+          "ใบเสร็จ",
+          "แบบ",
+          "แสดงรายการ",
+          "สำหรับ",
+          "บิล",
+          "ด้วย",
+          "ครับ"
+        ],
+        "fa": [
+          "لطفاً",
+          "یک",
+          "رسید",
+          "مفصل",
+          "برای",
+          "صورت‌حساب",
+          "صادر",
+          "کنید."
+        ],
+        "ar": [
+          "يرجى",
+          "إصدار",
+          "إيصال",
+          "مفصل",
+          "للفاتورة."
+        ],
+        "es": [
+          "Por",
+          "favor,",
+          "emita",
+          "un",
+          "recibo",
+          "detallado",
+          "para",
+          "la",
+          "factura."
+        ],
+        "zh": [
+          "请",
+          "为",
+          "账单",
+          "开具",
+          "详细",
+          "收据。"
+        ],
+        "ja": [
+          "請求書の",
+          "明細付き",
+          "領収書を",
+          "発行して",
+          "ください。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_claim_direct",
+      "kind": "sentence",
+      "itemIds": [
+        "word_hospital",
+        "word_claim",
+        "word_insurance"
+      ],
+      "texts": {
+        "en": "Does the hospital accept direct billing with this insurance?",
+        "th": "โรงพยาบาลรับเคลมประกันภัยนี้โดยตรงไหมครับ",
+        "fa": "آیا بیمارستان پرداخت مستقیم با این بیمه را می‌پذیرد؟",
+        "ar": "هل يقبل المستشفى الفوترة المباشرة مع هذا التأمين؟",
+        "es": "¿El hospital acepta facturación directa con este seguro?",
+        "zh": "医院接受这种保险的直接结算吗？",
+        "ja": "病院はこの保険で直接請求できますか？"
+      },
+      "tokens": {
+        "en": [
+          "Does",
+          "the",
+          "hospital",
+          "accept",
+          "direct",
+          "billing",
+          "with",
+          "this",
+          "insurance?"
+        ],
+        "th": [
+          "โรงพยาบาล",
+          "รับ",
+          "เคลม",
+          "ประกันภัย",
+          "นี้",
+          "โดยตรง",
+          "ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "آیا",
+          "بیمارستان",
+          "پرداخت",
+          "مستقیم",
+          "با",
+          "این",
+          "بیمه",
+          "را",
+          "می‌پذیرد؟"
+        ],
+        "ar": [
+          "هل",
+          "يقبل",
+          "المستشفى",
+          "الفوترة",
+          "المباشرة",
+          "مع",
+          "هذا",
+          "التأمين؟"
+        ],
+        "es": [
+          "¿El",
+          "hospital",
+          "acepta",
+          "facturación",
+          "directa",
+          "con",
+          "este",
+          "seguro?"
+        ],
+        "zh": [
+          "医院",
+          "接受",
+          "这种",
+          "保险",
+          "的",
+          "直接",
+          "结算",
+          "吗？"
+        ],
+        "ja": [
+          "病院は",
+          "この",
+          "保険で",
+          "直接",
+          "請求",
+          "できますか？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_pay_fees",
+      "kind": "sentence",
+      "itemIds": [
+        "word_pay",
+        "word_emergency"
+      ],
+      "texts": {
+        "en": "How do I pay for the emergency room fees?",
+        "th": "ผมจะจ่ายค่าห้องฉุกเฉินยังไงครับ",
+        "fa": "چگونه هزینه‌های اورژانس را پرداخت کنم؟",
+        "ar": "كيف أدفع رسوم غرفة الطوارئ؟",
+        "es": "¿Cómo pago las tarifas de la sala de emergencias?",
+        "zh": "我该如何支付急诊室费用？",
+        "ja": "救急病院の費用はどうやって支払いますか？"
+      },
+      "tokens": {
+        "en": [
+          "How",
+          "do",
+          "I",
+          "pay",
+          "for",
+          "the",
+          "emergency",
+          "room",
+          "fees?"
+        ],
+        "th": [
+          "ผม",
+          "จะ",
+          "จ่าย",
+          "ค่า",
+          "ห้องฉุกเฉิน",
+          "ยังไง",
+          "ครับ"
+        ],
+        "fa": [
+          "چگونه",
+          "هزینه‌های",
+          "اورژانس",
+          "را",
+          "پرداخت",
+          "کنم؟"
+        ],
+        "ar": [
+          "كيف",
+          "أدفع",
+          "رسوم",
+          "غرفة",
+          "الطوارئ؟"
+        ],
+        "es": [
+          "¿Cómo",
+          "pago",
+          "las",
+          "tarifas",
+          "de",
+          "la",
+          "sala",
+          "de",
+          "emergencias?"
+        ],
+        "zh": [
+          "我",
+          "该",
+          "如何",
+          "支付",
+          "急诊室",
+          "费用？"
+        ],
+        "ja": [
+          "救急",
+          "病院の",
+          "費用は",
+          "どうやって",
+          "支払いますか？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_pay_card",
+      "kind": "sentence",
+      "itemIds": [
+        "word_pay"
+      ],
+      "texts": {
+        "en": "I will pay by credit card.",
+        "th": "ผมจะจ่ายด้วยบัตรเครดิตครับ",
+        "fa": "من با کارت اعتباری پرداخت خواهم کرد.",
+        "ar": "سأدفع عن طريق بطاقة الائتمان.",
+        "es": "Pagaré con tarjeta de crédito.",
+        "zh": "我将用信用卡支付。",
+        "ja": "クレジットカードで支払います。"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "will",
+          "pay",
+          "by",
+          "credit",
+          "card."
+        ],
+        "th": [
+          "ผม",
+          "จะ",
+          "จ่าย",
+          "ด้วย",
+          "บัตรเครดิต",
+          "ครับ"
+        ],
+        "fa": [
+          "من",
+          "با",
+          "کارت",
+          "اعتباری",
+          "پرداخت",
+          "خواهم",
+          "کرد."
+        ],
+        "ar": [
+          "سأدفع",
+          "عن",
+          "طريق",
+          "بطاقة",
+          "الائتمان."
+        ],
+        "es": [
+          "Pagaré",
+          "con",
+          "tarjeta",
+          "de",
+          "crédito."
+        ],
+        "zh": [
+          "我",
+          "将",
+          "用",
+          "信用卡",
+          "支付。"
+        ],
+        "ja": [
+          "クレジットカードで",
+          "支払います。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_hosp_discharge_docs",
+      "kind": "sentence",
+      "itemIds": [
+        "word_hospital"
+      ],
+      "texts": {
+        "en": "When will the discharge documents be ready?",
+        "th": "เอกสารจำหน่ายผู้ป่วยจะพร้อมเมื่อไหร่ครับ",
+        "fa": "اسناد ترخیص چه زمانی آماده می‌شوند؟",
+        "ar": "متى ستكون وثائق الخروج جاهزة؟",
+        "es": "¿Cuándo estarán listos los documentos de alta?",
+        "zh": "出院文件什么时候能准备好？",
+        "ja": "退院書類はいつ準備できますか？"
+      },
+      "tokens": {
+        "en": [
+          "When",
+          "will",
+          "the",
+          "discharge",
+          "documents",
+          "be",
+          "ready?"
+        ],
+        "th": [
+          "เอกสาร",
+          "จำหน่าย",
+          "ผู้ป่วย",
+          "จะ",
+          "พร้อม",
+          "เมื่อไหร่",
+          "ครับ"
+        ],
+        "fa": [
+          "اسناد",
+          "ترخیص",
+          "چه",
+          "زمانی",
+          "آماده",
+          "می‌شوند؟"
+        ],
+        "ar": [
+          "متى",
+          "ستكون",
+          "وثائق",
+          "الخروج",
+          "جاهزة؟"
+        ],
+        "es": [
+          "¿Cuándo",
+          "estarán",
+          "listos",
+          "los",
+          "documentos",
+          "de",
+          "alta?"
+        ],
+        "zh": [
+          "出院",
+          "文件",
+          "什么",
+          "时候",
+          "能",
+          "准备好？"
+        ],
+        "ja": [
+          "退院",
+          "書類は",
+          "いつ",
+          "準備",
+          "できますか？"
+        ]
+      }
+    },
+    {
+      "id": "word_cert",
+      "kind": "word",
+      "texts": {
+        "en": "medical certificate",
+        "th": "ใบรับรองแพทย์",
+        "fa": "گواهی پزشکی",
+        "ar": "شهادة طبية",
+        "es": "certificado médico",
+        "zh": "医疗证明",
+        "ja": "診断書"
+      }
+    },
+    {
+      "id": "word_receipt",
+      "kind": "word",
+      "texts": {
+        "en": "receipt",
+        "th": "ใบเสร็จ",
+        "fa": "رسید",
+        "ar": "إيصال",
+        "es": "recibo",
+        "zh": "收据",
+        "ja": "領収書"
+      }
+    },
+    {
+      "id": "word_insurance",
+      "kind": "word",
+      "texts": {
+        "en": "insurance",
+        "th": "ประกันภัย",
+        "fa": "بیمه",
+        "ar": "تأمين",
+        "es": "seguro",
+        "zh": "保险",
+        "ja": "保険"
+      }
+    },
+    {
+      "id": "word_bill",
+      "kind": "word",
+      "texts": {
+        "en": "bill",
+        "th": "บิล",
+        "fa": "صورت‌حساب",
+        "ar": "فاتورة",
+        "es": "factura",
+        "zh": "账单",
+        "ja": "請求書"
+      }
+    },
+    {
+      "id": "word_pay",
+      "kind": "word",
+      "texts": {
+        "en": "pay",
+        "th": "จ่าย",
+        "fa": "پرداخت کردن",
+        "ar": "يدفع",
+        "es": "pagar",
+        "zh": "支付",
+        "ja": "支払う"
+      }
+    },
+    {
+      "id": "word_claim",
+      "kind": "word",
+      "texts": {
+        "en": "claim",
+        "th": "เคลม",
+        "fa": "ادعا کردن",
+        "ar": "يطالب بالتعويض",
+        "es": "reclamar",
+        "zh": "索赔",
+        "ja": "請求する"
+      }
+    }
+  ]
+}

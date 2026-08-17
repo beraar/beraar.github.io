@@ -1,0 +1,3004 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำหลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras básicas",
+        "zh": "核心词汇",
+        "ja": "コア単語"
+      }
+    },
+    {
+      "id": "word_exchange",
+      "kind": "word",
+      "texts": {
+        "en": "exchange",
+        "th": "แลก",
+        "fa": "تبادل کردن",
+        "ar": "يصرف",
+        "es": "cambiar",
+        "zh": "兑换",
+        "ja": "両替する"
+      }
+    },
+    {
+      "id": "word_money",
+      "kind": "word",
+      "texts": {
+        "en": "money",
+        "th": "เงิน",
+        "fa": "پول",
+        "ar": "مال",
+        "es": "dinero",
+        "zh": "钱",
+        "ja": "お金"
+      }
+    },
+    {
+      "id": "word_baht",
+      "kind": "word",
+      "texts": {
+        "en": "baht",
+        "th": "บาท",
+        "fa": "بات",
+        "ar": "بات",
+        "es": "baht",
+        "zh": "泰铢",
+        "ja": "バーツ"
+      }
+    },
+    {
+      "id": "word_dollar",
+      "kind": "word",
+      "texts": {
+        "en": "dollar",
+        "th": "ดอลลาร์",
+        "fa": "دلار",
+        "ar": "دولار",
+        "es": "dólar",
+        "zh": "美元",
+        "ja": "ドル"
+      }
+    },
+    {
+      "id": "word_euro",
+      "kind": "word",
+      "texts": {
+        "en": "euro",
+        "th": "ยูโร",
+        "fa": "یورو",
+        "ar": "يورو",
+        "es": "euro",
+        "zh": "欧元",
+        "ja": "ユーロ"
+      }
+    },
+    {
+      "id": "word_rate",
+      "kind": "word",
+      "texts": {
+        "en": "rate",
+        "th": "อัตรา",
+        "fa": "نرخ",
+        "ar": "سعر",
+        "es": "tasa",
+        "zh": "汇率",
+        "ja": "レート"
+      }
+    },
+    {
+      "id": "word_passport",
+      "kind": "word",
+      "texts": {
+        "en": "passport",
+        "th": "พาสปอร์ต",
+        "fa": "گذرنامه",
+        "ar": "جواز سفر",
+        "es": "pasaporte",
+        "zh": "护照",
+        "ja": "パスポート"
+      }
+    },
+    {
+      "id": "word_fee",
+      "kind": "word",
+      "texts": {
+        "en": "fee",
+        "th": "ค่าธรรมเนียม",
+        "fa": "کارمزد",
+        "ar": "رسوم",
+        "es": "comisión",
+        "zh": "手续费",
+        "ja": "手数料"
+      }
+    },
+    {
+      "id": "word_buy",
+      "kind": "word",
+      "texts": {
+        "en": "buy",
+        "th": "ซื้อ",
+        "fa": "خریدن",
+        "ar": "يشتري",
+        "es": "comprar",
+        "zh": "买",
+        "ja": "買う"
+      }
+    },
+    {
+      "id": "word_sell",
+      "kind": "word",
+      "texts": {
+        "en": "sell",
+        "th": "ขาย",
+        "fa": "فروختن",
+        "ar": "يبيع",
+        "es": "vender",
+        "zh": "卖",
+        "ja": "売る"
+      }
+    },
+    {
+      "id": "word_not",
+      "kind": "word",
+      "texts": {
+        "en": "not",
+        "th": "ไม่",
+        "fa": "نه",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不",
+        "ja": "ない"
+      }
+    },
+    {
+      "id": "word_sign",
+      "kind": "word",
+      "texts": {
+        "en": "sign",
+        "th": "เซ็น",
+        "fa": "امضا کردن",
+        "ar": "يوقع",
+        "es": "firmar",
+        "zh": "签名",
+        "ja": "サインする"
+      }
+    },
+    {
+      "id": "word_receipt",
+      "kind": "word",
+      "texts": {
+        "en": "receipt",
+        "th": "ใบเสร็จ",
+        "fa": "رسید",
+        "ar": "إيصال",
+        "es": "recibo",
+        "zh": "收据",
+        "ja": "レシート"
+      }
+    },
+    {
+      "id": "word_how_much",
+      "kind": "word",
+      "texts": {
+        "en": "how much",
+        "th": "เท่าไหร่",
+        "fa": "چقدر",
+        "ar": "كم",
+        "es": "cuánto",
+        "zh": "多少",
+        "ja": "いくら"
+      }
+    },
+    {
+      "id": "word_question",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_have",
+      "kind": "word",
+      "texts": {
+        "en": "have",
+        "th": "มี",
+        "fa": "داشتن",
+        "ar": "لدى",
+        "es": "tener",
+        "zh": "有",
+        "ja": "ある"
+      }
+    },
+    {
+      "id": "word_today",
+      "kind": "word",
+      "texts": {
+        "en": "today",
+        "th": "วันนี้",
+        "fa": "امروز",
+        "ar": "اليوم",
+        "es": "hoy",
+        "zh": "今天",
+        "ja": "今日"
+      }
+    },
+    {
+      "id": "word_one_hundred",
+      "kind": "word",
+      "texts": {
+        "en": "one hundred",
+        "th": "หนึ่งร้อย",
+        "fa": "صد",
+        "ar": "مائة",
+        "es": "cien",
+        "zh": "一百",
+        "ja": "百"
+      }
+    },
+    {
+      "id": "word_five_hundred",
+      "kind": "word",
+      "texts": {
+        "en": "five hundred",
+        "th": "ห้าร้อย",
+        "fa": "پانصد",
+        "ar": "خمسمائة",
+        "es": "quinientos",
+        "zh": "五百",
+        "ja": "五百"
+      }
+    },
+    {
+      "id": "word_one_thousand",
+      "kind": "word",
+      "texts": {
+        "en": "one thousand",
+        "th": "หนึ่งพัน",
+        "fa": "هزار",
+        "ar": "ألف",
+        "es": "mil",
+        "zh": "一千",
+        "ja": "千"
+      }
+    },
+    {
+      "id": "word_small",
+      "kind": "word",
+      "texts": {
+        "en": "small",
+        "th": "ย่อย",
+        "fa": "خرد",
+        "ar": "صغير",
+        "es": "pequeño",
+        "zh": "零碎",
+        "ja": "小額"
+      }
+    },
+    {
+      "id": "header_scenario_1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Finding & Asking",
+        "th": "สถานการณ์ 1: ค้นหาและสอบถาม",
+        "fa": "سناریوی ۱: پیدا کردن و پرسیدن",
+        "ar": "السيناريو ١: البحث والسؤال",
+        "es": "Escenario 1: Encontrar y preguntar",
+        "zh": "场景一：寻找与询问",
+        "ja": "シーン1：探して尋ねる"
+      }
+    },
+    {
+      "id": "sentence_ce_s1_counter_where",
+      "kind": "sentence",
+      "itemIds": [
+        "word_counter",
+        "word_exchange",
+        "word_money",
+        "word_be_at",
+        "word_where"
+      ],
+      "texts": {
+        "en": "Where is the currency exchange counter",
+        "th": "เคาน์เตอร์แลกเปลี่ยนเงินอยู่ไหนคะ",
+        "fa": "باجه تبادل ارز کجاست",
+        "ar": "أين شباك صرف العملات",
+        "es": "Dónde está el mostrador de cambio de divisas",
+        "zh": "货币兑换柜台在哪里",
+        "ja": "両替カウンターはどこですか"
+      },
+      "tokens": {
+        "en": [
+          "Where",
+          "is",
+          "the",
+          "currency",
+          "exchange",
+          "counter"
+        ],
+        "th": [
+          "เคาน์เตอร์",
+          "แลกเปลี่ยน",
+          "เงิน",
+          "อยู่",
+          "ไหน",
+          "คะ"
+        ],
+        "fa": [
+          "باجه",
+          "تبادل",
+          "ارز",
+          "کجاست"
+        ],
+        "ar": [
+          "أين",
+          "شباك",
+          "صرف",
+          "العملات"
+        ],
+        "es": [
+          "Dónde",
+          "está",
+          "el",
+          "mostrador",
+          "de",
+          "cambio",
+          "de",
+          "divisas"
+        ],
+        "zh": [
+          "货币",
+          "兑换",
+          "柜台",
+          "在",
+          "哪里"
+        ],
+        "ja": [
+          "両替",
+          "カウンター",
+          "は",
+          "どこ",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s1_rate_today",
+      "kind": "sentence",
+      "itemIds": [
+        "word_rate",
+        "word_exchange",
+        "word_today",
+        "word_how_much"
+      ],
+      "texts": {
+        "en": "What is the exchange rate today",
+        "th": "อัตราแลกเปลี่ยนวันนี้เท่าไหร่คะ",
+        "fa": "نرخ تبادل امروز چقدر است",
+        "ar": "كم سعر الصرف اليوم",
+        "es": "Cuál es la tasa de cambio hoy",
+        "zh": "今天的汇率是多少",
+        "ja": "今日の両替レートはいくらですか"
+      },
+      "tokens": {
+        "en": [
+          "What",
+          "is",
+          "the",
+          "exchange",
+          "rate",
+          "today"
+        ],
+        "th": [
+          "อัตรา",
+          "แลกเปลี่ยน",
+          "วันนี้",
+          "เท่าไหร่",
+          "คะ"
+        ],
+        "fa": [
+          "نرخ",
+          "تبادل",
+          "امروز",
+          "چقدر",
+          "است"
+        ],
+        "ar": [
+          "كم",
+          "سعر",
+          "الصرف",
+          "اليوم"
+        ],
+        "es": [
+          "Cuál",
+          "es",
+          "la",
+          "tasa",
+          "de",
+          "cambio",
+          "hoy"
+        ],
+        "zh": [
+          "今天",
+          "的",
+          "汇率",
+          "是",
+          "多少"
+        ],
+        "ja": [
+          "今日",
+          "の",
+          "両替",
+          "レート",
+          "は",
+          "いくら",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s1_accept_dollar",
+      "kind": "sentence",
+      "itemIds": [
+        "word_accept",
+        "word_buy",
+        "word_dollar",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Do you accept US dollars",
+        "th": "รับซื้อดอลลาร์ไหมคะ",
+        "fa": "آیا دلار قبول می‌کنید",
+        "ar": "هل تقبلون الدولارات",
+        "es": "Aceptan dólares estadounidenses",
+        "zh": "你们收美元吗",
+        "ja": "ドルは受け付けていますか"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "accept",
+          "US",
+          "dollars"
+        ],
+        "th": [
+          "รับ",
+          "ซื้อ",
+          "ดอลลาร์",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "دلار",
+          "قبول",
+          "می‌کنید"
+        ],
+        "ar": [
+          "هل",
+          "تقبلون",
+          "الدولارات"
+        ],
+        "es": [
+          "Aceptan",
+          "dólares",
+          "estadounidenses"
+        ],
+        "zh": [
+          "你们",
+          "收",
+          "美元",
+          "吗"
+        ],
+        "ja": [
+          "ドル",
+          "は",
+          "受け付けて",
+          "います",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s1_accept_euro",
+      "kind": "sentence",
+      "itemIds": [
+        "word_accept",
+        "word_buy",
+        "word_euro",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Do you accept euros",
+        "th": "รับซื้อยูโรไหมคะ",
+        "fa": "آیا یورو قبول می‌کنید",
+        "ar": "هل تقبلون اليورو",
+        "es": "Aceptan euros",
+        "zh": "你们收欧元吗",
+        "ja": "ユーロは受け付けていますか"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "accept",
+          "euros"
+        ],
+        "th": [
+          "รับ",
+          "ซื้อ",
+          "ยูโร",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "یورو",
+          "قبول",
+          "می‌کنید"
+        ],
+        "ar": [
+          "هل",
+          "تقبلون",
+          "اليورو"
+        ],
+        "es": [
+          "Aceptan",
+          "euros"
+        ],
+        "zh": [
+          "你们",
+          "收",
+          "欧元",
+          "吗"
+        ],
+        "ja": [
+          "ユーロ",
+          "は",
+          "受け付けて",
+          "います",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s1_rate_good",
+      "kind": "sentence",
+      "itemIds": [
+        "word_today",
+        "word_rate",
+        "word_good",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Is the rate good today",
+        "th": "วันนี้อัตราดีไหมคะ",
+        "fa": "آیا نرخ امروز خوب است",
+        "ar": "هل السعر جيد اليوم",
+        "es": "Es buena la tasa hoy",
+        "zh": "今天汇率好吗",
+        "ja": "今日のレートは良いですか"
+      },
+      "tokens": {
+        "en": [
+          "Is",
+          "the",
+          "rate",
+          "good",
+          "today"
+        ],
+        "th": [
+          "วันนี้",
+          "อัตรา",
+          "ดี",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "نرخ",
+          "امروز",
+          "خوب",
+          "است"
+        ],
+        "ar": [
+          "هل",
+          "السعر",
+          "جيد",
+          "اليوم"
+        ],
+        "es": [
+          "Es",
+          "buena",
+          "la",
+          "tasa",
+          "hoy"
+        ],
+        "zh": [
+          "今天",
+          "汇率",
+          "好",
+          "吗"
+        ],
+        "ja": [
+          "今日",
+          "の",
+          "レート",
+          "は",
+          "良い",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s1_exchange_where",
+      "kind": "sentence",
+      "itemIds": [
+        "word_exchange",
+        "word_money",
+        "word_be_at",
+        "word_where"
+      ],
+      "texts": {
+        "en": "Where can I exchange money",
+        "th": "แลกเงินได้ที่ไหนคะ",
+        "fa": "کجا می‌توانم پولم را تبادل کنم",
+        "ar": "أين يمكنني صرف العملات",
+        "es": "Dónde puedo cambiar dinero",
+        "zh": "我在哪里可以换钱",
+        "ja": "どこでお金を両替できますか"
+      },
+      "tokens": {
+        "en": [
+          "Where",
+          "can",
+          "I",
+          "exchange",
+          "money"
+        ],
+        "th": [
+          "แลก",
+          "เงิน",
+          "ได้",
+          "ที่",
+          "ไหน",
+          "คะ"
+        ],
+        "fa": [
+          "کجا",
+          "می‌توانم",
+          "پولم",
+          "را",
+          "تبادل",
+          "کنم"
+        ],
+        "ar": [
+          "أين",
+          "يمكنني",
+          "صرف",
+          "العملات"
+        ],
+        "es": [
+          "Dónde",
+          "puedo",
+          "cambiar",
+          "dinero"
+        ],
+        "zh": [
+          "我",
+          "在",
+          "哪里",
+          "可以",
+          "换钱"
+        ],
+        "ja": [
+          "どこ",
+          "で",
+          "お金",
+          "を",
+          "両替",
+          "できます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s1_want_exchange",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_exchange",
+        "word_money"
+      ],
+      "texts": {
+        "en": "I want to exchange money",
+        "th": "ขอแลกเงินค่ะ",
+        "fa": "می‌خواهم پولم را تبادل کنم",
+        "ar": "أريد أن أصرف العملات",
+        "es": "Quiero cambiar dinero",
+        "zh": "我想换钱",
+        "ja": "お金を両替したいです"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "want",
+          "to",
+          "exchange",
+          "money"
+        ],
+        "th": [
+          "ขอ",
+          "แลก",
+          "เงิน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "می‌خواهم",
+          "پولم",
+          "را",
+          "تبادل",
+          "کنم"
+        ],
+        "ar": [
+          "أريد",
+          "أن",
+          "أصرف",
+          "العملات"
+        ],
+        "es": [
+          "Quiero",
+          "cambiar",
+          "dinero"
+        ],
+        "zh": [
+          "我",
+          "想",
+          "换钱"
+        ],
+        "ja": [
+          "お金",
+          "を",
+          "両替",
+          "したい",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "word_where",
+      "kind": "word",
+      "texts": {
+        "en": "where",
+        "th": "ที่ไหน",
+        "fa": "کجا",
+        "ar": "أين",
+        "es": "dónde",
+        "zh": "哪里",
+        "ja": "どこ"
+      }
+    },
+    {
+      "id": "word_be_at",
+      "kind": "word",
+      "texts": {
+        "en": "be at",
+        "th": "อยู่",
+        "fa": "بودن",
+        "ar": "يوجد",
+        "es": "estar",
+        "zh": "在",
+        "ja": "ある"
+      }
+    },
+    {
+      "id": "word_counter",
+      "kind": "word",
+      "texts": {
+        "en": "counter",
+        "th": "เคาน์เตอร์",
+        "fa": "باجه",
+        "ar": "شباك",
+        "es": "mostrador",
+        "zh": "柜台",
+        "ja": "カウンター"
+      }
+    },
+    {
+      "id": "word_good",
+      "kind": "word",
+      "texts": {
+        "en": "good",
+        "th": "ดี",
+        "fa": "خوب",
+        "ar": "جيد",
+        "es": "bueno",
+        "zh": "好",
+        "ja": "良い"
+      }
+    },
+    {
+      "id": "word_now",
+      "kind": "word",
+      "texts": {
+        "en": "now",
+        "th": "ตอนนี้",
+        "fa": "اکنون",
+        "ar": "الآن",
+        "es": "ahora",
+        "zh": "现在",
+        "ja": "今"
+      }
+    },
+    {
+      "id": "word_accept",
+      "kind": "word",
+      "texts": {
+        "en": "accept",
+        "th": "รับ",
+        "fa": "پذیرفتن",
+        "ar": "يقبل",
+        "es": "aceptar",
+        "zh": "接受",
+        "ja": "受け取る"
+      }
+    },
+    {
+      "id": "header_scenario_2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: The Transaction",
+        "th": "สถานการณ์ 2: การทำธุรกรรม",
+        "fa": "سناریوی ۲: انجام معامله",
+        "ar": "السيناريو ٢: المعاملة",
+        "es": "Escenario 2: La transacción",
+        "zh": "场景二：交易过程",
+        "ja": "シーン2：取引"
+      }
+    },
+    {
+      "id": "sentence_ce_s2_exchange_100",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_exchange",
+        "word_one_hundred",
+        "word_dollar"
+      ],
+      "texts": {
+        "en": "I want to exchange 100 dollars",
+        "th": "ขอแลกหนึ่งร้อยดอลลาร์ค่ะ",
+        "fa": "می‌خواهم صد دلار تبادل کنم",
+        "ar": "أريد أن أصرف مائة دولار",
+        "es": "Quiero cambiar cien dólares",
+        "zh": "我想换一百美元",
+        "ja": "百ドル両替したいです"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "want",
+          "to",
+          "exchange",
+          "100",
+          "dollars"
+        ],
+        "th": [
+          "ขอ",
+          "แลก",
+          "หนึ่งร้อย",
+          "ดอลลาร์",
+          "ค่ะ"
+        ],
+        "fa": [
+          "می‌خواهم",
+          "صد",
+          "دلار",
+          "تبادل",
+          "کنم"
+        ],
+        "ar": [
+          "أريد",
+          "أن",
+          "أصرف",
+          "مائة",
+          "دولار"
+        ],
+        "es": [
+          "Quiero",
+          "cambiar",
+          "cien",
+          "dólares"
+        ],
+        "zh": [
+          "我",
+          "想",
+          "换",
+          "一百",
+          "美元"
+        ],
+        "ja": [
+          "百",
+          "ドル",
+          "両替",
+          "したい",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s2_change_to_baht",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_change",
+        "word_dollar",
+        "word_baht"
+      ],
+      "texts": {
+        "en": "I want to change dollars to baht",
+        "th": "ขอเปลี่ยนดอลลาร์เป็นบาทค่ะ",
+        "fa": "می‌خواهم دلار را به بات تبدیل کنم",
+        "ar": "أريد أن أغير الدولارات إلى بات",
+        "es": "Quiero cambiar dólares por baht",
+        "zh": "我想把美元换成泰铢",
+        "ja": "ドルをバーツに変えたいです"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "want",
+          "to",
+          "change",
+          "dollars",
+          "to",
+          "baht"
+        ],
+        "th": [
+          "ขอ",
+          "เปลี่ยน",
+          "ดอลลาร์",
+          "เป็น",
+          "บาท",
+          "ค่ะ"
+        ],
+        "fa": [
+          "می‌خواهم",
+          "دلار",
+          "را",
+          "به",
+          "بات",
+          "تبدیل",
+          "کنم"
+        ],
+        "ar": [
+          "أريد",
+          "أن",
+          "أغير",
+          "الدولارات",
+          "إلى",
+          "بات"
+        ],
+        "es": [
+          "Quiero",
+          "cambiar",
+          "dólares",
+          "por",
+          "baht"
+        ],
+        "zh": [
+          "我",
+          "想",
+          "把",
+          "美元",
+          "换成",
+          "泰铢"
+        ],
+        "ja": [
+          "ドル",
+          "を",
+          "バーツ",
+          "に",
+          "変え",
+          "たい",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s2_here_passport",
+      "kind": "sentence",
+      "itemIds": [
+        "word_here",
+        "word_passport"
+      ],
+      "texts": {
+        "en": "Here is my passport",
+        "th": "นี่คือพาสปอร์ตค่ะ",
+        "fa": "این گذرنامه من است",
+        "ar": "هذا جواز سفري",
+        "es": "Aquí está mi pasaporte",
+        "zh": "这是我的护照",
+        "ja": "これは私のパスポートです"
+      },
+      "tokens": {
+        "en": [
+          "Here",
+          "is",
+          "my",
+          "passport"
+        ],
+        "th": [
+          "นี่",
+          "คือ",
+          "พาสปอร์ต",
+          "ค่ะ"
+        ],
+        "fa": [
+          "این",
+          "گذرنامه",
+          "من",
+          "است"
+        ],
+        "ar": [
+          "هذا",
+          "جواز",
+          "سفري"
+        ],
+        "es": [
+          "Aquí",
+          "está",
+          "mi",
+          "pasaporte"
+        ],
+        "zh": [
+          "这",
+          "是",
+          "我的",
+          "护照"
+        ],
+        "ja": [
+          "これ",
+          "は",
+          "私の",
+          "パスポート",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s2_need_passport",
+      "kind": "sentence",
+      "itemIds": [
+        "word_have",
+        "word_passport",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Do you need my passport",
+        "th": "ต้องใช้พาสปอร์ตไหมคะ",
+        "fa": "آیا به گذرنامه من نیاز دارید",
+        "ar": "هل تحتاج إلى جواز سفري",
+        "es": "Necesita mi pasaporte",
+        "zh": "需要我的护照吗",
+        "ja": "私のパスポートは必要ですか"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "need",
+          "my",
+          "passport"
+        ],
+        "th": [
+          "ต้อง",
+          "ใช้",
+          "พาสปอร์ต",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "به",
+          "گذرنامه",
+          "من",
+          "نیاز",
+          "دارید"
+        ],
+        "ar": [
+          "هل",
+          "تحتاج",
+          "إلى",
+          "جواز",
+          "سفري"
+        ],
+        "es": [
+          "Necesita",
+          "mi",
+          "pasaporte"
+        ],
+        "zh": [
+          "需要",
+          "我的",
+          "护照",
+          "吗"
+        ],
+        "ja": [
+          "私の",
+          "パスポート",
+          "は",
+          "必要",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s2_write_name",
+      "kind": "sentence",
+      "itemIds": [
+        "word_name",
+        "word_here"
+      ],
+      "texts": {
+        "en": "Please write your name here",
+        "th": "ช่วยเขียนชื่อตรงนี้ด้วยครับ",
+        "fa": "لطفاً نام خود را اینجا بنویسید",
+        "ar": "يرجى كتابة اسمك هنا",
+        "es": "Por favor escriba su nombre aquí",
+        "zh": "请在这里写下您的名字",
+        "ja": "ここにお名前を書いてください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "write",
+          "your",
+          "name",
+          "here"
+        ],
+        "th": [
+          "ช่วย",
+          "เขียน",
+          "ชื่อ",
+          "ตรง",
+          "นี้",
+          "ด้วย",
+          "ครับ"
+        ],
+        "fa": [
+          "لطفاً",
+          "نام",
+          "خود",
+          "را",
+          "اینجا",
+          "بنویسید"
+        ],
+        "ar": [
+          "يرجى",
+          "كتابة",
+          "اسمك",
+          "هنا"
+        ],
+        "es": [
+          "Por",
+          "favor",
+          "escriba",
+          "su",
+          "nombre",
+          "aquí"
+        ],
+        "zh": [
+          "请",
+          "在",
+          "这里",
+          "写下",
+          "您的",
+          "名字"
+        ],
+        "ja": [
+          "ここ",
+          "に",
+          "お名前",
+          "を",
+          "書いて",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s2_exchange_500",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_exchange",
+        "word_five_hundred",
+        "word_euro"
+      ],
+      "texts": {
+        "en": "I will exchange 500 euros",
+        "th": "ขอแลกห้าร้อยยูโรค่ะ",
+        "fa": "پانصد یورو تبادل می‌کنم",
+        "ar": "سأصرف خمسمائة يورو",
+        "es": "Cambiaré quinientos euros",
+        "zh": "我要换五百欧元",
+        "ja": "五百ユーロ両替します"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "will",
+          "exchange",
+          "500",
+          "euros"
+        ],
+        "th": [
+          "ขอ",
+          "แลก",
+          "ห้าร้อย",
+          "ยูโร",
+          "ค่ะ"
+        ],
+        "fa": [
+          "پانصد",
+          "یورو",
+          "تبادل",
+          "می‌کنم"
+        ],
+        "ar": [
+          "سأصرف",
+          "خمسمائة",
+          "يورو"
+        ],
+        "es": [
+          "Cambiaré",
+          "quinientos",
+          "euros"
+        ],
+        "zh": [
+          "我",
+          "要",
+          "换",
+          "五百",
+          "欧元"
+        ],
+        "ja": [
+          "五百",
+          "ユーロ",
+          "両替",
+          "します"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s2_how_much_get",
+      "kind": "sentence",
+      "itemIds": [
+        "word_how_much"
+      ],
+      "texts": {
+        "en": "How much will I get",
+        "th": "จะได้เท่าไหร่คะ",
+        "fa": "چقدر دریافت خواهم کرد",
+        "ar": "كم سأحصل",
+        "es": "Cuánto recibiré",
+        "zh": "我能拿到多少",
+        "ja": "いくらもらえますか"
+      },
+      "tokens": {
+        "en": [
+          "How",
+          "much",
+          "will",
+          "I",
+          "get"
+        ],
+        "th": [
+          "จะ",
+          "ได้",
+          "เท่าไหร่",
+          "คะ"
+        ],
+        "fa": [
+          "چقدر",
+          "دریافت",
+          "خواهم",
+          "کرد"
+        ],
+        "ar": [
+          "كم",
+          "سأحصل"
+        ],
+        "es": [
+          "Cuánto",
+          "recibiré"
+        ],
+        "zh": [
+          "我",
+          "能",
+          "拿到",
+          "多少"
+        ],
+        "ja": [
+          "いくら",
+          "もらえます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "word_I",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_request",
+      "kind": "word",
+      "texts": {
+        "en": "request",
+        "th": "ขอ",
+        "fa": "درخواست کردن",
+        "ar": "يطلب",
+        "es": "pedir",
+        "zh": "请求",
+        "ja": "頼む"
+      }
+    },
+    {
+      "id": "word_change",
+      "kind": "word",
+      "texts": {
+        "en": "change",
+        "th": "เปลี่ยน",
+        "fa": "تبدیل کردن",
+        "ar": "يغير",
+        "es": "cambiar",
+        "zh": "换",
+        "ja": "変える"
+      }
+    },
+    {
+      "id": "word_here",
+      "kind": "word",
+      "texts": {
+        "en": "here",
+        "th": "ที่นี่",
+        "fa": "اینجا",
+        "ar": "هنا",
+        "es": "aquí",
+        "zh": "这里",
+        "ja": "ここ"
+      }
+    },
+    {
+      "id": "word_give",
+      "kind": "word",
+      "texts": {
+        "en": "give",
+        "th": "ให้",
+        "fa": "دادن",
+        "ar": "يعطي",
+        "es": "dar",
+        "zh": "给",
+        "ja": "あげる"
+      }
+    },
+    {
+      "id": "word_name",
+      "kind": "word",
+      "texts": {
+        "en": "name",
+        "th": "ชื่อ",
+        "fa": "نام",
+        "ar": "اسم",
+        "es": "nombre",
+        "zh": "名字",
+        "ja": "名前"
+      }
+    },
+    {
+      "id": "header_scenario_3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Fees & Commissions",
+        "th": "สถานการณ์ 3: ค่าธรรมเนียมและคอมมิชชัน",
+        "fa": "سناریوی ۳: کارمزدها و کمیسیون‌ها",
+        "ar": "السيناريو ٣: الرسوم والعمولات",
+        "es": "Escenario 3: Comisiones y tarifas",
+        "zh": "场景三：手续费与佣金",
+        "ja": "シーン3：手数料とコミッション"
+      }
+    },
+    {
+      "id": "sentence_ce_s3_have_fee",
+      "kind": "sentence",
+      "itemIds": [
+        "word_have",
+        "word_fee",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Is there a commission fee",
+        "th": "มีค่าธรรมเนียมไหมคะ",
+        "fa": "آیا کارمزدی وجود دارد",
+        "ar": "هل توجد عمولة",
+        "es": "Hay alguna comisión",
+        "zh": "有手续费吗",
+        "ja": "手数料はありますか"
+      },
+      "tokens": {
+        "en": [
+          "Is",
+          "there",
+          "a",
+          "commission",
+          "fee"
+        ],
+        "th": [
+          "มี",
+          "ค่าธรรมเนียม",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "کارمزدی",
+          "وجود",
+          "دارد"
+        ],
+        "ar": [
+          "هل",
+          "توجد",
+          "عمولة"
+        ],
+        "es": [
+          "Hay",
+          "alguna",
+          "comisión"
+        ],
+        "zh": [
+          "有",
+          "手续费",
+          "吗"
+        ],
+        "ja": [
+          "手数料",
+          "は",
+          "あります",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s3_fee_how_much",
+      "kind": "sentence",
+      "itemIds": [
+        "word_fee",
+        "word_how_much"
+      ],
+      "texts": {
+        "en": "How much is the fee",
+        "th": "ค่าธรรมเนียมเท่าไหร่คะ",
+        "fa": "کارمزد چقدر است",
+        "ar": "كم تبلغ الرسوم",
+        "es": "Cuánto es la comisión",
+        "zh": "手续费是多少",
+        "ja": "手数料はいくらですか"
+      },
+      "tokens": {
+        "en": [
+          "How",
+          "much",
+          "is",
+          "the",
+          "fee"
+        ],
+        "th": [
+          "ค่าธรรมเนียม",
+          "เท่าไหร่",
+          "คะ"
+        ],
+        "fa": [
+          "کارمزد",
+          "چقدر",
+          "است"
+        ],
+        "ar": [
+          "كم",
+          "تبلغ",
+          "الرسوم"
+        ],
+        "es": [
+          "Cuánto",
+          "es",
+          "la",
+          "comisión"
+        ],
+        "zh": [
+          "手续费",
+          "是",
+          "多少"
+        ],
+        "ja": [
+          "手数料",
+          "は",
+          "いくら",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s3_no_fee",
+      "kind": "sentence",
+      "itemIds": [
+        "word_not",
+        "word_fee"
+      ],
+      "texts": {
+        "en": "There is no fee",
+        "th": "ไม่คิดค่าธรรมเนียมค่ะ",
+        "fa": "کارمزدی دریافت نمی‌شود",
+        "ar": "لا توجد رسوم",
+        "es": "No hay comisión",
+        "zh": "不收手续费",
+        "ja": "手数料は無料です"
+      },
+      "tokens": {
+        "en": [
+          "There",
+          "is",
+          "no",
+          "fee"
+        ],
+        "th": [
+          "ไม่",
+          "คิด",
+          "ค่าธรรมเนียม",
+          "ค่ะ"
+        ],
+        "fa": [
+          "کارمزدی",
+          "دریافت",
+          "نمی‌شود"
+        ],
+        "ar": [
+          "لا",
+          "توجد",
+          "رسوم"
+        ],
+        "es": [
+          "No",
+          "hay",
+          "comisión"
+        ],
+        "zh": [
+          "不",
+          "收",
+          "手续费"
+        ],
+        "ja": [
+          "手数料",
+          "は",
+          "無料",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s3_tax_include",
+      "kind": "sentence",
+      "itemIds": [
+        "word_include",
+        "word_tax",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Is tax included",
+        "th": "รวมภาษีไหมคะ",
+        "fa": "آیا مالیات شامل می‌شود",
+        "ar": "هل الضريبة مشمولة",
+        "es": "Está incluido el impuesto",
+        "zh": "包含税吗",
+        "ja": "税金は含まれていますか"
+      },
+      "tokens": {
+        "en": [
+          "Is",
+          "tax",
+          "included"
+        ],
+        "th": [
+          "รวม",
+          "ภาษี",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "مالیات",
+          "شامل",
+          "می‌شود"
+        ],
+        "ar": [
+          "هل",
+          "الضريبة",
+          "مشمولة"
+        ],
+        "es": [
+          "Está",
+          "incluido",
+          "el",
+          "impuesto"
+        ],
+        "zh": [
+          "包含",
+          "税",
+          "吗"
+        ],
+        "ja": [
+          "税金",
+          "は",
+          "含まれて",
+          "います",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s3_deduct_fee",
+      "kind": "sentence",
+      "itemIds": [
+        "word_have",
+        "word_deduct",
+        "word_fee",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Do you deduct any fees",
+        "th": "มีการหักค่าธรรมเนียมไหมคะ",
+        "fa": "آیا کارمزدی کسر می‌کنید",
+        "ar": "هل تخصم أي رسوم",
+        "es": "Deduce alguna comisión",
+        "zh": "你们扣除任何手续费吗",
+        "ja": "手数料を差し引きますか"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "deduct",
+          "any",
+          "fees"
+        ],
+        "th": [
+          "มี",
+          "การ",
+          "หัก",
+          "ค่าธรรมเนียม",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "کارمزدی",
+          "کسر",
+          "می‌کنید"
+        ],
+        "ar": [
+          "هل",
+          "تخصم",
+          "أي",
+          "رسوم"
+        ],
+        "es": [
+          "Deduce",
+          "alguna",
+          "comisión"
+        ],
+        "zh": [
+          "你们",
+          "扣除",
+          "任何",
+          "手续费",
+          "吗"
+        ],
+        "ja": [
+          "手数料",
+          "を",
+          "差し引き",
+          "ます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s3_rate_include",
+      "kind": "sentence",
+      "itemIds": [
+        "word_rate",
+        "word_include",
+        "word_fee"
+      ],
+      "texts": {
+        "en": "The rate includes the fee",
+        "th": "อัตรารวมค่าธรรมเนียมแล้วค่ะ",
+        "fa": "نرخ شامل کارمزد است",
+        "ar": "السعر يشمل الرسوم",
+        "es": "La tasa incluye la comisión",
+        "zh": "汇率已包含手续费",
+        "ja": "レートに手数料が含まれています"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "rate",
+          "includes",
+          "the",
+          "fee"
+        ],
+        "th": [
+          "อัตรา",
+          "รวม",
+          "ค่าธรรมเนียม",
+          "แล้ว",
+          "ค่ะ"
+        ],
+        "fa": [
+          "نرخ",
+          "شامل",
+          "کارمزد",
+          "است"
+        ],
+        "ar": [
+          "السعر",
+          "يشمل",
+          "الرسوم"
+        ],
+        "es": [
+          "La",
+          "tasa",
+          "incluye",
+          "la",
+          "comisión"
+        ],
+        "zh": [
+          "汇率",
+          "已",
+          "包含",
+          "手续费"
+        ],
+        "ja": [
+          "レート",
+          "に",
+          "手数料",
+          "が",
+          "含まれて",
+          "います"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s3_completely_free",
+      "kind": "sentence",
+      "itemIds": [
+        "word_free"
+      ],
+      "texts": {
+        "en": "It is completely free",
+        "th": "ฟรีทั้งหมดค่ะ",
+        "fa": "کاملاً رایگان است",
+        "ar": "إنه مجاني تماماً",
+        "es": "Es completamente gratis",
+        "zh": "完全免费",
+        "ja": "完全に無料です"
+      },
+      "tokens": {
+        "en": [
+          "It",
+          "is",
+          "completely",
+          "free"
+        ],
+        "th": [
+          "ฟรี",
+          "ทั้งหมด",
+          "ค่ะ"
+        ],
+        "fa": [
+          "کاملاً",
+          "رایگان",
+          "است"
+        ],
+        "ar": [
+          "إنه",
+          "مجاني",
+          "تماماً"
+        ],
+        "es": [
+          "Es",
+          "completamente",
+          "gratis"
+        ],
+        "zh": [
+          "完全",
+          "免费"
+        ],
+        "ja": [
+          "完全に",
+          "無料",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "word_free",
+      "kind": "word",
+      "texts": {
+        "en": "free",
+        "th": "ฟรี",
+        "fa": "رایگان",
+        "ar": "مجاني",
+        "es": "gratis",
+        "zh": "免费",
+        "ja": "無料"
+      }
+    },
+    {
+      "id": "word_extra",
+      "kind": "word",
+      "texts": {
+        "en": "extra",
+        "th": "เพิ่ม",
+        "fa": "اضافی",
+        "ar": "إضافي",
+        "es": "extra",
+        "zh": "额外",
+        "ja": "追加"
+      }
+    },
+    {
+      "id": "word_deduct",
+      "kind": "word",
+      "texts": {
+        "en": "deduct",
+        "th": "หัก",
+        "fa": "کسر کردن",
+        "ar": "يخصم",
+        "es": "deducir",
+        "zh": "扣除",
+        "ja": "差し引く"
+      }
+    },
+    {
+      "id": "word_include",
+      "kind": "word",
+      "texts": {
+        "en": "include",
+        "th": "รวม",
+        "fa": "شامل کردن",
+        "ar": "يشمل",
+        "es": "incluir",
+        "zh": "包含",
+        "ja": "含む"
+      }
+    },
+    {
+      "id": "word_tax",
+      "kind": "word",
+      "texts": {
+        "en": "tax",
+        "th": "ภาษี",
+        "fa": "مالیات",
+        "ar": "ضريبة",
+        "es": "impuesto",
+        "zh": "税",
+        "ja": "税金"
+      }
+    },
+    {
+      "id": "header_scenario_4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Receiving Money & Checking",
+        "th": "สถานการณ์ 4: รับเงินและตรวจสอบ",
+        "fa": "سناریوی ۴: دریافت پول و بررسی",
+        "ar": "السيناريو ٤: استلام المال والفحص",
+        "es": "Escenario 4: Recibir dinero y comprobar",
+        "zh": "场景四：收钱与检查",
+        "ja": "シーン4：お金の受け取りと確認"
+      }
+    },
+    {
+      "id": "sentence_ce_s4_small_bills",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_bill",
+        "word_small"
+      ],
+      "texts": {
+        "en": "Please give me small bills",
+        "th": "ขอเป็นแบงค์ย่อยค่ะ",
+        "fa": "لطفاً اسکناس‌های خرد به من بدهید",
+        "ar": "أعطني أوراقاً نقدية صغيرة من فضلك",
+        "es": "Deme billetes pequeños por favor",
+        "zh": "请给我零碎纸币",
+        "ja": "小額紙幣をください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "give",
+          "me",
+          "small",
+          "bills"
+        ],
+        "th": [
+          "ขอ",
+          "เป็น",
+          "แบงค์",
+          "ย่อย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفاً",
+          "اسکناس‌های",
+          "خرد",
+          "به",
+          "من",
+          "بدهید"
+        ],
+        "ar": [
+          "أعطني",
+          "أوراقاً",
+          "نقدية",
+          "صغيرة",
+          "من",
+          "فضلك"
+        ],
+        "es": [
+          "Deme",
+          "billetes",
+          "pequeños",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "请",
+          "给",
+          "我",
+          "零碎",
+          "纸币"
+        ],
+        "ja": [
+          "小額",
+          "紙幣",
+          "を",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s4_small_for_market",
+      "kind": "sentence",
+      "itemIds": [
+        "word_bill",
+        "word_small",
+        "word_market"
+      ],
+      "texts": {
+        "en": "I need small bills for the market",
+        "th": "ต้องการแบงค์ย่อยไปตลาดค่ะ",
+        "fa": "برای بازار به اسکناس خرد نیاز دارم",
+        "ar": "أحتاج إلى أوراق نقدية صغيرة للسوق",
+        "es": "Necesito billetes pequeños para el mercado",
+        "zh": "我去市场需要零钱",
+        "ja": "市場用に小額紙幣が必要です"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "need",
+          "small",
+          "bills",
+          "for",
+          "the",
+          "market"
+        ],
+        "th": [
+          "ต้องการ",
+          "แบงค์",
+          "ย่อย",
+          "ไป",
+          "ตลาด",
+          "ค่ะ"
+        ],
+        "fa": [
+          "برای",
+          "بازار",
+          "به",
+          "اسکناس",
+          "خرد",
+          "نیاز",
+          "دارم"
+        ],
+        "ar": [
+          "أحتاج",
+          "إلى",
+          "أوراق",
+          "نقدية",
+          "صغيرة",
+          "للسوق"
+        ],
+        "es": [
+          "Necesito",
+          "billetes",
+          "pequeños",
+          "para",
+          "el",
+          "mercado"
+        ],
+        "zh": [
+          "我",
+          "去",
+          "市场",
+          "需要",
+          "零钱"
+        ],
+        "ja": [
+          "市場",
+          "用",
+          "に",
+          "小額",
+          "紙幣",
+          "が",
+          "必要",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s4_have_100",
+      "kind": "sentence",
+      "itemIds": [
+        "word_have",
+        "word_bill",
+        "word_one_hundred",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Do you have 100 baht notes",
+        "th": "มีแบงค์ร้อยไหมคะ",
+        "fa": "آیا اسکناس صد بات دارید",
+        "ar": "هل لديك أوراق نقدية من مائة بات",
+        "es": "Tiene billetes de cien baht",
+        "zh": "有一百泰铢的纸币吗",
+        "ja": "百バーツ札はありますか"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "have",
+          "100",
+          "baht",
+          "notes"
+        ],
+        "th": [
+          "มี",
+          "แบงค์",
+          "ร้อย",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "اسکناس",
+          "صد",
+          "بات",
+          "دارید"
+        ],
+        "ar": [
+          "هل",
+          "لديك",
+          "أوراق",
+          "نقدية",
+          "من",
+          "مائة",
+          "بات"
+        ],
+        "es": [
+          "Tiene",
+          "billetes",
+          "de",
+          "cien",
+          "baht"
+        ],
+        "zh": [
+          "有",
+          "一百",
+          "泰铢",
+          "的",
+          "纸币",
+          "吗"
+        ],
+        "ja": [
+          "百",
+          "バーツ",
+          "札",
+          "は",
+          "あります",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s4_not_1000",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_not",
+        "word_bill",
+        "word_one_thousand"
+      ],
+      "texts": {
+        "en": "Please do not give me 1000 baht notes",
+        "th": "ขอไม่เอาแบงค์พันค่ะ",
+        "fa": "لطفاً اسکناس هزار بات به من ندهید",
+        "ar": "لا تعطني أوراقاً نقدية من ألف بات من فضلك",
+        "es": "No me dé billetes de mil baht por favor",
+        "zh": "请不要给我一千泰铢的纸币",
+        "ja": "千バーツ札は避けてください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "do",
+          "not",
+          "give",
+          "me",
+          "1000",
+          "baht",
+          "notes"
+        ],
+        "th": [
+          "ขอ",
+          "ไม่",
+          "เอา",
+          "แบงค์",
+          "พัน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفاً",
+          "اسکناس",
+          "هزار",
+          "بات",
+          "به",
+          "من",
+          "ندهید"
+        ],
+        "ar": [
+          "لا",
+          "تعطني",
+          "أوراقاً",
+          "نقدية",
+          "من",
+          "ألف",
+          "بات",
+          "من",
+          "فضلك"
+        ],
+        "es": [
+          "No",
+          "me",
+          "dé",
+          "billetes",
+          "de",
+          "mil",
+          "baht",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "请",
+          "不要",
+          "给",
+          "我",
+          "一千",
+          "泰铢",
+          "的",
+          "纸币"
+        ],
+        "ja": [
+          "千",
+          "バーツ",
+          "札",
+          "は",
+          "避けて",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s4_count_money",
+      "kind": "sentence",
+      "itemIds": [
+        "word_count",
+        "word_money"
+      ],
+      "texts": {
+        "en": "Please count the money",
+        "th": "ช่วยนับเงินด้วยค่ะ",
+        "fa": "لطفاً پول را بشمارید",
+        "ar": "يرجى عد المال",
+        "es": "Cuente el dinero por favor",
+        "zh": "请数一下钱",
+        "ja": "お金を数えてください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "count",
+          "the",
+          "money"
+        ],
+        "th": [
+          "ช่วย",
+          "นับ",
+          "เงิน",
+          "ด้วย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفاً",
+          "پول",
+          "را",
+          "بشمارید"
+        ],
+        "ar": [
+          "يرجى",
+          "عد",
+          "المال"
+        ],
+        "es": [
+          "Cuente",
+          "el",
+          "dinero",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "请",
+          "数",
+          "一下",
+          "钱"
+        ],
+        "ja": [
+          "お金",
+          "を",
+          "数えて",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s4_check_money",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_check",
+        "word_money"
+      ],
+      "texts": {
+        "en": "Let me check the money",
+        "th": "ขอเช็คเงินหน่อยค่ะ",
+        "fa": "اجازه دهید پول را بررسی کنم",
+        "ar": "دعني أفحص المال",
+        "es": "Déjeme revisar el dinero",
+        "zh": "让我检查一下钱",
+        "ja": "お金を確認させてください"
+      },
+      "tokens": {
+        "en": [
+          "Let",
+          "me",
+          "check",
+          "the",
+          "money"
+        ],
+        "th": [
+          "ขอ",
+          "เช็ค",
+          "เงิน",
+          "หน่อย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "اجازه",
+          "دهید",
+          "پول",
+          "را",
+          "بررسی",
+          "کنم"
+        ],
+        "ar": [
+          "دعني",
+          "أفحص",
+          "المال"
+        ],
+        "es": [
+          "Déjeme",
+          "revisar",
+          "el",
+          "dinero"
+        ],
+        "zh": [
+          "让",
+          "我",
+          "检查",
+          "一下",
+          "钱"
+        ],
+        "ja": [
+          "お金",
+          "を",
+          "確認",
+          "させて",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s4_correct_amount",
+      "kind": "sentence",
+      "itemIds": [
+        "word_correct"
+      ],
+      "texts": {
+        "en": "The amount is correct",
+        "th": "จำนวนถูกต้องค่ะ",
+        "fa": "مبلغ صحیح است",
+        "ar": "المبلغ صحيح",
+        "es": "La cantidad es correcta",
+        "zh": "金额是正确的",
+        "ja": "金額は正しいです"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "amount",
+          "is",
+          "correct"
+        ],
+        "th": [
+          "จำนวน",
+          "ถูกต้อง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "مبلغ",
+          "صحیح",
+          "است"
+        ],
+        "ar": [
+          "المبلغ",
+          "صحيح"
+        ],
+        "es": [
+          "La",
+          "cantidad",
+          "es",
+          "correcta"
+        ],
+        "zh": [
+          "金额",
+          "是",
+          "正确",
+          "的"
+        ],
+        "ja": [
+          "金額",
+          "は",
+          "正しい",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "word_bill",
+      "kind": "word",
+      "texts": {
+        "en": "bill",
+        "th": "แบงค์",
+        "fa": "اسکناس",
+        "ar": "ورقة نقدية",
+        "es": "billete",
+        "zh": "纸币",
+        "ja": "紙幣"
+      }
+    },
+    {
+      "id": "word_large",
+      "kind": "word",
+      "texts": {
+        "en": "large",
+        "th": "ใหญ่",
+        "fa": "بزرگ",
+        "ar": "كبير",
+        "es": "grande",
+        "zh": "大",
+        "ja": "大きい"
+      }
+    },
+    {
+      "id": "word_count",
+      "kind": "word",
+      "texts": {
+        "en": "count",
+        "th": "นับ",
+        "fa": "شمردن",
+        "ar": "يعد",
+        "es": "contar",
+        "zh": "数",
+        "ja": "数える"
+      }
+    },
+    {
+      "id": "word_check",
+      "kind": "word",
+      "texts": {
+        "en": "check",
+        "th": "เช็ค",
+        "fa": "بررسی کردن",
+        "ar": "يفحص",
+        "es": "revisar",
+        "zh": "检查",
+        "ja": "確認する"
+      }
+    },
+    {
+      "id": "word_correct",
+      "kind": "word",
+      "texts": {
+        "en": "correct",
+        "th": "ถูกต้อง",
+        "fa": "صحیح",
+        "ar": "صحيح",
+        "es": "correcto",
+        "zh": "正确",
+        "ja": "正しい"
+      }
+    },
+    {
+      "id": "word_market",
+      "kind": "word",
+      "texts": {
+        "en": "market",
+        "th": "ตลาด",
+        "fa": "بازار",
+        "ar": "سوق",
+        "es": "mercado",
+        "zh": "市场",
+        "ja": "市場"
+      }
+    },
+    {
+      "id": "header_scenario_5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Wrapping Up",
+        "th": "สถานการณ์ 5: สรุป",
+        "fa": "سناریوی ۵: جمع‌بندی",
+        "ar": "السيناريو ٥: الختام",
+        "es": "Escenario 5: Cierre",
+        "zh": "场景五：结束",
+        "ja": "シーン5：締めくくり"
+      }
+    },
+    {
+      "id": "sentence_ce_s5_need_receipt",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_receipt"
+      ],
+      "texts": {
+        "en": "I need the receipt",
+        "th": "ขอใบเสร็จด้วยค่ะ",
+        "fa": "رسید را هم می‌خواهم",
+        "ar": "أريد الإيصال أيضاً",
+        "es": "También quiero el recibo",
+        "zh": "我也要收据",
+        "ja": "レシートもください"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "need",
+          "the",
+          "receipt"
+        ],
+        "th": [
+          "ขอ",
+          "ใบเสร็จ",
+          "ด้วย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "رسید",
+          "را",
+          "هم",
+          "می‌خواهم"
+        ],
+        "ar": [
+          "أريد",
+          "الإيصال",
+          "أيضاً"
+        ],
+        "es": [
+          "También",
+          "quiero",
+          "el",
+          "recibo"
+        ],
+        "zh": [
+          "我",
+          "也",
+          "要",
+          "收据"
+        ],
+        "ja": [
+          "レシート",
+          "も",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s5_sign_here",
+      "kind": "sentence",
+      "itemIds": [
+        "word_sign",
+        "word_name",
+        "word_here"
+      ],
+      "texts": {
+        "en": "Please sign here",
+        "th": "เซ็นชื่อตรงนี้ด้วยครับ",
+        "fa": "لطفاً اینجا امضا کنید",
+        "ar": "يرجى التوقيع هنا",
+        "es": "Por favor firme aquí",
+        "zh": "请在这里签名",
+        "ja": "ここにサインしてください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "sign",
+          "here"
+        ],
+        "th": [
+          "เซ็น",
+          "ชื่อ",
+          "ตรง",
+          "นี้",
+          "ด้วย",
+          "ครับ"
+        ],
+        "fa": [
+          "لطفاً",
+          "اینجا",
+          "امضا",
+          "کنید"
+        ],
+        "ar": [
+          "يرجى",
+          "التوقيع",
+          "هنا"
+        ],
+        "es": [
+          "Por",
+          "favor",
+          "firme",
+          "aquí"
+        ],
+        "zh": [
+          "请",
+          "在",
+          "这里",
+          "签名"
+        ],
+        "ja": [
+          "ここ",
+          "に",
+          "サイン",
+          "して",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s5_keep_safe",
+      "kind": "sentence",
+      "itemIds": [
+        "word_keep",
+        "word_receipt",
+        "word_safe"
+      ],
+      "texts": {
+        "en": "Keep the receipt safely",
+        "th": "เก็บใบเสร็จให้ปลอดภัยนะครับ",
+        "fa": "رسید را در جای امن نگه دارید",
+        "ar": "احتفظ بالإيصال في مكان آمن",
+        "es": "Guarde el recibo de forma segura",
+        "zh": "请妥善保管收据",
+        "ja": "レシートは安全に保管してください"
+      },
+      "tokens": {
+        "en": [
+          "Keep",
+          "the",
+          "receipt",
+          "safely"
+        ],
+        "th": [
+          "เก็บ",
+          "ใบเสร็จ",
+          "ให้",
+          "ปลอดภัย",
+          "นะ",
+          "ครับ"
+        ],
+        "fa": [
+          "رسید",
+          "را",
+          "در",
+          "جای",
+          "امن",
+          "نگه",
+          "دارید"
+        ],
+        "ar": [
+          "احتفظ",
+          "بالإيصال",
+          "في",
+          "مكان",
+          "آمن"
+        ],
+        "es": [
+          "Guarde",
+          "el",
+          "recibo",
+          "de",
+          "forma",
+          "segura"
+        ],
+        "zh": [
+          "请",
+          "妥善",
+          "保管",
+          "收据"
+        ],
+        "ja": [
+          "レシート",
+          "は",
+          "安全",
+          "に",
+          "保管",
+          "して",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s5_thank_very",
+      "kind": "sentence",
+      "itemIds": [
+        "word_thank",
+        "word_very"
+      ],
+      "texts": {
+        "en": "Thank you very much",
+        "th": "ขอบคุณมากค่ะ",
+        "fa": "خیلی متشکرم",
+        "ar": "شكراً جزيلاً",
+        "es": "Muchas gracias",
+        "zh": "非常感谢",
+        "ja": "どうもありがとうございます"
+      },
+      "tokens": {
+        "en": [
+          "Thank",
+          "you",
+          "very",
+          "much"
+        ],
+        "th": [
+          "ขอบคุณ",
+          "มาก",
+          "ค่ะ"
+        ],
+        "fa": [
+          "خیلی",
+          "متشکرم"
+        ],
+        "ar": [
+          "شكراً",
+          "جزيلاً"
+        ],
+        "es": [
+          "Muchas",
+          "gracias"
+        ],
+        "zh": [
+          "非常",
+          "感谢"
+        ],
+        "ja": [
+          "どうも",
+          "ありがとう",
+          "ございます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s5_good_day",
+      "kind": "sentence",
+      "itemIds": [
+        "word_good",
+        "word_today"
+      ],
+      "texts": {
+        "en": "Have a good day",
+        "th": "ขอให้เป็นวันที่ดีค่ะ",
+        "fa": "روز خوبی داشته باشید",
+        "ar": "أتمنى لك يوماً سعيداً",
+        "es": "Que tenga un buen día",
+        "zh": "祝你有美好的一天",
+        "ja": "良い一日を"
+      },
+      "tokens": {
+        "en": [
+          "Have",
+          "a",
+          "good",
+          "day"
+        ],
+        "th": [
+          "ขอ",
+          "ให้",
+          "เป็น",
+          "วัน",
+          "ที่",
+          "ดี",
+          "ค่ะ"
+        ],
+        "fa": [
+          "روز",
+          "خوبی",
+          "داشته",
+          "باشید"
+        ],
+        "ar": [
+          "أتمنى",
+          "لك",
+          "يوماً",
+          "سعيداً"
+        ],
+        "es": [
+          "Que",
+          "tenga",
+          "un",
+          "buen",
+          "día"
+        ],
+        "zh": [
+          "祝",
+          "你",
+          "有",
+          "美好",
+          "的",
+          "一天"
+        ],
+        "ja": [
+          "良い",
+          "一日",
+          "を"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s5_goodbye",
+      "kind": "sentence",
+      "itemIds": [
+        "word_goodbye"
+      ],
+      "texts": {
+        "en": "Goodbye",
+        "th": "สวัสดีค่ะ",
+        "fa": "خداحافظ",
+        "ar": "مع السلامة",
+        "es": "Adiós",
+        "zh": "再见",
+        "ja": "さようなら"
+      },
+      "tokens": {
+        "en": [
+          "Goodbye"
+        ],
+        "th": [
+          "สวัสดี",
+          "ค่ะ"
+        ],
+        "fa": [
+          "خداحافظ"
+        ],
+        "ar": [
+          "مع",
+          "السلامة"
+        ],
+        "es": [
+          "Adiós"
+        ],
+        "zh": [
+          "再见"
+        ],
+        "ja": [
+          "さようなら"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ce_s5_exchange_complete",
+      "kind": "sentence",
+      "itemIds": [
+        "word_exchange",
+        "word_money"
+      ],
+      "texts": {
+        "en": "The exchange is complete",
+        "th": "แลกเงินเสร็จแล้วครับ",
+        "fa": "تبادل ارز تکمیل شد",
+        "ar": "اكتمل صرف العملات",
+        "es": "El cambio está completo",
+        "zh": "兑换完成了",
+        "ja": "両替は完了です"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "exchange",
+          "is",
+          "complete"
+        ],
+        "th": [
+          "แลก",
+          "เงิน",
+          "เสร็จ",
+          "แล้ว",
+          "ครับ"
+        ],
+        "fa": [
+          "تبادل",
+          "ارز",
+          "تکمیل",
+          "شد"
+        ],
+        "ar": [
+          "اكتمل",
+          "صرف",
+          "العملات"
+        ],
+        "es": [
+          "El",
+          "cambio",
+          "está",
+          "completo"
+        ],
+        "zh": [
+          "兑换",
+          "完成",
+          "了"
+        ],
+        "ja": [
+          "両替",
+          "は",
+          "完了",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "word_thank",
+      "kind": "word",
+      "texts": {
+        "en": "thank",
+        "th": "ขอบคุณ",
+        "fa": "تشکر",
+        "ar": "شكر",
+        "es": "gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
+      }
+    },
+    {
+      "id": "word_very",
+      "kind": "word",
+      "texts": {
+        "en": "very",
+        "th": "มาก",
+        "fa": "خیلی",
+        "ar": "جداً",
+        "es": "muy",
+        "zh": "非常",
+        "ja": "とても"
+      }
+    },
+    {
+      "id": "word_goodbye",
+      "kind": "word",
+      "texts": {
+        "en": "goodbye",
+        "th": "สวัสดี",
+        "fa": "خداحافظ",
+        "ar": "مع السلامة",
+        "es": "adiós",
+        "zh": "再见",
+        "ja": "さようなら"
+      }
+    },
+    {
+      "id": "word_keep",
+      "kind": "word",
+      "texts": {
+        "en": "keep",
+        "th": "เก็บ",
+        "fa": "نگه داشتن",
+        "ar": "يحتفظ",
+        "es": "guardar",
+        "zh": "保存",
+        "ja": "保管する"
+      }
+    },
+    {
+      "id": "word_safe",
+      "kind": "word",
+      "texts": {
+        "en": "safe",
+        "th": "ปลอดภัย",
+        "fa": "امن",
+        "ar": "آمن",
+        "es": "seguro",
+        "zh": "安全",
+        "ja": "安全"
+      }
+    }
+  ]
+}

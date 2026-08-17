@@ -1,0 +1,391 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "sentence_g4_not_go",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_not",
+        "word_go"
+      ],
+      "texts": {
+        "en": "I do not go",
+        "th": "ฉันไม่ไป",
+        "fa": "من نمی‌روم",
+        "ar": "أنا لا أذهب",
+        "es": "Yo no voy",
+        "zh": "我不去",
+        "ja": "私は行きません"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "do",
+          "not",
+          "go"
+        ],
+        "th": [
+          "ฉัน",
+          "ไม่",
+          "ไป"
+        ],
+        "fa": [
+          "من",
+          "نمی‌روم"
+        ],
+        "ar": [
+          "أنا",
+          "لا",
+          "أذهب"
+        ],
+        "es": [
+          "Yo",
+          "no",
+          "voy"
+        ],
+        "zh": [
+          "我",
+          "不",
+          "去"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "行き",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g4_not_eat",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_not",
+        "word_eat"
+      ],
+      "texts": {
+        "en": "I do not eat",
+        "th": "ฉันไม่กิน",
+        "fa": "من نمی‌خورم",
+        "ar": "أنا لا آكل",
+        "es": "Yo no como",
+        "zh": "我不吃",
+        "ja": "私は食べません"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "do",
+          "not",
+          "eat"
+        ],
+        "th": [
+          "ฉัน",
+          "ไม่",
+          "กิน"
+        ],
+        "fa": [
+          "من",
+          "نمی‌خورم"
+        ],
+        "ar": [
+          "أنا",
+          "لا",
+          "آكل"
+        ],
+        "es": [
+          "Yo",
+          "no",
+          "como"
+        ],
+        "zh": [
+          "我",
+          "不",
+          "吃"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "食べ",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g4_cannot_go",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_go",
+        "word_cannot"
+      ],
+      "texts": {
+        "en": "I cannot go",
+        "th": "ฉันไปไม่ได้",
+        "fa": "من نمی‌توانم بروم",
+        "ar": "لا أستطيع الذهاب",
+        "es": "No puedo ir",
+        "zh": "我不能去",
+        "ja": "私は行けません"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "cannot",
+          "go"
+        ],
+        "th": [
+          "ฉัน",
+          "ไป",
+          "ไม่ได้"
+        ],
+        "fa": [
+          "من",
+          "نمی‌توانم",
+          "بروم"
+        ],
+        "ar": [
+          "لا",
+          "أستطيع",
+          "الذهاب"
+        ],
+        "es": [
+          "No",
+          "puedo",
+          "ir"
+        ],
+        "zh": [
+          "我",
+          "不能",
+          "去"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "行け",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g4_not_understand",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_not",
+        "word_understand"
+      ],
+      "texts": {
+        "en": "I do not understand",
+        "th": "ฉันไม่เข้าใจ",
+        "fa": "من نمی‌فهمم",
+        "ar": "أنا لا أفهم",
+        "es": "Yo no entiendo",
+        "zh": "我不明白",
+        "ja": "私は理解しません"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "do",
+          "not",
+          "understand"
+        ],
+        "th": [
+          "ฉัน",
+          "ไม่",
+          "เข้าใจ"
+        ],
+        "fa": [
+          "من",
+          "نمی‌فهمم"
+        ],
+        "ar": [
+          "أنا",
+          "لا",
+          "أفهم"
+        ],
+        "es": [
+          "Yo",
+          "no",
+          "entiendo"
+        ],
+        "zh": [
+          "我",
+          "不",
+          "明白"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "理解",
+          "し",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g4_not_good",
+      "kind": "sentence",
+      "itemIds": [
+        "word_it",
+        "word_not",
+        "word_good"
+      ],
+      "texts": {
+        "en": "It is not good",
+        "th": "มันไม่ดี",
+        "fa": "آن خوب نیست",
+        "ar": "إنه ليس جيدا",
+        "es": "No es bueno",
+        "zh": "它不好",
+        "ja": "それは良くない"
+      },
+      "tokens": {
+        "en": [
+          "It",
+          "is",
+          "not",
+          "good"
+        ],
+        "th": [
+          "มัน",
+          "ไม่",
+          "ดี"
+        ],
+        "fa": [
+          "آن",
+          "خوب",
+          "نیست"
+        ],
+        "ar": [
+          "إنه",
+          "ليس",
+          "جيدا"
+        ],
+        "es": [
+          "No",
+          "es",
+          "bueno"
+        ],
+        "zh": [
+          "它",
+          "不",
+          "好"
+        ],
+        "ja": [
+          "それ",
+          "は",
+          "良く",
+          "ない"
+        ]
+      }
+    },
+    {
+      "id": "word_it",
+      "kind": "word",
+      "texts": {
+        "en": "it",
+        "th": "มัน",
+        "fa": "آن",
+        "ar": "هو",
+        "es": "eso",
+        "zh": "它",
+        "ja": "それ"
+      }
+    },
+    {
+      "id": "word_not",
+      "kind": "word",
+      "texts": {
+        "en": "not",
+        "th": "ไม่",
+        "fa": "نه",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不",
+        "ja": "ない"
+      }
+    },
+    {
+      "id": "word_cannot",
+      "kind": "word",
+      "texts": {
+        "en": "cannot",
+        "th": "ไม่ได้",
+        "fa": "نمی‌توان",
+        "ar": "لا يستطيع",
+        "es": "no poder",
+        "zh": "不能",
+        "ja": "できない"
+      }
+    },
+    {
+      "id": "word_go",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "word_eat",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "يأكل",
+        "es": "comer",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "word_understand",
+      "kind": "word",
+      "texts": {
+        "en": "understand",
+        "th": "เข้าใจ",
+        "fa": "فهمیدن",
+        "ar": "يفهم",
+        "es": "entender",
+        "zh": "理解",
+        "ja": "理解する"
+      }
+    },
+    {
+      "id": "word_good",
+      "kind": "word",
+      "texts": {
+        "en": "good",
+        "th": "ดี",
+        "fa": "خوب",
+        "ar": "جيد",
+        "es": "bueno",
+        "zh": "好",
+        "ja": "良い"
+      }
+    }
+  ]
+}

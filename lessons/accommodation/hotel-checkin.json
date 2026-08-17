@@ -1,0 +1,1755 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras clave",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "word_see",
+      "kind": "word",
+      "texts": {
+        "en": "see",
+        "th": "ดู",
+        "fa": "دیدن",
+        "ar": "يرى",
+        "es": "ver",
+        "zh": "看",
+        "ja": "見る"
+      }
+    },
+    {
+      "id": "word_here",
+      "kind": "word",
+      "texts": {
+        "en": "here",
+        "th": "นี่",
+        "fa": "اینجا",
+        "ar": "هنا",
+        "es": "aquí",
+        "zh": "这里",
+        "ja": "ここ"
+      }
+    },
+    {
+      "id": "word_welcome",
+      "kind": "word",
+      "texts": {
+        "en": "welcome",
+        "th": "ยินดีต้อนรับ",
+        "fa": "خوش آمدید",
+        "ar": "أهلاً وسهلاً",
+        "es": "bienvenido",
+        "zh": "欢迎",
+        "ja": "ようこそ"
+      }
+    },
+    {
+      "id": "word_hotel",
+      "kind": "word",
+      "texts": {
+        "en": "hotel",
+        "th": "โรงแรม",
+        "fa": "هتل",
+        "ar": "فندق",
+        "es": "hotel",
+        "zh": "酒店",
+        "ja": "ホテル"
+      }
+    },
+    {
+      "id": "word_check_in",
+      "kind": "word",
+      "texts": {
+        "en": "check in",
+        "th": "เช็คอิน",
+        "fa": "پذیرش",
+        "ar": "تسجيل الوصول",
+        "es": "registrarse",
+        "zh": "入住",
+        "ja": "チェックイン"
+      }
+    },
+    {
+      "id": "word_reservation",
+      "kind": "word",
+      "texts": {
+        "en": "reservation",
+        "th": "การจอง",
+        "fa": "رزرو",
+        "ar": "حجز",
+        "es": "reserva",
+        "zh": "预订",
+        "ja": "予約"
+      }
+    },
+    {
+      "id": "word_have",
+      "kind": "word",
+      "texts": {
+        "en": "have",
+        "th": "มี",
+        "fa": "داشتن",
+        "ar": "يملك",
+        "es": "tener",
+        "zh": "有",
+        "ja": "ある"
+      }
+    },
+    {
+      "id": "word_yes",
+      "kind": "word",
+      "texts": {
+        "en": "yes",
+        "th": "ใช่",
+        "fa": "بله",
+        "ar": "نعم",
+        "es": "sí",
+        "zh": "是",
+        "ja": "はい"
+      }
+    },
+    {
+      "id": "word_no",
+      "kind": "word",
+      "texts": {
+        "en": "no / not",
+        "th": "ไม่",
+        "fa": "نه / نمی",
+        "ar": "لا / ليس",
+        "es": "no",
+        "zh": "不",
+        "ja": "いいえ / 〜ない"
+      }
+    },
+    {
+      "id": "word_question_particle",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_polite_particle",
+      "kind": "word",
+      "texts": {
+        "en": "polite particle",
+        "th": "ครับ / ค่ะ",
+        "fa": "ذره ادب",
+        "ar": "أداة أدب",
+        "es": "partícula de cortesía",
+        "zh": "礼貌助词",
+        "ja": "丁寧語"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú / usted",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_we",
+      "kind": "word",
+      "texts": {
+        "en": "we",
+        "th": "เรา",
+        "fa": "ما",
+        "ar": "نحن",
+        "es": "nosotros",
+        "zh": "我们",
+        "ja": "私たち"
+      }
+    },
+    {
+      "id": "word_want",
+      "kind": "word",
+      "texts": {
+        "en": "want",
+        "th": "ต้องการ",
+        "fa": "خواستن",
+        "ar": "يريد",
+        "es": "querer",
+        "zh": "想要",
+        "ja": "〜したい"
+      }
+    },
+    {
+      "id": "word_can",
+      "kind": "word",
+      "texts": {
+        "en": "can",
+        "th": "ได้",
+        "fa": "توانستن",
+        "ar": "يستطيع",
+        "es": "poder",
+        "zh": "可以",
+        "ja": "できる"
+      }
+    },
+    {
+      "id": "word_of",
+      "kind": "word",
+      "texts": {
+        "en": "of",
+        "th": "ของ",
+        "fa": "مالِ / از",
+        "ar": "خاص بـ",
+        "es": "de",
+        "zh": "的",
+        "ja": "の"
+      }
+    },
+    {
+      "id": "word_name",
+      "kind": "word",
+      "texts": {
+        "en": "name",
+        "th": "ชื่อ",
+        "fa": "نام",
+        "ar": "اسم",
+        "es": "nombre",
+        "zh": "名字",
+        "ja": "名前"
+      }
+    },
+    {
+      "id": "word_what",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه",
+        "ar": "ماذا",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_passport",
+      "kind": "word",
+      "texts": {
+        "en": "passport",
+        "th": "หนังสือเดินทาง",
+        "fa": "گذرنامه",
+        "ar": "جواز سفر",
+        "es": "pasaporte",
+        "zh": "护照",
+        "ja": "パスポート"
+      }
+    },
+    {
+      "id": "word_room",
+      "kind": "word",
+      "texts": {
+        "en": "room",
+        "th": "ห้อง",
+        "fa": "اتاق",
+        "ar": "غرفة",
+        "es": "habitación",
+        "zh": "房间",
+        "ja": "部屋"
+      }
+    },
+    {
+      "id": "word_key",
+      "kind": "word",
+      "texts": {
+        "en": "key",
+        "th": "กุญแจ",
+        "fa": "کلید",
+        "ar": "مفتاح",
+        "es": "llave",
+        "zh": "钥匙",
+        "ja": "鍵"
+      }
+    },
+    {
+      "id": "word_thank",
+      "kind": "word",
+      "texts": {
+        "en": "thank",
+        "th": "ขอบคุณ",
+        "fa": "تشکر",
+        "ar": "شكر",
+        "es": "gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
+      }
+    },
+    {
+      "id": "word_much",
+      "kind": "word",
+      "texts": {
+        "en": "very / much",
+        "th": "มาก",
+        "fa": "زیاد",
+        "ar": "كثيراً",
+        "es": "mucho",
+        "zh": "非常",
+        "ja": "とても"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Arrival with Reservation",
+        "th": "สถานการณ์ 1: มาถึงพร้อมการจอง",
+        "fa": "سناریو ۱: ورود با رزرو",
+        "ar": "السيناريو 1: الوصول مع حجز",
+        "es": "Escenario 1: Llegada con reserva",
+        "zh": "场景一：有预订入住",
+        "ja": "シナリオ1：予約ありの到着"
+      }
+    },
+    {
+      "id": "sentence_hotel_welcome",
+      "kind": "sentence",
+      "itemIds": ["word_welcome", "word_hotel", "word_of", "word_we"],
+      "texts": {
+        "en": "Welcome to our hotel",
+        "th": "ยินดีต้อนรับสู่โรงแรมของเราครับ",
+        "fa": "به هتل ما خوش آمدید",
+        "ar": "أهلاً وسهلاً بك في فندقنا",
+        "es": "Bienvenido a nuestro hotel",
+        "zh": "欢迎来到我们的酒店",
+        "ja": "私たちのホテルへようこそ"
+      },
+      "tokens": {
+        "en": ["Welcome", "to", "our", "hotel"],
+        "th": ["ยินดีต้อนรับ", "สู่", "โรงแรม", "ของ", "เรา", "ครับ"],
+        "fa": ["به", "هتل", "ما", "خوش", "آمدید"],
+        "ar": ["أهلاً", "وسهلاً", "بك", "في", "فندقنا"],
+        "es": ["Bienvenido", "a", "nuestro", "hotel"],
+        "zh": ["欢迎", "来到", "我们的", "酒店"],
+        "ja": ["私たち", "の", "ホテル", "へ", "ようこそ"]
+      }
+    },
+    {
+      "id": "sentence_hotel_check_in",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_want", "word_check_in"],
+      "texts": {
+        "en": "I want to check in",
+        "th": "ฉันต้องการเช็คอินค่ะ",
+        "fa": "من می‌خواهم پذیرش شوم",
+        "ar": "أريد تسجيل الوصول",
+        "es": "Quiero registrarme",
+        "zh": "我想办理入住",
+        "ja": "チェックインしたいです"
+      },
+      "tokens": {
+        "en": ["I", "want", "to", "check", "in"],
+        "th": ["ฉัน", "ต้องการ", "เช็คอิน", "ค่ะ"],
+        "fa": ["من", "می‌خواهم", "پذیرش", "شوم"],
+        "ar": ["أريد", "تسجيل", "الوصول"],
+        "es": ["Quiero", "registrarme"],
+        "zh": ["我", "想", "办理", "入住"],
+        "ja": ["チェックイン", "したい", "です"]
+      }
+    },
+    {
+      "id": "sentence_hotel_reservation_question",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_have",
+        "word_reservation",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Do you have a reservation?",
+        "th": "คุณมีการจองไหมครับ",
+        "fa": "آیا رزرو دارید؟",
+        "ar": "هل لديك حجز؟",
+        "es": "¿Tienes una reserva?",
+        "zh": "你有预订吗？",
+        "ja": "予約はありますか？"
+      },
+      "tokens": {
+        "en": ["Do", "you", "have", "a", "reservation?"],
+        "th": ["คุณ", "มี", "การจอง", "ไหม", "ครับ"],
+        "fa": ["آیا", "رزرو", "دارید؟"],
+        "ar": ["هل", "لديك", "حجز؟"],
+        "es": ["¿Tienes", "una", "reserva?"],
+        "zh": ["你", "有", "预订", "吗？"],
+        "ja": ["予約", "は", "あります", "か？"]
+      }
+    },
+    {
+      "id": "sentence_hotel_yes_reservation",
+      "kind": "sentence",
+      "itemIds": ["word_yes", "word_i", "word_have", "word_reservation"],
+      "texts": {
+        "en": "Yes, I have a reservation",
+        "th": "ใช่ค่ะ ฉันมีการจอง",
+        "fa": "بله، من رزرو دارم",
+        "ar": "نعم، لدي حجز",
+        "es": "Sí, tengo una reserva",
+        "zh": "是的，我有预订",
+        "ja": "はい、予約があります"
+      },
+      "tokens": {
+        "en": ["Yes,", "I", "have", "a", "reservation"],
+        "th": ["ใช่", "ค่ะ", "ฉัน", "มี", "การจอง"],
+        "fa": ["بله،", "من", "رزرو", "دارم"],
+        "ar": ["نعم،", "لدي", "حجز"],
+        "es": ["Sí,", "tengo", "una", "reserva"],
+        "zh": ["是的，", "我", "有", "预订"],
+        "ja": ["はい、", "予約", "が", "あります"]
+      }
+    },
+    {
+      "id": "sentence_hotel_what_name",
+      "kind": "sentence",
+      "itemIds": ["word_name", "word_of", "word_you", "word_what"],
+      "texts": {
+        "en": "What is your name?",
+        "th": "คุณชื่ออะไรครับ",
+        "fa": "نام شما چیست؟",
+        "ar": "ما اسمك؟",
+        "es": "¿Cuál es tu nombre?",
+        "zh": "你叫什么名字？",
+        "ja": "お名前は何ですか？"
+      },
+      "tokens": {
+        "en": ["What", "is", "your", "name?"],
+        "th": ["คุณ", "ชื่อ", "อะไร", "ครับ"],
+        "fa": ["نام", "شما", "چیست؟"],
+        "ar": ["ما", "اسمك؟"],
+        "es": ["¿Cuál", "es", "tu", "nombre?"],
+        "zh": ["你", "叫", "什么", "名字？"],
+        "ja": ["お名前", "は", "何", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_hotel_passport_question",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_see",
+        "word_passport",
+        "word_of",
+        "word_you",
+        "word_can",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Can I see your passport?",
+        "th": "ขอดูหนังสือเดินทางของคุณได้ไหมครับ",
+        "fa": "می‌توانم گذرنامه شما را ببینم؟",
+        "ar": "هل يمكنني رؤية جواز سفرك؟",
+        "es": "¿Puedo ver tu pasaporte?",
+        "zh": "我能看看你的护照吗？",
+        "ja": "パスポートを見せていただけますか？"
+      },
+      "tokens": {
+        "en": ["Can", "I", "see", "your", "passport?"],
+        "th": [
+          "ขอ",
+          "ดู",
+          "หนังสือเดินทาง",
+          "ของ",
+          "คุณ",
+          "ได้",
+          "ไหม",
+          "ครับ"
+        ],
+        "fa": ["می‌توانم", "گذرنامه", "شما", "را", "ببینم؟"],
+        "ar": ["هل", "يمكنني", "رؤية", "جواز", "سفرك؟"],
+        "es": ["¿Puedo", "ver", "tu", "pasaporte?"],
+        "zh": ["我", "能", "看看", "你的", "护照", "吗？"],
+        "ja": ["パスポート", "を", "見せて", "いただけます", "か？"]
+      }
+    },
+    {
+      "id": "sentence_hotel_here_passport",
+      "kind": "sentence",
+      "itemIds": ["word_here", "word_passport", "word_of", "word_i"],
+      "texts": {
+        "en": "Here is my passport",
+        "th": "นี่คือหนังสือเดินทางของฉันค่ะ",
+        "fa": "این گذرنامه من است",
+        "ar": "هذا جواز سفري",
+        "es": "Aquí está mi pasaporte",
+        "zh": "这是我的护照",
+        "ja": "これが私のパスポートです"
+      },
+      "tokens": {
+        "en": ["Here", "is", "my", "passport"],
+        "th": ["นี่", "คือ", "หนังสือเดินทาง", "ของ", "ฉัน", "ค่ะ"],
+        "fa": ["این", "گذرنامه", "من", "است"],
+        "ar": ["هذا", "جواز", "سفري"],
+        "es": ["Aquí", "está", "mi", "pasaporte"],
+        "zh": ["这", "是", "我的", "护照"],
+        "ja": ["これ", "が", "私", "の", "パスポート", "です"]
+      }
+    },
+    {
+      "id": "sentence_hotel_here_key",
+      "kind": "sentence",
+      "itemIds": ["word_here", "word_key", "word_room", "word_of", "word_you"],
+      "texts": {
+        "en": "Here is your room key",
+        "th": "นี่คือกุญแจห้องของคุณครับ",
+        "fa": "این کلید اتاق شماست",
+        "ar": "هذا مفتاح غرفتك",
+        "es": "Aquí está la llave de tu habitación",
+        "zh": "这是你的房间钥匙",
+        "ja": "こちらが部屋の鍵です"
+      },
+      "tokens": {
+        "en": ["Here", "is", "your", "room", "key"],
+        "th": ["นี่", "คือ", "กุญแจ", "ห้อง", "ของ", "คุณ", "ครับ"],
+        "fa": ["این", "کلید", "اتاق", "شماست"],
+        "ar": ["هذا", "مفتاح", "غرفتك"],
+        "es": ["Aquí", "está", "la", "llave", "de", "tu", "habitación"],
+        "zh": ["这", "是", "你的", "房间", "钥匙"],
+        "ja": ["こちら", "が", "部屋", "の", "鍵", "です"]
+      }
+    },
+    {
+      "id": "sentence_hotel_thank_much",
+      "kind": "sentence",
+      "itemIds": ["word_thank", "word_much"],
+      "texts": {
+        "en": "Thank you very much",
+        "th": "ขอบคุณมากค่ะ",
+        "fa": "خیلی متشکرم",
+        "ar": "شكراً جزيلاً",
+        "es": "Muchas gracias",
+        "zh": "非常感谢",
+        "ja": "どうもありがとうございます"
+      },
+      "tokens": {
+        "en": ["Thank", "you", "very", "much"],
+        "th": ["ขอบคุณ", "มาก", "ค่ะ"],
+        "fa": ["خیلی", "متشکرم"],
+        "ar": ["شكراً", "جزيلاً"],
+        "es": ["Muchas", "gracias"],
+        "zh": ["非常", "感谢"],
+        "ja": ["どうも", "ありがとう", "ございます"]
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Walk-in / No Reservation",
+        "th": "สถานการณ์ 2: มาโดยไม่จอง",
+        "fa": "سناریو ۲: ورود بدون رزرو",
+        "ar": "السيناريو 2: الوصول بدون حجز",
+        "es": "Escenario 2: Sin reserva",
+        "zh": "场景二：无预订入住",
+        "ja": "シナリオ2：予約なしの到着"
+      }
+    },
+    {
+      "id": "sentence_walkin_room_available",
+      "kind": "sentence",
+      "itemIds": [
+        "word_have",
+        "word_room",
+        "word_available",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Do you have a room available?",
+        "th": "มีห้องว่างไหมคะ",
+        "fa": "آیا اتاق خالی دارید؟",
+        "ar": "هل لديك غرفة متاحة؟",
+        "es": "¿Tienes una habitación disponible?",
+        "zh": "有空房间吗？",
+        "ja": "空いている部屋はありますか？"
+      },
+      "tokens": {
+        "en": ["Do", "you", "have", "a", "room", "available?"],
+        "th": ["มี", "ห้อง", "ว่าง", "ไหม", "คะ"],
+        "fa": ["آیا", "اتاق", "خالی", "دارید؟"],
+        "ar": ["هل", "لديك", "غرفة", "متاحة؟"],
+        "es": ["¿Tienes", "una", "habitación", "disponible?"],
+        "zh": ["有", "空", "房间", "吗？"],
+        "ja": ["空いている", "部屋", "は", "あります", "か？"]
+      }
+    },
+    {
+      "id": "sentence_walkin_yes_available",
+      "kind": "sentence",
+      "itemIds": [
+        "word_yes",
+        "word_we",
+        "word_have",
+        "word_room",
+        "word_available"
+      ],
+      "texts": {
+        "en": "Yes, we have a room available",
+        "th": "ครับ มีห้องว่างครับ",
+        "fa": "بله، اتاق خالی داریم",
+        "ar": "نعم، لدينا غرفة متاحة",
+        "es": "Sí, tenemos una habitación disponible",
+        "zh": "是的，我们有空房间",
+        "ja": "はい、空いている部屋があります"
+      },
+      "tokens": {
+        "en": ["Yes,", "we", "have", "a", "room", "available"],
+        "th": ["ครับ", "มี", "ห้อง", "ว่าง", "ครับ"],
+        "fa": ["بله،", "اتاق", "خالی", "داریم"],
+        "ar": ["نعم،", "لدينا", "غرفة", "متاحة"],
+        "es": ["Sí,", "tenemos", "una", "habitación", "disponible"],
+        "zh": ["是的，", "我们", "有", "空", "房间"],
+        "ja": ["はい、", "空いている", "部屋", "が", "あります"]
+      }
+    },
+    {
+      "id": "sentence_walkin_how_much",
+      "kind": "sentence",
+      "itemIds": ["word_how_much", "word_per", "word_night"],
+      "texts": {
+        "en": "How much per night?",
+        "th": "คืนละเท่าไหร่คะ",
+        "fa": "هر شب چقدر است؟",
+        "ar": "كم السعر لكل ليلة؟",
+        "es": "¿Cuánto cuesta por noche?",
+        "zh": "每晚多少钱？",
+        "ja": "一晩いくらですか？"
+      },
+      "tokens": {
+        "en": ["How", "much", "per", "night?"],
+        "th": ["คืน", "ละ", "เท่าไหร่", "คะ"],
+        "fa": ["هر", "شب", "چقدر", "است؟"],
+        "ar": ["كم", "السعر", "لكل", "ليلة؟"],
+        "es": ["¿Cuánto", "cuesta", "por", "noche?"],
+        "zh": ["每晚", "多少", "钱？"],
+        "ja": ["一晩", "いくら", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_walkin_price_answer",
+      "kind": "sentence",
+      "itemIds": ["word_per", "word_night", "word_baht"],
+      "texts": {
+        "en": "1,500 baht per night",
+        "th": "คืนละ 1,500 บาทครับ",
+        "fa": "هر شب ۱۵۰۰ بات",
+        "ar": "1500 بات لكل ليلة",
+        "es": "1.500 baht por noche",
+        "zh": "每晚1500泰铢",
+        "ja": "一晩1500バーツです"
+      },
+      "tokens": {
+        "en": ["1,500", "baht", "per", "night"],
+        "th": ["คืน", "ละ", "1,500", "บาท", "ครับ"],
+        "fa": ["هر", "شب", "۱۵۰۰", "بات"],
+        "ar": ["1500", "بات", "لكل", "ليلة"],
+        "es": ["1.500", "baht", "por", "noche"],
+        "zh": ["每晚", "1500", "泰铢"],
+        "ja": ["一晩", "1500", "バーツ", "です"]
+      }
+    },
+    {
+      "id": "sentence_walkin_too_expensive",
+      "kind": "sentence",
+      "itemIds": ["word_expensive", "word_too"],
+      "texts": {
+        "en": "That is too expensive",
+        "th": "แพงเกินไปค่ะ",
+        "fa": "خیلی گران است",
+        "ar": "هذا غالي جداً",
+        "es": "Es demasiado caro",
+        "zh": "太贵了",
+        "ja": "高すぎます"
+      },
+      "tokens": {
+        "en": ["That", "is", "too", "expensive"],
+        "th": ["แพง", "เกินไป", "ค่ะ"],
+        "fa": ["خیلی", "گران", "است"],
+        "ar": ["هذا", "غالي", "جداً"],
+        "es": ["Es", "demasiado", "caro"],
+        "zh": ["太", "贵", "了"],
+        "ja": ["高すぎ", "ます"]
+      }
+    },
+    {
+      "id": "sentence_walkin_cheaper_room",
+      "kind": "sentence",
+      "itemIds": ["word_we", "word_have", "word_room", "word_cheap"],
+      "texts": {
+        "en": "We have a cheaper room",
+        "th": "เรามีห้องที่ถูกกว่าครับ",
+        "fa": "ما اتاق ارزان‌تری داریم",
+        "ar": "لدينا غرفة أرخص",
+        "es": "Tenemos una habitación más barata",
+        "zh": "我们有更便宜的房间",
+        "ja": "もっと安い部屋があります"
+      },
+      "tokens": {
+        "en": ["We", "have", "a", "cheaper", "room"],
+        "th": ["เรา", "มี", "ห้อง", "ที่", "ถูกกว่า", "ครับ"],
+        "fa": ["ما", "اتاق", "ارزان‌تری", "داریم"],
+        "ar": ["لدينا", "غرفة", "أرخص"],
+        "es": ["Tenemos", "una", "habitación", "más", "barata"],
+        "zh": ["我们", "有", "更便宜的", "房间"],
+        "ja": ["もっと", "安い", "部屋", "が", "あります"]
+      }
+    },
+    {
+      "id": "sentence_walkin_take_room",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_take", "word_room", "word_here"],
+      "texts": {
+        "en": "I will take this room",
+        "th": "ฉันเอาห้องนี้ค่ะ",
+        "fa": "من این اتاق را می‌گیرم",
+        "ar": "سآخذ هذه الغرفة",
+        "es": "Me quedo con esta habitación",
+        "zh": "我要这个房间",
+        "ja": "この部屋にします"
+      },
+      "tokens": {
+        "en": ["I", "will", "take", "this", "room"],
+        "th": ["ฉัน", "เอา", "ห้อง", "นี้", "ค่ะ"],
+        "fa": ["من", "این", "اتاق", "را", "می‌گیرم"],
+        "ar": ["سآخذ", "هذه", "الغرفة"],
+        "es": ["Me", "quedo", "con", "esta", "habitación"],
+        "zh": ["我", "要", "这个", "房间"],
+        "ja": ["この", "部屋", "に", "します"]
+      }
+    },
+    {
+      "id": "word_available",
+      "kind": "word",
+      "texts": {
+        "en": "available / empty",
+        "th": "ว่าง",
+        "fa": "خالی / در دسترس",
+        "ar": "متاح / فارغ",
+        "es": "disponible / libre",
+        "zh": "空的 / 可用的",
+        "ja": "空いている"
+      }
+    },
+    {
+      "id": "word_night",
+      "kind": "word",
+      "texts": {
+        "en": "night",
+        "th": "คืน",
+        "fa": "شب",
+        "ar": "ليلة",
+        "es": "noche",
+        "zh": "晚 / 夜",
+        "ja": "泊 / 夜"
+      }
+    },
+    {
+      "id": "word_how_much",
+      "kind": "word",
+      "texts": {
+        "en": "how much",
+        "th": "เท่าไหร่",
+        "fa": "چقدر",
+        "ar": "كم",
+        "es": "cuánto",
+        "zh": "多少",
+        "ja": "いくら"
+      }
+    },
+    {
+      "id": "word_per",
+      "kind": "word",
+      "texts": {
+        "en": "per",
+        "th": "ละ",
+        "fa": "هر / فی",
+        "ar": "لكل",
+        "es": "por",
+        "zh": "每",
+        "ja": "〜につき"
+      }
+    },
+    {
+      "id": "word_baht",
+      "kind": "word",
+      "texts": {
+        "en": "baht",
+        "th": "บาท",
+        "fa": "بات",
+        "ar": "بات",
+        "es": "baht",
+        "zh": "泰铢",
+        "ja": "バーツ"
+      }
+    },
+    {
+      "id": "word_expensive",
+      "kind": "word",
+      "texts": {
+        "en": "expensive",
+        "th": "แพง",
+        "fa": "گران",
+        "ar": "غالي",
+        "es": "caro",
+        "zh": "贵",
+        "ja": "高い"
+      }
+    },
+    {
+      "id": "word_cheap",
+      "kind": "word",
+      "texts": {
+        "en": "cheap",
+        "th": "ถูก",
+        "fa": "ارزان",
+        "ar": "رخيص",
+        "es": "barato",
+        "zh": "便宜",
+        "ja": "安い"
+      }
+    },
+    {
+      "id": "word_too",
+      "kind": "word",
+      "texts": {
+        "en": "too (excessively)",
+        "th": "เกินไป",
+        "fa": "خیلی / بیش از حد",
+        "ar": "جداً / أكثر من اللازم",
+        "es": "demasiado",
+        "zh": "太",
+        "ja": "〜すぎる"
+      }
+    },
+    {
+      "id": "word_take",
+      "kind": "word",
+      "texts": {
+        "en": "take / choose",
+        "th": "เอา",
+        "fa": "گرفتن / انتخاب کردن",
+        "ar": "يأخذ / يختار",
+        "es": "tomar / elegir",
+        "zh": "要 / 选",
+        "ja": "選ぶ / 取る"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Stay Details & Preferences",
+        "th": "สถานการณ์ 3: รายละเอียดการพัก",
+        "fa": "سناریو ۳: جزئیات اقامت",
+        "ar": "السيناريو 3: تفاصيل الإقامة",
+        "es": "Escenario 3: Detalles de la estancia",
+        "zh": "场景三：住宿详情与偏好",
+        "ja": "シナリオ3：滞在の詳細と希望"
+      }
+    },
+    {
+      "id": "sentence_details_how_many_nights",
+      "kind": "sentence",
+      "itemIds": ["word_stay", "word_how_many", "word_night"],
+      "texts": {
+        "en": "How many nights will you stay?",
+        "th": "พักกี่คืนครับ",
+        "fa": "چند شب می‌مانید؟",
+        "ar": "كم ليلة ستبقى؟",
+        "es": "¿Cuántas noches te quedas?",
+        "zh": "你住几晚？",
+        "ja": "何泊されますか？"
+      },
+      "tokens": {
+        "en": ["How", "many", "nights", "will", "you", "stay?"],
+        "th": ["พัก", "กี่", "คืน", "ครับ"],
+        "fa": ["چند", "شب", "می‌مانید؟"],
+        "ar": ["كم", "ليلة", "ستبقى؟"],
+        "es": ["¿Cuántas", "noches", "te", "quedas?"],
+        "zh": ["住", "几", "晚？"],
+        "ja": ["何泊", "されます", "か？"]
+      }
+    },
+    {
+      "id": "sentence_details_three_nights",
+      "kind": "sentence",
+      "itemIds": ["word_three", "word_night"],
+      "texts": {
+        "en": "Three nights",
+        "th": "สามคืนค่ะ",
+        "fa": "سه شب",
+        "ar": "ثلاث ليالٍ",
+        "es": "Tres noches",
+        "zh": "三晚",
+        "ja": "三泊です"
+      },
+      "tokens": {
+        "en": ["Three", "nights"],
+        "th": ["สาม", "คืน", "ค่ะ"],
+        "fa": ["سه", "شب"],
+        "ar": ["ثلاث", "ليالٍ"],
+        "es": ["Tres", "noches"],
+        "zh": ["三", "晚"],
+        "ja": ["三泊", "です"]
+      }
+    },
+    {
+      "id": "sentence_details_room_type",
+      "kind": "sentence",
+      "itemIds": ["word_want", "word_room", "word_type", "word_what"],
+      "texts": {
+        "en": "What type of room do you want?",
+        "th": "ต้องการห้องแบบไหนครับ",
+        "fa": "چه نوع اتاقی می‌خواهید؟",
+        "ar": "ما نوع الغرفة التي تريدها؟",
+        "es": "¿Qué tipo de habitación quieres?",
+        "zh": "你想要什么类型的房间？",
+        "ja": "どんなタイプの部屋がいいですか？"
+      },
+      "tokens": {
+        "en": ["What", "type", "of", "room", "do", "you", "want?"],
+        "th": ["ต้องการ", "ห้อง", "แบบ", "ไหน", "ครับ"],
+        "fa": ["چه", "نوع", "اتاقی", "می‌خواهید؟"],
+        "ar": ["ما", "نوع", "الغرفة", "التي", "تريدها؟"],
+        "es": ["¿Qué", "tipo", "de", "habitación", "quieres?"],
+        "zh": ["想要", "什么", "类型", "的", "房间？"],
+        "ja": ["どんな", "タイプ", "の", "部屋", "が", "いい", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_details_double_room",
+      "kind": "sentence",
+      "itemIds": ["word_room", "word_double_bed"],
+      "texts": {
+        "en": "A double room, please",
+        "th": "ห้องเตียงคู่ค่ะ",
+        "fa": "اتاق با تخت دونفره، لطفاً",
+        "ar": "غرفة بسرير مزدوج، من فضلك",
+        "es": "Una habitación doble, por favor",
+        "zh": "请给我一间双人房",
+        "ja": "ダブルルームをお願いします"
+      },
+      "tokens": {
+        "en": ["A", "double", "room,", "please"],
+        "th": ["ห้อง", "เตียงคู่", "ค่ะ"],
+        "fa": ["اتاق", "با", "تخت", "دونفره،", "لطفاً"],
+        "ar": ["غرفة", "بسرير", "مزدوج،", "من", "فضلك"],
+        "es": ["Una", "habitación", "doble,", "por", "favor"],
+        "zh": ["双人房", "请"],
+        "ja": ["ダブルルーム", "を", "お願い", "します"]
+      }
+    },
+    {
+      "id": "sentence_details_quiet_room",
+      "kind": "sentence",
+      "itemIds": [
+        "word_room",
+        "word_quiet",
+        "word_can",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Can I have a quiet room?",
+        "th": "ขอห้องเงียบ ๆ ได้ไหมคะ",
+        "fa": "می‌توانم اتاق ساکت داشته باشم؟",
+        "ar": "هل يمكنني الحصول على غرفة هادئة؟",
+        "es": "¿Puedo tener una habitación tranquila?",
+        "zh": "我能要一间安静的房间吗？",
+        "ja": "静かな部屋にしていただけますか？"
+      },
+      "tokens": {
+        "en": ["Can", "I", "have", "a", "quiet", "room?"],
+        "th": ["ขอ", "ห้อง", "เงียบ ๆ", "ได้", "ไหม", "คะ"],
+        "fa": ["می‌توانم", "اتاق", "ساکت", "داشته", "باشم؟"],
+        "ar": ["هل", "يمكنني", "الحصول", "على", "غرفة", "هادئة؟"],
+        "es": ["¿Puedo", "tener", "una", "habitación", "tranquila?"],
+        "zh": ["能", "要", "一间", "安静的", "房间", "吗？"],
+        "ja": ["静かな", "部屋", "に", "して", "いただけます", "か？"]
+      }
+    },
+    {
+      "id": "sentence_details_floor",
+      "kind": "sentence",
+      "itemIds": ["word_room", "word_floor", "word_five"],
+      "texts": {
+        "en": "Your room is on the fifth floor",
+        "th": "ห้องของคุณอยู่ชั้นห้าครับ",
+        "fa": "اتاق شما در طبقه پنجم است",
+        "ar": "غرفتك في الطابق الخامس",
+        "es": "Tu habitación está en el quinto piso",
+        "zh": "你的房间在五楼",
+        "ja": "お部屋は5階です"
+      },
+      "tokens": {
+        "en": ["Your", "room", "is", "on", "the", "fifth", "floor"],
+        "th": ["ห้อง", "ของ", "คุณ", "อยู่", "ชั้น", "ห้า", "ครับ"],
+        "fa": ["اتاق", "شما", "در", "طبقه", "پنجم", "است"],
+        "ar": ["غرفتك", "في", "الطابق", "الخامس"],
+        "es": ["Tu", "habitación", "está", "en", "el", "quinto", "piso"],
+        "zh": ["你的", "房间", "在", "五", "楼"],
+        "ja": ["お部屋", "は", "5階", "です"]
+      }
+    },
+    {
+      "id": "sentence_details_aircon",
+      "kind": "sentence",
+      "itemIds": [
+        "word_have",
+        "word_air_conditioner",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Does it have air conditioning?",
+        "th": "มีเครื่องปรับอากาศไหมคะ",
+        "fa": "آیا تهویه مطبوع دارد؟",
+        "ar": "هل يوجد تكييف هواء؟",
+        "es": "¿Tiene aire acondicionado?",
+        "zh": "有空调吗？",
+        "ja": "エアコンはありますか？"
+      },
+      "tokens": {
+        "en": ["Does", "it", "have", "air", "conditioning?"],
+        "th": ["มี", "เครื่องปรับอากาศ", "ไหม", "คะ"],
+        "fa": ["آیا", "تهویه", "مطبوع", "دارد؟"],
+        "ar": ["هل", "يوجد", "تكييف", "هواء؟"],
+        "es": ["¿Tiene", "aire", "acondicionado?"],
+        "zh": ["有", "空调", "吗？"],
+        "ja": ["エアコン", "は", "あります", "か？"]
+      }
+    },
+    {
+      "id": "word_stay",
+      "kind": "word",
+      "texts": {
+        "en": "stay",
+        "th": "พัก",
+        "fa": "ماندن / اقامت کردن",
+        "ar": "يبقى / يقيم",
+        "es": "quedarse / alojarse",
+        "zh": "住",
+        "ja": "泊まる"
+      }
+    },
+    {
+      "id": "word_how_many",
+      "kind": "word",
+      "texts": {
+        "en": "how many",
+        "th": "กี่",
+        "fa": "چند",
+        "ar": "كم",
+        "es": "cuántos",
+        "zh": "几",
+        "ja": "いくつ / 何"
+      }
+    },
+    {
+      "id": "word_three",
+      "kind": "word",
+      "texts": {
+        "en": "three",
+        "th": "สาม",
+        "fa": "سه",
+        "ar": "ثلاثة",
+        "es": "tres",
+        "zh": "三",
+        "ja": "三"
+      }
+    },
+    {
+      "id": "word_type",
+      "kind": "word",
+      "texts": {
+        "en": "type / kind",
+        "th": "แบบ",
+        "fa": "نوع",
+        "ar": "نوع",
+        "es": "tipo",
+        "zh": "类型",
+        "ja": "タイプ / 種類"
+      }
+    },
+    {
+      "id": "word_double_bed",
+      "kind": "word",
+      "texts": {
+        "en": "double bed",
+        "th": "เตียงคู่",
+        "fa": "تخت دونفره",
+        "ar": "سرير مزدوج",
+        "es": "cama doble",
+        "zh": "双人床",
+        "ja": "ダブルベッド"
+      }
+    },
+    {
+      "id": "word_quiet",
+      "kind": "word",
+      "texts": {
+        "en": "quiet",
+        "th": "เงียบ",
+        "fa": "ساکت / آرام",
+        "ar": "هادئ",
+        "es": "tranquilo",
+        "zh": "安静",
+        "ja": "静か"
+      }
+    },
+    {
+      "id": "word_floor",
+      "kind": "word",
+      "texts": {
+        "en": "floor (of building)",
+        "th": "ชั้น",
+        "fa": "طبقه",
+        "ar": "طابق",
+        "es": "piso / planta",
+        "zh": "楼层",
+        "ja": "階"
+      }
+    },
+    {
+      "id": "word_five",
+      "kind": "word",
+      "texts": {
+        "en": "five",
+        "th": "ห้า",
+        "fa": "پنج",
+        "ar": "خمسة",
+        "es": "cinco",
+        "zh": "五",
+        "ja": "五"
+      }
+    },
+    {
+      "id": "word_air_conditioner",
+      "kind": "word",
+      "texts": {
+        "en": "air conditioner",
+        "th": "เครื่องปรับอากาศ",
+        "fa": "تهویه مطبوع / کولر",
+        "ar": "مكيف هواء",
+        "es": "aire acondicionado",
+        "zh": "空调",
+        "ja": "エアコン"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Payment & Information",
+        "th": "สถานการณ์ 4: การชำระเงินและข้อมูล",
+        "fa": "سناریو ۴: پرداخت و اطلاعات",
+        "ar": "السيناريو 4: الدفع والمعلومات",
+        "es": "Escenario 4: Pago e información",
+        "zh": "场景四：付款与信息",
+        "ja": "シナリオ4：支払いと情報"
+      }
+    },
+    {
+      "id": "sentence_payment_how_to_pay",
+      "kind": "sentence",
+      "itemIds": ["word_want", "word_pay", "word_type", "word_what"],
+      "texts": {
+        "en": "How would you like to pay?",
+        "th": "ต้องการจ่ายแบบไหนครับ",
+        "fa": "چگونه می‌خواهید پرداخت کنید؟",
+        "ar": "كيف تريد أن تدفع؟",
+        "es": "¿Cómo quieres pagar?",
+        "zh": "你想怎么付款？",
+        "ja": "お支払い方法はどうされますか？"
+      },
+      "tokens": {
+        "en": ["How", "would", "you", "like", "to", "pay?"],
+        "th": ["ต้องการ", "จ่าย", "แบบ", "ไหน", "ครับ"],
+        "fa": ["چگونه", "می‌خواهید", "پرداخت", "کنید؟"],
+        "ar": ["كيف", "تريد", "أن", "تدفع؟"],
+        "es": ["¿Cómo", "quieres", "pagar?"],
+        "zh": ["想", "怎么", "付款？"],
+        "ja": ["お支払い", "方法", "は", "どう", "されます", "か？"]
+      }
+    },
+    {
+      "id": "sentence_payment_credit_card",
+      "kind": "sentence",
+      "itemIds": ["word_pay", "word_credit_card"],
+      "texts": {
+        "en": "By credit card, please",
+        "th": "จ่ายด้วยบัตรเครดิตค่ะ",
+        "fa": "با کارت اعتباری، لطفاً",
+        "ar": "ببطاقة الائتمان، من فضلك",
+        "es": "Con tarjeta de crédito, por favor",
+        "zh": "请用信用卡",
+        "ja": "クレジットカードでお願いします"
+      },
+      "tokens": {
+        "en": ["By", "credit", "card,", "please"],
+        "th": ["จ่าย", "ด้วย", "บัตรเครดิต", "ค่ะ"],
+        "fa": ["با", "کارت", "اعتباری،", "لطفاً"],
+        "ar": ["ببطاقة", "الائتمان،", "من", "فضلك"],
+        "es": ["Con", "tarjeta", "de", "crédito,", "por", "favor"],
+        "zh": ["用", "信用卡"],
+        "ja": ["クレジットカード", "で", "お願い", "します"]
+      }
+    },
+    {
+      "id": "sentence_payment_deposit",
+      "kind": "sentence",
+      "itemIds": ["word_pay", "word_deposit", "word_baht"],
+      "texts": {
+        "en": "Please pay a deposit of 500 baht",
+        "th": "กรุณาวางมัดจำ 500 บาทครับ",
+        "fa": "لطفاً ۵۰۰ بات ودیعه بپردازید",
+        "ar": "يرجى دفع عربون 500 بات",
+        "es": "Por favor paga un depósito de 500 baht",
+        "zh": "请支付500泰铢押金",
+        "ja": "500バーツのデポジットをお願いします"
+      },
+      "tokens": {
+        "en": ["Please", "pay", "a", "deposit", "of", "500", "baht"],
+        "th": ["กรุณา", "วาง", "มัดจำ", "500", "บาท", "ครับ"],
+        "fa": ["لطفاً", "۵۰۰", "بات", "ودیعه", "بپردازید"],
+        "ar": ["يرجى", "دفع", "عربون", "500", "بات"],
+        "es": ["Por", "favor", "paga", "un", "depósito", "de", "500", "baht"],
+        "zh": ["请", "支付", "500", "泰铢", "押金"],
+        "ja": ["500", "バーツ", "の", "デポジット", "を", "お願い", "します"]
+      }
+    },
+    {
+      "id": "sentence_payment_breakfast",
+      "kind": "sentence",
+      "itemIds": ["word_breakfast", "word_time"],
+      "texts": {
+        "en": "Breakfast is from 7 to 10 am",
+        "th": "อาหารเช้าตั้งแต่ 7 โมงถึง 10 โมงครับ",
+        "fa": "صبحانه از ساعت ۷ تا ۱۰ صبح است",
+        "ar": "الإفطار من 7 إلى 10 صباحاً",
+        "es": "El desayuno es de 7 a 10 de la mañana",
+        "zh": "早餐时间是早上7点到10点",
+        "ja": "朝食は午前7時から10時までです"
+      },
+      "tokens": {
+        "en": ["Breakfast", "is", "from", "7", "to", "10", "am"],
+        "th": ["อาหารเช้า", "ตั้งแต่", "7", "โมง", "ถึง", "10", "โมง", "ครับ"],
+        "fa": ["صبحانه", "از", "ساعت", "۷", "تا", "۱۰", "صبح", "است"],
+        "ar": ["الإفطار", "من", "7", "إلى", "10", "صباحاً"],
+        "es": [
+          "El",
+          "desayuno",
+          "es",
+          "de",
+          "7",
+          "a",
+          "10",
+          "de",
+          "la",
+          "mañana"
+        ],
+        "zh": ["早餐", "是", "从", "早上", "7点", "到", "10点"],
+        "ja": ["朝食", "は", "午前", "7時", "から", "10時", "まで", "です"]
+      }
+    },
+    {
+      "id": "sentence_payment_wifi_question",
+      "kind": "sentence",
+      "itemIds": ["word_wifi", "word_password", "word_what"],
+      "texts": {
+        "en": "What is the Wi-Fi password?",
+        "th": "รหัสไวไฟคืออะไรคะ",
+        "fa": "رمز وای‌فای چیست؟",
+        "ar": "ما هي كلمة سر الواي فاي؟",
+        "es": "¿Cuál es la contraseña del Wi-Fi?",
+        "zh": "Wi-Fi密码是什么？",
+        "ja": "Wi-Fiのパスワードは何ですか？"
+      },
+      "tokens": {
+        "en": ["What", "is", "the", "Wi-Fi", "password?"],
+        "th": ["รหัส", "ไวไฟ", "คือ", "อะไร", "คะ"],
+        "fa": ["رمز", "وای‌فای", "چیست؟"],
+        "ar": ["ما", "هي", "كلمة", "سر", "الواي", "فاي؟"],
+        "es": ["¿Cuál", "es", "la", "contraseña", "del", "Wi-Fi?"],
+        "zh": ["Wi-Fi", "密码", "是", "什么？"],
+        "ja": ["Wi-Fi", "の", "パスワード", "は", "何", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_payment_checkout_time",
+      "kind": "sentence",
+      "itemIds": ["word_check_out", "word_time"],
+      "texts": {
+        "en": "Check-out is at noon",
+        "th": "เช็คเอาท์ตอนเที่ยงครับ",
+        "fa": "تحویل اتاق ساعت ۱۲ ظهر است",
+        "ar": "تسجيل المغادرة عند الظهر",
+        "es": "La salida es al mediodía",
+        "zh": "退房时间是中午",
+        "ja": "チェックアウトは正午です"
+      },
+      "tokens": {
+        "en": ["Check-out", "is", "at", "noon"],
+        "th": ["เช็คเอาท์", "ตอน", "เที่ยง", "ครับ"],
+        "fa": ["تحویل", "اتاق", "ساعت", "۱۲", "ظهر", "است"],
+        "ar": ["تسجيل", "المغادرة", "عند", "الظهر"],
+        "es": ["La", "salida", "es", "al", "mediodía"],
+        "zh": ["退房", "时间", "是", "中午"],
+        "ja": ["チェックアウト", "は", "正午", "です"]
+      }
+    },
+    {
+      "id": "sentence_payment_wifi_on_card",
+      "kind": "sentence",
+      "itemIds": ["word_wifi", "word_password", "word_key"],
+      "texts": {
+        "en": "The Wi-Fi password is on your key card",
+        "th": "รหัสไวไฟอยู่ในการ์ดกุญแจครับ",
+        "fa": "رمز وای‌فای روی کارت کلید شماست",
+        "ar": "كلمة سر الواي فاي على بطاقة مفتاحك",
+        "es": "La contraseña del Wi-Fi está en tu tarjeta llave",
+        "zh": "Wi-Fi密码在你的房卡上",
+        "ja": "Wi-Fiのパスワードはキーカードに書いてあります"
+      },
+      "tokens": {
+        "en": ["The", "Wi-Fi", "password", "is", "on", "your", "key", "card"],
+        "th": ["รหัส", "ไวไฟ", "อยู่", "ใน", "การ์ด", "กุญแจ", "ครับ"],
+        "fa": ["رمز", "وای‌فای", "روی", "کارت", "کلید", "شماست"],
+        "ar": ["كلمة", "سر", "الواي", "فاي", "على", "بطاقة", "مفتاحك"],
+        "es": [
+          "La",
+          "contraseña",
+          "del",
+          "Wi-Fi",
+          "está",
+          "en",
+          "tu",
+          "tarjeta",
+          "llave"
+        ],
+        "zh": ["Wi-Fi", "密码", "在", "你的", "房卡", "上"],
+        "ja": [
+          "Wi-Fi",
+          "の",
+          "パスワード",
+          "は",
+          "キーカード",
+          "に",
+          "書いて",
+          "あります"
+        ]
+      }
+    },
+    {
+      "id": "word_pay",
+      "kind": "word",
+      "texts": {
+        "en": "pay",
+        "th": "จ่าย",
+        "fa": "پرداخت کردن",
+        "ar": "يدفع",
+        "es": "pagar",
+        "zh": "付款",
+        "ja": "払う"
+      }
+    },
+    {
+      "id": "word_credit_card",
+      "kind": "word",
+      "texts": {
+        "en": "credit card",
+        "th": "บัตรเครดิต",
+        "fa": "کارت اعتباری",
+        "ar": "بطاقة ائتمان",
+        "es": "tarjeta de crédito",
+        "zh": "信用卡",
+        "ja": "クレジットカード"
+      }
+    },
+    {
+      "id": "word_deposit",
+      "kind": "word",
+      "texts": {
+        "en": "deposit",
+        "th": "มัดจำ",
+        "fa": "ودیعه / پیش‌پرداخت",
+        "ar": "عربون / تأمين",
+        "es": "depósito / fianza",
+        "zh": "押金",
+        "ja": "デポジット / 保証金"
+      }
+    },
+    {
+      "id": "word_breakfast",
+      "kind": "word",
+      "texts": {
+        "en": "breakfast",
+        "th": "อาหารเช้า",
+        "fa": "صبحانه",
+        "ar": "إفطار",
+        "es": "desayuno",
+        "zh": "早餐",
+        "ja": "朝食"
+      }
+    },
+    {
+      "id": "word_wifi",
+      "kind": "word",
+      "texts": {
+        "en": "Wi-Fi",
+        "th": "ไวไฟ",
+        "fa": "وای‌فای",
+        "ar": "واي فاي",
+        "es": "Wi-Fi",
+        "zh": "Wi-Fi",
+        "ja": "Wi-Fi"
+      }
+    },
+    {
+      "id": "word_password",
+      "kind": "word",
+      "texts": {
+        "en": "password",
+        "th": "รหัสผ่าน",
+        "fa": "رمز عبور",
+        "ar": "كلمة سر",
+        "es": "contraseña",
+        "zh": "密码",
+        "ja": "パスワード"
+      }
+    },
+    {
+      "id": "word_check_out",
+      "kind": "word",
+      "texts": {
+        "en": "check out",
+        "th": "เช็คเอาท์",
+        "fa": "تحویل اتاق",
+        "ar": "تسجيل المغادرة",
+        "es": "salida / check-out",
+        "zh": "退房",
+        "ja": "チェックアウト"
+      }
+    },
+    {
+      "id": "word_time",
+      "kind": "word",
+      "texts": {
+        "en": "time",
+        "th": "เวลา",
+        "fa": "زمان / ساعت",
+        "ar": "وقت",
+        "es": "hora / tiempo",
+        "zh": "时间",
+        "ja": "時間"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Problems & Special Requests",
+        "th": "สถานการณ์ 5: ปัญหาและคำขอพิเศษ",
+        "fa": "سناریو ۵: مشکلات و درخواست‌های خاص",
+        "ar": "السيناريو 5: المشاكل والطلبات الخاصة",
+        "es": "Escenario 5: Problemas y peticiones especiales",
+        "zh": "场景五：问题与特殊请求",
+        "ja": "シナリオ5：問題と特別なリクエスト"
+      }
+    },
+    {
+      "id": "sentence_problem_room_not_ready",
+      "kind": "sentence",
+      "itemIds": ["word_room", "word_no", "word_ready"],
+      "texts": {
+        "en": "The room is not ready yet",
+        "th": "ห้องยังไม่พร้อมครับ",
+        "fa": "اتاق هنوز آماده نیست",
+        "ar": "الغرفة ليست جاهزة بعد",
+        "es": "La habitación no está lista todavía",
+        "zh": "房间还没准备好",
+        "ja": "お部屋はまだ準備ができていません"
+      },
+      "tokens": {
+        "en": ["The", "room", "is", "not", "ready", "yet"],
+        "th": ["ห้อง", "ยัง", "ไม่", "พร้อม", "ครับ"],
+        "fa": ["اتاق", "هنوز", "آماده", "نیست"],
+        "ar": ["الغرفة", "ليست", "جاهزة", "بعد"],
+        "es": ["La", "habitación", "no", "está", "lista", "todavía"],
+        "zh": ["房间", "还", "没", "准备好"],
+        "ja": ["お部屋", "は", "まだ", "準備", "が", "できて", "いません"]
+      }
+    },
+    {
+      "id": "sentence_problem_please_wait",
+      "kind": "sentence",
+      "itemIds": ["word_wait", "word_minute"],
+      "texts": {
+        "en": "Please wait 30 minutes",
+        "th": "รอสัก 30 นาทีครับ",
+        "fa": "لطفاً ۳۰ دقیقه صبر کنید",
+        "ar": "يرجى الانتظار 30 دقيقة",
+        "es": "Por favor espera 30 minutos",
+        "zh": "请等30分钟",
+        "ja": "30分お待ちください"
+      },
+      "tokens": {
+        "en": ["Please", "wait", "30", "minutes"],
+        "th": ["รอ", "สัก", "30", "นาที", "ครับ"],
+        "fa": ["لطفاً", "۳۰", "دقیقه", "صبر", "کنید"],
+        "ar": ["يرجى", "الانتظار", "30", "دقيقة"],
+        "es": ["Por", "favor", "espera", "30", "minutos"],
+        "zh": ["请", "等", "30", "分钟"],
+        "ja": ["30分", "お", "待ち", "ください"]
+      }
+    },
+    {
+      "id": "sentence_problem_wrong_room",
+      "kind": "sentence",
+      "itemIds": ["word_here", "word_no", "word_room", "word_of", "word_i"],
+      "texts": {
+        "en": "This is not my room",
+        "th": "นี่ไม่ใช่ห้องของฉันค่ะ",
+        "fa": "این اتاق من نیست",
+        "ar": "هذه ليست غرفتي",
+        "es": "Esta no es mi habitación",
+        "zh": "这不是我的房间",
+        "ja": "これは私の部屋ではありません"
+      },
+      "tokens": {
+        "en": ["This", "is", "not", "my", "room"],
+        "th": ["นี่", "ไม่", "ใช่", "ห้อง", "ของ", "ฉัน", "ค่ะ"],
+        "fa": ["این", "اتاق", "من", "نیست"],
+        "ar": ["هذه", "ليست", "غرفتي"],
+        "es": ["Esta", "no", "es", "mi", "habitación"],
+        "zh": ["这", "不是", "我的", "房间"],
+        "ja": ["これ", "は", "私", "の", "部屋", "では", "ありません"]
+      }
+    },
+    {
+      "id": "sentence_problem_will_change",
+      "kind": "sentence",
+      "itemIds": ["word_sorry", "word_i", "word_change"],
+      "texts": {
+        "en": "I am sorry, I will change it for you",
+        "th": "ขอโทษครับ ผมจะเปลี่ยนให้ครับ",
+        "fa": "عذرخواهی می‌کنم، برایتان تغییرش می‌دهم",
+        "ar": "أنا آسف، سأغيرها لك",
+        "es": "Lo siento, lo cambiaré por ti",
+        "zh": "抱歉，我会帮你换",
+        "ja": "申し訳ありません、お変えいたします"
+      },
+      "tokens": {
+        "en": ["I", "am", "sorry,", "I", "will", "change", "it", "for", "you"],
+        "th": ["ขอโทษ", "ครับ", "ผม", "จะ", "เปลี่ยน", "ให้", "ครับ"],
+        "fa": ["عذرخواهی", "می‌کنم،", "برایتان", "تغییرش", "می‌دهم"],
+        "ar": ["أنا", "آسف،", "سأغيرها", "لك"],
+        "es": ["Lo", "siento,", "lo", "cambiaré", "por", "ti"],
+        "zh": ["抱歉，", "我", "会", "帮", "你", "换"],
+        "ja": ["申し訳", "ありません、", "お", "変え", "いたします"]
+      }
+    },
+    {
+      "id": "sentence_request_luggage_help",
+      "kind": "sentence",
+      "itemIds": [
+        "word_help",
+        "word_luggage",
+        "word_can",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Can you help with my luggage?",
+        "th": "ช่วยยกกระเป๋าได้ไหมคะ",
+        "fa": "می‌توانید با چمدانم کمک کنید؟",
+        "ar": "هل يمكنك المساعدة بحقائبي؟",
+        "es": "¿Puedes ayudarme con mi equipaje?",
+        "zh": "你能帮我拿行李吗？",
+        "ja": "荷物を持っていただけますか？"
+      },
+      "tokens": {
+        "en": ["Can", "you", "help", "with", "my", "luggage?"],
+        "th": ["ช่วย", "ยก", "กระเป๋า", "ได้", "ไหม", "คะ"],
+        "fa": ["می‌توانید", "با", "چمدانم", "کمک", "کنید؟"],
+        "ar": ["هل", "يمكنك", "المساعدة", "بحقائبي؟"],
+        "es": ["¿Puedes", "ayudarme", "con", "mi", "equipaje?"],
+        "zh": ["能", "帮", "我", "拿", "行李", "吗？"],
+        "ja": ["荷物", "を", "持って", "いただけます", "か？"]
+      }
+    },
+    {
+      "id": "sentence_request_no_problem",
+      "kind": "sentence",
+      "itemIds": ["word_can", "word_no", "word_problem"],
+      "texts": {
+        "en": "Of course, no problem",
+        "th": "ได้เลยครับ ไม่มีปัญหา",
+        "fa": "حتماً، مشکلی نیست",
+        "ar": "بالطبع، لا مشكلة",
+        "es": "Por supuesto, no hay problema",
+        "zh": "当然，没问题",
+        "ja": "もちろん、大丈夫です"
+      },
+      "tokens": {
+        "en": ["Of", "course,", "no", "problem"],
+        "th": ["ได้", "เลย", "ครับ", "ไม่", "มี", "ปัญหา"],
+        "fa": ["حتماً،", "مشکلی", "نیست"],
+        "ar": ["بالطبع،", "لا", "مشكلة"],
+        "es": ["Por", "supuesto,", "no", "hay", "problema"],
+        "zh": ["当然，", "没", "问题"],
+        "ja": ["もちろん、", "大丈夫", "です"]
+      }
+    },
+    {
+      "id": "word_ready",
+      "kind": "word",
+      "texts": {
+        "en": "ready",
+        "th": "พร้อม",
+        "fa": "آماده",
+        "ar": "جاهز",
+        "es": "listo / preparado",
+        "zh": "准备好",
+        "ja": "準備ができている"
+      }
+    },
+    {
+      "id": "word_wait",
+      "kind": "word",
+      "texts": {
+        "en": "wait",
+        "th": "รอ",
+        "fa": "صبر کردن / منتظر ماندن",
+        "ar": "ينتظر",
+        "es": "esperar",
+        "zh": "等",
+        "ja": "待つ"
+      }
+    },
+    {
+      "id": "word_minute",
+      "kind": "word",
+      "texts": {
+        "en": "minute",
+        "th": "นาที",
+        "fa": "دقیقه",
+        "ar": "دقيقة",
+        "es": "minuto",
+        "zh": "分钟",
+        "ja": "分"
+      }
+    },
+    {
+      "id": "word_wrong",
+      "kind": "word",
+      "texts": {
+        "en": "wrong",
+        "th": "ผิด",
+        "fa": "اشتباه / غلط",
+        "ar": "خطأ",
+        "es": "equivocado / incorrecto",
+        "zh": "错的",
+        "ja": "間違った"
+      }
+    },
+    {
+      "id": "word_change",
+      "kind": "word",
+      "texts": {
+        "en": "change",
+        "th": "เปลี่ยน",
+        "fa": "تغییر دادن",
+        "ar": "يغير",
+        "es": "cambiar",
+        "zh": "换 / 改变",
+        "ja": "変える"
+      }
+    },
+    {
+      "id": "word_help",
+      "kind": "word",
+      "texts": {
+        "en": "help",
+        "th": "ช่วย",
+        "fa": "کمک کردن",
+        "ar": "يساعد",
+        "es": "ayudar",
+        "zh": "帮助",
+        "ja": "手伝う / 助ける"
+      }
+    },
+    {
+      "id": "word_luggage",
+      "kind": "word",
+      "texts": {
+        "en": "luggage / bag",
+        "th": "กระเป๋า",
+        "fa": "چمدان / کیف",
+        "ar": "حقيبة / أمتعة",
+        "es": "equipaje / maleta",
+        "zh": "行李",
+        "ja": "荷物"
+      }
+    },
+    {
+      "id": "word_sorry",
+      "kind": "word",
+      "texts": {
+        "en": "sorry",
+        "th": "ขอโทษ",
+        "fa": "عذرخواهی / متأسفم",
+        "ar": "آسف / عذراً",
+        "es": "lo siento / perdón",
+        "zh": "抱歉",
+        "ja": "すみません / 申し訳ない"
+      }
+    },
+    {
+      "id": "word_problem",
+      "kind": "word",
+      "texts": {
+        "en": "problem",
+        "th": "ปัญหา",
+        "fa": "مشکل",
+        "ar": "مشكلة",
+        "es": "problema",
+        "zh": "问题",
+        "ja": "問題"
+      }
+    }
+  ]
+}

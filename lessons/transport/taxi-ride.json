@@ -1,0 +1,2824 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำหลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras básicas",
+        "zh": "核心词汇",
+        "ja": "コア単語"
+      }
+    },
+    {
+      "id": "word_taxi",
+      "kind": "word",
+      "texts": {
+        "en": "taxi",
+        "th": "แท็กซี่",
+        "fa": "تاکسی",
+        "ar": "سيارة أجرة",
+        "es": "taxi",
+        "zh": "出租车",
+        "ja": "タクシー"
+      }
+    },
+    {
+      "id": "word_meter",
+      "kind": "word",
+      "texts": {
+        "en": "meter",
+        "th": "มิเตอร์",
+        "fa": "متر",
+        "ar": "عداد",
+        "es": "taxímetro",
+        "zh": "计价器",
+        "ja": "メーター"
+      }
+    },
+    {
+      "id": "word_driver",
+      "kind": "word",
+      "texts": {
+        "en": "driver",
+        "th": "คนขับ",
+        "fa": "راننده",
+        "ar": "سائق",
+        "es": "conductor",
+        "zh": "司机",
+        "ja": "運転手"
+      }
+    },
+    {
+      "id": "word_be_at",
+      "kind": "word",
+      "texts": {
+        "en": "be at",
+        "th": "อยู่",
+        "fa": "بودن",
+        "ar": "يوجد",
+        "es": "estar",
+        "zh": "在",
+        "ja": "いる"
+      }
+    },
+    {
+      "id": "word_fare",
+      "kind": "word",
+      "texts": {
+        "en": "fare",
+        "th": "ค่ารถ",
+        "fa": "کرایه",
+        "ar": "أجرة",
+        "es": "tarifa",
+        "zh": "车费",
+        "ja": "運賃"
+      }
+    },
+    {
+      "id": "word_stop",
+      "kind": "word",
+      "texts": {
+        "en": "stop",
+        "th": "จอด",
+        "fa": "توقف کردن",
+        "ar": "يتوقف",
+        "es": "parar",
+        "zh": "停",
+        "ja": "止まる"
+      }
+    },
+    {
+      "id": "word_turn",
+      "kind": "word",
+      "texts": {
+        "en": "turn",
+        "th": "เลี้ยว",
+        "fa": "پیچیدن",
+        "ar": "ينعطف",
+        "es": "girar",
+        "zh": "转弯",
+        "ja": "曲がる"
+      }
+    },
+    {
+      "id": "word_straight",
+      "kind": "word",
+      "texts": {
+        "en": "straight",
+        "th": "ตรง",
+        "fa": "مستقیم",
+        "ar": "مباشرة",
+        "es": "recto",
+        "zh": "直",
+        "ja": "まっすぐ"
+      }
+    },
+    {
+      "id": "word_traffic",
+      "kind": "word",
+      "texts": {
+        "en": "traffic",
+        "th": "รถ",
+        "fa": "ترافیک",
+        "ar": "مرور",
+        "es": "tráfico",
+        "zh": "交通",
+        "ja": "交通"
+      }
+    },
+    {
+      "id": "word_tollway",
+      "kind": "word",
+      "texts": {
+        "en": "tollway",
+        "th": "ทางด่วน",
+        "fa": "بزرگراه",
+        "ar": "طريق سريع",
+        "es": "autopista",
+        "zh": "高速公路",
+        "ja": "高速道路"
+      }
+    },
+    {
+      "id": "word_here",
+      "kind": "word",
+      "texts": {
+        "en": "here",
+        "th": "ที่นี่",
+        "fa": "اینجا",
+        "ar": "هنا",
+        "es": "aquí",
+        "zh": "这里",
+        "ja": "ここ"
+      }
+    },
+    {
+      "id": "word_go",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "word_can",
+      "kind": "word",
+      "texts": {
+        "en": "can",
+        "th": "ได้",
+        "fa": "توانستن",
+        "ar": "يستطيع",
+        "es": "poder",
+        "zh": "可以",
+        "ja": "できる"
+      }
+    },
+    {
+      "id": "word_question",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_not",
+      "kind": "word",
+      "texts": {
+        "en": "not",
+        "th": "ไม่",
+        "fa": "نه",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不",
+        "ja": "ない"
+      }
+    },
+    {
+      "id": "word_very",
+      "kind": "word",
+      "texts": {
+        "en": "very",
+        "th": "มาก",
+        "fa": "خیلی",
+        "ar": "جداً",
+        "es": "muy",
+        "zh": "很",
+        "ja": "とても"
+      }
+    },
+    {
+      "id": "word_request",
+      "kind": "word",
+      "texts": {
+        "en": "request",
+        "th": "ขอ",
+        "fa": "درخواست کردن",
+        "ar": "يطلب",
+        "es": "pedir",
+        "zh": "请求",
+        "ja": "頼む"
+      }
+    },
+    {
+      "id": "word_I",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_at",
+      "kind": "word",
+      "texts": {
+        "en": "at",
+        "th": "ที่",
+        "fa": "در",
+        "ar": "في",
+        "es": "en",
+        "zh": "在",
+        "ja": "で"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "header_scenario_1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Hailing & Boarding",
+        "th": "สถานการณ์ 1: เรียกและขึ้นรถ",
+        "fa": "سناریوی ۱: گرفتن و سوار شدن",
+        "ar": "السيناريو ١: الاستدعاء والصعود",
+        "es": "Escenario 1: Parar y subir",
+        "zh": "场景一：招手与上车",
+        "ja": "シーン1：タクシーを拾う・乗車"
+      }
+    },
+    {
+      "id": "sentence_tr_s1_go_hotel",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_go",
+        "word_hotel"
+      ],
+      "texts": {
+        "en": "I want to go to the hotel",
+        "th": "ฉันไปโรงแรมค่ะ",
+        "fa": "من به هتل می‌روم",
+        "ar": "أنا ذاهب إلى الفندق",
+        "es": "Voy al hotel",
+        "zh": "我去酒店",
+        "ja": "ホテルに行きます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "want",
+          "to",
+          "go",
+          "to",
+          "the",
+          "hotel"
+        ],
+        "th": [
+          "ฉัน",
+          "ไป",
+          "โรงแรม",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "به",
+          "هتل",
+          "می‌روم"
+        ],
+        "ar": [
+          "أنا",
+          "ذاهب",
+          "إلى",
+          "الفندق"
+        ],
+        "es": [
+          "Voy",
+          "al",
+          "hotel"
+        ],
+        "zh": [
+          "我",
+          "去",
+          "酒店"
+        ],
+        "ja": [
+          "ホテル",
+          "に",
+          "行き",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s1_use_meter",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_use",
+        "word_meter"
+      ],
+      "texts": {
+        "en": "Please use the meter",
+        "th": "ช่วยกดมิเตอร์ด้วยค่ะ",
+        "fa": "لطفاً از متر استفاده کنید",
+        "ar": "يرجى استخدام العداد",
+        "es": "Por favor use el taxímetro",
+        "zh": "请按计价器",
+        "ja": "メーターを使てください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "use",
+          "the",
+          "meter"
+        ],
+        "th": [
+          "ช่วย",
+          "กด",
+          "มิเตอร์",
+          "ด้วย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفاً",
+          "از",
+          "متر",
+          "استفاده",
+          "کنید"
+        ],
+        "ar": [
+          "يرجى",
+          "استخدام",
+          "العداد"
+        ],
+        "es": [
+          "Por",
+          "favor",
+          "use",
+          "el",
+          "taxímetro"
+        ],
+        "zh": [
+          "请",
+          "按",
+          "计价器"
+        ],
+        "ja": [
+          "メーター",
+          "を",
+          "使って",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s1_use_meter_question",
+      "kind": "sentence",
+      "itemIds": [
+        "word_use",
+        "word_meter",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Will you use the meter",
+        "th": "กดมิเตอร์ไหมคะ",
+        "fa": "آیا از متر استفاده می‌کنید",
+        "ar": "هل ستستخدم العداد",
+        "es": "Usará el taxímetro",
+        "zh": "你用计价器吗",
+        "ja": "メーターを使いますか"
+      },
+      "tokens": {
+        "en": [
+          "Will",
+          "you",
+          "use",
+          "the",
+          "meter"
+        ],
+        "th": [
+          "กด",
+          "มิเตอร์",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "از",
+          "متر",
+          "استفاده",
+          "می‌کنید"
+        ],
+        "ar": [
+          "هل",
+          "ستستخدم",
+          "العداد"
+        ],
+        "es": [
+          "Usará",
+          "el",
+          "taxímetro"
+        ],
+        "zh": [
+          "你",
+          "用",
+          "计价器",
+          "吗"
+        ],
+        "ja": [
+          "メーター",
+          "を",
+          "使い",
+          "ます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s1_go_airport",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_go",
+        "word_airport"
+      ],
+      "texts": {
+        "en": "I am going to the airport",
+        "th": "ฉันจะไปสนามบินค่ะ",
+        "fa": "من به فرودگاه می‌روم",
+        "ar": "أنا ذاهب إلى المطار",
+        "es": "Voy al aeropuerto",
+        "zh": "我要去机场",
+        "ja": "空港に行きます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "am",
+          "going",
+          "to",
+          "the",
+          "airport"
+        ],
+        "th": [
+          "ฉัน",
+          "จะ",
+          "ไป",
+          "สนามบิน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "به",
+          "فرودگاه",
+          "می‌روم"
+        ],
+        "ar": [
+          "أنا",
+          "ذاهب",
+          "إلى",
+          "المطار"
+        ],
+        "es": [
+          "Voy",
+          "al",
+          "aeropuerto"
+        ],
+        "zh": [
+          "我",
+          "要",
+          "去",
+          "机场"
+        ],
+        "ja": [
+          "空港",
+          "に",
+          "行き",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s1_take_address",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_take",
+        "word_go",
+        "word_address"
+      ],
+      "texts": {
+        "en": "Please take me to the address",
+        "th": "ขอพาไปที่อยู่ค่ะ",
+        "fa": "لطفاً مرا به این آدرس ببرید",
+        "ar": "يرجى أخذي إلى العنوان",
+        "es": "Por favor lléveme a la dirección",
+        "zh": "请带我去这个地址",
+        "ja": "住所に連れて行ってください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "take",
+          "me",
+          "to",
+          "the",
+          "address"
+        ],
+        "th": [
+          "ขอ",
+          "พา",
+          "ไป",
+          "ที่อยู่",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفاً",
+          "مرا",
+          "به",
+          "این",
+          "آدرس",
+          "ببرید"
+        ],
+        "ar": [
+          "يرجى",
+          "أخذي",
+          "إلى",
+          "العنوان"
+        ],
+        "es": [
+          "Por",
+          "favor",
+          "lléveme",
+          "a",
+          "la",
+          "dirección"
+        ],
+        "zh": [
+          "请",
+          "带",
+          "我",
+          "去",
+          "这个",
+          "地址"
+        ],
+        "ja": [
+          "住所",
+          "に",
+          "連れて",
+          "行って",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s1_take_me",
+      "kind": "sentence",
+      "itemIds": [
+        "word_take",
+        "word_go",
+        "word_can",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Can you take me",
+        "th": "พาไปได้ไหมคะ",
+        "fa": "آیا می‌توانید مرا ببرید",
+        "ar": "هل يمكنك أخذي",
+        "es": "Puede llevarme",
+        "zh": "你可以带我去吗",
+        "ja": "連れて行ってくれますか"
+      },
+      "tokens": {
+        "en": [
+          "Can",
+          "you",
+          "take",
+          "me"
+        ],
+        "th": [
+          "พา",
+          "ไป",
+          "ได้",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "می‌توانید",
+          "مرا",
+          "ببرید"
+        ],
+        "ar": [
+          "هل",
+          "يمكنك",
+          "أخذي"
+        ],
+        "es": [
+          "Puede",
+          "llevarme"
+        ],
+        "zh": [
+          "你",
+          "可以",
+          "带",
+          "我",
+          "去",
+          "吗"
+        ],
+        "ja": [
+          "連れて",
+          "行って",
+          "くれます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s1_where_taxi",
+      "kind": "sentence",
+      "itemIds": [
+        "word_taxi",
+        "word_be_at",
+        "word_where"
+      ],
+      "texts": {
+        "en": "Where is the taxi",
+        "th": "แท็กซี่อยู่ที่ไหนคะ",
+        "fa": "تاکسی کجاست",
+        "ar": "أين سيارة الأجرة",
+        "es": "Dónde está el taxi",
+        "zh": "出租车在哪里",
+        "ja": "タクシーはどこですか"
+      },
+      "tokens": {
+        "en": [
+          "Where",
+          "is",
+          "the",
+          "taxi"
+        ],
+        "th": [
+          "แท็กซี่",
+          "อยู่",
+          "ที่",
+          "ไหน",
+          "คะ"
+        ],
+        "fa": [
+          "تاکسی",
+          "کجاست"
+        ],
+        "ar": [
+          "أين",
+          "سيارة",
+          "الأجرة"
+        ],
+        "es": [
+          "Dónde",
+          "está",
+          "el",
+          "taxi"
+        ],
+        "zh": [
+          "出租车",
+          "在",
+          "哪里"
+        ],
+        "ja": [
+          "タクシー",
+          "は",
+          "どこ",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "word_hotel",
+      "kind": "word",
+      "texts": {
+        "en": "hotel",
+        "th": "โรงแรม",
+        "fa": "هتل",
+        "ar": "فندق",
+        "es": "hotel",
+        "zh": "酒店",
+        "ja": "ホテル"
+      }
+    },
+    {
+      "id": "word_airport",
+      "kind": "word",
+      "texts": {
+        "en": "airport",
+        "th": "สนามบิน",
+        "fa": "فرودگاه",
+        "ar": "مطار",
+        "es": "aeropuerto",
+        "zh": "机场",
+        "ja": "空港"
+      }
+    },
+    {
+      "id": "word_use",
+      "kind": "word",
+      "texts": {
+        "en": "use",
+        "th": "กด",
+        "fa": "استفاده کردن",
+        "ar": "يستخدم",
+        "es": "usar",
+        "zh": "按",
+        "ja": "使う"
+      }
+    },
+    {
+      "id": "word_address",
+      "kind": "word",
+      "texts": {
+        "en": "address",
+        "th": "ที่อยู่",
+        "fa": "آدرس",
+        "ar": "عنوان",
+        "es": "dirección",
+        "zh": "地址",
+        "ja": "住所"
+      }
+    },
+    {
+      "id": "word_take",
+      "kind": "word",
+      "texts": {
+        "en": "take",
+        "th": "พา",
+        "fa": "بردن",
+        "ar": "يأخذ",
+        "es": "llevar",
+        "zh": "带",
+        "ja": "連れて行く"
+      }
+    },
+    {
+      "id": "word_where",
+      "kind": "word",
+      "texts": {
+        "en": "where",
+        "th": "ที่ไหน",
+        "fa": "کجا",
+        "ar": "أين",
+        "es": "dónde",
+        "zh": "哪里",
+        "ja": "どこ"
+      }
+    },
+    {
+      "id": "header_scenario_2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Navigating & Directions",
+        "th": "สถานการณ์ 2: การนำทางและเส้นทาง",
+        "fa": "سناریوی ۲: مسیریابی و جهت‌ها",
+        "ar": "السيناريو ٢: الملاحة والاتجاهات",
+        "es": "Escenario 2: Navegación y direcciones",
+        "zh": "场景二：导航与方向",
+        "ja": "シーン2：道順と案内"
+      }
+    },
+    {
+      "id": "sentence_tr_s2_turn_left_intersection",
+      "kind": "sentence",
+      "itemIds": [
+        "word_turn",
+        "word_left",
+        "word_at",
+        "word_intersection"
+      ],
+      "texts": {
+        "en": "Turn left at the intersection",
+        "th": "เลี้ยวซ้ายที่สี่แยกค่ะ",
+        "fa": "در چهارراه به چپ بپیچید",
+        "ar": "انعطف يساراً عند التقاطع",
+        "es": "Gire a la izquierda en la intersección",
+        "zh": "在十字路口左转",
+        "ja": "交差点を左に曲がってください"
+      },
+      "tokens": {
+        "en": [
+          "Turn",
+          "left",
+          "at",
+          "the",
+          "intersection"
+        ],
+        "th": [
+          "เลี้ยว",
+          "ซ้าย",
+          "ที่",
+          "สี่แยก",
+          "ค่ะ"
+        ],
+        "fa": [
+          "در",
+          "چهارراه",
+          "به",
+          "چپ",
+          "بپیچید"
+        ],
+        "ar": [
+          "انعطف",
+          "يساراً",
+          "عند",
+          "التقاطع"
+        ],
+        "es": [
+          "Gire",
+          "a",
+          "la",
+          "izquierda",
+          "en",
+          "la",
+          "intersección"
+        ],
+        "zh": [
+          "在",
+          "十字路口",
+          "左转"
+        ],
+        "ja": [
+          "交差点",
+          "を",
+          "左",
+          "に",
+          "曲がって",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s2_turn_right_light",
+      "kind": "sentence",
+      "itemIds": [
+        "word_turn",
+        "word_right",
+        "word_at",
+        "word_traffic_light"
+      ],
+      "texts": {
+        "en": "Turn right at the traffic light",
+        "th": "เลี้ยวขวาที่ไฟแดงค่ะ",
+        "fa": "در چراغ راهنمایی به راست بپیچید",
+        "ar": "انعطف يميناً عند إشارة المرور",
+        "es": "Gire a la derecha en el semáforo",
+        "zh": "在红绿灯处右转",
+        "ja": "信号機を右に曲がってください"
+      },
+      "tokens": {
+        "en": [
+          "Turn",
+          "right",
+          "at",
+          "the",
+          "traffic",
+          "light"
+        ],
+        "th": [
+          "เลี้ยว",
+          "ขวา",
+          "ที่",
+          "ไฟแดง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "در",
+          "چراغ",
+          "راهنمایی",
+          "به",
+          "راست",
+          "بپیچید"
+        ],
+        "ar": [
+          "انعطف",
+          "يميناً",
+          "عند",
+          "إشارة",
+          "المرور"
+        ],
+        "es": [
+          "Gire",
+          "a",
+          "la",
+          "derecha",
+          "en",
+          "el",
+          "semáforo"
+        ],
+        "zh": [
+          "在",
+          "红绿灯",
+          "处",
+          "右转"
+        ],
+        "ja": [
+          "信号機",
+          "を",
+          "右",
+          "に",
+          "曲がって",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s2_go_straight",
+      "kind": "sentence",
+      "itemIds": [
+        "word_straight",
+        "word_go"
+      ],
+      "texts": {
+        "en": "Go straight",
+        "th": "ตรงไปค่ะ",
+        "fa": "مستقیم بروید",
+        "ar": "اذهب مباشرة",
+        "es": "Siga recto",
+        "zh": "直走",
+        "ja": "まっすぐ行ってください"
+      },
+      "tokens": {
+        "en": [
+          "Go",
+          "straight"
+        ],
+        "th": [
+          "ตรง",
+          "ไป",
+          "ค่ะ"
+        ],
+        "fa": [
+          "مستقیم",
+          "بروید"
+        ],
+        "ar": [
+          "اذهب",
+          "مباشرة"
+        ],
+        "es": [
+          "Siga",
+          "recto"
+        ],
+        "zh": [
+          "直走"
+        ],
+        "ja": [
+          "まっすぐ",
+          "行って",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s2_turn_enter_soi",
+      "kind": "sentence",
+      "itemIds": [
+        "word_turn",
+        "word_enter",
+        "word_soi"
+      ],
+      "texts": {
+        "en": "Turn into the soi",
+        "th": "เลี้ยวเข้าซอยค่ะ",
+        "fa": "به داخل کوچه بپیچید",
+        "ar": "ادخل الزقاق",
+        "es": "Entre en el callejón",
+        "zh": "拐进巷子",
+        "ja": "路地に入ってください"
+      },
+      "tokens": {
+        "en": [
+          "Turn",
+          "into",
+          "the",
+          "soi"
+        ],
+        "th": [
+          "เลี้ยว",
+          "เข้า",
+          "ซอย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "به",
+          "داخل",
+          "کوچه",
+          "بپیچید"
+        ],
+        "ar": [
+          "ادخل",
+          "الزقاق"
+        ],
+        "es": [
+          "Entre",
+          "en",
+          "el",
+          "callejón"
+        ],
+        "zh": [
+          "拐进",
+          "巷子"
+        ],
+        "ja": [
+          "路地",
+          "に",
+          "入って",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s2_stop_here",
+      "kind": "sentence",
+      "itemIds": [
+        "word_stop",
+        "word_here"
+      ],
+      "texts": {
+        "en": "Please stop here",
+        "th": "จอดตรงนี้ด้วยค่ะ",
+        "fa": "لطفاً اینجا توقف کنید",
+        "ar": "توقف هنا من فضلك",
+        "es": "Pare aquí por favor",
+        "zh": "请停在这里",
+        "ja": "ここで止まってください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "stop",
+          "here"
+        ],
+        "th": [
+          "จอด",
+          "ตรง",
+          "นี้",
+          "ด้วย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفاً",
+          "اینجا",
+          "توقف",
+          "کنید"
+        ],
+        "ar": [
+          "توقف",
+          "هنا",
+          "من",
+          "فضلك"
+        ],
+        "es": [
+          "Pare",
+          "aquí",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "请",
+          "停",
+          "在",
+          "这里"
+        ],
+        "ja": [
+          "ここ",
+          "で",
+          "止まって",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s2_stop_at_light",
+      "kind": "sentence",
+      "itemIds": [
+        "word_stop",
+        "word_at",
+        "word_traffic_light"
+      ],
+      "texts": {
+        "en": "Stop at the traffic light",
+        "th": "จอดที่ไฟแดงค่ะ",
+        "fa": "در چراغ راهنمایی توقف کنید",
+        "ar": "توقف عند إشارة المرور",
+        "es": "Pare en el semáforo",
+        "zh": "在红绿灯处停车",
+        "ja": "信号機で止まってください"
+      },
+      "tokens": {
+        "en": [
+          "Stop",
+          "at",
+          "the",
+          "traffic",
+          "light"
+        ],
+        "th": [
+          "จอด",
+          "ที่",
+          "ไฟแดง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "در",
+          "چراغ",
+          "راهنمایی",
+          "توقف",
+          "کنید"
+        ],
+        "ar": [
+          "توقف",
+          "عند",
+          "إشارة",
+          "المرور"
+        ],
+        "es": [
+          "Pare",
+          "en",
+          "el",
+          "semáforo"
+        ],
+        "zh": [
+          "在",
+          "红绿灯",
+          "处",
+          "停车"
+        ],
+        "ja": [
+          "信号機",
+          "で",
+          "止まって",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s2_turn_left_soi",
+      "kind": "sentence",
+      "itemIds": [
+        "word_turn",
+        "word_left",
+        "word_at",
+        "word_soi"
+      ],
+      "texts": {
+        "en": "Turn left at the soi",
+        "th": "เลี้ยวซ้ายที่ซอยค่ะ",
+        "fa": "در کوچه به چپ بپیچید",
+        "ar": "انعطف يساراً عند الزقاق",
+        "es": "Gire a la izquierda en el callejón",
+        "zh": "在巷子处左转",
+        "ja": "路地を左に曲がってください"
+      },
+      "tokens": {
+        "en": [
+          "Turn",
+          "left",
+          "at",
+          "the",
+          "soi"
+        ],
+        "th": [
+          "เลี้ยว",
+          "ซ้าย",
+          "ที่",
+          "ซอย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "در",
+          "کوچه",
+          "به",
+          "چپ",
+          "بپیچید"
+        ],
+        "ar": [
+          "انعطف",
+          "يساراً",
+          "عند",
+          "الزقاق"
+        ],
+        "es": [
+          "Gire",
+          "a",
+          "la",
+          "izquierda",
+          "en",
+          "el",
+          "callejón"
+        ],
+        "zh": [
+          "在",
+          "巷子",
+          "处",
+          "左转"
+        ],
+        "ja": [
+          "路地",
+          "を",
+          "左",
+          "に",
+          "曲がって",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "word_left",
+      "kind": "word",
+      "texts": {
+        "en": "left",
+        "th": "ซ้าย",
+        "fa": "چپ",
+        "ar": "يسار",
+        "es": "izquierda",
+        "zh": "左",
+        "ja": "左"
+      }
+    },
+    {
+      "id": "word_right",
+      "kind": "word",
+      "texts": {
+        "en": "right",
+        "th": "ขวา",
+        "fa": "راست",
+        "ar": "يمين",
+        "es": "derecha",
+        "zh": "右",
+        "ja": "右"
+      }
+    },
+    {
+      "id": "word_intersection",
+      "kind": "word",
+      "texts": {
+        "en": "intersection",
+        "th": "สี่แยก",
+        "fa": "چهارراه",
+        "ar": "تقاطع",
+        "es": "intersección",
+        "zh": "十字路口",
+        "ja": "交差点"
+      }
+    },
+    {
+      "id": "word_traffic_light",
+      "kind": "word",
+      "texts": {
+        "en": "traffic light",
+        "th": "ไฟแดง",
+        "fa": "چراغ راهنمایی",
+        "ar": "إشارة مرور",
+        "es": "semáforo",
+        "zh": "红绿灯",
+        "ja": "信号機"
+      }
+    },
+    {
+      "id": "word_soi",
+      "kind": "word",
+      "texts": {
+        "en": "soi",
+        "th": "ซอย",
+        "fa": "کوچه",
+        "ar": "زقاق",
+        "es": "callejón",
+        "zh": "巷子",
+        "ja": "路地"
+      }
+    },
+    {
+      "id": "word_enter",
+      "kind": "word",
+      "texts": {
+        "en": "enter",
+        "th": "เข้า",
+        "fa": "وارد شدن",
+        "ar": "يدخل",
+        "es": "entrar",
+        "zh": "进",
+        "ja": "入る"
+      }
+    },
+    {
+      "id": "header_scenario_3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Traffic & Routes",
+        "th": "สถานการณ์ 3: การจราจรและเส้นทาง",
+        "fa": "سناریوی ۳: ترافیک و مسیرها",
+        "ar": "السيناريو ٣: حركة المرور والمسارات",
+        "es": "Escenario 3: Tráfico y rutas",
+        "zh": "场景三：交通与路线",
+        "ja": "シーン3：交通とルート"
+      }
+    },
+    {
+      "id": "sentence_tr_s3_traffic_bad",
+      "kind": "sentence",
+      "itemIds": [
+        "word_traffic_jam",
+        "word_very"
+      ],
+      "texts": {
+        "en": "The traffic is very bad",
+        "th": "รถติดมากค่ะ",
+        "fa": "ترافیک خیلی سنگین است",
+        "ar": "الازدحام المروري سيء جداً",
+        "es": "El tráfico está muy mal",
+        "zh": "非常堵车",
+        "ja": "とても渋滞しています"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "traffic",
+          "is",
+          "very",
+          "bad"
+        ],
+        "th": [
+          "รถติด",
+          "มาก",
+          "ค่ะ"
+        ],
+        "fa": [
+          "ترافیک",
+          "خیلی",
+          "سنگین",
+          "است"
+        ],
+        "ar": [
+          "الازدحام",
+          "المروري",
+          "سيء",
+          "جداً"
+        ],
+        "es": [
+          "El",
+          "tráfico",
+          "está",
+          "muy",
+          "mal"
+        ],
+        "zh": [
+          "非常",
+          "堵车"
+        ],
+        "ja": [
+          "とても",
+          "渋滞",
+          "して",
+          "います"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s3_take_tollway",
+      "kind": "sentence",
+      "itemIds": [
+        "word_take_route",
+        "word_tollway"
+      ],
+      "texts": {
+        "en": "Let's take the tollway",
+        "th": "ใช้ทางด่วนค่ะ",
+        "fa": "از بزرگراه استفاده کنیم",
+        "ar": "لنأخذ الطريق السريع",
+        "es": "Tomemos la autopista",
+        "zh": "我们走高速公路吧",
+        "ja": "高速道路を使いましょう"
+      },
+      "tokens": {
+        "en": [
+          "Let's",
+          "take",
+          "the",
+          "tollway"
+        ],
+        "th": [
+          "ใช้",
+          "ทางด่วน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "از",
+          "بزرگراه",
+          "استفاده",
+          "کنیم"
+        ],
+        "ar": [
+          "لنأخذ",
+          "الطريق",
+          "السريع"
+        ],
+        "es": [
+          "Tomemos",
+          "la",
+          "autopista"
+        ],
+        "zh": [
+          "我们",
+          "走",
+          "高速公路",
+          "吧"
+        ],
+        "ja": [
+          "高速道路",
+          "を",
+          "使い",
+          "ましょう"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s3_how_long",
+      "kind": "sentence",
+      "itemIds": [
+        "word_take_route",
+        "word_long_time",
+        "word_question"
+      ],
+      "texts": {
+        "en": "How long will it take",
+        "th": "ใช้นานไหมคะ",
+        "fa": "چقدر طول می‌کشد",
+        "ar": "كم سيستغرق من الوقت",
+        "es": "Cuánto tiempo tomará",
+        "zh": "需要多长时间",
+        "ja": "どのくらいかかりますか"
+      },
+      "tokens": {
+        "en": [
+          "How",
+          "long",
+          "will",
+          "it",
+          "take"
+        ],
+        "th": [
+          "ใช้",
+          "นาน",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "چقدر",
+          "طول",
+          "می‌کشد"
+        ],
+        "ar": [
+          "كم",
+          "سيستغرق",
+          "من",
+          "الوقت"
+        ],
+        "es": [
+          "Cuánto",
+          "tiempo",
+          "tomará"
+        ],
+        "zh": [
+          "需要",
+          "多",
+          "长时间"
+        ],
+        "ja": [
+          "どの",
+          "くらい",
+          "かかり",
+          "ます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s3_takes_long",
+      "kind": "sentence",
+      "itemIds": [
+        "word_take_route",
+        "word_long_time"
+      ],
+      "texts": {
+        "en": "It takes a long time",
+        "th": "ใช้นานค่ะ",
+        "fa": "طول می‌کشد",
+        "ar": "يستغرق وقتاً طويلاً",
+        "es": "Toma mucho tiempo",
+        "zh": "需要很久",
+        "ja": "時間がかかります"
+      },
+      "tokens": {
+        "en": [
+          "It",
+          "takes",
+          "a",
+          "long",
+          "time"
+        ],
+        "th": [
+          "ใช้",
+          "นาน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "طول",
+          "می‌کشد"
+        ],
+        "ar": [
+          "يستغرق",
+          "وقتاً",
+          "طويلاً"
+        ],
+        "es": [
+          "Toma",
+          "mucho",
+          "tiempo"
+        ],
+        "zh": [
+          "需要",
+          "很久"
+        ],
+        "ja": [
+          "時間",
+          "が",
+          "かかり",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s3_traffic_jam_question",
+      "kind": "sentence",
+      "itemIds": [
+        "word_traffic_jam",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Is the traffic jammed",
+        "th": "รถติดไหมคะ",
+        "fa": "آیا ترافیک سنگین است",
+        "ar": "هل يوجد ازدحام مروري",
+        "es": "Hay atasco",
+        "zh": "堵车吗",
+        "ja": "渋滞していますか"
+      },
+      "tokens": {
+        "en": [
+          "Is",
+          "the",
+          "traffic",
+          "jammed"
+        ],
+        "th": [
+          "รถติด",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "ترافیک",
+          "سنگین",
+          "است"
+        ],
+        "ar": [
+          "هل",
+          "يوجد",
+          "ازدحام",
+          "مروري"
+        ],
+        "es": [
+          "Hay",
+          "atasco"
+        ],
+        "zh": [
+          "堵车",
+          "吗"
+        ],
+        "ja": [
+          "渋滞",
+          "して",
+          "います",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s3_drive_fast",
+      "kind": "sentence",
+      "itemIds": [
+        "word_drive",
+        "word_fast"
+      ],
+      "texts": {
+        "en": "Please drive fast",
+        "th": "ขับเร็วหน่อยค่ะ",
+        "fa": "لطفاً سریع برانید",
+        "ar": "قد بسرعة من فضلك",
+        "es": "Conduzca rápido por favor",
+        "zh": "请开快点",
+        "ja": "速く運転してください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "drive",
+          "fast"
+        ],
+        "th": [
+          "ขับ",
+          "เร็ว",
+          "หน่อย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفاً",
+          "سریع",
+          "برانید"
+        ],
+        "ar": [
+          "قد",
+          "بسرعة",
+          "من",
+          "فضلك"
+        ],
+        "es": [
+          "Conduzca",
+          "rápido",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "请",
+          "开",
+          "快点"
+        ],
+        "ja": [
+          "速く",
+          "運転",
+          "して",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s3_drive_slow",
+      "kind": "sentence",
+      "itemIds": [
+        "word_drive",
+        "word_slow"
+      ],
+      "texts": {
+        "en": "Please drive slow",
+        "th": "ขับช้าหน่อยค่ะ",
+        "fa": "لطفاً آهسته برانید",
+        "ar": "قد ببطء من فضلك",
+        "es": "Conduzca despacio por favor",
+        "zh": "请开慢点",
+        "ja": "ゆっくり運転してください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "drive",
+          "slow"
+        ],
+        "th": [
+          "ขับ",
+          "ช้า",
+          "หน่อย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفاً",
+          "آهسته",
+          "برانید"
+        ],
+        "ar": [
+          "قد",
+          "ببطء",
+          "من",
+          "فضلك"
+        ],
+        "es": [
+          "Conduzca",
+          "despacio",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "请",
+          "开",
+          "慢点"
+        ],
+        "ja": [
+          "ゆっくり",
+          "運転",
+          "して",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "word_traffic_jam",
+      "kind": "word",
+      "texts": {
+        "en": "traffic jam",
+        "th": "รถติด",
+        "fa": "ترافیک",
+        "ar": "ازدحام مروري",
+        "es": "atasco",
+        "zh": "堵车",
+        "ja": "渋滞"
+      }
+    },
+    {
+      "id": "word_take_route",
+      "kind": "word",
+      "texts": {
+        "en": "take route",
+        "th": "ใช้",
+        "fa": "استفاده کردن",
+        "ar": "يأخذ",
+        "es": "tomar",
+        "zh": "走",
+        "ja": "使う"
+      }
+    },
+    {
+      "id": "word_long_time",
+      "kind": "word",
+      "texts": {
+        "en": "long time",
+        "th": "นาน",
+        "fa": "طولانی",
+        "ar": "وقت طويل",
+        "es": "mucho tiempo",
+        "zh": "久",
+        "ja": "長い時間"
+      }
+    },
+    {
+      "id": "word_fast",
+      "kind": "word",
+      "texts": {
+        "en": "fast",
+        "th": "เร็ว",
+        "fa": "سریع",
+        "ar": "سريع",
+        "es": "rápido",
+        "zh": "快",
+        "ja": "速い"
+      }
+    },
+    {
+      "id": "word_drive",
+      "kind": "word",
+      "texts": {
+        "en": "drive",
+        "th": "ขับ",
+        "fa": "رانندگی کردن",
+        "ar": "يقود",
+        "es": "conducir",
+        "zh": "开",
+        "ja": "運転する"
+      }
+    },
+    {
+      "id": "word_slow",
+      "kind": "word",
+      "texts": {
+        "en": "slow",
+        "th": "ช้า",
+        "fa": "آهسته",
+        "ar": "بطيء",
+        "es": "lento",
+        "zh": "慢",
+        "ja": "遅い"
+      }
+    },
+    {
+      "id": "header_scenario_4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Paying the Fare",
+        "th": "สถานการณ์ 4: การจ่ายค่ารถ",
+        "fa": "سناریوی ۴: پرداخت کرایه",
+        "ar": "السيناريو ٤: دفع الأجرة",
+        "es": "Escenario 4: Pagar la tarifa",
+        "zh": "场景四：支付车费",
+        "ja": "シーン4：運賃の支払い"
+      }
+    },
+    {
+      "id": "sentence_tr_s4_fare_how_much",
+      "kind": "sentence",
+      "itemIds": [
+        "word_fare",
+        "word_how_much"
+      ],
+      "texts": {
+        "en": "How much is the fare",
+        "th": "ค่ารถเท่าไหร่คะ",
+        "fa": "کرایه چقدر است",
+        "ar": "كم الأجرة",
+        "es": "Cuánto es la tarifa",
+        "zh": "车费多少",
+        "ja": "運賃はいくらですか"
+      },
+      "tokens": {
+        "en": [
+          "How",
+          "much",
+          "is",
+          "the",
+          "fare"
+        ],
+        "th": [
+          "ค่ารถ",
+          "เท่าไหร่",
+          "คะ"
+        ],
+        "fa": [
+          "کرایه",
+          "چقدر",
+          "است"
+        ],
+        "ar": [
+          "كم",
+          "الأجرة"
+        ],
+        "es": [
+          "Cuánto",
+          "es",
+          "la",
+          "tarifa"
+        ],
+        "zh": [
+          "车费",
+          "多少"
+        ],
+        "ja": [
+          "運賃",
+          "は",
+          "いくら",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s4_total_how_much",
+      "kind": "sentence",
+      "itemIds": [
+        "word_total",
+        "word_how_much"
+      ],
+      "texts": {
+        "en": "How much is the total",
+        "th": "ทั้งหมดเท่าไหร่คะ",
+        "fa": "مجموع چقدر است",
+        "ar": "كم المجموع",
+        "es": "Cuánto es el total",
+        "zh": "总共多少",
+        "ja": "合計はいくらですか"
+      },
+      "tokens": {
+        "en": [
+          "How",
+          "much",
+          "is",
+          "the",
+          "total"
+        ],
+        "th": [
+          "ทั้งหมด",
+          "เท่าไหร่",
+          "คะ"
+        ],
+        "fa": [
+          "مجموع",
+          "چقدر",
+          "است"
+        ],
+        "ar": [
+          "كم",
+          "المجموع"
+        ],
+        "es": [
+          "Cuánto",
+          "es",
+          "el",
+          "total"
+        ],
+        "zh": [
+          "总共",
+          "多少"
+        ],
+        "ja": [
+          "合計",
+          "は",
+          "いくら",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s4_want_pay",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_pay"
+      ],
+      "texts": {
+        "en": "I want to pay",
+        "th": "ขอจ่ายค่ะ",
+        "fa": "می‌خواهم پرداخت کنم",
+        "ar": "أريد أن أدفع",
+        "es": "Quiero pagar",
+        "zh": "我要付款",
+        "ja": "支払いたいです"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "want",
+          "to",
+          "pay"
+        ],
+        "th": [
+          "ขอ",
+          "จ่าย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "می‌خواهم",
+          "پرداخت",
+          "کنم"
+        ],
+        "ar": [
+          "أريد",
+          "أن",
+          "أدفع"
+        ],
+        "es": [
+          "Quiero",
+          "pagar"
+        ],
+        "zh": [
+          "我",
+          "要",
+          "付款"
+        ],
+        "ja": [
+          "支払い",
+          "たい",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s4_keep_change",
+      "kind": "sentence",
+      "itemIds": [
+        "word_not",
+        "word_request",
+        "word_change"
+      ],
+      "texts": {
+        "en": "Keep the change",
+        "th": "ไม่ต้องทอนค่ะ",
+        "fa": "پول خرد را نگه دارید",
+        "ar": "احتفظ بالباقي",
+        "es": "Quédese con el cambio",
+        "zh": "不用找零了",
+        "ja": "お釣りはいりません"
+      },
+      "tokens": {
+        "en": [
+          "Keep",
+          "the",
+          "change"
+        ],
+        "th": [
+          "ไม่",
+          "ต้อง",
+          "ทอน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "پول",
+          "خرد",
+          "را",
+          "نگه",
+          "دارید"
+        ],
+        "ar": [
+          "احتفظ",
+          "بالباقي"
+        ],
+        "es": [
+          "Quédese",
+          "con",
+          "el",
+          "cambio"
+        ],
+        "zh": [
+          "不用",
+          "找零",
+          "了"
+        ],
+        "ja": [
+          "お釣り",
+          "は",
+          "いりません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s4_have_change",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_change",
+        "word_can",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Can you give change",
+        "th": "ขอทอนได้ไหมคะ",
+        "fa": "آیا می‌توانید پول خرد بدهید",
+        "ar": "هل يمكنك إعطاء الباقي",
+        "es": "Puede dar cambio",
+        "zh": "可以找零吗",
+        "ja": "お釣りをもらえますか"
+      },
+      "tokens": {
+        "en": [
+          "Can",
+          "you",
+          "give",
+          "change"
+        ],
+        "th": [
+          "ขอ",
+          "ทอน",
+          "ได้",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "می‌توانید",
+          "پول",
+          "خرد",
+          "بدهید"
+        ],
+        "ar": [
+          "هل",
+          "يمكنك",
+          "إعطاء",
+          "الباقي"
+        ],
+        "es": [
+          "Puede",
+          "dar",
+          "cambio"
+        ],
+        "zh": [
+          "可以",
+          "找零",
+          "吗"
+        ],
+        "ja": [
+          "お釣り",
+          "を",
+          "もらえます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s4_give_receipt",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_receipt"
+      ],
+      "texts": {
+        "en": "Please give me a receipt",
+        "th": "ขอใบเสร็จด้วยค่ะ",
+        "fa": "لطفاً رسید بدهید",
+        "ar": "أعطني إيصالاً من فضلك",
+        "es": "Dame un recibo por favor",
+        "zh": "请给我收据",
+        "ja": "レシートをください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "give",
+          "me",
+          "a",
+          "receipt"
+        ],
+        "th": [
+          "ขอ",
+          "ใบเสร็จ",
+          "ด้วย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفاً",
+          "رسید",
+          "بدهید"
+        ],
+        "ar": [
+          "أعطني",
+          "إيصالاً",
+          "من",
+          "فضلك"
+        ],
+        "es": [
+          "Dame",
+          "un",
+          "recibo",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "请",
+          "给",
+          "我",
+          "收据"
+        ],
+        "ja": [
+          "レシート",
+          "を",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s4_fare_expensive",
+      "kind": "sentence",
+      "itemIds": [
+        "word_fare",
+        "word_expensive"
+      ],
+      "texts": {
+        "en": "The fare is expensive",
+        "th": "ค่ารถแพงค่ะ",
+        "fa": "کرایه گران است",
+        "ar": "الأجرة غالية",
+        "es": "La tarifa es cara",
+        "zh": "车费很贵",
+        "ja": "運賃が高いです"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "fare",
+          "is",
+          "expensive"
+        ],
+        "th": [
+          "ค่ารถ",
+          "แพง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "کرایه",
+          "گران",
+          "است"
+        ],
+        "ar": [
+          "الأجرة",
+          "غالية"
+        ],
+        "es": [
+          "La",
+          "tarifa",
+          "es",
+          "cara"
+        ],
+        "zh": [
+          "车费",
+          "很",
+          "贵"
+        ],
+        "ja": [
+          "運賃",
+          "が",
+          "高い",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "word_how_much",
+      "kind": "word",
+      "texts": {
+        "en": "how much",
+        "th": "เท่าไหร่",
+        "fa": "چقدر",
+        "ar": "كم",
+        "es": "cuánto",
+        "zh": "多少",
+        "ja": "いくら"
+      }
+    },
+    {
+      "id": "word_total",
+      "kind": "word",
+      "texts": {
+        "en": "total",
+        "th": "ทั้งหมด",
+        "fa": "مجموع",
+        "ar": "المجموع",
+        "es": "total",
+        "zh": "总共",
+        "ja": "合計"
+      }
+    },
+    {
+      "id": "word_change",
+      "kind": "word",
+      "texts": {
+        "en": "change",
+        "th": "ทอน",
+        "fa": "پول خرد",
+        "ar": "باقي",
+        "es": "cambio",
+        "zh": "找零",
+        "ja": "お釣り"
+      }
+    },
+    {
+      "id": "word_receipt",
+      "kind": "word",
+      "texts": {
+        "en": "receipt",
+        "th": "ใบเสร็จ",
+        "fa": "رسید",
+        "ar": "إيصال",
+        "es": "recibo",
+        "zh": "收据",
+        "ja": "レシート"
+      }
+    },
+    {
+      "id": "word_pay",
+      "kind": "word",
+      "texts": {
+        "en": "pay",
+        "th": "จ่าย",
+        "fa": "پرداخت کردن",
+        "ar": "يدفع",
+        "es": "pagar",
+        "zh": "支付",
+        "ja": "支払う"
+      }
+    },
+    {
+      "id": "word_expensive",
+      "kind": "word",
+      "texts": {
+        "en": "expensive",
+        "th": "แพง",
+        "fa": "گران",
+        "ar": "غالي",
+        "es": "caro",
+        "zh": "贵",
+        "ja": "高い"
+      }
+    },
+    {
+      "id": "header_scenario_5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Wrapping Up",
+        "th": "สถานการณ์ 5: สรุป",
+        "fa": "سناریوی ۵: جمع‌بندی",
+        "ar": "السيناريو ٥: الختام",
+        "es": "Escenario 5: Cierre",
+        "zh": "场景五：结束",
+        "ja": "シーン5：締めくくり"
+      }
+    },
+    {
+      "id": "sentence_tr_s5_thank_very",
+      "kind": "sentence",
+      "itemIds": [
+        "word_thank",
+        "word_very"
+      ],
+      "texts": {
+        "en": "Thank you very much",
+        "th": "ขอบคุณมากค่ะ",
+        "fa": "خیلی متشکرم",
+        "ar": "شكراً جزيلاً",
+        "es": "Muchas gracias",
+        "zh": "非常感谢",
+        "ja": "どうもありがとうございます"
+      },
+      "tokens": {
+        "en": [
+          "Thank",
+          "you",
+          "very",
+          "much"
+        ],
+        "th": [
+          "ขอบคุณ",
+          "มาก",
+          "ค่ะ"
+        ],
+        "fa": [
+          "خیلی",
+          "متشکرم"
+        ],
+        "ar": [
+          "شكراً",
+          "جزيلاً"
+        ],
+        "es": [
+          "Muchas",
+          "gracias"
+        ],
+        "zh": [
+          "非常",
+          "感谢"
+        ],
+        "ja": [
+          "どうも",
+          "ありがとう",
+          "ございます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s5_forget_bag",
+      "kind": "sentence",
+      "itemIds": [
+        "word_forget",
+        "word_bag"
+      ],
+      "texts": {
+        "en": "You forgot your bag",
+        "th": "ลืมกระเป๋าค่ะ",
+        "fa": "کیف خود را فراموش کردید",
+        "ar": "لقد نسيت حقيبتك",
+        "es": "Olvidó su bolso",
+        "zh": "你忘了你的包",
+        "ja": "鞄を忘れましたよ"
+      },
+      "tokens": {
+        "en": [
+          "You",
+          "forgot",
+          "your",
+          "bag"
+        ],
+        "th": [
+          "ลืม",
+          "กระเป๋า",
+          "ค่ะ"
+        ],
+        "fa": [
+          "کیف",
+          "خود",
+          "را",
+          "فراموش",
+          "کردید"
+        ],
+        "ar": [
+          "لقد",
+          "نسيت",
+          "حقيبتك"
+        ],
+        "es": [
+          "Olvidó",
+          "su",
+          "bolso"
+        ],
+        "zh": [
+          "你",
+          "忘",
+          "了",
+          "你",
+          "的",
+          "包"
+        ],
+        "ja": [
+          "鞄",
+          "を",
+          "忘れ",
+          "ました",
+          "よ"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s5_good_day",
+      "kind": "sentence",
+      "itemIds": [
+        "word_good"
+      ],
+      "texts": {
+        "en": "Have a good day",
+        "th": "ขอให้เป็นวันที่ดีค่ะ",
+        "fa": "روز خوبی داشته باشید",
+        "ar": "أتمنى لك يوماً سعيداً",
+        "es": "Que tenga un buen día",
+        "zh": "祝你有美好的一天",
+        "ja": "良い一日を"
+      },
+      "tokens": {
+        "en": [
+          "Have",
+          "a",
+          "good",
+          "day"
+        ],
+        "th": [
+          "ขอ",
+          "ให้",
+          "เป็น",
+          "วัน",
+          "ที่",
+          "ดี",
+          "ค่ะ"
+        ],
+        "fa": [
+          "روز",
+          "خوبی",
+          "داشته",
+          "باشید"
+        ],
+        "ar": [
+          "أتمنى",
+          "لك",
+          "يوماً",
+          "سعيداً"
+        ],
+        "es": [
+          "Que",
+          "tenga",
+          "un",
+          "buen",
+          "día"
+        ],
+        "zh": [
+          "祝",
+          "你",
+          "有",
+          "美好",
+          "的",
+          "一天"
+        ],
+        "ja": [
+          "良い",
+          "一日",
+          "を"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s5_goodbye",
+      "kind": "sentence",
+      "itemIds": [
+        "word_goodbye"
+      ],
+      "texts": {
+        "en": "Goodbye",
+        "th": "สวัสดีค่ะ",
+        "fa": "خداحافظ",
+        "ar": "مع السلامة",
+        "es": "Adiós",
+        "zh": "再见",
+        "ja": "さようなら"
+      },
+      "tokens": {
+        "en": [
+          "Goodbye"
+        ],
+        "th": [
+          "สวัสดี",
+          "ค่ะ"
+        ],
+        "fa": [
+          "خداحافظ"
+        ],
+        "ar": [
+          "مع",
+          "السلامة"
+        ],
+        "es": [
+          "Adiós"
+        ],
+        "zh": [
+          "再见"
+        ],
+        "ja": [
+          "さようなら"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s5_be_careful",
+      "kind": "sentence",
+      "itemIds": [
+        "word_careful"
+      ],
+      "texts": {
+        "en": "Please be careful",
+        "th": "ระวังด้วยค่ะ",
+        "fa": "لطفاً مراقب باشید",
+        "ar": "يرجى الحذر",
+        "es": "Tenga cuidado por favor",
+        "zh": "请小心",
+        "ja": "気をつけてください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "be",
+          "careful"
+        ],
+        "th": [
+          "ระวัง",
+          "ด้วย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفاً",
+          "مراقب",
+          "باشید"
+        ],
+        "ar": [
+          "يرجى",
+          "الحذر"
+        ],
+        "es": [
+          "Tenga",
+          "cuidado",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "请",
+          "小心"
+        ],
+        "ja": [
+          "気をつけて",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s5_thank_driver",
+      "kind": "sentence",
+      "itemIds": [
+        "word_thank",
+        "word_driver"
+      ],
+      "texts": {
+        "en": "Thank you driver",
+        "th": "ขอบคุณคนขับค่ะ",
+        "fa": "ممنون راننده",
+        "ar": "شكراً أيها السائق",
+        "es": "Gracias conductor",
+        "zh": "谢谢司机",
+        "ja": "運転手さんありがとう"
+      },
+      "tokens": {
+        "en": [
+          "Thank",
+          "you",
+          "driver"
+        ],
+        "th": [
+          "ขอบคุณ",
+          "คนขับ",
+          "ค่ะ"
+        ],
+        "fa": [
+          "ممنون",
+          "راننده"
+        ],
+        "ar": [
+          "شكراً",
+          "أيها",
+          "السائق"
+        ],
+        "es": [
+          "Gracias",
+          "conductor"
+        ],
+        "zh": [
+          "谢谢",
+          "司机"
+        ],
+        "ja": [
+          "運転手",
+          "さん",
+          "ありがとう"
+        ]
+      }
+    },
+    {
+      "id": "sentence_tr_s5_driver_good",
+      "kind": "sentence",
+      "itemIds": [
+        "word_driver",
+        "word_good",
+        "word_very"
+      ],
+      "texts": {
+        "en": "The driver is very good",
+        "th": "คนขับดีมากค่ะ",
+        "fa": "راننده خیلی خوب است",
+        "ar": "السائق جيد جداً",
+        "es": "El conductor es muy bueno",
+        "zh": "司机非常好",
+        "ja": "運転手はとても良いです"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "driver",
+          "is",
+          "very",
+          "good"
+        ],
+        "th": [
+          "คนขับ",
+          "ดี",
+          "มาก",
+          "ค่ะ"
+        ],
+        "fa": [
+          "راننده",
+          "خیلی",
+          "خوب",
+          "است"
+        ],
+        "ar": [
+          "السائق",
+          "جيد",
+          "جداً"
+        ],
+        "es": [
+          "El",
+          "conductor",
+          "es",
+          "muy",
+          "bueno"
+        ],
+        "zh": [
+          "司机",
+          "非常",
+          "好"
+        ],
+        "ja": [
+          "運転手",
+          "は",
+          "とても",
+          "良い",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "word_thank",
+      "kind": "word",
+      "texts": {
+        "en": "thank",
+        "th": "ขอบคุณ",
+        "fa": "تشکر",
+        "ar": "شكر",
+        "es": "gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
+      }
+    },
+    {
+      "id": "word_forget",
+      "kind": "word",
+      "texts": {
+        "en": "forget",
+        "th": "ลืม",
+        "fa": "فراموش کردن",
+        "ar": "ينسى",
+        "es": "olvidar",
+        "zh": "忘记",
+        "ja": "忘れる"
+      }
+    },
+    {
+      "id": "word_bag",
+      "kind": "word",
+      "texts": {
+        "en": "bag",
+        "th": "กระเป๋า",
+        "fa": "کیف",
+        "ar": "حقيبة",
+        "es": "bolso",
+        "zh": "包",
+        "ja": "鞄"
+      }
+    },
+    {
+      "id": "word_goodbye",
+      "kind": "word",
+      "texts": {
+        "en": "goodbye",
+        "th": "สวัสดี",
+        "fa": "خداحافظ",
+        "ar": "مع السلامة",
+        "es": "adiós",
+        "zh": "再见",
+        "ja": "さようなら"
+      }
+    },
+    {
+      "id": "word_careful",
+      "kind": "word",
+      "texts": {
+        "en": "careful",
+        "th": "ระวัง",
+        "fa": "مراقب",
+        "ar": "حذر",
+        "es": "cuidado",
+        "zh": "小心",
+        "ja": "気をつける"
+      }
+    },
+    {
+      "id": "word_good",
+      "kind": "word",
+      "texts": {
+        "en": "good",
+        "th": "ดี",
+        "fa": "خوب",
+        "ar": "جيد",
+        "es": "bueno",
+        "zh": "好",
+        "ja": "良い"
+      }
+    }
+  ]
+}

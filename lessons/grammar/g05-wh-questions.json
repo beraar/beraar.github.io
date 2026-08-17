@@ -1,0 +1,375 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_this",
+      "kind": "word",
+      "texts": {
+        "en": "this",
+        "th": "นี่",
+        "fa": "این",
+        "ar": "هذا",
+        "es": "esto",
+        "zh": "这",
+        "ja": "これ"
+      }
+    },
+    {
+      "id": "sentence_g5_what_this",
+      "kind": "sentence",
+      "itemIds": [
+        "word_this",
+        "word_is",
+        "word_what"
+      ],
+      "texts": {
+        "en": "What is this",
+        "th": "นี่คืออะไร",
+        "fa": "این چیست",
+        "ar": "ما هذا",
+        "es": "Qué es esto",
+        "zh": "这是什么",
+        "ja": "これは何ですか"
+      },
+      "tokens": {
+        "en": [
+          "What",
+          "is",
+          "this"
+        ],
+        "th": [
+          "นี่",
+          "คือ",
+          "อะไร"
+        ],
+        "fa": [
+          "این",
+          "چیست"
+        ],
+        "ar": [
+          "ما",
+          "هذا"
+        ],
+        "es": [
+          "Qué",
+          "es",
+          "esto"
+        ],
+        "zh": [
+          "这",
+          "是",
+          "什么"
+        ],
+        "ja": [
+          "これ",
+          "は",
+          "何",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g5_where_go",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_go",
+        "word_where"
+      ],
+      "texts": {
+        "en": "Where are you going",
+        "th": "คุณไปที่ไหน",
+        "fa": "شما کجا می‌روید",
+        "ar": "إلى أين تذهب",
+        "es": "A dónde vas",
+        "zh": "你去哪里",
+        "ja": "どこへ行きますか"
+      },
+      "tokens": {
+        "en": [
+          "Where",
+          "are",
+          "you",
+          "going"
+        ],
+        "th": [
+          "คุณ",
+          "ไป",
+          "ที่ไหน"
+        ],
+        "fa": [
+          "شما",
+          "کجا",
+          "می‌روید"
+        ],
+        "ar": [
+          "إلى",
+          "أين",
+          "تذهب"
+        ],
+        "es": [
+          "A",
+          "dónde",
+          "vas"
+        ],
+        "zh": [
+          "你",
+          "去",
+          "哪里"
+        ],
+        "ja": [
+          "どこ",
+          "へ",
+          "行き",
+          "ます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g5_who_he",
+      "kind": "sentence",
+      "itemIds": [
+        "word_he",
+        "word_is",
+        "word_who"
+      ],
+      "texts": {
+        "en": "Who is he",
+        "th": "เขาคือใคร",
+        "fa": "او کیست",
+        "ar": "من هو",
+        "es": "Quién es él",
+        "zh": "他是谁",
+        "ja": "彼は誰ですか"
+      },
+      "tokens": {
+        "en": [
+          "Who",
+          "is",
+          "he"
+        ],
+        "th": [
+          "เขา",
+          "คือ",
+          "ใคร"
+        ],
+        "fa": [
+          "او",
+          "کیست"
+        ],
+        "ar": [
+          "من",
+          "هو"
+        ],
+        "es": [
+          "Quién",
+          "es",
+          "él"
+        ],
+        "zh": [
+          "他",
+          "是",
+          "谁"
+        ],
+        "ja": [
+          "彼",
+          "は",
+          "誰",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g5_when_come",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_will",
+        "word_come",
+        "word_when"
+      ],
+      "texts": {
+        "en": "When will you come",
+        "th": "คุณจะมาเมื่อไหร่",
+        "fa": "شما چه زمانی خواهید آمد",
+        "ar": "متى ستأتي",
+        "es": "Cuándo vendrás",
+        "zh": "你什么时候来",
+        "ja": "いつ来ますか"
+      },
+      "tokens": {
+        "en": [
+          "When",
+          "will",
+          "you",
+          "come"
+        ],
+        "th": [
+          "คุณ",
+          "จะ",
+          "มา",
+          "เมื่อไหร่"
+        ],
+        "fa": [
+          "شما",
+          "چه",
+          "زمانی",
+          "خواهید",
+          "آمد"
+        ],
+        "ar": [
+          "متى",
+          "ستأتي"
+        ],
+        "es": [
+          "Cuándo",
+          "vendrás"
+        ],
+        "zh": [
+          "你",
+          "什么时候",
+          "来"
+        ],
+        "ja": [
+          "いつ",
+          "来",
+          "ます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "word_is",
+      "kind": "word",
+      "texts": {
+        "en": "is",
+        "th": "คือ",
+        "fa": "است",
+        "ar": "هو",
+        "es": "es",
+        "zh": "是",
+        "ja": "です"
+      }
+    },
+    {
+      "id": "word_what",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه",
+        "ar": "ماذا",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_go",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "word_where",
+      "kind": "word",
+      "texts": {
+        "en": "where",
+        "th": "ที่ไหน",
+        "fa": "کجا",
+        "ar": "أين",
+        "es": "dónde",
+        "zh": "哪里",
+        "ja": "どこ"
+      }
+    },
+    {
+      "id": "word_he",
+      "kind": "word",
+      "texts": {
+        "en": "he",
+        "th": "เขา",
+        "fa": "او",
+        "ar": "هو",
+        "es": "él",
+        "zh": "他",
+        "ja": "彼"
+      }
+    },
+    {
+      "id": "word_who",
+      "kind": "word",
+      "texts": {
+        "en": "who",
+        "th": "ใคร",
+        "fa": "چه کسی",
+        "ar": "من",
+        "es": "quién",
+        "zh": "谁",
+        "ja": "誰"
+      }
+    },
+    {
+      "id": "word_will",
+      "kind": "word",
+      "texts": {
+        "en": "will",
+        "th": "จะ",
+        "fa": "خواه",
+        "ar": "سوف",
+        "es": "futuro",
+        "zh": "将",
+        "ja": "でしょう"
+      }
+    },
+    {
+      "id": "word_come",
+      "kind": "word",
+      "texts": {
+        "en": "come",
+        "th": "มา",
+        "fa": "آمدن",
+        "ar": "يأتي",
+        "es": "venir",
+        "zh": "来",
+        "ja": "来る"
+      }
+    },
+    {
+      "id": "word_when",
+      "kind": "word",
+      "texts": {
+        "en": "when",
+        "th": "เมื่อไหร่",
+        "fa": "چه زمانی",
+        "ar": "متى",
+        "es": "cuándo",
+        "zh": "什么时候",
+        "ja": "いつ"
+      }
+    }
+  ]
+}

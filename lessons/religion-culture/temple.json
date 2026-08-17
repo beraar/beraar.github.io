@@ -1,0 +1,1718 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras clave",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_we",
+      "kind": "word",
+      "texts": {
+        "en": "we",
+        "th": "เรา",
+        "fa": "ما",
+        "ar": "نحن",
+        "es": "nosotros",
+        "zh": "我们",
+        "ja": "私たち"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú / usted",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_he",
+      "kind": "word",
+      "texts": {
+        "en": "he / she",
+        "th": "เขา",
+        "fa": "او",
+        "ar": "هو / هي",
+        "es": "él / ella",
+        "zh": "他 / 她",
+        "ja": "彼 / 彼女"
+      }
+    },
+    {
+      "id": "word_go",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "word_come",
+      "kind": "word",
+      "texts": {
+        "en": "come",
+        "th": "มา",
+        "fa": "آمدن",
+        "ar": "يأتي",
+        "es": "venir",
+        "zh": "来",
+        "ja": "来る"
+      }
+    },
+    {
+      "id": "word_to_be_at",
+      "kind": "word",
+      "texts": {
+        "en": "to be at / located",
+        "th": "อยู่",
+        "fa": "بودن (در)",
+        "ar": "يوجد في",
+        "es": "estar (en)",
+        "zh": "在",
+        "ja": "ある / いる"
+      }
+    },
+    {
+      "id": "word_walk",
+      "kind": "word",
+      "texts": {
+        "en": "walk",
+        "th": "เดิน",
+        "fa": "راه رفتن",
+        "ar": "يمشي",
+        "es": "caminar",
+        "zh": "步行",
+        "ja": "歩く"
+      }
+    },
+    {
+      "id": "word_sit",
+      "kind": "word",
+      "texts": {
+        "en": "sit",
+        "th": "นั่ง",
+        "fa": "نشستن",
+        "ar": "يجلس",
+        "es": "sentarse",
+        "zh": "坐",
+        "ja": "座る"
+      }
+    },
+    {
+      "id": "word_must",
+      "kind": "word",
+      "texts": {
+        "en": "must",
+        "th": "ต้อง",
+        "fa": "باید",
+        "ar": "يجب",
+        "es": "deber",
+        "zh": "必须",
+        "ja": "なければならない"
+      }
+    },
+    {
+      "id": "word_should",
+      "kind": "word",
+      "texts": {
+        "en": "should",
+        "th": "ควร",
+        "fa": "بهتر است",
+        "ar": "ينبغي",
+        "es": "debería",
+        "zh": "应该",
+        "ja": "〜べきだ"
+      }
+    },
+    {
+      "id": "word_want",
+      "kind": "word",
+      "texts": {
+        "en": "want",
+        "th": "ต้องการ",
+        "fa": "خواستن",
+        "ar": "يريد",
+        "es": "querer",
+        "zh": "想要",
+        "ja": "欲しい"
+      }
+    },
+    {
+      "id": "word_what",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه / چی",
+        "ar": "ماذا",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_where",
+      "kind": "word",
+      "texts": {
+        "en": "where",
+        "th": "ที่ไหน",
+        "fa": "کجا",
+        "ar": "أين",
+        "es": "dónde",
+        "zh": "哪里",
+        "ja": "どこ"
+      }
+    },
+    {
+      "id": "word_when",
+      "kind": "word",
+      "texts": {
+        "en": "when",
+        "th": "เมื่อไหร่",
+        "fa": "کِی / چه زمانی",
+        "ar": "متى",
+        "es": "cuándo",
+        "zh": "什么时候",
+        "ja": "いつ"
+      }
+    },
+    {
+      "id": "word_why",
+      "kind": "word",
+      "texts": {
+        "en": "why",
+        "th": "ทำไม",
+        "fa": "چرا",
+        "ar": "لماذا",
+        "es": "por qué",
+        "zh": "为什么",
+        "ja": "なぜ"
+      }
+    },
+    {
+      "id": "word_how",
+      "kind": "word",
+      "texts": {
+        "en": "how",
+        "th": "อย่างไร",
+        "fa": "چگونه / چطور",
+        "ar": "كيف",
+        "es": "cómo",
+        "zh": "怎么",
+        "ja": "どのように"
+      }
+    },
+    {
+      "id": "word_who",
+      "kind": "word",
+      "texts": {
+        "en": "who",
+        "th": "ใคร",
+        "fa": "چه کسی",
+        "ar": "مَن",
+        "es": "quién",
+        "zh": "谁",
+        "ja": "誰"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Making Merit at the Temple",
+        "th": "สถานการณ์ 1: การทำบุญที่วัด",
+        "fa": "سناریو ۱: کسب ثواب در معبد",
+        "ar": "السيناريو 1: كسب الأجر في المعبد",
+        "es": "Escenario 1: Hacer méritos en el templo",
+        "zh": "场景一：在寺庙做功德",
+        "ja": "シナリオ1：寺院で功徳を積む"
+      }
+    },
+    {
+      "id": "sentence_temple_go_make_merit",
+      "kind": "sentence",
+      "itemIds": ["word_we", "word_go", "word_temple", "word_make_merit"],
+      "texts": {
+        "en": "We go to the temple to make merit",
+        "th": "เราไปวัดเพื่อทำบุญ",
+        "fa": "ما برای کسب ثواب به معبد می‌رویم",
+        "ar": "نذهب إلى المعبد لكسب الأجر",
+        "es": "Vamos al templo para hacer méritos",
+        "zh": "我们去寺庙做功德",
+        "ja": "私たちは功徳を積むために寺院に行きます"
+      },
+      "tokens": {
+        "en": ["We", "go", "to", "the", "temple", "to", "make", "merit"],
+        "th": ["เรา", "ไป", "วัด", "เพื่อ", "ทำบุญ"],
+        "fa": ["ما", "برای", "کسب", "ثواب", "به", "معبد", "می‌رویم"],
+        "ar": ["نذهب", "إلى", "المعبد", "لكسب", "الأجر"],
+        "es": ["Vamos", "al", "templo", "para", "hacer", "méritos"],
+        "zh": ["我们", "去", "寺庙", "做", "功德"],
+        "ja": [
+          "私たち",
+          "は",
+          "功徳",
+          "を",
+          "積む",
+          "ために",
+          "寺院",
+          "に",
+          "行き",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_merit_often",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_go", "word_make_merit", "word_often"],
+      "texts": {
+        "en": "I go to make merit often",
+        "th": "ฉันไปทำบุญบ่อย ๆ",
+        "fa": "من اغلب برای کسب ثواب می‌روم",
+        "ar": "أذهب كثيراً لكسب الأجر",
+        "es": "Voy a hacer méritos a menudo",
+        "zh": "我经常去做功德",
+        "ja": "私はよく功徳を積みに行きます"
+      },
+      "tokens": {
+        "en": ["I", "go", "to", "make", "merit", "often"],
+        "th": ["ฉัน", "ไป", "ทำบุญ", "บ่อย ๆ"],
+        "fa": ["من", "اغلب", "برای", "کسب", "ثواب", "می‌روم"],
+        "ar": ["أذهب", "كثيراً", "لكسب", "الأجر"],
+        "es": ["Voy", "a", "hacer", "méritos", "a", "menudo"],
+        "zh": ["我", "经常", "去", "做", "功德"],
+        "ja": ["私", "は", "よく", "功徳", "を", "積み", "に", "行き", "ます"]
+      }
+    },
+    {
+      "id": "sentence_merit_monks_chant",
+      "kind": "sentence",
+      "itemIds": ["word_monk", "word_sit", "word_chant", "word_morning"],
+      "texts": {
+        "en": "The monks sit chanting in the morning",
+        "th": "พระสงฆ์นั่งสวดมนต์ตอนเช้า",
+        "fa": "راهبان صبح می‌نشینند و ذکر می‌گویند",
+        "ar": "يجلس الرهبان ويتلون الصلوات صباحاً",
+        "es": "Los monjes se sientan a recitar plegarias por la mañana",
+        "zh": "僧侣们早上打坐诵经",
+        "ja": "僧侶は朝、座って読経します"
+      },
+      "tokens": {
+        "en": ["The", "monks", "sit", "chanting", "in", "the", "morning"],
+        "th": ["พระสงฆ์", "นั่ง", "สวดมนต์", "ตอนเช้า"],
+        "fa": ["راهبان", "صبح", "می‌نشینند", "و", "ذکر", "می‌گویند"],
+        "ar": ["يجلس", "الرهبان", "ويتلون", "الصلوات", "صباحاً"],
+        "es": [
+          "Los",
+          "monjes",
+          "se",
+          "sientan",
+          "a",
+          "recitar",
+          "plegarias",
+          "por",
+          "la",
+          "mañana"
+        ],
+        "zh": ["僧侣", "们", "早上", "打坐", "诵经"],
+        "ja": ["僧侶", "は", "朝", "座って", "読経", "し", "ます"]
+      }
+    },
+    {
+      "id": "sentence_merit_come_alms",
+      "kind": "sentence",
+      "itemIds": ["word_we", "word_come", "word_give_alms"],
+      "texts": {
+        "en": "We come to give alms",
+        "th": "พวกเรามาตักบาตร",
+        "fa": "ما برای تقدیم غذا می‌آییم",
+        "ar": "نأتي لتقديم الصدقة",
+        "es": "Venimos a ofrecer limosnas",
+        "zh": "我们来布施",
+        "ja": "私たちは托鉢供養に来ます"
+      },
+      "tokens": {
+        "en": ["We", "come", "to", "give", "alms"],
+        "th": ["พวกเรา", "มา", "ตักบาตร"],
+        "fa": ["ما", "برای", "تقدیم", "غذا", "می‌آییم"],
+        "ar": ["نأتي", "لتقديم", "الصدقة"],
+        "es": ["Venimos", "a", "ofrecer", "limosnas"],
+        "zh": ["我们", "来", "布施"],
+        "ja": ["私たち", "は", "托鉢", "供養", "に", "来", "ます"]
+      }
+    },
+    {
+      "id": "sentence_merit_offer_food",
+      "kind": "sentence",
+      "itemIds": ["word_people", "word_offer", "word_food", "word_monk"],
+      "texts": {
+        "en": "People offer food to the monks",
+        "th": "ผู้คนถวายอาหารให้พระสงฆ์",
+        "fa": "مردم غذا به راهبان تقدیم می‌کنند",
+        "ar": "يقدم الناس الطعام للرهبان",
+        "es": "La gente ofrece comida a los monjes",
+        "zh": "人们向僧侣供奉食物",
+        "ja": "人々は僧侶に食べ物を供えます"
+      },
+      "tokens": {
+        "en": ["People", "offer", "food", "to", "the", "monks"],
+        "th": ["ผู้คน", "ถวาย", "อาหาร", "ให้", "พระสงฆ์"],
+        "fa": ["مردم", "غذا", "به", "راهبان", "تقدیم", "می‌کنند"],
+        "ar": ["يقدم", "الناس", "الطعام", "للرهبان"],
+        "es": ["La", "gente", "ofrece", "comida", "a", "los", "monjes"],
+        "zh": ["人们", "向", "僧侣", "供奉", "食物"],
+        "ja": ["人々", "は", "僧侶", "に", "食べ物", "を", "供え", "ます"]
+      }
+    },
+    {
+      "id": "word_temple",
+      "kind": "word",
+      "texts": {
+        "en": "temple",
+        "th": "วัด",
+        "fa": "معبد",
+        "ar": "معبد",
+        "es": "templo",
+        "zh": "寺庙",
+        "ja": "寺院"
+      }
+    },
+    {
+      "id": "word_make_merit",
+      "kind": "word",
+      "texts": {
+        "en": "make merit",
+        "th": "ทำบุญ",
+        "fa": "ثواب کردن",
+        "ar": "كسب الأجر",
+        "es": "hacer méritos",
+        "zh": "做功德",
+        "ja": "功徳を積む"
+      }
+    },
+    {
+      "id": "word_monk",
+      "kind": "word",
+      "texts": {
+        "en": "monk",
+        "th": "พระสงฆ์",
+        "fa": "راهب",
+        "ar": "راهب",
+        "es": "monje",
+        "zh": "僧侣",
+        "ja": "僧侶"
+      }
+    },
+    {
+      "id": "word_chant",
+      "kind": "word",
+      "texts": {
+        "en": "chant / pray",
+        "th": "สวดมนต์",
+        "fa": "ذکر گفتن",
+        "ar": "يتلو الصلوات",
+        "es": "recitar plegarias",
+        "zh": "诵经",
+        "ja": "読経する"
+      }
+    },
+    {
+      "id": "word_give_alms",
+      "kind": "word",
+      "texts": {
+        "en": "give alms",
+        "th": "ตักบาตร",
+        "fa": "صدقه دادن",
+        "ar": "يقدم الصدقة",
+        "es": "ofrecer limosnas",
+        "zh": "布施",
+        "ja": "托鉢供養をする"
+      }
+    },
+    {
+      "id": "word_food",
+      "kind": "word",
+      "texts": {
+        "en": "food",
+        "th": "อาหาร",
+        "fa": "غذا",
+        "ar": "طعام",
+        "es": "comida",
+        "zh": "食物",
+        "ja": "食べ物"
+      }
+    },
+    {
+      "id": "word_morning",
+      "kind": "word",
+      "texts": {
+        "en": "morning",
+        "th": "ตอนเช้า",
+        "fa": "صبح",
+        "ar": "صباحاً",
+        "es": "por la mañana",
+        "zh": "早上",
+        "ja": "朝"
+      }
+    },
+    {
+      "id": "word_often",
+      "kind": "word",
+      "texts": {
+        "en": "often",
+        "th": "บ่อย ๆ",
+        "fa": "اغلب",
+        "ar": "غالباً / كثيراً",
+        "es": "a menudo",
+        "zh": "经常",
+        "ja": "よく"
+      }
+    },
+    {
+      "id": "word_people",
+      "kind": "word",
+      "texts": {
+        "en": "people",
+        "th": "ผู้คน",
+        "fa": "مردم",
+        "ar": "الناس",
+        "es": "la gente",
+        "zh": "人们",
+        "ja": "人々"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Paying Respect & Offerings",
+        "th": "สถานการณ์ 2: การเคารพและเครื่องสักการะ",
+        "fa": "سناریو ۲: ادای احترام و پیشکش‌ها",
+        "ar": "السيناريو 2: إبداء الاحترام والقرابين",
+        "es": "Escenario 2: Respeto y ofrendas",
+        "zh": "场景二：礼拜与供奉",
+        "ja": "シナリオ2：礼拝と供物"
+      }
+    },
+    {
+      "id": "sentence_temple_wai_monk",
+      "kind": "sentence",
+      "itemIds": ["word_wai", "word_monk"],
+      "texts": {
+        "en": "Please wai to the monk",
+        "th": "กรุณาไหว้พระสงฆ์",
+        "fa": "لطفا به راهب تعظیم کنید",
+        "ar": "من فضلك، أَدِّ تحية الواي للراهب",
+        "es": "Por favor haz el wai al monje",
+        "zh": "请向僧侣行合十礼",
+        "ja": "僧侶にワイをしてください"
+      },
+      "tokens": {
+        "en": ["Please", "wai", "to", "the", "monk"],
+        "th": ["กรุณา", "ไหว้", "พระสงฆ์"],
+        "fa": ["لطفا", "به", "راهب", "تعظیم", "کنید"],
+        "ar": ["من", "فضلك،", "أَدِّ", "تحية", "الواي", "للراهب"],
+        "es": ["Por", "favor", "haz", "el", "wai", "al", "monje"],
+        "zh": ["请", "向", "僧侣", "行", "合十礼"],
+        "ja": ["僧侶", "に", "ワイ", "を", "して", "ください"]
+      }
+    },
+    {
+      "id": "sentence_temple_offer",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_offer",
+        "word_incense",
+        "word_candle",
+        "word_flower"
+      ],
+      "texts": {
+        "en": "I offer incense, candles, and flowers",
+        "th": "ฉันถวายธูป เทียน และดอกไม้",
+        "fa": "من عود، شمع و گل تقدیم می‌کنم",
+        "ar": "أنا أقدم البخور والشموع والزهور",
+        "es": "Ofrezco incienso, velas y flores",
+        "zh": "我供奉香、蜡烛和花",
+        "ja": "私は線香、ろうそく、花を供えます"
+      },
+      "tokens": {
+        "en": ["I", "offer", "incense,", "candles,", "and", "flowers"],
+        "th": ["ฉัน", "ถวาย", "ธูป", "เทียน", "และ", "ดอกไม้"],
+        "fa": ["من", "عود،", "شمع", "و", "گل", "تقدیم", "می‌کنم"],
+        "ar": ["أنا", "أقدم", "البخور", "والشموع", "والزهور"],
+        "es": ["Ofrezco", "incienso,", "velas", "y", "flores"],
+        "zh": ["我", "供奉", "香", "蜡烛", "和", "花"],
+        "ja": ["私", "は", "線香", "ろうそく", "花", "を", "供え", "ます"]
+      }
+    },
+    {
+      "id": "sentence_offering_go_pray",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_go", "word_wai", "word_buddha_image"],
+      "texts": {
+        "en": "I go to pay respect to the Buddha image",
+        "th": "ฉันไปไหว้พระพุทธรูป",
+        "fa": "من برای تعظیم به تندیس بودا می‌روم",
+        "ar": "أذهب لتحية تمثال بوذا",
+        "es": "Voy a rendir respeto a la imagen de Buda",
+        "zh": "我去拜佛像",
+        "ja": "私は仏像を参拝しに行きます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "go",
+          "to",
+          "pay",
+          "respect",
+          "to",
+          "the",
+          "Buddha",
+          "image"
+        ],
+        "th": ["ฉัน", "ไป", "ไหว้", "พระพุทธรูป"],
+        "fa": ["من", "برای", "تعظیم", "به", "تندیس", "بودا", "می‌روم"],
+        "ar": ["أذهب", "لتحية", "تمثال", "بوذا"],
+        "es": [
+          "Voy",
+          "a",
+          "rendir",
+          "respeto",
+          "a",
+          "la",
+          "imagen",
+          "de",
+          "Buda"
+        ],
+        "zh": ["我", "去", "拜", "佛像"],
+        "ja": ["私", "は", "仏像", "を", "参拝", "し", "に", "行き", "ます"]
+      }
+    },
+    {
+      "id": "sentence_offering_bow",
+      "kind": "sentence",
+      "itemIds": ["word_we", "word_bow", "word_buddha_image"],
+      "texts": {
+        "en": "We bow to the Buddha image",
+        "th": "เรากราบพระพุทธรูป",
+        "fa": "ما به تندیس بودا سجده می‌بریم",
+        "ar": "نسجد لتمثال بوذا",
+        "es": "Nos postramos ante la imagen de Buda",
+        "zh": "我们向佛像叩拜",
+        "ja": "私たちは仏像に五体投地します"
+      },
+      "tokens": {
+        "en": ["We", "bow", "to", "the", "Buddha", "image"],
+        "th": ["เรา", "กราบ", "พระพุทธรูป"],
+        "fa": ["ما", "به", "تندیس", "بودا", "سجده", "می‌بریم"],
+        "ar": ["نسجد", "لتمثال", "بوذا"],
+        "es": ["Nos", "postramos", "ante", "la", "imagen", "de", "Buda"],
+        "zh": ["我们", "向", "佛像", "叩拜"],
+        "ja": ["私たち", "は", "仏像", "に", "五体投地", "し", "ます"]
+      }
+    },
+    {
+      "id": "sentence_offering_light",
+      "kind": "sentence",
+      "itemIds": ["word_he", "word_light", "word_incense", "word_candle"],
+      "texts": {
+        "en": "She lights the incense and candles",
+        "th": "เธอจุดธูปและเทียน",
+        "fa": "او عود و شمع‌ها را روشن می‌کند",
+        "ar": "هي تشعل البخور والشموع",
+        "es": "Ella enciende el incienso y las velas",
+        "zh": "她点燃香和蜡烛",
+        "ja": "彼女は線香とろうそくに火をつけます"
+      },
+      "tokens": {
+        "en": ["She", "lights", "the", "incense", "and", "candles"],
+        "th": ["เธอ", "จุด", "ธูป", "และ", "เทียน"],
+        "fa": ["او", "عود", "و", "شمع‌ها", "را", "روشن", "می‌کند"],
+        "ar": ["هي", "تشعل", "البخور", "والشموع"],
+        "es": ["Ella", "enciende", "el", "incienso", "y", "las", "velas"],
+        "zh": ["她", "点燃", "香", "和", "蜡烛"],
+        "ja": [
+          "彼女",
+          "は",
+          "線香",
+          "と",
+          "ろうそく",
+          "に",
+          "火",
+          "を",
+          "つけ",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_offering_water",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_offer", "word_water", "word_monk"],
+      "texts": {
+        "en": "I offer water to the monk",
+        "th": "ฉันถวายน้ำให้พระสงฆ์",
+        "fa": "من آب به راهب تقدیم می‌کنم",
+        "ar": "أقدم الماء للراهب",
+        "es": "Ofrezco agua al monje",
+        "zh": "我向僧侣供奉水",
+        "ja": "私は僧侶に水を供えます"
+      },
+      "tokens": {
+        "en": ["I", "offer", "water", "to", "the", "monk"],
+        "th": ["ฉัน", "ถวาย", "น้ำ", "ให้", "พระสงฆ์"],
+        "fa": ["من", "آب", "به", "راهب", "تقدیم", "می‌کنم"],
+        "ar": ["أقدم", "الماء", "للراهب"],
+        "es": ["Ofrezco", "agua", "al", "monje"],
+        "zh": ["我", "向", "僧侣", "供奉", "水"],
+        "ja": ["私", "は", "僧侶", "に", "水", "を", "供え", "ます"]
+      }
+    },
+    {
+      "id": "word_wai",
+      "kind": "word",
+      "texts": {
+        "en": "wai (Thai greeting)",
+        "th": "ไหว้",
+        "fa": "وای (تعظیم)",
+        "ar": "واي (تحيّة)",
+        "es": "wai",
+        "zh": "合十礼",
+        "ja": "ワイ"
+      }
+    },
+    {
+      "id": "word_offer",
+      "kind": "word",
+      "texts": {
+        "en": "offer",
+        "th": "ถวาย",
+        "fa": "تقدیم کردن",
+        "ar": "يقدم",
+        "es": "ofrecer",
+        "zh": "供奉",
+        "ja": "供える"
+      }
+    },
+    {
+      "id": "word_incense",
+      "kind": "word",
+      "texts": {
+        "en": "incense",
+        "th": "ธูป",
+        "fa": "عود",
+        "ar": "بخور",
+        "es": "incienso",
+        "zh": "香",
+        "ja": "線香"
+      }
+    },
+    {
+      "id": "word_candle",
+      "kind": "word",
+      "texts": {
+        "en": "candle",
+        "th": "เทียน",
+        "fa": "شمع",
+        "ar": "شمعة",
+        "es": "vela",
+        "zh": "蜡烛",
+        "ja": "ろうそく"
+      }
+    },
+    {
+      "id": "word_flower",
+      "kind": "word",
+      "texts": {
+        "en": "flower",
+        "th": "ดอกไม้",
+        "fa": "گل",
+        "ar": "زهرة",
+        "es": "flor",
+        "zh": "花",
+        "ja": "花"
+      }
+    },
+    {
+      "id": "word_buddha_image",
+      "kind": "word",
+      "texts": {
+        "en": "Buddha image",
+        "th": "พระพุทธรูป",
+        "fa": "تندیس بودا",
+        "ar": "تمثال بوذا",
+        "es": "imagen de Buda",
+        "zh": "佛像",
+        "ja": "仏像"
+      }
+    },
+    {
+      "id": "word_bow",
+      "kind": "word",
+      "texts": {
+        "en": "bow / prostrate",
+        "th": "กราบ",
+        "fa": "سجده بردن",
+        "ar": "يسجد",
+        "es": "postrarse",
+        "zh": "叩拜",
+        "ja": "五体投地する"
+      }
+    },
+    {
+      "id": "word_light",
+      "kind": "word",
+      "texts": {
+        "en": "light (incense / candle)",
+        "th": "จุด",
+        "fa": "روشن کردن",
+        "ar": "يشعل",
+        "es": "encender",
+        "zh": "点燃",
+        "ja": "火をつける"
+      }
+    },
+    {
+      "id": "word_water",
+      "kind": "word",
+      "texts": {
+        "en": "water",
+        "th": "น้ำ",
+        "fa": "آب",
+        "ar": "ماء",
+        "es": "agua",
+        "zh": "水",
+        "ja": "水"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Temple Etiquette & Rules",
+        "th": "สถานการณ์ 3: มารยาทและกฎของวัด",
+        "fa": "سناریو ۳: آداب و قوانین معبد",
+        "ar": "السيناريو 3: آداب وقواعد المعبد",
+        "es": "Escenario 3: Etiqueta y normas del templo",
+        "zh": "场景三：寺庙礼仪与规矩",
+        "ja": "シナリオ3：寺院のマナーと規則"
+      }
+    },
+    {
+      "id": "sentence_temple_quiet_respect",
+      "kind": "sentence",
+      "itemIds": ["word_we", "word_must", "word_quiet", "word_respect"],
+      "texts": {
+        "en": "We must be quiet and show respect",
+        "th": "เราต้องเงียบและแสดงความเคารพ",
+        "fa": "ما باید ساکت باشیم و احترام بگذاریم",
+        "ar": "يجب أن نكون هادئين ونظهر الاحترام",
+        "es": "Debemos estar tranquilos y mostrar respeto",
+        "zh": "我们必须保持安静并表达尊重",
+        "ja": "私たちは静かにし、尊敬を示さなければなりません"
+      },
+      "tokens": {
+        "en": ["We", "must", "be", "quiet", "and", "show", "respect"],
+        "th": ["เรา", "ต้อง", "เงียบ", "และ", "แสดง", "ความเคารพ"],
+        "fa": ["ما", "باید", "ساکت", "باشیم", "و", "احترام", "بگذاریم"],
+        "ar": ["يجب", "أن", "نكون", "هادئين", "ونظهر", "الاحترام"],
+        "es": ["Debemos", "estar", "tranquilos", "y", "mostrar", "respeto"],
+        "zh": ["我们", "必须", "保持", "安静", "并", "表达", "尊重"],
+        "ja": [
+          "私たち",
+          "は",
+          "静か",
+          "に",
+          "し",
+          "尊敬",
+          "を",
+          "示さ",
+          "なければ",
+          "なりません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiquette_shoes",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_must",
+        "word_remove",
+        "word_shoes",
+        "word_before",
+        "word_chapel"
+      ],
+      "texts": {
+        "en": "You must remove your shoes before entering the chapel",
+        "th": "คุณต้องถอดรองเท้าก่อนเข้าโบสถ์",
+        "fa": "باید قبل از ورود به نمازخانه کفش‌ها را درآورید",
+        "ar": "يجب خلع الحذاء قبل دخول قاعة الصلاة",
+        "es": "Debes quitarte los zapatos antes de entrar a la sala",
+        "zh": "进入佛殿前必须脱鞋",
+        "ja": "本堂に入る前に靴を脱がなければなりません"
+      },
+      "tokens": {
+        "en": [
+          "You",
+          "must",
+          "remove",
+          "your",
+          "shoes",
+          "before",
+          "entering",
+          "the",
+          "chapel"
+        ],
+        "th": ["คุณ", "ต้อง", "ถอด", "รองเท้า", "ก่อน", "เข้า", "โบสถ์"],
+        "fa": [
+          "باید",
+          "قبل",
+          "از",
+          "ورود",
+          "به",
+          "نمازخانه",
+          "کفش‌ها",
+          "را",
+          "درآورید"
+        ],
+        "ar": ["يجب", "خلع", "الحذاء", "قبل", "دخول", "قاعة", "الصلاة"],
+        "es": [
+          "Debes",
+          "quitarte",
+          "los",
+          "zapatos",
+          "antes",
+          "de",
+          "entrar",
+          "a",
+          "la",
+          "sala"
+        ],
+        "zh": ["进入", "佛殿", "前", "必须", "脱", "鞋"],
+        "ja": [
+          "本堂",
+          "に",
+          "入る",
+          "前に",
+          "靴",
+          "を",
+          "脱が",
+          "なければ",
+          "なり",
+          "ません"
+        ]
+      }
+    },
+    {
+      "id": "sentence_etiquette_feet",
+      "kind": "sentence",
+      "itemIds": ["word_point", "word_feet", "word_buddha_image"],
+      "texts": {
+        "en": "Do not point your feet at the Buddha image",
+        "th": "อย่าชี้เท้าไปทางพระพุทธรูป",
+        "fa": "پاهایتان را به سمت تندیس بودا نگیرید",
+        "ar": "لا توجه قدميك نحو تمثال بوذا",
+        "es": "No apuntes tus pies hacia la imagen de Buda",
+        "zh": "不要用脚对着佛像",
+        "ja": "仏像に足を向けないでください"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "not",
+          "point",
+          "your",
+          "feet",
+          "at",
+          "the",
+          "Buddha",
+          "image"
+        ],
+        "th": ["อย่า", "ชี้", "เท้า", "ไป", "ทาง", "พระพุทธรูป"],
+        "fa": ["پاهایتان", "را", "به", "سمت", "تندیس", "بودا", "نگیرید"],
+        "ar": ["لا", "توجه", "قدميك", "نحو", "تمثال", "بوذا"],
+        "es": [
+          "No",
+          "apuntes",
+          "tus",
+          "pies",
+          "hacia",
+          "la",
+          "imagen",
+          "de",
+          "Buda"
+        ],
+        "zh": ["不要", "用", "脚", "对着", "佛像"],
+        "ja": ["仏像", "に", "足", "を", "向け", "ない", "で", "ください"]
+      }
+    },
+    {
+      "id": "sentence_etiquette_women",
+      "kind": "sentence",
+      "itemIds": ["word_woman", "word_must", "word_touch", "word_monk"],
+      "texts": {
+        "en": "Women must not touch the monks",
+        "th": "ผู้หญิงห้ามแตะตัวพระสงฆ์",
+        "fa": "زنان نباید به راهبان دست بزنند",
+        "ar": "يجب ألا تلمس النساء الرهبان",
+        "es": "Las mujeres no deben tocar a los monjes",
+        "zh": "女性不能触碰僧侣",
+        "ja": "女性は僧侶に触れてはいけません"
+      },
+      "tokens": {
+        "en": ["Women", "must", "not", "touch", "the", "monks"],
+        "th": ["ผู้หญิง", "ห้าม", "แตะ", "ตัว", "พระสงฆ์"],
+        "fa": ["زنان", "نباید", "به", "راهبان", "دست", "بزنند"],
+        "ar": ["يجب", "ألا", "تلمس", "النساء", "الرهبان"],
+        "es": ["Las", "mujeres", "no", "deben", "tocar", "a", "los", "monjes"],
+        "zh": ["女性", "不能", "触碰", "僧侣"],
+        "ja": ["女性", "は", "僧侶", "に", "触れ", "て", "は", "いけ", "ません"]
+      }
+    },
+    {
+      "id": "sentence_etiquette_sit",
+      "kind": "sentence",
+      "itemIds": ["word_you", "word_should", "word_sit"],
+      "texts": {
+        "en": "You should sit politely",
+        "th": "คุณควรนั่งให้เรียบร้อย",
+        "fa": "بهتر است مؤدب بنشینید",
+        "ar": "ينبغي أن تجلس بأدب",
+        "es": "Debes sentarte con educación",
+        "zh": "你应该礼貌地坐",
+        "ja": "丁寧に座るべきです"
+      },
+      "tokens": {
+        "en": ["You", "should", "sit", "politely"],
+        "th": ["คุณ", "ควร", "นั่ง", "ให้", "เรียบร้อย"],
+        "fa": ["بهتر", "است", "مؤدب", "بنشینید"],
+        "ar": ["ينبغي", "أن", "تجلس", "بأدب"],
+        "es": ["Debes", "sentarte", "con", "educación"],
+        "zh": ["你", "应该", "礼貌", "地", "坐"],
+        "ja": ["丁寧", "に", "座る", "べき", "です"]
+      }
+    },
+    {
+      "id": "word_quiet",
+      "kind": "word",
+      "texts": {
+        "en": "quiet",
+        "th": "เงียบ",
+        "fa": "ساکت",
+        "ar": "هادئ",
+        "es": "tranquilo",
+        "zh": "安静",
+        "ja": "静か"
+      }
+    },
+    {
+      "id": "word_respect",
+      "kind": "word",
+      "texts": {
+        "en": "respect",
+        "th": "เคารพ",
+        "fa": "احترام",
+        "ar": "احترام",
+        "es": "respeto",
+        "zh": "尊重",
+        "ja": "尊敬"
+      }
+    },
+    {
+      "id": "word_shoes",
+      "kind": "word",
+      "texts": {
+        "en": "shoes",
+        "th": "รองเท้า",
+        "fa": "کفش",
+        "ar": "حذاء",
+        "es": "zapatos",
+        "zh": "鞋子",
+        "ja": "靴"
+      }
+    },
+    {
+      "id": "word_remove",
+      "kind": "word",
+      "texts": {
+        "en": "remove / take off",
+        "th": "ถอด",
+        "fa": "درآوردن",
+        "ar": "يخلع",
+        "es": "quitarse",
+        "zh": "脱",
+        "ja": "脱ぐ"
+      }
+    },
+    {
+      "id": "word_before",
+      "kind": "word",
+      "texts": {
+        "en": "before",
+        "th": "ก่อน",
+        "fa": "قبل از",
+        "ar": "قبل",
+        "es": "antes de",
+        "zh": "在…之前",
+        "ja": "〜の前に"
+      }
+    },
+    {
+      "id": "word_feet",
+      "kind": "word",
+      "texts": {
+        "en": "feet",
+        "th": "เท้า",
+        "fa": "پاها",
+        "ar": "قدمان",
+        "es": "pies",
+        "zh": "脚",
+        "ja": "足"
+      }
+    },
+    {
+      "id": "word_point",
+      "kind": "word",
+      "texts": {
+        "en": "point (at)",
+        "th": "ชี้",
+        "fa": "اشاره کردن",
+        "ar": "يشير",
+        "es": "apuntar",
+        "zh": "指",
+        "ja": "指す"
+      }
+    },
+    {
+      "id": "word_touch",
+      "kind": "word",
+      "texts": {
+        "en": "touch",
+        "th": "แตะ",
+        "fa": "لمس کردن",
+        "ar": "يلمس",
+        "es": "tocar",
+        "zh": "触碰",
+        "ja": "触る"
+      }
+    },
+    {
+      "id": "word_woman",
+      "kind": "word",
+      "texts": {
+        "en": "woman",
+        "th": "ผู้หญิง",
+        "fa": "زن",
+        "ar": "امرأة",
+        "es": "mujer",
+        "zh": "女性",
+        "ja": "女性"
+      }
+    },
+    {
+      "id": "word_chapel",
+      "kind": "word",
+      "texts": {
+        "en": "chapel (ordination hall)",
+        "th": "โบสถ์",
+        "fa": "نمازخانه معبد",
+        "ar": "قاعة الصلاة",
+        "es": "sala de ordenación",
+        "zh": "佛殿",
+        "ja": "本堂"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Asking About the Temple (Wh- Questions)",
+        "th": "สถานการณ์ 4: การถามเกี่ยวกับวัด (คำถาม Wh-)",
+        "fa": "سناریو ۴: پرسش درباره معبد (سوالات پرسشی)",
+        "ar": "السيناريو 4: السؤال عن المعبد (أسئلة الاستفهام)",
+        "es": "Escenario 4: Preguntar sobre el templo (preguntas informativas)",
+        "zh": "场景四：询问寺庙（特殊疑问句）",
+        "ja": "シナリオ4：寺院について質問（疑問詞の質問）"
+      }
+    },
+    {
+      "id": "sentence_question_where",
+      "kind": "sentence",
+      "itemIds": ["word_temple", "word_to_be_at", "word_where"],
+      "texts": {
+        "en": "Where is the temple?",
+        "th": "วัดอยู่ที่ไหน",
+        "fa": "معبد کجاست؟",
+        "ar": "أين المعبد؟",
+        "es": "¿Dónde está el templo?",
+        "zh": "寺庙在哪里？",
+        "ja": "寺院はどこですか？"
+      },
+      "tokens": {
+        "en": ["Where", "is", "the", "temple?"],
+        "th": ["วัด", "อยู่", "ที่ไหน"],
+        "fa": ["معبد", "کجاست؟"],
+        "ar": ["أين", "المعبد؟"],
+        "es": ["¿Dónde", "está", "el", "templo?"],
+        "zh": ["寺庙", "在", "哪里？"],
+        "ja": ["寺院", "は", "どこ", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_answer_where",
+      "kind": "sentence",
+      "itemIds": ["word_temple", "word_to_be_at", "word_near", "word_market"],
+      "texts": {
+        "en": "The temple is near the market",
+        "th": "วัดอยู่ใกล้ตลาด",
+        "fa": "معبد نزدیک بازار است",
+        "ar": "المعبد قريب من السوق",
+        "es": "El templo está cerca del mercado",
+        "zh": "寺庙在市场附近",
+        "ja": "寺院は市場の近くです"
+      },
+      "tokens": {
+        "en": ["The", "temple", "is", "near", "the", "market"],
+        "th": ["วัด", "อยู่", "ใกล้", "ตลาด"],
+        "fa": ["معبد", "نزدیک", "بازار", "است"],
+        "ar": ["المعبد", "قريب", "من", "السوق"],
+        "es": ["El", "templo", "está", "cerca", "del", "mercado"],
+        "zh": ["寺庙", "在", "市场", "附近"],
+        "ja": ["寺院", "は", "市場", "の", "近く", "です"]
+      }
+    },
+    {
+      "id": "sentence_question_what",
+      "kind": "sentence",
+      "itemIds": ["word_you", "word_offer", "word_what", "word_monk"],
+      "texts": {
+        "en": "What do you offer to the monks?",
+        "th": "คุณถวายอะไรให้พระสงฆ์",
+        "fa": "چه چیزی به راهبان تقدیم می‌کنید؟",
+        "ar": "ماذا تقدم للرهبان؟",
+        "es": "¿Qué ofreces a los monjes?",
+        "zh": "你向僧侣供奉什么？",
+        "ja": "僧侶に何を供えますか？"
+      },
+      "tokens": {
+        "en": ["What", "do", "you", "offer", "to", "the", "monks?"],
+        "th": ["คุณ", "ถวาย", "อะไร", "ให้", "พระสงฆ์"],
+        "fa": ["چه", "چیزی", "به", "راهبان", "تقدیم", "می‌کنید؟"],
+        "ar": ["ماذا", "تقدم", "للرهبان؟"],
+        "es": ["¿Qué", "ofreces", "a", "los", "monjes?"],
+        "zh": ["你", "向", "僧侣", "供奉", "什么？"],
+        "ja": ["僧侶", "に", "何", "を", "供え", "ます", "か？"]
+      }
+    },
+    {
+      "id": "sentence_question_when",
+      "kind": "sentence",
+      "itemIds": ["word_you", "word_go", "word_temple", "word_when"],
+      "texts": {
+        "en": "When do you go to the temple?",
+        "th": "คุณไปวัดเมื่อไหร่",
+        "fa": "چه زمانی به معبد می‌روید؟",
+        "ar": "متى تذهب إلى المعبد؟",
+        "es": "¿Cuándo vas al templo?",
+        "zh": "你什么时候去寺庙？",
+        "ja": "いつ寺院に行きますか？"
+      },
+      "tokens": {
+        "en": ["When", "do", "you", "go", "to", "the", "temple?"],
+        "th": ["คุณ", "ไป", "วัด", "เมื่อไหร่"],
+        "fa": ["چه", "زمانی", "به", "معبد", "می‌روید؟"],
+        "ar": ["متى", "تذهب", "إلى", "المعبد؟"],
+        "es": ["¿Cuándo", "vas", "al", "templo?"],
+        "zh": ["你", "什么时候", "去", "寺庙？"],
+        "ja": ["いつ", "寺院", "に", "行き", "ます", "か？"]
+      }
+    },
+    {
+      "id": "sentence_answer_when",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_go", "word_morning"],
+      "texts": {
+        "en": "I go in the morning",
+        "th": "ฉันไปตอนเช้า",
+        "fa": "من صبح می‌روم",
+        "ar": "أذهب صباحاً",
+        "es": "Voy por la mañana",
+        "zh": "我早上去",
+        "ja": "私は朝行きます"
+      },
+      "tokens": {
+        "en": ["I", "go", "in", "the", "morning"],
+        "th": ["ฉัน", "ไป", "ตอนเช้า"],
+        "fa": ["من", "صبح", "می‌روم"],
+        "ar": ["أذهب", "صباحاً"],
+        "es": ["Voy", "por", "la", "mañana"],
+        "zh": ["我", "早上", "去"],
+        "ja": ["私", "は", "朝", "行き", "ます"]
+      }
+    },
+    {
+      "id": "sentence_question_why",
+      "kind": "sentence",
+      "itemIds": ["word_people", "word_make_merit", "word_why"],
+      "texts": {
+        "en": "Why do people make merit?",
+        "th": "ผู้คนทำบุญทำไม",
+        "fa": "چرا مردم ثواب کسب می‌کنند؟",
+        "ar": "لماذا يكسب الناس الأجر؟",
+        "es": "¿Por qué hace méritos la gente?",
+        "zh": "人们为什么做功德？",
+        "ja": "なぜ人々は功徳を積みますか？"
+      },
+      "tokens": {
+        "en": ["Why", "do", "people", "make", "merit?"],
+        "th": ["ผู้คน", "ทำบุญ", "ทำไม"],
+        "fa": ["چرا", "مردم", "ثواب", "کسب", "می‌کنند؟"],
+        "ar": ["لماذا", "يكسب", "الناس", "الأجر؟"],
+        "es": ["¿Por", "qué", "hace", "méritos", "la", "gente?"],
+        "zh": ["人们", "为什么", "做", "功德？"],
+        "ja": ["なぜ", "人々", "は", "功徳", "を", "積み", "ます", "か？"]
+      }
+    },
+    {
+      "id": "sentence_answer_why",
+      "kind": "sentence",
+      "itemIds": ["word_because", "word_he", "word_want", "word_peace"],
+      "texts": {
+        "en": "Because they want peace",
+        "th": "เพราะพวกเขาต้องการความสงบ",
+        "fa": "زیرا آرامش می‌خواهند",
+        "ar": "لأنهم يريدون السكينة",
+        "es": "Porque quieren paz",
+        "zh": "因为他们想要平静",
+        "ja": "安らぎが欲しいからです"
+      },
+      "tokens": {
+        "en": ["Because", "they", "want", "peace"],
+        "th": ["เพราะ", "พวกเขา", "ต้องการ", "ความสงบ"],
+        "fa": ["زیرا", "آرامش", "می‌خواهند"],
+        "ar": ["لأنهم", "يريدون", "السكينة"],
+        "es": ["Porque", "quieren", "paz"],
+        "zh": ["因为", "他们", "想要", "平静"],
+        "ja": ["安らぎ", "が", "欲しい", "から", "です"]
+      }
+    },
+    {
+      "id": "sentence_question_how",
+      "kind": "sentence",
+      "itemIds": ["word_you", "word_go", "word_temple", "word_how"],
+      "texts": {
+        "en": "How do you go to the temple?",
+        "th": "คุณไปวัดอย่างไร",
+        "fa": "چگونه به معبد می‌روید؟",
+        "ar": "كيف تذهب إلى المعبد؟",
+        "es": "¿Cómo vas al templo?",
+        "zh": "你怎么去寺庙？",
+        "ja": "どうやって寺院に行きますか？"
+      },
+      "tokens": {
+        "en": ["How", "do", "you", "go", "to", "the", "temple?"],
+        "th": ["คุณ", "ไป", "วัด", "อย่างไร"],
+        "fa": ["چگونه", "به", "معبد", "می‌روید؟"],
+        "ar": ["كيف", "تذهب", "إلى", "المعبد؟"],
+        "es": ["¿Cómo", "vas", "al", "templo?"],
+        "zh": ["你", "怎么", "去", "寺庙？"],
+        "ja": ["どう", "やって", "寺院", "に", "行き", "ます", "か？"]
+      }
+    },
+    {
+      "id": "sentence_answer_how",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_walk", "word_go", "word_temple"],
+      "texts": {
+        "en": "I walk to the temple",
+        "th": "ฉันเดินไปวัด",
+        "fa": "من پیاده به معبد می‌روم",
+        "ar": "أمشي إلى المعبد",
+        "es": "Voy andando al templo",
+        "zh": "我走路去寺庙",
+        "ja": "私は歩いて寺院に行きます"
+      },
+      "tokens": {
+        "en": ["I", "walk", "to", "the", "temple"],
+        "th": ["ฉัน", "เดิน", "ไป", "วัด"],
+        "fa": ["من", "پیاده", "به", "معبد", "می‌روم"],
+        "ar": ["أمشي", "إلى", "المعبد"],
+        "es": ["Voy", "andando", "al", "templo"],
+        "zh": ["我", "走路", "去", "寺庙"],
+        "ja": ["私", "は", "歩い", "て", "寺院", "に", "行き", "ます"]
+      }
+    },
+    {
+      "id": "sentence_question_who",
+      "kind": "sentence",
+      "itemIds": [
+        "word_who",
+        "word_go",
+        "word_temple",
+        "word_with",
+        "word_you"
+      ],
+      "texts": {
+        "en": "Who goes to the temple with you?",
+        "th": "ใครไปวัดกับคุณ",
+        "fa": "چه کسی با شما به معبد می‌رود؟",
+        "ar": "من يذهب معك إلى المعبد؟",
+        "es": "¿Quién va al templo contigo?",
+        "zh": "谁和你一起去寺庙？",
+        "ja": "誰と寺院に行きますか？"
+      },
+      "tokens": {
+        "en": ["Who", "goes", "to", "the", "temple", "with", "you?"],
+        "th": ["ใคร", "ไป", "วัด", "กับ", "คุณ"],
+        "fa": ["چه", "کسی", "با", "شما", "به", "معبد", "می‌رود؟"],
+        "ar": ["من", "يذهب", "معك", "إلى", "المعبد؟"],
+        "es": ["¿Quién", "va", "al", "templo", "contigo?"],
+        "zh": ["谁", "和", "你", "一起", "去", "寺庙？"],
+        "ja": ["誰", "と", "寺院", "に", "行き", "ます", "か？"]
+      }
+    },
+    {
+      "id": "word_near",
+      "kind": "word",
+      "texts": {
+        "en": "near",
+        "th": "ใกล้",
+        "fa": "نزدیک",
+        "ar": "قريب",
+        "es": "cerca",
+        "zh": "靠近",
+        "ja": "近い"
+      }
+    },
+    {
+      "id": "word_market",
+      "kind": "word",
+      "texts": {
+        "en": "market",
+        "th": "ตลาด",
+        "fa": "بازار",
+        "ar": "سوق",
+        "es": "mercado",
+        "zh": "市场",
+        "ja": "市場"
+      }
+    },
+    {
+      "id": "word_because",
+      "kind": "word",
+      "texts": {
+        "en": "because",
+        "th": "เพราะ",
+        "fa": "زیرا / چون",
+        "ar": "لأن",
+        "es": "porque",
+        "zh": "因为",
+        "ja": "〜だから"
+      }
+    },
+    {
+      "id": "word_peace",
+      "kind": "word",
+      "texts": {
+        "en": "peace",
+        "th": "ความสงบ",
+        "fa": "آرامش",
+        "ar": "سكينة",
+        "es": "paz",
+        "zh": "平静",
+        "ja": "安らぎ"
+      }
+    },
+    {
+      "id": "word_with",
+      "kind": "word",
+      "texts": {
+        "en": "with",
+        "th": "กับ",
+        "fa": "با",
+        "ar": "مع",
+        "es": "con",
+        "zh": "和",
+        "ja": "〜と"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Monk Interactions & Donations",
+        "th": "สถานการณ์ 5: การปฏิสัมพันธ์กับพระสงฆ์และการบริจาค",
+        "fa": "سناریو ۵: تعامل با راهبان و کمک‌ها",
+        "ar": "السيناريو 5: التفاعل مع الرهبان والتبرعات",
+        "es": "Escenario 5: Interacción con monjes y donaciones",
+        "zh": "场景五：与僧侣互动和捐赠",
+        "ja": "シナリオ5：僧侶との交流と寄付"
+      }
+    },
+    {
+      "id": "sentence_temple_donate_money",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_donate", "word_money", "word_temple"],
+      "texts": {
+        "en": "I donate money to the temple",
+        "th": "ฉันบริจาคเงินให้วัด",
+        "fa": "من به معبد پول اهدا می‌کنم",
+        "ar": "أتبرع بالمال للمعبد",
+        "es": "Doy dinero al templo",
+        "zh": "我向寺庙捐钱",
+        "ja": "私は寺院にお金を寄付します"
+      },
+      "tokens": {
+        "en": ["I", "donate", "money", "to", "the", "temple"],
+        "th": ["ฉัน", "บริจาค", "เงิน", "ให้", "วัด"],
+        "fa": ["من", "به", "معبد", "پول", "اهدا", "می‌کنم"],
+        "ar": ["أتبرع", "بالمال", "للمعبد"],
+        "es": ["Doy", "dinero", "al", "templo"],
+        "zh": ["我", "向", "寺庙", "捐钱"],
+        "ja": ["私", "は", "寺院", "に", "お金", "を", "寄付", "し", "ます"]
+      }
+    },
+    {
+      "id": "sentence_temple_receive_blessing",
+      "kind": "sentence",
+      "itemIds": ["word_we", "word_receive", "word_blessing", "word_monk"],
+      "texts": {
+        "en": "We receive a blessing from the monk",
+        "th": "เรารับพรจากพระสงฆ์",
+        "fa": "ما از راهب برکت می‌گیریم",
+        "ar": "نتلقى بركة من الراهب",
+        "es": "Recibimos una bendición del monje",
+        "zh": "我们从僧侣那里接受祝福",
+        "ja": "私たちは僧侶から祝福を受けます"
+      },
+      "tokens": {
+        "en": ["We", "receive", "a", "blessing", "from", "the", "monk"],
+        "th": ["เรา", "รับ", "พร", "จาก", "พระสงฆ์"],
+        "fa": ["ما", "از", "راهب", "برکت", "می‌گیریم"],
+        "ar": ["نتلقى", "بركة", "من", "الراهب"],
+        "es": ["Recibimos", "una", "bendición", "del", "monje"],
+        "zh": ["我们", "从", "僧侣", "那里", "接受", "祝福"],
+        "ja": ["私たち", "は", "僧侶", "から", "祝福", "を", "受け", "ます"]
+      }
+    },
+    {
+      "id": "sentence_temple_ask_monk",
+      "kind": "sentence",
+      "itemIds": ["word_i", "word_ask", "word_monk"],
+      "texts": {
+        "en": "I ask the monk",
+        "th": "ฉันถามพระสงฆ์",
+        "fa": "من از راهب می‌پرسم",
+        "ar": "أسأل الراهب",
+        "es": "Le pregunto al monje",
+        "zh": "我问僧侣",
+        "ja": "私は僧侶に聞きます"
+      },
+      "tokens": {
+        "en": ["I", "ask", "the", "monk"],
+        "th": ["ฉัน", "ถาม", "พระสงฆ์"],
+        "fa": ["من", "از", "راهب", "می‌پرسم"],
+        "ar": ["أسأل", "الراهب"],
+        "es": ["Le", "pregunto", "al", "monje"],
+        "zh": ["我", "问", "僧侣"],
+        "ja": ["私", "は", "僧侶", "に", "聞き", "ます"]
+      }
+    },
+    {
+      "id": "sentence_temple_monk_answers",
+      "kind": "sentence",
+      "itemIds": ["word_monk", "word_answer"],
+      "texts": {
+        "en": "The monk answers",
+        "th": "พระสงฆ์ตอบ",
+        "fa": "راهب پاسخ می‌دهد",
+        "ar": "يجيب الراهب",
+        "es": "El monje responde",
+        "zh": "僧侣回答",
+        "ja": "僧侶が答えます"
+      },
+      "tokens": {
+        "en": ["The", "monk", "answers"],
+        "th": ["พระสงฆ์", "ตอบ"],
+        "fa": ["راهب", "پاسخ", "می‌دهد"],
+        "ar": ["يجيب", "الراهب"],
+        "es": ["El", "monje", "responde"],
+        "zh": ["僧侣", "回答"],
+        "ja": ["僧侶", "が", "答え", "ます"]
+      }
+    },
+    {
+      "id": "sentence_temple_should_donate",
+      "kind": "sentence",
+      "itemIds": ["word_we", "word_should", "word_donate", "word_often"],
+      "texts": {
+        "en": "We should donate often",
+        "th": "เราควรบริจาคบ่อย ๆ",
+        "fa": "ما باید اغلب کمک کنیم",
+        "ar": "ينبغي أن نتبرع كثيراً",
+        "es": "Debemos donar a menudo",
+        "zh": "我们应该经常捐赠",
+        "ja": "私たちはよく寄付すべきです"
+      },
+      "tokens": {
+        "en": ["We", "should", "donate", "often"],
+        "th": ["เรา", "ควร", "บริจาค", "บ่อย ๆ"],
+        "fa": ["ما", "باید", "اغلب", "کمک", "کنیم"],
+        "ar": ["ينبغي", "أن", "نتبرع", "كثيراً"],
+        "es": ["Debemos", "donar", "a", "menudo"],
+        "zh": ["我们", "应该", "经常", "捐赠"],
+        "ja": ["私たち", "は", "よく", "寄付", "する", "べき", "です"]
+      }
+    },
+    {
+      "id": "sentence_temple_before_leave_wai",
+      "kind": "sentence",
+      "itemIds": ["word_before", "word_we", "word_leave", "word_wai"],
+      "texts": {
+        "en": "Before leaving, we wai",
+        "th": "ก่อนกลับ เราไหว้",
+        "fa": "قبل از رفتن، تعظیم می‌کنیم",
+        "ar": "قبل المغادرة، نؤدي تحية الواي",
+        "es": "Antes de irnos, hacemos el wai",
+        "zh": "离开前，我们行合十礼",
+        "ja": "帰る前に、私たちはワイをします"
+      },
+      "tokens": {
+        "en": ["Before", "leaving,", "we", "wai"],
+        "th": ["ก่อน", "กลับ", "เรา", "ไหว้"],
+        "fa": ["قبل", "از", "رفتن،", "تعظیم", "می‌کنیم"],
+        "ar": ["قبل", "المغادرة،", "نؤدي", "تحية", "الواي"],
+        "es": ["Antes", "de", "irnos,", "hacemos", "el", "wai"],
+        "zh": ["离开", "前，", "我们", "行", "合十礼"],
+        "ja": ["帰る", "前に、", "私たち", "は", "ワイ", "を", "し", "ます"]
+      }
+    },
+    {
+      "id": "word_donate",
+      "kind": "word",
+      "texts": {
+        "en": "donate",
+        "th": "บริจาค",
+        "fa": "کمک کردن / اهدا کردن",
+        "ar": "يتبرع",
+        "es": "donar",
+        "zh": "捐赠",
+        "ja": "寄付する"
+      }
+    },
+    {
+      "id": "word_money",
+      "kind": "word",
+      "texts": {
+        "en": "money",
+        "th": "เงิน",
+        "fa": "پول",
+        "ar": "مال",
+        "es": "dinero",
+        "zh": "钱",
+        "ja": "お金"
+      }
+    },
+    {
+      "id": "word_blessing",
+      "kind": "word",
+      "texts": {
+        "en": "blessing",
+        "th": "พร",
+        "fa": "برکت",
+        "ar": "بركة",
+        "es": "bendición",
+        "zh": "祝福",
+        "ja": "祝福"
+      }
+    },
+    {
+      "id": "word_receive",
+      "kind": "word",
+      "texts": {
+        "en": "receive",
+        "th": "รับ",
+        "fa": "دریافت کردن",
+        "ar": "يستلم",
+        "es": "recibir",
+        "zh": "接受",
+        "ja": "受け取る"
+      }
+    },
+    {
+      "id": "word_ask",
+      "kind": "word",
+      "texts": {
+        "en": "ask",
+        "th": "ถาม",
+        "fa": "پرسیدن",
+        "ar": "يسأل",
+        "es": "preguntar",
+        "zh": "问",
+        "ja": "聞く"
+      }
+    },
+    {
+      "id": "word_answer",
+      "kind": "word",
+      "texts": {
+        "en": "answer",
+        "th": "ตอบ",
+        "fa": "پاسخ دادن",
+        "ar": "يجيب",
+        "es": "responder",
+        "zh": "回答",
+        "ja": "答える"
+      }
+    },
+    {
+      "id": "word_leave",
+      "kind": "word",
+      "texts": {
+        "en": "leave / go back",
+        "th": "กลับ",
+        "fa": "رفتن / ترک کردن",
+        "ar": "يغادر",
+        "es": "irse",
+        "zh": "离开",
+        "ja": "帰る"
+      }
+    }
+  ]
+}

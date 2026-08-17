@@ -1,0 +1,1088 @@
+{
+  "items": [
+    {
+      "id": "hdr_mid_c",
+      "header": true,
+      "texts": {
+        "en": "Middle Class Consonants",
+        "th": "อักษรกลาง",
+        "fa": "همخوان‌های طبقهٔ میانی",
+        "ar": "الحروف المتوسطة",
+        "es": "Consonantes de clase media",
+        "zh": "中辅音",
+        "ja": "中子音"
+      }
+    },
+
+    {
+      "id": "c_mid_01",
+      "kind": "character",
+      "texts": { "th": "ก" },
+      "phonetic": {
+        "en": "ko kai · /k/",
+        "th": "ก ไก่ · /k/",
+        "fa": "ko kai · /k/",
+        "ar": "ko kai · /k/",
+        "es": "ko kai · /k/",
+        "zh": "ko kai · /k/",
+        "ja": "ko kai · /k/"
+      }
+    },
+    {
+      "id": "c_mid_02",
+      "kind": "character",
+      "texts": { "th": "จ" },
+      "phonetic": {
+        "en": "cho chan · /tɕ/",
+        "th": "จ จาน · /tɕ/",
+        "fa": "cho chan · /tɕ/",
+        "ar": "cho chan · /tɕ/",
+        "es": "cho chan · /tɕ/",
+        "zh": "cho chan · /tɕ/",
+        "ja": "cho chan · /tɕ/"
+      }
+    },
+    {
+      "id": "c_mid_03",
+      "kind": "character",
+      "texts": { "th": "ฎ" },
+      "phonetic": {
+        "en": "do chada · /d/",
+        "th": "ฎ ชฎา · /d/",
+        "fa": "do chada · /d/",
+        "ar": "do chada · /d/",
+        "es": "do chada · /d/",
+        "zh": "do chada · /d/",
+        "ja": "do chada · /d/"
+      }
+    },
+    {
+      "id": "c_mid_04",
+      "kind": "character",
+      "texts": { "th": "ฏ" },
+      "phonetic": {
+        "en": "to patak · /t/",
+        "th": "ฏ ปฏัก · /t/",
+        "fa": "to patak · /t/",
+        "ar": "to patak · /t/",
+        "es": "to patak · /t/",
+        "zh": "to patak · /t/",
+        "ja": "to patak · /t/"
+      }
+    },
+    {
+      "id": "c_mid_05",
+      "kind": "character",
+      "texts": { "th": "ด" },
+      "phonetic": {
+        "en": "do dek · /d/",
+        "th": "ด เด็ก · /d/",
+        "fa": "do dek · /d/",
+        "ar": "do dek · /d/",
+        "es": "do dek · /d/",
+        "zh": "do dek · /d/",
+        "ja": "do dek · /d/"
+      }
+    },
+    {
+      "id": "c_mid_06",
+      "kind": "character",
+      "texts": { "th": "ต" },
+      "phonetic": {
+        "en": "to tao · /t/",
+        "th": "ต เต่า · /t/",
+        "fa": "to tao · /t/",
+        "ar": "to tao · /t/",
+        "es": "to tao · /t/",
+        "zh": "to tao · /t/",
+        "ja": "to tao · /t/"
+      }
+    },
+    {
+      "id": "c_mid_07",
+      "kind": "character",
+      "texts": { "th": "บ" },
+      "phonetic": {
+        "en": "bo baimai · /b/",
+        "th": "บ ใบไม้ · /b/",
+        "fa": "bo baimai · /b/",
+        "ar": "bo baimai · /b/",
+        "es": "bo baimai · /b/",
+        "zh": "bo baimai · /b/",
+        "ja": "bo baimai · /b/"
+      }
+    },
+    {
+      "id": "c_mid_08",
+      "kind": "character",
+      "texts": { "th": "ป" },
+      "phonetic": {
+        "en": "po pla · /p/",
+        "th": "ป ปลา · /p/",
+        "fa": "po pla · /p/",
+        "ar": "po pla · /p/",
+        "es": "po pla · /p/",
+        "zh": "po pla · /p/",
+        "ja": "po pla · /p/"
+      }
+    },
+    {
+      "id": "c_mid_09",
+      "kind": "character",
+      "texts": { "th": "อ" },
+      "phonetic": {
+        "en": "o ang · /ʔ/",
+        "th": "อ อ่าง · /ʔ/",
+        "fa": "o ang · /ʔ/",
+        "ar": "o ang · /ʔ/",
+        "es": "o ang · /ʔ/",
+        "zh": "o ang · /ʔ/",
+        "ja": "o ang · /ʔ/"
+      }
+    },
+
+    {
+      "id": "hdr_high_c",
+      "header": true,
+      "texts": {
+        "en": "High Class Consonants",
+        "th": "อักษรสูง",
+        "fa": "همخوان‌های طبقهٔ بالا",
+        "ar": "الحروف العالية",
+        "es": "Consonantes de clase alta",
+        "zh": "高辅音",
+        "ja": "高子音"
+      }
+    },
+
+    {
+      "id": "c_high_01",
+      "kind": "character",
+      "texts": { "th": "ข" },
+      "phonetic": {
+        "en": "kho khai · /kʰ/",
+        "th": "ข ไข่ · /kʰ/",
+        "fa": "kho khai · /kʰ/",
+        "ar": "kho khai · /kʰ/",
+        "es": "kho khai · /kʰ/",
+        "zh": "kho khai · /kʰ/",
+        "ja": "kho khai · /kʰ/"
+      }
+    },
+    {
+      "id": "c_high_02",
+      "kind": "character",
+      "texts": { "th": "ฃ" },
+      "phonetic": {
+        "en": "kho khut · /kʰ/",
+        "th": "ฃ ขวด · /kʰ/",
+        "fa": "kho khut · /kʰ/",
+        "ar": "kho khut · /kʰ/",
+        "es": "kho khut · /kʰ/",
+        "zh": "kho khut · /kʰ/",
+        "ja": "kho khut · /kʰ/"
+      }
+    },
+    {
+      "id": "c_high_03",
+      "kind": "character",
+      "texts": { "th": "ฉ" },
+      "phonetic": {
+        "en": "cho ching · /tɕʰ/",
+        "th": "ฉ ฉิ่ง · /tɕʰ/",
+        "fa": "cho ching · /tɕʰ/",
+        "ar": "cho ching · /tɕʰ/",
+        "es": "cho ching · /tɕʰ/",
+        "zh": "cho ching · /tɕʰ/",
+        "ja": "cho ching · /tɕʰ/"
+      }
+    },
+    {
+      "id": "c_high_04",
+      "kind": "character",
+      "texts": { "th": "ฐ" },
+      "phonetic": {
+        "en": "tho than · /tʰ/",
+        "th": "ฐ ฐาน · /tʰ/",
+        "fa": "tho than · /tʰ/",
+        "ar": "tho than · /tʰ/",
+        "es": "tho than · /tʰ/",
+        "zh": "tho than · /tʰ/",
+        "ja": "tho than · /tʰ/"
+      }
+    },
+    {
+      "id": "c_high_05",
+      "kind": "character",
+      "texts": { "th": "ถ" },
+      "phonetic": {
+        "en": "tho thung · /tʰ/",
+        "th": "ถ ถุง · /tʰ/",
+        "fa": "tho thung · /tʰ/",
+        "ar": "tho thung · /tʰ/",
+        "es": "tho thung · /tʰ/",
+        "zh": "tho thung · /tʰ/",
+        "ja": "tho thung · /tʰ/"
+      }
+    },
+    {
+      "id": "c_high_06",
+      "kind": "character",
+      "texts": { "th": "ผ" },
+      "phonetic": {
+        "en": "pho phung · /pʰ/",
+        "th": "ผ ผึ้ง · /pʰ/",
+        "fa": "pho phung · /pʰ/",
+        "ar": "pho phung · /pʰ/",
+        "es": "pho phung · /pʰ/",
+        "zh": "pho phung · /pʰ/",
+        "ja": "pho phung · /pʰ/"
+      }
+    },
+    {
+      "id": "c_high_07",
+      "kind": "character",
+      "texts": { "th": "ฝ" },
+      "phonetic": {
+        "en": "fo fa · /f/",
+        "th": "ฝ ฝา · /f/",
+        "fa": "fo fa · /f/",
+        "ar": "fo fa · /f/",
+        "es": "fo fa · /f/",
+        "zh": "fo fa · /f/",
+        "ja": "fo fa · /f/"
+      }
+    },
+    {
+      "id": "c_high_08",
+      "kind": "character",
+      "texts": { "th": "ศ" },
+      "phonetic": {
+        "en": "so sala · /s/",
+        "th": "ศ ศาลา · /s/",
+        "fa": "so sala · /s/",
+        "ar": "so sala · /s/",
+        "es": "so sala · /s/",
+        "zh": "so sala · /s/",
+        "ja": "so sala · /s/"
+      }
+    },
+    {
+      "id": "c_high_09",
+      "kind": "character",
+      "texts": { "th": "ษ" },
+      "phonetic": {
+        "en": "so ruesi · /s/",
+        "th": "ษ ฤๅษี · /s/",
+        "fa": "so ruesi · /s/",
+        "ar": "so ruesi · /s/",
+        "es": "so ruesi · /s/",
+        "zh": "so ruesi · /s/",
+        "ja": "so ruesi · /s/"
+      }
+    },
+    {
+      "id": "c_high_10",
+      "kind": "character",
+      "texts": { "th": "ส" },
+      "phonetic": {
+        "en": "so suea · /s/",
+        "th": "ส เสือ · /s/",
+        "fa": "so suea · /s/",
+        "ar": "so suea · /s/",
+        "es": "so suea · /s/",
+        "zh": "so suea · /s/",
+        "ja": "so suea · /s/"
+      }
+    },
+    {
+      "id": "c_high_11",
+      "kind": "character",
+      "texts": { "th": "ห" },
+      "phonetic": {
+        "en": "ho hip · /h/",
+        "th": "ห หีบ · /h/",
+        "fa": "ho hip · /h/",
+        "ar": "ho hip · /h/",
+        "es": "ho hip · /h/",
+        "zh": "ho hip · /h/",
+        "ja": "ho hip · /h/"
+      }
+    },
+
+    {
+      "id": "hdr_low_c",
+      "header": true,
+      "texts": {
+        "en": "Low Class Consonants",
+        "th": "อักษรต่ำ",
+        "fa": "همخوان‌های طبقهٔ پایین",
+        "ar": "الحروف المنخفضة",
+        "es": "Consonantes de clase baja",
+        "zh": "低辅音",
+        "ja": "低子音"
+      }
+    },
+
+    {
+      "id": "c_low_01",
+      "kind": "character",
+      "texts": { "th": "ค" },
+      "phonetic": {
+        "en": "kho khwai · /kʰ/",
+        "th": "ค ควาย · /kʰ/",
+        "fa": "kho khwai · /kʰ/",
+        "ar": "kho khwai · /kʰ/",
+        "es": "kho khwai · /kʰ/",
+        "zh": "kho khwai · /kʰ/",
+        "ja": "kho khwai · /kʰ/"
+      }
+    },
+    {
+      "id": "c_low_02",
+      "kind": "character",
+      "texts": { "th": "ฅ" },
+      "phonetic": {
+        "en": "kho khon · /kʰ/",
+        "th": "ฅ คน · /kʰ/",
+        "fa": "kho khon · /kʰ/",
+        "ar": "kho khon · /kʰ/",
+        "es": "kho khon · /kʰ/",
+        "zh": "kho khon · /kʰ/",
+        "ja": "kho khon · /kʰ/"
+      }
+    },
+    {
+      "id": "c_low_03",
+      "kind": "character",
+      "texts": { "th": "ฆ" },
+      "phonetic": {
+        "en": "kho rakhang · /kʰ/",
+        "th": "ฆ ระฆัง · /kʰ/",
+        "fa": "kho rakhang · /kʰ/",
+        "ar": "kho rakhang · /kʰ/",
+        "es": "kho rakhang · /kʰ/",
+        "zh": "kho rakhang · /kʰ/",
+        "ja": "kho rakhang · /kʰ/"
+      }
+    },
+    {
+      "id": "c_low_04",
+      "kind": "character",
+      "texts": { "th": "ง" },
+      "phonetic": {
+        "en": "ngo ngu · /ŋ/",
+        "th": "ง งู · /ŋ/",
+        "fa": "ngo ngu · /ŋ/",
+        "ar": "ngo ngu · /ŋ/",
+        "es": "ngo ngu · /ŋ/",
+        "zh": "ngo ngu · /ŋ/",
+        "ja": "ngo ngu · /ŋ/"
+      }
+    },
+    {
+      "id": "c_low_05",
+      "kind": "character",
+      "texts": { "th": "ช" },
+      "phonetic": {
+        "en": "cho chang · /tɕʰ/",
+        "th": "ช ช้าง · /tɕʰ/",
+        "fa": "cho chang · /tɕʰ/",
+        "ar": "cho chang · /tɕʰ/",
+        "es": "cho chang · /tɕʰ/",
+        "zh": "cho chang · /tɕʰ/",
+        "ja": "cho chang · /tɕʰ/"
+      }
+    },
+    {
+      "id": "c_low_06",
+      "kind": "character",
+      "texts": { "th": "ซ" },
+      "phonetic": {
+        "en": "so so · /s/",
+        "th": "ซ โซ่ · /s/",
+        "fa": "so so · /s/",
+        "ar": "so so · /s/",
+        "es": "so so · /s/",
+        "zh": "so so · /s/",
+        "ja": "so so · /s/"
+      }
+    },
+    {
+      "id": "c_low_07",
+      "kind": "character",
+      "texts": { "th": "ฌ" },
+      "phonetic": {
+        "en": "cho choe · /tɕʰ/",
+        "th": "ฌ เฌอ · /tɕʰ/",
+        "fa": "cho choe · /tɕʰ/",
+        "ar": "cho choe · /tɕʰ/",
+        "es": "cho choe · /tɕʰ/",
+        "zh": "cho choe · /tɕʰ/",
+        "ja": "cho choe · /tɕʰ/"
+      }
+    },
+    {
+      "id": "c_low_08",
+      "kind": "character",
+      "texts": { "th": "ญ" },
+      "phonetic": {
+        "en": "yo ying · /j/",
+        "th": "ญ หญิง · /j/",
+        "fa": "yo ying · /j/",
+        "ar": "yo ying · /j/",
+        "es": "yo ying · /j/",
+        "zh": "yo ying · /j/",
+        "ja": "yo ying · /j/"
+      }
+    },
+    {
+      "id": "c_low_09",
+      "kind": "character",
+      "texts": { "th": "ฑ" },
+      "phonetic": {
+        "en": "tho montho · /tʰ/",
+        "th": "ฑ มณโฑ · /tʰ/",
+        "fa": "tho montho · /tʰ/",
+        "ar": "tho montho · /tʰ/",
+        "es": "tho montho · /tʰ/",
+        "zh": "tho montho · /tʰ/",
+        "ja": "tho montho · /tʰ/"
+      }
+    },
+    {
+      "id": "c_low_10",
+      "kind": "character",
+      "texts": { "th": "ฒ" },
+      "phonetic": {
+        "en": "tho phuthao · /tʰ/",
+        "th": "ฒ ผู้เฒ่า · /tʰ/",
+        "fa": "tho phuthao · /tʰ/",
+        "ar": "tho phuthao · /tʰ/",
+        "es": "tho phuthao · /tʰ/",
+        "zh": "tho phuthao · /tʰ/",
+        "ja": "tho phuthao · /tʰ/"
+      }
+    },
+    {
+      "id": "c_low_11",
+      "kind": "character",
+      "texts": { "th": "ณ" },
+      "phonetic": {
+        "en": "no nen · /n/",
+        "th": "ณ เณร · /n/",
+        "fa": "no nen · /n/",
+        "ar": "no nen · /n/",
+        "es": "no nen · /n/",
+        "zh": "no nen · /n/",
+        "ja": "no nen · /n/"
+      }
+    },
+    {
+      "id": "c_low_12",
+      "kind": "character",
+      "texts": { "th": "ท" },
+      "phonetic": {
+        "en": "tho thahan · /tʰ/",
+        "th": "ท ทหาร · /tʰ/",
+        "fa": "tho thahan · /tʰ/",
+        "ar": "tho thahan · /tʰ/",
+        "es": "tho thahan · /tʰ/",
+        "zh": "tho thahan · /tʰ/",
+        "ja": "tho thahan · /tʰ/"
+      }
+    },
+    {
+      "id": "c_low_13",
+      "kind": "character",
+      "texts": { "th": "ธ" },
+      "phonetic": {
+        "en": "tho thong · /tʰ/",
+        "th": "ธ ธง · /tʰ/",
+        "fa": "tho thong · /tʰ/",
+        "ar": "tho thong · /tʰ/",
+        "es": "tho thong · /tʰ/",
+        "zh": "tho thong · /tʰ/",
+        "ja": "tho thong · /tʰ/"
+      }
+    },
+    {
+      "id": "c_low_14",
+      "kind": "character",
+      "texts": { "th": "น" },
+      "phonetic": {
+        "en": "no nu · /n/",
+        "th": "น หนู · /n/",
+        "fa": "no nu · /n/",
+        "ar": "no nu · /n/",
+        "es": "no nu · /n/",
+        "zh": "no nu · /n/",
+        "ja": "no nu · /n/"
+      }
+    },
+    {
+      "id": "c_low_15",
+      "kind": "character",
+      "texts": { "th": "พ" },
+      "phonetic": {
+        "en": "pho phan · /pʰ/",
+        "th": "พ พาน · /pʰ/",
+        "fa": "pho phan · /pʰ/",
+        "ar": "pho phan · /pʰ/",
+        "es": "pho phan · /pʰ/",
+        "zh": "pho phan · /pʰ/",
+        "ja": "pho phan · /pʰ/"
+      }
+    },
+    {
+      "id": "c_low_16",
+      "kind": "character",
+      "texts": { "th": "ฟ" },
+      "phonetic": {
+        "en": "fo fan · /f/",
+        "th": "ฟ ฟัน · /f/",
+        "fa": "fo fan · /f/",
+        "ar": "fo fan · /f/",
+        "es": "fo fan · /f/",
+        "zh": "fo fan · /f/",
+        "ja": "fo fan · /f/"
+      }
+    },
+    {
+      "id": "c_low_17",
+      "kind": "character",
+      "texts": { "th": "ภ" },
+      "phonetic": {
+        "en": "pho samphao · /pʰ/",
+        "th": "ภ สำเภา · /pʰ/",
+        "fa": "pho samphao · /pʰ/",
+        "ar": "pho samphao · /pʰ/",
+        "es": "pho samphao · /pʰ/",
+        "zh": "pho samphao · /pʰ/",
+        "ja": "pho samphao · /pʰ/"
+      }
+    },
+    {
+      "id": "c_low_18",
+      "kind": "character",
+      "texts": { "th": "ม" },
+      "phonetic": {
+        "en": "mo ma · /m/",
+        "th": "ม ม้า · /m/",
+        "fa": "mo ma · /m/",
+        "ar": "mo ma · /m/",
+        "es": "mo ma · /m/",
+        "zh": "mo ma · /m/",
+        "ja": "mo ma · /m/"
+      }
+    },
+    {
+      "id": "c_low_19",
+      "kind": "character",
+      "texts": { "th": "ย" },
+      "phonetic": {
+        "en": "yo yak · /j/",
+        "th": "ย ยักษ์ · /j/",
+        "fa": "yo yak · /j/",
+        "ar": "yo yak · /j/",
+        "es": "yo yak · /j/",
+        "zh": "yo yak · /j/",
+        "ja": "yo yak · /j/"
+      }
+    },
+    {
+      "id": "c_low_20",
+      "kind": "character",
+      "texts": { "th": "ร" },
+      "phonetic": {
+        "en": "ro ruea · /r/",
+        "th": "ร เรือ · /r/",
+        "fa": "ro ruea · /r/",
+        "ar": "ro ruea · /r/",
+        "es": "ro ruea · /r/",
+        "zh": "ro ruea · /r/",
+        "ja": "ro ruea · /r/"
+      }
+    },
+    {
+      "id": "c_low_21",
+      "kind": "character",
+      "texts": { "th": "ล" },
+      "phonetic": {
+        "en": "lo ling · /l/",
+        "th": "ล ลิง · /l/",
+        "fa": "lo ling · /l/",
+        "ar": "lo ling · /l/",
+        "es": "lo ling · /l/",
+        "zh": "lo ling · /l/",
+        "ja": "lo ling · /l/"
+      }
+    },
+    {
+      "id": "c_low_22",
+      "kind": "character",
+      "texts": { "th": "ว" },
+      "phonetic": {
+        "en": "wo waen · /w/",
+        "th": "ว แหวน · /w/",
+        "fa": "wo waen · /w/",
+        "ar": "wo waen · /w/",
+        "es": "wo waen · /w/",
+        "zh": "wo waen · /w/",
+        "ja": "wo waen · /w/"
+      }
+    },
+    {
+      "id": "c_low_23",
+      "kind": "character",
+      "texts": { "th": "ฬ" },
+      "phonetic": {
+        "en": "lo chula · /l/",
+        "th": "ฬ จุฬา · /l/",
+        "fa": "lo chula · /l/",
+        "ar": "lo chula · /l/",
+        "es": "lo chula · /l/",
+        "zh": "lo chula · /l/",
+        "ja": "lo chula · /l/"
+      }
+    },
+    {
+      "id": "c_low_24",
+      "kind": "character",
+      "texts": { "th": "ฮ" },
+      "phonetic": {
+        "en": "ho nokhuk · /h/",
+        "th": "ฮ นกฮูก · /h/",
+        "fa": "ho nokhuk · /h/",
+        "ar": "ho nokhuk · /h/",
+        "es": "ho nokhuk · /h/",
+        "zh": "ho nokhuk · /h/",
+        "ja": "ho nokhuk · /h/"
+      }
+    },
+
+    {
+      "id": "hdr_short_v",
+      "header": true,
+      "texts": {
+        "en": "Short Vowels",
+        "th": "สระเสียงสั้น",
+        "fa": "واکه‌های کوتاه",
+        "ar": "الحركات القصيرة",
+        "es": "Vocales cortas",
+        "zh": "短元音",
+        "ja": "短母音"
+      }
+    },
+
+    {
+      "id": "v_short_01",
+      "kind": "character",
+      "texts": { "th": "อะ" },
+      "phonetic": {
+        "en": "a · /a/",
+        "th": "อะ · /a/",
+        "fa": "a · /a/",
+        "ar": "a · /a/",
+        "es": "a · /a/",
+        "zh": "a · /a/",
+        "ja": "a · /a/"
+      }
+    },
+    {
+      "id": "v_short_02",
+      "kind": "character",
+      "texts": { "th": "อิ" },
+      "phonetic": {
+        "en": "i · /i/",
+        "th": "อิ · /i/",
+        "fa": "i · /i/",
+        "ar": "i · /i/",
+        "es": "i · /i/",
+        "zh": "i · /i/",
+        "ja": "i · /i/"
+      }
+    },
+    {
+      "id": "v_short_03",
+      "kind": "character",
+      "texts": { "th": "อึ" },
+      "phonetic": {
+        "en": "ue · /ɯ/",
+        "th": "อึ · /ɯ/",
+        "fa": "ue · /ɯ/",
+        "ar": "ue · /ɯ/",
+        "es": "ue · /ɯ/",
+        "zh": "ue · /ɯ/",
+        "ja": "ue · /ɯ/"
+      }
+    },
+    {
+      "id": "v_short_04",
+      "kind": "character",
+      "texts": { "th": "อุ" },
+      "phonetic": {
+        "en": "u · /u/",
+        "th": "อุ · /u/",
+        "fa": "u · /u/",
+        "ar": "u · /u/",
+        "es": "u · /u/",
+        "zh": "u · /u/",
+        "ja": "u · /u/"
+      }
+    },
+    {
+      "id": "v_short_05",
+      "kind": "character",
+      "texts": { "th": "เอะ" },
+      "phonetic": {
+        "en": "e · /e/",
+        "th": "เอะ · /e/",
+        "fa": "e · /e/",
+        "ar": "e · /e/",
+        "es": "e · /e/",
+        "zh": "e · /e/",
+        "ja": "e · /e/"
+      }
+    },
+    {
+      "id": "v_short_06",
+      "kind": "character",
+      "texts": { "th": "แอะ" },
+      "phonetic": {
+        "en": "ae · /ɛ/",
+        "th": "แอะ · /ɛ/",
+        "fa": "ae · /ɛ/",
+        "ar": "ae · /ɛ/",
+        "es": "ae · /ɛ/",
+        "zh": "ae · /ɛ/",
+        "ja": "ae · /ɛ/"
+      }
+    },
+    {
+      "id": "v_short_07",
+      "kind": "character",
+      "texts": { "th": "โอะ" },
+      "phonetic": {
+        "en": "o · /o/",
+        "th": "โอะ · /o/",
+        "fa": "o · /o/",
+        "ar": "o · /o/",
+        "es": "o · /o/",
+        "zh": "o · /o/",
+        "ja": "o · /o/"
+      }
+    },
+    {
+      "id": "v_short_08",
+      "kind": "character",
+      "texts": { "th": "เอาะ" },
+      "phonetic": {
+        "en": "aw · /ɔ/",
+        "th": "เอาะ · /ɔ/",
+        "fa": "aw · /ɔ/",
+        "ar": "aw · /ɔ/",
+        "es": "aw · /ɔ/",
+        "zh": "aw · /ɔ/",
+        "ja": "aw · /ɔ/"
+      }
+    },
+    {
+      "id": "v_short_09",
+      "kind": "character",
+      "texts": { "th": "เออะ" },
+      "phonetic": {
+        "en": "oe · /ɤ/",
+        "th": "เออะ · /ɤ/",
+        "fa": "oe · /ɤ/",
+        "ar": "oe · /ɤ/",
+        "es": "oe · /ɤ/",
+        "zh": "oe · /ɤ/",
+        "ja": "oe · /ɤ/"
+      }
+    },
+
+    {
+      "id": "hdr_long_v",
+      "header": true,
+      "texts": {
+        "en": "Long Vowels",
+        "th": "สระเสียงยาว",
+        "fa": "واکه‌های بلند",
+        "ar": "الحركات الطويلة",
+        "es": "Vocales largas",
+        "zh": "长元音",
+        "ja": "長母音"
+      }
+    },
+
+    {
+      "id": "v_long_01",
+      "kind": "character",
+      "texts": { "th": "อา" },
+      "phonetic": {
+        "en": "aa · /aː/",
+        "th": "อา · /aː/",
+        "fa": "aa · /aː/",
+        "ar": "aa · /aː/",
+        "es": "aa · /aː/",
+        "zh": "aa · /aː/",
+        "ja": "aa · /aː/"
+      }
+    },
+    {
+      "id": "v_long_02",
+      "kind": "character",
+      "texts": { "th": "อี" },
+      "phonetic": {
+        "en": "ii · /iː/",
+        "th": "อี · /iː/",
+        "fa": "ii · /iː/",
+        "ar": "ii · /iː/",
+        "es": "ii · /iː/",
+        "zh": "ii · /iː/",
+        "ja": "ii · /iː/"
+      }
+    },
+    {
+      "id": "v_long_03",
+      "kind": "character",
+      "texts": { "th": "อื" },
+      "phonetic": {
+        "en": "uee · /ɯː/",
+        "th": "อื · /ɯː/",
+        "fa": "uee · /ɯː/",
+        "ar": "uee · /ɯː/",
+        "es": "uee · /ɯː/",
+        "zh": "uee · /ɯː/",
+        "ja": "uee · /ɯː/"
+      }
+    },
+    {
+      "id": "v_long_04",
+      "kind": "character",
+      "texts": { "th": "อู" },
+      "phonetic": {
+        "en": "uu · /uː/",
+        "th": "อู · /uː/",
+        "fa": "uu · /uː/",
+        "ar": "uu · /uː/",
+        "es": "uu · /uː/",
+        "zh": "uu · /uː/",
+        "ja": "uu · /uː/"
+      }
+    },
+    {
+      "id": "v_long_05",
+      "kind": "character",
+      "texts": { "th": "เอ" },
+      "phonetic": {
+        "en": "ee · /eː/",
+        "th": "เอ · /eː/",
+        "fa": "ee · /eː/",
+        "ar": "ee · /eː/",
+        "es": "ee · /eː/",
+        "zh": "ee · /eː/",
+        "ja": "ee · /eː/"
+      }
+    },
+    {
+      "id": "v_long_06",
+      "kind": "character",
+      "texts": { "th": "แอ" },
+      "phonetic": {
+        "en": "aae · /ɛː/",
+        "th": "แอ · /ɛː/",
+        "fa": "aae · /ɛː/",
+        "ar": "aae · /ɛː/",
+        "es": "aae · /ɛː/",
+        "zh": "aae · /ɛː/",
+        "ja": "aae · /ɛː/"
+      }
+    },
+    {
+      "id": "v_long_07",
+      "kind": "character",
+      "texts": { "th": "โอ" },
+      "phonetic": {
+        "en": "oo · /oː/",
+        "th": "โอ · /oː/",
+        "fa": "oo · /oː/",
+        "ar": "oo · /oː/",
+        "es": "oo · /oː/",
+        "zh": "oo · /oː/",
+        "ja": "oo · /oː/"
+      }
+    },
+    {
+      "id": "v_long_08",
+      "kind": "character",
+      "texts": { "th": "ออ" },
+      "phonetic": {
+        "en": "aw · /ɔː/",
+        "th": "ออ · /ɔː/",
+        "fa": "aw · /ɔː/",
+        "ar": "aw · /ɔː/",
+        "es": "aw · /ɔː/",
+        "zh": "aw · /ɔː/",
+        "ja": "aw · /ɔː/"
+      }
+    },
+    {
+      "id": "v_long_09",
+      "kind": "character",
+      "texts": { "th": "เออ" },
+      "phonetic": {
+        "en": "oee · /ɤː/",
+        "th": "เออ · /ɤː/",
+        "fa": "oee · /ɤː/",
+        "ar": "oee · /ɤː/",
+        "es": "oee · /ɤː/",
+        "zh": "oee · /ɤː/",
+        "ja": "oee · /ɤː/"
+      }
+    },
+
+    {
+      "id": "hdr_compound_v",
+      "header": true,
+      "texts": {
+        "en": "Compound Vowels",
+        "th": "สระผสม",
+        "fa": "واکه‌های ترکیبی",
+        "ar": "الحركات المركبة",
+        "es": "Vocales compuestas",
+        "zh": "复合元音",
+        "ja": "複合母音"
+      }
+    },
+
+    {
+      "id": "v_comp_01",
+      "kind": "character",
+      "texts": { "th": "เอีย" },
+      "phonetic": {
+        "en": "ia · /ia/",
+        "th": "เอีย · /ia/",
+        "fa": "ia · /ia/",
+        "ar": "ia · /ia/",
+        "es": "ia · /ia/",
+        "zh": "ia · /ia/",
+        "ja": "ia · /ia/"
+      }
+    },
+    {
+      "id": "v_comp_02",
+      "kind": "character",
+      "texts": { "th": "เอือ" },
+      "phonetic": {
+        "en": "uea · /ɯa/",
+        "th": "เอือ · /ɯa/",
+        "fa": "uea · /ɯa/",
+        "ar": "uea · /ɯa/",
+        "es": "uea · /ɯa/",
+        "zh": "uea · /ɯa/",
+        "ja": "uea · /ɯa/"
+      }
+    },
+    {
+      "id": "v_comp_03",
+      "kind": "character",
+      "texts": { "th": "อัว" },
+      "phonetic": {
+        "en": "ua · /ua/",
+        "th": "อัว · /ua/",
+        "fa": "ua · /ua/",
+        "ar": "ua · /ua/",
+        "es": "ua · /ua/",
+        "zh": "ua · /ua/",
+        "ja": "ua · /ua/"
+      }
+    },
+
+    {
+      "id": "hdr_tones",
+      "header": true,
+      "texts": {
+        "en": "Tone Markers",
+        "th": "วรรณยุกต์",
+        "fa": "نشانۀ تُن",
+        "ar": "علامات النغمة",
+        "es": "Marcas de tono",
+        "zh": "声调符号",
+        "ja": "声調符号"
+      }
+    },
+
+    {
+      "id": "t_mark_01",
+      "kind": "character",
+      "texts": { "th": "อ" },
+      "phonetic": {
+        "en": "mai chang · mid tone · /˧/",
+        "th": "ไม้จัตวา (พื้นเสียง) · /˧/",
+        "fa": "mai chang · تُن میانی · /˧/",
+        "ar": "mai chang · نغمة وسطى · /˧/",
+        "es": "mai chang · tono medio · /˧/",
+        "zh": "mai chang · 中调 · /˧/",
+        "ja": "mai chang · 中声調 · /˧/"
+      }
+    },
+    {
+      "id": "t_mark_02",
+      "kind": "character",
+      "texts": { "th": "อ่" },
+      "phonetic": {
+        "en": "mai ek · low tone · /˨˩/",
+        "th": "ไม้เอก · /˨˩/",
+        "fa": "mai ek · تُن پایین · /˨˩/",
+        "ar": "mai ek · نغمة منخفضة · /˨˩/",
+        "es": "mai ek · tono bajo · /˨˩/",
+        "zh": "mai ek · 低调 · /˨˩/",
+        "ja": "mai ek · 低声調 · /˨˩/"
+      }
+    },
+    {
+      "id": "t_mark_03",
+      "kind": "character",
+      "texts": { "th": "อ้" },
+      "phonetic": {
+        "en": "mai tho · falling tone · /˥˩/",
+        "th": "ไม้โท · /˥˩/",
+        "fa": "mai tho · تُن نزولی · /˥˩/",
+        "ar": "mai tho · نغمة هابطة · /˥˩/",
+        "es": "mai tho · tono descendente · /˥˩/",
+        "zh": "mai tho · 降调 · /˥˩/",
+        "ja": "mai tho · 下降声調 · /˥˩/"
+      }
+    },
+    {
+      "id": "t_mark_04",
+      "kind": "character",
+      "texts": { "th": "อ๊" },
+      "phonetic": {
+        "en": "mai tri · high tone · /˦˥/",
+        "th": "ไม้ตรี · /˦˥/",
+        "fa": "mai tri · تُن بالا · /˦˥/",
+        "ar": "mai tri · نغمة عالية · /˦˥/",
+        "es": "mai tri · tono alto · /˦˥/",
+        "zh": "mai tri · 高调 · /˦˥/",
+        "ja": "mai tri · 高声調 · /˦˥/"
+      }
+    },
+    {
+      "id": "t_mark_05",
+      "kind": "character",
+      "texts": { "th": "อ๋" },
+      "phonetic": {
+        "en": "mai chattawa · rising tone · /˩˩˦/",
+        "th": "ไม้จัตวา · /˩˩˦/",
+        "fa": "mai chattawa · تُن صعودی · /˩˩˦/",
+        "ar": "mai chattawa · نغمة صاعدة · /˩˩˦/",
+        "es": "mai chattawa · tono ascendente · /˩˩˦/",
+        "zh": "mai chattawa · 升调 · /˩˩˦/",
+        "ja": "mai chattawa · 上昇声調 · /˩˩˦/"
+      }
+    }
+  ]
+}

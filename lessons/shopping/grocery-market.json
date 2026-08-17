@@ -1,0 +1,2889 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำหลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras básicas",
+        "zh": "核心词汇",
+        "ja": "コア単語"
+      }
+    },
+    {
+      "id": "word_buy",
+      "kind": "word",
+      "texts": {
+        "en": "buy",
+        "th": "ซื้อ",
+        "fa": "خریدن",
+        "ar": "يشتري",
+        "es": "comprar",
+        "zh": "买",
+        "ja": "買う"
+      }
+    },
+    {
+      "id": "word_market",
+      "kind": "word",
+      "texts": {
+        "en": "market",
+        "th": "ตลาด",
+        "fa": "بازار",
+        "ar": "سوق",
+        "es": "mercado",
+        "zh": "市场",
+        "ja": "市場"
+      }
+    },
+    {
+      "id": "word_sweet",
+      "kind": "word",
+      "texts": {
+        "en": "sweet",
+        "th": "หวาน",
+        "fa": "شیرین",
+        "ar": "حلو",
+        "es": "dulce",
+        "zh": "甜",
+        "ja": "甘い"
+      }
+    },
+    {
+      "id": "word_sour",
+      "kind": "word",
+      "texts": {
+        "en": "sour",
+        "th": "เปรี้ยว",
+        "fa": "ترش",
+        "ar": "حامض",
+        "es": "agrio",
+        "zh": "酸",
+        "ja": "酸っぱい"
+      }
+    },
+    {
+      "id": "word_expensive",
+      "kind": "word",
+      "texts": {
+        "en": "expensive",
+        "th": "แพง",
+        "fa": "گران",
+        "ar": "غالي",
+        "es": "caro",
+        "zh": "贵",
+        "ja": "高い"
+      }
+    },
+    {
+      "id": "word_cheap",
+      "kind": "word",
+      "texts": {
+        "en": "cheap",
+        "th": "ถูก",
+        "fa": "ارزان",
+        "ar": "رخيص",
+        "es": "barato",
+        "zh": "便宜",
+        "ja": "安い"
+      }
+    },
+    {
+      "id": "word_kilo",
+      "kind": "word",
+      "texts": {
+        "en": "kilo",
+        "th": "กิโล",
+        "fa": "کیلو",
+        "ar": "كيلو",
+        "es": "kilo",
+        "zh": "公斤",
+        "ja": "キロ"
+      }
+    },
+    {
+      "id": "word_100g",
+      "kind": "word",
+      "texts": {
+        "en": "hundred grams",
+        "th": "ขีด",
+        "fa": "صد گرم",
+        "ar": "مئة غرام",
+        "es": "cien gramos",
+        "zh": "一百克",
+        "ja": "百グラム"
+      }
+    },
+    {
+      "id": "word_bag",
+      "kind": "word",
+      "texts": {
+        "en": "bag",
+        "th": "ถุง",
+        "fa": "کیسه",
+        "ar": "كيس",
+        "es": "bolsa",
+        "zh": "袋子",
+        "ja": "袋"
+      }
+    },
+    {
+      "id": "word_take",
+      "kind": "word",
+      "texts": {
+        "en": "take",
+        "th": "เอา",
+        "fa": "گرفتن",
+        "ar": "آخذ",
+        "es": "llevar",
+        "zh": "要",
+        "ja": "ください"
+      }
+    },
+    {
+      "id": "word_request",
+      "kind": "word",
+      "texts": {
+        "en": "request",
+        "th": "ขอ",
+        "fa": "درخواست کردن",
+        "ar": "أطلب",
+        "es": "pedir",
+        "zh": "请给",
+        "ja": "ください"
+      }
+    },
+    {
+      "id": "word_not",
+      "kind": "word",
+      "texts": {
+        "en": "not",
+        "th": "ไม่",
+        "fa": "نه",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不",
+        "ja": "ない"
+      }
+    },
+    {
+      "id": "word_very",
+      "kind": "word",
+      "texts": {
+        "en": "very",
+        "th": "มาก",
+        "fa": "خیلی",
+        "ar": "جداً",
+        "es": "muy",
+        "zh": "很",
+        "ja": "とても"
+      }
+    },
+    {
+      "id": "word_how_much",
+      "kind": "word",
+      "texts": {
+        "en": "how much",
+        "th": "เท่าไหร่",
+        "fa": "چقدر",
+        "ar": "كم",
+        "es": "cuánto",
+        "zh": "多少",
+        "ja": "いくら"
+      }
+    },
+    {
+      "id": "word_question",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_have",
+      "kind": "word",
+      "texts": {
+        "en": "have",
+        "th": "มี",
+        "fa": "داشتن",
+        "ar": "لدى",
+        "es": "tener",
+        "zh": "有",
+        "ja": "あります"
+      }
+    },
+    {
+      "id": "word_this",
+      "kind": "word",
+      "texts": {
+        "en": "this",
+        "th": "นี้",
+        "fa": "این",
+        "ar": "هذا",
+        "es": "esto",
+        "zh": "这",
+        "ja": "これ"
+      }
+    },
+    {
+      "id": "word_fresh",
+      "kind": "word",
+      "texts": {
+        "en": "fresh",
+        "th": "สด",
+        "fa": "تازه",
+        "ar": "طازج",
+        "es": "fresco",
+        "zh": "新鲜",
+        "ja": "新鮮な"
+      }
+    },
+    {
+      "id": "word_fruit",
+      "kind": "word",
+      "texts": {
+        "en": "fruit",
+        "th": "ผลไม้",
+        "fa": "میوه",
+        "ar": "فاكهة",
+        "es": "fruta",
+        "zh": "水果",
+        "ja": "果物"
+      }
+    },
+    {
+      "id": "word_is",
+      "kind": "word",
+      "texts": {
+        "en": "is",
+        "th": "คือ",
+        "fa": "است",
+        "ar": "هو",
+        "es": "es",
+        "zh": "是",
+        "ja": "です"
+      }
+    },
+    {
+      "id": "header_scenario_1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Browsing the Market",
+        "th": "สถานการณ์ 1: ดูตลาด",
+        "fa": "سناریوی ۱: گشت و گذار در بازار",
+        "ar": "السيناريو ١: تصفح السوق",
+        "es": "Escenario 1: Mirando el mercado",
+        "zh": "场景一：浏览市场",
+        "ja": "シーン1：市場を見る"
+      }
+    },
+    {
+      "id": "sentence_gm_s1_what_is_this",
+      "kind": "sentence",
+      "itemIds": [
+        "word_this",
+        "word_is",
+        "word_what"
+      ],
+      "texts": {
+        "en": "What is this",
+        "th": "อันนี้คืออะไรคะ",
+        "fa": "این چیست",
+        "ar": "ما هذا",
+        "es": "Qué es esto",
+        "zh": "这是什么",
+        "ja": "これは何ですか"
+      },
+      "tokens": {
+        "en": [
+          "What",
+          "is",
+          "this"
+        ],
+        "th": [
+          "อันนี้",
+          "คือ",
+          "อะไร",
+          "คะ"
+        ],
+        "fa": [
+          "این",
+          "چیست"
+        ],
+        "ar": [
+          "ما",
+          "هذا"
+        ],
+        "es": [
+          "Qué",
+          "es",
+          "esto"
+        ],
+        "zh": [
+          "这",
+          "是",
+          "什么"
+        ],
+        "ja": [
+          "これ",
+          "は",
+          "何",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s1_have_mango",
+      "kind": "sentence",
+      "itemIds": [
+        "word_have",
+        "word_mango",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Do you have mangoes",
+        "th": "มีมะม่วงไหมคะ",
+        "fa": "انبه دارید",
+        "ar": "هل لديك مانجو",
+        "es": "Tienes mangos",
+        "zh": "有芒果吗",
+        "ja": "マンゴーはありますか"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "have",
+          "mangoes"
+        ],
+        "th": [
+          "มี",
+          "มะม่วง",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "انبه",
+          "دارید"
+        ],
+        "ar": [
+          "هل",
+          "لديك",
+          "مانجو"
+        ],
+        "es": [
+          "Tienes",
+          "mangos"
+        ],
+        "zh": [
+          "有",
+          "芒果",
+          "吗"
+        ],
+        "ja": [
+          "マンゴー",
+          "は",
+          "あります",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s1_is_durian",
+      "kind": "sentence",
+      "itemIds": [
+        "word_this",
+        "word_is",
+        "word_mango",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Is this a mango",
+        "th": "อันนี้คือมะม่วงไหมคะ",
+        "fa": "آیا این انبه است",
+        "ar": "هل هذا مانجو",
+        "es": "Es esto un mango",
+        "zh": "这是芒果吗",
+        "ja": "これはマンゴーですか"
+      },
+      "tokens": {
+        "en": [
+          "Is",
+          "this",
+          "a",
+          "mango"
+        ],
+        "th": [
+          "อันนี้",
+          "คือ",
+          "มะม่วง",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "این",
+          "انبه",
+          "است"
+        ],
+        "ar": [
+          "هل",
+          "هذا",
+          "مانجو"
+        ],
+        "es": [
+          "Es",
+          "esto",
+          "un",
+          "mango"
+        ],
+        "zh": [
+          "这",
+          "是",
+          "芒果",
+          "吗"
+        ],
+        "ja": [
+          "これ",
+          "は",
+          "マンゴー",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s1_where_mango",
+      "kind": "sentence",
+      "itemIds": [
+        "word_mango",
+        "word_be_at",
+        "word_where"
+      ],
+      "texts": {
+        "en": "Where are the mangoes",
+        "th": "มะม่วงอยู่ที่ไหนคะ",
+        "fa": "انبه‌ها کجا هستند",
+        "ar": "أين المانجو",
+        "es": "Dónde están los mangos",
+        "zh": "芒果在哪里",
+        "ja": "マンゴーはどこですか"
+      },
+      "tokens": {
+        "en": [
+          "Where",
+          "are",
+          "the",
+          "mangoes"
+        ],
+        "th": [
+          "มะม่วง",
+          "อยู่",
+          "ที่ไหน",
+          "คะ"
+        ],
+        "fa": [
+          "انبه‌ها",
+          "کجا",
+          "هستند"
+        ],
+        "ar": [
+          "أين",
+          "المانجو"
+        ],
+        "es": [
+          "Dónde",
+          "están",
+          "los",
+          "mangos"
+        ],
+        "zh": [
+          "芒果",
+          "在",
+          "哪里"
+        ],
+        "ja": [
+          "マンゴー",
+          "は",
+          "どこ",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s1_take_pork",
+      "kind": "sentence",
+      "itemIds": [
+        "word_take",
+        "word_pork"
+      ],
+      "texts": {
+        "en": "I will take pork",
+        "th": "เอาหมูค่ะ",
+        "fa": "گوشت خوک می‌گیرم",
+        "ar": "آخذ الخنزير",
+        "es": "Quiero cerdo",
+        "zh": "我要猪肉",
+        "ja": "豚肉をください"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "will",
+          "take",
+          "pork"
+        ],
+        "th": [
+          "เอา",
+          "หมู",
+          "ค่ะ"
+        ],
+        "fa": [
+          "گوشت",
+          "خوک",
+          "می‌گیرم"
+        ],
+        "ar": [
+          "آخذ",
+          "الخنزير"
+        ],
+        "es": [
+          "Quiero",
+          "cerdo"
+        ],
+        "zh": [
+          "我",
+          "要",
+          "猪肉"
+        ],
+        "ja": [
+          "豚肉",
+          "を",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s1_have_holy_basil",
+      "kind": "sentence",
+      "itemIds": [
+        "word_have",
+        "word_holy_basil",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Do you have holy basil",
+        "th": "มีกะเพราไหมคะ",
+        "fa": "ریحان مقدس دارید",
+        "ar": "هل لديك ريحان مقدس",
+        "es": "Tienes albahaca sagrada",
+        "zh": "有圣罗勒吗",
+        "ja": "ホーリーバジルはありますか"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "have",
+          "holy",
+          "basil"
+        ],
+        "th": [
+          "มี",
+          "กะเพรา",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "ریحان",
+          "مقدس",
+          "دارید"
+        ],
+        "ar": [
+          "هل",
+          "لديك",
+          "ريحان",
+          "مقدس"
+        ],
+        "es": [
+          "Tienes",
+          "albahaca",
+          "sagrada"
+        ],
+        "zh": [
+          "有",
+          "圣罗勒",
+          "吗"
+        ],
+        "ja": [
+          "ホーリーバジル",
+          "は",
+          "あります",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s1_this_morning_glory",
+      "kind": "sentence",
+      "itemIds": [
+        "word_this",
+        "word_is",
+        "word_morning_glory"
+      ],
+      "texts": {
+        "en": "This is morning glory",
+        "th": "อันนี้คือผักบุ้งค่ะ",
+        "fa": "این اسفناج آبی است",
+        "ar": "هذا سبانخ الماء",
+        "es": "Esto es gloria de la mañana",
+        "zh": "这是空心菜",
+        "ja": "これは空心菜です"
+      },
+      "tokens": {
+        "en": [
+          "This",
+          "is",
+          "morning",
+          "glory"
+        ],
+        "th": [
+          "อันนี้",
+          "คือ",
+          "ผักบุ้ง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "این",
+          "اسفناج",
+          "آبی",
+          "است"
+        ],
+        "ar": [
+          "هذا",
+          "سبانخ",
+          "الماء"
+        ],
+        "es": [
+          "Esto",
+          "es",
+          "gloria",
+          "de",
+          "la",
+          "mañana"
+        ],
+        "zh": [
+          "这",
+          "是",
+          "空心菜"
+        ],
+        "ja": [
+          "これ",
+          "は",
+          "空心菜",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "word_what",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه",
+        "ar": "ماذا",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_mango",
+      "kind": "word",
+      "texts": {
+        "en": "mango",
+        "th": "มะม่วง",
+        "fa": "انبه",
+        "ar": "مانجو",
+        "es": "mango",
+        "zh": "芒果",
+        "ja": "マンゴー"
+      }
+    },
+    {
+      "id": "word_morning_glory",
+      "kind": "word",
+      "texts": {
+        "en": "morning glory",
+        "th": "ผักบุ้ง",
+        "fa": "اسفناج آبی",
+        "ar": "سبانخ الماء",
+        "es": "gloria de la mañana",
+        "zh": "空心菜",
+        "ja": "空心菜"
+      }
+    },
+    {
+      "id": "word_holy_basil",
+      "kind": "word",
+      "texts": {
+        "en": "holy basil",
+        "th": "กะเพรา",
+        "fa": "ریحان مقدس",
+        "ar": "ريحان مقدس",
+        "es": "albahaca sagrada",
+        "zh": "圣罗勒",
+        "ja": "ホーリーバジル"
+      }
+    },
+    {
+      "id": "word_pork",
+      "kind": "word",
+      "texts": {
+        "en": "pork",
+        "th": "หมู",
+        "fa": "گوشت خوک",
+        "ar": "خنزير",
+        "es": "cerdo",
+        "zh": "猪肉",
+        "ja": "豚肉"
+      }
+    },
+    {
+      "id": "word_where",
+      "kind": "word",
+      "texts": {
+        "en": "where",
+        "th": "ที่ไหน",
+        "fa": "کجا",
+        "ar": "أين",
+        "es": "dónde",
+        "zh": "哪里",
+        "ja": "どこ"
+      }
+    },
+    {
+      "id": "word_be_at",
+      "kind": "word",
+      "texts": {
+        "en": "be at",
+        "th": "อยู่",
+        "fa": "بودن",
+        "ar": "يوجد",
+        "es": "estar",
+        "zh": "在",
+        "ja": "あります"
+      }
+    },
+    {
+      "id": "header_scenario_2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Ordering Quantities",
+        "th": "สถานการณ์ 2: การสั่งจำนวน",
+        "fa": "سناریوی ۲: سفارش مقادیر",
+        "ar": "السيناريو ٢: طلب الكميات",
+        "es": "Escenario 2: Pedir cantidades",
+        "zh": "场景二：点数量",
+        "ja": "シーン2：数量の注文"
+      }
+    },
+    {
+      "id": "sentence_gm_s2_take_one_kilo_mango",
+      "kind": "sentence",
+      "itemIds": [
+        "word_take",
+        "word_mango",
+        "word_one",
+        "word_kilo"
+      ],
+      "texts": {
+        "en": "I will take one kilo of mangoes",
+        "th": "เอามะม่วงหนึ่งกิโลค่ะ",
+        "fa": "یک کیلو انبه می‌گیرم",
+        "ar": "آخذ كيلو مانجو",
+        "es": "Quiero un kilo de mangos",
+        "zh": "我要一公斤芒果",
+        "ja": "マンゴーを一キロください"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "will",
+          "take",
+          "one",
+          "kilo",
+          "of",
+          "mangoes"
+        ],
+        "th": [
+          "เอา",
+          "มะม่วง",
+          "หนึ่ง",
+          "กิโล",
+          "ค่ะ"
+        ],
+        "fa": [
+          "یک",
+          "کیلو",
+          "انبه",
+          "می‌گیرم"
+        ],
+        "ar": [
+          "آخذ",
+          "كيلو",
+          "مانجو"
+        ],
+        "es": [
+          "Quiero",
+          "un",
+          "kilo",
+          "de",
+          "mangos"
+        ],
+        "zh": [
+          "我",
+          "要",
+          "一",
+          "公斤",
+          "芒果"
+        ],
+        "ja": [
+          "マンゴー",
+          "を",
+          "一",
+          "キロ",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s2_request_two_kilo_pork",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_pork",
+        "word_two",
+        "word_kilo"
+      ],
+      "texts": {
+        "en": "Please give me two kilos of pork",
+        "th": "ขอหมูสองกิโลค่ะ",
+        "fa": "لطفا دو کیلو گوشت خوک بدهید",
+        "ar": "أعطني كيلوين من الخنزير",
+        "es": "Dame dos kilos de cerdo",
+        "zh": "请给我两公斤猪肉",
+        "ja": "豚肉を二キロください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "give",
+          "me",
+          "two",
+          "kilos",
+          "of",
+          "pork"
+        ],
+        "th": [
+          "ขอ",
+          "หมู",
+          "สอง",
+          "กิโล",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفا",
+          "دو",
+          "کیلو",
+          "گوشت",
+          "خوک",
+          "بدهید"
+        ],
+        "ar": [
+          "أعطني",
+          "كيلوين",
+          "من",
+          "الخنزير"
+        ],
+        "es": [
+          "Dame",
+          "dos",
+          "kilos",
+          "de",
+          "cerdo"
+        ],
+        "zh": [
+          "请",
+          "给",
+          "我",
+          "两",
+          "公斤",
+          "猪肉"
+        ],
+        "ja": [
+          "豚肉",
+          "を",
+          "二",
+          "キロ",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s2_request_three_100g_holy_basil",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_holy_basil",
+        "word_three",
+        "word_100g"
+      ],
+      "texts": {
+        "en": "Please give me three hundred grams of holy basil",
+        "th": "ขอกะเพราสามขีดค่ะ",
+        "fa": "لطفا سیصد گرم ریحان مقدس بدهید",
+        "ar": "أعطني ثلاثمئة غرام من الريحان المقدس",
+        "es": "Dame trescientos gramos de albahaca sagrada",
+        "zh": "请给我三百克圣罗勒",
+        "ja": "ホーリーバジルを三百グラムください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "give",
+          "me",
+          "three",
+          "hundred",
+          "grams",
+          "of",
+          "holy",
+          "basil"
+        ],
+        "th": [
+          "ขอ",
+          "กะเพรา",
+          "สาม",
+          "ขีด",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفا",
+          "سیصد",
+          "گرم",
+          "ریحان",
+          "مقدس",
+          "بدهید"
+        ],
+        "ar": [
+          "أعطني",
+          "ثلاثمئة",
+          "غرام",
+          "من",
+          "الريحان",
+          "المقدس"
+        ],
+        "es": [
+          "Dame",
+          "trescientos",
+          "gramos",
+          "de",
+          "albahaca",
+          "sagrada"
+        ],
+        "zh": [
+          "请",
+          "给",
+          "我",
+          "三百",
+          "克",
+          "圣罗勒"
+        ],
+        "ja": [
+          "ホーリーバジル",
+          "を",
+          "三百",
+          "グラム",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s2_take_half_kilo",
+      "kind": "sentence",
+      "itemIds": [
+        "word_take",
+        "word_half",
+        "word_kilo"
+      ],
+      "texts": {
+        "en": "I will take half a kilo",
+        "th": "เอาครึ่งกิโลค่ะ",
+        "fa": "نیم کیلو می‌گیرم",
+        "ar": "آخذ نصف كيلو",
+        "es": "Quiero medio kilo",
+        "zh": "我要半公斤",
+        "ja": "半分キロください"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "will",
+          "take",
+          "half",
+          "a",
+          "kilo"
+        ],
+        "th": [
+          "เอา",
+          "ครึ่ง",
+          "กิโล",
+          "ค่ะ"
+        ],
+        "fa": [
+          "نیم",
+          "کیلو",
+          "می‌گیرم"
+        ],
+        "ar": [
+          "آخذ",
+          "نصف",
+          "كيلو"
+        ],
+        "es": [
+          "Quiero",
+          "medio",
+          "kilo"
+        ],
+        "zh": [
+          "我",
+          "要",
+          "半",
+          "公斤"
+        ],
+        "ja": [
+          "半分",
+          "キロ",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s2_request_two_bag_rice",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_rice",
+        "word_two",
+        "word_bag"
+      ],
+      "texts": {
+        "en": "Please give me two bags of rice",
+        "th": "ขอข้าวสองถุงค่ะ",
+        "fa": "لطفا دو کیسه برنج بدهید",
+        "ar": "أعطني كيسين من الأرز",
+        "es": "Dame dos bolsas de arroz",
+        "zh": "请给我两袋米",
+        "ja": "米を二袋ください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "give",
+          "me",
+          "two",
+          "bags",
+          "of",
+          "rice"
+        ],
+        "th": [
+          "ขอ",
+          "ข้าว",
+          "สอง",
+          "ถุง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفا",
+          "دو",
+          "کیسه",
+          "برنج",
+          "بدهید"
+        ],
+        "ar": [
+          "أعطني",
+          "كيسين",
+          "من",
+          "الأرز"
+        ],
+        "es": [
+          "Dame",
+          "dos",
+          "bolsas",
+          "de",
+          "arroz"
+        ],
+        "zh": [
+          "请",
+          "给",
+          "我",
+          "两",
+          "袋",
+          "米"
+        ],
+        "ja": [
+          "米",
+          "を",
+          "二",
+          "袋",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s2_take_three_mango",
+      "kind": "sentence",
+      "itemIds": [
+        "word_take",
+        "word_mango",
+        "word_three",
+        "word_classifier"
+      ],
+      "texts": {
+        "en": "I will take three mangoes",
+        "th": "เอามะม่วงสามลูกค่ะ",
+        "fa": "سه انبه می‌گیرم",
+        "ar": "آخذ ثلاث حبات مانجو",
+        "es": "Quiero tres mangos",
+        "zh": "我要三个芒果",
+        "ja": "マンゴーを三個ください"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "will",
+          "take",
+          "three",
+          "mangoes"
+        ],
+        "th": [
+          "เอา",
+          "มะม่วง",
+          "สาม",
+          "ลูก",
+          "ค่ะ"
+        ],
+        "fa": [
+          "سه",
+          "انبه",
+          "می‌گیرم"
+        ],
+        "ar": [
+          "آخذ",
+          "ثلاث",
+          "حبات",
+          "مانجو"
+        ],
+        "es": [
+          "Quiero",
+          "tres",
+          "mangos"
+        ],
+        "zh": [
+          "我",
+          "要",
+          "三个",
+          "芒果"
+        ],
+        "ja": [
+          "マンゴー",
+          "を",
+          "三個",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s2_one_kilo",
+      "kind": "sentence",
+      "itemIds": [
+        "word_one",
+        "word_kilo"
+      ],
+      "texts": {
+        "en": "One kilo please",
+        "th": "หนึ่งกิโลค่ะ",
+        "fa": "یک کیلو لطفا",
+        "ar": "كيلو واحد من فضلك",
+        "es": "Un kilo por favor",
+        "zh": "一公斤",
+        "ja": "一キロください"
+      },
+      "tokens": {
+        "en": [
+          "One",
+          "kilo",
+          "please"
+        ],
+        "th": [
+          "หนึ่ง",
+          "กิโล",
+          "ค่ะ"
+        ],
+        "fa": [
+          "یک",
+          "کیلو",
+          "لطفا"
+        ],
+        "ar": [
+          "كيلو",
+          "واحد",
+          "من",
+          "فضلك"
+        ],
+        "es": [
+          "Un",
+          "kilo",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "一",
+          "公斤"
+        ],
+        "ja": [
+          "一",
+          "キロ",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "word_one",
+      "kind": "word",
+      "texts": {
+        "en": "one",
+        "th": "หนึ่ง",
+        "fa": "یک",
+        "ar": "واحد",
+        "es": "uno",
+        "zh": "一",
+        "ja": "一"
+      }
+    },
+    {
+      "id": "word_two",
+      "kind": "word",
+      "texts": {
+        "en": "two",
+        "th": "สอง",
+        "fa": "دو",
+        "ar": "اثنان",
+        "es": "dos",
+        "zh": "两",
+        "ja": "二"
+      }
+    },
+    {
+      "id": "word_three",
+      "kind": "word",
+      "texts": {
+        "en": "three",
+        "th": "สาม",
+        "fa": "سه",
+        "ar": "ثلاثة",
+        "es": "tres",
+        "zh": "三",
+        "ja": "三"
+      }
+    },
+    {
+      "id": "word_half",
+      "kind": "word",
+      "texts": {
+        "en": "half",
+        "th": "ครึ่ง",
+        "fa": "نصف",
+        "ar": "نصف",
+        "es": "mitad",
+        "zh": "一半",
+        "ja": "半分"
+      }
+    },
+    {
+      "id": "word_classifier",
+      "kind": "word",
+      "texts": {
+        "en": "classifier",
+        "th": "ลูก",
+        "fa": "شمارنده",
+        "ar": "تصنيف",
+        "es": "clasificador",
+        "zh": "个",
+        "ja": "個"
+      }
+    },
+    {
+      "id": "word_rice",
+      "kind": "word",
+      "texts": {
+        "en": "rice",
+        "th": "ข้าว",
+        "fa": "برنج",
+        "ar": "أرز",
+        "es": "arroz",
+        "zh": "米饭",
+        "ja": "米"
+      }
+    },
+    {
+      "id": "header_scenario_3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Quality & Freshness",
+        "th": "สถานการณ์ 3: คุณภาพและความสด",
+        "fa": "سناریوی ۳: کیفیت و تازگی",
+        "ar": "السيناريو ٣: الجودة والنضارة",
+        "es": "Escenario 3: Calidad y frescura",
+        "zh": "场景三：质量与新鲜度",
+        "ja": "シーン3：品質と鮮度"
+      }
+    },
+    {
+      "id": "sentence_gm_s3_is_fresh",
+      "kind": "sentence",
+      "itemIds": [
+        "word_fresh",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Is it fresh",
+        "th": "สดไหมคะ",
+        "fa": "آیا تازه است",
+        "ar": "هل هو طازج",
+        "es": "Está fresco",
+        "zh": "新鲜吗",
+        "ja": "新鮮ですか"
+      },
+      "tokens": {
+        "en": [
+          "Is",
+          "it",
+          "fresh"
+        ],
+        "th": [
+          "สด",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "تازه",
+          "است"
+        ],
+        "ar": [
+          "هل",
+          "هو",
+          "طازج"
+        ],
+        "es": [
+          "Está",
+          "fresco"
+        ],
+        "zh": [
+          "新鲜",
+          "吗"
+        ],
+        "ja": [
+          "新鮮",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s3_is_sweet",
+      "kind": "sentence",
+      "itemIds": [
+        "word_sweet",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Is it sweet",
+        "th": "หวานไหมคะ",
+        "fa": "آیا شیرین است",
+        "ar": "هل هو حلو",
+        "es": "Está dulce",
+        "zh": "甜吗",
+        "ja": "甘いですか"
+      },
+      "tokens": {
+        "en": [
+          "Is",
+          "it",
+          "sweet"
+        ],
+        "th": [
+          "หวาน",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "شیرین",
+          "است"
+        ],
+        "ar": [
+          "هل",
+          "هو",
+          "حلو"
+        ],
+        "es": [
+          "Está",
+          "dulce"
+        ],
+        "zh": [
+          "甜",
+          "吗"
+        ],
+        "ja": [
+          "甘い",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s3_try_taste",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_try",
+        "word_taste"
+      ],
+      "texts": {
+        "en": "Can I try to taste it",
+        "th": "ขอลองชิมได้ไหมคะ",
+        "fa": "می‌توانم مزه آن را بچشم",
+        "ar": "هل يمكنني تذوقه",
+        "es": "Puedo probarlo",
+        "zh": "可以尝尝吗",
+        "ja": "試食できますか"
+      },
+      "tokens": {
+        "en": [
+          "Can",
+          "I",
+          "try",
+          "to",
+          "taste",
+          "it"
+        ],
+        "th": [
+          "ขอ",
+          "ลอง",
+          "ชิม",
+          "ได้",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "می‌توانم",
+          "مزه",
+          "آن",
+          "را",
+          "بچشم"
+        ],
+        "ar": [
+          "هل",
+          "يمكنني",
+          "تذوقه"
+        ],
+        "es": [
+          "Puedo",
+          "probarlo"
+        ],
+        "zh": [
+          "可以",
+          "尝尝",
+          "吗"
+        ],
+        "ja": [
+          "試食",
+          "できます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s3_this_good",
+      "kind": "sentence",
+      "itemIds": [
+        "word_this",
+        "word_good",
+        "word_very"
+      ],
+      "texts": {
+        "en": "This one is very good",
+        "th": "อันนี้ดีมากค่ะ",
+        "fa": "این یکی خیلی خوب است",
+        "ar": "هذا جيد جداً",
+        "es": "Este es muy bueno",
+        "zh": "这个很好",
+        "ja": "これはとても良いです"
+      },
+      "tokens": {
+        "en": [
+          "This",
+          "one",
+          "is",
+          "very",
+          "good"
+        ],
+        "th": [
+          "อันนี้",
+          "ดี",
+          "มาก",
+          "ค่ะ"
+        ],
+        "fa": [
+          "این",
+          "یکی",
+          "خیلی",
+          "خوب",
+          "است"
+        ],
+        "ar": [
+          "هذا",
+          "جيد",
+          "جداً"
+        ],
+        "es": [
+          "Este",
+          "es",
+          "muy",
+          "bueno"
+        ],
+        "zh": [
+          "这个",
+          "很",
+          "好"
+        ],
+        "ja": [
+          "これ",
+          "は",
+          "とても",
+          "良い",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s3_this_not_good",
+      "kind": "sentence",
+      "itemIds": [
+        "word_this",
+        "word_not",
+        "word_good"
+      ],
+      "texts": {
+        "en": "This one is not good",
+        "th": "อันนี้ไม่ดีค่ะ",
+        "fa": "این یکی خوب نیست",
+        "ar": "هذا ليس جيداً",
+        "es": "Este no es bueno",
+        "zh": "这个不好",
+        "ja": "これは良くないです"
+      },
+      "tokens": {
+        "en": [
+          "This",
+          "one",
+          "is",
+          "not",
+          "good"
+        ],
+        "th": [
+          "อันนี้",
+          "ไม่",
+          "ดี",
+          "ค่ะ"
+        ],
+        "fa": [
+          "این",
+          "یکی",
+          "خوب",
+          "نیست"
+        ],
+        "ar": [
+          "هذا",
+          "ليس",
+          "جيداً"
+        ],
+        "es": [
+          "Este",
+          "no",
+          "es",
+          "bueno"
+        ],
+        "zh": [
+          "这个",
+          "不",
+          "好"
+        ],
+        "ja": [
+          "これ",
+          "は",
+          "良くない",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s3_help_choose",
+      "kind": "sentence",
+      "itemIds": [
+        "word_help",
+        "word_choose",
+        "word_give",
+        "word_I"
+      ],
+      "texts": {
+        "en": "Please help choose good ones for me",
+        "th": "ช่วยเลือกอันดีให้ฉันค่ะ",
+        "fa": "لطفاً به من کمک کنید خوب‌ها را انتخاب کنم",
+        "ar": "ساعدني في اختيار الجيد من فضلك",
+        "es": "Ayúdame a elegir los buenos por favor",
+        "zh": "请帮我挑好的",
+        "ja": "良いものを選ぶのを手伝ってください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "help",
+          "choose",
+          "good",
+          "ones",
+          "for",
+          "me"
+        ],
+        "th": [
+          "ช่วย",
+          "เลือก",
+          "อัน",
+          "ดี",
+          "ให้",
+          "ฉัน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفاً",
+          "به",
+          "من",
+          "کمک",
+          "کنید",
+          "خوب‌ها",
+          "را",
+          "انتخاب",
+          "کنم"
+        ],
+        "ar": [
+          "ساعدني",
+          "في",
+          "اختيار",
+          "الجيد",
+          "من",
+          "فضلك"
+        ],
+        "es": [
+          "Ayúdame",
+          "a",
+          "elegir",
+          "los",
+          "buenos",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "请",
+          "帮",
+          "我",
+          "挑",
+          "好",
+          "的"
+        ],
+        "ja": [
+          "良い",
+          "もの",
+          "を",
+          "選ぶ",
+          "の",
+          "を",
+          "手伝って",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s3_mango_sweet",
+      "kind": "sentence",
+      "itemIds": [
+        "word_mango",
+        "word_sweet",
+        "word_very"
+      ],
+      "texts": {
+        "en": "The mango is very sweet",
+        "th": "มะม่วงหวานมากค่ะ",
+        "fa": "انبه خیلی شیرین است",
+        "ar": "المانجو حلوة جداً",
+        "es": "El mango es muy dulce",
+        "zh": "芒果很甜",
+        "ja": "マンゴーはとても甘いです"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "mango",
+          "is",
+          "very",
+          "sweet"
+        ],
+        "th": [
+          "มะม่วง",
+          "หวาน",
+          "มาก",
+          "ค่ะ"
+        ],
+        "fa": [
+          "انبه",
+          "خیلی",
+          "شیرین",
+          "است"
+        ],
+        "ar": [
+          "المانجو",
+          "حلوة",
+          "جداً"
+        ],
+        "es": [
+          "El",
+          "mango",
+          "es",
+          "muy",
+          "dulce"
+        ],
+        "zh": [
+          "芒果",
+          "很",
+          "甜"
+        ],
+        "ja": [
+          "マンゴー",
+          "は",
+          "とても",
+          "甘い",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "word_try",
+      "kind": "word",
+      "texts": {
+        "en": "try",
+        "th": "ลอง",
+        "fa": "امتحان کردن",
+        "ar": "يجرب",
+        "es": "probar",
+        "zh": "尝试",
+        "ja": "試す"
+      }
+    },
+    {
+      "id": "word_choose",
+      "kind": "word",
+      "texts": {
+        "en": "choose",
+        "th": "เลือก",
+        "fa": "انتخاب کردن",
+        "ar": "يختار",
+        "es": "elegir",
+        "zh": "选择",
+        "ja": "選ぶ"
+      }
+    },
+    {
+      "id": "word_help",
+      "kind": "word",
+      "texts": {
+        "en": "help",
+        "th": "ช่วย",
+        "fa": "کمک کردن",
+        "ar": "يساعد",
+        "es": "ayudar",
+        "zh": "帮",
+        "ja": "手伝う"
+      }
+    },
+    {
+      "id": "word_give",
+      "kind": "word",
+      "texts": {
+        "en": "give",
+        "th": "ให้",
+        "fa": "دادن",
+        "ar": "يعطي",
+        "es": "dar",
+        "zh": "给",
+        "ja": "あげる"
+      }
+    },
+    {
+      "id": "word_taste",
+      "kind": "word",
+      "texts": {
+        "en": "taste",
+        "th": "ชิม",
+        "fa": "چشیدن",
+        "ar": "يتذوق",
+        "es": "probar",
+        "zh": "尝",
+        "ja": "味わう"
+      }
+    },
+    {
+      "id": "word_good",
+      "kind": "word",
+      "texts": {
+        "en": "good",
+        "th": "ดี",
+        "fa": "خوب",
+        "ar": "جيد",
+        "es": "bueno",
+        "zh": "好",
+        "ja": "良い"
+      }
+    },
+    {
+      "id": "word_I",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "header_scenario_4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Pricing & Bargaining",
+        "th": "สถานการณ์ 4: ราคาและการต่อรอง",
+        "fa": "سناریوی ۴: قیمت و چانه‌زنی",
+        "ar": "السيناريو ٤: التسعير والمفاومة",
+        "es": "Escenario 4: Precios y regateo",
+        "zh": "场景四：定价与砍价",
+        "ja": "シーン4：価格と値引き"
+      }
+    },
+    {
+      "id": "sentence_gm_s4_how_much_per_kilo",
+      "kind": "sentence",
+      "itemIds": [
+        "word_kilo",
+        "word_per",
+        "word_how_much"
+      ],
+      "texts": {
+        "en": "How much per kilo",
+        "th": "กิโลละเท่าไหร่คะ",
+        "fa": "هر کیلو چقدر است",
+        "ar": "كم سعر الكيلو",
+        "es": "Cuánto por kilo",
+        "zh": "每公斤多少",
+        "ja": "一キロごとにいくらですか"
+      },
+      "tokens": {
+        "en": [
+          "How",
+          "much",
+          "per",
+          "kilo"
+        ],
+        "th": [
+          "กิโล",
+          "ละ",
+          "เท่าไหร่",
+          "คะ"
+        ],
+        "fa": [
+          "هر",
+          "کیلو",
+          "چقدر",
+          "است"
+        ],
+        "ar": [
+          "كم",
+          "سعر",
+          "الكيلو"
+        ],
+        "es": [
+          "Cuánto",
+          "por",
+          "kilo"
+        ],
+        "zh": [
+          "每",
+          "公斤",
+          "多少"
+        ],
+        "ja": [
+          "一",
+          "キロ",
+          "ごとに",
+          "いくら",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s4_expensive_too",
+      "kind": "sentence",
+      "itemIds": [
+        "word_expensive",
+        "word_too"
+      ],
+      "texts": {
+        "en": "It is too expensive",
+        "th": "แพงไปค่ะ",
+        "fa": "خیلی گران است",
+        "ar": "إنه غالٍ جداً",
+        "es": "Es demasiado caro",
+        "zh": "太贵了",
+        "ja": "高すぎます"
+      },
+      "tokens": {
+        "en": [
+          "It",
+          "is",
+          "too",
+          "expensive"
+        ],
+        "th": [
+          "แพง",
+          "ไป",
+          "ค่ะ"
+        ],
+        "fa": [
+          "خیلی",
+          "گران",
+          "است"
+        ],
+        "ar": [
+          "إنه",
+          "غالٍ",
+          "جداً"
+        ],
+        "es": [
+          "Es",
+          "demasiado",
+          "caro"
+        ],
+        "zh": [
+          "太",
+          "贵",
+          "了"
+        ],
+        "ja": [
+          "高すぎ",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s4_reduce_question",
+      "kind": "sentence",
+      "itemIds": [
+        "word_reduce",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Can you reduce it",
+        "th": "ลดได้ไหมคะ",
+        "fa": "آیا می‌توانید کم کنید",
+        "ar": "هل يمكنك تقليله",
+        "es": "Puedes reducirlo",
+        "zh": "可以减价吗",
+        "ja": "値引きできますか"
+      },
+      "tokens": {
+        "en": [
+          "Can",
+          "you",
+          "reduce",
+          "it"
+        ],
+        "th": [
+          "ลด",
+          "ได้",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "می‌توانید",
+          "کم",
+          "کنید"
+        ],
+        "ar": [
+          "هل",
+          "يمكنك",
+          "تقليله"
+        ],
+        "es": [
+          "Puedes",
+          "reducirlo"
+        ],
+        "zh": [
+          "可以",
+          "减价",
+          "吗"
+        ],
+        "ja": [
+          "値引き",
+          "できます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s4_reduce_cheap_bit",
+      "kind": "sentence",
+      "itemIds": [
+        "word_reduce",
+        "word_cheap",
+        "word_bit"
+      ],
+      "texts": {
+        "en": "Please reduce it to be a bit cheaper",
+        "th": "ลดให้ถูกหน่อยค่ะ",
+        "fa": "لطفاً کمی ارزان‌تر کنید",
+        "ar": "اجعله أرخص قليلاً من فضلك",
+        "es": "Redúcelo para que sea un poco más barato",
+        "zh": "请稍微便宜一点",
+        "ja": "少し安くしてください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "reduce",
+          "it",
+          "to",
+          "be",
+          "a",
+          "bit",
+          "cheaper"
+        ],
+        "th": [
+          "ลด",
+          "ให้",
+          "ถูก",
+          "หน่อย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفاً",
+          "کمی",
+          "ارزان‌تر",
+          "کنید"
+        ],
+        "ar": [
+          "اجعله",
+          "أرخص",
+          "قليلاً",
+          "من",
+          "فضلك"
+        ],
+        "es": [
+          "Redúcelo",
+          "para",
+          "que",
+          "sea",
+          "un",
+          "poco",
+          "más",
+          "barato"
+        ],
+        "zh": [
+          "请",
+          "稍微",
+          "便宜",
+          "一点"
+        ],
+        "ja": [
+          "少し",
+          "安く",
+          "して",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s4_three_kilo_how_much",
+      "kind": "sentence",
+      "itemIds": [
+        "word_three",
+        "word_kilo",
+        "word_how_much"
+      ],
+      "texts": {
+        "en": "How much for three kilos",
+        "th": "สามกิโลเท่าไหร่คะ",
+        "fa": "سه کیلو چقدر می‌شود",
+        "ar": "كم سعر ثلاثة كيلوات",
+        "es": "Cuánto por tres kilos",
+        "zh": "三公斤多少",
+        "ja": "三キロでいくらですか"
+      },
+      "tokens": {
+        "en": [
+          "How",
+          "much",
+          "for",
+          "three",
+          "kilos"
+        ],
+        "th": [
+          "สาม",
+          "กิโล",
+          "เท่าไหร่",
+          "คะ"
+        ],
+        "fa": [
+          "سه",
+          "کیلو",
+          "چقدر",
+          "می‌شود"
+        ],
+        "ar": [
+          "كم",
+          "سعر",
+          "ثلاثة",
+          "كيلوات"
+        ],
+        "es": [
+          "Cuánto",
+          "por",
+          "tres",
+          "kilos"
+        ],
+        "zh": [
+          "三",
+          "公斤",
+          "多少"
+        ],
+        "ja": [
+          "三",
+          "キロ",
+          "で",
+          "いくら",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s4_hundred_baht_question",
+      "kind": "sentence",
+      "itemIds": [
+        "word_one",
+        "word_baht",
+        "word_question"
+      ],
+      "texts": {
+        "en": "One hundred baht okay",
+        "th": "ร้อยบาทได้ไหมคะ",
+        "fa": "صد بات می‌شود",
+        "ar": "مائة بات حسناً",
+        "es": "Cien baht está bien",
+        "zh": "一百铢可以吗",
+        "ja": "百バーツでいいですか"
+      },
+      "tokens": {
+        "en": [
+          "One",
+          "hundred",
+          "baht",
+          "okay"
+        ],
+        "th": [
+          "ร้อย",
+          "บาท",
+          "ได้",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "صد",
+          "بات",
+          "می‌شود"
+        ],
+        "ar": [
+          "مائة",
+          "بات",
+          "حسناً"
+        ],
+        "es": [
+          "Cien",
+          "baht",
+          "está",
+          "bien"
+        ],
+        "zh": [
+          "一百",
+          "铢",
+          "可以",
+          "吗"
+        ],
+        "ja": [
+          "百",
+          "バーツ",
+          "で",
+          "いい",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s4_remain_fifty_baht",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_remain",
+        "word_fifty",
+        "word_baht",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Can I have it remaining at fifty baht",
+        "th": "ขอเหลือห้าสิบบาทได้ไหมคะ",
+        "fa": "می‌توانم پنجاه بات بدهم",
+        "ar": "هل يمكنني الحصول عليه بخمسين بات",
+        "es": "Puedo tenerlo por cincuenta baht",
+        "zh": "可以五十铢卖给我吗",
+        "ja": "五十バーツにしてください"
+      },
+      "tokens": {
+        "en": [
+          "Can",
+          "I",
+          "have",
+          "it",
+          "remaining",
+          "at",
+          "fifty",
+          "baht"
+        ],
+        "th": [
+          "ขอ",
+          "เหลือ",
+          "ห้าสิบ",
+          "บาท",
+          "ได้",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "می‌توانم",
+          "پنجاه",
+          "بات",
+          "بدهم"
+        ],
+        "ar": [
+          "هل",
+          "يمكنني",
+          "الحصول",
+          "عليه",
+          "بخمسين",
+          "بات"
+        ],
+        "es": [
+          "Puedo",
+          "tenerlo",
+          "por",
+          "cincuenta",
+          "baht"
+        ],
+        "zh": [
+          "可以",
+          "五十",
+          "铢",
+          "卖",
+          "给",
+          "我",
+          "吗"
+        ],
+        "ja": [
+          "五十",
+          "バーツ",
+          "に",
+          "して",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "word_reduce",
+      "kind": "word",
+      "texts": {
+        "en": "reduce",
+        "th": "ลด",
+        "fa": "کم کردن",
+        "ar": "يقلل",
+        "es": "reducir",
+        "zh": "减少",
+        "ja": "減らす"
+      }
+    },
+    {
+      "id": "word_baht",
+      "kind": "word",
+      "texts": {
+        "en": "baht",
+        "th": "บาท",
+        "fa": "بات",
+        "ar": "بات",
+        "es": "baht",
+        "zh": "泰铢",
+        "ja": "バーツ"
+      }
+    },
+    {
+      "id": "word_per",
+      "kind": "word",
+      "texts": {
+        "en": "per",
+        "th": "ละ",
+        "fa": "هر",
+        "ar": "لكل",
+        "es": "por",
+        "zh": "每",
+        "ja": "ごとに"
+      }
+    },
+    {
+      "id": "word_too",
+      "kind": "word",
+      "texts": {
+        "en": "too",
+        "th": "ไป",
+        "fa": "خیلی",
+        "ar": "جداً",
+        "es": "demasiado",
+        "zh": "太",
+        "ja": "すぎる"
+      }
+    },
+    {
+      "id": "word_bit",
+      "kind": "word",
+      "texts": {
+        "en": "a bit",
+        "th": "หน่อย",
+        "fa": "کمی",
+        "ar": "قليلاً",
+        "es": "un poco",
+        "zh": "一点",
+        "ja": "少し"
+      }
+    },
+    {
+      "id": "word_remain",
+      "kind": "word",
+      "texts": {
+        "en": "remain",
+        "th": "เหลือ",
+        "fa": "باقی ماندن",
+        "ar": "يبقى",
+        "es": "quedar",
+        "zh": "剩下",
+        "ja": "残る"
+      }
+    },
+    {
+      "id": "word_fifty",
+      "kind": "word",
+      "texts": {
+        "en": "fifty",
+        "th": "ห้าสิบ",
+        "fa": "پنجاه",
+        "ar": "خمسون",
+        "es": "cincuenta",
+        "zh": "五十",
+        "ja": "五十"
+      }
+    },
+    {
+      "id": "header_scenario_5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Paying & Wrapping Up",
+        "th": "สถานการณ์ 5: จ่ายเงินและสรุป",
+        "fa": "سناریوی ۵: پرداخت و جمع‌بندی",
+        "ar": "السيناريو ٥: الدفع والختام",
+        "es": "Escenario 5: Pagar y cerrar",
+        "zh": "场景五：付款与结束",
+        "ja": "シーン5：支払いと締めくくり"
+      }
+    },
+    {
+      "id": "sentence_gm_s5_total_how_much",
+      "kind": "sentence",
+      "itemIds": [
+        "word_total",
+        "word_how_much"
+      ],
+      "texts": {
+        "en": "How much is the total",
+        "th": "ทั้งหมดเท่าไหร่คะ",
+        "fa": "مجموع چقدر است",
+        "ar": "كم المجموع",
+        "es": "Cuánto es el total",
+        "zh": "总共多少",
+        "ja": "合計はいくらですか"
+      },
+      "tokens": {
+        "en": [
+          "How",
+          "much",
+          "is",
+          "the",
+          "total"
+        ],
+        "th": [
+          "ทั้งหมด",
+          "เท่าไหร่",
+          "คะ"
+        ],
+        "fa": [
+          "مجموع",
+          "چقدر",
+          "است"
+        ],
+        "ar": [
+          "كم",
+          "المجموع"
+        ],
+        "es": [
+          "Cuánto",
+          "es",
+          "el",
+          "total"
+        ],
+        "zh": [
+          "总共",
+          "多少"
+        ],
+        "ja": [
+          "合計",
+          "は",
+          "いくら",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s5_pay_cash",
+      "kind": "sentence",
+      "itemIds": [
+        "word_pay",
+        "word_with",
+        "word_cash"
+      ],
+      "texts": {
+        "en": "I pay with cash",
+        "th": "จ่ายด้วยเงินสดค่ะ",
+        "fa": "با پول نقد پرداخت می‌کنم",
+        "ar": "أدفع نقداً",
+        "es": "Pago con efectivo",
+        "zh": "我用现金支付",
+        "ja": "現金で支払います"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "pay",
+          "with",
+          "cash"
+        ],
+        "th": [
+          "จ่าย",
+          "ด้วย",
+          "เงินสด",
+          "ค่ะ"
+        ],
+        "fa": [
+          "با",
+          "پول",
+          "نقد",
+          "پرداخت",
+          "می‌کنم"
+        ],
+        "ar": [
+          "أدفع",
+          "نقداً"
+        ],
+        "es": [
+          "Pago",
+          "con",
+          "efectivo"
+        ],
+        "zh": [
+          "我",
+          "用",
+          "现金",
+          "支付"
+        ],
+        "ja": [
+          "現金",
+          "で",
+          "支払い",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s5_put_bag",
+      "kind": "sentence",
+      "itemIds": [
+        "word_put",
+        "word_bag",
+        "word_with"
+      ],
+      "texts": {
+        "en": "Put it in a bag please",
+        "th": "ใส่ถุงด้วยค่ะ",
+        "fa": "لطفاً در کیسه بگذارید",
+        "ar": "ضعه في كيس من فضلك",
+        "es": "Ponlo en una bolsa por favor",
+        "zh": "请装进袋子",
+        "ja": "袋に入れてください"
+      },
+      "tokens": {
+        "en": [
+          "Put",
+          "it",
+          "in",
+          "a",
+          "bag",
+          "please"
+        ],
+        "th": [
+          "ใส่",
+          "ถุง",
+          "ด้วย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "لطفاً",
+          "در",
+          "کیسه",
+          "بگذارید"
+        ],
+        "ar": [
+          "ضعه",
+          "في",
+          "كيس",
+          "من",
+          "فضلك"
+        ],
+        "es": [
+          "Ponlo",
+          "en",
+          "una",
+          "bolsa",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "请",
+          "装进",
+          "袋子"
+        ],
+        "ja": [
+          "袋",
+          "に",
+          "入れて",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s5_thank_very",
+      "kind": "sentence",
+      "itemIds": [
+        "word_thank",
+        "word_very"
+      ],
+      "texts": {
+        "en": "Thank you very much",
+        "th": "ขอบคุณมากค่ะ",
+        "fa": "خیلی ممنونم",
+        "ar": "شكراً جزيلاً",
+        "es": "Muchas gracias",
+        "zh": "非常感谢",
+        "ja": "どうもありがとうございます"
+      },
+      "tokens": {
+        "en": [
+          "Thank",
+          "you",
+          "very",
+          "much"
+        ],
+        "th": [
+          "ขอบคุณ",
+          "มาก",
+          "ค่ะ"
+        ],
+        "fa": [
+          "خیلی",
+          "ممنونم"
+        ],
+        "ar": [
+          "شكراً",
+          "جزيلاً"
+        ],
+        "es": [
+          "Muchas",
+          "gracias"
+        ],
+        "zh": [
+          "非常",
+          "感谢"
+        ],
+        "ja": [
+          "どうも",
+          "ありがとう",
+          "ございます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s5_fruit_fresh",
+      "kind": "sentence",
+      "itemIds": [
+        "word_fruit",
+        "word_fresh",
+        "word_very"
+      ],
+      "texts": {
+        "en": "The fruit is very fresh",
+        "th": "ผลไม้สดมากค่ะ",
+        "fa": "میوه خیلی تازه است",
+        "ar": "الفاكهة طازجة جداً",
+        "es": "La fruta es muy fresca",
+        "zh": "水果很新鲜",
+        "ja": "果物はとても新鮮です"
+      },
+      "tokens": {
+        "en": [
+          "The",
+          "fruit",
+          "is",
+          "very",
+          "fresh"
+        ],
+        "th": [
+          "ผลไม้",
+          "สด",
+          "มาก",
+          "ค่ะ"
+        ],
+        "fa": [
+          "میوه",
+          "خیلی",
+          "تازه",
+          "است"
+        ],
+        "ar": [
+          "الفاكهة",
+          "طازجة",
+          "جداً"
+        ],
+        "es": [
+          "La",
+          "fruta",
+          "es",
+          "muy",
+          "fresca"
+        ],
+        "zh": [
+          "水果",
+          "很",
+          "新鲜"
+        ],
+        "ja": [
+          "果物",
+          "は",
+          "とても",
+          "新鮮",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_gm_s5_goodbye",
+      "kind": "sentence",
+      "itemIds": [
+        "word_goodbye"
+      ],
+      "texts": {
+        "en": "Goodbye",
+        "th": "สวัสดีค่ะ",
+        "fa": "خداحافظ",
+        "ar": "مع السلامة",
+        "es": "Adiós",
+        "zh": "再见",
+        "ja": "さようなら"
+      },
+      "tokens": {
+        "en": [
+          "Goodbye"
+        ],
+        "th": [
+          "สวัสดี",
+          "ค่ะ"
+        ],
+        "fa": [
+          "خداحافظ"
+        ],
+        "ar": [
+          "مع",
+          "السلامة"
+        ],
+        "es": [
+          "Adiós"
+        ],
+        "zh": [
+          "再见"
+        ],
+        "ja": [
+          "さようなら"
+        ]
+      }
+    },
+    {
+      "id": "word_pay",
+      "kind": "word",
+      "texts": {
+        "en": "pay",
+        "th": "จ่าย",
+        "fa": "پرداخت کردن",
+        "ar": "يدفع",
+        "es": "pagar",
+        "zh": "支付",
+        "ja": "支払う"
+      }
+    },
+    {
+      "id": "word_cash",
+      "kind": "word",
+      "texts": {
+        "en": "cash",
+        "th": "เงินสด",
+        "fa": "پول نقد",
+        "ar": "نقدا",
+        "es": "efectivo",
+        "zh": "现金",
+        "ja": "現金"
+      }
+    },
+    {
+      "id": "word_total",
+      "kind": "word",
+      "texts": {
+        "en": "total",
+        "th": "ทั้งหมด",
+        "fa": "مجموع",
+        "ar": "المجموع",
+        "es": "total",
+        "zh": "总共",
+        "ja": "合計"
+      }
+    },
+    {
+      "id": "word_put",
+      "kind": "word",
+      "texts": {
+        "en": "put",
+        "th": "ใส่",
+        "fa": "گذاشتن",
+        "ar": "يضع",
+        "es": "poner",
+        "zh": "放",
+        "ja": "入れる"
+      }
+    },
+    {
+      "id": "word_thank",
+      "kind": "word",
+      "texts": {
+        "en": "thank",
+        "th": "ขอบคุณ",
+        "fa": "تشکر",
+        "ar": "شكر",
+        "es": "gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
+      }
+    },
+    {
+      "id": "word_goodbye",
+      "kind": "word",
+      "texts": {
+        "en": "goodbye",
+        "th": "สวัสดี",
+        "fa": "خداحافظ",
+        "ar": "مع السلامة",
+        "es": "adiós",
+        "zh": "再见",
+        "ja": "さようなら"
+      }
+    },
+    {
+      "id": "word_with",
+      "kind": "word",
+      "texts": {
+        "en": "with",
+        "th": "ด้วย",
+        "fa": "با",
+        "ar": "مع",
+        "es": "con",
+        "zh": "用",
+        "ja": "で"
+      }
+    }
+  ]
+}

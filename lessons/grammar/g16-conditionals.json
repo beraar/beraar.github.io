@@ -1,0 +1,428 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_if",
+      "kind": "word",
+      "texts": {
+        "en": "if",
+        "th": "ถ้า",
+        "fa": "اگر",
+        "ar": "إذا",
+        "es": "si",
+        "zh": "如果",
+        "ja": "もし"
+      }
+    },
+    {
+      "id": "sentence_g16_rain_go",
+      "kind": "sentence",
+      "itemIds": [
+        "word_if",
+        "word_rain",
+        "word_i",
+        "word_then",
+        "word_not",
+        "word_go"
+      ],
+      "texts": {
+        "en": "If it rains, I will not go",
+        "th": "ถ้าฝนตก ฉันก็ไม่ไป",
+        "fa": "اگر باران ببارد، من نمی‌روم",
+        "ar": "إذا أمطرت، فلن أذهب",
+        "es": "Si llueve, entonces no iré",
+        "zh": "如果下雨，我就不去",
+        "ja": "もし雨が降ったら、私は行かない"
+      },
+      "tokens": {
+        "en": [
+          "If",
+          "it",
+          "rains,",
+          "I",
+          "will",
+          "not",
+          "go"
+        ],
+        "th": [
+          "ถ้า",
+          "ฝนตก",
+          "ฉัน",
+          "ก็",
+          "ไม่",
+          "ไป"
+        ],
+        "fa": [
+          "اگر",
+          "باران",
+          "ببارد،",
+          "من",
+          "نمی‌روم"
+        ],
+        "ar": [
+          "إذا",
+          "أمطرت،",
+          "فلن",
+          "أذهب"
+        ],
+        "es": [
+          "Si",
+          "llueve,",
+          "entonces",
+          "no",
+          "iré"
+        ],
+        "zh": [
+          "如果",
+          "下雨",
+          "我",
+          "就",
+          "不",
+          "去"
+        ],
+        "ja": [
+          "もし",
+          "雨が降ったら",
+          "私",
+          "は",
+          "行かない"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g16_tired_sleep",
+      "kind": "sentence",
+      "itemIds": [
+        "word_if",
+        "word_you",
+        "word_tired",
+        "word_then",
+        "word_sleep"
+      ],
+      "texts": {
+        "en": "If you are tired, then sleep",
+        "th": "ถ้าคุณเหนื่อย ก็นอน",
+        "fa": "اگر خسته هستید، بخوابید",
+        "ar": "إذا كنت متعبا، فنم",
+        "es": "Si estás cansado, entonces duerme",
+        "zh": "如果你累了，就睡觉",
+        "ja": "もし疲れたら、寝なさい"
+      },
+      "tokens": {
+        "en": [
+          "If",
+          "you",
+          "are",
+          "tired,",
+          "then",
+          "sleep"
+        ],
+        "th": [
+          "ถ้า",
+          "คุณ",
+          "เหนื่อย",
+          "ก็",
+          "นอน"
+        ],
+        "fa": [
+          "اگر",
+          "خسته",
+          "هستید،",
+          "بخوابید"
+        ],
+        "ar": [
+          "إذا",
+          "كنت",
+          "متعبا،",
+          "فنم"
+        ],
+        "es": [
+          "Si",
+          "estás",
+          "cansado,",
+          "entonces",
+          "duerme"
+        ],
+        "zh": [
+          "如果",
+          "你",
+          "累",
+          "了",
+          "就",
+          "睡觉"
+        ],
+        "ja": [
+          "もし",
+          "疲れたら",
+          "寝なさい"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g16_money_house",
+      "kind": "sentence",
+      "itemIds": [
+        "word_if",
+        "word_i",
+        "word_have",
+        "word_money",
+        "word_i",
+        "word_then",
+        "word_will",
+        "word_buy",
+        "word_house"
+      ],
+      "texts": {
+        "en": "If I have money, I will buy a house",
+        "th": "ถ้าฉันมีเงิน ฉันก็จะซื้อบ้าน",
+        "fa": "اگر پول داشته باشم، خانه خواهم خرید",
+        "ar": "إذا كان لدي مال، فسأشتري منزلا",
+        "es": "Si tengo dinero, entonces compraré una casa",
+        "zh": "如果我有钱，我就会买房子",
+        "ja": "もしお金があったら、私は家を買うでしょう"
+      },
+      "tokens": {
+        "en": [
+          "If",
+          "I",
+          "have",
+          "money,",
+          "I",
+          "will",
+          "buy",
+          "a",
+          "house"
+        ],
+        "th": [
+          "ถ้า",
+          "ฉัน",
+          "มี",
+          "เงิน",
+          "ฉัน",
+          "ก็",
+          "จะ",
+          "ซื้อ",
+          "บ้าน"
+        ],
+        "fa": [
+          "اگر",
+          "پول",
+          "داشته",
+          "باشم،",
+          "خانه",
+          "خواهم",
+          "خرید"
+        ],
+        "ar": [
+          "إذا",
+          "كان",
+          "لدي",
+          "مال،",
+          "فسأشتري",
+          "منزلا"
+        ],
+        "es": [
+          "Si",
+          "tengo",
+          "dinero,",
+          "entonces",
+          "compraré",
+          "una",
+          "casa"
+        ],
+        "zh": [
+          "如果",
+          "我",
+          "有",
+          "钱",
+          "我",
+          "就",
+          "会",
+          "买",
+          "房子"
+        ],
+        "ja": [
+          "もし",
+          "お金",
+          "が",
+          "あったら",
+          "私",
+          "は",
+          "家",
+          "を",
+          "買う",
+          "でしょう"
+        ]
+      }
+    },
+    {
+      "id": "word_then",
+      "kind": "word",
+      "texts": {
+        "en": "then",
+        "th": "ก็",
+        "fa": "آنگاه",
+        "ar": "ف",
+        "es": "entonces",
+        "zh": "就",
+        "ja": "なら"
+      }
+    },
+    {
+      "id": "word_rain",
+      "kind": "word",
+      "texts": {
+        "en": "rain",
+        "th": "ฝนตก",
+        "fa": "باران باریدن",
+        "ar": "يمطر",
+        "es": "llover",
+        "zh": "下雨",
+        "ja": "雨が降る"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_not",
+      "kind": "word",
+      "texts": {
+        "en": "not",
+        "th": "ไม่",
+        "fa": "نه",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不",
+        "ja": "ない"
+      }
+    },
+    {
+      "id": "word_go",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_tired",
+      "kind": "word",
+      "texts": {
+        "en": "tired",
+        "th": "เหนื่อย",
+        "fa": "خسته",
+        "ar": "متعب",
+        "es": "cansado",
+        "zh": "累",
+        "ja": "疲れる"
+      }
+    },
+    {
+      "id": "word_sleep",
+      "kind": "word",
+      "texts": {
+        "en": "sleep",
+        "th": "นอน",
+        "fa": "خوابیدن",
+        "ar": "ينام",
+        "es": "dormir",
+        "zh": "睡觉",
+        "ja": "寝る"
+      }
+    },
+    {
+      "id": "word_have",
+      "kind": "word",
+      "texts": {
+        "en": "have",
+        "th": "มี",
+        "fa": "داشتن",
+        "ar": "يملك",
+        "es": "tener",
+        "zh": "有",
+        "ja": "ある"
+      }
+    },
+    {
+      "id": "word_money",
+      "kind": "word",
+      "texts": {
+        "en": "money",
+        "th": "เงิน",
+        "fa": "پول",
+        "ar": "مال",
+        "es": "dinero",
+        "zh": "钱",
+        "ja": "お金"
+      }
+    },
+    {
+      "id": "word_buy",
+      "kind": "word",
+      "texts": {
+        "en": "buy",
+        "th": "ซื้อ",
+        "fa": "خریدن",
+        "ar": "يشتري",
+        "es": "comprar",
+        "zh": "买",
+        "ja": "買う"
+      }
+    },
+    {
+      "id": "word_house",
+      "kind": "word",
+      "texts": {
+        "en": "house",
+        "th": "บ้าน",
+        "fa": "خانه",
+        "ar": "منزل",
+        "es": "casa",
+        "zh": "房子",
+        "ja": "家"
+      }
+    },
+    {
+      "id": "word_will",
+      "kind": "word",
+      "texts": {
+        "en": "will",
+        "th": "จะ",
+        "fa": "خواه",
+        "ar": "سوف",
+        "es": "futuro",
+        "zh": "将",
+        "ja": "でしょう"
+      }
+    }
+  ]
+}

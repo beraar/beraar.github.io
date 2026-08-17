@@ -1,0 +1,485 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_manager",
+      "kind": "word",
+      "texts": {
+        "en": "manager",
+        "th": "ผู้จัดการ",
+        "fa": "مدیر",
+        "ar": "مدير",
+        "es": "gerente",
+        "zh": "经理",
+        "ja": "マネージャー"
+      }
+    },
+    {
+      "id": "sentence_g24_manager_ask",
+      "kind": "sentence",
+      "itemIds": [
+        "word_project",
+        "word_finish",
+        "word_or_yet",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "Manager: Has the project finished?",
+        "th": "ผู้จัดการ: โครงการเสร็จหรือยังครับ",
+        "fa": "مدیر: پروژه تمام شده است؟",
+        "ar": "المدير: هل انتهى المشروع؟",
+        "es": "Gerente: ¿Ha terminado el proyecto?",
+        "zh": "经理：项目完成了吗？",
+        "ja": "マネージャー：プロジェクトは終わりましたか？"
+      },
+      "tokens": {
+        "en": [
+          "Manager:",
+          "Has",
+          "the",
+          "project",
+          "finished?"
+        ],
+        "th": [
+          "ผู้จัดการ",
+          "โครงการ",
+          "เสร็จ",
+          "หรือยัง",
+          "ครับ"
+        ],
+        "fa": [
+          "مدیر:",
+          "پروژه",
+          "تمام",
+          "شده",
+          "است؟"
+        ],
+        "ar": [
+          "المدير:",
+          "هل",
+          "انتهى",
+          "المشروع؟"
+        ],
+        "es": [
+          "Gerente:",
+          "¿Ha",
+          "terminado",
+          "el",
+          "proyecto?"
+        ],
+        "zh": [
+          "经理",
+          "项目",
+          "完成",
+          "了",
+          "吗"
+        ],
+        "ja": [
+          "マネージャー",
+          "プロジェクト",
+          "は",
+          "終わり",
+          "まし",
+          "た",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g24_employee_reply",
+      "kind": "sentence",
+      "itemIds": [
+        "word_not_yet",
+        "word_finish",
+        "word_khrap"
+      ],
+      "texts": {
+        "en": "Employee: Not yet, sir",
+        "th": "พนักงาน: ยังไม่เสร็จครับ",
+        "fa": "کارمند: هنوز نه، قربان",
+        "ar": "الموظف: ليس بعد، سيدي",
+        "es": "Empleado: Aún no, señor",
+        "zh": "员工：还没完成，先生",
+        "ja": "従業員：いいえ、まだです"
+      },
+      "tokens": {
+        "en": [
+          "Employee:",
+          "Not",
+          "yet,",
+          "sir"
+        ],
+        "th": [
+          "พนักงาน",
+          "ยัง",
+          "ไม่",
+          "เสร็จ",
+          "ครับ"
+        ],
+        "fa": [
+          "کارمند:",
+          "هنوز",
+          "نه،",
+          "قربان"
+        ],
+        "ar": [
+          "الموظف:",
+          "ليس",
+          "بعد،",
+          "سيدي"
+        ],
+        "es": [
+          "Empleado:",
+          "Aún",
+          "no,",
+          "señor"
+        ],
+        "zh": [
+          "员工",
+          "还",
+          "没",
+          "完成",
+          "先生"
+        ],
+        "ja": [
+          "従業員",
+          "いいえ",
+          "まだ",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g24_employee_peer",
+      "kind": "sentence",
+      "itemIds": [
+        "word_hey",
+        "word_you_informal",
+        "word_help",
+        "word_do",
+        "word_quickly",
+        "word_a_little_bit"
+      ],
+      "texts": {
+        "en": "Employee (to peer): Hey, help me do it quickly",
+        "th": "พนักงาน (บอกเพื่อน): นี่ นายช่วยทำเร็วๆ หน่อย",
+        "fa": "کارمند (به همکار): هی، کمکم کن سریع انجامش بدم",
+        "ar": "الموظف (لزميله): مهلا، ساعدني لأفعلها بسرعة",
+        "es": "Empleado (a compañero): Oye, ayúdame a hacerlo rápido",
+        "zh": "员工 (对同事): 喂，帮我快点做一下",
+        "ja": "従業員 (同僚に): ねえ、早くやるの手伝ってよ"
+      },
+      "tokens": {
+        "en": [
+          "Employee",
+          "(to",
+          "peer):",
+          "Hey,",
+          "help",
+          "me",
+          "do",
+          "it",
+          "quickly"
+        ],
+        "th": [
+          "พนักงาน",
+          "บอกเพื่อน",
+          "นี่",
+          "นาย",
+          "ช่วย",
+          "ทำ",
+          "เร็วๆ",
+          "หน่อย"
+        ],
+        "fa": [
+          "کارمند",
+          "(به",
+          "همکار):",
+          "هی،",
+          "کمکم",
+          "کن",
+          "سریع",
+          "انجامش",
+          "بدم"
+        ],
+        "ar": [
+          "الموظف",
+          "(لزميله):",
+          "مهلا،",
+          "ساعدني",
+          "لأفعلها",
+          "بسرعة"
+        ],
+        "es": [
+          "Empleado",
+          "(a",
+          "compañero):",
+          "Oye,",
+          "ayúdame",
+          "a",
+          "hacerlo",
+          "rápido"
+        ],
+        "zh": [
+          "员工",
+          "对",
+          "同事",
+          "喂",
+          "帮",
+          "我",
+          "快点",
+          "做",
+          "一下"
+        ],
+        "ja": [
+          "従業員",
+          "同僚",
+          "に",
+          "ねえ",
+          "早く",
+          "やる",
+          "の",
+          "手伝って",
+          "よ"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g24_peer_reply",
+      "kind": "sentence",
+      "itemIds": [
+        "word_okay",
+        "word_doing"
+      ],
+      "texts": {
+        "en": "Coworker: Okay, I'm doing it",
+        "th": "เพื่อนร่วมงาน: โอเค กำลังทำอยู่",
+        "fa": "همکار: باشه، دارم انجامش میدم",
+        "ar": "الزميل: حسنا، أنا أفعلها الآن",
+        "es": "Compañero: Vale, lo estoy haciendo",
+        "zh": "同事：好，我正在做",
+        "ja": "同僚：オッケー、やっているよ"
+      },
+      "tokens": {
+        "en": [
+          "Coworker:",
+          "Okay,",
+          "I'm",
+          "doing",
+          "it"
+        ],
+        "th": [
+          "เพื่อนร่วมงาน",
+          "โอเค",
+          "กำลัง",
+          "ทำ",
+          "อยู่"
+        ],
+        "fa": [
+          "همکار:",
+          "باشه،",
+          "دارم",
+          "انجامش",
+          "میدم"
+        ],
+        "ar": [
+          "الزميل:",
+          "حسنا،",
+          "أنا",
+          "أفعلها",
+          "الآن"
+        ],
+        "es": [
+          "Compañero:",
+          "Vale,",
+          "lo",
+          "estoy",
+          "haciendo"
+        ],
+        "zh": [
+          "同事",
+          "好",
+          "我",
+          "正在",
+          "做"
+        ],
+        "ja": [
+          "同僚",
+          "オッケー",
+          "やって",
+          "いる",
+          "よ"
+        ]
+      }
+    },
+    {
+      "id": "word_project",
+      "kind": "word",
+      "texts": {
+        "en": "project",
+        "th": "โครงการ",
+        "fa": "پروژه",
+        "ar": "مشروع",
+        "es": "proyecto",
+        "zh": "项目",
+        "ja": "プロジェクト"
+      }
+    },
+    {
+      "id": "word_finish",
+      "kind": "word",
+      "texts": {
+        "en": "finish",
+        "th": "เสร็จ",
+        "fa": "تمام شدن",
+        "ar": "ينتهي",
+        "es": "terminar",
+        "zh": "完成",
+        "ja": "終わる"
+      }
+    },
+    {
+      "id": "word_or_yet",
+      "kind": "word",
+      "texts": {
+        "en": "yet (question)",
+        "th": "หรือยัง",
+        "fa": "یا هنوز",
+        "ar": "أم بعد",
+        "es": "¿ya?",
+        "zh": "了吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_khrap",
+      "kind": "word",
+      "texts": {
+        "en": "polite particle (male)",
+        "th": "ครับ",
+        "fa": "ذره ادب (مرد)",
+        "ar": "أداة أدب (للرجال)",
+        "es": "cortesía (hombre)",
+        "zh": "礼貌助词(男)",
+        "ja": "丁寧語(男性)"
+      }
+    },
+    {
+      "id": "word_not_yet",
+      "kind": "word",
+      "texts": {
+        "en": "not yet",
+        "th": "ยังไม่",
+        "fa": "هنوز نه",
+        "ar": "ليس بعد",
+        "es": "aún no",
+        "zh": "还没",
+        "ja": "まだ"
+      }
+    },
+    {
+      "id": "word_hey",
+      "kind": "word",
+      "texts": {
+        "en": "hey",
+        "th": "นี่",
+        "fa": "هی",
+        "ar": "مهلا",
+        "es": "oye",
+        "zh": "喂",
+        "ja": "ねえ"
+      }
+    },
+    {
+      "id": "word_you_informal",
+      "kind": "word",
+      "texts": {
+        "en": "you (informal male peer)",
+        "th": "นาย",
+        "fa": "تو (دوستانه)",
+        "ar": "أنت (صديق)",
+        "es": "tú (amigo)",
+        "zh": "你(哥们)",
+        "ja": "お前"
+      }
+    },
+    {
+      "id": "word_help",
+      "kind": "word",
+      "texts": {
+        "en": "help",
+        "th": "ช่วย",
+        "fa": "کمک کردن",
+        "ar": "يساعد",
+        "es": "ayudar",
+        "zh": "帮",
+        "ja": "手伝う"
+      }
+    },
+    {
+      "id": "word_do",
+      "kind": "word",
+      "texts": {
+        "en": "do",
+        "th": "ทำ",
+        "fa": "انجام دادن",
+        "ar": "يفعل",
+        "es": "hacer",
+        "zh": "做",
+        "ja": "する"
+      }
+    },
+    {
+      "id": "word_quickly",
+      "kind": "word",
+      "texts": {
+        "en": "quickly",
+        "th": "เร็วๆ",
+        "fa": "سریع",
+        "ar": "بسرعة",
+        "es": "rápido",
+        "zh": "快点",
+        "ja": "早く"
+      }
+    },
+    {
+      "id": "word_a_little_bit",
+      "kind": "word",
+      "texts": {
+        "en": "a little bit (softener)",
+        "th": "หน่อย",
+        "fa": "کمی",
+        "ar": "قليلا",
+        "es": "un poco",
+        "zh": "一下",
+        "ja": "ちょっと"
+      }
+    },
+    {
+      "id": "word_okay",
+      "kind": "word",
+      "texts": {
+        "en": "okay",
+        "th": "โอเค",
+        "fa": "باشه",
+        "ar": "حسنا",
+        "es": "vale",
+        "zh": "好",
+        "ja": "オッケー"
+      }
+    },
+    {
+      "id": "word_doing",
+      "kind": "word",
+      "texts": {
+        "en": "doing it",
+        "th": "กำลังทำอยู่",
+        "fa": "در حال انجام",
+        "ar": "أفعلها الآن",
+        "es": "lo estoy haciendo",
+        "zh": "正在做",
+        "ja": "やっている"
+      }
+    }
+  ]
+}

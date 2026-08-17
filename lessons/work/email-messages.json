@@ -1,0 +1,1466 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras clave",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "usted",
+        "zh": "您",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_this",
+      "kind": "word",
+      "texts": {
+        "en": "this",
+        "th": "นี้",
+        "fa": "این",
+        "ar": "هذا",
+        "es": "este",
+        "zh": "这",
+        "ja": "これ"
+      }
+    },
+    {
+      "id": "word_of",
+      "kind": "word",
+      "texts": {
+        "en": "of",
+        "th": "ของ",
+        "fa": "از",
+        "ar": "من",
+        "es": "de",
+        "zh": "的",
+        "ja": "の"
+      }
+    },
+    {
+      "id": "word_what",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه",
+        "ar": "ماذا",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_question_particle",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_will",
+      "kind": "word",
+      "texts": {
+        "en": "will (future)",
+        "th": "จะ",
+        "fa": "خواه",
+        "ar": "سوف",
+        "es": "futuro",
+        "zh": "将",
+        "ja": "〜でしょう"
+      }
+    },
+    {
+      "id": "word_already",
+      "kind": "word",
+      "texts": {
+        "en": "already",
+        "th": "แล้ว",
+        "fa": "قبلاً",
+        "ar": "بالفعل",
+        "es": "ya",
+        "zh": "已经",
+        "ja": "もう"
+      }
+    },
+    {
+      "id": "word_currently",
+      "kind": "word",
+      "texts": {
+        "en": "currently",
+        "th": "กำลัง",
+        "fa": "در حال",
+        "ar": "حالياً",
+        "es": "actualmente",
+        "zh": "正在",
+        "ja": "今〜している"
+      }
+    },
+    {
+      "id": "word_please",
+      "kind": "word",
+      "texts": {
+        "en": "please",
+        "th": "กรุณา",
+        "fa": "لطفا",
+        "ar": "من فضلك",
+        "es": "por favor",
+        "zh": "请",
+        "ja": "どうぞ"
+      }
+    },
+    {
+      "id": "word_dont",
+      "kind": "word",
+      "texts": {
+        "en": "don't (prohibition)",
+        "th": "อย่า",
+        "fa": "نکن",
+        "ar": "لا تفعل",
+        "es": "no (hagas)",
+        "zh": "别 / 不要",
+        "ja": "〜ないで"
+      }
+    },
+    {
+      "id": "word_forbidden",
+      "kind": "word",
+      "texts": {
+        "en": "forbidden / must not",
+        "th": "ห้าม",
+        "fa": "ممنوع",
+        "ar": "محظور",
+        "es": "prohibido",
+        "zh": "禁止",
+        "ja": "禁止"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: The Inbox",
+        "th": "สถานการณ์ 1: กล่องข้อความเข้า",
+        "fa": "سناریو ۱: صندوق ورودی",
+        "ar": "السيناريو 1: صندوق الوارد",
+        "es": "Escenario 1: La bandeja de entrada",
+        "zh": "场景一：收件箱",
+        "ja": "シナリオ1：受信トレイ"
+      }
+    },
+    {
+      "id": "sentence_email_receive_question",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_receive",
+        "word_email",
+        "word_of",
+        "word_i",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Did you receive my email",
+        "th": "คุณได้รับอีเมลของฉันไหม",
+        "fa": "آیا ایمیل من را دریافت کردید",
+        "ar": "هل استلمت بريدي الإلكتروني",
+        "es": "Recibió mi correo electrónico",
+        "zh": "您收到我的电子邮件了吗",
+        "ja": "私のメールを受け取りましたか"
+      },
+      "tokens": {
+        "en": [
+          "Did",
+          "you",
+          "receive",
+          "my",
+          "email"
+        ],
+        "th": [
+          "คุณ",
+          "ได้รับ",
+          "อีเมล",
+          "ของ",
+          "ฉัน",
+          "ไหม"
+        ],
+        "fa": [
+          "آیا",
+          "ایمیل",
+          "من",
+          "را",
+          "دریافت",
+          "کردید"
+        ],
+        "ar": [
+          "هل",
+          "استلمت",
+          "بريدي",
+          "الإلكتروني"
+        ],
+        "es": [
+          "Recibió",
+          "mi",
+          "correo",
+          "electrónico"
+        ],
+        "zh": [
+          "您",
+          "收到",
+          "我的",
+          "电子邮件",
+          "了",
+          "吗"
+        ],
+        "ja": [
+          "私",
+          "の",
+          "メール",
+          "を",
+          "受け取り",
+          "まし",
+          "た",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_email_what_subject",
+      "kind": "sentence",
+      "itemIds": [
+        "word_what",
+        "word_subject",
+        "word_email"
+      ],
+      "texts": {
+        "en": "What is the subject of the email",
+        "th": "หัวข้ออีเมลคืออะไร",
+        "fa": "موضوع ایمیل چیست",
+        "ar": "ما هو موضوع البريد الإلكتروني",
+        "es": "Cuál es el asunto del correo electrónico",
+        "zh": "电子邮件的主题是什么",
+        "ja": "メールの件名は何ですか"
+      },
+      "tokens": {
+        "en": [
+          "What",
+          "is",
+          "the",
+          "subject",
+          "of",
+          "the",
+          "email"
+        ],
+        "th": [
+          "หัวข้อ",
+          "อีเมล",
+          "คือ",
+          "อะไร"
+        ],
+        "fa": [
+          "موضوع",
+          "ایمیل",
+          "چیست"
+        ],
+        "ar": [
+          "ما",
+          "هو",
+          "موضوع",
+          "البريد",
+          "الإلكتروني"
+        ],
+        "es": [
+          "Cuál",
+          "es",
+          "el",
+          "asunto",
+          "del",
+          "correo",
+          "electrónico"
+        ],
+        "zh": [
+          "电子邮件",
+          "的",
+          "主题",
+          "是",
+          "什么"
+        ],
+        "ja": [
+          "メール",
+          "の",
+          "件名",
+          "は",
+          "何",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_currently_reading",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_currently",
+        "word_read",
+        "word_email"
+      ],
+      "texts": {
+        "en": "I am currently reading the email",
+        "th": "ฉันกำลังอ่านอีเมลค่ะ",
+        "fa": "من در حال خواندن ایمیل هستم",
+        "ar": "أنا أقرأ البريد الإلكتروني حالياً",
+        "es": "Estoy leyendo el correo electrónico actualmente",
+        "zh": "我正在读这封电子邮件",
+        "ja": "私は今メールを読んでいます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "am",
+          "currently",
+          "reading",
+          "the",
+          "email"
+        ],
+        "th": [
+          "ฉัน",
+          "กำลัง",
+          "อ่าน",
+          "อีเมล",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "در",
+          "حال",
+          "خواندن",
+          "ایمیل",
+          "هستم"
+        ],
+        "ar": [
+          "أنا",
+          "أقرأ",
+          "البريد",
+          "الإلكتروني",
+          "حالياً"
+        ],
+        "es": [
+          "Estoy",
+          "leyendo",
+          "el",
+          "correo",
+          "electrónico",
+          "actualmente"
+        ],
+        "zh": [
+          "我",
+          "正在",
+          "读",
+          "电子邮件"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "今",
+          "メール",
+          "を",
+          "読んで",
+          "います"
+        ]
+      }
+    },
+    {
+      "id": "word_receive",
+      "kind": "word",
+      "texts": {
+        "en": "receive",
+        "th": "ได้รับ",
+        "fa": "دریافت کردن",
+        "ar": "يستلم",
+        "es": "recibir",
+        "zh": "收到",
+        "ja": "受け取る"
+      }
+    },
+    {
+      "id": "word_email",
+      "kind": "word",
+      "texts": {
+        "en": "email",
+        "th": "อีเมล",
+        "fa": "ایمیل",
+        "ar": "بريد إلكتروني",
+        "es": "correo electrónico",
+        "zh": "电子邮件",
+        "ja": "メール"
+      }
+    },
+    {
+      "id": "word_subject",
+      "kind": "word",
+      "texts": {
+        "en": "subject",
+        "th": "หัวข้อ",
+        "fa": "موضوع",
+        "ar": "موضوع",
+        "es": "asunto",
+        "zh": "主题",
+        "ja": "件名"
+      }
+    },
+    {
+      "id": "word_read",
+      "kind": "word",
+      "texts": {
+        "en": "read",
+        "th": "อ่าน",
+        "fa": "خواندن",
+        "ar": "يقرأ",
+        "es": "leer",
+        "zh": "读",
+        "ja": "読む"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Attachments & Files",
+        "th": "สถานการณ์ 2: ไฟล์แนบและเอกสาร",
+        "fa": "سناریو ۲: پیوست‌ها و فایل‌ها",
+        "ar": "السيناريو 2: المرفقات والملفات",
+        "es": "Escenario 2: Archivos adjuntos y documentos",
+        "zh": "场景二：附件与文件",
+        "ja": "シナリオ2：添付ファイルと書類"
+      }
+    },
+    {
+      "id": "sentence_email_check_attach",
+      "kind": "sentence",
+      "itemIds": [
+        "word_please",
+        "word_check",
+        "word_file",
+        "word_attach"
+      ],
+      "texts": {
+        "en": "Please check the attached file",
+        "th": "กรุณาตรวจสอบไฟล์ที่แนบมา",
+        "fa": "لطفا فایل پیوست شده را بررسی کنید",
+        "ar": "من فضلك تحقق من الملف المرفق",
+        "es": "Por favor revise el archivo adjunto",
+        "zh": "请检查附件",
+        "ja": "添付ファイルを確認してください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "check",
+          "the",
+          "attached",
+          "file"
+        ],
+        "th": [
+          "กรุณา",
+          "ตรวจสอบ",
+          "ไฟล์",
+          "ที่",
+          "แนบ",
+          "มา"
+        ],
+        "fa": [
+          "لطفا",
+          "فایل",
+          "پیوست",
+          "شده",
+          "را",
+          "بررسی",
+          "کنید"
+        ],
+        "ar": [
+          "من",
+          "فضلك",
+          "تحقق",
+          "من",
+          "الملف",
+          "المرفق"
+        ],
+        "es": [
+          "Por",
+          "favor",
+          "revise",
+          "el",
+          "archivo",
+          "adjunto"
+        ],
+        "zh": [
+          "请",
+          "检查",
+          "附件"
+        ],
+        "ja": [
+          "添付",
+          "ファイル",
+          "を",
+          "確認",
+          "して",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_did_you_attach",
+      "kind": "sentence",
+      "itemIds": [
+        "word_you",
+        "word_attach",
+        "word_file",
+        "word_question_particle"
+      ],
+      "texts": {
+        "en": "Did you attach the file?",
+        "th": "คุณแนบไฟล์มาไหมครับ",
+        "fa": "آیا فایل را پیوست کردید؟",
+        "ar": "هل أرفقت الملف؟",
+        "es": "¿Adjuntó el archivo?",
+        "zh": "您附上文件了吗？",
+        "ja": "ファイルを添付しましたか？"
+      },
+      "tokens": {
+        "en": [
+          "Did",
+          "you",
+          "attach",
+          "the",
+          "file?"
+        ],
+        "th": [
+          "คุณ",
+          "แนบ",
+          "ไฟล์",
+          "มา",
+          "ไหม",
+          "ครับ"
+        ],
+        "fa": [
+          "آیا",
+          "فایل",
+          "را",
+          "پیوست",
+          "کردید؟"
+        ],
+        "ar": [
+          "هل",
+          "أرفقت",
+          "الملف؟"
+        ],
+        "es": [
+          "¿Adjuntó",
+          "el",
+          "archivo?"
+        ],
+        "zh": [
+          "您",
+          "附上",
+          "文件",
+          "了",
+          "吗？"
+        ],
+        "ja": [
+          "ファイル",
+          "を",
+          "添付",
+          "し",
+          "ました",
+          "か？"
+        ]
+      }
+    },
+    {
+      "id": "word_check",
+      "kind": "word",
+      "texts": {
+        "en": "check",
+        "th": "ตรวจสอบ",
+        "fa": "بررسی کردن",
+        "ar": "يتحقق",
+        "es": "revisar",
+        "zh": "检查",
+        "ja": "確認する"
+      }
+    },
+    {
+      "id": "word_attach",
+      "kind": "word",
+      "texts": {
+        "en": "attach",
+        "th": "แนบ",
+        "fa": "پیوست کردن",
+        "ar": "يرفق",
+        "es": "adjuntar",
+        "zh": "附件",
+        "ja": "添付する"
+      }
+    },
+    {
+      "id": "word_file",
+      "kind": "word",
+      "texts": {
+        "en": "file",
+        "th": "ไฟล์",
+        "fa": "فایل",
+        "ar": "ملف",
+        "es": "archivo",
+        "zh": "文件",
+        "ja": "ファイル"
+      }
+    },
+    {
+      "id": "word_document",
+      "kind": "word",
+      "texts": {
+        "en": "document",
+        "th": "เอกสาร",
+        "fa": "سند",
+        "ar": "مستند",
+        "es": "documento",
+        "zh": "文档",
+        "ja": "書類"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Replying & Timing",
+        "th": "สถานการณ์ 3: การตอบกลับและเวลา",
+        "fa": "سناریو ۳: پاسخ دادن و زمان‌بندی",
+        "ar": "السيناريو 3: الرد والتوقيت",
+        "es": "Escenario 3: Responder y tiempos",
+        "zh": "场景三：回复与时态",
+        "ja": "シナリオ3：返信とタイミング"
+      }
+    },
+    {
+      "id": "sentence_email_reply_tomorrow",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_reply",
+        "word_you",
+        "word_tomorrow"
+      ],
+      "texts": {
+        "en": "I will reply to you tomorrow",
+        "th": "ฉันจะตอบกลับคุณพรุ่งนี้",
+        "fa": "من فردا به شما پاسخ خواهم داد",
+        "ar": "سأرد عليك غدا",
+        "es": "Le responderé mañana",
+        "zh": "我明天回复您",
+        "ja": "明日あなたに返信します"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "will",
+          "reply",
+          "to",
+          "you",
+          "tomorrow"
+        ],
+        "th": [
+          "ฉัน",
+          "จะ",
+          "ตอบกลับ",
+          "คุณ",
+          "พรุ่งนี้"
+        ],
+        "fa": [
+          "من",
+          "فردا",
+          "به",
+          "شما",
+          "پاسخ",
+          "خواهم",
+          "داد"
+        ],
+        "ar": [
+          "سأرد",
+          "عليك",
+          "غدا"
+        ],
+        "es": [
+          "Le",
+          "responderé",
+          "mañana"
+        ],
+        "zh": [
+          "我",
+          "明天",
+          "回复",
+          "您"
+        ],
+        "ja": [
+          "明日",
+          "あなた",
+          "に",
+          "返信",
+          "します"
+        ]
+      }
+    },
+    {
+      "id": "sentence_already_replied",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_already",
+        "word_reply",
+        "word_email"
+      ],
+      "texts": {
+        "en": "I already replied to the email",
+        "th": "ฉันตอบกลับอีเมลแล้วค่ะ",
+        "fa": "من قبلاً به ایمیل پاسخ داده‌ام",
+        "ar": "لقد رددت على البريد الإلكتروني بالفعل",
+        "es": "Ya respondí al correo electrónico",
+        "zh": "我已经回复了电子邮件",
+        "ja": "私はもうメールに返信しました"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "already",
+          "replied",
+          "to",
+          "the",
+          "email"
+        ],
+        "th": [
+          "ฉัน",
+          "ตอบกลับ",
+          "อีเมล",
+          "แล้ว",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "قبلاً",
+          "به",
+          "ایمیل",
+          "پاسخ",
+          "داده‌ام"
+        ],
+        "ar": [
+          "لقد",
+          "رددت",
+          "على",
+          "البريد",
+          "الإلكتروني",
+          "بالفعل"
+        ],
+        "es": [
+          "Ya",
+          "respondí",
+          "al",
+          "correo",
+          "electrónico"
+        ],
+        "zh": [
+          "我",
+          "已经",
+          "回复",
+          "了",
+          "电子邮件"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "もう",
+          "メール",
+          "に",
+          "返信",
+          "し",
+          "ました"
+        ]
+      }
+    },
+    {
+      "id": "sentence_currently_writing",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_currently",
+        "word_write",
+        "word_email"
+      ],
+      "texts": {
+        "en": "I am currently writing an email",
+        "th": "ฉันกำลังเขียนอีเมลค่ะ",
+        "fa": "من در حال نوشتن یک ایمیل هستم",
+        "ar": "أنا أكتب بريداً إلكترونياً حالياً",
+        "es": "Estoy escribiendo un correo electrónico",
+        "zh": "我正在写一封电子邮件",
+        "ja": "私は今メールを書いています"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "am",
+          "currently",
+          "writing",
+          "an",
+          "email"
+        ],
+        "th": [
+          "ฉัน",
+          "กำลัง",
+          "เขียน",
+          "อีเมล",
+          "ค่ะ"
+        ],
+        "fa": [
+          "من",
+          "در",
+          "حال",
+          "نوشتن",
+          "یک",
+          "ایمیل",
+          "هستم"
+        ],
+        "ar": [
+          "أنا",
+          "أكتب",
+          "بريداً",
+          "إلكترونياً",
+          "حالياً"
+        ],
+        "es": [
+          "Estoy",
+          "escribiendo",
+          "un",
+          "correo",
+          "electrónico"
+        ],
+        "zh": [
+          "我",
+          "正在",
+          "写",
+          "一封",
+          "电子邮件"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "今",
+          "メール",
+          "を",
+          "書いて",
+          "います"
+        ]
+      }
+    },
+    {
+      "id": "sentence_will_send",
+      "kind": "sentence",
+      "itemIds": [
+        "word_i",
+        "word_will",
+        "word_send",
+        "word_email"
+      ],
+      "texts": {
+        "en": "I will send the email",
+        "th": "ฉันจะส่งอีเมลครับ",
+        "fa": "من ایمیل را خواهم فرستاد",
+        "ar": "سأرسل البريد الإلكتروني",
+        "es": "Enviaré el correo electrónico",
+        "zh": "我将发送这封电子邮件",
+        "ja": "私はメールを送ります"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "will",
+          "send",
+          "the",
+          "email"
+        ],
+        "th": [
+          "ฉัน",
+          "จะ",
+          "ส่ง",
+          "อีเมล",
+          "ครับ"
+        ],
+        "fa": [
+          "من",
+          "ایمیل",
+          "را",
+          "خواهم",
+          "فرستاد"
+        ],
+        "ar": [
+          "سأرسل",
+          "البريد",
+          "الإلكتروني"
+        ],
+        "es": [
+          "Enviaré",
+          "el",
+          "correo",
+          "electrónico"
+        ],
+        "zh": [
+          "我",
+          "将",
+          "发送",
+          "电子邮件"
+        ],
+        "ja": [
+          "私",
+          "は",
+          "メール",
+          "を",
+          "送り",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "word_reply",
+      "kind": "word",
+      "texts": {
+        "en": "reply",
+        "th": "ตอบกลับ",
+        "fa": "پاسخ دادن",
+        "ar": "يرد",
+        "es": "responder",
+        "zh": "回复",
+        "ja": "返信する"
+      }
+    },
+    {
+      "id": "word_tomorrow",
+      "kind": "word",
+      "texts": {
+        "en": "tomorrow",
+        "th": "พรุ่งนี้",
+        "fa": "فردا",
+        "ar": "غدا",
+        "es": "mañana",
+        "zh": "明天",
+        "ja": "明日"
+      }
+    },
+    {
+      "id": "word_write",
+      "kind": "word",
+      "texts": {
+        "en": "write",
+        "th": "เขียน",
+        "fa": "نوشتن",
+        "ar": "يكتب",
+        "es": "escribir",
+        "zh": "写",
+        "ja": "書く"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Instructions & Rules",
+        "th": "สถานการณ์ 4: คำแนะนำและกฎ",
+        "fa": "سناریو ۴: دستورالعمل‌ها و قوانین",
+        "ar": "السيناريو 4: التعليمات والقواعد",
+        "es": "Escenario 4: Instrucciones y reglas",
+        "zh": "场景四：指示与规则",
+        "ja": "シナリオ4：指示とルール"
+      }
+    },
+    {
+      "id": "sentence_dont_forward",
+      "kind": "sentence",
+      "itemIds": [
+        "word_please",
+        "word_dont",
+        "word_forward",
+        "word_email",
+        "word_this"
+      ],
+      "texts": {
+        "en": "Please don't forward this email",
+        "th": "กรุณาอย่าส่งต่ออีเมลนี้ครับ",
+        "fa": "لطفاً این ایمیل را ارسال نکنید",
+        "ar": "من فضلك لا تعيد توجيه هذا البريد الإلكتروني",
+        "es": "Por favor no reenvíe este correo",
+        "zh": "请不要转发这封电子邮件",
+        "ja": "このメールを転送しないでください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "don't",
+          "forward",
+          "this",
+          "email"
+        ],
+        "th": [
+          "กรุณา",
+          "อย่า",
+          "ส่งต่อ",
+          "อีเมล",
+          "นี้",
+          "ครับ"
+        ],
+        "fa": [
+          "لطفاً",
+          "این",
+          "ایمیل",
+          "را",
+          "ارسال",
+          "نکنید"
+        ],
+        "ar": [
+          "من",
+          "فضلك",
+          "لا",
+          "تعيد",
+          "توجيه",
+          "هذا",
+          "البريد",
+          "الإلكتروني"
+        ],
+        "es": [
+          "Por",
+          "favor",
+          "no",
+          "reenvíe",
+          "este",
+          "correo"
+        ],
+        "zh": [
+          "请",
+          "不要",
+          "转发",
+          "这封",
+          "电子邮件"
+        ],
+        "ja": [
+          "この",
+          "メール",
+          "を",
+          "転送",
+          "しない",
+          "で",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_forbidden_open",
+      "kind": "sentence",
+      "itemIds": [
+        "word_forbidden",
+        "word_read",
+        "word_file",
+        "word_this"
+      ],
+      "texts": {
+        "en": "Forbidden to open this file",
+        "th": "ห้ามเปิดไฟล์นี้ครับ",
+        "fa": "باز کردن این فایل ممنوع است",
+        "ar": "يُحظر فتح هذا الملف",
+        "es": "Está prohibido abrir este archivo",
+        "zh": "禁止打开此文件",
+        "ja": "このファイルを開くことは禁止されています"
+      },
+      "tokens": {
+        "en": [
+          "Forbidden",
+          "to",
+          "open",
+          "this",
+          "file"
+        ],
+        "th": [
+          "ห้าม",
+          "เปิด",
+          "ไฟล์",
+          "นี้",
+          "ครับ"
+        ],
+        "fa": [
+          "باز",
+          "کردن",
+          "این",
+          "فایل",
+          "ممنوع",
+          "است"
+        ],
+        "ar": [
+          "يُحظر",
+          "فتح",
+          "هذا",
+          "الملف"
+        ],
+        "es": [
+          "Está",
+          "prohibido",
+          "abrir",
+          "este",
+          "archivo"
+        ],
+        "zh": [
+          "禁止",
+          "打开",
+          "此",
+          "文件"
+        ],
+        "ja": [
+          "この",
+          "ファイル",
+          "を",
+          "開く",
+          "こと",
+          "は",
+          "禁止",
+          "されて",
+          "います"
+        ]
+      }
+    },
+    {
+      "id": "word_forward",
+      "kind": "word",
+      "texts": {
+        "en": "forward",
+        "th": "ส่งต่อ",
+        "fa": "ارسال کردن (فوروارد)",
+        "ar": "يعيد توجيه",
+        "es": "reenviar",
+        "zh": "转发",
+        "ja": "転送する"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Team & Urgency",
+        "th": "สถานการณ์ 5: ทีมงานและความเร่งด่วน",
+        "fa": "سناریو ۵: تیم و فوریت",
+        "ar": "السيناريو 5: الفريق والإلحاح",
+        "es": "Escenario 5: Equipo y urgencia",
+        "zh": "场景五：团队与紧急事项",
+        "ja": "シナリオ5：チームと緊急事項"
+      }
+    },
+    {
+      "id": "sentence_email_send_document",
+      "kind": "sentence",
+      "itemIds": [
+        "word_please",
+        "word_send",
+        "word_document",
+        "word_team"
+      ],
+      "texts": {
+        "en": "Please send the document to the team",
+        "th": "กรุณาส่งเอกสารให้ทีมงาน",
+        "fa": "لطفا سند را برای تیم بفرستید",
+        "ar": "من فضلك أرسل المستند إلى الفريق",
+        "es": "Por favor envíe el documento al equipo",
+        "zh": "请把文档发给团队",
+        "ja": "チームに書類を送ってください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "send",
+          "the",
+          "document",
+          "to",
+          "the",
+          "team"
+        ],
+        "th": [
+          "กรุณา",
+          "ส่ง",
+          "เอกสาร",
+          "ให้",
+          "ทีมงาน"
+        ],
+        "fa": [
+          "لطفا",
+          "سند",
+          "را",
+          "برای",
+          "تیم",
+          "بفرستید"
+        ],
+        "ar": [
+          "من",
+          "فضلك",
+          "أرسل",
+          "المستند",
+          "إلى",
+          "الفريق"
+        ],
+        "es": [
+          "Por",
+          "favor",
+          "envíe",
+          "el",
+          "documento",
+          "al",
+          "equipo"
+        ],
+        "zh": [
+          "请",
+          "把",
+          "文档",
+          "发给",
+          "团队"
+        ],
+        "ja": [
+          "チーム",
+          "に",
+          "書類",
+          "を",
+          "送って",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_urgent_email",
+      "kind": "sentence",
+      "itemIds": [
+        "word_email",
+        "word_this",
+        "word_urgent"
+      ],
+      "texts": {
+        "en": "This email is urgent",
+        "th": "อีเมลนี้ด่วนมากครับ",
+        "fa": "این ایمیل فوری است",
+        "ar": "هذا البريد الإلكتروني عاجل",
+        "es": "Este correo es urgente",
+        "zh": "这封电子邮件很紧急",
+        "ja": "このメールは緊急です"
+      },
+      "tokens": {
+        "en": [
+          "This",
+          "email",
+          "is",
+          "urgent"
+        ],
+        "th": [
+          "อีเมล",
+          "นี้",
+          "ด่วน",
+          "มาก",
+          "ครับ"
+        ],
+        "fa": [
+          "این",
+          "ایمیل",
+          "فوری",
+          "است"
+        ],
+        "ar": [
+          "هذا",
+          "البريد",
+          "الإلكتروني",
+          "عاجل"
+        ],
+        "es": [
+          "Este",
+          "correo",
+          "es",
+          "urgente"
+        ],
+        "zh": [
+          "这封",
+          "电子邮件",
+          "很",
+          "紧急"
+        ],
+        "ja": [
+          "この",
+          "メール",
+          "は",
+          "緊急",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_dont_send_spam",
+      "kind": "sentence",
+      "itemIds": [
+        "word_dont",
+        "word_send",
+        "word_spam",
+        "word_team"
+      ],
+      "texts": {
+        "en": "Don't send spam to the team",
+        "th": "อย่าส่งสแปมให้ทีมงานครับ",
+        "fa": "برای تیم هرزنامه نفرستید",
+        "ar": "لا ترسل رسائل مزعجة إلى الفريق",
+        "es": "No envíe correo no deseado al equipo",
+        "zh": "不要给团队发送垃圾邮件",
+        "ja": "チームにスパムを送らないでください"
+      },
+      "tokens": {
+        "en": [
+          "Don't",
+          "send",
+          "spam",
+          "to",
+          "the",
+          "team"
+        ],
+        "th": [
+          "อย่า",
+          "ส่ง",
+          "สแปม",
+          "ให้",
+          "ทีมงาน",
+          "ครับ"
+        ],
+        "fa": [
+          "برای",
+          "تیم",
+          "هرزنامه",
+          "نفرستید"
+        ],
+        "ar": [
+          "لا",
+          "ترسل",
+          "رسائل",
+          "مزعجة",
+          "إلى",
+          "الفريق"
+        ],
+        "es": [
+          "No",
+          "envíe",
+          "correo",
+          "no",
+          "deseado",
+          "al",
+          "equipo"
+        ],
+        "zh": [
+          "不要",
+          "给",
+          "团队",
+          "发送",
+          "垃圾邮件"
+        ],
+        "ja": [
+          "チーム",
+          "に",
+          "スパム",
+          "を",
+          "送らない",
+          "で",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "word_send",
+      "kind": "word",
+      "texts": {
+        "en": "send",
+        "th": "ส่ง",
+        "fa": "فرستادن",
+        "ar": "يرسل",
+        "es": "enviar",
+        "zh": "发送",
+        "ja": "送る"
+      }
+    },
+    {
+      "id": "word_team",
+      "kind": "word",
+      "texts": {
+        "en": "team",
+        "th": "ทีมงาน",
+        "fa": "تیم",
+        "ar": "فريق",
+        "es": "equipo",
+        "zh": "团队",
+        "ja": "チーム"
+      }
+    },
+    {
+      "id": "word_urgent",
+      "kind": "word",
+      "texts": {
+        "en": "urgent",
+        "th": "ด่วน",
+        "fa": "فوری",
+        "ar": "عاجل",
+        "es": "urgente",
+        "zh": "紧急",
+        "ja": "緊急"
+      }
+    },
+    {
+      "id": "word_spam",
+      "kind": "word",
+      "texts": {
+        "en": "spam",
+        "th": "สแปม",
+        "fa": "هرزنامه",
+        "ar": "رسائل مزعجة",
+        "es": "correo no deseado",
+        "zh": "垃圾邮件",
+        "ja": "スパム"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2768 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำหลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras básicas",
+        "zh": "核心词汇",
+        "ja": "コア単語"
+      }
+    },
+    {
+      "id": "word_pharmacy",
+      "kind": "word",
+      "texts": {
+        "en": "pharmacy",
+        "th": "ร้านขายยา",
+        "fa": "داروخانه",
+        "ar": "صيدلية",
+        "es": "farmacia",
+        "zh": "药房",
+        "ja": "薬局"
+      }
+    },
+    {
+      "id": "word_medicine",
+      "kind": "word",
+      "texts": {
+        "en": "medicine",
+        "th": "ยา",
+        "fa": "دارو",
+        "ar": "دواء",
+        "es": "medicina",
+        "zh": "药",
+        "ja": "薬"
+      }
+    },
+    {
+      "id": "word_sick",
+      "kind": "word",
+      "texts": {
+        "en": "sick",
+        "th": "ป่วย",
+        "fa": "بیمار",
+        "ar": "مريض",
+        "es": "enfermo",
+        "zh": "生病",
+        "ja": "病気"
+      }
+    },
+    {
+      "id": "word_pain",
+      "kind": "word",
+      "texts": {
+        "en": "pain",
+        "th": "ปวด",
+        "fa": "درد",
+        "ar": "ألم",
+        "es": "dolor",
+        "zh": "痛",
+        "ja": "痛み"
+      }
+    },
+    {
+      "id": "word_pill",
+      "kind": "word",
+      "texts": {
+        "en": "pill",
+        "th": "เม็ด",
+        "fa": "قرص",
+        "ar": "حبة",
+        "es": "pastilla",
+        "zh": "药片",
+        "ja": "錠剤"
+      }
+    },
+    {
+      "id": "word_buy",
+      "kind": "word",
+      "texts": {
+        "en": "buy",
+        "th": "ซื้อ",
+        "fa": "خریدن",
+        "ar": "يشتري",
+        "es": "comprar",
+        "zh": "买",
+        "ja": "買う"
+      }
+    },
+    {
+      "id": "word_allergic",
+      "kind": "word",
+      "texts": {
+        "en": "allergic",
+        "th": "แพ้",
+        "fa": "حساسیت",
+        "ar": "حساسية",
+        "es": "alérgico",
+        "zh": "过敏",
+        "ja": "アレルギー"
+      }
+    },
+    {
+      "id": "word_doctor",
+      "kind": "word",
+      "texts": {
+        "en": "doctor",
+        "th": "หมอ",
+        "fa": "دکتر",
+        "ar": "طبيب",
+        "es": "médico",
+        "zh": "医生",
+        "ja": "医者"
+      }
+    },
+    {
+      "id": "word_how_much",
+      "kind": "word",
+      "texts": {
+        "en": "how much",
+        "th": "เท่าไหร่",
+        "fa": "چقدر",
+        "ar": "كم",
+        "es": "cuánto",
+        "zh": "多少",
+        "ja": "いくら"
+      }
+    },
+    {
+      "id": "word_baht",
+      "kind": "word",
+      "texts": {
+        "en": "baht",
+        "th": "บาท",
+        "fa": "بات",
+        "ar": "بات",
+        "es": "baht",
+        "zh": "泰铢",
+        "ja": "バーツ"
+      }
+    },
+    {
+      "id": "word_thank",
+      "kind": "word",
+      "texts": {
+        "en": "thank",
+        "th": "ขอบคุณ",
+        "fa": "تشکر",
+        "ar": "شكر",
+        "es": "gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
+      }
+    },
+    {
+      "id": "word_I",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_have",
+      "kind": "word",
+      "texts": {
+        "en": "have",
+        "th": "มี",
+        "fa": "داشتن",
+        "ar": "يملك",
+        "es": "tener",
+        "zh": "有",
+        "ja": "ある"
+      }
+    },
+    {
+      "id": "word_request",
+      "kind": "word",
+      "texts": {
+        "en": "request",
+        "th": "ขอ",
+        "fa": "درخواست کردن",
+        "ar": "يطلب",
+        "es": "pedir",
+        "zh": "请求",
+        "ja": "頼む"
+      }
+    },
+    {
+      "id": "word_not",
+      "kind": "word",
+      "texts": {
+        "en": "not",
+        "th": "ไม่",
+        "fa": "نه",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不",
+        "ja": "ない"
+      }
+    },
+    {
+      "id": "word_question",
+      "kind": "word",
+      "texts": {
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_very",
+      "kind": "word",
+      "texts": {
+        "en": "very",
+        "th": "มาก",
+        "fa": "خیلی",
+        "ar": "جداً",
+        "es": "muy",
+        "zh": "很",
+        "ja": "とても"
+      }
+    },
+    {
+      "id": "word_eat",
+      "kind": "word",
+      "texts": {
+        "en": "eat / take",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "يأكل",
+        "es": "comer / tomar",
+        "zh": "吃 / 服用",
+        "ja": "食べる / 飲む"
+      }
+    },
+    {
+      "id": "word_water",
+      "kind": "word",
+      "texts": {
+        "en": "water",
+        "th": "น้ำ",
+        "fa": "آب",
+        "ar": "ماء",
+        "es": "agua",
+        "zh": "水",
+        "ja": "水"
+      }
+    },
+    {
+      "id": "word_day",
+      "kind": "word",
+      "texts": {
+        "en": "day",
+        "th": "วัน",
+        "fa": "روز",
+        "ar": "يوم",
+        "es": "día",
+        "zh": "天",
+        "ja": "日"
+      }
+    },
+    {
+      "id": "header_scenario_1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Describing Symptoms",
+        "th": "สถานการณ์ 1: อธิบายอาการ",
+        "fa": "سناریوی ۱: توصیف علائم",
+        "ar": "السيناريو ١: وصف الأعراض",
+        "es": "Escenario 1: Describir síntomas",
+        "zh": "场景一：描述症状",
+        "ja": "シーン1：症状を説明する"
+      }
+    },
+    {
+      "id": "sentence_ph_s1_not_well",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_not"
+      ],
+      "texts": {
+        "en": "I am not feeling well",
+        "th": "ฉันไม่ค่อยสบายค่ะ",
+        "fa": "حالم خوب نیست",
+        "ar": "لست على ما يرام",
+        "es": "No me siento bien",
+        "zh": "我不舒服",
+        "ja": "調子が悪いです"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "am",
+          "not",
+          "feeling",
+          "well"
+        ],
+        "th": [
+          "ฉัน",
+          "ไม่",
+          "ค่อย",
+          "สบาย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "حالم",
+          "خوب",
+          "نیست"
+        ],
+        "ar": [
+          "لست",
+          "على",
+          "ما",
+          "يرام"
+        ],
+        "es": [
+          "No",
+          "me",
+          "siento",
+          "bien"
+        ],
+        "zh": [
+          "我",
+          "不",
+          "舒服"
+        ],
+        "ja": [
+          "調子",
+          "が",
+          "悪い",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s1_headache",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_headache"
+      ],
+      "texts": {
+        "en": "I have a headache",
+        "th": "ฉันปวดหัวค่ะ",
+        "fa": "سردرد دارم",
+        "ar": "عندي صداع",
+        "es": "Tengo dolor de cabeza",
+        "zh": "我头痛",
+        "ja": "頭痛がします"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "have",
+          "a",
+          "headache"
+        ],
+        "th": [
+          "ฉัน",
+          "ปวดหัว",
+          "ค่ะ"
+        ],
+        "fa": [
+          "سردرد",
+          "دارم"
+        ],
+        "ar": [
+          "عندي",
+          "صداع"
+        ],
+        "es": [
+          "Tengo",
+          "dolor",
+          "de",
+          "cabeza"
+        ],
+        "zh": [
+          "我",
+          "头痛"
+        ],
+        "ja": [
+          "頭痛",
+          "が",
+          "し",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s1_stomach",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_stomach_ache"
+      ],
+      "texts": {
+        "en": "I have a stomach ache",
+        "th": "ฉันปวดท้องค่ะ",
+        "fa": "دل‌درد دارم",
+        "ar": "عندي ألم المعدة",
+        "es": "Tengo dolor de estómago",
+        "zh": "我胃痛",
+        "ja": "腹痛がします"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "have",
+          "a",
+          "stomach",
+          "ache"
+        ],
+        "th": [
+          "ฉัน",
+          "ปวดท้อง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "دل‌درد",
+          "دارم"
+        ],
+        "ar": [
+          "عندي",
+          "ألم",
+          "المعدة"
+        ],
+        "es": [
+          "Tengo",
+          "dolor",
+          "de",
+          "estómago"
+        ],
+        "zh": [
+          "我",
+          "胃痛"
+        ],
+        "ja": [
+          "腹痛",
+          "が",
+          "し",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s1_throat",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_sore_throat"
+      ],
+      "texts": {
+        "en": "I have a sore throat",
+        "th": "ฉันเจ็บคอค่ะ",
+        "fa": "گلودرد دارم",
+        "ar": "عندي التهاب في الحلق",
+        "es": "Tengo dolor de garganta",
+        "zh": "我喉咙痛",
+        "ja": "喉が痛いです"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "have",
+          "a",
+          "sore",
+          "throat"
+        ],
+        "th": [
+          "ฉัน",
+          "เจ็บคอ",
+          "ค่ะ"
+        ],
+        "fa": [
+          "گلودرد",
+          "دارم"
+        ],
+        "ar": [
+          "عندي",
+          "التهاب",
+          "في",
+          "الحلق"
+        ],
+        "es": [
+          "Tengo",
+          "dolor",
+          "de",
+          "garganta"
+        ],
+        "zh": [
+          "我",
+          "喉咙",
+          "痛"
+        ],
+        "ja": [
+          "喉",
+          "が",
+          "痛い",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s1_fever",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_have",
+        "word_fever"
+      ],
+      "texts": {
+        "en": "I have a fever",
+        "th": "ฉันมีไข้ค่ะ",
+        "fa": "تب دارم",
+        "ar": "عندي حمى",
+        "es": "Tengo fiebre",
+        "zh": "我发烧",
+        "ja": "熱があります"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "have",
+          "a",
+          "fever"
+        ],
+        "th": [
+          "ฉัน",
+          "มี",
+          "ไข้",
+          "ค่ะ"
+        ],
+        "fa": [
+          "تب",
+          "دارم"
+        ],
+        "ar": [
+          "عندي",
+          "حمى"
+        ],
+        "es": [
+          "Tengo",
+          "fiebre"
+        ],
+        "zh": [
+          "我",
+          "发烧"
+        ],
+        "ja": [
+          "熱",
+          "が",
+          "あり",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s1_diarrhea",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_diarrhea"
+      ],
+      "texts": {
+        "en": "I have diarrhea",
+        "th": "ฉันท้องเสียค่ะ",
+        "fa": "اسهال دارم",
+        "ar": "عندي إسهال",
+        "es": "Tengo diarrea",
+        "zh": "我腹泻",
+        "ja": "下痢をしています"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "have",
+          "diarrhea"
+        ],
+        "th": [
+          "ฉัน",
+          "ท้องเสีย",
+          "ค่ะ"
+        ],
+        "fa": [
+          "اسهال",
+          "دارم"
+        ],
+        "ar": [
+          "عندي",
+          "إسهال"
+        ],
+        "es": [
+          "Tengo",
+          "diarrea"
+        ],
+        "zh": [
+          "我",
+          "腹泻"
+        ],
+        "ja": [
+          "下痢",
+          "を",
+          "して",
+          "います"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s1_cough",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_cough"
+      ],
+      "texts": {
+        "en": "I have a cough",
+        "th": "ฉันไอค่ะ",
+        "fa": "سرفه می‌کنم",
+        "ar": "أنا أسعل",
+        "es": "Tengo tos",
+        "zh": "我咳嗽",
+        "ja": "咳が出ます"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "have",
+          "a",
+          "cough"
+        ],
+        "th": [
+          "ฉัน",
+          "ไอ",
+          "ค่ะ"
+        ],
+        "fa": [
+          "سرفه",
+          "می‌کنم"
+        ],
+        "ar": [
+          "أنا",
+          "أسعل"
+        ],
+        "es": [
+          "Tengo",
+          "tos"
+        ],
+        "zh": [
+          "我",
+          "咳嗽"
+        ],
+        "ja": [
+          "咳",
+          "が",
+          "出",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "word_headache",
+      "kind": "word",
+      "texts": {
+        "en": "headache",
+        "th": "ปวดหัว",
+        "fa": "سردرد",
+        "ar": "صداع",
+        "es": "dolor de cabeza",
+        "zh": "头痛",
+        "ja": "頭痛"
+      }
+    },
+    {
+      "id": "word_stomach_ache",
+      "kind": "word",
+      "texts": {
+        "en": "stomach ache",
+        "th": "ปวดท้อง",
+        "fa": "دل‌درد",
+        "ar": "ألم المعدة",
+        "es": "dolor de estómago",
+        "zh": "胃痛",
+        "ja": "腹痛"
+      }
+    },
+    {
+      "id": "word_sore_throat",
+      "kind": "word",
+      "texts": {
+        "en": "sore throat",
+        "th": "เจ็บคอ",
+        "fa": "گلودرد",
+        "ar": "التهاب الحلق",
+        "es": "dolor de garganta",
+        "zh": "喉咙痛",
+        "ja": "喉の痛み"
+      }
+    },
+    {
+      "id": "word_fever",
+      "kind": "word",
+      "texts": {
+        "en": "fever",
+        "th": "ไข้",
+        "fa": "تب",
+        "ar": "حمى",
+        "es": "fiebre",
+        "zh": "发烧",
+        "ja": "熱"
+      }
+    },
+    {
+      "id": "word_diarrhea",
+      "kind": "word",
+      "texts": {
+        "en": "diarrhea",
+        "th": "ท้องเสีย",
+        "fa": "اسهال",
+        "ar": "إسهال",
+        "es": "diarrea",
+        "zh": "腹泻",
+        "ja": "下痢"
+      }
+    },
+    {
+      "id": "word_cough",
+      "kind": "word",
+      "texts": {
+        "en": "cough",
+        "th": "ไอ",
+        "fa": "سرفه",
+        "ar": "سعال",
+        "es": "tos",
+        "zh": "咳嗽",
+        "ja": "咳"
+      }
+    },
+    {
+      "id": "header_scenario_2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Allergies & Conditions",
+        "th": "สถานการณ์ 2: การแพ้และโรคประจำตัว",
+        "fa": "سناریوی ۲: آلرژی‌ها و شرایط",
+        "ar": "السيناريو ٢: الحساسية والحالات",
+        "es": "Escenario 2: Alergias y condiciones",
+        "zh": "场景二：过敏与身体状况",
+        "ja": "シーン2：アレルギーと持病"
+      }
+    },
+    {
+      "id": "sentence_ph_s2_seafood",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_allergic",
+        "word_seafood"
+      ],
+      "texts": {
+        "en": "I am allergic to seafood",
+        "th": "ฉันแพ้อาหารทะเลค่ะ",
+        "fa": "به غذای دریایی حساسیت دارم",
+        "ar": "أنا حساس من المأكولات البحرية",
+        "es": "Soy alérgica a los mariscos",
+        "zh": "我对海鲜过敏",
+        "ja": "魚介類アレルギーです"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "am",
+          "allergic",
+          "to",
+          "seafood"
+        ],
+        "th": [
+          "ฉัน",
+          "แพ้",
+          "อาหารทะเล",
+          "ค่ะ"
+        ],
+        "fa": [
+          "به",
+          "غذای",
+          "دریایی",
+          "حساسیت",
+          "دارم"
+        ],
+        "ar": [
+          "أنا",
+          "حساس",
+          "من",
+          "المأكولات",
+          "البحرية"
+        ],
+        "es": [
+          "Soy",
+          "alérgica",
+          "a",
+          "los",
+          "mariscos"
+        ],
+        "zh": [
+          "我",
+          "对",
+          "海鲜",
+          "过敏"
+        ],
+        "ja": [
+          "魚介類",
+          "アレルギー",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s2_penicillin",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_allergic",
+        "word_penicillin"
+      ],
+      "texts": {
+        "en": "I am allergic to penicillin",
+        "th": "ฉันแพ้เพนนิซิลลินค่ะ",
+        "fa": "به پنی‌سیلین حساسیت دارم",
+        "ar": "أنا حساس من البنسلين",
+        "es": "Soy alérgica a la penicilina",
+        "zh": "我对青霉素过敏",
+        "ja": "ペニシリンアレルギーです"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "am",
+          "allergic",
+          "to",
+          "penicillin"
+        ],
+        "th": [
+          "ฉัน",
+          "แพ้",
+          "เพนนิซิลลิน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "به",
+          "پنی‌سیلین",
+          "حساسیت",
+          "دارم"
+        ],
+        "ar": [
+          "أنا",
+          "حساس",
+          "من",
+          "البنسلين"
+        ],
+        "es": [
+          "Soy",
+          "alérgica",
+          "a",
+          "la",
+          "penicilina"
+        ],
+        "zh": [
+          "我",
+          "对",
+          "青霉素",
+          "过敏"
+        ],
+        "ja": [
+          "ペニシリン",
+          "アレルギー",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s2_pregnant",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_pregnant"
+      ],
+      "texts": {
+        "en": "I am pregnant",
+        "th": "ฉันตั้งครรภ์ค่ะ",
+        "fa": "باردارم",
+        "ar": "أنا حامل",
+        "es": "Estoy embarazada",
+        "zh": "我怀孕了",
+        "ja": "妊娠しています"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "am",
+          "pregnant"
+        ],
+        "th": [
+          "ฉัน",
+          "ตั้งครรภ์",
+          "ค่ะ"
+        ],
+        "fa": [
+          "باردارم"
+        ],
+        "ar": [
+          "أنا",
+          "حامل"
+        ],
+        "es": [
+          "Estoy",
+          "embarazada"
+        ],
+        "zh": [
+          "我",
+          "怀孕",
+          "了"
+        ],
+        "ja": [
+          "妊娠",
+          "して",
+          "います"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s2_bp",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_blood_pressure"
+      ],
+      "texts": {
+        "en": "I have high blood pressure",
+        "th": "ฉันเป็นความดันสูงค่ะ",
+        "fa": "فشار خون بالا دارم",
+        "ar": "أعاني من ارتفاع ضغط الدم",
+        "es": "Tengo presión arterial alta",
+        "zh": "我有高血压",
+        "ja": "高血圧です"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "have",
+          "high",
+          "blood",
+          "pressure"
+        ],
+        "th": [
+          "ฉัน",
+          "เป็น",
+          "ความดันสูง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "فشار",
+          "خون",
+          "بالا",
+          "دارم"
+        ],
+        "ar": [
+          "أعاني",
+          "من",
+          "ارتفاع",
+          "ضغط",
+          "الدم"
+        ],
+        "es": [
+          "Tengo",
+          "presión",
+          "arterial",
+          "alta"
+        ],
+        "zh": [
+          "我",
+          "有",
+          "高血压"
+        ],
+        "ja": [
+          "高血圧",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s2_diabetes",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_disease",
+        "word_diabetes"
+      ],
+      "texts": {
+        "en": "I have diabetes",
+        "th": "ฉันเป็นโรคเบาหวานค่ะ",
+        "fa": "دیابت دارم",
+        "ar": "أعاني من السكري",
+        "es": "Tengo diabetes",
+        "zh": "我有糖尿病",
+        "ja": "糖尿病です"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "have",
+          "diabetes"
+        ],
+        "th": [
+          "ฉัน",
+          "เป็น",
+          "โรค",
+          "เบาหวาน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "دیابت",
+          "دارم"
+        ],
+        "ar": [
+          "أعاني",
+          "من",
+          "السكري"
+        ],
+        "es": [
+          "Tengo",
+          "diabetes"
+        ],
+        "zh": [
+          "我",
+          "有",
+          "糖尿病"
+        ],
+        "ja": [
+          "糖尿病",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s2_allergy_med_q",
+      "kind": "sentence",
+      "itemIds": [
+        "word_have",
+        "word_medicine",
+        "word_allergic",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Do you have allergy medicine",
+        "th": "มียาแก้แพ้ไหมคะ",
+        "fa": "آیا داروی ضد حساسیت دارید؟",
+        "ar": "هل لديك دواء للحساسية؟",
+        "es": "¿Tiene medicina para la alergia?",
+        "zh": "有抗过敏药吗？",
+        "ja": "アレルギーの薬はありますか？"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "have",
+          "allergy",
+          "medicine"
+        ],
+        "th": [
+          "มี",
+          "ยา",
+          "แก้",
+          "แพ้",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "داروی",
+          "ضد",
+          "حساسیت",
+          "دارید؟"
+        ],
+        "ar": [
+          "هل",
+          "لديك",
+          "دواء",
+          "للحساسية؟"
+        ],
+        "es": [
+          "¿Tiene",
+          "medicina",
+          "para",
+          "la",
+          "alergia?"
+        ],
+        "zh": [
+          "有",
+          "抗过敏",
+          "药",
+          "吗"
+        ],
+        "ja": [
+          "アレルギー",
+          "の",
+          "薬",
+          "は",
+          "あります",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s2_safe_q",
+      "kind": "sentence",
+      "itemIds": [
+        "word_medicine",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Is this medicine safe",
+        "th": "ยานี้ปลอดภัยไหมคะ",
+        "fa": "آیا این دارو امن است؟",
+        "ar": "هل هذا الدواء آمن؟",
+        "es": "¿Es segura esta medicina?",
+        "zh": "这个药安全吗？",
+        "ja": "この薬は安全ですか？"
+      },
+      "tokens": {
+        "en": [
+          "Is",
+          "this",
+          "medicine",
+          "safe"
+        ],
+        "th": [
+          "ยา",
+          "นี้",
+          "ปลอดภัย",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "این",
+          "دارو",
+          "امن",
+          "است؟"
+        ],
+        "ar": [
+          "هل",
+          "هذا",
+          "الدواء",
+          "آمن؟"
+        ],
+        "es": [
+          "¿Es",
+          "segura",
+          "esta",
+          "medicina?"
+        ],
+        "zh": [
+          "这个",
+          "药",
+          "安全",
+          "吗"
+        ],
+        "ja": [
+          "この",
+          "薬",
+          "は",
+          "安全",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "word_seafood",
+      "kind": "word",
+      "texts": {
+        "en": "seafood",
+        "th": "อาหารทะเล",
+        "fa": "غذای دریایی",
+        "ar": "مأكولات بحرية",
+        "es": "mariscos",
+        "zh": "海鲜",
+        "ja": "魚介類"
+      }
+    },
+    {
+      "id": "word_penicillin",
+      "kind": "word",
+      "texts": {
+        "en": "penicillin",
+        "th": "เพนนิซิลลิน",
+        "fa": "پنی‌سیلین",
+        "ar": "بنسلين",
+        "es": "penicilina",
+        "zh": "青霉素",
+        "ja": "ペニシリン"
+      }
+    },
+    {
+      "id": "word_pregnant",
+      "kind": "word",
+      "texts": {
+        "en": "pregnant",
+        "th": "ตั้งครรภ์",
+        "fa": "باردار",
+        "ar": "حامل",
+        "es": "embarazada",
+        "zh": "怀孕",
+        "ja": "妊娠"
+      }
+    },
+    {
+      "id": "word_blood_pressure",
+      "kind": "word",
+      "texts": {
+        "en": "high blood pressure",
+        "th": "ความดันสูง",
+        "fa": "فشار خون بالا",
+        "ar": "ضغط دم مرتفع",
+        "es": "presión arterial alta",
+        "zh": "高血压",
+        "ja": "高血圧"
+      }
+    },
+    {
+      "id": "word_diabetes",
+      "kind": "word",
+      "texts": {
+        "en": "diabetes",
+        "th": "เบาหวาน",
+        "fa": "دیابت",
+        "ar": "سكري",
+        "es": "diabetes",
+        "zh": "糖尿病",
+        "ja": "糖尿病"
+      }
+    },
+    {
+      "id": "word_disease",
+      "kind": "word",
+      "texts": {
+        "en": "disease",
+        "th": "โรค",
+        "fa": "بیماری",
+        "ar": "مرض",
+        "es": "enfermedad",
+        "zh": "疾病",
+        "ja": "病気"
+      }
+    },
+    {
+      "id": "header_scenario_3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Asking for Remedies",
+        "th": "สถานการณ์ 3: ขอยาแก้ไข้เจ็บป่วย",
+        "fa": "سناریوی ۳: درخواست دارو",
+        "ar": "السيناريو ٣: طلب العلاجات",
+        "es": "Escenario 3: Pedir remedios",
+        "zh": "场景三：寻求药物",
+        "ja": "シーン3：薬を求める"
+      }
+    },
+    {
+      "id": "sentence_ph_s3_painkiller_q",
+      "kind": "sentence",
+      "itemIds": [
+        "word_have",
+        "word_painkiller",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Do you have painkillers",
+        "th": "มียาแก้ปวดไหมคะ",
+        "fa": "آیا مسکن دارید؟",
+        "ar": "هل لديك مسكنات؟",
+        "es": "¿Tiene analgésicos?",
+        "zh": "有止痛药吗？",
+        "ja": "痛み止めはありますか？"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "have",
+          "painkillers"
+        ],
+        "th": [
+          "มี",
+          "ยาแก้ปวด",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "مسکن",
+          "دارید؟"
+        ],
+        "ar": [
+          "هل",
+          "لديك",
+          "مسكنات؟"
+        ],
+        "es": [
+          "¿Tiene",
+          "analgésicos?"
+        ],
+        "zh": [
+          "有",
+          "止痛药",
+          "吗"
+        ],
+        "ja": [
+          "痛み止め",
+          "は",
+          "あります",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s3_cold",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_cold_med"
+      ],
+      "texts": {
+        "en": "I want cold medicine",
+        "th": "ขอยาแก้หวัดค่ะ",
+        "fa": "داروی سرماخوردگی می‌خواهم",
+        "ar": "أريد دواء للبرد",
+        "es": "Quiero medicina para el resfriado",
+        "zh": "我要感冒药",
+        "ja": "風邪薬をください"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "want",
+          "cold",
+          "medicine"
+        ],
+        "th": [
+          "ขอ",
+          "ยาแก้หวัด",
+          "ค่ะ"
+        ],
+        "fa": [
+          "داروی",
+          "سرماخوردگی",
+          "می‌خواهم"
+        ],
+        "ar": [
+          "أريد",
+          "دواء",
+          "للبرد"
+        ],
+        "es": [
+          "Quiero",
+          "medicina",
+          "para",
+          "el",
+          "resfriado"
+        ],
+        "zh": [
+          "我",
+          "要",
+          "感冒药"
+        ],
+        "ja": [
+          "風邪薬",
+          "を",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s3_allergy",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_allergy_med"
+      ],
+      "texts": {
+        "en": "I want allergy medicine",
+        "th": "ขอยาแก้แพ้ค่ะ",
+        "fa": "داروی ضد حساسیت می‌خواهم",
+        "ar": "أريد دواء للحساسية",
+        "es": "Quiero medicina para la alergia",
+        "zh": "我要抗过敏药",
+        "ja": "アレルギーの薬をください"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "want",
+          "allergy",
+          "medicine"
+        ],
+        "th": [
+          "ขอ",
+          "ยาแก้แพ้",
+          "ค่ะ"
+        ],
+        "fa": [
+          "داروی",
+          "ضد",
+          "حساسیت",
+          "می‌خواهم"
+        ],
+        "ar": [
+          "أريد",
+          "دواء",
+          "للحساسية"
+        ],
+        "es": [
+          "Quiero",
+          "medicina",
+          "para",
+          "la",
+          "alergia"
+        ],
+        "zh": [
+          "我",
+          "要",
+          "抗过敏药"
+        ],
+        "ja": [
+          "アレルギー",
+          "の",
+          "薬",
+          "を",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s3_motion_q",
+      "kind": "sentence",
+      "itemIds": [
+        "word_have",
+        "word_motion",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Do you have motion sickness pills",
+        "th": "มียาแก้เมารถไหมคะ",
+        "fa": "آیا قرص ضد تهوع دارید؟",
+        "ar": "هل لديك حبوب دوار الحركة؟",
+        "es": "¿Tiene pastillas para el mareo?",
+        "zh": "有晕车药吗？",
+        "ja": "乗り物酔い止めはありますか？"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "have",
+          "motion",
+          "sickness",
+          "pills"
+        ],
+        "th": [
+          "มี",
+          "ยาแก้เมารถ",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "قرص",
+          "ضد",
+          "تهوع",
+          "دارید؟"
+        ],
+        "ar": [
+          "هل",
+          "لديك",
+          "حبوب",
+          "دوار",
+          "الحركة؟"
+        ],
+        "es": [
+          "¿Tiene",
+          "pastillas",
+          "para",
+          "el",
+          "mareo?"
+        ],
+        "zh": [
+          "有",
+          "晕车药",
+          "吗"
+        ],
+        "ja": [
+          "乗り物酔い止め",
+          "は",
+          "あります",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s3_syrup",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_syrup"
+      ],
+      "texts": {
+        "en": "I want cough syrup",
+        "th": "ขอไซรัปแก้ไอค่ะ",
+        "fa": "شربت ضد سرفه می‌خواهم",
+        "ar": "أريد شراب للسعال",
+        "es": "Quiero jarabe para la tos",
+        "zh": "我要止咳糖浆",
+        "ja": "咳止めシロップをください"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "want",
+          "cough",
+          "syrup"
+        ],
+        "th": [
+          "ขอ",
+          "ไซรัป",
+          "แก้ไอ",
+          "ค่ะ"
+        ],
+        "fa": [
+          "شربت",
+          "ضد",
+          "سرفه",
+          "می‌خواهم"
+        ],
+        "ar": [
+          "أريد",
+          "شراب",
+          "للسعال"
+        ],
+        "es": [
+          "Quiero",
+          "jarabe",
+          "para",
+          "la",
+          "tos"
+        ],
+        "zh": [
+          "我",
+          "要",
+          "止咳糖浆"
+        ],
+        "ja": [
+          "咳止め",
+          "シロップ",
+          "を",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s3_plaster_q",
+      "kind": "sentence",
+      "itemIds": [
+        "word_have",
+        "word_plaster",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Do you have a plaster",
+        "th": "มีพลาสเตอร์ไหมคะ",
+        "fa": "آیا چسب زخم دارید؟",
+        "ar": "هل لديك لاصق طبي؟",
+        "es": "¿Tiene una curita?",
+        "zh": "有创可贴吗？",
+        "ja": "絆創膏はありますか？"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "you",
+          "have",
+          "a",
+          "plaster"
+        ],
+        "th": [
+          "มี",
+          "พลาสเตอร์",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "آیا",
+          "چسب",
+          "زخم",
+          "دارید؟"
+        ],
+        "ar": [
+          "هل",
+          "لديك",
+          "لاصق",
+          "طبي؟"
+        ],
+        "es": [
+          "¿Tiene",
+          "una",
+          "curita?"
+        ],
+        "zh": [
+          "有",
+          "创可贴",
+          "吗"
+        ],
+        "ja": [
+          "絆創膏",
+          "は",
+          "あります",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s3_plaster",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_plaster"
+      ],
+      "texts": {
+        "en": "I want a plaster",
+        "th": "ขอพลาสเตอร์ค่ะ",
+        "fa": "چسب زخم می‌خواهم",
+        "ar": "أريد لاصقاً طبياً",
+        "es": "Quiero una curita",
+        "zh": "我要创可贴",
+        "ja": "絆創膏をください"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "want",
+          "a",
+          "plaster"
+        ],
+        "th": [
+          "ขอ",
+          "พลาสเตอร์",
+          "ค่ะ"
+        ],
+        "fa": [
+          "چسب",
+          "زخم",
+          "می‌خواهم"
+        ],
+        "ar": [
+          "أريد",
+          "لاصقاً",
+          "طبياً"
+        ],
+        "es": [
+          "Quiero",
+          "una",
+          "curita"
+        ],
+        "zh": [
+          "我",
+          "要",
+          "创可贴"
+        ],
+        "ja": [
+          "絆創膏",
+          "を",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "word_painkiller",
+      "kind": "word",
+      "texts": {
+        "en": "painkiller",
+        "th": "ยาแก้ปวด",
+        "fa": "مسکن",
+        "ar": "مسكن",
+        "es": "analgésico",
+        "zh": "止痛药",
+        "ja": "痛み止め"
+      }
+    },
+    {
+      "id": "word_cold_med",
+      "kind": "word",
+      "texts": {
+        "en": "cold medicine",
+        "th": "ยาแก้หวัด",
+        "fa": "داروی سرماخوردگی",
+        "ar": "دواء البرد",
+        "es": "medicina para el resfriado",
+        "zh": "感冒药",
+        "ja": "風邪薬"
+      }
+    },
+    {
+      "id": "word_allergy_med",
+      "kind": "word",
+      "texts": {
+        "en": "allergy medicine",
+        "th": "ยาแก้แพ้",
+        "fa": "داروی ضد حساسیت",
+        "ar": "دواء الحساسية",
+        "es": "medicina para la alergia",
+        "zh": "抗过敏药",
+        "ja": "アレルギー薬"
+      }
+    },
+    {
+      "id": "word_motion",
+      "kind": "word",
+      "texts": {
+        "en": "motion sickness",
+        "th": "ยาแก้เมารถ",
+        "fa": "داروی ضد تهوع",
+        "ar": "دواء دوار الحركة",
+        "es": "medicina para el mareo",
+        "zh": "晕车药",
+        "ja": "乗り物酔い止め"
+      }
+    },
+    {
+      "id": "word_syrup",
+      "kind": "word",
+      "texts": {
+        "en": "syrup",
+        "th": "ไซรัป",
+        "fa": "شربت",
+        "ar": "شراب",
+        "es": "jarabe",
+        "zh": "糖浆",
+        "ja": "シロップ"
+      }
+    },
+    {
+      "id": "word_plaster",
+      "kind": "word",
+      "texts": {
+        "en": "plaster / bandage",
+        "th": "พลาสเตอร์",
+        "fa": "چسب زخم",
+        "ar": "لاصق طبي",
+        "es": "curita / tirita",
+        "zh": "创可贴",
+        "ja": "絆創膏"
+      }
+    },
+    {
+      "id": "header_scenario_4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Dosage & Instructions",
+        "th": "สถานการณ์ 4: วิธีใช้และปริมาณยา",
+        "fa": "سناریوی ۴: دوز و دستورالعمل‌ها",
+        "ar": "السيناريو ٤: الجرعة والتعليمات",
+        "es": "Escenario 4: Dosis e instrucciones",
+        "zh": "场景四：剂量与说明",
+        "ja": "シーン4：用量と説明"
+      }
+    },
+    {
+      "id": "sentence_ph_s4_how_take",
+      "kind": "sentence",
+      "itemIds": [
+        "word_eat"
+      ],
+      "texts": {
+        "en": "How do I take this",
+        "th": "กินยังไงคะ",
+        "fa": "چطور مصرف کنم؟",
+        "ar": "كيف آخذ هذا؟",
+        "es": "¿Cómo tomo esto?",
+        "zh": "这个怎么吃？",
+        "ja": "これはどうやって飲みますか？"
+      },
+      "tokens": {
+        "en": [
+          "How",
+          "do",
+          "I",
+          "take",
+          "this"
+        ],
+        "th": [
+          "กิน",
+          "ยังไง",
+          "คะ"
+        ],
+        "fa": [
+          "چطور",
+          "مصرف",
+          "کنم؟"
+        ],
+        "ar": [
+          "كيف",
+          "آخذ",
+          "هذا؟"
+        ],
+        "es": [
+          "¿Cómo",
+          "tomo",
+          "esto?"
+        ],
+        "zh": [
+          "这个",
+          "怎么",
+          "吃"
+        ],
+        "ja": [
+          "これ",
+          "は",
+          "どうやって",
+          "飲み",
+          "ます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s4_after_meal",
+      "kind": "sentence",
+      "itemIds": [
+        "word_eat",
+        "word_after",
+        "word_meal"
+      ],
+      "texts": {
+        "en": "Take after meals",
+        "th": "กินหลังอาหารค่ะ",
+        "fa": "بعد از غذا بخورید",
+        "ar": "خذه بعد الوجبات",
+        "es": "Tómelo después de las comidas",
+        "zh": "饭后服用",
+        "ja": "食後に飲んでください"
+      },
+      "tokens": {
+        "en": [
+          "Take",
+          "after",
+          "meals"
+        ],
+        "th": [
+          "กิน",
+          "หลัง",
+          "อาหาร",
+          "ค่ะ"
+        ],
+        "fa": [
+          "بعد",
+          "از",
+          "غذا",
+          "بخورید"
+        ],
+        "ar": [
+          "خذه",
+          "بعد",
+          "الوجبات"
+        ],
+        "es": [
+          "Tómelo",
+          "después",
+          "de",
+          "las",
+          "comidas"
+        ],
+        "zh": [
+          "饭后",
+          "服用"
+        ],
+        "ja": [
+          "食後",
+          "に",
+          "飲んで",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s4_before_bed",
+      "kind": "sentence",
+      "itemIds": [
+        "word_eat",
+        "word_before",
+        "word_sleep"
+      ],
+      "texts": {
+        "en": "Take before bed",
+        "th": "กินก่อนนอนค่ะ",
+        "fa": "قبل از خواب بخورید",
+        "ar": "خذه قبل النوم",
+        "es": "Tómelo antes de dormir",
+        "zh": "睡前服用",
+        "ja": "寝る前に飲んでください"
+      },
+      "tokens": {
+        "en": [
+          "Take",
+          "before",
+          "bed"
+        ],
+        "th": [
+          "กิน",
+          "ก่อน",
+          "นอน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "قبل",
+          "از",
+          "خواب",
+          "بخورید"
+        ],
+        "ar": [
+          "خذه",
+          "قبل",
+          "النوم"
+        ],
+        "es": [
+          "Tómelo",
+          "antes",
+          "de",
+          "dormir"
+        ],
+        "zh": [
+          "睡前",
+          "服用"
+        ],
+        "ja": [
+          "寝る",
+          "前",
+          "に",
+          "飲んで",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s4_how_many_times",
+      "kind": "sentence",
+      "itemIds": [
+        "word_day",
+        "word_times",
+        "word_question"
+      ],
+      "texts": {
+        "en": "How many times a day",
+        "th": "วันละกี่ครั้งคะ",
+        "fa": "روزی چند بار؟",
+        "ar": "كم مرة في اليوم؟",
+        "es": "¿Cuántas veces al día?",
+        "zh": "一天几次？",
+        "ja": "一日何回ですか？"
+      },
+      "tokens": {
+        "en": [
+          "How",
+          "many",
+          "times",
+          "a",
+          "day"
+        ],
+        "th": [
+          "วันละ",
+          "กี่",
+          "ครั้ง",
+          "คะ"
+        ],
+        "fa": [
+          "روزی",
+          "چند",
+          "بار؟"
+        ],
+        "ar": [
+          "كم",
+          "مرة",
+          "في",
+          "اليوم؟"
+        ],
+        "es": [
+          "¿Cuántas",
+          "veces",
+          "al",
+          "día?"
+        ],
+        "zh": [
+          "一天",
+          "几次"
+        ],
+        "ja": [
+          "一日",
+          "何回",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s4_three_times",
+      "kind": "sentence",
+      "itemIds": [
+        "word_day",
+        "word_times"
+      ],
+      "texts": {
+        "en": "Three times a day",
+        "th": "วันละสามครั้งค่ะ",
+        "fa": "روزی سه بار",
+        "ar": "ثلاث مرات في اليوم",
+        "es": "Tres veces al día",
+        "zh": "一天三次",
+        "ja": "一日三回です"
+      },
+      "tokens": {
+        "en": [
+          "Three",
+          "times",
+          "a",
+          "day"
+        ],
+        "th": [
+          "วันละ",
+          "สาม",
+          "ครั้ง",
+          "ค่ะ"
+        ],
+        "fa": [
+          "روزی",
+          "سه",
+          "بار"
+        ],
+        "ar": [
+          "ثلاث",
+          "مرات",
+          "في",
+          "اليوم"
+        ],
+        "es": [
+          "Tres",
+          "veces",
+          "al",
+          "día"
+        ],
+        "zh": [
+          "一天",
+          "三次"
+        ],
+        "ja": [
+          "一日",
+          "三回",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s4_no_alcohol",
+      "kind": "sentence",
+      "itemIds": [
+        "word_not",
+        "word_eat",
+        "word_alcohol"
+      ],
+      "texts": {
+        "en": "Do not drink alcohol",
+        "th": "ห้ามดื่มแอลกอฮอล์ค่ะ",
+        "fa": "الکل ننوشید",
+        "ar": "لا تشرب الكحول",
+        "es": "No beba alcohol",
+        "zh": "请勿饮酒",
+        "ja": "アルコールを飲まないでください"
+      },
+      "tokens": {
+        "en": [
+          "Do",
+          "not",
+          "drink",
+          "alcohol"
+        ],
+        "th": [
+          "ห้าม",
+          "ดื่ม",
+          "แอลกอฮอล์",
+          "ค่ะ"
+        ],
+        "fa": [
+          "الکل",
+          "ننوشید"
+        ],
+        "ar": [
+          "لا",
+          "تشرب",
+          "الكحول"
+        ],
+        "es": [
+          "No",
+          "beba",
+          "alcohol"
+        ],
+        "zh": [
+          "请勿",
+          "饮酒"
+        ],
+        "ja": [
+          "アルコール",
+          "を",
+          "飲まないで",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s4_two_pills",
+      "kind": "sentence",
+      "itemIds": [
+        "word_eat",
+        "word_times",
+        "word_pill"
+      ],
+      "texts": {
+        "en": "Take two pills at a time",
+        "th": "กินครั้งละสองเม็ดค่ะ",
+        "fa": "هر بار دو قرص بخورید",
+        "ar": "خذ حبتين في المرة",
+        "es": "Tome dos pastillas a la vez",
+        "zh": "一次吃两片",
+        "ja": "一度に2錠飲んでください"
+      },
+      "tokens": {
+        "en": [
+          "Take",
+          "two",
+          "pills",
+          "at",
+          "a",
+          "time"
+        ],
+        "th": [
+          "กิน",
+          "ครั้งละ",
+          "สอง",
+          "เม็ด",
+          "ค่ะ"
+        ],
+        "fa": [
+          "هر",
+          "بار",
+          "دو",
+          "قرص",
+          "بخورید"
+        ],
+        "ar": [
+          "خذ",
+          "حبتين",
+          "في",
+          "المرة"
+        ],
+        "es": [
+          "Tome",
+          "dos",
+          "pastillas",
+          "a",
+          "la",
+          "vez"
+        ],
+        "zh": [
+          "一次",
+          "吃",
+          "两片"
+        ],
+        "ja": [
+          "一度",
+          "に",
+          "2錠",
+          "飲んで",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "word_after",
+      "kind": "word",
+      "texts": {
+        "en": "after",
+        "th": "หลัง",
+        "fa": "بعد",
+        "ar": "بعد",
+        "es": "después",
+        "zh": "后",
+        "ja": "後"
+      }
+    },
+    {
+      "id": "word_before",
+      "kind": "word",
+      "texts": {
+        "en": "before",
+        "th": "ก่อน",
+        "fa": "قبل",
+        "ar": "قبل",
+        "es": "antes",
+        "zh": "前",
+        "ja": "前"
+      }
+    },
+    {
+      "id": "word_meal",
+      "kind": "word",
+      "texts": {
+        "en": "meal",
+        "th": "อาหาร",
+        "fa": "وعده غذایی",
+        "ar": "وجبة",
+        "es": "comida",
+        "zh": "餐",
+        "ja": "食事"
+      }
+    },
+    {
+      "id": "word_sleep",
+      "kind": "word",
+      "texts": {
+        "en": "sleep / bed",
+        "th": "นอน",
+        "fa": "خواب",
+        "ar": "نوم",
+        "es": "dormir",
+        "zh": "睡觉",
+        "ja": "睡眠"
+      }
+    },
+    {
+      "id": "word_alcohol",
+      "kind": "word",
+      "texts": {
+        "en": "alcohol",
+        "th": "แอลกอฮอล์",
+        "fa": "الکل",
+        "ar": "كحول",
+        "es": "alcohol",
+        "zh": "酒精",
+        "ja": "アルコール"
+      }
+    },
+    {
+      "id": "word_times",
+      "kind": "word",
+      "texts": {
+        "en": "times",
+        "th": "ครั้ง",
+        "fa": "بار",
+        "ar": "مرة",
+        "es": "veces",
+        "zh": "次",
+        "ja": "回"
+      }
+    },
+    {
+      "id": "header_scenario_5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Paying & Wrapping Up",
+        "th": "สถานการณ์ 5: การชำระเงินและสรุป",
+        "fa": "سناریوی ۵: پرداخت و جمع‌بندی",
+        "ar": "السيناريو ٥: الدفع والختام",
+        "es": "Escenario 5: Pago y cierre",
+        "zh": "场景五：付款与结束",
+        "ja": "シーン5：支払いと締めくくり"
+      }
+    },
+    {
+      "id": "sentence_ph_s5_how_much",
+      "kind": "sentence",
+      "itemIds": [
+        "word_how_much"
+      ],
+      "texts": {
+        "en": "How much is it",
+        "th": "เท่าไหร่คะ",
+        "fa": "چقدر است؟",
+        "ar": "كم الثمن؟",
+        "es": "¿Cuánto cuesta?",
+        "zh": "多少钱？",
+        "ja": "いくらですか？"
+      },
+      "tokens": {
+        "en": [
+          "How",
+          "much",
+          "is",
+          "it"
+        ],
+        "th": [
+          "เท่าไหร่",
+          "คะ"
+        ],
+        "fa": [
+          "چقدر",
+          "است؟"
+        ],
+        "ar": [
+          "كم",
+          "الثمن؟"
+        ],
+        "es": [
+          "¿Cuánto",
+          "cuesta?"
+        ],
+        "zh": [
+          "多少",
+          "钱"
+        ],
+        "ja": [
+          "いくら",
+          "です",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s5_cash",
+      "kind": "sentence",
+      "itemIds": [
+        "word_pay",
+        "word_cash"
+      ],
+      "texts": {
+        "en": "I will pay by cash",
+        "th": "จ่ายเงินสดค่ะ",
+        "fa": "نقد پرداخت می‌کنم",
+        "ar": "سأدفع نقداً",
+        "es": "Pagaré en efectivo",
+        "zh": "我付现金",
+        "ja": "現金で払います"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "will",
+          "pay",
+          "by",
+          "cash"
+        ],
+        "th": [
+          "จ่าย",
+          "เงินสด",
+          "ค่ะ"
+        ],
+        "fa": [
+          "نقد",
+          "پرداخت",
+          "می‌کنم"
+        ],
+        "ar": [
+          "سأدفع",
+          "نقداً"
+        ],
+        "es": [
+          "Pagaré",
+          "en",
+          "efectivo"
+        ],
+        "zh": [
+          "我",
+          "付",
+          "现金"
+        ],
+        "ja": [
+          "現金",
+          "で",
+          "払い",
+          "ます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s5_scan_q",
+      "kind": "sentence",
+      "itemIds": [
+        "word_scan",
+        "word_promptpay",
+        "word_question"
+      ],
+      "texts": {
+        "en": "Can I scan PromptPay",
+        "th": "สแกนพร้อมเพย์ได้ไหมคะ",
+        "fa": "می‌توانم پرامپت‌پی اسکن کنم؟",
+        "ar": "هل يمكنني مسح برومبت باي؟",
+        "es": "¿Puedo escanear PromptPay?",
+        "zh": "可以扫普吉付吗？",
+        "ja": "プロンプトペイをスキャンできますか？"
+      },
+      "tokens": {
+        "en": [
+          "Can",
+          "I",
+          "scan",
+          "PromptPay"
+        ],
+        "th": [
+          "สแกน",
+          "พร้อมเพย์",
+          "ได้",
+          "ไหม",
+          "คะ"
+        ],
+        "fa": [
+          "می‌توانم",
+          "پرامپت‌پی",
+          "اسکن",
+          "کنم؟"
+        ],
+        "ar": [
+          "هل",
+          "يمكنني",
+          "مسح",
+          "برومبت",
+          "باي؟"
+        ],
+        "es": [
+          "¿Puedo",
+          "escanear",
+          "PromptPay?"
+        ],
+        "zh": [
+          "可以",
+          "扫",
+          "普吉付",
+          "吗"
+        ],
+        "ja": [
+          "プロンプトペイ",
+          "を",
+          "スキャン",
+          "できます",
+          "か"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s5_money",
+      "kind": "sentence",
+      "itemIds": [
+        "word_I",
+        "word_water"
+      ],
+      "texts": {
+        "en": "Here is the money",
+        "th": "นี่เงินค่ะ",
+        "fa": "این پول است",
+        "ar": "هذا هو المال",
+        "es": "Aquí está el dinero",
+        "zh": "这是钱",
+        "ja": "これがお金です"
+      },
+      "tokens": {
+        "en": [
+          "Here",
+          "is",
+          "the",
+          "money"
+        ],
+        "th": [
+          "นี่",
+          "เงิน",
+          "ค่ะ"
+        ],
+        "fa": [
+          "این",
+          "پول",
+          "است"
+        ],
+        "ar": [
+          "هذا",
+          "هو",
+          "المال"
+        ],
+        "es": [
+          "Aquí",
+          "está",
+          "el",
+          "dinero"
+        ],
+        "zh": [
+          "这",
+          "是",
+          "钱"
+        ],
+        "ja": [
+          "これ",
+          "が",
+          "お金",
+          "です"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s5_get_well",
+      "kind": "sentence",
+      "itemIds": [
+        "word_get_well"
+      ],
+      "texts": {
+        "en": "Get well soon",
+        "th": "ขอให้หายไวๆ นะคะ",
+        "fa": "امیدوارم زود خوب شوید",
+        "ar": "أتمنى لك الشفاء العاجل",
+        "es": "Que se recupere pronto",
+        "zh": "祝你早日康复",
+        "ja": "お大事にしてください"
+      },
+      "tokens": {
+        "en": [
+          "Get",
+          "well",
+          "soon"
+        ],
+        "th": [
+          "ขอ",
+          "ให้",
+          "หายไวๆ",
+          "นะ",
+          "คะ"
+        ],
+        "fa": [
+          "امیدوارم",
+          "زود",
+          "خوب",
+          "شوید"
+        ],
+        "ar": [
+          "أتمنى",
+          "لك",
+          "الشفاء",
+          "العاجل"
+        ],
+        "es": [
+          "Que",
+          "se",
+          "recupere",
+          "pronto"
+        ],
+        "zh": [
+          "祝",
+          "你",
+          "早日康复"
+        ],
+        "ja": [
+          "お大事",
+          "に",
+          "して",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s5_thank",
+      "kind": "sentence",
+      "itemIds": [
+        "word_thank",
+        "word_very"
+      ],
+      "texts": {
+        "en": "Thank you very much",
+        "th": "ขอบคุณมากค่ะ",
+        "fa": "خیلی متشکرم",
+        "ar": "شكراً جزيلاً",
+        "es": "Muchas gracias",
+        "zh": "非常感谢",
+        "ja": "どうもありがとうございます"
+      },
+      "tokens": {
+        "en": [
+          "Thank",
+          "you",
+          "very",
+          "much"
+        ],
+        "th": [
+          "ขอบคุณ",
+          "มาก",
+          "ค่ะ"
+        ],
+        "fa": [
+          "خیلی",
+          "متشکرم"
+        ],
+        "ar": [
+          "شكراً",
+          "جزيلاً"
+        ],
+        "es": [
+          "Muchas",
+          "gracias"
+        ],
+        "zh": [
+          "非常",
+          "感谢"
+        ],
+        "ja": [
+          "どうも",
+          "ありがとう",
+          "ございます"
+        ]
+      }
+    },
+    {
+      "id": "sentence_ph_s5_receipt",
+      "kind": "sentence",
+      "itemIds": [
+        "word_request",
+        "word_receipt"
+      ],
+      "texts": {
+        "en": "I want a receipt",
+        "th": "ขอใบเสร็จค่ะ",
+        "fa": "رسید می‌خواهم",
+        "ar": "أريد إيصالاً",
+        "es": "Quiero un recibo",
+        "zh": "我要收据",
+        "ja": "レシートをください"
+      },
+      "tokens": {
+        "en": [
+          "I",
+          "want",
+          "a",
+          "receipt"
+        ],
+        "th": [
+          "ขอ",
+          "ใบเสร็จ",
+          "ค่ะ"
+        ],
+        "fa": [
+          "رسید",
+          "می‌خواهم"
+        ],
+        "ar": [
+          "أريد",
+          "إيصالاً"
+        ],
+        "es": [
+          "Quiero",
+          "un",
+          "recibo"
+        ],
+        "zh": [
+          "我",
+          "要",
+          "收据"
+        ],
+        "ja": [
+          "レシート",
+          "を",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "word_pay",
+      "kind": "word",
+      "texts": {
+        "en": "pay",
+        "th": "จ่าย",
+        "fa": "پرداخت",
+        "ar": "يدفع",
+        "es": "pagar",
+        "zh": "支付",
+        "ja": "支払う"
+      }
+    },
+    {
+      "id": "word_cash",
+      "kind": "word",
+      "texts": {
+        "en": "cash",
+        "th": "เงินสด",
+        "fa": "پول نقد",
+        "ar": "نقد",
+        "es": "efectivo",
+        "zh": "现金",
+        "ja": "現金"
+      }
+    },
+    {
+      "id": "word_scan",
+      "kind": "word",
+      "texts": {
+        "en": "scan",
+        "th": "สแกน",
+        "fa": "اسکن",
+        "ar": "يمسح ضوئياً",
+        "es": "escanear",
+        "zh": "扫描",
+        "ja": "スキャンする"
+      }
+    },
+    {
+      "id": "word_promptpay",
+      "kind": "word",
+      "texts": {
+        "en": "PromptPay",
+        "th": "พร้อมเพย์",
+        "fa": "پرامپت‌پی",
+        "ar": "برومبت باي",
+        "es": "PromptPay",
+        "zh": "普吉付",
+        "ja": "プロンプトペイ"
+      }
+    },
+    {
+      "id": "word_get_well",
+      "kind": "word",
+      "texts": {
+        "en": "get well",
+        "th": "หายไวๆ",
+        "fa": "زود خوب شدن",
+        "ar": "الشفاء العاجل",
+        "es": "recuperarse",
+        "zh": "早日康复",
+        "ja": "早く治る"
+      }
+    },
+    {
+      "id": "word_receipt",
+      "kind": "word",
+      "texts": {
+        "en": "receipt",
+        "th": "ใบเสร็จ",
+        "fa": "رسید",
+        "ar": "إيصال",
+        "es": "recibo",
+        "zh": "收据",
+        "ja": "レシート"
+      }
+    }
+  ]
+}

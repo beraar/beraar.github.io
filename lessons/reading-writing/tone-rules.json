@@ -1,0 +1,1907 @@
+{
+  "items": [
+    {
+      "id": "rule_01_header",
+      "header": true,
+      "texts": {
+        "en": "Mid-class + live syllable → Mid tone",
+        "th": "อักษรกลาง + คำเป็น → เสียงสามัญ",
+        "fa": "همخوان میانی + هجای زنده → صدای سطحی",
+        "ar": "حرف وسط + مقطع حي → نغمة وسطى",
+        "es": "Consonante media + sílaba viva → Tono medio",
+        "zh": "中辅音 + 活音节 → 中声调",
+        "ja": "中子音 + 活音節 → 中声調"
+      }
+    },
+    {
+      "id": "rule_01_ex1",
+      "kind": "word",
+      "texts": {
+        "en": "crow",
+        "th": "กา",
+        "fa": "کلاغ",
+        "ar": "غراب",
+        "es": "cuervo",
+        "zh": "乌鸦",
+        "ja": "カラス"
+      },
+      "phonetic": {
+        "en": "kaa · /kaː˧/",
+        "th": "กา · /kaː˧/",
+        "fa": "kaa · /kaː˧/",
+        "ar": "kaa · /kaː˧/",
+        "es": "kaa · /kaː˧/",
+        "zh": "kaa · /kaː˧/",
+        "ja": "kaa · /kaː˧/"
+      }
+    },
+    {
+      "id": "rule_01_ex2",
+      "kind": "word",
+      "texts": {
+        "en": "eye",
+        "th": "ตา",
+        "fa": "چشم",
+        "ar": "عين",
+        "es": "ojo",
+        "zh": "眼睛",
+        "ja": "目"
+      },
+      "phonetic": {
+        "en": "taa · /taː˧/",
+        "th": "ตา · /taː˧/",
+        "fa": "taa · /taː˧/",
+        "ar": "taa · /taː˧/",
+        "es": "taa · /taː˧/",
+        "zh": "taa · /taː˧/",
+        "ja": "taa · /taː˧/"
+      }
+    },
+    {
+      "id": "rule_01_ex3",
+      "kind": "word",
+      "texts": {
+        "en": "crab",
+        "th": "ปู",
+        "fa": "خرچنگ",
+        "ar": "سلطعون",
+        "es": "cangrejo",
+        "zh": "螃蟹",
+        "ja": "カニ"
+      },
+      "phonetic": {
+        "en": "puu · /puː˧/",
+        "th": "ปู · /puː˧/",
+        "fa": "puu · /puː˧/",
+        "ar": "puu · /puː˧/",
+        "es": "puu · /puː˧/",
+        "zh": "puu · /puː˧/",
+        "ja": "puu · /puː˧/"
+      }
+    },
+    {
+      "id": "rule_01_ex4",
+      "kind": "word",
+      "texts": {
+        "en": "plate",
+        "th": "จาน",
+        "fa": "بشقاب",
+        "ar": "طبق",
+        "es": "plato",
+        "zh": "盘子",
+        "ja": "皿"
+      },
+      "phonetic": {
+        "en": "jaan · /tɕaːn˧/",
+        "th": "จาน · /tɕaːn˧/",
+        "fa": "jaan · /tɕaːn˧/",
+        "ar": "jaan · /tɕaːn˧/",
+        "es": "jaan · /tɕaːn˧/",
+        "zh": "jaan · /tɕaːn˧/",
+        "ja": "jaan · /tɕaːn˧/"
+      }
+    },
+    {
+      "id": "rule_01_ex5",
+      "kind": "word",
+      "texts": {
+        "en": "good",
+        "th": "ดี",
+        "fa": "خوب",
+        "ar": "جيد",
+        "es": "bueno",
+        "zh": "好",
+        "ja": "良い"
+      },
+      "phonetic": {
+        "en": "dii · /diː˧/",
+        "th": "ดี · /diː˧/",
+        "fa": "dii · /diː˧/",
+        "ar": "dii · /diː˧/",
+        "es": "dii · /diː˧/",
+        "zh": "dii · /diː˧/",
+        "ja": "dii · /diː˧/"
+      }
+    },
+    {
+      "id": "rule_01_ex6",
+      "kind": "word",
+      "texts": {
+        "en": "to fly",
+        "th": "บิน",
+        "fa": "پرواز کردن",
+        "ar": "يطير",
+        "es": "volar",
+        "zh": "飞",
+        "ja": "飛ぶ"
+      },
+      "phonetic": {
+        "en": "bin · /bin˧/",
+        "th": "บิน · /bin˧/",
+        "fa": "bin · /bin˧/",
+        "ar": "bin · /bin˧/",
+        "es": "bin · /bin˧/",
+        "zh": "bin · /bin˧/",
+        "ja": "bin · /bin˧/"
+      }
+    },
+    {
+      "id": "rule_01_ex7",
+      "kind": "word",
+      "texts": {
+        "en": "to eat",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "يأكل",
+        "es": "comer",
+        "zh": "吃",
+        "ja": "食べる"
+      },
+      "phonetic": {
+        "en": "kin · /kin˧/",
+        "th": "กิน · /kin˧/",
+        "fa": "kin · /kin˧/",
+        "ar": "kin · /kin˧/",
+        "es": "kin · /kin˧/",
+        "zh": "kin · /kin˧/",
+        "ja": "kin · /kin˧/"
+      }
+    },
+    {
+      "id": "rule_01_ex8",
+      "kind": "word",
+      "texts": {
+        "en": "to hit",
+        "th": "ตี",
+        "fa": "زدن",
+        "ar": "يضرب",
+        "es": "golpear",
+        "zh": "打",
+        "ja": "叩く"
+      },
+      "phonetic": {
+        "en": "tii · /tiː˧/",
+        "th": "ตี · /tiː˧/",
+        "fa": "tii · /tiː˧/",
+        "ar": "tii · /tiː˧/",
+        "es": "tii · /tiː˧/",
+        "zh": "tii · /tiː˧/",
+        "ja": "tii · /tiː˧/"
+      }
+    },
+
+    {
+      "id": "rule_02_header",
+      "header": true,
+      "texts": {
+        "en": "Mid-class + dead syllable → Low tone",
+        "th": "อักษรกลาง + คำตาย → เสียงเอก",
+        "fa": "همخوان میانی + هجای مرده → صدای پایین",
+        "ar": "حرف وسط + مقطع ميت → نغمة منخفضة",
+        "es": "Consonante media + sílaba muerta → Tono bajo",
+        "zh": "中辅音 + 死音节 → 低声调",
+        "ja": "中子音 + 死音節 → 低声調"
+      }
+    },
+    {
+      "id": "rule_02_ex1",
+      "kind": "word",
+      "texts": {
+        "en": "to fall",
+        "th": "ตก",
+        "fa": "افتادن",
+        "ar": "يسقط",
+        "es": "caer",
+        "zh": "掉落",
+        "ja": "落ちる"
+      },
+      "phonetic": {
+        "en": "tok · /tok˨˩/",
+        "th": "ตก · /tok˨˩/",
+        "fa": "tok · /tok˨˩/",
+        "ar": "tok · /tok˨˩/",
+        "es": "tok · /tok˨˩/",
+        "zh": "tok · /tok˨˩/",
+        "ja": "tok · /tok˨˩/"
+      }
+    },
+    {
+      "id": "rule_02_ex2",
+      "kind": "word",
+      "texts": {
+        "en": "to note / record",
+        "th": "จด",
+        "fa": "یادداشت کردن",
+        "ar": "يسجل",
+        "es": "anotar",
+        "zh": "记录",
+        "ja": "記録する"
+      },
+      "phonetic": {
+        "en": "jot · /tɕot˨˩/",
+        "th": "จด · /tɕot˨˩/",
+        "fa": "jot · /tɕot˨˩/",
+        "ar": "jot · /tɕot˨˩/",
+        "es": "jot · /tɕot˨˩/",
+        "zh": "jot · /tɕot˨˩/",
+        "ja": "jot · /tɕot˨˩/"
+      }
+    },
+    {
+      "id": "rule_02_ex3",
+      "kind": "word",
+      "texts": {
+        "en": "with",
+        "th": "กับ",
+        "fa": "با",
+        "ar": "مع",
+        "es": "con",
+        "zh": "和",
+        "ja": "〜と"
+      },
+      "phonetic": {
+        "en": "kap · /kap˨˩/",
+        "th": "กับ · /kap˨˩/",
+        "fa": "kap · /kap˨˩/",
+        "ar": "kap · /kap˨˩/",
+        "es": "kap · /kap˨˩/",
+        "zh": "kap · /kap˨˩/",
+        "ja": "kap · /kap˨˩/"
+      }
+    },
+    {
+      "id": "rule_02_ex4",
+      "kind": "word",
+      "texts": {
+        "en": "mouth",
+        "th": "ปาก",
+        "fa": "دهان",
+        "ar": "فم",
+        "es": "boca",
+        "zh": "嘴",
+        "ja": "口"
+      },
+      "phonetic": {
+        "en": "paak · /paːk˨˩/",
+        "th": "ปาก · /paːk˨˩/",
+        "fa": "paak · /paːk˨˩/",
+        "ar": "paak · /paːk˨˩/",
+        "es": "paak · /paːk˨˩/",
+        "zh": "paak · /paːk˨˩/",
+        "ja": "paak · /paːk˨˩/"
+      }
+    },
+    {
+      "id": "rule_02_ex5",
+      "kind": "word",
+      "texts": {
+        "en": "to ladle",
+        "th": "ตัก",
+        "fa": "ملاقه کردن",
+        "ar": "يغرف",
+        "es": "servir con cuchón",
+        "zh": "舀",
+        "ja": "すくう"
+      },
+      "phonetic": {
+        "en": "tak · /tak˨˩/",
+        "th": "ตัก · /tak˨˩/",
+        "fa": "tak · /tak˨˩/",
+        "ar": "tak · /tak˨˩/",
+        "es": "tak · /tak˨˩/",
+        "zh": "tak · /tak˨˩/",
+        "ja": "tak · /tak˨˩/"
+      }
+    },
+    {
+      "id": "rule_02_ex6",
+      "kind": "word",
+      "texts": {
+        "en": "seven",
+        "th": "เจ็ด",
+        "fa": "هفت",
+        "ar": "سبعة",
+        "es": "siete",
+        "zh": "七",
+        "ja": "七"
+      },
+      "phonetic": {
+        "en": "jet · /tɕet˨˩/",
+        "th": "เจ็ด · /tɕet˨˩/",
+        "fa": "jet · /tɕet˨˩/",
+        "ar": "jet · /tɕet˨˩/",
+        "es": "jet · /tɕet˨˩/",
+        "zh": "jet · /tɕet˨˩/",
+        "ja": "jet · /tɕet˨˩/"
+      }
+    },
+    {
+      "id": "rule_02_ex7",
+      "kind": "word",
+      "texts": {
+        "en": "will (future)",
+        "th": "จะ",
+        "fa": "خواه (آینده)",
+        "ar": "سوف",
+        "es": "futuro (auxiliar)",
+        "zh": "将",
+        "ja": "〜するつもり"
+      },
+      "phonetic": {
+        "en": "ja · /tɕa˨˩/",
+        "th": "จะ · /tɕa˨˩/",
+        "fa": "ja · /tɕa˨˩/",
+        "ar": "ja · /tɕa˨˩/",
+        "es": "ja · /tɕa˨˩/",
+        "zh": "ja · /tɕa˨˩/",
+        "ja": "ja · /tɕa˨˩/"
+      }
+    },
+
+    {
+      "id": "rule_03_header",
+      "header": true,
+      "texts": {
+        "en": "High-class + live syllable → Rising tone",
+        "th": "อักษรสูง + คำเป็น → เสียงจัตวา",
+        "fa": "همخوان بالا + هجای زنده → صدای صعودی",
+        "ar": "حرف عالٍ + مقطع حي → نغمة صاعدة",
+        "es": "Consonante alta + sílaba viva → Tono ascendente",
+        "zh": "高辅音 + 活音节 → 升声调",
+        "ja": "高子音 + 活音節 → 上昇声調"
+      }
+    },
+    {
+      "id": "rule_03_ex1",
+      "kind": "word",
+      "texts": {
+        "en": "leg",
+        "th": "ขา",
+        "fa": "پا",
+        "ar": "ساق",
+        "es": "pierna",
+        "zh": "腿",
+        "ja": "脚"
+      },
+      "phonetic": {
+        "en": "khaa · /kʰaː˩˩˦/",
+        "th": "ขา · /kʰaː˩˩˦/",
+        "fa": "khaa · /kʰaː˩˩˦/",
+        "ar": "khaa · /kʰaː˩˩˦/",
+        "es": "khaa · /kʰaː˩˩˦/",
+        "zh": "khaa · /kʰaː˩˩˦/",
+        "ja": "khaa · /kʰaː˩˩˦/"
+      }
+    },
+    {
+      "id": "rule_03_ex2",
+      "kind": "word",
+      "texts": {
+        "en": "ear",
+        "th": "หู",
+        "fa": "گوش",
+        "ar": "أذن",
+        "es": "oreja",
+        "zh": "耳朵",
+        "ja": "耳"
+      },
+      "phonetic": {
+        "en": "huu · /huː˩˩˦/",
+        "th": "หู · /huː˩˩˦/",
+        "fa": "huu · /huː˩˩˦/",
+        "ar": "huu · /huː˩˩˦/",
+        "es": "huu · /huː˩˩˦/",
+        "zh": "huu · /huː˩˩˦/",
+        "ja": "huu · /huː˩˩˦/"
+      }
+    },
+    {
+      "id": "rule_03_ex3",
+      "kind": "word",
+      "texts": {
+        "en": "ghost",
+        "th": "ผี",
+        "fa": "روح",
+        "ar": "شبح",
+        "es": "fantasma",
+        "zh": "鬼",
+        "ja": "幽霊"
+      },
+      "phonetic": {
+        "en": "phii · /pʰiː˩˩˦/",
+        "th": "ผี · /pʰiː˩˩˦/",
+        "fa": "phii · /pʰiː˩˩˦/",
+        "ar": "phii · /pʰiː˩˩˦/",
+        "es": "phii · /pʰiː˩˩˦/",
+        "zh": "phii · /pʰiː˩˩˦/",
+        "ja": "phii · /pʰiː˩˩˦/"
+      }
+    },
+    {
+      "id": "rule_03_ex4",
+      "kind": "word",
+      "texts": {
+        "en": "to teach",
+        "th": "สอน",
+        "fa": "آموزش دادن",
+        "ar": "يعلّم",
+        "es": "enseñar",
+        "zh": "教",
+        "ja": "教える"
+      },
+      "phonetic": {
+        "en": "soon · /sɔːn˩˩˦/",
+        "th": "สอน · /sɔːn˩˩˦/",
+        "fa": "soon · /sɔːn˩˩˦/",
+        "ar": "soon · /sɔːn˩˩˦/",
+        "es": "soon · /sɔːn˩˩˦/",
+        "zh": "soon · /sɔːn˩˩˦/",
+        "ja": "soon · /sɔːn˩˩˦/"
+      }
+    },
+    {
+      "id": "rule_03_ex5",
+      "kind": "word",
+      "texts": {
+        "en": "fragrant / onion",
+        "th": "หอม",
+        "fa": "معطر / پیاز",
+        "ar": "عطر / بصل",
+        "es": "fragante / cebolla",
+        "zh": "香 / 葱",
+        "ja": "香り / 玉ねぎ"
+      },
+      "phonetic": {
+        "en": "hoom · /hɔːm˩˩˦/",
+        "th": "หอม · /hɔːm˩˩˦/",
+        "fa": "hoom · /hɔːm˩˩˦/",
+        "ar": "hoom · /hɔːm˩˩˦/",
+        "es": "hoom · /hɔːm˩˩˦/",
+        "zh": "hoom · /hɔːm˩˩˦/",
+        "ja": "hoom · /hɔːm˩˩˦/"
+      }
+    },
+    {
+      "id": "rule_03_ex6",
+      "kind": "word",
+      "texts": {
+        "en": "white",
+        "th": "ขาว",
+        "fa": "سفید",
+        "ar": "أبيض",
+        "es": "blanco",
+        "zh": "白色",
+        "ja": "白い"
+      },
+      "phonetic": {
+        "en": "khaao · /kʰaːw˩˩˦/",
+        "th": "ขาว · /kʰaːw˩˩˦/",
+        "fa": "khaao · /kʰaːw˩˩˦/",
+        "ar": "khaao · /kʰaːw˩˩˦/",
+        "es": "khaao · /kʰaːw˩˩˦/",
+        "zh": "khaao · /kʰaːw˩˩˦/",
+        "ja": "khaao · /kʰaːw˩˩˦/"
+      }
+    },
+    {
+      "id": "rule_03_ex7",
+      "kind": "word",
+      "texts": {
+        "en": "to rub",
+        "th": "ถู",
+        "fa": "مالیدن",
+        "ar": "يفرك",
+        "es": "frotar",
+        "zh": "擦",
+        "ja": "こする"
+      },
+      "phonetic": {
+        "en": "thuu · /tʰuː˩˩˦/",
+        "th": "ถู · /tʰuː˩˩˦/",
+        "fa": "thuu · /tʰuː˩˩˦/",
+        "ar": "thuu · /tʰuː˩˩˦/",
+        "es": "thuu · /tʰuː˩˩˦/",
+        "zh": "thuu · /tʰuː˩˩˦/",
+        "ja": "thuu · /tʰuː˩˩˦/"
+      }
+    },
+
+    {
+      "id": "rule_04_header",
+      "header": true,
+      "texts": {
+        "en": "High-class + dead syllable → Low tone",
+        "th": "อักษรสูง + คำตาย → เสียงเอก",
+        "fa": "همخوان بالا + هجای مرده → صدای پایین",
+        "ar": "حرف عالٍ + مقطع ميت → نغمة منخفضة",
+        "es": "Consonante alta + sílaba muerta → Tono bajo",
+        "zh": "高辅音 + 死音节 → 低声调",
+        "ja": "高子音 + 死音節 → 低声調"
+      }
+    },
+    {
+      "id": "rule_04_ex1",
+      "kind": "word",
+      "texts": {
+        "en": "to lack",
+        "th": "ขาด",
+        "fa": "کمبود داشتن",
+        "ar": "يفتقر",
+        "es": "carecer",
+        "zh": "缺乏",
+        "ja": "欠ける"
+      },
+      "phonetic": {
+        "en": "khaat · /kʰaːt˨˩/",
+        "th": "ขาด · /kʰaːt˨˩/",
+        "fa": "khaat · /kʰaːt˨˩/",
+        "ar": "khaat · /kʰaːt˨˩/",
+        "es": "khaat · /kʰaːt˨˩/",
+        "zh": "khaat · /kʰaːt˨˩/",
+        "ja": "khaat · /kʰaːt˨˩/"
+      }
+    },
+    {
+      "id": "rule_04_ex2",
+      "kind": "word",
+      "texts": {
+        "en": "scene / backdrop",
+        "th": "ฉาก",
+        "fa": "صحنه",
+        "ar": "مشهد",
+        "es": "escena",
+        "zh": "场景",
+        "ja": "場面"
+      },
+      "phonetic": {
+        "en": "chaak · /tɕʰaːk˨˩/",
+        "th": "ฉาก · /tɕʰaːk˨˩/",
+        "fa": "chaak · /tɕʰaːk˨˩/",
+        "ar": "chaak · /tɕʰaːk˨˩/",
+        "es": "chaak · /tɕʰaːk˨˩/",
+        "zh": "chaak · /tɕʰaːk˨˩/",
+        "ja": "chaak · /tɕʰaːk˨˩/"
+      }
+    },
+    {
+      "id": "rule_04_ex3",
+      "kind": "word",
+      "texts": {
+        "en": "to shrink",
+        "th": "หด",
+        "fa": "منقبض شدن",
+        "ar": "ينكمش",
+        "es": "encoger",
+        "zh": "收缩",
+        "ja": "縮む"
+      },
+      "phonetic": {
+        "en": "hot · /hot˨˩/",
+        "th": "หด · /hot˨˩/",
+        "fa": "hot · /hot˨˩/",
+        "ar": "hot · /hot˨˩/",
+        "es": "hot · /hot˨˩/",
+        "zh": "hot · /hot˨˩/",
+        "ja": "hot · /hot˨˩/"
+      }
+    },
+    {
+      "id": "rule_04_ex4",
+      "kind": "word",
+      "texts": {
+        "en": "to spill",
+        "th": "หก",
+        "fa": "ریختن",
+        "ar": "ينسكب",
+        "es": "derramar",
+        "zh": "洒",
+        "ja": "こぼす"
+      },
+      "phonetic": {
+        "en": "hok · /hok˨˩/",
+        "th": "หก · /hok˨˩/",
+        "fa": "hok · /hok˨˩/",
+        "ar": "hok · /hok˨˩/",
+        "es": "hok · /hok˨˩/",
+        "zh": "hok · /hok˨˩/",
+        "ja": "hok · /hok˨˩/"
+      }
+    },
+    {
+      "id": "rule_04_ex5",
+      "kind": "word",
+      "texts": {
+        "en": "animal",
+        "th": "สัตว์",
+        "fa": "حیوان",
+        "ar": "حيوان",
+        "es": "animal",
+        "zh": "动物",
+        "ja": "動物"
+      },
+      "phonetic": {
+        "en": "sat · /sat˨˩/",
+        "th": "สัตว์ · /sat˨˩/",
+        "fa": "sat · /sat˨˩/",
+        "ar": "sat · /sat˨˩/",
+        "es": "sat · /sat˨˩/",
+        "zh": "sat · /sat˨˩/",
+        "ja": "sat · /sat˨˩/"
+      }
+    },
+    {
+      "id": "rule_04_ex6",
+      "kind": "word",
+      "texts": {
+        "en": "happiness",
+        "th": "สุข",
+        "fa": "خوشبختی",
+        "ar": "سعادة",
+        "es": "felicidad",
+        "zh": "幸福",
+        "ja": "幸せ"
+      },
+      "phonetic": {
+        "en": "suk · /suk˨˩/",
+        "th": "สุข · /suk˨˩/",
+        "fa": "suk · /suk˨˩/",
+        "ar": "suk · /suk˨˩/",
+        "es": "suk · /suk˨˩/",
+        "zh": "suk · /suk˨˩/",
+        "ja": "suk · /suk˨˩/"
+      }
+    },
+
+    {
+      "id": "rule_05_header",
+      "header": true,
+      "texts": {
+        "en": "Low-class + live syllable → Mid tone",
+        "th": "อักษรต่ำ + คำเป็น → เสียงสามัญ",
+        "fa": "همخوان پایین + هجای زنده → صدای سطحی",
+        "ar": "حرف منخفض + مقطع حي → نغمة وسطى",
+        "es": "Consonante baja + sílaba viva → Tono medio",
+        "zh": "低辅音 + 活音节 → 中声调",
+        "ja": "低子音 + 活音節 → 中声調"
+      }
+    },
+    {
+      "id": "rule_05_ex1",
+      "kind": "word",
+      "texts": {
+        "en": "to come",
+        "th": "มา",
+        "fa": "آمدن",
+        "ar": "يأتي",
+        "es": "venir",
+        "zh": "来",
+        "ja": "来る"
+      },
+      "phonetic": {
+        "en": "maa · /maː˧/",
+        "th": "มา · /maː˧/",
+        "fa": "maa · /maː˧/",
+        "ar": "maa · /maː˧/",
+        "es": "maa · /maː˧/",
+        "zh": "maa · /maː˧/",
+        "ja": "maa · /maː˧/"
+      }
+    },
+    {
+      "id": "rule_05_ex2",
+      "kind": "word",
+      "texts": {
+        "en": "rice field",
+        "th": "นา",
+        "fa": "مزرعه برنج",
+        "ar": "حقل أرز",
+        "es": "arrozal",
+        "zh": "稻田",
+        "ja": "田んぼ"
+      },
+      "phonetic": {
+        "en": "naa · /naː˧/",
+        "th": "นา · /naː˧/",
+        "fa": "naa · /naː˧/",
+        "ar": "naa · /naː˧/",
+        "es": "naa · /naː˧/",
+        "zh": "naa · /naː˧/",
+        "ja": "naa · /naː˧/"
+      }
+    },
+    {
+      "id": "rule_05_ex3",
+      "kind": "word",
+      "texts": {
+        "en": "medicine",
+        "th": "ยา",
+        "fa": "دارو",
+        "ar": "دواء",
+        "es": "medicina",
+        "zh": "药",
+        "ja": "薬"
+      },
+      "phonetic": {
+        "en": "yaa · /jaː˧/",
+        "th": "ยา · /jaː˧/",
+        "fa": "yaa · /jaː˧/",
+        "ar": "yaa · /jaː˧/",
+        "es": "yaa · /jaː˧/",
+        "zh": "yaa · /jaː˧/",
+        "ja": "yaa · /jaː˧/"
+      }
+    },
+    {
+      "id": "rule_05_ex4",
+      "kind": "word",
+      "texts": {
+        "en": "snake",
+        "th": "งู",
+        "fa": "مار",
+        "ar": "ثعبان",
+        "es": "serpiente",
+        "zh": "蛇",
+        "ja": "ヘビ"
+      },
+      "phonetic": {
+        "en": "nguu · /ŋuː˧/",
+        "th": "งู · /ŋuː˧/",
+        "fa": "nguu · /ŋuː˧/",
+        "ar": "nguu · /ŋuː˧/",
+        "es": "nguu · /ŋuː˧/",
+        "zh": "nguu · /ŋuː˧/",
+        "ja": "nguu · /ŋuː˧/"
+      }
+    },
+    {
+      "id": "rule_05_ex5",
+      "kind": "word",
+      "texts": {
+        "en": "to sleep",
+        "th": "นอน",
+        "fa": "خوابیدن",
+        "ar": "ينام",
+        "es": "dormir",
+        "zh": "睡觉",
+        "ja": "寝る"
+      },
+      "phonetic": {
+        "en": "noon · /nɔːn˧/",
+        "th": "นอน · /nɔːn˧/",
+        "fa": "noon · /nɔːn˧/",
+        "ar": "noon · /nɔːn˧/",
+        "es": "noon · /nɔːn˧/",
+        "zh": "noon · /nɔːn˧/",
+        "ja": "noon · /nɔːn˧/"
+      }
+    },
+    {
+      "id": "rule_05_ex6",
+      "kind": "word",
+      "texts": {
+        "en": "person",
+        "th": "คน",
+        "fa": "شخص",
+        "ar": "شخص",
+        "es": "persona",
+        "zh": "人",
+        "ja": "人"
+      },
+      "phonetic": {
+        "en": "khon · /kʰon˧/",
+        "th": "คน · /kʰon˧/",
+        "fa": "khon · /kʰon˧/",
+        "ar": "khon · /kʰon˧/",
+        "es": "khon · /kʰon˧/",
+        "zh": "khon · /kʰon˧/",
+        "ja": "khon · /kʰon˧/"
+      }
+    },
+
+    {
+      "id": "rule_06_header",
+      "header": true,
+      "texts": {
+        "en": "Mid-class + ่ (mai ek) → Low tone",
+        "th": "อักษรกลาง + ่ → เสียงเอก",
+        "fa": "همخوان میانی + ่ → صدای پایین",
+        "ar": "حرف وسط + ่ → نغمة منخفضة",
+        "es": "Consonante media + ่ → Tono bajo",
+        "zh": "中辅音 + ่ → 低声调",
+        "ja": "中子音 + ่ → 低声調"
+      }
+    },
+    {
+      "id": "rule_06_ex1",
+      "kind": "word",
+      "texts": {
+        "en": "chicken",
+        "th": "ไก่",
+        "fa": "مرغ",
+        "ar": "دجاجة",
+        "es": "pollo",
+        "zh": "鸡",
+        "ja": "鶏"
+      },
+      "phonetic": {
+        "en": "kai · /kaj˨˩/",
+        "th": "ไก่ · /kaj˨˩/",
+        "fa": "kai · /kaj˨˩/",
+        "ar": "kai · /kaj˨˩/",
+        "es": "kai · /kaj˨˩/",
+        "zh": "kai · /kaj˨˩/",
+        "ja": "kai · /kaj˨˩/"
+      }
+    },
+    {
+      "id": "rule_06_ex2",
+      "kind": "word",
+      "texts": {
+        "en": "forest",
+        "th": "ป่า",
+        "fa": "جنگل",
+        "ar": "غابة",
+        "es": "bosque",
+        "zh": "森林",
+        "ja": "森"
+      },
+      "phonetic": {
+        "en": "paa · /paː˨˩/",
+        "th": "ป่า · /paː˨˩/",
+        "fa": "paa · /paː˨˩/",
+        "ar": "paa · /paː˨˩/",
+        "es": "paa · /paː˨˩/",
+        "zh": "paa · /paː˨˩/",
+        "ja": "paa · /paː˨˩/"
+      }
+    },
+    {
+      "id": "rule_06_ex3",
+      "kind": "word",
+      "texts": {
+        "en": "to spin",
+        "th": "ปั่น",
+        "fa": "چرخاندن",
+        "ar": "يغزل",
+        "es": "hilar",
+        "zh": "纺",
+        "ja": "紡ぐ"
+      },
+      "phonetic": {
+        "en": "pan · /pan˨˩/",
+        "th": "ปั่น · /pan˨˩/",
+        "fa": "pan · /pan˨˩/",
+        "ar": "pan · /pan˨˩/",
+        "es": "pan · /pan˨˩/",
+        "zh": "pan · /pan˨˩/",
+        "ja": "pan · /pan˨˩/"
+      }
+    },
+    {
+      "id": "rule_06_ex4",
+      "kind": "word",
+      "texts": {
+        "en": "to dip",
+        "th": "จิ้ม",
+        "fa": "فرو کردن",
+        "ar": "يغمس",
+        "es": "mojar",
+        "zh": "蘸",
+        "ja": "つける"
+      },
+      "phonetic": {
+        "en": "jim · /tɕim˨˩/",
+        "th": "จิ้ม · /tɕim˨˩/",
+        "fa": "jim · /tɕim˨˩/",
+        "ar": "jim · /tɕim˨˩/",
+        "es": "jim · /tɕim˨˩/",
+        "zh": "jim · /tɕim˨˩/",
+        "ja": "jim · /tɕim˨˩/"
+      }
+    },
+    {
+      "id": "rule_06_ex5",
+      "kind": "word",
+      "texts": {
+        "en": "to build",
+        "th": "ก่อ",
+        "fa": "ساختن",
+        "ar": "يبني",
+        "es": "construir",
+        "zh": "建造",
+        "ja": "築く"
+      },
+      "phonetic": {
+        "en": "koo · /kɔː˨˩/",
+        "th": "ก่อ · /kɔː˨˩/",
+        "fa": "koo · /kɔː˨˩/",
+        "ar": "koo · /kɔː˨˩/",
+        "es": "koo · /kɔː˨˩/",
+        "zh": "koo · /kɔː˨˩/",
+        "ja": "koo · /kɔː˨˩/"
+      }
+    },
+    {
+      "id": "rule_06_ex6",
+      "kind": "word",
+      "texts": {
+        "en": "flute",
+        "th": "ปี่",
+        "fa": "نی",
+        "ar": "ناي",
+        "es": "flauta",
+        "zh": "笛子",
+        "ja": "笛"
+      },
+      "phonetic": {
+        "en": "pii · /piː˨˩/",
+        "th": "ปี่ · /piː˨˩/",
+        "fa": "pii · /piː˨˩/",
+        "ar": "pii · /piː˨˩/",
+        "es": "pii · /piː˨˩/",
+        "zh": "pii · /piː˨˩/",
+        "ja": "pii · /piː˨˩/"
+      }
+    },
+
+    {
+      "id": "rule_07_header",
+      "header": true,
+      "texts": {
+        "en": "Mid-class + ้ (mai tho) → Falling tone",
+        "th": "อักษรกลาง + ้ → เสียงโท",
+        "fa": "همخوان میانی + ้ → صدای نزولی",
+        "ar": "حرف وسط + ้ → نغمة هابطة",
+        "es": "Consonante media + ้ → Tono descendente",
+        "zh": "中辅音 + ้ → 降声调",
+        "ja": "中子音 + ้ → 下降声調"
+      }
+    },
+    {
+      "id": "rule_07_ex1",
+      "kind": "word",
+      "texts": {
+        "en": "aunt",
+        "th": "ป้า",
+        "fa": "عمه / خاله",
+        "ar": "عمة",
+        "es": "tía",
+        "zh": "阿姨",
+        "ja": "おば"
+      },
+      "phonetic": {
+        "en": "paa · /paː˥˩/",
+        "th": "ป้า · /paː˥˩/",
+        "fa": "paa · /paː˥˩/",
+        "ar": "paa · /paː˥˩/",
+        "es": "paa · /paː˥˩/",
+        "zh": "paa · /paː˥˩/",
+        "ja": "paa · /paː˥˩/"
+      }
+    },
+    {
+      "id": "rule_07_ex2",
+      "kind": "word",
+      "texts": {
+        "en": "to boil",
+        "th": "ต้ม",
+        "fa": "آب پز کردن",
+        "ar": "يغلي",
+        "es": "hervir",
+        "zh": "煮",
+        "ja": "茹でる"
+      },
+      "phonetic": {
+        "en": "tom · /tom˥˩/",
+        "th": "ต้ม · /tom˥˩/",
+        "fa": "tom · /tom˥˩/",
+        "ar": "tom · /tom˥˩/",
+        "es": "tom · /tom˥˩/",
+        "zh": "tom · /tom˥˩/",
+        "ja": "tom · /tom˥˩/"
+      }
+    },
+    {
+      "id": "rule_07_ex3",
+      "kind": "word",
+      "texts": {
+        "en": "fishbone",
+        "th": "ก้าง",
+        "fa": "تیغ ماهی",
+        "ar": "شوكة سمك",
+        "es": "espina de pescado",
+        "zh": "鱼刺",
+        "ja": "魚の骨"
+      },
+      "phonetic": {
+        "en": "kaang · /kaːŋ˥˩/",
+        "th": "ก้าง · /kaːŋ˥˩/",
+        "fa": "kaang · /kaːŋ˥˩/",
+        "ar": "kaang · /kaːŋ˥˩/",
+        "es": "kaang · /kaːŋ˥˩/",
+        "zh": "kaang · /kaːŋ˥˩/",
+        "ja": "kaang · /kaːŋ˥˩/"
+      }
+    },
+    {
+      "id": "rule_07_ex4",
+      "kind": "word",
+      "texts": {
+        "en": "to mold / shape",
+        "th": "ปั้น",
+        "fa": "شکل دادن",
+        "ar": "يشكل",
+        "es": "moldear",
+        "zh": "捏",
+        "ja": "形作る"
+      },
+      "phonetic": {
+        "en": "pan · /pan˥˩/",
+        "th": "ปั้น · /pan˥˩/",
+        "fa": "pan · /pan˥˩/",
+        "ar": "pan · /pan˥˩/",
+        "es": "pan · /pan˥˩/",
+        "zh": "pan · /pan˥˩/",
+        "ja": "pan · /pan˥˩/"
+      }
+    },
+    {
+      "id": "rule_07_ex5",
+      "kind": "word",
+      "texts": {
+        "en": "lump / chunk",
+        "th": "ก้อน",
+        "fa": "تکه",
+        "ar": "قطعة",
+        "es": "trozo",
+        "zh": "块",
+        "ja": "塊"
+      },
+      "phonetic": {
+        "en": "kon · /kɔːn˥˩/",
+        "th": "ก้อน · /kɔːn˥˩/",
+        "fa": "kon · /kɔːn˥˩/",
+        "ar": "kon · /kɔːn˥˩/",
+        "es": "kon · /kɔːn˥˩/",
+        "zh": "kon · /kɔːn˥˩/",
+        "ja": "kon · /kɔːn˥˩/"
+      }
+    },
+
+    {
+      "id": "rule_10_header",
+      "header": true,
+      "texts": {
+        "en": "High-class + ่ (mai ek) → Low tone",
+        "th": "อักษรสูง + ่ → เสียงเอก",
+        "fa": "همخوان بالا + ่ → صدای پایین",
+        "ar": "حرف عالٍ + ่ → نغمة منخفضة",
+        "es": "Consonante alta + ่ → Tono bajo",
+        "zh": "高辅音 + ่ → 低声调",
+        "ja": "高子音 + ่ → 低声調"
+      }
+    },
+    {
+      "id": "rule_10_ex1",
+      "kind": "word",
+      "texts": {
+        "en": "galangal",
+        "th": "ข่า",
+        "fa": "خولنجان",
+        "ar": "خولنجان",
+        "es": "galanga",
+        "zh": "高良姜",
+        "ja": "ガランガル"
+      },
+      "phonetic": {
+        "en": "khaa · /kʰaː˨˩/",
+        "th": "ข่า · /kʰaː˨˩/",
+        "fa": "khaa · /kʰaː˨˩/",
+        "ar": "khaa · /kʰaː˨˩/",
+        "es": "khaa · /kʰaː˨˩/",
+        "zh": "khaa · /kʰaː˨˩/",
+        "ja": "khaa · /kʰaː˨˩/"
+      }
+    },
+    {
+      "id": "rule_10_ex2",
+      "kind": "word",
+      "texts": {
+        "en": "to split / cut open",
+        "th": "ผ่า",
+        "fa": "شکافتن",
+        "ar": "يشق",
+        "es": "cortar",
+        "zh": "劈开",
+        "ja": "切り開く"
+      },
+      "phonetic": {
+        "en": "phaa · /pʰaː˨˩/",
+        "th": "ผ่า · /pʰaː˨˩/",
+        "fa": "phaa · /pʰaː˨˩/",
+        "ar": "phaa · /pʰaː˨˩/",
+        "es": "phaa · /pʰaː˨˩/",
+        "zh": "phaa · /pʰaː˨˩/",
+        "ja": "phaa · /pʰaː˨˩/"
+      }
+    },
+    {
+      "id": "rule_10_ex3",
+      "kind": "word",
+      "texts": {
+        "en": "to slice",
+        "th": "หั่น",
+        "fa": "برش دادن",
+        "ar": "يقطع",
+        "es": "rebanar",
+        "zh": "切片",
+        "ja": "薄切りする"
+      },
+      "phonetic": {
+        "en": "han · /han˨˩/",
+        "th": "หั่น · /han˨˩/",
+        "fa": "han · /han˨˩/",
+        "ar": "han · /han˨˩/",
+        "es": "han · /han˨˩/",
+        "zh": "han · /han˨˩/",
+        "ja": "han · /han˨˩/"
+      }
+    },
+    {
+      "id": "rule_10_ex4",
+      "kind": "word",
+      "texts": {
+        "en": "to wrap",
+        "th": "ห่อ",
+        "fa": "بسته بندی کردن",
+        "ar": "يلف",
+        "es": "envolver",
+        "zh": "包裹",
+        "ja": "包む"
+      },
+      "phonetic": {
+        "en": "hoo · /hɔː˨˩/",
+        "th": "ห่อ · /hɔː˨˩/",
+        "fa": "hoo · /hɔː˨˩/",
+        "ar": "hoo · /hɔː˨˩/",
+        "es": "hoo · /hɔː˨˩/",
+        "zh": "hoo · /hɔː˨˩/",
+        "ja": "hoo · /hɔː˨˩/"
+      }
+    },
+    {
+      "id": "rule_10_ex5",
+      "kind": "word",
+      "texts": {
+        "en": "pole (for pushing boat)",
+        "th": "ถ่อ",
+        "fa": "چوب بلند کردن قایق",
+        "ar": "عصا دفع القارب",
+        "es": "pértiga",
+        "zh": "撑篙",
+        "ja": "竿"
+      },
+      "phonetic": {
+        "en": "thoo · /tʰɔː˨˩/",
+        "th": "ถ่อ · /tʰɔː˨˩/",
+        "fa": "thoo · /tʰɔː˨˩/",
+        "ar": "thoo · /tʰɔː˨˩/",
+        "es": "thoo · /tʰɔː˨˩/",
+        "zh": "thoo · /tʰɔː˨˩/",
+        "ja": "thoo · /tʰɔː˨˩/"
+      }
+    },
+
+    {
+      "id": "rule_11_header",
+      "header": true,
+      "texts": {
+        "en": "High-class + ้ (mai tho) → Falling tone",
+        "th": "อักษรสูง + ้ → เสียงโท",
+        "fa": "همخوان بالا + ้ → صدای نزولی",
+        "ar": "حرف عالٍ + ้ → نغمة هابطة",
+        "es": "Consonante alta + ้ → Tono descendente",
+        "zh": "高辅音 + ้ → 降声调",
+        "ja": "高子音 + ้ → 下降声調"
+      }
+    },
+    {
+      "id": "rule_11_ex1",
+      "kind": "word",
+      "texts": {
+        "en": "rice",
+        "th": "ข้าว",
+        "fa": "برنج",
+        "ar": "أرز",
+        "es": "arroz",
+        "zh": "米饭",
+        "ja": "ご飯"
+      },
+      "phonetic": {
+        "en": "khaao · /kʰaːw˥˩/",
+        "th": "ข้าว · /kʰaːw˥˩/",
+        "fa": "khaao · /kʰaːw˥˩/",
+        "ar": "khaao · /kʰaːw˥˩/",
+        "es": "khaao · /kʰaːw˥˩/",
+        "zh": "khaao · /kʰaːw˥˩/",
+        "ja": "khaao · /kʰaːw˥˩/"
+      }
+    },
+    {
+      "id": "rule_11_ex2",
+      "kind": "word",
+      "texts": {
+        "en": "face",
+        "th": "หน้า",
+        "fa": "صورت",
+        "ar": "وجه",
+        "es": "cara",
+        "zh": "脸",
+        "ja": "顔"
+      },
+      "phonetic": {
+        "en": "naa · /naː˥˩/",
+        "th": "หน้า · /naː˥˩/",
+        "fa": "naa · /naː˥˩/",
+        "ar": "naa · /naː˥˩/",
+        "es": "naa · /naː˥˩/",
+        "zh": "naa · /naː˥˩/",
+        "ja": "naa · /naː˥˩/"
+      }
+    },
+    {
+      "id": "rule_11_ex3",
+      "kind": "word",
+      "texts": {
+        "en": "department store",
+        "th": "ห้าง",
+        "fa": "فروشگاه",
+        "ar": "متجر",
+        "es": "tienda departamental",
+        "zh": "商场",
+        "ja": "デパート"
+      },
+      "phonetic": {
+        "en": "haang · /haːŋ˥˩/",
+        "th": "ห้าง · /haːŋ˥˩/",
+        "fa": "haang · /haːŋ˥˩/",
+        "ar": "haang · /haːŋ˥˩/",
+        "es": "haang · /haːŋ˥˩/",
+        "zh": "haang · /haːŋ˥˩/",
+        "ja": "haang · /haːŋ˥˩/"
+      }
+    },
+    {
+      "id": "rule_11_ex4",
+      "kind": "word",
+      "texts": {
+        "en": "bowl",
+        "th": "ถ้วย",
+        "fa": "کاسه",
+        "ar": "وعاء",
+        "es": "tazón",
+        "zh": "碗",
+        "ja": "碗"
+      },
+      "phonetic": {
+        "en": "thuay · /tʰuːaj˥˩/",
+        "th": "ถ้วย · /tʰuːaj˥˩/",
+        "fa": "thuay · /tʰuːaj˥˩/",
+        "ar": "thuay · /tʰuːaj˥˩/",
+        "es": "thuay · /tʰuːaj˥˩/",
+        "zh": "thuay · /tʰuːaj˥˩/",
+        "ja": "thuay · /tʰuːaj˥˩/"
+      }
+    },
+    {
+      "id": "rule_11_ex5",
+      "kind": "word",
+      "texts": {
+        "en": "cloth",
+        "th": "ผ้า",
+        "fa": "پارچه",
+        "ar": "قماش",
+        "es": "tela",
+        "zh": "布",
+        "ja": "布"
+      },
+      "phonetic": {
+        "en": "phaa · /pʰaː˥˩/",
+        "th": "ผ้า · /pʰaː˥˩/",
+        "fa": "phaa · /pʰaː˥˩/",
+        "ar": "phaa · /pʰaː˥˩/",
+        "es": "phaa · /pʰaː˥˩/",
+        "zh": "phaa · /pʰaː˥˩/",
+        "ja": "phaa · /pʰaː˥˩/"
+      }
+    },
+
+    {
+      "id": "rule_12_header",
+      "header": true,
+      "texts": {
+        "en": "Low-class + ่ (mai ek) → Falling tone",
+        "th": "อักษรต่ำ + ่ → เสียงโท",
+        "fa": "همخوان پایین + ่ → صدای نزولی",
+        "ar": "حرف منخفض + ่ → نغمة هابطة",
+        "es": "Consonante baja + ่ → Tono descendente",
+        "zh": "低辅音 + ่ → 降声调",
+        "ja": "低子音 + ่ → 下降声調"
+      }
+    },
+    {
+      "id": "rule_12_ex1",
+      "kind": "word",
+      "texts": {
+        "en": "fee / value",
+        "th": "ค่า",
+        "fa": "هزینه / ارزش",
+        "ar": "رسوم / قيمة",
+        "es": "tarifa / valor",
+        "zh": "费用 / 价值",
+        "ja": "料金 / 価値"
+      },
+      "phonetic": {
+        "en": "khaa · /kʰaː˥˩/",
+        "th": "ค่า · /kʰaː˥˩/",
+        "fa": "khaa · /kʰaː˥˩/",
+        "ar": "khaa · /kʰaː˥˩/",
+        "es": "khaa · /kʰaː˥˩/",
+        "zh": "khaa · /kʰaː˥˩/",
+        "ja": "khaa · /kʰaː˥˩/"
+      }
+    },
+    {
+      "id": "rule_12_ex2",
+      "kind": "word",
+      "texts": {
+        "en": "posture / port",
+        "th": "ท่า",
+        "fa": "حالت / بندر",
+        "ar": "وضعية / ميناء",
+        "es": "postura / puerto",
+        "zh": "姿势 / 港口",
+        "ja": "姿勢 / 港"
+      },
+      "phonetic": {
+        "en": "thaa · /tʰaː˥˩/",
+        "th": "ท่า · /tʰaː˥˩/",
+        "fa": "thaa · /tʰaː˥˩/",
+        "ar": "thaa · /tʰaː˥˩/",
+        "es": "thaa · /tʰaː˥˩/",
+        "zh": "thaa · /tʰaː˥˩/",
+        "ja": "thaa · /tʰaː˥˩/"
+      }
+    },
+    {
+      "id": "rule_12_ex3",
+      "kind": "word",
+      "texts": {
+        "en": "worthy of (prefix)",
+        "th": "น่า",
+        "fa": "سزاوار (پیشوند)",
+        "ar": "جدير بـ (بادئة)",
+        "es": "digno de (prefijo)",
+        "zh": "值得（前缀）",
+        "ja": "〜に値する（接頭辞）"
+      },
+      "phonetic": {
+        "en": "naa · /naː˥˩/",
+        "th": "น่า · /naː˥˩/",
+        "fa": "naa · /naː˥˩/",
+        "ar": "naa · /naː˥˩/",
+        "es": "naa · /naː˥˩/",
+        "zh": "naa · /naː˥˩/",
+        "ja": "naa · /naː˥˩/"
+      }
+    },
+    {
+      "id": "rule_12_ex4",
+      "kind": "word",
+      "texts": {
+        "en": "to hunt",
+        "th": "ล่า",
+        "fa": "شکار کردن",
+        "ar": "يصطاد",
+        "es": "cazar",
+        "zh": "打猎",
+        "ja": "狩る"
+      },
+      "phonetic": {
+        "en": "laa · /laː˥˩/",
+        "th": "ล่า · /laː˥˩/",
+        "fa": "laa · /laː˥˩/",
+        "ar": "laa · /laː˥˩/",
+        "es": "laa · /laː˥˩/",
+        "zh": "laa · /laː˥˩/",
+        "ja": "laa · /laː˥˩/"
+      }
+    },
+
+    {
+      "id": "rule_13_header",
+      "header": true,
+      "texts": {
+        "en": "Low-class + ้ (mai tho) → High tone",
+        "th": "อักษรต่ำ + ้ → เสียงตรี",
+        "fa": "همخوان پایین + ้ → صدای بالا",
+        "ar": "حرف منخفض + ้ → نغمة عالية",
+        "es": "Consonante baja + ้ → Tono alto",
+        "zh": "低辅音 + ้ → 高声调",
+        "ja": "低子音 + ้ → 高声調"
+      }
+    },
+    {
+      "id": "rule_13_ex1",
+      "kind": "word",
+      "texts": {
+        "en": "water",
+        "th": "น้ำ",
+        "fa": "آب",
+        "ar": "ماء",
+        "es": "agua",
+        "zh": "水",
+        "ja": "水"
+      },
+      "phonetic": {
+        "en": "nam · /nam˦˥/",
+        "th": "น้ำ · /nam˦˥/",
+        "fa": "nam · /nam˦˥/",
+        "ar": "nam · /nam˦˥/",
+        "es": "nam · /nam˦˥/",
+        "zh": "nam · /nam˦˥/",
+        "ja": "nam · /nam˦˥/"
+      }
+    },
+    {
+      "id": "rule_13_ex2",
+      "kind": "word",
+      "texts": {
+        "en": "horse",
+        "th": "ม้า",
+        "fa": "اسب",
+        "ar": "حصان",
+        "es": "caballo",
+        "zh": "马",
+        "ja": "馬"
+      },
+      "phonetic": {
+        "en": "maa · /maː˦˥/",
+        "th": "ม้า · /maː˦˥/",
+        "fa": "maa · /maː˦˥/",
+        "ar": "maa · /maː˦˥/",
+        "es": "maa · /maː˦˥/",
+        "zh": "maa · /maː˦˥/",
+        "ja": "maa · /maː˦˥/"
+      }
+    },
+    {
+      "id": "rule_13_ex3",
+      "kind": "word",
+      "texts": {
+        "en": "sky",
+        "th": "ฟ้า",
+        "fa": "آسمان",
+        "ar": "سماء",
+        "es": "cielo",
+        "zh": "天空",
+        "ja": "空"
+      },
+      "phonetic": {
+        "en": "faa · /faː˦˥/",
+        "th": "ฟ้า · /faː˦˥/",
+        "fa": "faa · /faː˦˥/",
+        "ar": "faa · /faː˦˥/",
+        "es": "faa · /faː˦˥/",
+        "zh": "faa · /faː˦˥/",
+        "ja": "faa · /faː˦˥/"
+      }
+    },
+    {
+      "id": "rule_13_ex4",
+      "kind": "word",
+      "texts": {
+        "en": "aunt/uncle (younger)",
+        "th": "น้า",
+        "fa": "خاله / دایی (کوچکتر)",
+        "ar": "خال / خالة (أصغر)",
+        "es": "tío/tía (menor)",
+        "zh": "小姨 / 小舅",
+        "ja": "叔母 / 叔父（年少）"
+      },
+      "phonetic": {
+        "en": "naa · /naː˦˥/",
+        "th": "น้า · /naː˦˥/",
+        "fa": "naa · /naː˦˥/",
+        "ar": "naa · /naː˦˥/",
+        "es": "naa · /naː˦˥/",
+        "zh": "naa · /naː˦˥/",
+        "ja": "naa · /naː˦˥/"
+      }
+    },
+    {
+      "id": "rule_13_ex5",
+      "kind": "word",
+      "texts": {
+        "en": "to fall / collapse",
+        "th": "ล้ม",
+        "fa": "افتادن",
+        "ar": "يسقط",
+        "es": "caer",
+        "zh": "倒下",
+        "ja": "倒れる"
+      },
+      "phonetic": {
+        "en": "lom · /lom˦˥/",
+        "th": "ล้ม · /lom˦˥/",
+        "fa": "lom · /lom˦˥/",
+        "ar": "lom · /lom˦˥/",
+        "es": "lom · /lom˦˥/",
+        "zh": "lom · /lom˦˥/",
+        "ja": "lom · /lom˦˥/"
+      }
+    },
+
+    {
+      "id": "rule_14_header",
+      "header": true,
+      "texts": {
+        "en": "Low-class + dead syllable (short vowel) → High tone",
+        "th": "อักษรต่ำ + คำตาย (สระสั้น) → เสียงตรี",
+        "fa": "همخوان پایین + هجای مرده (واکه کوتاه) → صدای بالا",
+        "ar": "حرف منخفض + مقطع ميت (حركة قصيرة) → نغمة عالية",
+        "es": "Consonante baja + sílaba muerta (vocal corta) → Tono alto",
+        "zh": "低辅音 + 死音节（短元音）→ 高声调",
+        "ja": "低子音 + 死音節（短母音）→ 高声調"
+      }
+    },
+    {
+      "id": "rule_14_ex1",
+      "kind": "word",
+      "texts": {
+        "en": "bird",
+        "th": "นก",
+        "fa": "پرنده",
+        "ar": "طائر",
+        "es": "pájaro",
+        "zh": "鸟",
+        "ja": "鳥"
+      },
+      "phonetic": {
+        "en": "nok · /nok˦˥/",
+        "th": "นก · /nok˦˥/",
+        "fa": "nok · /nok˦˥/",
+        "ar": "nok · /nok˦˥/",
+        "es": "nok · /nok˦˥/",
+        "zh": "nok · /nok˦˥/",
+        "ja": "nok · /nok˦˥/"
+      }
+    },
+    {
+      "id": "rule_14_ex2",
+      "kind": "word",
+      "texts": {
+        "en": "winding / crooked",
+        "th": "คด",
+        "fa": "پیچیده / کج",
+        "ar": "متعرّج",
+        "es": "sinuoso",
+        "zh": "弯曲",
+        "ja": "曲がりくねった"
+      },
+      "phonetic": {
+        "en": "khot · /kʰot˦˥/",
+        "th": "คด · /kʰot˦˥/",
+        "fa": "khot · /kʰot˦˥/",
+        "ar": "khot · /kʰot˦˥/",
+        "es": "khot · /kʰot˦˥/",
+        "zh": "khot · /kʰot˦˥/",
+        "ja": "khot · /kʰot˦˥/"
+      }
+    },
+    {
+      "id": "rule_14_ex3",
+      "kind": "word",
+      "texts": {
+        "en": "to punch",
+        "th": "ชก",
+        "fa": "مشت زدن",
+        "ar": "يلكم",
+        "es": "golpear con puño",
+        "zh": "拳击",
+        "ja": "パンチする"
+      },
+      "phonetic": {
+        "en": "chok · /tɕʰok˦˥/",
+        "th": "ชก · /tɕʰok˦˥/",
+        "fa": "chok · /tɕʰok˦˥/",
+        "ar": "chok · /tɕʰok˦˥/",
+        "es": "chok · /tɕʰok˦˥/",
+        "zh": "chok · /tɕʰok˦˥/",
+        "ja": "chok · /tɕʰok˦˥/"
+      }
+    },
+    {
+      "id": "rule_14_ex4",
+      "kind": "word",
+      "texts": {
+        "en": "to carry (on person)",
+        "th": "พก",
+        "fa": "همراه داشتن",
+        "ar": "يحمل على الشخص",
+        "es": "llevar encima",
+        "zh": "随身携带",
+        "ja": "携帯する"
+      },
+      "phonetic": {
+        "en": "phok · /pʰok˦˥/",
+        "th": "พก · /pʰok˦˥/",
+        "fa": "phok · /pʰok˦˥/",
+        "ar": "phok · /pʰok˦˥/",
+        "es": "phok · /pʰok˦˥/",
+        "zh": "phok · /pʰok˦˥/",
+        "ja": "phok · /pʰok˦˥/"
+      }
+    },
+
+    {
+      "id": "rule_15_header",
+      "header": true,
+      "texts": {
+        "en": "Low-class + dead syllable (long vowel) → Falling tone",
+        "th": "อักษรต่ำ + คำตาย (สระยาว) → เสียงโท",
+        "fa": "همخوان پایین + هجای مرده (واکه بلند) → صدای نزولی",
+        "ar": "حرف منخفض + مقطع ميت (حركة طويلة) → نغمة هابطة",
+        "es": "Consonante baja + sílaba muerta (vocal larga) → Tono descendente",
+        "zh": "低辅音 + 死音节（长元音）→ 降声调",
+        "ja": "低子音 + 死音節（長母音）→ 下降声調"
+      }
+    },
+    {
+      "id": "rule_15_ex1",
+      "kind": "word",
+      "texts": {
+        "en": "very / much",
+        "th": "มาก",
+        "fa": "خیلی / زیاد",
+        "ar": "كثيرًا",
+        "es": "mucho",
+        "zh": "很 / 多",
+        "ja": "とても / 多い"
+      },
+      "phonetic": {
+        "en": "maak · /maːk˥˩/",
+        "th": "มาก · /maːk˥˩/",
+        "fa": "maak · /maːk˥˩/",
+        "ar": "maak · /maːk˥˩/",
+        "es": "maak · /maːk˥˩/",
+        "zh": "maak · /maːk˥˩/",
+        "ja": "maak · /maːk˥˩/"
+      }
+    },
+    {
+      "id": "rule_15_ex2",
+      "kind": "word",
+      "texts": {
+        "en": "world",
+        "th": "โลก",
+        "fa": "جهان",
+        "ar": "عالم",
+        "es": "mundo",
+        "zh": "世界",
+        "ja": "世界"
+      },
+      "phonetic": {
+        "en": "look · /loːk˥˩/",
+        "th": "โลก · /loːk˥˩/",
+        "fa": "look · /loːk˥˩/",
+        "ar": "look · /loːk˥˩/",
+        "es": "look · /loːk˥˩/",
+        "zh": "look · /loːk˥˩/",
+        "ja": "look · /loːk˥˩/"
+      }
+    },
+    {
+      "id": "rule_15_ex3",
+      "kind": "word",
+      "texts": {
+        "en": "to pour over",
+        "th": "ราด",
+        "fa": "ریختن روی",
+        "ar": "يسكب على",
+        "es": "verter sobre",
+        "zh": "浇",
+        "ja": "注ぎかける"
+      },
+      "phonetic": {
+        "en": "raat · /raːt˥˩/",
+        "th": "ราด · /raːt˥˩/",
+        "fa": "raat · /raːt˥˩/",
+        "ar": "raat · /raːt˥˩/",
+        "es": "raat · /raːt˥˩/",
+        "zh": "raat · /raːt˥˩/",
+        "ja": "raat · /raːt˥˩/"
+      }
+    },
+    {
+      "id": "rule_15_ex4",
+      "kind": "word",
+      "texts": {
+        "en": "nation / birth",
+        "th": "ชาติ",
+        "fa": "ملت / تولد",
+        "ar": "أمة / ميلاد",
+        "es": "nación / nacimiento",
+        "zh": "国家 / 出生",
+        "ja": "国 / 誕生"
+      },
+      "phonetic": {
+        "en": "chaat · /tɕʰaːt˥˩/",
+        "th": "ชาติ · /tɕʰaːt˥˩/",
+        "fa": "chaat · /tɕʰaːt˥˩/",
+        "ar": "chaat · /tɕʰaːt˥˩/",
+        "es": "chaat · /tɕʰaːt˥˩/",
+        "zh": "chaat · /tɕʰaːt˥˩/",
+        "ja": "chaat · /tɕʰaːt˥˩/"
+      }
+    },
+
+    {
+      "id": "rule_08_header",
+      "header": true,
+      "texts": {
+        "en": "Mid-class + ๊ (mai tri) → High tone",
+        "th": "อักษรกลาง + ๊ → เสียงตรี",
+        "fa": "همخوان میانی + ๊ → صدای بالا",
+        "ar": "حرف وسط + ๊ → نغمة عالية",
+        "es": "Consonante media + ๊ → Tono alto",
+        "zh": "中辅音 + ๊ → 高声调",
+        "ja": "中子音 + ๊ → 高声調"
+      }
+    },
+    {
+      "id": "rule_08_ex1",
+      "kind": "word",
+      "texts": {
+        "en": "grandfather (Chinese)",
+        "th": "ก๋ง",
+        "fa": "پدربزرگ (چینی)",
+        "ar": "جد (صيني)",
+        "es": "abuelo (chino)",
+        "zh": "爷爷（华人）",
+        "ja": "祖父（中国系）"
+      },
+      "phonetic": {
+        "en": "kong · /koŋ˦˥/",
+        "th": "ก๋ง · /koŋ˦˥/",
+        "fa": "kong · /koŋ˦˥/",
+        "ar": "kong · /koŋ˦˥/",
+        "es": "kong · /koŋ˦˥/",
+        "zh": "kong · /koŋ˦˥/",
+        "ja": "kong · /koŋ˦˥/"
+      }
+    },
+    {
+      "id": "rule_08_ex2",
+      "kind": "word",
+      "texts": {
+        "en": "splash! (onomatopoeia)",
+        "th": "ป๋อม",
+        "fa": "شالاپ! (صوت)",
+        "ar": "بوم! (محاكاة صوتية)",
+        "es": "¡splash! (onomatopeya)",
+        "zh": "扑通！（拟声词）",
+        "ja": "ドボン！（擬音語）"
+      },
+      "phonetic": {
+        "en": "bpong · /pɔːm˦˥/",
+        "th": "ป๋อม · /pɔːm˦˥/",
+        "fa": "bpong · /pɔːm˦˥/",
+        "ar": "bpong · /pɔːm˦˥/",
+        "es": "bpong · /pɔːm˦˥/",
+        "zh": "bpong · /pɔːm˦˥/",
+        "ja": "bpong · /pɔːm˦˥/"
+      }
+    },
+
+    {
+      "id": "rule_09_header",
+      "header": true,
+      "texts": {
+        "en": "Mid-class + ๋ (mai chattawa) → Rising tone",
+        "th": "อักษรกลาง + ๋ → เสียงจัตวา",
+        "fa": "همخوان میانی + ๋ → صدای صعودی",
+        "ar": "حرف وسط + ๋ → نغمة صاعدة",
+        "es": "Consonante media + ๋ → Tono ascendente",
+        "zh": "中辅音 + ๋ → 升声调",
+        "ja": "中子音 + ๋ → 上昇声調"
+      }
+    },
+    {
+      "id": "rule_09_ex1",
+      "kind": "word",
+      "texts": {
+        "en": "noodles (in ก๋วยเตี๋ยว)",
+        "th": "ก๋วย",
+        "fa": "رشته (در گوی‌تیو)",
+        "ar": "معكرونة (في كواي تيو)",
+        "es": "fideos (en kuay tiao)",
+        "zh": "粿条（粿条汤中）",
+        "ja": "麺（クイッティアオ）"
+      },
+      "phonetic": {
+        "en": "kuay · /kuːaj˩˩˦/",
+        "th": "ก๋วย · /kuːaj˩˩˦/",
+        "fa": "kuay · /kuːaj˩˩˦/",
+        "ar": "kuay · /kuːaj˩˩˦/",
+        "es": "kuay · /kuːaj˩˩˦/",
+        "zh": "kuay · /kuːaj˩˩˦/",
+        "ja": "kuay · /kuːaj˩˩˦/"
+      }
+    },
+    {
+      "id": "rule_09_ex2",
+      "kind": "word",
+      "texts": {
+        "en": "Chinese boy (informal)",
+        "th": "ตี๋",
+        "fa": "پسر چینی (غیررسمی)",
+        "ar": "صبي صيني (غير رسمي)",
+        "es": "chico chino (informal)",
+        "zh": "小帅哥（非正式）",
+        "ja": "中国人の男の子（くだけた）"
+      },
+      "phonetic": {
+        "en": "tii · /tiː˩˩˦/",
+        "th": "ตี๋ · /tiː˩˩˦/",
+        "fa": "tii · /tiː˩˩˦/",
+        "ar": "tii · /tiː˩˩˦/",
+        "es": "tii · /tiː˩˩˦/",
+        "zh": "tii · /tiː˩˩˦/",
+        "ja": "tii · /tiː˩˩˦/"
+      }
+    },
+    {
+      "id": "rule_09_ex3",
+      "kind": "word",
+      "texts": {
+        "en": "to show off (informal)",
+        "th": "ป๋อ",
+        "fa": "خودنمایی (غیررسمی)",
+        "ar": "يتباهى (غير رسمي)",
+        "es": "presumir (informal)",
+        "zh": "摆阔（非正式）",
+        "ja": "見栄を張る（くだけた）"
+      },
+      "phonetic": {
+        "en": "poo · /pɔː˩˩˦/",
+        "th": "ป๋อ · /pɔː˩˩˦/",
+        "fa": "poo · /pɔː˩˩˦/",
+        "ar": "poo · /pɔː˩˩˦/",
+        "es": "poo · /pɔː˩˩˦/",
+        "zh": "poo · /pɔː˩˩˦/",
+        "ja": "poo · /pɔː˩˩˦/"
+      }
+    }
+  ]
+}

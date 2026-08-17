@@ -1,0 +1,759 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Words",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژه‌های اصلی",
+        "ar": "الكلمات الأساسية",
+        "es": "Palabras clave",
+        "zh": "核心词汇",
+        "ja": "基本単語"
+      }
+    },
+    {
+      "id": "word_i",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "word_my",
+      "kind": "word",
+      "texts": {
+        "en": "my",
+        "th": "ของฉัน",
+        "fa": "مالِ من",
+        "ar": "خاص بي",
+        "es": "mi",
+        "zh": "我的",
+        "ja": "私の"
+      }
+    },
+    {
+      "id": "word_you",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "usted",
+        "zh": "您",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_of",
+      "kind": "word",
+      "texts": {
+        "en": "of",
+        "th": "ของ",
+        "fa": "از",
+        "ar": "من",
+        "es": "de",
+        "zh": "的",
+        "ja": "の"
+      }
+    },
+    {
+      "id": "word_where",
+      "kind": "word",
+      "texts": {
+        "en": "where",
+        "th": "ที่ไหน",
+        "fa": "کجا",
+        "ar": "أين",
+        "es": "dónde",
+        "zh": "哪里",
+        "ja": "どこ"
+      }
+    },
+    {
+      "id": "word_when",
+      "kind": "word",
+      "texts": {
+        "en": "when",
+        "th": "เมื่อไหร่",
+        "fa": "چه زمانی",
+        "ar": "متى",
+        "es": "cuándo",
+        "zh": "什么时候",
+        "ja": "いつ"
+      }
+    },
+    {
+      "id": "word_who",
+      "kind": "word",
+      "texts": {
+        "en": "who",
+        "th": "ใคร",
+        "fa": "چه کسی",
+        "ar": "من",
+        "es": "quién",
+        "zh": "谁",
+        "ja": "誰"
+      }
+    },
+    {
+      "id": "word_what",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه",
+        "ar": "ماذا",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_why",
+      "kind": "word",
+      "texts": {
+        "en": "why",
+        "th": "ทำไม",
+        "fa": "چرا",
+        "ar": "لماذا",
+        "es": "por qué",
+        "zh": "为什么",
+        "ja": "なぜ"
+      }
+    },
+    {
+      "id": "word_come",
+      "kind": "word",
+      "texts": {
+        "en": "come",
+        "th": "มา",
+        "fa": "آمدن",
+        "ar": "يأتي",
+        "es": "venir",
+        "zh": "来",
+        "ja": "来る"
+      }
+    },
+    {
+      "id": "word_please",
+      "kind": "word",
+      "texts": {
+        "en": "please",
+        "th": "กรุณา",
+        "fa": "لطفا",
+        "ar": "من فضلك",
+        "es": "por favor",
+        "zh": "请",
+        "ja": "どうぞ"
+      }
+    },
+    {
+      "id": "word_dont",
+      "kind": "word",
+      "texts": {
+        "en": "don't (prohibition)",
+        "th": "อย่า",
+        "fa": "نکن / نباید",
+        "ar": "لا تفعل",
+        "es": "no (hagas)",
+        "zh": "别 / 不要",
+        "ja": "〜ないで"
+      }
+    },
+    {
+      "id": "word_forbidden",
+      "kind": "word",
+      "texts": {
+        "en": "forbidden / must not",
+        "th": "ห้าม",
+        "fa": "ممنوع",
+        "ar": "محظور",
+        "es": "prohibido",
+        "zh": "禁止",
+        "ja": "禁止"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Finding Your Workspace",
+        "th": "สถานการณ์ 1: การหาที่นั่งทำงาน",
+        "fa": "سناریو ۱: پیدا کردن فضای کاری",
+        "ar": "السيناريو 1: إيجاد مكان عملك",
+        "es": "Escenario 1: Encontrar tu espacio de trabajo",
+        "zh": "场景一：找到你的办公位",
+        "ja": "シナリオ1：自分のワークスペースを探す"
+      }
+    },
+    {
+      "id": "sentence_office_where_desk",
+      "kind": "sentence",
+      "itemIds": ["word_where", "word_desk", "word_of", "word_you"],
+      "texts": {
+        "en": "Where is your desk",
+        "th": "โต๊ะทำงานของคุณอยู่ที่ไหน",
+        "fa": "میز کار شما کجاست",
+        "ar": "أين مكتبك",
+        "es": "Dónde está su escritorio",
+        "zh": "您的办公桌在哪里",
+        "ja": "あなたの机はどこですか"
+      },
+      "tokens": {
+        "en": ["Where", "is", "your", "desk"],
+        "th": ["โต๊ะทำงาน", "ของ", "คุณ", "อยู่", "ที่ไหน"],
+        "fa": ["میز", "کار", "شما", "کجاست"],
+        "ar": ["أين", "مكتبك"],
+        "es": ["Dónde", "está", "su", "escritorio"],
+        "zh": ["您", "的", "办公桌", "在", "哪里"],
+        "ja": ["あなた", "の", "机", "は", "どこ", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_desk_answer",
+      "kind": "sentence",
+      "itemIds": ["word_desk", "word_my", "word_near", "word_window"],
+      "texts": {
+        "en": "My desk is near the window",
+        "th": "โต๊ะทำงานของฉันอยู่ใกล้หน้าต่างค่ะ",
+        "fa": "میز کار من نزدیک پنجره است",
+        "ar": "مكتبي قرب النافذة",
+        "es": "Mi escritorio está cerca de la ventana",
+        "zh": "我的办公桌靠近窗户",
+        "ja": "私の机は窓の近くです"
+      },
+      "tokens": {
+        "en": ["My", "desk", "is", "near", "the", "window"],
+        "th": ["โต๊ะทำงาน", "ของ", "ฉัน", "อยู่", "ใกล้", "หน้าต่าง", "ค่ะ"],
+        "fa": ["میز", "کار", "من", "نزدیک", "پنجره", "است"],
+        "ar": ["مكتبي", "قرب", "النافذة"],
+        "es": ["Mi", "escritorio", "está", "cerca", "de", "la", "ventana"],
+        "zh": ["我的", "办公桌", "靠近", "窗户"],
+        "ja": ["私", "の", "机", "は", "窓", "の", "近く", "です"]
+      }
+    },
+    {
+      "id": "word_desk",
+      "kind": "word",
+      "texts": {
+        "en": "desk",
+        "th": "โต๊ะทำงาน",
+        "fa": "میز کار",
+        "ar": "مكتب",
+        "es": "escritorio",
+        "zh": "办公桌",
+        "ja": "机"
+      }
+    },
+    {
+      "id": "word_near",
+      "kind": "word",
+      "texts": {
+        "en": "near",
+        "th": "ใกล้",
+        "fa": "نزدیک",
+        "ar": "قرب",
+        "es": "cerca de",
+        "zh": "靠近",
+        "ja": "〜の近く"
+      }
+    },
+    {
+      "id": "word_window",
+      "kind": "word",
+      "texts": {
+        "en": "window",
+        "th": "หน้าต่าง",
+        "fa": "پنجره",
+        "ar": "نافذة",
+        "es": "ventana",
+        "zh": "窗户",
+        "ja": "窓"
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Equipment Problems",
+        "th": "สถานการณ์ 2: ปัญหาอุปกรณ์",
+        "fa": "سناریو ۲: مشکلات تجهیزات",
+        "ar": "السيناريو 2: مشاكل المعدات",
+        "es": "Escenario 2: Problemas de equipo",
+        "zh": "场景二：设备问题",
+        "ja": "シナリオ2：機器のトラブル"
+      }
+    },
+    {
+      "id": "sentence_office_computer_broken",
+      "kind": "sentence",
+      "itemIds": ["word_computer", "word_broken"],
+      "texts": {
+        "en": "The computer is not working",
+        "th": "คอมพิวเตอร์ใช้งานไม่ได้",
+        "fa": "کامپیوتر کار نمی‌کند",
+        "ar": "الحاسوب لا يعمل",
+        "es": "La computadora no funciona",
+        "zh": "电脑坏了",
+        "ja": "コンピューターが故障しています"
+      },
+      "tokens": {
+        "en": ["The", "computer", "is", "not", "working"],
+        "th": ["คอมพิวเตอร์", "ใช้งาน", "ไม่ได้"],
+        "fa": ["کامپیوتر", "کار", "نمی‌کند"],
+        "ar": ["الحاسوب", "لا", "يعمل"],
+        "es": ["La", "computadora", "no", "funciona"],
+        "zh": ["电脑", "坏", "了"],
+        "ja": ["コンピューター", "が", "故障", "して", "います"]
+      }
+    },
+    {
+      "id": "sentence_printer_broken",
+      "kind": "sentence",
+      "itemIds": ["word_printer", "word_broken"],
+      "texts": {
+        "en": "The printer is not working",
+        "th": "เครื่องพิมพ์ใช้งานไม่ได้ครับ",
+        "fa": "چاپگر کار نمی‌کند",
+        "ar": "الطابعة لا تعمل",
+        "es": "La impresora no funciona",
+        "zh": "打印机不能用了",
+        "ja": "プリンターが故障しています"
+      },
+      "tokens": {
+        "en": ["The", "printer", "is", "not", "working"],
+        "th": ["เครื่องพิมพ์", "ใช้งาน", "ไม่ได้", "ครับ"],
+        "fa": ["چاپگر", "کار", "نمی‌کند"],
+        "ar": ["الطابعة", "لا", "تعمل"],
+        "es": ["La", "impresora", "no", "funciona"],
+        "zh": ["打印机", "不能", "用", "了"],
+        "ja": ["プリンター", "が", "故障", "して", "います"]
+      }
+    },
+    {
+      "id": "sentence_what_broken",
+      "kind": "sentence",
+      "itemIds": ["word_what", "word_broken"],
+      "texts": {
+        "en": "What is broken?",
+        "th": "อะไรใช้งานไม่ได้ครับ",
+        "fa": "چه چیزی خراب است؟",
+        "ar": "ما هو المعطل؟",
+        "es": "¿Qué está roto?",
+        "zh": "什么坏了？",
+        "ja": "何が故障していますか？"
+      },
+      "tokens": {
+        "en": ["What", "is", "broken?"],
+        "th": ["อะไร", "ใช้งาน", "ไม่ได้", "ครับ"],
+        "fa": ["چه", "چیزی", "خراب", "است؟"],
+        "ar": ["ما", "هو", "المعطل؟"],
+        "es": ["¿Qué", "está", "roto?"],
+        "zh": ["什么", "坏", "了？"],
+        "ja": ["何", "が", "故障", "して", "います", "か？"]
+      }
+    },
+    {
+      "id": "word_computer",
+      "kind": "word",
+      "texts": {
+        "en": "computer",
+        "th": "คอมพิวเตอร์",
+        "fa": "کامپیوتر",
+        "ar": "حاسوب",
+        "es": "computadora",
+        "zh": "电脑",
+        "ja": "コンピューター"
+      }
+    },
+    {
+      "id": "word_printer",
+      "kind": "word",
+      "texts": {
+        "en": "printer",
+        "th": "เครื่องพิมพ์",
+        "fa": "چاپگر",
+        "ar": "طابعة",
+        "es": "impresora",
+        "zh": "打印机",
+        "ja": "プリンター"
+      }
+    },
+    {
+      "id": "word_broken",
+      "kind": "word",
+      "texts": {
+        "en": "broken",
+        "th": "ใช้งานไม่ได้",
+        "fa": "خراب",
+        "ar": "معطل",
+        "es": "roto",
+        "zh": "坏了",
+        "ja": "故障している"
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Reports & Deadlines",
+        "th": "สถานการณ์ 3: รายงานและกำหนดส่ง",
+        "fa": "سناریو ۳: گزارش‌ها و مهلت‌ها",
+        "ar": "السيناريو 3: التقارير والمواعيد النهائية",
+        "es": "Escenario 3: Informes y fechas límite",
+        "zh": "场景三：报告与截止日期",
+        "ja": "シナリオ3：報告書と締め切り"
+      }
+    },
+    {
+      "id": "sentence_office_when_deadline",
+      "kind": "sentence",
+      "itemIds": ["word_when", "word_deadline"],
+      "texts": {
+        "en": "When is the deadline",
+        "th": "กำหนดส่งคือเมื่อไหร่",
+        "fa": "مهلت چه زمانی است",
+        "ar": "متى الموعد النهائي",
+        "es": "Cuándo es la fecha límite",
+        "zh": "截止日期是什么时候",
+        "ja": "期限はいつですか"
+      },
+      "tokens": {
+        "en": ["When", "is", "the", "deadline"],
+        "th": ["กำหนดส่ง", "คือ", "เมื่อไหร่"],
+        "fa": ["مهلت", "چه", "زمانی", "است"],
+        "ar": ["متى", "الموعد", "النهائي"],
+        "es": ["Cuándo", "es", "la", "fecha", "límite"],
+        "zh": ["截止日期", "是", "什么时候"],
+        "ja": ["期限", "は", "いつ", "です", "か"]
+      }
+    },
+    {
+      "id": "sentence_deadline_answer",
+      "kind": "sentence",
+      "itemIds": ["word_deadline", "word_tomorrow"],
+      "texts": {
+        "en": "The deadline is tomorrow",
+        "th": "กำหนดส่งคือพรุ่งนี้ครับ",
+        "fa": "مهلت فردا است",
+        "ar": "الموعد النهائي غداً",
+        "es": "La fecha límite es mañana",
+        "zh": "截止日期是明天",
+        "ja": "期限は明日です"
+      },
+      "tokens": {
+        "en": ["The", "deadline", "is", "tomorrow"],
+        "th": ["กำหนดส่ง", "คือ", "พรุ่งนี้", "ครับ"],
+        "fa": ["مهلت", "فردا", "است"],
+        "ar": ["الموعد", "النهائي", "غداً"],
+        "es": ["La", "fecha", "límite", "es", "mañana"],
+        "zh": ["截止日期", "是", "明天"],
+        "ja": ["期限", "は", "明日", "です"]
+      }
+    },
+    {
+      "id": "word_deadline",
+      "kind": "word",
+      "texts": {
+        "en": "deadline",
+        "th": "กำหนดส่ง",
+        "fa": "مهلت",
+        "ar": "موعد نهائي",
+        "es": "fecha límite",
+        "zh": "截止日期",
+        "ja": "期限"
+      }
+    },
+    {
+      "id": "word_tomorrow",
+      "kind": "word",
+      "texts": {
+        "en": "tomorrow",
+        "th": "พรุ่งนี้",
+        "fa": "فردا",
+        "ar": "غداً",
+        "es": "mañana",
+        "zh": "明天",
+        "ja": "明日"
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Requests & Instructions",
+        "th": "สถานการณ์ 4: คำขอร้องและคำสั่ง",
+        "fa": "سناریو ۴: درخواست‌ها و دستورالعمل‌ها",
+        "ar": "السيناريو 4: الطلبات والتعليمات",
+        "es": "Escenario 4: Peticiones e instrucciones",
+        "zh": "场景四：请求与指示",
+        "ja": "シナリオ4：依頼と指示"
+      }
+    },
+    {
+      "id": "sentence_office_give_report",
+      "kind": "sentence",
+      "itemIds": ["word_please", "word_give", "word_report", "word_manager"],
+      "texts": {
+        "en": "Please give the report to the manager",
+        "th": "กรุณาส่งรายงานให้ผู้จัดการ",
+        "fa": "لطفا گزارش را به مدیر بدهید",
+        "ar": "من فضلك أعط التقرير للمدير",
+        "es": "Por favor dé el informe al gerente",
+        "zh": "请把报告交给经理",
+        "ja": "報告書をマネージャーに渡してください"
+      },
+      "tokens": {
+        "en": ["Please", "give", "the", "report", "to", "the", "manager"],
+        "th": ["กรุณา", "ส่ง", "รายงาน", "ให้", "ผู้จัดการ"],
+        "fa": ["لطفا", "گزارش", "را", "به", "مدیر", "بدهید"],
+        "ar": ["من", "فضلك", "أعط", "التقرير", "للمدير"],
+        "es": ["Por", "favor", "dé", "el", "informe", "al", "gerente"],
+        "zh": ["请", "把", "报告", "交给", "经理"],
+        "ja": ["報告書", "を", "マネージャー", "に", "渡して", "ください"]
+      }
+    },
+    {
+      "id": "sentence_dont_be_late",
+      "kind": "sentence",
+      "itemIds": ["word_dont", "word_late"],
+      "texts": {
+        "en": "Don't be late",
+        "th": "อย่าสายนะครับ",
+        "fa": "دیر نکنید",
+        "ar": "لا تتأخر",
+        "es": "No llegues tarde",
+        "zh": "别迟到",
+        "ja": "遅刻しないでください"
+      },
+      "tokens": {
+        "en": ["Don't", "be", "late"],
+        "th": ["อย่า", "สาย", "นะ", "ครับ"],
+        "fa": ["دیر", "نکنید"],
+        "ar": ["لا", "تتأخر"],
+        "es": ["No", "llegues", "tarde"],
+        "zh": ["别", "迟到"],
+        "ja": ["遅刻", "しない", "で", "ください"]
+      }
+    },
+    {
+      "id": "sentence_no_smoking_office",
+      "kind": "sentence",
+      "itemIds": ["word_forbidden", "word_smoke", "word_office"],
+      "texts": {
+        "en": "Don't smoke in the office",
+        "th": "ห้ามสูบบุหรี่ในสำนักงานครับ",
+        "fa": "سیگار کشیدن در دفتر ممنوع است",
+        "ar": "التدخين ممنوع في المكتب",
+        "es": "Está prohibido fumar en la oficina",
+        "zh": "办公室内禁止吸烟",
+        "ja": "オフィス内は禁煙です"
+      },
+      "tokens": {
+        "en": ["Don't", "smoke", "in", "the", "office"],
+        "th": ["ห้าม", "สูบบุหรี่", "ใน", "สำนักงาน", "ครับ"],
+        "fa": ["سیگار", "کشیدن", "در", "دفتر", "ممنوع", "است"],
+        "ar": ["التدخين", "ممنوع", "في", "المكتب"],
+        "es": ["Está", "prohibido", "fumar", "en", "la", "oficina"],
+        "zh": ["办公室", "内", "禁止", "吸烟"],
+        "ja": ["オフィス", "内", "は", "禁煙", "です"]
+      }
+    },
+    {
+      "id": "word_give",
+      "kind": "word",
+      "texts": {
+        "en": "give",
+        "th": "ส่ง",
+        "fa": "دادن",
+        "ar": "يعطي",
+        "es": "dar",
+        "zh": "给",
+        "ja": "渡す"
+      }
+    },
+    {
+      "id": "word_report",
+      "kind": "word",
+      "texts": {
+        "en": "report",
+        "th": "รายงาน",
+        "fa": "گزارش",
+        "ar": "تقرير",
+        "es": "informe",
+        "zh": "报告",
+        "ja": "報告書"
+      }
+    },
+    {
+      "id": "word_manager",
+      "kind": "word",
+      "texts": {
+        "en": "manager",
+        "th": "ผู้จัดการ",
+        "fa": "مدیر",
+        "ar": "مدير",
+        "es": "gerente",
+        "zh": "经理",
+        "ja": "マネージャー"
+      }
+    },
+    {
+      "id": "word_late",
+      "kind": "word",
+      "texts": {
+        "en": "late",
+        "th": "สาย",
+        "fa": "دیر",
+        "ar": "متأخر",
+        "es": "tarde",
+        "zh": "迟到",
+        "ja": "遅刻"
+      }
+    },
+    {
+      "id": "word_smoke",
+      "kind": "word",
+      "texts": {
+        "en": "smoke",
+        "th": "สูบบุหรี่",
+        "fa": "سیگار کشیدن",
+        "ar": "يدخن",
+        "es": "fumar",
+        "zh": "吸烟",
+        "ja": "タバコを吸う"
+      }
+    },
+    {
+      "id": "word_office",
+      "kind": "word",
+      "texts": {
+        "en": "office",
+        "th": "สำนักงาน",
+        "fa": "دفتر",
+        "ar": "مكتب (مقر العمل)",
+        "es": "oficina",
+        "zh": "办公室",
+        "ja": "オフィス"
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: People at Work",
+        "th": "สถานการณ์ 5: ผู้คนในที่ทำงาน",
+        "fa": "سناریو ۵: افراد در محل کار",
+        "ar": "السيناريو 5: الأشخاص في العمل",
+        "es": "Escenario 5: Personas en el trabajo",
+        "zh": "场景五：职场中的人们",
+        "ja": "シナリオ5：職場の人々"
+      }
+    },
+    {
+      "id": "sentence_office_colleague_help",
+      "kind": "sentence",
+      "itemIds": ["word_colleague", "word_help", "word_you"],
+      "texts": {
+        "en": "My colleague will help you",
+        "th": "เพื่อนร่วมงานจะช่วยคุณ",
+        "fa": "همکارم به شما کمک خواهد کرد",
+        "ar": "زميلي سيساعدك",
+        "es": "Mi colega le ayudará",
+        "zh": "我的同事会帮助您",
+        "ja": "同僚があなたを手伝います"
+      },
+      "tokens": {
+        "en": ["My", "colleague", "will", "help", "you"],
+        "th": ["เพื่อนร่วมงาน", "จะ", "ช่วย", "คุณ"],
+        "fa": ["همکارم", "به", "شما", "کمک", "خواهد", "کرد"],
+        "ar": ["زميلي", "سيساعدك"],
+        "es": ["Mi", "colega", "le", "ayudará"],
+        "zh": ["我的", "同事", "会", "帮助", "您"],
+        "ja": ["同僚", "が", "あなた", "を", "手伝い", "ます"]
+      }
+    },
+    {
+      "id": "sentence_who_manager",
+      "kind": "sentence",
+      "itemIds": ["word_manager", "word_of", "word_you", "word_who"],
+      "texts": {
+        "en": "Who is your manager?",
+        "th": "ผู้จัดการของคุณคือใครครับ",
+        "fa": "مدیر شما کیست؟",
+        "ar": "من هو مديرك؟",
+        "es": "¿Quién es su gerente?",
+        "zh": "您的经理是谁？",
+        "ja": "あなたのマネージャーは誰ですか？"
+      },
+      "tokens": {
+        "en": ["Who", "is", "your", "manager?"],
+        "th": ["ผู้จัดการ", "ของ", "คุณ", "คือ", "ใคร", "ครับ"],
+        "fa": ["مدیر", "شما", "کیست؟"],
+        "ar": ["من", "هو", "مديرك؟"],
+        "es": ["¿Quién", "es", "su", "gerente?"],
+        "zh": ["您", "的", "经理", "是", "谁？"],
+        "ja": ["あなた", "の", "マネージャー", "は", "誰", "です", "か？"]
+      }
+    },
+    {
+      "id": "sentence_why_late",
+      "kind": "sentence",
+      "itemIds": ["word_why", "word_you", "word_come", "word_late"],
+      "texts": {
+        "en": "Why are you late?",
+        "th": "ทำไมคุณมาสายครับ",
+        "fa": "چرا دیر کردید؟",
+        "ar": "لماذا تأخرت؟",
+        "es": "¿Por qué llegas tarde?",
+        "zh": "你为什么迟到？",
+        "ja": "なぜ遅刻しましたか？"
+      },
+      "tokens": {
+        "en": ["Why", "are", "you", "late?"],
+        "th": ["ทำไม", "คุณ", "มา", "สาย", "ครับ"],
+        "fa": ["چرا", "دیر", "کردید؟"],
+        "ar": ["لماذا", "تأخرت؟"],
+        "es": ["¿Por", "qué", "llegas", "tarde?"],
+        "zh": ["你", "为什么", "迟到？"],
+        "ja": ["なぜ", "遅刻", "し", "ました", "か？"]
+      }
+    },
+    {
+      "id": "word_colleague",
+      "kind": "word",
+      "texts": {
+        "en": "colleague",
+        "th": "เพื่อนร่วมงาน",
+        "fa": "همکار",
+        "ar": "زميل",
+        "es": "colega",
+        "zh": "同事",
+        "ja": "同僚"
+      }
+    },
+    {
+      "id": "word_help",
+      "kind": "word",
+      "texts": {
+        "en": "help",
+        "th": "ช่วย",
+        "fa": "کمک کردن",
+        "ar": "يساعد",
+        "es": "ayudar",
+        "zh": "帮助",
+        "ja": "手伝う"
+      }
+    }
+  ]
+}

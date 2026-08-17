@@ -1,0 +1,305 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "word_help",
+      "kind": "word",
+      "texts": {
+        "en": "help",
+        "th": "ช่วย",
+        "fa": "کمک کردن",
+        "ar": "يساعد",
+        "es": "ayudar",
+        "zh": "帮",
+        "ja": "手伝う"
+      }
+    },
+    {
+      "id": "sentence_g22_help_open_door",
+      "kind": "sentence",
+      "itemIds": [
+        "word_help",
+        "word_open",
+        "word_door",
+        "word_a_little_bit"
+      ],
+      "texts": {
+        "en": "Please help me open the door",
+        "th": "ช่วยเปิดประตูหน่อย",
+        "fa": "لطفا کمک کن در را باز کنم",
+        "ar": "ساعدني في فتح الباب من فضلك",
+        "es": "Ayúdame a abrir la puerta por favor",
+        "zh": "请帮我开一下门",
+        "ja": "ドアを開けるのを手伝って"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "help",
+          "me",
+          "open",
+          "the",
+          "door"
+        ],
+        "th": [
+          "ช่วย",
+          "เปิด",
+          "ประตู",
+          "หน่อย"
+        ],
+        "fa": [
+          "لطفا",
+          "کمک",
+          "کن",
+          "در",
+          "را",
+          "باز",
+          "کنم"
+        ],
+        "ar": [
+          "ساعدني",
+          "في",
+          "فتح",
+          "الباب",
+          "من",
+          "فضلك"
+        ],
+        "es": [
+          "Ayúdame",
+          "a",
+          "abrir",
+          "la",
+          "puerta",
+          "por",
+          "favor"
+        ],
+        "zh": [
+          "请",
+          "帮",
+          "我",
+          "开",
+          "一下",
+          "门"
+        ],
+        "ja": [
+          "ドア",
+          "を",
+          "開ける",
+          "の",
+          "を",
+          "手伝って"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g22_please_wait",
+      "kind": "sentence",
+      "itemIds": [
+        "word_please_formal",
+        "word_wait"
+      ],
+      "texts": {
+        "en": "Please wait",
+        "th": "กรุณารอ",
+        "fa": "لطفا صبر کنید",
+        "ar": "يرجى الانتظار",
+        "es": "Por favor espere",
+        "zh": "请等待",
+        "ja": "お待ちください"
+      },
+      "tokens": {
+        "en": [
+          "Please",
+          "wait"
+        ],
+        "th": [
+          "กรุณา",
+          "รอ"
+        ],
+        "fa": [
+          "لطفا",
+          "صبر",
+          "کنید"
+        ],
+        "ar": [
+          "يرجى",
+          "الانتظار"
+        ],
+        "es": [
+          "Por",
+          "favor",
+          "espere"
+        ],
+        "zh": [
+          "请",
+          "等待"
+        ],
+        "ja": [
+          "お",
+          "待ち",
+          "ください"
+        ]
+      }
+    },
+    {
+      "id": "sentence_g22_dont_touch",
+      "kind": "sentence",
+      "itemIds": [
+        "word_do_not",
+        "word_touch",
+        "word_that"
+      ],
+      "texts": {
+        "en": "Don't touch that",
+        "th": "อย่าจับอันนั้น",
+        "fa": "به آن دست نزن",
+        "ar": "لا تلمس ذلك",
+        "es": "No toques eso",
+        "zh": "不要碰那个",
+        "ja": "それに触らないで"
+      },
+      "tokens": {
+        "en": [
+          "Don't",
+          "touch",
+          "that"
+        ],
+        "th": [
+          "อย่า",
+          "จับ",
+          "อันนั้น"
+        ],
+        "fa": [
+          "به",
+          "آن",
+          "دست",
+          "نزن"
+        ],
+        "ar": [
+          "لا",
+          "تلمس",
+          "ذلك"
+        ],
+        "es": [
+          "No",
+          "toques",
+          "eso"
+        ],
+        "zh": [
+          "不要",
+          "碰",
+          "那个"
+        ],
+        "ja": [
+          "それ",
+          "に",
+          "触らないで"
+        ]
+      }
+    },
+    {
+      "id": "word_open",
+      "kind": "word",
+      "texts": {
+        "en": "open",
+        "th": "เปิด",
+        "fa": "باز کردن",
+        "ar": "يفتح",
+        "es": "abrir",
+        "zh": "开",
+        "ja": "開ける"
+      }
+    },
+    {
+      "id": "word_door",
+      "kind": "word",
+      "texts": {
+        "en": "door",
+        "th": "ประตู",
+        "fa": "در",
+        "ar": "باب",
+        "es": "puerta",
+        "zh": "门",
+        "ja": "ドア"
+      }
+    },
+    {
+      "id": "word_a_little_bit",
+      "kind": "word",
+      "texts": {
+        "en": "a little bit (request softener)",
+        "th": "หน่อย",
+        "fa": "کمی",
+        "ar": "قليلا",
+        "es": "un poco",
+        "zh": "一下",
+        "ja": "ちょっと"
+      }
+    },
+    {
+      "id": "word_please_formal",
+      "kind": "word",
+      "texts": {
+        "en": "please (formal)",
+        "th": "กรุณา",
+        "fa": "لطفا",
+        "ar": "يرجى",
+        "es": "por favor",
+        "zh": "请",
+        "ja": "どうぞ"
+      }
+    },
+    {
+      "id": "word_wait",
+      "kind": "word",
+      "texts": {
+        "en": "wait",
+        "th": "รอ",
+        "fa": "صبر کردن",
+        "ar": "ينتظر",
+        "es": "esperar",
+        "zh": "等",
+        "ja": "待つ"
+      }
+    },
+    {
+      "id": "word_do_not",
+      "kind": "word",
+      "texts": {
+        "en": "do not",
+        "th": "อย่า",
+        "fa": "نکن",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不要",
+        "ja": "しないで"
+      }
+    },
+    {
+      "id": "word_touch",
+      "kind": "word",
+      "texts": {
+        "en": "touch",
+        "th": "จับ",
+        "fa": "لمس کردن",
+        "ar": "يلمس",
+        "es": "tocar",
+        "zh": "摸",
+        "ja": "触る"
+      }
+    },
+    {
+      "id": "word_that",
+      "kind": "word",
+      "texts": {
+        "en": "that",
+        "th": "อันนั้น",
+        "fa": "آن",
+        "ar": "ذلك",
+        "es": "eso",
+        "zh": "那个",
+        "ja": "それ"
+      }
+    }
+  ]
+}
