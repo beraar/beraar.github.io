@@ -23,6 +23,51 @@ This request is for clarifying and improving the idea for version 3.  No code or
 
 Any idea, improvement or clarification?
 
+==============================
+
+1. Progress Scoping: Do you agree with namespacing localStorage keys by target language (e.g., zabon.fa.srs) to preserve multi-language progress?
+Answer: Agreed.
+
+2. Bridge Language: Should the translation column always default to the App Language, with a safeguard preventing App Language == Target Language?
+Answer: Agreed. (caveat, as it is now, the user can select multiple translation languages).
+
+3. Manifest Routing: Do you prefer a single master manifest.json that routes to language-specific folders, or separate manifest files per language?
+Answer: single master manifest.json that routes to language-specific folders.
+
+4. Farsi Reading Module: Will Farsi include a cat_reading_writing equivalent to handle the Perso-Arabic script and omitted short vowels?
+Answer: Yes, a cat_reading_writing equivalent to handle the Perso-Arabic script should be included.
+
+
+Still planning stage, so no code or implementation.  Clarify requirements, fine tune the details of the final implementation in detailed stages.
+
+=========================
+
+1. Manifest Syntax: Do you agree with the {lang} template approach for the file paths in manifest.json (e.g., "lessons/{lang}/greetings/...")? It keeps the manifest as a single file while cleanly routing to lessons/th/ or lessons/fa/.
+Answer: Agree.
+
+2. Farsi Reading Module: For the Farsi equivalent of cat_reading_writing, do you want to reuse the exact same "displayMode": "phonetic" CSS styling (large character + smaller phonetic note below it), or should we design a slightly different visual layout for Perso-Arabic script connection rules?
+Answer: design a slightly different visual layout for Perso-Arabic script connection rules.
+
+3. Default Target Language: For existing users who already have Thai progress, should the app default to th on their first load of v3, or should we prompt them to select their target language on the first v3 launch?
+Answer: prompt users to select their target language on the first v3 launch
+
+Also on the previous message clarification:
+
+Universal Taxonomy: Generate the Farsi sentences/words for all categories (Greetings, Basics, Food, etc.) ensuring they are tagged with the exact same G1-G24 grammar badges so the Study Plan algorithm works out-of-the-box.
+
+The categories should be the same generic, Introductory, Intermediate, Advanced. But, the grammar rules are language dependant.  User feedback suggest little use of the grammar badges and as such they could be omitted.  The grammar lessons specific to the category already appear as the first lessons and that is sufficient.
+
+=========
+Apologies, I should have been more clear.
+1. The "First Launch" Target Language Prompt & Data Migration
+The existing Thai progress can be ignored entirely.  The App should start without consideration of any legacy usage entirely.
+
+The conceptual approach to the new "displayMode": "script" for the Farsi reading module is excellent.
+
+It would be useful to have all stages generated for checking.  And to have an update for new-chat.md (in case of context drift or having to restart with a new chat).
+
+
+
 
 
 
