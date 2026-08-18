@@ -1,0 +1,13 @@
+Live reload enabled. 127.0.0.1:5500:306:13
+A resource is blocked by OpaqueResponseBlocking, please check browser console for details. og.png
+Source map error: Error: request failed with status 404
+Stack in the worker:networkRequest@resource://devtools/client/shared/source-map-loader/utils/network-request.js:43:9
+
+Resource URL: http://127.0.0.1:5500/main.min.css
+Source Map URL: main.min.css.map
+
+<!-- Change this: -->
+<link rel="apple-touch-icon" href="https://ebbi.github.io/og.png" />
+
+<!-- To this: -->
+<link rel="apple-touch-icon" href="og.png" />
