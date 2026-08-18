@@ -4524,7 +4524,20 @@
     const items = currentLesson.items.filter((item) => !item.header);
     const langs = selectedLessonLanguages();
     const units = [];
+    const wordItems = [];
+    const sentenceItems = [];
+
+    // Group items by kind to ensure playback matches the UI panel order
     for (const item of items) {
+      if (dataService.getItemKind(item) === "sentence") {
+        sentenceItems.push(item);
+      } else {
+        wordItems.push(item);
+      }
+    }
+    const orderedItems = [...wordItems, ...sentenceItems];
+
+    for (const item of orderedItems) {
       const kind = dataService.getItemKind(item);
       for (const code of langs) {
         const text = dataService.getText(item, code);

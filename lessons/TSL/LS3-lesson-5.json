@@ -1,0 +1,658 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Vocabulary",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژگان اصلی",
+        "ar": "المفردات الأساسية",
+        "es": "Vocabulario básico",
+        "zh": "核心词汇",
+        "ja": "基本語彙"
+      }
+    },
+    {
+      "id": "word_core_01",
+      "kind": "word",
+      "texts": {
+        "en": "work / job",
+        "th": "งาน",
+        "fa": "کار / شغل",
+        "ar": "عمل / وظيفة",
+        "es": "Trabajo / empleo",
+        "zh": "工作 / 职业",
+        "ja": "仕事 / 職業"
+      }
+    },
+    {
+      "id": "word_core_02",
+      "kind": "word",
+      "texts": {
+        "en": "student",
+        "th": "นักเรียน",
+        "fa": "دانش‌آموز / دانشجو",
+        "ar": "طالب",
+        "es": "Estudiante",
+        "zh": "学生",
+        "ja": "学生"
+      }
+    },
+    {
+      "id": "word_core_03",
+      "kind": "word",
+      "texts": {
+        "en": "business person",
+        "th": "นักธุรกิจ",
+        "fa": "تاجر / کارآفرین",
+        "ar": "رجل أعمال",
+        "es": "Empresario",
+        "zh": "商人 / 企业家",
+        "ja": "実業家"
+      }
+    },
+    {
+      "id": "word_core_04",
+      "kind": "word",
+      "texts": {
+        "en": "musician",
+        "th": "นักดนตรี",
+        "fa": "موسیقی‌دان",
+        "ar": "موسيقي",
+        "es": "Músico",
+        "zh": "音乐家",
+        "ja": "音楽家"
+      }
+    },
+    {
+      "id": "word_core_05",
+      "kind": "word",
+      "texts": {
+        "en": "writer",
+        "th": "นักเขียน",
+        "fa": "نویسنده",
+        "ar": "كاتب",
+        "es": "Escritor",
+        "zh": "作家",
+        "ja": "作家"
+      }
+    },
+    {
+      "id": "word_core_06",
+      "kind": "word",
+      "texts": {
+        "en": "teacher",
+        "th": "ครู",
+        "fa": "معلم",
+        "ar": "معلم",
+        "es": "Profesor",
+        "zh": "老师",
+        "ja": "先生"
+      }
+    },
+    {
+      "id": "word_core_07",
+      "kind": "word",
+      "texts": {
+        "en": "doctor",
+        "th": "หมอ",
+        "fa": "دکتر / پزشک",
+        "ar": "طبيب",
+        "es": "Médico",
+        "zh": "医生",
+        "ja": "医者"
+      }
+    },
+    {
+      "id": "word_core_08",
+      "kind": "word",
+      "texts": {
+        "en": "dentist",
+        "th": "หมอฟัน",
+        "fa": "دندانپزشک",
+        "ar": "طبيب أسنان",
+        "es": "Dentista",
+        "zh": "牙医",
+        "ja": "歯科医"
+      }
+    },
+    {
+      "id": "word_core_09",
+      "kind": "word",
+      "texts": {
+        "en": "nurse",
+        "th": "พยาบาล",
+        "fa": "پرستار",
+        "ar": "ممرض",
+        "es": "Enfermero",
+        "zh": "护士",
+        "ja": "看護師"
+      }
+    },
+    {
+      "id": "word_core_10",
+      "kind": "word",
+      "texts": {
+        "en": "police",
+        "th": "ตำรวจ",
+        "fa": "پلیس",
+        "ar": "شرطي",
+        "es": "Policía",
+        "zh": "警察",
+        "ja": "警察官"
+      }
+    },
+    {
+      "id": "word_core_11",
+      "kind": "word",
+      "texts": {
+        "en": "soldier",
+        "th": "ทหาร",
+        "fa": "سرباز / نظامی",
+        "ar": "جندي",
+        "es": "Soldado",
+        "zh": "士兵 / 军人",
+        "ja": "兵士 / 軍人"
+      }
+    },
+    {
+      "id": "word_core_12",
+      "kind": "word",
+      "texts": {
+        "en": "engineer",
+        "th": "วิศวกร",
+        "fa": "مهندس",
+        "ar": "مهندس",
+        "es": "Ingeniero",
+        "zh": "工程师",
+        "ja": "エンジニア"
+      }
+    },
+    {
+      "id": "word_core_13",
+      "kind": "word",
+      "texts": {
+        "en": "pharmacist",
+        "th": "เภสัชกร",
+        "fa": "داروساز",
+        "ar": "صيدلي",
+        "es": "Farmacéutico",
+        "zh": "药剂师",
+        "ja": "薬剤師"
+      }
+    },
+    {
+      "id": "word_core_14",
+      "kind": "word",
+      "texts": {
+        "en": "vendor (male)",
+        "th": "พ่อค้า",
+        "fa": "فروشنده (مرد)",
+        "ar": "بائع (ذكر)",
+        "es": "Vendedor (hombre)",
+        "zh": "男商贩",
+        "ja": "男性の行商人"
+      }
+    },
+    {
+      "id": "word_core_15",
+      "kind": "word",
+      "texts": {
+        "en": "vendor (female)",
+        "th": "แม่ค้า",
+        "fa": "فروشنده (زن)",
+        "ar": "بائعة (أنثى)",
+        "es": "Vendedora (mujer)",
+        "zh": "女商贩",
+        "ja": "女性の行商人"
+      }
+    },
+    {
+      "id": "word_core_16",
+      "kind": "word",
+      "texts": {
+        "en": "staff / worker",
+        "th": "พนักงาน",
+        "fa": "کارمند / کارگر",
+        "ar": "موظف / عامل",
+        "es": "Empleado / trabajador",
+        "zh": "员工 / 职员",
+        "ja": "従業員 / 職員"
+      }
+    },
+    {
+      "id": "word_core_17",
+      "kind": "word",
+      "texts": {
+        "en": "freelancer",
+        "th": "ฟรีแลนซ์",
+        "fa": "فریلنسر",
+        "ar": "مستقل / عمل حر",
+        "es": "Freelance",
+        "zh": "自由职业者",
+        "ja": "フリーランス"
+      }
+    },
+    {
+      "id": "word_core_18",
+      "kind": "word",
+      "texts": {
+        "en": "maid / housewife",
+        "th": "แม่บ้าน",
+        "fa": "خدمتکار / زن خانه‌دار",
+        "ar": "عاملة نظافة / ربة منزل",
+        "es": "Empleada doméstica / ama de casa",
+        "zh": "女佣 / 家庭主妇",
+        "ja": "メイド / 主婦"
+      }
+    },
+    {
+      "id": "word_core_19",
+      "kind": "word",
+      "texts": {
+        "en": "security guard",
+        "th": "ยาม",
+        "fa": "نگهبان",
+        "ar": "حارس أمن",
+        "es": "Guardia de seguridad",
+        "zh": "保安",
+        "ja": "警備員"
+      }
+    },
+    {
+      "id": "word_core_20",
+      "kind": "word",
+      "texts": {
+        "en": "technician",
+        "th": "ช่าง",
+        "fa": "تکنسین / مکانیک",
+        "ar": "فني",
+        "es": "Técnico",
+        "zh": "技师 / 技工",
+        "ja": "技術者 / 整備士"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Structure 1: What do you do? / What is your job?",
+        "th": "โครงสร้าง 1: คุณทำงานอะไร",
+        "fa": "ساختار ۱: شغل شما چیست؟",
+        "ar": "الهيكل 1: ما هي وظيفتك؟",
+        "es": "Estructura 1: ¿Qué haces? / ¿Cuál es tu trabajo?",
+        "zh": "结构 1：你是做什么的？/ 你的工作是什么？",
+        "ja": "構造 1：あなたは何をしていますか？/ お仕事は何ですか？"
+      }
+    },
+    {
+      "id": "sentence_s1_01",
+      "kind": "sentence",
+      "itemIds": ["word_core_01"],
+      "texts": {
+        "en": "What is your job?",
+        "th": "คุณทำงานอะไรคะ",
+        "fa": "شغل شما چیست؟",
+        "ar": "ما هي وظيفتكِ؟",
+        "es": "¿Cuál es tu trabajo?",
+        "zh": "你的工作是什么？",
+        "ja": "あなたのお仕事は何ですか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "ทำ", "งาน", "อะไร", "คะ"],
+        "zh": ["你", "的", "工作", "是", "什么", "？"],
+        "ja": ["あなた", "の", "お仕事", "は", "何", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s1_02",
+      "kind": "sentence",
+      "itemIds": ["word_core_06"],
+      "texts": {
+        "en": "I am a teacher.",
+        "th": "ผมเป็นครูครับ",
+        "fa": "من معلم هستم.",
+        "ar": "أنا معلم.",
+        "es": "Soy profesor.",
+        "zh": "我是老师。",
+        "ja": "私は先生です。"
+      },
+      "tokens": {
+        "th": ["ผม", "เป็น", "ครู", "ครับ"],
+        "zh": ["我", "是", "老师", "。"],
+        "ja": ["私", "は", "先生", "です", "。"]
+      }
+    },
+    {
+      "id": "sentence_s1_03",
+      "kind": "sentence",
+      "itemIds": ["word_core_01"],
+      "texts": {
+        "en": "What is your father's job?",
+        "th": "พ่อของคุณทำงานอะไรคะ",
+        "fa": "شغل پدرتان چیست؟",
+        "ar": "ما هي وظيفة والدك؟",
+        "es": "¿Cuál es el trabajo de tu padre?",
+        "zh": "你父亲是做什么工作的？",
+        "ja": "お父様のお仕事は何ですか？"
+      },
+      "tokens": {
+        "th": ["พ่อ", "ของ", "คุณ", "ทำ", "งาน", "อะไร", "คะ"],
+        "zh": ["你", "父亲", "是", "做", "什么", "工作", "的", "？"],
+        "ja": ["お父様", "の", "お仕事", "は", "何", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s1_04",
+      "kind": "sentence",
+      "itemIds": ["word_core_03"],
+      "texts": {
+        "en": "My father is a businessman.",
+        "th": "พ่อของผมเป็นนักธุรกิจครับ",
+        "fa": "پدرم تاجر است.",
+        "ar": "والدي رجل أعمال.",
+        "es": "Mi padre es empresario.",
+        "zh": "我父亲是商人。",
+        "ja": "私の父は実業家です。"
+      },
+      "tokens": {
+        "th": ["พ่อ", "ของ", "ผม", "เป็น", "นักธุรกิจ", "ครับ"],
+        "zh": ["我", "父亲", "是", "商人", "。"],
+        "ja": ["私", "の", "父", "は", "実業家", "です", "。"]
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Conversation 1: My Job",
+        "th": "บทสนทนา 1: งานของฉัน",
+        "fa": "مکالمه ۱: شغل من",
+        "ar": "المحادثة 1: وظيفتي",
+        "es": "Conversación 1: Mi trabajo",
+        "zh": "对话 1：我的工作",
+        "ja": "会話 1：私の仕事"
+      }
+    },
+    {
+      "id": "sentence_s2_01",
+      "kind": "sentence",
+      "itemIds": ["word_core_01"],
+      "texts": {
+        "en": "What do you do?",
+        "th": "คุณทำงานอะไรครับ",
+        "fa": "شغل شما چیست؟",
+        "ar": "ما هي وظيفتك؟",
+        "es": "¿A qué te dedicas?",
+        "zh": "你是做什么工作的？",
+        "ja": "あなたは何をしていますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "ทำ", "งาน", "อะไร", "ครับ"],
+        "zh": ["你", "是", "做", "什么", "工作", "的", "？"],
+        "ja": ["あなた", "は", "何", "を", "して", "い", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s2_02",
+      "kind": "sentence",
+      "itemIds": ["word_core_09"],
+      "texts": {
+        "en": "I am a nurse.",
+        "th": "ฉันเป็นพยาบาลค่ะ",
+        "fa": "من پرستار هستم.",
+        "ar": "أنا ممرضة.",
+        "es": "Soy enfermera.",
+        "zh": "我是护士。",
+        "ja": "私は看護師です。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "เป็น", "พยาบาล", "ค่ะ"],
+        "zh": ["我", "是", "护士", "。"],
+        "ja": ["私", "は", "看護師", "です", "。"]
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Conversation 2: Parents' Jobs",
+        "th": "บทสนทนา 2: งานของพ่อแม่",
+        "fa": "مکالمه ۲: شغل والدین",
+        "ar": "المحادثة 2: وظائف الوالدين",
+        "es": "Conversación 2: Trabajos de los padres",
+        "zh": "对话 2：父母的工作",
+        "ja": "会話 2：両親の仕事"
+      }
+    },
+    {
+      "id": "sentence_s3_01",
+      "kind": "sentence",
+      "itemIds": ["word_core_01"],
+      "texts": {
+        "en": "What do your parents do?",
+        "th": "พ่อแม่ของคุณทำงานอะไร",
+        "fa": "والدین شما چه کار می‌کنند؟",
+        "ar": "ما هي وظيفة والديك؟",
+        "es": "¿A qué se dedican tus padres?",
+        "zh": "你父母是做什么工作的？",
+        "ja": "ご両親のお仕事は何ですか？"
+      },
+      "tokens": {
+        "th": ["พ่อ", "แม่", "ของ", "คุณ", "ทำ", "งาน", "อะไร"],
+        "zh": ["你", "父母", "是", "做", "什么", "工作", "的", "？"],
+        "ja": ["ご両親", "の", "お仕事", "は", "何", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s3_02",
+      "kind": "sentence",
+      "itemIds": ["word_core_20"],
+      "texts": {
+        "en": "My father is a hairdresser.",
+        "th": "พ่อของฉันเป็นช่างตัดผม",
+        "fa": "پدرم آرایشگر است.",
+        "ar": "والدي حلاق.",
+        "es": "Mi padre es peluquero.",
+        "zh": "我父亲是理发师。",
+        "ja": "私の父は理容師です。"
+      },
+      "tokens": {
+        "th": ["พ่อ", "ของ", "ฉัน", "เป็น", "ช่าง", "ตัดผม"],
+        "zh": ["我", "父亲", "是", "理发师", "。"],
+        "ja": ["私", "の", "父", "は", "理容師", "です", "。"]
+      }
+    },
+    {
+      "id": "sentence_s3_03",
+      "kind": "sentence",
+      "itemIds": ["word_core_04"],
+      "texts": {
+        "en": "And my mother is a musician.",
+        "th": "และแม่ของฉันเป็นนักดนตรีค่ะ",
+        "fa": "و مادرم موسیقی‌دان است.",
+        "ar": "ووالدتي موسيقية.",
+        "es": "Y mi madre es música.",
+        "zh": "我母亲是音乐家。",
+        "ja": "そして、私の母は音楽家です。"
+      },
+      "tokens": {
+        "th": ["และ", "แม่", "ของ", "ฉัน", "เป็น", "นักดนตรี", "ค่ะ"],
+        "zh": ["我", "母亲", "是", "音乐家", "。"],
+        "ja": ["そして", "、", "私", "の", "母", "は", "音楽家", "です", "。"]
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Conversation 3: Siblings' Jobs",
+        "th": "บทสนทนา 3: งานของพี่น้อง",
+        "fa": "مکالمه ۳: شغل خواهر و برادرها",
+        "ar": "المحادثة 3: وظائف الأشقاء",
+        "es": "Conversación 3: Trabajos de los hermanos",
+        "zh": "对话 3：兄弟姐妹的工作",
+        "ja": "会話 3：兄弟の仕事"
+      }
+    },
+    {
+      "id": "sentence_s4_01",
+      "kind": "sentence",
+      "itemIds": [],
+      "texts": {
+        "en": "Do you have siblings?",
+        "th": "คุณมีพี่น้องไหมครับ",
+        "fa": "آیا خواهر و برادری دارید؟",
+        "ar": "هل لديك إخوة أو أخوات؟",
+        "es": "¿Tienes hermanos?",
+        "zh": "你有兄弟姐妹吗？",
+        "ja": "兄弟はいますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "มี", "พี่น้อง", "ไหม", "ครับ"],
+        "zh": ["你", "有", "兄弟", "姐妹", "吗", "？"],
+        "ja": ["兄弟", "は", "い", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s4_02",
+      "kind": "sentence",
+      "itemIds": ["word_core_02"],
+      "texts": {
+        "en": "Yes, I have 1 younger sister. She is a student.",
+        "th": "มีค่ะ ฉันมีน้องสาว 1 คนค่ะ เขาเป็นนักเรียนค่ะ",
+        "fa": "بله، من یک خواهر کوچکتر دارم. او دانش‌آموز است.",
+        "ar": "نعم، لدي أخت واحدة أصغر. إنها طالبة.",
+        "es": "Sí, tengo una hermana menor. Ella es estudiante.",
+        "zh": "是的，我有一个妹妹。她是学生。",
+        "ja": "はい、妹が1人います。彼女は学生です。"
+      },
+      "tokens": {
+        "th": [
+          "มี",
+          "ค่ะ",
+          "ฉัน",
+          "มี",
+          "น้องสาว",
+          "1",
+          "คน",
+          "ค่ะ",
+          "เขา",
+          "เป็น",
+          "นักเรียน",
+          "ค่ะ"
+        ],
+        "zh": [
+          "是的",
+          "，",
+          "我",
+          "有",
+          "一",
+          "个",
+          "妹妹",
+          "。",
+          "她",
+          "是",
+          "学生",
+          "。"
+        ],
+        "ja": [
+          "はい",
+          "、",
+          "妹",
+          "が",
+          "1",
+          "人",
+          "い",
+          "ます",
+          "。",
+          "彼女",
+          "は",
+          "学生",
+          "です",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Vocabulary 2: Workplaces",
+        "th": "คำศัพท์ 2: สถานที่ทำงาน",
+        "fa": "واژگان ۲: محل‌های کار",
+        "ar": "المفردات 2: أماكن العمل",
+        "es": "Vocabulario 2: Lugares de trabajo",
+        "zh": "词汇 2：工作场所",
+        "ja": "語彙 2：職場"
+      }
+    },
+    {
+      "id": "word_scenario5_01",
+      "kind": "word",
+      "texts": {
+        "en": "profession",
+        "th": "อาชีพ",
+        "fa": "حرفه",
+        "ar": "مهنة",
+        "es": "Profesión",
+        "zh": "职业",
+        "ja": "職業"
+      }
+    },
+    {
+      "id": "word_scenario5_02",
+      "kind": "word",
+      "texts": {
+        "en": "company",
+        "th": "บริษัท",
+        "fa": "شرکت",
+        "ar": "شركة",
+        "es": "Empresa",
+        "zh": "公司",
+        "ja": "会社"
+      }
+    },
+    {
+      "id": "word_scenario5_03",
+      "kind": "word",
+      "texts": {
+        "en": "hospital",
+        "th": "โรงพยาบาล",
+        "fa": "بیمارستان",
+        "ar": "مستشفى",
+        "es": "Hospital",
+        "zh": "医院",
+        "ja": "病院"
+      }
+    },
+    {
+      "id": "word_scenario5_04",
+      "kind": "word",
+      "texts": {
+        "en": "school",
+        "th": "โรงเรียน",
+        "fa": "مدرسه",
+        "ar": "مدرسة",
+        "es": "Escuela",
+        "zh": "学校",
+        "ja": "学校"
+      }
+    },
+    {
+      "id": "word_scenario5_05",
+      "kind": "word",
+      "texts": {
+        "en": "shop",
+        "th": "ร้าน",
+        "fa": "فروشگاه",
+        "ar": "متجر",
+        "es": "Tienda",
+        "zh": "商店",
+        "ja": "店"
+      }
+    }
+  ]
+}

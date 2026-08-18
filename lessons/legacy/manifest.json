@@ -1906,7 +1906,7 @@
                 "ar": "الدرس 5: أين المستشفى؟",
                 "es": "Lección 5: ¿Dónde está el hospital?",
                 "zh": "第五课：医院在哪里？",
-                "ja": "第5课：病院はどこですか？"
+                "ja": "第5課：病院はどこですか？"
               },
               "file": "lessons/TSL/LS1-lesson-5-where-is-the-hospital.json",
               "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
@@ -1919,10 +1919,10 @@
             "en": "Listening and Speaking 2",
             "th": "การฟังและการพูด 2",
             "fa": "گوش دادن و صحبت کردن ۲",
-            "ar": "الاستماع والتحدث 2",
-            "es": "Escuchar y Hablar 2",
-            "zh": "听说 2",
-            "ja": "リスニングとスピーキング 2"
+            "ar": "",
+            "es": "",
+            "zh": "",
+            "ja": ""
           },
           "lessons": [
             {
@@ -1931,27 +1931,27 @@
                 "en": "Lesson 1: What would you like to order?",
                 "th": "บทที่ 1: คุณจะสั่งอะไร",
                 "fa": "درس ۱: چه چیزی سفارش می‌دهید؟",
-                "ar": "الدرس 1: ماذا تريد أن تطلب؟",
-                "es": "Lección 1: ¿Qué le gustaría pedir?",
-                "zh": "第一课：您想点什么？",
-                "ja": "第1課：何をご注文されますか？"
+                "ar": "",
+                "es": "",
+                "zh": "",
+                "ja": ""
               },
-              "file": "lessons/TSL/LS2-lesson-1.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
+              "file": "lessons/TSL/LS2-lesson-1-what-would-you-like-to-order.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
             },
             {
               "id": "lesson_ls2_2",
               "title": {
                 "en": "Lesson 2: What would you like to drink?",
-                "th": "บทที่ 2: คุณอยากดื่มอะไร",
+                "th": "บทที่ 2: คุณจะดื่มอะไร",
                 "fa": "درس ۲: چه چیزی می‌نوشید؟",
-                "ar": "الدرس 2: ماذا تريد أن تشرب؟",
-                "es": "Lección 2: ¿Qué le gustaría beber?",
-                "zh": "第二课：您想喝点什么？",
-                "ja": "第2課：何をお飲みになりますか？"
+                "ar": "",
+                "es": "",
+                "zh": "",
+                "ja": ""
               },
-              "file": "lessons/TSL/LS2-lesson-2.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
+              "file": "lessons/TSL/LS2-lesson-2-what-would-you-like-to-drink.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
             },
             {
               "id": "lesson_ls2_3",
@@ -1959,13 +1959,13 @@
                 "en": "Lesson 3: Fruits",
                 "th": "บทที่ 3: ผลไม้",
                 "fa": "درس ۳: میوه‌ها",
-                "ar": "الدرس 3: الفواكه",
-                "es": "Lección 3: Frutas",
-                "zh": "第三课：水果",
-                "ja": "第3課：果物"
+                "ar": "",
+                "es": "",
+                "zh": "",
+                "ja": ""
               },
-              "file": "lessons/TSL/LS2-lesson-3.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
+              "file": "lessons/TSL/LS2-lesson-3-fruits.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
             },
             {
               "id": "lesson_ls2_4",
@@ -1973,27 +1973,27 @@
                 "en": "Lesson 4: Colors",
                 "th": "บทที่ 4: สี",
                 "fa": "درس ۴: رنگ‌ها",
-                "ar": "الدرس 4: الألوان",
-                "es": "Lección 4: Colores",
-                "zh": "第四课：颜色",
-                "ja": "第4課：色"
+                "ar": "",
+                "es": "",
+                "zh": "",
+                "ja": ""
               },
-              "file": "lessons/TSL/LS2-lesson-4.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
+              "file": "lessons/TSL/LS2-lesson-4-colors.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
             },
             {
               "id": "lesson_ls2_5",
               "title": {
                 "en": "Lesson 5: Classifiers",
                 "th": "บทที่ 5: ลักษณนาม",
-                "fa": "درس ۵: شمارنده‌ها",
-                "ar": "الدرس 5: أدوات التصنيف",
-                "es": "Lección 5: Clasificadores",
-                "zh": "第五课：量词",
-                "ja": "第5課：助数詞"
+                "fa": "درس ۵: شمارشگرها",
+                "ar": "",
+                "es": "",
+                "zh": "",
+                "ja": ""
               },
-              "file": "lessons/TSL/LS2-lesson-5.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
+              "file": "lessons/TSL/LS2-lesson-5-classifiers.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
             },
             {
               "id": "lesson_ls2_6",
@@ -2001,209 +2001,13 @@
                 "en": "Lesson 6: Prepositions",
                 "th": "บทที่ 6: คำบุพบท",
                 "fa": "درس ۶: حروف اضافه",
-                "ar": "الدرس 6: حروف الجر",
-                "es": "Lección 6: Preposiciones",
-                "zh": "第六课：介词",
-                "ja": "第6課：前置詞"
+                "ar": "",
+                "es": "",
+                "zh": "",
+                "ja": ""
               },
-              "file": "lessons/TSL/LS2-lesson-6.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
-            }
-          ]
-        },
-        {
-          "id": "book_ls3",
-          "title": {
-            "en": "Listening and Speaking 3",
-            "th": "การฟังและการพูด 3",
-            "fa": "گوش دادن و صحبت کردن ۳",
-            "ar": "الاستماع والتحدث 3",
-            "es": "Escuchar y Hablar 3",
-            "zh": "听说 3",
-            "ja": "リスニングとスピーキング 3"
-          },
-          "lessons": [
-            {
-              "id": "lesson_ls3_1",
-              "title": {
-                "en": "Lesson 1: What time is it now?",
-                "th": "บทที่ 1: ตอนนี้กี่โมง",
-                "fa": "درس ۱: ساعت چنده الان؟",
-                "ar": "الدرس 1: كم الساعة الآن؟",
-                "es": "Lección 1: ¿Qué hora es ahora?",
-                "zh": "第一课：现在几点了？",
-                "ja": "第1課：今何時ですか？"
-              },
-              "file": "lessons/TSL/LS3-lesson-1.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
-            },
-            {
-              "id": "lesson_ls3_2",
-              "title": {
-                "en": "Lesson 2: What day is it today?",
-                "th": "บทที่ 2: วันนี้วันอะไร",
-                "fa": "درس ۲: امروز چه روزی است؟",
-                "ar": "الدرس 2: ما هو اليوم اليوم؟",
-                "es": "Lección 2: ¿Qué día es hoy?",
-                "zh": "第二课：今天星期几？",
-                "ja": "第2課：今日は何曜日ですか？"
-              },
-              "file": "lessons/TSL/LS3-lesson-2.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
-            },
-            {
-              "id": "lesson_ls3_3",
-              "title": {
-                "en": "Lesson 3: Months, Year & Seasons",
-                "th": "บทที่ 3: เดือน / ปี / ฤดู",
-                "fa": "درس ۳: ماه‌ها / سال / فصل‌ها",
-                "ar": "الدرس 3: الأشهر والسنة والفصول",
-                "es": "Lección 3: Meses, año y estaciones",
-                "zh": "第三课：月、年与季节",
-                "ja": "第3课：月・年・季節"
-              },
-              "file": "lessons/TSL/LS3-lesson-3.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
-            },
-            {
-              "id": "lesson_ls3_4",
-              "title": {
-                "en": "Lesson 4: My family",
-                "th": "บทที่ 4: ครอบครัวของฉัน",
-                "fa": "درس ۴: خانواده من",
-                "ar": "الدرس 4: عائلتي",
-                "es": "Lección 4: Mi familia",
-                "zh": "第四课：我的家庭",
-                "ja": "第4课：私の家族"
-              },
-              "file": "lessons/TSL/LS3-lesson-4.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
-            },
-            {
-              "id": "lesson_ls3_5",
-              "title": {
-                "en": "Lesson 5: What is your job?",
-                "th": "บทที่ 5: คุณทำงานอะไร",
-                "fa": "درس ۵: شغل شما چیست؟",
-                "ar": "الدرس 5: ما هي وظيفتك؟",
-                "es": "Lección 5: ¿Cuál es tu trabajo?",
-                "zh": "第五课：你的工作是什么？",
-                "ja": "第5课：あなたは何をしていますか？"
-              },
-              "file": "lessons/TSL/LS3-lesson-5.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
-            },
-            {
-              "id": "lesson_ls3_6",
-              "title": {
-                "en": "Lesson 6: What does she/he look like?",
-                "th": "บทที่ 6: เขาหน้าตาเป็นยังไง",
-                "fa": "درس ۶: او چه شکلی است؟",
-                "ar": "الدرس 6: كيف يبدو؟",
-                "es": "Lección 6: ¿Cómo es su aspecto?",
-                "zh": "第六课：他/她长什么样？",
-                "ja": "第6课：彼/彼女はどんな顔立ちですか？"
-              },
-              "file": "lessons/TSL/LS3-lesson-6.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
-            }
-          ]
-        },
-        {
-          "id": "book_ls4",
-          "title": {
-            "en": "Listening and Speaking 4",
-            "th": "การฟังและการพูด 4",
-            "fa": "گوش دادن و صحبت کردن ۴",
-            "ar": "الاستماع والتحدث 4",
-            "es": "Escuchar y Hablar 4",
-            "zh": "听说 4",
-            "ja": "リスニングとスピーキング 4"
-          },
-          "lessons": [
-            {
-              "id": "lesson_ls4_1",
-              "title": {
-                "en": "Lesson 1: Body Parts",
-                "th": "บทที่ 1: ร่างกาย",
-                "fa": "درس ۱: اعضای بدن",
-                "ar": "الدرس 1: أجزاء الجسم",
-                "es": "Lección 1: Partes del cuerpo",
-                "zh": "第一课：身体部位",
-                "ja": "第1課：体の部位"
-              },
-              "file": "lessons/TSL/LS4-lesson-1.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
-            },
-            {
-              "id": "lesson_ls4_2",
-              "title": {
-                "en": "Lesson 2: Sickness",
-                "th": "บทที่ 2: ความเจ็บป่วย",
-                "fa": "درس ۲: بیماری",
-                "ar": "الدرس 2: المرض",
-                "es": "Lección 2: Enfermedad",
-                "zh": "第二课：疾病",
-                "ja": "第2課：病気"
-              },
-              "file": "lessons/TSL/LS4-lesson-2.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
-            },
-            {
-              "id": "lesson_ls4_3",
-              "title": {
-                "en": "Lesson 3: Travel and Tourism",
-                "th": "บทที่ 3: การเดินทางและท่องเที่ยว",
-                "fa": "درس ۳: سفر و گردشگری",
-                "ar": "الدرس 3: السفر والسياحة",
-                "es": "Lección 3: Viajes y turismo",
-                "zh": "第三课：旅行与旅游",
-                "ja": "第3課：旅行と観光"
-              },
-              "file": "lessons/TSL/LS4-lesson-3.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
-            },
-            {
-              "id": "lesson_ls4_4",
-              "title": {
-                "en": "Lesson 4: Transportation",
-                "th": "บทที่ 4: การเดินทาง",
-                "fa": "درس ۴: حمل و نقل",
-                "ar": "الدرس 4: المواصلات",
-                "es": "Lección 4: Transporte",
-                "zh": "第四课：交通",
-                "ja": "第4課：交通機関"
-              },
-              "file": "lessons/TSL/LS4-lesson-4.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
-            },
-            {
-              "id": "lesson_ls4_5",
-              "title": {
-                "en": "Lesson 5: Visa",
-                "th": "บทที่ 5: วีซ่า",
-                "fa": "درس ۵: ویزا",
-                "ar": "الدرس 5: التأشيرة",
-                "es": "Lección 5: Visa",
-                "zh": "第五课：签证",
-                "ja": "第5課：ビザ"
-              },
-              "file": "lessons/TSL/LS4-lesson-5.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
-            },
-            {
-              "id": "lesson_ls4_6",
-              "title": {
-                "en": "Lesson 6: Money and Bank",
-                "th": "บทที่ 6: เงินและธนาคาร",
-                "fa": "درس ۶: پول و بانک",
-                "ar": "الدرس 6: المال والبنك",
-                "es": "Lección 6: Dinero y banco",
-                "zh": "第六课：金钱与银行",
-                "ja": "第6課：お金と銀行"
-              },
-              "file": "lessons/TSL/LS4-lesson-6.json",
-              "languages": ["en", "th", "fa", "ar", "es", "zh", "ja"]
+              "file": "lessons/TSL/LS2-lesson-6-prepositions.json",
+              "languages": ["th", "en", "fa", "ar", "es", "zh", "ja"]
             }
           ]
         }

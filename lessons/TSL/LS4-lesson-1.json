@@ -1,0 +1,646 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Vocabulary",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژگان اصلی",
+        "ar": "المفردات الأساسية",
+        "es": "Vocabulario básico",
+        "zh": "核心词汇",
+        "ja": "基本語彙"
+      }
+    },
+    {
+      "id": "word_core_01",
+      "kind": "word",
+      "texts": {
+        "en": "body",
+        "th": "ร่างกาย",
+        "fa": "بدن",
+        "ar": "جسم",
+        "es": "Cuerpo",
+        "zh": "身体",
+        "ja": "体"
+      }
+    },
+    {
+      "id": "word_core_02",
+      "kind": "word",
+      "texts": {
+        "en": "body",
+        "th": "ตัว",
+        "fa": "بدن",
+        "ar": "جسم",
+        "es": "Cuerpo",
+        "zh": "身体",
+        "ja": "体"
+      }
+    },
+    {
+      "id": "word_core_03",
+      "kind": "word",
+      "texts": {
+        "en": "head",
+        "th": "หัว",
+        "fa": "سر",
+        "ar": "رأس",
+        "es": "Cabeza",
+        "zh": "头",
+        "ja": "頭"
+      }
+    },
+    {
+      "id": "word_core_04",
+      "kind": "word",
+      "texts": {
+        "en": "eyes",
+        "th": "ตา",
+        "fa": "چشم",
+        "ar": "عين",
+        "es": "Ojos",
+        "zh": "眼睛",
+        "ja": "目"
+      }
+    },
+    {
+      "id": "word_core_05",
+      "kind": "word",
+      "texts": {
+        "en": "nose",
+        "th": "จมูก",
+        "fa": "بینی",
+        "ar": "أنف",
+        "es": "Nariz",
+        "zh": "鼻子",
+        "ja": "鼻"
+      }
+    },
+    {
+      "id": "word_core_06",
+      "kind": "word",
+      "texts": {
+        "en": "mouth",
+        "th": "ปาก",
+        "fa": "دهان",
+        "ar": "فم",
+        "es": "Boca",
+        "zh": "嘴巴",
+        "ja": "口"
+      }
+    },
+    {
+      "id": "word_core_07",
+      "kind": "word",
+      "texts": {
+        "en": "ears",
+        "th": "หู",
+        "fa": "گوش",
+        "ar": "أذن",
+        "es": "Orejas",
+        "zh": "耳朵",
+        "ja": "耳"
+      }
+    },
+    {
+      "id": "word_core_08",
+      "kind": "word",
+      "texts": {
+        "en": "neck",
+        "th": "คอ",
+        "fa": "گردن",
+        "ar": "رقبة",
+        "es": "Cuello",
+        "zh": "脖子",
+        "ja": "首"
+      }
+    },
+    {
+      "id": "word_core_09",
+      "kind": "word",
+      "texts": {
+        "en": "shoulder",
+        "th": "ไหล่",
+        "fa": "شانه",
+        "ar": "كتف",
+        "es": "Hombro",
+        "zh": "肩膀",
+        "ja": "肩"
+      }
+    },
+    {
+      "id": "word_core_10",
+      "kind": "word",
+      "texts": {
+        "en": "back",
+        "th": "หลัง",
+        "fa": "پشت",
+        "ar": "ظهر",
+        "es": "Espalda",
+        "zh": "背部",
+        "ja": "背中"
+      }
+    },
+    {
+      "id": "word_core_11",
+      "kind": "word",
+      "texts": {
+        "en": "arm",
+        "th": "แขน",
+        "fa": "بازو",
+        "ar": "ذراع",
+        "es": "Brazo",
+        "zh": "手臂",
+        "ja": "腕"
+      }
+    },
+    {
+      "id": "word_core_12",
+      "kind": "word",
+      "texts": {
+        "en": "hand",
+        "th": "มือ",
+        "fa": "دست",
+        "ar": "يد",
+        "es": "Mano",
+        "zh": "手",
+        "ja": "手"
+      }
+    },
+    {
+      "id": "word_core_13",
+      "kind": "word",
+      "texts": {
+        "en": "leg",
+        "th": "ขา",
+        "fa": "پا",
+        "ar": "ساق",
+        "es": "Pierna",
+        "zh": "腿",
+        "ja": "脚"
+      }
+    },
+    {
+      "id": "word_core_14",
+      "kind": "word",
+      "texts": {
+        "en": "knee",
+        "th": "เข่า",
+        "fa": "زانو",
+        "ar": "ركبة",
+        "es": "Rodilla",
+        "zh": "膝盖",
+        "ja": "膝"
+      }
+    },
+    {
+      "id": "word_core_15",
+      "kind": "word",
+      "texts": {
+        "en": "feet",
+        "th": "เท้า",
+        "fa": "پا",
+        "ar": "قدم",
+        "es": "Pies",
+        "zh": "脚",
+        "ja": "足"
+      }
+    },
+    {
+      "id": "word_core_16",
+      "kind": "word",
+      "texts": {
+        "en": "stomach",
+        "th": "ท้อง",
+        "fa": "شکم",
+        "ar": "معدة",
+        "es": "Estómago",
+        "zh": "肚子",
+        "ja": "お腹"
+      }
+    },
+    {
+      "id": "word_core_17",
+      "kind": "word",
+      "texts": {
+        "en": "teeth",
+        "th": "ฟัน",
+        "fa": "دندان",
+        "ar": "أسنان",
+        "es": "Dientes",
+        "zh": "牙齿",
+        "ja": "歯"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Structure 1: What is this?",
+        "th": "โครงสร้าง 1: นี่คืออะไร?",
+        "fa": "ساختار ۱: این چیست؟",
+        "ar": "الهيكل 1: ما هذا؟",
+        "es": "Estructura 1: ¿Qué es esto?",
+        "zh": "结构 1：这是什么？",
+        "ja": "構造 1：これは何ですか？"
+      }
+    },
+    {
+      "id": "sentence_s1_01",
+      "kind": "sentence",
+      "itemIds": [],
+      "texts": {
+        "en": "What is this?",
+        "th": "นี่คืออะไรคะ",
+        "fa": "این چیست؟",
+        "ar": "ما هذا؟",
+        "es": "¿Qué es esto?",
+        "zh": "这是什么？",
+        "ja": "これは何ですか？"
+      },
+      "tokens": {
+        "th": ["นี่", "คือ", "อะไร", "คะ"],
+        "zh": ["这", "是", "什么", "？"],
+        "ja": ["これ", "は", "何", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s1_02",
+      "kind": "sentence",
+      "itemIds": ["word_core_03"],
+      "texts": {
+        "en": "This is a head.",
+        "th": "นี่คือหัว",
+        "fa": "این سر است.",
+        "ar": "هذا رأس.",
+        "es": "Esto es una cabeza.",
+        "zh": "这是头。",
+        "ja": "これは頭です。"
+      },
+      "tokens": {
+        "th": ["นี่", "คือ", "หัว"],
+        "zh": ["这", "是", "头", "。"],
+        "ja": ["これ", "は", "頭", "です", "。"]
+      }
+    },
+    {
+      "id": "sentence_s1_03",
+      "kind": "sentence",
+      "itemIds": [],
+      "texts": {
+        "en": "What is that?",
+        "th": "นั่นคืออะไรคะ",
+        "fa": "آن چیست؟",
+        "ar": "ما ذلك؟",
+        "es": "¿Qué es eso?",
+        "zh": "那是什么？",
+        "ja": "あれは何ですか？"
+      },
+      "tokens": {
+        "th": ["นั่น", "คือ", "อะไร", "คะ"],
+        "zh": ["那", "是", "什么", "？"],
+        "ja": ["あれ", "は", "何", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s1_04",
+      "kind": "sentence",
+      "itemIds": ["word_core_05"],
+      "texts": {
+        "en": "That is a nose.",
+        "th": "นั่นคือจมูก",
+        "fa": "آن بینی است.",
+        "ar": "ذلك أنف.",
+        "es": "Eso es una nariz.",
+        "zh": "那是鼻子。",
+        "ja": "あれは鼻です。"
+      },
+      "tokens": {
+        "th": ["นั่น", "คือ", "จมูก"],
+        "zh": ["那", "是", "鼻子", "。"],
+        "ja": ["あれ", "は", "鼻", "です", "。"]
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Structure 2: This is not...",
+        "th": "โครงสร้าง 2: นี่ไม่ใช่...",
+        "fa": "ساختار ۲: این ... نیست",
+        "ar": "الهيكل 2: هذا ليس...",
+        "es": "Estructura 2: Esto no es...",
+        "zh": "结构 2：这不是……",
+        "ja": "構造 2：これは……ではありません"
+      }
+    },
+    {
+      "id": "sentence_s2_01",
+      "kind": "sentence",
+      "itemIds": ["word_core_03"],
+      "texts": {
+        "en": "This is not a head.",
+        "th": "นี่ไม่ใช่หัว",
+        "fa": "این سر نیست.",
+        "ar": "هذا ليس رأساً.",
+        "es": "Esto no es una cabeza.",
+        "zh": "这不是头。",
+        "ja": "これは頭ではありません。"
+      },
+      "tokens": {
+        "th": ["นี่", "ไม่ใช่", "หัว"],
+        "zh": ["这", "不", "是", "头", "。"],
+        "ja": ["これ", "は", "頭", "で", "は", "あり", "ませ", "ん", "。"]
+      }
+    },
+    {
+      "id": "sentence_s2_02",
+      "kind": "sentence",
+      "itemIds": ["word_core_05"],
+      "texts": {
+        "en": "This is not a nose.",
+        "th": "นี่ไม่ใช่จมูก",
+        "fa": "این بینی نیست.",
+        "ar": "هذا ليس أنفاً.",
+        "es": "Esto no es una nariz.",
+        "zh": "这不是鼻子。",
+        "ja": "これは鼻ではありません。"
+      },
+      "tokens": {
+        "th": ["นี่", "ไม่ใช่", "จมูก"],
+        "zh": ["这", "不", "是", "鼻子", "。"],
+        "ja": ["これ", "は", "鼻", "で", "は", "あり", "ませ", "ん", "。"]
+      }
+    },
+    {
+      "id": "sentence_s2_03",
+      "kind": "sentence",
+      "itemIds": ["word_core_13"],
+      "texts": {
+        "en": "This is not a leg.",
+        "th": "นี่ไม่ใช่ขา",
+        "fa": "این پا نیست.",
+        "ar": "هذه ليست ساقاً.",
+        "es": "Esto no es una pierna.",
+        "zh": "这不是腿。",
+        "ja": "これは脚ではありません。"
+      },
+      "tokens": {
+        "th": ["นี่", "ไม่ใช่", "ขา"],
+        "zh": ["这", "不", "是", "腿", "。"],
+        "ja": ["これ", "は", "脚", "で", "は", "あり", "ませ", "ん", "。"]
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Structure 3: Where does it hurt?",
+        "th": "โครงสร้าง 3: ปวดที่ไหน?",
+        "fa": "ساختار ۳: کجا درد می‌کند؟",
+        "ar": "الهيكل 3: أين يؤلمك؟",
+        "es": "Estructura 3: ¿Dónde te duele?",
+        "zh": "结构 3：哪里痛？",
+        "ja": "構造 3：どこが痛いですか？"
+      }
+    },
+    {
+      "id": "sentence_s3_01",
+      "kind": "sentence",
+      "itemIds": ["word_core_03"],
+      "texts": {
+        "en": "I have a headache.",
+        "th": "ผมปวดหัว",
+        "fa": "من سردرد دارم.",
+        "ar": "لدي صداع.",
+        "es": "Tengo dolor de cabeza.",
+        "zh": "我头痛。",
+        "ja": "頭痛がします。"
+      },
+      "tokens": {
+        "th": ["ผม", "ปวด", "หัว"],
+        "zh": ["我", "头痛", "。"],
+        "ja": ["私", "は", "頭痛", "が", "し", "ます", "。"]
+      }
+    },
+    {
+      "id": "sentence_s3_02",
+      "kind": "sentence",
+      "itemIds": ["word_core_08"],
+      "texts": {
+        "en": "I have a sore throat.",
+        "th": "ฉันเจ็บคอ",
+        "fa": "من گلودرد دارم.",
+        "ar": "لدي التهاب في الحلق.",
+        "es": "Tengo dolor de garganta.",
+        "zh": "我喉咙痛。",
+        "ja": "喉が痛いです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "เจ็บ", "คอ"],
+        "zh": ["我", "喉咙", "痛", "。"],
+        "ja": ["喉", "が", "痛い", "です", "。"]
+      }
+    },
+    {
+      "id": "sentence_s3_03",
+      "kind": "sentence",
+      "itemIds": ["word_core_16"],
+      "texts": {
+        "en": "He has a stomach ache.",
+        "th": "เขาปวดท้อง",
+        "fa": "او دل درد دارد.",
+        "ar": "لديه ألم في المعدة.",
+        "es": "Él tiene dolor de estómago.",
+        "zh": "他胃痛。",
+        "ja": "彼はお腹が痛いです。"
+      },
+      "tokens": {
+        "th": ["เขา", "ปวด", "ท้อง"],
+        "zh": ["他", "胃", "痛", "。"],
+        "ja": ["彼", "は", "お腹", "が", "痛い", "です", "。"]
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Conversation 1: Naming body parts",
+        "th": "บทสนทนา 1: เรียกชื่ออวัยวะ",
+        "fa": "مکالمه ۱: نام‌گذاری اعضای بدن",
+        "ar": "المحادثة 1: تسمية أجزاء الجسم",
+        "es": "Conversación 1: Nombrar partes del cuerpo",
+        "zh": "对话 1：命名身体部位",
+        "ja": "会話 1：体の部位の名前"
+      }
+    },
+    {
+      "id": "sentence_s4_01",
+      "kind": "sentence",
+      "itemIds": [],
+      "texts": {
+        "en": "What is this?",
+        "th": "นี่คืออะไรคะ",
+        "fa": "این چیست؟",
+        "ar": "ما هذا؟",
+        "es": "¿Qué es esto?",
+        "zh": "这是什么？",
+        "ja": "これは何ですか？"
+      },
+      "tokens": {
+        "th": ["นี่", "คือ", "อะไร", "คะ"],
+        "zh": ["这", "是", "什么", "？"],
+        "ja": ["これ", "は", "何", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s4_02",
+      "kind": "sentence",
+      "itemIds": ["word_core_07"],
+      "texts": {
+        "en": "This is an ear.",
+        "th": "นี่คือหูค่ะ",
+        "fa": "این گوش است.",
+        "ar": "هذه أذن.",
+        "es": "Esto es una oreja.",
+        "zh": "这是耳朵。",
+        "ja": "これは耳です。"
+      },
+      "tokens": {
+        "th": ["นี่", "คือ", "หู", "ค่ะ"],
+        "zh": ["这", "是", "耳朵", "。"],
+        "ja": ["これ", "は", "耳", "です", "。"]
+      }
+    },
+    {
+      "id": "sentence_s4_03",
+      "kind": "sentence",
+      "itemIds": [],
+      "texts": {
+        "en": "What is that?",
+        "th": "นั่นคืออะไรครับ",
+        "fa": "آن چیست؟",
+        "ar": "ما ذلك؟",
+        "es": "¿Qué es eso?",
+        "zh": "那是什么？",
+        "ja": "あれは何ですか？"
+      },
+      "tokens": {
+        "th": ["นั่น", "คือ", "อะไร", "ครับ"],
+        "zh": ["那", "是", "什么", "？"],
+        "ja": ["あれ", "は", "何", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s4_04",
+      "kind": "sentence",
+      "itemIds": ["word_core_11"],
+      "texts": {
+        "en": "That is an arm.",
+        "th": "นั่นคือแขนครับ",
+        "fa": "آن بازو است.",
+        "ar": "ذلك ذراع.",
+        "es": "Eso es un brazo.",
+        "zh": "那是手臂。",
+        "ja": "あれは腕です。"
+      },
+      "tokens": {
+        "th": ["นั่น", "คือ", "แขน", "ครับ"],
+        "zh": ["那", "是", "手臂", "。"],
+        "ja": ["あれ", "は", "腕", "です", "。"]
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Conversation 2: At the doctor",
+        "th": "บทสนทนา 2: พบแพทย์",
+        "fa": "مکالمه ۲: پیش پزشک",
+        "ar": "المحادثة 2: عند الطبيب",
+        "es": "Conversación 2: En el médico",
+        "zh": "对话 2：看医生",
+        "ja": "会話 2：病院にて"
+      }
+    },
+    {
+      "id": "sentence_s5_01",
+      "kind": "sentence",
+      "itemIds": [],
+      "texts": {
+        "en": "What is wrong?",
+        "th": "คุณเป็นอะไรคะ",
+        "fa": "چه مشکلی دارید؟",
+        "ar": "ما المشكلة؟",
+        "es": "¿Qué pasa?",
+        "zh": "你怎么了？",
+        "ja": "どうしましたか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "เป็น", "อะไร", "คะ"],
+        "zh": ["你", "怎么", "了", "？"],
+        "ja": ["どう", "し", "まし", "た", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s5_02",
+      "kind": "sentence",
+      "itemIds": ["word_core_03"],
+      "texts": {
+        "en": "I have a headache.",
+        "th": "ผมปวดหัวครับ",
+        "fa": "من سردرد دارم.",
+        "ar": "لدي صداع.",
+        "es": "Tengo dolor de cabeza.",
+        "zh": "我头痛。",
+        "ja": "頭痛がします。"
+      },
+      "tokens": {
+        "th": ["ผม", "ปวด", "หัว", "ครับ"],
+        "zh": ["我", "头痛", "。"],
+        "ja": ["私", "は", "頭痛", "が", "し", "ます", "。"]
+      }
+    },
+    {
+      "id": "sentence_s5_03",
+      "kind": "sentence",
+      "itemIds": [],
+      "texts": {
+        "en": "How long have you been in pain?",
+        "th": "คุณปวดมานานเท่าไหร่แล้วคะ",
+        "fa": "چقدر است که درد دارید؟",
+        "ar": "منذ متى وأنت تشعر بالألم؟",
+        "es": "¿Cuánto tiempo llevas con dolor?",
+        "zh": "你痛了多久了？",
+        "ja": "どのくらい痛いのですか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "ปวด", "มา", "นาน", "เท่าไหร่", "แล้ว", "คะ"],
+        "zh": ["你", "痛", "了", "多久", "了", "？"],
+        "ja": ["どのくらい", "痛い", "の", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s5_04",
+      "kind": "sentence",
+      "itemIds": [],
+      "texts": {
+        "en": "I have been in pain for two days.",
+        "th": "ปวดมา2วันแล้วครับ",
+        "fa": "دو روز است که درد دارم.",
+        "ar": "أشعر بالألم منذ يومين.",
+        "es": "Llevo dos días con dolor.",
+        "zh": "我痛了两天了。",
+        "ja": "二日間痛いです。"
+      },
+      "tokens": {
+        "th": ["ปวด", "มา", "2", "วัน", "แล้ว", "ครับ"],
+        "zh": ["痛", "了", "两", "天", "了", "。"],
+        "ja": ["二日間", "痛い", "です", "。"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1552 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "header_core_words",
+      "header": true,
+      "texts": {
+        "en": "Core Vocabulary",
+        "th": "คำศัพท์หลัก",
+        "fa": "واژگان اصلی",
+        "ar": "المفردات الأساسية",
+        "es": "Vocabulario básico",
+        "zh": "核心词汇",
+        "ja": "基本語彙"
+      }
+    },
+    {
+      "id": "word_core_01",
+      "kind": "word",
+      "texts": {
+        "en": "family",
+        "th": "ครอบครัว",
+        "fa": "خانواده",
+        "ar": "عائلة",
+        "es": "Familia",
+        "zh": "家庭",
+        "ja": "家族"
+      }
+    },
+    {
+      "id": "word_core_02",
+      "kind": "word",
+      "texts": {
+        "en": "father",
+        "th": "พ่อ",
+        "fa": "پدر",
+        "ar": "أب",
+        "es": "Padre",
+        "zh": "爸爸",
+        "ja": "父"
+      }
+    },
+    {
+      "id": "word_core_03",
+      "kind": "word",
+      "texts": {
+        "en": "mother",
+        "th": "แม่",
+        "fa": "مادر",
+        "ar": "أم",
+        "es": "Madre",
+        "zh": "妈妈",
+        "ja": "母"
+      }
+    },
+    {
+      "id": "word_core_04",
+      "kind": "word",
+      "texts": {
+        "en": "older sibling",
+        "th": "พี่",
+        "fa": "خواهر/برادر بزرگتر",
+        "ar": "الأخ/الأخت الأكبر",
+        "es": "Hermano/a mayor",
+        "zh": "哥哥/姐姐",
+        "ja": "兄/姉"
+      }
+    },
+    {
+      "id": "word_core_05",
+      "kind": "word",
+      "texts": {
+        "en": "younger sibling",
+        "th": "น้อง",
+        "fa": "خواهر/برادر کوچکتر",
+        "ar": "الأخ/الأخت الأصغر",
+        "es": "Hermano/a menor",
+        "zh": "弟弟/妹妹",
+        "ja": "弟/妹"
+      }
+    },
+    {
+      "id": "word_core_06",
+      "kind": "word",
+      "texts": {
+        "en": "siblings",
+        "th": "พี่น้อง",
+        "fa": "خواهر و برادرها",
+        "ar": "الأشقاء",
+        "es": "Hermanos",
+        "zh": "兄弟姐妹",
+        "ja": "兄弟"
+      }
+    },
+    {
+      "id": "word_core_07",
+      "kind": "word",
+      "texts": {
+        "en": "older sister",
+        "th": "พี่สาว",
+        "fa": "خواهر بزرگتر",
+        "ar": "الأخت الأكبر",
+        "es": "Hermana mayor",
+        "zh": "姐姐",
+        "ja": "姉"
+      }
+    },
+    {
+      "id": "word_core_08",
+      "kind": "word",
+      "texts": {
+        "en": "younger sister",
+        "th": "น้องสาว",
+        "fa": "خواهر کوچکتر",
+        "ar": "الأخت الأصغر",
+        "es": "Hermana menor",
+        "zh": "妹妹",
+        "ja": "妹"
+      }
+    },
+    {
+      "id": "word_core_09",
+      "kind": "word",
+      "texts": {
+        "en": "older brother",
+        "th": "พี่ชาย",
+        "fa": "برادر بزرگتر",
+        "ar": "الأخ الأكبر",
+        "es": "Hermano mayor",
+        "zh": "哥哥",
+        "ja": "兄"
+      }
+    },
+    {
+      "id": "word_core_10",
+      "kind": "word",
+      "texts": {
+        "en": "younger brother",
+        "th": "น้องชาย",
+        "fa": "برادر کوچکتر",
+        "ar": "الأخ الأصغر",
+        "es": "Hermano menor",
+        "zh": "弟弟",
+        "ja": "弟"
+      }
+    },
+    {
+      "id": "word_core_11",
+      "kind": "word",
+      "texts": {
+        "en": "child",
+        "th": "ลูก",
+        "fa": "بچه",
+        "ar": "طفل",
+        "es": "Hijo/a",
+        "zh": "孩子",
+        "ja": "子供"
+      }
+    },
+    {
+      "id": "word_core_12",
+      "kind": "word",
+      "texts": {
+        "en": "daughter",
+        "th": "ลูกสาว",
+        "fa": "دختر",
+        "ar": "ابنة",
+        "es": "Hija",
+        "zh": "女儿",
+        "ja": "娘"
+      }
+    },
+    {
+      "id": "word_core_13",
+      "kind": "word",
+      "texts": {
+        "en": "son",
+        "th": "ลูกชาย",
+        "fa": "پسر",
+        "ar": "ابن",
+        "es": "Hijo",
+        "zh": "儿子",
+        "ja": "息子"
+      }
+    },
+    {
+      "id": "word_core_14",
+      "kind": "word",
+      "texts": {
+        "en": "niece / granddaughter",
+        "th": "หลานสาว",
+        "fa": "خواهرزاده / نوه دختر",
+        "ar": "ابنة الأخ/الأخت / الحفيدة",
+        "es": "Sobrina / nieta",
+        "zh": "侄女/外孙女",
+        "ja": "姪/孫娘"
+      }
+    },
+    {
+      "id": "word_core_15",
+      "kind": "word",
+      "texts": {
+        "en": "nephew / grandson",
+        "th": "หลานชาย",
+        "fa": "برادرزاده / نوه پسر",
+        "ar": "ابن الأخ/الأخت / الحفيد",
+        "es": "Sobrino / nieto",
+        "zh": "侄子/外孙",
+        "ja": "甥/孫"
+      }
+    },
+    {
+      "id": "word_core_16",
+      "kind": "word",
+      "texts": {
+        "en": "grandfather (paternal)",
+        "th": "ปู่",
+        "fa": "پدربزرگ (پدری)",
+        "ar": "الجد لأب",
+        "es": "Abuelo paterno",
+        "zh": "爷爷",
+        "ja": "父方の祖父"
+      }
+    },
+    {
+      "id": "word_core_17",
+      "kind": "word",
+      "texts": {
+        "en": "grandfather (maternal)",
+        "th": "ตา",
+        "fa": "پدربزرگ (مادری)",
+        "ar": "الجد لأم",
+        "es": "Abuelo materno",
+        "zh": "外公",
+        "ja": "母方の祖父"
+      }
+    },
+    {
+      "id": "word_core_18",
+      "kind": "word",
+      "texts": {
+        "en": "grandmother (paternal)",
+        "th": "ย่า",
+        "fa": "مادربزرگ (پدری)",
+        "ar": "الجدة لأب",
+        "es": "Abuela paterna",
+        "zh": "奶奶",
+        "ja": "父方の祖母"
+      }
+    },
+    {
+      "id": "word_core_19",
+      "kind": "word",
+      "texts": {
+        "en": "grandmother (maternal)",
+        "th": "ยาย",
+        "fa": "مادربزرگ (مادری)",
+        "ar": "الجدة لأم",
+        "es": "Abuela materna",
+        "zh": "外婆",
+        "ja": "母方の祖母"
+      }
+    },
+    {
+      "id": "word_core_20",
+      "kind": "word",
+      "texts": {
+        "en": "uncle (older)",
+        "th": "ลุง",
+        "fa": "عمو / دایی (بزرگتر)",
+        "ar": "العم / الخال (الأكبر)",
+        "es": "Tío (mayor)",
+        "zh": "伯伯/舅舅",
+        "ja": "おじ（年上）"
+      }
+    },
+    {
+      "id": "word_core_21",
+      "kind": "word",
+      "texts": {
+        "en": "aunt (older)",
+        "th": "ป้า",
+        "fa": "عمه / خاله (بزرگتر)",
+        "ar": "العمة / الخالة (الأكبر)",
+        "es": "Tía (mayor)",
+        "zh": "姑姑/阿姨",
+        "ja": "おば（年上）"
+      }
+    },
+    {
+      "id": "word_core_22",
+      "kind": "word",
+      "texts": {
+        "en": "aunt/uncle (younger maternal)",
+        "th": "น้า",
+        "fa": "خاله / دایی (کوچکتر)",
+        "ar": "العمة / الخالة (الأصغر)",
+        "es": "Tío/a (menor materno)",
+        "zh": "小姨/小舅",
+        "ja": "おば/おじ（母方・年下）"
+      }
+    },
+    {
+      "id": "word_core_23",
+      "kind": "word",
+      "texts": {
+        "en": "aunt/uncle (younger paternal)",
+        "th": "อา",
+        "fa": "عمه / عمو (کوچکتر)",
+        "ar": "العمة / العم (الأصغر)",
+        "es": "Tío/a (menor paterno)",
+        "zh": "小姑/小叔",
+        "ja": "おば/おじ（父方・年下）"
+      }
+    },
+    {
+      "id": "word_core_24",
+      "kind": "word",
+      "texts": {
+        "en": "husband",
+        "th": "สามี",
+        "fa": "شوهر",
+        "ar": "زوج",
+        "es": "Esposo",
+        "zh": "丈夫",
+        "ja": "夫"
+      }
+    },
+    {
+      "id": "word_core_25",
+      "kind": "word",
+      "texts": {
+        "en": "wife",
+        "th": "ภรรยา",
+        "fa": "زن (همسر)",
+        "ar": "زوجة",
+        "es": "Esposa",
+        "zh": "妻子",
+        "ja": "妻"
+      }
+    },
+    {
+      "id": "word_core_26",
+      "kind": "word",
+      "texts": {
+        "en": "boyfriend / girlfriend",
+        "th": "แฟน",
+        "fa": "دوست پسر / دوست دختر",
+        "ar": "حبيب / حبيبة",
+        "es": "Novio/a",
+        "zh": "男/女朋友",
+        "ja": "彼氏/彼女"
+      }
+    },
+    {
+      "id": "word_core_27",
+      "kind": "word",
+      "texts": {
+        "en": "relative",
+        "th": "ญาติ",
+        "fa": "خویشاوند",
+        "ar": "قريب",
+        "es": "Pariente",
+        "zh": "亲戚",
+        "ja": "親戚"
+      }
+    },
+    {
+      "id": "word_core_28",
+      "kind": "word",
+      "texts": {
+        "en": "you",
+        "th": "คุณ",
+        "fa": "شما",
+        "ar": "أنت",
+        "es": "Tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "word_core_29",
+      "kind": "word",
+      "texts": {
+        "en": "of",
+        "th": "ของ",
+        "fa": "از",
+        "ar": "من",
+        "es": "De",
+        "zh": "的",
+        "ja": "の"
+      }
+    },
+    {
+      "id": "word_core_30",
+      "kind": "word",
+      "texts": {
+        "en": "I (male)",
+        "th": "ผม",
+        "fa": "من (مرد)",
+        "ar": "أنا (ذكر)",
+        "es": "Yo (masculino)",
+        "zh": "我（男）",
+        "ja": "私（男）"
+      }
+    },
+    {
+      "id": "word_core_31",
+      "kind": "word",
+      "texts": {
+        "en": "have",
+        "th": "มี",
+        "fa": "داشتن",
+        "ar": "يملك",
+        "es": "Tener",
+        "zh": "有",
+        "ja": "持っている"
+      }
+    },
+    {
+      "id": "word_core_32",
+      "kind": "word",
+      "texts": {
+        "en": "how many",
+        "th": "กี่",
+        "fa": "چند تا",
+        "ar": "كم",
+        "es": "Cuántos",
+        "zh": "几",
+        "ja": "いくつ"
+      }
+    },
+    {
+      "id": "word_core_33",
+      "kind": "word",
+      "texts": {
+        "en": "person",
+        "th": "คน",
+        "fa": "نفر",
+        "ar": "شخص",
+        "es": "Persona",
+        "zh": "人",
+        "ja": "人"
+      }
+    },
+    {
+      "id": "word_core_34",
+      "kind": "word",
+      "texts": {
+        "en": "yes (female)",
+        "th": "ค่ะ",
+        "fa": "بله (زن)",
+        "ar": "نعم (أنثى)",
+        "es": "Sí (femenino)",
+        "zh": "是（女）",
+        "ja": "はい（女）"
+      }
+    },
+    {
+      "id": "word_core_35",
+      "kind": "word",
+      "texts": {
+        "en": "I (female)",
+        "th": "ฉัน",
+        "fa": "من (زن)",
+        "ar": "أنا (أنثى)",
+        "es": "Yo (femenino)",
+        "zh": "我（女）",
+        "ja": "私（女）"
+      }
+    },
+    {
+      "id": "word_core_36",
+      "kind": "word",
+      "texts": {
+        "en": "live / stay",
+        "th": "อยู่",
+        "fa": "زندگی کردن",
+        "ar": "يعيش",
+        "es": "Vivir",
+        "zh": "住",
+        "ja": "住む"
+      }
+    },
+    {
+      "id": "word_core_37",
+      "kind": "word",
+      "texts": {
+        "en": "at",
+        "th": "ที่",
+        "fa": "در",
+        "ar": "في",
+        "es": "En",
+        "zh": "在",
+        "ja": "に"
+      }
+    },
+    {
+      "id": "word_core_38",
+      "kind": "word",
+      "texts": {
+        "en": "Australia",
+        "th": "ออสเตรเลีย",
+        "fa": "استرالیا",
+        "ar": "أستراليا",
+        "es": "Australia",
+        "zh": "澳大利亚",
+        "ja": "オーストラリア"
+      }
+    },
+    {
+      "id": "word_core_39",
+      "kind": "word",
+      "texts": {
+        "en": "question particle",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula de pregunta",
+        "zh": "吗",
+        "ja": "か"
+      }
+    },
+    {
+      "id": "word_core_40",
+      "kind": "word",
+      "texts": {
+        "en": "no / not",
+        "th": "ไม่",
+        "fa": "نه",
+        "ar": "لا",
+        "es": "No",
+        "zh": "不",
+        "ja": "いいえ"
+      }
+    },
+    {
+      "id": "word_core_41",
+      "kind": "word",
+      "texts": {
+        "en": "lonely",
+        "th": "เหงา",
+        "fa": "تنها",
+        "ar": "وحيد",
+        "es": "Solo",
+        "zh": "孤独",
+        "ja": "寂しい"
+      }
+    },
+    {
+      "id": "word_core_42",
+      "kind": "word",
+      "texts": {
+        "en": "feel",
+        "th": "รู้สึก",
+        "fa": "احساس کردن",
+        "ar": "يشعر",
+        "es": "Sentir",
+        "zh": "感觉",
+        "ja": "感じる"
+      }
+    },
+    {
+      "id": "word_core_43",
+      "kind": "word",
+      "texts": {
+        "en": "a lot",
+        "th": "เยอะ",
+        "fa": "خیلی زیاد",
+        "ar": "كثير",
+        "es": "Mucho",
+        "zh": "很多",
+        "ja": "たくさん"
+      }
+    },
+    {
+      "id": "word_core_44",
+      "kind": "word",
+      "texts": {
+        "en": "he / she",
+        "th": "เขา",
+        "fa": "او",
+        "ar": "هو / هي",
+        "es": "Él / Ella",
+        "zh": "他/她",
+        "ja": "彼/彼女"
+      }
+    },
+    {
+      "id": "word_core_45",
+      "kind": "word",
+      "texts": {
+        "en": "age",
+        "th": "อายุ",
+        "fa": "سن",
+        "ar": "عمر",
+        "es": "Edad",
+        "zh": "年龄",
+        "ja": "年齢"
+      }
+    },
+    {
+      "id": "word_core_46",
+      "kind": "word",
+      "texts": {
+        "en": "how much",
+        "th": "เท่าไหร่",
+        "fa": "چقدر",
+        "ar": "كم",
+        "es": "Cuánto",
+        "zh": "多少",
+        "ja": "いくら"
+      }
+    },
+    {
+      "id": "word_core_47",
+      "kind": "word",
+      "texts": {
+        "en": "year",
+        "th": "ปี",
+        "fa": "سال",
+        "ar": "سنة",
+        "es": "Año",
+        "zh": "年",
+        "ja": "年"
+      }
+    },
+    {
+      "id": "word_core_48",
+      "kind": "word",
+      "texts": {
+        "en": "marry",
+        "th": "แต่งงาน",
+        "fa": "ازدواج کردن",
+        "ar": "يتزوج",
+        "es": "Casarse",
+        "zh": "结婚",
+        "ja": "結婚する"
+      }
+    },
+    {
+      "id": "word_core_49",
+      "kind": "word",
+      "texts": {
+        "en": "already",
+        "th": "แล้ว",
+        "fa": "قبلاً",
+        "ar": "بالفعل",
+        "es": "Ya",
+        "zh": "已经",
+        "ja": "もう"
+      }
+    },
+    {
+      "id": "word_core_50",
+      "kind": "word",
+      "texts": {
+        "en": "yet",
+        "th": "ยัง",
+        "fa": "هنوز",
+        "ar": "بعد",
+        "es": "Aún",
+        "zh": "还",
+        "ja": "まだ"
+      }
+    },
+    {
+      "id": "word_core_51",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กินข้าว",
+        "fa": "غذا خوردن",
+        "ar": "يأكل",
+        "es": "Comer",
+        "zh": "吃饭",
+        "ja": "食事をする"
+      }
+    },
+    {
+      "id": "word_core_52",
+      "kind": "word",
+      "texts": {
+        "en": "yet?",
+        "th": "รึยัง",
+        "fa": "یا هنوز نه؟",
+        "ar": "أم لا بعد؟",
+        "es": "¿Ya?",
+        "zh": "了吗",
+        "ja": "もうした？"
+      }
+    },
+    {
+      "id": "word_core_53",
+      "kind": "word",
+      "texts": {
+        "en": "study",
+        "th": "เรียน",
+        "fa": "یاد گرفتن",
+        "ar": "يدرس",
+        "es": "Estudiar",
+        "zh": "学习",
+        "ja": "勉強する"
+      }
+    },
+    {
+      "id": "word_core_54",
+      "kind": "word",
+      "texts": {
+        "en": "finish",
+        "th": "จบ",
+        "fa": "پایان",
+        "ar": "ينهي",
+        "es": "Terminar",
+        "zh": "完成",
+        "ja": "終える"
+      }
+    },
+    {
+      "id": "word_core_55",
+      "kind": "word",
+      "texts": {
+        "en": "or",
+        "th": "หรือ",
+        "fa": "یا",
+        "ar": "أو",
+        "es": "O",
+        "zh": "或者",
+        "ja": "または"
+      }
+    },
+    {
+      "id": "header_scenario1",
+      "header": true,
+      "texts": {
+        "en": "Structure 1: How many people are there in your family?",
+        "th": "โครงสร้าง 1: ครอบครัวของคุณมีกี่คน",
+        "fa": "ساختار ۱: خانواده شما چند نفر است؟",
+        "ar": "الهيكل 1: كم شخصاً في عائلتك؟",
+        "es": "Estructura 1: ¿Cuántas personas hay en tu familia?",
+        "zh": "结构 1：你家有几口人？",
+        "ja": "構造 1：あなたの家族は何人ですか？"
+      }
+    },
+    {
+      "id": "sentence_s1_01",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_01",
+        "word_core_29",
+        "word_core_28",
+        "word_core_31",
+        "word_core_32",
+        "word_core_33"
+      ],
+      "texts": {
+        "en": "How many people are there in your family?",
+        "th": "ครอบครัวของคุณมีกี่คน",
+        "fa": "خانواده شما چند نفر است؟",
+        "ar": "كم شخصاً في عائلتك؟",
+        "es": "¿Cuántas personas hay en tu familia?",
+        "zh": "你家有几口人？",
+        "ja": "あなたの家族は何人ですか？"
+      },
+      "tokens": {
+        "th": ["ครอบครัว", "ของ", "คุณ", "มี", "กี่", "คน"],
+        "zh": ["你", "家", "有", "几", "口", "人", "？"],
+        "ja": ["あなた", "の", "家族", "は", "何人", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s1_02",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_01",
+        "word_core_29",
+        "word_core_30",
+        "word_core_31",
+        "word_core_33"
+      ],
+      "texts": {
+        "en": "There are 4 people in my family.",
+        "th": "ครอบครัวของผมมี4คน",
+        "fa": "خانواده من ۴ نفر است.",
+        "ar": "هناك 4 أشخاص في عائلتي.",
+        "es": "Hay 4 personas en mi familia.",
+        "zh": "我家有4口人。",
+        "ja": "私の家族は4人です。"
+      },
+      "tokens": {
+        "th": ["ครอบครัว", "ของ", "ผม", "มี", "4", "คน"],
+        "zh": ["我", "家", "有", "4", "口", "人", "。"],
+        "ja": ["私", "の", "家族", "は", "4", "人", "です", "。"]
+      }
+    },
+    {
+      "id": "header_scenario2",
+      "header": true,
+      "texts": {
+        "en": "Structure 2: How many brothers or sisters do you have?",
+        "th": "โครงสร้าง 2: คุณมีพี่น้องกี่คน",
+        "fa": "ساختار ۲: چند خواهر و برادر دارید؟",
+        "ar": "الهيكل 2: كم عدد الأشقاء الذين لديك؟",
+        "es": "Estructura 2: ¿Cuántos hermanos tienes?",
+        "zh": "结构 2：你有几个兄弟姐妹？",
+        "ja": "構造 2：兄弟は何人いますか？"
+      }
+    },
+    {
+      "id": "sentence_s2_01",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_28",
+        "word_core_31",
+        "word_core_06",
+        "word_core_32",
+        "word_core_33"
+      ],
+      "texts": {
+        "en": "How many siblings do you have?",
+        "th": "คุณมีพี่น้องกี่คน",
+        "fa": "چند خواهر و برادر دارید؟",
+        "ar": "كم عدد الأشقاء الذين لديك؟",
+        "es": "¿Cuántos hermanos tienes?",
+        "zh": "你有几个兄弟姐妹？",
+        "ja": "兄弟は何人いますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "มี", "พี่น้อง", "กี่", "คน"],
+        "zh": ["你", "有", "几", "个", "兄弟", "姐妹", "？"],
+        "ja": ["兄弟", "は", "何人", "い", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s2_02",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_30",
+        "word_core_31",
+        "word_core_09",
+        "word_core_33",
+        "word_core_08",
+        "word_core_33"
+      ],
+      "texts": {
+        "en": "I have 1 older brother and 1 younger sister.",
+        "th": "ผมมีพี่ชาย1คนและน้องสาว1คนครับ",
+        "fa": "من یک برادر بزرگتر و یک خواهر کوچکتر دارم.",
+        "ar": "لدي أخ واحد أكبر وأخت واحدة أصغر.",
+        "es": "Tengo 1 hermano mayor y 1 hermana menor.",
+        "zh": "我有一个哥哥和一个妹妹。",
+        "ja": "私には兄が1人と妹が1人います。"
+      },
+      "tokens": {
+        "th": [
+          "ผม",
+          "มี",
+          "พี่ชาย",
+          "1",
+          "คน",
+          "และ",
+          "น้องสาว",
+          "1",
+          "คน",
+          "ครับ"
+        ],
+        "zh": ["我", "有", "一", "个", "哥哥", "和", "一", "个", "妹妹", "。"],
+        "ja": [
+          "私",
+          "に",
+          "は",
+          "兄",
+          "が",
+          "1",
+          "人",
+          "と",
+          "妹",
+          "が",
+          "1",
+          "人",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "header_scenario3",
+      "header": true,
+      "texts": {
+        "en": "Conversation",
+        "th": "บทสนทนา",
+        "fa": "مکالمه",
+        "ar": "المحادثة",
+        "es": "Conversación",
+        "zh": "对话",
+        "ja": "会話"
+      }
+    },
+    {
+      "id": "sentence_s3_01",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_01",
+        "word_core_29",
+        "word_core_28",
+        "word_core_31",
+        "word_core_32",
+        "word_core_33"
+      ],
+      "texts": {
+        "en": "How many people are there in your family?",
+        "th": "ครอบครัวของคุณมีกี่คนครับ",
+        "fa": "خانواده شما چند نفر است؟",
+        "ar": "كم شخصاً في عائلتك؟",
+        "es": "¿Cuántas personas hay en tu familia?",
+        "zh": "你家有几口人？",
+        "ja": "あなたの家族は何人ですか？"
+      },
+      "tokens": {
+        "th": ["ครอบครัว", "ของ", "คุณ", "มี", "กี่", "คน", "ครับ"],
+        "zh": ["你", "家", "有", "几", "口", "人", "？"],
+        "ja": ["あなた", "の", "家族", "は", "何人", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s3_02",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_31",
+        "word_core_33",
+        "word_core_34",
+        "word_core_02",
+        "word_core_03",
+        "word_core_35",
+        "word_core_09",
+        "word_core_33",
+        "word_core_10",
+        "word_core_33"
+      ],
+      "texts": {
+        "en": "My family has 6 people. there are father, mother, myself, one older brother, and two younger brothers.",
+        "th": "มี6คนค่ะมีพ่อแม่ฉันพี่ชาย1คนและน้องชาย2คน",
+        "fa": "خانواده من ۶ نفر است. پدر، مادر، خودم، یک برادر بزرگتر و دو برادر کوچکتر.",
+        "ar": "عائلتي تتكون من 6 أشخاص. هناك الأب، الأم، أنا، أخ واحد أكبر، وأخوان أصغر.",
+        "es": "Mi familia tiene 6 personas. Hay padre, madre, yo, un hermano mayor y dos hermanos menores.",
+        "zh": "我家有6口人。有爸爸、妈妈、我、一个哥哥和两个弟弟。",
+        "ja": "私の家族は6人です。父、母、私、兄1人、弟2人がいます。"
+      },
+      "tokens": {
+        "th": [
+          "มี",
+          "6",
+          "คน",
+          "ค่ะ",
+          "มี",
+          "พ่อ",
+          "แม่",
+          "ฉัน",
+          "พี่ชาย",
+          "1",
+          "คน",
+          "และ",
+          "น้องชาย",
+          "2",
+          "คน"
+        ],
+        "zh": [
+          "我",
+          "家",
+          "有",
+          "6",
+          "口",
+          "人",
+          "。",
+          "有",
+          "爸爸",
+          "、",
+          "妈妈",
+          "、",
+          "我",
+          "、",
+          "一",
+          "个",
+          "哥哥",
+          "和",
+          "两",
+          "个",
+          "弟弟",
+          "。"
+        ],
+        "ja": [
+          "私",
+          "の",
+          "家族",
+          "は",
+          "6",
+          "人",
+          "です",
+          "。",
+          "父",
+          "、",
+          "母",
+          "、",
+          "私",
+          "、",
+          "兄",
+          "1",
+          "人",
+          "、",
+          "弟",
+          "2",
+          "人",
+          "が",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_s3_03",
+      "kind": "sentence",
+      "itemIds": ["word_core_36", "word_core_37"],
+      "texts": {
+        "en": "Where do they live?",
+        "th": "พวกเขาอยู่ที่ไหนครับ",
+        "fa": "آنها کجا زندگی می‌کنند؟",
+        "ar": "أين يعيشون؟",
+        "es": "¿Dónde viven ellos?",
+        "zh": "他们住在哪里？",
+        "ja": "彼らはどこに住んでいますか？"
+      },
+      "tokens": {
+        "th": ["พวกเขา", "อยู่", "ที่", "ไหน", "ครับ"],
+        "zh": ["他们", "住", "在", "哪里", "？"],
+        "ja": ["彼ら", "は", "どこ", "に", "住んで", "い", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s3_04",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_36",
+        "word_core_37",
+        "word_core_38",
+        "word_core_34",
+        "word_core_28",
+        "word_core_31",
+        "word_core_06",
+        "word_core_39"
+      ],
+      "texts": {
+        "en": "They live in australia. do you have any siblings?",
+        "th": "พวกเขาอยู่ที่ออสเตรเลียค่ะคุณมีพี่น้องไหมคะ",
+        "fa": "آنها در استرالیا زندگی می‌کنند. شما خواهر و برادری دارید؟",
+        "ar": "إنهم يعيشون في أستراليا. هل لديك أي أشقاء؟",
+        "es": "Viven en Australia. ¿Tienes hermanos?",
+        "zh": "他们住在澳大利亚。你有兄弟姐妹吗？",
+        "ja": "彼らはオーストラリアに住んでいます。あなたには兄弟がいますか？"
+      },
+      "tokens": {
+        "th": [
+          "พวกเขา",
+          "อยู่",
+          "ที่",
+          "ออสเตรเลีย",
+          "ค่ะ",
+          "คุณ",
+          "มี",
+          "พี่น้อง",
+          "ไหม",
+          "คะ"
+        ],
+        "zh": [
+          "他们",
+          "住",
+          "在",
+          "澳大利亚",
+          "。",
+          "你",
+          "有",
+          "兄弟",
+          "姐妹",
+          "吗",
+          "？"
+        ],
+        "ja": [
+          "彼ら",
+          "は",
+          "オーストラリア",
+          "に",
+          "住んで",
+          "い",
+          "ます",
+          "。",
+          "あなた",
+          "に",
+          "は",
+          "兄弟",
+          "が",
+          "い",
+          "ます",
+          "か",
+          "？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_s3_05",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_30",
+        "word_core_40",
+        "word_core_31",
+        "word_core_06"
+      ],
+      "texts": {
+        "en": "No, i don’t have any siblings.",
+        "th": "ผมไม่มีพี่น้องครับ",
+        "fa": "نه، هیچ خواهر و برادری ندارم.",
+        "ar": "لا، ليس لدي أي أشقاء.",
+        "es": "No, no tengo hermanos.",
+        "zh": "不，我没有兄弟姐妹。",
+        "ja": "いいえ、兄弟はいません。"
+      },
+      "tokens": {
+        "th": ["ผม", "ไม่", "มี", "พี่น้อง", "ครับ"],
+        "zh": ["不", "，", "我", "没有", "兄弟", "姐妹", "。"],
+        "ja": ["いいえ", "、", "兄弟", "は", "い", "ませ", "ん", "。"]
+      }
+    },
+    {
+      "id": "sentence_s3_06",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_28",
+        "word_core_42",
+        "word_core_41",
+        "word_core_39"
+      ],
+      "texts": {
+        "en": "Really? do you feel lonely?",
+        "th": "จริงเหรอคะแล้วคุณรู้สึกเหงาไหมคะ",
+        "fa": "واقعاً؟ احساس تنهایی نمی‌کنید؟",
+        "ar": "حقاً؟ هل تشعر بالوحدة؟",
+        "es": "¿De verdad? ¿Te sientes solo?",
+        "zh": "真的吗？你会觉得孤独吗？",
+        "ja": "本当ですか？寂しくありませんか？"
+      },
+      "tokens": {
+        "th": ["จริงเหรอ", "คะ", "แล้ว", "คุณ", "รู้สึก", "เหงา", "ไหม", "คะ"],
+        "zh": ["真的", "吗", "？", "你", "会", "觉得", "孤独", "吗", "？"],
+        "ja": [
+          "本当",
+          "です",
+          "か",
+          "？",
+          "寂しく",
+          "あり",
+          "ませ",
+          "ん",
+          "か",
+          "？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_s3_07",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_40",
+        "word_core_41",
+        "word_core_30",
+        "word_core_31",
+        "word_core_43"
+      ],
+      "texts": {
+        "en": "No, i have many friends.",
+        "th": "ไม่เหงาครับผมมีเพื่อนเยอะ",
+        "fa": "نه، دوستان زیادی دارم.",
+        "ar": "لا، لدي الكثير من الأصدقاء.",
+        "es": "No, tengo muchos amigos.",
+        "zh": "不，我有很多朋友。",
+        "ja": "いいえ、友達がたくさんいます。"
+      },
+      "tokens": {
+        "th": ["ไม่", "เหงา", "ครับ", "ผม", "มี", "เพื่อน", "เยอะ"],
+        "zh": ["不", "，", "我", "有", "很多", "朋友", "。"],
+        "ja": ["いいえ", "、", "友達", "が", "たくさん", "い", "ます", "。"]
+      }
+    },
+    {
+      "id": "header_scenario4",
+      "header": true,
+      "texts": {
+        "en": "Structure 3: How old are you?",
+        "th": "โครงสร้าง 3: คุณอายุเท่าไหร่",
+        "fa": "ساختار ۳: چند سالت است؟",
+        "ar": "الهيكل 3: كم عمرك؟",
+        "es": "Estructura 3: ¿Cuántos años tienes?",
+        "zh": "结构 3：你多大了？",
+        "ja": "構造 3：あなたはいくつですか？"
+      }
+    },
+    {
+      "id": "sentence_s4_01",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_12",
+        "word_core_28",
+        "word_core_45",
+        "word_core_46"
+      ],
+      "texts": {
+        "en": "How old is your daughter?",
+        "th": "ลูกสาวคุณอายุเท่าไหร่ครับ",
+        "fa": "دخترتان چند سال دارد؟",
+        "ar": "كم عمر ابنتك؟",
+        "es": "¿Cuántos años tiene tu hija?",
+        "zh": "你女儿多大了？",
+        "ja": "娘さんはいくつですか？"
+      },
+      "tokens": {
+        "th": ["ลูกสาว", "คุณ", "อายุ", "เท่าไหร่", "ครับ"],
+        "zh": ["你", "女儿", "多", "大", "了", "？"],
+        "ja": ["娘さん", "は", "いくつ", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s4_02",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_44",
+        "word_core_45",
+        "word_core_47",
+        "word_core_13",
+        "word_core_28"
+      ],
+      "texts": {
+        "en": "She is 28 years old, and what about your son?",
+        "th": "เขาอายุ28ปีครับแล้วลูกชายคุณล่ะ",
+        "fa": "او ۲۸ سال دارد، پسرتان چطور؟",
+        "ar": "عمرها 28 سنة، ماذا عن ابنك؟",
+        "es": "Ella tiene 28 años, ¿y tu hijo?",
+        "zh": "她28岁了，你儿子呢？",
+        "ja": "彼女は28歳です、息子さんは？"
+      },
+      "tokens": {
+        "th": [
+          "เขา",
+          "อายุ",
+          "28",
+          "ปี",
+          "ครับ",
+          "แล้ว",
+          "ลูกชาย",
+          "คุณ",
+          "ล่ะ"
+        ],
+        "zh": ["她", "28", "岁", "了", "，", "你", "儿子", "呢", "？"],
+        "ja": ["彼女", "は", "28", "歳", "です", "、", "息子さん", "は", "？"]
+      }
+    },
+    {
+      "id": "sentence_s4_03",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_44",
+        "word_core_45",
+        "word_core_47",
+        "word_core_48",
+        "word_core_49",
+        "word_core_31",
+        "word_core_13",
+        "word_core_45"
+      ],
+      "texts": {
+        "en": "He is 32 years old and married. now he has a 5-year-old son.",
+        "th": "เขาอายุ32ปีครับเขาแต่งงานแล้วตอนนี้เขามีลูกชายอายุ5ขวบ",
+        "fa": "او ۳۲ سال دارد و ازدواج کرده. حالا یک پسر ۵ ساله دارد.",
+        "ar": "عمره 32 سنة وهو متزوج. الآن لديه ابن يبلغ من العمر 5 سنوات.",
+        "es": "Él tiene 32 años y está casado. Ahora tiene un hijo de 5 años.",
+        "zh": "他32岁了，已经结婚了。现在他有一个5岁的儿子。",
+        "ja": "彼は32歳で既婚です。今、5歳の息子がいます。"
+      },
+      "tokens": {
+        "th": [
+          "เขา",
+          "อายุ",
+          "32",
+          "ปี",
+          "ครับ",
+          "เขา",
+          "แต่งงาน",
+          "แล้ว",
+          "ตอนนี้",
+          "เขา",
+          "มี",
+          "ลูกชาย",
+          "อายุ",
+          "5",
+          "ขวบ"
+        ],
+        "zh": [
+          "他",
+          "32",
+          "岁",
+          "了",
+          "，",
+          "已经",
+          "结婚",
+          "了",
+          "。",
+          "现在",
+          "他",
+          "有",
+          "一",
+          "个",
+          "5",
+          "岁",
+          "的",
+          "儿子",
+          "。"
+        ],
+        "ja": [
+          "彼",
+          "は",
+          "32",
+          "歳",
+          "で",
+          "既婚",
+          "です",
+          "。",
+          "今",
+          "、",
+          "5",
+          "歳",
+          "の",
+          "息子",
+          "が",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "header_scenario5",
+      "header": true,
+      "texts": {
+        "en": "Structure 4: Are you married?",
+        "th": "โครงสร้าง 4: คุณแต่งงานรึยัง",
+        "fa": "ساختار ۴: ازدواج کردید؟",
+        "ar": "الهيكل 4: هل أنت متزوج؟",
+        "es": "Estructura 4: ¿Estás casado?",
+        "zh": "结构 4：你结婚了吗？",
+        "ja": "構造 4：結婚していますか？"
+      }
+    },
+    {
+      "id": "sentence_s5_01",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_28",
+        "word_core_48",
+        "word_core_55",
+        "word_core_50"
+      ],
+      "texts": {
+        "en": "Are you married?",
+        "th": "คุณแต่งงานหรือยังครับ",
+        "fa": "ازدواج کردید؟",
+        "ar": "هل أنت متزوج؟",
+        "es": "¿Estás casado?",
+        "zh": "你结婚了吗？",
+        "ja": "結婚していますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "แต่งงาน", "หรือ", "ยัง", "ครับ"],
+        "zh": ["你", "结婚", "了", "吗", "？"],
+        "ja": ["結婚", "し", "て", "い", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s5_02",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_48",
+        "word_core_49",
+        "word_core_34",
+        "word_core_28"
+      ],
+      "texts": {
+        "en": "Yes, i am. what about you?",
+        "th": "แต่งงานแล้วค่ะแล้วคุณล่ะ",
+        "fa": "بله، ازدواج کردم. شما چطور؟",
+        "ar": "نعم، أنا متزوجة. ماذا عنك؟",
+        "es": "Sí, lo estoy. ¿Y tú?",
+        "zh": "是的，我结婚了。你呢？",
+        "ja": "はい、結婚しています。あなたは？"
+      },
+      "tokens": {
+        "th": ["แต่งงาน", "แล้ว", "ค่ะ", "แล้ว", "คุณ", "ล่ะ"],
+        "zh": ["是的", "，", "我", "结婚", "了", "。", "你", "呢", "？"],
+        "ja": [
+          "はい",
+          "、",
+          "結婚",
+          "し",
+          "て",
+          "い",
+          "ます",
+          "。",
+          "あなた",
+          "は",
+          "？"
+        ]
+      }
+    },
+    {
+      "id": "sentence_s5_03",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_50",
+        "word_core_30",
+        "word_core_40",
+        "word_core_48"
+      ],
+      "texts": {
+        "en": "Not yet. / i'm not married yet.",
+        "th": "ยังครับผมยังไม่แต่งงานครับ",
+        "fa": "هنوز نه. / من هنوز ازدواج نکردم.",
+        "ar": "ليس بعد. / لست متزوجاً بعد.",
+        "es": "Todavía no. / Aún no me he casado.",
+        "zh": "还没有。/ 我还没结婚。",
+        "ja": "まだです。/ まだ結婚していません。"
+      },
+      "tokens": {
+        "th": ["ยัง", "ครับ", "ผม", "ยัง", "ไม่", "แต่งงาน", "ครับ"],
+        "zh": ["还", "没有", "。", "我", "还", "没", "结婚", "。"],
+        "ja": [
+          "まだ",
+          "です",
+          "。",
+          "まだ",
+          "結婚",
+          "し",
+          "て",
+          "い",
+          "ませ",
+          "ん",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "sentence_s5_04",
+      "kind": "sentence",
+      "itemIds": ["word_core_51", "word_core_52"],
+      "texts": {
+        "en": "Have you eaten yet?",
+        "th": "กินข้าวรึยัง",
+        "fa": "هنوز غذا خوردی؟",
+        "ar": "هل أكلت بعد؟",
+        "es": "¿Ya has comido?",
+        "zh": "你吃饭了吗？",
+        "ja": "ご飯はもう食べましたか？"
+      },
+      "tokens": {
+        "th": ["กินข้าว", "รึยัง"],
+        "zh": ["你", "吃饭", "了", "吗", "？"],
+        "ja": ["ご飯", "は", "もう", "食べ", "まし", "た", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s5_05",
+      "kind": "sentence",
+      "itemIds": ["word_core_31", "word_core_26", "word_core_52"],
+      "texts": {
+        "en": "Do you have a boy/girlfriend yet?",
+        "th": "มีแฟนรึยัง",
+        "fa": "دوست پسر/دختر داری؟",
+        "ar": "هل لديك حبيب/حبيبة بعد؟",
+        "es": "¿Ya tienes novio/novia?",
+        "zh": "你有男/女朋友了吗？",
+        "ja": "彼氏/彼女はいますか？"
+      },
+      "tokens": {
+        "th": ["มี", "แฟน", "รึยัง"],
+        "zh": ["你", "有", "男", "/", "女", "朋友", "了", "吗", "？"],
+        "ja": ["彼氏", "/", "彼女", "は", "い", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s5_06",
+      "kind": "sentence",
+      "itemIds": ["word_core_31", "word_core_11", "word_core_52"],
+      "texts": {
+        "en": "Do you have children yet?",
+        "th": "มีลูกรึยัง",
+        "fa": "بچه داری؟",
+        "ar": "هل لديك أطفال بعد؟",
+        "es": "¿Ya tienes hijos?",
+        "zh": "你有孩子了吗？",
+        "ja": "子供はいますか？"
+      },
+      "tokens": {
+        "th": ["มี", "ลูก", "รึยัง"],
+        "zh": ["你", "有", "孩子", "了", "吗", "？"],
+        "ja": ["子供", "は", "い", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "sentence_s5_07",
+      "kind": "sentence",
+      "itemIds": [
+        "word_core_11",
+        "word_core_28",
+        "word_core_53",
+        "word_core_54",
+        "word_core_52"
+      ],
+      "texts": {
+        "en": "Has your child finished school yet?",
+        "th": "ลูกคุณเรียนจบรึยัง",
+        "fa": "بچه‌ات مدرسه را تمام کرده؟",
+        "ar": "هل أنهى طفلك المدرسة بعد؟",
+        "es": "¿Tu hijo ya terminó la escuela?",
+        "zh": "你的孩子毕业了吗？",
+        "ja": "お子さんはもう学校を卒業しましたか？"
+      },
+      "tokens": {
+        "th": ["ลูก", "คุณ", "เรียน", "จบ", "รึยัง"],
+        "zh": ["你", "的", "孩子", "毕业", "了", "吗", "？"],
+        "ja": [
+          "お子さん",
+          "は",
+          "もう",
+          "学校",
+          "を",
+          "卒業",
+          "し",
+          "まし",
+          "た",
+          "か",
+          "？"
+        ]
+      }
+    }
+  ]
+}

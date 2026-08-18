@@ -1,13 +1,28 @@
-Live reload enabled. 127.0.0.1:5500:306:13
-A resource is blocked by OpaqueResponseBlocking, please check browser console for details. og.png
-Source map error: Error: request failed with status 404
-Stack in the worker:networkRequest@resource://devtools/client/shared/source-map-loader/utils/network-request.js:43:9
+The 5 project files are uploaded.  See new-chat.md for context. 
 
-Resource URL: http://127.0.0.1:5500/main.min.css
-Source Map URL: main.min.css.map
+The next major update planned for Version 3.
 
-<!-- Change this: -->
-<link rel="apple-touch-icon" href="https://ebbi.github.io/og.png" />
+Objective: The target language is currently Thai. The objective is to add the other App languages `en, th, fa, ar, es, zh, ja` as target languages.
 
-<!-- To this: -->
-<link rel="apple-touch-icon" href="og.png" />
+How?
+
+- introduce a drop down list to be placed next to the Zabon app name in the toolbar with an initial text which is the internationalized text "Learn language" followed by the languages `en, th, fa, ar, es, zh, ja` (flag followed by internationalized language name).
+
+- The next target language is Farsi to be added to the currently implemented Thai.
+
+- The interface remains identical for both Farsi and Thai, only the dataset is different.
+    - The same model, scenarios to sentences to words, except the Farsi grammatical rules instead of the current Thai.
+    - The same Introductory, Intermediate, Advanced dataset for Farsi with the grammar badges.
+
+Usage?
+
+- The user would select Farsi or Thai from the drop-down list and the corresponding dataset is loaded into the App. 
+    - Selection is stored in local storage for persistence.
+
+This request is for clarifying and improving the idea for version 3.  No code or data update.
+
+Any idea, improvement or clarification?
+
+
+
+
