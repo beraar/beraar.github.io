@@ -1,0 +1,160 @@
+{
+  "version": 2,
+  "displayMode": "script",
+  "items": [
+    {
+      "id": "fa_c01_alef",
+      "kind": "Character",
+      "texts": {
+        "fa": "آ",
+        "en": "Alef",
+        "th": "อาลีฟ",
+        "ar": "ألف",
+        "es": "Alif",
+        "zh": "阿列夫",
+        "ja": "アリフ"
+      },
+      "connections": "isolated: آ | initial: آ | medial: ـا | final: ـا"
+    },
+    {
+      "id": "fa_c02_be",
+      "kind": "Character",
+      "texts": {
+        "fa": "ب",
+        "en": "Be",
+        "th": "เบ",
+        "ar": "باء",
+        "es": "Ba",
+        "zh": "贝",
+        "ja": "ベ"
+      },
+      "connections": "isolated: ب | initial: بـ | medial: ـبـ | final: ـب"
+    },
+    {
+      "id": "fa_c03_pe",
+      "kind": "Character",
+      "texts": {
+        "fa": "پ",
+        "en": "Pe",
+        "th": "เป",
+        "ar": "باء فارسية",
+        "es": "Pe",
+        "zh": "佩",
+        "ja": "ペ"
+      },
+      "connections": "isolated: پ | initial: پـ | medial: ـپـ | final: ـپ"
+    },
+    {
+      "id": "fa_c04_te",
+      "kind": "Character",
+      "texts": {
+        "fa": "ت",
+        "en": "Te",
+        "th": "เต",
+        "ar": "تاء",
+        "es": "Ta",
+        "zh": "泰",
+        "ja": "テ"
+      },
+      "connections": "isolated: ت | initial: تـ | medial: ـتـ | final: ـت"
+    },
+    {
+      "id": "fa_c05_se",
+      "kind": "Character",
+      "texts": {
+        "fa": "ث",
+        "en": "Se",
+        "th": "เซ",
+        "ar": "ثاء",
+        "es": "Za",
+        "zh": "塞",
+        "ja": "セ"
+      },
+      "connections": "isolated: ث | initial: ثـ | medial: ـثـ | final: ـث"
+    },
+    {
+      "id": "fa_c06_jim",
+      "kind": "Character",
+      "texts": {
+        "fa": "ج",
+        "en": "Jim",
+        "th": "จิม",
+        "ar": "جيم",
+        "es": "Yim",
+        "zh": "吉姆",
+        "ja": "ジーム"
+      },
+      "connections": "isolated: ج | initial: جـ | medial: ـجـ | final: ـج"
+    },
+    {
+      "id": "fa_c07_che",
+      "kind": "Character",
+      "texts": {
+        "fa": "چ",
+        "en": "Che",
+        "th": "เช",
+        "ar": "جيم فارسية",
+        "es": "Che",
+        "zh": "切",
+        "ja": "チェ"
+      },
+      "connections": "isolated: چ | initial: چـ | medial: ـچـ | final: ـچ"
+    },
+    {
+      "id": "fa_c08_dal",
+      "kind": "Character",
+      "texts": {
+        "fa": "د",
+        "en": "Dal",
+        "th": "ดัล",
+        "ar": "دال",
+        "es": "Dal",
+        "zh": "达尔",
+        "ja": "ダール"
+      },
+      "connections": "isolated: د | initial: د | medial: ـد | final: ـد (non-connecting)"
+    },
+    {
+      "id": "fa_c09_re",
+      "kind": "Character",
+      "texts": {
+        "fa": "ر",
+        "en": "Re",
+        "th": "เร",
+        "ar": "راء",
+        "es": "Ra",
+        "zh": "雷",
+        "ja": "レ"
+      },
+      "connections": "isolated: ر | initial: ر | medial: ـر | final: ـر (non-connecting)"
+    },
+    {
+      "id": "fa_c10_sin",
+      "kind": "Character",
+      "texts": {
+        "fa": "س",
+        "en": "Sin",
+        "th": "ซิน",
+        "ar": "سين",
+        "es": "Sin",
+        "zh": "辛",
+        "ja": "シーン"
+      },
+      "connections": "isolated: س | initial: سـ | medial: ـسـ | final: ـس"
+    },
+    {
+      "id": "fa_c11_shin",
+      "kind": "Character",
+      "texts": {
+        "fa": "ش",
+        "en": "Shin",
+        "th": "ชิน",
+        "ar": "شين",
+        "es": "Shin",
+        "zh": "辛",
+        "ja": "シーン"
+      },
+      "connections": "isolated: ش | initial: شـ | medial: ـشـ | final: ـش"
+    }
+  ]
+}

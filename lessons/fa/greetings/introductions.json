@@ -1,0 +1,123 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "fa_intro_w01",
+      "kind": "Word",
+      "texts": {
+        "fa": "نام",
+        "en": "name",
+        "th": "ชื่อ",
+        "ar": "اسم",
+        "es": "nombre",
+        "zh": "名字",
+        "ja": "名前"
+      }
+    },
+    {
+      "id": "fa_intro_w02",
+      "kind": "Word",
+      "texts": {
+        "fa": "من",
+        "en": "I / me",
+        "th": "ฉัน",
+        "ar": "أنا",
+        "es": "yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "fa_intro_w03",
+      "kind": "Word",
+      "texts": {
+        "fa": "شما",
+        "en": "you",
+        "th": "คุณ",
+        "ar": "أنت",
+        "es": "tú",
+        "zh": "你",
+        "ja": "あなた"
+      }
+    },
+    {
+      "id": "fa_intro_s01",
+      "kind": "Sentence",
+      "texts": {
+        "fa": "نام من ... است.",
+        "en": "My name is ...",
+        "th": "ชื่อของฉันคือ...",
+        "ar": "اسمي هو...",
+        "es": "Mi nombre es...",
+        "zh": "我的名字是……",
+        "ja": "私の名前は……です。"
+      },
+      "tokens": {
+        "fa": [
+          { "text": "نام" },
+          { "text": "من" },
+          { "text": "..." },
+          { "text": "است." }
+        ]
+      }
+    },
+    {
+      "id": "fa_intro_s02",
+      "kind": "Sentence",
+      "texts": {
+        "fa": "نام شما چیست؟",
+        "en": "What is your name?",
+        "th": "ชื่อของคุณคืออะไร?",
+        "ar": "ما هو اسمك؟",
+        "es": "¿Cuál es tu nombre?",
+        "zh": "你叫什么名字？",
+        "ja": "お名前は何ですか？"
+      },
+      "tokens": {
+        "fa": [{ "text": "نام" }, { "text": "شما" }, { "text": "چیست؟" }]
+      }
+    },
+    {
+      "id": "fa_intro_s03",
+      "kind": "Sentence",
+      "texts": {
+        "fa": "من اهل ایران هستم.",
+        "en": "I am from Iran.",
+        "th": "ฉันมาจากอิหร่าน",
+        "ar": "أنا من إيران.",
+        "es": "Soy de Irán.",
+        "zh": "我来自伊朗。",
+        "ja": "私はイラン出身です。"
+      },
+      "tokens": {
+        "fa": [
+          { "text": "من" },
+          { "text": "اهل" },
+          { "text": "ایران" },
+          { "text": "هستم." }
+        ]
+      }
+    },
+    {
+      "id": "fa_intro_s04",
+      "kind": "Sentence",
+      "texts": {
+        "fa": "شما کجا زندگی می‌کنید؟",
+        "en": "Where do you live?",
+        "th": "คุณอาศัยอยู่ที่ไหน?",
+        "ar": "أين تعيش؟",
+        "es": "¿Dónde vives?",
+        "zh": "你住在哪里？",
+        "ja": "どこに住んでいますか？"
+      },
+      "tokens": {
+        "fa": [
+          { "text": "شما" },
+          { "text": "کجا" },
+          { "text": "زندگی" },
+          { "text": "می‌کنید؟" }
+        ]
+      }
+    }
+  ]
+}

@@ -1,78 +1,70 @@
-Zabon — v3 Multi-Target Baseline & Rules
-v3 — Multi-Target Architecture, No Grammar Badges, Namespaced Storage 0. Session Recovery Log (read first)
+# Zabon — v3 Multi-Target Baseline & Rules
+
+## Session Recovery Log (read first)
+
 The v3 app code is the active baseline.
-Key v3 changes from v2:
 
-- Multi-Target: The app now supports multiple target languages (Thai, Farsi, etc.) via a toolbar dropdown.
-- No Legacy Migration: v3 starts with a clean slate. Existing v2 Thai progress is ignored.
-- Namespaced Storage: All progress keys are now scoped to the target language (e.g., `zabon.th.srs`, `zabon.fa.srs`).
-- Grammar Badges Removed: `cat_grammar` and all `grammar: []` tags have been removed. Study plans no longer inject grammar prerequisites.
-- Manifest Routing: `manifest.json` uses `{lang}` templates for file paths (e.g., `lessons/{lang}/greetings/...`).
-- Script Display Mode: A new `"displayMode": "script"` handles Perso-Arabic connection rules for Farsi.
+- **Task 1 (Blank Page Bug):** FIXED. The `init()` flow correctly halts at the target selection view if no language is chosen.
+- **Task 2 (Grammar Restructure):** FIXED. Grammar lessons are consolidated into `cat_grammar_intro`, `cat_grammar_inter`, and `cat_grammar_adv`.
+- **Task 3 (Routing & "Not Implemented" Guard):** IMPLEMENTED. `IMPLEMENTED_TARGET_LANGUAGES` guards the Home view.
+- **CRITICAL REGRESSION (Language Selection Inactive):** Selecting a language does nothing.
+  - **Root Cause 1:** `handleTargetSelection` was calling a non-existent `renderTargetLanguageControl()` function. (This line has been deleted by the user, but the issue persists).
+  - **Root Cause 2 (Confirmed):** The provided `app.js` and `manifest.json` files contain **trailing spaces** in string literals (e.g., `"th "` instead of `"th"`, `"code ": "en "`). This causes `registry.has(langCode)` and `IMPLEMENTED_TARGET_LANGUAGES.includes()` to fail silently.
+  - **Root Cause 3 (Architecture):** The app uses a **single `<main>` element** containing multiple `<section>` elements for views. Previous AI responses hallucinated 10 separate `<main>` tags, which is incorrect and breaks the DOM.
 
-1. Files attached at new-chat start
-   `app.js` — the single IIFE (v3 baseline)
-   `index.html` — the app shell
-   `main.css` — language-agnostic design system
-   `manifest.json` — multi-target language registry + categories
-   `new-chat.md` — this document
+## Immediate Fix Required (Stage 3 Recovery)
 
-2. Project overview
-   Zabon is a language-learning web app: vanilla HTML/CSS/JS, no frameworks.
-   The UI supports 7 app languages (`en, th, fa, ar, es, zh, ja`).
-   The Target Language (what the user is learning) is selectable (e.g., `th`, `fa`).
-   Content is routed dynamically based on the Target Language.
+Before proceeding to Farsi, we must fix the target selection. Provide exact, safe find/replace blocks for:
 
-3. Architecture
-   Single IIFE in `app.js`.
-   State includes `state.settings.targetLanguage` (defaults to `th` on first launch after prompt).
-   Storage keys are dynamically generated: `zabon.${targetLang}.srs`, etc.
-   Manifest uses `{lang}` templating for lesson file paths.
+**Step 1: Fix Trailing Spaces in `app.js` and `manifest.json`**
+Instruct the user to perform a global find/replace to remove trailing spaces inside string quotes for language codes and keys.
 
-4. Current verified state (v3 baseline)
-   app.js: `STORAGE_KEYS` are dynamic. `UI_STRINGS` use `{targetLanguage}` placeholders. `cat_grammar` logic is fully removed. `loadLessonFile()` resolves `{lang}`.
-   main.css: Includes `.script-cell` for Perso-Arabic connection rendering.
-   manifest.json: Uses `"file": "lessons/{lang}/..."`. No `grammar` arrays.
-   lessons/: Thai data exists in `lessons/th/`. Farsi data exists in `lessons/fa/`.
+- Find: `"th "` -> Replace: `"th"`
+- Find: `"fa "` -> Replace: `"fa"`
+- Find: `"en "` -> Replace: `"en"`
+- Find: `"code "` -> Replace: `"code"`
+  _(Provide a safe regex or explicit instructions to clean these up without breaking the JSON/JS syntax)._
 
-5. Storage-key map (Namespaced)
-   | Key Pattern | Written by | Read by |
-   | --- | --- | --- |
-   | zabon.settings | saveState() | init() |
-   | zabon.lessonLanguages | saveState() | init() |
-   | zabon.${lang}.srs | SrsService | SrsService |
-| zabon.${lang}.quiz | QuizProgressService | QuizProgressService |
-   | zabon.${lang}.lessonsTried | markLessonTried() | init() |
-| zabon.${lang}.studyPlan | StudyPlanService | StudyPlanService |
-   | zabon.${lang}.studyPlanProgress | StudyPlanService | StudyPlanService |
+**Step 2: Verify `IMPLEMENTED_TARGET_LANGUAGES` in `app.js`**
+Ensure it is clean and includes Farsi:
+`const IMPLEMENTED_TARGET_LANGUAGES = Object.freeze(["th", "fa"]);`
 
-6. Status model & key behaviors
-   Lesson status values: `"complete" | "in-progress" | "skipped"`.
-   Target Language Safeguard: `targetLanguage` cannot equal `appLanguage`.
-   First Launch: If `targetLanguage` is missing, app halts at target selection view.
-   Display Modes: `"phonetic"` (Thai script), `"script"` (Perso-Arabic connections), default (standard columns).
+**Step 3: Verify `index.html` Structure**
+Confirm that `index.html` has exactly **one** `<main>` container (e.g., `<main id="app-main" class="app-main">`) that holds the view `<section>` elements. Do not generate or suggest multiple `<main>` tags.
 
-7. Architecture constraints
-   `state.settings.targetLanguage` dictates data routing and storage namespacing.
-   `state.lessonLanguages` dictates display columns and exercise pairs.
-   All interactions through `bindGlobalEvents()`.
-   Language-agnostic CSS only; direction via `dir` + logical CSS.
+**Step 4: Ensure `handleTargetSelection` is clean**
+Verify that `handleTargetSelection` in `app.js` correctly updates `state.settings.targetLanguage`, calls `saveState()`, re-initializes the namespaced services, and calls `goHome()` without calling any missing functions.
 
-8. Process rules
-   One stage at a time. Deliver one stage, then stop and wait for a completion report.
-   No code/data is generated until the current stage is confirmed.
-   Present the task description and file list before producing a deliverable.
+## Next Stage Goals (Remaining v3 Stages)
 
-9. Verification anchors (v3)
-   Must return 0 hits in `app.js`: `cat_grammar`, `renderGrammarBadges`, `getUnmetGrammarPrerequisites`, `grammarTagToId`.
-   Must return ≥1 hit in `app.js`: `state.settings.targetLanguage`, `zabon.${`, `lessons/{lang}`, `displayMode === "script"`.
-   Must return ≥1 hit in `manifest.json`: `"file": "lessons/{lang}/`, `"displayMode": "script"`.
+### Task 1: Stage 4 - Farsi Data & Script Display Mode
 
-10. Data generation rules (v3 lesson format)
-    Routing: All lesson files must be placed in `lessons/{lang}/` matching the manifest `{lang}` template.
-    Display Modes:
+- **Farsi (`fa`) is the next language to implement.**
+- Update `renderScriptCell()` in `app.js`. Currently, it just dumps the raw `connections` string as text. It needs to parse the `connections` string (e.g., `"isolated: ب | initial: بـ | medial: ـبـ | final: ـب"`) and render the 4 Perso-Arabic forms in a clean CSS grid.
+- Generate the Farsi `cat_reading_writing` JSON data (`lessons/fa/reading-writing/consonants-vowels-tones.json`) utilizing the `"displayMode": "script"` structure.
+- Generate a starter set of Farsi thematic lessons (`lessons/fa/greetings/meeting-people.json` and `introductions.json`).
 
-- Default: standard word/sentence columns.
-- `"phonetic"`: Large character + localized phonetic note (used for Thai).
-- `"script"`: Base character + connection indicators (used for Farsi/Arabic). Requires `connections` object in item data.
-  Validation: run `node tools/check-lessons.js` after saving.
+### Task 2: Stage 5 - i18n Polish & Edge Cases
+
+- Update `UI_STRINGS` to use dynamic placeholders (e.g., `"Your current {targetLanguage} level?"`).
+- Ensure `MediaService` and Voice Test dynamically query the BCP47 code of the Target Language.
+- Verify RTL/LTR mixed-direction rendering in the lesson columns.
+
+## Crucial Architecture Rules (Do Not Hallucinate)
+
+1. **Single Main Container:** The DOM has one `<main>` element. Views are rendered as `<section>` elements within it, or dynamically swapped. Never suggest multiple `<main>` tags.
+2. **The Manifest is GLOBAL:** `manifest.json` contains all categories and lessons for all languages. **DO NOT** filter categories by target language in `app.js`. **DO NOT** duplicate categories per language in `manifest.json`.
+3. **Routing is handled by tokens:** Lesson files use the `lessons/{lang}/...` path. The `{lang}` token is replaced dynamically by `loadLessonFile()` based on `state.settings.targetLanguage`.
+4. **Data Generation Rules:**
+   - Top level: `{ "version": 2, "items": [...] }`.
+   - Item kinds: `Header`, `Word`, `Sentence`, and `Character` (exception: used specifically for alphabet/reading lessons, paired with `"displayMode": "phonetic"` or `"script"`).
+   - Languages: every `texts` and `tokens` block must cover exactly the lesson's manifest `languages` array.
+
+## Process rules
+
+1. One stage at a time. Deliver one stage, then stop and wait for a completion report.
+2. No code/data is generated until the current stage is confirmed.
+3. Do not refactor unrelated working content.
+4. Present the task description and file list before producing a deliverable.
+5. When providing code changes, give **exact** find/replace blocks or explicit line locations. Do not say "find the place where it reads...".
+6. Keep markdown output cohesive and avoid complex nested HTML that might split the response.

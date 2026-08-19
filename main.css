@@ -622,6 +622,8 @@ input {
   unicode-bidi: isolate;
   overflow-wrap: anywhere;
 }
+
+/*
 .grammar-badges {
   display: flex;
   flex-wrap: wrap;
@@ -655,6 +657,8 @@ input {
   outline: 2px solid var(--accent);
   outline-offset: 1px;
 }
+  */
+
 /* ------------------------------------------------------------
    Document header (lesson / exercise / progress)
    ------------------------------------------------------------ */
@@ -1451,4 +1455,115 @@ language-agnostic; direction flows from the document dir.
 .help-list li {
   unicode-bidi: isolate;
   overflow-wrap: anywhere;
+}
+
+/* ------------------------------------------------------------
+Target Language Selection (v3)
+------------------------------------------------------------ */
+.target-select-stage {
+  display: grid;
+  gap: var(--space-4);
+  max-inline-size: 480px;
+  margin-inline: auto;
+  padding-block-start: 2rem;
+}
+.target-select-title {
+  margin: 0;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.target-select-intro {
+  margin: 0;
+  color: var(--muted);
+  text-align: center;
+}
+.target-select-list {
+  display: grid;
+  gap: var(--space-2);
+}
+.target-select-option {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  inline-size: 100%;
+  min-block-size: 3rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 1.05rem;
+  cursor: pointer;
+  text-align: start;
+}
+.target-select-option:hover {
+  border-color: var(--accent);
+  background: var(--surface-2);
+}
+.target-select-flag {
+  font-size: 1.5rem;
+}
+.target-select-name {
+  unicode-bidi: isolate;
+}
+/* ------------------------------------------------------------
+Script display mode (v3 Baseline)
+Special lesson layout for Perso-Arabic scripts handling 
+base characters and connection indicators.
+------------------------------------------------------------ */
+.script-cell {
+  display: grid;
+  justify-items: center;
+  gap: 0.35rem;
+  padding-block: 0.6rem;
+}
+.script-cell__char {
+  font-size: 1.45rem;
+  line-height: 1.3;
+}
+.script-cell__connections {
+  font-size: 0.85rem;
+  color: var(--muted);
+  unicode-bidi: isolate;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+/* Stage 4: Perso-Arabic script connection grid */
+.script-cell__forms {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.25rem;
+  width: 100%;
+  margin-block-start: 0.75rem;
+  text-align: center;
+  font-size: 1.25rem;
+  border-top: 1px dashed var(--line);
+  padding-block-start: 0.5rem;
+}
+
+.script-cell__form-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.script-cell__form-label {
+  font-size: 0.6rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.script-cell__note {
+  font-size: 0.85rem;
+  color: var(--muted);
+  unicode-bidi: isolate;
+  text-align: center;
+  overflow-wrap: anywhere;
+  margin-block-start: 0.35rem;
+  border-block-start: 1px dashed var(--line);
+  padding-block-start: 0.35rem;
+  width: 100%;
 }

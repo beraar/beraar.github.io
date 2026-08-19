@@ -1,0 +1,142 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "fa_greet_w01",
+      "kind": "Word",
+      "texts": {
+        "fa": "سلام",
+        "en": "hello",
+        "th": "สวัสดี",
+        "ar": "مرحبا",
+        "es": "hola",
+        "zh": "你好",
+        "ja": "こんにちは"
+      }
+    },
+    {
+      "id": "fa_greet_w02",
+      "kind": "Word",
+      "texts": {
+        "fa": "خداحافظ",
+        "en": "goodbye",
+        "th": "ลาก่อน",
+        "ar": "مع السلامة",
+        "es": "adiós",
+        "zh": "再见",
+        "ja": "さようなら"
+      }
+    },
+    {
+      "id": "fa_greet_w03",
+      "kind": "Word",
+      "texts": {
+        "fa": "بله",
+        "en": "yes",
+        "th": "ใช่",
+        "ar": "نعم",
+        "es": "sí",
+        "zh": "是",
+        "ja": "はい"
+      }
+    },
+    {
+      "id": "fa_greet_w04",
+      "kind": "Word",
+      "texts": {
+        "fa": "نه",
+        "en": "no",
+        "th": "ไม่",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不",
+        "ja": "いいえ"
+      }
+    },
+    {
+      "id": "fa_greet_w05",
+      "kind": "Word",
+      "texts": {
+        "fa": "لطفا",
+        "en": "please",
+        "th": "กรุณา",
+        "ar": "من فضلك",
+        "es": "por favor",
+        "zh": "请",
+        "ja": "お願いします"
+      }
+    },
+    {
+      "id": "fa_greet_w06",
+      "kind": "Word",
+      "texts": {
+        "fa": "ممنون",
+        "en": "thank you",
+        "th": "ขอบคุณ",
+        "ar": "شكرا",
+        "es": "gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
+      }
+    },
+    {
+      "id": "fa_greet_s01",
+      "kind": "sentence",
+      "texts": {
+        "fa": "حال شما چطور است؟",
+        "en": "How are you?",
+        "th": "คุณสบายดีไหม?",
+        "ar": "كيف حالك؟",
+        "es": "¿Cómo estás?",
+        "zh": "你好吗？",
+        "ja": "お元気ですか？"
+      },
+      "tokens": {
+        "fa": [
+          { "text": "حال" },
+          { "text": "شما" },
+          { "text": "چطور" },
+          { "text": "است؟" }
+        ]
+      }
+    },
+    {
+      "id": "fa_greet_s02",
+      "kind": "sentence",
+      "texts": {
+        "fa": "من خوبم، ممنون.",
+        "en": "I am fine, thank you.",
+        "th": "ฉันสบายดี ขอบคุณ",
+        "ar": "أنا بخير، شكرا.",
+        "es": "Estoy bien, gracias.",
+        "zh": "我很好，谢谢。",
+        "ja": "元気です、ありがとう。"
+      },
+      "tokens": {
+        "fa": [{ "text": "من" }, { "text": "خوبم،" }, { "text": "ممنون." }]
+      }
+    },
+    {
+      "id": "fa_greet_s03",
+      "kind": "sentence",
+      "texts": {
+        "fa": "از آشنایی با شما خوشحالم.",
+        "en": "Nice to meet you.",
+        "th": "ยินดีที่ได้รู้จัก",
+        "ar": "تشرفنا.",
+        "es": "Encantado de conocerte.",
+        "zh": "很高兴认识你。",
+        "ja": "はじめまして。"
+      },
+      "tokens": {
+        "fa": [
+          { "text": "از" },
+          { "text": "آشنایی" },
+          { "text": "با" },
+          { "text": "شما" },
+          { "text": "خوشحالم." }
+        ]
+      }
+    }
+  ]
+}
