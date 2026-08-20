@@ -2,756 +2,47 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "h1",
       "header": true,
       "texts": {
-        "en": "Core Words",
-        "th": "คำศัพท์หลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras clave",
-        "zh": "核心词汇",
-        "ja": "基本単語"
+        "en": "Scenario 1: Room Problems",
+        "th": "สถานการณ์ที่ 1: ปัญหาในห้อง",
+        "fa": "سناریو ۱: مشکلات اتاق",
+        "ar": "السيناريو 1: مشاكل الغرفة",
+        "es": "Escenario 1: Problemas en la habitación",
+        "zh": "场景 1：房间问题",
+        "ja": "シナリオ 1：部屋の問題"
       }
     },
     {
-      "id": "word_i",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
+        "en": "broken",
+        "th": "เสีย",
+        "fa": "خراب",
+        "ar": "مكسور",
+        "es": "roto",
+        "zh": "坏了",
+        "ja": "壊れた"
       }
     },
     {
-      "id": "word_you",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
       "texts": {
-        "en": "you",
-        "th": "คุณ",
-        "fa": "شما",
-        "ar": "أنت",
-        "es": "tú / usted",
-        "zh": "你",
-        "ja": "あなた"
-      }
-    },
-    {
-      "id": "word_need",
-      "kind": "word",
-      "texts": {
-        "en": "need",
-        "th": "ต้องการ",
-        "fa": "نیاز داشتن",
-        "ar": "يحتاج",
-        "es": "necesitar",
-        "zh": "需要",
-        "ja": "必要"
-      }
-    },
-    {
-      "id": "word_want",
-      "kind": "word",
-      "texts": {
-        "en": "want",
-        "th": "อยาก",
-        "fa": "خواستن",
-        "ar": "يريد",
-        "es": "querer",
-        "zh": "想要",
-        "ja": "〜したい"
-      }
-    },
-    {
-      "id": "word_can",
-      "kind": "word",
-      "texts": {
-        "en": "can",
-        "th": "ได้",
-        "fa": "توانستن",
-        "ar": "يستطيع",
-        "es": "poder",
-        "zh": "可以",
-        "ja": "できる"
-      }
-    },
-    {
-      "id": "word_have",
-      "kind": "word",
-      "texts": {
-        "en": "have",
-        "th": "มี",
-        "fa": "داشتن",
-        "ar": "يملك",
-        "es": "tener",
-        "zh": "有",
-        "ja": "ある"
-      }
-    },
-    {
-      "id": "word_yes",
-      "kind": "word",
-      "texts": {
-        "en": "yes",
-        "th": "ใช่",
-        "fa": "بله",
-        "ar": "نعم",
-        "es": "sí",
-        "zh": "是",
-        "ja": "はい"
-      }
-    },
-    {
-      "id": "word_no",
-      "kind": "word",
-      "texts": {
-        "en": "no / not",
-        "th": "ไม่",
-        "fa": "نه / نمی",
-        "ar": "لا / ليس",
-        "es": "no",
-        "zh": "不",
-        "ja": "いいえ / 〜ない"
-      }
-    },
-    {
-      "id": "word_question_particle",
-      "kind": "word",
-      "texts": {
-        "en": "question marker",
-        "th": "ไหม",
-        "fa": "آیا",
-        "ar": "هل",
-        "es": "partícula interrogativa",
-        "zh": "吗",
-        "ja": "か"
-      }
-    },
-    {
-      "id": "word_polite_particle",
-      "kind": "word",
-      "texts": {
-        "en": "polite particle",
-        "th": "ครับ / ค่ะ",
-        "fa": "ذره ادب",
-        "ar": "أداة أدب",
-        "es": "partícula de cortesía",
-        "zh": "礼貌助词",
-        "ja": "丁寧語"
-      }
-    },
-    {
-      "id": "word_please",
-      "kind": "word",
-      "texts": {
-        "en": "please",
-        "th": "กรุณา",
-        "fa": "لطفاً",
-        "ar": "من فضلك",
-        "es": "por favor",
-        "zh": "请",
-        "ja": "お願いします"
-      }
-    },
-    {
-      "id": "word_bring",
-      "kind": "word",
-      "texts": {
-        "en": "bring",
-        "th": "นำมา",
-        "fa": "آوردن",
-        "ar": "يحضر",
-        "es": "traer",
-        "zh": "带来",
-        "ja": "持ってくる"
-      }
-    },
-    {
-      "id": "word_help",
-      "kind": "word",
-      "texts": {
-        "en": "help",
-        "th": "ช่วย",
-        "fa": "کمک کردن",
-        "ar": "يساعد",
-        "es": "ayudar",
-        "zh": "帮助",
-        "ja": "手伝う"
-      }
-    },
-    {
-      "id": "word_room",
-      "kind": "word",
-      "texts": {
-        "en": "room",
-        "th": "ห้อง",
-        "fa": "اتاق",
-        "ar": "غرفة",
-        "es": "habitación",
-        "zh": "房间",
-        "ja": "部屋"
-      }
-    },
-    {
-      "id": "word_right_now",
-      "kind": "word",
-      "texts": {
-        "en": "right now / right away",
-        "th": "เดี๋ยวนี้",
-        "fa": "همین الان",
-        "ar": "الآن",
-        "es": "ahora mismo",
-        "zh": "马上",
-        "ja": "今すぐ"
-      }
-    },
-    {
-      "id": "word_more",
-      "kind": "word",
-      "texts": {
-        "en": "more / extra",
-        "th": "อีก",
-        "fa": "بیشتر / بیشتر",
-        "ar": "أكثر / إضافي",
-        "es": "más",
-        "zh": "更多",
-        "ja": "もっと"
-      }
-    },
-    {
-      "id": "word_still",
-      "kind": "word",
-      "texts": {
-        "en": "still / yet",
-        "th": "ยัง",
-        "fa": "هنوز",
-        "ar": "لا يزال",
-        "es": "todavía / aún",
-        "zh": "还",
-        "ja": "まだ"
-      }
-    },
-    {
-      "id": "header_scenario1",
-      "header": true,
-      "texts": {
-        "en": "Scenario 1: Requesting Amenities",
-        "th": "สถานการณ์ 1: ขอสิ่งของ",
-        "fa": "سناریو ۱: درخواست امکانات",
-        "ar": "السيناريو 1: طلب المستلزمات",
-        "es": "Escenario 1: Solicitar artículos",
-        "zh": "场景一：请求物品",
-        "ja": "シナリオ1：アメニティの依頼"
-      }
-    },
-    {
-      "id": "sentence_amenity_need_towel",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_need", "word_towel", "word_please"],
-      "texts": {
-        "en": "I need a towel, please",
-        "th": "ฉันต้องการผ้าขนหนูค่ะ",
-        "fa": "من یک حوله نیاز دارم، لطفاً",
-        "ar": "أحتاج إلى منشفة، من فضلك",
-        "es": "Necesito una toalla, por favor",
-        "zh": "我需要一条毛巾",
-        "ja": "タオルをお願いします"
-      },
-      "tokens": {
-        "en": ["I", "need", "a", "towel,", "please"],
-        "th": ["ฉัน", "ต้องการ", "ผ้าขนหนู", "ค่ะ"],
-        "fa": ["من", "یک", "حوله", "نیاز", "دارم،", "لطفاً"],
-        "ar": ["أحتاج", "إلى", "منشفة،", "من", "فضلك"],
-        "es": ["Necesito", "una", "toalla,", "por", "favor"],
-        "zh": ["我", "需要", "一条", "毛巾"],
-        "ja": ["タオル", "を", "お願い", "します"]
-      }
-    },
-    {
-      "id": "sentence_amenity_extra_pillows",
-      "kind": "sentence",
-      "itemIds": [
-        "word_help",
-        "word_bring",
-        "word_pillow",
-        "word_more",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Can you bring extra pillows?",
-        "th": "ช่วยนำหมอนมาเพิ่มได้ไหมคะ",
-        "fa": "می‌توانید بالشت اضافی بیاورید؟",
-        "ar": "هل يمكنك إحضار وسائد إضافية؟",
-        "es": "¿Puedes traer almohadas extra?",
-        "zh": "你能多拿几个枕头吗？",
-        "ja": "枕を余分に持ってきてもらえますか？"
-      },
-      "tokens": {
-        "en": ["Can", "you", "bring", "extra", "pillows?"],
-        "th": ["ช่วย", "นำ", "หมอน", "มา", "เพิ่ม", "ได้", "ไหม", "คะ"],
-        "fa": ["می‌توانید", "بالشت", "اضافی", "بیاورید؟"],
-        "ar": ["هل", "يمكنك", "إحضار", "وسائد", "إضافية؟"],
-        "es": ["¿Puedes", "traer", "almohadas", "extra?"],
-        "zh": ["能", "多拿", "几个", "枕头", "吗？"],
-        "ja": ["枕", "を", "余分に", "持って", "きて", "もらえます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_amenity_toilet_paper",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_need", "word_toilet_paper", "word_more"],
-      "texts": {
-        "en": "I need more toilet paper",
-        "th": "ฉันต้องการกระดาษทิชชูเพิ่มค่ะ",
-        "fa": "من دستمال توالت بیشتری نیاز دارم",
-        "ar": "أحتاج المزيد من ورق التواليت",
-        "es": "Necesito más papel higiénico",
-        "zh": "我需要更多卫生纸",
-        "ja": "トイレットペーパーをもう少しお願いします"
-      },
-      "tokens": {
-        "en": ["I", "need", "more", "toilet", "paper"],
-        "th": ["ฉัน", "ต้องการ", "กระดาษทิชชู", "เพิ่ม", "ค่ะ"],
-        "fa": ["من", "دستمال", "توالت", "بیشتری", "نیاز", "دارم"],
-        "ar": ["أحتاج", "المزيد", "من", "ورق", "التواليت"],
-        "es": ["Necesito", "más", "papel", "higiénico"],
-        "zh": ["我", "需要", "更多", "卫生纸"],
-        "ja": ["トイレットペーパー", "を", "もう少し", "お願い", "します"]
-      }
-    },
-    {
-      "id": "sentence_amenity_blanket",
-      "kind": "sentence",
-      "itemIds": ["word_blanket", "word_can", "word_question_particle"],
-      "texts": {
-        "en": "Can I have a blanket?",
-        "th": "ขอผ้าห่มได้ไหมคะ",
-        "fa": "می‌توانم یک پتو داشته باشم؟",
-        "ar": "هل يمكنني الحصول على بطانية؟",
-        "es": "¿Puedo tener una manta?",
-        "zh": "我能要一条毯子吗？",
-        "ja": "毛布をいただけますか？"
-      },
-      "tokens": {
-        "en": ["Can", "I", "have", "a", "blanket?"],
-        "th": ["ขอ", "ผ้าห่ม", "ได้", "ไหม", "คะ"],
-        "fa": ["می‌توانم", "یک", "پتو", "داشته", "باشم؟"],
-        "ar": ["هل", "يمكنني", "الحصول", "على", "بطانية؟"],
-        "es": ["¿Puedo", "tener", "una", "manta?"],
-        "zh": ["能", "要", "一条", "毯子", "吗？"],
-        "ja": ["毛布", "を", "いただけます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_amenity_water_bottles",
-      "kind": "sentence",
-      "itemIds": ["word_please", "word_bring", "word_water", "word_bottle"],
-      "texts": {
-        "en": "Please bring two bottles of water",
-        "th": "กรุณานำน้ำมาสองขวดค่ะ",
-        "fa": "لطفاً دو بطری آب بیاورید",
-        "ar": "من فضلك أحضر زجاجتي ماء",
-        "es": "Por favor trae dos botellas de agua",
-        "zh": "请带两瓶水来",
-        "ja": "お水を2本お願いします"
-      },
-      "tokens": {
-        "en": ["Please", "bring", "two", "bottles", "of", "water"],
-        "th": ["กรุณา", "นำ", "น้ำ", "มา", "สอง", "ขวด", "ค่ะ"],
-        "fa": ["لطفاً", "دو", "بطری", "آب", "بیاورید"],
-        "ar": ["من", "فضلك", "أحضر", "زجاجتي", "ماء"],
-        "es": ["Por", "favor", "trae", "dos", "botellas", "de", "agua"],
-        "zh": ["请", "带", "两瓶", "水", "来"],
-        "ja": ["お水", "を", "2本", "お願い", "します"]
-      }
-    },
-    {
-      "id": "sentence_amenity_how_many_towels",
-      "kind": "sentence",
-      "itemIds": ["word_you", "word_need", "word_towel"],
-      "texts": {
-        "en": "How many towels do you need?",
-        "th": "คุณต้องการผ้าขนหนูกี่ผืนครับ",
-        "fa": "چند حوله نیاز دارید؟",
-        "ar": "كم منشفة تحتاج؟",
-        "es": "¿Cuántas toallas necesitas?",
-        "zh": "你需要几条毛巾？",
-        "ja": "タオルは何枚必要ですか？"
-      },
-      "tokens": {
-        "en": ["How", "many", "towels", "do", "you", "need?"],
-        "th": ["คุณ", "ต้องการ", "ผ้าขนหนู", "กี่", "ผืน", "ครับ"],
-        "fa": ["چند", "حوله", "نیاز", "دارید؟"],
-        "ar": ["كم", "منشفة", "تحتاج؟"],
-        "es": ["¿Cuántas", "toallas", "necesitas?"],
-        "zh": ["需要", "几条", "毛巾？"],
-        "ja": ["タオル", "は", "何枚", "必要", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_amenity_bring_right_away",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_bring", "word_right_now"],
-      "texts": {
-        "en": "I will bring them right away",
-        "th": "ผมจะนำมาให้เดี๋ยวนี้ครับ",
-        "fa": "من همین الان می‌آورم",
-        "ar": "سأحضرها فوراً",
-        "es": "Los traeré ahora mismo",
-        "zh": "我马上给您送来",
-        "ja": "すぐにお持ちします"
-      },
-      "tokens": {
-        "en": ["I", "will", "bring", "them", "right", "away"],
-        "th": ["ผม", "จะ", "นำ", "มา", "ให้", "เดี๋ยวนี้", "ครับ"],
-        "fa": ["من", "همین", "الان", "می‌آورم"],
-        "ar": ["سأحضرها", "فوراً"],
-        "es": ["Los", "traeré", "ahora", "mismo"],
-        "zh": ["马上", "给", "您", "送来"],
-        "ja": ["すぐに", "お持ち", "します"]
-      }
-    },
-    {
-      "id": "word_towel",
-      "kind": "word",
-      "texts": {
-        "en": "towel",
-        "th": "ผ้าขนหนู",
-        "fa": "حوله",
-        "ar": "منشفة",
-        "es": "toalla",
-        "zh": "毛巾",
-        "ja": "タオル"
-      }
-    },
-    {
-      "id": "word_pillow",
-      "kind": "word",
-      "texts": {
-        "en": "pillow",
-        "th": "หมอน",
-        "fa": "بالشت",
-        "ar": "وسادة",
-        "es": "almohada",
-        "zh": "枕头",
-        "ja": "枕"
-      }
-    },
-    {
-      "id": "word_blanket",
-      "kind": "word",
-      "texts": {
-        "en": "blanket",
-        "th": "ผ้าห่ม",
-        "fa": "پتو",
-        "ar": "بطانية",
-        "es": "manta",
-        "zh": "毯子",
-        "ja": "毛布"
-      }
-    },
-    {
-      "id": "word_toilet_paper",
-      "kind": "word",
-      "texts": {
-        "en": "toilet paper",
-        "th": "กระดาษทิชชู",
-        "fa": "دستمال توالت",
-        "ar": "ورق تواليت",
-        "es": "papel higiénico",
-        "zh": "卫生纸",
-        "ja": "トイレットペーパー"
-      }
-    },
-    {
-      "id": "word_bottle",
-      "kind": "word",
-      "texts": {
-        "en": "bottle",
-        "th": "ขวด",
-        "fa": "بطری",
-        "ar": "زجاجة",
-        "es": "botella",
-        "zh": "瓶",
-        "ja": "ボトル / 本"
-      }
-    },
-    {
-      "id": "word_water",
-      "kind": "word",
-      "texts": {
-        "en": "water",
-        "th": "น้ำ",
-        "fa": "آب",
-        "ar": "ماء",
-        "es": "agua",
-        "zh": "水",
-        "ja": "水"
-      }
-    },
-    {
-      "id": "header_scenario2",
-      "header": true,
-      "texts": {
-        "en": "Scenario 2: Reporting Problems",
-        "th": "สถานการณ์ 2: แจ้งปัญหา",
-        "fa": "سناریو ۲: گزارش مشکلات",
-        "ar": "السيناريو 2: الإبلاغ عن المشاكل",
-        "es": "Escenario 2: Reportar problemas",
-        "zh": "场景二：报告问题",
-        "ja": "シナリオ2：問題の報告"
-      }
-    },
-    {
-      "id": "sentence_problem_ac_broken",
-      "kind": "sentence",
-      "itemIds": ["word_air_conditioner", "word_broken"],
-      "texts": {
-        "en": "The air conditioner is broken",
-        "th": "แอร์เสียค่ะ",
-        "fa": "تهویه مطبوع خراب است",
-        "ar": "مكيف الهواء معطل",
-        "es": "El aire acondicionado está roto",
-        "zh": "空调坏了",
-        "ja": "エアコンが壊れています"
-      },
-      "tokens": {
-        "en": ["The", "air", "conditioner", "is", "broken"],
-        "th": ["แอร์", "เสีย", "ค่ะ"],
-        "fa": ["تهویه", "مطبوع", "خراب", "است"],
-        "ar": ["مكيف", "الهواء", "معطل"],
-        "es": ["El", "aire", "acondicionado", "está", "roto"],
-        "zh": ["空调", "坏了"],
-        "ja": ["エアコン", "が", "壊れて", "います"]
-      }
-    },
-    {
-      "id": "sentence_problem_tv_not_work",
-      "kind": "sentence",
-      "itemIds": ["word_tv", "word_no", "word_work"],
-      "texts": {
-        "en": "The TV doesn't work",
-        "th": "ทีวีเปิดไม่ติดค่ะ",
-        "fa": "تلویزیون کار نمی‌کند",
-        "ar": "التلفاز لا يعمل",
-        "es": "La televisión no funciona",
-        "zh": "电视打不开",
-        "ja": "テレビがつきません"
-      },
-      "tokens": {
-        "en": ["The", "TV", "doesn't", "work"],
-        "th": ["ทีวี", "เปิด", "ไม่", "ติด", "ค่ะ"],
-        "fa": ["تلویزیون", "کار", "نمی‌کند"],
-        "ar": ["التلفاز", "لا", "يعمل"],
-        "es": ["La", "televisión", "no", "funciona"],
-        "zh": ["电视", "打不开"],
-        "ja": ["テレビ", "が", "つき", "ません"]
-      }
-    },
-    {
-      "id": "sentence_problem_no_hot_water",
-      "kind": "sentence",
-      "itemIds": ["word_no", "word_have", "word_hot_water"],
-      "texts": {
-        "en": "There is no hot water",
-        "th": "ไม่มีน้ำร้อนค่ะ",
-        "fa": "آب گرم نیست",
-        "ar": "لا يوجد ماء ساخن",
-        "es": "No hay agua caliente",
-        "zh": "没有热水",
-        "ja": "お湯が出ません"
-      },
-      "tokens": {
-        "en": ["There", "is", "no", "hot", "water"],
-        "th": ["ไม่", "มี", "น้ำร้อน", "ค่ะ"],
-        "fa": ["آب", "گرم", "نیست"],
-        "ar": ["لا", "يوجد", "ماء", "ساخن"],
-        "es": ["No", "hay", "agua", "caliente"],
-        "zh": ["没有", "热水"],
-        "ja": ["お湯", "が", "出", "ません"]
-      }
-    },
-    {
-      "id": "sentence_problem_too_noisy",
-      "kind": "sentence",
-      "itemIds": ["word_room", "word_noisy"],
-      "texts": {
-        "en": "The room is too noisy",
-        "th": "ห้องเสียงดังเกินไปค่ะ",
-        "fa": "اتاق خیلی پر سروصدا است",
-        "ar": "الغرفة صاخبة جداً",
-        "es": "La habitación es demasiado ruidosa",
-        "zh": "房间太吵了",
-        "ja": "部屋がうるさすぎます"
-      },
-      "tokens": {
-        "en": ["The", "room", "is", "too", "noisy"],
-        "th": ["ห้อง", "เสียงดัง", "เกินไป", "ค่ะ"],
-        "fa": ["اتاق", "خیلی", "پر", "سروصدا", "است"],
-        "ar": ["الغرفة", "صاخبة", "جداً"],
-        "es": ["La", "habitación", "es", "demasiado", "ruidosa"],
-        "zh": ["房间", "太吵", "了"],
-        "ja": ["部屋", "が", "うるさすぎ", "ます"]
-      }
-    },
-    {
-      "id": "sentence_problem_door_lock",
-      "kind": "sentence",
-      "itemIds": ["word_door", "word_lock", "word_broken"],
-      "texts": {
-        "en": "The door lock is broken",
-        "th": "กลอนประตูเสียค่ะ",
-        "fa": "قفل در خراب است",
-        "ar": "قفل الباب معطل",
-        "es": "La cerradura de la puerta está rota",
-        "zh": "门锁坏了",
-        "ja": "ドアの鍵が壊れています"
-      },
-      "tokens": {
-        "en": ["The", "door", "lock", "is", "broken"],
-        "th": ["กลอน", "ประตู", "เสีย", "ค่ะ"],
-        "fa": ["قفل", "در", "خراب", "است"],
-        "ar": ["قفل", "الباب", "معطل"],
-        "es": ["La", "cerradura", "de", "la", "puerta", "está", "rota"],
-        "zh": ["门锁", "坏了"],
-        "ja": ["ドア", "の", "鍵", "が", "壊れて", "います"]
-      }
-    },
-    {
-      "id": "sentence_problem_will_send_fix",
-      "kind": "sentence",
-      "itemIds": ["word_sorry", "word_i", "word_fix"],
-      "texts": {
-        "en": "I'm sorry, I will send someone to fix it",
-        "th": "ขอโทษครับ ผมจะส่งคนไปซ่อมให้ครับ",
-        "fa": "عذرخواهی می‌کنم، کسی را برای تعمیر می‌فرستم",
-        "ar": "أنا آسف، سأرسل شخصاً لإصلاحه",
-        "es": "Lo siento, enviaré a alguien a arreglarlo",
-        "zh": "抱歉，我会派人去修",
-        "ja": "申し訳ありません、修理の者を向かわせます"
-      },
-      "tokens": {
-        "en": [
-          "I'm",
-          "sorry,",
-          "I",
-          "will",
-          "send",
-          "someone",
-          "to",
-          "fix",
-          "it"
-        ],
-        "th": [
-          "ขอโทษ",
-          "ครับ",
-          "ผม",
-          "จะ",
-          "ส่ง",
-          "คน",
-          "ไป",
-          "ซ่อม",
-          "ให้",
-          "ครับ"
-        ],
-        "fa": ["عذرخواهی", "می‌کنم،", "کسی", "را", "برای", "تعمیر", "می‌فرستم"],
-        "ar": ["أنا", "آسف،", "سأرسل", "شخصاً", "لإصلاحه"],
-        "es": ["Lo", "siento,", "enviaré", "a", "alguien", "a", "arreglarlo"],
-        "zh": ["抱歉，", "会", "派人", "去", "修"],
-        "ja": [
-          "申し訳",
-          "ありません、",
-          "修理",
-          "の",
-          "者",
-          "を",
-          "向かわせ",
-          "ます"
-        ]
-      }
-    },
-    {
-      "id": "sentence_problem_how_long",
-      "kind": "sentence",
-      "itemIds": ["word_long", "word_question_particle"],
-      "texts": {
-        "en": "How long will it take?",
-        "th": "จะใช้เวลาประมาณเท่าไรคะ",
-        "fa": "چقدر طول می‌کشد؟",
-        "ar": "كم من الوقت سيستغرق؟",
-        "es": "¿Cuánto tiempo tardará?",
-        "zh": "大概需要多长时间？",
-        "ja": "どのくらいかかりますか？"
-      },
-      "tokens": {
-        "en": ["How", "long", "will", "it", "take?"],
-        "th": ["จะ", "ใช้", "เวลา", "ประมาณ", "เท่าไร", "คะ"],
-        "fa": ["چقدر", "طول", "می‌کشد؟"],
-        "ar": ["كم", "من", "الوقت", "سيستغرق؟"],
-        "es": ["¿Cuánto", "tiempo", "tardará?"],
-        "zh": ["大概", "需要", "多长", "时间？"],
-        "ja": ["どのくらい", "かかり", "ます", "か？"]
-      }
-    },
-    {
-      "id": "word_air_conditioner",
-      "kind": "word",
-      "texts": {
-        "en": "air conditioner",
-        "th": "แอร์",
-        "fa": "تهویه مطبوع / کولر",
-        "ar": "مكيف هواء",
+        "en": "air conditioning",
+        "th": "เครื่องปรับอากาศ",
+        "fa": "تهویه مطبوع",
+        "ar": "تكييف",
         "es": "aire acondicionado",
         "zh": "空调",
         "ja": "エアコン"
       }
     },
     {
-      "id": "word_broken",
-      "kind": "word",
-      "texts": {
-        "en": "broken",
-        "th": "เสีย",
-        "fa": "خراب / شکسته",
-        "ar": "معطل / مكسور",
-        "es": "roto / averiado",
-        "zh": "坏了",
-        "ja": "壊れた"
-      }
-    },
-    {
-      "id": "word_tv",
-      "kind": "word",
-      "texts": {
-        "en": "TV / television",
-        "th": "ทีวี",
-        "fa": "تلویزیون",
-        "ar": "تلفاز",
-        "es": "televisión",
-        "zh": "电视",
-        "ja": "テレビ"
-      }
-    },
-    {
-      "id": "word_work",
-      "kind": "word",
-      "texts": {
-        "en": "work / function",
-        "th": "ทำงาน / ติด",
-        "fa": "کار کردن",
-        "ar": "يعمل",
-        "es": "funcionar",
-        "zh": "工作 / 运转",
-        "ja": "動く / つく"
-      }
-    },
-    {
-      "id": "word_hot_water",
-      "kind": "word",
+      "id": "w3",
+      "kind": "Word",
       "texts": {
         "en": "hot water",
         "th": "น้ำร้อน",
@@ -763,997 +54,897 @@
       }
     },
     {
-      "id": "word_noisy",
-      "kind": "word",
+      "id": "w4",
+      "kind": "Word",
       "texts": {
         "en": "noisy",
         "th": "เสียงดัง",
         "fa": "پر سروصدا",
         "ar": "صاخب",
         "es": "ruidoso",
-        "zh": "吵",
+        "zh": "吵闹",
         "ja": "うるさい"
       }
     },
     {
-      "id": "word_door",
-      "kind": "word",
+      "id": "w5",
+      "kind": "Word",
       "texts": {
-        "en": "door",
-        "th": "ประตู",
-        "fa": "در",
-        "ar": "باب",
-        "es": "puerta",
-        "zh": "门",
-        "ja": "ドア"
-      }
-    },
-    {
-      "id": "word_lock",
-      "kind": "word",
-      "texts": {
-        "en": "lock",
-        "th": "กลอน",
-        "fa": "قفل",
-        "ar": "قفل",
-        "es": "cerradura",
-        "zh": "锁",
-        "ja": "鍵"
-      }
-    },
-    {
-      "id": "word_fix",
-      "kind": "word",
-      "texts": {
-        "en": "fix / repair",
+        "en": "fix",
         "th": "ซ่อม",
-        "fa": "تعمیر کردن",
-        "ar": "يصلح",
-        "es": "arreglar / reparar",
+        "fa": "تعمیر",
+        "ar": "إصلاح",
+        "es": "arreglar",
         "zh": "修理",
-        "ja": "修理する"
+        "ja": "修理"
       }
     },
     {
-      "id": "word_sorry",
-      "kind": "word",
+      "id": "s1",
+      "kind": "Sentence",
       "texts": {
-        "en": "sorry",
-        "th": "ขอโทษ",
-        "fa": "عذرخواهی / متأسفم",
-        "ar": "آسف / عذراً",
-        "es": "lo siento / perdón",
-        "zh": "抱歉",
-        "ja": "すみません / 申し訳ない"
+        "en": "The air conditioning is broken.",
+        "th": "เครื่องปรับอากาศเสีย",
+        "fa": "تهویه مطبوع خراب است.",
+        "ar": "مكيف الهواء مكسور.",
+        "es": "El aire acondicionado está roto.",
+        "zh": "空调坏了。",
+        "ja": "エアコンが壊れています。"
+      },
+      "tokens": {
+        "th": ["เครื่องปรับอากาศ", "เสีย"],
+        "zh": ["空调", "坏", "了", "。"],
+        "ja": ["エアコン", "が", "壊れ", "て", "い", "ます", "。"]
       }
     },
     {
-      "id": "word_long",
-      "kind": "word",
+      "id": "s2",
+      "kind": "Sentence",
       "texts": {
-        "en": "long (time)",
-        "th": "นาน",
-        "fa": "طولانی / مدت",
-        "ar": "طويل / وقت",
-        "es": "tiempo / duración",
-        "zh": "久 / 长",
-        "ja": "長い / 時間"
+        "en": "There is no hot water.",
+        "th": "ไม่มีน้ำร้อน",
+        "fa": "آب گرم وجود ندارد.",
+        "ar": "لا يوجد ماء ساخن.",
+        "es": "No hay agua caliente.",
+        "zh": "没有热水。",
+        "ja": "お湯が出ません。"
+      },
+      "tokens": {
+        "th": ["ไม่", "มี", "น้ำร้อน"],
+        "zh": ["没有", "热水", "。"],
+        "ja": ["お湯", "が", "出", "ませ", "ん", "。"]
       }
     },
     {
-      "id": "header_scenario3",
+      "id": "s3",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The room is very noisy.",
+        "th": "ห้องเสียงดังมาก",
+        "fa": "اتاق خیلی پر سروصدا است.",
+        "ar": "الغرفة صاخبة جداً.",
+        "es": "La habitación es muy ruidosa.",
+        "zh": "房间非常吵闹。",
+        "ja": "部屋はとてもうるさいです。"
+      },
+      "tokens": {
+        "th": ["ห้อง", "เสียงดัง", "มาก"],
+        "zh": ["房间", "非常", "吵闹", "。"],
+        "ja": ["部屋", "は", "とても", "うるさい", "です", "。"]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Can you fix this, please?",
+        "th": "คุณช่วยซ่อมสิ่งนี้ได้ไหม",
+        "fa": "آیا می‌توانید این را تعمیر کنید؟",
+        "ar": "هل يمكنك إصلاح هذا؟",
+        "es": "¿Puede arreglar esto, por favor?",
+        "zh": "你能修理一下这个吗？",
+        "ja": "これを修理していただけますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "ช่วย", "ซ่อม", "สิ่ง", "นี้", "ได้", "ไหม"],
+        "zh": ["你", "能", "修理", "一下", "这个", "吗", "？"],
+        "ja": ["これ", "を", "修理", "し", "て", "いただけ", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Please send someone to check.",
+        "th": "กรุณาส่งคนมาตรวจสอบ",
+        "fa": "لطفاً کسی را برای بررسی بفرستید.",
+        "ar": "يرجى إرسال شخص للتحقق.",
+        "es": "Por favor, envíe a alguien para revisar.",
+        "zh": "请派人来检查一下。",
+        "ja": "誰か確認のために送ってください。"
+      },
+      "tokens": {
+        "th": ["กรุณา", "ส่ง", "คน", "มา", "ตรวจสอบ"],
+        "zh": ["请", "派", "人", "来", "检查", "一下", "。"],
+        "ja": [
+          "誰か",
+          "確認",
+          "の",
+          "ため",
+          "に",
+          "送っ",
+          "て",
+          "ください",
+          "。"
+        ]
+      }
+    },
+
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Extra Items",
+        "th": "สถานการณ์ที่ 2: สิ่งของเพิ่มเติม",
+        "fa": "سناریو ۲: اقلام اضافی",
+        "ar": "السيناريو 2: عناصر إضافية",
+        "es": "Escenario 2: Artículos adicionales",
+        "zh": "场景 2：额外物品",
+        "ja": "シナリオ 2：追加の備品"
+      }
+    },
+    {
+      "id": "w6",
+      "kind": "Word",
+      "texts": {
+        "en": "towel",
+        "th": "ผ้าเช็ดตัว",
+        "fa": "حوله",
+        "ar": "منشفة",
+        "es": "toalla",
+        "zh": "毛巾",
+        "ja": "タオル"
+      }
+    },
+    {
+      "id": "w7",
+      "kind": "Word",
+      "texts": {
+        "en": "pillow",
+        "th": "หมอน",
+        "fa": "بالش",
+        "ar": "وسادة",
+        "es": "almohada",
+        "zh": "枕头",
+        "ja": "枕"
+      }
+    },
+    {
+      "id": "w8",
+      "kind": "Word",
+      "texts": {
+        "en": "blanket",
+        "th": "ผ้าห่ม",
+        "fa": "پتو",
+        "ar": "بطانية",
+        "es": "manta",
+        "zh": "毯子",
+        "ja": "毛布"
+      }
+    },
+    {
+      "id": "w9",
+      "kind": "Word",
+      "texts": {
+        "en": "soap",
+        "th": "สบู่",
+        "fa": "صابون",
+        "ar": "صابون",
+        "es": "jabón",
+        "zh": "肥皂",
+        "ja": "石鹸"
+      }
+    },
+    {
+      "id": "w10",
+      "kind": "Word",
+      "texts": {
+        "en": "extra",
+        "th": "เพิ่ม",
+        "fa": "اضافی",
+        "ar": "إضافي",
+        "es": "extra",
+        "zh": "额外的",
+        "ja": "追加の"
+      }
+    },
+    {
+      "id": "s6",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Can I have an extra towel?",
+        "th": "ฉันขอผ้าเช็ดตัวเพิ่มได้ไหม",
+        "fa": "آیا می‌توانم یک حوله اضافی داشته باشم؟",
+        "ar": "هل يمكنني الحصول على منشفة إضافية؟",
+        "es": "¿Puedo tener una toalla extra?",
+        "zh": "我能多要一条毛巾吗？",
+        "ja": "タオルをもう一枚いただけますか？"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ขอ", "ผ้าเช็ดตัว", "เพิ่ม", "ได้", "ไหม"],
+        "zh": ["我", "能", "多", "要", "一条", "毛巾", "吗", "？"],
+        "ja": ["タオル", "を", "もう", "一枚", "いただけ", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s7",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We need more pillows.",
+        "th": "เราต้องการหมอนเพิ่ม",
+        "fa": "ما به بالش‌های بیشتری نیاز داریم.",
+        "ar": "نحتاج إلى المزيد من الوسائد.",
+        "es": "Necesitamos más almohadas.",
+        "zh": "我们需要更多的枕头。",
+        "ja": "枕がもっと必要です。"
+      },
+      "tokens": {
+        "th": ["เรา", "ต้องการ", "หมอน", "เพิ่ม"],
+        "zh": ["我们", "需要", "更多", "的", "枕头", "。"],
+        "ja": ["枕", "が", "もっと", "必要", "です", "。"]
+      }
+    },
+    {
+      "id": "s8",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Please bring another blanket.",
+        "th": "กรุณานำผ้าห่มมาอีกผืน",
+        "fa": "لطفاً یک پتوی دیگر بیاورید.",
+        "ar": "يرجى إحضار بطانية أخرى.",
+        "es": "Por favor, traiga otra manta.",
+        "zh": "请再拿一条毯子来。",
+        "ja": "もう一枚毛布を持ってきてください。"
+      },
+      "tokens": {
+        "th": ["กรุณา", "นำ", "ผ้าห่ม", "มา", "อีก", "ผืน"],
+        "zh": ["请", "再", "拿", "一条", "毯子", "来", "。"],
+        "ja": ["もう", "一枚", "毛布", "を", "持って", "きて", "ください", "。"]
+      }
+    },
+    {
+      "id": "s9",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We are out of soap.",
+        "th": "เราใช้สบู่หมดแล้ว",
+        "fa": "صابون ما تمام شده است.",
+        "ar": "نفد الصابون لدينا.",
+        "es": "Nos hemos quedado sin jabón.",
+        "zh": "我们的肥皂用完了。",
+        "ja": "石鹸がなくなりました。"
+      },
+      "tokens": {
+        "th": ["เรา", "ใช้", "สบู่", "หมด", "แล้ว"],
+        "zh": ["我们", "的", "肥皂", "用完", "了", "。"],
+        "ja": ["石鹸", "が", "なく", "なり", "まし", "た", "。"]
+      }
+    },
+    {
+      "id": "s10",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Can you send these to room 205?",
+        "th": "คุณช่วยส่งสิ่งเหล่านี้ไปที่ห้อง 205 ได้ไหม",
+        "fa": "آیا می‌توانید این‌ها را به اتاق ۲۰۵ بفرستید؟",
+        "ar": "هل يمكنك إرسال هذه إلى الغرفة 205؟",
+        "es": "¿Puede enviar esto a la habitación 205?",
+        "zh": "你能把这些送到205房间吗？",
+        "ja": "これらを205号室に送っていただけますか？"
+      },
+      "tokens": {
+        "th": [
+          "คุณ",
+          "ช่วย",
+          "ส่ง",
+          "สิ่ง",
+          "เหล่านี้",
+          "ไป",
+          "ที่",
+          "ห้อง",
+          "205",
+          "ได้",
+          "ไหม"
+        ],
+        "zh": ["你", "能", "把", "这些", "送到", "205", "房间", "吗", "？"],
+        "ja": [
+          "これら",
+          "を",
+          "205",
+          "号室",
+          "に",
+          "送っ",
+          "て",
+          "いただけ",
+          "ます",
+          "か",
+          "？"
+        ]
+      }
+    },
+
+    {
+      "id": "h3",
       "header": true,
       "texts": {
         "en": "Scenario 3: Room Service",
-        "th": "สถานการณ์ 3: บริการส่งอาหารถึงห้อง",
+        "th": "สถานการณ์ที่ 3: รูมเซอร์วิส",
         "fa": "سناریو ۳: سرویس اتاق",
         "ar": "السيناريو 3: خدمة الغرف",
-        "es": "Escenario 3: Servicio de habitaciones",
-        "zh": "场景三：客房送餐",
-        "ja": "シナリオ3：ルームサービス"
+        "es": "Escenario 3: Servicio a la habitación",
+        "zh": "场景 3：客房服务",
+        "ja": "シナリオ 3：ルームサービス"
       }
     },
     {
-      "id": "sentence_roomsvc_order_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_order",
-        "word_room_service",
-        "word_can",
-        "word_question_particle"
-      ],
+      "id": "w11",
+      "kind": "Word",
       "texts": {
-        "en": "Can I order room service?",
-        "th": "สั่งรูมเซอร์วิสได้ไหมคะ",
-        "fa": "می‌توانم سرویس اتاق سفارش دهم؟",
-        "ar": "هل يمكنني طلب خدمة الغرف؟",
-        "es": "¿Puedo pedir servicio de habitaciones?",
-        "zh": "我能点客房送餐吗？",
-        "ja": "ルームサービスを注文できますか？"
-      },
-      "tokens": {
-        "en": ["Can", "I", "order", "room", "service?"],
-        "th": ["สั่ง", "รูมเซอร์วิส", "ได้", "ไหม", "คะ"],
-        "fa": ["می‌توانم", "سرویس", "اتاق", "سفارش", "دهم؟"],
-        "ar": ["هل", "يمكنني", "طلب", "خدمة", "الغرف؟"],
-        "es": ["¿Puedo", "pedir", "servicio", "de", "habitaciones?"],
-        "zh": ["能", "点", "客房送餐", "吗？"],
-        "ja": ["ルームサービス", "を", "注文", "できます", "か？"]
+        "en": "menu",
+        "th": "เมนู",
+        "fa": "منو",
+        "ar": "قائمة",
+        "es": "menú",
+        "zh": "菜单",
+        "ja": "メニュー"
       }
     },
     {
-      "id": "sentence_roomsvc_end_time",
-      "kind": "sentence",
-      "itemIds": ["word_room_service", "word_time"],
-      "texts": {
-        "en": "What time does room service end?",
-        "th": "รูมเซอร์วิสหมดกี่โมงคะ",
-        "fa": "سرویس اتاق تا چه ساعتی است؟",
-        "ar": "متى تنتهي خدمة الغرف؟",
-        "es": "¿A qué hora termina el servicio de habitaciones?",
-        "zh": "客房送餐几点结束？",
-        "ja": "ルームサービスは何時までですか？"
-      },
-      "tokens": {
-        "en": ["What", "time", "does", "room", "service", "end?"],
-        "th": ["รูมเซอร์วิส", "หมด", "กี่โมง", "คะ"],
-        "fa": ["سرویس", "اتاق", "تا", "چه", "ساعتی", "است؟"],
-        "ar": ["متى", "تنتهي", "خدمة", "الغرف؟"],
-        "es": [
-          "¿A",
-          "qué",
-          "hora",
-          "termina",
-          "el",
-          "servicio",
-          "de",
-          "habitaciones?"
-        ],
-        "zh": ["客房送餐", "几点", "结束？"],
-        "ja": ["ルームサービス", "は", "何時", "まで", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_roomsvc_order_food",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_order", "word_food", "word_room"],
-      "texts": {
-        "en": "I want to order food to my room",
-        "th": "ฉันอยากสั่งอาหารมาที่ห้องค่ะ",
-        "fa": "می‌خواهم غذا به اتاقم سفارش دهم",
-        "ar": "أريد طلب طعام إلى غرفتي",
-        "es": "Quiero pedir comida a mi habitación",
-        "zh": "我想点餐送到房间",
-        "ja": "部屋に食事を注文したいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "to", "order", "food", "to", "my", "room"],
-        "th": ["ฉัน", "อยาก", "สั่ง", "อาหาร", "มา", "ที่", "ห้อง", "ค่ะ"],
-        "fa": ["می‌خواهم", "غذا", "به", "اتاقم", "سفارش", "دهم"],
-        "ar": ["أريد", "طلب", "طعام", "إلى", "غرفتي"],
-        "es": ["Quiero", "pedir", "comida", "a", "mi", "habitación"],
-        "zh": ["想", "点餐", "送到", "房间"],
-        "ja": ["部屋", "に", "食事", "を", "注文", "したい", "です"]
-      }
-    },
-    {
-      "id": "sentence_roomsvc_room_number",
-      "kind": "sentence",
-      "itemIds": [
-        "word_bring",
-        "word_room",
-        "word_can",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Can you bring it to room 502?",
-        "th": "นำมาที่ห้อง 502 ได้ไหมคะ",
-        "fa": "می‌توانید آن را به اتاق ۵۰۲ بیاورید؟",
-        "ar": "هل يمكنك إحضاره إلى الغرفة 502؟",
-        "es": "¿Puedes traerlo a la habitación 502?",
-        "zh": "你能送到502房间吗？",
-        "ja": "502号室まで持ってきてもらえますか？"
-      },
-      "tokens": {
-        "en": ["Can", "you", "bring", "it", "to", "room", "502?"],
-        "th": ["นำ", "มา", "ที่", "ห้อง", "502", "ได้", "ไหม", "คะ"],
-        "fa": ["می‌توانید", "آن", "را", "به", "اتاق", "۵۰۲", "بیاورید؟"],
-        "ar": ["هل", "يمكنك", "إحضاره", "إلى", "الغرفة", "502؟"],
-        "es": ["¿Puedes", "traerlo", "a", "la", "habitación", "502?"],
-        "zh": ["送到", "502", "房间", "吗？"],
-        "ja": ["502号室", "まで", "持って", "きて", "もらえます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_roomsvc_delivery_time",
-      "kind": "sentence",
-      "itemIds": ["word_long", "word_question_particle"],
-      "texts": {
-        "en": "How long will delivery take?",
-        "th": "ใช้เวลาส่งประมาณเท่าไรคะ",
-        "fa": "تحویل چقدر طول می‌کشد؟",
-        "ar": "كم يستغرق التوصيل؟",
-        "es": "¿Cuánto tarda la entrega?",
-        "zh": "送餐需要多长时间？",
-        "ja": "配達はどのくらいかかりますか？"
-      },
-      "tokens": {
-        "en": ["How", "long", "will", "delivery", "take?"],
-        "th": ["ใช้", "เวลา", "ส่ง", "ประมาณ", "เท่าไร", "คะ"],
-        "fa": ["تحویل", "چقدر", "طول", "می‌کشد؟"],
-        "ar": ["كم", "يستغرق", "التوصيل؟"],
-        "es": ["¿Cuánto", "tarda", "la", "entrega?"],
-        "zh": ["送餐", "需要", "多长", "时间？"],
-        "ja": ["配達", "は", "どのくらい", "かかり", "ます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_roomsvc_arrive_30",
-      "kind": "sentence",
-      "itemIds": ["word_food", "word_arrive", "word_minute"],
-      "texts": {
-        "en": "Your food will arrive in 30 minutes",
-        "th": "อาหารจะมาภายใน 30 นาทีครับ",
-        "fa": "غذای شما ظرف ۳۰ دقیقه می‌رسد",
-        "ar": "سيصل طعامك خلال 30 دقيقة",
-        "es": "Tu comida llegará en 30 minutos",
-        "zh": "你的餐点将在30分钟内送到",
-        "ja": "お食事は30分以内にお届けします"
-      },
-      "tokens": {
-        "en": ["Your", "food", "will", "arrive", "in", "30", "minutes"],
-        "th": ["อาหาร", "จะ", "มา", "ภายใน", "30", "นาที", "ครับ"],
-        "fa": ["غذای", "شما", "ظرف", "۳۰", "دقیقه", "می‌رسد"],
-        "ar": ["سيصل", "طعامك", "خلال", "30", "دقيقة"],
-        "es": ["Tu", "comida", "llegará", "en", "30", "minutos"],
-        "zh": ["餐点", "将", "在", "30分钟", "内", "送到"],
-        "ja": ["お食事", "は", "30分", "以内", "に", "お届け", "します"]
-      }
-    },
-    {
-      "id": "sentence_roomsvc_thank",
-      "kind": "sentence",
-      "itemIds": ["word_thank"],
-      "texts": {
-        "en": "Thank you",
-        "th": "ขอบคุณค่ะ",
-        "fa": "متشکرم",
-        "ar": "شكراً",
-        "es": "Gracias",
-        "zh": "谢谢",
-        "ja": "ありがとうございます"
-      },
-      "tokens": {
-        "en": ["Thank", "you"],
-        "th": ["ขอบคุณ", "ค่ะ"],
-        "fa": ["متشکرم"],
-        "ar": ["شكراً"],
-        "es": ["Gracias"],
-        "zh": ["谢谢"],
-        "ja": ["ありがとう", "ございます"]
-      }
-    },
-    {
-      "id": "word_order",
-      "kind": "word",
+      "id": "w12",
+      "kind": "Word",
       "texts": {
         "en": "order",
         "th": "สั่ง",
-        "fa": "سفارش دادن",
-        "ar": "يطلب",
-        "es": "pedir / ordenar",
-        "zh": "点 / 订",
-        "ja": "注文する"
+        "fa": "سفارش",
+        "ar": "طلب",
+        "es": "pedir",
+        "zh": "点餐",
+        "ja": "注文"
       }
     },
     {
-      "id": "word_room_service",
-      "kind": "word",
+      "id": "w13",
+      "kind": "Word",
       "texts": {
-        "en": "room service",
-        "th": "รูมเซอร์วิส",
-        "fa": "سرویس اتاق",
-        "ar": "خدمة الغرف",
-        "es": "servicio de habitaciones",
-        "zh": "客房送餐",
-        "ja": "ルームサービス"
+        "en": "deliver",
+        "th": "จัดส่ง",
+        "fa": "تحویل",
+        "ar": "توصيل",
+        "es": "entregar",
+        "zh": "送达",
+        "ja": "配達"
       }
     },
     {
-      "id": "word_food",
-      "kind": "word",
+      "id": "w14",
+      "kind": "Word",
       "texts": {
-        "en": "food",
-        "th": "อาหาร",
-        "fa": "غذا",
-        "ar": "طعام",
-        "es": "comida",
-        "zh": "食物",
-        "ja": "食事"
+        "en": "tip",
+        "th": "ทิป",
+        "fa": "انعام",
+        "ar": "بقشيش",
+        "es": "propina",
+        "zh": "小费",
+        "ja": "チップ"
       }
     },
     {
-      "id": "word_arrive",
-      "kind": "word",
+      "id": "w15",
+      "kind": "Word",
       "texts": {
-        "en": "arrive",
-        "th": "มาถึง",
-        "fa": "رسیدن",
-        "ar": "يصل",
-        "es": "llegar",
-        "zh": "到达",
-        "ja": "届く / 着く"
+        "en": "hungry",
+        "th": "หิว",
+        "fa": "گرسنه",
+        "ar": "جائع",
+        "es": "hambriento",
+        "zh": "饿",
+        "ja": "お腹が空いた"
       }
     },
     {
-      "id": "word_minute",
-      "kind": "word",
+      "id": "s11",
+      "kind": "Sentence",
       "texts": {
-        "en": "minute",
-        "th": "นาที",
-        "fa": "دقیقه",
-        "ar": "دقيقة",
-        "es": "minuto",
-        "zh": "分钟",
-        "ja": "分"
-      }
-    },
-    {
-      "id": "word_thank",
-      "kind": "word",
-      "texts": {
-        "en": "thank",
-        "th": "ขอบคุณ",
-        "fa": "تشکر",
-        "ar": "شكر",
-        "es": "gracias",
-        "zh": "谢谢",
-        "ja": "ありがとう"
-      }
-    },
-    {
-      "id": "header_scenario4",
-      "header": true,
-      "texts": {
-        "en": "Scenario 4: Housekeeping & Laundry",
-        "th": "สถานการณ์ 4: แม่บ้านและซักรีด",
-        "fa": "سناریو ۴: خانه‌داری و خشکشویی",
-        "ar": "السيناريو 4: التدبير المنزلي والغسيل",
-        "es": "Escenario 4: Limpieza y lavandería",
-        "zh": "场景四：客房清洁与洗衣",
-        "ja": "シナリオ4：ハウスキーキングとランドリー"
-      }
-    },
-    {
-      "id": "sentence_house_clean_room",
-      "kind": "sentence",
-      "itemIds": [
-        "word_clean",
-        "word_room",
-        "word_can",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Can you clean my room?",
-        "th": "ช่วยทำความสะอาดห้องให้หน่อยได้ไหมคะ",
-        "fa": "می‌توانید اتاقم را تمیز کنید؟",
-        "ar": "هل يمكنك تنظيف غرفتي؟",
-        "es": "¿Puedes limpiar mi habitación?",
-        "zh": "你能打扫我的房间吗？",
-        "ja": "部屋を掃除してもらえますか？"
+        "en": "I would like to see the room service menu.",
+        "th": "ฉันอยากดูเมนูรูมเซอร์วิส",
+        "fa": "من می‌خواهم منوی سرویس اتاق را ببینم.",
+        "ar": "أود رؤية قائمة خدمة الغرف.",
+        "es": "Me gustaría ver el menú de servicio a la habitación.",
+        "zh": "我想看看客房服务的菜单。",
+        "ja": "ルームサービスのメニューを見たいです。"
       },
       "tokens": {
-        "en": ["Can", "you", "clean", "my", "room?"],
-        "th": [
-          "ช่วย",
-          "ทำความสะอาด",
-          "ห้อง",
-          "ให้",
-          "หน่อย",
-          "ได้",
-          "ไหม",
-          "คะ"
-        ],
-        "fa": ["می‌توانید", "اتاقم", "را", "تمیز", "کنید؟"],
-        "ar": ["هل", "يمكنك", "تنظيف", "غرفتي؟"],
-        "es": ["¿Puedes", "limpiar", "mi", "habitación?"],
-        "zh": ["能", "打扫", "我的", "房间", "吗？"],
-        "ja": ["部屋", "を", "掃除", "して", "もらえます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_house_do_not_disturb",
-      "kind": "sentence",
-      "itemIds": ["word_no", "word_disturb"],
-      "texts": {
-        "en": "Please do not disturb",
-        "th": "กรุณาอย่ารบกวนค่ะ",
-        "fa": "لطفاً مزاحم نشوید",
-        "ar": "من فضلك لا تزعجني",
-        "es": "Por favor no molestar",
-        "zh": "请勿打扰",
-        "ja": "起こさないでください"
-      },
-      "tokens": {
-        "en": ["Please", "do", "not", "disturb"],
-        "th": ["กรุณา", "อย่า", "รบกวน", "ค่ะ"],
-        "fa": ["لطفاً", "مزاحم", "نشوید"],
-        "ar": ["من", "فضلك", "لا", "تزعجني"],
-        "es": ["Por", "favor", "no", "molestar"],
-        "zh": ["请勿", "打扰"],
-        "ja": ["起こさないで", "ください"]
-      }
-    },
-    {
-      "id": "sentence_house_laundry",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_need", "word_laundry"],
-      "texts": {
-        "en": "I need laundry service",
-        "th": "ฉันต้องการบริการซักรีดค่ะ",
-        "fa": "من خدمات خشکشویی نیاز دارم",
-        "ar": "أحتاج خدمة الغسيل",
-        "es": "Necesito servicio de lavandería",
-        "zh": "我需要洗衣服务",
-        "ja": "ランドリーサービスをお願いします"
-      },
-      "tokens": {
-        "en": ["I", "need", "laundry", "service"],
-        "th": ["ฉัน", "ต้องการ", "บริการ", "ซักรีด", "ค่ะ"],
-        "fa": ["من", "خدمات", "خشکشویی", "نیاز", "دارم"],
-        "ar": ["أحتاج", "خدمة", "الغسيل"],
-        "es": ["Necesito", "servicio", "de", "lavandería"],
-        "zh": ["需要", "洗衣", "服务"],
-        "ja": ["ランドリー", "サービス", "を", "お願い", "します"]
-      }
-    },
-    {
-      "id": "sentence_house_laundry_ready",
-      "kind": "sentence",
-      "itemIds": ["word_laundry", "word_ready", "word_time"],
-      "texts": {
-        "en": "When will the laundry be ready?",
-        "th": "ผ้าซักรีดจะเสร็จเมื่อไรคะ",
-        "fa": "لباس‌ها کی آماده می‌شوند؟",
-        "ar": "متى سيكون الغسيل جاهزاً؟",
-        "es": "¿Cuándo estará lista la ropa?",
-        "zh": "洗好的衣服什么时候能取？",
-        "ja": "洗濯物はいつ仕上がりますか？"
-      },
-      "tokens": {
-        "en": ["When", "will", "the", "laundry", "be", "ready?"],
-        "th": ["ผ้า", "ซักรีด", "จะ", "เสร็จ", "เมื่อไร", "คะ"],
-        "fa": ["لباس‌ها", "کی", "آماده", "می‌شوند؟"],
-        "ar": ["متى", "سيكون", "الغسيل", "جاهزاً؟"],
-        "es": ["¿Cuándo", "estará", "lista", "la", "ropa?"],
-        "zh": ["洗好的", "衣服", "什么时候", "能取？"],
-        "ja": ["洗濯物", "は", "いつ", "仕上がり", "ます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_house_change_sheets",
-      "kind": "sentence",
-      "itemIds": [
-        "word_change",
-        "word_sheets",
-        "word_can",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Can you change the sheets?",
-        "th": "ช่วยเปลี่ยนผ้าปูที่นอนได้ไหมคะ",
-        "fa": "می‌توانید ملحفه‌ها را عوض کنید؟",
-        "ar": "هل يمكنك تغيير الملاءات؟",
-        "es": "¿Puedes cambiar las sábanas?",
-        "zh": "你能换一下床单吗？",
-        "ja": "シーツを替えてもらえますか？"
-      },
-      "tokens": {
-        "en": ["Can", "you", "change", "the", "sheets?"],
-        "th": ["ช่วย", "เปลี่ยน", "ผ้าปูที่นอน", "ได้", "ไหม", "คะ"],
-        "fa": ["می‌توانید", "ملحفه‌ها", "را", "عوض", "کنید؟"],
-        "ar": ["هل", "يمكنك", "تغيير", "الملاءات؟"],
-        "es": ["¿Puedes", "cambiar", "las", "sábanas?"],
-        "zh": ["能", "换", "一下", "床单", "吗？"],
-        "ja": ["シーツ", "を", "替えて", "もらえます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_house_come_10",
-      "kind": "sentence",
-      "itemIds": ["word_clean", "word_come", "word_time"],
-      "texts": {
-        "en": "Housekeeping will come at 10 am",
-        "th": "แม่บ้านจะมาตอน 10 โมงเช้าครับ",
-        "fa": "خدمات خانه‌داری ساعت ۱۰ صبح می‌آید",
-        "ar": "ستأتي خدمة التدبير المنزلي الساعة 10 صباحاً",
-        "es": "El servicio de limpieza vendrá a las 10 de la mañana",
-        "zh": "客房清洁将在上午10点来",
-        "ja": "ハウスキーピングは午前10時に来ます"
-      },
-      "tokens": {
-        "en": ["Housekeeping", "will", "come", "at", "10", "am"],
-        "th": ["แม่บ้าน", "จะ", "มา", "ตอน", "10", "โมง", "เช้า", "ครับ"],
-        "fa": ["خدمات", "خانه‌داری", "ساعت", "۱۰", "صبح", "می‌آید"],
-        "ar": ["ستأتي", "خدمة", "التدبير", "المنزلي", "الساعة", "10", "صباحاً"],
-        "es": [
-          "El",
-          "servicio",
-          "de",
-          "limpieza",
-          "vendrá",
-          "a",
-          "las",
-          "10",
-          "de",
-          "la",
-          "mañana"
-        ],
-        "zh": ["客房清洁", "将", "在", "上午", "10点", "来"],
-        "ja": ["ハウスキーピング", "は", "午前", "10時", "に", "来ます"]
-      }
-    },
-    {
-      "id": "sentence_house_come_after_2",
-      "kind": "sentence",
-      "itemIds": ["word_please", "word_come", "word_after"],
-      "texts": {
-        "en": "Please come after 2 pm",
-        "th": "กรุณามาหลังบ่าย 2 ค่ะ",
-        "fa": "لطفاً بعد از ساعت ۲ بعدازظهر بیایید",
-        "ar": "من فضلك تعال بعد الساعة 2 ظهراً",
-        "es": "Por favor ven después de las 2 de la tarde",
-        "zh": "请下午2点以后来",
-        "ja": "午後2時以降に来てください"
-      },
-      "tokens": {
-        "en": ["Please", "come", "after", "2", "pm"],
-        "th": ["กรุณา", "มา", "หลัง", "บ่าย", "2", "ค่ะ"],
-        "fa": ["لطفاً", "بعد", "از", "ساعت", "۲", "بعدازظهر", "بیایید"],
-        "ar": ["من", "فضلك", "تعال", "بعد", "الساعة", "2", "ظهراً"],
-        "es": [
-          "Por",
-          "favor",
-          "ven",
-          "después",
-          "de",
-          "las",
-          "2",
-          "de",
-          "la",
-          "tarde"
-        ],
-        "zh": ["请", "下午", "2点", "以后", "来"],
-        "ja": ["午後", "2時", "以降", "に", "来て", "ください"]
-      }
-    },
-    {
-      "id": "word_clean",
-      "kind": "word",
-      "texts": {
-        "en": "clean",
-        "th": "ทำความสะอาด",
-        "fa": "تمیز کردن",
-        "ar": "ينظف",
-        "es": "limpiar",
-        "zh": "打扫",
-        "ja": "掃除する"
-      }
-    },
-    {
-      "id": "word_laundry",
-      "kind": "word",
-      "texts": {
-        "en": "laundry",
-        "th": "ซักรีด",
-        "fa": "خشکشویی / لباسشویی",
-        "ar": "غسيل",
-        "es": "lavandería",
-        "zh": "洗衣",
-        "ja": "ランドリー / 洗濯"
-      }
-    },
-    {
-      "id": "word_sheets",
-      "kind": "word",
-      "texts": {
-        "en": "sheets / bed sheets",
-        "th": "ผ้าปูที่นอน",
-        "fa": "ملحفه / چادر تخت",
-        "ar": "ملاءات",
-        "es": "sábanas",
-        "zh": "床单",
-        "ja": "シーツ"
-      }
-    },
-    {
-      "id": "word_change",
-      "kind": "word",
-      "texts": {
-        "en": "change",
-        "th": "เปลี่ยน",
-        "fa": "عوض کردن / تغییر دادن",
-        "ar": "يغير",
-        "es": "cambiar",
-        "zh": "换 / 更换",
-        "ja": "替える / 変える"
-      }
-    },
-    {
-      "id": "word_disturb",
-      "kind": "word",
-      "texts": {
-        "en": "disturb",
-        "th": "รบกวน",
-        "fa": "مزاحم شدن",
-        "ar": "يزعج",
-        "es": "molestar",
-        "zh": "打扰",
-        "ja": "邪魔する"
-      }
-    },
-    {
-      "id": "word_after",
-      "kind": "word",
-      "texts": {
-        "en": "after",
-        "th": "หลัง",
-        "fa": "بعد از",
-        "ar": "بعد",
-        "es": "después de",
-        "zh": "以后 / 之后",
-        "ja": "〜以降 / 〜後"
-      }
-    },
-    {
-      "id": "header_scenario5",
-      "header": true,
-      "texts": {
-        "en": "Scenario 5: Assistance & Information",
-        "th": "สถานการณ์ 5: การช่วยเหลือและข้อมูล",
-        "fa": "سناریو ۵: کمک و اطلاعات",
-        "ar": "السيناريو 5: المساعدة والمعلومات",
-        "es": "Escenario 5: Asistencia e información",
-        "zh": "场景五：协助与信息",
-        "ja": "シナリオ5：アシスタンスと情報"
-      }
-    },
-    {
-      "id": "sentence_assist_wakeup_call",
-      "kind": "sentence",
-      "itemIds": ["word_wake_up_call", "word_can", "word_question_particle"],
-      "texts": {
-        "en": "Can I get a wake-up call?",
-        "th": "ขอเวกอัพคอลได้ไหมคะ",
-        "fa": "می‌توانم تماس بیدارباش داشته باشم؟",
-        "ar": "هل يمكنني الحصول على مكالمة إيقاظ؟",
-        "es": "¿Puedo recibir una llamada de despertador?",
-        "zh": "我能要一个叫醒电话吗？",
-        "ja": "モーニングコールをお願いできますか？"
-      },
-      "tokens": {
-        "en": ["Can", "I", "get", "a", "wake-up", "call?"],
-        "th": ["ขอ", "เวกอัพคอล", "ได้", "ไหม", "คะ"],
-        "fa": ["می‌توانم", "تماس", "بیدارباش", "داشته", "باشم؟"],
-        "ar": ["هل", "يمكنني", "الحصول", "على", "مكالمة", "إيقاظ؟"],
-        "es": ["¿Puedo", "recibir", "una", "llamada", "de", "despertador?"],
-        "zh": ["能", "要", "一个", "叫醒电话", "吗？"],
-        "ja": ["モーニングコール", "を", "お願い", "できます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_assist_wake_6am",
-      "kind": "sentence",
-      "itemIds": ["word_please", "word_wake_up", "word_time"],
-      "texts": {
-        "en": "Please wake me up at 6 am",
-        "th": "กรุณาปลุกฉันตอน 6 โมงเช้าค่ะ",
-        "fa": "لطفاً ساعت ۶ صبح بیدارم کنید",
-        "ar": "من فضلك أيقظني الساعة 6 صباحاً",
-        "es": "Por favor despiértame a las 6 de la mañana",
-        "zh": "请早上6点叫醒我",
-        "ja": "午前6時に起こしてください"
-      },
-      "tokens": {
-        "en": ["Please", "wake", "me", "up", "at", "6", "am"],
-        "th": ["กรุณา", "ปลุก", "ฉัน", "ตอน", "6", "โมง", "เช้า", "ค่ะ"],
-        "fa": ["لطفاً", "ساعت", "۶", "صبح", "بیدارم", "کنید"],
-        "ar": ["من", "فضلك", "أيقظني", "الساعة", "6", "صباحاً"],
-        "es": [
-          "Por",
-          "favor",
-          "despiértame",
-          "a",
-          "las",
-          "6",
-          "de",
-          "la",
-          "mañana"
-        ],
-        "zh": ["请", "早上", "6点", "叫醒", "我"],
-        "ja": ["午前", "6時", "に", "起こして", "ください"]
-      }
-    },
-    {
-      "id": "sentence_assist_call_taxi",
-      "kind": "sentence",
-      "itemIds": [
-        "word_help",
-        "word_call",
-        "word_taxi",
-        "word_can",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Can you call a taxi for me?",
-        "th": "ช่วยเรียกแท็กซี่ให้หน่อยได้ไหมคะ",
-        "fa": "می‌توانید برایم تاکسی بگیرید؟",
-        "ar": "هل يمكنك الاتصال بتاكسي لي؟",
-        "es": "¿Puedes llamarme un taxi?",
-        "zh": "你能帮我叫一辆出租车吗？",
-        "ja": "タクシーを呼んでもらえますか？"
-      },
-      "tokens": {
-        "en": ["Can", "you", "call", "a", "taxi", "for", "me?"],
-        "th": ["ช่วย", "เรียก", "แท็กซี่", "ให้", "หน่อย", "ได้", "ไหม", "คะ"],
-        "fa": ["می‌توانید", "برایم", "تاکسی", "بگیرید؟"],
-        "ar": ["هل", "يمكنك", "الاتصال", "بتاكسي", "لي؟"],
-        "es": ["¿Puedes", "llamarme", "un", "taxi?"],
-        "zh": ["能", "帮", "叫", "一辆", "出租车", "吗？"],
-        "ja": ["タクシー", "を", "呼んで", "もらえます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_assist_late_checkout",
-      "kind": "sentence",
-      "itemIds": [
-        "word_check_out",
-        "word_late",
-        "word_can",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Is late check-out possible?",
-        "th": "เช็คเอาท์สายได้ไหมคะ",
-        "fa": "آیا تحویل دیرتر اتاق امکان‌پذیر است؟",
-        "ar": "هل يمكن تسجيل المغادرة متأخراً؟",
-        "es": "¿Es posible salir tarde?",
-        "zh": "可以延迟退房吗？",
-        "ja": "レイトチェックアウトはできますか？"
-      },
-      "tokens": {
-        "en": ["Is", "late", "check-out", "possible?"],
-        "th": ["เช็คเอาท์", "สาย", "ได้", "ไหม", "คะ"],
-        "fa": ["آیا", "تحویل", "دیرتر", "اتاق", "امکان‌پذیر", "است؟"],
-        "ar": ["هل", "يمكن", "تسجيل", "المغادرة", "متأخراً؟"],
-        "es": ["¿Es", "posible", "salir", "tarde?"],
-        "zh": ["可以", "延迟", "退房", "吗？"],
-        "ja": ["レイトチェックアウト", "は", "できます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_assist_late_until_2",
-      "kind": "sentence",
-      "itemIds": ["word_yes", "word_check_out", "word_late", "word_time"],
-      "texts": {
-        "en": "Yes, late check-out until 2 pm is possible",
-        "th": "ได้ครับ เช็คเอาท์ได้ถึงบ่าย 2 ครับ",
-        "fa": "بله، تحویل اتاق تا ساعت ۲ بعدازظهر امکان‌پذیر است",
-        "ar": "نعم، يمكن تسجيل المغادرة حتى الساعة 2 ظهراً",
-        "es": "Sí, es posible salir hasta las 2 de la tarde",
-        "zh": "可以，可以延迟到下午2点退房",
-        "ja": "はい、午後2時までのレイトチェックアウトが可能です"
-      },
-      "tokens": {
-        "en": [
-          "Yes,",
-          "late",
-          "check-out",
-          "until",
-          "2",
-          "pm",
-          "is",
-          "possible"
-        ],
-        "th": ["ได้", "ครับ", "เช็คเอาท์", "ได้", "ถึง", "บ่าย", "2", "ครับ"],
-        "fa": [
-          "بله،",
-          "تحویل",
-          "اتاق",
-          "تا",
-          "ساعت",
-          "۲",
-          "بعدازظهر",
-          "امکان‌پذیر",
-          "است"
-        ],
-        "ar": [
-          "نعم،",
-          "يمكن",
-          "تسجيل",
-          "المغادرة",
-          "حتى",
-          "الساعة",
-          "2",
-          "ظهراً"
-        ],
-        "es": [
-          "Sí,",
-          "es",
-          "posible",
-          "salir",
-          "hasta",
-          "las",
-          "2",
-          "de",
-          "la",
-          "tarde"
-        ],
-        "zh": ["可以，", "延迟", "到", "下午", "2点", "退房"],
+        "th": ["ฉัน", "อยาก", "ดู", "เมนู", "รูมเซอร์วิส"],
+        "zh": ["我", "想", "看看", "客房服务", "的", "菜单", "。"],
         "ja": [
-          "はい、",
-          "午後",
-          "2時",
-          "まで",
+          "ルームサービス",
           "の",
-          "レイトチェックアウト",
-          "が",
-          "可能",
-          "です"
+          "メニュー",
+          "を",
+          "見",
+          "たい",
+          "です",
+          "。"
         ]
       }
     },
     {
-      "id": "sentence_assist_thank_much",
-      "kind": "sentence",
-      "itemIds": ["word_thank", "word_much"],
+      "id": "s12",
+      "kind": "Sentence",
       "texts": {
-        "en": "Thank you very much",
-        "th": "ขอบคุณมากค่ะ",
-        "fa": "خیلی متشکرم",
-        "ar": "شكراً جزيلاً",
-        "es": "Muchas gracias",
-        "zh": "非常感谢",
-        "ja": "どうもありがとうございます"
+        "en": "I want to order dinner.",
+        "th": "ฉันต้องการสั่งอาหารเย็น",
+        "fa": "من می‌خواهم شام سفارش دهم.",
+        "ar": "أريد طلب العشاء.",
+        "es": "Quiero pedir la cena.",
+        "zh": "我想点晚餐。",
+        "ja": "夕食を注文したいです。"
       },
       "tokens": {
-        "en": ["Thank", "you", "very", "much"],
-        "th": ["ขอบคุณ", "มาก", "ค่ะ"],
-        "fa": ["خیلی", "متشکرم"],
-        "ar": ["شكراً", "جزيلاً"],
-        "es": ["Muchas", "gracias"],
-        "zh": ["非常", "感谢"],
-        "ja": ["どうも", "ありがとう", "ございます"]
+        "th": ["ฉัน", "ต้องการ", "สั่ง", "อาหารเย็น"],
+        "zh": ["我", "想", "点", "晚餐", "。"],
+        "ja": ["夕食", "を", "注文", "し", "たい", "です", "。"]
       }
     },
     {
-      "id": "word_wake_up_call",
-      "kind": "word",
+      "id": "s13",
+      "kind": "Sentence",
       "texts": {
-        "en": "wake-up call",
-        "th": "เวกอัพคอล / โทรปลุก",
-        "fa": "تماس بیدارباش",
-        "ar": "مكالمة إيقاظ",
-        "es": "llamada de despertador",
-        "zh": "叫醒电话",
-        "ja": "モーニングコール"
+        "en": "How long will it take to deliver?",
+        "th": "จะใช้เวลาจัดส่งนานแค่ไหน",
+        "fa": "تحویل چقدر طول می‌کشد؟",
+        "ar": "كم سيستغرق التوصيل؟",
+        "es": "¿Cuánto tardará en entregar?",
+        "zh": "送达需要多长时间？",
+        "ja": "配達にはどのくらい時間がかかりますか？"
+      },
+      "tokens": {
+        "th": ["จะ", "ใช้", "เวลา", "จัดส่ง", "นาน", "แค่ไหน"],
+        "zh": ["送达", "需要", "多长", "时间", "？"],
+        "ja": [
+          "配達",
+          "に",
+          "は",
+          "どの",
+          "くらい",
+          "時間",
+          "が",
+          "かかり",
+          "ます",
+          "か",
+          "？"
+        ]
       }
     },
     {
-      "id": "word_wake_up",
-      "kind": "word",
+      "id": "s14",
+      "kind": "Sentence",
       "texts": {
-        "en": "wake up",
-        "th": "ปลุก / ตื่น",
-        "fa": "بیدار کردن / بیدار شدن",
-        "ar": "يوقظ / يستيقظ",
-        "es": "despertar / despertarse",
-        "zh": "叫醒 / 醒来",
-        "ja": "起こす / 起きる"
+        "en": "Is the tip included in the bill?",
+        "th": "ทิป รวมอยู่ในบิลไหม",
+        "fa": "آیا انعام در صورت‌حساب شامل می‌شود؟",
+        "ar": "هل البقشيش مشمول في الفاتورة؟",
+        "es": "¿La propina está incluida en la cuenta?",
+        "zh": "小费包含在账单里了吗？",
+        "ja": "チップは請求書に含まれていますか？"
+      },
+      "tokens": {
+        "th": ["ทิป", "รวม", "อยู่", "ใน", "บิล", "ไหม"],
+        "zh": ["小费", "包含", "在", "账单", "里", "了", "吗", "？"],
+        "ja": [
+          "チップ",
+          "は",
+          "請求書",
+          "に",
+          "含ま",
+          "れ",
+          "て",
+          "い",
+          "ます",
+          "か",
+          "？"
+        ]
       }
     },
     {
-      "id": "word_taxi",
-      "kind": "word",
+      "id": "s15",
+      "kind": "Sentence",
       "texts": {
-        "en": "taxi",
-        "th": "แท็กซี่",
-        "fa": "تاکسی",
-        "ar": "تاكسي",
-        "es": "taxi",
-        "zh": "出租车",
-        "ja": "タクシー"
+        "en": "We are very hungry.",
+        "th": "เราหิวมาก",
+        "fa": "ما خیلی گرسنه هستیم.",
+        "ar": "نحن جائعون جداً.",
+        "es": "Estamos muy hambrientos.",
+        "zh": "我们非常饿。",
+        "ja": "私たちはとてもお腹が空いています。"
+      },
+      "tokens": {
+        "th": ["เรา", "หิว", "มาก"],
+        "zh": ["我们", "非常", "饿", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "とても",
+          "お腹",
+          "が",
+          "空い",
+          "て",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Facilities & Directions",
+        "th": "สถานการณ์ที่ 4: สิ่งอำนวยความสะดวกและทิศทาง",
+        "fa": "سناریو ۴: امکانات و جهت‌ها",
+        "ar": "السيناريو 4: المرافق والاتجاهات",
+        "es": "Escenario 4: Instalaciones y direcciones",
+        "zh": "场景 4：设施与方向",
+        "ja": "シナリオ 4：設備と案内"
       }
     },
     {
-      "id": "word_call",
-      "kind": "word",
+      "id": "w16",
+      "kind": "Word",
       "texts": {
-        "en": "call",
-        "th": "เรียก / โทร",
-        "fa": "زنگ زدن / صدا کردن",
-        "ar": "يتصل / ينادي",
-        "es": "llamar",
-        "zh": "叫 / 打电话",
-        "ja": "呼ぶ / 電話する"
+        "en": "map",
+        "th": "แผนที่",
+        "fa": "نقشه",
+        "ar": "خريطة",
+        "es": "mapa",
+        "zh": "地图",
+        "ja": "地図"
       }
     },
     {
-      "id": "word_late",
-      "kind": "word",
+      "id": "w17",
+      "kind": "Word",
       "texts": {
-        "en": "late",
-        "th": "สาย / ช้า",
-        "fa": "دیر / متأخر",
-        "ar": "متأخر",
-        "es": "tarde",
-        "zh": "晚 / 迟",
-        "ja": "遅い"
+        "en": "lobby",
+        "th": "ล็อบบี้",
+        "fa": "لابی",
+        "ar": "ردهة",
+        "es": "vestíbulo",
+        "zh": "大堂",
+        "ja": "ロビー"
       }
     },
     {
-      "id": "word_check_out",
-      "kind": "word",
+      "id": "w18",
+      "kind": "Word",
       "texts": {
-        "en": "check out",
-        "th": "เช็คเอาท์",
-        "fa": "تحویل اتاق",
-        "ar": "تسجيل المغادرة",
-        "es": "salida / check-out",
-        "zh": "退房",
-        "ja": "チェックアウト"
+        "en": "restaurant",
+        "th": "ร้านอาหาร",
+        "fa": "رستوران",
+        "ar": "مطعم",
+        "es": "restaurante",
+        "zh": "餐厅",
+        "ja": "レストラン"
       }
     },
     {
-      "id": "word_much",
-      "kind": "word",
+      "id": "w19",
+      "kind": "Word",
       "texts": {
-        "en": "very / much",
-        "th": "มาก",
-        "fa": "زیاد / خیلی",
-        "ar": "كثيراً",
-        "es": "mucho",
-        "zh": "非常",
-        "ja": "とても"
+        "en": "parking",
+        "th": "ที่จอดรถ",
+        "fa": "پارکینگ",
+        "ar": "موقف سيارات",
+        "es": "aparcamiento",
+        "zh": "停车场",
+        "ja": "駐車場"
       }
     },
     {
-      "id": "word_time",
-      "kind": "word",
+      "id": "w20",
+      "kind": "Word",
       "texts": {
-        "en": "time",
-        "th": "เวลา / โมง",
-        "fa": "زمان / ساعت",
-        "ar": "وقت / ساعة",
-        "es": "hora / tiempo",
-        "zh": "时间 / 点",
-        "ja": "時間 / 時"
+        "en": "open",
+        "th": "เปิด",
+        "fa": "باز",
+        "ar": "مفتوح",
+        "es": "abierto",
+        "zh": "开放",
+        "ja": "開いている"
       }
     },
     {
-      "id": "word_ready",
-      "kind": "word",
+      "id": "s16",
+      "kind": "Sentence",
       "texts": {
-        "en": "ready",
-        "th": "เสร็จ / พร้อม",
-        "fa": "آماده",
-        "ar": "جاهز",
-        "es": "listo / preparado",
-        "zh": "准备好 / 完成",
-        "ja": "準備ができている / 仕上がる"
+        "en": "Where is the main lobby?",
+        "th": "ล็อบบี้หลักอยู่ที่ไหน",
+        "fa": "لابی اصلی کجاست؟",
+        "ar": "أين الردهة الرئيسية؟",
+        "es": "¿Dónde está el vestíbulo principal?",
+        "zh": "主大堂在哪里？",
+        "ja": "メインのロビーはどこですか？"
+      },
+      "tokens": {
+        "th": ["ล็อบบี้", "หลัก", "อยู่", "ที่", "ไหน"],
+        "zh": ["主", "大堂", "在", "哪里", "？"],
+        "ja": ["メイン", "の", "ロビー", "は", "どこ", "です", "か", "？"]
       }
     },
     {
-      "id": "word_come",
-      "kind": "word",
+      "id": "s17",
+      "kind": "Sentence",
       "texts": {
-        "en": "come",
-        "th": "มา",
-        "fa": "آمدن",
-        "ar": "يأتي",
-        "es": "venir",
-        "zh": "来",
-        "ja": "来る"
+        "en": "Is the restaurant open now?",
+        "th": "ร้านอาหารเปิดตอนนี้ไหม",
+        "fa": "آیا رستوران الان باز است؟",
+        "ar": "هل المطعم مفتوح الآن؟",
+        "es": "¿El restaurante está abierto ahora?",
+        "zh": "餐厅现在开门吗？",
+        "ja": "レストランは今開いていますか？"
+      },
+      "tokens": {
+        "th": ["ร้านอาหาร", "เปิด", "ตอน", "นี้", "ไหม"],
+        "zh": ["餐厅", "现在", "开门", "吗", "？"],
+        "ja": ["レストラン", "は", "今", "開い", "て", "い", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s18",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Do you have free parking?",
+        "th": "คุณมีที่จอดรถฟรีไหม",
+        "fa": "آیا پارکینگ رایگان دارید؟",
+        "ar": "هل لديكم موقف سيارات مجاني؟",
+        "es": "¿Tienen aparcamiento gratuito?",
+        "zh": "你们有免费停车场吗？",
+        "ja": "無料の駐車場はありますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "มี", "ที่จอดรถ", "ฟรี", "ไหม"],
+        "zh": ["你们", "有", "免费", "停车场", "吗", "？"],
+        "ja": ["無料", "の", "駐車場", "は", "あり", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s19",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Can you show me on the map?",
+        "th": "คุณช่วยชี้ให้ฉันดูบนแผนที่ได้ไหม",
+        "fa": "آیا می‌توانید روی نقشه به من نشان دهید؟",
+        "ar": "هل يمكنك إظهار ذلك لي على الخريطة؟",
+        "es": "¿Puede mostrarme en el mapa?",
+        "zh": "你能在地图上指给我看吗？",
+        "ja": "地図で教えていただけますか？"
+      },
+      "tokens": {
+        "th": [
+          "คุณ",
+          "ช่วย",
+          "ชี้",
+          "ให้",
+          "ฉัน",
+          "ดู",
+          "บน",
+          "แผนที่",
+          "ได้",
+          "ไหม"
+        ],
+        "zh": [
+          "你",
+          "能",
+          "在",
+          "地图",
+          "上",
+          "指",
+          "给",
+          "我",
+          "看",
+          "吗",
+          "？"
+        ],
+        "ja": ["地図", "で", "教え", "て", "いただけ", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s20",
+      "kind": "Sentence",
+      "texts": {
+        "en": "What time does the restaurant close?",
+        "th": "ร้านอาหารปิดกี่โมง",
+        "fa": "رستوران چه ساعتی بسته می‌شود؟",
+        "ar": "متى يغلق المطعم؟",
+        "es": "¿A qué hora cierra el restaurante?",
+        "zh": "餐厅几点关门？",
+        "ja": "レストランは何時に閉まりますか？"
+      },
+      "tokens": {
+        "th": ["ร้านอาหาร", "ปิด", "กี่", "โมง"],
+        "zh": ["餐厅", "几点", "关门", "？"],
+        "ja": ["レストラン", "は", "何時", "に", "閉まり", "ます", "か", "？"]
+      }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Extensions & Changes",
+        "th": "สถานการณ์ที่ 5: การต่ออายุและการเปลี่ยนแปลง",
+        "fa": "سناریو ۵: تمدید و تغییرات",
+        "ar": "السيناريو 5: التمديد والتغييرات",
+        "es": "Escenario 5: Extensiones y cambios",
+        "zh": "场景 5：延期与变更",
+        "ja": "シナリオ 5：延長と変更"
+      }
+    },
+    {
+      "id": "w21",
+      "kind": "Word",
+      "texts": {
+        "en": "extend",
+        "th": "ขยาย",
+        "fa": "تمدید",
+        "ar": "تمديد",
+        "es": "extender",
+        "zh": "延长",
+        "ja": "延長"
+      }
+    },
+    {
+      "id": "w22",
+      "kind": "Word",
+      "texts": {
+        "en": "another night",
+        "th": "อีกหนึ่งคืน",
+        "fa": "یک شب دیگر",
+        "ar": "ليلة أخرى",
+        "es": "otra noche",
+        "zh": "另一晚",
+        "ja": "もう一泊"
+      }
+    },
+    {
+      "id": "w23",
+      "kind": "Word",
+      "texts": {
+        "en": "change room",
+        "th": "เปลี่ยนห้อง",
+        "fa": "تغییر اتاق",
+        "ar": "تغيير الغرفة",
+        "es": "cambiar de habitación",
+        "zh": "换房间",
+        "ja": "部屋を変える"
+      }
+    },
+    {
+      "id": "w24",
+      "kind": "Word",
+      "texts": {
+        "en": "available",
+        "th": "ว่าง",
+        "fa": "موجود",
+        "ar": "متاح",
+        "es": "disponible",
+        "zh": "可用的",
+        "ja": "空いている"
+      }
+    },
+    {
+      "id": "w25",
+      "kind": "Word",
+      "texts": {
+        "en": "upgrade",
+        "th": "อัปเกรด",
+        "fa": "ارتقا",
+        "ar": "ترقية",
+        "es": "mejorar",
+        "zh": "升级",
+        "ja": "アップグレード"
+      }
+    },
+    {
+      "id": "s21",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I would like to extend my stay.",
+        "th": "ฉันต้องการขยายเวลาพัก",
+        "fa": "من می‌خواهم اقامت خود را تمدید کنم.",
+        "ar": "أود تمديد إقامتي.",
+        "es": "Me gustaría extender mi estancia.",
+        "zh": "我想延长我的住宿。",
+        "ja": "滞在を延長したいです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้องการ", "ขยาย", "เวลา", "พัก"],
+        "zh": ["我", "想", "延长", "我", "的", "住宿", "。"],
+        "ja": ["滞在", "を", "延長", "し", "たい", "です", "。"]
+      }
+    },
+    {
+      "id": "s22",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Can I book another night?",
+        "th": "ฉันจองอีกหนึ่งคืนได้ไหม",
+        "fa": "آیا می‌توانم یک شب دیگر رزرو کنم؟",
+        "ar": "هل يمكنني حجز ليلة أخرى؟",
+        "es": "¿Puedo reservar otra noche?",
+        "zh": "我能再预订一晚吗？",
+        "ja": "もう一泊予約できますか？"
+      },
+      "tokens": {
+        "th": ["ฉัน", "จอง", "อีก", "หนึ่ง", "คืน", "ได้", "ไหม"],
+        "zh": ["我", "能", "再", "预订", "一", "晚", "吗", "？"],
+        "ja": ["もう", "一泊", "予約", "でき", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s23",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Is it possible to change rooms?",
+        "th": "เป็นไปได้ไหมที่จะเปลี่ยนห้อง",
+        "fa": "آیا امکان تغییر اتاق وجود دارد؟",
+        "ar": "هل من الممكن تغيير الغرفة؟",
+        "es": "¿Es posible cambiar de habitación?",
+        "zh": "有可能换房间吗？",
+        "ja": "部屋を変えることは可能ですか？"
+      },
+      "tokens": {
+        "th": ["เป็น", "ไป", "ได้", "ไหม", "ที่", "จะ", "เปลี่ยน", "ห้อง"],
+        "zh": ["有", "可能", "换", "房间", "吗", "？"],
+        "ja": ["部屋", "を", "変える", "こと", "は", "可能", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s24",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Do you have any rooms available?",
+        "th": "คุณมีห้องว่างไหม",
+        "fa": "آیا اتاق خالی دارید؟",
+        "ar": "هل لديكم أي غرف متاحة؟",
+        "es": "¿Tienen habitaciones disponibles?",
+        "zh": "你们还有空房间吗？",
+        "ja": "空いている部屋はありますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "มี", "ห้อง", "ว่าง", "ไหม"],
+        "zh": ["你们", "还", "有", "空", "房间", "吗", "？"],
+        "ja": ["空い", "て", "いる", "部屋", "は", "あり", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s25",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Can I upgrade to a suite?",
+        "th": "ฉันอัปเกรดเป็นห้องสวีทได้ไหม",
+        "fa": "آیا می‌توانم به سوئیت ارتقا دهم؟",
+        "ar": "هل يمكنني الترقية إلى جناح؟",
+        "es": "¿Puedo mejorar a una suite?",
+        "zh": "我能升级到套房吗？",
+        "ja": "スイートにアップグレードできますか？"
+      },
+      "tokens": {
+        "th": ["ฉัน", "อัปเกรด", "เป็น", "ห้อง", "สวีท", "ได้", "ไหม"],
+        "zh": ["我", "能", "升级", "到", "套房", "吗", "？"],
+        "ja": ["スイート", "に", "アップグレード", "でき", "ます", "か", "？"]
       }
     }
   ]

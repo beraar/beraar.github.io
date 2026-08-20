@@ -2,37 +2,24 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "h1",
       "header": true,
       "texts": {
-        "en": "Core Words",
-        "th": "คำหลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras básicas",
-        "zh": "核心词汇",
-        "ja": "コア単語"
+        "en": "Scenario 1: Approaching the Stall",
+        "th": "สถานการณ์ที่ 1: การเข้าหาแผงลอย",
+        "fa": "سناریو ۱: نزدیک شدن به غرفه",
+        "ar": "السيناريو 1: الاقتراب من الكشك",
+        "es": "Escenario 1: Acercándose al puesto",
+        "zh": "场景 1：走近摊位",
+        "ja": "シナリオ 1：屋台に近づく"
       }
     },
     {
-      "id": "word_street_food",
-      "kind": "word",
-      "texts": {
-        "en": "street food",
-        "th": "อาหารริมทาง",
-        "fa": "غذای خیابانی",
-        "ar": "طعام الشارع",
-        "es": "comida callejera",
-        "zh": "街头小吃",
-        "ja": "屋台料理"
-      }
-    },
-    {
-      "id": "word_stall",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
         "en": "stall",
-        "th": "แผง",
+        "th": "แผงลอย",
         "fa": "غرفه",
         "ar": "كشك",
         "es": "puesto",
@@ -41,2778 +28,830 @@
       }
     },
     {
-      "id": "word_skewer",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
       "texts": {
-        "en": "skewer",
-        "th": "ไม้",
-        "fa": "سیخ",
-        "ar": "سيخ",
-        "es": "brocheta",
-        "zh": "串",
-        "ja": "串"
+        "en": "available",
+        "th": "มี",
+        "fa": "موجود",
+        "ar": "متوفر",
+        "es": "disponible",
+        "zh": "有",
+        "ja": "ある"
       }
     },
     {
-      "id": "word_bag",
-      "kind": "word",
+      "id": "w3",
+      "kind": "Word",
       "texts": {
-        "en": "bag",
-        "th": "ถุง",
-        "fa": "کیسه",
-        "ar": "كيس",
-        "es": "bolsa",
-        "zh": "袋子",
-        "ja": "袋"
+        "en": "today",
+        "th": "วันนี้",
+        "fa": "امروز",
+        "ar": "اليوم",
+        "es": "hoy",
+        "zh": "今天",
+        "ja": "今日"
       }
     },
     {
-      "id": "word_box",
-      "kind": "word",
+      "id": "w4",
+      "kind": "Word",
       "texts": {
-        "en": "box",
-        "th": "กล่อง",
-        "fa": "جعبه",
-        "ar": "علبة",
-        "es": "caja",
-        "zh": "盒子",
-        "ja": "箱"
+        "en": "special",
+        "th": "พิเศษ",
+        "fa": "ویژه",
+        "ar": "خاص",
+        "es": "especial",
+        "zh": "特色",
+        "ja": "特別"
       }
     },
     {
-      "id": "word_take",
-      "kind": "word",
+      "id": "w5",
+      "kind": "Word",
       "texts": {
-        "en": "take",
-        "th": "เอา",
-        "fa": "گرفتن",
-        "ar": "آخذ",
-        "es": "llevar",
-        "zh": "要",
+        "en": "smell",
+        "th": "กลิ่น",
+        "fa": "بو",
+        "ar": "رائحة",
+        "es": "olor",
+        "zh": "味道",
+        "ja": "匂い"
+      }
+    },
+    {
+      "id": "s1",
+      "kind": "Sentence",
+      "texts": {
+        "en": "What do you have today?",
+        "th": "วันนี้มีอะไรบ้าง",
+        "fa": "امروز چه چیزی دارید؟",
+        "ar": "ماذا لديك اليوم؟",
+        "es": "¿Qué tienes hoy?",
+        "zh": "今天有什么？",
+        "ja": "今日は何がありますか？"
+      },
+      "tokens": {
+        "th": ["วันนี้", "มี", "อะไร", "บ้าง"],
+        "zh": ["今天", "有", "什么", "？"],
+        "ja": ["今日", "は", "何", "が", "あり", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "Sentence",
+      "texts": {
+        "en": "What is the special today?",
+        "th": "วันนี้มีอะไรพิเศษ",
+        "fa": "امروز ویژه چیست؟",
+        "ar": "ما هو الخاص اليوم؟",
+        "es": "¿Cuál es la especialidad de hoy?",
+        "zh": "今天的特色菜是什么？",
+        "ja": "今日の特別メニューは何ですか？"
+      },
+      "tokens": {
+        "th": ["วันนี้", "มี", "อะไร", "พิเศษ"],
+        "zh": ["今天", "的", "特色菜", "是", "什么", "？"],
+        "ja": ["今日", "の", "特別", "メニュー", "は", "何", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "Sentence",
+      "texts": {
+        "en": "It smells very good.",
+        "th": "กลิ่นหอมมาก",
+        "fa": "بوی خیلی خوبی می‌دهد.",
+        "ar": "رائحته جيدة جداً.",
+        "es": "Huele muy bien.",
+        "zh": "闻起来很香。",
+        "ja": "とてもいい匂いがします。"
+      },
+      "tokens": {
+        "th": ["กลิ่น", "หอม", "มาก"],
+        "zh": ["闻", "起来", "很", "香", "。"],
+        "ja": ["とても", "いい", "匂い", "が", "し", "ます", "。"]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Is this stall open?",
+        "th": "แผงนี้เปิดไหม",
+        "fa": "آیا این غرفه باز است؟",
+        "ar": "هل هذا الكشك مفتوح؟",
+        "es": "¿Está abierto este puesto?",
+        "zh": "这个摊位开门吗？",
+        "ja": "この屋台は開いていますか？"
+      },
+      "tokens": {
+        "th": ["แผง", "นี้", "เปิด", "ไหม"],
+        "zh": ["这个", "摊位", "开门", "吗", "？"],
+        "ja": ["この", "屋台", "は", "開い", "て", "い", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I am looking for something to eat.",
+        "th": "ฉันกำลังหาอะไรกิน",
+        "fa": "من دنبال چیزی برای خوردن هستم.",
+        "ar": "أبحث عن شيء للأكل.",
+        "es": "Estoy buscando algo para comer.",
+        "zh": "我在找东西吃。",
+        "ja": "何か食べるものを探しています。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "กำลัง", "หา", "อะไร", "กิน"],
+        "zh": ["我", "在", "找", "东西", "吃", "。"],
+        "ja": ["何か", "食べる", "もの", "を", "探し", "て", "い", "ます", "。"]
+      }
+    },
+
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Ordering a Specific Dish",
+        "th": "สถานการณ์ที่ 2: การสั่งอาหารจานเฉพาะ",
+        "fa": "سناریو ۲: سفارش یک غذای خاص",
+        "ar": "السيناريو 2: طلب طبق معين",
+        "es": "Escenario 2: Pedir un plato específico",
+        "zh": "场景 2：点特定的菜",
+        "ja": "シナリオ 2：特定の料理を注文する"
+      }
+    },
+    {
+      "id": "w6",
+      "kind": "Word",
+      "texts": {
+        "en": "noodles",
+        "th": "ก๋วยเตี๋ยว",
+        "fa": "نودل",
+        "ar": "نودلز",
+        "es": "fideos",
+        "zh": "面条",
+        "ja": "麺"
+      }
+    },
+    {
+      "id": "w7",
+      "kind": "Word",
+      "texts": {
+        "en": "fried rice",
+        "th": "ข้าวผัด",
+        "fa": "برنج سرخ‌شده",
+        "ar": "أرز مقلي",
+        "es": "arroz frito",
+        "zh": "炒饭",
+        "ja": "チャーハン"
+      }
+    },
+    {
+      "id": "w8",
+      "kind": "Word",
+      "texts": {
+        "en": "salad",
+        "th": "ส้มตำ",
+        "fa": "سالاد",
+        "ar": "سلطة",
+        "es": "ensalada",
+        "zh": "沙拉",
+        "ja": "サラダ"
+      }
+    },
+    {
+      "id": "w9",
+      "kind": "Word",
+      "texts": {
+        "en": "one portion",
+        "th": "หนึ่งจาน",
+        "fa": "یک وعده",
+        "ar": "حصة واحدة",
+        "es": "una porción",
+        "zh": "一份",
+        "ja": "一人前"
+      }
+    },
+    {
+      "id": "w10",
+      "kind": "Word",
+      "texts": {
+        "en": "please",
+        "th": "ด้วย",
+        "fa": "لطفاً",
+        "ar": "من فضلك",
+        "es": "por favor",
+        "zh": "请",
         "ja": "ください"
       }
     },
     {
-      "id": "word_request",
-      "kind": "word",
+      "id": "s6",
+      "kind": "Sentence",
       "texts": {
-        "en": "ask for",
-        "th": "ขอ",
-        "fa": "خواستن",
-        "ar": "أطلب",
-        "es": "pedir",
-        "zh": "请给",
-        "ja": "ください"
+        "en": "I would like one portion of noodles.",
+        "th": "ขอก๋วยเตี๋ยวหนึ่งจาน",
+        "fa": "من یک وعده نودل می‌خواهم.",
+        "ar": "أريد حصة واحدة من النودلز.",
+        "es": "Me gustaría una porción de fideos.",
+        "zh": "我想要一份面条。",
+        "ja": "麺を一人前ください。"
+      },
+      "tokens": {
+        "th": ["ขอ", "ก๋วยเตี๋ยว", "หนึ่ง", "จาน"],
+        "zh": ["我", "想要", "一", "份", "面条", "。"],
+        "ja": ["麺", "を", "一人前", "ください", "。"]
       }
     },
     {
-      "id": "word_not",
-      "kind": "word",
+      "id": "s7",
+      "kind": "Sentence",
       "texts": {
-        "en": "not",
-        "th": "ไม่",
-        "fa": "نه",
-        "ar": "لا",
-        "es": "no",
-        "zh": "不",
-        "ja": "ない"
+        "en": "Can I have fried rice, please?",
+        "th": "ขอข้าวผัดหน่อยได้ไหม",
+        "fa": "آیا می‌توانم برنج سرخ‌شده داشته باشم؟",
+        "ar": "هل يمكنني الحصول على أرز مقلي؟",
+        "es": "¿Puedo tener arroz frito, por favor?",
+        "zh": "请给我一份炒饭好吗？",
+        "ja": "チャーハンをいただけますか？"
+      },
+      "tokens": {
+        "th": ["ขอ", "ข้าวผัด", "หน่อย", "ได้", "ไหม"],
+        "zh": ["请", "给", "我", "一", "份", "炒饭", "好", "吗", "？"],
+        "ja": ["チャーハン", "を", "いただけ", "ます", "か", "？"]
       }
     },
     {
-      "id": "word_very",
-      "kind": "word",
+      "id": "s8",
+      "kind": "Sentence",
       "texts": {
-        "en": "very",
-        "th": "มาก",
-        "fa": "خیلی",
-        "ar": "جداً",
-        "es": "muy",
-        "zh": "很",
-        "ja": "とても"
+        "en": "Make it with chicken.",
+        "th": "ใส่ไก่ด้วย",
+        "fa": "با مرغ درست کن.",
+        "ar": "اجعله بالدجاج.",
+        "es": "Hazlo con pollo.",
+        "zh": "加鸡肉。",
+        "ja": "鶏肉入りでお願いします。"
+      },
+      "tokens": {
+        "th": ["ใส่", "ไก่", "ด้วย"],
+        "zh": ["加", "鸡肉", "。"],
+        "ja": ["鶏肉", "入り", "で", "お願い", "し", "ます", "。"]
       }
     },
     {
-      "id": "word_a_little",
-      "kind": "word",
+      "id": "s9",
+      "kind": "Sentence",
       "texts": {
-        "en": "a little",
-        "th": "นิดหน่อย",
-        "fa": "کمی",
-        "ar": "قليلاً",
-        "es": "un poco",
-        "zh": "一点",
-        "ja": "少し"
+        "en": "Do you have papaya salad?",
+        "th": "มีส้มตำไหม",
+        "fa": "آیا سالاد پاپایا دارید؟",
+        "ar": "هل لديك سلطة بابايا؟",
+        "es": "¿Tienes ensalada de papaya?",
+        "zh": "你有木瓜沙拉吗？",
+        "ja": "パパイヤサラダはありますか？"
+      },
+      "tokens": {
+        "th": ["มี", "ส้มตำ", "ไหม"],
+        "zh": ["你", "有", "木瓜", "沙拉", "吗", "？"],
+        "ja": ["パパイヤ", "サラダ", "は", "あり", "ます", "か", "？"]
       }
     },
     {
-      "id": "word_spicy",
-      "kind": "word",
+      "id": "s10",
+      "kind": "Sentence",
       "texts": {
-        "en": "spicy",
-        "th": "เผ็ด",
-        "fa": "تند",
-        "ar": "حار",
-        "es": "picante",
-        "zh": "辣",
-        "ja": "辛い"
+        "en": "I will take this one.",
+        "th": "ฉันเอาอันนี้",
+        "fa": "من این یکی را می‌برم.",
+        "ar": "سآخذ هذا.",
+        "es": "Me llevo este.",
+        "zh": "我要这个。",
+        "ja": "これにします。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "เอา", "อัน", "นี้"],
+        "zh": ["我", "要", "这个", "。"],
+        "ja": ["これ", "に", "し", "ます", "。"]
+      }
+    },
+
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Customizing the Order",
+        "th": "สถานการณ์ที่ 3: การปรับแต่งคำสั่งซื้อ",
+        "fa": "سناریو ۳: سفارشی‌سازی سفارش",
+        "ar": "السيناريو 3: تخصيص الطلب",
+        "es": "Escenario 3: Personalizar el pedido",
+        "zh": "场景 3：定制订单",
+        "ja": "シナリオ 3：注文をカスタマイズする"
       }
     },
     {
-      "id": "word_sweet",
-      "kind": "word",
+      "id": "w11",
+      "kind": "Word",
       "texts": {
-        "en": "sweet",
-        "th": "หวาน",
-        "fa": "شیرین",
-        "ar": "حلو",
-        "es": "dulce",
-        "zh": "甜",
-        "ja": "甘い"
+        "en": "no peanuts",
+        "th": "ไม่ใส่ถั่ว",
+        "fa": "بدون بادام‌زمینی",
+        "ar": "بدون فول سوداني",
+        "es": "sin cacahuetes",
+        "zh": "不要花生",
+        "ja": "ピーナッツ抜き"
       }
     },
     {
-      "id": "word_delicious",
-      "kind": "word",
+      "id": "w12",
+      "kind": "Word",
       "texts": {
-        "en": "delicious",
-        "th": "อร่อย",
-        "fa": "خوشمزه",
-        "ar": "لذيذ",
-        "es": "delicioso",
-        "zh": "好吃",
-        "ja": "おいしい"
+        "en": "extra spicy",
+        "th": "เผ็ดมาก",
+        "fa": "فوق‌العاده تند",
+        "ar": "حار جداً",
+        "es": "muy picante",
+        "zh": "特辣",
+        "ja": "激辛"
       }
     },
     {
-      "id": "word_how_much",
-      "kind": "word",
+      "id": "w13",
+      "kind": "Word",
+      "texts": {
+        "en": "less sugar",
+        "th": "หวานน้อย",
+        "fa": "شکر کمتر",
+        "ar": "سكر أقل",
+        "es": "menos azúcar",
+        "zh": "少糖",
+        "ja": "砂糖控えめ"
+      }
+    },
+    {
+      "id": "w14",
+      "kind": "Word",
+      "texts": {
+        "en": "no MSG",
+        "th": "ไม่ใส่ผงชูรส",
+        "fa": "بدون MSG",
+        "ar": "بدون غلوتامات",
+        "es": "sin glutamato",
+        "zh": "不要味精",
+        "ja": "MSGなし"
+      }
+    },
+    {
+      "id": "w15",
+      "kind": "Word",
+      "texts": {
+        "en": "normal",
+        "th": "ปกติ",
+        "fa": "عادی",
+        "ar": "عادي",
+        "es": "normal",
+        "zh": "正常",
+        "ja": "普通"
+      }
+    },
+    {
+      "id": "s11",
+      "kind": "Sentence",
+      "texts": {
+        "en": "No peanuts, please.",
+        "th": "ไม่ใส่ถั่วด้วยนะ",
+        "fa": "بدون بادام‌زمینی، لطفاً.",
+        "ar": "بدون فول سوداني، من فضلك.",
+        "es": "Sin cacahuetes, por favor.",
+        "zh": "请不要放花生。",
+        "ja": "ピーナッツ抜きでお願いします。"
+      },
+      "tokens": {
+        "th": ["ไม่", "ใส่", "ถั่ว", "ด้วย", "นะ"],
+        "zh": ["请", "不要", "放", "花生", "。"],
+        "ja": ["ピーナッツ", "抜き", "で", "お願い", "し", "ます", "。"]
+      }
+    },
+    {
+      "id": "s12",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Make it extra spicy.",
+        "th": "ขอเผ็ดมาก",
+        "fa": "فوق‌العاده تندش کن.",
+        "ar": "اجعله حاراً جداً.",
+        "es": "Hazlo muy picante.",
+        "zh": "做得特辣一点。",
+        "ja": "激辛でお願いします。"
+      },
+      "tokens": {
+        "th": ["ขอ", "เผ็ด", "มาก"],
+        "zh": ["做", "得", "特", "辣", "一点", "。"],
+        "ja": ["激辛", "で", "お願い", "し", "ます", "。"]
+      }
+    },
+    {
+      "id": "s13",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Can you make it less sweet?",
+        "th": "ทำให้หวานน้อยได้ไหม",
+        "fa": "آیا می‌توانی آن را کمتر شیرین کنی؟",
+        "ar": "هل يمكنك جعله أقل حلاوة؟",
+        "es": "¿Puedes hacerlo menos dulce?",
+        "zh": "能做得少糖一点吗？",
+        "ja": "砂糖控えめにできますか？"
+      },
+      "tokens": {
+        "th": ["ทำให้", "หวาน", "น้อย", "ได้", "ไหม"],
+        "zh": ["能", "做", "得", "少", "糖", "一点", "吗", "？"],
+        "ja": ["砂糖", "控えめ", "に", "でき", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s14",
+      "kind": "Sentence",
+      "texts": {
+        "en": "No MSG, please.",
+        "th": "ไม่ใส่ผงชูรสนะ",
+        "fa": "بدون MSG، لطفاً.",
+        "ar": "بدون غلوتامات، من فضلك.",
+        "es": "Sin glutamato, por favor.",
+        "zh": "请不要放味精。",
+        "ja": "MSGなしでお願いします。"
+      },
+      "tokens": {
+        "th": ["ไม่", "ใส่", "ผงชูรส", "นะ"],
+        "zh": ["请", "不要", "放", "味精", "。"],
+        "ja": ["MSG", "なし", "で", "お願い", "し", "ます", "。"]
+      }
+    },
+    {
+      "id": "s15",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Normal spice is fine.",
+        "th": "เผ็ดปกติก็ได้",
+        "fa": "تندی عادی خوب است.",
+        "ar": "التوابل العادية جيدة.",
+        "es": "El picante normal está bien.",
+        "zh": "正常辣度就可以。",
+        "ja": "普通の辛さでいいです。"
+      },
+      "tokens": {
+        "th": ["เผ็ด", "ปกติ", "ก็", "ได้"],
+        "zh": ["正常", "辣度", "就", "可以", "。"],
+        "ja": ["普通", "の", "辛さ", "で", "いい", "です", "。"]
+      }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Eating at the Stall",
+        "th": "สถานการณ์ที่ 4: การกินที่แผงลอย",
+        "fa": "سناریو ۴: خوردن در غرفه",
+        "ar": "السيناريو 4: الأكل في الكشك",
+        "es": "Escenario 4: Comiendo en el puesto",
+        "zh": "场景 4：在摊位就餐",
+        "ja": "シナリオ 4：屋台で食べる"
+      }
+    },
+    {
+      "id": "w16",
+      "kind": "Word",
+      "texts": {
+        "en": "fork",
+        "th": "ส้อม",
+        "fa": "چنگال",
+        "ar": "شوكة",
+        "es": "tenedor",
+        "zh": "叉子",
+        "ja": "フォーク"
+      }
+    },
+    {
+      "id": "w17",
+      "kind": "Word",
+      "texts": {
+        "en": "spoon",
+        "th": "ช้อน",
+        "fa": "قاشق",
+        "ar": "ملعقة",
+        "es": "cuchara",
+        "zh": "勺子",
+        "ja": "スプーン"
+      }
+    },
+    {
+      "id": "w18",
+      "kind": "Word",
+      "texts": {
+        "en": "napkin",
+        "th": "กระดาษเช็ดปาก",
+        "fa": "دستمال",
+        "ar": "منديل",
+        "es": "servilleta",
+        "zh": "纸巾",
+        "ja": "ナプキン"
+      }
+    },
+    {
+      "id": "w19",
+      "kind": "Word",
+      "texts": {
+        "en": "water",
+        "th": "น้ำ",
+        "fa": "آب",
+        "ar": "ماء",
+        "es": "agua",
+        "zh": "水",
+        "ja": "水"
+      }
+    },
+    {
+      "id": "w20",
+      "kind": "Word",
+      "texts": {
+        "en": "trash",
+        "th": "ขยะ",
+        "fa": "زباله",
+        "ar": "قمامة",
+        "es": "basura",
+        "zh": "垃圾",
+        "ja": "ゴミ"
+      }
+    },
+    {
+      "id": "s16",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Can I have a fork and spoon?",
+        "th": "ขอส้อมกับช้อนได้ไหม",
+        "fa": "آیا می‌توانم چنگال و قاشق داشته باشم؟",
+        "ar": "هل يمكنني الحصول على شوكة وملعقة؟",
+        "es": "¿Puedo tener un tenedor y una cuchara?",
+        "zh": "能给我一副叉子和勺子吗？",
+        "ja": "フォークとスプーンをいただけますか？"
+      },
+      "tokens": {
+        "th": ["ขอ", "ส้อม", "กับ", "ช้อน", "ได้", "ไหม"],
+        "zh": ["能", "给", "我", "一", "副", "叉子", "和", "勺子", "吗", "？"],
+        "ja": [
+          "フォーク",
+          "と",
+          "スプーン",
+          "を",
+          "いただけ",
+          "ます",
+          "か",
+          "？"
+        ]
+      }
+    },
+    {
+      "id": "s17",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Where is the trash can?",
+        "th": "ถังขยะอยู่ที่ไหน",
+        "fa": "سطل زباله کجاست؟",
+        "ar": "أين سلة المهملات؟",
+        "es": "¿Dónde está el basurero?",
+        "zh": "垃圾桶在哪里？",
+        "ja": "ゴミ箱はどこですか？"
+      },
+      "tokens": {
+        "th": ["ถังขยะ", "อยู่", "ที่", "ไหน"],
+        "zh": ["垃圾桶", "在", "哪里", "？"],
+        "ja": ["ゴミ箱", "は", "どこ", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s18",
+      "kind": "Sentence",
+      "texts": {
+        "en": "This is very delicious.",
+        "th": "อร่อยมากเลย",
+        "fa": "این خیلی خوشمزه است.",
+        "ar": "هذا لذيذ جداً.",
+        "es": "Esto está muy delicioso.",
+        "zh": "这个非常好吃。",
+        "ja": "とてもおいしいです。"
+      },
+      "tokens": {
+        "th": ["อร่อย", "มาก", "เลย"],
+        "zh": ["这个", "非常", "好吃", "。"],
+        "ja": ["とても", "おいしい", "です", "。"]
+      }
+    },
+    {
+      "id": "s19",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Do you have cold water?",
+        "th": "มีน้ำเย็นไหม",
+        "fa": "آیا آب سرد دارید؟",
+        "ar": "هل لديك ماء بارد؟",
+        "es": "¿Tienes agua fría?",
+        "zh": "你有冷水吗？",
+        "ja": "冷たい水はありますか？"
+      },
+      "tokens": {
+        "th": ["มี", "น้ำ", "เย็น", "ไหม"],
+        "zh": ["你", "有", "冷水", "吗", "？"],
+        "ja": ["冷たい", "水", "は", "あり", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s20",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I need some napkins.",
+        "th": "ฉันต้องการกระดาษเช็ดปาก",
+        "fa": "من به چند دستمال نیاز دارم.",
+        "ar": "أحتاج إلى بعض المناديل.",
+        "es": "Necesito algunas servilletas.",
+        "zh": "我需要一些纸巾。",
+        "ja": "ナプキンがいくつか必要です。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้องการ", "กระดาษ", "เช็ด", "ปาก"],
+        "zh": ["我", "需要", "一些", "纸巾", "。"],
+        "ja": ["ナプキン", "が", "いくつか", "必要", "です", "。"]
+      }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Paying and Leaving",
+        "th": "สถานการณ์ที่ 5: การจ่ายเงินและจากไป",
+        "fa": "سناریو ۵: پرداخت و ترک کردن",
+        "ar": "السيناريو 5: الدفع والمغادرة",
+        "es": "Escenario 5: Pagando y yéndose",
+        "zh": "场景 5：付款与离开",
+        "ja": "シナリオ 5：支払いと立ち去る"
+      }
+    },
+    {
+      "id": "w21",
+      "kind": "Word",
       "texts": {
         "en": "how much",
         "th": "เท่าไหร่",
         "fa": "چقدر",
         "ar": "كم",
         "es": "cuánto",
-        "zh": "多少",
+        "zh": "多少钱",
         "ja": "いくら"
       }
     },
     {
-      "id": "word_baht",
-      "kind": "word",
-      "texts": {
-        "en": "baht",
-        "th": "บาท",
-        "fa": "بات",
-        "ar": "بات",
-        "es": "baht",
-        "zh": "泰铢",
-        "ja": "バーツ"
-      }
-    },
-    {
-      "id": "word_expensive",
-      "kind": "word",
-      "texts": {
-        "en": "expensive",
-        "th": "แพง",
-        "fa": "گران",
-        "ar": "غالي",
-        "es": "caro",
-        "zh": "贵",
-        "ja": "高い"
-      }
-    },
-    {
-      "id": "word_cheap",
-      "kind": "word",
-      "texts": {
-        "en": "cheap",
-        "th": "ถูก",
-        "fa": "ارزان",
-        "ar": "رخيص",
-        "es": "barato",
-        "zh": "便宜",
-        "ja": "安い"
-      }
-    },
-    {
-      "id": "word_question_particle",
-      "kind": "word",
-      "texts": {
-        "en": "question marker",
-        "th": "ไหม",
-        "fa": "آیا",
-        "ar": "هل",
-        "es": "partícula interrogativa",
-        "zh": "吗",
-        "ja": "か"
-      }
-    },
-    {
-      "id": "word_have",
-      "kind": "word",
-      "texts": {
-        "en": "have",
-        "th": "มี",
-        "fa": "داشتن",
-        "ar": "لدى",
-        "es": "tener",
-        "zh": "有",
-        "ja": "あります"
-      }
-    },
-    {
-      "id": "word_put",
-      "kind": "word",
-      "texts": {
-        "en": "put",
-        "th": "ใส่",
-        "fa": "گذاشتن",
-        "ar": "أضع",
-        "es": "poner",
-        "zh": "放",
-        "ja": "入れる"
-      }
-    },
-    {
-      "id": "header_scenario_1",
-      "header": true,
-      "texts": {
-        "en": "Scenario 1: Browsing the Stall",
-        "th": "สถานการณ์ 1: ดูแผงอาหาร",
-        "fa": "سناریوی ۱: نگاه به غرفه",
-        "ar": "السيناريو ١: تصفح البائع",
-        "es": "Escenario 1: Mirando el puesto",
-        "zh": "场景一：浏览摊位",
-        "ja": "シーン1：屋台を見る"
-      }
-    },
-    {
-      "id": "sentence_sf_s1_what_is_this",
-      "kind": "sentence",
-      "itemIds": [
-        "word_this",
-        "word_what"
-      ],
-      "texts": {
-        "en": "What is this",
-        "th": "อันนี้อะไรคะ",
-        "fa": "این چیست",
-        "ar": "ما هذا",
-        "es": "Qué es esto",
-        "zh": "这是什么",
-        "ja": "これは何ですか"
-      },
-      "tokens": {
-        "en": [
-          "What",
-          "is",
-          "this"
-        ],
-        "th": [
-          "อันนี้",
-          "อะไร",
-          "คะ"
-        ],
-        "fa": [
-          "این",
-          "چیست"
-        ],
-        "ar": [
-          "ما",
-          "هذا"
-        ],
-        "es": [
-          "Qué",
-          "es",
-          "esto"
-        ],
-        "zh": [
-          "这",
-          "是",
-          "什么"
-        ],
-        "ja": [
-          "これ",
-          "は",
-          "何",
-          "です",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s1_this_is_moo_ping",
-      "kind": "sentence",
-      "itemIds": [
-        "word_this",
-        "word_moo_ping"
-      ],
-      "texts": {
-        "en": "This is moo ping",
-        "th": "อันนี้หมูปิ้งค่ะ",
-        "fa": "این کباب سیخی خوک است",
-        "ar": "هذا سيخ خنزير مشوي",
-        "es": "Esto es brocheta de cerdo",
-        "zh": "这是烤猪肉串",
-        "ja": "これはムーピンです"
-      },
-      "tokens": {
-        "en": [
-          "This",
-          "is",
-          "moo",
-          "ping"
-        ],
-        "th": [
-          "อันนี้",
-          "หมูปิ้ง",
-          "ค่ะ"
-        ],
-        "fa": [
-          "این",
-          "کباب",
-          "سیخی",
-          "خوک",
-          "است"
-        ],
-        "ar": [
-          "هذا",
-          "سيخ",
-          "خنزير",
-          "مشوي"
-        ],
-        "es": [
-          "Esto",
-          "es",
-          "brocheta",
-          "de",
-          "cerdo"
-        ],
-        "zh": [
-          "这",
-          "是",
-          "烤猪肉串"
-        ],
-        "ja": [
-          "これ",
-          "は",
-          "ムーピン",
-          "です"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s1_is_this_spicy",
-      "kind": "sentence",
-      "itemIds": [
-        "word_this",
-        "word_spicy",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Is this spicy",
-        "th": "อันนี้เผ็ดไหมคะ",
-        "fa": "این تند است",
-        "ar": "هل هذا حار",
-        "es": "Está picante",
-        "zh": "这个辣吗",
-        "ja": "これは辛いですか"
-      },
-      "tokens": {
-        "en": [
-          "Is",
-          "this",
-          "spicy"
-        ],
-        "th": [
-          "อันนี้",
-          "เผ็ด",
-          "ไหม",
-          "คะ"
-        ],
-        "fa": [
-          "این",
-          "تند",
-          "است"
-        ],
-        "ar": [
-          "هل",
-          "هذا",
-          "حار"
-        ],
-        "es": [
-          "Está",
-          "picante"
-        ],
-        "zh": [
-          "这个",
-          "辣",
-          "吗"
-        ],
-        "ja": [
-          "これ",
-          "は",
-          "辛い",
-          "です",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s1_have_pork",
-      "kind": "sentence",
-      "itemIds": [
-        "word_have",
-        "word_pork",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Do you have pork",
-        "th": "มีหมูไหมคะ",
-        "fa": "گوشت خوک دارید",
-        "ar": "هل لديك خنزير",
-        "es": "Tienes cerdo",
-        "zh": "有猪肉吗",
-        "ja": "豚肉はありますか"
-      },
-      "tokens": {
-        "en": [
-          "Do",
-          "you",
-          "have",
-          "pork"
-        ],
-        "th": [
-          "มี",
-          "หมู",
-          "ไหม",
-          "คะ"
-        ],
-        "fa": [
-          "گوشت",
-          "خوک",
-          "دارید"
-        ],
-        "ar": [
-          "هل",
-          "لديك",
-          "خنزير"
-        ],
-        "es": [
-          "Tienes",
-          "cerdo"
-        ],
-        "zh": [
-          "有",
-          "猪肉",
-          "吗"
-        ],
-        "ja": [
-          "豚肉",
-          "は",
-          "あります",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s1_not_take_pork",
-      "kind": "sentence",
-      "itemIds": [
-        "word_not",
-        "word_take",
-        "word_pork"
-      ],
-      "texts": {
-        "en": "I do not want pork",
-        "th": "ไม่เอาหมูค่ะ",
-        "fa": "گوشت خوک نمی‌خواهم",
-        "ar": "لا آخذ الخنزير",
-        "es": "No quiero cerdo",
-        "zh": "我不要猪肉",
-        "ja": "豚肉は要りません"
-      },
-      "tokens": {
-        "en": [
-          "I",
-          "do",
-          "not",
-          "want",
-          "pork"
-        ],
-        "th": [
-          "ไม่",
-          "เอา",
-          "หมู",
-          "ค่ะ"
-        ],
-        "fa": [
-          "گوشت",
-          "خوک",
-          "نمی‌خواهم"
-        ],
-        "ar": [
-          "لا",
-          "آخذ",
-          "الخنزير"
-        ],
-        "es": [
-          "No",
-          "quiero",
-          "cerdo"
-        ],
-        "zh": [
-          "我",
-          "不",
-          "要",
-          "猪肉"
-        ],
-        "ja": [
-          "豚肉",
-          "は",
-          "要りません"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s1_mango_sweet",
-      "kind": "sentence",
-      "itemIds": [
-        "word_mango_sticky_rice",
-        "word_sweet",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Is mango sticky rice sweet",
-        "th": "ข้าวเหนียวมะม่วงหวานไหมคะ",
-        "fa": "برنج چسبناک با انبه شیرین است",
-        "ar": "هل الأرز اللزج بالمانجو حلو",
-        "es": "Es dulce el arroz glutinoso con mango",
-        "zh": "芒果糯米饭甜吗",
-        "ja": "マンゴースティッキーライスは甘いですか"
-      },
-      "tokens": {
-        "en": [
-          "Is",
-          "mango",
-          "sticky",
-          "rice",
-          "sweet"
-        ],
-        "th": [
-          "ข้าวเหนียวมะม่วง",
-          "หวาน",
-          "ไหม",
-          "คะ"
-        ],
-        "fa": [
-          "برنج",
-          "چسبناک",
-          "با",
-          "انبه",
-          "شیرین",
-          "است"
-        ],
-        "ar": [
-          "هل",
-          "الأرز",
-          "اللزج",
-          "بالمانجو",
-          "حلو"
-        ],
-        "es": [
-          "Es",
-          "dulce",
-          "el",
-          "arroz",
-          "glutinoso",
-          "con",
-          "mango"
-        ],
-        "zh": [
-          "芒果糯米饭",
-          "甜",
-          "吗"
-        ],
-        "ja": [
-          "マンゴースティッキーライス",
-          "は",
-          "甘い",
-          "です",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s1_street_food_delicious",
-      "kind": "sentence",
-      "itemIds": [
-        "word_street_food",
-        "word_delicious"
-      ],
-      "texts": {
-        "en": "Street food is delicious",
-        "th": "อาหารริมทางอร่อยค่ะ",
-        "fa": "غذای خیابانی خوشمزه است",
-        "ar": "طعام الشارع لذيذ",
-        "es": "La comida callejera es deliciosa",
-        "zh": "街头小吃好吃",
-        "ja": "屋台料理はおいしいです"
-      },
-      "tokens": {
-        "en": [
-          "Street",
-          "food",
-          "is",
-          "delicious"
-        ],
-        "th": [
-          "อาหารริมทาง",
-          "อร่อย",
-          "ค่ะ"
-        ],
-        "fa": [
-          "غذای",
-          "خیابانی",
-          "خوشمزه",
-          "است"
-        ],
-        "ar": [
-          "طعام",
-          "الشارع",
-          "لذيذ"
-        ],
-        "es": [
-          "La",
-          "comida",
-          "callejera",
-          "es",
-          "deliciosa"
-        ],
-        "zh": [
-          "街头小吃",
-          "好吃"
-        ],
-        "ja": [
-          "屋台料理",
-          "は",
-          "おいしい",
-          "です"
-        ]
-      }
-    },
-    {
-      "id": "word_what",
-      "kind": "word",
-      "texts": {
-        "en": "what",
-        "th": "อะไร",
-        "fa": "چه",
-        "ar": "ماذا",
-        "es": "qué",
-        "zh": "什么",
-        "ja": "何"
-      }
-    },
-    {
-      "id": "word_this",
-      "kind": "word",
-      "texts": {
-        "en": "this",
-        "th": "อันนี้",
-        "fa": "این",
-        "ar": "هذا",
-        "es": "esto",
-        "zh": "这个",
-        "ja": "これ"
-      }
-    },
-    {
-      "id": "word_moo_ping",
-      "kind": "word",
-      "texts": {
-        "en": "grilled pork skewer",
-        "th": "หมูปิ้ง",
-        "fa": "کباب سیخی خوک",
-        "ar": "سيخ خنزير مشوي",
-        "es": "brocheta de cerdo",
-        "zh": "烤猪肉串",
-        "ja": "ムーピン"
-      }
-    },
-    {
-      "id": "word_meatball",
-      "kind": "word",
-      "texts": {
-        "en": "meatball",
-        "th": "ลูกชิ้น",
-        "fa": "کوفته",
-        "ar": "كرة لحم",
-        "es": "albóndiga",
-        "zh": "肉丸",
-        "ja": "ミートボール"
-      }
-    },
-    {
-      "id": "word_som_tum",
-      "kind": "word",
-      "texts": {
-        "en": "som tam",
-        "th": "ส้มตำ",
-        "fa": "سوم تام",
-        "ar": "سوم تام",
-        "es": "som tam",
-        "zh": "青木瓜沙拉",
-        "ja": "ソムタム"
-      }
-    },
-    {
-      "id": "word_mango_sticky_rice",
-      "kind": "word",
-      "texts": {
-        "en": "mango sticky rice",
-        "th": "ข้าวเหนียวมะม่วง",
-        "fa": "برنج چسبناک با انبه",
-        "ar": "أرز لزج بالمانجو",
-        "es": "arroz glutinoso con mango",
-        "zh": "芒果糯米饭",
-        "ja": "マンゴースティッキーライス"
-      }
-    },
-    {
-      "id": "word_pork",
-      "kind": "word",
-      "texts": {
-        "en": "pork",
-        "th": "หมู",
-        "fa": "گوشت خوک",
-        "ar": "خنزير",
-        "es": "cerdo",
-        "zh": "猪肉",
-        "ja": "豚肉"
-      }
-    },
-    {
-      "id": "header_scenario_2",
-      "header": true,
-      "texts": {
-        "en": "Scenario 2: Ordering & Quantities",
-        "th": "สถานการณ์ 2: การสั่งและจำนวน",
-        "fa": "سناریوی ۲: سفارش و تعداد",
-        "ar": "السيناريو ٢: الطلب والكميات",
-        "es": "Escenario 2: Pedir y cantidades",
-        "zh": "场景二：点餐与数量",
-        "ja": "シーン2：注文と数量"
-      }
-    },
-    {
-      "id": "sentence_sf_s2_take_two_skewers",
-      "kind": "sentence",
-      "itemIds": [
-        "word_take",
-        "word_two",
-        "word_skewer"
-      ],
-      "texts": {
-        "en": "I will take two skewers",
-        "th": "เอาสองไม้ค่ะ",
-        "fa": "دو سیخ می‌گیرم",
-        "ar": "آخذ سيخين",
-        "es": "Quiero dos brochetas",
-        "zh": "我要两串",
-        "ja": "二串ください"
-      },
-      "tokens": {
-        "en": [
-          "I",
-          "will",
-          "take",
-          "two",
-          "skewers"
-        ],
-        "th": [
-          "เอา",
-          "สอง",
-          "ไม้",
-          "ค่ะ"
-        ],
-        "fa": [
-          "دو",
-          "سیخ",
-          "می‌گیرم"
-        ],
-        "ar": [
-          "آخذ",
-          "سيخين"
-        ],
-        "es": [
-          "Quiero",
-          "dos",
-          "brochetas"
-        ],
-        "zh": [
-          "我",
-          "要",
-          "两",
-          "串"
-        ],
-        "ja": [
-          "二",
-          "串",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s2_take_one_box",
-      "kind": "sentence",
-      "itemIds": [
-        "word_take",
-        "word_one",
-        "word_box"
-      ],
-      "texts": {
-        "en": "I will take one box",
-        "th": "เอาหนึ่งกล่องค่ะ",
-        "fa": "یک جعبه می‌گیرم",
-        "ar": "آخذ علبة واحدة",
-        "es": "Quiero una caja",
-        "zh": "我要一盒",
-        "ja": "一箱ください"
-      },
-      "tokens": {
-        "en": [
-          "I",
-          "will",
-          "take",
-          "one",
-          "box"
-        ],
-        "th": [
-          "เอา",
-          "หนึ่ง",
-          "กล่อง",
-          "ค่ะ"
-        ],
-        "fa": [
-          "یک",
-          "جعبه",
-          "می‌گیرم"
-        ],
-        "ar": [
-          "آخذ",
-          "علبة",
-          "واحدة"
-        ],
-        "es": [
-          "Quiero",
-          "una",
-          "caja"
-        ],
-        "zh": [
-          "我",
-          "要",
-          "一",
-          "盒"
-        ],
-        "ja": [
-          "一",
-          "箱",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s2_take_two_bags",
-      "kind": "sentence",
-      "itemIds": [
-        "word_take",
-        "word_two",
-        "word_bag"
-      ],
-      "texts": {
-        "en": "I will take two bags",
-        "th": "เอาสองถุงค่ะ",
-        "fa": "دو کیسه می‌گیرم",
-        "ar": "آخذ كيسين",
-        "es": "Quiero dos bolsas",
-        "zh": "我要两个袋子",
-        "ja": "二袋ください"
-      },
-      "tokens": {
-        "en": [
-          "I",
-          "will",
-          "take",
-          "two",
-          "bags"
-        ],
-        "th": [
-          "เอา",
-          "สอง",
-          "ถุง",
-          "ค่ะ"
-        ],
-        "fa": [
-          "دو",
-          "کیسه",
-          "می‌گیرم"
-        ],
-        "ar": [
-          "آخذ",
-          "كيسين"
-        ],
-        "es": [
-          "Quiero",
-          "dos",
-          "bolsas"
-        ],
-        "zh": [
-          "我",
-          "要",
-          "两个",
-          "袋子"
-        ],
-        "ja": [
-          "二",
-          "袋",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s2_eat_here",
-      "kind": "sentence",
-      "itemIds": [
-        "word_eat",
-        "word_here"
-      ],
-      "texts": {
-        "en": "I will eat here",
-        "th": "กินที่นี่ค่ะ",
-        "fa": "اینجا می‌خورم",
-        "ar": "آكل هنا",
-        "es": "Como aquí",
-        "zh": "我在这里吃",
-        "ja": "ここで食べます"
-      },
-      "tokens": {
-        "en": [
-          "I",
-          "will",
-          "eat",
-          "here"
-        ],
-        "th": [
-          "กิน",
-          "ที่นี่",
-          "ค่ะ"
-        ],
-        "fa": [
-          "اینجا",
-          "می‌خورم"
-        ],
-        "ar": [
-          "آكل",
-          "هنا"
-        ],
-        "es": [
-          "Como",
-          "aquí"
-        ],
-        "zh": [
-          "我",
-          "在",
-          "这里",
-          "吃"
-        ],
-        "ja": [
-          "ここ",
-          "で",
-          "食べます"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s2_request_meatball_two_skewers",
-      "kind": "sentence",
-      "itemIds": [
-        "word_request",
-        "word_meatball",
-        "word_two",
-        "word_skewer"
-      ],
-      "texts": {
-        "en": "Please give me two meatball skewers",
-        "th": "ขอลูกชิ้นสองไม้ค่ะ",
-        "fa": "دو سیخ کوفته لطفا",
-        "ar": "أطلب سيخين من كرات اللحم",
-        "es": "Pido dos brochetas de albóndigas",
-        "zh": "请给我两串肉丸",
-        "ja": "ミートボールの串を二本ください"
-      },
-      "tokens": {
-        "en": [
-          "Please",
-          "give",
-          "me",
-          "two",
-          "meatball",
-          "skewers"
-        ],
-        "th": [
-          "ขอ",
-          "ลูกชิ้น",
-          "สอง",
-          "ไม้",
-          "ค่ะ"
-        ],
-        "fa": [
-          "دو",
-          "سیخ",
-          "کوفته",
-          "لطفا"
-        ],
-        "ar": [
-          "أطلب",
-          "سيخين",
-          "من",
-          "كرات",
-          "اللحم"
-        ],
-        "es": [
-          "Pido",
-          "dos",
-          "brochetas",
-          "de",
-          "albóndigas"
-        ],
-        "zh": [
-          "请",
-          "给",
-          "我",
-          "两",
-          "串",
-          "肉丸"
-        ],
-        "ja": [
-          "ミートボール",
-          "の",
-          "串",
-          "を",
-          "二本",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s2_take_som_tum_one_box",
-      "kind": "sentence",
-      "itemIds": [
-        "word_take",
-        "word_som_tum",
-        "word_one",
-        "word_box"
-      ],
-      "texts": {
-        "en": "I will take one box of som tam",
-        "th": "เอาส้มตำหนึ่งกล่องค่ะ",
-        "fa": "یک جعبه سوم تام می‌گیرم",
-        "ar": "آخذ علبة واحدة من سوم تام",
-        "es": "Quiero una caja de som tam",
-        "zh": "我要一盒青木瓜沙拉",
-        "ja": "ソムタムを一箱ください"
-      },
-      "tokens": {
-        "en": [
-          "I",
-          "will",
-          "take",
-          "one",
-          "box",
-          "of",
-          "som",
-          "tam"
-        ],
-        "th": [
-          "เอา",
-          "ส้มตำ",
-          "หนึ่ง",
-          "กล่อง",
-          "ค่ะ"
-        ],
-        "fa": [
-          "یک",
-          "جعبه",
-          "سوم",
-          "تام",
-          "می‌گیرم"
-        ],
-        "ar": [
-          "آخذ",
-          "علبة",
-          "واحدة",
-          "من",
-          "سوم",
-          "تام"
-        ],
-        "es": [
-          "Quiero",
-          "una",
-          "caja",
-          "de",
-          "som",
-          "tam"
-        ],
-        "zh": [
-          "我",
-          "要",
-          "一",
-          "盒",
-          "青木瓜沙拉"
-        ],
-        "ja": [
-          "ソムタム",
-          "を",
-          "一",
-          "箱",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s2_stall_have_mango",
-      "kind": "sentence",
-      "itemIds": [
-        "word_stall",
-        "word_have",
-        "word_mango_sticky_rice",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Does this stall have mango sticky rice",
-        "th": "แผงนี้มีข้าวเหนียวมะม่วงไหมคะ",
-        "fa": "آیا این غرفه برنج چسبناک با انبه دارد",
-        "ar": "هل يوجد لدى هذا الكشك أرز لزج بالمانجو",
-        "es": "Este puesto tiene arroz glutinoso con mango",
-        "zh": "这个摊位有芒果糯米饭吗",
-        "ja": "この屋台はマンゴースティッキーライスがありますか"
-      },
-      "tokens": {
-        "en": [
-          "Does",
-          "this",
-          "stall",
-          "have",
-          "mango",
-          "sticky",
-          "rice"
-        ],
-        "th": [
-          "แผง",
-          "นี้",
-          "มี",
-          "ข้าวเหนียวมะม่วง",
-          "ไหม",
-          "คะ"
-        ],
-        "fa": [
-          "آیا",
-          "این",
-          "غرفه",
-          "برنج",
-          "چسبناک",
-          "با",
-          "انبه",
-          "دارد"
-        ],
-        "ar": [
-          "هل",
-          "يوجد",
-          "لدى",
-          "هذا",
-          "الكشك",
-          "أرز",
-          "لزج",
-          "بالمانجو"
-        ],
-        "es": [
-          "Este",
-          "puesto",
-          "tiene",
-          "arroz",
-          "glutinoso",
-          "con",
-          "mango"
-        ],
-        "zh": [
-          "这个",
-          "摊位",
-          "有",
-          "芒果糯米饭",
-          "吗"
-        ],
-        "ja": [
-          "この",
-          "屋台",
-          "は",
-          "マンゴースティッキーライス",
-          "が",
-          "あります",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "word_one",
-      "kind": "word",
-      "texts": {
-        "en": "one",
-        "th": "หนึ่ง",
-        "fa": "یک",
-        "ar": "واحد",
-        "es": "uno",
-        "zh": "一",
-        "ja": "一"
-      }
-    },
-    {
-      "id": "word_two",
-      "kind": "word",
-      "texts": {
-        "en": "two",
-        "th": "สอง",
-        "fa": "دو",
-        "ar": "اثنان",
-        "es": "dos",
-        "zh": "两",
-        "ja": "二"
-      }
-    },
-    {
-      "id": "word_eat",
-      "kind": "word",
-      "texts": {
-        "en": "eat",
-        "th": "กิน",
-        "fa": "خوردن",
-        "ar": "آكل",
-        "es": "comer",
-        "zh": "吃",
-        "ja": "食べる"
-      }
-    },
-    {
-      "id": "word_here",
-      "kind": "word",
-      "texts": {
-        "en": "here",
-        "th": "ที่นี่",
-        "fa": "اینجا",
-        "ar": "هنا",
-        "es": "aquí",
-        "zh": "这里",
-        "ja": "ここ"
-      }
-    },
-    {
-      "id": "header_scenario_3",
-      "header": true,
-      "texts": {
-        "en": "Scenario 3: Customizing Flavors",
-        "th": "สถานการณ์ 3: ปรับรสชาติ",
-        "fa": "سناریوی ۳: سفارشی‌سازی طعم",
-        "ar": "السيناريو ٣: تعديل النكهات",
-        "es": "Escenario 3: Personalizar sabores",
-        "zh": "场景三：调整口味",
-        "ja": "シーン3：味の調整"
-      }
-    },
-    {
-      "id": "sentence_sf_s3_not_spicy",
-      "kind": "sentence",
-      "itemIds": [
-        "word_not",
-        "word_spicy"
-      ],
-      "texts": {
-        "en": "Not spicy please",
-        "th": "ไม่เผ็ดค่ะ",
-        "fa": "لطفا تند نباشد",
-        "ar": "غير حار من فضلك",
-        "es": "No picante por favor",
-        "zh": "不要辣",
-        "ja": "辛くしないでください"
-      },
-      "tokens": {
-        "en": [
-          "Not",
-          "spicy",
-          "please"
-        ],
-        "th": [
-          "ไม่",
-          "เผ็ด",
-          "ค่ะ"
-        ],
-        "fa": [
-          "لطفا",
-          "تند",
-          "نباشد"
-        ],
-        "ar": [
-          "غير",
-          "حار",
-          "من",
-          "فضلك"
-        ],
-        "es": [
-          "No",
-          "picante",
-          "por",
-          "favor"
-        ],
-        "zh": [
-          "不要",
-          "辣"
-        ],
-        "ja": [
-          "辛く",
-          "しない",
-          "で",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s3_spicy_a_little",
-      "kind": "sentence",
-      "itemIds": [
-        "word_spicy",
-        "word_a_little"
-      ],
-      "texts": {
-        "en": "A little spicy please",
-        "th": "เผ็ดนิดหน่อยค่ะ",
-        "fa": "کمی تند لطفا",
-        "ar": "حار قليلاً من فضلك",
-        "es": "Un poco picante por favor",
-        "zh": "微辣",
-        "ja": "少し辛くしてください"
-      },
-      "tokens": {
-        "en": [
-          "A",
-          "little",
-          "spicy",
-          "please"
-        ],
-        "th": [
-          "เผ็ด",
-          "นิดหน่อย",
-          "ค่ะ"
-        ],
-        "fa": [
-          "کمی",
-          "تند",
-          "لطفا"
-        ],
-        "ar": [
-          "حار",
-          "قليلاً",
-          "من",
-          "فضلك"
-        ],
-        "es": [
-          "Un",
-          "poco",
-          "picante",
-          "por",
-          "favor"
-        ],
-        "zh": [
-          "微辣"
-        ],
-        "ja": [
-          "少し",
-          "辛く",
-          "して",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s3_spicy_much",
-      "kind": "sentence",
-      "itemIds": [
-        "word_spicy",
-        "word_very"
-      ],
-      "texts": {
-        "en": "Very spicy please",
-        "th": "เผ็ดมากค่ะ",
-        "fa": "خیلی تند لطفا",
-        "ar": "حار جداً من فضلك",
-        "es": "Muy picante por favor",
-        "zh": "很辣",
-        "ja": "とても辛くしてください"
-      },
-      "tokens": {
-        "en": [
-          "Very",
-          "spicy",
-          "please"
-        ],
-        "th": [
-          "เผ็ด",
-          "มาก",
-          "ค่ะ"
-        ],
-        "fa": [
-          "خیلی",
-          "تند",
-          "لطفا"
-        ],
-        "ar": [
-          "حار",
-          "جداً",
-          "من",
-          "فضلك"
-        ],
-        "es": [
-          "Muy",
-          "picante",
-          "por",
-          "favor"
-        ],
-        "zh": [
-          "很",
-          "辣"
-        ],
-        "ja": [
-          "とても",
-          "辛く",
-          "して",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s3_not_put_peanut",
-      "kind": "sentence",
-      "itemIds": [
-        "word_not",
-        "word_put",
-        "word_peanut"
-      ],
-      "texts": {
-        "en": "No peanuts please",
-        "th": "ไม่ใส่ถั่วลิสงค่ะ",
-        "fa": "بادام زمینی نگذارید لطفا",
-        "ar": "لا تضع الفول السوداني من فضلك",
-        "es": "No pongas cacahuates por favor",
-        "zh": "不要放花生",
-        "ja": "ピーナッツを入れないでください"
-      },
-      "tokens": {
-        "en": [
-          "No",
-          "peanuts",
-          "please"
-        ],
-        "th": [
-          "ไม่",
-          "ใส่",
-          "ถั่วลิสง",
-          "ค่ะ"
-        ],
-        "fa": [
-          "بادام",
-          "زمینی",
-          "نگذارید",
-          "لطفا"
-        ],
-        "ar": [
-          "لا",
-          "تضع",
-          "الفول",
-          "السوداني",
-          "من",
-          "فضلك"
-        ],
-        "es": [
-          "No",
-          "pongas",
-          "cacahuates",
-          "por",
-          "favor"
-        ],
-        "zh": [
-          "不要",
-          "放",
-          "花生"
-        ],
-        "ja": [
-          "ピーナッツ",
-          "を",
-          "入れないで",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s3_sugar_less",
-      "kind": "sentence",
-      "itemIds": [
-        "word_sugar",
-        "word_less"
-      ],
-      "texts": {
-        "en": "Less sugar please",
-        "th": "น้ำตาลน้อยค่ะ",
-        "fa": "شکر کم لطفا",
-        "ar": "سكر أقل من فضلك",
-        "es": "Menos azúcar por favor",
-        "zh": "少糖",
-        "ja": "砂糖を少なめにしてください"
-      },
-      "tokens": {
-        "en": [
-          "Less",
-          "sugar",
-          "please"
-        ],
-        "th": [
-          "น้ำตาล",
-          "น้อย",
-          "ค่ะ"
-        ],
-        "fa": [
-          "شکر",
-          "کم",
-          "لطفا"
-        ],
-        "ar": [
-          "سكر",
-          "أقل",
-          "من",
-          "فضلك"
-        ],
-        "es": [
-          "Menos",
-          "azúcar",
-          "por",
-          "favor"
-        ],
-        "zh": [
-          "少",
-          "糖"
-        ],
-        "ja": [
-          "砂糖",
-          "を",
-          "少なめ",
-          "に",
-          "して",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s3_request_chili_add",
-      "kind": "sentence",
-      "itemIds": [
-        "word_request",
-        "word_chili",
-        "word_add"
-      ],
-      "texts": {
-        "en": "Extra chili please",
-        "th": "ขอพริกเพิ่มค่ะ",
-        "fa": "فلفل بیشتر لطفا",
-        "ar": "أطلب فلفلاً إضافياً من فضلك",
-        "es": "Más chile por favor",
-        "zh": "请加辣椒",
-        "ja": "唐辛子を追加してください"
-      },
-      "tokens": {
-        "en": [
-          "Extra",
-          "chili",
-          "please"
-        ],
-        "th": [
-          "ขอ",
-          "พริก",
-          "เพิ่ม",
-          "ค่ะ"
-        ],
-        "fa": [
-          "فلفل",
-          "بیشتر",
-          "لطفا"
-        ],
-        "ar": [
-          "أطلب",
-          "فلفلاً",
-          "إضافياً",
-          "من",
-          "فضلك"
-        ],
-        "es": [
-          "Más",
-          "chile",
-          "por",
-          "favor"
-        ],
-        "zh": [
-          "请",
-          "加",
-          "辣椒"
-        ],
-        "ja": [
-          "唐辛子",
-          "を",
-          "追加",
-          "して",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s3_not_put_fish_sauce",
-      "kind": "sentence",
-      "itemIds": [
-        "word_not",
-        "word_put",
-        "word_fish_sauce"
-      ],
-      "texts": {
-        "en": "No fish sauce please",
-        "th": "ไม่ใส่น้ำปลาค่ะ",
-        "fa": "سس ماهی نگذارید لطفا",
-        "ar": "لا تضع صلصة السمك من فضلك",
-        "es": "No pongas salsa de pescado por favor",
-        "zh": "不要放鱼露",
-        "ja": "ナンプラーを入れないでください"
-      },
-      "tokens": {
-        "en": [
-          "No",
-          "fish",
-          "sauce",
-          "please"
-        ],
-        "th": [
-          "ไม่",
-          "ใส่",
-          "น้ำปลา",
-          "ค่ะ"
-        ],
-        "fa": [
-          "سس",
-          "ماهی",
-          "نگذارید",
-          "لطفا"
-        ],
-        "ar": [
-          "لا",
-          "تضع",
-          "صلصة",
-          "السمك",
-          "من",
-          "فضلك"
-        ],
-        "es": [
-          "No",
-          "pongas",
-          "salsa",
-          "de",
-          "pescado",
-          "por",
-          "favor"
-        ],
-        "zh": [
-          "不要",
-          "放",
-          "鱼露"
-        ],
-        "ja": [
-          "ナンプラー",
-          "を",
-          "入れないで",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "word_sugar",
-      "kind": "word",
-      "texts": {
-        "en": "sugar",
-        "th": "น้ำตาล",
-        "fa": "شکر",
-        "ar": "سكر",
-        "es": "azúcar",
-        "zh": "糖",
-        "ja": "砂糖"
-      }
-    },
-    {
-      "id": "word_peanut",
-      "kind": "word",
-      "texts": {
-        "en": "peanut",
-        "th": "ถั่วลิสง",
-        "fa": "بادام زمینی",
-        "ar": "فول سوداني",
-        "es": "cacahuate",
-        "zh": "花生",
-        "ja": "ピーナッツ"
-      }
-    },
-    {
-      "id": "word_chili",
-      "kind": "word",
-      "texts": {
-        "en": "chili",
-        "th": "พริก",
-        "fa": "فلفل",
-        "ar": "فلفل حار",
-        "es": "chile",
-        "zh": "辣椒",
-        "ja": "唐辛子"
-      }
-    },
-    {
-      "id": "word_fish_sauce",
-      "kind": "word",
-      "texts": {
-        "en": "fish sauce",
-        "th": "น้ำปลา",
-        "fa": "سس ماهی",
-        "ar": "صلصة سمك",
-        "es": "salsa de pescado",
-        "zh": "鱼露",
-        "ja": "ナンプラー"
-      }
-    },
-    {
-      "id": "word_add",
-      "kind": "word",
-      "texts": {
-        "en": "add",
-        "th": "เพิ่ม",
-        "fa": "اضافه کردن",
-        "ar": "أضيف",
-        "es": "añadir",
-        "zh": "加",
-        "ja": "追加"
-      }
-    },
-    {
-      "id": "word_less",
-      "kind": "word",
-      "texts": {
-        "en": "less",
-        "th": "น้อย",
-        "fa": "کم",
-        "ar": "أقل",
-        "es": "menos",
-        "zh": "少",
-        "ja": "少なめ"
-      }
-    },
-    {
-      "id": "header_scenario_4",
-      "header": true,
-      "texts": {
-        "en": "Scenario 4: Paying the Vendor",
-        "th": "สถานการณ์ 4: จ่ายเงิน",
-        "fa": "سناریوی ۴: پرداخت به فروشنده",
-        "ar": "السيناريو ٤: الدفع للبائع",
-        "es": "Escenario 4: Pagar al vendedor",
-        "zh": "场景四：付款",
-        "ja": "シーン4：支払い"
-      }
-    },
-    {
-      "id": "sentence_sf_s4_this_how_much",
-      "kind": "sentence",
-      "itemIds": [
-        "word_this",
-        "word_how_much"
-      ],
-      "texts": {
-        "en": "How much is this",
-        "th": "อันนี้เท่าไหร่คะ",
-        "fa": "این چند است",
-        "ar": "كم هذا",
-        "es": "Cuánto es esto",
-        "zh": "这个多少钱",
-        "ja": "これはいくらですか"
-      },
-      "tokens": {
-        "en": [
-          "How",
-          "much",
-          "is",
-          "this"
-        ],
-        "th": [
-          "อันนี้",
-          "เท่าไหร่",
-          "คะ"
-        ],
-        "fa": [
-          "این",
-          "چند",
-          "است"
-        ],
-        "ar": [
-          "كم",
-          "هذا"
-        ],
-        "es": [
-          "Cuánto",
-          "es",
-          "esto"
-        ],
-        "zh": [
-          "这个",
-          "多少",
-          "钱"
-        ],
-        "ja": [
-          "これ",
-          "は",
-          "いくら",
-          "です",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s4_total_how_much",
-      "kind": "sentence",
-      "itemIds": [
-        "word_total",
-        "word_how_much"
-      ],
-      "texts": {
-        "en": "How much is the total",
-        "th": "ทั้งหมดเท่าไหร่คะ",
-        "fa": "مجموع چند است",
-        "ar": "كم المجموع",
-        "es": "Cuánto es el total",
-        "zh": "总共多少",
-        "ja": "合計はいくらですか"
-      },
-      "tokens": {
-        "en": [
-          "How",
-          "much",
-          "is",
-          "the",
-          "total"
-        ],
-        "th": [
-          "ทั้งหมด",
-          "เท่าไหร่",
-          "คะ"
-        ],
-        "fa": [
-          "مجموع",
-          "چند",
-          "است"
-        ],
-        "ar": [
-          "كم",
-          "المجموع"
-        ],
-        "es": [
-          "Cuánto",
-          "es",
-          "el",
-          "total"
-        ],
-        "zh": [
-          "总共",
-          "多少"
-        ],
-        "ja": [
-          "合計",
-          "は",
-          "いくら",
-          "です",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s4_expensive",
-      "kind": "sentence",
-      "itemIds": [
-        "word_expensive"
-      ],
-      "texts": {
-        "en": "It is expensive",
-        "th": "แพงค่ะ",
-        "fa": "گران است",
-        "ar": "إنه غالي",
-        "es": "Está caro",
-        "zh": "很贵",
-        "ja": "高いです"
-      },
-      "tokens": {
-        "en": [
-          "It",
-          "is",
-          "expensive"
-        ],
-        "th": [
-          "แพง",
-          "ค่ะ"
-        ],
-        "fa": [
-          "گران",
-          "است"
-        ],
-        "ar": [
-          "إنه",
-          "غالي"
-        ],
-        "es": [
-          "Está",
-          "caro"
-        ],
-        "zh": [
-          "很",
-          "贵"
-        ],
-        "ja": [
-          "高い",
-          "です"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s4_cheap",
-      "kind": "sentence",
-      "itemIds": [
-        "word_cheap"
-      ],
-      "texts": {
-        "en": "It is cheap",
-        "th": "ถูกค่ะ",
-        "fa": "ارزان است",
-        "ar": "إنه رخيص",
-        "es": "Está barato",
-        "zh": "很便宜",
-        "ja": "安いです"
-      },
-      "tokens": {
-        "en": [
-          "It",
-          "is",
-          "cheap"
-        ],
-        "th": [
-          "ถูก",
-          "ค่ะ"
-        ],
-        "fa": [
-          "ارزان",
-          "است"
-        ],
-        "ar": [
-          "إنه",
-          "رخيص"
-        ],
-        "es": [
-          "Está",
-          "barato"
-        ],
-        "zh": [
-          "很",
-          "便宜"
-        ],
-        "ja": [
-          "安い",
-          "です"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s4_pay_cash",
-      "kind": "sentence",
-      "itemIds": [
-        "word_pay",
-        "word_cash"
-      ],
-      "texts": {
-        "en": "I pay with cash",
-        "th": "จ่ายเงินสดค่ะ",
-        "fa": "با پول نقد پرداخت می‌کنم",
-        "ar": "أدفع نقداً",
-        "es": "Pago con efectivo",
-        "zh": "我用现金支付",
-        "ja": "現金で支払います"
-      },
-      "tokens": {
-        "en": [
-          "I",
-          "pay",
-          "with",
-          "cash"
-        ],
-        "th": [
-          "จ่าย",
-          "เงินสด",
-          "ค่ะ"
-        ],
-        "fa": [
-          "با",
-          "پول",
-          "نقد",
-          "پرداخت",
-          "می‌کنم"
-        ],
-        "ar": [
-          "أدفع",
-          "نقداً"
-        ],
-        "es": [
-          "Pago",
-          "con",
-          "efectivo"
-        ],
-        "zh": [
-          "我",
-          "用",
-          "现金",
-          "支付"
-        ],
-        "ja": [
-          "現金",
-          "で",
-          "支払います"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s4_scan_qr_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_scan",
-        "word_qr",
-        "word_can",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Can I scan QR",
-        "th": "สแกนคิวอาร์ได้ไหมคะ",
-        "fa": "می‌توانم با کیوآر اسکن کنم",
-        "ar": "هل يمكنني مسح رمز QR",
-        "es": "Puedo escanear código QR",
-        "zh": "可以扫二维码吗",
-        "ja": "QRでスキャンできますか"
-      },
-      "tokens": {
-        "en": [
-          "Can",
-          "I",
-          "scan",
-          "QR"
-        ],
-        "th": [
-          "สแกน",
-          "คิวอาร์",
-          "ได้",
-          "ไหม",
-          "คะ"
-        ],
-        "fa": [
-          "می‌توانم",
-          "با",
-          "کیوآر",
-          "اسکن",
-          "کنم"
-        ],
-        "ar": [
-          "هل",
-          "يمكنني",
-          "مسح",
-          "رمز",
-          "QR"
-        ],
-        "es": [
-          "Puedo",
-          "escanear",
-          "código",
-          "QR"
-        ],
-        "zh": [
-          "可以",
-          "扫描",
-          "二维码",
-          "吗"
-        ],
-        "ja": [
-          "QR",
-          "で",
-          "スキャン",
-          "できます",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s4_have_change",
-      "kind": "sentence",
-      "itemIds": [
-        "word_have",
-        "word_change",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Do you have change",
-        "th": "มีเงินทอนไหมคะ",
-        "fa": "پول خرد دارید",
-        "ar": "هل لديك الباقي",
-        "es": "Tienes cambio",
-        "zh": "有找零吗",
-        "ja": "お釣りはありますか"
-      },
-      "tokens": {
-        "en": [
-          "Do",
-          "you",
-          "have",
-          "change"
-        ],
-        "th": [
-          "มี",
-          "เงินทอน",
-          "ไหม",
-          "คะ"
-        ],
-        "fa": [
-          "پول",
-          "خرد",
-          "دارید"
-        ],
-        "ar": [
-          "هل",
-          "لديك",
-          "الباقي"
-        ],
-        "es": [
-          "Tienes",
-          "cambio"
-        ],
-        "zh": [
-          "有",
-          "找零",
-          "吗"
-        ],
-        "ja": [
-          "お釣り",
-          "は",
-          "あります",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s4_fifty_baht",
-      "kind": "sentence",
-      "itemIds": [
-        "word_fifty",
-        "word_baht"
-      ],
-      "texts": {
-        "en": "Fifty baht",
-        "th": "ห้าสิบบาทครับ",
-        "fa": "پنجاه بات",
-        "ar": "خمسون بات",
-        "es": "Cincuenta baht",
-        "zh": "五十泰铢",
-        "ja": "五十バーツ"
-      },
-      "tokens": {
-        "en": [
-          "Fifty",
-          "baht"
-        ],
-        "th": [
-          "ห้าสิบ",
-          "บาท",
-          "ครับ"
-        ],
-        "fa": [
-          "پنجاه",
-          "بات"
-        ],
-        "ar": [
-          "خمسون",
-          "بات"
-        ],
-        "es": [
-          "Cincuenta",
-          "baht"
-        ],
-        "zh": [
-          "五十",
-          "泰铢"
-        ],
-        "ja": [
-          "五十",
-          "バーツ"
-        ]
-      }
-    },
-    {
-      "id": "word_pay",
-      "kind": "word",
-      "texts": {
-        "en": "pay",
-        "th": "จ่าย",
-        "fa": "پرداخت کردن",
-        "ar": "أدفع",
-        "es": "pagar",
-        "zh": "支付",
-        "ja": "支払う"
-      }
-    },
-    {
-      "id": "word_total",
-      "kind": "word",
-      "texts": {
-        "en": "total",
-        "th": "ทั้งหมด",
-        "fa": "مجموع",
-        "ar": "المجموع",
-        "es": "total",
-        "zh": "总共",
-        "ja": "合計"
-      }
-    },
-    {
-      "id": "word_cash",
-      "kind": "word",
-      "texts": {
-        "en": "cash",
-        "th": "เงินสด",
-        "fa": "پول نقد",
-        "ar": "نقدا",
-        "es": "efectivo",
-        "zh": "现金",
-        "ja": "現金"
-      }
-    },
-    {
-      "id": "word_scan",
-      "kind": "word",
-      "texts": {
-        "en": "scan",
-        "th": "สแกน",
-        "fa": "اسکن",
-        "ar": "مسح",
-        "es": "escanear",
-        "zh": "扫描",
-        "ja": "スキャン"
-      }
-    },
-    {
-      "id": "word_qr",
-      "kind": "word",
-      "texts": {
-        "en": "QR",
-        "th": "คิวอาร์",
-        "fa": "کیوآر",
-        "ar": "رمز QR",
-        "es": "código QR",
-        "zh": "二维码",
-        "ja": "QR"
-      }
-    },
-    {
-      "id": "word_can",
-      "kind": "word",
-      "texts": {
-        "en": "can",
-        "th": "ได้",
-        "fa": "توانستن",
-        "ar": "يمكن",
-        "es": "poder",
-        "zh": "可以",
-        "ja": "できる"
-      }
-    },
-    {
-      "id": "word_change",
-      "kind": "word",
+      "id": "w22",
+      "kind": "Word",
       "texts": {
         "en": "change",
         "th": "เงินทอน",
-        "fa": "بقیه پول",
-        "ar": "الباقي",
+        "fa": "پول خرد",
+        "ar": "فكة",
         "es": "cambio",
-        "zh": "找零",
+        "zh": "零钱",
         "ja": "お釣り"
       }
     },
     {
-      "id": "word_fifty",
-      "kind": "word",
+      "id": "w23",
+      "kind": "Word",
       "texts": {
-        "en": "fifty",
-        "th": "ห้าสิบ",
-        "fa": "پنجاه",
-        "ar": "خمسون",
-        "es": "cincuenta",
-        "zh": "五十",
-        "ja": "五十"
+        "en": "keep",
+        "th": "เก็บ",
+        "fa": "نگه داشتن",
+        "ar": "احتفظ",
+        "es": "quedarse con",
+        "zh": "留着",
+        "ja": "保持"
       }
     },
     {
-      "id": "header_scenario_5",
-      "header": true,
+      "id": "w24",
+      "kind": "Word",
       "texts": {
-        "en": "Scenario 5: Eating & Taking Away",
-        "th": "สถานการณ์ 5: กินและห่อกลับ",
-        "fa": "سناریوی ۵: خوردن و بردن",
-        "ar": "السيناريو ٥: الأكل والأخذ",
-        "es": "Escenario 5: Comer y llevar",
-        "zh": "场景五：用餐与带走",
-        "ja": "シーン5：食事と持ち帰り"
+        "en": "thank you",
+        "th": "ขอบคุณ",
+        "fa": "متشکرم",
+        "ar": "شكراً",
+        "es": "gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
       }
     },
     {
-      "id": "sentence_sf_s5_delicious_very",
-      "kind": "sentence",
-      "itemIds": [
-        "word_delicious",
-        "word_very"
-      ],
+      "id": "w25",
+      "kind": "Word",
       "texts": {
-        "en": "Very delicious",
-        "th": "อร่อยมากค่ะ",
-        "fa": "خیلی خوشمزه است",
-        "ar": "لذيذ جداً",
-        "es": "Muy delicioso",
-        "zh": "非常好吃",
-        "ja": "とてもおいしいです"
+        "en": "goodbye",
+        "th": "ลาก่อน",
+        "fa": "خداحافظ",
+        "ar": "وداعاً",
+        "es": "adiós",
+        "zh": "再见",
+        "ja": "さようなら"
+      }
+    },
+    {
+      "id": "s21",
+      "kind": "Sentence",
+      "texts": {
+        "en": "How much is it?",
+        "th": "เท่าไหร่ครับ",
+        "fa": "چقدر است؟",
+        "ar": "كم السعر؟",
+        "es": "¿Cuánto es?",
+        "zh": "多少钱？",
+        "ja": "いくらですか？"
       },
       "tokens": {
-        "en": [
-          "Very",
-          "delicious"
-        ],
-        "th": [
-          "อร่อย",
-          "มาก",
-          "ค่ะ"
-        ],
-        "fa": [
-          "خیلی",
-          "خوشمزه",
-          "است"
-        ],
-        "ar": [
-          "لذيذ",
-          "جداً"
-        ],
-        "es": [
-          "Muy",
-          "delicioso"
-        ],
-        "zh": [
-          "非常",
-          "好吃"
-        ],
-        "ja": [
-          "とても",
-          "おいしい",
-          "です"
-        ]
+        "th": ["เท่าไหร่", "ครับ"],
+        "zh": ["多少", "钱", "？"],
+        "ja": ["いくら", "です", "か", "？"]
       }
     },
     {
-      "id": "sentence_sf_s5_request_put_bag",
-      "kind": "sentence",
-      "itemIds": [
-        "word_request",
-        "word_put",
-        "word_bag"
-      ],
+      "id": "s22",
+      "kind": "Sentence",
       "texts": {
-        "en": "Put it in a bag please",
-        "th": "ขอใส่ถุงค่ะ",
-        "fa": "لطفا در کیسه بگذارید",
-        "ar": "ضعه في كيس من فضلك",
-        "es": "Ponlo en una bolsa por favor",
-        "zh": "请装进袋子",
-        "ja": "袋に入れてください"
+        "en": "Here is the money.",
+        "th": "นี่คือเงิน",
+        "fa": "این پول است.",
+        "ar": "إليك المال.",
+        "es": "Aquí está el dinero.",
+        "zh": "这是钱。",
+        "ja": "お金はこちらです。"
       },
       "tokens": {
-        "en": [
-          "Put",
-          "it",
-          "in",
-          "a",
-          "bag",
-          "please"
-        ],
-        "th": [
-          "ขอ",
-          "ใส่",
-          "ถุง",
-          "ค่ะ"
-        ],
-        "fa": [
-          "لطفا",
-          "در",
-          "کیسه",
-          "بگذارید"
-        ],
-        "ar": [
-          "ضعه",
-          "في",
-          "كيس",
-          "من",
-          "فضلك"
-        ],
-        "es": [
-          "Ponlo",
-          "en",
-          "una",
-          "bolsa",
-          "por",
-          "favor"
-        ],
-        "zh": [
-          "请",
-          "装进",
-          "袋子"
-        ],
-        "ja": [
-          "袋",
-          "に",
-          "入れて",
-          "ください"
-        ]
+        "th": ["นี่", "คือ", "เงิน"],
+        "zh": ["这", "是", "钱", "。"],
+        "ja": ["お金", "は", "こちら", "です", "。"]
       }
     },
     {
-      "id": "sentence_sf_s5_request_bag_more",
-      "kind": "sentence",
-      "itemIds": [
-        "word_request",
-        "word_bag",
-        "word_more"
-      ],
+      "id": "s23",
+      "kind": "Sentence",
       "texts": {
-        "en": "One more bag please",
-        "th": "ขอถุงอีกค่ะ",
-        "fa": "یک کیسه دیگر لطفا",
-        "ar": "كيس آخر من فضلك",
-        "es": "Una bolsa más por favor",
-        "zh": "再要一个袋子",
-        "ja": "袋をもう一枚ください"
+        "en": "Keep the change.",
+        "th": "เก็บเงินทอนไว้เลย",
+        "fa": "پول خرد را نگه دار.",
+        "ar": "احتفظ بالفكة.",
+        "es": "Quédate con el cambio.",
+        "zh": "不用找零了。",
+        "ja": "お釣りは結構です。"
       },
       "tokens": {
-        "en": [
-          "One",
-          "more",
-          "bag",
-          "please"
-        ],
-        "th": [
-          "ขอ",
-          "ถุง",
-          "อีก",
-          "ค่ะ"
-        ],
-        "fa": [
-          "یک",
-          "کیسه",
-          "دیگر",
-          "لطفا"
-        ],
-        "ar": [
-          "كيس",
-          "آخر",
-          "من",
-          "فضلك"
-        ],
-        "es": [
-          "Una",
-          "bolsa",
-          "más",
-          "por",
-          "favor"
-        ],
-        "zh": [
-          "再",
-          "要",
-          "一个",
-          "袋子"
-        ],
-        "ja": [
-          "袋",
-          "を",
-          "もう",
-          "一枚",
-          "ください"
-        ]
+        "th": ["เก็บ", "เงินทอน", "ไว้", "เลย"],
+        "zh": ["不用", "找零", "了", "。"],
+        "ja": ["お", "釣り", "は", "結構", "です", "。"]
       }
     },
     {
-      "id": "sentence_sf_s5_trash_where",
-      "kind": "sentence",
-      "itemIds": [
-        "word_trash_bin",
-        "word_at",
-        "word_where"
-      ],
+      "id": "s24",
+      "kind": "Sentence",
       "texts": {
-        "en": "Where is the trash bin",
-        "th": "ถังขยะอยู่ที่ไหนคะ",
-        "fa": "سطل زباله کجاست",
-        "ar": "أين سلة المهملات",
-        "es": "Dónde está el basurero",
-        "zh": "垃圾桶在哪里",
-        "ja": "ごみ箱はどこですか"
+        "en": "Thank you very much.",
+        "th": "ขอบคุณมากครับ",
+        "fa": "خیلی متشکرم.",
+        "ar": "شكراً جزيلاً.",
+        "es": "Muchas gracias.",
+        "zh": "非常感谢。",
+        "ja": "どうもありがとうございます。"
       },
       "tokens": {
-        "en": [
-          "Where",
-          "is",
-          "the",
-          "trash",
-          "bin"
-        ],
-        "th": [
-          "ถังขยะ",
-          "อยู่",
-          "ที่ไหน",
-          "คะ"
-        ],
-        "fa": [
-          "سطل",
-          "زباله",
-          "کجاست"
-        ],
-        "ar": [
-          "أين",
-          "سلة",
-          "المهملات"
-        ],
-        "es": [
-          "Dónde",
-          "está",
-          "el",
-          "basurero"
-        ],
-        "zh": [
-          "垃圾桶",
-          "在",
-          "哪里"
-        ],
-        "ja": [
-          "ごみ箱",
-          "は",
-          "どこ",
-          "です",
-          "か"
-        ]
+        "th": ["ขอบคุณ", "มาก", "ครับ"],
+        "zh": ["非常", "感谢", "。"],
+        "ja": ["どうも", "ありがとう", "ございます", "。"]
       }
     },
     {
-      "id": "sentence_sf_s5_have_tissue",
-      "kind": "sentence",
-      "itemIds": [
-        "word_have",
-        "word_tissue",
-        "word_question_particle"
-      ],
+      "id": "s25",
+      "kind": "Sentence",
       "texts": {
-        "en": "Do you have tissues",
-        "th": "มีกระดาษทิชชู่ไหมคะ",
-        "fa": "دستمال کاغذی دارید",
-        "ar": "هل لديك مناديل",
-        "es": "Tienes servilletas",
-        "zh": "有纸巾吗",
-        "ja": "ティッシュはありますか"
+        "en": "Goodbye, see you next time.",
+        "th": "ลาก่อน แล้วพบกันใหม่",
+        "fa": "خداحافظ، دفعه بعد می‌بینمت.",
+        "ar": "وداعاً، أراك المرة القادمة.",
+        "es": "Adiós, nos vemos la próxima vez.",
+        "zh": "再见，下次见。",
+        "ja": "さようなら、また次回。"
       },
       "tokens": {
-        "en": [
-          "Do",
-          "you",
-          "have",
-          "tissues"
-        ],
-        "th": [
-          "มี",
-          "กระดาษทิชชู่",
-          "ไหม",
-          "คะ"
-        ],
-        "fa": [
-          "دستمال",
-          "کاغذی",
-          "دارید"
-        ],
-        "ar": [
-          "هل",
-          "لديك",
-          "مناديل"
-        ],
-        "es": [
-          "Tienes",
-          "servilletas"
-        ],
-        "zh": [
-          "有",
-          "纸巾",
-          "吗"
-        ],
-        "ja": [
-          "ティッシュ",
-          "は",
-          "あります",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "sentence_sf_s5_request_tissue_more",
-      "kind": "sentence",
-      "itemIds": [
-        "word_request",
-        "word_tissue",
-        "word_more"
-      ],
-      "texts": {
-        "en": "More tissue please",
-        "th": "ขอกระดาษทิชชู่อีกค่ะ",
-        "fa": "دستمال کاغذی بیشتر لطفا",
-        "ar": "مناديل أكثر من فضلك",
-        "es": "Más servilletas por favor",
-        "zh": "再要一些纸巾",
-        "ja": "ティッシュをもう一枚ください"
-      },
-      "tokens": {
-        "en": [
-          "More",
-          "tissue",
-          "please"
-        ],
-        "th": [
-          "ขอ",
-          "กระดาษทิชชู่",
-          "อีก",
-          "ค่ะ"
-        ],
-        "fa": [
-          "دستمال",
-          "کاغذی",
-          "بیشتر",
-          "لطفا"
-        ],
-        "ar": [
-          "مناديل",
-          "أكثر",
-          "من",
-          "فضلك"
-        ],
-        "es": [
-          "Más",
-          "servilletas",
-          "por",
-          "favor"
-        ],
-        "zh": [
-          "再",
-          "要",
-          "一些",
-          "纸巾"
-        ],
-        "ja": [
-          "ティッシュ",
-          "を",
-          "もう",
-          "一枚",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "word_where",
-      "kind": "word",
-      "texts": {
-        "en": "where",
-        "th": "ที่ไหน",
-        "fa": "کجا",
-        "ar": "أين",
-        "es": "dónde",
-        "zh": "哪里",
-        "ja": "どこ"
-      }
-    },
-    {
-      "id": "word_at",
-      "kind": "word",
-      "texts": {
-        "en": "be at",
-        "th": "อยู่",
-        "fa": "بودن",
-        "ar": "يوجد",
-        "es": "estar",
-        "zh": "在",
-        "ja": "あります"
-      }
-    },
-    {
-      "id": "word_trash_bin",
-      "kind": "word",
-      "texts": {
-        "en": "trash bin",
-        "th": "ถังขยะ",
-        "fa": "سطل زباله",
-        "ar": "سلة مهملات",
-        "es": "basurero",
-        "zh": "垃圾桶",
-        "ja": "ごみ箱"
-      }
-    },
-    {
-      "id": "word_tissue",
-      "kind": "word",
-      "texts": {
-        "en": "tissue",
-        "th": "กระดาษทิชชู่",
-        "fa": "دستمال کاغذی",
-        "ar": "منديل",
-        "es": "servilleta",
-        "zh": "纸巾",
-        "ja": "ティッシュ"
-      }
-    },
-    {
-      "id": "word_more",
-      "kind": "word",
-      "texts": {
-        "en": "more",
-        "th": "อีก",
-        "fa": "بیشتر",
-        "ar": "أكثر",
-        "es": "más",
-        "zh": "再",
-        "ja": "もう"
+        "th": ["ลาก่อน", " ", "แล้ว", "พบ", "กัน", "ใหม่"],
+        "zh": ["再见", "，", "下次", "见", "。"],
+        "ja": ["さようなら", "、", "また", "次回", "。"]
       }
     }
   ]

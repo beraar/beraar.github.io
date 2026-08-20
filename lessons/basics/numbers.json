@@ -2,34 +2,21 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "h1",
       "header": true,
       "texts": {
-        "en": "Core Words",
-        "th": "คำศัพท์หลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras clave",
-        "zh": "核心词汇",
-        "ja": "基本単語"
+        "en": "Scenario 1: Counting 1 to 5",
+        "th": "สถานการณ์ที่ 1: การนับ 1 ถึง 5",
+        "fa": "سناریو ۱: شمارش ۱ تا ۵",
+        "ar": "السيناريو 1: العد من 1 إلى 5",
+        "es": "Escenario 1: Contar del 1 al 5",
+        "zh": "场景 1：数 1 到 5",
+        "ja": "シナリオ 1：1から5まで数える"
       }
     },
     {
-      "id": "word_zero",
-      "kind": "word",
-      "texts": {
-        "en": "zero",
-        "th": "ศูนย์",
-        "fa": "صفر",
-        "ar": "صفر",
-        "es": "cero",
-        "zh": "零",
-        "ja": "ゼロ / 〇"
-      }
-    },
-    {
-      "id": "word_one",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
         "en": "one",
         "th": "หนึ่ง",
@@ -41,8 +28,8 @@
       }
     },
     {
-      "id": "word_two",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
       "texts": {
         "en": "two",
         "th": "สอง",
@@ -54,8 +41,8 @@
       }
     },
     {
-      "id": "word_three",
-      "kind": "word",
+      "id": "w3",
+      "kind": "Word",
       "texts": {
         "en": "three",
         "th": "สาม",
@@ -67,8 +54,8 @@
       }
     },
     {
-      "id": "word_four",
-      "kind": "word",
+      "id": "w4",
+      "kind": "Word",
       "texts": {
         "en": "four",
         "th": "สี่",
@@ -80,8 +67,8 @@
       }
     },
     {
-      "id": "word_five",
-      "kind": "word",
+      "id": "w5",
+      "kind": "Word",
       "texts": {
         "en": "five",
         "th": "ห้า",
@@ -93,8 +80,145 @@
       }
     },
     {
-      "id": "word_six",
-      "kind": "word",
+      "id": "s1",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I have one apple.",
+        "th": "ฉันมีแอปเปิลหนึ่งลูก",
+        "fa": "من یک سیب دارم.",
+        "ar": "لدي تفاحة واحدة.",
+        "es": "Tengo una manzana.",
+        "zh": "我有一个苹果。",
+        "ja": "私はりんごを一つ持っています。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "มี", "แอปเปิล", "หนึ่ง", "ลูก"],
+        "zh": ["我", "有", "一", "个", "苹果", "。"],
+        "ja": [
+          "私",
+          "は",
+          "りんご",
+          "を",
+          "一つ",
+          "持っ",
+          "て",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "Sentence",
+      "texts": {
+        "en": "You have two books.",
+        "th": "คุณมีหนังสือสองเล่ม",
+        "fa": "تو دو کتاب داری.",
+        "ar": "لديك كتابان.",
+        "es": "Tienes dos libros.",
+        "zh": "你有两本书。",
+        "ja": "あなたは本を二冊持っています。"
+      },
+      "tokens": {
+        "th": ["คุณ", "มี", "หนังสือ", "สอง", "เล่ม"],
+        "zh": ["你", "有", "两", "本", "书", "。"],
+        "ja": [
+          "あなた",
+          "は",
+          "本",
+          "を",
+          "二冊",
+          "持っ",
+          "て",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We are three friends.",
+        "th": "พวกเราเป็นเพื่อนสามคน",
+        "fa": "ما سه دوست هستیم.",
+        "ar": "نحن ثلاثة أصدقاء.",
+        "es": "Somos tres amigos.",
+        "zh": "我们是三个朋友。",
+        "ja": "私たちは三人の友達です。"
+      },
+      "tokens": {
+        "th": ["พวกเรา", "เป็น", "เพื่อน", "สาม", "คน"],
+        "zh": ["我们", "是", "三", "个", "朋友", "。"],
+        "ja": ["私", "たち", "は", "三人", "の", "友達", "です", "。"]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "There are four chairs.",
+        "th": "มีเก้าอี้สี่ตัว",
+        "fa": "چهار صندلی وجود دارد.",
+        "ar": "يوجد أربعة كراسي.",
+        "es": "Hay cuatro sillas.",
+        "zh": "有四把椅子。",
+        "ja": "椅子が四つあります。"
+      },
+      "tokens": {
+        "th": ["มี", "เก้าอี้", "สี่", "ตัว"],
+        "zh": ["有", "四", "把", "椅子", "。"],
+        "ja": ["椅子", "が", "四つ", "あり", "ます", "。"]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "She has five pens.",
+        "th": "เธอมีปากกาสีด้าม",
+        "fa": "او پنج خودکار دارد.",
+        "ar": "لديها خمسة أقلام.",
+        "es": "Ella tiene cinco bolígrafos.",
+        "zh": "她有五支笔。",
+        "ja": "彼女はペンを五本持っています。"
+      },
+      "tokens": {
+        "th": ["เธอ", "มี", "ปากกา", "ห้า", "ด้าม"],
+        "zh": ["她", "有", "五", "支", "笔", "。"],
+        "ja": [
+          "彼女",
+          "は",
+          "ペン",
+          "を",
+          "五本",
+          "持っ",
+          "て",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Counting 6 to 10",
+        "th": "สถานการณ์ที่ 2: การนับ 6 ถึง 10",
+        "fa": "سناریو ۲: شمارش ۶ تا ۱۰",
+        "ar": "السيناريو 2: العد من 6 إلى 10",
+        "es": "Escenario 2: Contar del 6 al 10",
+        "zh": "场景 2：数 6 到 10",
+        "ja": "シナリオ 2：6から10まで数える"
+      }
+    },
+    {
+      "id": "w6",
+      "kind": "Word",
       "texts": {
         "en": "six",
         "th": "หก",
@@ -106,8 +230,8 @@
       }
     },
     {
-      "id": "word_seven",
-      "kind": "word",
+      "id": "w7",
+      "kind": "Word",
       "texts": {
         "en": "seven",
         "th": "เจ็ด",
@@ -119,8 +243,8 @@
       }
     },
     {
-      "id": "word_eight",
-      "kind": "word",
+      "id": "w8",
+      "kind": "Word",
       "texts": {
         "en": "eight",
         "th": "แปด",
@@ -132,8 +256,8 @@
       }
     },
     {
-      "id": "word_nine",
-      "kind": "word",
+      "id": "w9",
+      "kind": "Word",
       "texts": {
         "en": "nine",
         "th": "เก้า",
@@ -145,8 +269,8 @@
       }
     },
     {
-      "id": "word_ten",
-      "kind": "word",
+      "id": "w10",
+      "kind": "Word",
       "texts": {
         "en": "ten",
         "th": "สิบ",
@@ -158,506 +282,126 @@
       }
     },
     {
-      "id": "word_hundred",
-      "kind": "word",
+      "id": "s6",
+      "kind": "Sentence",
       "texts": {
-        "en": "hundred",
-        "th": "ร้อย",
-        "fa": "صد",
-        "ar": "مائة",
-        "es": "cien",
-        "zh": "百",
-        "ja": "百"
+        "en": "I see six birds.",
+        "th": "ฉันเห็นนกหกตัว",
+        "fa": "من شش پرنده می‌بینم.",
+        "ar": "أرى ستة طيور.",
+        "es": "Veo seis pájaros.",
+        "zh": "我看到六只鸟。",
+        "ja": "私は鳥を六羽見ます。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "เห็น", "นก", "หก", "ตัว"],
+        "zh": ["我", "看到", "六", "只", "鸟", "。"],
+        "ja": ["私", "は", "鳥", "を", "六羽", "見", "ます", "。"]
       }
     },
     {
-      "id": "word_number",
-      "kind": "word",
+      "id": "s7",
+      "kind": "Sentence",
       "texts": {
-        "en": "number",
-        "th": "เบอร์",
-        "fa": "شماره / عدد",
-        "ar": "رقم",
-        "es": "número",
-        "zh": "号码 / 数字",
-        "ja": "番号 / 数字"
+        "en": "He has seven cars.",
+        "th": "เขามีรถเจ็ดคัน",
+        "fa": "او هفت ماشین دارد.",
+        "ar": "لديه سبع سيارات.",
+        "es": "Él tiene siete coches.",
+        "zh": "他有七辆车。",
+        "ja": "彼は車を七台持っています。"
+      },
+      "tokens": {
+        "th": ["เขา", "มี", "รถ", "เจ็ด", "คัน"],
+        "zh": ["他", "有", "七", "辆", "车", "。"],
+        "ja": ["彼", "は", "車", "を", "七台", "持っ", "て", "い", "ます", "。"]
       }
     },
     {
-      "id": "word_how_much",
-      "kind": "word",
+      "id": "s8",
+      "kind": "Sentence",
       "texts": {
-        "en": "how much",
-        "th": "เท่าไหร่",
-        "fa": "چقدر",
-        "ar": "كم",
-        "es": "cuánto",
-        "zh": "多少",
-        "ja": "いくら"
+        "en": "We need eight tickets.",
+        "th": "เราต้องการตั๋วแปดใบ",
+        "fa": "ما به هشت بلیط نیاز داریم.",
+        "ar": "نحن بحاجة إلى ثماني تذاكر.",
+        "es": "Necesitamos ocho boletos.",
+        "zh": "我们需要八张票。",
+        "ja": "私たちは切符を八枚必要としています。"
+      },
+      "tokens": {
+        "th": ["เรา", "ต้องการ", "ตั๋ว", "แปด", "ใบ"],
+        "zh": ["我们", "需要", "八", "张", "票", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "切符",
+          "を",
+          "八枚",
+          "必要",
+          "と",
+          "し",
+          "て",
+          "い",
+          "ます",
+          "。"
+        ]
       }
     },
     {
-      "id": "word_how_many",
-      "kind": "word",
+      "id": "s9",
+      "kind": "Sentence",
       "texts": {
-        "en": "how many",
-        "th": "กี่",
-        "fa": "چند",
-        "ar": "كم",
-        "es": "cuántos",
-        "zh": "几",
-        "ja": "いくつ / 何"
+        "en": "They bought nine flowers.",
+        "th": "พวกเขาซื้อดอกไม้เก้าดอก",
+        "fa": "آن‌ها نه گل خریدند.",
+        "ar": "اشتروا تسع زهور.",
+        "es": "Ellos compraron nueve flores.",
+        "zh": "他们买了九朵花。",
+        "ja": "彼らは花を九本買いました。"
+      },
+      "tokens": {
+        "th": ["พวกเขา", "ซื้อ", "ดอกไม้", "เก้า", "ดอก"],
+        "zh": ["他们", "买", "了", "九", "朵", "花", "。"],
+        "ja": ["彼ら", "は", "花", "を", "九本", "買い", "まし", "た", "。"]
       }
     },
     {
-      "id": "word_i",
-      "kind": "word",
+      "id": "s10",
+      "kind": "Sentence",
       "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
+        "en": "There are ten students.",
+        "th": "มีนักเรียนสิบคน",
+        "fa": "ده دانش‌آموز وجود دارد.",
+        "ar": "يوجد عشرة طلاب.",
+        "es": "Hay diez estudiantes.",
+        "zh": "有十个学生。",
+        "ja": "生徒が十人います。"
+      },
+      "tokens": {
+        "th": ["มี", "นักเรียน", "สิบ", "คน"],
+        "zh": ["有", "十", "个", "学生", "。"],
+        "ja": ["生徒", "が", "十人", "い", "ます", "。"]
       }
     },
+
     {
-      "id": "word_you",
-      "kind": "word",
-      "texts": {
-        "en": "you",
-        "th": "คุณ",
-        "fa": "شما",
-        "ar": "أنت",
-        "es": "tú / usted",
-        "zh": "你",
-        "ja": "あなた"
-      }
-    },
-    {
-      "id": "word_polite_particle",
-      "kind": "word",
-      "texts": {
-        "en": "polite particle",
-        "th": "ครับ / ค่ะ",
-        "fa": "ذره ادب",
-        "ar": "أداة أدب",
-        "es": "partícula de cortesía",
-        "zh": "礼貌助词",
-        "ja": "丁寧語"
-      }
-    },
-    {
-      "id": "word_question_particle",
-      "kind": "word",
-      "texts": {
-        "en": "question marker",
-        "th": "ไหม",
-        "fa": "آیا",
-        "ar": "هل",
-        "es": "partícula interrogativa",
-        "zh": "吗",
-        "ja": "か"
-      }
-    },
-    {
-      "id": "word_can",
-      "kind": "word",
-      "texts": {
-        "en": "can",
-        "th": "ได้",
-        "fa": "توانستن",
-        "ar": "يستطيع",
-        "es": "poder",
-        "zh": "可以",
-        "ja": "できる"
-      }
-    },
-    {
-      "id": "header_scenario1",
+      "id": "h3",
       "header": true,
       "texts": {
-        "en": "Scenario 1: Basic Counting",
-        "th": "สถานการณ์ 1: การนับเลขพื้นฐาน",
-        "fa": "سناریو ۱: شمارش پایه",
-        "ar": "السيناريو 1: العد الأساسي",
-        "es": "Escenario 1: Contar básico",
-        "zh": "场景一：基本计数",
-        "ja": "シナリオ1：基本的な数え方"
+        "en": "Scenario 3: Tens and Hundreds",
+        "th": "สถานการณ์ที่ 3: หลักสิบและหลักร้อย",
+        "fa": "سناریو ۳: ده‌ها و صدها",
+        "ar": "السيناريو 3: العشرات والمئات",
+        "es": "Escenario 3: Decenas y centenas",
+        "zh": "场景 3：十和百",
+        "ja": "シナリオ 3：十と百"
       }
     },
     {
-      "id": "sentence_count_1_to_5",
-      "kind": "sentence",
-      "itemIds": [
-        "word_one",
-        "word_two",
-        "word_three",
-        "word_four",
-        "word_five"
-      ],
-      "texts": {
-        "en": "One, two, three, four, five",
-        "th": "หนึ่ง สอง สาม สี่ ห้า ค่ะ",
-        "fa": "یک، دو، سه، چهار، پنج",
-        "ar": "واحد، اثنان، ثلاثة، أربعة، خمسة",
-        "es": "Uno, dos, tres, cuatro, cinco",
-        "zh": "一二三四五",
-        "ja": "一、二、三、四、五"
-      },
-      "tokens": {
-        "en": ["One,", "two,", "three,", "four,", "five"],
-        "th": ["หนึ่ง", "สอง", "สาม", "สี่", "ห้า", "ค่ะ"],
-        "fa": ["یک،", "دو،", "سه،", "چهار،", "پنج"],
-        "ar": ["واحد،", "اثنان،", "ثلاثة،", "أربعة،", "خمسة"],
-        "es": ["Uno,", "dos,", "tres,", "cuatro,", "cinco"],
-        "zh": ["一", "二", "三", "四", "五"],
-        "ja": ["一、", "二、", "三、", "四、", "五"]
-      }
-    },
-    {
-      "id": "sentence_count_6_to_10",
-      "kind": "sentence",
-      "itemIds": [
-        "word_six",
-        "word_seven",
-        "word_eight",
-        "word_nine",
-        "word_ten"
-      ],
-      "texts": {
-        "en": "Six, seven, eight, nine, ten",
-        "th": "หก เจ็ด แปด เก้า สิบ ค่ะ",
-        "fa": "شش، هفت، هشت، نه، ده",
-        "ar": "ستة، سبعة، ثمانية، تسعة، عشرة",
-        "es": "Seis, siete, ocho, nueve, diez",
-        "zh": "六七八九十",
-        "ja": "六、七、八、九、十"
-      },
-      "tokens": {
-        "en": ["Six,", "seven,", "eight,", "nine,", "ten"],
-        "th": ["หก", "เจ็ด", "แปด", "เก้า", "สิบ", "ค่ะ"],
-        "fa": ["شش،", "هفت،", "هشت،", "نه،", "ده"],
-        "ar": ["ستة،", "سبعة،", "ثمانية،", "تسعة،", "عشرة"],
-        "es": ["Seis,", "siete,", "ocho,", "nueve,", "diez"],
-        "zh": ["六", "七", "八", "九", "十"],
-        "ja": ["六、", "七、", "八、", "九、", "十"]
-      }
-    },
-    {
-      "id": "sentence_can_count_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_count",
-        "word_can",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Can you count?",
-        "th": "คุณนับเลขเป็นไหมครับ",
-        "fa": "آیا می‌توانید بشمارید؟",
-        "ar": "هل تستطيع العد؟",
-        "es": "¿Puedes contar?",
-        "zh": "你会数数吗？",
-        "ja": "数を数えられますか？"
-      },
-      "tokens": {
-        "en": ["Can", "you", "count?"],
-        "th": ["คุณ", "นับ", "เลข", "เป็น", "ไหม", "ครับ"],
-        "fa": ["آیا", "می‌توانید", "بشمارید؟"],
-        "ar": ["هل", "تستطيع", "العد؟"],
-        "es": ["¿Puedes", "contar?"],
-        "zh": ["会", "数数", "吗？"],
-        "ja": ["数", "を", "数えられ", "ます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_can_count_answer",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_count", "word_can"],
-      "texts": {
-        "en": "Yes, I can count",
-        "th": "ได้ค่ะ ฉันนับเลขเป็นค่ะ",
-        "fa": "بله، می‌توانم بشمارم",
-        "ar": "نعم، أستطيع العد",
-        "es": "Sí, puedo contar",
-        "zh": "可以，我会数数",
-        "ja": "はい、数えられます"
-      },
-      "tokens": {
-        "en": ["Yes,", "I", "can", "count"],
-        "th": ["ได้", "ค่ะ", "ฉัน", "นับ", "เลข", "เป็น", "ค่ะ"],
-        "fa": ["بله،", "می‌توانم", "بشمارم"],
-        "ar": ["نعم،", "أستطيع", "العد"],
-        "es": ["Sí,", "puedo", "contar"],
-        "zh": ["可以，", "会", "数数"],
-        "ja": ["はい、", "数えられ", "ます"]
-      }
-    },
-    {
-      "id": "sentence_count_to_ten",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_count", "word_ten", "word_can"],
-      "texts": {
-        "en": "I can count to ten",
-        "th": "ฉันนับได้ถึงสิบค่ะ",
-        "fa": "من می‌توانم تا ده بشمارم",
-        "ar": "أستطيع العد إلى عشرة",
-        "es": "Puedo contar hasta diez",
-        "zh": "我能数到十",
-        "ja": "十まで数えられます"
-      },
-      "tokens": {
-        "en": ["I", "can", "count", "to", "ten"],
-        "th": ["ฉัน", "นับ", "ได้", "ถึง", "สิบ", "ค่ะ"],
-        "fa": ["من", "می‌توانم", "تا", "ده", "بشمارم"],
-        "ar": ["أستطيع", "العد", "إلى", "عشرة"],
-        "es": ["Puedo", "contar", "hasta", "diez"],
-        "zh": ["能", "数", "到", "十"],
-        "ja": ["十", "まで", "数えられ", "ます"]
-      }
-    },
-    {
-      "id": "sentence_how_say_five",
-      "kind": "sentence",
-      "itemIds": ["word_five", "word_say", "word_what"],
-      "texts": {
-        "en": "How do you say 5 in Thai?",
-        "th": "เลข 5 ภาษาไทยพูดว่าอะไรคะ",
-        "fa": "۵ به تایلندی چه می‌شود؟",
-        "ar": "كيف تقول 5 بالتايلاندية؟",
-        "es": "¿Cómo se dice 5 en tailandés?",
-        "zh": "5用泰语怎么说？",
-        "ja": "5はタイ語で何と言いますか？"
-      },
-      "tokens": {
-        "en": ["How", "do", "you", "say", "5", "in", "Thai?"],
-        "th": ["เลข", "5", "ภาษา", "ไทย", "พูด", "ว่า", "อะไร", "คะ"],
-        "fa": ["۵", "به", "تایلندی", "چه", "می‌شود؟"],
-        "ar": ["كيف", "تقول", "5", "بالتايلاندية؟"],
-        "es": ["¿Cómo", "se", "dice", "5", "en", "tailandés?"],
-        "zh": ["5", "用", "泰语", "怎么", "说？"],
-        "ja": ["5", "は", "タイ語", "で", "何", "と", "言い", "ます", "か？"]
-      }
-    },
-    {
-      "id": "word_count",
-      "kind": "word",
-      "texts": {
-        "en": "count",
-        "th": "นับ",
-        "fa": "شمردن",
-        "ar": "يعد",
-        "es": "contar",
-        "zh": "数",
-        "ja": "数える"
-      }
-    },
-    {
-      "id": "word_say",
-      "kind": "word",
-      "texts": {
-        "en": "say / speak",
-        "th": "พูด / ว่า",
-        "fa": "گفتن",
-        "ar": "يقول",
-        "es": "decir",
-        "zh": "说",
-        "ja": "言う"
-      }
-    },
-    {
-      "id": "word_what",
-      "kind": "word",
-      "texts": {
-        "en": "what",
-        "th": "อะไร",
-        "fa": "چه",
-        "ar": "ماذا",
-        "es": "qué",
-        "zh": "什么",
-        "ja": "何"
-      }
-    },
-    {
-      "id": "header_scenario2",
-      "header": true,
-      "texts": {
-        "en": "Scenario 2: Tens & Larger Numbers",
-        "th": "สถานการณ์ 2: เลขหลักสิบและเลขมากกว่า",
-        "fa": "سناریو ۲: دهگان و اعداد بزرگ‌تر",
-        "ar": "السيناريو 2: العشرات والأرقام الأكبر",
-        "es": "Escenario 2: Decenas y números mayores",
-        "zh": "场景二：十位数与更大的数字",
-        "ja": "シナリオ2：十の位と大きな数"
-      }
-    },
-    {
-      "id": "sentence_twenty",
-      "kind": "sentence",
-      "itemIds": ["word_twenty"],
-      "texts": {
-        "en": "Twenty",
-        "th": "ยี่สิบ ครับ",
-        "fa": "بیست",
-        "ar": "عشرون",
-        "es": "Veinte",
-        "zh": "二十",
-        "ja": "二十"
-      },
-      "tokens": {
-        "en": ["Twenty"],
-        "th": ["ยี่สิบ", "ครับ"],
-        "fa": ["بیست"],
-        "ar": ["عشرون"],
-        "es": ["Veinte"],
-        "zh": ["二十"],
-        "ja": ["二十"]
-      }
-    },
-    {
-      "id": "sentence_twenty_one",
-      "kind": "sentence",
-      "itemIds": ["word_twenty", "word_ed"],
-      "texts": {
-        "en": "Twenty-one",
-        "th": "ยี่สิบเอ็ด ครับ",
-        "fa": "بیست و یک",
-        "ar": "واحد وعشرون",
-        "es": "Veintiuno",
-        "zh": "二十一",
-        "ja": "二十一"
-      },
-      "tokens": {
-        "en": ["Twenty-one"],
-        "th": ["ยี่สิบ", "เอ็ด", "ครับ"],
-        "fa": ["بیست", "و", "یک"],
-        "ar": ["واحد", "وعشرون"],
-        "es": ["Veintiuno"],
-        "zh": ["二十一"],
-        "ja": ["二十一"]
-      }
-    },
-    {
-      "id": "sentence_thirty",
-      "kind": "sentence",
-      "itemIds": ["word_thirty"],
-      "texts": {
-        "en": "Thirty",
-        "th": "สามสิบ ครับ",
-        "fa": "سی",
-        "ar": "ثلاثون",
-        "es": "Treinta",
-        "zh": "三十",
-        "ja": "三十"
-      },
-      "tokens": {
-        "en": ["Thirty"],
-        "th": ["สามสิบ", "ครับ"],
-        "fa": ["سی"],
-        "ar": ["ثلاثون"],
-        "es": ["Treinta"],
-        "zh": ["三十"],
-        "ja": ["三十"]
-      }
-    },
-    {
-      "id": "sentence_fifty",
-      "kind": "sentence",
-      "itemIds": ["word_fifty"],
-      "texts": {
-        "en": "Fifty",
-        "th": "ห้าสิบ ครับ",
-        "fa": "پنجاه",
-        "ar": "خمسون",
-        "es": "Cincuenta",
-        "zh": "五十",
-        "ja": "五十"
-      },
-      "tokens": {
-        "en": ["Fifty"],
-        "th": ["ห้าสิบ", "ครับ"],
-        "fa": ["پنجاه"],
-        "ar": ["خمسون"],
-        "es": ["Cincuenta"],
-        "zh": ["五十"],
-        "ja": ["五十"]
-      }
-    },
-    {
-      "id": "sentence_one_hundred",
-      "kind": "sentence",
-      "itemIds": ["word_one", "word_hundred"],
-      "texts": {
-        "en": "One hundred",
-        "th": "หนึ่งร้อย ครับ",
-        "fa": "صد",
-        "ar": "مائة",
-        "es": "Cien",
-        "zh": "一百",
-        "ja": "百"
-      },
-      "tokens": {
-        "en": ["One", "hundred"],
-        "th": ["หนึ่ง", "ร้อย", "ครับ"],
-        "fa": ["صد"],
-        "ar": ["مائة"],
-        "es": ["Cien"],
-        "zh": ["一百"],
-        "ja": ["百"]
-      }
-    },
-    {
-      "id": "sentence_how_say_21",
-      "kind": "sentence",
-      "itemIds": ["word_say", "word_what", "word_number"],
-      "texts": {
-        "en": "How do you say 21 in Thai?",
-        "th": "เลข 21 ภาษาไทยพูดว่าอะไรคะ",
-        "fa": "۲۱ به تایلندی چه می‌شود؟",
-        "ar": "كيف تقول 21 بالتايلاندية؟",
-        "es": "¿Cómo se dice 21 en tailandés?",
-        "zh": "21用泰语怎么说？",
-        "ja": "21はタイ語で何と言いますか？"
-      },
-      "tokens": {
-        "en": ["How", "do", "you", "say", "21", "in", "Thai?"],
-        "th": ["เลข", "21", "ภาษา", "ไทย", "พูด", "ว่า", "อะไร", "คะ"],
-        "fa": ["۲۱", "به", "تایلندی", "چه", "می‌شود؟"],
-        "ar": ["كيف", "تقول", "21", "بالتايلاندية؟"],
-        "es": ["¿Cómo", "se", "dice", "21", "en", "tailandés?"],
-        "zh": ["21", "用", "泰语", "怎么", "说？"],
-        "ja": ["21", "は", "タイ語", "で", "何", "と", "言い", "ます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_answer_21",
-      "kind": "sentence",
-      "itemIds": ["word_twenty", "word_ed"],
-      "texts": {
-        "en": "It is twenty-one",
-        "th": "ยี่สิบเอ็ด ครับ",
-        "fa": "بیست و یک است",
-        "ar": "إنه واحد وعشرون",
-        "es": "Es veintiuno",
-        "zh": "是二十一",
-        "ja": "二十一です"
-      },
-      "tokens": {
-        "en": ["It", "is", "twenty-one"],
-        "th": ["ยี่สิบ", "เอ็ด", "ครับ"],
-        "fa": ["بیست", "و", "یک", "است"],
-        "ar": ["إنه", "واحد", "وعشرون"],
-        "es": ["Es", "veintiuno"],
-        "zh": ["是", "二十一"],
-        "ja": ["二十一", "です"]
-      }
-    },
-    {
-      "id": "word_twenty",
-      "kind": "word",
+      "id": "w11",
+      "kind": "Word",
       "texts": {
         "en": "twenty",
         "th": "ยี่สิบ",
@@ -669,8 +413,8 @@
       }
     },
     {
-      "id": "word_thirty",
-      "kind": "word",
+      "id": "w12",
+      "kind": "Word",
       "texts": {
         "en": "thirty",
         "th": "สามสิบ",
@@ -682,8 +426,21 @@
       }
     },
     {
-      "id": "word_fifty",
-      "kind": "word",
+      "id": "w13",
+      "kind": "Word",
+      "texts": {
+        "en": "forty",
+        "th": "สี่สิบ",
+        "fa": "چهل",
+        "ar": "أربعون",
+        "es": "cuarenta",
+        "zh": "四十",
+        "ja": "四十"
+      }
+    },
+    {
+      "id": "w14",
+      "kind": "Word",
       "texts": {
         "en": "fifty",
         "th": "ห้าสิบ",
@@ -695,221 +452,357 @@
       }
     },
     {
-      "id": "word_ed",
-      "kind": "word",
+      "id": "w15",
+      "kind": "Word",
       "texts": {
-        "en": "one (last digit: 21, 31...)",
-        "th": "เอ็ด",
-        "fa": "یک (رقم آخر: ۲۱، ۳۱...)",
-        "ar": "واحد (آخر رقم: 21، 31...)",
-        "es": "uno (último dígito: 21, 31...)",
-        "zh": "一（末位：21、31...）",
-        "ja": "一（末尾：21、31...）"
+        "en": "hundred",
+        "th": "ร้อย",
+        "fa": "صد",
+        "ar": "مئة",
+        "es": "cien",
+        "zh": "百",
+        "ja": "百"
       }
     },
     {
-      "id": "word_thousand",
-      "kind": "word",
+      "id": "s11",
+      "kind": "Sentence",
       "texts": {
-        "en": "thousand",
-        "th": "พัน",
-        "fa": "هزار",
-        "ar": "ألف",
-        "es": "mil",
-        "zh": "千",
-        "ja": "千"
+        "en": "I am twenty years old.",
+        "th": "ฉันอายุยี่สิบปี",
+        "fa": "من بیست ساله هستم.",
+        "ar": "عمري عشرون عاماً.",
+        "es": "Tengo veinte años.",
+        "zh": "我二十岁。",
+        "ja": "私は二十歳です。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "อายุ", "ยี่สิบ", "ปี"],
+        "zh": ["我", "二十", "岁", "。"],
+        "ja": ["私", "は", "二十歳", "です", "。"]
       }
     },
     {
-      "id": "header_scenario3",
+      "id": "s12",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The class has thirty desks.",
+        "th": "ห้องเรียนมีโต๊ะสามสิบตัว",
+        "fa": "کلاس سی میز دارد.",
+        "ar": "يوجد في الفصل ثلاثون مكتباً.",
+        "es": "La clase tiene treinta escritorios.",
+        "zh": "教室里有三十张桌子。",
+        "ja": "教室には机が三十あります。"
+      },
+      "tokens": {
+        "th": ["ห้องเรียน", "มี", "โต๊ะ", "สามสิบ", "ตัว"],
+        "zh": ["教室", "里", "有", "三十", "张", "桌子", "。"],
+        "ja": ["教室", "に", "は", "机", "が", "三十", "あり", "ます", "。"]
+      }
+    },
+    {
+      "id": "s13",
+      "kind": "Sentence",
+      "texts": {
+        "en": "He is forty years old.",
+        "th": "เขาอายุสี่สิบปี",
+        "fa": "او چهل ساله است.",
+        "ar": "عمره أربعون عاماً.",
+        "es": "Él tiene cuarenta años.",
+        "zh": "他四十岁。",
+        "ja": "彼は四十歳です。"
+      },
+      "tokens": {
+        "th": ["เขา", "อายุ", "สี่สิบ", "ปี"],
+        "zh": ["他", "四十", "岁", "。"],
+        "ja": ["彼", "は", "四十歳", "です", "。"]
+      }
+    },
+    {
+      "id": "s14",
+      "kind": "Sentence",
+      "texts": {
+        "en": "She has fifty dollars.",
+        "th": "เธอมีเงินห้าสิบดอลลาร์",
+        "fa": "او پنجاه دلار دارد.",
+        "ar": "لديها خمسون دولاراً.",
+        "es": "Ella tiene cincuenta dólares.",
+        "zh": "她有五十美元。",
+        "ja": "彼女は五十ドル持っています。"
+      },
+      "tokens": {
+        "th": ["เธอ", "มี", "เงิน", "ห้าสิบ", "ดอลลาร์"],
+        "zh": ["她", "有", "五十", "美元", "。"],
+        "ja": ["彼女", "は", "五十", "ドル", "持っ", "て", "い", "ます", "。"]
+      }
+    },
+    {
+      "id": "s15",
+      "kind": "Sentence",
+      "texts": {
+        "en": "There are a hundred people.",
+        "th": "มีผู้คนหนึ่งร้อยคน",
+        "fa": "صد نفر وجود دارد.",
+        "ar": "يوجد مئة شخص.",
+        "es": "Hay cien personas.",
+        "zh": "有一百个人。",
+        "ja": "人が百人います。"
+      },
+      "tokens": {
+        "th": ["มี", "ผู้คน", "หนึ่ง", "ร้อย", "คน"],
+        "zh": ["有", "一", "百", "个", "人", "。"],
+        "ja": ["人", "が", "百人", "い", "ます", "。"]
+      }
+    },
+
+    {
+      "id": "h4",
       "header": true,
       "texts": {
-        "en": "Scenario 3: Prices & Shopping",
-        "th": "สถานการณ์ 3: ราคาและการช้อปปิ้ง",
-        "fa": "سناریو ۳: قیمت و خرید",
-        "ar": "السيناريو 3: الأسعار والتسوق",
-        "es": "Escenario 3: Precios y compras",
-        "zh": "场景三：价格与购物",
-        "ja": "シナリオ3：価格と買い物"
+        "en": "Scenario 4: Phone Numbers",
+        "th": "สถานการณ์ที่ 4: หมายเลขโทรศัพท์",
+        "fa": "سناریو ۴: شماره تلفن",
+        "ar": "السيناريو 4: أرقام الهواتف",
+        "es": "Escenario 4: Números de teléfono",
+        "zh": "场景 4：电话号码",
+        "ja": "シナリオ 4：電話番号"
       }
     },
     {
-      "id": "sentence_how_much_this",
-      "kind": "sentence",
-      "itemIds": ["word_how_much"],
+      "id": "w16",
+      "kind": "Word",
       "texts": {
-        "en": "How much is this?",
-        "th": "อันนี้เท่าไหร่คะ",
-        "fa": "این چند است؟",
-        "ar": "كم سعر هذا؟",
-        "es": "¿Cuánto cuesta esto?",
-        "zh": "这个多少钱？",
-        "ja": "これはいくらですか？"
+        "en": "number",
+        "th": "หมายเลข",
+        "fa": "شماره",
+        "ar": "رقم",
+        "es": "número",
+        "zh": "号码",
+        "ja": "番号"
+      }
+    },
+    {
+      "id": "w17",
+      "kind": "Word",
+      "texts": {
+        "en": "call",
+        "th": "โทร",
+        "fa": "تماس",
+        "ar": "اتصال",
+        "es": "llamar",
+        "zh": "打电话",
+        "ja": "電話"
+      }
+    },
+    {
+      "id": "w18",
+      "kind": "Word",
+      "texts": {
+        "en": "zero",
+        "th": "ศูนย์",
+        "fa": "صفر",
+        "ar": "صفر",
+        "es": "cero",
+        "zh": "零",
+        "ja": "ゼロ"
+      }
+    },
+    {
+      "id": "w19",
+      "kind": "Word",
+      "texts": {
+        "en": "digit",
+        "th": "หลัก",
+        "fa": "رقم",
+        "ar": "خانة",
+        "es": "dígito",
+        "zh": "数字",
+        "ja": "桁"
+      }
+    },
+    {
+      "id": "w20",
+      "kind": "Word",
+      "texts": {
+        "en": "contact",
+        "th": "ติดต่อ",
+        "fa": "تماس",
+        "ar": "اتصال",
+        "es": "contacto",
+        "zh": "联系",
+        "ja": "連絡"
+      }
+    },
+    {
+      "id": "s16",
+      "kind": "Sentence",
+      "texts": {
+        "en": "What is your number?",
+        "th": "หมายเลขของคุณคืออะไร",
+        "fa": "شماره شما چیست؟",
+        "ar": "ما هو رقمك؟",
+        "es": "¿Cuál es tu número?",
+        "zh": "你的号码是多少？",
+        "ja": "あなたの番号は何ですか？"
       },
       "tokens": {
-        "en": ["How", "much", "is", "this?"],
-        "th": ["อันนี้", "เท่าไหร่", "คะ"],
-        "fa": ["این", "چند", "است؟"],
-        "ar": ["كم", "سعر", "هذا؟"],
-        "es": ["¿Cuánto", "cuesta", "esto?"],
-        "zh": ["这个", "多少", "钱？"],
-        "ja": ["これ", "は", "いくら", "です", "か？"]
+        "th": ["หมายเลข", "ของ", "คุณ", "คือ", "อะไร"],
+        "zh": ["你", "的", "号码", "是", "多少", "？"],
+        "ja": ["あなた", "の", "番号", "は", "何", "です", "か", "？"]
       }
     },
     {
-      "id": "sentence_fifty_baht",
-      "kind": "sentence",
-      "itemIds": ["word_fifty", "word_baht"],
+      "id": "s17",
+      "kind": "Sentence",
       "texts": {
-        "en": "It is fifty baht",
-        "th": "ห้าสิบบาท ครับ",
-        "fa": "پنجاه بات است",
-        "ar": "إنه خمسون بات",
-        "es": "Cuesta cincuenta baht",
-        "zh": "五十泰铢",
-        "ja": "50バーツです"
+        "en": "Please call me.",
+        "th": "กรุณาโทรหาฉัน",
+        "fa": "لطفاً با من تماس بگیرید.",
+        "ar": "يرجى الاتصال بي.",
+        "es": "Por favor, llámame.",
+        "zh": "请给我打电话。",
+        "ja": "私に電話してください。"
       },
       "tokens": {
-        "en": ["It", "is", "fifty", "baht"],
-        "th": ["ห้าสิบ", "บาท", "ครับ"],
-        "fa": ["پنجاه", "بات", "است"],
-        "ar": ["إنه", "خمسون", "بات"],
-        "es": ["Cuesta", "cincuenta", "baht"],
-        "zh": ["五十", "泰铢"],
-        "ja": ["50", "バーツ", "です"]
+        "th": ["กรุณา", "โทรหา", "ฉัน"],
+        "zh": ["请", "给", "我", "打电话", "。"],
+        "ja": ["私", "に", "電話", "し", "て", "ください", "。"]
       }
     },
     {
-      "id": "sentence_two_hundred_baht",
-      "kind": "sentence",
-      "itemIds": ["word_two", "word_hundred", "word_baht"],
+      "id": "s18",
+      "kind": "Sentence",
       "texts": {
-        "en": "Two hundred baht",
-        "th": "สองร้อยบาท ครับ",
-        "fa": "دویست بات",
-        "ar": "مئتا بات",
-        "es": "Doscientos baht",
-        "zh": "两百泰铢",
-        "ja": "200バーツです"
+        "en": "My number has a zero.",
+        "th": "หมายเลขของฉันมีเลขศูนย์",
+        "fa": "شماره من یک صفر دارد.",
+        "ar": "رقمي يحتوي على صفر.",
+        "es": "Mi número tiene un cero.",
+        "zh": "我的号码里有个零。",
+        "ja": "私の番号にはゼロがあります。"
       },
       "tokens": {
-        "en": ["Two", "hundred", "baht"],
-        "th": ["สอง", "ร้อย", "บาท", "ครับ"],
-        "fa": ["دویست", "بات"],
-        "ar": ["مئتا", "بات"],
-        "es": ["Doscientos", "baht"],
-        "zh": ["两百", "泰铢"],
-        "ja": ["200", "バーツ", "です"]
+        "th": ["หมายเลข", "ของ", "ฉัน", "มี", "เลข", "ศูนย์"],
+        "zh": ["我", "的", "号码", "里", "有", "个", "零", "。"],
+        "ja": [
+          "私",
+          "の",
+          "番号",
+          "に",
+          "は",
+          "ゼロ",
+          "が",
+          "あり",
+          "ます",
+          "。"
+        ]
       }
     },
     {
-      "id": "sentence_too_expensive",
-      "kind": "sentence",
-      "itemIds": ["word_expensive", "word_too"],
+      "id": "s19",
+      "kind": "Sentence",
       "texts": {
-        "en": "That is too expensive",
-        "th": "แพงเกินไปค่ะ",
-        "fa": "خیلی گران است",
-        "ar": "هذا غالي جداً",
-        "es": "Es demasiado caro",
-        "zh": "太贵了",
-        "ja": "高すぎます"
+        "en": "Write down the digit.",
+        "th": "เขียนตัวเลขลง",
+        "fa": "رقم را بنویس.",
+        "ar": "اكتب الرقم.",
+        "es": "Escribe el dígito.",
+        "zh": "写下这个数字。",
+        "ja": "数字を書いてください。"
       },
       "tokens": {
-        "en": ["That", "is", "too", "expensive"],
-        "th": ["แพง", "เกินไป", "ค่ะ"],
-        "fa": ["خیلی", "گران", "است"],
-        "ar": ["هذا", "غالي", "جداً"],
-        "es": ["Es", "demasiado", "caro"],
-        "zh": ["太", "贵", "了"],
-        "ja": ["高すぎ", "ます"]
+        "th": ["เขียน", "ตัวเลข", "ลง"],
+        "zh": ["写下", "这个", "数字", "。"],
+        "ja": ["数字", "を", "書い", "て", "ください", "。"]
       }
     },
     {
-      "id": "sentence_discount_question",
-      "kind": "sentence",
-      "itemIds": ["word_discount", "word_can", "word_question_particle"],
+      "id": "s20",
+      "kind": "Sentence",
       "texts": {
-        "en": "Can you give a discount?",
-        "th": "ลดราคาได้ไหมคะ",
-        "fa": "می‌توانید تخفیف بدهید؟",
-        "ar": "هل يمكنك إعطاء خصم؟",
-        "es": "¿Puedes hacer un descuento?",
-        "zh": "能打折吗？",
-        "ja": "値引きしてもらえますか？"
+        "en": "Here is my contact.",
+        "th": "นี่คือข้อมูลติดต่อของฉัน",
+        "fa": "این اطلاعات تماس من است.",
+        "ar": "إليك معلومات اتصالي.",
+        "es": "Aquí está mi contacto.",
+        "zh": "这是我的联系方式。",
+        "ja": "这是我的联系方式。"
       },
       "tokens": {
-        "en": ["Can", "you", "give", "a", "discount?"],
-        "th": ["ลด", "ราคา", "ได้", "ไหม", "คะ"],
-        "fa": ["می‌توانید", "تخفیف", "بدهید؟"],
-        "ar": ["هل", "يمكنك", "إعطاء", "خصم؟"],
-        "es": ["¿Puedes", "hacer", "un", "descuento?"],
-        "zh": ["能", "打折", "吗？"],
-        "ja": ["値引き", "して", "もらえます", "か？"]
+        "th": ["นี่", "คือ", "ข้อมูล", "ติดต่อ", "ของ", "ฉัน"],
+        "zh": ["这", "是", "我", "的", "联系", "方式", "。"],
+        "ja": ["これ", "は", "私", "の", "連絡先", "です", "。"]
       }
     },
+
     {
-      "id": "sentence_price_is_what",
-      "kind": "sentence",
-      "itemIds": ["word_price", "word_what"],
+      "id": "h5",
+      "header": true,
       "texts": {
-        "en": "What is the price?",
-        "th": "ราคาเท่าไหร่คะ",
-        "fa": "قیمت چقدر است؟",
-        "ar": "ما هو السعر؟",
-        "es": "¿Cuál es el precio?",
-        "zh": "价格是多少？",
-        "ja": "値段はいくらですか？"
-      },
-      "tokens": {
-        "en": ["What", "is", "the", "price?"],
-        "th": ["ราคา", "เท่าไหร่", "คะ"],
-        "fa": ["قیمت", "چقدر", "است؟"],
-        "ar": ["ما", "هو", "السعر؟"],
-        "es": ["¿Cuál", "es", "el", "precio?"],
-        "zh": ["价格", "是", "多少？"],
-        "ja": ["値段", "は", "いくら", "です", "か？"]
+        "en": "Scenario 5: Prices and Quantities",
+        "th": "สถานการณ์ที่ 5: ราคาและปริมาณ",
+        "fa": "سناریو ۵: قیمت‌ها و مقادیر",
+        "ar": "السيناريو 5: الأسعار والكميات",
+        "es": "Escenario 5: Precios y cantidades",
+        "zh": "场景 5：价格与数量",
+        "ja": "シナリオ 5：価格と数量"
       }
     },
     {
-      "id": "sentence_one_thousand",
-      "kind": "sentence",
-      "itemIds": ["word_one", "word_thousand", "word_baht"],
+      "id": "w21",
+      "kind": "Word",
       "texts": {
-        "en": "One thousand baht",
-        "th": "หนึ่งพันบาท ครับ",
-        "fa": "هزار بات",
-        "ar": "ألف بات",
-        "es": "Mil baht",
-        "zh": "一千泰铢",
-        "ja": "1000バーツです"
-      },
-      "tokens": {
-        "en": ["One", "thousand", "baht"],
-        "th": ["หนึ่ง", "พัน", "บาท", "ครับ"],
-        "fa": ["هزار", "بات"],
-        "ar": ["ألف", "بات"],
-        "es": ["Mil", "baht"],
-        "zh": ["一千", "泰铢"],
-        "ja": ["1000", "バーツ", "です"]
+        "en": "price",
+        "th": "ราคา",
+        "fa": "قیمت",
+        "ar": "سعر",
+        "es": "precio",
+        "zh": "价格",
+        "ja": "価格"
       }
     },
     {
-      "id": "word_baht",
-      "kind": "word",
+      "id": "w22",
+      "kind": "Word",
       "texts": {
-        "en": "baht",
-        "th": "บาท",
-        "fa": "بات",
-        "ar": "بات",
-        "es": "baht",
-        "zh": "泰铢",
-        "ja": "バーツ"
+        "en": "cost",
+        "th": "ค่าใช้จ่าย",
+        "fa": "هزینه",
+        "ar": "تكلفة",
+        "es": "costo",
+        "zh": "花费",
+        "ja": "費用"
       }
     },
     {
-      "id": "word_expensive",
-      "kind": "word",
+      "id": "w23",
+      "kind": "Word",
+      "texts": {
+        "en": "how much",
+        "th": "เท่าไหร่",
+        "fa": "چقدر",
+        "ar": "كم",
+        "es": "cuánto",
+        "zh": "多少",
+        "ja": "いくら"
+      }
+    },
+    {
+      "id": "w24",
+      "kind": "Word",
+      "texts": {
+        "en": "cheap",
+        "th": "ถูก",
+        "fa": "ارزان",
+        "ar": "رخيص",
+        "es": "barato",
+        "zh": "便宜",
+        "ja": "安い"
+      }
+    },
+    {
+      "id": "w25",
+      "kind": "Word",
       "texts": {
         "en": "expensive",
         "th": "แพง",
@@ -921,510 +814,104 @@
       }
     },
     {
-      "id": "word_too",
-      "kind": "word",
+      "id": "s21",
+      "kind": "Sentence",
       "texts": {
-        "en": "too (excessively)",
-        "th": "เกินไป",
-        "fa": "خیلی / بیش از حد",
-        "ar": "جداً",
-        "es": "demasiado",
-        "zh": "太",
-        "ja": "〜すぎる"
-      }
-    },
-    {
-      "id": "word_discount",
-      "kind": "word",
-      "texts": {
-        "en": "discount",
-        "th": "ลดราคา",
-        "fa": "تخفیف",
-        "ar": "خصم",
-        "es": "descuento",
-        "zh": "折扣",
-        "ja": "値引き"
-      }
-    },
-    {
-      "id": "word_price",
-      "kind": "word",
-      "texts": {
-        "en": "price",
-        "th": "ราคา",
-        "fa": "قیمت",
-        "ar": "سعر",
-        "es": "precio",
-        "zh": "价格",
-        "ja": "値段"
-      }
-    },
-    {
-      "id": "header_scenario4",
-      "header": true,
-      "texts": {
-        "en": "Scenario 4: Phone Numbers",
-        "th": "สถานการณ์ 4: เบอร์โทรศัพท์",
-        "fa": "سناریو ۴: شماره تلفن",
-        "ar": "السيناريو 4: أرقام الهاتف",
-        "es": "Escenario 4: Números de teléfono",
-        "zh": "场景四：电话号码",
-        "ja": "シナリオ4：電話番号"
-      }
-    },
-    {
-      "id": "sentence_phone_number_question",
-      "kind": "sentence",
-      "itemIds": ["word_phone", "word_number", "word_what"],
-      "texts": {
-        "en": "What is your phone number?",
-        "th": "เบอร์โทรศัพท์ของคุณคืออะไรครับ",
-        "fa": "شماره تلفن شما چیست؟",
-        "ar": "ما هو رقم هاتفك؟",
-        "es": "¿Cuál es tu número de teléfono?",
-        "zh": "你的电话号码是多少？",
-        "ja": "電話番号は何番ですか？"
+        "en": "What is the price?",
+        "th": "ราคาเท่าไหร่",
+        "fa": "قیمت چقدر است؟",
+        "ar": "ما هو السعر؟",
+        "es": "¿Cuál es el precio?",
+        "zh": "价格是多少？",
+        "ja": "価格はいくらですか？"
       },
       "tokens": {
-        "en": ["What", "is", "your", "phone", "number?"],
-        "th": ["เบอร์", "โทรศัพท์", "ของ", "คุณ", "คือ", "อะไร", "ครับ"],
-        "fa": ["شماره", "تلفن", "شما", "چیست؟"],
-        "ar": ["ما", "هو", "رقم", "هاتفك؟"],
-        "es": ["¿Cuál", "es", "tu", "número", "de", "teléfono?"],
-        "zh": ["你的", "电话号码", "是", "多少？"],
-        "ja": ["電話", "番号", "は", "何番", "です", "か？"]
+        "th": ["ราคา", "เท่าไหร่"],
+        "zh": ["价格", "是", "多少", "？"],
+        "ja": ["価格", "は", "いくら", "です", "か", "？"]
       }
     },
     {
-      "id": "sentence_my_number_is",
-      "kind": "sentence",
-      "itemIds": ["word_number", "word_phone"],
+      "id": "s22",
+      "kind": "Sentence",
       "texts": {
-        "en": "My number is 081-234-5678",
-        "th": "เบอร์ของฉันคือ 081-234-5678 ค่ะ",
-        "fa": "شماره من ۰۸۱-۲۳۴-۵۶۷۸ است",
-        "ar": "رقمي هو 081-234-5678",
-        "es": "Mi número es 081-234-5678",
-        "zh": "我的号码是081-234-5678",
-        "ja": "私の番号は081-234-5678です"
+        "en": "How much does it cost?",
+        "th": "มันมีค่าใช้จ่ายเท่าไหร่",
+        "fa": "هزینه آن چقدر است؟",
+        "ar": "كم تكلفته؟",
+        "es": "¿Cuánto cuesta?",
+        "zh": "它花费多少？",
+        "ja": "それはどのくらい費用がかかりますか？"
       },
       "tokens": {
-        "en": ["My", "number", "is", "081-234-5678"],
-        "th": ["เบอร์", "ของ", "ฉัน", "คือ", "081-234-5678", "ค่ะ"],
-        "fa": ["شماره", "من", "۰۸۱-۲۳۴-۵۶۷۸", "است"],
-        "ar": ["رقمي", "هو", "081-234-5678"],
-        "es": ["Mi", "número", "es", "081-234-5678"],
-        "zh": ["我的", "号码", "是", "081-234-5678"],
-        "ja": ["私", "の", "番号", "は", "081-234-5678", "です"]
+        "th": ["มัน", "มี", "ค่าใช้จ่าย", "เท่าไหร่"],
+        "zh": ["它", "花费", "多少", "？"],
+        "ja": [
+          "それ",
+          "は",
+          "どの",
+          "くらい",
+          "費用",
+          "が",
+          "かかり",
+          "ます",
+          "か",
+          "？"
+        ]
       }
     },
     {
-      "id": "sentence_repeat_please",
-      "kind": "sentence",
-      "itemIds": ["word_repeat", "word_please"],
+      "id": "s23",
+      "kind": "Sentence",
       "texts": {
-        "en": "Can you repeat that, please?",
-        "th": "ช่วยพูดอีกครั้งได้ไหมคะ",
-        "fa": "می‌توانید تکرار کنید، لطفاً؟",
-        "ar": "هل يمكنك إعادة ذلك، من فضلك؟",
-        "es": "¿Puedes repetir eso, por favor?",
-        "zh": "你能再说一遍吗？",
-        "ja": "もう一度言っていただけますか？"
+        "en": "This is very cheap.",
+        "th": "อันนี้ถูกมาก",
+        "fa": "این خیلی ارزان است.",
+        "ar": "هذا رخيص جداً.",
+        "es": "Esto es muy barato.",
+        "zh": "这个很便宜。",
+        "ja": "これはとても安いです。"
       },
       "tokens": {
-        "en": ["Can", "you", "repeat", "that,", "please?"],
-        "th": ["ช่วย", "พูด", "อีกครั้ง", "ได้", "ไหม", "คะ"],
-        "fa": ["می‌توانید", "تکرار", "کنید،", "لطفاً؟"],
-        "ar": ["هل", "يمكنك", "إعادة", "ذلك،", "من", "فضلك؟"],
-        "es": ["¿Puedes", "repetir", "eso,", "por", "favor?"],
-        "zh": ["能", "再", "说", "一遍", "吗？"],
-        "ja": ["もう", "一度", "言って", "いただけます", "か？"]
+        "th": ["อัน", "นี้", "ถูก", "มาก"],
+        "zh": ["这个", "很", "便宜", "。"],
+        "ja": ["これ", "は", "とても", "安い", "です", "。"]
       }
     },
     {
-      "id": "sentence_spell_digits",
-      "kind": "sentence",
-      "itemIds": ["word_zero", "word_eight", "word_one", "word_two"],
+      "id": "s24",
+      "kind": "Sentence",
       "texts": {
-        "en": "Zero, eight, one, two...",
-        "th": "ศูนย์ แปด หนึ่ง สอง... ค่ะ",
-        "fa": "صفر، هشت، یک، دو...",
-        "ar": "صفر، ثمانية، واحد، اثنان...",
-        "es": "Cero, ocho, uno, dos...",
-        "zh": "零八一二...",
-        "ja": "ゼロ、八、一、二..."
+        "en": "That is too expensive.",
+        "th": "นั่นแพงเกินไป",
+        "fa": "آن خیلی گران است.",
+        "ar": "ذلك غالي جداً.",
+        "es": "Eso es demasiado caro.",
+        "zh": "那个太贵了。",
+        "ja": "それは高すぎます。"
       },
       "tokens": {
-        "en": ["Zero,", "eight,", "one,", "two..."],
-        "th": ["ศูนย์", "แปด", "หนึ่ง", "สอง...", "ค่ะ"],
-        "fa": ["صفر،", "هشت،", "یک،", "دو..."],
-        "ar": ["صفر،", "ثمانية،", "واحد،", "اثنان..."],
-        "es": ["Cero,", "ocho,", "uno,", "dos..."],
-        "zh": ["零", "八", "一", "二..."],
-        "ja": ["ゼロ、", "八、", "一、", "二..."]
+        "th": ["นั่น", "แพง", "เกิน", "ไป"],
+        "zh": ["那个", "太", "贵", "了", "。"],
+        "ja": ["それ", "は", "高すぎ", "ます", "。"]
       }
     },
     {
-      "id": "sentence_mobile_number",
-      "kind": "sentence",
-      "itemIds": ["word_mobile", "word_number"],
+      "id": "s25",
+      "kind": "Sentence",
       "texts": {
-        "en": "What is your mobile number?",
-        "th": "เบอร์มือถือของคุณคืออะไรครับ",
-        "fa": "شماره موبایل شما چیست؟",
-        "ar": "ما هو رقم جوالك؟",
-        "es": "¿Cuál es tu número de móvil?",
-        "zh": "你的手机号码是多少？",
-        "ja": "携帯番号は何番ですか？"
+        "en": "I will buy two.",
+        "th": "ฉันจะซื้อสองอัน",
+        "fa": "من دو تا می‌خرم.",
+        "ar": "سأشتري اثنين.",
+        "es": "Compraré dos.",
+        "zh": "我要买两个。",
+        "ja": "私は二つ買います。"
       },
       "tokens": {
-        "en": ["What", "is", "your", "mobile", "number?"],
-        "th": ["เบอร์", "มือถือ", "ของ", "คุณ", "คือ", "อะไร", "ครับ"],
-        "fa": ["شماره", "موبایل", "شما", "چیست؟"],
-        "ar": ["ما", "هو", "رقم", "جوالك؟"],
-        "es": ["¿Cuál", "es", "tu", "número", "de", "móvil?"],
-        "zh": ["你的", "手机", "号码", "是", "多少？"],
-        "ja": ["携帯", "番号", "は", "何番", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_write_down",
-      "kind": "sentence",
-      "itemIds": ["word_write", "word_number"],
-      "texts": {
-        "en": "Can you write it down?",
-        "th": "ช่วยเขียนให้หน่อยได้ไหมคะ",
-        "fa": "می‌توانید آن را بنویسید؟",
-        "ar": "هل يمكنك كتابته؟",
-        "es": "¿Puedes escribirlo?",
-        "zh": "你能写下来吗？",
-        "ja": "書いてもらえますか？"
-      },
-      "tokens": {
-        "en": ["Can", "you", "write", "it", "down?"],
-        "th": ["ช่วย", "เขียน", "ให้", "หน่อย", "ได้", "ไหม", "คะ"],
-        "fa": ["می‌توانید", "آن", "را", "بنویسید؟"],
-        "ar": ["هل", "يمكنك", "كتابته؟"],
-        "es": ["¿Puedes", "escribirlo?"],
-        "zh": ["能", "写下来", "吗？"],
-        "ja": ["書いて", "もらえます", "か？"]
-      }
-    },
-    {
-      "id": "word_phone",
-      "kind": "word",
-      "texts": {
-        "en": "phone",
-        "th": "โทรศัพท์",
-        "fa": "تلفن",
-        "ar": "هاتف",
-        "es": "teléfono",
-        "zh": "电话",
-        "ja": "電話"
-      }
-    },
-    {
-      "id": "word_mobile",
-      "kind": "word",
-      "texts": {
-        "en": "mobile / cell phone",
-        "th": "มือถือ",
-        "fa": "موبایل / تلفن همراه",
-        "ar": "جوال / هاتف محمول",
-        "es": "móvil / celular",
-        "zh": "手机",
-        "ja": "携帯"
-      }
-    },
-    {
-      "id": "word_repeat",
-      "kind": "word",
-      "texts": {
-        "en": "repeat",
-        "th": "พูดอีกครั้ง",
-        "fa": "تکرار کردن",
-        "ar": "يكرر",
-        "es": "repetir",
-        "zh": "重复",
-        "ja": "繰り返す"
-      }
-    },
-    {
-      "id": "word_write",
-      "kind": "word",
-      "texts": {
-        "en": "write",
-        "th": "เขียน",
-        "fa": "نوشتن",
-        "ar": "يكتب",
-        "es": "escribir",
-        "zh": "写",
-        "ja": "書く"
-      }
-    },
-    {
-      "id": "word_please",
-      "kind": "word",
-      "texts": {
-        "en": "please",
-        "th": "กรุณา",
-        "fa": "لطفاً",
-        "ar": "من فضلك",
-        "es": "por favor",
-        "zh": "请",
-        "ja": "お願いします"
-      }
-    },
-    {
-      "id": "header_scenario5",
-      "header": true,
-      "texts": {
-        "en": "Scenario 5: Time & Quantities",
-        "th": "สถานการณ์ 5: เวลาและปริมาณ",
-        "fa": "سناریو ۵: زمان و مقادیر",
-        "ar": "السيناريو 5: الوقت والكميات",
-        "es": "Escenario 5: Hora y cantidades",
-        "zh": "场景五：时间与数量",
-        "ja": "シナリオ5：時間と数量"
-      }
-    },
-    {
-      "id": "sentence_what_time",
-      "kind": "sentence",
-      "itemIds": ["word_time", "word_what"],
-      "texts": {
-        "en": "What time is it?",
-        "th": "ตอนนี้กี่โมงคะ",
-        "fa": "الان ساعت چند است؟",
-        "ar": "كم الساعة الآن؟",
-        "es": "¿Qué hora es?",
-        "zh": "现在几点了？",
-        "ja": "今何時ですか？"
-      },
-      "tokens": {
-        "en": ["What", "time", "is", "it?"],
-        "th": ["ตอนนี้", "กี่โมง", "คะ"],
-        "fa": ["الان", "ساعت", "چند", "است؟"],
-        "ar": ["كم", "الساعة", "الآن؟"],
-        "es": ["¿Qué", "hora", "es?"],
-        "zh": ["现在", "几点", "了？"],
-        "ja": ["今", "何時", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_three_oclock",
-      "kind": "sentence",
-      "itemIds": ["word_three", "word_oclock"],
-      "texts": {
-        "en": "It is three o'clock",
-        "th": "บ่ายสามโมง ครับ",
-        "fa": "ساعت سه بعدازظهر است",
-        "ar": "إنها الساعة الثالثة",
-        "es": "Son las tres",
-        "zh": "现在三点",
-        "ja": "午後3時です"
-      },
-      "tokens": {
-        "en": ["It", "is", "three", "o'clock"],
-        "th": ["บ่าย", "สาม", "โมง", "ครับ"],
-        "fa": ["ساعت", "سه", "بعدازظهر", "است"],
-        "ar": ["إنها", "الساعة", "الثالثة"],
-        "es": ["Son", "las", "tres"],
-        "zh": ["现在", "三点"],
-        "ja": ["午後", "3時", "です"]
-      }
-    },
-    {
-      "id": "sentence_how_many_bottles",
-      "kind": "sentence",
-      "itemIds": ["word_how_many", "word_bottle"],
-      "texts": {
-        "en": "How many bottles do you want?",
-        "th": "ต้องการน้ำกี่ขวดครับ",
-        "fa": "چند بطری می‌خواهید؟",
-        "ar": "كم زجاجة تريد؟",
-        "es": "¿Cuántas botellas quieres?",
-        "zh": "你要几瓶？",
-        "ja": "何本欲しいですか？"
-      },
-      "tokens": {
-        "en": ["How", "many", "bottles", "do", "you", "want?"],
-        "th": ["ต้องการ", "น้ำ", "กี่", "ขวด", "ครับ"],
-        "fa": ["چند", "بطری", "می‌خواهید؟"],
-        "ar": ["كم", "زجاجة", "تريد؟"],
-        "es": ["¿Cuántas", "botellas", "quieres?"],
-        "zh": ["要", "几", "瓶？"],
-        "ja": ["何本", "欲しい", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_two_bottles",
-      "kind": "sentence",
-      "itemIds": ["word_two", "word_bottle"],
-      "texts": {
-        "en": "Two bottles, please",
-        "th": "สองขวดค่ะ",
-        "fa": "دو بطری، لطفاً",
-        "ar": "زجاجتان، من فضلك",
-        "es": "Dos botellas, por favor",
-        "zh": "两瓶",
-        "ja": "2本お願いします"
-      },
-      "tokens": {
-        "en": ["Two", "bottles,", "please"],
-        "th": ["สอง", "ขวด", "ค่ะ"],
-        "fa": ["دو", "بطری،", "لطفاً"],
-        "ar": ["زجاجتان،", "من", "فضلك"],
-        "es": ["Dos", "botellas,", "por", "favor"],
-        "zh": ["两", "瓶"],
-        "ja": ["2本", "お願い", "します"]
-      }
-    },
-    {
-      "id": "sentence_five_minutes",
-      "kind": "sentence",
-      "itemIds": ["word_five", "word_minute"],
-      "texts": {
-        "en": "Five minutes",
-        "th": "ห้านาที ครับ",
-        "fa": "پنج دقیقه",
-        "ar": "خمس دقائق",
-        "es": "Cinco minutos",
-        "zh": "五分钟",
-        "ja": "5分"
-      },
-      "tokens": {
-        "en": ["Five", "minutes"],
-        "th": ["ห้า", "นาที", "ครับ"],
-        "fa": ["پنج", "دقیقه"],
-        "ar": ["خمس", "دقائق"],
-        "es": ["Cinco", "minutos"],
-        "zh": ["五", "分钟"],
-        "ja": ["5分"]
-      }
-    },
-    {
-      "id": "sentence_how_many_people",
-      "kind": "sentence",
-      "itemIds": ["word_how_many", "word_person"],
-      "texts": {
-        "en": "How many people?",
-        "th": "กี่คนครับ",
-        "fa": "چند نفر؟",
-        "ar": "كم شخصاً؟",
-        "es": "¿Cuántas personas?",
-        "zh": "几个人？",
-        "ja": "何人ですか？"
-      },
-      "tokens": {
-        "en": ["How", "many", "people?"],
-        "th": ["กี่", "คน", "ครับ"],
-        "fa": ["چند", "نفر؟"],
-        "ar": ["كم", "شخصاً؟"],
-        "es": ["¿Cuántas", "personas?"],
-        "zh": ["几", "个人？"],
-        "ja": ["何人", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_four_people",
-      "kind": "sentence",
-      "itemIds": ["word_four", "word_person"],
-      "texts": {
-        "en": "Four people",
-        "th": "สี่คนค่ะ",
-        "fa": "چهار نفر",
-        "ar": "أربعة أشخاص",
-        "es": "Cuatro personas",
-        "zh": "四个人",
-        "ja": "4人です"
-      },
-      "tokens": {
-        "en": ["Four", "people"],
-        "th": ["สี่", "คน", "ค่ะ"],
-        "fa": ["چهار", "نفر"],
-        "ar": ["أربعة", "أشخاص"],
-        "es": ["Cuatro", "personas"],
-        "zh": ["四", "个人"],
-        "ja": ["4人", "です"]
-      }
-    },
-    {
-      "id": "word_time",
-      "kind": "word",
-      "texts": {
-        "en": "time",
-        "th": "เวลา",
-        "fa": "زمان / ساعت",
-        "ar": "وقت",
-        "es": "hora / tiempo",
-        "zh": "时间",
-        "ja": "時間"
-      }
-    },
-    {
-      "id": "word_oclock",
-      "kind": "word",
-      "texts": {
-        "en": "o'clock",
-        "th": "โมง",
-        "fa": "ساعت",
-        "ar": "الساعة",
-        "es": "en punto",
-        "zh": "点",
-        "ja": "時"
-      }
-    },
-    {
-      "id": "word_minute",
-      "kind": "word",
-      "texts": {
-        "en": "minute",
-        "th": "นาที",
-        "fa": "دقیقه",
-        "ar": "دقيقة",
-        "es": "minuto",
-        "zh": "分钟",
-        "ja": "分"
-      }
-    },
-    {
-      "id": "word_bottle",
-      "kind": "word",
-      "texts": {
-        "en": "bottle",
-        "th": "ขวด",
-        "fa": "بطری",
-        "ar": "زجاجة",
-        "es": "botella",
-        "zh": "瓶",
-        "ja": "本 / ボトル"
-      }
-    },
-    {
-      "id": "word_person",
-      "kind": "word",
-      "texts": {
-        "en": "person / people",
-        "th": "คน",
-        "fa": "نفر / شخص",
-        "ar": "شخص",
-        "es": "persona",
-        "zh": "人",
-        "ja": "人"
-      }
-    },
-    {
-      "id": "word_want",
-      "kind": "word",
-      "texts": {
-        "en": "want",
-        "th": "ต้องการ",
-        "fa": "خواستن",
-        "ar": "يريد",
-        "es": "querer",
-        "zh": "想要",
-        "ja": "欲しい"
+        "th": ["ฉัน", "จะ", "ซื้อ", "สอง", "อัน"],
+        "zh": ["我", "要", "买", "两", "个", "。"],
+        "ja": ["私", "は", "二つ", "買い", "ます", "。"]
       }
     }
   ]

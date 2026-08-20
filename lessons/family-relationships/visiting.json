@@ -2,432 +2,226 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "h1",
       "header": true,
       "texts": {
-        "en": "Core Words",
-        "th": "คำศัพท์หลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras clave",
-        "zh": "核心词汇",
-        "ja": "基本単語"
+        "en": "Scenario 1: Arrival",
+        "th": "สถานการณ์ที่ 1: การมาถึง",
+        "fa": "سناریو ۱: ورود",
+        "ar": "السيناريو 1: الوصول",
+        "es": "Escenario 1: Llegada",
+        "zh": "场景 1：到达",
+        "ja": "シナリオ 1：到着"
       }
     },
     {
-      "id": "word_i",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
+        "en": "arrive",
+        "th": "มาถึง",
+        "fa": "رسیدن",
+        "ar": "يصل",
+        "es": "llegar",
+        "zh": "到达",
+        "ja": "到着"
       }
     },
     {
-      "id": "word_you",
-      "kind": "word",
-      "texts": {
-        "en": "you",
-        "th": "คุณ",
-        "fa": "شما",
-        "ar": "أنت",
-        "es": "tú",
-        "zh": "你",
-        "ja": "あなた"
-      }
-    },
-    {
-      "id": "word_yes",
-      "kind": "word",
-      "texts": {
-        "en": "yes",
-        "th": "ใช่",
-        "fa": "بله",
-        "ar": "نعم",
-        "es": "sí",
-        "zh": "是",
-        "ja": "はい"
-      }
-    },
-    {
-      "id": "word_of",
-      "kind": "word",
-      "texts": {
-        "en": "of",
-        "th": "ของ",
-        "fa": "از",
-        "ar": "من",
-        "es": "de",
-        "zh": "的",
-        "ja": "の"
-      }
-    },
-    {
-      "id": "word_want",
-      "kind": "word",
-      "texts": {
-        "en": "want",
-        "th": "ต้องการ",
-        "fa": "خواستن",
-        "ar": "يريد",
-        "es": "querer",
-        "zh": "想要",
-        "ja": "欲しい"
-      }
-    },
-    {
-      "id": "word_thank",
-      "kind": "word",
-      "texts": {
-        "en": "thank",
-        "th": "ขอบคุณ",
-        "fa": "تشکر",
-        "ar": "شكر",
-        "es": "gracias",
-        "zh": "谢谢",
-        "ja": "ありがとう"
-      }
-    },
-    {
-      "id": "word_much",
-      "kind": "word",
-      "texts": {
-        "en": "much",
-        "th": "มาก",
-        "fa": "زیاد",
-        "ar": "كثيرا",
-        "es": "mucho",
-        "zh": "非常",
-        "ja": "とても"
-      }
-    },
-    {
-      "id": "word_drink",
-      "kind": "word",
-      "texts": {
-        "en": "drink",
-        "th": "ดื่ม",
-        "fa": "نوشیدن",
-        "ar": "يشرب",
-        "es": "beber",
-        "zh": "喝",
-        "ja": "飲む"
-      }
-    },
-    {
-      "id": "word_eat",
-      "kind": "word",
-      "texts": {
-        "en": "eat",
-        "th": "กิน",
-        "fa": "خوردن",
-        "ar": "يأكل",
-        "es": "comer",
-        "zh": "吃",
-        "ja": "食べる"
-      }
-    },
-    {
-      "id": "header_scenario1",
-      "header": true,
-      "texts": {
-        "en": "Scenario 1: Arriving & Welcoming",
-        "th": "สถานการณ์ 1: การมาถึงและการต้อนรับ",
-        "fa": "سناریو ۱: ورود و خوشامدگویی",
-        "ar": "السيناريو 1: الوصول والترحيب",
-        "es": "Escenario 1: Llegada y bienvenida",
-        "zh": "场景一：到来与欢迎",
-        "ja": "シナリオ1：到着と歓迎"
-      }
-    },
-    {
-      "id": "sentence_visit_welcome_house",
-      "kind": "sentence",
-      "itemIds": ["word_welcome", "word_house", "word_of", "word_i"],
-      "texts": {
-        "en": "Welcome to my house",
-        "th": "ยินดีต้อนรับสู่บ้านของฉัน",
-        "fa": "به خانه من خوش آمدید",
-        "ar": "أهلا وسهلا بك في منزلي",
-        "es": "Bienvenido a mi casa",
-        "zh": "欢迎来到我的房子",
-        "ja": "私の家へようこそ"
-      },
-      "tokens": {
-        "en": ["Welcome", "to", "my", "house"],
-        "th": ["ยินดีต้อนรับ", "สู่", "บ้าน", "ของ", "ฉัน"],
-        "fa": ["به", "خانه", "من", "خوش", "آمدید"],
-        "ar": ["أهلا", "وسهلا", "بك", "في", "منزلي"],
-        "es": ["Bienvenido", "a", "mi", "casa"],
-        "zh": ["欢迎", "来到", "我的", "房子"],
-        "ja": ["私", "の", "家", "へ", "ようこそ"]
-      }
-    },
-    {
-      "id": "sentence_visit_thank_much",
-      "kind": "sentence",
-      "itemIds": ["word_thank", "word_much"],
-      "texts": {
-        "en": "Thank you very much",
-        "th": "ขอบคุณมาก",
-        "fa": "خیلی متشکرم",
-        "ar": "شكرا جزيلا",
-        "es": "Muchas gracias",
-        "zh": "非常感谢",
-        "ja": "どうもありがとう"
-      },
-      "tokens": {
-        "en": ["Thank", "you", "very", "much"],
-        "th": ["ขอบคุณ", "มาก"],
-        "fa": ["خیلی", "متشکرم"],
-        "ar": ["شكرا", "جزيلا"],
-        "es": ["Muchas", "gracias"],
-        "zh": ["非常", "感谢"],
-        "ja": ["どうも", "ありがとう"]
-      }
-    },
-    {
-      "id": "sentence_visit_come_in",
-      "kind": "sentence",
-      "itemIds": ["word_come_in"],
-      "texts": {
-        "en": "Please come in",
-        "th": "เชิญเข้ามา",
-        "fa": "لطفا وارد شوید",
-        "ar": "تفضل ادخل",
-        "es": "Por favor entra",
-        "zh": "请进来",
-        "ja": "どうぞ入ってください"
-      },
-      "tokens": {
-        "en": ["Please", "come", "in"],
-        "th": ["เชิญ", "เข้ามา"],
-        "fa": ["لطفا", "وارد", "شوید"],
-        "ar": ["تفضل", "ادخل"],
-        "es": ["Por", "favor", "entra"],
-        "zh": ["请", "进来"],
-        "ja": ["どうぞ", "入って", "ください"]
-      }
-    },
-    {
-      "id": "word_welcome",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
       "texts": {
         "en": "welcome",
         "th": "ยินดีต้อนรับ",
-        "fa": "خوش آمدید",
-        "ar": "أهلا وسهلا",
+        "fa": "خوش‌آمد",
+        "ar": "أهلاً",
         "es": "bienvenido",
         "zh": "欢迎",
-        "ja": "ようこそ"
+        "ja": "歓迎"
       }
     },
     {
-      "id": "word_house",
-      "kind": "word",
+      "id": "w3",
+      "kind": "Word",
       "texts": {
-        "en": "house",
-        "th": "บ้าน",
-        "fa": "خانه",
-        "ar": "منزل",
-        "es": "casa",
-        "zh": "房子",
-        "ja": "家"
+        "en": "door",
+        "th": "ประตู",
+        "fa": "در",
+        "ar": "باب",
+        "es": "puerta",
+        "zh": "门",
+        "ja": "ドア"
       }
     },
     {
-      "id": "word_come_in",
-      "kind": "word",
+      "id": "w4",
+      "kind": "Word",
       "texts": {
-        "en": "come in",
-        "th": "เข้ามา",
+        "en": "knock",
+        "th": "เคาะ",
+        "fa": "تق‌تق کردن",
+        "ar": "يطرق",
+        "es": "golpear",
+        "zh": "敲",
+        "ja": "ノック"
+      }
+    },
+    {
+      "id": "w5",
+      "kind": "Word",
+      "texts": {
+        "en": "enter",
+        "th": "เข้า",
         "fa": "وارد شدن",
         "ar": "يدخل",
         "es": "entrar",
-        "zh": "进来",
+        "zh": "进入",
         "ja": "入る"
       }
     },
     {
-      "id": "header_scenario2",
+      "id": "s1",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I have arrived at your house.",
+        "th": "ฉันมาถึงบ้านคุณแล้ว",
+        "fa": "من به خانه شما رسیده‌ام.",
+        "ar": "لقد وصلت إلى منزلك.",
+        "es": "He llegado a tu casa.",
+        "zh": "我已经到你家了。",
+        "ja": "あなたの家に到着しました。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "มา", "ถึง", "บ้าน", "คุณ", "แล้ว"],
+        "zh": ["我", "已经", "到", "你", "家", "了", "。"],
+        "ja": ["あなた", "の", "家", "に", "到着", "し", "まし", "た", "。"]
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Welcome to my home!",
+        "th": "ยินดีต้อนรับสู่บ้านของฉัน!",
+        "fa": "به خانه من خوش آمدید!",
+        "ar": "أهلاً بك في منزلي!",
+        "es": "¡Bienvenido a mi casa!",
+        "zh": "欢迎来到我家！",
+        "ja": "私の家へようこそ！"
+      },
+      "tokens": {
+        "th": ["ยินดีต้อนรับ", "สู่", "บ้าน", "ของ", "ฉัน", "!"],
+        "zh": ["欢迎", "来到", "我", "家", "！"],
+        "ja": ["私", "の", "家", "へ", "ようこそ", "！"]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Please knock on the door.",
+        "th": "กรุณาเคาะประตู",
+        "fa": "لطفاً به در بزنید.",
+        "ar": "يرجى الطرق على الباب.",
+        "es": "Por favor, toca la puerta.",
+        "zh": "请敲门。",
+        "ja": "ドアをノックしてください。"
+      },
+      "tokens": {
+        "th": ["กรุณา", "เคาะ", "ประตู"],
+        "zh": ["请", "敲", "门", "。"],
+        "ja": ["ドア", "を", "ノック", "し", "て", "ください", "。"]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Come in and take off your shoes.",
+        "th": "เข้ามาแล้วถอดรองเท้าด้วย",
+        "fa": "داخل شوید و کفش‌هایتان را درآورید.",
+        "ar": "ادخل واخلع حذاءك.",
+        "es": "Entra y quítate los zapatos.",
+        "zh": "请进并脱鞋。",
+        "ja": "入って靴を脱いでください。"
+      },
+      "tokens": {
+        "th": ["เข้า", "มา", "แล้ว", "ถอด", "รองเท้า", "ด้วย"],
+        "zh": ["请", "进", "并", "脱", "鞋", "。"],
+        "ja": ["入っ", "て", "靴", "を", "脱い", "で", "ください", "。"]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I am so happy you are here.",
+        "th": "ฉันดีใจมากที่คุณมาที่นี่",
+        "fa": "من خیلی خوشحالم که شما اینجا هستید.",
+        "ar": "أنا سعيد جداً بوجودك هنا.",
+        "es": "Estoy muy feliz de que estés aquí.",
+        "zh": "我很高兴你在这里。",
+        "ja": "あなたがここにいてとても嬉しいです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ดีใจ", "มาก", "ที่", "คุณ", "มา", "ที่", "นี่"],
+        "zh": ["我", "很", "高兴", "你", "在", "这里", "。"],
+        "ja": [
+          "あなた",
+          "が",
+          "ここ",
+          "に",
+          "いて",
+          "とても",
+          "嬉しい",
+          "です",
+          "。"
+        ]
+      }
+    },
+
+    {
+      "id": "h2",
       "header": true,
       "texts": {
-        "en": "Scenario 2: Compliments & Seating",
-        "th": "สถานการณ์ 2: การชมและเชิญนั่ง",
-        "fa": "سناریو ۲: تعریف و نشستن",
-        "ar": "السيناريو 2: المجاملات والجلوس",
-        "es": "Escenario 2: Cumplidos y asiento",
-        "zh": "场景二：赞美与入座",
-        "ja": "シナリオ2：褒め言葉と着席"
+        "en": "Scenario 2: Refreshments",
+        "th": "สถานการณ์ที่ 2: เครื่องดื่มและของว่าง",
+        "fa": "سناریو ۲: پذیرایی",
+        "ar": "السيناريو 2: المرطبات",
+        "es": "Escenario 2: Refrescos",
+        "zh": "场景 2：茶点招待",
+        "ja": "シナリオ 2：おもてなし"
       }
     },
     {
-      "id": "sentence_visit_house_beautiful",
-      "kind": "sentence",
-      "itemIds": [
-        "word_house",
-        "word_of",
-        "word_you",
-        "word_beautiful",
-        "word_much"
-      ],
+      "id": "w6",
+      "kind": "Word",
       "texts": {
-        "en": "Your house is very beautiful",
-        "th": "บ้านของคุณสวยมาก",
-        "fa": "خانه شما خیلی زیبا است",
-        "ar": "منزلك جميل جدا",
-        "es": "Tu casa es muy hermosa",
-        "zh": "你的房子非常漂亮",
-        "ja": "あなたの家はとても美しいです"
-      },
-      "tokens": {
-        "en": ["Your", "house", "is", "very", "beautiful"],
-        "th": ["บ้าน", "ของ", "คุณ", "สวย", "มาก"],
-        "fa": ["خانه", "شما", "خیلی", "زیبا", "است"],
-        "ar": ["منزلك", "جميل", "جدا"],
-        "es": ["Tu", "casa", "es", "muy", "hermosa"],
-        "zh": ["你的", "房子", "非常", "漂亮"],
-        "ja": ["あなた", "の", "家", "は", "とても", "美しい", "です"]
+        "en": "drink",
+        "th": "เครื่องดื่ม",
+        "fa": "نوشیدنی",
+        "ar": "مشروب",
+        "es": "bebida",
+        "zh": "饮料",
+        "ja": "飲み物"
       }
     },
     {
-      "id": "sentence_visit_sit_down",
-      "kind": "sentence",
-      "itemIds": ["word_sit"],
+      "id": "w7",
+      "kind": "Word",
       "texts": {
-        "en": "Please sit down",
-        "th": "เชิญนั่ง",
-        "fa": "لطفا بنشینید",
-        "ar": "تفضل اجلس",
-        "es": "Por favor siéntate",
-        "zh": "请坐",
-        "ja": "どうぞ座ってください"
-      },
-      "tokens": {
-        "en": ["Please", "sit", "down"],
-        "th": ["เชิญ", "นั่ง"],
-        "fa": ["لطفا", "بنشینید"],
-        "ar": ["تفضل", "اجلس"],
-        "es": ["Por", "favor", "siéntate"],
-        "zh": ["请", "坐"],
-        "ja": ["どうぞ", "座って", "ください"]
+        "en": "coffee",
+        "th": "กาแฟ",
+        "fa": "قهوه",
+        "ar": "قهوة",
+        "es": "café",
+        "zh": "咖啡",
+        "ja": "コーヒー"
       }
     },
     {
-      "id": "word_beautiful",
-      "kind": "word",
-      "texts": {
-        "en": "beautiful",
-        "th": "สวย",
-        "fa": "زیبا",
-        "ar": "جميل",
-        "es": "hermosa",
-        "zh": "漂亮",
-        "ja": "美しい"
-      }
-    },
-    {
-      "id": "word_sit",
-      "kind": "word",
-      "texts": {
-        "en": "sit",
-        "th": "นั่ง",
-        "fa": "نشستن",
-        "ar": "يجلس",
-        "es": "sentarse",
-        "zh": "坐",
-        "ja": "座る"
-      }
-    },
-    {
-      "id": "header_scenario3",
-      "header": true,
-      "texts": {
-        "en": "Scenario 3: Offering Drinks & Food",
-        "th": "สถานการณ์ 3: การเสนอเครื่องดื่มและอาหาร",
-        "fa": "سناریو ۳: تعارف نوشیدنی و غذا",
-        "ar": "السيناريو 3: تقديم المشروبات والطعام",
-        "es": "Escenario 3: Ofrecer bebidas y comida",
-        "zh": "场景三：提供饮料与食物",
-        "ja": "シナリオ3：飲み物と食べ物の勧め"
-      }
-    },
-    {
-      "id": "sentence_visit_drink_tea_question",
-      "kind": "sentence",
-      "itemIds": ["word_you", "word_want", "word_drink", "word_tea"],
-      "texts": {
-        "en": "Do you want to drink tea",
-        "th": "คุณต้องการดื่มชาไหม",
-        "fa": "آیا می‌خواهید چای بنوشید",
-        "ar": "هل تريد أن تشرب الشاي",
-        "es": "Quieres beber té",
-        "zh": "你想喝茶吗",
-        "ja": "お茶を飲みたいですか"
-      },
-      "tokens": {
-        "en": ["Do", "you", "want", "to", "drink", "tea"],
-        "th": ["คุณ", "ต้องการ", "ดื่ม", "ชา", "ไหม"],
-        "fa": ["آیا", "می‌خواهید", "چای", "بنوشید"],
-        "ar": ["هل", "تريد", "أن", "تشرب", "الشاي"],
-        "es": ["Quieres", "beber", "té"],
-        "zh": ["你", "想", "喝", "茶", "吗"],
-        "ja": ["お茶", "を", "飲み", "たい", "です", "か"]
-      }
-    },
-    {
-      "id": "sentence_visit_yes_drink_tea",
-      "kind": "sentence",
-      "itemIds": ["word_yes", "word_i", "word_want", "word_drink", "word_tea"],
-      "texts": {
-        "en": "Yes I want to drink tea",
-        "th": "ใช่ ฉันต้องการดื่มชา",
-        "fa": "بله من می‌خواهم چای بنوشم",
-        "ar": "نعم أريد أن أشرب الشاي",
-        "es": "Sí quiero beber té",
-        "zh": "是的我想喝茶",
-        "ja": "はいお茶を飲みたいです"
-      },
-      "tokens": {
-        "en": ["Yes", "I", "want", "to", "drink", "tea"],
-        "th": ["ใช่", "ฉัน", "ต้องการ", "ดื่ม", "ชา"],
-        "fa": ["بله", "من", "می‌خواهم", "چای", "بنوشم"],
-        "ar": ["نعم", "أريد", "أن", "أشرب", "الشاي"],
-        "es": ["Sí", "quiero", "beber", "té"],
-        "zh": ["是的", "我", "想", "喝", "茶"],
-        "ja": ["はい", "お茶", "を", "飲み", "たい", "です"]
-      }
-    },
-    {
-      "id": "sentence_visit_eat_cake_question",
-      "kind": "sentence",
-      "itemIds": ["word_you", "word_want", "word_eat", "word_cake"],
-      "texts": {
-        "en": "Do you want to eat cake",
-        "th": "คุณต้องการกินเค้กไหม",
-        "fa": "آیا می‌خواهید کیک بخورید",
-        "ar": "هل تريد أن تأكل الكعكة",
-        "es": "Quieres comer pastel",
-        "zh": "你想吃蛋糕吗",
-        "ja": "ケーキを食べたいですか"
-      },
-      "tokens": {
-        "en": ["Do", "you", "want", "to", "eat", "cake"],
-        "th": ["คุณ", "ต้องการ", "กิน", "เค้ก", "ไหม"],
-        "fa": ["آیا", "می‌خواهید", "کیک", "بخورید"],
-        "ar": ["هل", "تريد", "أن", "تأكل", "الكعكة"],
-        "es": ["Quieres", "comer", "pastel"],
-        "zh": ["你", "想", "吃", "蛋糕", "吗"],
-        "ja": ["ケーキ", "を", "食べ", "たい", "です", "か"]
-      }
-    },
-    {
-      "id": "word_tea",
-      "kind": "word",
+      "id": "w8",
+      "kind": "Word",
       "texts": {
         "en": "tea",
         "th": "ชา",
@@ -439,411 +233,710 @@
       }
     },
     {
-      "id": "word_cake",
-      "kind": "word",
+      "id": "w9",
+      "kind": "Word",
       "texts": {
-        "en": "cake",
-        "th": "เค้ก",
-        "fa": "کیک",
-        "ar": "كعكة",
-        "es": "pastel",
-        "zh": "蛋糕",
-        "ja": "ケーキ"
+        "en": "snack",
+        "th": "ของว่าง",
+        "fa": "میان‌وعده",
+        "ar": "وجبة خفيفة",
+        "es": "bocadillo",
+        "zh": "零食",
+        "ja": "おやつ"
       }
     },
     {
-      "id": "header_scenario4",
+      "id": "w10",
+      "kind": "Word",
+      "texts": {
+        "en": "hungry",
+        "th": "หิว",
+        "fa": "گرسنه",
+        "ar": "جائع",
+        "es": "hambriento",
+        "zh": "饿",
+        "ja": "お腹が空いた"
+      }
+    },
+    {
+      "id": "s6",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Would you like something to drink?",
+        "th": "คุณอยากดื่มอะไรไหม",
+        "fa": "آیا چیزی برای نوشیدن میل دارید؟",
+        "ar": "هل تريد شيئاً لتشربه؟",
+        "es": "¿Te gustaría algo de beber?",
+        "zh": "你想喝点什么吗？",
+        "ja": "何か飲み物は要りますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "อยาก", "ดื่ม", "อะไร", "ไหม"],
+        "zh": ["你", "想", "喝", "点", "什么", "吗", "？"],
+        "ja": ["何か", "飲み物", "は", "要り", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s7",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I will make some coffee.",
+        "th": "ฉันจะชงกาแฟให้",
+        "fa": "من مقداری قهوه درست خواهم کرد.",
+        "ar": "سأحضر بعض القهوة.",
+        "es": "Prepararé un poco de café.",
+        "zh": "我去泡点咖啡。",
+        "ja": "コーヒーを淹れますね。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "จะ", "ชง", "กาแฟ", "ให้"],
+        "zh": ["我", "去", "泡", "点", "咖啡", "。"],
+        "ja": ["コーヒー", "を", "淹れ", "ます", "ね", "。"]
+      }
+    },
+    {
+      "id": "s8",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Do you want tea or juice?",
+        "th": "คุณอยากได้ชาหรือน้ำผลไม้",
+        "fa": "آیا چای می‌خواهید یا آبمیوه؟",
+        "ar": "هل تريد الشاي أم العصير؟",
+        "es": "¿Quieres té o jugo?",
+        "zh": "你想要茶还是果汁？",
+        "ja": "お茶とジュース、どちらがいいですか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "อยาก", "ได้", "ชา", "หรือ", "น้ำผลไม้"],
+        "zh": ["你", "想要", "茶", "还是", "果汁", "？"],
+        "ja": [
+          "お茶",
+          "と",
+          "ジュース",
+          "、",
+          "どちら",
+          "が",
+          "いい",
+          "です",
+          "か",
+          "？"
+        ]
+      }
+    },
+    {
+      "id": "s9",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Please have a snack.",
+        "th": "กรุณารับของว่างหน่อย",
+        "fa": "لطفاً یک میان‌وعده بخورید.",
+        "ar": "يرجى تناول وجبة خفيفة.",
+        "es": "Por favor, come un bocadillo.",
+        "zh": "请吃点零食。",
+        "ja": "おやつをどうぞ。"
+      },
+      "tokens": {
+        "th": ["กรุณา", "รับ", "ของว่าง", "หน่อย"],
+        "zh": ["请", "吃", "点", "零食", "。"],
+        "ja": ["おやつ", "を", "どうぞ", "。"]
+      }
+    },
+    {
+      "id": "s10",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Are you hungry yet?",
+        "th": "คุณหิวหรือยัง",
+        "fa": "آیا هنوز گرسنه هستید؟",
+        "ar": "هل أنت جائع بعد؟",
+        "es": "¿Ya tienes hambre?",
+        "zh": "你饿了吗？",
+        "ja": "もうお腹が空きましたか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "หิว", "หรือ", "ยัง"],
+        "zh": ["你", "饿", "了", "吗", "？"],
+        "ja": ["もう", "お腹", "が", "空き", "まし", "た", "か", "？"]
+      }
+    },
+
+    {
+      "id": "h3",
       "header": true,
       "texts": {
-        "en": "Scenario 4: Food Compliments & Family Warmth",
-        "th": "สถานการณ์ 4: การชมอาหารและความอบอุ่นของครอบครัว",
-        "fa": "سناریو ۴: تعریف از غذا و گرمای خانواده",
-        "ar": "السيناريو 4: مجاملات الطعام ودفء العائلة",
-        "es": "Escenario 4: Cumplidos de comida y calidez familiar",
-        "zh": "场景四：赞美食物与家庭热情",
-        "ja": "シナリオ4：料理の褒め言葉と家族の温かさ"
+        "en": "Scenario 3: Tour",
+        "th": "สถานการณ์ที่ 3: การชมบ้าน",
+        "fa": "سناریو ۳: گشت و گذار",
+        "ar": "السيناريو 3: جولة",
+        "es": "Escenario 3: Recorrido",
+        "zh": "场景 3：参观",
+        "ja": "シナリオ 3：案内"
       }
     },
     {
-      "id": "sentence_visit_cake_delicious",
-      "kind": "sentence",
-      "itemIds": ["word_cake", "word_delicious", "word_much"],
+      "id": "w11",
+      "kind": "Word",
       "texts": {
-        "en": "The cake is very delicious",
-        "th": "เค้กอร่อยมาก",
-        "fa": "کیک خیلی خوشمزه است",
-        "ar": "الكعكة لذيذة جدا",
-        "es": "El pastel es muy delicioso",
-        "zh": "蛋糕非常好吃",
-        "ja": "ケーキはとてもおいしいです"
+        "en": "show",
+        "th": "แสดง",
+        "fa": "نشان دادن",
+        "ar": "يعرض",
+        "es": "mostrar",
+        "zh": "展示",
+        "ja": "見せる"
+      }
+    },
+    {
+      "id": "w12",
+      "kind": "Word",
+      "texts": {
+        "en": "room",
+        "th": "ห้อง",
+        "fa": "اتاق",
+        "ar": "غرفة",
+        "es": "habitación",
+        "zh": "房间",
+        "ja": "部屋"
+      }
+    },
+    {
+      "id": "w13",
+      "kind": "Word",
+      "texts": {
+        "en": "garden",
+        "th": "สวน",
+        "fa": "باغ",
+        "ar": "حديقة",
+        "es": "jardín",
+        "zh": "花园",
+        "ja": "庭"
+      }
+    },
+    {
+      "id": "w14",
+      "kind": "Word",
+      "texts": {
+        "en": "balcony",
+        "th": "ระเบียง",
+        "fa": "بالکن",
+        "ar": "شرفة",
+        "es": "balcón",
+        "zh": "阳台",
+        "ja": "バルコニー"
+      }
+    },
+    {
+      "id": "w15",
+      "kind": "Word",
+      "texts": {
+        "en": "upstairs",
+        "th": "ชั้นบน",
+        "fa": "طبقه بالا",
+        "ar": "في الطابق العلوي",
+        "es": "arriba",
+        "zh": "楼上",
+        "ja": "二階"
+      }
+    },
+    {
+      "id": "s11",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Let me show you around.",
+        "th": "ให้ฉันพาคุณชมรอบๆ",
+        "fa": "بگذارید شما را به گشت و گذار ببرم.",
+        "ar": "دعني أريك المكان.",
+        "es": "Déjame mostrarte el lugar.",
+        "zh": "让我带你四处看看。",
+        "ja": "案内しましょう。"
       },
       "tokens": {
-        "en": ["The", "cake", "is", "very", "delicious"],
-        "th": ["เค้ก", "อร่อย", "มาก"],
-        "fa": ["کیک", "خیلی", "خوشمزه", "است"],
-        "ar": ["الكعكة", "لذيذة", "جدا"],
-        "es": ["El", "pastel", "es", "muy", "delicioso"],
-        "zh": ["蛋糕", "非常", "好吃"],
-        "ja": ["ケーキ", "は", "とても", "おいしい", "です"]
+        "th": ["ให้", "ฉัน", "พา", "คุณ", "ชม", "รอบๆ"],
+        "zh": ["让", "我", "带", "你", "四处", "看看", "。"],
+        "ja": ["案内", "し", "まし", "ょう", "。"]
       }
     },
     {
-      "id": "sentence_visit_family_glad",
-      "kind": "sentence",
-      "itemIds": ["word_family", "word_of", "word_i", "word_glad", "word_much"],
+      "id": "s12",
+      "kind": "Sentence",
       "texts": {
-        "en": "My family is very glad",
-        "th": "ครอบครัวของฉันยินดีมาก",
-        "fa": "خانواده من خیلی خوشحال است",
-        "ar": "عائلتي سعيدة جدا",
-        "es": "Mi familia está muy encantada",
-        "zh": "我的家庭非常高兴",
-        "ja": "私の家族はとても嬉しいです"
+        "en": "This is the living room.",
+        "th": "นี่คือห้องนั่งเล่น",
+        "fa": "این اتاق نشیمن است.",
+        "ar": "هذه غرفة المعيشة.",
+        "es": "Esta es la sala de estar.",
+        "zh": "这是客厅。",
+        "ja": "ここはリビングルームです。"
       },
       "tokens": {
-        "en": ["My", "family", "is", "very", "glad"],
-        "th": ["ครอบครัว", "ของ", "ฉัน", "ยินดี", "มาก"],
-        "fa": ["خانواده", "من", "خیلی", "خوشحال", "است"],
-        "ar": ["عائلتي", "سعيدة", "جدا"],
-        "es": ["Mi", "familia", "está", "muy", "encantada"],
-        "zh": ["我的", "家庭", "非常", "高兴"],
-        "ja": ["私", "の", "家族", "は", "とても", "嬉しい", "です"]
+        "th": ["นี่", "คือ", "ห้อง", "นั่งเล่น"],
+        "zh": ["这", "是", "客厅", "。"],
+        "ja": ["ここ", "は", "リビングルーム", "です", "。"]
       }
     },
     {
-      "id": "word_delicious",
-      "kind": "word",
+      "id": "s13",
+      "kind": "Sentence",
       "texts": {
-        "en": "delicious",
-        "th": "อร่อย",
-        "fa": "خوشمزه",
-        "ar": "لذيذ",
-        "es": "delicioso",
-        "zh": "好吃",
-        "ja": "おいしい"
+        "en": "We have a beautiful garden.",
+        "th": "เรามีสวนที่สวยงาม",
+        "fa": "ما یک باغ زیبا داریم.",
+        "ar": "لدينا حديقة جميلة.",
+        "es": "Tenemos un hermoso jardín.",
+        "zh": "我们有一个美丽的花园。",
+        "ja": "私たちは美しい庭を持っています。"
+      },
+      "tokens": {
+        "th": ["เรา", "มี", "สวน", "ที่", "สวยงาม"],
+        "zh": ["我们", "有", "一个", "美丽", "的", "花园", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "美しい",
+          "庭",
+          "を",
+          "持って",
+          "い",
+          "ます",
+          "。"
+        ]
       }
     },
     {
-      "id": "word_family",
-      "kind": "word",
+      "id": "s14",
+      "kind": "Sentence",
       "texts": {
-        "en": "family",
-        "th": "ครอบครัว",
-        "fa": "خانواده",
-        "ar": "عائلة",
-        "es": "familia",
-        "zh": "家庭",
-        "ja": "家族"
+        "en": "You can see the city from the balcony.",
+        "th": "คุณสามารถมองเห็นเมืองจากระเบียง",
+        "fa": "شما می‌توانید شهر را از بالکن ببینید.",
+        "ar": "يمكنك رؤية المدينة من الشرفة.",
+        "es": "Puedes ver la ciudad desde el balcón.",
+        "zh": "你可以从阳台看到城市。",
+        "ja": "バルコニーから街が見えます。"
+      },
+      "tokens": {
+        "th": ["คุณ", "สามารถ", "มอง", "เห็น", "เมือง", "จาก", "ระเบียง"],
+        "zh": ["你", "可以", "从", "阳台", "看到", "城市", "。"],
+        "ja": ["バルコニー", "から", "街", "が", "見え", "ます", "。"]
       }
     },
     {
-      "id": "word_glad",
-      "kind": "word",
+      "id": "s15",
+      "kind": "Sentence",
       "texts": {
-        "en": "glad",
-        "th": "ยินดี",
-        "fa": "خوشحال",
-        "ar": "سعيد",
-        "es": "encantado",
-        "zh": "高兴",
-        "ja": "嬉しい"
+        "en": "The bedrooms are upstairs.",
+        "th": "ห้องนอนอยู่ชั้นบน",
+        "fa": "اتاق‌های خواب در طبقه بالا هستند.",
+        "ar": "غرف النوم في الطابق العلوي.",
+        "es": "Los dormitorios están arriba.",
+        "zh": "卧室在楼上。",
+        "ja": "寝室は二階にあります。"
+      },
+      "tokens": {
+        "th": ["ห้องนอน", "อยู่", "ชั้น", "บน"],
+        "zh": ["卧室", "在", "楼上", "。"],
+        "ja": ["寝室", "は", "二階", "に", "あり", "ます", "。"]
       }
     },
+
     {
-      "id": "header_scenario5",
+      "id": "h4",
       "header": true,
       "texts": {
-        "en": "Scenario 5: Serial Verb Actions During the Visit (G11)",
-        "th": "สถานการณ์ 5: การกระทำด้วยกริยาต่อเนื่องระหว่างเยี่ยม (G11)",
-        "fa": "سناریو ۵: کنش‌های افعال متوالی در بازدید (G11)",
-        "ar": "السيناريو 5: أفعال متسلسلة أثناء الزيارة (G11)",
-        "es": "Escenario 5: Acciones con verbos seriales durante la visita (G11)",
-        "zh": "场景五：拜访中的连动动作 (G11)",
-        "ja": "シナリオ5：訪問中の連動詞動作 (G11)"
+        "en": "Scenario 4: Compliments",
+        "th": "สถานการณ์ที่ 4: การชมเชย",
+        "fa": "سناریو ۴: تعریف و تمجید",
+        "ar": "السيناريو 4: الإطراء",
+        "es": "Escenario 4: Elogios",
+        "zh": "场景 4：赞美",
+        "ja": "シナリオ 4：褒め言葉"
       }
     },
     {
-      "id": "sentence_visit_serial_come_sit",
-      "kind": "sentence",
-      "itemIds": ["word_come_in", "word_sit"],
+      "id": "w16",
+      "kind": "Word",
       "texts": {
-        "en": "Please come in and sit down",
-        "th": "เชิญเข้ามานั่ง",
-        "fa": "لطفا وارد شوید و بنشینید",
-        "ar": "تفضل ادخل واجلس",
-        "es": "Por favor entra y siéntate",
-        "zh": "请进来坐",
-        "ja": "どうぞ入って座ってください"
+        "en": "beautiful",
+        "th": "สวยงาม",
+        "fa": "زیبا",
+        "ar": "جميل",
+        "es": "hermoso",
+        "zh": "美丽",
+        "ja": "美しい"
+      }
+    },
+    {
+      "id": "w17",
+      "kind": "Word",
+      "texts": {
+        "en": "clean",
+        "th": "สะอาด",
+        "fa": "تمیز",
+        "ar": "نظيف",
+        "es": "limpio",
+        "zh": "干净",
+        "ja": "きれい"
+      }
+    },
+    {
+      "id": "w18",
+      "kind": "Word",
+      "texts": {
+        "en": "cozy",
+        "th": "อบอุ่น",
+        "fa": "دنج",
+        "ar": "مريح",
+        "es": "acogedor",
+        "zh": "舒适",
+        "ja": "居心地が良い"
+      }
+    },
+    {
+      "id": "w19",
+      "kind": "Word",
+      "texts": {
+        "en": "decorate",
+        "th": "ตกแต่ง",
+        "fa": "تزئین",
+        "ar": "يزين",
+        "es": "decorar",
+        "zh": "装饰",
+        "ja": "飾る"
+      }
+    },
+    {
+      "id": "w20",
+      "kind": "Word",
+      "texts": {
+        "en": "lovely",
+        "th": "น่ารัก",
+        "fa": "دلپذیر",
+        "ar": "رائع",
+        "es": "encantador",
+        "zh": "可爱",
+        "ja": "素敵"
+      }
+    },
+    {
+      "id": "s16",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Your house is very beautiful.",
+        "th": "บ้านของคุณสวยงามมาก",
+        "fa": "خانه شما بسیار زیبا است.",
+        "ar": "منزلك جميل جداً.",
+        "es": "Tu casa es muy hermosa.",
+        "zh": "你的房子非常漂亮。",
+        "ja": "あなたの家はとても美しいです。"
       },
       "tokens": {
-        "en": ["Please", "come", "in", "and", "sit", "down"],
-        "th": ["เชิญ", "เข้ามา", "นั่ง"],
-        "fa": ["لطفا", "وارد", "شوید", "و", "بنشینید"],
-        "ar": ["تفضل", "ادخل", "واجلس"],
-        "es": ["Por", "favor", "entra", "y", "siéntate"],
-        "zh": ["请", "进来", "坐"],
-        "ja": ["どうぞ", "入って", "座って", "ください"]
+        "th": ["บ้าน", "ของ", "คุณ", "สวยงาม", "มาก"],
+        "zh": ["你", "的", "房子", "非常", "漂亮", "。"],
+        "ja": ["あなた", "の", "家", "は", "とても", "美しい", "です", "。"]
       }
     },
     {
-      "id": "sentence_visit_serial_sit_drink",
-      "kind": "sentence",
-      "itemIds": ["word_sit", "word_drink", "word_tea"],
+      "id": "s17",
+      "kind": "Sentence",
       "texts": {
-        "en": "Sit and drink tea",
-        "th": "นั่งดื่มชา",
-        "fa": "بنشینید و چای بنوشید",
-        "ar": "اجلس واشرب الشاي",
-        "es": "Siéntate y bebe té",
-        "zh": "坐喝茶",
-        "ja": "座ってお茶を飲む"
+        "en": "It is so clean and tidy.",
+        "th": "มันสะอาดและเป็นระเบียบมาก",
+        "fa": "اینجا بسیار تمیز و مرتب است.",
+        "ar": "إنه نظيف ومرتب جداً.",
+        "es": "Está muy limpio y ordenado.",
+        "zh": "这里非常干净整洁。",
+        "ja": "とてもきれいで整頓されています。"
       },
       "tokens": {
-        "en": ["Sit", "and", "drink", "tea"],
-        "th": ["นั่ง", "ดื่ม", "ชา"],
-        "fa": ["بنشینید", "و", "چای", "بنوشید"],
-        "ar": ["اجلس", "واشرب", "الشاي"],
-        "es": ["Siéntate", "y", "bebe", "té"],
-        "zh": ["坐", "喝", "茶"],
-        "ja": ["座って", "お茶", "を", "飲む"]
+        "th": ["มัน", "สะอาด", "และ", "เป็นระเบียบ", "มาก"],
+        "zh": ["这里", "非常", "干净", "整洁", "。"],
+        "ja": [
+          "とても",
+          "きれい",
+          "で",
+          "整頓",
+          "され",
+          "て",
+          "い",
+          "ます",
+          "。"
+        ]
       }
     },
     {
-      "id": "sentence_visit_serial_go_take",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_go", "word_take", "word_tea"],
+      "id": "s18",
+      "kind": "Sentence",
       "texts": {
-        "en": "I go get tea",
-        "th": "ฉันไปเอาชา",
-        "fa": "من می‌روم و چای می‌آورم",
-        "ar": "أنا أذهب لإحضار الشاي",
-        "es": "Yo voy por té",
-        "zh": "我去拿茶",
-        "ja": "私はお茶を取りに行く"
+        "en": "This room feels very cozy.",
+        "th": "ห้องนี้รู้สึกอบอุ่นมาก",
+        "fa": "این اتاق بسیار دنج احساس می‌شود.",
+        "ar": "هذه الغرفة مريحة جداً.",
+        "es": "Esta habitación se siente muy acogedora.",
+        "zh": "这个房间感觉很舒适。",
+        "ja": "この部屋は居心地がとても良いです。"
       },
       "tokens": {
-        "en": ["I", "go", "get", "tea"],
-        "th": ["ฉัน", "ไป", "เอา", "ชา"],
-        "fa": ["من", "می‌روم", "و", "چای", "می‌آورم"],
-        "ar": ["أنا", "أذهب", "لإحضار", "الشاي"],
-        "es": ["Yo", "voy", "por", "té"],
-        "zh": ["我", "去", "拿", "茶"],
-        "ja": ["私", "は", "お茶", "を", "取り", "に", "行く"]
+        "th": ["ห้อง", "นี้", "รู้สึก", "อบอุ่น", "มาก"],
+        "zh": ["这个", "房间", "感觉", "很", "舒适", "。"],
+        "ja": [
+          "この",
+          "部屋",
+          "は",
+          "居心地",
+          "が",
+          "とても",
+          "良い",
+          "です",
+          "。"
+        ]
       }
     },
     {
-      "id": "sentence_visit_come_visit_house",
-      "kind": "sentence",
-      "itemIds": [
-        "word_i",
-        "word_come",
-        "word_visit",
-        "word_house",
-        "word_of",
-        "word_you"
-      ],
+      "id": "s19",
+      "kind": "Sentence",
       "texts": {
-        "en": "I come to visit your house",
-        "th": "ฉันมาเยี่ยมบ้านของคุณ",
-        "fa": "من برای بازدید به خانه شما می‌آیم",
-        "ar": "أنا آتي لزيارة منزلك",
-        "es": "Yo vengo a visitar tu casa",
-        "zh": "我来拜访你的房子",
-        "ja": "私はあなたの家を訪問してくる"
+        "en": "You decorate very well.",
+        "th": "คุณตกแต่งได้ดีมาก",
+        "fa": "شما بسیار خوب تزئین کرده‌اید.",
+        "ar": "أنت تزين بشكل جيد جداً.",
+        "es": "Decoras muy bien.",
+        "zh": "你装饰得非常好。",
+        "ja": "あなたはとても上手に飾っていますね。"
       },
       "tokens": {
-        "en": ["I", "come", "to", "visit", "your", "house"],
-        "th": ["ฉัน", "มา", "เยี่ยม", "บ้าน", "ของ", "คุณ"],
-        "fa": ["من", "برای", "بازدید", "به", "خانه", "شما", "می‌آیم"],
-        "ar": ["أنا", "آتي", "لزيارة", "منزلك"],
-        "es": ["Yo", "vengo", "a", "visitar", "tu", "casa"],
-        "zh": ["我", "来", "拜访", "你的", "房子"],
-        "ja": ["私", "は", "あなた", "の", "家", "を", "訪問", "して", "くる"]
+        "th": ["คุณ", "ตกแต่ง", "ได้", "ดี", "มาก"],
+        "zh": ["你", "装饰", "得", "非常", "好", "。"],
+        "ja": [
+          "あなた",
+          "は",
+          "とても",
+          "上手",
+          "に",
+          "飾っ",
+          "て",
+          "い",
+          "ます",
+          "ね",
+          "。"
+        ]
       }
     },
     {
-      "id": "word_go",
-      "kind": "word",
+      "id": "s20",
+      "kind": "Sentence",
       "texts": {
-        "en": "go",
-        "th": "ไป",
-        "fa": "رفتن",
-        "ar": "يذهب",
-        "es": "ir",
-        "zh": "去",
-        "ja": "行く"
+        "en": "What a lovely home!",
+        "th": "ช่างเป็นบ้านที่น่ารักอะไรเช่นนี้!",
+        "fa": "چه خانه دلپذیری!",
+        "ar": "يا له من منزل رائع!",
+        "es": "¡Qué hogar tan encantador!",
+        "zh": "多么可爱的家啊！",
+        "ja": "なんて素敵な家なのでしょう！"
+      },
+      "tokens": {
+        "th": [
+          "ช่าง",
+          "เป็น",
+          "บ้าน",
+          "ที่",
+          "น่ารัก",
+          "อะไร",
+          "เช่น",
+          "นี้",
+          "!"
+        ],
+        "zh": ["多么", "可爱", "的", "家", "啊", "！"],
+        "ja": ["なんて", "素敵", "な", "家", "な", "の", "でしょう", "！"]
       }
     },
+
     {
-      "id": "word_take",
-      "kind": "word",
+      "id": "h5",
+      "header": true,
       "texts": {
-        "en": "take / get",
-        "th": "เอา",
-        "fa": "گرفتن / آوردن",
-        "ar": "يأخذ / يحضر",
-        "es": "tomar / coger",
-        "zh": "拿",
-        "ja": "取る"
+        "en": "Scenario 5: Departure",
+        "th": "สถานการณ์ที่ 5: การจากไป",
+        "fa": "سناریو ۵: رفتن",
+        "ar": "السيناريو 5: المغادرة",
+        "es": "Escenario 5: Partida",
+        "zh": "场景 5：离开",
+        "ja": "シナリオ 5：出発"
       }
     },
     {
-      "id": "word_come",
-      "kind": "word",
+      "id": "w21",
+      "kind": "Word",
       "texts": {
-        "en": "come",
-        "th": "มา",
-        "fa": "آمدن",
-        "ar": "يأتي",
-        "es": "venir",
-        "zh": "来",
-        "ja": "来る"
+        "en": "leave",
+        "th": "จากไป",
+        "fa": "ترک کردن",
+        "ar": "يغادر",
+        "es": "irse",
+        "zh": "离开",
+        "ja": "去る"
       }
     },
     {
-      "id": "word_visit",
-      "kind": "word",
+      "id": "w22",
+      "kind": "Word",
+      "texts": {
+        "en": "thank",
+        "th": "ขอบคุณ",
+        "fa": "تشکر",
+        "ar": "شكر",
+        "es": "agradecer",
+        "zh": "感谢",
+        "ja": "感謝"
+      }
+    },
+    {
+      "id": "w23",
+      "kind": "Word",
+      "texts": {
+        "en": "host",
+        "th": "เจ้าภาพ",
+        "fa": "میزبان",
+        "ar": "مضيف",
+        "es": "anfitrión",
+        "zh": "主人",
+        "ja": "ホスト"
+      }
+    },
+    {
+      "id": "w24",
+      "kind": "Word",
       "texts": {
         "en": "visit",
-        "th": "เยี่ยม",
-        "fa": "بازدید کردن",
-        "ar": "يزور",
-        "es": "visitar",
+        "th": "เยี่ยมเยียน",
+        "fa": "بازدید",
+        "ar": "زيارة",
+        "es": "visita",
         "zh": "拜访",
-        "ja": "訪問する"
+        "ja": "訪問"
       }
     },
     {
-      "id": "header_scenario6",
-      "header": true,
+      "id": "w25",
+      "kind": "Word",
       "texts": {
-        "en": "Scenario 6: Causative & Permission (G15)",
-        "th": "สถานการณ์ 6: การทำให้เกิดและการอนุญาต (G15)",
-        "fa": "سناریو ۶: سببی و اجازه (G15)",
-        "ar": "السيناريو 6: السببية والإذن (G15)",
-        "es": "Escenario 6: Causativo y permiso (G15)",
-        "zh": "场景六：使役与许可 (G15)",
-        "ja": "シナリオ6：使役と許可 (G15)"
+        "en": "again",
+        "th": "อีกครั้ง",
+        "fa": "دوباره",
+        "ar": "مرة أخرى",
+        "es": "de nuevo",
+        "zh": "再次",
+        "ja": "再び"
       }
     },
     {
-      "id": "sentence_visit_let_me_help",
-      "kind": "sentence",
-      "itemIds": ["word_causative_let", "word_i", "word_help", "word_you"],
+      "id": "s21",
+      "kind": "Sentence",
       "texts": {
-        "en": "Let me help you",
-        "th": "ให้ฉันช่วยคุณ",
-        "fa": "بگذارید من به شما کمک کنم",
-        "ar": "دعني أساعدك",
-        "es": "Déjame ayudarte",
-        "zh": "让我帮助你",
-        "ja": "私に手伝わせてください"
+        "en": "I should leave now.",
+        "th": "ฉันควรไปตอนนี้",
+        "fa": "من باید الان بروم.",
+        "ar": "يجب أن أغادر الآن.",
+        "es": "Debería irme ahora.",
+        "zh": "我现在该走了。",
+        "ja": "私はもう行くべきです。"
       },
       "tokens": {
-        "en": ["Let", "me", "help", "you"],
-        "th": ["ให้", "ฉัน", "ช่วย", "คุณ"],
-        "fa": ["بگذارید", "من", "به", "شما", "کمک", "کنم"],
-        "ar": ["دعني", "أساعدك"],
-        "es": ["Déjame", "ayudarte"],
-        "zh": ["让", "我", "帮助", "你"],
-        "ja": ["私", "に", "手伝わせて", "ください"]
+        "th": ["ฉัน", "ควร", "ไป", "ตอนนี้"],
+        "zh": ["我", "现在", "该", "走", "了", "。"],
+        "ja": ["私", "は", "もう", "行く", "べき", "です", "。"]
       }
     },
     {
-      "id": "sentence_visit_let_me_take_tea",
-      "kind": "sentence",
-      "itemIds": [
-        "word_causative_let",
-        "word_i",
-        "word_take",
-        "word_tea",
-        "word_you"
-      ],
+      "id": "s22",
+      "kind": "Sentence",
       "texts": {
-        "en": "Let me get tea for you",
-        "th": "ให้ฉันเอาชาให้คุณ",
-        "fa": "بگذارید من برای شما چای بیاورم",
-        "ar": "دعني أحضر لك الشاي",
-        "es": "Déjame traerte té",
-        "zh": "让我给你拿茶",
-        "ja": "私があなたにお茶を持ってくる"
+        "en": "Thank you for hosting me.",
+        "th": "ขอบคุณที่ต้อนรับฉัน",
+        "fa": "از میزبانی شما متشکرم.",
+        "ar": "شكراً لاستضافتي.",
+        "es": "Gracias por recibirme.",
+        "zh": "谢谢你的招待。",
+        "ja": "おもてなしありがとうございます。"
       },
       "tokens": {
-        "en": ["Let", "me", "get", "tea", "for", "you"],
-        "th": ["ให้", "ฉัน", "เอา", "ชา", "ให้", "คุณ"],
-        "fa": ["بگذارید", "من", "برای", "شما", "چای", "بیاورم"],
-        "ar": ["دعني", "أحضر", "لك", "الشاي"],
-        "es": ["Déjame", "traerte", "té"],
-        "zh": ["让", "我", "给", "你", "拿", "茶"],
-        "ja": ["私", "が", "あなた", "に", "お茶", "を", "持って", "くる"]
+        "th": ["ขอบคุณ", "ที่", "ต้อนรับ", "ฉัน"],
+        "zh": ["谢谢", "你", "的", "招待", "。"],
+        "ja": ["おもてなし", "ありがとう", "ございます", "。"]
       }
     },
     {
-      "id": "sentence_visit_you_make_me_glad",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_make_cause",
-        "word_i",
-        "word_glad",
-        "word_much"
-      ],
+      "id": "s23",
+      "kind": "Sentence",
       "texts": {
-        "en": "You make me very glad",
-        "th": "คุณทำให้ฉันยินดีมาก",
-        "fa": "شما من را خیلی خوشحال می‌کنید",
-        "ar": "أنت تجعلني سعيدا جدا",
-        "es": "Tú me haces muy encantado",
-        "zh": "你让我非常高兴",
-        "ja": "あなたは私をとても嬉しくします"
+        "en": "I really enjoyed this visit.",
+        "th": "ฉันสนุกกับการมาเยี่ยมครั้งนี้มาก",
+        "fa": "من واقعاً از این بازدید لذت بردم.",
+        "ar": "لقد استمتعت حقاً بهذه الزيارة.",
+        "es": "Realmente disfruté esta visita.",
+        "zh": "我真的很喜欢这次拜访。",
+        "ja": "今回の訪問を本当に楽しめました。"
       },
       "tokens": {
-        "en": ["You", "make", "me", "very", "glad"],
-        "th": ["คุณ", "ทำให้", "ฉัน", "ยินดี", "มาก"],
-        "fa": ["شما", "من", "را", "خیلی", "خوشحال", "می‌کنید"],
-        "ar": ["أنت", "تجعلني", "سعيدا", "جدا"],
-        "es": ["Tú", "me", "haces", "muy", "encantado"],
-        "zh": ["你", "让", "我", "非常", "高兴"],
-        "ja": ["あなた", "は", "私", "を", "とても", "嬉しく", "します"]
+        "th": [
+          "ฉัน",
+          "สนุก",
+          "กับ",
+          "การ",
+          "มา",
+          "เยี่ยม",
+          "ครั้ง",
+          "นี้",
+          "มาก"
+        ],
+        "zh": ["我", "真的", "很", "喜欢", "这次", "拜访", "。"],
+        "ja": [
+          "今回",
+          "の",
+          "訪問",
+          "を",
+          "本当に",
+          "楽しめ",
+          "まし",
+          "た",
+          "。"
+        ]
       }
     },
     {
-      "id": "word_causative_let",
-      "kind": "word",
+      "id": "s24",
+      "kind": "Sentence",
       "texts": {
-        "en": "let / allow",
-        "th": "ให้",
-        "fa": "اجازه دادن",
-        "ar": "يسمح",
-        "es": "dejar / permitir",
-        "zh": "让 / 允许",
-        "ja": "許可する"
+        "en": "Please visit me again soon.",
+        "th": "โปรดมาเยี่ยมฉันอีกครั้งเร็วๆนี้",
+        "fa": "لطفاً به زودی دوباره به من سر بزنید.",
+        "ar": "يرجى زيارتي مرة أخرى قريباً.",
+        "es": "Por favor, visítame de nuevo pronto.",
+        "zh": "请很快再来拜访我。",
+        "ja": "またすぐに遊びに来てください。"
+      },
+      "tokens": {
+        "th": ["โปรด", "มา", "เยี่ยม", "ฉัน", "อีก", "ครั้ง", "เร็วๆนี้"],
+        "zh": ["请", "很快", "再", "来", "拜访", "我", "。"],
+        "ja": ["また", "すぐに", "遊び", "に", "来", "て", "ください", "。"]
       }
     },
     {
-      "id": "word_make_cause",
-      "kind": "word",
+      "id": "s25",
+      "kind": "Sentence",
       "texts": {
-        "en": "make / cause",
-        "th": "ทำให้",
-        "fa": "باعث شدن",
-        "ar": "يجعل",
-        "es": "hacer que",
-        "zh": "使 / 让",
-        "ja": "〜にする"
-      }
-    },
-    {
-      "id": "word_help",
-      "kind": "word",
-      "texts": {
-        "en": "help",
-        "th": "ช่วย",
-        "fa": "کمک کردن",
-        "ar": "يساعد",
-        "es": "ayudar",
-        "zh": "帮助",
-        "ja": "手伝う"
+        "en": "It was a wonderful time.",
+        "th": "มันเป็นช่วงเวลาที่ยอดเยี่ยม",
+        "fa": "آن زمان فوق‌العاده‌ای بود.",
+        "ar": "لقد كان وقتاً رائعاً.",
+        "es": "Fue un tiempo maravilloso.",
+        "zh": "这是一段美好的时光。",
+        "ja": "素晴らしい時間でした。"
+      },
+      "tokens": {
+        "th": ["มัน", "เป็น", "ช่วง", "เวลา", "ที่", "ยอดเยี่ยม"],
+        "zh": ["这", "是", "一段", "美好", "的", "时光", "。"],
+        "ja": ["素晴らしい", "時間", "でし", "た", "。"]
       }
     }
   ]

@@ -2,1043 +2,892 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "h1",
       "header": true,
       "texts": {
-        "en": "Core Words",
-        "th": "คำศัพท์หลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras clave",
-        "zh": "核心词汇",
-        "ja": "基本単語"
+        "en": "Scenario 1: Saying Thank You",
+        "th": "สถานการณ์ที่ 1: การกล่าวขอบคุณ",
+        "fa": "سناریو ۱: تشکر کردن",
+        "ar": "السيناريو 1: قول شكراً",
+        "es": "Escenario 1: Dar las gracias",
+        "zh": "场景 1：表达感谢",
+        "ja": "シナリオ 1：感謝を伝える"
       }
     },
     {
-      "id": "word_thank",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
-        "en": "thank",
+        "en": "thank you",
         "th": "ขอบคุณ",
-        "fa": "تشکر",
-        "ar": "شكر",
+        "fa": "متشکرم",
+        "ar": "شكراً",
         "es": "gracias",
         "zh": "谢谢",
         "ja": "ありがとう"
       }
     },
     {
-      "id": "word_sorry",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
       "texts": {
-        "en": "sorry",
-        "th": "ขอโทษ",
-        "fa": "متاسف",
-        "ar": "آسف",
-        "es": "perdón",
-        "zh": "对不起",
-        "ja": "ごめんなさい"
-      }
-    },
-    {
-      "id": "word_not",
-      "kind": "word",
-      "texts": {
-        "en": "not",
-        "th": "ไม่",
-        "fa": "نه",
-        "ar": "لا",
-        "es": "no",
-        "zh": "不",
-        "ja": "ない"
-      }
-    },
-    {
-      "id": "word_be",
-      "kind": "word",
-      "texts": {
-        "en": "be",
-        "th": "เป็น",
-        "fa": "بودن",
-        "ar": "يكون",
-        "es": "ser",
-        "zh": "是",
-        "ja": "です"
-      }
-    },
-    {
-      "id": "word_what_short",
-      "kind": "word",
-      "texts": {
-        "en": "what (short)",
-        "th": "ไร",
-        "fa": "چه",
-        "ar": "ماذا",
-        "es": "qué",
-        "zh": "什么",
-        "ja": "何"
-      }
-    },
-    {
-      "id": "word_much",
-      "kind": "word",
-      "texts": {
-        "en": "much",
+        "en": "very much",
         "th": "มาก",
-        "fa": "زیاد",
-        "ar": "كثيرا",
+        "fa": "خیلی",
+        "ar": "جداً",
         "es": "mucho",
         "zh": "非常",
         "ja": "とても"
       }
     },
     {
-      "id": "word_i",
-      "kind": "word",
+      "id": "w3",
+      "kind": "Word",
       "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
-      }
-    },
-    {
-      "id": "word_have",
-      "kind": "word",
-      "texts": {
-        "en": "have",
-        "th": "มี",
-        "fa": "داشتن",
-        "ar": "يملك",
-        "es": "tener",
-        "zh": "有",
-        "ja": "ある"
-      }
-    },
-    {
-      "id": "word_come",
-      "kind": "word",
-      "texts": {
-        "en": "come",
-        "th": "มา",
-        "fa": "آمدن",
-        "ar": "يأتي",
-        "es": "venir",
-        "zh": "来",
-        "ja": "来る"
-      }
-    },
-    {
-      "id": "word_khrap",
-      "kind": "word",
-      "texts": {
-        "en": "polite particle (male)",
-        "th": "ครับ",
-        "fa": "ذره ادب (مردانه)",
-        "ar": "أداة أدب (للرجال)",
-        "es": "partícula de cortesía (masculina)",
-        "zh": "礼貌助词（男性）",
-        "ja": "丁寧語（男性）"
-      }
-    },
-    {
-      "id": "word_kha",
-      "kind": "word",
-      "texts": {
-        "en": "polite particle (female, statement)",
-        "th": "ค่ะ",
-        "fa": "ذره ادب (زنانه، خبری)",
-        "ar": "أداة أدب (للنساء، جملة خبرية)",
-        "es": "partícula de cortesía (femenina, afirmación)",
-        "zh": "礼貌助词（女性，陈述）",
-        "ja": "丁寧語（女性・平叙）"
-      }
-    },
-    {
-      "id": "word_kha_question",
-      "kind": "word",
-      "texts": {
-        "en": "polite particle (female, question)",
-        "th": "คะ",
-        "fa": "ذره ادب (زنانه، پرسشی)",
-        "ar": "أداة أدب (للنساء، سؤال)",
-        "es": "partícula de cortesía (femenina, pregunta)",
-        "zh": "礼貌助词（女性，疑问）",
-        "ja": "丁寧語（女性・疑問）"
-      }
-    },
-    {
-      "id": "word_na",
-      "kind": "word",
-      "texts": {
-        "en": "softening particle",
-        "th": "นะ",
-        "fa": "ذره نرم‌کننده",
-        "ar": "أداة تلطيف",
-        "es": "partícula suavizante",
-        "zh": "语气助词（柔和）",
-        "ja": "和らげの終助詞"
-      }
-    },
-    {
-      "id": "header_scenario1",
-      "header": true,
-      "texts": {
-        "en": "Scenario 1: Saying Thank You",
-        "th": "สถานการณ์ 1: การกล่าวขอบคุณ",
-        "fa": "سناریو ۱: تشکر کردن",
-        "ar": "السيناريو 1: قول الشكر",
-        "es": "Escenario 1: Dar las gracias",
-        "zh": "场景一：道谢",
-        "ja": "シナリオ1：お礼を言う"
-      }
-    },
-    {
-      "id": "sentence_thank_you",
-      "kind": "sentence",
-      "itemIds": ["word_thank"],
-      "texts": {
-        "en": "Thank you",
-        "th": "ขอบคุณ",
-        "fa": "متشکرم",
-        "ar": "شكرا",
-        "es": "Gracias",
-        "zh": "谢谢",
-        "ja": "ありがとう"
-      },
-      "tokens": {
-        "en": ["Thank", "you"],
-        "th": ["ขอบคุณ"],
-        "fa": ["متشکرم"],
-        "ar": ["شكرا"],
-        "es": ["Gracias"],
-        "zh": ["谢谢"],
-        "ja": ["ありがとう"]
-      }
-    },
-    {
-      "id": "sentence_thank_much",
-      "kind": "sentence",
-      "itemIds": ["word_thank", "word_much"],
-      "texts": {
-        "en": "Thank you very much",
-        "th": "ขอบคุณมาก",
-        "fa": "خیلی متشکرم",
-        "ar": "شكرا جزيلا",
-        "es": "Muchas gracias",
-        "zh": "非常感谢",
-        "ja": "どうもありがとう"
-      },
-      "tokens": {
-        "en": ["Thank", "you", "very", "much"],
-        "th": ["ขอบคุณ", "มาก"],
-        "fa": ["خیلی", "متشکرم"],
-        "ar": ["شكرا", "جزيلا"],
-        "es": ["Muchas", "gracias"],
-        "zh": ["非常", "感谢"],
-        "ja": ["どうも", "ありがとう"]
-      }
-    },
-    {
-      "id": "sentence_thank_polite_male",
-      "kind": "sentence",
-      "itemIds": ["word_thank", "word_khrap"],
-      "texts": {
-        "en": "Thank you (male)",
-        "th": "ขอบคุณครับ",
-        "fa": "متشکرم (گوینده مرد)",
-        "ar": "شكراً (يقولها الرجل)",
-        "es": "Gracias (hombre)",
-        "zh": "谢谢（男性说）",
-        "ja": "ありがとう（男性）"
-      },
-      "tokens": {
-        "en": ["Thank", "you", "(male)"],
-        "th": ["ขอบคุณ", "ครับ"],
-        "fa": ["متشکرم", "(گوینده", "مرد)"],
-        "ar": ["شكراً", "(يقولها", "الرجل)"],
-        "es": ["Gracias", "(hombre)"],
-        "zh": ["谢谢", "（男性说）"],
-        "ja": ["ありがとう", "（男性）"]
-      }
-    },
-    {
-      "id": "sentence_thank_polite_female",
-      "kind": "sentence",
-      "itemIds": ["word_thank", "word_kha"],
-      "texts": {
-        "en": "Thank you (female)",
-        "th": "ขอบคุณค่ะ",
-        "fa": "متشکرم (گوینده زن)",
-        "ar": "شكراً (تقولها المرأة)",
-        "es": "Gracias (mujer)",
-        "zh": "谢谢（女性说）",
-        "ja": "ありがとう（女性）"
-      },
-      "tokens": {
-        "en": ["Thank", "you", "(female)"],
-        "th": ["ขอบคุณ", "ค่ะ"],
-        "fa": ["متشکرم", "(گوینده", "زن)"],
-        "ar": ["شكراً", "(تقولها", "المرأة)"],
-        "es": ["Gracias", "(mujer)"],
-        "zh": ["谢谢", "（女性说）"],
-        "ja": ["ありがとう", "（女性）"]
-      }
-    },
-    {
-      "id": "sentence_thank_informal",
-      "kind": "sentence",
-      "itemIds": ["word_khop_chai", "word_na"],
-      "texts": {
-        "en": "Thanks! (informal)",
-        "th": "ขอบใจนะ",
-        "fa": "مرسی! (غیررسمی)",
-        "ar": "شكراً! (غير رسمي)",
-        "es": "¡Gracias! (informal)",
-        "zh": "谢啦！（非正式）",
-        "ja": "ありがとう！（くだけた言い方）"
-      },
-      "tokens": {
-        "en": ["Thanks!", "(informal)"],
-        "th": ["ขอบใจ", "นะ"],
-        "fa": ["مرسی!", "(غیررسمی)"],
-        "ar": ["شكراً!", "(غير", "رسمي)"],
-        "es": ["¡Gracias!", "(informal)"],
-        "zh": ["谢啦！", "（非正式）"],
-        "ja": ["ありがとう！", "（くだけた言い方）"]
-      }
-    },
-    {
-      "id": "sentence_i_grateful",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_grateful", "word_much", "word_kha"],
-      "texts": {
-        "en": "I am truly grateful (female)",
-        "th": "ฉันซาบซึ้งมากค่ะ",
-        "fa": "واقعاً سپاسگزارم (گوینده زن)",
-        "ar": "أنا ممتنة جداً (تقولها المرأة)",
-        "es": "Estoy muy agradecida (mujer)",
-        "zh": "我非常感激（女性说）",
-        "ja": "本当に感謝しています（女性）"
-      },
-      "tokens": {
-        "en": ["I", "am", "truly", "grateful", "(female)"],
-        "th": ["ฉัน", "ซาบซึ้ง", "มาก", "ค่ะ"],
-        "fa": ["واقعاً", "سپاسگزارم", "(گوینده", "زن)"],
-        "ar": ["أنا", "ممتنة", "جداً", "(تقولها", "المرأة)"],
-        "es": ["Estoy", "muy", "agradecida", "(mujer)"],
-        "zh": ["我", "非常", "感激", "（女性说）"],
-        "ja": ["本当に", "感謝", "して", "います", "（女性）"]
-      }
-    },
-    {
-      "id": "word_khop_chai",
-      "kind": "word",
-      "texts": {
-        "en": "thanks (informal)",
-        "th": "ขอบใจ",
-        "fa": "مرسی (غیررسمی)",
-        "ar": "شكراً (غير رسمي)",
-        "es": "gracias (informal)",
-        "zh": "谢（非正式）",
-        "ja": "ありがとう（くだけた）"
-      }
-    },
-    {
-      "id": "word_grateful",
-      "kind": "word",
-      "texts": {
-        "en": "grateful / touched",
+        "en": "appreciate",
         "th": "ซาบซึ้ง",
-        "fa": "سپاسگزار",
-        "ar": "ممتن",
-        "es": "agradecido",
+        "fa": "قدردانی",
+        "ar": "أقدر",
+        "es": "apreciar",
         "zh": "感激",
-        "ja": "感謝している"
+        "ja": "感謝する"
       }
     },
     {
-      "id": "header_scenario2",
+      "id": "w4",
+      "kind": "Word",
+      "texts": {
+        "en": "help",
+        "th": "ความช่วยเหลือ",
+        "fa": "کمک",
+        "ar": "مساعدة",
+        "es": "ayuda",
+        "zh": "帮助",
+        "ja": "助け"
+      }
+    },
+    {
+      "id": "w5",
+      "kind": "Word",
+      "texts": {
+        "en": "kindness",
+        "th": "ความกรุณา",
+        "fa": "لطف",
+        "ar": "لطف",
+        "es": "amabilidad",
+        "zh": "善意",
+        "ja": "親切"
+      }
+    },
+    {
+      "id": "s1",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Thank you very much.",
+        "th": "ขอบคุณมากครับ",
+        "fa": "خیلی متشکرم.",
+        "ar": "شكراً جزيلاً.",
+        "es": "Muchas gracias.",
+        "zh": "非常感谢。",
+        "ja": "どうもありがとうございます。"
+      },
+      "tokens": {
+        "th": ["ขอบคุณ", "มาก", "ครับ"],
+        "zh": ["非常", "感谢", "。"],
+        "ja": ["どうも", "ありがとう", "ございます", "。"]
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I really appreciate your help.",
+        "th": "ฉันซาบซึ้งในความช่วยเหลือของคุณจริงๆ",
+        "fa": "من واقعاً از کمک شما قدردانی می‌کنم.",
+        "ar": "أنا أقدر حقاً مساعدتك.",
+        "es": "Realmente aprecio tu ayuda.",
+        "zh": "我真的很感激你的帮助。",
+        "ja": "あなたの助けに本当に感謝しています。"
+      },
+      "tokens": {
+        "th": [
+          "ฉัน",
+          "ซาบซึ้ง",
+          "ใน",
+          "ความ",
+          "ช่วย",
+          "เหลือ",
+          "ของ",
+          "คุณ",
+          "จริงๆ"
+        ],
+        "zh": ["我", "真的", "很", "感激", "你", "的", "帮助", "。"],
+        "ja": [
+          "あなた",
+          "の",
+          "助け",
+          "に",
+          "本当に",
+          "感謝",
+          "し",
+          "て",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Thank you for your kindness.",
+        "th": "ขอบคุณสำหรับความกรุณาของคุณ",
+        "fa": "از لطف شما متشکرم.",
+        "ar": "شكراً على لطفك.",
+        "es": "Gracias por tu amabilidad.",
+        "zh": "谢谢你的善意。",
+        "ja": "あなたの親切に感謝します。"
+      },
+      "tokens": {
+        "th": ["ขอบคุณ", "สำหรับ", "ความ", "กรุณา", "ของ", "คุณ"],
+        "zh": ["谢谢", "你", "的", "善意", "。"],
+        "ja": ["あなた", "の", "親切", "に", "感謝", "し", "ます", "。"]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Thanks a lot for everything.",
+        "th": "ขอบคุณมากๆสำหรับทุกอย่าง",
+        "fa": "بابت همه چیز خیلی ممنونم.",
+        "ar": "شكراً جزيلاً على كل شيء.",
+        "es": "Muchas gracias por todo.",
+        "zh": "非常感谢你所做的一切。",
+        "ja": "すべてに感謝します。"
+      },
+      "tokens": {
+        "th": ["ขอบคุณ", "มากๆ", "สำหรับ", "ทุก", "อย่าง"],
+        "zh": ["非常", "感谢", "你", "所", "做", "的", "一切", "。"],
+        "ja": ["すべて", "に", "感謝", "し", "ます", "。"]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I cannot thank you enough.",
+        "th": "ฉันขอบคุณคุณไม่พอ",
+        "fa": "نمی‌توانم به اندازه کافی از شما تشکر کنم.",
+        "ar": "لا يمكنني شكرك بما فيه الكفاية.",
+        "es": "No puedo agradecerte lo suficiente.",
+        "zh": "我怎么感谢你都不为过。",
+        "ja": "感謝してもしきれません。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ขอบคุณ", "คุณ", "ไม่", "พอ"],
+        "zh": ["我", "怎么", "感谢", "你", "都", "不", "为", "过", "。"],
+        "ja": ["感謝", "し", "て", "も", "し", "きれ", "ませ", "ん", "。"]
+      }
+    },
+
+    {
+      "id": "h2",
       "header": true,
       "texts": {
         "en": "Scenario 2: Responding to Thanks",
-        "th": "สถานการณ์ 2: การตอบรับคำขอบคุณ",
+        "th": "สถานการณ์ที่ 2: การตอบรับการขอบคุณ",
         "fa": "سناریو ۲: پاسخ به تشکر",
         "ar": "السيناريو 2: الرد على الشكر",
         "es": "Escenario 2: Responder a las gracias",
-        "zh": "场景二：回应感谢",
-        "ja": "シナリオ2：お礼への返答"
+        "zh": "场景 2：回应感谢",
+        "ja": "シナリオ 2：感謝への返答"
       }
     },
     {
-      "id": "sentence_not_worry",
-      "kind": "sentence",
-      "itemIds": ["word_not", "word_be", "word_what_short"],
+      "id": "w6",
+      "kind": "Word",
       "texts": {
-        "en": "You are welcome",
-        "th": "ไม่เป็นไร",
-        "fa": "خواهش می‌کنم",
-        "ar": "على الرحب والسعة",
-        "es": "De nada",
-        "zh": "不客气",
-        "ja": "どういたしまして"
+        "en": "welcome",
+        "th": "ยินดีต้อนรับ",
+        "fa": "خوش‌آمد",
+        "ar": "أهلاً",
+        "es": "bienvenido",
+        "zh": "欢迎",
+        "ja": "歓迎"
+      }
+    },
+    {
+      "id": "w7",
+      "kind": "Word",
+      "texts": {
+        "en": "no problem",
+        "th": "ไม่มีปัญหา",
+        "fa": "مشکلی نیست",
+        "ar": "لا مشكلة",
+        "es": "sin problema",
+        "zh": "没问题",
+        "ja": "問題ない"
+      }
+    },
+    {
+      "id": "w8",
+      "kind": "Word",
+      "texts": {
+        "en": "glad",
+        "th": "ดีใจ",
+        "fa": "خوشحال",
+        "ar": "سعيد",
+        "es": "contento",
+        "zh": "高兴",
+        "ja": "嬉しい"
+      }
+    },
+    {
+      "id": "w9",
+      "kind": "Word",
+      "texts": {
+        "en": "anytime",
+        "th": "ตลอดเวลา",
+        "fa": "هر زمان",
+        "ar": "في أي وقت",
+        "es": "en cualquier momento",
+        "zh": "随时",
+        "ja": "いつでも"
+      }
+    },
+    {
+      "id": "w10",
+      "kind": "Word",
+      "texts": {
+        "en": "pleasure",
+        "th": "ความยินดี",
+        "fa": "لذت",
+        "ar": "سرور",
+        "es": "placer",
+        "zh": "荣幸",
+        "ja": "光栄"
+      }
+    },
+    {
+      "id": "s6",
+      "kind": "Sentence",
+      "texts": {
+        "en": "You are welcome.",
+        "th": "ยินดีครับ",
+        "fa": "خواهش می‌کنم.",
+        "ar": "على الرحب والسعة.",
+        "es": "De nada.",
+        "zh": "不客气。",
+        "ja": "どういたしまして。"
       },
       "tokens": {
-        "en": ["You", "are", "welcome"],
-        "th": ["ไม่", "เป็น", "ไร"],
-        "fa": ["خواهش", "می‌کنم"],
-        "ar": ["على", "الرحب", "والسعة"],
-        "es": ["De", "nada"],
-        "zh": ["不客气"],
-        "ja": ["どういたしまして"]
+        "th": ["ยินดี", "ครับ"],
+        "zh": ["不", "客气", "。"],
+        "ja": ["どう", "いたしまして", "。"]
       }
     },
     {
-      "id": "sentence_not_worry_male",
-      "kind": "sentence",
-      "itemIds": ["word_not", "word_be", "word_what_short", "word_khrap"],
+      "id": "s7",
+      "kind": "Sentence",
       "texts": {
-        "en": "You're welcome (male)",
-        "th": "ไม่เป็นไรครับ",
-        "fa": "خواهش می‌کنم (گوینده مرد)",
-        "ar": "على الرحب والسعة (يقولها الرجل)",
-        "es": "De nada (hombre)",
-        "zh": "不客气（男性说）",
-        "ja": "どういたしまして（男性）"
+        "en": "No problem at all.",
+        "th": "ไม่มีปัญหาเลยครับ",
+        "fa": "اصلاً مشکلی نیست.",
+        "ar": "لا توجد مشكلة على الإطلاق.",
+        "es": "Sin problema en absoluto.",
+        "zh": "完全没问题。",
+        "ja": "全く問題ありません。"
       },
       "tokens": {
-        "en": ["You're", "welcome", "(male)"],
-        "th": ["ไม่", "เป็น", "ไร", "ครับ"],
-        "fa": ["خواهش", "می‌کنم", "(گوینده", "مرد)"],
-        "ar": ["على", "الرحب", "والسعة", "(يقولها", "الرجل)"],
-        "es": ["De", "nada", "(hombre)"],
-        "zh": ["不客气", "（男性说）"],
-        "ja": ["どういたしまして", "（男性）"]
+        "th": ["ไม่", "มี", "ปัญหา", "เลย", "ครับ"],
+        "zh": ["完全", "没", "问题", "。"],
+        "ja": ["全く", "問題", "あり", "ませ", "ん", "。"]
       }
     },
     {
-      "id": "sentence_not_worry_female",
-      "kind": "sentence",
-      "itemIds": ["word_not", "word_be", "word_what_short", "word_kha"],
+      "id": "s8",
+      "kind": "Sentence",
       "texts": {
-        "en": "You're welcome (female)",
-        "th": "ไม่เป็นไรค่ะ",
-        "fa": "خواهش می‌کنم (گوینده زن)",
-        "ar": "على الرحب والسعة (تقولها المرأة)",
-        "es": "De nada (mujer)",
-        "zh": "不客气（女性说）",
-        "ja": "どういたしまして（女性）"
+        "en": "I am glad I could help.",
+        "th": "ฉันดีใจที่ได้ช่วย",
+        "fa": "خوشحالم که توانستم کمک کنم.",
+        "ar": "أنا سعيد لأنني استطعت المساعدة.",
+        "es": "Me alegro de haber podido ayudar.",
+        "zh": "我很高兴能帮上忙。",
+        "ja": "お手伝いできて嬉しいです。"
       },
       "tokens": {
-        "en": ["You're", "welcome", "(female)"],
-        "th": ["ไม่", "เป็น", "ไร", "ค่ะ"],
-        "fa": ["خواهش", "می‌کنم", "(گوینده", "زن)"],
-        "ar": ["على", "الرحب", "والسعة", "(تقولها", "المرأة)"],
-        "es": ["De", "nada", "(mujer)"],
-        "zh": ["不客气", "（女性说）"],
-        "ja": ["どういたしまして", "（女性）"]
+        "th": ["ฉัน", "ดีใจ", "ที่", "ได้", "ช่วย"],
+        "zh": ["我", "很", "高兴", "能", "帮上忙", "。"],
+        "ja": ["お手伝い", "でき", "て", "嬉しい", "です", "。"]
       }
     },
     {
-      "id": "sentence_with_pleasure",
-      "kind": "sentence",
-      "itemIds": ["word_with_pleasure", "word_kha"],
+      "id": "s9",
+      "kind": "Sentence",
       "texts": {
-        "en": "My pleasure (female)",
-        "th": "ด้วยความยินดีค่ะ",
-        "fa": "با کمال میل (گوینده زن)",
-        "ar": "بكل سرور (تقولها المرأة)",
-        "es": "Con mucho gusto (mujer)",
-        "zh": "很乐意（女性说）",
-        "ja": "喜んで（女性）"
+        "en": "Anytime you need.",
+        "th": "เมื่อไหร่ที่คุณต้องการ",
+        "fa": "هر زمان که نیاز داشتید.",
+        "ar": "في أي وقت تحتاجه.",
+        "es": "Cuando lo necesites.",
+        "zh": "随时需要随时说。",
+        "ja": "いつでも必要であれば。"
       },
       "tokens": {
-        "en": ["My", "pleasure", "(female)"],
-        "th": ["ด้วยความยินดี", "ค่ะ"],
-        "fa": ["با", "کمال", "میل", "(گوینده", "زن)"],
-        "ar": ["بكل", "سرور", "(تقولها", "المرأة)"],
-        "es": ["Con", "mucho", "gusto", "(mujer)"],
-        "zh": ["很", "乐意", "（女性说）"],
-        "ja": ["喜んで", "（女性）"]
+        "th": ["เมื่อไหร่", "ที่", "คุณ", "ต้องการ"],
+        "zh": ["随时", "需要", "随时", "说", "。"],
+        "ja": ["いつでも", "必要", "で", "あれ", "ば", "。"]
       }
     },
     {
-      "id": "sentence_no_problem",
-      "kind": "sentence",
-      "itemIds": ["word_not", "word_have", "word_problem", "word_khrap"],
+      "id": "s10",
+      "kind": "Sentence",
       "texts": {
-        "en": "No problem (male)",
-        "th": "ไม่มีปัญหาครับ",
-        "fa": "مشکلی نیست (گوینده مرد)",
-        "ar": "لا مشكلة (يقولها الرجل)",
-        "es": "No hay problema (hombre)",
-        "zh": "没问题（男性说）",
-        "ja": "大丈夫です（男性）"
+        "en": "It was my pleasure.",
+        "th": "มันเป็นความยินดีของฉัน",
+        "fa": "باعث افتخار من بود.",
+        "ar": "كان من دواعي سروري.",
+        "es": "Fue un placer.",
+        "zh": "这是我的荣幸。",
+        "ja": "私の光栄でした。"
       },
       "tokens": {
-        "en": ["No", "problem", "(male)"],
-        "th": ["ไม่", "มี", "ปัญหา", "ครับ"],
-        "fa": ["مشکلی", "نیست", "(گوینده", "مرد)"],
-        "ar": ["لا", "مشكلة", "(يقولها", "الرجل)"],
-        "es": ["No", "hay", "problema", "(hombre)"],
-        "zh": ["没", "问题", "（男性说）"],
-        "ja": ["大丈夫", "です", "（男性）"]
+        "th": ["มัน", "เป็น", "ความ", "ยินดี", "ของ", "ฉัน"],
+        "zh": ["这", "是", "我", "的", "荣幸", "。"],
+        "ja": ["私", "の", "光栄", "でし", "た", "。"]
       }
     },
+
     {
-      "id": "word_with_pleasure",
-      "kind": "word",
-      "texts": {
-        "en": "with pleasure / my pleasure",
-        "th": "ด้วยความยินดี",
-        "fa": "با کمال میل",
-        "ar": "بكل سرور",
-        "es": "con gusto",
-        "zh": "乐意",
-        "ja": "喜んで"
-      }
-    },
-    {
-      "id": "word_problem",
-      "kind": "word",
-      "texts": {
-        "en": "problem",
-        "th": "ปัญหา",
-        "fa": "مشکل",
-        "ar": "مشكلة",
-        "es": "problema",
-        "zh": "问题",
-        "ja": "問題"
-      }
-    },
-    {
-      "id": "header_scenario3",
+      "id": "h3",
       "header": true,
       "texts": {
         "en": "Scenario 3: Saying Sorry",
-        "th": "สถานการณ์ 3: การกล่าวขอโทษ",
+        "th": "สถานการณ์ที่ 3: การกล่าวขอโทษ",
         "fa": "سناریو ۳: عذرخواهی کردن",
         "ar": "السيناريو 3: الاعتذار",
         "es": "Escenario 3: Pedir disculpas",
-        "zh": "场景三：道歉",
-        "ja": "シナリオ3：謝る"
+        "zh": "场景 3：表达歉意",
+        "ja": "シナリオ 3：謝罪する"
       }
     },
     {
-      "id": "sentence_sorry",
-      "kind": "sentence",
-      "itemIds": ["word_sorry"],
+      "id": "w11",
+      "kind": "Word",
       "texts": {
-        "en": "I am sorry",
+        "en": "sorry",
         "th": "ขอโทษ",
-        "fa": "متاسفم",
-        "ar": "أنا آسف",
-        "es": "Lo siento",
-        "zh": "对不起",
-        "ja": "ごめんなさい"
-      },
-      "tokens": {
-        "en": ["I", "am", "sorry"],
-        "th": ["ขอโทษ"],
-        "fa": ["متاسفم"],
-        "ar": ["أنا", "آسف"],
-        "es": ["Lo", "siento"],
-        "zh": ["对不起"],
-        "ja": ["ごめんなさい"]
+        "fa": "ببخشید",
+        "ar": "آسف",
+        "es": "lo siento",
+        "zh": "抱歉",
+        "ja": "ごめん"
       }
     },
     {
-      "id": "sentence_sorry_much",
-      "kind": "sentence",
-      "itemIds": ["word_sorry", "word_much"],
+      "id": "w12",
+      "kind": "Word",
       "texts": {
-        "en": "I am very sorry",
-        "th": "ขอโทษมาก",
-        "fa": "خیلی متاسفم",
-        "ar": "أنا آسف جدا",
-        "es": "Lo siento mucho",
-        "zh": "非常对不起",
-        "ja": "本当にごめんなさい"
-      },
-      "tokens": {
-        "en": ["I", "am", "very", "sorry"],
-        "th": ["ขอโทษ", "มาก"],
-        "fa": ["خیلی", "متاسفم"],
-        "ar": ["أنا", "آسف", "جدا"],
-        "es": ["Lo", "siento", "mucho"],
-        "zh": ["非常", "对不起"],
-        "ja": ["本当に", "ごめんなさい"]
+        "en": "apologize",
+        "th": "ขออภัย",
+        "fa": "عذرخواهی",
+        "ar": "أعتذر",
+        "es": "disculpar",
+        "zh": "道歉",
+        "ja": "謝る"
       }
     },
     {
-      "id": "sentence_sorry_polite_male",
-      "kind": "sentence",
-      "itemIds": ["word_sorry", "word_khrap"],
+      "id": "w13",
+      "kind": "Word",
       "texts": {
-        "en": "Sorry (male)",
-        "th": "ขอโทษครับ",
-        "fa": "متاسفم (گوینده مرد)",
-        "ar": "آسف (يقولها الرجل)",
-        "es": "Perdón (hombre)",
-        "zh": "对不起（男性说）",
-        "ja": "すみません（男性）"
-      },
-      "tokens": {
-        "en": ["Sorry", "(male)"],
-        "th": ["ขอโทษ", "ครับ"],
-        "fa": ["متاسفم", "(گوینده", "مرد)"],
-        "ar": ["آسف", "(يقولها", "الرجل)"],
-        "es": ["Perdón", "(hombre)"],
-        "zh": ["对不起", "（男性说）"],
-        "ja": ["すみません", "（男性）"]
+        "en": "mistake",
+        "th": "ความผิดพลาด",
+        "fa": "اشتباه",
+        "ar": "خطأ",
+        "es": "error",
+        "zh": "错误",
+        "ja": "間違い"
       }
     },
     {
-      "id": "sentence_sorry_polite_female",
-      "kind": "sentence",
-      "itemIds": ["word_sorry", "word_kha"],
-      "texts": {
-        "en": "Sorry (female)",
-        "th": "ขอโทษค่ะ",
-        "fa": "متاسفم (گوینده زن)",
-        "ar": "آسفة (تقولها المرأة)",
-        "es": "Perdón (mujer)",
-        "zh": "对不起（女性说）",
-        "ja": "すみません（女性）"
-      },
-      "tokens": {
-        "en": ["Sorry", "(female)"],
-        "th": ["ขอโทษ", "ค่ะ"],
-        "fa": ["متاسفم", "(گوینده", "زن)"],
-        "ar": ["آسفة", "(تقولها", "المرأة)"],
-        "es": ["Perdón", "(mujer)"],
-        "zh": ["对不起", "（女性说）"],
-        "ja": ["すみません", "（女性）"]
-      }
-    },
-    {
-      "id": "sentence_sorry_i_late",
-      "kind": "sentence",
-      "itemIds": ["word_sorry", "word_kha", "word_i", "word_come", "word_late"],
-      "texts": {
-        "en": "Sorry, I am late (female)",
-        "th": "ขอโทษค่ะ ฉันมาสาย",
-        "fa": "متاسفم، دیر کردم (گوینده زن)",
-        "ar": "آسفة، لقد تأخرت (تقولها المرأة)",
-        "es": "Perdón, llego tarde (mujer)",
-        "zh": "对不起，我迟到了（女性说）",
-        "ja": "すみません、遅れました（女性）"
-      },
-      "tokens": {
-        "en": ["Sorry,", "I", "am", "late", "(female)"],
-        "th": ["ขอโทษ", "ค่ะ", "ฉัน", "มา", "สาย"],
-        "fa": ["متاسفم،", "دیر", "کردم", "(گوینده", "زن)"],
-        "ar": ["آسفة،", "لقد", "تأخرت", "(تقولها", "المرأة)"],
-        "es": ["Perdón,", "llego", "tarde", "(mujer)"],
-        "zh": ["对不起，", "我", "迟到", "了", "（女性说）"],
-        "ja": ["すみません、", "遅れ", "ました", "（女性）"]
-      }
-    },
-    {
-      "id": "sentence_my_fault",
-      "kind": "sentence",
-      "itemIds": ["word_i_male", "word_wrong", "word_self", "word_khrap"],
-      "texts": {
-        "en": "It is my fault (male)",
-        "th": "ผมผิดเองครับ",
-        "fa": "تقصیر من است (گوینده مرد)",
-        "ar": "هذا خطئي (يقولها الرجل)",
-        "es": "Es mi culpa (hombre)",
-        "zh": "是我的错（男性说）",
-        "ja": "私のせいです（男性）"
-      },
-      "tokens": {
-        "en": ["It", "is", "my", "fault", "(male)"],
-        "th": ["ผม", "ผิด", "เอง", "ครับ"],
-        "fa": ["تقصیر", "من", "است", "(گوینده", "مرد)"],
-        "ar": ["هذا", "خطئي", "(يقولها", "الرجل)"],
-        "es": ["Es", "mi", "culpa", "(hombre)"],
-        "zh": ["是", "我", "的", "错", "（男性说）"],
-        "ja": ["私", "の", "せい", "です", "（男性）"]
-      }
-    },
-    {
-      "id": "word_late",
-      "kind": "word",
+      "id": "w14",
+      "kind": "Word",
       "texts": {
         "en": "late",
         "th": "สาย",
         "fa": "دیر",
         "ar": "متأخر",
         "es": "tarde",
-        "zh": "迟到 / 晚",
-        "ja": "遅刻"
+        "zh": "迟到",
+        "ja": "遅れる"
       }
     },
     {
-      "id": "word_wrong",
-      "kind": "word",
+      "id": "w15",
+      "kind": "Word",
       "texts": {
-        "en": "wrong / at fault",
-        "th": "ผิด",
-        "fa": "اشتباه",
-        "ar": "خطأ",
-        "es": "equivocado / culpa",
-        "zh": "错",
-        "ja": "間違い"
+        "en": "inconvenience",
+        "th": "ความไม่สะดวก",
+        "fa": "زحمت",
+        "ar": "إزعاج",
+        "es": "inconveniencia",
+        "zh": "不便",
+        "ja": "不便"
       }
     },
     {
-      "id": "word_self",
-      "kind": "word",
+      "id": "s11",
+      "kind": "Sentence",
       "texts": {
-        "en": "oneself",
-        "th": "เอง",
-        "fa": "خود",
-        "ar": "نفسه",
-        "es": "mismo / propio",
-        "zh": "自己",
-        "ja": "自分"
+        "en": "I am very sorry.",
+        "th": "ฉันขอโทษมาก",
+        "fa": "من خیلی متأسفم.",
+        "ar": "أنا آسف جداً.",
+        "es": "Lo siento mucho.",
+        "zh": "我非常抱歉。",
+        "ja": "とても申し訳ありません。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ขอโทษ", "มาก"],
+        "zh": ["我", "非常", "抱歉", "。"],
+        "ja": ["とても", "申し訳", "あり", "ませ", "ん", "。"]
       }
     },
     {
-      "id": "header_scenario4",
+      "id": "s12",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I apologize for my mistake.",
+        "th": "ฉันขออภัยสำหรับความผิดพลาดของฉัน",
+        "fa": "من بابت اشتباهم عذرخواهی می‌کنم.",
+        "ar": "أعتذر عن خطئي.",
+        "es": "Me disculpo por mi error.",
+        "zh": "我为我的错误道歉。",
+        "ja": "私の間違いをお詫び申し上げます。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ขออภัย", "สำหรับ", "ความ", "ผิด", "พลาด", "ของ", "ฉัน"],
+        "zh": ["我", "为", "我", "的", "错误", "道歉", "。"],
+        "ja": ["私", "の", "間違い", "を", "お詫び", "申し上げ", "ます", "。"]
+      }
+    },
+    {
+      "id": "s13",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Sorry for being late.",
+        "th": "ขอโทษที่มาสาย",
+        "fa": "بابت دیر آمدن متأسفم.",
+        "ar": "آسف على التأخير.",
+        "es": "Perdón por llegar tarde.",
+        "zh": "抱歉我迟到了。",
+        "ja": "遅れてすみません。"
+      },
+      "tokens": {
+        "th": ["ขอโทษ", "ที่", "มา", "สาย"],
+        "zh": ["抱歉", "我", "迟到", "了", "。"],
+        "ja": ["遅れ", "て", "すみ", "ませ", "ん", "。"]
+      }
+    },
+    {
+      "id": "s14",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I am sorry for the inconvenience.",
+        "th": "ฉันขอโทษสำหรับความไม่สะดวก",
+        "fa": "من بابت زحمت متأسفم.",
+        "ar": "أنا آسف على الإزعاج.",
+        "es": "Lamento las molestias.",
+        "zh": "对于造成的不便，我深表歉意。",
+        "ja": "ご不便をおかけして申し訳ありません。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ขอโทษ", "สำหรับ", "ความ", "ไม่", "สะดวก"],
+        "zh": ["对于", "造成", "的", "不便", "，", "我", "深表", "歉意", "。"],
+        "ja": [
+          "ご",
+          "不便",
+          "を",
+          "おかけ",
+          "し",
+          "て",
+          "申し訳",
+          "あり",
+          "ませ",
+          "ん",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s15",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Please forgive me.",
+        "th": "โปรดอภัยให้ฉันด้วย",
+        "fa": "لطفاً مرا ببخشید.",
+        "ar": "يرجى مسامحتي.",
+        "es": "Por favor, perdóname.",
+        "zh": "请原谅我。",
+        "ja": "どうかお許しください。"
+      },
+      "tokens": {
+        "th": ["โปรด", "อภัย", "ให้", "ฉัน", "ด้วย"],
+        "zh": ["请", "原谅", "我", "。"],
+        "ja": ["どうか", "お", "許し", "ください", "。"]
+      }
+    },
+
+    {
+      "id": "h4",
       "header": true,
       "texts": {
         "en": "Scenario 4: Responding to Apologies",
-        "th": "สถานการณ์ 4: การตอบรับการขอโทษ",
+        "th": "สถานการณ์ที่ 4: การตอบรับการขอโทษ",
         "fa": "سناریو ۴: پاسخ به عذرخواهی",
         "ar": "السيناريو 4: الرد على الاعتذار",
         "es": "Escenario 4: Responder a las disculpas",
-        "zh": "场景四：回应道歉",
-        "ja": "シナリオ4：謝罪への返答"
+        "zh": "场景 4：回应道歉",
+        "ja": "シナリオ 4：謝罪への返答"
       }
     },
     {
-      "id": "sentence_its_okay_male",
-      "kind": "sentence",
-      "itemIds": ["word_fine", "word_khrap"],
+      "id": "w16",
+      "kind": "Word",
       "texts": {
-        "en": "It's okay (male)",
-        "th": "ได้ครับ",
-        "fa": "اشکالی ندارد (گوینده مرد)",
-        "ar": "لا بأس (يقولها الرجل)",
-        "es": "Está bien (hombre)",
-        "zh": "没关系（男性说）",
-        "ja": "大丈夫です（男性）"
-      },
-      "tokens": {
-        "en": ["It's", "okay", "(male)"],
-        "th": ["ได้", "ครับ"],
-        "fa": ["اشکالی", "ندارد", "(گوینده", "مرد)"],
-        "ar": ["لا", "بأس", "(يقولها", "الرجل)"],
-        "es": ["Está", "bien", "(hombre)"],
-        "zh": ["没关系", "（男性说）"],
-        "ja": ["大丈夫", "です", "（男性）"]
+        "en": "forgive",
+        "th": "ให้อภัย",
+        "fa": "بخشیدن",
+        "ar": "سامح",
+        "es": "perdonar",
+        "zh": "原谅",
+        "ja": "許す"
       }
     },
     {
-      "id": "sentence_its_okay_female",
-      "kind": "sentence",
-      "itemIds": ["word_fine", "word_loei", "word_kha"],
+      "id": "w17",
+      "kind": "Word",
       "texts": {
-        "en": "It's completely okay (female)",
-        "th": "ได้เลยค่ะ",
-        "fa": "حتماً، اشکالی ندارد (گوینده زن)",
-        "ar": "بالتأكيد، لا بأس (تقولها المرأة)",
-        "es": "Claro, está bien (mujer)",
-        "zh": "完全没关系（女性说）",
-        "ja": "もちろんです（女性）"
-      },
-      "tokens": {
-        "en": ["It's", "completely", "okay", "(female)"],
-        "th": ["ได้", "เลย", "ค่ะ"],
-        "fa": ["حتماً،", "اشکالی", "ندارد", "(گوینده", "زن)"],
-        "ar": ["بالتأكيد،", "لا", "بأس", "(تقولها", "المرأة)"],
-        "es": ["Claro,", "está", "bien", "(mujer)"],
-        "zh": ["完全", "没关系", "（女性说）"],
-        "ja": ["もちろん", "です", "（女性）"]
+        "en": "okay",
+        "th": "ไม่เป็นไร",
+        "fa": "اشکالی ندارد",
+        "ar": "حسناً",
+        "es": "está bien",
+        "zh": "没关系",
+        "ja": "大丈夫"
       }
     },
     {
-      "id": "sentence_forget_it_male",
-      "kind": "sentence",
-      "itemIds": ["word_never_mind", "word_khrap"],
+      "id": "w18",
+      "kind": "Word",
       "texts": {
-        "en": "Never mind, forget it (male)",
-        "th": "ช่างมันเถอะครับ",
-        "fa": "بیخیال شو (گوینده مرد)",
-        "ar": "انسَ الأمر (يقولها الرجل)",
-        "es": "Olvídalo (hombre)",
-        "zh": "别放在心上（男性说）",
-        "ja": "気にしないで（男性）"
-      },
-      "tokens": {
-        "en": ["Never", "mind,", "forget", "it", "(male)"],
-        "th": ["ช่างมันเถอะ", "ครับ"],
-        "fa": ["بیخیال", "شو", "(گوینده", "مرد)"],
-        "ar": ["انسَ", "الأمر", "(يقولها", "الرجل)"],
-        "es": ["Olvídalo", "(hombre)"],
-        "zh": ["别", "放在", "心上", "（男性说）"],
-        "ja": ["気に", "しないで", "（男性）"]
+        "en": "forget",
+        "th": "ลืม",
+        "fa": "فراموش",
+        "ar": "أنسى",
+        "es": "olvidar",
+        "zh": "忘记",
+        "ja": "忘れる"
       }
     },
     {
-      "id": "sentence_no_worry_female",
-      "kind": "sentence",
-      "itemIds": ["word_not", "word_must", "word_worry", "word_na", "word_kha"],
+      "id": "w19",
+      "kind": "Word",
       "texts": {
-        "en": "Don't worry about it (female)",
-        "th": "ไม่ต้องกังวลนะคะ",
-        "fa": "نگران نباشید (گوینده زن)",
-        "ar": "لا تقلق (تقولها المرأة)",
-        "es": "No te preocupes (mujer)",
-        "zh": "别担心（女性说）",
-        "ja": "心配しないでくださいね（女性）"
-      },
-      "tokens": {
-        "en": ["Don't", "worry", "about", "it", "(female)"],
-        "th": ["ไม่", "ต้อง", "กังวล", "นะ", "ค่ะ"],
-        "fa": ["نگران", "نباشید", "(گوینده", "زن)"],
-        "ar": ["لا", "تقلق", "(تقولها", "المرأة)"],
-        "es": ["No", "te", "preocupes", "(mujer)"],
-        "zh": ["别", "担心", "（女性说）"],
-        "ja": ["心配", "しないで", "ください", "ね", "（女性）"]
+        "en": "happen",
+        "th": "เกิดขึ้น",
+        "fa": "اتفاق افتادن",
+        "ar": "يحدث",
+        "es": "suceder",
+        "zh": "发生",
+        "ja": "起こる"
       }
     },
     {
-      "id": "word_fine",
-      "kind": "word",
-      "texts": {
-        "en": "okay / alright",
-        "th": "ได้",
-        "fa": "باشه / خوب",
-        "ar": "حسناً / لا بأس",
-        "es": "vale / está bien",
-        "zh": "可以 / 行",
-        "ja": "いいよ / 大丈夫"
-      }
-    },
-    {
-      "id": "word_loei",
-      "kind": "word",
-      "texts": {
-        "en": "at all / completely (emphatic)",
-        "th": "เลย",
-        "fa": "اصلاً / کاملاً",
-        "ar": "على الإطلاق / تماماً",
-        "es": "en absoluto / del todo",
-        "zh": "完全 / 根本",
-        "ja": "まったく / すっかり"
-      }
-    },
-    {
-      "id": "word_never_mind",
-      "kind": "word",
-      "texts": {
-        "en": "never mind / forget it",
-        "th": "ช่างมันเถอะ",
-        "fa": "بیخیال",
-        "ar": "انسَ الأمر",
-        "es": "olvídalo / no importa",
-        "zh": "算了",
-        "ja": "気にしないで"
-      }
-    },
-    {
-      "id": "word_must",
-      "kind": "word",
-      "texts": {
-        "en": "must / have to",
-        "th": "ต้อง",
-        "fa": "باید",
-        "ar": "يجب",
-        "es": "deber / tener que",
-        "zh": "必须 / 要",
-        "ja": "～しなければならない"
-      }
-    },
-    {
-      "id": "word_worry",
-      "kind": "word",
+      "id": "w20",
+      "kind": "Word",
       "texts": {
         "en": "worry",
         "th": "กังวล",
         "fa": "نگران",
         "ar": "قلق",
-        "es": "preocupación / preocuparse",
+        "es": "preocupar",
         "zh": "担心",
         "ja": "心配"
       }
     },
     {
-      "id": "header_scenario5",
+      "id": "s16",
+      "kind": "Sentence",
+      "texts": {
+        "en": "That is okay.",
+        "th": "ไม่เป็นไรครับ",
+        "fa": "اشکالی ندارد.",
+        "ar": "لا بأس بذلك.",
+        "es": "Está bien.",
+        "zh": "没关系。",
+        "ja": "大丈夫ですよ。"
+      },
+      "tokens": {
+        "th": ["ไม่", "เป็นไร", "ครับ"],
+        "zh": ["没", "关系", "。"],
+        "ja": ["大丈夫", "です", "よ", "。"]
+      }
+    },
+    {
+      "id": "s17",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I forgive you.",
+        "th": "ฉันให้อภัยคุณ",
+        "fa": "من تو را می‌بخشم.",
+        "ar": "أنا أسامحك.",
+        "es": "Te perdono.",
+        "zh": "我原谅你。",
+        "ja": "あなたを許します。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ให้", "อภัย", "คุณ"],
+        "zh": ["我", "原谅", "你", "。"],
+        "ja": ["あなた", "を", "許し", "ます", "。"]
+      }
+    },
+    {
+      "id": "s18",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Don't worry about it.",
+        "th": "อย่ากังวลเกี่ยวกับเรื่องนี้",
+        "fa": "نگران این موضوع نباش.",
+        "ar": "لا تقلق بشأن ذلك.",
+        "es": "No te preocupes por eso.",
+        "zh": "别担心这个。",
+        "ja": "それについては心配しないでください。"
+      },
+      "tokens": {
+        "th": ["อย่า", "กังวล", "เกี่ยวกับ", "เรื่อง", "นี้"],
+        "zh": ["别", "担心", "这个", "。"],
+        "ja": [
+          "それ",
+          "に",
+          "ついて",
+          "は",
+          "心配",
+          "し",
+          "ない",
+          "で",
+          "ください",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s19",
+      "kind": "Sentence",
+      "texts": {
+        "en": "It happens to everyone.",
+        "th": "มันเกิดขึ้นกับทุกคน",
+        "fa": "این برای همه اتفاق می‌افتد.",
+        "ar": "يحدث هذا للجميع.",
+        "es": "Le pasa a todo el mundo.",
+        "zh": "这种事谁都会遇到。",
+        "ja": "誰にでも起こることです。"
+      },
+      "tokens": {
+        "th": ["มัน", "เกิด", "ขึ้น", "กับ", "ทุก", "คน"],
+        "zh": ["这种", "事", "谁", "都", "会", "遇到", "。"],
+        "ja": ["誰", "に", "でも", "起こる", "こと", "です", "。"]
+      }
+    },
+    {
+      "id": "s20",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Let's forget it.",
+        "th": "ลืมมันไปเถอะ",
+        "fa": "بیایید آن را فراموش کنیم.",
+        "ar": "لننسى الأمر.",
+        "es": "Olvidémoslo.",
+        "zh": "让我们忘了它吧。",
+        "ja": "忘れましょう。"
+      },
+      "tokens": {
+        "th": ["ลืม", "มัน", "ไป", "เถอะ"],
+        "zh": ["让", "我们", "忘了", "它", "吧", "。"],
+        "ja": ["忘れ", "まし", "ょう", "。"]
+      }
+    },
+
+    {
+      "id": "h5",
       "header": true,
       "texts": {
-        "en": "Scenario 5: Polite Particles in Action (ครับ / ค่ะ / คะ)",
-        "th": "สถานการณ์ 5: คำลงท้ายสุภาพ (ครับ / ค่ะ / คะ)",
-        "fa": "سناریو ۵: ذرات ادب در عمل (ครับ / ค่ะ / คะ)",
-        "ar": "السيناريو 5: أدوات الأدب عملياً (ครับ / ค่ะ / คะ)",
-        "es": "Escenario 5: Partículas de cortesía en acción (ครับ / ค่ะ / คะ)",
-        "zh": "场景五：礼貌助词实战 (ครับ / ค่ะ / คะ)",
-        "ja": "シナリオ5：丁寧語の実践 (ครับ / ค่ะ / คะ)"
+        "en": "Scenario 5: Polite Particles in Action",
+        "th": "สถานการณ์ที่ 5: การใช้คำลงท้ายสุภาพ",
+        "fa": "سناریو ۵: استفاده از ذرات ادب",
+        "ar": "السيناريو 5: استخدام أدوات الأدب",
+        "es": "Escenario 5: Uso de partículas de cortesía",
+        "zh": "场景 5：礼貌助词的使用",
+        "ja": "シナリオ 5：丁寧語の実践"
       }
     },
     {
-      "id": "sentence_thank_na_female",
-      "kind": "sentence",
-      "itemIds": ["word_thank", "word_na", "word_kha_question"],
+      "id": "w21",
+      "kind": "Word",
       "texts": {
-        "en": "Thank you, soft and polite (female)",
-        "th": "ขอบคุณนะคะ",
-        "fa": "متشکرم، نرم و مؤدبانه (گوینده زن)",
-        "ar": "شكراً بلطف وأدب (تقولها المرأة)",
-        "es": "Gracias, suave y cortés (mujer)",
-        "zh": "谢谢（柔和礼貌，女性说）",
-        "ja": "ありがとうございます（やわらかく丁寧に・女性）"
+        "en": "thank you (male)",
+        "th": "ขอบคุณครับ",
+        "fa": "متشکرم (مردانه)",
+        "ar": "شكراً (للذكور)",
+        "es": "gracias (masculino)",
+        "zh": "谢谢（男性）",
+        "ja": "ありがとう（男性）"
+      }
+    },
+    {
+      "id": "w22",
+      "kind": "Word",
+      "texts": {
+        "en": "thank you (female)",
+        "th": "ขอบคุณค่ะ",
+        "fa": "متشکرم (زنانه)",
+        "ar": "شكراً (للإناث)",
+        "es": "gracias (femenino)",
+        "zh": "谢谢（女性）",
+        "ja": "ありがとう（女性）"
+      }
+    },
+    {
+      "id": "w23",
+      "kind": "Word",
+      "texts": {
+        "en": "sorry (male)",
+        "th": "ขอโทษครับ",
+        "fa": "ببخشید (مردانه)",
+        "ar": "آسف (للذكور)",
+        "es": "lo siento (masculino)",
+        "zh": "抱歉（男性）",
+        "ja": "ごめん（男性）"
+      }
+    },
+    {
+      "id": "w24",
+      "kind": "Word",
+      "texts": {
+        "en": "sorry (female)",
+        "th": "ขอโทษค่ะ",
+        "fa": "ببخشید (زنانه)",
+        "ar": "آسف (للإناث)",
+        "es": "lo siento (femenino)",
+        "zh": "抱歉（女性）",
+        "ja": "ごめん（女性）"
+      }
+    },
+    {
+      "id": "w25",
+      "kind": "Word",
+      "texts": {
+        "en": "excuse me",
+        "th": "ขอโทษนะครับ/คะ",
+        "fa": "ببخشید",
+        "ar": "عذراً",
+        "es": "disculpe",
+        "zh": "打扰一下",
+        "ja": "すみません"
+      }
+    },
+    {
+      "id": "s21",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Thank you very much. (male)",
+        "th": "ขอบคุณมากครับ",
+        "fa": "خیلی متشکرم.",
+        "ar": "شكراً جزيلاً.",
+        "es": "Muchas gracias.",
+        "zh": "非常感谢。",
+        "ja": "どうもありがとうございます。"
       },
       "tokens": {
-        "en": ["Thank", "you,", "soft", "and", "polite", "(female)"],
-        "th": ["ขอบคุณ", "นะ", "คะ"],
-        "fa": ["متشکرم،", "نرم", "و", "مؤدبانه", "(گوینده", "زن)"],
-        "ar": ["شكراً", "بلطف", "وأدب", "(تقولها", "المرأة)"],
-        "es": ["Gracias,", "suave", "y", "cortés", "(mujer)"],
-        "zh": ["谢谢", "（柔和礼貌，女性说）"],
-        "ja": ["ありがとう", "ございます", "（やわらかく丁寧に・女性）"]
+        "th": ["ขอบคุณ", "มาก", "ครับ"],
+        "zh": ["非常", "感谢", "。"],
+        "ja": ["どうも", "ありがとう", "ございます", "。"]
       }
     },
     {
-      "id": "sentence_sorry_na_female",
-      "kind": "sentence",
-      "itemIds": ["word_sorry", "word_na", "word_kha_question"],
+      "id": "s22",
+      "kind": "Sentence",
       "texts": {
-        "en": "Excuse me, soft and polite (female)",
-        "th": "ขอโทษนะคะ",
-        "fa": "ببخشید، نرم و مؤدبانه (گوینده زن)",
-        "ar": "عفواً بلطف (تقولها المرأة)",
-        "es": "Disculpe, suave y cortés (mujer)",
-        "zh": "不好意思（柔和礼貌，女性说）",
-        "ja": "すみません（やわらかく丁寧に・女性）"
+        "en": "Thank you very much. (female)",
+        "th": "ขอบคุณมากค่ะ",
+        "fa": "خیلی متشکرم.",
+        "ar": "شكراً جزيلاً.",
+        "es": "Muchas gracias.",
+        "zh": "非常感谢。",
+        "ja": "どうもありがとうございます。"
       },
       "tokens": {
-        "en": ["Excuse", "me,", "soft", "and", "polite", "(female)"],
-        "th": ["ขอโทษ", "นะ", "คะ"],
-        "fa": ["ببخشید،", "نرم", "و", "مؤدبانه", "(گوینده", "زن)"],
-        "ar": ["عفواً", "بلطف", "(تقولها", "المرأة)"],
-        "es": ["Disculpe,", "suave", "y", "cortés", "(mujer)"],
-        "zh": ["不好意思", "（柔和礼貌，女性说）"],
-        "ja": ["すみません", "（やわらかく丁寧に・女性）"]
+        "th": ["ขอบคุณ", "มาก", "ค่ะ"],
+        "zh": ["非常", "感谢", "。"],
+        "ja": ["どうも", "ありがとう", "ございます", "。"]
       }
     },
     {
-      "id": "sentence_i_apologize_male",
-      "kind": "sentence",
-      "itemIds": ["word_i_male", "word_sorry", "word_khrap"],
+      "id": "s23",
+      "kind": "Sentence",
       "texts": {
-        "en": "I apologize (male)",
-        "th": "ผมขอโทษครับ",
-        "fa": "عذرخواهی می‌کنم (گوینده مرد)",
-        "ar": "أعتذر (يقولها الرجل)",
-        "es": "Me disculpo (hombre)",
-        "zh": "我道歉（男性说）",
-        "ja": "お詫びします（男性）"
+        "en": "I am sorry. (male)",
+        "th": "ฉันขอโทษครับ",
+        "fa": "من متأسفم.",
+        "ar": "أنا آسف.",
+        "es": "Lo siento.",
+        "zh": "我很抱歉。",
+        "ja": "申し訳ありません。"
       },
       "tokens": {
-        "en": ["I", "apologize", "(male)"],
-        "th": ["ผม", "ขอโทษ", "ครับ"],
-        "fa": ["عذرخواهی", "می‌کنم", "(گوینده", "مرد)"],
-        "ar": ["أعتذر", "(يقولها", "الرجل)"],
-        "es": ["Me", "disculpo", "(hombre)"],
-        "zh": ["我", "道歉", "（男性说）"],
-        "ja": ["お詫び", "します", "（男性）"]
+        "th": ["ฉัน", "ขอโทษ", "ครับ"],
+        "zh": ["我", "很", "抱歉", "。"],
+        "ja": ["申し訳", "あり", "ませ", "ん", "。"]
       }
     },
     {
-      "id": "sentence_pardon_what",
-      "kind": "sentence",
-      "itemIds": ["word_what", "word_na", "word_kha_question"],
+      "id": "s24",
+      "kind": "Sentence",
       "texts": {
-        "en": "Pardon? What did you say?",
-        "th": "อะไรนะคะ",
-        "fa": "چی گفتید؟",
-        "ar": "ماذا قلت؟ عفواً؟",
-        "es": "¿Cómo? ¿Qué dijiste?",
-        "zh": "您说什么？",
-        "ja": "何とおっしゃいましたか？"
+        "en": "I am sorry. (female)",
+        "th": "ฉันขอโทษค่ะ",
+        "fa": "من متأسفم.",
+        "ar": "أنا آسفة.",
+        "es": "Lo siento.",
+        "zh": "我很抱歉。",
+        "ja": "申し訳ありません。"
       },
       "tokens": {
-        "en": ["Pardon?", "What", "did", "you", "say?"],
-        "th": ["อะไร", "นะ", "คะ"],
-        "fa": ["چی", "گفتید؟"],
-        "ar": ["ماذا", "قلت؟", "عفواً؟"],
-        "es": ["¿Cómo?", "¿Qué", "dijiste?"],
-        "zh": ["您", "说", "什么？"],
-        "ja": ["何", "と", "おっしゃいました", "か？"]
+        "th": ["ฉัน", "ขอโทษ", "ค่ะ"],
+        "zh": ["我", "很", "抱歉", "。"],
+        "ja": ["申し訳", "あり", "ませ", "ん", "。"]
       }
     },
     {
-      "id": "sentence_thank_everyone",
-      "kind": "sentence",
-      "itemIds": ["word_thank", "word_everyone", "word_khrap"],
+      "id": "s25",
+      "kind": "Sentence",
       "texts": {
-        "en": "Thank you, everyone",
-        "th": "ขอบคุณทุกคนครับ",
-        "fa": "از همه متشکرم",
-        "ar": "شكراً للجميع",
-        "es": "Gracias a todos",
-        "zh": "谢谢大家",
-        "ja": "皆さんありがとうございます"
+        "en": "Excuse me, please.",
+        "th": "ขอโทษนะครับ/คะ",
+        "fa": "ببخشید، لطفاً.",
+        "ar": "عذراً، من فضلك.",
+        "es": "Disculpe, por favor.",
+        "zh": "打扰一下，请。",
+        "ja": "すみません、お願いします。"
       },
       "tokens": {
-        "en": ["Thank", "you,", "everyone"],
-        "th": ["ขอบคุณ", "ทุกคน", "ครับ"],
-        "fa": ["از", "همه", "متشکرم"],
-        "ar": ["شكراً", "للجميع"],
-        "es": ["Gracias", "a", "todos"],
-        "zh": ["谢谢", "大家"],
-        "ja": ["皆さん", "ありがとう", "ございます"]
-      }
-    },
-    {
-      "id": "word_i_male",
-      "kind": "word",
-      "texts": {
-        "en": "I (formal, male)",
-        "th": "ผม",
-        "fa": "من (مردانه)",
-        "ar": "أنا (للرجال)",
-        "es": "yo (masculino)",
-        "zh": "我（男性）",
-        "ja": "私（男性）"
-      }
-    },
-    {
-      "id": "word_what",
-      "kind": "word",
-      "texts": {
-        "en": "what",
-        "th": "อะไร",
-        "fa": "چه / چی",
-        "ar": "ماذا",
-        "es": "qué",
-        "zh": "什么",
-        "ja": "何"
-      }
-    },
-    {
-      "id": "word_everyone",
-      "kind": "word",
-      "texts": {
-        "en": "everyone",
-        "th": "ทุกคน",
-        "fa": "همه",
-        "ar": "الجميع",
-        "es": "todos",
-        "zh": "大家 / 每个人",
-        "ja": "皆さん"
+        "th": ["ขอโทษ", "นะครับ/คะ"],
+        "zh": ["打扰", "一下", "，", "请", "。"],
+        "ja": ["すみません", "、", "お願い", "し", "ます", "。"]
       }
     }
   ]

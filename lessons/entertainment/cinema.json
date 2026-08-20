@@ -2,282 +2,25 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
-      "header": true,
-      "texts": {
-        "en": "Core Words",
-        "th": "คำศัพท์หลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras clave",
-        "zh": "核心词汇",
-        "ja": "基本単語"
-      }
-    },
-    {
-      "id": "word_i",
-      "kind": "word",
-      "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
-      }
-    },
-    {
-      "id": "word_you",
-      "kind": "word",
-      "texts": {
-        "en": "you",
-        "th": "คุณ",
-        "fa": "شما",
-        "ar": "أنت",
-        "es": "tú",
-        "zh": "你",
-        "ja": "あなた"
-      }
-    },
-    {
-      "id": "word_want",
-      "kind": "word",
-      "texts": {
-        "en": "want",
-        "th": "ต้องการ",
-        "fa": "خواستن",
-        "ar": "يريد",
-        "es": "querer",
-        "zh": "想要",
-        "ja": "欲しい"
-      }
-    },
-    {
-      "id": "word_buy",
-      "kind": "word",
-      "texts": {
-        "en": "buy",
-        "th": "ซื้อ",
-        "fa": "خریدن",
-        "ar": "يشتري",
-        "es": "comprar",
-        "zh": "买",
-        "ja": "買う"
-      }
-    },
-    {
-      "id": "word_question_particle",
-      "kind": "word",
-      "texts": {
-        "en": "question marker",
-        "th": "ไหม",
-        "fa": "آیا",
-        "ar": "هل",
-        "es": "partícula interrogativa",
-        "zh": "吗",
-        "ja": "か"
-      }
-    },
-    {
-      "id": "word_where",
-      "kind": "word",
-      "texts": {
-        "en": "where",
-        "th": "ที่ไหน",
-        "fa": "کجا",
-        "ar": "أين",
-        "es": "dónde",
-        "zh": "哪里",
-        "ja": "どこ"
-      }
-    },
-    {
-      "id": "word_what_time",
-      "kind": "word",
-      "texts": {
-        "en": "what time",
-        "th": "กี่โมง",
-        "fa": "چه ساعتی",
-        "ar": "كم الساعة",
-        "es": "qué hora",
-        "zh": "几点",
-        "ja": "何時"
-      }
-    },
-    {
-      "id": "word_which",
-      "kind": "word",
-      "texts": {
-        "en": "which",
-        "th": "ไหน",
-        "fa": "کدام",
-        "ar": "أي",
-        "es": "cuál",
-        "zh": "哪",
-        "ja": "どの"
-      }
-    },
-    {
-      "id": "word_this",
-      "kind": "word",
-      "texts": {
-        "en": "this",
-        "th": "นี้ / นี่",
-        "fa": "این",
-        "ar": "هذا",
-        "es": "este",
-        "zh": "这",
-        "ja": "この"
-      }
-    },
-    {
-      "id": "word_that",
-      "kind": "word",
-      "texts": {
-        "en": "that",
-        "th": "นั้น / นั่น",
-        "fa": "آن",
-        "ar": "ذلك",
-        "es": "ese",
-        "zh": "那",
-        "ja": "あの"
-      }
-    },
-    {
-      "id": "word_again",
-      "kind": "word",
-      "texts": {
-        "en": "again / one more",
-        "th": "อีก",
-        "fa": "دوباره / یکی دیگر",
-        "ar": "مرة أخرى / إضافي",
-        "es": "más / otro",
-        "zh": "再／又",
-        "ja": "もう／さらに"
-      }
-    },
-    {
-      "id": "word_how_much",
-      "kind": "word",
-      "texts": {
-        "en": "how much",
-        "th": "เท่าไร",
-        "fa": "چقدر / چند",
-        "ar": "كم",
-        "es": "cuánto",
-        "zh": "多少",
-        "ja": "いくら"
-      }
-    },
-    {
-      "id": "header_scenario1",
+      "id": "h1",
       "header": true,
       "texts": {
         "en": "Scenario 1: Buying Tickets",
-        "th": "สถานการณ์ 1: การซื้อตั๋ว",
-        "fa": "سناریو ۱: خرید بلیت",
+        "th": "สถานการณ์ที่ 1: การซื้อตั๋ว",
+        "fa": "سناریو ۱: خرید بلیط",
         "ar": "السيناريو 1: شراء التذاكر",
         "es": "Escenario 1: Comprar entradas",
-        "zh": "场景一：购票",
-        "ja": "シナリオ1：チケット購入"
+        "zh": "场景 1：购买电影票",
+        "ja": "シナリオ 1：チケットの購入"
       }
     },
     {
-      "id": "sentence_cinema_buy_two_tickets",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_want", "word_buy", "word_two", "word_ticket"],
-      "texts": {
-        "en": "I want to buy two tickets",
-        "th": "ฉันต้องการซื้อตั๋วสองใบ",
-        "fa": "من می‌خواهم دو بلیت بخرم",
-        "ar": "أريد شراء تذكرتين",
-        "es": "Quiero comprar dos entradas",
-        "zh": "我想买两张票",
-        "ja": "チケットを二枚買いたいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "to", "buy", "two", "tickets"],
-        "th": ["ฉัน", "ต้องการ", "ซื้อ", "ตั๋ว", "สอง", "ใบ"],
-        "fa": ["من", "می‌خواهم", "دو", "بلیت", "بخرم"],
-        "ar": ["أريد", "شراء", "تذكرتين"],
-        "es": ["Quiero", "comprar", "dos", "entradas"],
-        "zh": ["我", "想", "买", "两张", "票"],
-        "ja": ["チケット", "を", "二枚", "買い", "たい", "です"]
-      }
-    },
-    {
-      "id": "sentence_cinema_one_more_ticket",
-      "kind": "sentence",
-      "itemIds": [
-        "word_i",
-        "word_want",
-        "word_ticket",
-        "word_again",
-        "word_classifier_sheet"
-      ],
-      "texts": {
-        "en": "I want one more ticket",
-        "th": "ฉันต้องการตั๋วอีกใบ",
-        "fa": "من یک بلیت دیگر می‌خواهم",
-        "ar": "أريد تذكرة إضافية",
-        "es": "Quiero una entrada más",
-        "zh": "我还要一张票",
-        "ja": "もう一枚チケットが欲しいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "one", "more", "ticket"],
-        "th": ["ฉัน", "ต้องการ", "ตั๋ว", "อีก", "ใบ"],
-        "fa": ["من", "یک", "بلیت", "دیگر", "می‌خواهم"],
-        "ar": ["أريد", "تذكرة", "إضافية"],
-        "es": ["Quiero", "una", "entrada", "más"],
-        "zh": ["我", "还要", "一张", "票"],
-        "ja": ["もう", "一枚", "チケット", "が", "欲しい", "です"]
-      }
-    },
-    {
-      "id": "sentence_cinema_ticket_how_much",
-      "kind": "sentence",
-      "itemIds": ["word_ticket", "word_classifier_sheet", "word_how_much"],
-      "texts": {
-        "en": "How much is one ticket?",
-        "th": "ตั๋วใบละเท่าไร",
-        "fa": "هر بلیت چند است؟",
-        "ar": "كم سعر التذكرة؟",
-        "es": "¿Cuánto cuesta una entrada?",
-        "zh": "一张票多少钱？",
-        "ja": "チケット一枚いくらですか？"
-      },
-      "tokens": {
-        "en": ["How", "much", "is", "one", "ticket?"],
-        "th": ["ตั๋ว", "ใบ", "ละ", "เท่าไร"],
-        "fa": ["هر", "بلیت", "چند", "است؟"],
-        "ar": ["كم", "سعر", "التذكرة؟"],
-        "es": ["¿Cuánto", "cuesta", "una", "entrada?"],
-        "zh": ["一张", "票", "多少", "钱？"],
-        "ja": ["チケット", "一枚", "いくら", "ですか？"]
-      }
-    },
-    {
-      "id": "word_two",
-      "kind": "word",
-      "texts": {
-        "en": "two",
-        "th": "สอง",
-        "fa": "دو",
-        "ar": "اثنان",
-        "es": "dos",
-        "zh": "两",
-        "ja": "二"
-      }
-    },
-    {
-      "id": "word_ticket",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
         "en": "ticket",
         "th": "ตั๋ว",
-        "fa": "بلیت",
+        "fa": "بلیط",
         "ar": "تذكرة",
         "es": "entrada",
         "zh": "票",
@@ -285,327 +28,202 @@
       }
     },
     {
-      "id": "word_classifier_sheet",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
       "texts": {
-        "en": "classifier for flat items (tickets)",
-        "th": "ใบ",
-        "fa": "شمارشگر اشیاء تخت (بلیت)",
-        "ar": "أداة عد للأشياء المسطحة",
-        "es": "clasificador de objetos planos",
-        "zh": "量词（张）",
-        "ja": "平たい物を数える助数詞"
+        "en": "buy",
+        "th": "ซื้อ",
+        "fa": "خریدن",
+        "ar": "شراء",
+        "es": "comprar",
+        "zh": "买",
+        "ja": "買う"
       }
     },
     {
-      "id": "header_scenario2",
+      "id": "w3",
+      "kind": "Word",
+      "texts": {
+        "en": "showtime",
+        "th": "เวลาฉาย",
+        "fa": "زمان نمایش",
+        "ar": "موعد العرض",
+        "es": "horario",
+        "zh": "放映时间",
+        "ja": "上映時間"
+      }
+    },
+    {
+      "id": "w4",
+      "kind": "Word",
+      "texts": {
+        "en": "adult",
+        "th": "ผู้ใหญ่",
+        "fa": "بزرگسال",
+        "ar": "بالغ",
+        "es": "adulto",
+        "zh": "成人",
+        "ja": "大人"
+      }
+    },
+    {
+      "id": "w5",
+      "kind": "Word",
+      "texts": {
+        "en": "child",
+        "th": "เด็ก",
+        "fa": "کودک",
+        "ar": "طفل",
+        "es": "niño",
+        "zh": "儿童",
+        "ja": "子供"
+      }
+    },
+    {
+      "id": "s1",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I would like to buy two tickets.",
+        "th": "ฉันต้องการซื้อตั๋วสองใบ",
+        "fa": "من می‌خواهم دو بلیط بخرم.",
+        "ar": "أرغب في شراء تذكرتين.",
+        "es": "Me gustaría comprar dos entradas.",
+        "zh": "我想买两张票。",
+        "ja": "チケットを2枚買いたいです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้องการ", "ซื้อ", "ตั๋ว", "สอง", "ใบ"],
+        "zh": ["我", "想", "买", "两", "张", "票", "。"],
+        "ja": ["チケット", "を", "2", "枚", "買い", "たい", "です", "。"]
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "Sentence",
+      "texts": {
+        "en": "What time is the next show?",
+        "th": "รอบต่อไปฉายกี่โมง",
+        "fa": "نمایش بعدی چه ساعتی است؟",
+        "ar": "كم هو موعد العرض التالي؟",
+        "es": "¿A qué hora es la próxima función?",
+        "zh": "下一场几点开始？",
+        "ja": "次の上映は何時ですか？"
+      },
+      "tokens": {
+        "th": ["รอบ", "ต่อไป", "ฉาย", "กี่", "โมง"],
+        "zh": ["下一场", "几点", "开始", "？"],
+        "ja": ["次", "の", "上映", "は", "何時", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "Sentence",
+      "texts": {
+        "en": "One adult and one child, please.",
+        "th": "ผู้ใหญ่หนึ่งและเด็กหนึ่งค่ะ",
+        "fa": "یک بزرگسال و یک کودک، لطفاً.",
+        "ar": "واحد بالغ وواحد طفل، من فضلك.",
+        "es": "Un adulto y un niño, por favor.",
+        "zh": "请给我一张成人票和一张儿童票。",
+        "ja": "大人1枚と子供1枚お願いします。"
+      },
+      "tokens": {
+        "th": ["ผู้ใหญ่", "หนึ่ง", "และ", "เด็ก", "หนึ่ง", "ค่ะ"],
+        "zh": [
+          "请",
+          "给",
+          "我",
+          "一",
+          "张",
+          "成人",
+          "票",
+          "和",
+          "一",
+          "张",
+          "儿童",
+          "票",
+          "。"
+        ],
+        "ja": [
+          "大人",
+          "1",
+          "枚",
+          "と",
+          "子供",
+          "1",
+          "枚",
+          "お願い",
+          "し",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Is this movie suitable for children?",
+        "th": "หนังเรื่องนี้เหมาะสำหรับเด็กไหม",
+        "fa": "آیا این فیلم برای کودکان مناسب است؟",
+        "ar": "هل هذا الفيلم مناسب للأطفال؟",
+        "es": "¿Es esta película adecuada para niños?",
+        "zh": "这部电影适合儿童看吗？",
+        "ja": "この映画は子供に適していますか？"
+      },
+      "tokens": {
+        "th": ["หนัง", "เรื่อง", "นี้", "เหมาะ", "สำหรับ", "เด็ก", "ไหม"],
+        "zh": ["这", "部", "电影", "适合", "儿童", "看", "吗", "？"],
+        "ja": [
+          "この",
+          "映画",
+          "は",
+          "子供",
+          "に",
+          "適し",
+          "て",
+          "い",
+          "ます",
+          "か",
+          "？"
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Here are your tickets.",
+        "th": "นี่คือตั๋วของคุณ",
+        "fa": "این بلیط‌های شماست.",
+        "ar": "إليك تذاكرك.",
+        "es": "Aquí están sus entradas.",
+        "zh": "这是您的票。",
+        "ja": "これがあなたのチケットです。"
+      },
+      "tokens": {
+        "th": ["นี่", "คือ", "ตั๋ว", "ของ", "คุณ"],
+        "zh": ["这", "是", "您", "的", "票", "。"],
+        "ja": ["これ", "が", "あなた", "の", "チケット", "です", "。"]
+      }
+    },
+
+    {
+      "id": "h2",
       "header": true,
       "texts": {
-        "en": "Scenario 2: Showtimes & Seating",
-        "th": "สถานการณ์ 2: รอบฉายและที่นั่ง",
-        "fa": "سناریو ۲: سانس‌ها و صندلی‌ها",
-        "ar": "السيناريو 2: مواعيد العرض والمقاعد",
-        "es": "Escenario 2: Horarios y asientos",
-        "zh": "场景二：场次与座位",
-        "ja": "シナリオ2：上映時間と座席"
+        "en": "Scenario 2: Choosing Seats",
+        "th": "สถานการณ์ที่ 2: การเลือกที่นั่ง",
+        "fa": "سناریو ۲: انتخاب صندلی",
+        "ar": "السيناريو 2: اختيار المقاعد",
+        "es": "Escenario 2: Elegir asientos",
+        "zh": "场景 2：选择座位",
+        "ja": "シナリオ 2：座席の選択"
       }
     },
     {
-      "id": "sentence_cinema_movie_start_what_time",
-      "kind": "sentence",
-      "itemIds": ["word_movie", "word_start", "word_what_time"],
-      "texts": {
-        "en": "What time does the movie start",
-        "th": "หนังเริ่มกี่โมง",
-        "fa": "فیلم ساعت چند شروع می‌شود",
-        "ar": "متى يبدأ الفيلم",
-        "es": "A qué hora empieza la película",
-        "zh": "电影几点开始",
-        "ja": "映画は何時に始まりますか"
-      },
-      "tokens": {
-        "en": ["What", "time", "does", "the", "movie", "start"],
-        "th": ["หนัง", "เริ่ม", "กี่โมง"],
-        "fa": ["فیلم", "ساعت", "چند", "شروع", "می‌شود"],
-        "ar": ["متى", "يبدأ", "الفيلم"],
-        "es": ["A", "qué", "hora", "empieza", "la", "película"],
-        "zh": ["电影", "几点", "开始"],
-        "ja": ["映画", "は", "何時", "に", "始まり", "ます", "か"]
-      }
-    },
-    {
-      "id": "sentence_cinema_start_seven",
-      "kind": "sentence",
-      "itemIds": ["word_start", "word_seven", "word_oclock"],
-      "texts": {
-        "en": "It starts at seven o'clock",
-        "th": "เริ่มเจ็ดโมง",
-        "fa": "ساعت هفت شروع می‌شود",
-        "ar": "يبدأ الساعة السابعة",
-        "es": "Empieza a las siete",
-        "zh": "七点开始",
-        "ja": "七時に始まります"
-      },
-      "tokens": {
-        "en": ["It", "starts", "at", "seven", "o'clock"],
-        "th": ["เริ่ม", "เจ็ด", "โมง"],
-        "fa": ["ساعت", "هفت", "شروع", "می‌شود"],
-        "ar": ["يبدأ", "الساعة", "السابعة"],
-        "es": ["Empieza", "a", "las", "siete"],
-        "zh": ["七点", "开始"],
-        "ja": ["七時", "に", "始まり", "ます"]
-      }
-    },
-    {
-      "id": "sentence_cinema_finish_what_time",
-      "kind": "sentence",
-      "itemIds": ["word_finish", "word_what_time"],
-      "texts": {
-        "en": "What time does it finish",
-        "th": "จบกี่โมง",
-        "fa": "ساعت چند تمام می‌شود",
-        "ar": "متى ينتهي",
-        "es": "A qué hora termina",
-        "zh": "几点结束",
-        "ja": "何時に終わりますか"
-      },
-      "tokens": {
-        "en": ["What", "time", "does", "it", "finish"],
-        "th": ["จบ", "กี่โมง"],
-        "fa": ["ساعت", "چند", "تمام", "می‌شود"],
-        "ar": ["متى", "ينتهي"],
-        "es": ["A", "qué", "hora", "termina"],
-        "zh": ["几点", "结束"],
-        "ja": ["何時", "に", "終わり", "ます", "か"]
-      }
-    },
-    {
-      "id": "sentence_cinema_finish_nine",
-      "kind": "sentence",
-      "itemIds": ["word_finish", "word_nine", "word_oclock"],
-      "texts": {
-        "en": "It finishes at nine o'clock",
-        "th": "จบเก้าโมง",
-        "fa": "ساعت نه تمام می‌شود",
-        "ar": "ينتهي الساعة التاسعة",
-        "es": "Termina a las nueve",
-        "zh": "九点结束",
-        "ja": "九時に終わります"
-      },
-      "tokens": {
-        "en": ["It", "finishes", "at", "nine", "o'clock"],
-        "th": ["จบ", "เก้า", "โมง"],
-        "fa": ["ساعت", "نه", "تمام", "می‌شود"],
-        "ar": ["ينتهي", "الساعة", "التاسعة"],
-        "es": ["Termina", "a", "las", "nueve"],
-        "zh": ["九点", "结束"],
-        "ja": ["九時", "に", "終わり", "ます"]
-      }
-    },
-    {
-      "id": "sentence_cinema_last_show",
-      "kind": "sentence",
-      "itemIds": ["word_showing", "word_last", "word_what_time"],
-      "texts": {
-        "en": "What time is the last show?",
-        "th": "รอบสุดท้ายกี่โมง",
-        "fa": "سانس آخر ساعت چند است؟",
-        "ar": "متى العرض الأخير؟",
-        "es": "¿A qué hora es la última sesión?",
-        "zh": "最后一场几点？",
-        "ja": "最終回は何時ですか？"
-      },
-      "tokens": {
-        "en": ["What", "time", "is", "the", "last", "show?"],
-        "th": ["รอบ", "สุดท้าย", "กี่โมง"],
-        "fa": ["سانس", "آخر", "ساعت", "چند", "است؟"],
-        "ar": ["متى", "العرض", "الأخير؟"],
-        "es": ["¿A", "qué", "hora", "es", "la", "última", "sesión?"],
-        "zh": ["最后", "一场", "几点？"],
-        "ja": ["最終", "回", "は", "何時", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_cinema_where_seats",
-      "kind": "sentence",
-      "itemIds": ["word_where", "word_seat"],
-      "texts": {
-        "en": "Where are our seats",
-        "th": "ที่นั่งของเราอยู่ที่ไหน",
-        "fa": "صندلی‌های ما کجاست",
-        "ar": "أين مقاعدنا",
-        "es": "Dónde están nuestros asientos",
-        "zh": "我们的座位在哪里",
-        "ja": "私たちの席はどこですか"
-      },
-      "tokens": {
-        "en": ["Where", "are", "our", "seats"],
-        "th": ["ที่นั่ง", "ของ", "เรา", "อยู่", "ที่ไหน"],
-        "fa": ["صندلی‌های", "ما", "کجاست"],
-        "ar": ["أين", "مقاعدنا"],
-        "es": ["Dónde", "están", "nuestros", "asientos"],
-        "zh": ["我们", "的", "座位", "在", "哪里"],
-        "ja": ["私たち", "の", "席", "は", "どこ", "です", "か"]
-      }
-    },
-    {
-      "id": "sentence_cinema_seat_free",
-      "kind": "sentence",
-      "itemIds": [
-        "word_seat",
-        "word_this",
-        "word_free",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Is this seat free?",
-        "th": "ที่นั่งนี้ว่างไหม",
-        "fa": "آیا این صندلی خالی است؟",
-        "ar": "هل هذا المقعد شاغر؟",
-        "es": "¿Está libre este asiento?",
-        "zh": "这个座位空着吗？",
-        "ja": "この席は空いていますか？"
-      },
-      "tokens": {
-        "en": ["Is", "this", "seat", "free?"],
-        "th": ["ที่นั่ง", "นี้", "ว่าง", "ไหม"],
-        "fa": ["آیا", "این", "صندلی", "خالی", "است؟"],
-        "ar": ["هل", "هذا", "المقعد", "شاغر؟"],
-        "es": ["¿Está", "libre", "este", "asiento?"],
-        "zh": ["这个", "座位", "空着", "吗？"],
-        "ja": ["この", "席", "は", "空いて", "います", "か？"]
-      }
-    },
-    {
-      "id": "sentence_cinema_row_five_seat_ten",
-      "kind": "sentence",
-      "itemIds": ["word_row", "word_five", "word_seat", "word_ten"],
-      "texts": {
-        "en": "Row five seat ten",
-        "th": "แถวห้า ที่นั่งสิบ",
-        "fa": "ردیف پنج صندلی ده",
-        "ar": "الصف الخامس المقعد العاشر",
-        "es": "Fila cinco asiento diez",
-        "zh": "五排十座",
-        "ja": "五列十番席"
-      },
-      "tokens": {
-        "en": ["Row", "five", "seat", "ten"],
-        "th": ["แถว", "ห้า", "ที่นั่ง", "สิบ"],
-        "fa": ["ردیف", "پنج", "صندلی", "ده"],
-        "ar": ["الصف", "الخامس", "المقعد", "العاشر"],
-        "es": ["Fila", "cinco", "asiento", "diez"],
-        "zh": ["五排", "十座"],
-        "ja": ["五列", "十番", "席"]
-      }
-    },
-    {
-      "id": "word_movie",
-      "kind": "word",
-      "texts": {
-        "en": "movie",
-        "th": "หนัง",
-        "fa": "فیلم",
-        "ar": "فيلم",
-        "es": "película",
-        "zh": "电影",
-        "ja": "映画"
-      }
-    },
-    {
-      "id": "word_start",
-      "kind": "word",
-      "texts": {
-        "en": "start",
-        "th": "เริ่ม",
-        "fa": "شروع شدن",
-        "ar": "يبدأ",
-        "es": "empezar",
-        "zh": "开始",
-        "ja": "始まる"
-      }
-    },
-    {
-      "id": "word_seven",
-      "kind": "word",
-      "texts": {
-        "en": "seven",
-        "th": "เจ็ด",
-        "fa": "هفت",
-        "ar": "سبعة",
-        "es": "siete",
-        "zh": "七",
-        "ja": "七"
-      }
-    },
-    {
-      "id": "word_oclock",
-      "kind": "word",
-      "texts": {
-        "en": "o'clock",
-        "th": "โมง",
-        "fa": "ساعت",
-        "ar": "تمام الساعة",
-        "es": "en punto",
-        "zh": "点",
-        "ja": "時"
-      }
-    },
-    {
-      "id": "word_finish",
-      "kind": "word",
-      "texts": {
-        "en": "finish",
-        "th": "จบ",
-        "fa": "تمام شدن",
-        "ar": "ينتهي",
-        "es": "terminar",
-        "zh": "结束",
-        "ja": "終わる"
-      }
-    },
-    {
-      "id": "word_nine",
-      "kind": "word",
-      "texts": {
-        "en": "nine",
-        "th": "เก้า",
-        "fa": "نه",
-        "ar": "تسعة",
-        "es": "nueve",
-        "zh": "九",
-        "ja": "九"
-      }
-    },
-    {
-      "id": "word_showing",
-      "kind": "word",
-      "texts": {
-        "en": "showtime / round",
-        "th": "รอบ",
-        "fa": "سانس",
-        "ar": "عرض",
-        "es": "sesión",
-        "zh": "场次",
-        "ja": "回"
-      }
-    },
-    {
-      "id": "word_last",
-      "kind": "word",
-      "texts": {
-        "en": "last",
-        "th": "สุดท้าย",
-        "fa": "آخرین",
-        "ar": "الأخير",
-        "es": "último",
-        "zh": "最后",
-        "ja": "最後"
-      }
-    },
-    {
-      "id": "word_seat",
-      "kind": "word",
+      "id": "w6",
+      "kind": "Word",
       "texts": {
         "en": "seat",
         "th": "ที่นั่ง",
@@ -613,12 +231,12 @@
         "ar": "مقعد",
         "es": "asiento",
         "zh": "座位",
-        "ja": "席"
+        "ja": "座席"
       }
     },
     {
-      "id": "word_row",
-      "kind": "word",
+      "id": "w7",
+      "kind": "Word",
       "texts": {
         "en": "row",
         "th": "แถว",
@@ -630,189 +248,202 @@
       }
     },
     {
-      "id": "word_five",
-      "kind": "word",
+      "id": "w8",
+      "kind": "Word",
       "texts": {
-        "en": "five",
-        "th": "ห้า",
-        "fa": "پنج",
-        "ar": "خمسة",
-        "es": "cinco",
-        "zh": "五",
-        "ja": "五"
+        "en": "aisle",
+        "th": "ทางเดิน",
+        "fa": "راهرو",
+        "ar": "ممر",
+        "es": "pasillo",
+        "zh": "过道",
+        "ja": "通路側"
       }
     },
     {
-      "id": "word_ten",
-      "kind": "word",
+      "id": "w9",
+      "kind": "Word",
       "texts": {
-        "en": "ten",
-        "th": "สิบ",
-        "fa": "ده",
-        "ar": "عشرة",
-        "es": "diez",
-        "zh": "十",
-        "ja": "十"
+        "en": "window",
+        "th": "ริม",
+        "fa": "کناره",
+        "ar": "نافذة",
+        "es": "ventana",
+        "zh": "靠边",
+        "ja": "窓側"
       }
     },
     {
-      "id": "word_free",
-      "kind": "word",
+      "id": "w10",
+      "kind": "Word",
       "texts": {
-        "en": "free / vacant",
-        "th": "ว่าง",
-        "fa": "خالی",
-        "ar": "شاغر",
-        "es": "libre",
-        "zh": "空的",
-        "ja": "空いている"
+        "en": "front",
+        "th": "ด้านหน้า",
+        "fa": "جلو",
+        "ar": "أمام",
+        "es": "frente",
+        "zh": "前面",
+        "ja": "前"
       }
     },
     {
-      "id": "header_scenario3",
+      "id": "s6",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Where would you like to sit?",
+        "th": "คุณอยากนั่งที่ไหน",
+        "fa": "کجا دوست دارید بنشینید؟",
+        "ar": "أين تود الجلوس؟",
+        "es": "¿Dónde le gustaría sentarse?",
+        "zh": "您想坐在哪里？",
+        "ja": "どこに座りたいですか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "อยาก", "นั่ง", "ที่", "ไหน"],
+        "zh": ["您", "想", "坐", "在", "哪里", "？"],
+        "ja": ["どこ", "に", "座り", "たい", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s7",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I prefer the middle row.",
+        "th": "ฉันชอบแถวกึ่งกลาง",
+        "fa": "من ردیف وسط را ترجیح می‌دهم.",
+        "ar": "أفضل الصف الأوسط.",
+        "es": "Prefiero la fila del medio.",
+        "zh": "我喜欢中间那一排。",
+        "ja": "中央の列がいいです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ชอบ", "แถว", "กึ่งกลาง"],
+        "zh": ["我", "喜欢", "中间", "那", "一排", "。"],
+        "ja": ["中央", "の", "列", "が", "いい", "です", "。"]
+      }
+    },
+    {
+      "id": "s8",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Are there any aisle seats left?",
+        "th": "ยังมีที่นั่งริมทางเดินเหลือไหม",
+        "fa": "آیا صندلی‌های راهرو باقی مانده است؟",
+        "ar": "هل هناك أي مقاعد ممر متبقية؟",
+        "es": "¿Quedan asientos de pasillo?",
+        "zh": "还有过道的座位吗？",
+        "ja": "通路側の座席は残っていますか？"
+      },
+      "tokens": {
+        "th": ["ยัง", "มี", "ที่นั่ง", "ริม", "ทางเดิน", "เหลือ", "ไหม"],
+        "zh": ["还", "有", "过道", "的", "座位", "吗", "？"],
+        "ja": [
+          "通路",
+          "側",
+          "の",
+          "座席",
+          "は",
+          "残っ",
+          "て",
+          "い",
+          "ます",
+          "か",
+          "？"
+        ]
+      }
+    },
+    {
+      "id": "s9",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The front row is too close.",
+        "th": "แถวหน้าใกล้เกินไป",
+        "fa": "ردیف جلو خیلی نزدیک است.",
+        "ar": "الصف الأمامي قريب جداً.",
+        "es": "La primera fila está demasiado cerca.",
+        "zh": "第一排太近了。",
+        "ja": "前の列は近すぎます。"
+      },
+      "tokens": {
+        "th": ["แถว", "หน้า", "ใกล้", "เกิน", "ไป"],
+        "zh": ["第一排", "太", "近", "了", "。"],
+        "ja": ["前", "の", "列", "は", "近すぎ", "ます", "。"]
+      }
+    },
+    {
+      "id": "s10",
+      "kind": "Sentence",
+      "texts": {
+        "en": "These seats are reserved.",
+        "th": "ที่นั่งเหล่านี้ถูกจองไว้แล้ว",
+        "fa": "این صندلی‌ها رزرو شده‌اند.",
+        "ar": "هذه المقاعد محجوزة.",
+        "es": "Estos asientos están reservados.",
+        "zh": "这些座位已经预订了。",
+        "ja": "これらの座席は予約済みです。"
+      },
+      "tokens": {
+        "th": ["ที่นั่ง", "เหล่านี้", "ถูก", "จอง", "ไว้", "แล้ว"],
+        "zh": ["这些", "座位", "已经", "预订", "了", "。"],
+        "ja": ["これら", "の", "座席", "は", "予約", "済み", "です", "。"]
+      }
+    },
+
+    {
+      "id": "h3",
       "header": true,
       "texts": {
-        "en": "Scenario 3: Snacks & Drinks",
-        "th": "สถานการณ์ 3: ขนมและเครื่องดื่ม",
-        "fa": "سناریو ۳: تنقلات و نوشیدنی‌ها",
-        "ar": "السيناريو 3: الوجبات الخفيفة والمشروبات",
-        "es": "Escenario 3: Snacks y bebidas",
-        "zh": "场景三：零食与饮料",
-        "ja": "シナリオ3：スナックと飲み物"
+        "en": "Scenario 3: Concessions & Snacks",
+        "th": "สถานการณ์ที่ 3: ของขบเคี้ยวและเครื่องดื่ม",
+        "fa": "سناریو ۳: تنقلات و میان‌وعده‌ها",
+        "ar": "السيناريو 3: الامتيازات والوجبات الخفيفة",
+        "es": "Escenario 3: Confitería y snacks",
+        "zh": "场景 3：小吃与饮料",
+        "ja": "シナリオ 3：売店とスナック"
       }
     },
     {
-      "id": "sentence_cinema_popcorn_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_want",
-        "word_popcorn",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Do you want popcorn",
-        "th": "คุณต้องการป๊อปคอร์นไหม",
-        "fa": "آیا پاپ‌کورن می‌خواهید",
-        "ar": "هل تريد بوب كورن",
-        "es": "Quieres palomitas",
-        "zh": "你想要爆米花吗",
-        "ja": "ポップコーンが欲しいですか"
-      },
-      "tokens": {
-        "en": ["Do", "you", "want", "popcorn"],
-        "th": ["คุณ", "ต้องการ", "ป๊อปคอร์น", "ไหม"],
-        "fa": ["آیا", "پاپ‌کورن", "می‌خواهید"],
-        "ar": ["هل", "تريد", "بوب", "كورن"],
-        "es": ["Quieres", "palomitas"],
-        "zh": ["你", "想要", "爆米花", "吗"],
-        "ja": ["ポップコーン", "が", "欲しい", "です", "か"]
-      }
-    },
-    {
-      "id": "sentence_cinema_popcorn_large",
-      "kind": "sentence",
-      "itemIds": [
-        "word_i",
-        "word_want",
-        "word_popcorn",
-        "word_classifier_tub",
-        "word_large"
-      ],
-      "texts": {
-        "en": "I want a large popcorn",
-        "th": "ฉันต้องการป๊อปคอร์นถังใหญ่",
-        "fa": "من یک پاپ‌کورن بزرگ می‌خواهم",
-        "ar": "أريد بوب كورن كبيراً",
-        "es": "Quiero unas palomitas grandes",
-        "zh": "我要一个大份爆米花",
-        "ja": "大きいポップコーンが欲しいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "a", "large", "popcorn"],
-        "th": ["ฉัน", "ต้องการ", "ป๊อปคอร์น", "ถัง", "ใหญ่"],
-        "fa": ["من", "یک", "پاپ‌کورن", "بزرگ", "می‌خواهم"],
-        "ar": ["أريد", "بوب", "كورن", "كبيراً"],
-        "es": ["Quiero", "unas", "palomitas", "grandes"],
-        "zh": ["我", "要", "一个", "大份", "爆米花"],
-        "ja": ["大きい", "ポップコーン", "が", "欲しい", "です"]
-      }
-    },
-    {
-      "id": "sentence_cinema_water_two_glasses",
-      "kind": "sentence",
-      "itemIds": ["word_water", "word_two", "word_classifier_glass"],
-      "texts": {
-        "en": "Two glasses of water",
-        "th": "น้ำสองแก้ว",
-        "fa": "دو لیوان آب",
-        "ar": "كوبان من الماء",
-        "es": "Dos vasos de agua",
-        "zh": "两杯水",
-        "ja": "水二杯"
-      },
-      "tokens": {
-        "en": ["Two", "glasses", "of", "water"],
-        "th": ["น้ำ", "สอง", "แก้ว"],
-        "fa": ["دو", "لیوان", "آب"],
-        "ar": ["كوبان", "من", "الماء"],
-        "es": ["Dos", "vasos", "de", "agua"],
-        "zh": ["两杯", "水"],
-        "ja": ["水", "二杯"]
-      }
-    },
-    {
-      "id": "sentence_cinema_popcorn_how_much",
-      "kind": "sentence",
-      "itemIds": ["word_popcorn", "word_how_much"],
-      "texts": {
-        "en": "How much is the popcorn?",
-        "th": "ป๊อปคอร์นเท่าไร",
-        "fa": "پاپ‌کورن چند است؟",
-        "ar": "كم سعر البوب كورن؟",
-        "es": "¿Cuánto cuestan las palomitas?",
-        "zh": "爆米花多少钱？",
-        "ja": "ポップコーンはいくらですか？"
-      },
-      "tokens": {
-        "en": ["How", "much", "is", "the", "popcorn?"],
-        "th": ["ป๊อปคอร์น", "เท่าไร"],
-        "fa": ["پاپ‌کورن", "چند", "است؟"],
-        "ar": ["كم", "سعر", "البوب", "كورن؟"],
-        "es": ["¿Cuánto", "cuestan", "las", "palomitas?"],
-        "zh": ["爆米花", "多少", "钱？"],
-        "ja": ["ポップコーン", "は", "いくら", "です", "か？"]
-      }
-    },
-    {
-      "id": "word_popcorn",
-      "kind": "word",
+      "id": "w11",
+      "kind": "Word",
       "texts": {
         "en": "popcorn",
         "th": "ป๊อปคอร์น",
         "fa": "پاپ‌کورن",
-        "ar": "بوب كورن",
+        "ar": "فشاري",
         "es": "palomitas",
         "zh": "爆米花",
         "ja": "ポップコーン"
       }
     },
     {
-      "id": "word_classifier_tub",
-      "kind": "word",
+      "id": "w12",
+      "kind": "Word",
       "texts": {
-        "en": "classifier for tubs / buckets",
-        "th": "ถัง",
-        "fa": "شمارشگر سطل و ظرف",
-        "ar": "أداة عد للدلاء",
-        "es": "clasificador de cubos",
-        "zh": "量词（桶）",
-        "ja": "容器を数える助数詞"
+        "en": "drink",
+        "th": "เครื่องดื่ม",
+        "fa": "نوشیدنی",
+        "ar": "مشروب",
+        "es": "bebida",
+        "zh": "饮料",
+        "ja": "飲み物"
       }
     },
     {
-      "id": "word_large",
-      "kind": "word",
+      "id": "w13",
+      "kind": "Word",
+      "texts": {
+        "en": "candy",
+        "th": "ลูกอม",
+        "fa": "آبنبات",
+        "ar": "حلوى",
+        "es": "caramelo",
+        "zh": "糖果",
+        "ja": "キャンディ"
+      }
+    },
+    {
+      "id": "w14",
+      "kind": "Word",
       "texts": {
         "en": "large",
         "th": "ใหญ่",
@@ -820,531 +451,448 @@
         "ar": "كبير",
         "es": "grande",
         "zh": "大",
-        "ja": "大きい"
+        "ja": "大"
       }
     },
     {
-      "id": "word_water",
-      "kind": "word",
+      "id": "w15",
+      "kind": "Word",
       "texts": {
-        "en": "water",
-        "th": "น้ำ",
-        "fa": "آب",
-        "ar": "ماء",
-        "es": "agua",
-        "zh": "水",
-        "ja": "水"
+        "en": "combo",
+        "th": "ชุดรวม",
+        "fa": "ترکیبی",
+        "ar": "مجموعة",
+        "es": "combo",
+        "zh": "套餐",
+        "ja": "セット"
       }
     },
     {
-      "id": "word_classifier_glass",
-      "kind": "word",
+      "id": "s11",
+      "kind": "Sentence",
       "texts": {
-        "en": "classifier for drinks (glass)",
-        "th": "แก้ว",
-        "fa": "شمارشگر نوشیدنی (لیوان)",
-        "ar": "أداة عد للأكواب",
-        "es": "clasificador de vasos",
-        "zh": "量词（杯）",
-        "ja": "飲み物を数える助数詞"
+        "en": "I will take a large popcorn.",
+        "th": "ฉันขอป๊อปคอร์นขนาดใหญ่",
+        "fa": "من یک پاپ‌کورن بزرگ می‌خواهم.",
+        "ar": "سآخذ فشاري كبيراً.",
+        "es": "Tomaré palomitas grandes.",
+        "zh": "我要一份大爆米花。",
+        "ja": "大サイズのポップコーンをください。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ขอ", "ป๊อปคอร์น", "ขนาด", "ใหญ่"],
+        "zh": ["我", "要", "一份", "大", "爆米花", "。"],
+        "ja": ["大", "サイズ", "の", "ポップコーン", "を", "ください", "。"]
       }
     },
     {
-      "id": "header_scenario4",
+      "id": "s12",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Do you have any cold drinks?",
+        "th": "คุณมีเครื่องดื่มเย็นๆ ไหม",
+        "fa": "آیا نوشیدنی سرد دارید؟",
+        "ar": "هل لديك أي مشروبات باردة؟",
+        "es": "¿Tienen bebidas frías?",
+        "zh": "你们有冷饮吗？",
+        "ja": "冷たい飲み物はありますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "มี", "เครื่องดื่ม", "เย็นๆ", "ไหม"],
+        "zh": ["你们", "有", "冷饮", "吗", "？"],
+        "ja": ["冷たい", "飲み物", "は", "あり", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s13",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Can I get a combo meal?",
+        "th": "ฉันขอชุดรวมได้ไหม",
+        "fa": "آیا می‌توانم یک وعده ترکیبی بگیرم؟",
+        "ar": "هل يمكنني الحصول على وجبة مجموعة؟",
+        "es": "¿Puedo pedir un combo?",
+        "zh": "我能点一份套餐吗？",
+        "ja": "セットメニューはありますか？"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ขอ", "ชุดรวม", "ได้", "ไหม"],
+        "zh": ["我", "能", "点", "一份", "套餐", "吗", "？"],
+        "ja": ["セット", "メニュー", "は", "あり", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s14",
+      "kind": "Sentence",
+      "texts": {
+        "en": "That will be ten dollars.",
+        "th": "ทั้งหมดสิบดอลลาร์ค่ะ",
+        "fa": "آن ده دلار خواهد بود.",
+        "ar": "سيكون ذلك عشرة دولارات.",
+        "es": "Serán diez dólares.",
+        "zh": "一共是十美元。",
+        "ja": "お会計は10ドルです。"
+      },
+      "tokens": {
+        "th": ["ทั้งหมด", "สิบ", "ดอลลาร์", "ค่ะ"],
+        "zh": ["一共", "是", "十", "美元", "。"],
+        "ja": ["お", "会計", "は", "10", "ドル", "です", "。"]
+      }
+    },
+    {
+      "id": "s15",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Enjoy your movie and snacks.",
+        "th": "ขอให้สนุกกับหนังและขนม",
+        "fa": "از فیلم و میان‌وعده خود لذت ببرید.",
+        "ar": "استمتع بفيلمك ووجباتك الخفيفة.",
+        "es": "Disfruta de la película y los snacks.",
+        "zh": "祝您观影和享用零食愉快。",
+        "ja": "映画とスナックをお楽しみください。"
+      },
+      "tokens": {
+        "th": ["ขอ", "ให้", "สนุก", "กับ", "หนัง", "และ", "ขนม"],
+        "zh": ["祝", "您", "观影", "和", "享用", "零食", "愉快", "。"],
+        "ja": ["映画", "と", "スナック", "を", "お", "楽しみ", "ください", "。"]
+      }
+    },
+
+    {
+      "id": "h4",
       "header": true,
       "texts": {
-        "en": "Scenario 4: Talking About Movies",
-        "th": "สถานการณ์ 4: การคุยเรื่องหนัง",
-        "fa": "سناریو ۴: صحبت درباره فیلم‌ها",
-        "ar": "السيناريو 4: الحديث عن الأفلام",
-        "es": "Escenario 4: Hablar de películas",
-        "zh": "场景四：谈论电影",
-        "ja": "シナリオ4：映画について話す"
+        "en": "Scenario 4: During the Movie",
+        "th": "สถานการณ์ที่ 4: ระหว่างดูหนัง",
+        "fa": "سناریو ۴: در حین فیلم",
+        "ar": "السيناريو 4: أثناء الفيلم",
+        "es": "Escenario 4: Durante la película",
+        "zh": "场景 4：观影期间",
+        "ja": "シナリオ 4：上映中"
       }
     },
     {
-      "id": "sentence_cinema_this_movie_good",
-      "kind": "sentence",
-      "itemIds": [
-        "word_movie",
-        "word_classifier_film",
-        "word_this",
-        "word_good"
-      ],
+      "id": "w16",
+      "kind": "Word",
       "texts": {
-        "en": "This movie is good",
-        "th": "หนังเรื่องนี้ดี",
-        "fa": "این فیلم خوب است",
-        "ar": "هذا الفيلم جيد",
-        "es": "Esta película es buena",
-        "zh": "这部电影很好",
-        "ja": "この映画はいいです"
+        "en": "quiet",
+        "th": "เงียบ",
+        "fa": "ساکت",
+        "ar": "هادئ",
+        "es": "silencio",
+        "zh": "安静",
+        "ja": "静か"
+      }
+    },
+    {
+      "id": "w17",
+      "kind": "Word",
+      "texts": {
+        "en": "phone",
+        "th": "โทรศัพท์",
+        "fa": "تلفن",
+        "ar": "هاتف",
+        "es": "teléfono",
+        "zh": "手机",
+        "ja": "電話"
+      }
+    },
+    {
+      "id": "w18",
+      "kind": "Word",
+      "texts": {
+        "en": "screen",
+        "th": "จอ",
+        "fa": "صفحه",
+        "ar": "شاشة",
+        "es": "pantalla",
+        "zh": "屏幕",
+        "ja": "スクリーン"
+      }
+    },
+    {
+      "id": "w19",
+      "kind": "Word",
+      "texts": {
+        "en": "subtitle",
+        "th": "คำบรรยาย",
+        "fa": "زیرنویس",
+        "ar": "ترجمة",
+        "es": "subtítulo",
+        "zh": "字幕",
+        "ja": "字幕"
+      }
+    },
+    {
+      "id": "w20",
+      "kind": "Word",
+      "texts": {
+        "en": "loud",
+        "th": "ดัง",
+        "fa": "بلند",
+        "ar": "عالي",
+        "es": "ruidoso",
+        "zh": "大声",
+        "ja": "うるさい"
+      }
+    },
+    {
+      "id": "s16",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Please keep quiet during the movie.",
+        "th": "กรุณาเงียบระหว่างดูหนัง",
+        "fa": "لطفاً در حین فیلم ساکت باشید.",
+        "ar": "يرجى الهدوء أثناء الفيلم.",
+        "es": "Por favor, guarda silencio durante la película.",
+        "zh": "请在观影期间保持安静。",
+        "ja": "上映中は静かにしてください。"
       },
       "tokens": {
-        "en": ["This", "movie", "is", "good"],
-        "th": ["หนัง", "เรื่อง", "นี้", "ดี"],
-        "fa": ["این", "فیلم", "خوب", "است"],
-        "ar": ["هذا", "الفيلم", "جيد"],
-        "es": ["Esta", "película", "es", "buena"],
-        "zh": ["这部", "电影", "很", "好"],
-        "ja": ["この", "映画", "は", "いい", "です"]
+        "th": ["กรุณา", "เงียบ", "ระหว่าง", "ดู", "หนัง"],
+        "zh": ["请", "在", "观影", "期间", "保持", "安静", "。"],
+        "ja": ["上映", "中", "は", "静か", "に", "し", "て", "ください", "。"]
       }
     },
     {
-      "id": "sentence_cinema_this_movie_fun",
-      "kind": "sentence",
-      "itemIds": [
-        "word_movie",
-        "word_classifier_film",
-        "word_this",
-        "word_fun"
-      ],
+      "id": "s17",
+      "kind": "Sentence",
       "texts": {
-        "en": "This movie is fun",
-        "th": "หนังเรื่องนี้สนุก",
-        "fa": "این فیلم سرگرم‌کننده است",
-        "ar": "هذا الفيلم ممتع",
-        "es": "Esta película es divertida",
-        "zh": "这部电影很有趣",
-        "ja": "この映画は楽しいです"
+        "en": "Can you turn off your phone?",
+        "th": "คุณช่วยปิดโทรศัพท์ได้ไหม",
+        "fa": "آیا می‌توانید تلفن خود را خاموش کنید؟",
+        "ar": "هل يمكنك إطفاء هاتفك؟",
+        "es": "¿Puedes apagar tu teléfono?",
+        "zh": "你能关掉手机吗？",
+        "ja": "携帯電話を切っていただけますか？"
       },
       "tokens": {
-        "en": ["This", "movie", "is", "fun"],
-        "th": ["หนัง", "เรื่อง", "นี้", "สนุก"],
-        "fa": ["این", "فیلم", "سرگرم‌کننده", "است"],
-        "ar": ["هذا", "الفيلم", "ممتع"],
-        "es": ["Esta", "película", "es", "divertida"],
-        "zh": ["这部", "电影", "很", "有趣"],
-        "ja": ["この", "映画", "は", "楽しい", "です"]
+        "th": ["คุณ", "ช่วย", "ปิด", "โทรศัพท์", "ได้", "ไหม"],
+        "zh": ["你", "能", "关掉", "手机", "吗", "？"],
+        "ja": ["携帯電話", "を", "切っ", "て", "いただけ", "ます", "か", "？"]
       }
     },
     {
-      "id": "sentence_cinema_more_fun_than",
-      "kind": "sentence",
-      "itemIds": [
-        "word_movie",
-        "word_classifier_film",
-        "word_this",
-        "word_fun",
-        "word_more_than",
-        "word_that"
-      ],
+      "id": "s18",
+      "kind": "Sentence",
       "texts": {
-        "en": "This movie is more fun than that movie",
-        "th": "หนังเรื่องนี้สนุกกว่าหนังเรื่องนั้น",
-        "fa": "این فیلم سرگرم‌کننده‌تر از آن فیلم است",
-        "ar": "هذا الفيلم أمتع من ذلك الفيلم",
-        "es": "Esta película es más divertida que esa película",
-        "zh": "这部电影比那部电影更有趣",
-        "ja": "この映画はその映画より楽しいです"
+        "en": "The screen is too bright.",
+        "th": "จอสว่างเกินไป",
+        "fa": "صفحه خیلی روشن است.",
+        "ar": "الشاشة ساطعة جداً.",
+        "es": "La pantalla es demasiado brillante.",
+        "zh": "屏幕太亮了。",
+        "ja": "スクリーンが明るすぎます。"
       },
       "tokens": {
-        "en": ["This", "movie", "is", "more", "fun", "than", "that", "movie"],
-        "th": [
-          "หนัง",
-          "เรื่อง",
-          "นี้",
-          "สนุก",
-          "กว่า",
-          "หนัง",
-          "เรื่อง",
-          "นั้น"
-        ],
-        "fa": ["این", "فیلم", "سرگرم‌کننده‌تر", "از", "آن", "فیلم", "است"],
-        "ar": ["هذا", "الفيلم", "أمتع", "من", "ذلك", "الفيلم"],
-        "es": [
-          "Esta",
-          "película",
-          "es",
-          "más",
-          "divertida",
-          "que",
-          "esa",
-          "película"
-        ],
-        "zh": ["这部", "电影", "比", "那部", "电影", "更", "有趣"],
-        "ja": ["この", "映画", "は", "その", "映画", "より", "楽しい", "です"]
+        "th": ["จอ", "สว่าง", "เกิน", "ไป"],
+        "zh": ["屏幕", "太", "亮", "了", "。"],
+        "ja": ["スクリーン", "が", "明るすぎ", "ます", "。"]
       }
     },
     {
-      "id": "sentence_cinema_most_fun",
-      "kind": "sentence",
-      "itemIds": [
-        "word_movie",
-        "word_classifier_film",
-        "word_this",
-        "word_fun",
-        "word_most"
-      ],
+      "id": "s19",
+      "kind": "Sentence",
       "texts": {
-        "en": "This movie is the most fun",
-        "th": "หนังเรื่องนี้สนุกที่สุด",
-        "fa": "این فیلم سرگرم‌کننده‌ترین است",
-        "ar": "هذا الفيلم هو الأكثر متعة",
-        "es": "Esta película es la más divertida",
-        "zh": "这部电影最有趣",
-        "ja": "この映画が一番楽しいです"
+        "en": "Are there subtitles in English?",
+        "th": "มีคำบรรยายภาษาอังกฤษไหม",
+        "fa": "آیا زیرنویس انگلیسی وجود دارد؟",
+        "ar": "هل هناك ترجمة باللغة الإنجليزية؟",
+        "es": "¿Hay subtítulos en inglés?",
+        "zh": "有英文字幕吗？",
+        "ja": "英語の字幕はありますか？"
       },
       "tokens": {
-        "en": ["This", "movie", "is", "the", "most", "fun"],
-        "th": ["หนัง", "เรื่อง", "นี้", "สนุก", "ที่สุด"],
-        "fa": ["این", "فیلم", "سرگرم‌کننده‌ترین", "است"],
-        "ar": ["هذا", "الفيلم", "هو", "الأكثر", "متعة"],
-        "es": ["Esta", "película", "es", "la", "más", "divertida"],
-        "zh": ["这部", "电影", "最", "有趣"],
-        "ja": ["この", "映画", "が", "一番", "楽しい", "です"]
+        "th": ["มี", "คำบรรยาย", "ภาษา", "อังกฤษ", "ไหม"],
+        "zh": ["有", "英文", "字幕", "吗", "？"],
+        "ja": ["英語", "の", "字幕", "は", "あり", "ます", "か", "？"]
       }
     },
     {
-      "id": "sentence_cinema_which_longest",
-      "kind": "sentence",
-      "itemIds": [
-        "word_movie",
-        "word_classifier_film",
-        "word_which",
-        "word_long",
-        "word_most"
-      ],
+      "id": "s20",
+      "kind": "Sentence",
       "texts": {
-        "en": "Which movie is the longest?",
-        "th": "หนังเรื่องไหนยาวที่สุด",
-        "fa": "کدام فیلم طولانی‌ترین است؟",
-        "ar": "أي فيلم هو الأطول؟",
-        "es": "¿Cuál película es la más larga?",
-        "zh": "哪部电影最长？",
-        "ja": "どの映画が一番長いですか？"
+        "en": "Someone is talking too loud.",
+        "th": "มีคนพูดดังเกินไป",
+        "fa": "کسی خیلی بلند صحبت می‌کند.",
+        "ar": "شخص ما يتحدث بصوت عالٍ جداً.",
+        "es": "Alguien está hablando demasiado fuerte.",
+        "zh": "有人说话太大声了。",
+        "ja": "誰かがうるさく話しています。"
       },
       "tokens": {
-        "en": ["Which", "movie", "is", "the", "longest?"],
-        "th": ["หนัง", "เรื่อง", "ไหน", "ยาว", "ที่สุด"],
-        "fa": ["کدام", "فیلم", "طولانی‌ترین", "است؟"],
-        "ar": ["أي", "فيلم", "هو", "الأطول؟"],
-        "es": ["¿Cuál", "película", "es", "la", "más", "larga?"],
-        "zh": ["哪部", "电影", "最长？"],
-        "ja": ["どの", "映画", "が", "一番", "長い", "です", "か？"]
+        "th": ["มี", "คน", "พูด", "ดัง", "เกิน", "ไป"],
+        "zh": ["有人", "说话", "太", "大声", "了", "。"],
+        "ja": ["誰か", "が", "うるさく", "話し", "て", "い", "ます", "。"]
       }
     },
+
     {
-      "id": "word_classifier_film",
-      "kind": "word",
-      "texts": {
-        "en": "classifier for films / stories",
-        "th": "เรื่อง",
-        "fa": "شمارشگر فیلم و داستان",
-        "ar": "أداة عد للأفلام والقصص",
-        "es": "clasificador de películas",
-        "zh": "量词（部）",
-        "ja": "映画・話を数える助数詞"
-      }
-    },
-    {
-      "id": "word_good",
-      "kind": "word",
-      "texts": {
-        "en": "good",
-        "th": "ดี",
-        "fa": "خوب",
-        "ar": "جيد",
-        "es": "bueno",
-        "zh": "好",
-        "ja": "良い"
-      }
-    },
-    {
-      "id": "word_fun",
-      "kind": "word",
-      "texts": {
-        "en": "fun / enjoyable",
-        "th": "สนุก",
-        "fa": "سرگرم‌کننده",
-        "ar": "ممتع",
-        "es": "divertido",
-        "zh": "有趣",
-        "ja": "楽しい"
-      }
-    },
-    {
-      "id": "word_long",
-      "kind": "word",
-      "texts": {
-        "en": "long",
-        "th": "ยาว",
-        "fa": "طولانی",
-        "ar": "طويل",
-        "es": "largo",
-        "zh": "长",
-        "ja": "長い"
-      }
-    },
-    {
-      "id": "word_more_than",
-      "kind": "word",
-      "texts": {
-        "en": "more than (comparative)",
-        "th": "กว่า",
-        "fa": "تر از",
-        "ar": "أكثر من",
-        "es": "más que",
-        "zh": "更／比",
-        "ja": "〜より"
-      }
-    },
-    {
-      "id": "word_most",
-      "kind": "word",
-      "texts": {
-        "en": "most (superlative)",
-        "th": "ที่สุด",
-        "fa": "ترین",
-        "ar": "الأكثر",
-        "es": "lo más",
-        "zh": "最",
-        "ja": "一番"
-      }
-    },
-    {
-      "id": "header_scenario5",
+      "id": "h5",
       "header": true,
       "texts": {
-        "en": "Scenario 5: Leaving the Cinema",
-        "th": "สถานการณ์ 5: การออกจากโรงหนัง",
-        "fa": "سناریو ۵: خروج از سینما",
-        "ar": "السيناريو 5: مغادرة السينما",
-        "es": "Escenario 5: Salir del cine",
-        "zh": "场景五：离开电影院",
-        "ja": "シナリオ5：映画館をあとにする"
+        "en": "Scenario 5: After the Movie",
+        "th": "สถานการณ์ที่ 5: หลังดูหนัง",
+        "fa": "سناریو ۵: بعد از فیلم",
+        "ar": "السيناريو 5: بعد الفيلم",
+        "es": "Escenario 5: Después de la película",
+        "zh": "场景 5：观影后",
+        "ja": "シナリオ 5：上映後"
       }
     },
     {
-      "id": "sentence_cinema_want_watch_again",
-      "kind": "sentence",
-      "itemIds": [
-        "word_i",
-        "word_want",
-        "word_watch",
-        "word_movie",
-        "word_classifier_film",
-        "word_this",
-        "word_again"
-      ],
+      "id": "w21",
+      "kind": "Word",
       "texts": {
-        "en": "I want to watch this movie again",
-        "th": "ฉันต้องการดูหนังเรื่องนี้อีก",
-        "fa": "من می‌خواهم این فیلم را دوباره ببینم",
-        "ar": "أريد مشاهدة هذا الفيلم مرة أخرى",
-        "es": "Quiero ver esta película otra vez",
-        "zh": "我想再看一遍这部电影",
-        "ja": "この映画をもう一度見たいです"
+        "en": "review",
+        "th": "รีวิว",
+        "fa": "نقد",
+        "ar": "مراجعة",
+        "es": "reseña",
+        "zh": "评价",
+        "ja": "レビュー"
+      }
+    },
+    {
+      "id": "w22",
+      "kind": "Word",
+      "texts": {
+        "en": "like",
+        "th": "ชอบ",
+        "fa": "دوست داشتن",
+        "ar": "يعجب",
+        "es": "gustar",
+        "zh": "喜欢",
+        "ja": "好き"
+      }
+    },
+    {
+      "id": "w23",
+      "kind": "Word",
+      "texts": {
+        "en": "boring",
+        "th": "น่าเบื่อ",
+        "fa": "خسته‌کننده",
+        "ar": "ممل",
+        "es": "aburrido",
+        "zh": "无聊",
+        "ja": "退屈"
+      }
+    },
+    {
+      "id": "w24",
+      "kind": "Word",
+      "texts": {
+        "en": "sequel",
+        "th": "ภาคต่อ",
+        "fa": "ادامه",
+        "ar": "تتمة",
+        "es": "secuela",
+        "zh": "续集",
+        "ja": "続編"
+      }
+    },
+    {
+      "id": "w25",
+      "kind": "Word",
+      "texts": {
+        "en": "recommend",
+        "th": "แนะนำ",
+        "fa": "توصیه",
+        "ar": "يوصي",
+        "es": "recomendar",
+        "zh": "推荐",
+        "ja": "推薦"
+      }
+    },
+    {
+      "id": "s21",
+      "kind": "Sentence",
+      "texts": {
+        "en": "What did you think of the movie?",
+        "th": "คุณคิดว่าหนังเป็นยังไง",
+        "fa": "نظر شما در مورد فیلم چیست؟",
+        "ar": "ما رأيك في الفيلم؟",
+        "es": "¿Qué te pareció la película?",
+        "zh": "你觉得这部电影怎么样？",
+        "ja": "映画はどうでしたか？"
       },
       "tokens": {
-        "en": ["I", "want", "to", "watch", "this", "movie", "again"],
-        "th": ["ฉัน", "ต้องการ", "ดู", "หนัง", "เรื่อง", "นี้", "อีก"],
-        "fa": ["من", "می‌خواهم", "این", "فیلم", "را", "دوباره", "ببینم"],
-        "ar": ["أريد", "مشاهدة", "هذا", "الفيلم", "مرة", "أخرى"],
-        "es": ["Quiero", "ver", "esta", "película", "otra", "vez"],
-        "zh": ["我", "想", "再", "看", "一遍", "这部", "电影"],
-        "ja": ["この", "映画", "を", "もう", "一度", "見", "たい", "です"]
+        "th": ["คุณ", "คิด", "ว่า", "หนัง", "เป็น", "ยังไง"],
+        "zh": ["你", "觉得", "这", "部", "电影", "怎么样", "？"],
+        "ja": ["映画", "は", "どう", "でし", "た", "か", "？"]
       }
     },
     {
-      "id": "sentence_cinema_watch_tomorrow_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_want",
-        "word_watch",
-        "word_movie",
-        "word_classifier_film",
-        "word_tomorrow",
-        "word_question_particle"
-      ],
+      "id": "s22",
+      "kind": "Sentence",
       "texts": {
-        "en": "Do you want to watch a movie tomorrow",
-        "th": "คุณต้องการดูหนังพรุ่งนี้ไหม",
-        "fa": "آیا می‌خواهید فردا فیلم ببینید",
-        "ar": "هل تريد مشاهدة فيلم غدا",
-        "es": "¿Quieres ver una película mañana?",
-        "zh": "你明天想看电影吗",
-        "ja": "明日映画を見たいですか"
+        "en": "I really liked the ending.",
+        "th": "ฉันชอบตอนจบมาก",
+        "fa": "من واقعاً پایان را دوست داشتم.",
+        "ar": "أعجبني النهاية حقاً.",
+        "es": "Realmente me gustó el final.",
+        "zh": "我非常喜欢结局。",
+        "ja": "結末が本当に良かったです。"
       },
       "tokens": {
-        "en": ["Do", "you", "want", "to", "watch", "a", "movie", "tomorrow"],
-        "th": ["คุณ", "ต้องการ", "ดู", "หนัง", "พรุ่งนี้", "ไหม"],
-        "fa": ["آیا", "می‌خواهید", "فردا", "فیلم", "ببینید"],
-        "ar": ["هل", "تريد", "مشاهدة", "فيلم", "غدا"],
-        "es": ["¿Quieres", "ver", "una", "película", "mañana?"],
-        "zh": ["你", "明天", "想", "看", "电影", "吗"],
-        "ja": ["明日", "映画", "を", "見", "たい", "です", "か"]
+        "th": ["ฉัน", "ชอบ", "ตอนจบ", "มาก"],
+        "zh": ["我", "非常", "喜欢", "结局", "。"],
+        "ja": ["結末", "が", "本当に", "良く", "でし", "た", "。"]
       }
     },
     {
-      "id": "sentence_cinema_want_go_home_now",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_want", "word_go", "word_home", "word_now"],
+      "id": "s23",
+      "kind": "Sentence",
       "texts": {
-        "en": "I want to go home now",
-        "th": "ฉันต้องการกลับบ้านตอนนี้",
-        "fa": "من الان می‌خواهم به خانه بروم",
-        "ar": "أريد الذهاب إلى المنزل الآن",
-        "es": "Quiero irme a casa ahora",
-        "zh": "我现在想回家",
-        "ja": "今家に帰りたいです"
+        "en": "The middle part was a bit boring.",
+        "th": "ช่วงกลางน่าเบื่อหน่อย",
+        "fa": "قسمت میانی کمی خسته‌کننده بود.",
+        "ar": "الجزء الأوسط كان مملاً قليلاً.",
+        "es": "La parte del medio fue un poco aburrida.",
+        "zh": "中间部分有点无聊。",
+        "ja": "中盤は少し退屈でした。"
       },
       "tokens": {
-        "en": ["I", "want", "to", "go", "home", "now"],
-        "th": ["ฉัน", "ต้องการ", "กลับ", "บ้าน", "ตอนนี้"],
-        "fa": ["من", "الان", "می‌خواهم", "به", "خانه", "بروم"],
-        "ar": ["أريد", "الذهاب", "إلى", "المنزل", "الآن"],
-        "es": ["Quiero", "irme", "a", "casa", "ahora"],
-        "zh": ["我", "现在", "想", "回", "家"],
-        "ja": ["今", "家", "に", "帰り", "たい", "です"]
+        "th": ["ช่วง", "กลาง", "น่าเบื่อ", "หน่อย"],
+        "zh": ["中间", "部分", "有点", "无聊", "。"],
+        "ja": ["中盤", "は", "少し", "退屈", "でし", "た", "。"]
       }
     },
     {
-      "id": "sentence_cinema_go_home_question",
-      "kind": "sentence",
-      "itemIds": ["word_you", "word_go", "word_home", "word_question_particle"],
+      "id": "s24",
+      "kind": "Sentence",
       "texts": {
-        "en": "Are you going home",
-        "th": "คุณกลับบ้านไหม",
-        "fa": "آیا به خانه می‌روید",
-        "ar": "هل ستذهب إلى المنزل",
-        "es": "¿Te vas a casa?",
-        "zh": "你要回家吗",
-        "ja": "家に帰りますか"
+        "en": "Will there be a sequel?",
+        "th": "จะมีภาคต่อไหม",
+        "fa": "آیا ادامه‌ای خواهد داشت؟",
+        "ar": "هل سيكون هناك تتمة؟",
+        "es": "¿Habrá una secuela?",
+        "zh": "会有续集吗？",
+        "ja": "続編はありますか？"
       },
       "tokens": {
-        "en": ["Are", "you", "going", "home"],
-        "th": ["คุณ", "กลับ", "บ้าน", "ไหม"],
-        "fa": ["آیا", "به", "خانه", "می‌روید"],
-        "ar": ["هل", "ستذهب", "إلى", "المنزل"],
-        "es": ["¿Te", "vas", "a", "casa?"],
-        "zh": ["你", "要", "回", "家", "吗"],
-        "ja": ["家", "に", "帰り", "ます", "か"]
+        "th": ["จะ", "มี", "ภาคต่อ", "ไหม"],
+        "zh": ["会", "有", "续集", "吗", "？"],
+        "ja": ["続編", "は", "あり", "ます", "か", "？"]
       }
     },
     {
-      "id": "sentence_cinema_where_exit",
-      "kind": "sentence",
-      "itemIds": ["word_exit", "word_where"],
+      "id": "s25",
+      "kind": "Sentence",
       "texts": {
-        "en": "Where is the exit",
-        "th": "ทางออกอยู่ที่ไหน",
-        "fa": "خروجی کجاست",
-        "ar": "أين المخرج",
-        "es": "¿Dónde está la salida?",
-        "zh": "出口在哪里",
-        "ja": "出口はどこですか"
+        "en": "I highly recommend this film.",
+        "th": "ฉันแนะนำหนังเรื่องนี้มากๆ",
+        "fa": "من این فیلم را شدیداً توصیه می‌کنم.",
+        "ar": "أوصي بشدة بهذا الفيلم.",
+        "es": "Recomiendo mucho esta película.",
+        "zh": "我强烈推荐这部电影。",
+        "ja": "この映画を強くお勧めします。"
       },
       "tokens": {
-        "en": ["Where", "is", "the", "exit"],
-        "th": ["ทางออก", "อยู่", "ที่ไหน"],
-        "fa": ["خروجی", "کجاست"],
-        "ar": ["أين", "المخرج"],
-        "es": ["¿Dónde", "está", "la", "salida?"],
-        "zh": ["出口", "在", "哪里"],
-        "ja": ["出口", "は", "どこ", "です", "か"]
-      }
-    },
-    {
-      "id": "sentence_cinema_watch_again_tomorrow",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_watch", "word_again", "word_tomorrow"],
-      "texts": {
-        "en": "I watch again tomorrow",
-        "th": "ฉันดูอีกพรุ่งนี้",
-        "fa": "من فردا دوباره تماشا می‌کنم",
-        "ar": "سأشاهد مرة أخرى غدا",
-        "es": "La veré otra vez mañana",
-        "zh": "我明天再看一遍",
-        "ja": "明日また見ます"
-      },
-      "tokens": {
-        "en": ["I", "watch", "again", "tomorrow"],
-        "th": ["ฉัน", "ดู", "อีก", "พรุ่งนี้"],
-        "fa": ["من", "فردا", "دوباره", "تماشا", "می‌کنم"],
-        "ar": ["سأشاهد", "مرة", "أخرى", "غدا"],
-        "es": ["La", "veré", "otra", "vez", "mañana"],
-        "zh": ["我", "明天", "再", "看", "一遍"],
-        "ja": ["明日", "また", "見", "ます"]
-      }
-    },
-    {
-      "id": "word_watch",
-      "kind": "word",
-      "texts": {
-        "en": "watch",
-        "th": "ดู",
-        "fa": "تماشا کردن",
-        "ar": "يشاهد",
-        "es": "ver",
-        "zh": "看",
-        "ja": "見る"
-      }
-    },
-    {
-      "id": "word_tomorrow",
-      "kind": "word",
-      "texts": {
-        "en": "tomorrow",
-        "th": "พรุ่งนี้",
-        "fa": "فردا",
-        "ar": "غدا",
-        "es": "mañana",
-        "zh": "明天",
-        "ja": "明日"
-      }
-    },
-    {
-      "id": "word_go",
-      "kind": "word",
-      "texts": {
-        "en": "go",
-        "th": "ไป",
-        "fa": "رفتن",
-        "ar": "يذهب",
-        "es": "ir",
-        "zh": "去",
-        "ja": "行く"
-      }
-    },
-    {
-      "id": "word_home",
-      "kind": "word",
-      "texts": {
-        "en": "home",
-        "th": "บ้าน",
-        "fa": "خانه",
-        "ar": "منزل",
-        "es": "casa",
-        "zh": "家",
-        "ja": "家"
-      }
-    },
-    {
-      "id": "word_now",
-      "kind": "word",
-      "texts": {
-        "en": "now",
-        "th": "ตอนนี้",
-        "fa": "الان",
-        "ar": "الآن",
-        "es": "ahora",
-        "zh": "现在",
-        "ja": "今"
-      }
-    },
-    {
-      "id": "word_exit",
-      "kind": "word",
-      "texts": {
-        "en": "exit",
-        "th": "ทางออก",
-        "fa": "خروجی",
-        "ar": "مخرج",
-        "es": "salida",
-        "zh": "出口",
-        "ja": "出口"
+        "th": ["ฉัน", "แนะนำ", "หนัง", "เรื่อง", "นี้", "มากๆ"],
+        "zh": ["我", "强烈", "推荐", "这", "部", "电影", "。"],
+        "ja": ["この", "映画", "を", "強く", "お", "勧め", "し", "ます", "。"]
       }
     }
   ]

@@ -2,1659 +2,73 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "h1",
       "header": true,
       "texts": {
-        "en": "Core Words",
-        "th": "คำศัพท์หลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras clave",
-        "zh": "核心词汇",
-        "ja": "基本単語"
+        "en": "Scenario 1: Asking the Time",
+        "th": "สถานการณ์ที่ 1: การถามเวลา",
+        "fa": "سناریو ۱: پرسیدن ساعت",
+        "ar": "السيناريو 1: سؤال عن الوقت",
+        "es": "Escenario 1: Preguntar la hora",
+        "zh": "场景 1：询问时间",
+        "ja": "シナリオ 1：時間を尋ねる"
       }
     },
     {
-      "id": "word_i",
-      "kind": "word",
-      "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
-      }
-    },
-    {
-      "id": "word_you",
-      "kind": "word",
-      "texts": {
-        "en": "you",
-        "th": "คุณ",
-        "fa": "شما",
-        "ar": "أنت",
-        "es": "tú / usted",
-        "zh": "你",
-        "ja": "あなた"
-      }
-    },
-    {
-      "id": "word_what",
-      "kind": "word",
-      "texts": {
-        "en": "what",
-        "th": "อะไร",
-        "fa": "چه",
-        "ar": "ماذا",
-        "es": "qué",
-        "zh": "什么",
-        "ja": "何"
-      }
-    },
-    {
-      "id": "word_time",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
         "en": "time",
         "th": "เวลา",
         "fa": "زمان",
         "ar": "وقت",
-        "es": "tiempo / hora",
+        "es": "hora",
         "zh": "时间",
         "ja": "時間"
       }
     },
     {
-      "id": "word_today",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
       "texts": {
-        "en": "today",
-        "th": "วันนี้",
-        "fa": "امروز",
-        "ar": "اليوم",
-        "es": "hoy",
-        "zh": "今天",
-        "ja": "今日"
-      }
-    },
-    {
-      "id": "word_tomorrow",
-      "kind": "word",
-      "texts": {
-        "en": "tomorrow",
-        "th": "พรุ่งนี้",
-        "fa": "فردا",
-        "ar": "غداً",
-        "es": "mañana",
-        "zh": "明天",
-        "ja": "明日"
-      }
-    },
-    {
-      "id": "word_day",
-      "kind": "word",
-      "texts": {
-        "en": "day",
-        "th": "วัน",
-        "fa": "روز",
-        "ar": "يوم",
-        "es": "día",
-        "zh": "天 / 日",
-        "ja": "日 / 曜日"
-      }
-    },
-    {
-      "id": "word_go",
-      "kind": "word",
-      "texts": {
-        "en": "go",
-        "th": "ไป",
-        "fa": "رفتن",
-        "ar": "يذهب",
-        "es": "ir",
-        "zh": "去",
-        "ja": "行く"
-      }
-    },
-    {
-      "id": "word_come",
-      "kind": "word",
-      "texts": {
-        "en": "come",
-        "th": "มา",
-        "fa": "آمدن",
-        "ar": "يأتي",
-        "es": "venir",
-        "zh": "来",
-        "ja": "来る"
-      }
-    },
-    {
-      "id": "word_not",
-      "kind": "word",
-      "texts": {
-        "en": "not",
-        "th": "ไม่",
-        "fa": "نه / نمی",
-        "ar": "لا",
-        "es": "no",
-        "zh": "不",
-        "ja": "〜ない"
-      }
-    },
-    {
-      "id": "word_question_particle",
-      "kind": "word",
-      "texts": {
-        "en": "question marker",
-        "th": "ไหม",
-        "fa": "آیا",
-        "ar": "هل",
-        "es": "partícula interrogativa",
-        "zh": "吗",
-        "ja": "か"
-      }
-    },
-    {
-      "id": "word_polite_particle",
-      "kind": "word",
-      "texts": {
-        "en": "polite particle",
-        "th": "ครับ / ค่ะ",
-        "fa": "ذره ادب",
-        "ar": "أداة أدب",
-        "es": "partícula de cortesía",
-        "zh": "礼貌助词",
-        "ja": "丁寧語"
-      }
-    },
-    {
-      "id": "word_yes",
-      "kind": "word",
-      "texts": {
-        "en": "yes",
-        "th": "ใช่",
-        "fa": "بله",
-        "ar": "نعم",
-        "es": "sí",
-        "zh": "是",
-        "ja": "はい"
-      }
-    },
-    {
-      "id": "word_thank",
-      "kind": "word",
-      "texts": {
-        "en": "thank",
-        "th": "ขอบคุณ",
-        "fa": "تشکر",
-        "ar": "شكر",
-        "es": "gracias",
-        "zh": "谢谢",
-        "ja": "ありがとう"
-      }
-    },
-    {
-      "id": "word_have",
-      "kind": "word",
-      "texts": {
-        "en": "have",
-        "th": "มี",
-        "fa": "داشتن",
-        "ar": "يملك",
-        "es": "tener",
-        "zh": "有",
-        "ja": "ある"
-      }
-    },
-    {
-      "id": "word_at",
-      "kind": "word",
-      "texts": {
-        "en": "at / during (time)",
-        "th": "ตอน",
-        "fa": "در / هنگام",
-        "ar": "في / عند",
-        "es": "a / durante",
-        "zh": "在 / 时候",
-        "ja": "〜に / 〜の時"
-      }
-    },
-    {
-      "id": "header_scenario1",
-      "header": true,
-      "texts": {
-        "en": "Scenario 1: Basic Time & O'clock",
-        "th": "สถานการณ์ 1: เวลาพื้นฐานและโมง",
-        "fa": "سناریو ۱: زمان پایه و ساعت",
-        "ar": "السيناريو 1: الوقت الأساسي والساعة",
-        "es": "Escenario 1: Hora básica en punto",
-        "zh": "场景一：基本时间与整点",
-        "ja": "シナリオ1：基本の時間と正時"
-      }
-    },
-    {
-      "id": "sentence_time_what_time_now",
-      "kind": "sentence",
-      "itemIds": ["word_now", "word_what_time", "word_polite_particle"],
-      "texts": {
-        "en": "What time is it now?",
-        "th": "ตอนนี้กี่โมงคะ",
-        "fa": "الان ساعت چند است؟",
-        "ar": "كم الساعة الآن؟",
-        "es": "¿Qué hora es ahora?",
-        "zh": "现在几点了？",
-        "ja": "今何時ですか？"
-      },
-      "tokens": {
-        "en": ["What", "time", "is", "it", "now?"],
-        "th": ["ตอนนี้", "กี่โมง", "คะ"],
-        "fa": ["الان", "ساعت", "چند", "است؟"],
-        "ar": ["كم", "الساعة", "الآن؟"],
-        "es": ["¿Qué", "hora", "es", "ahora?"],
-        "zh": ["现在", "几点", "了？"],
-        "ja": ["今", "何時", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_time_eight_am",
-      "kind": "sentence",
-      "itemIds": [
-        "word_eight",
-        "word_oclock",
-        "word_morning",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "It is eight o'clock in the morning",
-        "th": "แปดโมงเช้าครับ",
-        "fa": "ساعت هشت صبح است",
-        "ar": "إنها الساعة الثامنة صباحاً",
-        "es": "Son las ocho de la mañana",
-        "zh": "早上八点",
-        "ja": "午前8時です"
-      },
-      "tokens": {
-        "en": ["It", "is", "eight", "o'clock", "in", "the", "morning"],
-        "th": ["แปด", "โมง", "เช้า", "ครับ"],
-        "fa": ["ساعت", "هشت", "صبح", "است"],
-        "ar": ["إنها", "الساعة", "الثامنة", "صباحاً"],
-        "es": ["Son", "las", "ocho", "de", "la", "mañana"],
-        "zh": ["早上", "八点"],
-        "ja": ["午前", "8時", "です"]
-      }
-    },
-    {
-      "id": "sentence_time_nine_am",
-      "kind": "sentence",
-      "itemIds": [
-        "word_nine",
-        "word_oclock",
-        "word_morning",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "It is nine o'clock",
-        "th": "เก้าโมงเช้าครับ",
-        "fa": "ساعت نه صبح است",
-        "ar": "إنها الساعة التاسعة",
-        "es": "Son las nueve",
-        "zh": "九点",
-        "ja": "9時です"
-      },
-      "tokens": {
-        "en": ["It", "is", "nine", "o'clock"],
-        "th": ["เก้า", "โมง", "เช้า", "ครับ"],
-        "fa": ["ساعت", "نه", "صبح", "است"],
-        "ar": ["إنها", "الساعة", "التاسعة"],
-        "es": ["Son", "las", "nueve"],
-        "zh": ["九点"],
-        "ja": ["9時", "です"]
-      }
-    },
-    {
-      "id": "sentence_time_ten_am",
-      "kind": "sentence",
-      "itemIds": [
-        "word_ten",
-        "word_oclock",
-        "word_morning",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "It is ten o'clock",
-        "th": "สิบโมงเช้าครับ",
-        "fa": "ساعت ده صبح است",
-        "ar": "إنها الساعة العاشرة",
-        "es": "Son las diez",
-        "zh": "十点",
-        "ja": "10時です"
-      },
-      "tokens": {
-        "en": ["It", "is", "ten", "o'clock"],
-        "th": ["สิบ", "โมง", "เช้า", "ครับ"],
-        "fa": ["ساعت", "ده", "صبح", "است"],
-        "ar": ["إنها", "الساعة", "العاشرة"],
-        "es": ["Son", "las", "diez"],
-        "zh": ["十点"],
-        "ja": ["10時", "です"]
-      }
-    },
-    {
-      "id": "sentence_time_i_go_eight",
-      "kind": "sentence",
-      "itemIds": [
-        "word_i",
-        "word_go",
-        "word_at",
-        "word_eight",
-        "word_oclock",
-        "word_morning",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "I go at eight o'clock",
-        "th": "ฉันไปตอนแปดโมงเช้าค่ะ",
-        "fa": "من ساعت هشت صبح می‌روم",
-        "ar": "أنا أذهب الساعة الثامنة صباحاً",
-        "es": "Voy a las ocho",
-        "zh": "我八点去",
-        "ja": "私は8時に行きます"
-      },
-      "tokens": {
-        "en": ["I", "go", "at", "eight", "o'clock"],
-        "th": ["ฉัน", "ไป", "ตอน", "แปด", "โมง", "เช้า", "ค่ะ"],
-        "fa": ["من", "ساعت", "هشت", "صبح", "می‌روم"],
-        "ar": ["أنا", "أذهب", "الساعة", "الثامنة", "صباحاً"],
-        "es": ["Voy", "a", "las", "ocho"],
-        "zh": ["我", "八点", "去"],
-        "ja": ["私", "は", "8時", "に", "行き", "ます"]
-      }
-    },
-    {
-      "id": "sentence_time_you_come_nine",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_come",
-        "word_at",
-        "word_nine",
-        "word_oclock",
-        "word_morning",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "You come at nine o'clock",
-        "th": "คุณมาตอนเก้าโมงเช้าครับ",
-        "fa": "شما ساعت نه صبح می‌آیید",
-        "ar": "أنت تأتي الساعة التاسعة",
-        "es": "Tú vienes a las nueve",
-        "zh": "你九点来",
-        "ja": "あなたは9時に来ます"
-      },
-      "tokens": {
-        "en": ["You", "come", "at", "nine", "o'clock"],
-        "th": ["คุณ", "มา", "ตอน", "เก้า", "โมง", "เช้า", "ครับ"],
-        "fa": ["شما", "ساعت", "نه", "صبح", "می‌آیید"],
-        "ar": ["أنت", "تأتي", "الساعة", "التاسعة"],
-        "es": ["Tú", "vienes", "a", "las", "nueve"],
-        "zh": ["你", "九点", "来"],
-        "ja": ["あなた", "は", "9時", "に", "来ます"]
-      }
-    },
-    {
-      "id": "sentence_time_what_time_go",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_go",
-        "word_what_time",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "What time do you go?",
-        "th": "คุณไปกี่โมงคะ",
-        "fa": "شما ساعت چند می‌روید؟",
-        "ar": "الساعة كم تذهب؟",
-        "es": "¿A qué hora vas?",
-        "zh": "你几点去？",
-        "ja": "何時に行きますか？"
-      },
-      "tokens": {
-        "en": ["What", "time", "do", "you", "go?"],
-        "th": ["คุณ", "ไป", "กี่โมง", "คะ"],
-        "fa": ["شما", "ساعت", "چند", "می‌روید؟"],
-        "ar": ["الساعة", "كم", "تذهب؟"],
-        "es": ["¿A", "qué", "hora", "vas?"],
-        "zh": ["你", "几点", "去？"],
-        "ja": ["何時", "に", "行き", "ます", "か？"]
-      }
-    },
-    {
-      "id": "word_what_time",
-      "kind": "word",
-      "texts": {
-        "en": "what time",
-        "th": "กี่โมง",
-        "fa": "ساعت چند",
-        "ar": "كم الساعة",
-        "es": "qué hora",
-        "zh": "几点",
-        "ja": "何時"
-      }
-    },
-    {
-      "id": "word_oclock",
-      "kind": "word",
-      "texts": {
-        "en": "o'clock (7am-12pm, 5pm-6pm)",
-        "th": "โมง",
+        "en": "clock",
+        "th": "นาฬิกา",
         "fa": "ساعت",
-        "ar": "الساعة",
+        "ar": "ساعة",
+        "es": "reloj",
+        "zh": "钟",
+        "ja": "時計"
+      }
+    },
+    {
+      "id": "w3",
+      "kind": "Word",
+      "texts": {
+        "en": "watch",
+        "th": "นาฬิกาข้อมือ",
+        "fa": "ساعت مچی",
+        "ar": "ساعة يد",
+        "es": "reloj de pulsera",
+        "zh": "手表",
+        "ja": "腕時計"
+      }
+    },
+    {
+      "id": "w4",
+      "kind": "Word",
+      "texts": {
+        "en": "o'clock",
+        "th": "นาฬิกา",
+        "fa": "ساعت",
+        "ar": "تمام",
         "es": "en punto",
         "zh": "点",
         "ja": "時"
       }
     },
     {
-      "id": "word_eight",
-      "kind": "word",
-      "texts": {
-        "en": "eight",
-        "th": "แปด",
-        "fa": "هشت",
-        "ar": "ثمانية",
-        "es": "ocho",
-        "zh": "八",
-        "ja": "八"
-      }
-    },
-    {
-      "id": "word_nine",
-      "kind": "word",
-      "texts": {
-        "en": "nine",
-        "th": "เก้า",
-        "fa": "نه",
-        "ar": "تسعة",
-        "es": "nueve",
-        "zh": "九",
-        "ja": "九"
-      }
-    },
-    {
-      "id": "word_ten",
-      "kind": "word",
-      "texts": {
-        "en": "ten",
-        "th": "สิบ",
-        "fa": "ده",
-        "ar": "عشرة",
-        "es": "diez",
-        "zh": "十",
-        "ja": "十"
-      }
-    },
-    {
-      "id": "word_now",
-      "kind": "word",
-      "texts": {
-        "en": "now",
-        "th": "ตอนนี้",
-        "fa": "الان",
-        "ar": "الآن",
-        "es": "ahora",
-        "zh": "现在",
-        "ja": "今"
-      }
-    },
-    {
-      "id": "word_morning",
-      "kind": "word",
-      "texts": {
-        "en": "morning",
-        "th": "เช้า",
-        "fa": "صبح",
-        "ar": "صباحاً",
-        "es": "mañana",
-        "zh": "早上",
-        "ja": "朝"
-      }
-    },
-    {
-      "id": "header_scenario2",
-      "header": true,
-      "texts": {
-        "en": "Scenario 2: Authentic Thai Time Periods",
-        "th": "สถานการณ์ 2: ช่วงเวลาแบบไทยแท้",
-        "fa": "سناریو ۲: دوره‌های زمانی اصیل تایلندی",
-        "ar": "السيناريو 2: فترات الوقت التايلاندية الأصلية",
-        "es": "Escenario 2: Períodos de tiempo tailandeses auténticos",
-        "zh": "场景二：正宗泰语时间段",
-        "ja": "シナリオ2：本格的なタイ語の時間帯"
-      }
-    },
-    {
-      "id": "sentence_time_two_pm",
-      "kind": "sentence",
-      "itemIds": [
-        "word_afternoon",
-        "word_two",
-        "word_oclock",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "It is two PM",
-        "th": "บ่ายสองโมงครับ",
-        "fa": "ساعت دو بعدازظهر است",
-        "ar": "إنها الساعة الثانية ظهراً",
-        "es": "Son las dos de la tarde",
-        "zh": "下午两点",
-        "ja": "午後2時です"
-      },
-      "tokens": {
-        "en": ["It", "is", "two", "PM"],
-        "th": ["บ่าย", "สอง", "โมง", "ครับ"],
-        "fa": ["ساعت", "دو", "بعدازظهر", "است"],
-        "ar": ["إنها", "الساعة", "الثانية", "ظهراً"],
-        "es": ["Son", "las", "dos", "de", "la", "tarde"],
-        "zh": ["下午", "两点"],
-        "ja": ["午後", "2時", "です"]
-      }
-    },
-    {
-      "id": "sentence_time_eight_pm",
-      "kind": "sentence",
-      "itemIds": ["word_two", "word_evening_pm", "word_polite_particle"],
-      "texts": {
-        "en": "It is eight PM",
-        "th": "สองทุ่มครับ",
-        "fa": "ساعت هشت شب است",
-        "ar": "إنها الساعة الثامنة مساءً",
-        "es": "Son las ocho de la noche",
-        "zh": "晚上八点",
-        "ja": "午後8時です"
-      },
-      "tokens": {
-        "en": ["It", "is", "eight", "PM"],
-        "th": ["สอง", "ทุ่ม", "ครับ"],
-        "fa": ["ساعت", "هشت", "شب", "است"],
-        "ar": ["إنها", "الساعة", "الثامنة", "مساءً"],
-        "es": ["Son", "las", "ocho", "de", "la", "noche"],
-        "zh": ["晚上", "八点"],
-        "ja": ["午後", "8時", "です"]
-      }
-    },
-    {
-      "id": "sentence_time_one_am",
-      "kind": "sentence",
-      "itemIds": ["word_early_am", "word_one", "word_polite_particle"],
-      "texts": {
-        "en": "It is one AM",
-        "th": "ตีหนึ่งครับ",
-        "fa": "ساعت یک بامداد است",
-        "ar": "إنها الساعة الواحدة فجراً",
-        "es": "Es la una de la madrugada",
-        "zh": "凌晨一点",
-        "ja": "午前1時です"
-      },
-      "tokens": {
-        "en": ["It", "is", "one", "AM"],
-        "th": ["ตี", "หนึ่ง", "ครับ"],
-        "fa": ["ساعت", "یک", "بامداد", "است"],
-        "ar": ["إنها", "الساعة", "الواحدة", "فجراً"],
-        "es": ["Es", "la", "una", "de", "la", "madrugada"],
-        "zh": ["凌晨", "一点"],
-        "ja": ["午前", "1時", "です"]
-      }
-    },
-    {
-      "id": "sentence_time_noon",
-      "kind": "sentence",
-      "itemIds": ["word_noon", "word_day", "word_polite_particle"],
-      "texts": {
-        "en": "It is noon",
-        "th": "เที่ยงวันครับ",
-        "fa": "ظهر است",
-        "ar": "إنه وقت الظهر",
-        "es": "Es mediodía",
-        "zh": "现在是中午",
-        "ja": "正午です"
-      },
-      "tokens": {
-        "en": ["It", "is", "noon"],
-        "th": ["เที่ยง", "วัน", "ครับ"],
-        "fa": ["ظهر", "است"],
-        "ar": ["إنه", "وقت", "الظهر"],
-        "es": ["Es", "mediodía"],
-        "zh": ["现在", "是", "中午"],
-        "ja": ["正午", "です"]
-      }
-    },
-    {
-      "id": "sentence_time_wake_6am",
-      "kind": "sentence",
-      "itemIds": [
-        "word_i",
-        "word_wake",
-        "word_at",
-        "word_six",
-        "word_oclock",
-        "word_morning",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "I wake up at 6 AM",
-        "th": "ฉันตื่นตอนหกโมงเช้าค่ะ",
-        "fa": "من ساعت شش صبح بیدار می‌شوم",
-        "ar": "أستيقظ الساعة السادسة صباحاً",
-        "es": "Me despierto a las seis de la mañana",
-        "zh": "我早上六点起床",
-        "ja": "私は午前6時に起きます"
-      },
-      "tokens": {
-        "en": ["I", "wake", "up", "at", "6", "AM"],
-        "th": ["ฉัน", "ตื่น", "ตอน", "หก", "โมง", "เช้า", "ค่ะ"],
-        "fa": ["من", "ساعت", "شش", "صبح", "بیدار", "می‌شوم"],
-        "ar": ["أستيقظ", "الساعة", "السادسة", "صباحاً"],
-        "es": ["Me", "despierto", "a", "las", "seis", "de", "la", "mañana"],
-        "zh": ["我", "早上", "六点", "起床"],
-        "ja": ["私", "は", "午前", "6時", "に", "起き", "ます"]
-      }
-    },
-    {
-      "id": "sentence_time_sleep_night",
-      "kind": "sentence",
-      "itemIds": [
-        "word_i",
-        "word_sleep",
-        "word_at",
-        "word_night",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "I sleep at night",
-        "th": "ฉันนอนตอนกลางคืนค่ะ",
-        "fa": "من شب‌ها می‌خوابم",
-        "ar": "أنام في الليل",
-        "es": "Duermo por la noche",
-        "zh": "我晚上睡觉",
-        "ja": "私は夜に寝ます"
-      },
-      "tokens": {
-        "en": ["I", "sleep", "at", "night"],
-        "th": ["ฉัน", "นอน", "ตอน", "กลางคืน", "ค่ะ"],
-        "fa": ["من", "شب‌ها", "می‌خوابم"],
-        "ar": ["أنام", "في", "الليل"],
-        "es": ["Duermo", "por", "la", "noche"],
-        "zh": ["我", "晚上", "睡觉"],
-        "ja": ["私", "は", "夜", "に", "寝ます"]
-      }
-    },
-    {
-      "id": "sentence_time_good_morning",
-      "kind": "sentence",
-      "itemIds": [
-        "word_hello",
-        "word_at",
-        "word_morning",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "Good morning!",
-        "th": "สวัสดีตอนเช้าค่ะ",
-        "fa": "صبح بخیر!",
-        "ar": "صباح الخير!",
-        "es": "¡Buenos días!",
-        "zh": "早上好！",
-        "ja": "おはようございます！"
-      },
-      "tokens": {
-        "en": ["Good", "morning!"],
-        "th": ["สวัสดี", "ตอน", "เช้า", "ค่ะ"],
-        "fa": ["صبح", "بخیر!"],
-        "ar": ["صباح", "الخير!"],
-        "es": ["¡Buenos", "días!"],
-        "zh": ["早上", "好！"],
-        "ja": ["おはよう", "ございます！"]
-      }
-    },
-    {
-      "id": "word_afternoon",
-      "kind": "word",
-      "texts": {
-        "en": "afternoon (1 PM - 4 PM)",
-        "th": "บ่าย",
-        "fa": "بعدازظهر (۱ تا ۴)",
-        "ar": "بعد الظهر (١-٤)",
-        "es": "tarde (13h - 16h)",
-        "zh": "下午 (1点-4点)",
-        "ja": "午後 (13時-16時)"
-      }
-    },
-    {
-      "id": "word_evening_pm",
-      "kind": "word",
-      "texts": {
-        "en": "evening (7 PM - 11 PM)",
-        "th": "ทุ่ม",
-        "fa": "شب (۱۹ تا ۲۳)",
-        "ar": "مساء (١٩-٢٣)",
-        "es": "noche (19h - 23h)",
-        "zh": "晚上 (19点-23点)",
-        "ja": "夜 (19時-23時)"
-      }
-    },
-    {
-      "id": "word_early_am",
-      "kind": "word",
-      "texts": {
-        "en": "early AM (1 AM - 5 AM)",
-        "th": "ตี",
-        "fa": "بامداد (۱ تا ۵)",
-        "ar": "فجراً (١-٥)",
-        "es": "madrugada (1h - 5h)",
-        "zh": "凌晨 (1点-5点)",
-        "ja": "未明 (1時-5時)"
-      }
-    },
-    {
-      "id": "word_noon",
-      "kind": "word",
-      "texts": {
-        "en": "noon / midnight",
-        "th": "เที่ยง",
-        "fa": "ظهر / نیمه‌شب",
-        "ar": "الظهر / منتصف الليل",
-        "es": "mediodía / medianoche",
-        "zh": "中午 / 午夜",
-        "ja": "正午 / 真夜中"
-      }
-    },
-    {
-      "id": "word_night",
-      "kind": "word",
-      "texts": {
-        "en": "night",
-        "th": "กลางคืน",
-        "fa": "شب",
-        "ar": "ليل",
-        "es": "noche",
-        "zh": "夜晚",
-        "ja": "夜"
-      }
-    },
-    {
-      "id": "word_one",
-      "kind": "word",
-      "texts": {
-        "en": "one",
-        "th": "หนึ่ง",
-        "fa": "یک",
-        "ar": "واحد",
-        "es": "uno",
-        "zh": "一",
-        "ja": "一"
-      }
-    },
-    {
-      "id": "word_two",
-      "kind": "word",
-      "texts": {
-        "en": "two",
-        "th": "สอง",
-        "fa": "دو",
-        "ar": "اثنان",
-        "es": "dos",
-        "zh": "二",
-        "ja": "二"
-      }
-    },
-    {
-      "id": "word_six",
-      "kind": "word",
-      "texts": {
-        "en": "six",
-        "th": "หก",
-        "fa": "شش",
-        "ar": "ستة",
-        "es": "seis",
-        "zh": "六",
-        "ja": "六"
-      }
-    },
-    {
-      "id": "word_wake",
-      "kind": "word",
-      "texts": {
-        "en": "wake up",
-        "th": "ตื่น",
-        "fa": "بیدار شدن",
-        "ar": "يستيقظ",
-        "es": "despertarse",
-        "zh": "醒来",
-        "ja": "起きる"
-      }
-    },
-    {
-      "id": "word_sleep",
-      "kind": "word",
-      "texts": {
-        "en": "sleep",
-        "th": "นอน",
-        "fa": "خوابیدن",
-        "ar": "ينام",
-        "es": "dormir",
-        "zh": "睡觉",
-        "ja": "寝る"
-      }
-    },
-    {
-      "id": "word_hello",
-      "kind": "word",
-      "texts": {
-        "en": "hello / greetings",
-        "th": "สวัสดี",
-        "fa": "سلام",
-        "ar": "مرحباً / تحيات",
-        "es": "hola / saludos",
-        "zh": "你好 / 问候",
-        "ja": "こんにちは / 挨拶"
-      }
-    },
-    {
-      "id": "header_scenario3",
-      "header": true,
-      "texts": {
-        "en": "Scenario 3: Days of the Week",
-        "th": "สถานการณ์ 3: วันในสัปดาห์",
-        "fa": "سناریو ۳: روزهای هفته",
-        "ar": "السيناريو 3: أيام الأسبوع",
-        "es": "Escenario 3: Días de la semana",
-        "zh": "场景三：星期几",
-        "ja": "シナリオ3：曜日"
-      }
-    },
-    {
-      "id": "sentence_day_what_day",
-      "kind": "sentence",
-      "itemIds": [
-        "word_today",
-        "word_day",
-        "word_what",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "What day is today?",
-        "th": "วันนี้วันอะไรคะ",
-        "fa": "امروز چه روزی است؟",
-        "ar": "اليوم أي يوم؟",
-        "es": "¿Qué día es hoy?",
-        "zh": "今天星期几？",
-        "ja": "今日は何曜日ですか？"
-      },
-      "tokens": {
-        "en": ["What", "day", "is", "today?"],
-        "th": ["วันนี้", "วัน", "อะไร", "คะ"],
-        "fa": ["امروز", "چه", "روزی", "است؟"],
-        "ar": ["اليوم", "أي", "يوم؟"],
-        "es": ["¿Qué", "día", "es", "hoy?"],
-        "zh": ["今天", "星期几？"],
-        "ja": ["今日", "は", "何曜日", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_day_today_monday",
-      "kind": "sentence",
-      "itemIds": [
-        "word_today",
-        "word_day",
-        "word_monday",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "Today is Monday",
-        "th": "วันนี้วันจันทร์ค่ะ",
-        "fa": "امروز دوشنبه است",
-        "ar": "اليوم هو الإثنين",
-        "es": "Hoy es lunes",
-        "zh": "今天星期一",
-        "ja": "今日は月曜日です"
-      },
-      "tokens": {
-        "en": ["Today", "is", "Monday"],
-        "th": ["วันนี้", "วัน", "จันทร์", "ค่ะ"],
-        "fa": ["امروز", "دوشنبه", "است"],
-        "ar": ["اليوم", "هو", "الإثنين"],
-        "es": ["Hoy", "es", "lunes"],
-        "zh": ["今天", "星期一"],
-        "ja": ["今日", "は", "月曜日", "です"]
-      }
-    },
-    {
-      "id": "sentence_day_tomorrow_friday",
-      "kind": "sentence",
-      "itemIds": [
-        "word_tomorrow",
-        "word_day",
-        "word_friday",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "Tomorrow is Friday",
-        "th": "พรุ่งนี้วันศุกร์ค่ะ",
-        "fa": "فردا جمعه است",
-        "ar": "غداً هو الجمعة",
-        "es": "Mañana es viernes",
-        "zh": "明天星期五",
-        "ja": "明日は金曜日です"
-      },
-      "tokens": {
-        "en": ["Tomorrow", "is", "Friday"],
-        "th": ["พรุ่งนี้", "วัน", "ศุกร์", "ค่ะ"],
-        "fa": ["فردا", "جمعه", "است"],
-        "ar": ["غداً", "هو", "الجمعة"],
-        "es": ["Mañana", "es", "viernes"],
-        "zh": ["明天", "星期五"],
-        "ja": ["明日", "は", "金曜日", "です"]
-      }
-    },
-    {
-      "id": "sentence_day_yesterday_sunday",
-      "kind": "sentence",
-      "itemIds": [
-        "word_yesterday",
-        "word_day",
-        "word_sunday",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "Yesterday was Sunday",
-        "th": "เมื่อวานวันอาทิตย์ค่ะ",
-        "fa": "دیروز یکشنبه بود",
-        "ar": "أمس كان الأحد",
-        "es": "Ayer fue domingo",
-        "zh": "昨天星期天",
-        "ja": "昨日は日曜日でした"
-      },
-      "tokens": {
-        "en": ["Yesterday", "was", "Sunday"],
-        "th": ["เมื่อวาน", "วัน", "อาทิตย์", "ค่ะ"],
-        "fa": ["دیروز", "یکشنبه", "بود"],
-        "ar": ["أمس", "كان", "الأحد"],
-        "es": ["Ayer", "fue", "domingo"],
-        "zh": ["昨天", "星期天"],
-        "ja": ["昨日", "は", "日曜日", "でした"]
-      }
-    },
-    {
-      "id": "sentence_day_no_work_weekend",
-      "kind": "sentence",
-      "itemIds": [
-        "word_i",
-        "word_not",
-        "word_work",
-        "word_weekend",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "I don't work on the weekend",
-        "th": "ฉันไม่ทำงานวันหยุดค่ะ",
-        "fa": "من در روزهای تعطیل کار نمی‌کنم",
-        "ar": "أنا لا أعمل في عطلة نهاية الأسبوع",
-        "es": "No trabajo el fin de semana",
-        "zh": "我周末不工作",
-        "ja": "私は週末に働きません"
-      },
-      "tokens": {
-        "en": ["I", "don't", "work", "on", "the", "weekend"],
-        "th": ["ฉัน", "ไม่", "ทำงาน", "วันหยุด", "ค่ะ"],
-        "fa": ["من", "در", "روزهای", "تعطیل", "کار", "نمی‌کنم"],
-        "ar": ["أنا", "لا", "أعمل", "في", "عطلة", "نهاية", "الأسبوع"],
-        "es": ["No", "trabajo", "el", "fin", "de", "semana"],
-        "zh": ["我", "周末", "不", "工作"],
-        "ja": ["私", "は", "週末", "に", "働き", "ません"]
-      }
-    },
-    {
-      "id": "sentence_day_next_week_monday",
-      "kind": "sentence",
-      "itemIds": [
-        "word_week",
-        "word_next",
-        "word_day",
-        "word_monday",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "Next week is Monday",
-        "th": "สัปดาห์หน้าวันจันทร์ค่ะ",
-        "fa": "هفته آینده دوشنبه است",
-        "ar": "الأسبوع القادم هو الإثنين",
-        "es": "La próxima semana es lunes",
-        "zh": "下周一",
-        "ja": "来週は月曜日です"
-      },
-      "tokens": {
-        "en": ["Next", "week", "is", "Monday"],
-        "th": ["สัปดาห์", "หน้า", "วัน", "จันทร์", "ค่ะ"],
-        "fa": ["هفته", "آینده", "دوشنبه", "است"],
-        "ar": ["الأسبوع", "القادم", "هو", "الإثنين"],
-        "es": ["La", "próxima", "semana", "es", "lunes"],
-        "zh": ["下周", "一"],
-        "ja": ["来週", "は", "月曜日", "です"]
-      }
-    },
-    {
-      "id": "sentence_day_work_sunday",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_work",
-        "word_day",
-        "word_sunday",
-        "word_question_particle",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "Do you work on Sunday?",
-        "th": "คุณทำงานวันอาทิตย์ไหมคะ",
-        "fa": "آیا یکشنبه کار می‌کنید؟",
-        "ar": "هل تعمل يوم الأحد؟",
-        "es": "¿Trabajas el domingo?",
-        "zh": "你星期天工作吗？",
-        "ja": "日曜日に働きますか？"
-      },
-      "tokens": {
-        "en": ["Do", "you", "work", "on", "Sunday?"],
-        "th": ["คุณ", "ทำงาน", "วัน", "อาทิตย์", "ไหม", "คะ"],
-        "fa": ["آیا", "یکشنبه", "کار", "می‌کنید؟"],
-        "ar": ["هل", "تعمل", "يوم", "الأحد؟"],
-        "es": ["¿Trabajas", "el", "domingo?"],
-        "zh": ["你", "星期天", "工作", "吗？"],
-        "ja": ["日曜日", "に", "働き", "ます", "か？"]
-      }
-    },
-    {
-      "id": "word_yesterday",
-      "kind": "word",
-      "texts": {
-        "en": "yesterday",
-        "th": "เมื่อวาน",
-        "fa": "دیروز",
-        "ar": "أمس",
-        "es": "ayer",
-        "zh": "昨天",
-        "ja": "昨日"
-      }
-    },
-    {
-      "id": "word_monday",
-      "kind": "word",
-      "texts": {
-        "en": "Monday",
-        "th": "จันทร์",
-        "fa": "دوشنبه",
-        "ar": "الإثنين",
-        "es": "lunes",
-        "zh": "星期一",
-        "ja": "月曜日"
-      }
-    },
-    {
-      "id": "word_friday",
-      "kind": "word",
-      "texts": {
-        "en": "Friday",
-        "th": "ศุกร์",
-        "fa": "جمعه",
-        "ar": "الجمعة",
-        "es": "viernes",
-        "zh": "星期五",
-        "ja": "金曜日"
-      }
-    },
-    {
-      "id": "word_sunday",
-      "kind": "word",
-      "texts": {
-        "en": "Sunday",
-        "th": "อาทิตย์",
-        "fa": "یکشنبه",
-        "ar": "الأحد",
-        "es": "domingo",
-        "zh": "星期日",
-        "ja": "日曜日"
-      }
-    },
-    {
-      "id": "word_weekend",
-      "kind": "word",
-      "texts": {
-        "en": "weekend / holiday",
-        "th": "วันหยุด",
-        "fa": "تعطیلات آخر هفته",
-        "ar": "عطلة نهاية الأسبوع",
-        "es": "fin de semana",
-        "zh": "周末 / 假日",
-        "ja": "週末 / 休日"
-      }
-    },
-    {
-      "id": "word_week",
-      "kind": "word",
-      "texts": {
-        "en": "week",
-        "th": "สัปดาห์",
-        "fa": "هفته",
-        "ar": "أسبوع",
-        "es": "semana",
-        "zh": "周 / 星期",
-        "ja": "週"
-      }
-    },
-    {
-      "id": "word_work",
-      "kind": "word",
-      "texts": {
-        "en": "work",
-        "th": "ทำงาน",
-        "fa": "کار کردن",
-        "ar": "يعمل",
-        "es": "trabajar",
-        "zh": "工作",
-        "ja": "働く"
-      }
-    },
-    {
-      "id": "word_next",
-      "kind": "word",
-      "texts": {
-        "en": "next",
-        "th": "หน้า",
-        "fa": "آینده / بعدی",
-        "ar": "القادم",
-        "es": "próximo",
-        "zh": "下 / 下一个",
-        "ja": "次の"
-      }
-    },
-    {
-      "id": "header_scenario4",
-      "header": true,
-      "texts": {
-        "en": "Scenario 4: Scheduling & Appointments",
-        "th": "สถานการณ์ 4: การนัดหมายและเวลาทำการ",
-        "fa": "سناریو ۴: زمان‌بندی و قرارها",
-        "ar": "السيناريو 4: الجدولة والمواعيد",
-        "es": "Escenario 4: Horarios y citas",
-        "zh": "场景四：日程与预约",
-        "ja": "シナリオ4：スケジュールと予約"
-      }
-    },
-    {
-      "id": "sentence_sched_when_open",
-      "kind": "sentence",
-      "itemIds": ["word_open", "word_when", "word_polite_particle"],
-      "texts": {
-        "en": "When does it open?",
-        "th": "เปิดเมื่อไหร่คะ",
-        "fa": "کی باز می‌شود؟",
-        "ar": "متى يفتح؟",
-        "es": "¿Cuándo abre?",
-        "zh": "什么时候开门？",
-        "ja": "いつ開きますか？"
-      },
-      "tokens": {
-        "en": ["When", "does", "it", "open?"],
-        "th": ["เปิด", "เมื่อไหร่", "คะ"],
-        "fa": ["کی", "باز", "می‌شود؟"],
-        "ar": ["متى", "يفتح؟"],
-        "es": ["¿Cuándo", "abre?"],
-        "zh": ["什么时候", "开门？"],
-        "ja": ["いつ", "開き", "ます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_sched_open_9am",
-      "kind": "sentence",
-      "itemIds": [
-        "word_open",
-        "word_at",
-        "word_nine",
-        "word_oclock",
-        "word_morning",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "It opens at 9 AM",
-        "th": "เปิดตอนเก้าโมงเช้าครับ",
-        "fa": "ساعت نه صبح باز می‌شود",
-        "ar": "يفتح الساعة التاسعة صباحاً",
-        "es": "Abre a las nueve de la mañana",
-        "zh": "早上九点开门",
-        "ja": "午前9時に開きます"
-      },
-      "tokens": {
-        "en": ["It", "opens", "at", "9", "AM"],
-        "th": ["เปิด", "ตอน", "เก้า", "โมง", "เช้า", "ครับ"],
-        "fa": ["ساعت", "نه", "صبح", "باز", "می‌شود"],
-        "ar": ["يفتح", "الساعة", "التاسعة", "صباحاً"],
-        "es": ["Abre", "a", "las", "nueve", "de", "la", "mañana"],
-        "zh": ["早上", "九点", "开门"],
-        "ja": ["午前", "9時", "に", "開き", "ます"]
-      }
-    },
-    {
-      "id": "sentence_sched_what_time_close",
-      "kind": "sentence",
-      "itemIds": ["word_close", "word_what_time", "word_polite_particle"],
-      "texts": {
-        "en": "What time does it close?",
-        "th": "ปิดกี่โมงคะ",
-        "fa": "ساعت چند بسته می‌شود؟",
-        "ar": "الساعة كم يغلق؟",
-        "es": "¿A qué hora cierra?",
-        "zh": "几点关门？",
-        "ja": "何時に閉まりますか？"
-      },
-      "tokens": {
-        "en": ["What", "time", "does", "it", "close?"],
-        "th": ["ปิด", "กี่โมง", "คะ"],
-        "fa": ["ساعت", "چند", "بسته", "می‌شود؟"],
-        "ar": ["الساعة", "كم", "يغلق؟"],
-        "es": ["¿A", "qué", "hora", "cierra?"],
-        "zh": ["几点", "关门？"],
-        "ja": ["何時", "に", "閉まり", "ます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_sched_close_night",
-      "kind": "sentence",
-      "itemIds": [
-        "word_close",
-        "word_at",
-        "word_night",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "It closes at night",
-        "th": "ปิดตอนกลางคืนครับ",
-        "fa": "شب‌ها بسته می‌شود",
-        "ar": "يغلق في الليل",
-        "es": "Cierra por la noche",
-        "zh": "晚上关门",
-        "ja": "夜に閉まります"
-      },
-      "tokens": {
-        "en": ["It", "closes", "at", "night"],
-        "th": ["ปิด", "ตอน", "กลางคืน", "ครับ"],
-        "fa": ["شب‌ها", "بسته", "می‌شود"],
-        "ar": ["يغلق", "في", "الليل"],
-        "es": ["Cierra", "por", "la", "noche"],
-        "zh": ["晚上", "关门"],
-        "ja": ["夜", "に", "閉まり", "ます"]
-      }
-    },
-    {
-      "id": "sentence_sched_free_tomorrow",
-      "kind": "sentence",
-      "itemIds": [
-        "word_tomorrow",
-        "word_you",
-        "word_free",
-        "word_question_particle",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "Are you free tomorrow?",
-        "th": "พรุ่งนี้คุณว่างไหมคะ",
-        "fa": "آیا فردا وقت آزاد دارید؟",
-        "ar": "هل أنت متفرغ غداً؟",
-        "es": "¿Estás libre mañana?",
-        "zh": "你明天有空吗？",
-        "ja": "明日は空いていますか？"
-      },
-      "tokens": {
-        "en": ["Are", "you", "free", "tomorrow?"],
-        "th": ["พรุ่งนี้", "คุณ", "ว่าง", "ไหม", "คะ"],
-        "fa": ["آیا", "فردا", "وقت", "آزاد", "دارید؟"],
-        "ar": ["هل", "أنت", "متفرغ", "غداً؟"],
-        "es": ["¿Estás", "libre", "mañana?"],
-        "zh": ["你", "明天", "有空", "吗？"],
-        "ja": ["明日", "は", "空いて", "います", "か？"]
-      }
-    },
-    {
-      "id": "sentence_sched_dont_late",
-      "kind": "sentence",
-      "itemIds": ["word_dont", "word_late", "word_polite_particle"],
-      "texts": {
-        "en": "Don't be late!",
-        "th": "อย่าสายค่ะ",
-        "fa": "دیر نکنید!",
-        "ar": "لا تتأخر!",
-        "es": "¡No llegues tarde!",
-        "zh": "别迟到！",
-        "ja": "遅れないで！"
-      },
-      "tokens": {
-        "en": ["Don't", "be", "late!"],
-        "th": ["อย่า", "สาย", "ค่ะ"],
-        "fa": ["دیر", "نکنید!"],
-        "ar": ["لا", "تتأخر!"],
-        "es": ["¡No", "llegues", "tarde!"],
-        "zh": ["别", "迟到！"],
-        "ja": ["遅れないで！"]
-      }
-    },
-    {
-      "id": "sentence_sched_come_early",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_come", "word_early", "word_polite_particle"],
-      "texts": {
-        "en": "I come early",
-        "th": "ฉันมาเร็วค่ะ",
-        "fa": "من زود می‌آیم",
-        "ar": "أنا آتي مبكراً",
-        "es": "Vengo temprano",
-        "zh": "我早点来",
-        "ja": "早く来ます"
-      },
-      "tokens": {
-        "en": ["I", "come", "early"],
-        "th": ["ฉัน", "มา", "เร็ว", "ค่ะ"],
-        "fa": ["من", "زود", "می‌آیم"],
-        "ar": ["أنا", "آتي", "مبكراً"],
-        "es": ["Vengo", "temprano"],
-        "zh": ["我", "早点", "来"],
-        "ja": ["早く", "来ます"]
-      }
-    },
-    {
-      "id": "word_open",
-      "kind": "word",
-      "texts": {
-        "en": "open",
-        "th": "เปิด",
-        "fa": "باز کردن",
-        "ar": "يفتح",
-        "es": "abrir",
-        "zh": "开",
-        "ja": "開く"
-      }
-    },
-    {
-      "id": "word_close",
-      "kind": "word",
-      "texts": {
-        "en": "close",
-        "th": "ปิด",
-        "fa": "بستن",
-        "ar": "يغلق",
-        "es": "cerrar",
-        "zh": "关",
-        "ja": "閉まる"
-      }
-    },
-    {
-      "id": "word_early",
-      "kind": "word",
-      "texts": {
-        "en": "early",
-        "th": "เร็ว",
-        "fa": "زود",
-        "ar": "مبكراً",
-        "es": "temprano",
-        "zh": "早",
-        "ja": "早い"
-      }
-    },
-    {
-      "id": "word_late",
-      "kind": "word",
-      "texts": {
-        "en": "late",
-        "th": "สาย",
-        "fa": "دیر",
-        "ar": "متأخراً",
-        "es": "tarde",
-        "zh": "晚 / 迟",
-        "ja": "遅い"
-      }
-    },
-    {
-      "id": "word_when",
-      "kind": "word",
-      "texts": {
-        "en": "when",
-        "th": "เมื่อไหร่",
-        "fa": "کی / چه وقت",
-        "ar": "متى",
-        "es": "cuándo",
-        "zh": "什么时候",
-        "ja": "いつ"
-      }
-    },
-    {
-      "id": "word_free",
-      "kind": "word",
-      "texts": {
-        "en": "free / available",
-        "th": "ว่าง",
-        "fa": "آزاد / بیکار",
-        "ar": "متفرغ",
-        "es": "libre",
-        "zh": "有空",
-        "ja": "空いている"
-      }
-    },
-    {
-      "id": "word_dont",
-      "kind": "word",
-      "texts": {
-        "en": "don't (imperative)",
-        "th": "อย่า",
-        "fa": "نکن (امری)",
-        "ar": "لا (نهي)",
-        "es": "no (imperativo)",
-        "zh": "别",
-        "ja": "〜しないで"
-      }
-    },
-    {
-      "id": "header_scenario5",
-      "header": true,
-      "texts": {
-        "en": "Scenario 5: Duration & Travel Time",
-        "th": "สถานการณ์ 5: ระยะเวลาและการเดินทาง",
-        "fa": "سناریو ۵: مدت زمان و زمان سفر",
-        "ar": "السيناريو 5: المدة ووقت السفر",
-        "es": "Escenario 5: Duración y tiempo de viaje",
-        "zh": "场景五：时长与路程时间",
-        "ja": "シナリオ5：所要時間と移動時間"
-      }
-    },
-    {
-      "id": "sentence_dur_how_long",
-      "kind": "sentence",
-      "itemIds": ["word_take_time", "word_how_long", "word_polite_particle"],
-      "texts": {
-        "en": "How long does it take?",
-        "th": "ใช้นานแค่ไหนคะ",
-        "fa": "چقدر طول می‌کشد؟",
-        "ar": "كم من الوقت يستغرق؟",
-        "es": "¿Cuánto tiempo tarda?",
-        "zh": "需要多长时间？",
-        "ja": "どのくらいかかりますか？"
-      },
-      "tokens": {
-        "en": ["How", "long", "does", "it", "take?"],
-        "th": ["ใช้", "นานแค่ไหน", "คะ"],
-        "fa": ["چقدر", "طول", "می‌کشد؟"],
-        "ar": ["كم", "من", "الوقت", "يستغرق؟"],
-        "es": ["¿Cuánto", "tiempo", "tarda?"],
-        "zh": ["需要", "多长时间？"],
-        "ja": ["どのくらい", "かかり", "ます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_dur_one_hour",
-      "kind": "sentence",
-      "itemIds": [
-        "word_take_time",
-        "word_time",
-        "word_one",
-        "word_hour",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "It takes one hour",
-        "th": "ใช้เวลาหนึ่งชั่วโมงค่ะ",
-        "fa": "یک ساعت طول می‌کشد",
-        "ar": "يستغرق ساعة واحدة",
-        "es": "Tarda una hora",
-        "zh": "需要一小时",
-        "ja": "1時間かかります"
-      },
-      "tokens": {
-        "en": ["It", "takes", "one", "hour"],
-        "th": ["ใช้", "เวลา", "หนึ่ง", "ชั่วโมง", "ค่ะ"],
-        "fa": ["یک", "ساعت", "طول", "می‌کشد"],
-        "ar": ["يستغرق", "ساعة", "واحدة"],
-        "es": ["Tarda", "una", "hora"],
-        "zh": ["需要", "一小时"],
-        "ja": ["1時間", "かかり", "ます"]
-      }
-    },
-    {
-      "id": "sentence_dur_wait_5min",
-      "kind": "sentence",
-      "itemIds": [
-        "word_wait",
-        "word_five",
-        "word_minute",
-        "word_polite_particle"
-      ],
-      "texts": {
-        "en": "Wait five minutes",
-        "th": "รอห้านาทีค่ะ",
-        "fa": "پنج دقیقه صبر کنید",
-        "ar": "انتظر خمس دقائق",
-        "es": "Espera cinco minutos",
-        "zh": "等五分钟",
-        "ja": "5分待ってください"
-      },
-      "tokens": {
-        "en": ["Wait", "five", "minutes"],
-        "th": ["รอ", "ห้า", "นาที", "ค่ะ"],
-        "fa": ["پنج", "دقیقه", "صبر", "کنید"],
-        "ar": ["انتظر", "خمس", "دقائق"],
-        "es": ["Espera", "cinco", "minutos"],
-        "zh": ["等", "五分钟"],
-        "ja": ["5分", "待って", "ください"]
-      }
-    },
-    {
-      "id": "sentence_dur_is_far",
-      "kind": "sentence",
-      "itemIds": ["word_far", "word_question_particle", "word_polite_particle"],
-      "texts": {
-        "en": "Is it far?",
-        "th": "ไกลไหมคะ",
-        "fa": "آیا دور است؟",
-        "ar": "هل هو بعيد؟",
-        "es": "¿Está lejos?",
-        "zh": "远吗？",
-        "ja": "遠いですか？"
-      },
-      "tokens": {
-        "en": ["Is", "it", "far?"],
-        "th": ["ไกล", "ไหม", "คะ"],
-        "fa": ["آیا", "دور", "است؟"],
-        "ar": ["هل", "هو", "بعيد؟"],
-        "es": ["¿Está", "lejos?"],
-        "zh": ["远", "吗？"],
-        "ja": ["遠い", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_dur_very_fast",
-      "kind": "sentence",
-      "itemIds": ["word_fast", "word_very", "word_polite_particle"],
-      "texts": {
-        "en": "It is very fast",
-        "th": "เร็วมากค่ะ",
-        "fa": "خیلی سریع است",
-        "ar": "إنه سريع جداً",
-        "es": "Es muy rápido",
-        "zh": "非常快",
-        "ja": "とても速いです"
-      },
-      "tokens": {
-        "en": ["It", "is", "very", "fast"],
-        "th": ["เร็ว", "มาก", "ค่ะ"],
-        "fa": ["خیلی", "سریع", "است"],
-        "ar": ["إنه", "سريع", "جداً"],
-        "es": ["Es", "muy", "rápido"],
-        "zh": ["非常", "快"],
-        "ja": ["とても", "速い", "です"]
-      }
-    },
-    {
-      "id": "sentence_dur_how_many_hours",
-      "kind": "sentence",
-      "itemIds": ["word_how_many", "word_hour", "word_polite_particle"],
-      "texts": {
-        "en": "How many hours?",
-        "th": "กี่ชั่วโมงคะ",
-        "fa": "چند ساعت؟",
-        "ar": "كم ساعة؟",
-        "es": "¿Cuántas horas?",
-        "zh": "几个小时？",
-        "ja": "何時間ですか？"
-      },
-      "tokens": {
-        "en": ["How", "many", "hours?"],
-        "th": ["กี่", "ชั่วโมง", "คะ"],
-        "fa": ["چند", "ساعت؟"],
-        "ar": ["كم", "ساعة؟"],
-        "es": ["¿Cuántas", "horas?"],
-        "zh": ["几个", "小时？"],
-        "ja": ["何時間", "です", "か？"]
-      }
-    },
-    {
-      "id": "word_how_long",
-      "kind": "word",
-      "texts": {
-        "en": "how long (duration)",
-        "th": "นานแค่ไหน",
-        "fa": "چقدر طول",
-        "ar": "كم من الوقت",
-        "es": "cuánto tiempo",
-        "zh": "多长时间",
-        "ja": "どのくらい"
-      }
-    },
-    {
-      "id": "word_hour",
-      "kind": "word",
-      "texts": {
-        "en": "hour",
-        "th": "ชั่วโมง",
-        "fa": "ساعت",
-        "ar": "ساعة",
-        "es": "hora",
-        "zh": "小时",
-        "ja": "時間"
-      }
-    },
-    {
-      "id": "word_minute",
-      "kind": "word",
+      "id": "w5",
+      "kind": "Word",
       "texts": {
         "en": "minute",
         "th": "นาที",
@@ -1666,94 +80,804 @@
       }
     },
     {
-      "id": "word_fast",
-      "kind": "word",
+      "id": "s1",
+      "kind": "Sentence",
       "texts": {
-        "en": "fast",
-        "th": "เร็ว",
-        "fa": "سریع",
-        "ar": "سريع",
-        "es": "rápido",
-        "zh": "快",
-        "ja": "速い"
+        "en": "What time is it?",
+        "th": "กี่โมงแล้ว",
+        "fa": "ساعت چند است؟",
+        "ar": "كم الساعة؟",
+        "es": "¿Qué hora es?",
+        "zh": "现在几点了？",
+        "ja": "今何時ですか？"
+      },
+      "tokens": {
+        "th": ["กี่", "โมง", "แล้ว"],
+        "zh": ["现在", "几点", "了", "？"],
+        "ja": ["今", "何", "時", "です", "か", "？"]
       }
     },
     {
-      "id": "word_take_time",
-      "kind": "word",
+      "id": "s2",
+      "kind": "Sentence",
       "texts": {
-        "en": "take (time) / use",
-        "th": "ใช้",
-        "fa": "طول کشیدن / استفاده کردن",
-        "ar": "يستغرق / يستخدم",
-        "es": "tardar / usar",
-        "zh": "花费 / 用",
-        "ja": "かかる / 使う"
+        "en": "It is three o'clock.",
+        "th": "ตอนนี้สามนาฬิกา",
+        "fa": "ساعت سه است.",
+        "ar": "إنها الساعة الثالثة.",
+        "es": "Son las tres en punto.",
+        "zh": "现在三点整。",
+        "ja": "今は3時です。"
+      },
+      "tokens": {
+        "th": ["ตอนนี้", "สาม", "นาฬิกา"],
+        "zh": ["现在", "三", "点", "整", "。"],
+        "ja": ["今", "は", "3", "時", "です", "。"]
       }
     },
     {
-      "id": "word_far",
-      "kind": "word",
+      "id": "s3",
+      "kind": "Sentence",
       "texts": {
-        "en": "far",
-        "th": "ไกล",
-        "fa": "دور",
-        "ar": "بعيد",
-        "es": "lejos",
-        "zh": "远",
-        "ja": "遠い"
+        "en": "Do you have a watch?",
+        "th": "คุณมีนาฬิกาข้อมือไหม",
+        "fa": "آیا ساعت مچی دارید؟",
+        "ar": "هل لديك ساعة يد؟",
+        "es": "¿Tienes un reloj?",
+        "zh": "你有手表吗？",
+        "ja": "腕時計を持っていますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "มี", "นาฬิกาข้อมือ", "ไหม"],
+        "zh": ["你", "有", "手表", "吗", "？"],
+        "ja": ["腕時計", "を", "持っ", "て", "い", "ます", "か", "？"]
       }
     },
     {
-      "id": "word_wait",
-      "kind": "word",
+      "id": "s4",
+      "kind": "Sentence",
       "texts": {
-        "en": "wait",
-        "th": "รอ",
-        "fa": "صبر کردن",
-        "ar": "ينتظر",
-        "es": "esperar",
-        "zh": "等",
-        "ja": "待つ"
+        "en": "It is ten minutes past.",
+        "th": "ผ่านไปแล้วสิบนาที",
+        "fa": "ده دقیقه گذشته است.",
+        "ar": "عشر دقائق مضت.",
+        "es": "Son las y diez.",
+        "zh": "过了十分钟。",
+        "ja": "10分過ぎです。"
+      },
+      "tokens": {
+        "th": ["ผ่าน", "ไป", "แล้ว", "สิบ", "นาที"],
+        "zh": ["过", "了", "十", "分钟", "。"],
+        "ja": ["10", "分", "過ぎ", "です", "。"]
       }
     },
     {
-      "id": "word_five",
-      "kind": "word",
+      "id": "s5",
+      "kind": "Sentence",
       "texts": {
-        "en": "five",
-        "th": "ห้า",
-        "fa": "پنج",
-        "ar": "خمسة",
-        "es": "cinco",
-        "zh": "五",
-        "ja": "五"
+        "en": "My clock is broken.",
+        "th": "นาฬิกาของฉันเสีย",
+        "fa": "ساعت من خراب است.",
+        "ar": "ساعتي معطلة.",
+        "es": "Mi reloj está roto.",
+        "zh": "我的钟坏了。",
+        "ja": "私の時計は壊れています。"
+      },
+      "tokens": {
+        "th": ["นาฬิกา", "ของ", "ฉัน", "เสีย"],
+        "zh": ["我", "的", "钟", "坏", "了", "。"],
+        "ja": ["私", "の", "時計", "は", "壊れ", "て", "い", "ます", "。"]
+      }
+    },
+
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Days of the Week",
+        "th": "สถานการณ์ที่ 2: วันในสัปดาห์",
+        "fa": "سناریو ۲: روزهای هفته",
+        "ar": "السيناريو 2: أيام الأسبوع",
+        "es": "Escenario 2: Días de la semana",
+        "zh": "场景 2：星期几",
+        "ja": "シナリオ 2：曜日"
       }
     },
     {
-      "id": "word_very",
-      "kind": "word",
+      "id": "w6",
+      "kind": "Word",
       "texts": {
-        "en": "very",
-        "th": "มาก",
-        "fa": "خیلی",
-        "ar": "جداً",
-        "es": "muy",
-        "zh": "非常",
-        "ja": "とても"
+        "en": "Monday",
+        "th": "จันทร์",
+        "fa": "دوشنبه",
+        "ar": "الاثنين",
+        "es": "lunes",
+        "zh": "星期一",
+        "ja": "月曜日"
       }
     },
     {
-      "id": "word_how_many",
-      "kind": "word",
+      "id": "w7",
+      "kind": "Word",
       "texts": {
-        "en": "how many",
-        "th": "กี่",
-        "fa": "چند",
-        "ar": "كم",
-        "es": "cuántos",
-        "zh": "几",
-        "ja": "何"
+        "en": "Wednesday",
+        "th": "พุธ",
+        "fa": "چهارشنبه",
+        "ar": "الأربعاء",
+        "es": "miércoles",
+        "zh": "星期三",
+        "ja": "水曜日"
+      }
+    },
+    {
+      "id": "w8",
+      "kind": "Word",
+      "texts": {
+        "en": "Friday",
+        "th": "ศุกร์",
+        "fa": "جمعه",
+        "ar": "الجمعة",
+        "es": "viernes",
+        "zh": "星期五",
+        "ja": "金曜日"
+      }
+    },
+    {
+      "id": "w9",
+      "kind": "Word",
+      "texts": {
+        "en": "weekend",
+        "th": "สุดสัปดาห์",
+        "fa": "آخر هفته",
+        "ar": "عطلة نهاية الأسبوع",
+        "es": "fin de semana",
+        "zh": "周末",
+        "ja": "週末"
+      }
+    },
+    {
+      "id": "w10",
+      "kind": "Word",
+      "texts": {
+        "en": "today",
+        "th": "วันนี้",
+        "fa": "امروز",
+        "ar": "اليوم",
+        "es": "hoy",
+        "zh": "今天",
+        "ja": "今日"
+      }
+    },
+    {
+      "id": "s6",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Today is Monday.",
+        "th": "วันนี้วันจันทร์",
+        "fa": "امروز دوشنبه است.",
+        "ar": "اليوم هو الاثنين.",
+        "es": "Hoy es lunes.",
+        "zh": "今天是星期一。",
+        "ja": "今日は月曜日です。"
+      },
+      "tokens": {
+        "th": ["วันนี้", "วัน", "จันทร์"],
+        "zh": ["今天", "是", "星期一", "。"],
+        "ja": ["今日", "は", "月曜日", "です", "。"]
+      }
+    },
+    {
+      "id": "s7",
+      "kind": "Sentence",
+      "texts": {
+        "en": "What day is it today?",
+        "th": "วันนี้วันอะไร",
+        "fa": "امروز چه روزی است؟",
+        "ar": "ما هو اليوم؟",
+        "es": "¿Qué día es hoy?",
+        "zh": "今天星期几？",
+        "ja": "今日は何曜日ですか？"
+      },
+      "tokens": {
+        "th": ["วันนี้", "วัน", "อะไร"],
+        "zh": ["今天", "星期", "几", "？"],
+        "ja": ["今日", "は", "何", "曜日", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s8",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I work on Wednesday.",
+        "th": "ฉันทำงานวันพุธ",
+        "fa": "من چهارشنبه‌ها کار می‌کنم.",
+        "ar": "أعمل يوم الأربعاء.",
+        "es": "Trabajo los miércoles.",
+        "zh": "我星期三工作。",
+        "ja": "私は水曜日に働きます。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ทำ", "งาน", "วัน", "พุธ"],
+        "zh": ["我", "星期三", "工作", "。"],
+        "ja": ["私", "は", "水曜日", "に", "働き", "ます", "。"]
+      }
+    },
+    {
+      "id": "s9",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Friday is my favorite day.",
+        "th": "วันศุกร์เป็นวันโปรดของฉัน",
+        "fa": "جمعه روز مورد علاقه من است.",
+        "ar": "الجمعة هو يومي المفضل.",
+        "es": "El viernes es mi día favorito.",
+        "zh": "星期五是我最喜欢的一天。",
+        "ja": "金曜日は私の好きな日です。"
+      },
+      "tokens": {
+        "th": ["วัน", "ศุกร์", "เป็น", "วัน", "โปรด", "ของ", "ฉัน"],
+        "zh": ["星期五", "是", "我", "最", "喜欢", "的", "一天", "。"],
+        "ja": ["金曜日", "は", "私", "の", "好き", "な", "日", "です", "。"]
+      }
+    },
+    {
+      "id": "s10",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We rest on the weekend.",
+        "th": "เราพักผ่อนในวันสุดสัปดาห์",
+        "fa": "ما در آخر هفته استراحت می‌کنیم.",
+        "ar": "نستريح في عطلة نهاية الأسبوع.",
+        "es": "Descansamos el fin de semana.",
+        "zh": "我们周末休息。",
+        "ja": "私たちは週末に休みます。"
+      },
+      "tokens": {
+        "th": ["เรา", "พักผ่อน", "ใน", "วัน", "สุดสัปดาห์"],
+        "zh": ["我们", "周末", "休息", "。"],
+        "ja": ["私", "たち", "は", "週末", "に", "休み", "ます", "。"]
+      }
+    },
+
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Making an Appointment",
+        "th": "สถานการณ์ที่ 3: การนัดหมาย",
+        "fa": "سناریو ۳: قرار ملاقات",
+        "ar": "السيناريو 3: تحديد موعد",
+        "es": "Escenario 3: Hacer una cita",
+        "zh": "场景 3：预约",
+        "ja": "シナリオ 3：予約する"
+      }
+    },
+    {
+      "id": "w11",
+      "kind": "Word",
+      "texts": {
+        "en": "meet",
+        "th": "พบ",
+        "fa": "ملاقات",
+        "ar": "مقابلة",
+        "es": "reunirse",
+        "zh": "见面",
+        "ja": "会う"
+      }
+    },
+    {
+      "id": "w12",
+      "kind": "Word",
+      "texts": {
+        "en": "free",
+        "th": "ว่าง",
+        "fa": "آزاد",
+        "ar": "حر",
+        "es": "libre",
+        "zh": "空闲",
+        "ja": "自由"
+      }
+    },
+    {
+      "id": "w13",
+      "kind": "Word",
+      "texts": {
+        "en": "morning",
+        "th": "เช้า",
+        "fa": "صبح",
+        "ar": "صباح",
+        "es": "mañana",
+        "zh": "早上",
+        "ja": "朝"
+      }
+    },
+    {
+      "id": "w14",
+      "kind": "Word",
+      "texts": {
+        "en": "afternoon",
+        "th": "บ่าย",
+        "fa": "بعدازظهر",
+        "ar": "مساء",
+        "es": "tarde",
+        "zh": "下午",
+        "ja": "午後"
+      }
+    },
+    {
+      "id": "w15",
+      "kind": "Word",
+      "texts": {
+        "en": "appointment",
+        "th": "นัดหมาย",
+        "fa": "قرار ملاقات",
+        "ar": "موعد",
+        "es": "cita",
+        "zh": "预约",
+        "ja": "予約"
+      }
+    },
+    {
+      "id": "s11",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Are you free tomorrow?",
+        "th": "พรุ่งนี้คุณว่างไหม",
+        "fa": "آیا فردا آزاد هستید؟",
+        "ar": "هل أنت حر غداً؟",
+        "es": "¿Estás libre mañana?",
+        "zh": "你明天有空吗？",
+        "ja": "明日は空いていますか？"
+      },
+      "tokens": {
+        "th": ["พรุ่งนี้", "คุณ", "ว่าง", "ไหม"],
+        "zh": ["你", "明天", "有", "空", "吗", "？"],
+        "ja": ["明日", "は", "空い", "て", "い", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s12",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Let's meet in the morning.",
+        "th": "มาพบกันตอนเช้า",
+        "fa": "بیایید صبح ملاقات کنیم.",
+        "ar": "لنتقابل في الصباح.",
+        "es": "Reunámonos por la mañana.",
+        "zh": "我们早上见吧。",
+        "ja": "朝に会いましょう。"
+      },
+      "tokens": {
+        "th": ["มา", "พบ", "กัน", "ตอน", "เช้า"],
+        "zh": ["我们", "早上", "见", "吧", "。"],
+        "ja": ["朝", "に", "会い", "まし", "ょう", "。"]
+      }
+    },
+    {
+      "id": "s13",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I have an appointment at two.",
+        "th": "ฉันมีนัดตอนสองโมง",
+        "fa": "من ساعت دو قرار دارم.",
+        "ar": "لدي موعد في الثانية.",
+        "es": "Tengo una cita a las dos.",
+        "zh": "我两点有个预约。",
+        "ja": "私は2時に予約があります。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "มี", "นัด", "ตอน", "สอง", "โมง"],
+        "zh": ["我", "两点", "有", "个", "预约", "。"],
+        "ja": ["私", "は", "2", "時", "に", "予約", "が", "あり", "ます", "。"]
+      }
+    },
+    {
+      "id": "s14",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Can we meet this afternoon?",
+        "th": "เราพบกันบ่ายนี้ได้ไหม",
+        "fa": "آیا می‌توانیم امروز بعدازظهر ملاقات کنیم؟",
+        "ar": "هل يمكننا اللقاء هذا المساء؟",
+        "es": "¿Podemos reunirnos esta tarde?",
+        "zh": "我们今天下午能见面吗？",
+        "ja": "今日の午後に会えますか？"
+      },
+      "tokens": {
+        "th": ["เรา", "พบ", "กัน", "บ่าย", "นี้", "ได้", "ไหม"],
+        "zh": ["我们", "今天", "下午", "能", "见面", "吗", "？"],
+        "ja": ["今日", "の", "午後", "に", "会え", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s15",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I am not free on Friday.",
+        "th": "ฉันไม่ว่างวันศุกร์",
+        "fa": "من جمعه آزاد نیستم.",
+        "ar": "لست حراً يوم الجمعة.",
+        "es": "No estoy libre el viernes.",
+        "zh": "我星期五没空。",
+        "ja": "私は金曜日は空いていません。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ไม่", "ว่าง", "วัน", "ศุกร์"],
+        "zh": ["我", "星期五", "没", "空", "。"],
+        "ja": [
+          "私",
+          "は",
+          "金曜日",
+          "は",
+          "空い",
+          "て",
+          "い",
+          "ませ",
+          "ん",
+          "。"
+        ]
+      }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Opening Hours",
+        "th": "สถานการณ์ที่ 4: เวลาทำการ",
+        "fa": "سناریو ۴: ساعات کاری",
+        "ar": "السيناريو 4: ساعات العمل",
+        "es": "Escenario 4: Horario de apertura",
+        "zh": "场景 4：营业时间",
+        "ja": "シナリオ 4：営業時間"
+      }
+    },
+    {
+      "id": "w16",
+      "kind": "Word",
+      "texts": {
+        "en": "open",
+        "th": "เปิด",
+        "fa": "باز",
+        "ar": "مفتوح",
+        "es": "abierto",
+        "zh": "开门",
+        "ja": "開く"
+      }
+    },
+    {
+      "id": "w17",
+      "kind": "Word",
+      "texts": {
+        "en": "close",
+        "th": "ปิด",
+        "fa": "بسته",
+        "ar": "مغلق",
+        "es": "cerrado",
+        "zh": "关门",
+        "ja": "閉まる"
+      }
+    },
+    {
+      "id": "w18",
+      "kind": "Word",
+      "texts": {
+        "en": "hour",
+        "th": "ชั่วโมง",
+        "fa": "ساعت",
+        "ar": "ساعة",
+        "es": "hora",
+        "zh": "小时",
+        "ja": "時間"
+      }
+    },
+    {
+      "id": "w19",
+      "kind": "Word",
+      "texts": {
+        "en": "late",
+        "th": "ดึก",
+        "fa": "دیر",
+        "ar": "متأخر",
+        "es": "tarde",
+        "zh": "晚",
+        "ja": "遅く"
+      }
+    },
+    {
+      "id": "w20",
+      "kind": "Word",
+      "texts": {
+        "en": "early",
+        "th": "เช้า",
+        "fa": "زود",
+        "ar": "مبكر",
+        "es": "temprano",
+        "zh": "早",
+        "ja": "早く"
+      }
+    },
+    {
+      "id": "s16",
+      "kind": "Sentence",
+      "texts": {
+        "en": "What time do you open?",
+        "th": "คุณเปิดกี่โมง",
+        "fa": "ساعت چند باز می‌شوید؟",
+        "ar": "متى تفتحون؟",
+        "es": "¿A qué hora abren?",
+        "zh": "你们几点开门？",
+        "ja": "何時に開店しますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "เปิด", "กี่", "โมง"],
+        "zh": ["你们", "几点", "开门", "？"],
+        "ja": ["何時", "に", "開店", "し", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s17",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We close at nine PM.",
+        "th": "เราปิดตอนสามทุ่ม",
+        "fa": "ما ساعت نه شب می‌بندیم.",
+        "ar": "نغلق في التاسعة مساءً.",
+        "es": "Cerramos a las nueve de la noche.",
+        "zh": "我们晚上九点关门。",
+        "ja": "私たちは午後9時に閉店します。"
+      },
+      "tokens": {
+        "th": ["เรา", "ปิด", "ตอน", "สาม", "ทุ่ม"],
+        "zh": ["我们", "晚上", "九", "点", "关门", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "午後",
+          "9",
+          "時",
+          "に",
+          "閉店",
+          "し",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s18",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Are you open on Sundays?",
+        "th": "คุณเปิดวันอาทิตย์ไหม",
+        "fa": "آیا یکشنبه‌ها باز هستید؟",
+        "ar": "هل أنتم مفتوحون يوم الأحد؟",
+        "es": "¿Están abiertos los domingos?",
+        "zh": "你们星期天开门吗？",
+        "ja": "日曜日は開いていますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "เปิด", "วัน", "อาทิตย์", "ไหม"],
+        "zh": ["你们", "星期天", "开门", "吗", "？"],
+        "ja": ["日曜日", "は", "開い", "て", "い", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s19",
+      "kind": "Sentence",
+      "texts": {
+        "en": "It opens very early.",
+        "th": "มันเปิดเร็วมาก",
+        "fa": "خیلی زود باز می‌شود.",
+        "ar": "يفتح مبكراً جداً.",
+        "es": "Abre muy temprano.",
+        "zh": "它开门很早。",
+        "ja": "とても早く開きます。"
+      },
+      "tokens": {
+        "th": ["มัน", "เปิด", "เร็ว", "มาก"],
+        "zh": ["它", "开门", "很", "早", "。"],
+        "ja": ["とても", "早く", "開き", "ます", "。"]
+      }
+    },
+    {
+      "id": "s20",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We are open 24 hours.",
+        "th": "เราเปิด 24 ชั่วโมง",
+        "fa": "ما ۲۴ ساعت باز هستیم.",
+        "ar": "نحن مفتوحون 24 ساعة.",
+        "es": "Estamos abiertos 24 horas.",
+        "zh": "我们24小时营业。",
+        "ja": "私たちは24時間営業しています。"
+      },
+      "tokens": {
+        "th": ["เรา", "เปิด", "24", "ชั่วโมง"],
+        "zh": ["我们", "24", "小时", "营业", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "24",
+          "時間",
+          "営業",
+          "し",
+          "て",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Past and Future Time",
+        "th": "สถานการณ์ที่ 5: เวลาในอดีตและอนาคต",
+        "fa": "سناریو ۵: زمان گذشته و آینده",
+        "ar": "السيناريو 5: الوقت الماضي والمستقبلي",
+        "es": "Escenario 5: Tiempo pasado y futuro",
+        "zh": "场景 5：过去与未来的时间",
+        "ja": "シナリオ 5：過去と未来の時間"
+      }
+    },
+    {
+      "id": "w21",
+      "kind": "Word",
+      "texts": {
+        "en": "yesterday",
+        "th": "เมื่อวาน",
+        "fa": "دیروز",
+        "ar": "أمس",
+        "es": "ayer",
+        "zh": "昨天",
+        "ja": "昨日"
+      }
+    },
+    {
+      "id": "w22",
+      "kind": "Word",
+      "texts": {
+        "en": "tomorrow",
+        "th": "พรุ่งนี้",
+        "fa": "فردا",
+        "ar": "غداً",
+        "es": "mañana",
+        "zh": "明天",
+        "ja": "明日"
+      }
+    },
+    {
+      "id": "w23",
+      "kind": "Word",
+      "texts": {
+        "en": "last week",
+        "th": "สัปดาห์ที่แล้ว",
+        "fa": "هفته گذشته",
+        "ar": "الأسبوع الماضي",
+        "es": "la semana pasada",
+        "zh": "上周",
+        "ja": "先週"
+      }
+    },
+    {
+      "id": "w24",
+      "kind": "Word",
+      "texts": {
+        "en": "next month",
+        "th": "เดือนหน้า",
+        "fa": "ماه آینده",
+        "ar": "الشهر القادم",
+        "es": "el próximo mes",
+        "zh": "下个月",
+        "ja": "来月"
+      }
+    },
+    {
+      "id": "w25",
+      "kind": "Word",
+      "texts": {
+        "en": "ago",
+        "th": "ก่อน",
+        "fa": "پیش",
+        "ar": "منذ",
+        "es": "hace",
+        "zh": "以前",
+        "ja": "前"
+      }
+    },
+    {
+      "id": "s21",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I arrived yesterday.",
+        "th": "ฉันมาถึงเมื่อวาน",
+        "fa": "من دیروز رسیدم.",
+        "ar": "وصلت أمس.",
+        "es": "Llegué ayer.",
+        "zh": "我昨天到的。",
+        "ja": "私は昨日到着しました。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "มาถึง", "เมื่อวาน"],
+        "zh": ["我", "昨天", "到", "的", "。"],
+        "ja": ["私", "は", "昨日", "到着", "し", "まし", "た", "。"]
+      }
+    },
+    {
+      "id": "s22",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We will leave tomorrow.",
+        "th": "เราจะออกเดินทางพรุ่งนี้",
+        "fa": "ما فردا ترک خواهیم کرد.",
+        "ar": "سنغادر غداً.",
+        "es": "Nos iremos mañana.",
+        "zh": "我们明天离开。",
+        "ja": "私たちは明日出発します。"
+      },
+      "tokens": {
+        "th": ["เรา", "จะ", "ออกเดินทาง", "พรุ่งนี้"],
+        "zh": ["我们", "明天", "离开", "。"],
+        "ja": ["私", "たち", "は", "明日", "出発", "し", "ます", "。"]
+      }
+    },
+    {
+      "id": "s23",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I saw him last week.",
+        "th": "ฉันเห็นเขาเมื่อสัปดาห์ที่แล้ว",
+        "fa": "من او را هفته گذشته دیدم.",
+        "ar": "رأيته الأسبوع الماضي.",
+        "es": "Lo vi la semana pasada.",
+        "zh": "我上周见到他了。",
+        "ja": "私は先週彼に会いました。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "เห็น", "เขา", "เมื่อ", "สัปดาห์", "ที่แล้ว"],
+        "zh": ["我", "上周", "见到", "他", "了", "。"],
+        "ja": ["私", "は", "先週", "彼", "に", "会い", "まし", "た", "。"]
+      }
+    },
+    {
+      "id": "s24",
+      "kind": "Sentence",
+      "texts": {
+        "en": "She is coming next month.",
+        "th": "เธอจะมาเดือนหน้า",
+        "fa": "او ماه آینده می‌آید.",
+        "ar": "ستأتي الشهر القادم.",
+        "es": "Ella viene el próximo mes.",
+        "zh": "她下个月来。",
+        "ja": "彼女は来月来ます。"
+      },
+      "tokens": {
+        "th": ["เธอ", "จะ", "มา", "เดือน", "หน้า"],
+        "zh": ["她", "下", "个月", "来", "。"],
+        "ja": ["彼女", "は", "来月", "来", "ます", "。"]
+      }
+    },
+    {
+      "id": "s25",
+      "kind": "Sentence",
+      "texts": {
+        "en": "He left two days ago.",
+        "th": "เขาออกไปเมื่อสองวันก่อน",
+        "fa": "او دو روز پیش رفت.",
+        "ar": "غادر قبل يومين.",
+        "es": "Se fue hace dos días.",
+        "zh": "他两天前离开了。",
+        "ja": "彼は2日前に去りました。"
+      },
+      "tokens": {
+        "th": ["เขา", "ออก", "ไป", "เมื่อ", "สอง", "วัน", "ก่อน"],
+        "zh": ["他", "两天", "前", "离开", "了", "。"],
+        "ja": ["彼", "は", "2", "日前", "に", "去り", "まし", "た", "。"]
       }
     }
   ]

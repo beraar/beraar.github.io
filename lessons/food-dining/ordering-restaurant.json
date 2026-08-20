@@ -2,16 +2,16 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "header_scenario1",
       "header": true,
       "texts": {
-        "en": "Core Words",
-        "th": "คำศัพท์หลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras clave",
-        "zh": "核心词汇",
-        "ja": "基本単語"
+        "en": "Scenario 1: Arriving & Seating",
+        "th": "สถานการณ์ 1: การมาถึงและที่นั่ง",
+        "fa": "سناریو ۱: ورود و نشستن",
+        "ar": "السيناريو 1: الوصول والجلوس",
+        "es": "Escenario 1: Llegada y asiento",
+        "zh": "场景一：到达与入座",
+        "ja": "シナリオ1：到着と着席"
       }
     },
     {
@@ -67,29 +67,16 @@
       }
     },
     {
-      "id": "word_what",
+      "id": "word_person",
       "kind": "word",
       "texts": {
-        "en": "what",
-        "th": "อะไร",
-        "fa": "چه",
-        "ar": "ماذا",
-        "es": "qué",
-        "zh": "什么",
-        "ja": "何"
-      }
-    },
-    {
-      "id": "word_question_particle",
-      "kind": "word",
-      "texts": {
-        "en": "question marker",
-        "th": "ไหม",
-        "fa": "آیا",
-        "ar": "هل",
-        "es": "partícula interrogativa",
-        "zh": "吗",
-        "ja": "か"
+        "en": "person / people",
+        "th": "คน",
+        "fa": "نفر / شخص",
+        "ar": "شخص",
+        "es": "persona",
+        "zh": "人",
+        "ja": "人"
       }
     },
     {
@@ -106,32 +93,6 @@
       }
     },
     {
-      "id": "word_yes",
-      "kind": "word",
-      "texts": {
-        "en": "yes",
-        "th": "ใช่",
-        "fa": "بله",
-        "ar": "نعم",
-        "es": "sí",
-        "zh": "是",
-        "ja": "はい"
-      }
-    },
-    {
-      "id": "word_not",
-      "kind": "word",
-      "texts": {
-        "en": "no / not",
-        "th": "ไม่",
-        "fa": "نه / نمی",
-        "ar": "لا / ليس",
-        "es": "no",
-        "zh": "不",
-        "ja": "いいえ / 〜ない"
-      }
-    },
-    {
       "id": "word_please",
       "kind": "word",
       "texts": {
@@ -145,81 +106,81 @@
       }
     },
     {
-      "id": "word_eat",
+      "id": "word_menu",
       "kind": "word",
       "texts": {
-        "en": "eat",
-        "th": "กิน",
-        "fa": "خوردن",
-        "ar": "يأكل",
-        "es": "comer",
-        "zh": "吃",
-        "ja": "食べる"
+        "en": "menu",
+        "th": "เมนู",
+        "fa": "منو",
+        "ar": "قائمة طعام",
+        "es": "menú",
+        "zh": "菜单",
+        "ja": "メニュー"
       }
     },
     {
-      "id": "word_drink",
+      "id": "word_table",
       "kind": "word",
       "texts": {
-        "en": "drink",
-        "th": "ดื่ม",
-        "fa": "نوشیدن",
-        "ar": "يشرب",
-        "es": "beber",
-        "zh": "喝",
-        "ja": "飲む"
+        "en": "table",
+        "th": "โต๊ะ",
+        "fa": "میز",
+        "ar": "طاولة",
+        "es": "mesa",
+        "zh": "桌子",
+        "ja": "テーブル"
       }
     },
     {
-      "id": "word_food",
+      "id": "word_two",
       "kind": "word",
       "texts": {
-        "en": "food",
-        "th": "อาหาร",
-        "fa": "غذا",
-        "ar": "طعام",
-        "es": "comida",
-        "zh": "食物",
-        "ja": "食べ物"
+        "en": "two",
+        "th": "สอง",
+        "fa": "دو",
+        "ar": "اثنان",
+        "es": "dos",
+        "zh": "二",
+        "ja": "二"
       }
     },
     {
-      "id": "word_delicious",
+      "id": "word_sit",
       "kind": "word",
       "texts": {
-        "en": "delicious",
-        "th": "อร่อย",
-        "fa": "خوشمزه",
-        "ar": "لذيذ",
-        "es": "delicioso",
-        "zh": "好吃",
-        "ja": "おいしい"
+        "en": "sit",
+        "th": "นั่ง",
+        "fa": "نشستن",
+        "ar": "يجلس",
+        "es": "sentarse",
+        "zh": "坐",
+        "ja": "座る"
       }
     },
     {
-      "id": "word_this",
+      "id": "word_see",
       "kind": "word",
       "texts": {
-        "en": "this",
-        "th": "อันนี้ / นี่",
-        "fa": "این",
-        "ar": "هذا",
-        "es": "esto / este",
-        "zh": "这个",
-        "ja": "これ"
+        "en": "see / look",
+        "th": "ดู",
+        "fa": "دیدن / نگاه کردن",
+        "ar": "يرى / ينظر",
+        "es": "ver / mirar",
+        "zh": "看",
+        "ja": "見る"
       }
     },
     {
-      "id": "word_person",
+      "id": "word_how_many",
       "kind": "word",
       "texts": {
-        "en": "person / people",
-        "th": "คน",
-        "fa": "نفر / شخص",
-        "ar": "شخص",
-        "es": "persona",
-        "zh": "人",
-        "ja": "人"
+        "en": "how many",
+        "th": "กี่",
+        "fa": "چند",
+        "ar": "كم",
+        "es": "cuántos",
+        "zh": "几",
+        "ja": "何"
       }
     },
     {
@@ -236,55 +197,16 @@
       }
     },
     {
-      "id": "word_rice",
+      "id": "word_question_particle",
       "kind": "word",
       "texts": {
-        "en": "rice",
-        "th": "ข้าว",
-        "fa": "برنج",
-        "ar": "أرز",
-        "es": "arroz",
-        "zh": "米饭",
-        "ja": "ご飯"
-      }
-    },
-    {
-      "id": "word_water",
-      "kind": "word",
-      "texts": {
-        "en": "water",
-        "th": "น้ำ",
-        "fa": "آب",
-        "ar": "ماء",
-        "es": "agua",
-        "zh": "水",
-        "ja": "水"
-      }
-    },
-    {
-      "id": "word_can",
-      "kind": "word",
-      "texts": {
-        "en": "can",
-        "th": "ได้",
-        "fa": "توانستن",
-        "ar": "يستطيع",
-        "es": "poder",
-        "zh": "可以",
-        "ja": "できる"
-      }
-    },
-    {
-      "id": "header_scenario1",
-      "header": true,
-      "texts": {
-        "en": "Scenario 1: Arriving & Seating",
-        "th": "สถานการณ์ 1: การมาถึงและที่นั่ง",
-        "fa": "سناریو ۱: ورود و نشستن",
-        "ar": "السيناريو 1: الوصول والجلوس",
-        "es": "Escenario 1: Llegada y asiento",
-        "zh": "场景一：到达与入座",
-        "ja": "シナリオ1：到着と着席"
+        "en": "question marker",
+        "th": "ไหม",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "partícula interrogativa",
+        "zh": "吗",
+        "ja": "か"
       }
     },
     {
@@ -437,84 +359,7 @@
         "ja": ["メニュー", "を", "見たい", "です"]
       }
     },
-    {
-      "id": "word_how_many",
-      "kind": "word",
-      "texts": {
-        "en": "how many",
-        "th": "กี่",
-        "fa": "چند",
-        "ar": "كم",
-        "es": "cuántos",
-        "zh": "几",
-        "ja": "何"
-      }
-    },
-    {
-      "id": "word_table",
-      "kind": "word",
-      "texts": {
-        "en": "table",
-        "th": "โต๊ะ",
-        "fa": "میز",
-        "ar": "طاولة",
-        "es": "mesa",
-        "zh": "桌子",
-        "ja": "テーブル"
-      }
-    },
-    {
-      "id": "word_menu",
-      "kind": "word",
-      "texts": {
-        "en": "menu",
-        "th": "เมนู",
-        "fa": "منو",
-        "ar": "قائمة طعام",
-        "es": "menú",
-        "zh": "菜单",
-        "ja": "メニュー"
-      }
-    },
-    {
-      "id": "word_two",
-      "kind": "word",
-      "texts": {
-        "en": "two",
-        "th": "สอง",
-        "fa": "دو",
-        "ar": "اثنان",
-        "es": "dos",
-        "zh": "二",
-        "ja": "二"
-      }
-    },
-    {
-      "id": "word_sit",
-      "kind": "word",
-      "texts": {
-        "en": "sit",
-        "th": "นั่ง",
-        "fa": "نشستن",
-        "ar": "يجلس",
-        "es": "sentarse",
-        "zh": "坐",
-        "ja": "座る"
-      }
-    },
-    {
-      "id": "word_see",
-      "kind": "word",
-      "texts": {
-        "en": "see / look",
-        "th": "ดู",
-        "fa": "دیدن / نگاه کردن",
-        "ar": "يرى / ينظر",
-        "es": "ver / mirar",
-        "zh": "看",
-        "ja": "見る"
-      }
-    },
+
     {
       "id": "header_scenario2",
       "header": true,
@@ -526,6 +371,123 @@
         "es": "Escenario 2: Pedir del menú",
         "zh": "场景二：看菜单点餐",
         "ja": "シナリオ2：メニューからの注文"
+      }
+    },
+    {
+      "id": "word_what",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه",
+        "ar": "ماذا",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "word_eat",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "يأكل",
+        "es": "comer",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "word_food",
+      "kind": "word",
+      "texts": {
+        "en": "food",
+        "th": "อาหาร",
+        "fa": "غذا",
+        "ar": "طعام",
+        "es": "comida",
+        "zh": "食物",
+        "ja": "食べ物"
+      }
+    },
+    {
+      "id": "word_this",
+      "kind": "word",
+      "texts": {
+        "en": "this",
+        "th": "อันนี้ / นี่",
+        "fa": "این",
+        "ar": "هذا",
+        "es": "esto / este",
+        "zh": "这个",
+        "ja": "これ"
+      }
+    },
+    {
+      "id": "word_order",
+      "kind": "word",
+      "texts": {
+        "en": "order",
+        "th": "สั่ง",
+        "fa": "سفارش دادن",
+        "ar": "يطلب",
+        "es": "pedir / ordenar",
+        "zh": "点餐",
+        "ja": "注文する"
+      }
+    },
+    {
+      "id": "word_recommend",
+      "kind": "word",
+      "texts": {
+        "en": "recommend",
+        "th": "แนะนำ",
+        "fa": "پیشنهاد کردن",
+        "ar": "ينصح / يقترح",
+        "es": "recomendar",
+        "zh": "推荐",
+        "ja": "勧める"
+      }
+    },
+    {
+      "id": "word_chicken",
+      "kind": "word",
+      "texts": {
+        "en": "chicken",
+        "th": "ไก่",
+        "fa": "مرغ",
+        "ar": "دجاج",
+        "es": "pollo",
+        "zh": "鸡肉",
+        "ja": "鶏肉"
+      }
+    },
+    {
+      "id": "word_pork",
+      "kind": "word",
+      "texts": {
+        "en": "pork",
+        "th": "หมู",
+        "fa": "گوشت خوک",
+        "ar": "لحم خنزير",
+        "es": "cerdo",
+        "zh": "猪肉",
+        "ja": "豚肉"
+      }
+    },
+    {
+      "id": "word_fish",
+      "kind": "word",
+      "texts": {
+        "en": "fish",
+        "th": "ปลา",
+        "fa": "ماهی",
+        "ar": "سمك",
+        "es": "pescado",
+        "zh": "鱼",
+        "ja": "魚"
       }
     },
     {
@@ -695,71 +657,7 @@
         "ja": ["これ", "が", "欲しい", "です"]
       }
     },
-    {
-      "id": "word_order",
-      "kind": "word",
-      "texts": {
-        "en": "order",
-        "th": "สั่ง",
-        "fa": "سفارش دادن",
-        "ar": "يطلب",
-        "es": "pedir / ordenar",
-        "zh": "点餐",
-        "ja": "注文する"
-      }
-    },
-    {
-      "id": "word_recommend",
-      "kind": "word",
-      "texts": {
-        "en": "recommend",
-        "th": "แนะนำ",
-        "fa": "پیشنهاد کردن",
-        "ar": "ينصح / يقترح",
-        "es": "recomendar",
-        "zh": "推荐",
-        "ja": "勧める"
-      }
-    },
-    {
-      "id": "word_chicken",
-      "kind": "word",
-      "texts": {
-        "en": "chicken",
-        "th": "ไก่",
-        "fa": "مرغ",
-        "ar": "دجاج",
-        "es": "pollo",
-        "zh": "鸡肉",
-        "ja": "鶏肉"
-      }
-    },
-    {
-      "id": "word_pork",
-      "kind": "word",
-      "texts": {
-        "en": "pork",
-        "th": "หมู",
-        "fa": "گوشت خوک",
-        "ar": "لحم خنزير",
-        "es": "cerdo",
-        "zh": "猪肉",
-        "ja": "豚肉"
-      }
-    },
-    {
-      "id": "word_fish",
-      "kind": "word",
-      "texts": {
-        "en": "fish",
-        "th": "ปลา",
-        "fa": "ماهی",
-        "ar": "سمك",
-        "es": "pescado",
-        "zh": "鱼",
-        "ja": "魚"
-      }
-    },
+
     {
       "id": "header_scenario3",
       "header": true,
@@ -771,6 +669,136 @@
         "es": "Escenario 3: Personalizar sabor y bebidas",
         "zh": "场景三：定制口味与饮品",
         "ja": "シナリオ3：味と飲み物のカスタマイズ"
+      }
+    },
+    {
+      "id": "word_not",
+      "kind": "word",
+      "texts": {
+        "en": "no / not",
+        "th": "ไม่",
+        "fa": "نه / نمی",
+        "ar": "لا / ليس",
+        "es": "no",
+        "zh": "不",
+        "ja": "いいえ / 〜ない"
+      }
+    },
+    {
+      "id": "word_drink",
+      "kind": "word",
+      "texts": {
+        "en": "drink",
+        "th": "ดื่ม",
+        "fa": "نوشیدن",
+        "ar": "يشرب",
+        "es": "beber",
+        "zh": "喝",
+        "ja": "飲む"
+      }
+    },
+    {
+      "id": "word_water",
+      "kind": "word",
+      "texts": {
+        "en": "water",
+        "th": "น้ำ",
+        "fa": "آب",
+        "ar": "ماء",
+        "es": "agua",
+        "zh": "水",
+        "ja": "水"
+      }
+    },
+    {
+      "id": "word_can",
+      "kind": "word",
+      "texts": {
+        "en": "can",
+        "th": "ได้",
+        "fa": "توانستن",
+        "ar": "يستطيع",
+        "es": "poder",
+        "zh": "可以",
+        "ja": "できる"
+      }
+    },
+    {
+      "id": "word_spicy",
+      "kind": "word",
+      "texts": {
+        "en": "spicy",
+        "th": "เผ็ด",
+        "fa": "تند",
+        "ar": "حار",
+        "es": "picante",
+        "zh": "辣",
+        "ja": "辛い"
+      }
+    },
+    {
+      "id": "word_a_little",
+      "kind": "word",
+      "texts": {
+        "en": "a little",
+        "th": "นิดหน่อย",
+        "fa": "کمی",
+        "ar": "قليلاً",
+        "es": "un poco",
+        "zh": "一点",
+        "ja": "少し"
+      }
+    },
+    {
+      "id": "word_very",
+      "kind": "word",
+      "texts": {
+        "en": "very",
+        "th": "มาก",
+        "fa": "خیلی",
+        "ar": "جداً",
+        "es": "muy",
+        "zh": "非常",
+        "ja": "とても"
+      }
+    },
+    {
+      "id": "word_sugar",
+      "kind": "word",
+      "texts": {
+        "en": "sugar",
+        "th": "น้ำตาล",
+        "fa": "شکر",
+        "ar": "سكر",
+        "es": "azúcar",
+        "zh": "糖",
+        "ja": "砂糖"
+      }
+    },
+    {
+      "id": "word_ice",
+      "kind": "word",
+      "texts": {
+        "en": "ice",
+        "th": "น้ำแข็ง",
+        "fa": "یخ",
+        "ar": "ثلج",
+        "es": "hielo",
+        "zh": "冰",
+        "ja": "氷"
+      }
+    },
+    {
+      "id": "word_without",
+      "kind": "word",
+      "texts": {
+        "en": "without / do not put",
+        "th": "ไม่ใส่",
+        "fa": "بدون / نگذاشتن",
+        "ar": "بدون / لا تضع",
+        "es": "sin / no poner",
+        "zh": "不加 / 无",
+        "ja": "〜抜き / 入れない"
       }
     },
     {
@@ -938,84 +966,7 @@
         "ja": ["辛い", "です", "か？"]
       }
     },
-    {
-      "id": "word_spicy",
-      "kind": "word",
-      "texts": {
-        "en": "spicy",
-        "th": "เผ็ด",
-        "fa": "تند",
-        "ar": "حار",
-        "es": "picante",
-        "zh": "辣",
-        "ja": "辛い"
-      }
-    },
-    {
-      "id": "word_a_little",
-      "kind": "word",
-      "texts": {
-        "en": "a little",
-        "th": "นิดหน่อย",
-        "fa": "کمی",
-        "ar": "قليلاً",
-        "es": "un poco",
-        "zh": "一点",
-        "ja": "少し"
-      }
-    },
-    {
-      "id": "word_very",
-      "kind": "word",
-      "texts": {
-        "en": "very",
-        "th": "มาก",
-        "fa": "خیلی",
-        "ar": "جداً",
-        "es": "muy",
-        "zh": "非常",
-        "ja": "とても"
-      }
-    },
-    {
-      "id": "word_sugar",
-      "kind": "word",
-      "texts": {
-        "en": "sugar",
-        "th": "น้ำตาล",
-        "fa": "شکر",
-        "ar": "سكر",
-        "es": "azúcar",
-        "zh": "糖",
-        "ja": "砂糖"
-      }
-    },
-    {
-      "id": "word_ice",
-      "kind": "word",
-      "texts": {
-        "en": "ice",
-        "th": "น้ำแข็ง",
-        "fa": "یخ",
-        "ar": "ثلج",
-        "es": "hielo",
-        "zh": "冰",
-        "ja": "氷"
-      }
-    },
-    {
-      "id": "word_without",
-      "kind": "word",
-      "texts": {
-        "en": "without / do not put",
-        "th": "ไม่ใส่",
-        "fa": "بدون / نگذاشتن",
-        "ar": "بدون / لا تضع",
-        "es": "sin / no poner",
-        "zh": "不加 / 无",
-        "ja": "〜抜き / 入れない"
-      }
-    },
+
     {
       "id": "header_scenario4",
       "header": true,
@@ -1027,6 +978,84 @@
         "es": "Escenario 4: Restricciones dietéticas y alergias",
         "zh": "场景四：饮食限制与过敏",
         "ja": "シナリオ4：食事制限とアレルギー"
+      }
+    },
+    {
+      "id": "word_vegetarian",
+      "kind": "word",
+      "texts": {
+        "en": "vegetarian",
+        "th": "มังสวิรัติ",
+        "fa": "گیاهخوار",
+        "ar": "نباتي",
+        "es": "vegetariano",
+        "zh": "素食",
+        "ja": "ベジタリアン"
+      }
+    },
+    {
+      "id": "word_meat",
+      "kind": "word",
+      "texts": {
+        "en": "meat",
+        "th": "เนื้อสัตว์",
+        "fa": "گوشت",
+        "ar": "لحم",
+        "es": "carne",
+        "zh": "肉",
+        "ja": "肉"
+      }
+    },
+    {
+      "id": "word_allergy",
+      "kind": "word",
+      "texts": {
+        "en": "allergy / allergic",
+        "th": "แพ้",
+        "fa": "آلرژی / حساسیت",
+        "ar": "حساسية",
+        "es": "alergia / alérgico",
+        "zh": "过敏",
+        "ja": "アレルギー"
+      }
+    },
+    {
+      "id": "word_peanut",
+      "kind": "word",
+      "texts": {
+        "en": "peanut",
+        "th": "ถั่ว",
+        "fa": "بادام زمینی",
+        "ar": "فول سوداني",
+        "es": "cacahuete",
+        "zh": "花生",
+        "ja": "ピーナッツ"
+      }
+    },
+    {
+      "id": "word_seafood",
+      "kind": "word",
+      "texts": {
+        "en": "seafood",
+        "th": "อาหารทะเล",
+        "fa": "غذای دریایی",
+        "ar": "مأكولات بحرية",
+        "es": "mariscos",
+        "zh": "海鲜",
+        "ja": "海鮮"
+      }
+    },
+    {
+      "id": "word_beef",
+      "kind": "word",
+      "texts": {
+        "en": "beef",
+        "th": "เนื้อวัว",
+        "fa": "گوشت گاو",
+        "ar": "لحم بقر",
+        "es": "carne de res",
+        "zh": "牛肉",
+        "ja": "牛肉"
       }
     },
     {
@@ -1200,84 +1229,7 @@
         "ja": ["牛肉", "は", "食べ", "ません"]
       }
     },
-    {
-      "id": "word_vegetarian",
-      "kind": "word",
-      "texts": {
-        "en": "vegetarian",
-        "th": "มังสวิรัติ",
-        "fa": "گیاهخوار",
-        "ar": "نباتي",
-        "es": "vegetariano",
-        "zh": "素食",
-        "ja": "ベジタリアン"
-      }
-    },
-    {
-      "id": "word_meat",
-      "kind": "word",
-      "texts": {
-        "en": "meat",
-        "th": "เนื้อสัตว์",
-        "fa": "گوشت",
-        "ar": "لحم",
-        "es": "carne",
-        "zh": "肉",
-        "ja": "肉"
-      }
-    },
-    {
-      "id": "word_allergy",
-      "kind": "word",
-      "texts": {
-        "en": "allergy / allergic",
-        "th": "แพ้",
-        "fa": "آلرژی / حساسیت",
-        "ar": "حساسية",
-        "es": "alergia / alérgico",
-        "zh": "过敏",
-        "ja": "アレルギー"
-      }
-    },
-    {
-      "id": "word_peanut",
-      "kind": "word",
-      "texts": {
-        "en": "peanut",
-        "th": "ถั่ว",
-        "fa": "بادام زمینی",
-        "ar": "فول سوداني",
-        "es": "cacahuete",
-        "zh": "花生",
-        "ja": "ピーナッツ"
-      }
-    },
-    {
-      "id": "word_seafood",
-      "kind": "word",
-      "texts": {
-        "en": "seafood",
-        "th": "อาหารทะเล",
-        "fa": "غذای دریایی",
-        "ar": "مأكولات بحرية",
-        "es": "mariscos",
-        "zh": "海鲜",
-        "ja": "海鮮"
-      }
-    },
-    {
-      "id": "word_beef",
-      "kind": "word",
-      "texts": {
-        "en": "beef",
-        "th": "เนื้อวัว",
-        "fa": "گوشت گاو",
-        "ar": "لحم بقر",
-        "es": "carne de res",
-        "zh": "牛肉",
-        "ja": "牛肉"
-      }
-    },
+
     {
       "id": "header_scenario5",
       "header": true,
@@ -1289,6 +1241,123 @@
         "es": "Escenario 5: Durante la comida",
         "zh": "场景五：用餐期间",
         "ja": "シナリオ5：食事中"
+      }
+    },
+    {
+      "id": "word_yes",
+      "kind": "word",
+      "texts": {
+        "en": "yes",
+        "th": "ใช่",
+        "fa": "بله",
+        "ar": "نعم",
+        "es": "sí",
+        "zh": "是",
+        "ja": "はい"
+      }
+    },
+    {
+      "id": "word_delicious",
+      "kind": "word",
+      "texts": {
+        "en": "delicious",
+        "th": "อร่อย",
+        "fa": "خوشمزه",
+        "ar": "لذيذ",
+        "es": "delicioso",
+        "zh": "好吃",
+        "ja": "おいしい"
+      }
+    },
+    {
+      "id": "word_rice",
+      "kind": "word",
+      "texts": {
+        "en": "rice",
+        "th": "ข้าว",
+        "fa": "برنج",
+        "ar": "أرز",
+        "es": "arroz",
+        "zh": "米饭",
+        "ja": "ご飯"
+      }
+    },
+    {
+      "id": "word_more",
+      "kind": "word",
+      "texts": {
+        "en": "more / extra",
+        "th": "เพิ่ม",
+        "fa": "بیشتر / اضافی",
+        "ar": "المزيد",
+        "es": "más",
+        "zh": "更多 / 添",
+        "ja": "もっと / おかわり"
+      }
+    },
+    {
+      "id": "word_fork",
+      "kind": "word",
+      "texts": {
+        "en": "fork",
+        "th": "ส้อม",
+        "fa": "چنگال",
+        "ar": "شوكة",
+        "es": "tenedor",
+        "zh": "叉子",
+        "ja": "フォーク"
+      }
+    },
+    {
+      "id": "word_spoon",
+      "kind": "word",
+      "texts": {
+        "en": "spoon",
+        "th": "ช้อน",
+        "fa": "قاشق",
+        "ar": "ملعقة",
+        "es": "cuchara",
+        "zh": "勺子",
+        "ja": "スプーン"
+      }
+    },
+    {
+      "id": "word_tissue",
+      "kind": "word",
+      "texts": {
+        "en": "tissue / napkin",
+        "th": "ทิชชู",
+        "fa": "دستمال کاغذی",
+        "ar": "منديل",
+        "es": "pañuelo / servilleta",
+        "zh": "纸巾",
+        "ja": "ティッシュ"
+      }
+    },
+    {
+      "id": "word_plate",
+      "kind": "word",
+      "texts": {
+        "en": "plate",
+        "th": "จาน",
+        "fa": "بشقاب",
+        "ar": "طبق",
+        "es": "plato",
+        "zh": "盘子",
+        "ja": "皿"
+      }
+    },
+    {
+      "id": "word_glass",
+      "kind": "word",
+      "texts": {
+        "en": "glass / cup",
+        "th": "แก้ว",
+        "fa": "لیوان",
+        "ar": "كوب",
+        "es": "vaso",
+        "zh": "杯子",
+        "ja": "コップ"
       }
     },
     {
@@ -1462,84 +1531,6 @@
         "es": ["Necesito", "un", "vaso"],
         "zh": ["我", "需要", "一个", "杯子"],
         "ja": ["コップ", "が", "必要", "です"]
-      }
-    },
-    {
-      "id": "word_more",
-      "kind": "word",
-      "texts": {
-        "en": "more / extra",
-        "th": "เพิ่ม",
-        "fa": "بیشتر / اضافی",
-        "ar": "المزيد",
-        "es": "más",
-        "zh": "更多 / 添",
-        "ja": "もっと / おかわり"
-      }
-    },
-    {
-      "id": "word_fork",
-      "kind": "word",
-      "texts": {
-        "en": "fork",
-        "th": "ส้อม",
-        "fa": "چنگال",
-        "ar": "شوكة",
-        "es": "tenedor",
-        "zh": "叉子",
-        "ja": "フォーク"
-      }
-    },
-    {
-      "id": "word_spoon",
-      "kind": "word",
-      "texts": {
-        "en": "spoon",
-        "th": "ช้อน",
-        "fa": "قاشق",
-        "ar": "ملعقة",
-        "es": "cuchara",
-        "zh": "勺子",
-        "ja": "スプーン"
-      }
-    },
-    {
-      "id": "word_tissue",
-      "kind": "word",
-      "texts": {
-        "en": "tissue / napkin",
-        "th": "ทิชชู",
-        "fa": "دستمال کاغذی",
-        "ar": "منديل",
-        "es": "pañuelo / servilleta",
-        "zh": "纸巾",
-        "ja": "ティッシュ"
-      }
-    },
-    {
-      "id": "word_plate",
-      "kind": "word",
-      "texts": {
-        "en": "plate",
-        "th": "จาน",
-        "fa": "بشقاب",
-        "ar": "طبق",
-        "es": "plato",
-        "zh": "盘子",
-        "ja": "皿"
-      }
-    },
-    {
-      "id": "word_glass",
-      "kind": "word",
-      "texts": {
-        "en": "glass / cup",
-        "th": "แก้ว",
-        "fa": "لیوان",
-        "ar": "كوب",
-        "es": "vaso",
-        "zh": "杯子",
-        "ja": "コップ"
       }
     }
   ]

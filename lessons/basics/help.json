@@ -2,47 +2,21 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "h1",
       "header": true,
       "texts": {
-        "en": "Core Words",
-        "th": "คำศัพท์หลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras clave",
-        "zh": "核心词汇",
-        "ja": "基本単語"
+        "en": "Scenario 1: Calling for Help",
+        "th": "สถานการณ์ที่ 1: การร้องขอความช่วยเหลือ",
+        "fa": "سناریو ۱: درخواست کمک",
+        "ar": "السيناريو 1: طلب المساعدة",
+        "es": "Escenario 1: Pedir ayuda",
+        "zh": "场景 1：呼救",
+        "ja": "シナリオ 1：助けを求める"
       }
     },
     {
-      "id": "word_i",
-      "kind": "word",
-      "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
-      }
-    },
-    {
-      "id": "word_you",
-      "kind": "word",
-      "texts": {
-        "en": "you",
-        "th": "คุณ",
-        "fa": "شما",
-        "ar": "أنت",
-        "es": "tú / usted",
-        "zh": "你",
-        "ja": "あなた"
-      }
-    },
-    {
-      "id": "word_help",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
         "en": "help",
         "th": "ช่วย",
@@ -50,25 +24,25 @@
         "ar": "مساعدة",
         "es": "ayuda",
         "zh": "帮助",
-        "ja": "助ける"
+        "ja": "助け"
       }
     },
     {
-      "id": "word_emergency",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
       "texts": {
         "en": "emergency",
-        "th": "เหตุฉุกเฉิน",
-        "fa": "اورژانس / اضطراری",
+        "th": "ฉุกเฉิน",
+        "fa": "اورژانس",
         "ar": "طوارئ",
         "es": "emergencia",
-        "zh": "紧急",
-        "ja": "緊急"
+        "zh": "紧急情况",
+        "ja": "緊急事態"
       }
     },
     {
-      "id": "word_police",
-      "kind": "word",
+      "id": "w3",
+      "kind": "Word",
       "texts": {
         "en": "police",
         "th": "ตำรวจ",
@@ -80,8 +54,174 @@
       }
     },
     {
-      "id": "word_doctor",
-      "kind": "word",
+      "id": "w4",
+      "kind": "Word",
+      "texts": {
+        "en": "fire",
+        "th": "ไฟ",
+        "fa": "آتش",
+        "ar": "حريق",
+        "es": "fuego",
+        "zh": "火",
+        "ja": "火事"
+      }
+    },
+    {
+      "id": "w5",
+      "kind": "Word",
+      "texts": {
+        "en": "ambulance",
+        "th": "รถพยาบาล",
+        "fa": "آمبولانس",
+        "ar": "سيارة إسعاف",
+        "es": "ambulancia",
+        "zh": "救护车",
+        "ja": "救急車"
+      }
+    },
+    {
+      "id": "s1",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Help! I need assistance!",
+        "th": "ช่วยด้วย! ฉันต้องการความช่วยเหลือ!",
+        "fa": "کمک! من به کمک نیاز دارم!",
+        "ar": "النجدة! أحتاج إلى مساعدة!",
+        "es": "¡Ayuda! ¡Necesito asistencia!",
+        "zh": "救命！我需要帮助！",
+        "ja": "助けて！助けが必要です！"
+      },
+      "tokens": {
+        "th": [
+          "ช่วย",
+          "ด้วย",
+          "!",
+          "ฉัน",
+          "ต้องการ",
+          "ความ",
+          "ช่วย",
+          "เหลือ",
+          "!"
+        ],
+        "zh": ["救命", "！", "我", "需要", "帮助", "！"],
+        "ja": ["助けて", "！", "助け", "が", "必要", "です", "！"]
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Call the police immediately.",
+        "th": "โทรหาตำรวจทันที",
+        "fa": "فوراً با پلیس تماس بگیرید.",
+        "ar": "اتصل بالشرطة فوراً.",
+        "es": "Llama a la policía inmediatamente.",
+        "zh": "立即报警。",
+        "ja": "すぐに警察を呼んでください。"
+      },
+      "tokens": {
+        "th": ["โทรหา", "ตำรวจ", "ทันที"],
+        "zh": ["立即", "报警", "。"],
+        "ja": ["すぐに", "警察", "を", "呼ん", "で", "ください", "。"]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "Sentence",
+      "texts": {
+        "en": "There is a fire in the building.",
+        "th": "มีไฟไหม้ในอาคาร",
+        "fa": "آتش‌سوزی در ساختمان است.",
+        "ar": "هناك حريق في المبنى.",
+        "es": "Hay un fuego en el edificio.",
+        "zh": "大楼里着火了。",
+        "ja": "建物の中で火事です。"
+      },
+      "tokens": {
+        "th": ["มี", "ไฟ", "ไหม้", "ใน", "อาคาร"],
+        "zh": ["大楼", "里", "着火", "了", "。"],
+        "ja": ["建物", "の", "中", "で", "火事", "です", "。"]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We need an ambulance now.",
+        "th": "เราต้องการรถพยาบาลตอนนี้",
+        "fa": "ما الان به آمبولانس نیاز داریم.",
+        "ar": "نحتاج إلى سيارة إسعاف الآن.",
+        "es": "Necesitamos una ambulancia ahora.",
+        "zh": "我们现在需要救护车。",
+        "ja": "今すぐ救急車が必要です。"
+      },
+      "tokens": {
+        "th": ["เรา", "ต้องการ", "รถพยาบาล", "ตอนนี้"],
+        "zh": ["我们", "现在", "需要", "救护车", "。"],
+        "ja": ["今", "すぐ", "救急車", "が", "必要", "です", "。"]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "This is a medical emergency.",
+        "th": "นี่เป็นเหตุฉุกเฉินทางการแพทย์",
+        "fa": "این یک اورژانس پزشکی است.",
+        "ar": "هذه حالة طوارئ طبية.",
+        "es": "Esta es una emergencia médica.",
+        "zh": "这是医疗紧急情况。",
+        "ja": "これは医療の緊急事態です。"
+      },
+      "tokens": {
+        "th": ["นี่", "เป็น", "เหตุ", "ฉุกเฉิน", "ทาง", "การแพทย์"],
+        "zh": ["这", "是", "医疗", "紧急", "情况", "。"],
+        "ja": ["これ", "は", "医療", "の", "緊急", "事態", "です", "。"]
+      }
+    },
+
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Medical Emergencies",
+        "th": "สถานการณ์ที่ 2: ภาวะฉุกเฉินทางการแพทย์",
+        "fa": "سناریو ۲: اورژانس پزشکی",
+        "ar": "السيناريو 2: الطوارئ الطبية",
+        "es": "Escenario 2: Emergencias médicas",
+        "zh": "场景 2：医疗紧急情况",
+        "ja": "シナリオ 2：医療緊急事態"
+      }
+    },
+    {
+      "id": "w6",
+      "kind": "Word",
+      "texts": {
+        "en": "sick",
+        "th": "ป่วย",
+        "fa": "بیمار",
+        "ar": "مريض",
+        "es": "enfermo",
+        "zh": "生病",
+        "ja": "病気"
+      }
+    },
+    {
+      "id": "w7",
+      "kind": "Word",
+      "texts": {
+        "en": "pain",
+        "th": "ปวด",
+        "fa": "درد",
+        "ar": "ألم",
+        "es": "dolor",
+        "zh": "疼痛",
+        "ja": "痛み"
+      }
+    },
+    {
+      "id": "w8",
+      "kind": "Word",
       "texts": {
         "en": "doctor",
         "th": "หมอ",
@@ -93,593 +233,8 @@
       }
     },
     {
-      "id": "word_hospital",
-      "kind": "word",
-      "texts": {
-        "en": "hospital",
-        "th": "โรงพยาบาล",
-        "fa": "بیمارستان",
-        "ar": "مستشفى",
-        "es": "hospital",
-        "zh": "医院",
-        "ja": "病院"
-      }
-    },
-    {
-      "id": "word_what",
-      "kind": "word",
-      "texts": {
-        "en": "what",
-        "th": "อะไร",
-        "fa": "چه",
-        "ar": "ماذا",
-        "es": "qué",
-        "zh": "什么",
-        "ja": "何"
-      }
-    },
-    {
-      "id": "word_not",
-      "kind": "word",
-      "texts": {
-        "en": "not",
-        "th": "ไม่",
-        "fa": "نه / نمی",
-        "ar": "لا / ليس",
-        "es": "no",
-        "zh": "不",
-        "ja": "〜ない"
-      }
-    },
-    {
-      "id": "word_understand",
-      "kind": "word",
-      "texts": {
-        "en": "understand",
-        "th": "เข้าใจ",
-        "fa": "فهمیدن",
-        "ar": "يفهم",
-        "es": "entender",
-        "zh": "明白",
-        "ja": "わかる"
-      }
-    },
-    {
-      "id": "word_can",
-      "kind": "word",
-      "texts": {
-        "en": "can",
-        "th": "ได้",
-        "fa": "توانستن",
-        "ar": "يستطيع",
-        "es": "poder",
-        "zh": "可以",
-        "ja": "できる"
-      }
-    },
-    {
-      "id": "word_speak",
-      "kind": "word",
-      "texts": {
-        "en": "speak",
-        "th": "พูด",
-        "fa": "صحبت کردن",
-        "ar": "يتكلم",
-        "es": "hablar",
-        "zh": "说",
-        "ja": "話す"
-      }
-    },
-    {
-      "id": "word_slowly",
-      "kind": "word",
-      "texts": {
-        "en": "slowly",
-        "th": "ช้า ๆ",
-        "fa": "آهسته",
-        "ar": "ببطء",
-        "es": "despacio",
-        "zh": "慢慢地",
-        "ja": "ゆっくり"
-      }
-    },
-    {
-      "id": "word_please",
-      "kind": "word",
-      "texts": {
-        "en": "please",
-        "th": "กรุณา",
-        "fa": "لطفاً",
-        "ar": "من فضلك",
-        "es": "por favor",
-        "zh": "请",
-        "ja": "お願いします"
-      }
-    },
-    {
-      "id": "word_thank",
-      "kind": "word",
-      "texts": {
-        "en": "thank",
-        "th": "ขอบคุณ",
-        "fa": "تشکر",
-        "ar": "شكر",
-        "es": "gracias",
-        "zh": "谢谢",
-        "ja": "ありがとう"
-      }
-    },
-    {
-      "id": "word_question_particle",
-      "kind": "word",
-      "texts": {
-        "en": "question marker",
-        "th": "ไหม",
-        "fa": "آیا",
-        "ar": "هل",
-        "es": "partícula interrogativa",
-        "zh": "吗",
-        "ja": "か"
-      }
-    },
-    {
-      "id": "word_polite_particle",
-      "kind": "word",
-      "texts": {
-        "en": "polite particle",
-        "th": "ครับ / ค่ะ",
-        "fa": "ذره ادب",
-        "ar": "أداة أدب",
-        "es": "partícula de cortesía",
-        "zh": "礼貌助词",
-        "ja": "丁寧語"
-      }
-    },
-    {
-      "id": "word_call",
-      "kind": "word",
-      "texts": {
-        "en": "call",
-        "th": "โทร / เรียก",
-        "fa": "تماس گرفتن / صدا کردن",
-        "ar": "يتصل / ينادي",
-        "es": "llamar",
-        "zh": "打电话 / 叫",
-        "ja": "電話する / 呼ぶ"
-      }
-    },
-    {
-      "id": "word_happen",
-      "kind": "word",
-      "texts": {
-        "en": "happen",
-        "th": "เกิด",
-        "fa": "اتفاق افتادن",
-        "ar": "يحدث",
-        "es": "pasar / suceder",
-        "zh": "发生",
-        "ja": "起こる"
-      }
-    },
-    {
-      "id": "header_scenario1",
-      "header": true,
-      "texts": {
-        "en": "Scenario 1: Calling for Help",
-        "th": "สถานการณ์ 1: การเรียกขอความช่วยเหลือ",
-        "fa": "سناریو ۱: درخواست کمک",
-        "ar": "السيناريو 1: طلب المساعدة",
-        "es": "Escenario 1: Pedir ayuda",
-        "zh": "场景一：呼救",
-        "ja": "シナリオ1：助けを呼ぶ"
-      }
-    },
-    {
-      "id": "sentence_call_help_exclamation",
-      "kind": "sentence",
-      "itemIds": ["word_help", "word_please"],
-      "texts": {
-        "en": "Help! Please help!",
-        "th": "ช่วยด้วย! ช่วยด้วยค่ะ!",
-        "fa": "کمک! لطفاً کمک کنید!",
-        "ar": "النجدة! ساعدوني من فضلكم!",
-        "es": "¡Ayuda! ¡Ayuda por favor!",
-        "zh": "救命！请帮帮我！",
-        "ja": "助けて！助けてください！"
-      },
-      "tokens": {
-        "en": ["Help!", "Please", "help!"],
-        "th": ["ช่วยด้วย!", "ช่วยด้วย", "ค่ะ!"],
-        "fa": ["کمک!", "لطفاً", "کمک", "کنید!"],
-        "ar": ["النجدة!", "ساعدوني", "من", "فضلكم!"],
-        "es": ["¡Ayuda!", "¡Ayuda", "por", "favor!"],
-        "zh": ["救命！", "请", "帮帮我！"],
-        "ja": ["助けて！", "助けて", "ください！"]
-      }
-    },
-    {
-      "id": "sentence_call_emergency",
-      "kind": "sentence",
-      "itemIds": ["word_emergency"],
-      "texts": {
-        "en": "Emergency!",
-        "th": "เหตุฉุกเฉินค่ะ!",
-        "fa": "اورژانس!",
-        "ar": "طوارئ!",
-        "es": "¡Emergencia!",
-        "zh": "紧急情况！",
-        "ja": "緊急です！"
-      },
-      "tokens": {
-        "en": ["Emergency!"],
-        "th": ["เหตุฉุกเฉิน", "ค่ะ!"],
-        "fa": ["اورژانس!"],
-        "ar": ["طوارئ!"],
-        "es": ["¡Emergencia!"],
-        "zh": ["紧急", "情况！"],
-        "ja": ["緊急", "です！"]
-      }
-    },
-    {
-      "id": "sentence_call_ambulance",
-      "kind": "sentence",
-      "itemIds": ["word_please", "word_call", "word_ambulance"],
-      "texts": {
-        "en": "Please call an ambulance",
-        "th": "กรุณาเรียกรถพยาบาลด้วยค่ะ",
-        "fa": "لطفاً آمبولانس خبر کنید",
-        "ar": "من فضلك اتصل بالإسعاف",
-        "es": "Por favor llama a una ambulancia",
-        "zh": "请叫救护车",
-        "ja": "救急車を呼んでください"
-      },
-      "tokens": {
-        "en": ["Please", "call", "an", "ambulance"],
-        "th": ["กรุณา", "เรียก", "รถพยาบาล", "ด้วย", "ค่ะ"],
-        "fa": ["لطفاً", "آمبولانس", "خبر", "کنید"],
-        "ar": ["من", "فضلك", "اتصل", "بالإسعاف"],
-        "es": ["Por", "favor", "llama", "a", "una", "ambulancia"],
-        "zh": ["请", "叫", "救护车"],
-        "ja": ["救急車", "を", "呼んで", "ください"]
-      }
-    },
-    {
-      "id": "sentence_call_police",
-      "kind": "sentence",
-      "itemIds": ["word_please", "word_call", "word_police"],
-      "texts": {
-        "en": "Please call the police",
-        "th": "กรุณาเรียกตำรวจด้วยค่ะ",
-        "fa": "لطفاً به پلیس زنگ بزنید",
-        "ar": "من فضلك اتصل بالشرطة",
-        "es": "Por favor llama a la policía",
-        "zh": "请报警",
-        "ja": "警察を呼んでください"
-      },
-      "tokens": {
-        "en": ["Please", "call", "the", "police"],
-        "th": ["กรุณา", "เรียก", "ตำรวจ", "ด้วย", "ค่ะ"],
-        "fa": ["لطفاً", "به", "پلیس", "زنگ", "بزنید"],
-        "ar": ["من", "فضلك", "اتصل", "بالشرطة"],
-        "es": ["Por", "favor", "llama", "a", "la", "policía"],
-        "zh": ["请", "报警"],
-        "ja": ["警察", "を", "呼んで", "ください"]
-      }
-    },
-    {
-      "id": "sentence_call_what_happened",
-      "kind": "sentence",
-      "itemIds": ["word_what", "word_happen"],
-      "texts": {
-        "en": "What happened?",
-        "th": "เกิดอะไรขึ้นครับ",
-        "fa": "چه اتفاقی افتاد؟",
-        "ar": "ماذا حدث؟",
-        "es": "¿Qué pasó?",
-        "zh": "发生什么事了？",
-        "ja": "何が起きましたか？"
-      },
-      "tokens": {
-        "en": ["What", "happened?"],
-        "th": ["เกิด", "อะไร", "ขึ้น", "ครับ"],
-        "fa": ["چه", "اتفاقی", "افتاد؟"],
-        "ar": ["ماذا", "حدث؟"],
-        "es": ["¿Qué", "pasó?"],
-        "zh": ["发生", "什么事", "了？"],
-        "ja": ["何", "が", "起き", "ました", "か？"]
-      }
-    },
-    {
-      "id": "sentence_call_i_help_you",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_help", "word_you", "word_can"],
-      "texts": {
-        "en": "I can help you",
-        "th": "ผมช่วยคุณได้ครับ",
-        "fa": "من می‌توانم به شما کمک کنم",
-        "ar": "أستطيع مساعدتك",
-        "es": "Puedo ayudarte",
-        "zh": "我能帮你",
-        "ja": "お手伝いできます"
-      },
-      "tokens": {
-        "en": ["I", "can", "help", "you"],
-        "th": ["ผม", "ช่วย", "คุณ", "ได้", "ครับ"],
-        "fa": ["من", "می‌توانم", "به", "شما", "کمک", "کنم"],
-        "ar": ["أستطيع", "مساعدتك"],
-        "es": ["Puedo", "ayudarte"],
-        "zh": ["我", "能", "帮", "你"],
-        "ja": ["お手伝い", "でき", "ます"]
-      }
-    },
-    {
-      "id": "word_ambulance",
-      "kind": "word",
-      "texts": {
-        "en": "ambulance",
-        "th": "รถพยาบาล",
-        "fa": "آمبولانس",
-        "ar": "إسعاف",
-        "es": "ambulancia",
-        "zh": "救护车",
-        "ja": "救急車"
-      }
-    },
-    {
-      "id": "word_fire",
-      "kind": "word",
-      "texts": {
-        "en": "fire",
-        "th": "ไฟไหม้",
-        "fa": "آتش‌سوزی",
-        "ar": "حريق",
-        "es": "incendio",
-        "zh": "火灾",
-        "ja": "火事"
-      }
-    },
-    {
-      "id": "word_fast",
-      "kind": "word",
-      "texts": {
-        "en": "fast / quick",
-        "th": "เร็ว",
-        "fa": "سریع",
-        "ar": "سريع",
-        "es": "rápido",
-        "zh": "快",
-        "ja": "速い / 早く"
-      }
-    },
-    {
-      "id": "header_scenario2",
-      "header": true,
-      "texts": {
-        "en": "Scenario 2: Medical Emergencies",
-        "th": "สถานการณ์ 2: เหตุฉุกเฉินทางการแพทย์",
-        "fa": "سناریو ۲: اورژانس پزشکی",
-        "ar": "السيناريو 2: الطوارئ الطبية",
-        "es": "Escenario 2: Emergencias médicas",
-        "zh": "场景二：医疗急救",
-        "ja": "シナリオ2：医療緊急事態"
-      }
-    },
-    {
-      "id": "sentence_med_sick",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_sick"],
-      "texts": {
-        "en": "I am sick",
-        "th": "ฉันไม่สบายค่ะ",
-        "fa": "من مریض هستم",
-        "ar": "أنا مريض",
-        "es": "Estoy enfermo",
-        "zh": "我生病了",
-        "ja": "具合が悪いです"
-      },
-      "tokens": {
-        "en": ["I", "am", "sick"],
-        "th": ["ฉัน", "ไม่สบาย", "ค่ะ"],
-        "fa": ["من", "مریض", "هستم"],
-        "ar": ["أنا", "مريض"],
-        "es": ["Estoy", "enfermo"],
-        "zh": ["我", "生病了"],
-        "ja": ["具合", "が", "悪い", "です"]
-      }
-    },
-    {
-      "id": "sentence_med_hurt",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_hurt"],
-      "texts": {
-        "en": "I am hurt",
-        "th": "ฉันบาดเจ็บค่ะ",
-        "fa": "من زخمی شده‌ام",
-        "ar": "أنا مصاب",
-        "es": "Estoy herido",
-        "zh": "我受伤了",
-        "ja": "怪我をしました"
-      },
-      "tokens": {
-        "en": ["I", "am", "hurt"],
-        "th": ["ฉัน", "บาดเจ็บ", "ค่ะ"],
-        "fa": ["من", "زخمی", "شده‌ام"],
-        "ar": ["أنا", "مصاب"],
-        "es": ["Estoy", "herido"],
-        "zh": ["我", "受伤了"],
-        "ja": ["怪我", "を", "しました"]
-      }
-    },
-    {
-      "id": "sentence_med_need_doctor",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_need", "word_doctor"],
-      "texts": {
-        "en": "I need a doctor",
-        "th": "ฉันต้องการหมอค่ะ",
-        "fa": "من به دکتر نیاز دارم",
-        "ar": "أحتاج طبيباً",
-        "es": "Necesito un médico",
-        "zh": "我需要医生",
-        "ja": "医者が必要です"
-      },
-      "tokens": {
-        "en": ["I", "need", "a", "doctor"],
-        "th": ["ฉัน", "ต้องการ", "หมอ", "ค่ะ"],
-        "fa": ["من", "به", "دکتر", "نیاز", "دارم"],
-        "ar": ["أحتاج", "طبيباً"],
-        "es": ["Necesito", "un", "médico"],
-        "zh": ["我", "需要", "医生"],
-        "ja": ["医者", "が", "必要", "です"]
-      }
-    },
-    {
-      "id": "sentence_med_pain",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_pain"],
-      "texts": {
-        "en": "I am in pain",
-        "th": "ฉันปวดมากค่ะ",
-        "fa": "من درد دارم",
-        "ar": "أنا أشعر بالألم",
-        "es": "Tengo dolor",
-        "zh": "我很痛",
-        "ja": "痛いです"
-      },
-      "tokens": {
-        "en": ["I", "am", "in", "pain"],
-        "th": ["ฉัน", "ปวด", "มาก", "ค่ะ"],
-        "fa": ["من", "درد", "دارم"],
-        "ar": ["أنا", "أشعر", "بالألم"],
-        "es": ["Tengo", "dolor"],
-        "zh": ["我", "很", "痛"],
-        "ja": ["痛い", "です"]
-      }
-    },
-    {
-      "id": "sentence_med_allergy",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_allergy"],
-      "texts": {
-        "en": "I have an allergy",
-        "th": "ฉันมีอาการแพ้ค่ะ",
-        "fa": "من آلرژی دارم",
-        "ar": "لدي حساسية",
-        "es": "Tengo alergia",
-        "zh": "我过敏",
-        "ja": "アレルギーがあります"
-      },
-      "tokens": {
-        "en": ["I", "have", "an", "allergy"],
-        "th": ["ฉัน", "มี", "อาการ", "แพ้", "ค่ะ"],
-        "fa": ["من", "آلرژی", "دارم"],
-        "ar": ["لدي", "حساسية"],
-        "es": ["Tengo", "alergia"],
-        "zh": ["我", "过敏"],
-        "ja": ["アレルギー", "が", "あり", "ます"]
-      }
-    },
-    {
-      "id": "sentence_med_stomach",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_stomach", "word_pain"],
-      "texts": {
-        "en": "I have a stomachache",
-        "th": "ฉันปวดท้องค่ะ",
-        "fa": "من دل‌درد دارم",
-        "ar": "لدي ألم في المعدة",
-        "es": "Tengo dolor de estómago",
-        "zh": "我胃痛",
-        "ja": "お腹が痛いです"
-      },
-      "tokens": {
-        "en": ["I", "have", "a", "stomachache"],
-        "th": ["ฉัน", "ปวดท้อง", "ค่ะ"],
-        "fa": ["من", "دل‌درد", "دارم"],
-        "ar": ["لدي", "ألم", "في", "المعدة"],
-        "es": ["Tengo", "dolor", "de", "estómago"],
-        "zh": ["我", "胃痛"],
-        "ja": ["お腹", "が", "痛い", "です"]
-      }
-    },
-    {
-      "id": "sentence_med_need_medicine",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_need", "word_medicine"],
-      "texts": {
-        "en": "I need medicine",
-        "th": "ฉันต้องการยาค่ะ",
-        "fa": "من دارو نیاز دارم",
-        "ar": "أحتاج دواءً",
-        "es": "Necesito medicina",
-        "zh": "我需要药",
-        "ja": "薬が必要です"
-      },
-      "tokens": {
-        "en": ["I", "need", "medicine"],
-        "th": ["ฉัน", "ต้องการ", "ยา", "ค่ะ"],
-        "fa": ["من", "دارو", "نیاز", "دارم"],
-        "ar": ["أحتاج", "دواءً"],
-        "es": ["Necesito", "medicina"],
-        "zh": ["我", "需要", "药"],
-        "ja": ["薬", "が", "必要", "です"]
-      }
-    },
-    {
-      "id": "word_sick",
-      "kind": "word",
-      "texts": {
-        "en": "sick / ill",
-        "th": "ไม่สบาย",
-        "fa": "مریض / بیمار",
-        "ar": "مريض",
-        "es": "enfermo",
-        "zh": "生病",
-        "ja": "具合が悪い"
-      }
-    },
-    {
-      "id": "word_hurt",
-      "kind": "word",
-      "texts": {
-        "en": "hurt / injured",
-        "th": "บาดเจ็บ",
-        "fa": "زخمی / مجروح",
-        "ar": "مصاب / مجروح",
-        "es": "herido",
-        "zh": "受伤",
-        "ja": "怪我をした"
-      }
-    },
-    {
-      "id": "word_pain",
-      "kind": "word",
-      "texts": {
-        "en": "pain",
-        "th": "ปวด / เจ็บ",
-        "fa": "درد",
-        "ar": "ألم",
-        "es": "dolor",
-        "zh": "痛",
-        "ja": "痛み"
-      }
-    },
-    {
-      "id": "word_allergy",
-      "kind": "word",
-      "texts": {
-        "en": "allergy",
-        "th": "อาการแพ้",
-        "fa": "آلرژی / حساسیت",
-        "ar": "حساسية",
-        "es": "alergia",
-        "zh": "过敏",
-        "ja": "アレルギー"
-      }
-    },
-    {
-      "id": "word_medicine",
-      "kind": "word",
+      "id": "w9",
+      "kind": "Word",
       "texts": {
         "en": "medicine",
         "th": "ยา",
@@ -691,503 +246,164 @@
       }
     },
     {
-      "id": "word_stomach",
-      "kind": "word",
+      "id": "w10",
+      "kind": "Word",
       "texts": {
-        "en": "stomach",
-        "th": "ท้อง",
-        "fa": "معده / شکم",
-        "ar": "معدة",
-        "es": "estómago",
-        "zh": "胃 / 肚子",
-        "ja": "お腹"
+        "en": "allergy",
+        "th": "ภูมิแพ้",
+        "fa": "حساسیت",
+        "ar": "حساسية",
+        "es": "alergia",
+        "zh": "过敏",
+        "ja": "アレルギー"
       }
     },
     {
-      "id": "word_need",
-      "kind": "word",
+      "id": "s6",
+      "kind": "Sentence",
       "texts": {
-        "en": "need",
-        "th": "ต้องการ",
-        "fa": "نیاز داشتن",
-        "ar": "يحتاج",
-        "es": "necesitar",
-        "zh": "需要",
-        "ja": "必要とする"
+        "en": "I am feeling very sick.",
+        "th": "ฉันรู้สึกป่วยมาก",
+        "fa": "من احساس بیماری شدید می‌کنم.",
+        "ar": "أشعر بالمرض الشديد.",
+        "es": "Me siento muy enfermo.",
+        "zh": "我感觉很不舒服。",
+        "ja": "とても気分が悪いです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "รู้สึก", "ป่วย", "มาก"],
+        "zh": ["我", "感觉", "很", "不", "舒服", "。"],
+        "ja": ["とても", "気分", "が", "悪い", "です", "。"]
       }
     },
     {
-      "id": "header_scenario3",
+      "id": "s7",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I have a severe pain here.",
+        "th": "ฉันปวดรุนแรงตรงนี้",
+        "fa": "من درد شدیدی در اینجا دارم.",
+        "ar": "لدي ألم شديد هنا.",
+        "es": "Tengo un dolor severo aquí.",
+        "zh": "我这里剧痛。",
+        "ja": "ここが激しく痛いです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ปวด", "รุนแรง", "ตรง", "นี้"],
+        "zh": ["我", "这里", "剧痛", "。"],
+        "ja": ["ここ", "が", "激しく", "痛い", "です", "。"]
+      }
+    },
+    {
+      "id": "s8",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Please call a doctor.",
+        "th": "กรุณาเรียกหมอ",
+        "fa": "لطفاً یک دکتر صدا بزنید.",
+        "ar": "يرجى استدعاء طبيب.",
+        "es": "Por favor, llame a un médico.",
+        "zh": "请叫医生来。",
+        "ja": "医者を呼んでください。"
+      },
+      "tokens": {
+        "th": ["กรุณา", "เรียก", "หมอ"],
+        "zh": ["请", "叫", "医生", "来", "。"],
+        "ja": ["医者", "を", "呼ん", "で", "ください", "。"]
+      }
+    },
+    {
+      "id": "s9",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Do you have any medicine?",
+        "th": "คุณมียาบ้างไหม",
+        "fa": "آیا دارو دارید؟",
+        "ar": "هل لديك أي دواء؟",
+        "es": "¿Tienes alguna medicina?",
+        "zh": "你有药吗？",
+        "ja": "薬はありますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "มี", "ยา", "บ้าง", "ไหม"],
+        "zh": ["你", "有", "药", "吗", "？"],
+        "ja": ["薬", "は", "あり", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s10",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I have a peanut allergy.",
+        "th": "ฉันแพ้ถั่ว",
+        "fa": "من به بادام‌زمینی حساسیت دارم.",
+        "ar": "لدي حساسية من الفول السوداني.",
+        "es": "Tengo alergia al maní.",
+        "zh": "我对花生过敏。",
+        "ja": "私はピーナッツアレルギーです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "แพ้", "ถั่ว"],
+        "zh": ["我", "对", "花生", "过敏", "。"],
+        "ja": ["私", "は", "ピーナッツ", "アレルギー", "です", "。"]
+      }
+    },
+
+    {
+      "id": "h3",
       "header": true,
       "texts": {
-        "en": "Scenario 3: Communication Breakdown",
-        "th": "สถานการณ์ 3: ปัญหาการสื่อสาร",
-        "fa": "سناریو ۳: مشکل در ارتباط",
-        "ar": "السيناريو 3: انهيار التواصل",
-        "es": "Escenario 3: Problemas de comunicación",
-        "zh": "场景三：沟通障碍",
-        "ja": "シナリオ3：コミュニケーションの断絶"
+        "en": "Scenario 3: Lost Items",
+        "th": "สถานการณ์ที่ 3: ของหาย",
+        "fa": "سناریو ۳: اشیاء گم‌شده",
+        "ar": "السيناريو 3: الأشياء المفقودة",
+        "es": "Escenario 3: Objetos perdidos",
+        "zh": "场景 3：遗失物品",
+        "ja": "シナリオ 3：紛失物"
       }
     },
     {
-      "id": "sentence_comm_not_understand",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_not", "word_understand"],
-      "texts": {
-        "en": "I don't understand",
-        "th": "ฉันไม่เข้าใจค่ะ",
-        "fa": "من نمی‌فهمم",
-        "ar": "أنا لا أفهم",
-        "es": "No entiendo",
-        "zh": "我不明白",
-        "ja": "わかりません"
-      },
-      "tokens": {
-        "en": ["I", "don't", "understand"],
-        "th": ["ฉัน", "ไม่", "เข้าใจ", "ค่ะ"],
-        "fa": ["من", "نمی‌فهمم"],
-        "ar": ["أنا", "لا", "أفهم"],
-        "es": ["No", "entiendo"],
-        "zh": ["我", "不", "明白"],
-        "ja": ["わかり", "ません"]
-      }
-    },
-    {
-      "id": "sentence_comm_speak_slowly",
-      "kind": "sentence",
-      "itemIds": ["word_please", "word_speak", "word_slowly"],
-      "texts": {
-        "en": "Please speak slowly",
-        "th": "กรุณาพูดช้า ๆ หน่อยค่ะ",
-        "fa": "لطفاً آهسته صحبت کنید",
-        "ar": "من فضلك تحدث ببطء",
-        "es": "Por favor habla despacio",
-        "zh": "请说慢一点",
-        "ja": "ゆっくり話してください"
-      },
-      "tokens": {
-        "en": ["Please", "speak", "slowly"],
-        "th": ["กรุณา", "พูด", "ช้า ๆ", "หน่อย", "ค่ะ"],
-        "fa": ["لطفاً", "آهسته", "صحبت", "کنید"],
-        "ar": ["من", "فضلك", "تحدث", "ببطء"],
-        "es": ["Por", "favor", "habla", "despacio"],
-        "zh": ["请", "说", "慢一点"],
-        "ja": ["ゆっくり", "話して", "ください"]
-      }
-    },
-    {
-      "id": "sentence_comm_speak_english",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_speak",
-        "word_english",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Do you speak English?",
-        "th": "คุณพูดภาษาอังกฤษได้ไหมคะ",
-        "fa": "آیا انگلیسی صحبت می‌کنید؟",
-        "ar": "هل تتحدث الإنجليزية؟",
-        "es": "¿Hablas inglés?",
-        "zh": "你会说英语吗？",
-        "ja": "英語を話しますか？"
-      },
-      "tokens": {
-        "en": ["Do", "you", "speak", "English?"],
-        "th": ["คุณ", "พูด", "ภาษา", "อังกฤษ", "ได้", "ไหม", "คะ"],
-        "fa": ["آیا", "انگلیسی", "صحبت", "می‌کنید؟"],
-        "ar": ["هل", "تتحدث", "الإنجليزية؟"],
-        "es": ["¿Hablas", "inglés?"],
-        "zh": ["你", "会说", "英语", "吗？"],
-        "ja": ["英語", "を", "話し", "ます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_comm_call_english_speaker",
-      "kind": "sentence",
-      "itemIds": [
-        "word_please",
-        "word_call",
-        "word_person",
-        "word_speak",
-        "word_english"
-      ],
-      "texts": {
-        "en": "Please call someone who speaks English",
-        "th": "กรุณาเรียกคนที่พูดภาษาอังกฤษได้ให้หน่อยค่ะ",
-        "fa": "لطفاً کسی را که انگلیسی صحبت می‌کند خبر کنید",
-        "ar": "من فضلك اتصل بشخص يتحدث الإنجليزية",
-        "es": "Por favor llama a alguien que hable inglés",
-        "zh": "请叫一个会说英语的人",
-        "ja": "英語を話せる人を呼んでください"
-      },
-      "tokens": {
-        "en": ["Please", "call", "someone", "who", "speaks", "English"],
-        "th": [
-          "กรุณา",
-          "เรียก",
-          "คน",
-          "ที่",
-          "พูด",
-          "ภาษา",
-          "อังกฤษ",
-          "ได้",
-          "ให้",
-          "หน่อย",
-          "ค่ะ"
-        ],
-        "fa": [
-          "لطفاً",
-          "کسی",
-          "را",
-          "که",
-          "انگلیسی",
-          "صحبت",
-          "می‌کند",
-          "خبر",
-          "کنید"
-        ],
-        "ar": ["من", "فضلك", "اتصل", "بشخص", "يتحدث", "الإنجليزية"],
-        "es": [
-          "Por",
-          "favor",
-          "llama",
-          "a",
-          "alguien",
-          "que",
-          "hable",
-          "inglés"
-        ],
-        "zh": ["请", "叫", "一个", "会说", "英语", "的", "人"],
-        "ja": ["英語", "を", "話せる", "人", "を", "呼んで", "ください"]
-      }
-    },
-    {
-      "id": "sentence_comm_can_write",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_write",
-        "word_can",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Can you write it down?",
-        "th": "คุณเขียนให้หน่อยได้ไหมคะ",
-        "fa": "می‌توانید آن را بنویسید؟",
-        "ar": "هل يمكنك كتابته؟",
-        "es": "¿Puedes escribirlo?",
-        "zh": "你能写下来吗？",
-        "ja": "書いてもらえますか？"
-      },
-      "tokens": {
-        "en": ["Can", "you", "write", "it", "down?"],
-        "th": ["คุณ", "เขียน", "ให้", "หน่อย", "ได้", "ไหม", "คะ"],
-        "fa": ["می‌توانید", "آن", "را", "بنویسید؟"],
-        "ar": ["هل", "يمكنك", "كتابته؟"],
-        "es": ["¿Puedes", "escribirlo?"],
-        "zh": ["你", "能", "写下来", "吗？"],
-        "ja": ["書いて", "もらえます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_comm_do_you_know",
-      "kind": "sentence",
-      "itemIds": ["word_you", "word_know", "word_question_particle"],
-      "texts": {
-        "en": "Do you know?",
-        "th": "คุณทราบไหมคะ",
-        "fa": "آیا می‌دانید؟",
-        "ar": "هل تعرف؟",
-        "es": "¿Sabes?",
-        "zh": "你知道吗？",
-        "ja": "わかりますか？"
-      },
-      "tokens": {
-        "en": ["Do", "you", "know?"],
-        "th": ["คุณ", "ทราบ", "ไหม", "คะ"],
-        "fa": ["آیا", "می‌دانید؟"],
-        "ar": ["هل", "تعرف؟"],
-        "es": ["¿Sabes?"],
-        "zh": ["你", "知道", "吗？"],
-        "ja": ["わかり", "ます", "か？"]
-      }
-    },
-    {
-      "id": "word_english",
-      "kind": "word",
-      "texts": {
-        "en": "English",
-        "th": "ภาษาอังกฤษ",
-        "fa": "انگلیسی",
-        "ar": "الإنجليزية",
-        "es": "inglés",
-        "zh": "英语",
-        "ja": "英語"
-      }
-    },
-    {
-      "id": "word_translate",
-      "kind": "word",
-      "texts": {
-        "en": "translate",
-        "th": "แปล",
-        "fa": "ترجمه کردن",
-        "ar": "يترجم",
-        "es": "traducir",
-        "zh": "翻译",
-        "ja": "翻訳する"
-      }
-    },
-    {
-      "id": "word_write",
-      "kind": "word",
-      "texts": {
-        "en": "write",
-        "th": "เขียน",
-        "fa": "نوشتن",
-        "ar": "يكتب",
-        "es": "escribir",
-        "zh": "写",
-        "ja": "書く"
-      }
-    },
-    {
-      "id": "word_read",
-      "kind": "word",
-      "texts": {
-        "en": "read",
-        "th": "อ่าน",
-        "fa": "خواندن",
-        "ar": "يقرأ",
-        "es": "leer",
-        "zh": "读",
-        "ja": "読む"
-      }
-    },
-    {
-      "id": "word_know",
-      "kind": "word",
-      "texts": {
-        "en": "know",
-        "th": "ทราบ / รู้",
-        "fa": "دانستن",
-        "ar": "يعرف",
-        "es": "saber",
-        "zh": "知道",
-        "ja": "知る"
-      }
-    },
-    {
-      "id": "word_person",
-      "kind": "word",
-      "texts": {
-        "en": "person / people",
-        "th": "คน",
-        "fa": "شخص / نفر",
-        "ar": "شخص",
-        "es": "persona",
-        "zh": "人",
-        "ja": "人"
-      }
-    },
-    {
-      "id": "header_scenario4",
-      "header": true,
-      "texts": {
-        "en": "Scenario 4: Lost & Missing",
-        "th": "สถานการณ์ 4: ของหายและสูญหาย",
-        "fa": "سناریو ۴: گم شده و مفقودی",
-        "ar": "السيناريو 4: المفقودات",
-        "es": "Escenario 4: Perdidos y desaparecidos",
-        "zh": "场景四：遗失与寻找",
-        "ja": "シナリオ4：紛失と行方不明"
-      }
-    },
-    {
-      "id": "sentence_lost_i_am_lost",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_lost"],
-      "texts": {
-        "en": "I am lost",
-        "th": "ฉันหลงทางค่ะ",
-        "fa": "من گم شده‌ام",
-        "ar": "أنا تائه",
-        "es": "Estoy perdido",
-        "zh": "我迷路了",
-        "ja": "迷子になりました"
-      },
-      "tokens": {
-        "en": ["I", "am", "lost"],
-        "th": ["ฉัน", "หลงทาง", "ค่ะ"],
-        "fa": ["من", "گم", "شده‌ام"],
-        "ar": ["أنا", "تائه"],
-        "es": ["Estoy", "perdido"],
-        "zh": ["我", "迷路了"],
-        "ja": ["迷子", "に", "なり", "ました"]
-      }
-    },
-    {
-      "id": "sentence_lost_passport",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_lose", "word_passport"],
-      "texts": {
-        "en": "I lost my passport",
-        "th": "ฉันทำหนังสือเดินทางหายค่ะ",
-        "fa": "من گذرنامه‌ام را گم کردم",
-        "ar": "أضعت جواز سفري",
-        "es": "Perdí mi pasaporte",
-        "zh": "我的护照丢了",
-        "ja": "パスポートをなくしました"
-      },
-      "tokens": {
-        "en": ["I", "lost", "my", "passport"],
-        "th": ["ฉัน", "ทำ", "หนังสือเดินทาง", "หาย", "ค่ะ"],
-        "fa": ["من", "گذرنامه‌ام", "را", "گم", "کردم"],
-        "ar": ["أضعت", "جواز", "سفري"],
-        "es": ["Perdí", "mi", "pasaporte"],
-        "zh": ["我的", "护照", "丢了"],
-        "ja": ["パスポート", "を", "なくし", "ました"]
-      }
-    },
-    {
-      "id": "sentence_lost_bag",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_lose", "word_bag"],
-      "texts": {
-        "en": "I lost my bag",
-        "th": "ฉันทำกระเป๋าหายค่ะ",
-        "fa": "من کیفم را گم کردم",
-        "ar": "أضعت حقيبتي",
-        "es": "Perdí mi bolso",
-        "zh": "我的包丢了",
-        "ja": "カバンをなくしました"
-      },
-      "tokens": {
-        "en": ["I", "lost", "my", "bag"],
-        "th": ["ฉัน", "ทำ", "กระเป๋า", "หาย", "ค่ะ"],
-        "fa": ["من", "کیفم", "را", "گم", "کردم"],
-        "ar": ["أضعت", "حقيبتي"],
-        "es": ["Perdí", "mi", "bolso"],
-        "zh": ["我的", "包", "丢了"],
-        "ja": ["カバン", "を", "なくし", "ました"]
-      }
-    },
-    {
-      "id": "sentence_lost_wallet",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_lose", "word_wallet"],
-      "texts": {
-        "en": "I lost my wallet",
-        "th": "ฉันทำกระเป๋าสตางค์หายค่ะ",
-        "fa": "من کیف پولم را گم کردم",
-        "ar": "أضعت محفظتي",
-        "es": "Perdí mi cartera",
-        "zh": "我的钱包丢了",
-        "ja": "財布をなくしました"
-      },
-      "tokens": {
-        "en": ["I", "lost", "my", "wallet"],
-        "th": ["ฉัน", "ทำ", "กระเป๋าสตางค์", "หาย", "ค่ะ"],
-        "fa": ["من", "کیف", "پولم", "را", "گم", "کردم"],
-        "ar": ["أضعت", "محفظتي"],
-        "es": ["Perdí", "mi", "cartera"],
-        "zh": ["我的", "钱包", "丢了"],
-        "ja": ["財布", "を", "なくし", "ました"]
-      }
-    },
-    {
-      "id": "sentence_lost_where_find",
-      "kind": "sentence",
-      "itemIds": ["word_where", "word_find", "word_can"],
-      "texts": {
-        "en": "Where can I find it?",
-        "th": "ฉันจะหาได้ที่ไหนคะ",
-        "fa": "کجا می‌توانم آن را پیدا کنم؟",
-        "ar": "أين يمكنني إيجاده؟",
-        "es": "¿Dónde puedo encontrarlo?",
-        "zh": "我在哪里能找到它？",
-        "ja": "どこで見つかりますか？"
-      },
-      "tokens": {
-        "en": ["Where", "can", "I", "find", "it?"],
-        "th": ["ฉัน", "จะ", "หา", "ได้", "ที่ไหน", "คะ"],
-        "fa": ["کجا", "می‌توانم", "آن", "را", "پیدا", "کنم؟"],
-        "ar": ["أين", "يمكنني", "إيجاده؟"],
-        "es": ["¿Dónde", "puedo", "encontrarlo?"],
-        "zh": ["我", "在", "哪里", "能", "找到", "它？"],
-        "ja": ["どこ", "で", "見つかり", "ます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_lost_help_find",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_help",
-        "word_find",
-        "word_can",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Can you help me find it?",
-        "th": "คุณช่วยฉันหาได้ไหมคะ",
-        "fa": "می‌توانید به من کمک کنید آن را پیدا کنم؟",
-        "ar": "هل يمكنك مساعدتي في إيجاده؟",
-        "es": "¿Puedes ayudarme a encontrarlo?",
-        "zh": "你能帮我找一下吗？",
-        "ja": "探すのを手伝ってもらえますか？"
-      },
-      "tokens": {
-        "en": ["Can", "you", "help", "me", "find", "it?"],
-        "th": ["คุณ", "ช่วย", "ฉัน", "หา", "ได้", "ไหม", "คะ"],
-        "fa": [
-          "می‌توانید",
-          "به",
-          "من",
-          "کمک",
-          "کنید",
-          "آن",
-          "را",
-          "پیدا",
-          "کنم؟"
-        ],
-        "ar": ["هل", "يمكنك", "مساعدتي", "في", "إيجاده؟"],
-        "es": ["¿Puedes", "ayudarme", "a", "encontrarlo?"],
-        "zh": ["你", "能", "帮", "我", "找", "一下", "吗？"],
-        "ja": ["探す", "の", "を", "手伝って", "もらえます", "か？"]
-      }
-    },
-    {
-      "id": "word_lost",
-      "kind": "word",
+      "id": "w11",
+      "kind": "Word",
       "texts": {
         "en": "lost",
-        "th": "หลงทาง",
-        "fa": "گم شده",
-        "ar": "تائه / ضائع",
+        "th": "หาย",
+        "fa": "گم‌شده",
+        "ar": "مفقود",
         "es": "perdido",
-        "zh": "迷路 / 丢失",
-        "ja": "迷子 / なくした"
-      }
-    },
-    {
-      "id": "word_lose",
-      "kind": "word",
-      "texts": {
-        "en": "lose",
-        "th": "ทำหาย",
-        "fa": "گم کردن",
-        "ar": "يفقد / يضيع",
-        "es": "perder",
         "zh": "丢失",
-        "ja": "なくす"
+        "ja": "紛失"
       }
     },
     {
-      "id": "word_passport",
-      "kind": "word",
+      "id": "w12",
+      "kind": "Word",
+      "texts": {
+        "en": "wallet",
+        "th": "กระเป๋าสตางค์",
+        "fa": "کیف پول",
+        "ar": "محفظة",
+        "es": "cartera",
+        "zh": "钱包",
+        "ja": "財布"
+      }
+    },
+    {
+      "id": "w13",
+      "kind": "Word",
+      "texts": {
+        "en": "phone",
+        "th": "โทรศัพท์",
+        "fa": "تلفن",
+        "ar": "هاتف",
+        "es": "teléfono",
+        "zh": "手机",
+        "ja": "電話"
+      }
+    },
+    {
+      "id": "w14",
+      "kind": "Word",
       "texts": {
         "en": "passport",
         "th": "หนังสือเดินทาง",
@@ -1199,307 +415,513 @@
       }
     },
     {
-      "id": "word_bag",
-      "kind": "word",
+      "id": "w15",
+      "kind": "Word",
       "texts": {
-        "en": "bag",
-        "th": "กระเป๋า",
-        "fa": "کیف",
-        "ar": "حقيبة",
-        "es": "bolso / bolsa",
-        "zh": "包",
-        "ja": "カバン"
-      }
-    },
-    {
-      "id": "word_wallet",
-      "kind": "word",
-      "texts": {
-        "en": "wallet",
-        "th": "กระเป๋าสตางค์",
-        "fa": "کیف پول",
-        "ar": "محفظة",
-        "es": "cartera / billetera",
-        "zh": "钱包",
-        "ja": "財布"
-      }
-    },
-    {
-      "id": "word_find",
-      "kind": "word",
-      "texts": {
-        "en": "find",
-        "th": "หา / พบ",
-        "fa": "پیدا کردن",
-        "ar": "يجد",
-        "es": "encontrar",
+        "en": "found",
+        "th": "เจอ",
+        "fa": "پیدا شده",
+        "ar": "موجود",
+        "es": "encontrado",
         "zh": "找到",
-        "ja": "見つける"
+        "ja": "見つかる"
       }
     },
     {
-      "id": "word_where",
-      "kind": "word",
+      "id": "s11",
+      "kind": "Sentence",
       "texts": {
-        "en": "where",
-        "th": "ที่ไหน",
-        "fa": "کجا",
-        "ar": "أين",
-        "es": "dónde",
-        "zh": "哪里",
-        "ja": "どこ"
+        "en": "I lost my wallet.",
+        "th": "ฉันทำกระเป๋าสตางค์หาย",
+        "fa": "من کیف پولم را گم کردم.",
+        "ar": "لقد فقدت محفظتي.",
+        "es": "Perdí mi cartera.",
+        "zh": "我的钱包丢了。",
+        "ja": "財布をなくしました。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ทำ", "กระเป๋าสตางค์", "หาย"],
+        "zh": ["我", "的", "钱包", "丢", "了", "。"],
+        "ja": ["財布", "を", "なくし", "まし", "た", "。"]
       }
     },
     {
-      "id": "header_scenario5",
+      "id": "s12",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Where is my phone?",
+        "th": "โทรศัพท์ของฉันอยู่ที่ไหน",
+        "fa": "تلفن من کجاست؟",
+        "ar": "أين هاتفي؟",
+        "es": "¿Dónde está mi teléfono?",
+        "zh": "我的手机在哪里？",
+        "ja": "私の電話はどこですか？"
+      },
+      "tokens": {
+        "th": ["โทรศัพท์", "ของ", "ฉัน", "อยู่", "ที่", "ไหน"],
+        "zh": ["我", "的", "手机", "在", "哪里", "？"],
+        "ja": ["私", "の", "電話", "は", "どこ", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s13",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I cannot find my passport.",
+        "th": "ฉันหาหนังสือเดินทางไม่เจอ",
+        "fa": "نمی‌توانم گذرنامه‌ام را پیدا کنم.",
+        "ar": "لا يمكنني العثور على جواز سفري.",
+        "es": "No puedo encontrar mi pasaporte.",
+        "zh": "我找不到我的护照。",
+        "ja": "パスポートが見つかりません。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "หา", "หนังสือเดินทาง", "ไม่", "เจอ"],
+        "zh": ["我", "找", "不到", "我", "的", "护照", "。"],
+        "ja": ["パスポート", "が", "見つかり", "ませ", "ん", "。"]
+      }
+    },
+    {
+      "id": "s14",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Has anyone found a black bag?",
+        "th": "มีใครเจอกระเป๋าสีดำบ้างไหม",
+        "fa": "آیا کسی کیف سیاه پیدا کرده است؟",
+        "ar": "هل وجد أحد حقيبة سوداء؟",
+        "es": "¿Alguien ha encontrado una bolsa negra?",
+        "zh": "有人找到一个黑色的包吗？",
+        "ja": "黒いかばんを見つけた人はいますか？"
+      },
+      "tokens": {
+        "th": ["มี", "ใคร", "เจอ", "กระเป๋า", "สี", "ดำ", "บ้าง", "ไหม"],
+        "zh": ["有人", "找到", "一个", "黑色", "的", "包", "吗", "？"],
+        "ja": [
+          "黒い",
+          "かばん",
+          "を",
+          "見つけ",
+          "た",
+          "人",
+          "は",
+          "い",
+          "ます",
+          "か",
+          "？"
+        ]
+      }
+    },
+    {
+      "id": "s15",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I need to report a lost item.",
+        "th": "ฉันต้องการแจ้งของหาย",
+        "fa": "من باید یک شیء گم‌شده را گزارش دهم.",
+        "ar": "أحتاج إلى الإبلاغ عن شيء مفقود.",
+        "es": "Necesito reportar un objeto perdido.",
+        "zh": "我需要报告遗失物品。",
+        "ja": "紛失物を届け出る必要があります。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้องการ", "แจ้ง", "ของ", "หาย"],
+        "zh": ["我", "需要", "报告", "遗失", "物品", "。"],
+        "ja": ["紛失物", "を", "届け出る", "必要", "が", "あり", "ます", "。"]
+      }
+    },
+
+    {
+      "id": "h4",
       "header": true,
       "texts": {
-        "en": "Scenario 5: Accidents & Crime",
-        "th": "สถานการณ์ 5: อุบัติเหตุและอาชญากรรม",
-        "fa": "سناریو ۵: تصادفات و جرم",
-        "ar": "السيناريو 5: الحوادث والجرائم",
-        "es": "Escenario 5: Accidentes y crímenes",
-        "zh": "场景五：事故与犯罪",
-        "ja": "シナリオ5：事故と犯罪"
+        "en": "Scenario 4: Getting Lost",
+        "th": "สถานการณ์ที่ 4: การหลงทาง",
+        "fa": "سناریو ۴: گم شدن",
+        "ar": "السيناريو 4: الضياع",
+        "es": "Escenario 4: Perderse",
+        "zh": "场景 4：迷路",
+        "ja": "シナリオ 4：道に迷う"
       }
     },
     {
-      "id": "sentence_crime_thief",
-      "kind": "sentence",
-      "itemIds": ["word_thief"],
+      "id": "w16",
+      "kind": "Word",
       "texts": {
-        "en": "Thief!",
-        "th": "ขโมย!",
-        "fa": "دزد!",
-        "ar": "لص!",
-        "es": "¡Ladrón!",
-        "zh": "小偷！",
-        "ja": "泥棒！"
+        "en": "lost",
+        "th": "หลงทาง",
+        "fa": "گم‌شده",
+        "ar": "ضائع",
+        "es": "perdido",
+        "zh": "迷路",
+        "ja": "迷う"
+      }
+    },
+    {
+      "id": "w17",
+      "kind": "Word",
+      "texts": {
+        "en": "map",
+        "th": "แผนที่",
+        "fa": "نقشه",
+        "ar": "خريطة",
+        "es": "mapa",
+        "zh": "地图",
+        "ja": "地図"
+      }
+    },
+    {
+      "id": "w18",
+      "kind": "Word",
+      "texts": {
+        "en": "directions",
+        "th": "ทิศทาง",
+        "fa": "جهت‌ها",
+        "ar": "اتجاهات",
+        "es": "direcciones",
+        "zh": "方向",
+        "ja": "道順"
+      }
+    },
+    {
+      "id": "w19",
+      "kind": "Word",
+      "texts": {
+        "en": "guide",
+        "th": "ไกด์",
+        "fa": "راهنما",
+        "ar": "دليل",
+        "es": "guía",
+        "zh": "向导",
+        "ja": "ガイド"
+      }
+    },
+    {
+      "id": "w20",
+      "kind": "Word",
+      "texts": {
+        "en": "address",
+        "th": "ที่อยู่",
+        "fa": "آدرس",
+        "ar": "عنوان",
+        "es": "dirección",
+        "zh": "地址",
+        "ja": "住所"
+      }
+    },
+    {
+      "id": "s16",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I am completely lost.",
+        "th": "ฉันหลงทางอย่างสมบูรณ์",
+        "fa": "من کاملاً گم شده‌ام.",
+        "ar": "أنا ضائع تماماً.",
+        "es": "Estoy completamente perdido.",
+        "zh": "我完全迷路了。",
+        "ja": "私は完全に道に迷いました。"
       },
       "tokens": {
-        "en": ["Thief!"],
-        "th": ["ขโมย!"],
-        "fa": ["دزد!"],
-        "ar": ["لص!"],
-        "es": ["¡Ladrón!"],
-        "zh": ["小偷！"],
-        "ja": ["泥棒！"]
+        "th": ["ฉัน", "หลงทาง", "อย่าง", "สมบูรณ์"],
+        "zh": ["我", "完全", "迷路", "了", "。"],
+        "ja": ["私", "は", "完全に", "道", "に", "迷い", "まし", "た", "。"]
       }
     },
     {
-      "id": "sentence_crime_stolen",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_steal", "word_wallet"],
+      "id": "s17",
+      "kind": "Sentence",
       "texts": {
-        "en": "My wallet was stolen",
-        "th": "กระเป๋าสตางค์ของฉันถูกขโมยค่ะ",
-        "fa": "کیف پولم دزدیده شد",
-        "ar": "سُرقت محفظتي",
-        "es": "Me robaron la cartera",
-        "zh": "我的钱包被偷了",
-        "ja": "財布を盗まれました"
+        "en": "Can you show me on the map?",
+        "th": "คุณช่วยชี้ให้ฉันดูบนแผนที่ได้ไหม",
+        "fa": "آیا می‌توانید روی نقشه به من نشان دهید؟",
+        "ar": "هل يمكنك إظهار ذلك لي على الخريطة؟",
+        "es": "¿Puedes mostrármelo en el mapa?",
+        "zh": "你能在地图上指给我看吗？",
+        "ja": "地図で示してもらえますか？"
       },
       "tokens": {
-        "en": ["My", "wallet", "was", "stolen"],
-        "th": ["กระเป๋าสตางค์", "ของ", "ฉัน", "ถูก", "ขโมย", "ค่ะ"],
-        "fa": ["کیف", "پولم", "دزدیده", "شد"],
-        "ar": ["سُرقت", "محفظتي"],
-        "es": ["Me", "robaron", "la", "cartera"],
-        "zh": ["我的", "钱包", "被", "偷了"],
-        "ja": ["財布", "を", "盗まれ", "ました"]
+        "th": [
+          "คุณ",
+          "ช่วย",
+          "ชี้",
+          "ให้",
+          "ฉัน",
+          "ดู",
+          "บน",
+          "แผนที่",
+          "ได้",
+          "ไหม"
+        ],
+        "zh": [
+          "你",
+          "能",
+          "在",
+          "地图",
+          "上",
+          "指",
+          "给",
+          "我",
+          "看",
+          "吗",
+          "？"
+        ],
+        "ja": ["地図", "で", "示し", "て", "もらえ", "ます", "か", "？"]
       }
     },
     {
-      "id": "sentence_crime_accident",
-      "kind": "sentence",
-      "itemIds": ["word_accident", "word_happen"],
+      "id": "s18",
+      "kind": "Sentence",
       "texts": {
-        "en": "There was an accident",
-        "th": "มีอุบัติเหตุเกิดขึ้นค่ะ",
-        "fa": "تصادفی اتفاق افتاد",
-        "ar": "حدث حادث",
-        "es": "Hubo un accidente",
-        "zh": "发生了事故",
-        "ja": "事故がありました"
+        "en": "I don't know the way.",
+        "th": "ฉันไม่รู้จักทาง",
+        "fa": "من راه را نمی‌دانم.",
+        "ar": "لا أعرف الطريق.",
+        "es": "No sé el camino.",
+        "zh": "我不知道路。",
+        "ja": "道がわかりません。"
       },
       "tokens": {
-        "en": ["There", "was", "an", "accident"],
-        "th": ["มี", "อุบัติเหตุ", "เกิด", "ขึ้น", "ค่ะ"],
-        "fa": ["تصادفی", "اتفاق", "افتاد"],
-        "ar": ["حدث", "حادث"],
-        "es": ["Hubo", "un", "accidente"],
-        "zh": ["发生", "了", "事故"],
-        "ja": ["事故", "が", "あり", "ました"]
+        "th": ["ฉัน", "ไม่", "รู้จัก", "ทาง"],
+        "zh": ["我", "不", "知道", "路", "。"],
+        "ja": ["道", "が", "わかり", "ませ", "ん", "。"]
       }
     },
     {
-      "id": "sentence_crime_friend_hurt",
-      "kind": "sentence",
-      "itemIds": ["word_friend", "word_hurt"],
+      "id": "s19",
+      "kind": "Sentence",
       "texts": {
-        "en": "My friend is hurt",
-        "th": "เพื่อนของฉันบาดเจ็บค่ะ",
-        "fa": "دوستم زخمی شده است",
-        "ar": "صديقي مصاب",
-        "es": "Mi amigo está herido",
-        "zh": "我的朋友受伤了",
-        "ja": "友達が怪我をしました"
+        "en": "Do you have a local guide?",
+        "th": "คุณมีไกด์ท้องถิ่นไหม",
+        "fa": "آیا راهنمای محلی دارید؟",
+        "ar": "هل لديك دليل محلي؟",
+        "es": "¿Tienes un guía local?",
+        "zh": "你有当地向导吗？",
+        "ja": "地元のガイドはいますか？"
       },
       "tokens": {
-        "en": ["My", "friend", "is", "hurt"],
-        "th": ["เพื่อน", "ของ", "ฉัน", "บาดเจ็บ", "ค่ะ"],
-        "fa": ["دوستم", "زخمی", "شده", "است"],
-        "ar": ["صديقي", "مصاب"],
-        "es": ["Mi", "amigo", "está", "herido"],
-        "zh": ["我的", "朋友", "受伤了"],
-        "ja": ["友達", "が", "怪我", "を", "しました"]
+        "th": ["คุณ", "มี", "ไกด์", "ท้องถิ่น", "ไหม"],
+        "zh": ["你", "有", "当地", "向导", "吗", "？"],
+        "ja": ["地元", "の", "ガイド", "は", "い", "ます", "か", "？"]
       }
     },
     {
-      "id": "sentence_crime_are_you_okay",
-      "kind": "sentence",
-      "itemIds": ["word_you", "word_okay", "word_question_particle"],
+      "id": "s20",
+      "kind": "Sentence",
       "texts": {
-        "en": "Are you okay?",
-        "th": "คุณไม่เป็นไรใช่ไหมคะ",
-        "fa": "آیا شما خوب هستید؟",
-        "ar": "هل أنت بخير؟",
-        "es": "¿Estás bien?",
-        "zh": "你没事吧？",
-        "ja": "大丈夫ですか？"
+        "en": "Here is my hotel address.",
+        "th": "นี่คือที่อยู่โรงแรมของฉัน",
+        "fa": "این آدرس هتل من است.",
+        "ar": "إليك عنوان فندقي.",
+        "es": "Aquí está la dirección de mi hotel.",
+        "zh": "这是我的酒店地址。",
+        "ja": "これが私のホテルの住所です。"
       },
       "tokens": {
-        "en": ["Are", "you", "okay?"],
-        "th": ["คุณ", "ไม่", "เป็นไร", "ใช่ไหม", "คะ"],
-        "fa": ["آیا", "شما", "خوب", "هستید؟"],
-        "ar": ["هل", "أنت", "بخير؟"],
-        "es": ["¿Estás", "bien?"],
-        "zh": ["你", "没事", "吧？"],
-        "ja": ["大丈夫", "です", "か？"]
+        "th": ["นี่", "คือ", "ที่อยู่", "โรงแรม", "ของ", "ฉัน"],
+        "zh": ["这", "是", "我", "的", "酒店", "地址", "。"],
+        "ja": ["これ", "が", "私", "の", "ホテル", "の", "住所", "です", "。"]
+      }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Asking for Assistance",
+        "th": "สถานการณ์ที่ 5: การขอความช่วยเหลือ",
+        "fa": "سناریو ۵: درخواست کمک",
+        "ar": "السيناريو 5: طلب المساعدة",
+        "es": "Escenario 5: Pedir asistencia",
+        "zh": "场景 5：请求协助",
+        "ja": "シナリオ 5：支援を求める"
       }
     },
     {
-      "id": "sentence_crime_i_am_okay",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_okay"],
+      "id": "w21",
+      "kind": "Word",
       "texts": {
-        "en": "I am okay",
-        "th": "ฉันไม่เป็นไรค่ะ",
-        "fa": "من خوب هستم",
-        "ar": "أنا بخير",
-        "es": "Estoy bien",
-        "zh": "我没事",
-        "ja": "大丈夫です"
+        "en": "assist",
+        "th": "ช่วยเหลือ",
+        "fa": "کمک",
+        "ar": "مساعدة",
+        "es": "asistir",
+        "zh": "协助",
+        "ja": "支援"
+      }
+    },
+    {
+      "id": "w22",
+      "kind": "Word",
+      "texts": {
+        "en": "carry",
+        "th": "ถือ/แบก",
+        "fa": "حمل کردن",
+        "ar": "حمل",
+        "es": "llevar",
+        "zh": "拿",
+        "ja": "運ぶ"
+      }
+    },
+    {
+      "id": "w23",
+      "kind": "Word",
+      "texts": {
+        "en": "open",
+        "th": "เปิด",
+        "fa": "باز کردن",
+        "ar": "فتح",
+        "es": "abrir",
+        "zh": "打开",
+        "ja": "開ける"
+      }
+    },
+    {
+      "id": "w24",
+      "kind": "Word",
+      "texts": {
+        "en": "understand",
+        "th": "เข้าใจ",
+        "fa": "فهمیدن",
+        "ar": "فهم",
+        "es": "entender",
+        "zh": "理解",
+        "ja": "理解する"
+      }
+    },
+    {
+      "id": "w25",
+      "kind": "Word",
+      "texts": {
+        "en": "speak slowly",
+        "th": "พูดช้าๆ",
+        "fa": "آهسته صحبت کنید",
+        "ar": "تحدث ببطء",
+        "es": "habla despacio",
+        "zh": "慢点说",
+        "ja": "ゆっくり話す"
+      }
+    },
+    {
+      "id": "s21",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Can you assist me with this?",
+        "th": "คุณช่วยฉันเรื่องนี้ได้ไหม",
+        "fa": "آیا می‌توانید در این مورد به من کمک کنید؟",
+        "ar": "هل يمكنك مساعدتي في هذا؟",
+        "es": "¿Puedes asistirme con esto?",
+        "zh": "你能帮我处理这个吗？",
+        "ja": "これで支援してもらえますか？"
       },
       "tokens": {
-        "en": ["I", "am", "okay"],
-        "th": ["ฉัน", "ไม่", "เป็นไร", "ค่ะ"],
-        "fa": ["من", "خوب", "هستم"],
-        "ar": ["أنا", "بخير"],
-        "es": ["Estoy", "bien"],
-        "zh": ["我", "没事"],
-        "ja": ["大丈夫", "です"]
+        "th": ["คุณ", "ช่วย", "ฉัน", "เรื่อง", "นี้", "ได้", "ไหม"],
+        "zh": ["你", "能", "帮", "我", "处理", "这个", "吗", "？"],
+        "ja": ["これ", "で", "支援", "し", "て", "もらえ", "ます", "か", "？"]
       }
     },
     {
-      "id": "sentence_crime_dangerous",
-      "kind": "sentence",
-      "itemIds": ["word_dangerous"],
+      "id": "s22",
+      "kind": "Sentence",
       "texts": {
-        "en": "It is dangerous",
-        "th": "อันตรายค่ะ",
-        "fa": "خطرناک است",
-        "ar": "إنه خطير",
-        "es": "Es peligroso",
-        "zh": "很危险",
-        "ja": "危険です"
+        "en": "Please help me carry this bag.",
+        "th": "กรุณาช่วยฉันถือกระเป๋าใบนี้",
+        "fa": "لطفاً در حمل این کیف به من کمک کنید.",
+        "ar": "يرجى مساعدتي في حمل هذه الحقيبة.",
+        "es": "Por favor, ayúdame a llevar esta bolsa.",
+        "zh": "请帮我拿这个包。",
+        "ja": "このかばんを運ぶのを手伝ってください。"
       },
       "tokens": {
-        "en": ["It", "is", "dangerous"],
-        "th": ["อันตราย", "ค่ะ"],
-        "fa": ["خطرناک", "است"],
-        "ar": ["إنه", "خطير"],
-        "es": ["Es", "peligroso"],
-        "zh": ["很", "危险"],
-        "ja": ["危険", "です"]
+        "th": ["กรุณา", "ช่วย", "ฉัน", "ถือ", "กระเป๋า", "ใบ", "นี้"],
+        "zh": ["请", "帮", "我", "拿", "这个", "包", "。"],
+        "ja": [
+          "この",
+          "かばん",
+          "を",
+          "運ぶ",
+          "の",
+          "を",
+          "手伝っ",
+          "て",
+          "ください",
+          "。"
+        ]
       }
     },
     {
-      "id": "word_thief",
-      "kind": "word",
+      "id": "s23",
+      "kind": "Sentence",
       "texts": {
-        "en": "thief",
-        "th": "ขโมย",
-        "fa": "دزد",
-        "ar": "لص / سارق",
-        "es": "ladrón",
-        "zh": "小偷",
-        "ja": "泥棒"
+        "en": "Can you open the door for me?",
+        "th": "คุณช่วยเปิดประตูให้ฉันได้ไหม",
+        "fa": "آیا می‌توانید در را برای من باز کنید؟",
+        "ar": "هل يمكنك فتح الباب لي؟",
+        "es": "¿Puedes abrirme la puerta?",
+        "zh": "你能帮我开门吗？",
+        "ja": "ドアを開けてもらえますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "ช่วย", "เปิด", "ประตู", "ให้", "ฉัน", "ได้", "ไหม"],
+        "zh": ["你", "能", "帮", "我", "开门", "吗", "？"],
+        "ja": ["ドア", "を", "開け", "て", "もらえ", "ます", "か", "？"]
       }
     },
     {
-      "id": "word_steal",
-      "kind": "word",
+      "id": "s24",
+      "kind": "Sentence",
       "texts": {
-        "en": "steal",
-        "th": "ขโมย",
-        "fa": "دزدیدن",
-        "ar": "يسرق",
-        "es": "robar",
-        "zh": "偷",
-        "ja": "盗む"
+        "en": "I don't understand, please repeat.",
+        "th": "ฉันไม่เข้าใจ กรุณาพูดซ้ำ",
+        "fa": "من نمی‌فهمم، لطفاً تکرار کنید.",
+        "ar": "لا أفهم، يرجى التكرار.",
+        "es": "No entiendo, por favor repite.",
+        "zh": "我不明白，请重复一遍。",
+        "ja": "わかりません、もう一度言ってください。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ไม่", "เข้าใจ", " ", "กรุณา", "พูด", "ซ้ำ"],
+        "zh": ["我", "不", "明白", "，", "请", "重复", "一遍", "。"],
+        "ja": [
+          "わかり",
+          "ませ",
+          "ん",
+          "、",
+          "もう",
+          "一度",
+          "言っ",
+          "て",
+          "ください",
+          "。"
+        ]
       }
     },
     {
-      "id": "word_accident",
-      "kind": "word",
+      "id": "s25",
+      "kind": "Sentence",
       "texts": {
-        "en": "accident",
-        "th": "อุบัติเหตุ",
-        "fa": "تصادف / حادثه",
-        "ar": "حادث",
-        "es": "accidente",
-        "zh": "事故",
-        "ja": "事故"
-      }
-    },
-    {
-      "id": "word_friend",
-      "kind": "word",
-      "texts": {
-        "en": "friend",
-        "th": "เพื่อน",
-        "fa": "دوست",
-        "ar": "صديق",
-        "es": "amigo",
-        "zh": "朋友",
-        "ja": "友達"
-      }
-    },
-    {
-      "id": "word_okay",
-      "kind": "word",
-      "texts": {
-        "en": "okay / fine",
-        "th": "ไม่เป็นไร / สบายดี",
-        "fa": "خوب / مشکلی نیست",
-        "ar": "بخير / جيد",
-        "es": "bien",
-        "zh": "好 / 没事",
-        "ja": "大丈夫"
-      }
-    },
-    {
-      "id": "word_dangerous",
-      "kind": "word",
-      "texts": {
-        "en": "dangerous",
-        "th": "อันตราย",
-        "fa": "خطرناک",
-        "ar": "خطير",
-        "es": "peligroso",
-        "zh": "危险",
-        "ja": "危険"
+        "en": "Please speak slowly, I am learning.",
+        "th": "กรุณาพูดช้าๆ ฉันกำลังเรียนรู้",
+        "fa": "لطفاً آهسته صحبت کنید، من در حال یادگیری هستم.",
+        "ar": "يرجى التحدث ببطء، أنا أتعلم.",
+        "es": "Por favor habla despacio, estoy aprendiendo.",
+        "zh": "请慢点说，我正在学习。",
+        "ja": "ゆっくり話してください、私は勉強中です。"
+      },
+      "tokens": {
+        "th": ["กรุณา", "พูด", "ช้าๆ", " ", "ฉัน", "กำลัง", "เรียนรู้"],
+        "zh": ["请", "慢点", "说", "，", "我", "正在", "学习", "。"],
+        "ja": [
+          "ゆっくり",
+          "話し",
+          "て",
+          "ください",
+          "、",
+          "私",
+          "は",
+          "勉強",
+          "中",
+          "です",
+          "。"
+        ]
       }
     }
   ]

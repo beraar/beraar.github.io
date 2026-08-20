@@ -2,242 +2,47 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "h1",
       "header": true,
       "texts": {
-        "en": "Core Words",
-        "th": "คำศัพท์หลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras clave",
-        "zh": "核心词汇",
-        "ja": "基本単語"
+        "en": "Scenario 1: Suggestions",
+        "th": "สถานการณ์ที่ 1: การเสนอแนะ",
+        "fa": "سناریو ۱: پیشنهادات",
+        "ar": "السيناريو 1: الاقتراحات",
+        "es": "Escenario 1: Sugerencias",
+        "zh": "场景 1：提议",
+        "ja": "シナリオ 1：提案"
       }
     },
     {
-      "id": "word_i",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
+        "en": "suggest",
+        "th": "แนะนำ",
+        "fa": "پیشنهاد",
+        "ar": "يقترح",
+        "es": "sugerir",
+        "zh": "建议",
+        "ja": "提案"
       }
     },
     {
-      "id": "word_you",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
       "texts": {
-        "en": "you",
-        "th": "คุณ",
-        "fa": "شما",
-        "ar": "أنت",
-        "es": "tú",
-        "zh": "你",
-        "ja": "あなた"
+        "en": "idea",
+        "th": "ความคิด",
+        "fa": "ایده",
+        "ar": "فكرة",
+        "es": "idea",
+        "zh": "主意",
+        "ja": "アイデア"
       }
     },
     {
-      "id": "word_we",
-      "kind": "word",
-      "texts": {
-        "en": "we",
-        "th": "เรา",
-        "fa": "ما",
-        "ar": "نحن",
-        "es": "nosotros",
-        "zh": "我们",
-        "ja": "私たち"
-      }
-    },
-    {
-      "id": "word_yes",
-      "kind": "word",
-      "texts": {
-        "en": "yes",
-        "th": "ใช่",
-        "fa": "بله",
-        "ar": "نعم",
-        "es": "sí",
-        "zh": "是",
-        "ja": "はい"
-      }
-    },
-    {
-      "id": "word_not",
-      "kind": "word",
-      "texts": {
-        "en": "not",
-        "th": "ไม่",
-        "fa": "نه",
-        "ar": "لا",
-        "es": "no",
-        "zh": "不",
-        "ja": "ない"
-      }
-    },
-    {
-      "id": "word_question_particle",
-      "kind": "word",
-      "texts": {
-        "en": "question marker",
-        "th": "ไหม",
-        "fa": "آیا",
-        "ar": "هل",
-        "es": "partícula interrogativa",
-        "zh": "吗",
-        "ja": "か"
-      }
-    },
-    {
-      "id": "word_want",
-      "kind": "word",
-      "texts": {
-        "en": "want",
-        "th": "ต้องการ",
-        "fa": "خواستن",
-        "ar": "يريد",
-        "es": "querer",
-        "zh": "想要",
-        "ja": "欲しい"
-      }
-    },
-    {
-      "id": "word_can",
-      "kind": "word",
-      "texts": {
-        "en": "can",
-        "th": "สามารถ",
-        "fa": "توانستن",
-        "ar": "يستطيع",
-        "es": "poder",
-        "zh": "可以",
-        "ja": "できる"
-      }
-    },
-    {
-      "id": "word_go",
-      "kind": "word",
-      "texts": {
-        "en": "go",
-        "th": "ไป",
-        "fa": "رفتن",
-        "ar": "يذهب",
-        "es": "ir",
-        "zh": "去",
-        "ja": "行く"
-      }
-    },
-    {
-      "id": "word_eat",
-      "kind": "word",
-      "texts": {
-        "en": "eat",
-        "th": "กิน",
-        "fa": "خوردن",
-        "ar": "يأكل",
-        "es": "comer",
-        "zh": "吃",
-        "ja": "食べる"
-      }
-    },
-    {
-      "id": "word_free",
-      "kind": "word",
-      "texts": {
-        "en": "free",
-        "th": "ว่าง",
-        "fa": "آزاد",
-        "ar": "متفرغ",
-        "es": "libre",
-        "zh": "空闲",
-        "ja": "空いている"
-      }
-    },
-    {
-      "id": "word_busy",
-      "kind": "word",
-      "texts": {
-        "en": "busy",
-        "th": "ยุ่ง",
-        "fa": "مشغول",
-        "ar": "مشغول",
-        "es": "ocupado",
-        "zh": "忙",
-        "ja": "忙しい"
-      }
-    },
-    {
-      "id": "word_today",
-      "kind": "word",
-      "texts": {
-        "en": "today",
-        "th": "วันนี้",
-        "fa": "امروز",
-        "ar": "اليوم",
-        "es": "hoy",
-        "zh": "今天",
-        "ja": "今日"
-      }
-    },
-    {
-      "id": "word_tomorrow",
-      "kind": "word",
-      "texts": {
-        "en": "tomorrow",
-        "th": "พรุ่งนี้",
-        "fa": "فردا",
-        "ar": "غدا",
-        "es": "mañana",
-        "zh": "明天",
-        "ja": "明日"
-      }
-    },
-    {
-      "id": "word_weekend",
-      "kind": "word",
-      "texts": {
-        "en": "weekend",
-        "th": "สุดสัปดาห์",
-        "fa": "آخر هفته",
-        "ar": "عطلة نهاية الأسبوع",
-        "es": "fin de semana",
-        "zh": "周末",
-        "ja": "週末"
-      }
-    },
-    {
-      "id": "word_saturday",
-      "kind": "word",
-      "texts": {
-        "en": "Saturday",
-        "th": "วันเสาร์",
-        "fa": "شنبه",
-        "ar": "السبت",
-        "es": "sábado",
-        "zh": "星期六",
-        "ja": "土曜日"
-      }
-    },
-    {
-      "id": "word_sunday",
-      "kind": "word",
-      "texts": {
-        "en": "Sunday",
-        "th": "วันอาทิตย์",
-        "fa": "یکشنبه",
-        "ar": "الأحد",
-        "es": "domingo",
-        "zh": "星期日",
-        "ja": "日曜日"
-      }
-    },
-    {
-      "id": "word_maybe",
-      "kind": "word",
+      "id": "w3",
+      "kind": "Word",
       "texts": {
         "en": "maybe",
         "th": "บางที",
@@ -249,12 +54,538 @@
       }
     },
     {
-      "id": "word_definitely",
-      "kind": "word",
+      "id": "w4",
+      "kind": "Word",
+      "texts": {
+        "en": "how about",
+        "th": "แล้ว...ล่ะ",
+        "fa": "چطور است",
+        "ar": "ماذا عن",
+        "es": "qué tal",
+        "zh": "...怎么样",
+        "ja": "～はどう"
+      }
+    },
+    {
+      "id": "w5",
+      "kind": "Word",
+      "texts": {
+        "en": "let's",
+        "th": "เรามา...กัน",
+        "fa": "بیایید",
+        "ar": "لن",
+        "es": "vamos a",
+        "zh": "让我们",
+        "ja": "～しよう"
+      }
+    },
+    {
+      "id": "s1",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I have a suggestion.",
+        "th": "ฉันมีข้อเสนอแนะ",
+        "fa": "من یک پیشنهاد دارم.",
+        "ar": "لدي اقتراح.",
+        "es": "Tengo una sugerencia.",
+        "zh": "我有一个建议。",
+        "ja": "私に提案があります。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "มี", "ข้อเสนอแนะ"],
+        "zh": ["我", "有", "一个", "建议", "。"],
+        "ja": ["私", "に", "提案", "が", "あり", "ます", "。"]
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "Sentence",
+      "texts": {
+        "en": "That is a good idea.",
+        "th": "นั่นเป็นความคิดที่ดี",
+        "fa": "آن ایده خوبی است.",
+        "ar": "تلك فكرة جيدة.",
+        "es": "Esa es una buena idea.",
+        "zh": "那是个好主意。",
+        "ja": "それは良いアイデアです。"
+      },
+      "tokens": {
+        "th": ["นั่น", "เป็น", "ความคิด", "ที่", "ดี"],
+        "zh": ["那", "是", "个", "好", "主意", "。"],
+        "ja": ["それ", "は", "良い", "アイデア", "です", "。"]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Maybe we can go to the park.",
+        "th": "บางทีเราอาจจะไปสวนสาธารณะ",
+        "fa": "شاید بتوانیم به پارک برویم.",
+        "ar": "ربما يمكننا الذهاب إلى الحديقة.",
+        "es": "Tal vez podamos ir al parque.",
+        "zh": "也许我们可以去公园。",
+        "ja": "たぶん公園に行けるかもしれません。"
+      },
+      "tokens": {
+        "th": ["บางที", "เรา", "อาจ", "จะ", "ไป", "สวนสาธารณะ"],
+        "zh": ["也许", "我们", "可以", "去", "公园", "。"],
+        "ja": [
+          "たぶん",
+          "公園",
+          "に",
+          "行ける",
+          "か",
+          "も",
+          "しれ",
+          "ませ",
+          "ん",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "How about watching a movie?",
+        "th": "ไปดูหนังกันไหม",
+        "fa": "چطور است فیلم تماشا کنیم؟",
+        "ar": "ماذا عن مشاهدة فيلم؟",
+        "es": "¿Qué tal ver una película?",
+        "zh": "看电影怎么样？",
+        "ja": "映画を見るのはどうですか？"
+      },
+      "tokens": {
+        "th": ["ไป", "ดู", "หนัง", "กัน", "ไหม"],
+        "zh": ["看", "电影", "怎么样", "？"],
+        "ja": ["映画", "を", "見る", "の", "は", "どう", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Let's go shopping.",
+        "th": "ไปช้อปปิ้งกันเถอะ",
+        "fa": "بیایید به خرید برویم.",
+        "ar": "لنذهب للتسوق.",
+        "es": "Vamos de compras.",
+        "zh": "我们去购物吧。",
+        "ja": "買い物に行きましょう。"
+      },
+      "tokens": {
+        "th": ["ไป", "ช้อปปิ้ง", "กัน", "เถอะ"],
+        "zh": ["我们", "去", "购物", "吧", "。"],
+        "ja": ["買い物", "に", "行き", "まし", "ょう", "。"]
+      }
+    },
+
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Availability",
+        "th": "สถานการณ์ที่ 2: ความสะดวก",
+        "fa": "سناریو ۲: در دسترس بودن",
+        "ar": "السيناريو 2: التوفر",
+        "es": "Escenario 2: Disponibilidad",
+        "zh": "场景 2：是否有空",
+        "ja": "シナリオ 2：都合"
+      }
+    },
+    {
+      "id": "w6",
+      "kind": "Word",
+      "texts": {
+        "en": "available",
+        "th": "ว่าง",
+        "fa": "موجود",
+        "ar": "متاح",
+        "es": "disponible",
+        "zh": "有空",
+        "ja": "予定が空いている"
+      }
+    },
+    {
+      "id": "w7",
+      "kind": "Word",
+      "texts": {
+        "en": "free",
+        "th": "ว่าง",
+        "fa": "آزاد",
+        "ar": "حر",
+        "es": "libre",
+        "zh": "空闲",
+        "ja": "暇"
+      }
+    },
+    {
+      "id": "w8",
+      "kind": "Word",
+      "texts": {
+        "en": "schedule",
+        "th": "ตารางเวลา",
+        "fa": "برنامه",
+        "ar": "جدول",
+        "es": "horario",
+        "zh": "日程",
+        "ja": "スケジュール"
+      }
+    },
+    {
+      "id": "w9",
+      "kind": "Word",
+      "texts": {
+        "en": "check",
+        "th": "ตรวจสอบ",
+        "fa": "بررسی",
+        "ar": "تحقق",
+        "es": "verificar",
+        "zh": "检查",
+        "ja": "確認"
+      }
+    },
+    {
+      "id": "w10",
+      "kind": "Word",
+      "texts": {
+        "en": "time",
+        "th": "เวลา",
+        "fa": "زمان",
+        "ar": "وقت",
+        "es": "tiempo",
+        "zh": "时间",
+        "ja": "時間"
+      }
+    },
+    {
+      "id": "s6",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Are you available tomorrow?",
+        "th": "พรุ่งนี้คุณว่างไหม",
+        "fa": "آیا فردا وقت دارید؟",
+        "ar": "هل أنت متاح غداً؟",
+        "es": "¿Estás disponible mañana?",
+        "zh": "你明天有空吗？",
+        "ja": "明日は予定が空いていますか？"
+      },
+      "tokens": {
+        "th": ["พรุ่งนี้", "คุณ", "ว่าง", "ไหม"],
+        "zh": ["你", "明天", "有", "空", "吗", "？"],
+        "ja": [
+          "明日",
+          "は",
+          "予定",
+          "が",
+          "空い",
+          "て",
+          "い",
+          "ます",
+          "か",
+          "？"
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I am free this afternoon.",
+        "th": "ฉันว่างบ่ายนี้",
+        "fa": "من امروز بعدازظهر آزاد هستم.",
+        "ar": "أنا حر هذا المساء.",
+        "es": "Estoy libre esta tarde.",
+        "zh": "我今天下午有空。",
+        "ja": "私は今日の午後は暇です。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ว่าง", "บ่าย", "นี้"],
+        "zh": ["我", "今天", "下午", "有", "空", "。"],
+        "ja": ["私", "は", "今日", "の", "午後", "は", "暇", "です", "。"]
+      }
+    },
+    {
+      "id": "s8",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Let me check my schedule.",
+        "th": "ให้ฉันตรวจสอบตารางเวลาก่อน",
+        "fa": "بگذارید برنامه‌ام را بررسی کنم.",
+        "ar": "دعني أتحقق من جدولي.",
+        "es": "Déjame verificar mi horario.",
+        "zh": "让我查一下我的日程。",
+        "ja": "私のスケジュールを確認させてください。"
+      },
+      "tokens": {
+        "th": ["ให้", "ฉัน", "ตรวจสอบ", "ตารางเวลา", "ก่อน"],
+        "zh": ["让", "我", "查", "一下", "我", "的", "日程", "。"],
+        "ja": [
+          "私",
+          "の",
+          "スケジュール",
+          "を",
+          "確認",
+          "させ",
+          "て",
+          "ください",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s9",
+      "kind": "Sentence",
+      "texts": {
+        "en": "What time works for you?",
+        "th": "เวลาไหนสะดวกสำหรับคุณ",
+        "fa": "چه زمانی برای شما مناسب است؟",
+        "ar": "ما هو الوقت المناسب لك؟",
+        "es": "¿Qué hora te conviene?",
+        "zh": "你什么时间方便？",
+        "ja": "何時がご都合よろしいですか？"
+      },
+      "tokens": {
+        "th": ["เวลา", "ไหน", "สะดวก", "สำหรับ", "คุณ"],
+        "zh": ["你", "什么", "时间", "方便", "？"],
+        "ja": ["何時", "が", "ご", "都合", "よろしい", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s10",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I have time in the evening.",
+        "th": "ฉันมีเวลาในตอนเย็น",
+        "fa": "من عصر وقت دارم.",
+        "ar": "لدي وقت في المساء.",
+        "es": "Tengo tiempo por la noche.",
+        "zh": "我晚上有时间。",
+        "ja": "私は夜に時間があります。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "มี", "เวลา", "ใน", "ตอน", "เย็น"],
+        "zh": ["我", "晚上", "有", "时间", "。"],
+        "ja": ["私", "は", "夜", "に", "時間", "が", "あり", "ます", "。"]
+      }
+    },
+
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Logistics",
+        "th": "สถานการณ์ที่ 3: การเดินทางและสถานที่",
+        "fa": "سناریو ۳: تدارکات",
+        "ar": "السيناريو 3: اللوجستيات",
+        "es": "Escenario 3: Logística",
+        "zh": "场景 3：后勤安排",
+        "ja": "シナリオ 3：手配"
+      }
+    },
+    {
+      "id": "w11",
+      "kind": "Word",
+      "texts": {
+        "en": "meet",
+        "th": "พบ",
+        "fa": "ملاقات",
+        "ar": "يلتقي",
+        "es": "reunirse",
+        "zh": "见面",
+        "ja": "会う"
+      }
+    },
+    {
+      "id": "w12",
+      "kind": "Word",
+      "texts": {
+        "en": "location",
+        "th": "สถานที่",
+        "fa": "مکان",
+        "ar": "موقع",
+        "es": "ubicación",
+        "zh": "地点",
+        "ja": "場所"
+      }
+    },
+    {
+      "id": "w13",
+      "kind": "Word",
+      "texts": {
+        "en": "transport",
+        "th": "การขนส่ง",
+        "fa": "حمل و نقل",
+        "ar": "نقل",
+        "es": "transporte",
+        "zh": "交通",
+        "ja": "交通"
+      }
+    },
+    {
+      "id": "w14",
+      "kind": "Word",
+      "texts": {
+        "en": "drive",
+        "th": "ขับรถ",
+        "fa": "رانندگی",
+        "ar": "يقود",
+        "es": "conducir",
+        "zh": "开车",
+        "ja": "運転"
+      }
+    },
+    {
+      "id": "w15",
+      "kind": "Word",
+      "texts": {
+        "en": "walk",
+        "th": "เดิน",
+        "fa": "پیاده‌روی",
+        "ar": "يمشي",
+        "es": "caminar",
+        "zh": "步行",
+        "ja": "歩く"
+      }
+    },
+    {
+      "id": "s11",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Where should we meet?",
+        "th": "เราควรพบกันที่ไหน",
+        "fa": "کجا باید همدیگر را ملاقات کنیم؟",
+        "ar": "أين يجب أن نلتقي؟",
+        "es": "¿Dónde deberíamos reunirnos?",
+        "zh": "我们应该在哪里见面？",
+        "ja": "どこで会いましょうか？"
+      },
+      "tokens": {
+        "th": ["เรา", "ควร", "พบ", "กัน", "ที่", "ไหน"],
+        "zh": ["我们", "应该", "在", "哪里", "见面", "？"],
+        "ja": ["どこ", "で", "会い", "まし", "ょう", "か", "？"]
+      }
+    },
+    {
+      "id": "s12",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The location is near the station.",
+        "th": "สถานที่อยู่ใกล้สถานี",
+        "fa": "مکان نزدیک ایستگاه است.",
+        "ar": "الموقع قريب من المحطة.",
+        "es": "La ubicación está cerca de la estación.",
+        "zh": "地点在车站附近。",
+        "ja": "場所は駅の近くです。"
+      },
+      "tokens": {
+        "th": ["สถานที่", "อยู่", "ใกล้", "สถานี"],
+        "zh": ["地点", "在", "车站", "附近", "。"],
+        "ja": ["場所", "は", "駅", "の", "近く", "です", "。"]
+      }
+    },
+    {
+      "id": "s13",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I will drive my car.",
+        "th": "ฉันจะขับรถไป",
+        "fa": "من با ماشینم رانندگی خواهم کرد.",
+        "ar": "سأقود سيارتي.",
+        "es": "Conduciré mi coche.",
+        "zh": "我会开车去。",
+        "ja": "私は車を運転して行きます。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "จะ", "ขับ", "รถ", "ไป"],
+        "zh": ["我", "会", "开车", "去", "。"],
+        "ja": ["私", "は", "車", "を", "運転", "し", "て", "行き", "ます", "。"]
+      }
+    },
+    {
+      "id": "s14",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We can walk from here.",
+        "th": "เราสามารถเดินจากที่นี่ได้",
+        "fa": "ما می‌توانیم از اینجا پیاده برویم.",
+        "ar": "يمكننا المشي من هنا.",
+        "es": "Podemos caminar desde aquí.",
+        "zh": "我们可以从这里走过去。",
+        "ja": "ここから歩いて行けます。"
+      },
+      "tokens": {
+        "th": ["เรา", "สามารถ", "เดิน", "จาก", "ที่", "นี่", "ได้"],
+        "zh": ["我们", "可以", "从", "这里", "走", "过去", "。"],
+        "ja": ["ここ", "から", "歩い", "て", "行き", "ます", "。"]
+      }
+    },
+    {
+      "id": "s15",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Let's meet at the cafe.",
+        "th": "เจอกันที่ร้านกาแฟนะ",
+        "fa": "بیایید در کافه همدیگر را ملاقات کنیم.",
+        "ar": "لنلتقِ في المقهى.",
+        "es": "Reunámonos en la cafetería.",
+        "zh": "我们在咖啡馆见面吧。",
+        "ja": "カフェで会いましょう。"
+      },
+      "tokens": {
+        "th": ["เจอ", "กัน", "ที่", "ร้าน", "กาแฟ", "นะ"],
+        "zh": ["我们", "在", "咖啡馆", "见面", "吧", "。"],
+        "ja": ["カフェ", "で", "会い", "まし", "ょう", "。"]
+      }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Confirmation",
+        "th": "สถานการณ์ที่ 4: การยืนยัน",
+        "fa": "سناریو ۴: تأیید",
+        "ar": "السيناريو 4: التأكيد",
+        "es": "Escenario 4: Confirmación",
+        "zh": "场景 4：确认",
+        "ja": "シナリオ 4：確認"
+      }
+    },
+    {
+      "id": "w16",
+      "kind": "Word",
+      "texts": {
+        "en": "confirm",
+        "th": "ยืนยัน",
+        "fa": "تأیید",
+        "ar": "تأكيد",
+        "es": "confirmar",
+        "zh": "确认",
+        "ja": "確認"
+      }
+    },
+    {
+      "id": "w17",
+      "kind": "Word",
+      "texts": {
+        "en": "sure",
+        "th": "แน่ใจ",
+        "fa": "مطمئن",
+        "ar": "متأكد",
+        "es": "seguro",
+        "zh": "确定",
+        "ja": "確か"
+      }
+    },
+    {
+      "id": "w18",
+      "kind": "Word",
       "texts": {
         "en": "definitely",
-        "th": "แน่นอน",
-        "fa": "قطعا",
+        "th": "อย่างแน่นอน",
+        "fa": "قطعاً",
         "ar": "بالتأكيد",
         "es": "definitivamente",
         "zh": "肯定",
@@ -262,812 +593,310 @@
       }
     },
     {
-      "id": "header_scenario1",
+      "id": "w19",
+      "kind": "Word",
+      "texts": {
+        "en": "excited",
+        "th": "ตื่นเต้น",
+        "fa": "هیجان‌زده",
+        "ar": "متحمس",
+        "es": "emocionado",
+        "zh": "兴奋",
+        "ja": "楽しみ"
+      }
+    },
+    {
+      "id": "w20",
+      "kind": "Word",
+      "texts": {
+        "en": "ready",
+        "th": "พร้อม",
+        "fa": "آماده",
+        "ar": "جاهز",
+        "es": "listo",
+        "zh": "准备好",
+        "ja": "準備"
+      }
+    },
+    {
+      "id": "s16",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I can confirm our plan.",
+        "th": "ฉันสามารถยืนยันแผนของเราได้",
+        "fa": "من می‌توانم برنامه‌مان را تأیید کنم.",
+        "ar": "يمكنني تأكيد خطتنا.",
+        "es": "Puedo confirmar nuestro plan.",
+        "zh": "我可以确认我们的计划。",
+        "ja": "私たちの計画を確認できます。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "สามารถ", "ยืนยัน", "แผน", "ของ", "เรา", "ได้"],
+        "zh": ["我", "可以", "确认", "我们", "的", "计划", "。"],
+        "ja": ["私", "たち", "の", "計画", "を", "確認", "でき", "ます", "。"]
+      }
+    },
+    {
+      "id": "s17",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I am sure I can make it.",
+        "th": "ฉันแน่ใจว่าฉันไปได้",
+        "fa": "من مطمئن هستم که می‌توانم بیایم.",
+        "ar": "أنا متأكد من أنني أستطيع الحضور.",
+        "es": "Estoy seguro de que puedo ir.",
+        "zh": "我肯定能去。",
+        "ja": "私は確実に行けると思います。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "แน่ใจ", "ว่า", "ฉัน", "ไป", "ได้"],
+        "zh": ["我", "肯定", "能", "去", "。"],
+        "ja": ["私", "は", "確実", "に", "行ける", "と", "思い", "ます", "。"]
+      }
+    },
+    {
+      "id": "s18",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I am definitely coming.",
+        "th": "ฉันจะมาอย่างแน่นอน",
+        "fa": "من قطعاً می‌آیم.",
+        "ar": "سآتي بالتأكيد.",
+        "es": "Definitivamente vendré.",
+        "zh": "我一定会来。",
+        "ja": "私は絶対に行きます。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "จะ", "มา", "อย่าง", "แน่นอน"],
+        "zh": ["我", "一定", "会", "来", "。"],
+        "ja": ["私", "は", "絶対", "に", "行き", "ます", "。"]
+      }
+    },
+    {
+      "id": "s19",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I am excited to see you.",
+        "th": "ฉันตื่นเต้นที่จะได้เจอคุณ",
+        "fa": "من هیجان‌زده‌ام که شما را ببینم.",
+        "ar": "أنا متحمس لرؤيتك.",
+        "es": "Estoy emocionado de verte.",
+        "zh": "我很期待见到你。",
+        "ja": "あなたに会えるのが楽しみです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ตื่นเต้น", "ที่", "จะ", "ได้", "เจอ", "คุณ"],
+        "zh": ["我", "很", "期待", "见到", "你", "。"],
+        "ja": ["あなた", "に", "会える", "の", "が", "楽しみ", "です", "。"]
+      }
+    },
+    {
+      "id": "s20",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Are you ready to go?",
+        "th": "คุณพร้อมจะไปหรือยัง",
+        "fa": "آیا آماده رفتن هستید؟",
+        "ar": "هل أنت مستعد للذهاب؟",
+        "es": "¿Estás listo para ir?",
+        "zh": "你准备好出发了吗？",
+        "ja": "行く準備はできていますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "พร้อม", "จะ", "ไป", "หรือ", "ยัง"],
+        "zh": ["你", "准备好", "出发", "了", "吗", "？"],
+        "ja": ["行く", "準備", "は", "でき", "て", "い", "ます", "か", "？"]
+      }
+    },
+
+    {
+      "id": "h5",
       "header": true,
       "texts": {
-        "en": "Scenario 1: Checking Availability",
-        "th": "สถานการณ์ 1: ตรวจสอบเวลาว่าง",
-        "fa": "سناریو ۱: بررسی وقت آزاد",
-        "ar": "السيناريو 1: التحقق من التوفر",
-        "es": "Escenario 1: Comprobar disponibilidad",
-        "zh": "场景一：确认是否有空",
-        "ja": "シナリオ1：空き時間の確認"
+        "en": "Scenario 5: Changes",
+        "th": "สถานการณ์ที่ 5: การเปลี่ยนแปลง",
+        "fa": "سناریو ۵: تغییرات",
+        "ar": "السيناريو 5: التغييرات",
+        "es": "Escenario 5: Cambios",
+        "zh": "场景 5：变更",
+        "ja": "シナリオ 5：変更"
       }
     },
     {
-      "id": "sentence_plans_free_today_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_free",
-        "word_today",
-        "word_question_particle"
-      ],
+      "id": "w21",
+      "kind": "Word",
       "texts": {
-        "en": "Are you free today",
-        "th": "คุณว่างวันนี้ไหม",
-        "fa": "آیا امروز آزاد هستید",
-        "ar": "هل أنت متفرغ اليوم",
-        "es": "Estás libre hoy",
-        "zh": "你今天有空吗",
-        "ja": "今日空いていますか"
+        "en": "cancel",
+        "th": "ยกเลิก",
+        "fa": "لغو",
+        "ar": "إلغاء",
+        "es": "cancelar",
+        "zh": "取消",
+        "ja": "キャンセル"
+      }
+    },
+    {
+      "id": "w22",
+      "kind": "Word",
+      "texts": {
+        "en": "postpone",
+        "th": "เลื่อน",
+        "fa": "به تعویق انداختن",
+        "ar": "تأجيل",
+        "es": "posponer",
+        "zh": "推迟",
+        "ja": "延期"
+      }
+    },
+    {
+      "id": "w23",
+      "kind": "Word",
+      "texts": {
+        "en": "reschedule",
+        "th": "กำหนดเวลาใหม่",
+        "fa": "زمان‌بندی مجدد",
+        "ar": "إعادة الجدولة",
+        "es": "reprogramar",
+        "zh": "重新安排",
+        "ja": "再スケジュール"
+      }
+    },
+    {
+      "id": "w24",
+      "kind": "Word",
+      "texts": {
+        "en": "sorry",
+        "th": "ขอโทษ",
+        "fa": "متأسف",
+        "ar": "آسف",
+        "es": "lo siento",
+        "zh": "抱歉",
+        "ja": "申し訳ない"
+      }
+    },
+    {
+      "id": "w25",
+      "kind": "Word",
+      "texts": {
+        "en": "emergency",
+        "th": "เหตุฉุกเฉิน",
+        "fa": "اورژانس",
+        "ar": "طوارئ",
+        "es": "emergencia",
+        "zh": "紧急情况",
+        "ja": "緊急事態"
+      }
+    },
+    {
+      "id": "s21",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I need to cancel our plan.",
+        "th": "ฉันจำเป็นต้องยกเลิกแผนของเรา",
+        "fa": "من باید برنامه‌مان را لغو کنم.",
+        "ar": "أحتاج إلى إلغاء خطتنا.",
+        "es": "Necesito cancelar nuestro plan.",
+        "zh": "我需要取消我们的计划。",
+        "ja": "私たちの計画をキャンセルする必要があります。"
       },
       "tokens": {
-        "en": ["Are", "you", "free", "today"],
-        "th": ["คุณ", "ว่าง", "วันนี้", "ไหม"],
-        "fa": ["آیا", "امروز", "آزاد", "هستید"],
-        "ar": ["هل", "أنت", "متفرغ", "اليوم"],
-        "es": ["Estás", "libre", "hoy"],
-        "zh": ["你", "今天", "有", "空", "吗"],
-        "ja": ["今日", "空いて", "います", "か"]
-      }
-    },
-    {
-      "id": "sentence_plans_not_busy",
-      "kind": "sentence",
-      "itemIds": ["word_not", "word_i", "word_busy"],
-      "texts": {
-        "en": "No I am busy",
-        "th": "ไม่ ฉันยุ่ง",
-        "fa": "نه من مشغول هستم",
-        "ar": "لا أنا مشغول",
-        "es": "No estoy ocupado",
-        "zh": "不我很忙",
-        "ja": "いいえ忙しいです"
-      },
-      "tokens": {
-        "en": ["No", "I", "am", "busy"],
-        "th": ["ไม่", "ฉัน", "ยุ่ง"],
-        "fa": ["نه", "من", "مشغول", "هستم"],
-        "ar": ["لا", "أنا", "مشغول"],
-        "es": ["No", "estoy", "ocupado"],
-        "zh": ["不", "我", "很", "忙"],
-        "ja": ["いいえ", "忙しい", "です"]
-      }
-    },
-    {
-      "id": "sentence_plans_free_weekend_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_free",
-        "word_weekend",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Are you free this weekend",
-        "th": "คุณว่างสุดสัปดาห์นี้ไหม",
-        "fa": "آیا این آخر هفته آزاد هستید",
-        "ar": "هل أنت متفرغ في عطلة نهاية الأسبوع هذه",
-        "es": "Estás libre este fin de semana",
-        "zh": "你这个周末有空吗",
-        "ja": "今週末空いていますか"
-      },
-      "tokens": {
-        "en": ["Are", "you", "free", "this", "weekend"],
-        "th": ["คุณ", "ว่าง", "สุดสัปดาห์", "นี้", "ไหม"],
-        "fa": ["آیا", "این", "آخر", "هفته", "آزاد", "هستید"],
-        "ar": ["هل", "أنت", "متفرغ", "في", "عطلة", "نهاية", "الأسبوع", "هذه"],
-        "es": ["Estás", "libre", "este", "fin", "de", "semana"],
-        "zh": ["你", "这个", "周末", "有", "空", "吗"],
-        "ja": ["今週末", "空いて", "います", "か"]
-      }
-    },
-    {
-      "id": "sentence_plans_yes_free_saturday",
-      "kind": "sentence",
-      "itemIds": ["word_yes", "word_i", "word_free", "word_saturday"],
-      "texts": {
-        "en": "Yes I am free on Saturday",
-        "th": "ใช่ ฉันว่างวันเสาร์",
-        "fa": "بله من شنبه آزاد هستم",
-        "ar": "نعم أنا متفرغ يوم السبت",
-        "es": "Sí estoy libre el sábado",
-        "zh": "是的我星期六有空",
-        "ja": "はい土曜日は空いています"
-      },
-      "tokens": {
-        "en": ["Yes", "I", "am", "free", "on", "Saturday"],
-        "th": ["ใช่", "ฉัน", "ว่าง", "วันเสาร์"],
-        "fa": ["بله", "من", "شنبه", "آزاد", "هستم"],
-        "ar": ["نعم", "أنا", "متفرغ", "يوم", "السبت"],
-        "es": ["Sí", "estoy", "libre", "el", "sábado"],
-        "zh": ["是的", "我", "星期六", "有", "空"],
-        "ja": ["はい", "土曜日", "は", "空いて", "います"]
-      }
-    },
-    {
-      "id": "header_scenario2",
-      "header": true,
-      "texts": {
-        "en": "Scenario 2: Making Suggestions",
-        "th": "สถานการณ์ 2: การเสนอแนะ",
-        "fa": "سناریو ۲: پیشنهاد دادن",
-        "ar": "السيناريو 2: تقديم الاقتراحات",
-        "es": "Escenario 2: Hacer sugerencias",
-        "zh": "场景二：提出建议",
-        "ja": "シナリオ2：提案をする"
-      }
-    },
-    {
-      "id": "sentence_plans_watch_movie_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_want",
-        "word_watch",
-        "word_movie",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Do you want to watch a movie",
-        "th": "คุณต้องการดูหนังไหม",
-        "fa": "آیا می‌خواهید فیلم ببینید",
-        "ar": "هل تريد مشاهدة فيلم",
-        "es": "Quieres ver una película",
-        "zh": "你想看电影吗",
-        "ja": "映画を見たいですか"
-      },
-      "tokens": {
-        "en": ["Do", "you", "want", "to", "watch", "a", "movie"],
-        "th": ["คุณ", "ต้องการ", "ดู", "หนัง", "ไหม"],
-        "fa": ["آیا", "می‌خواهید", "فیلم", "ببینید"],
-        "ar": ["هل", "تريد", "مشاهدة", "فيلم"],
-        "es": ["Quieres", "ver", "una", "película"],
-        "zh": ["你", "想", "看", "电影", "吗"],
-        "ja": ["映画", "を", "見たい", "です", "か"]
-      }
-    },
-    {
-      "id": "sentence_plans_maybe_eat_dinner",
-      "kind": "sentence",
-      "itemIds": [
-        "word_maybe",
-        "word_we",
-        "word_can",
-        "word_eat",
-        "word_dinner"
-      ],
-      "texts": {
-        "en": "Maybe we can eat dinner",
-        "th": "บางทีเราอาจจะกินอาหารเย็น",
-        "fa": "شاید بتوانیم شام بخوریم",
-        "ar": "ربما يمكننا تناول العشاء",
-        "es": "Tal vez podamos cenar",
-        "zh": "也许我们可以吃晚餐",
-        "ja": "たぶん夕食を食べましょう"
-      },
-      "tokens": {
-        "en": ["Maybe", "we", "can", "eat", "dinner"],
-        "th": ["บางที", "เรา", "อาจจะ", "กิน", "อาหารเย็น"],
-        "fa": ["شاید", "بتوانیم", "شام", "بخوریم"],
-        "ar": ["ربما", "يمكننا", "تناول", "العشاء"],
-        "es": ["Tal", "vez", "podamos", "cenar"],
-        "zh": ["也许", "我们", "可以", "吃", "晚餐"],
-        "ja": ["たぶん", "夕食", "を", "食べ", "ましょう"]
-      }
-    },
-    {
-      "id": "sentence_plans_definitely_go_sunday",
-      "kind": "sentence",
-      "itemIds": ["word_definitely", "word_go", "word_sunday"],
-      "texts": {
-        "en": "Definitely let's go on Sunday",
-        "th": "แน่นอน ไปวันอาทิตย์กัน",
-        "fa": "قطعا یکشنبه برویم",
-        "ar": "بالتأكيد لنذهب يوم الأحد",
-        "es": "Definitivamente vamos el domingo",
-        "zh": "肯定星期日去吧",
-        "ja": "絶対に日曜日に行きましょう"
-      },
-      "tokens": {
-        "en": ["Definitely", "let's", "go", "on", "Sunday"],
-        "th": ["แน่นอน", "ไป", "วันอาทิตย์", "กัน"],
-        "fa": ["قطعا", "یکشنبه", "برویم"],
-        "ar": ["بالتأكيد", "لنذهب", "يوم", "الأحد"],
-        "es": ["Definitivamente", "vamos", "el", "domingo"],
-        "zh": ["肯定", "星期日", "去", "吧"],
-        "ja": ["絶対に", "日曜日", "に", "行き", "ましょう"]
-      }
-    },
-    {
-      "id": "word_watch",
-      "kind": "word",
-      "texts": {
-        "en": "watch",
-        "th": "ดู",
-        "fa": "تماشا کردن",
-        "ar": "يشاهد",
-        "es": "ver",
-        "zh": "看",
-        "ja": "見る"
-      }
-    },
-    {
-      "id": "word_movie",
-      "kind": "word",
-      "texts": {
-        "en": "movie",
-        "th": "หนัง",
-        "fa": "فیلم",
-        "ar": "فيلم",
-        "es": "película",
-        "zh": "电影",
-        "ja": "映画"
-      }
-    },
-    {
-      "id": "word_dinner",
-      "kind": "word",
-      "texts": {
-        "en": "dinner",
-        "th": "อาหารเย็น",
-        "fa": "شام",
-        "ar": "عشاء",
-        "es": "cena",
-        "zh": "晚餐",
-        "ja": "夕食"
-      }
-    },
-    {
-      "id": "header_scenario3",
-      "header": true,
-      "texts": {
-        "en": "Scenario 3: Tense & Aspect for Plans (G8)",
-        "th": "สถานการณ์ 3: กาลและลักษณะการกระทำสำหรับแผนการ (G8)",
-        "fa": "سناریو ۳: زمان و نمود برای برنامه‌ها (G8)",
-        "ar": "السيناريو 3: الزمن والجانب للخطط (G8)",
-        "es": "Escenario 3: Tiempo y aspecto para planes (G8)",
-        "zh": "场景三：计划中的时态与体 (G8)",
-        "ja": "シナリオ3：予定のテンスとアスペクト (G8)"
-      }
-    },
-    {
-      "id": "sentence_plans_will_go_tomorrow",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_will", "word_go", "word_tomorrow"],
-      "texts": {
-        "en": "I will go tomorrow",
-        "th": "ฉันจะไปพรุ่งนี้",
-        "fa": "من فردا خواهم رفت",
-        "ar": "سأذهب غدا",
-        "es": "Iré mañana",
-        "zh": "我明天会去",
-        "ja": "明日行きます"
-      },
-      "tokens": {
-        "en": ["I", "will", "go", "tomorrow"],
-        "th": ["ฉัน", "จะ", "ไป", "พรุ่งนี้"],
-        "fa": ["من", "فردا", "خواهم", "رفت"],
-        "ar": ["سأذهب", "غدا"],
-        "es": ["Iré", "mañana"],
-        "zh": ["我", "明天", "会", "去"],
-        "ja": ["明日", "行き", "ます"]
-      }
-    },
-    {
-      "id": "sentence_plans_already_ate_dinner",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_eat", "word_dinner", "word_already"],
-      "texts": {
-        "en": "I already ate dinner",
-        "th": "ฉันกินอาหารเย็นแล้ว",
-        "fa": "من شام خورده‌ام",
-        "ar": "لقد تناولت العشاء بالفعل",
-        "es": "Ya cené",
-        "zh": "我已经吃了晚餐",
-        "ja": "もう夕食を食べました"
-      },
-      "tokens": {
-        "en": ["I", "already", "ate", "dinner"],
-        "th": ["ฉัน", "กิน", "อาหารเย็น", "แล้ว"],
-        "fa": ["من", "شام", "خورده‌ام"],
-        "ar": ["لقد", "تناولت", "العشاء", "بالفعل"],
-        "es": ["Ya", "cené"],
-        "zh": ["我", "已经", "吃了", "晚餐"],
-        "ja": ["もう", "夕食", "を", "食べ", "ました"]
-      }
-    },
-    {
-      "id": "sentence_plans_currently_watching",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_currently", "word_watch", "word_movie"],
-      "texts": {
-        "en": "I am watching a movie right now",
-        "th": "ฉันกำลังดูหนังอยู่",
-        "fa": "من الان دارم فیلم می‌بینم",
-        "ar": "أنا أشاهد فيلما الآن",
-        "es": "Estoy viendo una película ahora",
-        "zh": "我现在正在看电影",
-        "ja": "今映画を見ています"
-      },
-      "tokens": {
-        "en": ["I", "am", "watching", "a", "movie", "right", "now"],
-        "th": ["ฉัน", "กำลัง", "ดู", "หนัง", "อยู่"],
-        "fa": ["من", "الان", "دارم", "فیلم", "می‌بینم"],
-        "ar": ["أنا", "أشاهد", "فيلما", "الآن"],
-        "es": ["Estoy", "viendo", "una", "película", "ahora"],
-        "zh": ["我", "现在", "正在", "看", "电影"],
-        "ja": ["今", "映画", "を", "見て", "います"]
-      }
-    },
-    {
-      "id": "sentence_plans_been_bangkok_before",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_before", "word_go", "word_bangkok"],
-      "texts": {
-        "en": "I have been to Bangkok before",
-        "th": "ฉันเคยไปกรุงเทพฯ",
-        "fa": "من قبلاً به بانکوک رفته‌ام",
-        "ar": "لقد ذهبت إلى بانكوك من قبل",
-        "es": "He estado en Bangkok antes",
-        "zh": "我以前去过曼谷",
-        "ja": "以前バンコクに行ったことがあります"
-      },
-      "tokens": {
-        "en": ["I", "have", "been", "to", "Bangkok", "before"],
-        "th": ["ฉัน", "เคย", "ไป", "กรุงเทพฯ"],
-        "fa": ["من", "قبلاً", "به", "بانکوک", "رفته‌ام"],
-        "ar": ["لقد", "ذهبت", "إلى", "بانكوك", "من", "قبل"],
-        "es": ["He", "estado", "en", "Bangkok", "antes"],
-        "zh": ["我", "以前", "去过", "曼谷"],
-        "ja": ["以前", "バンコク", "に", "行った", "こと", "が", "あります"]
-      }
-    },
-    {
-      "id": "word_will",
-      "kind": "word",
-      "texts": {
-        "en": "will (future marker)",
-        "th": "จะ",
-        "fa": "خواه (آینده)",
-        "ar": "سوف / سي",
-        "es": "futuro (ir a)",
-        "zh": "会 / 将",
-        "ja": "〜する（未来）"
-      }
-    },
-    {
-      "id": "word_already",
-      "kind": "word",
-      "texts": {
-        "en": "already (completed)",
-        "th": "แล้ว",
-        "fa": "قبلاً / دیگر",
-        "ar": "بالفعل / قد",
-        "es": "ya",
-        "zh": "已经 / 了",
-        "ja": "もう〜た"
-      }
-    },
-    {
-      "id": "word_currently",
-      "kind": "word",
-      "texts": {
-        "en": "currently (progressive)",
-        "th": "กำลัง",
-        "fa": "در حال",
-        "ar": "حاليا / في صدد",
-        "es": "estar + gerundio",
-        "zh": "正在",
-        "ja": "〜ている"
-      }
-    },
-    {
-      "id": "word_before",
-      "kind": "word",
-      "texts": {
-        "en": "before / have been (experiential)",
-        "th": "เคย",
-        "fa": "قبلاً / تا به حال",
-        "ar": "من قبل / سبق",
-        "es": "haber + participio",
-        "zh": "以前 / 曾经",
-        "ja": "〜たことがある"
-      }
-    },
-    {
-      "id": "word_bangkok",
-      "kind": "word",
-      "texts": {
-        "en": "Bangkok",
-        "th": "กรุงเทพฯ",
-        "fa": "بانکوک",
-        "ar": "بانكوك",
-        "es": "Bangkok",
-        "zh": "曼谷",
-        "ja": "バンコク"
-      }
-    },
-    {
-      "id": "header_scenario4",
-      "header": true,
-      "texts": {
-        "en": "Scenario 4: Conditional Plans (G16)",
-        "th": "สถานการณ์ 4: แผนการแบบเงื่อนไข (G16)",
-        "fa": "سناریو ۴: برنامه‌های شرطی (G16)",
-        "ar": "السيناريو 4: الخطط الشرطية (G16)",
-        "es": "Escenario 4: Planes condicionales (G16)",
-        "zh": "场景四：条件性计划 (G16)",
-        "ja": "シナリオ4：条件付きの予定 (G16)"
-      }
-    },
-    {
-      "id": "sentence_plans_if_rain_stay_home",
-      "kind": "sentence",
-      "itemIds": [
-        "word_if",
-        "word_rain",
-        "word_we",
-        "word_will",
-        "word_stay_home"
-      ],
-      "texts": {
-        "en": "If it rains, we will stay home",
-        "th": "ถ้าฝนตก เราจะอยู่บ้าน",
-        "fa": "اگر باران ببارد، در خانه می‌مانیم",
-        "ar": "إذا أمطرت، سنبقى في المنزل",
-        "es": "Si llueve, nos quedamos en casa",
-        "zh": "如果下雨，我们就待在家里",
-        "ja": "雨が降ったら、家にいます"
-      },
-      "tokens": {
-        "en": ["If", "it", "rains,", "we", "will", "stay", "home"],
-        "th": ["ถ้า", "ฝน", "ตก", "เรา", "จะ", "อยู่บ้าน"],
-        "fa": ["اگر", "باران", "ببارد،", "در", "خانه", "می‌مانیم"],
-        "ar": ["إذا", "أمطرت،", "سنبقى", "في", "المنزل"],
-        "es": ["Si", "llueve,", "nos", "quedamos", "en", "casa"],
-        "zh": ["如果", "下雨，", "我们", "就", "待在", "家里"],
-        "ja": ["雨", "が", "降ったら、", "家", "に", "います"]
-      }
-    },
-    {
-      "id": "sentence_plans_if_free_go_together",
-      "kind": "sentence",
-      "itemIds": [
-        "word_if",
-        "word_you",
-        "word_free",
-        "word_we",
-        "word_can",
-        "word_go",
-        "word_together"
-      ],
-      "texts": {
-        "en": "If you are free, we can go together",
-        "th": "ถ้าคุณว่าง เราไปด้วยกันได้",
-        "fa": "اگر آزاد باشید، می‌توانیم با هم برویم",
-        "ar": "إذا كنت متفرغا، يمكننا الذهاب معا",
-        "es": "Si estás libre, podemos ir juntos",
-        "zh": "如果你有空，我们可以一起去",
-        "ja": "あなたが空いていたら、一緒に行けます"
-      },
-      "tokens": {
-        "en": ["If", "you", "are", "free,", "we", "can", "go", "together"],
-        "th": ["ถ้า", "คุณ", "ว่าง", "เรา", "ไป", "ด้วย", "กัน", "ได้"],
-        "fa": ["اگر", "آزاد", "باشید،", "می‌توانیم", "با", "هم", "برویم"],
-        "ar": ["إذا", "كنت", "متفرغا،", "يمكننا", "الذهاب", "معا"],
-        "es": ["Si", "estás", "libre,", "podemos", "ir", "juntos"],
-        "zh": ["如果", "你", "有", "空，", "我们", "可以", "一起", "去"],
+        "th": ["ฉัน", "จำเป็น", "ต้อง", "ยกเลิก", "แผน", "ของ", "เรา"],
+        "zh": ["我", "需要", "取消", "我们", "的", "计划", "。"],
         "ja": [
-          "あなた",
+          "私",
+          "たち",
+          "の",
+          "計画",
+          "を",
+          "キャンセル",
+          "する",
+          "必要",
           "が",
-          "空いて",
-          "いたら、",
-          "一緒",
-          "に",
-          "行け",
-          "ます"
+          "あり",
+          "ます",
+          "。"
         ]
       }
     },
     {
-      "id": "sentence_plans_if_not_today_tomorrow",
-      "kind": "sentence",
-      "itemIds": [
-        "word_if",
-        "word_today",
-        "word_we",
-        "word_not",
-        "word_go",
-        "word_tomorrow",
-        "word_can"
-      ],
+      "id": "s22",
+      "kind": "Sentence",
       "texts": {
-        "en": "If we don't go today, we can go tomorrow",
-        "th": "ถ้าวันนี้เราไม่ไป เราไปพรุ่งนี้ได้",
-        "fa": "اگر امروز نرویم، می‌توانیم فردا برویم",
-        "ar": "إذا لم نذهب اليوم، يمكننا الذهاب غدا",
-        "es": "Si no vamos hoy, podemos ir mañana",
-        "zh": "如果我们今天不去，我们明天可以去",
-        "ja": "今日行かなければ、明日行けます"
+        "en": "Can we postpone to next week?",
+        "th": "เราสามารถเลื่อนไปสัปดาห์หน้าได้ไหม",
+        "fa": "آیا می‌توانیم به هفته آینده موکول کنیم؟",
+        "ar": "هل يمكننا التأجيل إلى الأسبوع القادم؟",
+        "es": "¿Podemos posponerlo a la próxima semana?",
+        "zh": "我们能推迟到下周吗？",
+        "ja": "来週に延期できますか？"
       },
       "tokens": {
-        "en": [
-          "If",
-          "we",
-          "don't",
-          "go",
-          "today,",
-          "we",
-          "can",
-          "go",
-          "tomorrow"
-        ],
         "th": [
-          "ถ้า",
-          "วันนี้",
           "เรา",
-          "ไม่",
+          "สามารถ",
+          "เลื่อน",
           "ไป",
-          "เรา",
-          "ไป",
-          "พรุ่งนี้",
-          "ได้"
+          "สัปดาห์",
+          "หน้า",
+          "ได้",
+          "ไหม"
         ],
-        "fa": ["اگر", "امروز", "نرویم،", "می‌توانیم", "فردا", "برویم"],
-        "ar": ["إذا", "لم", "نذهب", "اليوم،", "يمكننا", "الذهاب", "غدا"],
-        "es": ["Si", "no", "vamos", "hoy,", "podemos", "ir", "mañana"],
-        "zh": [
-          "如果",
-          "我们",
-          "今天",
-          "不",
-          "去，",
-          "我们",
-          "明天",
-          "可以",
-          "去"
-        ],
-        "ja": ["今日", "行か", "なければ、", "明日", "行け", "ます"]
+        "zh": ["我们", "能", "推迟", "到", "下周", "吗", "？"],
+        "ja": ["来週", "に", "延期", "でき", "ます", "か", "？"]
       }
     },
     {
-      "id": "word_if",
-      "kind": "word",
+      "id": "s23",
+      "kind": "Sentence",
       "texts": {
-        "en": "if",
-        "th": "ถ้า",
-        "fa": "اگر",
-        "ar": "إذا",
-        "es": "si",
-        "zh": "如果",
-        "ja": "もし〜たら"
-      }
-    },
-    {
-      "id": "word_rain",
-      "kind": "word",
-      "texts": {
-        "en": "rain (to rain)",
-        "th": "ฝนตก",
-        "fa": "باران باریدن",
-        "ar": "يمطر",
-        "es": "llover",
-        "zh": "下雨",
-        "ja": "雨が降る"
-      }
-    },
-    {
-      "id": "word_stay_home",
-      "kind": "word",
-      "texts": {
-        "en": "stay home",
-        "th": "อยู่บ้าน",
-        "fa": "در خانه ماندن",
-        "ar": "يبقى في المنزل",
-        "es": "quedarse en casa",
-        "zh": "待在家里",
-        "ja": "家にいる"
-      }
-    },
-    {
-      "id": "word_together",
-      "kind": "word",
-      "texts": {
-        "en": "together",
-        "th": "ด้วยกัน",
-        "fa": "با هم",
-        "ar": "معا",
-        "es": "juntos",
-        "zh": "一起",
-        "ja": "一緒に"
-      }
-    },
-    {
-      "id": "header_scenario5",
-      "header": true,
-      "texts": {
-        "en": "Scenario 5: Time & Place Arrangements",
-        "th": "สถานการณ์ 5: การนัดเวลาและสถานที่",
-        "fa": "سناریو ۵: تنظیم زمان و مکان",
-        "ar": "السيناريو 5: ترتيبات الزمان والمكان",
-        "es": "Escenario 5: Acuerdos de hora y lugar",
-        "zh": "场景五：时间与地点安排",
-        "ja": "シナリオ5：時間と場所の取り決め"
-      }
-    },
-    {
-      "id": "sentence_plans_what_time_meet",
-      "kind": "sentence",
-      "itemIds": ["word_we", "word_meet", "word_what_time"],
-      "texts": {
-        "en": "What time shall we meet?",
-        "th": "เราจะเจอกี่โมง",
-        "fa": "چه ساعتی همدیگر را ببینیم؟",
-        "ar": "في أي ساعة نلتقي؟",
-        "es": "¿A qué hora nos encontramos?",
-        "zh": "我们几点见面？",
-        "ja": "何時に会いましょうか？"
+        "en": "Let's reschedule for tomorrow.",
+        "th": "เรามากำหนดเวลาใหม่สำหรับพรุ่งนี้",
+        "fa": "بیایید برای فردا زمان‌بندی مجدد کنیم.",
+        "ar": "لنعد الجدولة للغد.",
+        "es": "Reprogramemos para mañana.",
+        "zh": "我们重新安排到明天吧。",
+        "ja": "明日に再スケジュールしましょう。"
       },
       "tokens": {
-        "en": ["What", "time", "shall", "we", "meet?"],
-        "th": ["เรา", "จะ", "เจอ", "กี่โมง"],
-        "fa": ["چه", "ساعتی", "همدیگر", "را", "ببینیم؟"],
-        "ar": ["في", "أي", "ساعة", "نلتقي؟"],
-        "es": ["¿A", "qué", "hora", "nos", "encontramos?"],
-        "zh": ["我们", "几点", "见面？"],
-        "ja": ["何時", "に", "会い", "ましょう", "か？"]
+        "th": ["เรา", "มา", "กำหนดเวลา", "ใหม่", "สำหรับ", "พรุ่งนี้"],
+        "zh": ["我们", "重新", "安排", "到", "明天", "吧", "。"],
+        "ja": ["明日", "に", "再", "スケジュール", "し", "まし", "ょう", "。"]
       }
     },
     {
-      "id": "sentence_plans_meet_seven_oclock",
-      "kind": "sentence",
-      "itemIds": ["word_meet", "word_seven", "word_oclock"],
+      "id": "s24",
+      "kind": "Sentence",
       "texts": {
-        "en": "Let's meet at 7 o'clock",
-        "th": "เจอกันเจ็ดโมง",
-        "fa": "ساعت هفت همدیگر را ببینیم",
-        "ar": "لنلتق في الساعة السابعة",
-        "es": "Encontremos a las siete",
-        "zh": "我们七点见面吧",
-        "ja": "七時に会いましょう"
+        "en": "I am sorry for the change.",
+        "th": "ฉันขอโทษสำหรับการเปลี่ยนแปลง",
+        "fa": "من بابت این تغییر متأسفم.",
+        "ar": "أنا آسف للتغيير.",
+        "es": "Lamento el cambio.",
+        "zh": "我对这个变动感到抱歉。",
+        "ja": "変更になって申し訳ありません。"
       },
       "tokens": {
-        "en": ["Let's", "meet", "at", "7", "o'clock"],
-        "th": ["เจอ", "กัน", "เจ็ด", "โมง"],
-        "fa": ["ساعت", "هفت", "همدیگر", "را", "ببینیم"],
-        "ar": ["لنلتق", "في", "الساعة", "السابعة"],
-        "es": ["Encontremos", "a", "las", "siete"],
-        "zh": ["我们", "七点", "见面", "吧"],
-        "ja": ["七", "時", "に", "会い", "ましょう"]
+        "th": ["ฉัน", "ขอโทษ", "สำหรับ", "การ", "เปลี่ยนแปลง"],
+        "zh": ["我", "对", "这个", "变动", "感到", "抱歉", "。"],
+        "ja": ["変更", "に", "なって", "申し訳", "あり", "ませ", "ん", "。"]
       }
     },
     {
-      "id": "sentence_plans_where_meet",
-      "kind": "sentence",
-      "itemIds": ["word_we", "word_meet", "word_where"],
+      "id": "s25",
+      "kind": "Sentence",
       "texts": {
-        "en": "Where shall we meet?",
-        "th": "เราเจอกันที่ไหน",
-        "fa": "کجا همدیگر را ببینیم؟",
-        "ar": "أين نلتقي؟",
-        "es": "¿Dónde nos encontramos?",
-        "zh": "我们在哪里见面？",
-        "ja": "どこで会いましょうか？"
+        "en": "I have a family emergency.",
+        "th": "ฉันมีเหตุฉุกเฉินในครอบครัว",
+        "fa": "من یک وضعیت اورژانسی خانوادگی دارم.",
+        "ar": "لدي طوارئ عائلية.",
+        "es": "Tengo una emergencia familiar.",
+        "zh": "我家里有紧急情况。",
+        "ja": "家庭の緊急事態があります。"
       },
       "tokens": {
-        "en": ["Where", "shall", "we", "meet?"],
-        "th": ["เรา", "เจอ", "กัน", "ที่ไหน"],
-        "fa": ["کجا", "همدیگر", "را", "ببینیم؟"],
-        "ar": ["أين", "نلتقي؟"],
-        "es": ["¿Dónde", "nos", "encontramos?"],
-        "zh": ["我们", "在", "哪里", "见面？"],
-        "ja": ["どこ", "で", "会い", "ましょう", "か？"]
-      }
-    },
-    {
-      "id": "sentence_plans_at_coffee_shop",
-      "kind": "sentence",
-      "itemIds": ["word_at", "word_coffee_shop"],
-      "texts": {
-        "en": "At the coffee shop",
-        "th": "ที่ร้านกาแฟ",
-        "fa": "در کافه",
-        "ar": "في المقهى",
-        "es": "En la cafetería",
-        "zh": "在咖啡店",
-        "ja": "カフェで"
-      },
-      "tokens": {
-        "en": ["At", "the", "coffee", "shop"],
-        "th": ["ที่", "ร้านกาแฟ"],
-        "fa": ["در", "کافه"],
-        "ar": ["في", "المقهى"],
-        "es": ["En", "la", "cafetería"],
-        "zh": ["在", "咖啡店"],
-        "ja": ["カフェ", "で"]
-      }
-    },
-    {
-      "id": "word_meet",
-      "kind": "word",
-      "texts": {
-        "en": "meet",
-        "th": "เจอ",
-        "fa": "ملاقات کردن",
-        "ar": "يلتقي",
-        "es": "encontrarse",
-        "zh": "见面",
-        "ja": "会う"
-      }
-    },
-    {
-      "id": "word_what_time",
-      "kind": "word",
-      "texts": {
-        "en": "what time",
-        "th": "กี่โมง",
-        "fa": "چه ساعتی",
-        "ar": "كم الساعة",
-        "es": "qué hora",
-        "zh": "几点",
-        "ja": "何時"
-      }
-    },
-    {
-      "id": "word_oclock",
-      "kind": "word",
-      "texts": {
-        "en": "o'clock",
-        "th": "โมง",
-        "fa": "ساعت",
-        "ar": "تمام الساعة",
-        "es": "en punto",
-        "zh": "点",
-        "ja": "時"
-      }
-    },
-    {
-      "id": "word_seven",
-      "kind": "word",
-      "texts": {
-        "en": "seven",
-        "th": "เจ็ด",
-        "fa": "هفت",
-        "ar": "سبعة",
-        "es": "siete",
-        "zh": "七",
-        "ja": "七"
-      }
-    },
-    {
-      "id": "word_where",
-      "kind": "word",
-      "texts": {
-        "en": "where",
-        "th": "ที่ไหน",
-        "fa": "کجا",
-        "ar": "أين",
-        "es": "dónde",
-        "zh": "哪里",
-        "ja": "どこ"
-      }
-    },
-    {
-      "id": "word_at",
-      "kind": "word",
-      "texts": {
-        "en": "at (preposition)",
-        "th": "ที่",
-        "fa": "در",
-        "ar": "في",
-        "es": "en",
-        "zh": "在",
-        "ja": "〜で"
-      }
-    },
-    {
-      "id": "word_coffee_shop",
-      "kind": "word",
-      "texts": {
-        "en": "coffee shop",
-        "th": "ร้านกาแฟ",
-        "fa": "کافه",
-        "ar": "مقهى",
-        "es": "cafetería",
-        "zh": "咖啡店",
-        "ja": "カフェ"
+        "th": ["ฉัน", "มี", "เหตุ", "ฉุกเฉิน", "ใน", "ครอบครัว"],
+        "zh": ["我", "家里", "有", "紧急", "情况", "。"],
+        "ja": ["家庭", "の", "緊急", "事態", "が", "あり", "ます", "。"]
       }
     }
   ]

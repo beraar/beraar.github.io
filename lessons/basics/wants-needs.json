@@ -2,434 +2,47 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "h1",
       "header": true,
       "texts": {
-        "en": "Core Words",
-        "th": "คำศัพท์หลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras clave",
-        "zh": "核心词汇",
-        "ja": "基本単語"
+        "en": "Scenario 1: Food and Drink",
+        "th": "สถานการณ์ที่ 1: อาหารและเครื่องดื่ม",
+        "fa": "سناریو ۱: غذا و نوشیدنی",
+        "ar": "السيناريو 1: الطعام والشراب",
+        "es": "Escenario 1: Comida y bebida",
+        "zh": "场景 1：食物与饮料",
+        "ja": "シナリオ 1：食べ物と飲み物"
       }
     },
     {
-      "id": "word_i",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
-      }
-    },
-    {
-      "id": "word_you",
-      "kind": "word",
-      "texts": {
-        "en": "you",
-        "th": "คุณ",
-        "fa": "شما",
-        "ar": "أنت",
-        "es": "tú / usted",
-        "zh": "你",
-        "ja": "あなた"
-      }
-    },
-    {
-      "id": "word_need",
-      "kind": "word",
-      "texts": {
-        "en": "need / require (formal)",
+        "en": "want",
         "th": "ต้องการ",
+        "fa": "خواستن",
+        "ar": "يريد",
+        "es": "querer",
+        "zh": "想要",
+        "ja": "欲しい"
+      }
+    },
+    {
+      "id": "w2",
+      "kind": "Word",
+      "texts": {
+        "en": "need",
+        "th": "จำเป็น",
         "fa": "نیاز داشتن",
         "ar": "يحتاج",
         "es": "necesitar",
         "zh": "需要",
-        "ja": "必要とする"
+        "ja": "必要"
       }
     },
     {
-      "id": "word_want",
-      "kind": "word",
-      "texts": {
-        "en": "want / feel like (casual)",
-        "th": "อยาก",
-        "fa": "خواستن / میل داشتن",
-        "ar": "يريد / يرغب",
-        "es": "querer / apetecer",
-        "zh": "想 / 想要",
-        "ja": "〜したい"
-      }
-    },
-    {
-      "id": "word_what",
-      "kind": "word",
-      "texts": {
-        "en": "what",
-        "th": "อะไร",
-        "fa": "چه",
-        "ar": "ماذا",
-        "es": "qué",
-        "zh": "什么",
-        "ja": "何"
-      }
-    },
-    {
-      "id": "word_not",
-      "kind": "word",
-      "texts": {
-        "en": "no / not",
-        "th": "ไม่",
-        "fa": "نه / نمی",
-        "ar": "لا / ليس",
-        "es": "no",
-        "zh": "不",
-        "ja": "いいえ / 〜ない"
-      }
-    },
-    {
-      "id": "word_question_particle",
-      "kind": "word",
-      "texts": {
-        "en": "question marker",
-        "th": "ไหม",
-        "fa": "آیا",
-        "ar": "هل",
-        "es": "partícula interrogativa",
-        "zh": "吗",
-        "ja": "か"
-      }
-    },
-    {
-      "id": "word_polite_particle",
-      "kind": "word",
-      "texts": {
-        "en": "polite particle",
-        "th": "ครับ / ค่ะ",
-        "fa": "ذره ادب",
-        "ar": "أداة أدب",
-        "es": "partícula de cortesía",
-        "zh": "礼貌助词",
-        "ja": "丁寧語"
-      }
-    },
-    {
-      "id": "word_please",
-      "kind": "word",
-      "texts": {
-        "en": "please",
-        "th": "กรุณา",
-        "fa": "لطفاً",
-        "ar": "من فضلك",
-        "es": "por favor",
-        "zh": "请",
-        "ja": "お願いします"
-      }
-    },
-    {
-      "id": "word_thank",
-      "kind": "word",
-      "texts": {
-        "en": "thank",
-        "th": "ขอบคุณ",
-        "fa": "تشکر",
-        "ar": "شكر",
-        "es": "gracias",
-        "zh": "谢谢",
-        "ja": "ありがとう"
-      }
-    },
-    {
-      "id": "word_yes",
-      "kind": "word",
-      "texts": {
-        "en": "yes",
-        "th": "ใช่",
-        "fa": "بله",
-        "ar": "نعم",
-        "es": "sí",
-        "zh": "是",
-        "ja": "はい"
-      }
-    },
-    {
-      "id": "word_have",
-      "kind": "word",
-      "texts": {
-        "en": "have",
-        "th": "มี",
-        "fa": "داشتن",
-        "ar": "يملك",
-        "es": "tener",
-        "zh": "有",
-        "ja": "ある"
-      }
-    },
-    {
-      "id": "word_can",
-      "kind": "word",
-      "texts": {
-        "en": "can",
-        "th": "ได้",
-        "fa": "توانستن",
-        "ar": "يستطيع",
-        "es": "poder",
-        "zh": "可以",
-        "ja": "できる"
-      }
-    },
-    {
-      "id": "word_eat",
-      "kind": "word",
-      "texts": {
-        "en": "eat",
-        "th": "กิน",
-        "fa": "خوردن",
-        "ar": "يأكل",
-        "es": "comer",
-        "zh": "吃",
-        "ja": "食べる"
-      }
-    },
-    {
-      "id": "word_drink",
-      "kind": "word",
-      "texts": {
-        "en": "drink",
-        "th": "ดื่ม",
-        "fa": "نوشیدن",
-        "ar": "يشرب",
-        "es": "beber",
-        "zh": "喝",
-        "ja": "飲む"
-      }
-    },
-    {
-      "id": "word_go",
-      "kind": "word",
-      "texts": {
-        "en": "go",
-        "th": "ไป",
-        "fa": "رفتن",
-        "ar": "يذهب",
-        "es": "ir",
-        "zh": "去",
-        "ja": "行く"
-      }
-    },
-    {
-      "id": "word_come",
-      "kind": "word",
-      "texts": {
-        "en": "come",
-        "th": "มา",
-        "fa": "آمدن",
-        "ar": "يأتي",
-        "es": "venir",
-        "zh": "来",
-        "ja": "来る"
-      }
-    },
-    {
-      "id": "word_now",
-      "kind": "word",
-      "texts": {
-        "en": "now",
-        "th": "ตอนนี้",
-        "fa": "الان / حالا",
-        "ar": "الآن",
-        "es": "ahora",
-        "zh": "现在",
-        "ja": "今"
-      }
-    },
-    {
-      "id": "header_scenario1",
-      "header": true,
-      "texts": {
-        "en": "Scenario 1: Basic Wants & Needs",
-        "th": "สถานการณ์ 1: ความต้องการพื้นฐาน",
-        "fa": "سناریو ۱: خواسته‌ها و نیازهای پایه",
-        "ar": "السيناريو 1: الرغبات والاحتياجات الأساسية",
-        "es": "Escenario 1: Deseos y necesidades básicas",
-        "zh": "场景一：基本想要与需要",
-        "ja": "シナリオ1：基本的な欲求と必要性"
-      }
-    },
-    {
-      "id": "sentence_basic_what_need",
-      "kind": "sentence",
-      "itemIds": ["word_you", "word_need", "word_what"],
-      "texts": {
-        "en": "What do you need?",
-        "th": "คุณต้องการอะไรครับ",
-        "fa": "شما چه نیاز دارید؟",
-        "ar": "ماذا تحتاج؟",
-        "es": "¿Qué necesitas?",
-        "zh": "你需要什么？",
-        "ja": "何が必要ですか？"
-      },
-      "tokens": {
-        "en": ["What", "do", "you", "need?"],
-        "th": ["คุณ", "ต้องการ", "อะไร", "ครับ"],
-        "fa": ["شما", "چه", "نیاز", "دارید؟"],
-        "ar": ["ماذا", "تحتاج؟"],
-        "es": ["¿Qué", "necesitas?"],
-        "zh": ["你", "需要", "什么？"],
-        "ja": ["何", "が", "必要", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_basic_need_water",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_need", "word_water"],
-      "texts": {
-        "en": "I need water",
-        "th": "ฉันต้องการน้ำค่ะ",
-        "fa": "من آب نیاز دارم",
-        "ar": "أحتاج إلى ماء",
-        "es": "Necesito agua",
-        "zh": "我需要水",
-        "ja": "水が必要です"
-      },
-      "tokens": {
-        "en": ["I", "need", "water"],
-        "th": ["ฉัน", "ต้องการ", "น้ำ", "ค่ะ"],
-        "fa": ["من", "آب", "نیاز", "دارم"],
-        "ar": ["أحتاج", "إلى", "ماء"],
-        "es": ["Necesito", "agua"],
-        "zh": ["我", "需要", "水"],
-        "ja": ["水", "が", "必要", "です"]
-      }
-    },
-    {
-      "id": "sentence_basic_need_anything",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_need",
-        "word_anything",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Do you need anything?",
-        "th": "คุณต้องการอะไรไหมครับ",
-        "fa": "آیا چیز دیگری نیاز دارید؟",
-        "ar": "هل تحتاج أي شيء؟",
-        "es": "¿Necesitas algo?",
-        "zh": "你需要什么吗？",
-        "ja": "何か必要ですか？"
-      },
-      "tokens": {
-        "en": ["Do", "you", "need", "anything?"],
-        "th": ["คุณ", "ต้องการ", "อะไร", "ไหม", "ครับ"],
-        "fa": ["آیا", "چیز", "دیگری", "نیاز", "دارید؟"],
-        "ar": ["هل", "تحتاج", "أي", "شيء؟"],
-        "es": ["¿Necesitas", "algo?"],
-        "zh": ["你", "需要", "什么", "吗？"],
-        "ja": ["何か", "必要", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_basic_not_need",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_not", "word_need", "word_anything"],
-      "texts": {
-        "en": "I don't need anything",
-        "th": "ฉันไม่ต้องการอะไรค่ะ",
-        "fa": "من چیزی نیاز ندارم",
-        "ar": "لا أحتاج أي شيء",
-        "es": "No necesito nada",
-        "zh": "我不需要任何东西",
-        "ja": "何もいりません"
-      },
-      "tokens": {
-        "en": ["I", "don't", "need", "anything"],
-        "th": ["ฉัน", "ไม่", "ต้องการ", "อะไร", "ค่ะ"],
-        "fa": ["من", "چیزی", "نیاز", "ندارم"],
-        "ar": ["لا", "أحتاج", "أي", "شيء"],
-        "es": ["No", "necesito", "nada"],
-        "zh": ["我", "不需要", "任何", "东西"],
-        "ja": ["何も", "いり", "ません"]
-      }
-    },
-    {
-      "id": "sentence_basic_want_rest",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_want", "word_rest"],
-      "texts": {
-        "en": "I want to rest",
-        "th": "ฉันอยากพักค่ะ",
-        "fa": "من می‌خواهم استراحت کنم",
-        "ar": "أريد أن أرتاح",
-        "es": "Quiero descansar",
-        "zh": "我想休息",
-        "ja": "休みたいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "to", "rest"],
-        "th": ["ฉัน", "อยาก", "พัก", "ค่ะ"],
-        "fa": ["من", "می‌خواهم", "استراحت", "کنم"],
-        "ar": ["أريد", "أن", "أرتاح"],
-        "es": ["Quiero", "descansar"],
-        "zh": ["我", "想", "休息"],
-        "ja": ["休み", "たい", "です"]
-      }
-    },
-    {
-      "id": "sentence_basic_tired",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_tired"],
-      "texts": {
-        "en": "I am tired",
-        "th": "ฉันเหนื่อยค่ะ",
-        "fa": "من خسته هستم",
-        "ar": "أنا متعب",
-        "es": "Estoy cansado",
-        "zh": "我累了",
-        "ja": "疲れました"
-      },
-      "tokens": {
-        "en": ["I", "am", "tired"],
-        "th": ["ฉัน", "เหนื่อย", "ค่ะ"],
-        "fa": ["من", "خسته", "هستم"],
-        "ar": ["أنا", "متعب"],
-        "es": ["Estoy", "cansado"],
-        "zh": ["我", "累了"],
-        "ja": ["疲れ", "ました"]
-      }
-    },
-    {
-      "id": "sentence_basic_need_now",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_need", "word_now"],
-      "texts": {
-        "en": "I need it now",
-        "th": "ฉันต้องการตอนนี้ค่ะ",
-        "fa": "من الان نیاز دارم",
-        "ar": "أحتاجه الآن",
-        "es": "Lo necesito ahora",
-        "zh": "我现在就需要",
-        "ja": "今すぐ必要です"
-      },
-      "tokens": {
-        "en": ["I", "need", "it", "now"],
-        "th": ["ฉัน", "ต้องการ", "ตอนนี้", "ค่ะ"],
-        "fa": ["من", "الان", "نیاز", "دارم"],
-        "ar": ["أحتاجه", "الآن"],
-        "es": ["Lo", "necesito", "ahora"],
-        "zh": ["我", "现在", "就", "需要"],
-        "ja": ["今すぐ", "必要", "です"]
-      }
-    },
-    {
-      "id": "word_water",
-      "kind": "word",
+      "id": "w3",
+      "kind": "Word",
       "texts": {
         "en": "water",
         "th": "น้ำ",
@@ -441,301 +54,21 @@
       }
     },
     {
-      "id": "word_anything",
-      "kind": "word",
+      "id": "w4",
+      "kind": "Word",
       "texts": {
-        "en": "anything",
-        "th": "อะไร",
-        "fa": "چیزی / هر چیزی",
-        "ar": "أي شيء",
-        "es": "algo / nada",
-        "zh": "任何东西",
-        "ja": "何か"
+        "en": "food",
+        "th": "อาหาร",
+        "fa": "غذا",
+        "ar": "طعام",
+        "es": "comida",
+        "zh": "食物",
+        "ja": "食べ物"
       }
     },
     {
-      "id": "word_rest",
-      "kind": "word",
-      "texts": {
-        "en": "rest",
-        "th": "พัก",
-        "fa": "استراحت کردن",
-        "ar": "يستريح",
-        "es": "descansar",
-        "zh": "休息",
-        "ja": "休む"
-      }
-    },
-    {
-      "id": "word_tired",
-      "kind": "word",
-      "texts": {
-        "en": "tired",
-        "th": "เหนื่อย",
-        "fa": "خسته",
-        "ar": "متعب",
-        "es": "cansado",
-        "zh": "累",
-        "ja": "疲れた"
-      }
-    },
-    {
-      "id": "word_still",
-      "kind": "word",
-      "texts": {
-        "en": "still / yet",
-        "th": "ยัง",
-        "fa": "هنوز",
-        "ar": "لا يزال",
-        "es": "todavía / aún",
-        "zh": "还",
-        "ja": "まだ"
-      }
-    },
-    {
-      "id": "header_scenario2",
-      "header": true,
-      "texts": {
-        "en": "Scenario 2: Food & Drink Requests",
-        "th": "สถานการณ์ 2: ขออาหารและเครื่องดื่ม",
-        "fa": "سناریو ۲: درخواست غذا و نوشیدنی",
-        "ar": "السيناريو 2: طلب الطعام والشراب",
-        "es": "Escenario 2: Pedir comida y bebida",
-        "zh": "场景二：食物与饮品请求",
-        "ja": "シナリオ2：食べ物と飲み物のリクエスト"
-      }
-    },
-    {
-      "id": "sentence_food_want_eat",
-      "kind": "sentence",
-      "itemIds": ["word_you", "word_want", "word_eat", "word_what"],
-      "texts": {
-        "en": "What do you want to eat?",
-        "th": "คุณอยากกินอะไรครับ",
-        "fa": "چه می‌خواهید بخورید؟",
-        "ar": "ماذا تريد أن تأكل؟",
-        "es": "¿Qué quieres comer?",
-        "zh": "你想吃什么？",
-        "ja": "何を食べたいですか？"
-      },
-      "tokens": {
-        "en": ["What", "do", "you", "want", "to", "eat?"],
-        "th": ["คุณ", "อยาก", "กิน", "อะไร", "ครับ"],
-        "fa": ["چه", "می‌خواهید", "بخورید؟"],
-        "ar": ["ماذا", "تريد", "أن", "تأكل؟"],
-        "es": ["¿Qué", "quieres", "comer?"],
-        "zh": ["你", "想", "吃", "什么？"],
-        "ja": ["何", "を", "食べ", "たい", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_food_want_rice",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_want", "word_eat", "word_rice"],
-      "texts": {
-        "en": "I want to eat rice",
-        "th": "ฉันอยากกินข้าวค่ะ",
-        "fa": "من می‌خواهم برنج بخورم",
-        "ar": "أريد أن آكل أرزاً",
-        "es": "Quiero comer arroz",
-        "zh": "我想吃米饭",
-        "ja": "ご飯を食べたいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "to", "eat", "rice"],
-        "th": ["ฉัน", "อยาก", "กิน", "ข้าว", "ค่ะ"],
-        "fa": ["من", "می‌خواهم", "برنج", "بخورم"],
-        "ar": ["أريد", "أن", "آكل", "أرزاً"],
-        "es": ["Quiero", "comer", "arroz"],
-        "zh": ["我", "想", "吃", "米饭"],
-        "ja": ["ご飯", "を", "食べ", "たい", "です"]
-      }
-    },
-    {
-      "id": "sentence_food_want_fruit",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_want", "word_fruit"],
-      "texts": {
-        "en": "I want fruit",
-        "th": "ฉันอยากได้ผลไม้ค่ะ",
-        "fa": "من میوه می‌خواهم",
-        "ar": "أريد فاكهة",
-        "es": "Quiero fruta",
-        "zh": "我想要水果",
-        "ja": "果物が欲しいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "fruit"],
-        "th": ["ฉัน", "อยาก", "ได้", "ผลไม้", "ค่ะ"],
-        "fa": ["من", "میوه", "می‌خواهم"],
-        "ar": ["أريد", "فاكهة"],
-        "es": ["Quiero", "fruta"],
-        "zh": ["我", "想要", "水果"],
-        "ja": ["果物", "が", "欲しい", "です"]
-      }
-    },
-    {
-      "id": "sentence_food_tea_or_coffee",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_want",
-        "word_tea",
-        "word_coffee",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Do you want tea or coffee?",
-        "th": "คุณอยากได้ชาหรือกาแฟครับ",
-        "fa": "چای می‌خواهید یا قهوه؟",
-        "ar": "هل تريد شاياً أم قهوة؟",
-        "es": "¿Quieres té o café?",
-        "zh": "你想要茶还是咖啡？",
-        "ja": "お茶とコーヒー、どちらがいいですか？"
-      },
-      "tokens": {
-        "en": ["Do", "you", "want", "tea", "or", "coffee?"],
-        "th": ["คุณ", "อยาก", "ได้", "ชา", "หรือ", "กาแฟ", "ครับ"],
-        "fa": ["چای", "می‌خواهید", "یا", "قهوه؟"],
-        "ar": ["هل", "تريد", "شاياً", "أم", "قهوة؟"],
-        "es": ["¿Quieres", "té", "o", "café?"],
-        "zh": ["你", "想要", "茶", "还是", "咖啡？"],
-        "ja": [
-          "お茶",
-          "と",
-          "コーヒー、",
-          "どちら",
-          "が",
-          "いい",
-          "です",
-          "か？"
-        ]
-      }
-    },
-    {
-      "id": "sentence_food_cold_water",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_want", "word_water", "word_cold"],
-      "texts": {
-        "en": "I want cold water",
-        "th": "ฉันอยากได้น้ำเย็นค่ะ",
-        "fa": "من آب خنک می‌خواهم",
-        "ar": "أريد ماءً بارداً",
-        "es": "Quiero agua fría",
-        "zh": "我想要冷水",
-        "ja": "冷たい水が欲しいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "cold", "water"],
-        "th": ["ฉัน", "อยาก", "ได้", "น้ำ", "เย็น", "ค่ะ"],
-        "fa": ["من", "آب", "خنک", "می‌خواهم"],
-        "ar": ["أريد", "ماءً", "بارداً"],
-        "es": ["Quiero", "agua", "fría"],
-        "zh": ["我", "想要", "冷水"],
-        "ja": ["冷たい", "水", "が", "欲しい", "です"]
-      }
-    },
-    {
-      "id": "sentence_food_not_spicy",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_not", "word_want", "word_eat", "word_spicy"],
-      "texts": {
-        "en": "I don't want spicy food",
-        "th": "ฉันไม่อยากกินอาหารเผ็ดค่ะ",
-        "fa": "من غذای تند نمی‌خواهم",
-        "ar": "لا أريد طعاماً حاراً",
-        "es": "No quiero comida picante",
-        "zh": "我不想吃辣的食物",
-        "ja": "辛い食べ物は食べたくないです"
-      },
-      "tokens": {
-        "en": ["I", "don't", "want", "spicy", "food"],
-        "th": ["ฉัน", "ไม่", "อยาก", "กิน", "อาหาร", "เผ็ด", "ค่ะ"],
-        "fa": ["من", "غذای", "تند", "نمی‌خواهم"],
-        "ar": ["لا", "أريد", "طعاماً", "حاراً"],
-        "es": ["No", "quiero", "comida", "picante"],
-        "zh": ["我", "不想", "吃", "辣的", "食物"],
-        "ja": ["辛い", "食べ物", "は", "食べ", "たく", "ない", "です"]
-      }
-    },
-    {
-      "id": "sentence_food_hungry",
-      "kind": "sentence",
-      "itemIds": ["word_you", "word_hungry", "word_question_particle"],
-      "texts": {
-        "en": "Are you hungry?",
-        "th": "คุณหิวไหมครับ",
-        "fa": "آیا گرسنه هستید؟",
-        "ar": "هل أنت جائع؟",
-        "es": "¿Tienes hambre?",
-        "zh": "你饿吗？",
-        "ja": "お腹が空いていますか？"
-      },
-      "tokens": {
-        "en": ["Are", "you", "hungry?"],
-        "th": ["คุณ", "หิว", "ไหม", "ครับ"],
-        "fa": ["آیا", "گرسنه", "هستید؟"],
-        "ar": ["هل", "أنت", "جائع؟"],
-        "es": ["¿Tienes", "hambre?"],
-        "zh": ["你", "饿", "吗？"],
-        "ja": ["お腹", "が", "空いて", "います", "か？"]
-      }
-    },
-    {
-      "id": "word_rice",
-      "kind": "word",
-      "texts": {
-        "en": "rice",
-        "th": "ข้าว",
-        "fa": "برنج",
-        "ar": "أرز",
-        "es": "arroz",
-        "zh": "米饭",
-        "ja": "ご飯"
-      }
-    },
-    {
-      "id": "word_fruit",
-      "kind": "word",
-      "texts": {
-        "en": "fruit",
-        "th": "ผลไม้",
-        "fa": "میوه",
-        "ar": "فاكهة",
-        "es": "fruta",
-        "zh": "水果",
-        "ja": "果物"
-      }
-    },
-    {
-      "id": "word_tea",
-      "kind": "word",
-      "texts": {
-        "en": "tea",
-        "th": "ชา",
-        "fa": "چای",
-        "ar": "شاي",
-        "es": "té",
-        "zh": "茶",
-        "ja": "お茶"
-      }
-    },
-    {
-      "id": "word_coffee",
-      "kind": "word",
-      "texts": {
-        "en": "coffee",
-        "th": "กาแฟ",
-        "fa": "قهوه",
-        "ar": "قهوة",
-        "es": "café",
-        "zh": "咖啡",
-        "ja": "コーヒー"
-      }
-    },
-    {
-      "id": "word_hungry",
-      "kind": "word",
+      "id": "w5",
+      "kind": "Word",
       "texts": {
         "en": "hungry",
         "th": "หิว",
@@ -747,208 +80,112 @@
       }
     },
     {
-      "id": "word_cold",
-      "kind": "word",
+      "id": "s1",
+      "kind": "Sentence",
       "texts": {
-        "en": "cold",
-        "th": "เย็น",
-        "fa": "خنک / سرد",
-        "ar": "بارد",
-        "es": "frío",
-        "zh": "冷",
-        "ja": "冷たい"
+        "en": "I want some water.",
+        "th": "ฉันต้องการน้ำ",
+        "fa": "من مقداری آب می‌خواهم.",
+        "ar": "أريد بعض الماء.",
+        "es": "Quiero un poco de agua.",
+        "zh": "我想要一些水。",
+        "ja": "私は水が欲しいです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้องการ", "น้ำ"],
+        "zh": ["我", "想要", "一些", "水", "。"],
+        "ja": ["私", "は", "水", "が", "欲しい", "です", "。"]
       }
     },
     {
-      "id": "word_spicy",
-      "kind": "word",
+      "id": "s2",
+      "kind": "Sentence",
       "texts": {
-        "en": "spicy",
-        "th": "เผ็ด",
-        "fa": "تند",
-        "ar": "حار",
-        "es": "picante",
-        "zh": "辣",
-        "ja": "辛い"
+        "en": "I need food now.",
+        "th": "ฉันต้องการอาหารตอนนี้",
+        "fa": "من الان به غذا نیاز دارم.",
+        "ar": "أحتاج إلى الطعام الآن.",
+        "es": "Necesito comida ahora.",
+        "zh": "我现在需要食物。",
+        "ja": "私は今食べ物が必要です。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้องการ", "อาหาร", "ตอนนี้"],
+        "zh": ["我", "现在", "需要", "食物", "。"],
+        "ja": ["私", "は", "今", "食べ物", "が", "必要", "です", "。"]
       }
     },
     {
-      "id": "header_scenario3",
+      "id": "s3",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Are you hungry?",
+        "th": "คุณหิวไหม",
+        "fa": "آیا گرسنه‌ای؟",
+        "ar": "هل أنت جائع؟",
+        "es": "¿Tienes hambre?",
+        "zh": "你饿吗？",
+        "ja": "お腹が空いていますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "หิว", "ไหม"],
+        "zh": ["你", "饿", "吗", "？"],
+        "ja": ["お腹", "が", "空い", "て", "い", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "She wants coffee.",
+        "th": "เธอต้องการกาแฟ",
+        "fa": "او قهوه می‌خواهد.",
+        "ar": "تريد القهوة.",
+        "es": "Ella quiere café.",
+        "zh": "她想要咖啡。",
+        "ja": "彼女はコーヒーが欲しいです。"
+      },
+      "tokens": {
+        "th": ["เธอ", "ต้องการ", "กาแฟ"],
+        "zh": ["她", "想要", "咖啡", "。"],
+        "ja": ["彼女", "は", "コーヒー", "が", "欲しい", "です", "。"]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "He needs a snack.",
+        "th": "เขาต้องการของว่าง",
+        "fa": "او به یک میان‌وعده نیاز دارد.",
+        "ar": "يحتاج إلى وجبة خفيفة.",
+        "es": "Él necesita un bocadillo.",
+        "zh": "他需要零食。",
+        "ja": "彼は軽食が必要です。"
+      },
+      "tokens": {
+        "th": ["เขา", "ต้องการ", "ของว่าง"],
+        "zh": ["他", "需要", "零食", "。"],
+        "ja": ["彼", "は", "軽食", "が", "必要", "です", "。"]
+      }
+    },
+
+    {
+      "id": "h2",
       "header": true,
       "texts": {
-        "en": "Scenario 3: Shopping & Buying",
-        "th": "สถานการณ์ 3: ช้อปปิ้งและซื้อของ",
-        "fa": "سناریو ۳: خرید و فروشگاه",
-        "ar": "السيناريو 3: التسوق والشراء",
-        "es": "Escenario 3: Compras",
-        "zh": "场景三：购物与购买",
-        "ja": "シナリオ3：買い物"
+        "en": "Scenario 2: Shopping and Buying",
+        "th": "สถานการณ์ที่ 2: การช้อปปิ้งและการซื้อ",
+        "fa": "سناریو ۲: خرید و خرید کردن",
+        "ar": "السيناريو 2: التسوق والشراء",
+        "es": "Escenario 2: Compras y compras",
+        "zh": "场景 2：购物与购买",
+        "ja": "シナリオ 2：買い物と購入"
       }
     },
     {
-      "id": "sentence_shop_want_buy",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_want", "word_buy", "word_this"],
-      "texts": {
-        "en": "I want to buy this",
-        "th": "ฉันอยากได้อันนี้ค่ะ",
-        "fa": "من این را می‌خواهم",
-        "ar": "أريد شراء هذا",
-        "es": "Quiero comprar esto",
-        "zh": "我想要这个",
-        "ja": "これが欲しいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "to", "buy", "this"],
-        "th": ["ฉัน", "อยาก", "ได้", "อันนี้", "ค่ะ"],
-        "fa": ["من", "این", "را", "می‌خواهم"],
-        "ar": ["أريد", "شراء", "هذا"],
-        "es": ["Quiero", "comprar", "esto"],
-        "zh": ["我", "想要", "这个"],
-        "ja": ["これ", "が", "欲しい", "です"]
-      }
-    },
-    {
-      "id": "sentence_shop_how_much",
-      "kind": "sentence",
-      "itemIds": ["word_this", "word_how_much"],
-      "texts": {
-        "en": "How much is this?",
-        "th": "อันนี้เท่าไหร่คะ",
-        "fa": "این چند است؟",
-        "ar": "كم سعر هذا؟",
-        "es": "¿Cuánto cuesta esto?",
-        "zh": "这个多少钱？",
-        "ja": "これはいくらですか？"
-      },
-      "tokens": {
-        "en": ["How", "much", "is", "this?"],
-        "th": ["อันนี้", "เท่าไหร่", "คะ"],
-        "fa": ["این", "چند", "است؟"],
-        "ar": ["كم", "سعر", "هذا؟"],
-        "es": ["¿Cuánto", "cuesta", "esto?"],
-        "zh": ["这个", "多少", "钱？"],
-        "ja": ["これ", "は", "いくら", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_shop_just_looking",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_look"],
-      "texts": {
-        "en": "I am just looking",
-        "th": "ฉันแค่ดูเฉย ๆ ค่ะ",
-        "fa": "من فقط نگاه می‌کنم",
-        "ar": "أنا فقط أنظر",
-        "es": "Solo estoy mirando",
-        "zh": "我只是看看",
-        "ja": "見ているだけです"
-      },
-      "tokens": {
-        "en": ["I", "am", "just", "looking"],
-        "th": ["ฉัน", "แค่", "ดู", "เฉย ๆ", "ค่ะ"],
-        "fa": ["من", "فقط", "نگاه", "می‌کنم"],
-        "ar": ["أنا", "فقط", "أنظر"],
-        "es": ["Solo", "estoy", "mirando"],
-        "zh": ["我", "只是", "看看"],
-        "ja": ["見て", "いる", "だけ", "です"]
-      }
-    },
-    {
-      "id": "sentence_shop_want_gift",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_want", "word_buy", "word_gift"],
-      "texts": {
-        "en": "I want to buy a gift",
-        "th": "ฉันอยากซื้อของขวัญค่ะ",
-        "fa": "من می‌خواهم هدیه بخرم",
-        "ar": "أريد شراء هدية",
-        "es": "Quiero comprar un regalo",
-        "zh": "我想买一个礼物",
-        "ja": "プレゼントを買いたいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "to", "buy", "a", "gift"],
-        "th": ["ฉัน", "อยาก", "ซื้อ", "ของขวัญ", "ค่ะ"],
-        "fa": ["من", "می‌خواهم", "هدیه", "بخرم"],
-        "ar": ["أريد", "شراء", "هدية"],
-        "es": ["Quiero", "comprar", "un", "regalo"],
-        "zh": ["我", "想", "买", "一个", "礼物"],
-        "ja": ["プレゼント", "を", "買い", "たい", "です"]
-      }
-    },
-    {
-      "id": "sentence_shop_too_expensive",
-      "kind": "sentence",
-      "itemIds": ["word_expensive", "word_too"],
-      "texts": {
-        "en": "That is too expensive",
-        "th": "แพงเกินไปค่ะ",
-        "fa": "خیلی گران است",
-        "ar": "هذا غالي جداً",
-        "es": "Es demasiado caro",
-        "zh": "太贵了",
-        "ja": "高すぎます"
-      },
-      "tokens": {
-        "en": ["That", "is", "too", "expensive"],
-        "th": ["แพง", "เกินไป", "ค่ะ"],
-        "fa": ["خیلی", "گران", "است"],
-        "ar": ["هذا", "غالي", "جداً"],
-        "es": ["Es", "demasiado", "caro"],
-        "zh": ["太", "贵", "了"],
-        "ja": ["高すぎ", "ます"]
-      }
-    },
-    {
-      "id": "sentence_shop_cheaper",
-      "kind": "sentence",
-      "itemIds": ["word_have", "word_cheap", "word_question_particle"],
-      "texts": {
-        "en": "Do you have a cheaper one?",
-        "th": "มีถูกกว่านี้ไหมคะ",
-        "fa": "آیا ارزان‌تر دارید؟",
-        "ar": "هل لديك أرخص؟",
-        "es": "¿Tienes uno más barato?",
-        "zh": "有更便宜的吗？",
-        "ja": "もっと安いのはありますか？"
-      },
-      "tokens": {
-        "en": ["Do", "you", "have", "a", "cheaper", "one?"],
-        "th": ["มี", "ถูกกว่า", "นี้", "ไหม", "คะ"],
-        "fa": ["آیا", "ارزان‌تر", "دارید؟"],
-        "ar": ["هل", "لديك", "أرخص؟"],
-        "es": ["¿Tienes", "uno", "más", "barato?"],
-        "zh": ["有", "更便宜的", "吗？"],
-        "ja": ["もっと", "安い", "の", "は", "あります", "か？"]
-      }
-    },
-    {
-      "id": "sentence_shop_take_it",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_take", "word_this"],
-      "texts": {
-        "en": "I will take this one",
-        "th": "ฉันเอาอันนี้ค่ะ",
-        "fa": "من این را می‌گیرم",
-        "ar": "سآخذ هذا",
-        "es": "Me llevo este",
-        "zh": "我要这个",
-        "ja": "これをください"
-      },
-      "tokens": {
-        "en": ["I", "will", "take", "this", "one"],
-        "th": ["ฉัน", "เอา", "อันนี้", "ค่ะ"],
-        "fa": ["من", "این", "را", "می‌گیرم"],
-        "ar": ["سآخذ", "هذا"],
-        "es": ["Me", "llevo", "este"],
-        "zh": ["我", "要", "这个"],
-        "ja": ["これ", "を", "ください"]
-      }
-    },
-    {
-      "id": "word_buy",
-      "kind": "word",
+      "id": "w6",
+      "kind": "Word",
       "texts": {
         "en": "buy",
         "th": "ซื้อ",
@@ -960,279 +197,381 @@
       }
     },
     {
-      "id": "word_look",
-      "kind": "word",
+      "id": "w7",
+      "kind": "Word",
       "texts": {
-        "en": "look / browse",
-        "th": "ดู",
-        "fa": "نگاه کردن",
-        "ar": "ينظر",
-        "es": "mirar",
-        "zh": "看",
-        "ja": "見る"
+        "en": "sell",
+        "th": "ขาย",
+        "fa": "فروختن",
+        "ar": "يبيع",
+        "es": "vender",
+        "zh": "卖",
+        "ja": "売る"
       }
     },
     {
-      "id": "word_shop",
-      "kind": "word",
+      "id": "w8",
+      "kind": "Word",
       "texts": {
-        "en": "shop / store",
-        "th": "ร้าน",
-        "fa": "فروشگاه / مغازه",
-        "ar": "متجر / محل",
+        "en": "shop",
+        "th": "ร้านค้า",
+        "fa": "فروشگاه",
+        "ar": "متجر",
         "es": "tienda",
         "zh": "商店",
         "ja": "店"
       }
     },
     {
-      "id": "word_expensive",
-      "kind": "word",
+      "id": "w9",
+      "kind": "Word",
       "texts": {
-        "en": "expensive",
-        "th": "แพง",
-        "fa": "گران",
-        "ar": "غالي",
-        "es": "caro",
-        "zh": "贵",
-        "ja": "高い"
+        "en": "money",
+        "th": "เงิน",
+        "fa": "پول",
+        "ar": "مال",
+        "es": "dinero",
+        "zh": "钱",
+        "ja": "お金"
       }
     },
     {
-      "id": "word_cheap",
-      "kind": "word",
+      "id": "w10",
+      "kind": "Word",
       "texts": {
-        "en": "cheap",
-        "th": "ถูก",
-        "fa": "ارزان",
-        "ar": "رخيص",
-        "es": "barato",
-        "zh": "便宜",
-        "ja": "安い"
+        "en": "pay",
+        "th": "จ่าย",
+        "fa": "پرداخت",
+        "ar": "يدفع",
+        "es": "pagar",
+        "zh": "支付",
+        "ja": "支払う"
       }
     },
     {
-      "id": "word_gift",
-      "kind": "word",
+      "id": "s6",
+      "kind": "Sentence",
       "texts": {
-        "en": "gift / present",
-        "th": "ของขวัญ",
-        "fa": "هدیه",
-        "ar": "هدية",
-        "es": "regalo",
-        "zh": "礼物",
-        "ja": "プレゼント"
+        "en": "I want to buy this.",
+        "th": "ฉันต้องการซื้อสิ่งนี้",
+        "fa": "من می‌خواهم این را بخرم.",
+        "ar": "أريد شراء هذا.",
+        "es": "Quiero comprar esto.",
+        "zh": "我想买这个。",
+        "ja": "私はこれを買いたいです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้องการ", "ซื้อ", "สิ่ง", "นี้"],
+        "zh": ["我", "想", "买", "这个", "。"],
+        "ja": ["私", "は", "これ", "を", "買い", "たい", "です", "。"]
       }
     },
     {
-      "id": "word_this",
-      "kind": "word",
+      "id": "s7",
+      "kind": "Sentence",
       "texts": {
-        "en": "this",
-        "th": "อันนี้ / นี่",
-        "fa": "این",
-        "ar": "هذا",
-        "es": "esto / este",
-        "zh": "这个",
-        "ja": "これ"
+        "en": "Do you sell shoes?",
+        "th": "คุณขายรองเท้าไหม",
+        "fa": "آیا شما کفش می‌فروشید؟",
+        "ar": "هل تبيع الأحذية؟",
+        "es": "¿Vendes zapatos?",
+        "zh": "你卖鞋吗？",
+        "ja": "あなたは靴を売っていますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "ขาย", "รองเท้า", "ไหม"],
+        "zh": ["你", "卖", "鞋", "吗", "？"],
+        "ja": [
+          "あなた",
+          "は",
+          "靴",
+          "を",
+          "売っ",
+          "て",
+          "い",
+          "ます",
+          "か",
+          "？"
+        ]
       }
     },
     {
-      "id": "word_how_much",
-      "kind": "word",
+      "id": "s8",
+      "kind": "Sentence",
       "texts": {
-        "en": "how much",
-        "th": "เท่าไหร่",
-        "fa": "چقدر",
-        "ar": "كم",
-        "es": "cuánto",
-        "zh": "多少",
-        "ja": "いくら"
+        "en": "I need to go to the shop.",
+        "th": "ฉันจำเป็นต้องไปร้านค้า",
+        "fa": "من باید به فروشگاه بروم.",
+        "ar": "أحتاج إلى الذهاب إلى المتجر.",
+        "es": "Necesito ir a la tienda.",
+        "zh": "我需要去商店。",
+        "ja": "私は店に行く必要があります。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "จำเป็น", "ต้อง", "ไป", "ร้านค้า"],
+        "zh": ["我", "需要", "去", "商店", "。"],
+        "ja": [
+          "私",
+          "は",
+          "店",
+          "に",
+          "行く",
+          "必要",
+          "が",
+          "あり",
+          "ます",
+          "。"
+        ]
       }
     },
     {
-      "id": "word_too",
-      "kind": "word",
+      "id": "s9",
+      "kind": "Sentence",
       "texts": {
-        "en": "too (excessively)",
-        "th": "เกินไป",
-        "fa": "خیلی / بیش از حد",
-        "ar": "جداً",
-        "es": "demasiado",
-        "zh": "太",
-        "ja": "〜すぎる"
+        "en": "I have enough money.",
+        "th": "ฉันมีเงินพอ",
+        "fa": "من پول کافی دارم.",
+        "ar": "لدي ما يكفي من المال.",
+        "es": "Tengo suficiente dinero.",
+        "zh": "我有足够的钱。",
+        "ja": "私は十分なお金を持っています。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "มี", "เงิน", "พอ"],
+        "zh": ["我", "有", "足够", "的", "钱", "。"],
+        "ja": [
+          "私",
+          "は",
+          "十分",
+          "な",
+          "お金",
+          "を",
+          "持っ",
+          "て",
+          "い",
+          "ます",
+          "。"
+        ]
       }
     },
     {
-      "id": "word_take",
-      "kind": "word",
+      "id": "s10",
+      "kind": "Sentence",
       "texts": {
-        "en": "take / choose",
-        "th": "เอา",
-        "fa": "گرفتن / انتخاب کردن",
-        "ar": "يأخذ",
-        "es": "tomar / llevar",
-        "zh": "要 / 拿",
-        "ja": "もらう / 取る"
+        "en": "I need to pay now.",
+        "th": "ฉันจำเป็นต้องจ่ายตอนนี้",
+        "fa": "من الان باید پرداخت کنم.",
+        "ar": "أحتاج إلى الدفع الآن.",
+        "es": "Necesito pagar ahora.",
+        "zh": "我现在需要支付。",
+        "ja": "私は今支払う必要があります。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "จำเป็น", "ต้อง", "จ่าย", "ตอนนี้"],
+        "zh": ["我", "现在", "需要", "支付", "。"],
+        "ja": ["私", "は", "今", "支払う", "必要", "が", "あり", "ます", "。"]
       }
     },
+
     {
-      "id": "header_scenario4",
+      "id": "h3",
       "header": true,
       "texts": {
-        "en": "Scenario 4: Urgent & Essential Needs",
-        "th": "สถานการณ์ 4: ความจำเป็นเร่งด่วน",
-        "fa": "سناریو ۴: نیازهای فوری و ضروری",
-        "ar": "السيناريو 4: الاحتياجات العاجلة",
-        "es": "Escenario 4: Necesidades urgentes",
-        "zh": "场景四：紧急与必需",
-        "ja": "シナリオ4：緊急・必須の必要性"
+        "en": "Scenario 3: Travel and Transport",
+        "th": "สถานการณ์ที่ 3: การเดินทางและการขนส่ง",
+        "fa": "سناریو ۳: سفر و حمل و نقل",
+        "ar": "السيناريو 3: السفر والنقل",
+        "es": "Escenario 3: Viajes y transporte",
+        "zh": "场景 3：旅行与交通",
+        "ja": "シナリオ 3：旅行と交通"
       }
     },
     {
-      "id": "sentence_urgent_need_help",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_need", "word_help"],
+      "id": "w11",
+      "kind": "Word",
       "texts": {
-        "en": "I need help!",
-        "th": "ฉันต้องการความช่วยเหลือค่ะ",
-        "fa": "من کمک نیاز دارم!",
-        "ar": "أحتاج مساعدة!",
-        "es": "¡Necesito ayuda!",
-        "zh": "我需要帮助！",
-        "ja": "助けが必要です！"
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "w12",
+      "kind": "Word",
+      "texts": {
+        "en": "come",
+        "th": "มา",
+        "fa": "آمدن",
+        "ar": "يأتي",
+        "es": "venir",
+        "zh": "来",
+        "ja": "来る"
+      }
+    },
+    {
+      "id": "w13",
+      "kind": "Word",
+      "texts": {
+        "en": "bus",
+        "th": "รถเมล์",
+        "fa": "اتوبوس",
+        "ar": "حافلة",
+        "es": "autobús",
+        "zh": "公交车",
+        "ja": "バス"
+      }
+    },
+    {
+      "id": "w14",
+      "kind": "Word",
+      "texts": {
+        "en": "train",
+        "th": "รถไฟ",
+        "fa": "قطار",
+        "ar": "قطار",
+        "es": "tren",
+        "zh": "火车",
+        "ja": "電車"
+      }
+    },
+    {
+      "id": "w15",
+      "kind": "Word",
+      "texts": {
+        "en": "ticket",
+        "th": "ตั๋ว",
+        "fa": "بلیط",
+        "ar": "تذكرة",
+        "es": "boleto",
+        "zh": "票",
+        "ja": "切符"
+      }
+    },
+    {
+      "id": "s11",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I want to go home.",
+        "th": "ฉันต้องการกลับบ้าน",
+        "fa": "من می‌خواهم به خانه بروم.",
+        "ar": "أريد الذهاب إلى المنزل.",
+        "es": "Quiero ir a casa.",
+        "zh": "我想回家。",
+        "ja": "私は家に帰りたいです。"
       },
       "tokens": {
-        "en": ["I", "need", "help!"],
-        "th": ["ฉัน", "ต้องการ", "ความ", "ช่วยเหลือ", "ค่ะ"],
-        "fa": ["من", "کمک", "نیاز", "دارم!"],
-        "ar": ["أحتاج", "مساعدة!"],
-        "es": ["¡Necesito", "ayuda!"],
-        "zh": ["我", "需要", "帮助！"],
-        "ja": ["助け", "が", "必要", "です！"]
+        "th": ["ฉัน", "ต้องการ", "กลับ", "บ้าน"],
+        "zh": ["我", "想", "回", "家", "。"],
+        "ja": ["私", "は", "家", "に", "帰り", "たい", "です", "。"]
       }
     },
     {
-      "id": "sentence_urgent_need_doctor",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_need", "word_doctor"],
+      "id": "s12",
+      "kind": "Sentence",
       "texts": {
-        "en": "I need a doctor",
-        "th": "ฉันต้องการหมอค่ะ",
-        "fa": "من به دکتر نیاز دارم",
-        "ar": "أحتاج طبيباً",
-        "es": "Necesito un médico",
-        "zh": "我需要医生",
-        "ja": "医者が必要です"
+        "en": "I need to come early.",
+        "th": "ฉันจำเป็นต้องมาเร็ว",
+        "fa": "من باید زود بیایم.",
+        "ar": "أحتاج إلى المجيء مبكراً.",
+        "es": "Necesito venir temprano.",
+        "zh": "我需要早点来。",
+        "ja": "私は早く来る必要があります。"
       },
       "tokens": {
-        "en": ["I", "need", "a", "doctor"],
-        "th": ["ฉัน", "ต้องการ", "หมอ", "ค่ะ"],
-        "fa": ["من", "به", "دکتر", "نیاز", "دارم"],
-        "ar": ["أحتاج", "طبيباً"],
-        "es": ["Necesito", "un", "médico"],
-        "zh": ["我", "需要", "医生"],
-        "ja": ["医者", "が", "必要", "です"]
+        "th": ["ฉัน", "จำเป็น", "ต้อง", "มา", "เร็ว"],
+        "zh": ["我", "需要", "早点", "来", "。"],
+        "ja": ["私", "は", "早く", "来る", "必要", "が", "あり", "ます", "。"]
       }
     },
     {
-      "id": "sentence_urgent_need_medicine",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_need", "word_medicine"],
+      "id": "s13",
+      "kind": "Sentence",
       "texts": {
-        "en": "I need medicine",
-        "th": "ฉันต้องการยาค่ะ",
-        "fa": "من دارو نیاز دارم",
-        "ar": "أحتاج دواءً",
-        "es": "Necesito medicina",
-        "zh": "我需要药",
-        "ja": "薬が必要です"
+        "en": "Do you want a bus ticket?",
+        "th": "คุณต้องการตั๋วรถเมล์ไหม",
+        "fa": "آیا بلیط اتوبوس می‌خواهی؟",
+        "ar": "هل تريد تذكرة حافلة؟",
+        "es": "¿Quieres un boleto de autobús?",
+        "zh": "你想要公交车票吗？",
+        "ja": "あなたはバスの切符が欲しいですか？"
       },
       "tokens": {
-        "en": ["I", "need", "medicine"],
-        "th": ["ฉัน", "ต้องการ", "ยา", "ค่ะ"],
-        "fa": ["من", "دارو", "نیاز", "دارم"],
-        "ar": ["أحتاج", "دواءً"],
-        "es": ["Necesito", "medicina"],
-        "zh": ["我", "需要", "药"],
-        "ja": ["薬", "が", "必要", "です"]
+        "th": ["คุณ", "ต้องการ", "ตั๋ว", "รถเมล์", "ไหม"],
+        "zh": ["你", "想要", "公交车", "票", "吗", "？"],
+        "ja": [
+          "あなた",
+          "は",
+          "バス",
+          "の",
+          "切符",
+          "が",
+          "欲しい",
+          "です",
+          "か",
+          "？"
+        ]
       }
     },
     {
-      "id": "sentence_urgent_bathroom",
-      "kind": "sentence",
-      "itemIds": ["word_bathroom", "word_where"],
+      "id": "s14",
+      "kind": "Sentence",
       "texts": {
-        "en": "Where is the bathroom?",
-        "th": "ห้องน้ำอยู่ที่ไหนคะ",
-        "fa": "دستشویی کجاست؟",
-        "ar": "أين الحمام؟",
-        "es": "¿Dónde está el baño?",
-        "zh": "洗手间在哪里？",
-        "ja": "トイレはどこですか？"
+        "en": "I need a train ticket.",
+        "th": "ฉันต้องการตั๋วรถไฟ",
+        "fa": "من به بلیط قطار نیاز دارم.",
+        "ar": "أحتاج إلى تذكرة قطار.",
+        "es": "Necesito un boleto de tren.",
+        "zh": "我需要火车票。",
+        "ja": "私は電車の切符が必要です。"
       },
       "tokens": {
-        "en": ["Where", "is", "the", "bathroom?"],
-        "th": ["ห้องน้ำ", "อยู่", "ที่", "ไหน", "คะ"],
-        "fa": ["دستشویی", "کجاست؟"],
-        "ar": ["أين", "الحمام؟"],
-        "es": ["¿Dónde", "está", "el", "baño?"],
-        "zh": ["洗手间", "在", "哪里？"],
-        "ja": ["トイレ", "は", "どこ", "です", "か？"]
+        "th": ["ฉัน", "ต้องการ", "ตั๋ว", "รถไฟ"],
+        "zh": ["我", "需要", "火车", "票", "。"],
+        "ja": ["私", "は", "電車", "の", "切符", "が", "必要", "です", "。"]
       }
     },
     {
-      "id": "sentence_urgent_need_money",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_need", "word_money"],
+      "id": "s15",
+      "kind": "Sentence",
       "texts": {
-        "en": "I need money",
-        "th": "ฉันต้องการเงินค่ะ",
-        "fa": "من پول نیاز دارم",
-        "ar": "أحتاج مالاً",
-        "es": "Necesito dinero",
-        "zh": "我需要钱",
-        "ja": "お金が必要です"
+        "en": "We want to travel tomorrow.",
+        "th": "พวกเราต้องการเดินทางพรุ่งนี้",
+        "fa": "ما می‌خواهیم فردا سفر کنیم.",
+        "ar": "نريد السفر غداً.",
+        "es": "Queremos viajar mañana.",
+        "zh": "我们想明天旅行。",
+        "ja": "私たちは明日旅行したいです。"
       },
       "tokens": {
-        "en": ["I", "need", "money"],
-        "th": ["ฉัน", "ต้องการ", "เงิน", "ค่ะ"],
-        "fa": ["من", "پول", "نیاز", "دارم"],
-        "ar": ["أحتاج", "مالاً"],
-        "es": ["Necesito", "dinero"],
-        "zh": ["我", "需要", "钱"],
-        "ja": ["お金", "が", "必要", "です"]
+        "th": ["พวกเรา", "ต้องการ", "เดินทาง", "พรุ่งนี้"],
+        "zh": ["我们", "想", "明天", "旅行", "。"],
+        "ja": ["私", "たち", "は", "明日", "旅行", "し", "たい", "です", "。"]
       }
     },
+
     {
-      "id": "sentence_urgent_sick",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_sick"],
+      "id": "h4",
+      "header": true,
       "texts": {
-        "en": "I am sick",
-        "th": "ฉันไม่สบายค่ะ",
-        "fa": "من مریض هستم",
-        "ar": "أنا مريض",
-        "es": "Estoy enfermo",
-        "zh": "我生病了",
-        "ja": "具合が悪いです"
-      },
-      "tokens": {
-        "en": ["I", "am", "sick"],
-        "th": ["ฉัน", "ไม่", "สบาย", "ค่ะ"],
-        "fa": ["من", "مریض", "هستم"],
-        "ar": ["أنا", "مريض"],
-        "es": ["Estoy", "enfermo"],
-        "zh": ["我", "生病了"],
-        "ja": ["具合", "が", "悪い", "です"]
+        "en": "Scenario 4: Help and Services",
+        "th": "สถานการณ์ที่ 4: ความช่วยเหลือและบริการ",
+        "fa": "سناریو ۴: کمک و خدمات",
+        "ar": "السيناريو 4: المساعدة والخدمات",
+        "es": "Escenario 4: Ayuda y servicios",
+        "zh": "场景 4：帮助与服务",
+        "ja": "シナリオ 4：助けとサービス"
       }
     },
     {
-      "id": "word_help",
-      "kind": "word",
+      "id": "w16",
+      "kind": "Word",
       "texts": {
         "en": "help",
-        "th": "ความช่วยเหลือ",
+        "th": "ช่วย",
         "fa": "کمک",
         "ar": "مساعدة",
         "es": "ayuda",
@@ -1241,310 +580,358 @@
       }
     },
     {
-      "id": "word_doctor",
-      "kind": "word",
+      "id": "w17",
+      "kind": "Word",
+      "texts": {
+        "en": "assist",
+        "th": "ช่วยเหลือ",
+        "fa": "مساعدت",
+        "ar": "مساعدة",
+        "es": "asistir",
+        "zh": "协助",
+        "ja": "支援"
+      }
+    },
+    {
+      "id": "w18",
+      "kind": "Word",
+      "texts": {
+        "en": "service",
+        "th": "บริการ",
+        "fa": "خدمت",
+        "ar": "خدمة",
+        "es": "servicio",
+        "zh": "服务",
+        "ja": "サービス"
+      }
+    },
+    {
+      "id": "w19",
+      "kind": "Word",
       "texts": {
         "en": "doctor",
         "th": "หมอ",
-        "fa": "دکتر / پزشک",
+        "fa": "دکتر",
         "ar": "طبيب",
-        "es": "médico / doctor",
+        "es": "médico",
         "zh": "医生",
         "ja": "医者"
       }
     },
     {
-      "id": "word_medicine",
-      "kind": "word",
+      "id": "w20",
+      "kind": "Word",
       "texts": {
-        "en": "medicine",
-        "th": "ยา",
-        "fa": "دارو",
-        "ar": "دواء",
-        "es": "medicina / medicamento",
-        "zh": "药",
-        "ja": "薬"
+        "en": "police",
+        "th": "ตำรวจ",
+        "fa": "پلیس",
+        "ar": "شرطة",
+        "es": "policía",
+        "zh": "警察",
+        "ja": "警察"
       }
     },
     {
-      "id": "word_bathroom",
-      "kind": "word",
+      "id": "s16",
+      "kind": "Sentence",
       "texts": {
-        "en": "bathroom / toilet",
-        "th": "ห้องน้ำ",
-        "fa": "دستشویی / toilet",
-        "ar": "حمام / toilet",
-        "es": "baño / toilet",
-        "zh": "洗手间",
-        "ja": "トイレ"
+        "en": "I need some help.",
+        "th": "ฉันต้องการความช่วยเหลือ",
+        "fa": "من به کمی کمک نیاز دارم.",
+        "ar": "أحتاج إلى بعض المساعدة.",
+        "es": "Necesito algo de ayuda.",
+        "zh": "我需要一些帮助。",
+        "ja": "私は少し助けが必要です。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้องการ", "ความ", "ช่วย", "เหลือ"],
+        "zh": ["我", "需要", "一些", "帮助", "。"],
+        "ja": ["私", "は", "少し", "助け", "が", "必要", "です", "。"]
       }
     },
     {
-      "id": "word_money",
-      "kind": "word",
+      "id": "s17",
+      "kind": "Sentence",
       "texts": {
-        "en": "money",
-        "th": "เงิน",
-        "fa": "پول",
-        "ar": "مال / نقود",
-        "es": "dinero",
-        "zh": "钱",
-        "ja": "お金"
+        "en": "I want to see a doctor.",
+        "th": "ฉันต้องการพบหมอ",
+        "fa": "من می‌خواهم دکتر را ببینم.",
+        "ar": "أريد رؤية طبيب.",
+        "es": "Quiero ver a un médico.",
+        "zh": "我想看医生。",
+        "ja": "私は医者に見てもらいたいです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้องการ", "พบ", "หมอ"],
+        "zh": ["我", "想", "看", "医生", "。"],
+        "ja": [
+          "私",
+          "は",
+          "医者",
+          "に",
+          "見",
+          "て",
+          "もらい",
+          "たい",
+          "です",
+          "。"
+        ]
       }
     },
     {
-      "id": "word_sick",
-      "kind": "word",
+      "id": "s18",
+      "kind": "Sentence",
       "texts": {
-        "en": "sick / ill",
-        "th": "ไม่สบาย",
-        "fa": "مریض / بیمار",
-        "ar": "مريض",
-        "es": "enfermo",
-        "zh": "生病",
-        "ja": "具合が悪い"
+        "en": "Do you need assistance?",
+        "th": "คุณต้องการความช่วยเหลือไหม",
+        "fa": "آیا به کمک نیاز داری؟",
+        "ar": "هل تحتاج إلى مساعدة؟",
+        "es": "¿Necesitas asistencia?",
+        "zh": "你需要协助吗？",
+        "ja": "あなたは支援が必要ですか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "ต้องการ", "ความ", "ช่วย", "เหลือ", "ไหม"],
+        "zh": ["你", "需要", "协助", "吗", "？"],
+        "ja": ["あなた", "は", "支援", "が", "必要", "です", "か", "？"]
       }
     },
     {
-      "id": "word_where",
-      "kind": "word",
+      "id": "s19",
+      "kind": "Sentence",
       "texts": {
-        "en": "where",
-        "th": "ที่ไหน",
-        "fa": "کجا",
-        "ar": "أين",
-        "es": "dónde",
-        "zh": "哪里",
-        "ja": "どこ"
+        "en": "We want good service.",
+        "th": "พวกเราต้องการบริการที่ดี",
+        "fa": "ما خدمات خوب می‌خواهیم.",
+        "ar": "نريد خدمة جيدة.",
+        "es": "Queremos un buen servicio.",
+        "zh": "我们想要好的服务。",
+        "ja": "私たちは良いサービスが欲しいです。"
+      },
+      "tokens": {
+        "th": ["พวกเรา", "ต้องการ", "บริการ", "ที่", "ดี"],
+        "zh": ["我们", "想要", "好", "的", "服务", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "良い",
+          "サービス",
+          "が",
+          "欲しい",
+          "です",
+          "。"
+        ]
       }
     },
     {
-      "id": "header_scenario5",
+      "id": "s20",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I need to call the police.",
+        "th": "ฉันจำเป็นต้องโทรหาตำรวจ",
+        "fa": "من باید با پلیس تماس بگیرم.",
+        "ar": "أحتاج إلى استدعاء الشرطة.",
+        "es": "Necesito llamar a la policía.",
+        "zh": "我需要报警。",
+        "ja": "私は警察を呼ぶ必要があります。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "จำเป็น", "ต้อง", "โทรหา", "ตำรวจ"],
+        "zh": ["我", "需要", "报警", "。"],
+        "ja": [
+          "私",
+          "は",
+          "警察",
+          "を",
+          "呼ぶ",
+          "必要",
+          "が",
+          "あり",
+          "ます",
+          "。"
+        ]
+      }
+    },
+
+    {
+      "id": "h5",
       "header": true,
       "texts": {
-        "en": "Scenario 5: Preferences & Choices",
-        "th": "สถานการณ์ 5: ความชอบและการเลือก",
-        "fa": "سناریو ۵: ترجیحات و انتخاب‌ها",
-        "ar": "السيناريو 5: التفضيلات والاختيارات",
-        "es": "Escenario 5: Preferencias y elecciones",
-        "zh": "场景五：偏好与选择",
-        "ja": "シナリオ5：好みと選択"
+        "en": "Scenario 5: Time and Plans",
+        "th": "สถานการณ์ที่ 5: เวลาและแผนการ",
+        "fa": "سناریو ۵: زمان و برنامه‌ها",
+        "ar": "السيناريو 5: الوقت والخطط",
+        "es": "Escenario 5: Tiempo y planes",
+        "zh": "场景 5：时间与计划",
+        "ja": "シナリオ 5：時間と計画"
       }
     },
     {
-      "id": "sentence_pref_like_this",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_like", "word_this"],
+      "id": "w21",
+      "kind": "Word",
       "texts": {
-        "en": "I like this one",
-        "th": "ฉันชอบอันนี้ค่ะ",
-        "fa": "من این را دوست دارم",
-        "ar": "أنا أحب هذا",
-        "es": "Me gusta este",
-        "zh": "我喜欢这个",
-        "ja": "これが好きです"
-      },
-      "tokens": {
-        "en": ["I", "like", "this", "one"],
-        "th": ["ฉัน", "ชอบ", "อันนี้", "ค่ะ"],
-        "fa": ["من", "این", "را", "دوست", "دارم"],
-        "ar": ["أنا", "أحب", "هذا"],
-        "es": ["Me", "gusta", "este"],
-        "zh": ["我", "喜欢", "这个"],
-        "ja": ["これ", "が", "好き", "です"]
+        "en": "time",
+        "th": "เวลา",
+        "fa": "زمان",
+        "ar": "وقت",
+        "es": "tiempo",
+        "zh": "时间",
+        "ja": "時間"
       }
     },
     {
-      "id": "sentence_pref_not_like_that",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_not", "word_like", "word_that"],
+      "id": "w22",
+      "kind": "Word",
       "texts": {
-        "en": "I don't like that one",
-        "th": "ฉันไม่ชอบอันนั้นค่ะ",
-        "fa": "من آن را دوست ندارم",
-        "ar": "لا أحب ذلك",
-        "es": "No me gusta ese",
-        "zh": "我不喜欢那个",
-        "ja": "それは好きではありません"
-      },
-      "tokens": {
-        "en": ["I", "don't", "like", "that", "one"],
-        "th": ["ฉัน", "ไม่", "ชอบ", "อันนั้น", "ค่ะ"],
-        "fa": ["من", "آن", "را", "دوست", "ندارم"],
-        "ar": ["لا", "أحب", "ذلك"],
-        "es": ["No", "me", "gusta", "ese"],
-        "zh": ["我", "不喜欢", "那个"],
-        "ja": ["それ", "は", "好き", "では", "ありません"]
+        "en": "now",
+        "th": "ตอนนี้",
+        "fa": "الان",
+        "ar": "الآن",
+        "es": "ahora",
+        "zh": "现在",
+        "ja": "今"
       }
     },
     {
-      "id": "sentence_pref_which_one",
-      "kind": "sentence",
-      "itemIds": ["word_you", "word_want", "word_which"],
-      "texts": {
-        "en": "Which one do you want?",
-        "th": "คุณอยากได้อันไหนครับ",
-        "fa": "کدام را می‌خواهید؟",
-        "ar": "أي واحد تريد؟",
-        "es": "¿Cuál quieres?",
-        "zh": "你想要哪个？",
-        "ja": "どれがいいですか？"
-      },
-      "tokens": {
-        "en": ["Which", "one", "do", "you", "want?"],
-        "th": ["คุณ", "อยาก", "ได้", "อัน", "ไหน", "ครับ"],
-        "fa": ["کدام", "را", "می‌خواهید؟"],
-        "ar": ["أي", "واحد", "تريد؟"],
-        "es": ["¿Cuál", "quieres?"],
-        "zh": ["你", "想要", "哪个？"],
-        "ja": ["どれ", "が", "いい", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_pref_want_this",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_want", "word_this"],
-      "texts": {
-        "en": "I want this one",
-        "th": "ฉันอยากได้อันนี้ค่ะ",
-        "fa": "من این را می‌خواهم",
-        "ar": "أريد هذا",
-        "es": "Quiero este",
-        "zh": "我想要这个",
-        "ja": "これがいいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "this", "one"],
-        "th": ["ฉัน", "อยาก", "ได้", "อันนี้", "ค่ะ"],
-        "fa": ["من", "این", "را", "می‌خواهم"],
-        "ar": ["أريد", "هذا"],
-        "es": ["Quiero", "este"],
-        "zh": ["我", "想要", "这个"],
-        "ja": ["これ", "が", "いい", "です"]
-      }
-    },
-    {
-      "id": "sentence_pref_maybe_later",
-      "kind": "sentence",
-      "itemIds": ["word_maybe", "word_later"],
-      "texts": {
-        "en": "Maybe later",
-        "th": "เอาไว้ก่อนค่ะ",
-        "fa": "شاید بعداً",
-        "ar": "ربما لاحقاً",
-        "es": "Tal vez más tarde",
-        "zh": "也许以后再说",
-        "ja": "また今度にします"
-      },
-      "tokens": {
-        "en": ["Maybe", "later"],
-        "th": ["เอา", "ไว้", "ก่อน", "ค่ะ"],
-        "fa": ["شاید", "بعداً"],
-        "ar": ["ربما", "لاحقاً"],
-        "es": ["Tal", "vez", "más", "tarde"],
-        "zh": ["也许", "以后", "再说"],
-        "ja": ["また", "今度", "に", "します"]
-      }
-    },
-    {
-      "id": "sentence_pref_take_both",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_take", "word_both"],
-      "texts": {
-        "en": "I will take both",
-        "th": "ฉันเอาทั้งสองอันค่ะ",
-        "fa": "من هر دو را می‌گیرم",
-        "ar": "سآخذ كليهما",
-        "es": "Me llevo ambos",
-        "zh": "两个我都要",
-        "ja": "両方ください"
-      },
-      "tokens": {
-        "en": ["I", "will", "take", "both"],
-        "th": ["ฉัน", "เอา", "ทั้ง", "สอง", "อัน", "ค่ะ"],
-        "fa": ["من", "هر", "دو", "را", "می‌گیرم"],
-        "ar": ["سآخذ", "كليهما"],
-        "es": ["Me", "llevo", "ambos"],
-        "zh": ["两个", "我", "都", "要"],
-        "ja": ["両方", "ください"]
-      }
-    },
-    {
-      "id": "word_like",
-      "kind": "word",
-      "texts": {
-        "en": "like",
-        "th": "ชอบ",
-        "fa": "دوست داشتن",
-        "ar": "يحب",
-        "es": "gustar",
-        "zh": "喜欢",
-        "ja": "好き"
-      }
-    },
-    {
-      "id": "word_that",
-      "kind": "word",
-      "texts": {
-        "en": "that",
-        "th": "อันนั้น / นั่น",
-        "fa": "آن",
-        "ar": "ذلك",
-        "es": "eso / ese",
-        "zh": "那个",
-        "ja": "それ"
-      }
-    },
-    {
-      "id": "word_which",
-      "kind": "word",
-      "texts": {
-        "en": "which",
-        "th": "ไหน",
-        "fa": "کدام",
-        "ar": "أي",
-        "es": "cuál",
-        "zh": "哪个",
-        "ja": "どれ"
-      }
-    },
-    {
-      "id": "word_maybe",
-      "kind": "word",
-      "texts": {
-        "en": "maybe",
-        "th": "อาจจะ",
-        "fa": "شاید",
-        "ar": "ربما",
-        "es": "tal vez",
-        "zh": "也许",
-        "ja": "たぶん"
-      }
-    },
-    {
-      "id": "word_later",
-      "kind": "word",
+      "id": "w23",
+      "kind": "Word",
       "texts": {
         "en": "later",
-        "th": "ก่อน / ทีหลัง",
+        "th": "ภายหลัง",
         "fa": "بعداً",
         "ar": "لاحقاً",
         "es": "más tarde",
-        "zh": "以后",
+        "zh": "稍后",
         "ja": "後で"
       }
     },
     {
-      "id": "word_both",
-      "kind": "word",
+      "id": "w24",
+      "kind": "Word",
       "texts": {
-        "en": "both",
-        "th": "ทั้งสอง",
-        "fa": "هر دو",
-        "ar": "كلاهما",
-        "es": "ambos",
-        "zh": "两个都",
-        "ja": "両方"
+        "en": "today",
+        "th": "วันนี้",
+        "fa": "امروز",
+        "ar": "اليوم",
+        "es": "hoy",
+        "zh": "今天",
+        "ja": "今日"
+      }
+    },
+    {
+      "id": "w25",
+      "kind": "Word",
+      "texts": {
+        "en": "tomorrow",
+        "th": "พรุ่งนี้",
+        "fa": "فردا",
+        "ar": "غداً",
+        "es": "mañana",
+        "zh": "明天",
+        "ja": "明日"
+      }
+    },
+    {
+      "id": "s21",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I want to go now.",
+        "th": "ฉันต้องการไปตอนนี้",
+        "fa": "من الان می‌خواهم بروم.",
+        "ar": "أريد الذهاب الآن.",
+        "es": "Quiero ir ahora.",
+        "zh": "我现在想走。",
+        "ja": "私は今行きたいです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้องการ", "ไป", "ตอนนี้"],
+        "zh": ["我", "现在", "想", "走", "。"],
+        "ja": ["私", "は", "今", "行き", "たい", "です", "。"]
+      }
+    },
+    {
+      "id": "s22",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I need time to think.",
+        "th": "ฉันต้องการเวลาเพื่อคิด",
+        "fa": "من به زمان برای فکر کردن نیاز دارم.",
+        "ar": "أحتاج إلى وقت للتفكير.",
+        "es": "Necesito tiempo para pensar.",
+        "zh": "我需要时间思考。",
+        "ja": "私は考える時間が必要です。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้องการ", "เวลา", "เพื่อ", "คิด"],
+        "zh": ["我", "需要", "时间", "思考", "。"],
+        "ja": ["私", "は", "考える", "時間", "が", "必要", "です", "。"]
+      }
+    },
+    {
+      "id": "s23",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Do you want to go later?",
+        "th": "คุณต้องการไปภายหลังไหม",
+        "fa": "آیا می‌خواهی بعداً بروی؟",
+        "ar": "هل تريد الذهاب لاحقاً؟",
+        "es": "¿Quieres ir más tarde?",
+        "zh": "你想稍后去吗？",
+        "ja": "あなたは後で行きたいですか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "ต้องการ", "ไป", "ภายหลัง", "ไหม"],
+        "zh": ["你", "想", "稍后", "去", "吗", "？"],
+        "ja": ["あなた", "は", "後で", "行き", "たい", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s24",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I need to work today.",
+        "th": "ฉันจำเป็นต้องทำงานวันนี้",
+        "fa": "من امروز باید کار کنم.",
+        "ar": "أحتاج إلى العمل اليوم.",
+        "es": "Necesito trabajar hoy.",
+        "zh": "我今天需要工作。",
+        "ja": "私は今日仕事をする必要があります。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "จำเป็น", "ต้อง", "ทำ", "งาน", "วันนี้"],
+        "zh": ["我", "今天", "需要", "工作", "。"],
+        "ja": [
+          "私",
+          "は",
+          "今日",
+          "仕事",
+          "を",
+          "する",
+          "必要",
+          "が",
+          "あり",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s25",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We want to leave tomorrow.",
+        "th": "พวกเราต้องการออกเดินทางพรุ่งนี้",
+        "fa": "ما می‌خواهیم فردا ترک کنیم.",
+        "ar": "نريد المغادرة غداً.",
+        "es": "Queremos irnos mañana.",
+        "zh": "我们想明天离开。",
+        "ja": "私たちは明日出発したいです。"
+      },
+      "tokens": {
+        "th": ["พวกเรา", "ต้องการ", "ออกเดินทาง", "พรุ่งนี้"],
+        "zh": ["我们", "想", "明天", "离开", "。"],
+        "ja": ["私", "たち", "は", "明日", "出発", "し", "たい", "です", "。"]
       }
     }
   ]

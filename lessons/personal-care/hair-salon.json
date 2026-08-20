@@ -2,60 +2,222 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "h1",
       "header": true,
       "texts": {
-        "en": "Core Words",
-        "th": "คำหลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras básicas",
-        "zh": "核心词汇",
-        "ja": "コア単語"
+        "en": "Scenario 1: Booking an Appointment",
+        "th": "สถานการณ์ที่ 1: การนัดหมาย",
+        "fa": "سناریو ۱: رزرو نوبت",
+        "ar": "السيناريو 1: حجز موعد",
+        "es": "Escenario 1: Reservar una cita",
+        "zh": "场景 1：预约",
+        "ja": "シナリオ 1：予約"
       }
     },
     {
-      "id": "word_hair",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
-        "en": "hair",
-        "th": "ผม",
-        "fa": "مو",
-        "ar": "شعر",
-        "es": "pelo",
-        "zh": "头发",
-        "ja": "髪"
+        "en": "appointment",
+        "th": "นัดหมาย",
+        "fa": "نوبت",
+        "ar": "موعد",
+        "es": "cita",
+        "zh": "预约",
+        "ja": "予約"
       }
     },
     {
-      "id": "word_cut",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
+      "texts": {
+        "en": "available",
+        "th": "ว่าง",
+        "fa": "موجود",
+        "ar": "متاح",
+        "es": "disponible",
+        "zh": "有空",
+        "ja": "空いている"
+      }
+    },
+    {
+      "id": "w3",
+      "kind": "Word",
+      "texts": {
+        "en": "tomorrow",
+        "th": "พรุ่งนี้",
+        "fa": "فردا",
+        "ar": "غداً",
+        "es": "mañana",
+        "zh": "明天",
+        "ja": "明日"
+      }
+    },
+    {
+      "id": "w4",
+      "kind": "Word",
+      "texts": {
+        "en": "morning",
+        "th": "เช้า",
+        "fa": "صبح",
+        "ar": "صباح",
+        "es": "mañana",
+        "zh": "早上",
+        "ja": "朝"
+      }
+    },
+    {
+      "id": "w5",
+      "kind": "Word",
+      "texts": {
+        "en": "stylist",
+        "th": "ช่างทำผม",
+        "fa": "آرایشگر",
+        "ar": "مصفف شعر",
+        "es": "estilista",
+        "zh": "发型师",
+        "ja": "スタイリスト"
+      }
+    },
+    {
+      "id": "s1",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I would like to book an appointment.",
+        "th": "ฉันต้องการนัดหมาย",
+        "fa": "من می‌خواهم نوبت رزرو کنم.",
+        "ar": "أرغب في حجز موعد.",
+        "es": "Me gustaría reservar una cita.",
+        "zh": "我想预约。",
+        "ja": "予約をしたいです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้องการ", "นัดหมาย"],
+        "zh": ["我", "想", "预约", "。"],
+        "ja": ["予約", "を", "したい", "です", "。"]
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Are you available tomorrow morning?",
+        "th": "พรุ่งนี้เช้าคุณว่างไหม",
+        "fa": "آیا فردا صبح وقت دارید؟",
+        "ar": "هل أنت متاح غداً صباحاً؟",
+        "es": "¿Está disponible mañana por la mañana?",
+        "zh": "你明天早上有空吗？",
+        "ja": "明日の朝は空いていますか？"
+      },
+      "tokens": {
+        "th": ["พรุ่งนี้", "เช้า", "คุณ", "ว่าง", "ไหม"],
+        "zh": ["你", "明天", "早上", "有", "空", "吗", "？"],
+        "ja": ["明日", "の", "朝", "は", "空い", "て", "い", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "Sentence",
+      "texts": {
+        "en": "What time works for you?",
+        "th": "เวลาไหนสะดวกสำหรับคุณ",
+        "fa": "چه زمانی برای شما مناسب است؟",
+        "ar": "ما هو الوقت المناسب لك؟",
+        "es": "¿Qué hora le conviene?",
+        "zh": "什么时间对你方便？",
+        "ja": "何時がご都合よろしいですか？"
+      },
+      "tokens": {
+        "th": ["เวลา", "ไหน", "สะดวก", "สำหรับ", "คุณ"],
+        "zh": ["什么", "时间", "对", "你", "方便", "？"],
+        "ja": ["何時", "が", "ご", "都合", "よろしい", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Can I see a specific stylist?",
+        "th": "ฉันสามารถเลือกช่างทำผมคนเฉพาะได้ไหม",
+        "fa": "آیا می‌توانم آرایشگر خاصی را ببینم؟",
+        "ar": "هل يمكنني رؤية مصفف شعر معين؟",
+        "es": "¿Puedo ver a un estilista específico?",
+        "zh": "我可以指定某位发型师吗？",
+        "ja": "特定のスタイリストを指名できますか？"
+      },
+      "tokens": {
+        "th": [
+          "ฉัน",
+          "สามารถ",
+          "เลือก",
+          "ช่างทำผม",
+          "คน",
+          "เฉพาะ",
+          "ได้",
+          "ไหม"
+        ],
+        "zh": ["我", "可以", "指定", "某位", "发型师", "吗", "？"],
+        "ja": [
+          "特定",
+          "の",
+          "スタイリスト",
+          "を",
+          "指名",
+          "でき",
+          "ます",
+          "か",
+          "？"
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Please confirm my booking.",
+        "th": "กรุณายืนยันการจองของฉัน",
+        "fa": "لطفاً رزرو من را تأیید کنید.",
+        "ar": "يرجى تأكيد حجزي.",
+        "es": "Por favor, confirme mi reserva.",
+        "zh": "请确认我的预约。",
+        "ja": "予約を確認してください。"
+      },
+      "tokens": {
+        "th": ["กรุณา", "ยืนยัน", "การ", "จอง", "ของ", "ฉัน"],
+        "zh": ["请", "确认", "我", "的", "预约", "。"],
+        "ja": ["予約", "を", "確認", "し", "て", "ください", "。"]
+      }
+    },
+
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Describing the Desired Style",
+        "th": "สถานการณ์ที่ 2: การอธิบายทรงผมที่ต้องการ",
+        "fa": "سناریو ۲: توضیح مدل دلخواه",
+        "ar": "السيناريو 2: وصف التسريحة المطلوبة",
+        "es": "Escenario 2: Describir el estilo deseado",
+        "zh": "场景 2：描述想要的发型",
+        "ja": "シナリオ 2：希望のスタイルを説明する"
+      }
+    },
+    {
+      "id": "w6",
+      "kind": "Word",
       "texts": {
         "en": "cut",
         "th": "ตัด",
         "fa": "کوتاه کردن",
-        "ar": "يقص",
+        "ar": "قص",
         "es": "cortar",
         "zh": "剪",
         "ja": "切る"
       }
     },
     {
-      "id": "word_wash",
-      "kind": "word",
-      "texts": {
-        "en": "wash",
-        "th": "สระ",
-        "fa": "شستن",
-        "ar": "يغسل",
-        "es": "lavar",
-        "zh": "洗",
-        "ja": "洗う"
-      }
-    },
-    {
-      "id": "word_short",
-      "kind": "word",
+      "id": "w7",
+      "kind": "Word",
       "texts": {
         "en": "short",
         "th": "สั้น",
@@ -67,8 +229,8 @@
       }
     },
     {
-      "id": "word_long",
-      "kind": "word",
+      "id": "w8",
+      "kind": "Word",
       "texts": {
         "en": "long",
         "th": "ยาว",
@@ -80,629 +242,21 @@
       }
     },
     {
-      "id": "word_straight",
-      "kind": "word",
+      "id": "w9",
+      "kind": "Word",
       "texts": {
-        "en": "straight",
-        "th": "ตรง",
-        "fa": "صاف",
-        "ar": "مستقيم",
-        "es": "lacio",
-        "zh": "直",
-        "ja": "ストレート"
+        "en": "layers",
+        "th": "เลเยอร์",
+        "fa": "لایه‌ها",
+        "ar": "طبقات",
+        "es": "capas",
+        "zh": "层次",
+        "ja": "レイヤー"
       }
     },
     {
-      "id": "word_curly",
-      "kind": "word",
-      "texts": {
-        "en": "curly",
-        "th": "หยิก",
-        "fa": "فر",
-        "ar": "مجعد",
-        "es": "rizado",
-        "zh": "卷",
-        "ja": "カーリー"
-      }
-    },
-    {
-      "id": "word_dye",
-      "kind": "word",
-      "texts": {
-        "en": "dye",
-        "th": "ย้อม",
-        "fa": "رنگ کردن",
-        "ar": "يصبغ",
-        "es": "teñir",
-        "zh": "染",
-        "ja": "染める"
-      }
-    },
-    {
-      "id": "word_color",
-      "kind": "word",
-      "texts": {
-        "en": "color",
-        "th": "สี",
-        "fa": "رنگ",
-        "ar": "لون",
-        "es": "color",
-        "zh": "颜色",
-        "ja": "色"
-      }
-    },
-    {
-      "id": "word_salon",
-      "kind": "word",
-      "texts": {
-        "en": "salon",
-        "th": "ร้านทำผม",
-        "fa": "آرایشگاه",
-        "ar": "صالون",
-        "es": "peluquería",
-        "zh": "美发沙龙",
-        "ja": "美容室"
-      }
-    },
-    {
-      "id": "word_I",
-      "kind": "word",
-      "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
-      }
-    },
-    {
-      "id": "word_want",
-      "kind": "word",
-      "texts": {
-        "en": "want",
-        "th": "อยาก",
-        "fa": "خواستن",
-        "ar": "يريد",
-        "es": "querer",
-        "zh": "想",
-        "ja": "したい"
-      }
-    },
-    {
-      "id": "word_request",
-      "kind": "word",
-      "texts": {
-        "en": "request / please",
-        "th": "ขอ",
-        "fa": "درخواست کردن",
-        "ar": "يطلب",
-        "es": "pedir",
-        "zh": "请求",
-        "ja": "頼む"
-      }
-    },
-    {
-      "id": "word_have",
-      "kind": "word",
-      "texts": {
-        "en": "have",
-        "th": "มี",
-        "fa": "داشتن",
-        "ar": "يملك",
-        "es": "tener",
-        "zh": "有",
-        "ja": "ある"
-      }
-    },
-    {
-      "id": "word_not",
-      "kind": "word",
-      "texts": {
-        "en": "not",
-        "th": "ไม่",
-        "fa": "نه",
-        "ar": "لا",
-        "es": "no",
-        "zh": "不",
-        "ja": "ない"
-      }
-    },
-    {
-      "id": "word_question",
-      "kind": "word",
-      "texts": {
-        "en": "question marker",
-        "th": "ไหม",
-        "fa": "آیا",
-        "ar": "هل",
-        "es": "partícula interrogativa",
-        "zh": "吗",
-        "ja": "か"
-      }
-    },
-    {
-      "id": "word_very",
-      "kind": "word",
-      "texts": {
-        "en": "very",
-        "th": "มาก",
-        "fa": "خیلی",
-        "ar": "جداً",
-        "es": "muy",
-        "zh": "很",
-        "ja": "とても"
-      }
-    },
-    {
-      "id": "word_like",
-      "kind": "word",
-      "texts": {
-        "en": "like",
-        "th": "ชอบ",
-        "fa": "دوست داشتن",
-        "ar": "يحب",
-        "es": "gustar",
-        "zh": "喜欢",
-        "ja": "好き"
-      }
-    },
-    {
-      "id": "word_how_much",
-      "kind": "word",
-      "texts": {
-        "en": "how much",
-        "th": "เท่าไหร่",
-        "fa": "چقدر",
-        "ar": "كم",
-        "es": "cuánto",
-        "zh": "多少",
-        "ja": "いくら"
-      }
-    },
-    {
-      "id": "word_thank",
-      "kind": "word",
-      "texts": {
-        "en": "thank",
-        "th": "ขอบคุณ",
-        "fa": "تشکر",
-        "ar": "شكر",
-        "es": "gracias",
-        "zh": "谢谢",
-        "ja": "ありがとう"
-      }
-    },
-    {
-      "id": "header_scenario_1",
-      "header": true,
-      "texts": {
-        "en": "Scenario 1: Arriving & Basic Requests",
-        "th": "สถานการณ์ 1: เดินทางถึงและขอรับบริการ",
-        "fa": "سناریوی ۱: ورود و درخواست‌های اولیه",
-        "ar": "السيناريو ١: الوصول والطلبات الأساسية",
-        "es": "Escenario 1: Llegada y peticiones básicas",
-        "zh": "场景一：到达与基本请求",
-        "ja": "シーン1：到着と基本の依頼"
-      }
-    },
-    {
-      "id": "sentence_hs_s1_want_haircut",
-      "kind": "sentence",
-      "itemIds": ["word_I", "word_want", "word_cut", "word_hair"],
-      "texts": {
-        "en": "I want a haircut",
-        "th": "ฉันอยากตัดผมค่ะ",
-        "fa": "من می‌خواهم موهایم را کوتاه کنم",
-        "ar": "أريد قص شعري",
-        "es": "Quiero un corte de pelo",
-        "zh": "我想剪头发",
-        "ja": "髪を切りたいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "a", "haircut"],
-        "th": ["ฉัน", "อยาก", "ตัด", "ผม", "ค่ะ"],
-        "fa": ["من", "می‌خواهم", "موهایم", "را", "کوتاه", "کنم"],
-        "ar": ["أريد", "قص", "شعري"],
-        "es": ["Quiero", "un", "corte", "de", "pelo"],
-        "zh": ["我", "想", "剪", "头发"],
-        "ja": ["髪", "を", "切り", "たい", "です"]
-      }
-    },
-    {
-      "id": "sentence_hs_s1_just_trim",
-      "kind": "sentence",
-      "itemIds": ["word_request", "word_trim"],
-      "texts": {
-        "en": "Just a trim, please",
-        "th": "ขอเล็มปลายผมหน่อยค่ะ",
-        "fa": "لطفاً فقط کمی کوتاه کنید",
-        "ar": "فقط تقليم الأطراف من فضلك",
-        "es": "Solo recorte las puntas, por favor",
-        "zh": "请只修剪一下发梢",
-        "ja": "毛先を少し整えてください"
-      },
-      "tokens": {
-        "en": ["Just", "a", "trim,", "please"],
-        "th": ["ขอ", "เล็ม", "ปลายผม", "หน่อย", "ค่ะ"],
-        "fa": ["لطفاً", "فقط", "کمی", "کوتاه", "کنید"],
-        "ar": ["فقط", "تقليم", "الأطراف", "من", "فضلك"],
-        "es": ["Solo", "recorte", "las", "puntas,", "por", "favor"],
-        "zh": ["请", "只", "修剪", "一下", "发梢"],
-        "ja": ["毛先", "を", "少し", "整えて", "ください"]
-      }
-    },
-    {
-      "id": "sentence_hs_s1_keep_length",
-      "kind": "sentence",
-      "itemIds": ["word_length"],
-      "texts": {
-        "en": "Keep the length",
-        "th": "รักษาความยาวไว้ค่ะ",
-        "fa": "طول مو را حفظ کنید",
-        "ar": "حافظ على الطول",
-        "es": "Mantenga el largo",
-        "zh": "请保留长度",
-        "ja": "長さはそのままにしてください"
-      },
-      "tokens": {
-        "en": ["Keep", "the", "length"],
-        "th": ["รักษา", "ความยาว", "ไว้", "ค่ะ"],
-        "fa": ["طول", "مو", "را", "حفظ", "کنید"],
-        "ar": ["حافظ", "على", "الطول"],
-        "es": ["Mantenga", "el", "largo"],
-        "zh": ["请", "保留", "长度"],
-        "ja": ["長さ", "は", "そのまま", "に", "して", "ください"]
-      }
-    },
-    {
-      "id": "sentence_hs_s1_have_picture",
-      "kind": "sentence",
-      "itemIds": ["word_I", "word_have", "word_picture", "word_reference"],
-      "texts": {
-        "en": "I have a reference picture",
-        "th": "ฉันมีรูปตัวอย่างค่ะ",
-        "fa": "من یک عکس نمونه دارم",
-        "ar": "لدي صورة مرجعية",
-        "es": "Tengo una foto de referencia",
-        "zh": "我有参考照片",
-        "ja": "参考写真があります"
-      },
-      "tokens": {
-        "en": ["I", "have", "a", "reference", "picture"],
-        "th": ["ฉัน", "มี", "รูป", "ตัวอย่าง", "ค่ะ"],
-        "fa": ["من", "یک", "عکس", "نمونه", "دارم"],
-        "ar": ["لدي", "صورة", "مرجعية"],
-        "es": ["Tengo", "una", "foto", "de", "referencia"],
-        "zh": ["我", "有", "参考", "照片"],
-        "ja": ["参考", "写真", "が", "あります"]
-      }
-    },
-    {
-      "id": "sentence_hs_s1_like_this",
-      "kind": "sentence",
-      "itemIds": ["word_like_this"],
-      "texts": {
-        "en": "Make it like this picture",
-        "th": "ทำทรงนี้ค่ะ",
-        "fa": "لطفاً این مدلی درست کنید",
-        "ar": "اجعله مثل هذه القصة",
-        "es": "Hágalo como esta foto",
-        "zh": "请做成这个发型",
-        "ja": "このスタイルにしてください"
-      },
-      "tokens": {
-        "en": ["Make", "it", "like", "this", "picture"],
-        "th": ["ทำ", "ทรงนี้", "ค่ะ"],
-        "fa": ["لطفاً", "این", "مدلی", "درست", "کنید"],
-        "ar": ["اجعله", "مثل", "هذه", "القصة"],
-        "es": ["Hágalo", "como", "esta", "foto"],
-        "zh": ["请", "做成", "这个", "发型"],
-        "ja": ["この", "スタイル", "に", "して", "ください"]
-      }
-    },
-    {
-      "id": "sentence_hs_s1_have_time_q",
-      "kind": "sentence",
-      "itemIds": ["word_time", "word_question"],
-      "texts": {
-        "en": "Do you have time now",
-        "th": "ตอนนี้ว่างไหมคะ",
-        "fa": "آیا الان وقت دارید؟",
-        "ar": "هل لديك وقت الآن؟",
-        "es": "¿Tiene tiempo ahora?",
-        "zh": "您现在有空吗？",
-        "ja": "今、時間はありますか？"
-      },
-      "tokens": {
-        "en": ["Do", "you", "have", "time", "now"],
-        "th": ["ตอนนี้", "ว่าง", "ไหม", "คะ"],
-        "fa": ["آیا", "الان", "وقت", "دارید؟"],
-        "ar": ["هل", "لديك", "وقت", "الآن؟"],
-        "es": ["¿Tiene", "tiempo", "ahora?"],
-        "zh": ["您", "现在", "有空", "吗"],
-        "ja": ["今", "時間", "は", "あります", "か"]
-      }
-    },
-    {
-      "id": "sentence_hs_s1_request_cut",
-      "kind": "sentence",
-      "itemIds": ["word_request", "word_cut", "word_hair"],
-      "texts": {
-        "en": "Please cut my hair",
-        "th": "ขอตัดผมค่ะ",
-        "fa": "لطفاً موهایم را کوتاه کنید",
-        "ar": "أرجو قص شعري",
-        "es": "Por favor, córtame el pelo",
-        "zh": "请帮我剪头发",
-        "ja": "髪を切ってください"
-      },
-      "tokens": {
-        "en": ["Please", "cut", "my", "hair"],
-        "th": ["ขอ", "ตัด", "ผม", "ค่ะ"],
-        "fa": ["لطفاً", "موهایم", "را", "کوتاه", "کنید"],
-        "ar": ["أرجو", "قص", "شعري"],
-        "es": ["Por", "favor,", "córtame", "el", "pelo"],
-        "zh": ["请", "帮我", "剪", "头发"],
-        "ja": ["髪", "を", "切って", "ください"]
-      }
-    },
-    {
-      "id": "word_trim",
-      "kind": "word",
-      "texts": {
-        "en": "trim",
-        "th": "เล็ม",
-        "fa": "کوتاه کردن جزئی",
-        "ar": "يقلم",
-        "es": "recortar",
-        "zh": "修剪",
-        "ja": "整える"
-      }
-    },
-    {
-      "id": "word_length",
-      "kind": "word",
-      "texts": {
-        "en": "length",
-        "th": "ความยาว",
-        "fa": "طول",
-        "ar": "طول",
-        "es": "largo",
-        "zh": "长度",
-        "ja": "長さ"
-      }
-    },
-    {
-      "id": "word_picture",
-      "kind": "word",
-      "texts": {
-        "en": "picture",
-        "th": "รูป",
-        "fa": "عکس",
-        "ar": "صورة",
-        "es": "foto",
-        "zh": "照片",
-        "ja": "写真"
-      }
-    },
-    {
-      "id": "word_reference",
-      "kind": "word",
-      "texts": {
-        "en": "reference",
-        "th": "ตัวอย่าง",
-        "fa": "نمونه",
-        "ar": "مرجع",
-        "es": "referencia",
-        "zh": "参考",
-        "ja": "参考"
-      }
-    },
-    {
-      "id": "word_like_this",
-      "kind": "word",
-      "texts": {
-        "en": "like this (style)",
-        "th": "ทรงนี้",
-        "fa": "این مدل",
-        "ar": "هذه القصة",
-        "es": "este estilo",
-        "zh": "这个发型",
-        "ja": "このスタイル"
-      }
-    },
-    {
-      "id": "word_time",
-      "kind": "word",
-      "texts": {
-        "en": "time",
-        "th": "เวลา",
-        "fa": "وقت",
-        "ar": "وقت",
-        "es": "tiempo",
-        "zh": "时间",
-        "ja": "時間"
-      }
-    },
-    {
-      "id": "header_scenario_2",
-      "header": true,
-      "texts": {
-        "en": "Scenario 2: Specific Styles & Treatments",
-        "th": "สถานการณ์ 2: ทรงผมและการทำทรีตเมนต์เฉพาะ",
-        "fa": "سناریوی ۲: مدل‌های خاص و درمان‌ها",
-        "ar": "السيناريو ٢: التسريحات والعلاجات الخاصة",
-        "es": "Escenario 2: Estilos y tratamientos específicos",
-        "zh": "场景二：特定发型与烫染",
-        "ja": "シーン2：特定のスタイルとトリートメント"
-      }
-    },
-    {
-      "id": "sentence_hs_s2_want_bangs",
-      "kind": "sentence",
-      "itemIds": ["word_I", "word_want", "word_cut", "word_bangs"],
-      "texts": {
-        "en": "I want bangs",
-        "th": "ฉันอยากตัดหน้าม้าค่ะ",
-        "fa": "من چتری می‌خواهم",
-        "ar": "أريد غرة",
-        "es": "Quiero flequillo",
-        "zh": "我想剪刘海",
-        "ja": "前髪を作りたいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "bangs"],
-        "th": ["ฉัน", "อยาก", "ตัด", "หน้าม้า", "ค่ะ"],
-        "fa": ["من", "چتری", "می‌خواهم"],
-        "ar": ["أريد", "غرة"],
-        "es": ["Quiero", "flequillo"],
-        "zh": ["我", "想", "剪", "刘海"],
-        "ja": ["前髪", "を", "作り", "たい", "です"]
-      }
-    },
-    {
-      "id": "sentence_hs_s2_shave_sides",
-      "kind": "sentence",
-      "itemIds": ["word_request", "word_shave_sides"],
-      "texts": {
-        "en": "Shave the sides, please",
-        "th": "ขอไถข้างค่ะ",
-        "fa": "لطفاً دور سر را بزنید",
-        "ar": "احلق الجوانب من فضلك",
-        "es": "Rape los lados, por favor",
-        "zh": "请推平两侧",
-        "ja": "サイドを刈り上げてください"
-      },
-      "tokens": {
-        "en": ["Shave", "the", "sides,", "please"],
-        "th": ["ขอ", "ไถข้าง", "ค่ะ"],
-        "fa": ["لطفاً", "دور", "سر", "را", "بزنید"],
-        "ar": ["احلق", "الجوانب", "من", "فضلك"],
-        "es": ["Rape", "los", "lados,", "por", "favor"],
-        "zh": ["请", "推平", "两侧"],
-        "ja": ["サイド", "を", "刈り上げて", "ください"]
-      }
-    },
-    {
-      "id": "sentence_hs_s2_want_dye",
-      "kind": "sentence",
-      "itemIds": ["word_I", "word_want", "word_dye", "word_hair"],
-      "texts": {
-        "en": "I want to dye my hair",
-        "th": "ฉันอยากย้อมผมค่ะ",
-        "fa": "من می‌خواهم موهایم را رنگ کنم",
-        "ar": "أريد صبغ شعري",
-        "es": "Quiero teñirme el pelo",
-        "zh": "我想染头发",
-        "ja": "髪を染めたいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "to", "dye", "my", "hair"],
-        "th": ["ฉัน", "อยาก", "ย้อม", "ผม", "ค่ะ"],
-        "fa": ["من", "می‌خواهم", "موهایم", "را", "رنگ", "کنم"],
-        "ar": ["أريد", "صبغ", "شعري"],
-        "es": ["Quiero", "teñirme", "el", "pelo"],
-        "zh": ["我", "想", "染", "头发"],
-        "ja": ["髪", "を", "染め", "たい", "です"]
-      }
-    },
-    {
-      "id": "sentence_hs_s2_what_colors",
-      "kind": "sentence",
-      "itemIds": ["word_have", "word_color"],
-      "texts": {
-        "en": "What colors do you have",
-        "th": "มีสีอะไรบ้างคะ",
-        "fa": "چه رنگ‌هایی دارید؟",
-        "ar": "ما هي الألوان المتوفرة لديك؟",
-        "es": "¿Qué colores tiene?",
-        "zh": "您有哪些颜色？",
-        "ja": "どんな色がありますか？"
-      },
-      "tokens": {
-        "en": ["What", "colors", "do", "you", "have"],
-        "th": ["มี", "สี", "อะไร", "บ้าง", "คะ"],
-        "fa": ["چه", "رنگ‌هایی", "دارید؟"],
-        "ar": ["ما", "هي", "الألوان", "المتوفرة", "لديك؟"],
-        "es": ["¿Qué", "colores", "tiene?"],
-        "zh": ["您", "有", "哪些", "颜色"],
-        "ja": ["どんな", "色", "が", "あります", "か"]
-      }
-    },
-    {
-      "id": "sentence_hs_s2_want_perm",
-      "kind": "sentence",
-      "itemIds": ["word_I", "word_want", "word_perm", "word_hair"],
-      "texts": {
-        "en": "I want a perm",
-        "th": "ฉันอยากดัดผมค่ะ",
-        "fa": "من می‌خواهم موهایم را فر کنم",
-        "ar": "أريد تجعيد شعري",
-        "es": "Quiero una permanente",
-        "zh": "我想烫头发",
-        "ja": "パーマをかけたいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "a", "perm"],
-        "th": ["ฉัน", "อยาก", "ดัด", "ผม", "ค่ะ"],
-        "fa": ["من", "می‌خواهم", "موهایم", "را", "فر", "کنم"],
-        "ar": ["أريد", "تجعيد", "شعري"],
-        "es": ["Quiero", "una", "permanente"],
-        "zh": ["我", "想", "烫", "头发"],
-        "ja": ["パーマ", "を", "かけ", "たい", "です"]
-      }
-    },
-    {
-      "id": "sentence_hs_s2_straighten",
-      "kind": "sentence",
-      "itemIds": ["word_request", "word_straighten", "word_hair"],
-      "texts": {
-        "en": "Please straighten my hair",
-        "th": "ขอยืดผมค่ะ",
-        "fa": "لطفاً موهایم را صاف کنید",
-        "ar": "أرجو فرد شعري",
-        "es": "Por favor, alíseme el pelo",
-        "zh": "请帮我拉直头发",
-        "ja": "髪をストレートにしてください"
-      },
-      "tokens": {
-        "en": ["Please", "straighten", "my", "hair"],
-        "th": ["ขอ", "ยืด", "ผม", "ค่ะ"],
-        "fa": ["لطفاً", "موهایم", "را", "صاف", "کنید"],
-        "ar": ["أرجو", "فرد", "شعري"],
-        "es": ["Por", "favor,", "alíseme", "el", "pelo"],
-        "zh": ["请", "帮我", "拉直", "头发"],
-        "ja": ["髪", "を", "ストレート", "に", "して", "ください"]
-      }
-    },
-    {
-      "id": "sentence_hs_s2_not_too_short",
-      "kind": "sentence",
-      "itemIds": ["word_not", "word_cut", "word_short", "word_very"],
-      "texts": {
-        "en": "Do not cut it too short",
-        "th": "อย่าตัดสั้นมากค่ะ",
-        "fa": "خیلی کوتاه نکنید",
-        "ar": "لا تقصه قصيراً جداً",
-        "es": "No lo corte muy corto",
-        "zh": "请不要剪得太短",
-        "ja": "短く切りすぎないでください"
-      },
-      "tokens": {
-        "en": ["Do", "not", "cut", "it", "too", "short"],
-        "th": ["อย่า", "ตัด", "สั้น", "มาก", "ค่ะ"],
-        "fa": ["خیلی", "کوتاه", "نکنید"],
-        "ar": ["لا", "تقصه", "قصيراً", "جداً"],
-        "es": ["No", "lo", "corte", "muy", "corto"],
-        "zh": ["请", "不要", "剪", "得", "太", "短"],
-        "ja": ["短く", "切りすぎないで", "ください"]
-      }
-    },
-    {
-      "id": "word_bangs",
-      "kind": "word",
+      "id": "w10",
+      "kind": "Word",
       "texts": {
         "en": "bangs",
         "th": "หน้าม้า",
@@ -714,247 +268,125 @@
       }
     },
     {
-      "id": "word_shave_sides",
-      "kind": "word",
+      "id": "s6",
+      "kind": "Sentence",
       "texts": {
-        "en": "shave the sides",
-        "th": "ไถข้าง",
-        "fa": "دور سر را زدن",
-        "ar": "حلاقة الجوانب",
-        "es": "rapar los lados",
-        "zh": "推平两侧",
-        "ja": "サイドを刈り上げる"
+        "en": "I want a short haircut.",
+        "th": "ฉันอยากตัดผมสั้น",
+        "fa": "من می‌خواهم موهایم را کوتاه کنم.",
+        "ar": "أريد قصة شعر قصيرة.",
+        "es": "Quiero un corte de pelo corto.",
+        "zh": "我想剪短发。",
+        "ja": "短い髪型にしたいです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "อยาก", "ตัด", "ผม", "สั้น"],
+        "zh": ["我", "想", "剪", "短发", "。"],
+        "ja": ["短い", "髪型", "に", "したい", "です", "。"]
       }
     },
     {
-      "id": "word_perm",
-      "kind": "word",
+      "id": "s7",
+      "kind": "Sentence",
       "texts": {
-        "en": "perm",
-        "th": "ดัด",
-        "fa": "فر کردن",
-        "ar": "تجعيد",
-        "es": "permanente",
-        "zh": "烫发",
-        "ja": "パーマ"
+        "en": "Just a little bit off the ends.",
+        "th": "ตัดแค่ปลายผมเล็กน้อย",
+        "fa": "فقط کمی از انتها کوتاه شود.",
+        "ar": "فقط قليلاً من الأطراف.",
+        "es": "Solo un poco de las puntas.",
+        "zh": "只剪掉一点点发尾。",
+        "ja": "毛先を少しだけ切ってください。"
+      },
+      "tokens": {
+        "th": ["ตัด", "แค่", "ปลาย", "ผม", "เล็กน้อย"],
+        "zh": ["只", "剪掉", "一点", "点", "发尾", "。"],
+        "ja": ["毛先", "を", "少し", "だけ", "切っ", "て", "ください", "。"]
       }
     },
     {
-      "id": "word_straighten",
-      "kind": "word",
+      "id": "s8",
+      "kind": "Sentence",
       "texts": {
-        "en": "straighten",
-        "th": "ยืด",
-        "fa": "صاف کردن",
-        "ar": "فرد",
-        "es": "alisar",
-        "zh": "拉直",
-        "ja": "ストレートパーマ"
+        "en": "Can you add some layers?",
+        "th": "คุณเพิ่มเลเยอร์ได้ไหม",
+        "fa": "آیا می‌توانید کمی لایه اضافه کنید؟",
+        "ar": "هل يمكنك إضافة بعض الطبقات؟",
+        "es": "¿Puede añadir algunas capas?",
+        "zh": "你能加一些层次吗？",
+        "ja": "レイヤーを入れてもらえますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "เพิ่ม", "เลเยอร์", "ได้", "ไหม"],
+        "zh": ["你", "能", "加", "一些", "层次", "吗", "？"],
+        "ja": ["レイヤー", "を", "入れ", "て", "もらえ", "ます", "か", "？"]
       }
     },
     {
-      "id": "word_undercut",
-      "kind": "word",
+      "id": "s9",
+      "kind": "Sentence",
       "texts": {
-        "en": "undercut",
-        "th": "อันเดอร์คัท",
-        "fa": "اندرکات",
-        "ar": "أندركت",
-        "es": "undercut",
-        "zh": "底层推剪",
-        "ja": "アンダーカット"
+        "en": "I would like to keep my bangs.",
+        "th": "ฉันอยากไว้หน้าม้า",
+        "fa": "من می‌خواهم چتری‌هایم را نگه دارم.",
+        "ar": "أود الاحتفاظ بغرتي.",
+        "es": "Me gustaría conservar mi flequillo.",
+        "zh": "我想保留刘海。",
+        "ja": "前髪は残したいです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "อยาก", "ไว้", "หน้าม้า"],
+        "zh": ["我", "想", "保留", "刘海", "。"],
+        "ja": ["前髪", "は", "残し", "たい", "です", "。"]
       }
     },
     {
-      "id": "word_layers",
-      "kind": "word",
+      "id": "s10",
+      "kind": "Sentence",
       "texts": {
-        "en": "layers",
-        "th": "เลเยอร์",
-        "fa": "لایه لایه",
-        "ar": "طبقات",
-        "es": "capas",
-        "zh": "层次感",
-        "ja": "レイヤー"
+        "en": "Show me a picture of the style.",
+        "th": "แสดงรูปภาพทรงผมให้ฉันดูหน่อย",
+        "fa": "عکسی از مدل به من نشان دهید.",
+        "ar": "أرني صورة للتسريحة.",
+        "es": "Muéstrame una foto del estilo.",
+        "zh": "给我看看这个发型的照片。",
+        "ja": "スタイルの写真を教えてください。"
+      },
+      "tokens": {
+        "th": ["แสดง", "รูปภาพ", "ทรงผม", "ให้", "ฉัน", "ดู", "หน่อย"],
+        "zh": ["给", "我", "看看", "这个", "发型", "的", "照片", "。"],
+        "ja": ["スタイル", "の", "写真", "を", "教え", "て", "ください", "。"]
       }
     },
+
     {
-      "id": "header_scenario_3",
+      "id": "h3",
       "header": true,
       "texts": {
-        "en": "Scenario 3: The Washing & Massage",
-        "th": "สถานการณ์ 3: การสระผมและการนวด",
-        "fa": "سناریوی ۳: شستشو و ماساژ",
-        "ar": "السيناريو ٣: الغسيل والتدليك",
-        "es": "Escenario 3: El lavado y masaje",
-        "zh": "场景三：洗发与按摩",
-        "ja": "シーン3：シャンプーとマッサージ"
+        "en": "Scenario 3: During the Haircut",
+        "th": "สถานการณ์ที่ 3: ระหว่างตัดผม",
+        "fa": "سناریو ۳: در حین کوتاه کردن مو",
+        "ar": "السيناريو 3: أثناء القص",
+        "es": "Escenario 3: Durante el corte",
+        "zh": "场景 3：理发过程中",
+        "ja": "シナリオ 3：カット中"
       }
     },
     {
-      "id": "sentence_hs_s3_wash_hair",
-      "kind": "sentence",
-      "itemIds": ["word_request", "word_wash", "word_hair"],
+      "id": "w11",
+      "kind": "Word",
       "texts": {
-        "en": "Please wash my hair",
-        "th": "ขอสระผมค่ะ",
-        "fa": "لطفاً موهایم را بشویید",
-        "ar": "أرجو غسل شعري",
-        "es": "Por favor, láveme el pelo",
-        "zh": "请帮我洗头",
-        "ja": "髪を洗ってください"
-      },
-      "tokens": {
-        "en": ["Please", "wash", "my", "hair"],
-        "th": ["ขอ", "สระ", "ผม", "ค่ะ"],
-        "fa": ["لطفاً", "موهایم", "را", "بشویید"],
-        "ar": ["أرجو", "غسل", "شعري"],
-        "es": ["Por", "favor,", "láveme", "el", "pelo"],
-        "zh": ["请", "帮我", "洗", "头"],
-        "ja": ["髪", "を", "洗って", "ください"]
+        "en": "wash",
+        "th": "สระ",
+        "fa": "شستن",
+        "ar": "غسل",
+        "es": "lavar",
+        "zh": "洗",
+        "ja": "洗う"
       }
     },
     {
-      "id": "sentence_hs_s3_water_hot",
-      "kind": "sentence",
-      "itemIds": ["word_water", "word_hot"],
-      "texts": {
-        "en": "The water is too hot",
-        "th": "น้ำร้อนไปค่ะ",
-        "fa": "آب خیلی داغ است",
-        "ar": "الماء حار جداً",
-        "es": "El agua está muy caliente",
-        "zh": "水太热了",
-        "ja": "お湯が熱すぎます"
-      },
-      "tokens": {
-        "en": ["The", "water", "is", "too", "hot"],
-        "th": ["น้ำ", "ร้อน", "ไป", "ค่ะ"],
-        "fa": ["آب", "خیلی", "داغ", "است"],
-        "ar": ["الماء", "حار", "جداً"],
-        "es": ["El", "agua", "está", "muy", "caliente"],
-        "zh": ["水", "太", "热", "了"],
-        "ja": ["お湯", "が", "熱すぎ", "ます"]
-      }
-    },
-    {
-      "id": "sentence_hs_s3_water_cold",
-      "kind": "sentence",
-      "itemIds": ["word_water", "word_cold"],
-      "texts": {
-        "en": "The water is too cold",
-        "th": "น้ำเย็นไปค่ะ",
-        "fa": "آب خیلی سرد است",
-        "ar": "الماء بارد جداً",
-        "es": "El agua está muy fría",
-        "zh": "水太冷了",
-        "ja": "お湯が冷たすぎます"
-      },
-      "tokens": {
-        "en": ["The", "water", "is", "too", "cold"],
-        "th": ["น้ำ", "เย็น", "ไป", "ค่ะ"],
-        "fa": ["آب", "خیلی", "سرد", "است"],
-        "ar": ["الماء", "بارد", "جداً"],
-        "es": ["El", "agua", "está", "muy", "fría"],
-        "zh": ["水", "太", "冷", "了"],
-        "ja": ["お湯", "が", "冷たすぎ", "ます"]
-      }
-    },
-    {
-      "id": "sentence_hs_s3_massage_shoulder_q",
-      "kind": "sentence",
-      "itemIds": ["word_massage", "word_shoulder", "word_question"],
-      "texts": {
-        "en": "Can you massage my shoulders",
-        "th": "นวดไหล่ให้หน่อยได้ไหมคะ",
-        "fa": "می‌توانید شانه‌هایم را ماساژ دهید؟",
-        "ar": "هل يمكنك تدليك كتفي؟",
-        "es": "¿Puede masajearme los hombros?",
-        "zh": "可以帮我按摩肩膀吗？",
-        "ja": "肩をマッサージしてもらえますか？"
-      },
-      "tokens": {
-        "en": ["Can", "you", "massage", "my", "shoulders"],
-        "th": ["นวด", "ไหล่", "ให้", "หน่อย", "ได้", "ไหม", "คะ"],
-        "fa": ["می‌توانید", "شانه‌هایم", "را", "ماساژ", "دهید؟"],
-        "ar": ["هل", "يمكنك", "تدليك", "كتفي؟"],
-        "es": ["¿Puede", "masajearme", "los", "hombros?"],
-        "zh": ["可以", "帮我", "按摩", "肩膀", "吗"],
-        "ja": ["肩", "を", "マッサージ", "して", "もらえます", "か"]
-      }
-    },
-    {
-      "id": "sentence_hs_s3_feel_good",
-      "kind": "sentence",
-      "itemIds": ["word_very"],
-      "texts": {
-        "en": "It feels very good",
-        "th": "รู้สึกดีมากค่ะ",
-        "fa": "احساس خیلی خوبی دارد",
-        "ar": "الشعور جيد جداً",
-        "es": "Se siente muy bien",
-        "zh": "感觉非常好",
-        "ja": "とても気持ちいいです"
-      },
-      "tokens": {
-        "en": ["It", "feels", "very", "good"],
-        "th": ["รู้สึก", "ดี", "มาก", "ค่ะ"],
-        "fa": ["احساس", "خیلی", "خوبی", "دارد"],
-        "ar": ["الشعور", "جيد", "جداً"],
-        "es": ["Se", "siente", "muy", "bien"],
-        "zh": ["感觉", "非常", "好"],
-        "ja": ["とても", "気持ちいい", "です"]
-      }
-    },
-    {
-      "id": "sentence_hs_s3_warm_water",
-      "kind": "sentence",
-      "itemIds": ["word_request", "word_water"],
-      "texts": {
-        "en": "Please use warm water",
-        "th": "ขอน้ำอุ่นค่ะ",
-        "fa": "لطفاً از آب گرم استفاده کنید",
-        "ar": "أرجو استخدام ماء دافئ",
-        "es": "Por favor, use agua tibia",
-        "zh": "请用温水",
-        "ja": "ぬるま湯を使ってください"
-      },
-      "tokens": {
-        "en": ["Please", "use", "warm", "water"],
-        "th": ["ขอ", "น้ำอุ่น", "ค่ะ"],
-        "fa": ["لطفاً", "از", "آب", "گرم", "استفاده", "کنید"],
-        "ar": ["أرجو", "استخدام", "ماء", "دافئ"],
-        "es": ["Por", "favor,", "use", "agua", "tibia"],
-        "zh": ["请", "用", "温水"],
-        "ja": ["ぬるま湯", "を", "使って", "ください"]
-      }
-    },
-    {
-      "id": "sentence_hs_s3_massage_head",
-      "kind": "sentence",
-      "itemIds": ["word_request", "word_massage", "word_head"],
-      "texts": {
-        "en": "Please massage my head",
-        "th": "ขอนวดหัวหน่อยค่ะ",
-        "fa": "لطفاً سرم را ماساژ دهید",
-        "ar": "أرجو تدليك رأسي",
-        "es": "Por favor, masajeeme la cabeza",
-        "zh": "请帮我按摩头部",
-        "ja": "頭をマッサージしてください"
-      },
-      "tokens": {
-        "en": ["Please", "massage", "my", "head"],
-        "th": ["ขอ", "นวด", "หัว", "หน่อย", "ค่ะ"],
-        "fa": ["لطفاً", "سرم", "را", "ماساژ", "دهید"],
-        "ar": ["أرجو", "تدليك", "رأسي"],
-        "es": ["Por", "favor,", "masajeeme", "la", "cabeza"],
-        "zh": ["请", "帮我", "按摩", "头部"],
-        "ja": ["頭", "を", "マッサージ", "して", "ください"]
-      }
-    },
-    {
-      "id": "word_water",
-      "kind": "word",
+      "id": "w12",
+      "kind": "Word",
       "texts": {
         "en": "water",
         "th": "น้ำ",
@@ -962,25 +394,25 @@
         "ar": "ماء",
         "es": "agua",
         "zh": "水",
-        "ja": "お湯"
+        "ja": "水"
       }
     },
     {
-      "id": "word_hot",
-      "kind": "word",
+      "id": "w13",
+      "kind": "Word",
       "texts": {
         "en": "hot",
         "th": "ร้อน",
         "fa": "داغ",
-        "ar": "حار",
+        "ar": "ساخن",
         "es": "caliente",
         "zh": "热",
         "ja": "熱い"
       }
     },
     {
-      "id": "word_cold",
-      "kind": "word",
+      "id": "w14",
+      "kind": "Word",
       "texts": {
         "en": "cold",
         "th": "เย็น",
@@ -992,559 +424,509 @@
       }
     },
     {
-      "id": "word_massage",
-      "kind": "word",
+      "id": "w15",
+      "kind": "Word",
       "texts": {
-        "en": "massage",
-        "th": "นวด",
-        "fa": "ماساژ",
-        "ar": "تدليك",
-        "es": "masaje",
-        "zh": "按摩",
-        "ja": "マッサージ"
+        "en": "comfortable",
+        "th": "สบาย",
+        "fa": "راحت",
+        "ar": "مريح",
+        "es": "cómodo",
+        "zh": "舒服",
+        "ja": "快適"
       }
     },
     {
-      "id": "word_shoulder",
-      "kind": "word",
+      "id": "s11",
+      "kind": "Sentence",
       "texts": {
-        "en": "shoulder",
-        "th": "ไหล่",
-        "fa": "شانه",
-        "ar": "كتف",
-        "es": "hombro",
-        "zh": "肩膀",
-        "ja": "肩"
+        "en": "Is the water temperature okay?",
+        "th": "อุณหภูมิน้ำโอเคไหม",
+        "fa": "آیا دمای آب خوب است؟",
+        "ar": "هل درجة حرارة الماء مناسبة؟",
+        "es": "¿Está bien la temperatura del agua?",
+        "zh": "水温可以吗？",
+        "ja": "お湯の温度は大丈夫ですか？"
+      },
+      "tokens": {
+        "th": ["อุณหภูมิ", "น้ำ", "โอเค", "ไหม"],
+        "zh": ["水温", "可以", "吗", "？"],
+        "ja": ["お湯", "の", "温度", "は", "大丈夫", "です", "か", "？"]
       }
     },
     {
-      "id": "word_head",
-      "kind": "word",
+      "id": "s12",
+      "kind": "Sentence",
       "texts": {
-        "en": "head",
-        "th": "หัว",
-        "fa": "سر",
-        "ar": "رأس",
-        "es": "cabeza",
-        "zh": "头",
-        "ja": "頭"
+        "en": "Please make it a little warmer.",
+        "th": "กรุณาทำให้อุ่นขึ้นหน่อย",
+        "fa": "لطفاً کمی گرم‌ترش کنید.",
+        "ar": "يرجى جعله أكثر دفئاً قليلاً.",
+        "es": "Por favor, hazlo un poco más caliente.",
+        "zh": "请弄热一点。",
+        "ja": "もう少し温かくしてください。"
+      },
+      "tokens": {
+        "th": ["กรุณา", "ทำให้", "อุ่น", "ขึ้น", "หน่อย"],
+        "zh": ["请", "弄", "热", "一点", "。"],
+        "ja": ["もう", "少し", "温かく", "し", "て", "ください", "。"]
       }
     },
     {
-      "id": "header_scenario_4",
+      "id": "s13",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Am I sitting comfortably?",
+        "th": "ฉันนั่งสบายไหม",
+        "fa": "آیا راحت نشسته‌ام؟",
+        "ar": "هل أنا جالس بشكل مريح؟",
+        "es": "¿Estoy sentado cómodamente?",
+        "zh": "我坐得舒服吗？",
+        "ja": "座り心地は大丈夫ですか？"
+      },
+      "tokens": {
+        "th": ["ฉัน", "นั่ง", "สบาย", "ไหม"],
+        "zh": ["我", "坐", "得", "舒服", "吗", "？"],
+        "ja": ["座り", "心地", "は", "大丈夫", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s14",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Let me know if you need anything.",
+        "th": "บอกฉันถ้าคุณต้องการอะไร",
+        "fa": "اگر چیزی نیاز دارید به من بگویید.",
+        "ar": "أخبرني إذا كنت تحتاج إلى أي شيء.",
+        "es": "Avísame si necesitas algo.",
+        "zh": "如果你需要什么请告诉我。",
+        "ja": "何か必要であれば教えてください。"
+      },
+      "tokens": {
+        "th": ["บอก", "ฉัน", "ถ้า", "คุณ", "ต้องการ", "อะไร"],
+        "zh": ["如果", "你", "需要", "什么", "请", "告诉", "我", "。"],
+        "ja": [
+          "何か",
+          "必要",
+          "で",
+          "あれ",
+          "ば",
+          "教え",
+          "て",
+          "ください",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s15",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The massage feels very good.",
+        "th": "การนวดรู้สึกดีมาก",
+        "fa": "ماساژ خیلی خوب احساس می‌شود.",
+        "ar": "التدليك يشعر بالراحة جداً.",
+        "es": "El masaje se siente muy bien.",
+        "zh": "按摩感觉很好。",
+        "ja": "マッサージはとても気持ちいいです。"
+      },
+      "tokens": {
+        "th": ["การ", "นวด", "รู้สึก", "ดี", "มาก"],
+        "zh": ["按摩", "感觉", "很", "好", "。"],
+        "ja": ["マッサージ", "は", "とても", "気持ち", "いい", "です", "。"]
+      }
+    },
+
+    {
+      "id": "h4",
       "header": true,
       "texts": {
-        "en": "Scenario 4: Adjustments During the Cut",
-        "th": "สถานการณ์ 4: การปรับแก้ระหว่างตัด",
-        "fa": "سناریوی ۴: تنظیمات در حین کوتاهی",
-        "ar": "السيناريو ٤: التعديلات أثناء القص",
-        "es": "Escenario 4: Ajustes durante el corte",
-        "zh": "场景四：剪发过程中的调整",
-        "ja": "シーン4：カット中の調整"
+        "en": "Scenario 4: Washing and Styling",
+        "th": "สถานการณ์ที่ 4: การสระและจัดแต่งทรงผม",
+        "fa": "سناریو ۴: شستشو و حالت‌دهی",
+        "ar": "السيناريو 4: الغسل والتصفيف",
+        "es": "Escenario 4: Lavado y peinado",
+        "zh": "场景 4：洗发与造型",
+        "ja": "シナリオ 4：シャンプーとスタイリング"
       }
     },
     {
-      "id": "sentence_hs_s4_cut_shorter",
-      "kind": "sentence",
-      "itemIds": ["word_cut", "word_shorter", "word_a_little"],
+      "id": "w16",
+      "kind": "Word",
       "texts": {
-        "en": "Cut a little shorter",
-        "th": "ตัดสั้นลงนิดหน่อยค่ะ",
-        "fa": "کمی کوتاه‌تر کنید",
-        "ar": "قصه أقصر قليلاً",
-        "es": "Córtelo un poco más corto",
-        "zh": "请剪得更短一点",
-        "ja": "もう少し短く切ってください"
+        "en": "shampoo",
+        "th": "แชมพู",
+        "fa": "شامپو",
+        "ar": "شامبو",
+        "es": "champú",
+        "zh": "洗发水",
+        "ja": "シャンプー"
+      }
+    },
+    {
+      "id": "w17",
+      "kind": "Word",
+      "texts": {
+        "en": "conditioner",
+        "th": "ครีมนวด",
+        "fa": "نرم‌کننده",
+        "ar": "بلسم",
+        "es": "acondicionador",
+        "zh": "护发素",
+        "ja": "コンディショナー"
+      }
+    },
+    {
+      "id": "w18",
+      "kind": "Word",
+      "texts": {
+        "en": "blow-dry",
+        "th": "เป่าผม",
+        "fa": "سشوار کشیدن",
+        "ar": "تجفيف",
+        "es": "secar",
+        "zh": "吹干",
+        "ja": "ドライヤー"
+      }
+    },
+    {
+      "id": "w19",
+      "kind": "Word",
+      "texts": {
+        "en": "curl",
+        "th": "ดัด",
+        "fa": "فر",
+        "ar": "تجعيد",
+        "es": "rizo",
+        "zh": "卷",
+        "ja": "カール"
+      }
+    },
+    {
+      "id": "w20",
+      "kind": "Word",
+      "texts": {
+        "en": "straight",
+        "th": "ตรง",
+        "fa": "صاف",
+        "ar": "مستقيم",
+        "es": "liso",
+        "zh": "直",
+        "ja": "ストレート"
+      }
+    },
+    {
+      "id": "s16",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Please use a gentle shampoo.",
+        "th": "กรุณาใช้แชมพูที่อ่อนโยน",
+        "fa": "لطفاً از شامپوی ملایم استفاده کنید.",
+        "ar": "يرجى استخدام شامبو لطيف.",
+        "es": "Por favor, use un champú suave.",
+        "zh": "请使用温和的洗发水。",
+        "ja": "優しいシャンプーを使ってください。"
       },
       "tokens": {
-        "en": ["Cut", "a", "little", "shorter"],
-        "th": ["ตัด", "สั้นลง", "นิดหน่อย", "ค่ะ"],
-        "fa": ["کمی", "کوتاه‌تر", "کنید"],
-        "ar": ["قصه", "أقصر", "قليلاً"],
-        "es": ["Córtelo", "un", "poco", "más", "corto"],
-        "zh": ["请", "剪", "得", "更短", "一点"],
-        "ja": ["もう少し", "短く", "切って", "ください"]
+        "th": ["กรุณา", "ใช้", "แชมพู", "ที่", "อ่อนโยน"],
+        "zh": ["请", "使用", "温和", "的", "洗发水", "。"],
+        "ja": ["優しい", "シャンプー", "を", "使って", "ください", "。"]
       }
     },
     {
-      "id": "sentence_hs_s4_not_too_short",
-      "kind": "sentence",
-      "itemIds": ["word_not", "word_short", "word_very"],
+      "id": "s17",
+      "kind": "Sentence",
       "texts": {
-        "en": "Not too short",
-        "th": "ไม่สั้นมากค่ะ",
-        "fa": "خیلی کوتاه نه",
-        "ar": "ليس قصيراً جداً",
-        "es": "No muy corto",
-        "zh": "不要太短",
-        "ja": "短すぎないように"
+        "en": "I need some conditioner for dry hair.",
+        "th": "ฉันต้องการครีมนวดสำหรับผมแห้ง",
+        "fa": "من به نرم‌کننده برای موهای خشک نیاز دارم.",
+        "ar": "أحتاج إلى بلسم للشعر الجاف.",
+        "es": "Necesito acondicionador para el cabello seco.",
+        "zh": "我需要一些干性头发的护发素。",
+        "ja": "乾燥した髪用のコンディショナーが必要です。"
       },
       "tokens": {
-        "en": ["Not", "too", "short"],
-        "th": ["ไม่", "สั้น", "มาก", "ค่ะ"],
-        "fa": ["خیلی", "کوتاه", "نه"],
-        "ar": ["ليس", "قصيراً", "جداً"],
-        "es": ["No", "muy", "corto"],
-        "zh": ["不要", "太", "短"],
-        "ja": ["短すぎない", "よう", "に"]
+        "th": ["ฉัน", "ต้องการ", "ครีมนวด", "สำหรับ", "ผม", "แห้ง"],
+        "zh": ["我", "需要", "一些", "干性", "头发", "的", "护发素", "。"],
+        "ja": [
+          "乾燥",
+          "し",
+          "た",
+          "髪",
+          "用",
+          "の",
+          "コンディショナー",
+          "が",
+          "必要",
+          "です",
+          "。"
+        ]
       }
     },
     {
-      "id": "sentence_hs_s4_leave_longer",
-      "kind": "sentence",
-      "itemIds": ["word_longer", "word_a_little"],
+      "id": "s18",
+      "kind": "Sentence",
       "texts": {
-        "en": "Leave it a little longer",
-        "th": "ปล่อยยาวขึ้นนิดหน่อยค่ะ",
-        "fa": "کمی بلندتر بگذارید",
-        "ar": "اتركه أطول قليلاً",
-        "es": "Déjelo un poco más largo",
-        "zh": "请留得长一点",
-        "ja": "もう少し長めに残してください"
+        "en": "Can you blow-dry my hair?",
+        "th": "คุณช่วยเป่าผมให้ฉันได้ไหม",
+        "fa": "آیا می‌توانید موهایم را سشوار بکشید؟",
+        "ar": "هل يمكنك تجفيف شعري؟",
+        "es": "¿Puede secarme el pelo?",
+        "zh": "你能帮我吹干头发吗？",
+        "ja": "髪をドライヤーで乾かしてもらえますか？"
       },
       "tokens": {
-        "en": ["Leave", "it", "a", "little", "longer"],
-        "th": ["ปล่อย", "ยาวขึ้น", "นิดหน่อย", "ค่ะ"],
-        "fa": ["کمی", "بلندتر", "بگذارید"],
-        "ar": ["اتركه", "أطول", "قليلاً"],
-        "es": ["Déjelo", "un", "poco", "más", "largo"],
-        "zh": ["请", "留", "得", "长", "一点"],
-        "ja": ["もう少し", "長め", "に", "残して", "ください"]
+        "th": ["คุณ", "ช่วย", "เป่า", "ผม", "ให้", "ฉัน", "ได้", "ไหม"],
+        "zh": ["你", "能", "帮", "我", "吹干", "头发", "吗", "？"],
+        "ja": [
+          "髪",
+          "を",
+          "ドライヤー",
+          "で",
+          "乾かし",
+          "て",
+          "もらえ",
+          "ます",
+          "か",
+          "？"
+        ]
       }
     },
     {
-      "id": "sentence_hs_s4_is_okay_q",
-      "kind": "sentence",
-      "itemIds": ["word_okay", "word_question"],
+      "id": "s19",
+      "kind": "Sentence",
       "texts": {
-        "en": "Is this okay",
-        "th": "แบบนี้โอเคไหมคะ",
-        "fa": "آیا این مدل خوب است؟",
-        "ar": "هل هذا مناسب؟",
-        "es": "¿Está bien así?",
-        "zh": "这样可以吗？",
-        "ja": "これで大丈夫ですか？"
+        "en": "I would like soft curls.",
+        "th": "ฉันอยากได้ลอนผมอ่อนๆ",
+        "fa": "من فرهای نرم می‌خواهم.",
+        "ar": "أود تجعيدات ناعمة.",
+        "es": "Me gustaría rizos suaves.",
+        "zh": "我想要柔和的卷发。",
+        "ja": "柔らかいカールにしたいです。"
       },
       "tokens": {
-        "en": ["Is", "this", "okay"],
-        "th": ["แบบนี้", "โอเค", "ไหม", "คะ"],
-        "fa": ["آیا", "این", "مدل", "خوب", "است؟"],
-        "ar": ["هل", "هذا", "مناسب؟"],
-        "es": ["¿Está", "bien", "así?"],
-        "zh": ["这样", "可以", "吗"],
-        "ja": ["これ", "で", "大丈夫", "です", "か"]
+        "th": ["ฉัน", "อยาก", "ได้", "ลอน", "ผม", "อ่อนๆ"],
+        "zh": ["我", "想要", "柔和", "的", "卷发", "。"],
+        "ja": ["柔らかい", "カール", "に", "したい", "です", "。"]
       }
     },
     {
-      "id": "sentence_hs_s4_like_it",
-      "kind": "sentence",
-      "itemIds": ["word_I", "word_like"],
+      "id": "s20",
+      "kind": "Sentence",
       "texts": {
-        "en": "I like it",
-        "th": "ฉันชอบค่ะ",
-        "fa": "من دوستش دارم",
-        "ar": "أنا أحب ذلك",
-        "es": "Me gusta",
-        "zh": "我喜欢",
-        "ja": "気に入りました"
+        "en": "Make it very straight and smooth.",
+        "th": "ทำให้ตรงและเรียบมากๆ",
+        "fa": "آن را خیلی صاف و نرم کنید.",
+        "ar": "اجعله مستقيماً وناعماً جداً.",
+        "es": "Hazlo muy liso y suave.",
+        "zh": "弄得很直很顺滑。",
+        "ja": "とてもまっすぐで滑らかにしてください。"
       },
       "tokens": {
-        "en": ["I", "like", "it"],
-        "th": ["ฉัน", "ชอบ", "ค่ะ"],
-        "fa": ["من", "دوستش", "دارم"],
-        "ar": ["أنا", "أحب", "ذلك"],
-        "es": ["Me", "gusta"],
-        "zh": ["我", "喜欢"],
-        "ja": ["気に入り", "ました"]
+        "th": ["ทำให้", "ตรง", "และ", "เรียบ", "มากๆ"],
+        "zh": ["弄", "得", "很", "直", "很", "顺滑", "。"],
+        "ja": [
+          "とても",
+          "まっすぐ",
+          "で",
+          "滑らか",
+          "に",
+          "し",
+          "て",
+          "ください",
+          "。"
+        ]
       }
     },
+
     {
-      "id": "sentence_hs_s4_see_mirror_q",
-      "kind": "sentence",
-      "itemIds": ["word_request", "word_mirror", "word_question"],
-      "texts": {
-        "en": "Can I see the mirror",
-        "th": "ขอกระจกส่องหน่อยได้ไหมคะ",
-        "fa": "می‌توانم آینه را ببینم؟",
-        "ar": "هل يمكنني النظر في المرآة؟",
-        "es": "¿Puedo ver el espejo?",
-        "zh": "可以给我看看镜子吗？",
-        "ja": "鏡を見せてもらえますか？"
-      },
-      "tokens": {
-        "en": ["Can", "I", "see", "the", "mirror"],
-        "th": ["ขอ", "กระจก", "ส่อง", "หน่อย", "ได้", "ไหม", "คะ"],
-        "fa": ["می‌توانم", "آینه", "را", "ببینم؟"],
-        "ar": ["هل", "يمكنني", "النظر", "في", "المرآة؟"],
-        "es": ["¿Puedo", "ver", "el", "espejo?"],
-        "zh": ["可以", "给", "我", "看看", "镜子", "吗"],
-        "ja": ["鏡", "を", "見せて", "もらえます", "か"]
-      }
-    },
-    {
-      "id": "sentence_hs_s4_fix_back",
-      "kind": "sentence",
-      "itemIds": ["word_back"],
-      "texts": {
-        "en": "Please fix the back",
-        "th": "ช่วยตัดด้านหลังหน่อยค่ะ",
-        "fa": "لطفاً پشت سر را درست کنید",
-        "ar": "أرجو تعديل الخلف",
-        "es": "Por favor, arregle la parte trasera",
-        "zh": "请修剪一下后面",
-        "ja": "後ろを直してください"
-      },
-      "tokens": {
-        "en": ["Please", "fix", "the", "back"],
-        "th": ["ช่วย", "ตัด", "ด้านหลัง", "หน่อย", "ค่ะ"],
-        "fa": ["لطفاً", "پشت", "سر", "را", "درست", "کنید"],
-        "ar": ["أرجو", "تعديل", "الخلف"],
-        "es": ["Por", "favor,", "arregle", "la", "parte", "trasera"],
-        "zh": ["请", "修剪", "一下", "后面"],
-        "ja": ["後ろ", "を", "直して", "ください"]
-      }
-    },
-    {
-      "id": "word_shorter",
-      "kind": "word",
-      "texts": {
-        "en": "shorter",
-        "th": "สั้นลง",
-        "fa": "کوتاه‌تر",
-        "ar": "أقصر",
-        "es": "más corto",
-        "zh": "更短",
-        "ja": "もっと短く"
-      }
-    },
-    {
-      "id": "word_longer",
-      "kind": "word",
-      "texts": {
-        "en": "longer",
-        "th": "ยาวขึ้น",
-        "fa": "بلندتر",
-        "ar": "أطول",
-        "es": "más largo",
-        "zh": "更长",
-        "ja": "もっと長く"
-      }
-    },
-    {
-      "id": "word_a_little",
-      "kind": "word",
-      "texts": {
-        "en": "a little",
-        "th": "นิดหน่อย",
-        "fa": "کمی",
-        "ar": "قليلاً",
-        "es": "un poco",
-        "zh": "一点",
-        "ja": "少し"
-      }
-    },
-    {
-      "id": "word_okay",
-      "kind": "word",
-      "texts": {
-        "en": "okay",
-        "th": "โอเค",
-        "fa": "باشه",
-        "ar": "حسناً",
-        "es": "vale",
-        "zh": "可以",
-        "ja": "大丈夫"
-      }
-    },
-    {
-      "id": "word_mirror",
-      "kind": "word",
-      "texts": {
-        "en": "mirror",
-        "th": "กระจก",
-        "fa": "آینه",
-        "ar": "مرآة",
-        "es": "espejo",
-        "zh": "镜子",
-        "ja": "鏡"
-      }
-    },
-    {
-      "id": "word_back",
-      "kind": "word",
-      "texts": {
-        "en": "back",
-        "th": "ด้านหลัง",
-        "fa": "پشت",
-        "ar": "الخلف",
-        "es": "parte trasera",
-        "zh": "后面",
-        "ja": "後ろ"
-      }
-    },
-    {
-      "id": "header_scenario_5",
+      "id": "h5",
       "header": true,
       "texts": {
-        "en": "Scenario 5: Paying & Wrapping Up",
-        "th": "สถานการณ์ 5: การชำระเงินและสรุป",
-        "fa": "سناریوی ۵: پرداخت و جمع‌بندی",
-        "ar": "السيناريو ٥: الدفع والختام",
-        "es": "Escenario 5: Pago y cierre",
-        "zh": "场景五：付款与结束",
-        "ja": "シーン5：支払いと締めくくり"
+        "en": "Scenario 5: Payment and Feedback",
+        "th": "สถานการณ์ที่ 5: การชำระเงินและความคิดเห็น",
+        "fa": "سناریو ۵: پرداخت و بازخورد",
+        "ar": "السيناريو 5: الدفع والتعليقات",
+        "es": "Escenario 5: Pago y comentarios",
+        "zh": "场景 5：付款与反馈",
+        "ja": "シナリオ 5：支払いとフィードバック"
       }
     },
     {
-      "id": "sentence_hs_s5_how_much",
-      "kind": "sentence",
-      "itemIds": ["word_how_much"],
+      "id": "w21",
+      "kind": "Word",
       "texts": {
-        "en": "How much is it",
-        "th": "เท่าไหร่คะ",
-        "fa": "چقدر است؟",
-        "ar": "كم الثمن؟",
-        "es": "¿Cuánto es?",
-        "zh": "多少钱？",
-        "ja": "いくらですか？"
+        "en": "bill",
+        "th": "บิล",
+        "fa": "صورت‌حساب",
+        "ar": "فاتورة",
+        "es": "cuenta",
+        "zh": "账单",
+        "ja": "会計"
+      }
+    },
+    {
+      "id": "w22",
+      "kind": "Word",
+      "texts": {
+        "en": "tip",
+        "th": "ทิป",
+        "fa": "انعام",
+        "ar": "بقشيش",
+        "es": "propina",
+        "zh": "小费",
+        "ja": "チップ"
+      }
+    },
+    {
+      "id": "w23",
+      "kind": "Word",
+      "texts": {
+        "en": "satisfied",
+        "th": "พึงพอใจ",
+        "fa": "راضی",
+        "ar": "راضٍ",
+        "es": "satisfecho",
+        "zh": "满意",
+        "ja": "満足"
+      }
+    },
+    {
+      "id": "w24",
+      "kind": "Word",
+      "texts": {
+        "en": "recommend",
+        "th": "แนะนำ",
+        "fa": "توصیه",
+        "ar": "يوصي",
+        "es": "recomendar",
+        "zh": "推荐",
+        "ja": "推薦"
+      }
+    },
+    {
+      "id": "w25",
+      "kind": "Word",
+      "texts": {
+        "en": "return",
+        "th": "กลับมา",
+        "fa": "بازگشت",
+        "ar": "عودة",
+        "es": "volver",
+        "zh": "回来",
+        "ja": "戻る"
+      }
+    },
+    {
+      "id": "s21",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Can I have the bill, please?",
+        "th": "ขอบิลหน่อยได้ไหม",
+        "fa": "آیا می‌توانم صورت‌حساب را داشته باشم؟",
+        "ar": "هل يمكنني الحصول على الفاتورة؟",
+        "es": "¿Puedo tener la cuenta, por favor?",
+        "zh": "请给我账单好吗？",
+        "ja": "会計をお願いします。"
       },
       "tokens": {
-        "en": ["How", "much", "is", "it"],
-        "th": ["เท่าไหร่", "คะ"],
-        "fa": ["چقدر", "است؟"],
-        "ar": ["كم", "الثمن؟"],
-        "es": ["¿Cuánto", "es?"],
-        "zh": ["多少", "钱"],
-        "ja": ["いくら", "です", "か"]
+        "th": ["ขอ", "บิล", "หน่อย", "ได้", "ไหม"],
+        "zh": ["请", "给", "我", "账单", "好", "吗", "？"],
+        "ja": ["会計", "を", "お願い", "し", "ます", "。"]
       }
     },
     {
-      "id": "sentence_hs_s5_scan_promptpay",
-      "kind": "sentence",
-      "itemIds": ["word_scan", "word_promptpay"],
+      "id": "s22",
+      "kind": "Sentence",
       "texts": {
-        "en": "I will scan PromptPay",
-        "th": "สแกนพร้อมเพย์ค่ะ",
-        "fa": "پرامپت‌پی را اسکن می‌کنم",
-        "ar": "سأمسح برومبت باي",
-        "es": "Escanearé PromptPay",
-        "zh": "我扫普吉付",
-        "ja": "プロンプトペイをスキャンします"
+        "en": "Keep the change as a tip.",
+        "th": "เก็บเงินทอนไว้เป็นทิป",
+        "fa": "پول خرد را به عنوان انعام نگه دارید.",
+        "ar": "احتفظ بالفكة كبقشيش.",
+        "es": "Quédate con el cambio como propina.",
+        "zh": "不用找零了，当作小费。",
+        "ja": "お釣りはチップとして結構です。"
       },
       "tokens": {
-        "en": ["I", "will", "scan", "PromptPay"],
-        "th": ["สแกน", "พร้อมเพย์", "ค่ะ"],
-        "fa": ["پرامپت‌پی", "را", "اسکن", "می‌کنم"],
-        "ar": ["سأمسح", "برومبت", "باي"],
-        "es": ["Escanearé", "PromptPay"],
-        "zh": ["我", "扫", "普吉付"],
-        "ja": ["プロンプトペイ", "を", "スキャン", "します"]
+        "th": ["เก็บ", "เงินทอน", "ไว้", "เป็น", "ทิป"],
+        "zh": ["不用", "找零", "了", "，", "当作", "小费", "。"],
+        "ja": ["お", "釣り", "は", "チップ", "として", "結構", "です", "。"]
       }
     },
     {
-      "id": "sentence_hs_s5_pay_cash",
-      "kind": "sentence",
-      "itemIds": ["word_pay", "word_cash"],
+      "id": "s23",
+      "kind": "Sentence",
       "texts": {
-        "en": "I will pay by cash",
-        "th": "จ่ายเงินสดค่ะ",
-        "fa": "نقد پرداخت می‌کنم",
-        "ar": "سأدفع نقداً",
-        "es": "Pagaré en efectivo",
-        "zh": "我付现金",
-        "ja": "現金で払います"
+        "en": "I am very satisfied with the result.",
+        "th": "ฉันพึงพอใจกับผลลัพธ์มาก",
+        "fa": "من از نتیجه بسیار راضی هستم.",
+        "ar": "أنا راضٍ جداً عن النتيجة.",
+        "es": "Estoy muy satisfecho con el resultado.",
+        "zh": "我对结果非常满意。",
+        "ja": "結果にとても満足しています。"
       },
       "tokens": {
-        "en": ["I", "will", "pay", "by", "cash"],
-        "th": ["จ่าย", "เงินสด", "ค่ะ"],
-        "fa": ["نقد", "پرداخت", "می‌کنم"],
-        "ar": ["سأدفع", "نقداً"],
-        "es": ["Pagaré", "en", "efectivo"],
-        "zh": ["我", "付", "现金"],
-        "ja": ["現金", "で", "払い", "ます"]
+        "th": ["ฉัน", "พึงพอใจ", "กับ", "ผลลัพธ์", "มาก"],
+        "zh": ["我", "对", "结果", "非常", "满意", "。"],
+        "ja": ["結果", "に", "とても", "満足", "し", "て", "い", "ます", "。"]
       }
     },
     {
-      "id": "sentence_hs_s5_thank",
-      "kind": "sentence",
-      "itemIds": ["word_thank", "word_very"],
+      "id": "s24",
+      "kind": "Sentence",
       "texts": {
-        "en": "Thank you very much",
-        "th": "ขอบคุณมากค่ะ",
-        "fa": "خیلی متشکرم",
-        "ar": "شكراً جزيلاً",
-        "es": "Muchas gracias",
-        "zh": "非常感谢",
-        "ja": "どうもありがとうございます"
+        "en": "I will recommend this salon to my friends.",
+        "th": "ฉันจะแนะนำร้านนี้ให้เพื่อนของฉัน",
+        "fa": "من این سالن را به دوستانم توصیه می‌کنم.",
+        "ar": "سأوصي بهذا الصالون لأصدقائي.",
+        "es": "Recomendaré este salón a mis amigos.",
+        "zh": "我会把这个沙龙推荐给我的朋友。",
+        "ja": "このサロンを友人に推薦します。"
       },
       "tokens": {
-        "en": ["Thank", "you", "very", "much"],
-        "th": ["ขอบคุณ", "มาก", "ค่ะ"],
-        "fa": ["خیلی", "متشکرم"],
-        "ar": ["شكراً", "جزيلاً"],
-        "es": ["Muchas", "gracias"],
-        "zh": ["非常", "感谢"],
-        "ja": ["どうも", "ありがとう", "ございます"]
+        "th": [
+          "ฉัน",
+          "จะ",
+          "แนะนำ",
+          "ร้าน",
+          "นี้",
+          "ให้",
+          "เพื่อน",
+          "ของ",
+          "ฉัน"
+        ],
+        "zh": [
+          "我",
+          "会",
+          "把",
+          "这个",
+          "沙龙",
+          "推荐",
+          "给",
+          "我",
+          "的",
+          "朋友",
+          "。"
+        ],
+        "ja": ["この", "サロン", "を", "友人", "に", "推薦", "し", "ます", "。"]
       }
     },
     {
-      "id": "sentence_hs_s5_beautiful",
-      "kind": "sentence",
-      "itemIds": ["word_beautiful"],
+      "id": "s25",
+      "kind": "Sentence",
       "texts": {
-        "en": "It looks very beautiful",
-        "th": "สวยมากค่ะ",
-        "fa": "خیلی زیبا شده است",
-        "ar": "يبدو جميلاً جداً",
-        "es": "Se ve muy hermoso",
-        "zh": "看起来非常漂亮",
-        "ja": "とてもきれいです"
+        "en": "Thank you, I will return next month.",
+        "th": "ขอบคุณ ฉันจะกลับมาเดือนหน้า",
+        "fa": "متشکرم، ماه آینده برمی‌گردم.",
+        "ar": "شكراً، سأعود الشهر القادم.",
+        "es": "Gracias, volveré el próximo mes.",
+        "zh": "谢谢，我下个月会再来。",
+        "ja": "ありがとう、来月また来ます。"
       },
       "tokens": {
-        "en": ["It", "looks", "very", "beautiful"],
-        "th": ["สวย", "มาก", "ค่ะ"],
-        "fa": ["خیلی", "زیبا", "شده", "است"],
-        "ar": ["يبدو", "جميلاً", "جداً"],
-        "es": ["Se", "ve", "muy", "hermoso"],
-        "zh": ["看起来", "非常", "漂亮"],
-        "ja": ["とても", "きれい", "です"]
-      }
-    },
-    {
-      "id": "sentence_hs_s5_next_time",
-      "kind": "sentence",
-      "itemIds": ["word_next_time"],
-      "texts": {
-        "en": "See you next time",
-        "th": "เจอกันครั้งหน้าค่ะ",
-        "fa": "دفعه بعد می‌بینمتان",
-        "ar": "أراك في المرة القادمة",
-        "es": "Nos vemos la próxima vez",
-        "zh": "下次见",
-        "ja": "また次回"
-      },
-      "tokens": {
-        "en": ["See", "you", "next", "time"],
-        "th": ["เจอกัน", "ครั้งหน้า", "ค่ะ"],
-        "fa": ["دفعه", "بعد", "می‌بینمتان"],
-        "ar": ["أراك", "في", "المرة", "القادمة"],
-        "es": ["Nos", "vemos", "la", "próxima", "vez"],
-        "zh": ["下次", "见"],
-        "ja": ["また", "次回"]
-      }
-    },
-    {
-      "id": "sentence_hs_s5_goodbye",
-      "kind": "sentence",
-      "itemIds": ["word_goodbye"],
-      "texts": {
-        "en": "Goodbye",
-        "th": "สวัสดีค่ะ",
-        "fa": "خداحافظ",
-        "ar": "مع السلامة",
-        "es": "Adiós",
-        "zh": "再见",
-        "ja": "さようなら"
-      },
-      "tokens": {
-        "en": ["Goodbye"],
-        "th": ["สวัสดี", "ค่ะ"],
-        "fa": ["خداحافظ"],
-        "ar": ["مع", "السلامة"],
-        "es": ["Adiós"],
-        "zh": ["再见"],
-        "ja": ["さようなら"]
-      }
-    },
-    {
-      "id": "word_pay",
-      "kind": "word",
-      "texts": {
-        "en": "pay",
-        "th": "จ่าย",
-        "fa": "پرداخت کردن",
-        "ar": "يدفع",
-        "es": "pagar",
-        "zh": "支付",
-        "ja": "支払う"
-      }
-    },
-    {
-      "id": "word_cash",
-      "kind": "word",
-      "texts": {
-        "en": "cash",
-        "th": "เงินสด",
-        "fa": "پول نقد",
-        "ar": "نقد",
-        "es": "efectivo",
-        "zh": "现金",
-        "ja": "現金"
-      }
-    },
-    {
-      "id": "word_scan",
-      "kind": "word",
-      "texts": {
-        "en": "scan",
-        "th": "สแกน",
-        "fa": "اسکن",
-        "ar": "يمسح",
-        "es": "escanear",
-        "zh": "扫描",
-        "ja": "スキャン"
-      }
-    },
-    {
-      "id": "word_promptpay",
-      "kind": "word",
-      "texts": {
-        "en": "PromptPay",
-        "th": "พร้อมเพย์",
-        "fa": "پرامپت‌پی",
-        "ar": "برومبت باي",
-        "es": "PromptPay",
-        "zh": "普吉付",
-        "ja": "プロンプトペイ"
-      }
-    },
-    {
-      "id": "word_next_time",
-      "kind": "word",
-      "texts": {
-        "en": "next time",
-        "th": "ครั้งหน้า",
-        "fa": "دفعه بعد",
-        "ar": "المرة القادمة",
-        "es": "la próxima vez",
-        "zh": "下次",
-        "ja": "次回"
-      }
-    },
-    {
-      "id": "word_beautiful",
-      "kind": "word",
-      "texts": {
-        "en": "beautiful",
-        "th": "สวย",
-        "fa": "زیبا",
-        "ar": "جميل",
-        "es": "hermoso",
-        "zh": "漂亮",
-        "ja": "きれい"
-      }
-    },
-    {
-      "id": "word_goodbye",
-      "kind": "word",
-      "texts": {
-        "en": "goodbye",
-        "th": "ลาก่อน",
-        "fa": "خداحافظ",
-        "ar": "مع السلامة",
-        "es": "adiós",
-        "zh": "再见",
-        "ja": "さようなら"
+        "th": ["ขอบคุณ", " ", "ฉัน", "จะ", "กลับ", "มา", "เดือน", "หน้า"],
+        "zh": ["谢谢", "，", "我", "下", "个月", "会", "再", "来", "。"],
+        "ja": ["ありがとう", "、", "来月", "また", "来", "ます", "。"]
       }
     }
   ]

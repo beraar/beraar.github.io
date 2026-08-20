@@ -2,275 +2,21 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "h1",
       "header": true,
       "texts": {
-        "en": "Core Words",
-        "th": "คำศัพท์หลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras clave",
-        "zh": "核心词汇",
-        "ja": "基本単語"
+        "en": "Scenario 1: Immediate Family",
+        "th": "สถานการณ์ที่ 1: ครอบครัวใกล้ชิด",
+        "fa": "سناریو ۱: خانواده نزدیک",
+        "ar": "السيناريو 1: العائلة المقربة",
+        "es": "Escenario 1: Familia inmediata",
+        "zh": "场景 1：直系亲属",
+        "ja": "シナリオ 1：直系家族"
       }
     },
     {
-      "id": "word_this",
-      "kind": "word",
-      "texts": {
-        "en": "this",
-        "th": "นี่",
-        "fa": "این",
-        "ar": "هذا",
-        "es": "este",
-        "zh": "这",
-        "ja": "これ"
-      }
-    },
-    {
-      "id": "word_is",
-      "kind": "word",
-      "texts": {
-        "en": "is",
-        "th": "คือ",
-        "fa": "است",
-        "ar": "هو",
-        "es": "es",
-        "zh": "是",
-        "ja": "です"
-      }
-    },
-    {
-      "id": "word_of",
-      "kind": "word",
-      "texts": {
-        "en": "of",
-        "th": "ของ",
-        "fa": "از",
-        "ar": "من",
-        "es": "de",
-        "zh": "的",
-        "ja": "の"
-      }
-    },
-    {
-      "id": "word_i",
-      "kind": "word",
-      "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
-      }
-    },
-    {
-      "id": "word_you",
-      "kind": "word",
-      "texts": {
-        "en": "you",
-        "th": "คุณ",
-        "fa": "شما",
-        "ar": "أنت",
-        "es": "tú",
-        "zh": "你",
-        "ja": "あなた"
-      }
-    },
-    {
-      "id": "word_we",
-      "kind": "word",
-      "texts": {
-        "en": "we",
-        "th": "เรา",
-        "fa": "ما",
-        "ar": "نحن",
-        "es": "nosotros",
-        "zh": "我们",
-        "ja": "私たち"
-      }
-    },
-    {
-      "id": "word_have",
-      "kind": "word",
-      "texts": {
-        "en": "have",
-        "th": "มี",
-        "fa": "داشتن",
-        "ar": "يملك",
-        "es": "tener",
-        "zh": "有",
-        "ja": "ある"
-      }
-    },
-    {
-      "id": "word_question_particle",
-      "kind": "word",
-      "texts": {
-        "en": "question marker",
-        "th": "ไหม",
-        "fa": "آیا",
-        "ar": "هل",
-        "es": "partícula interrogativa",
-        "zh": "吗",
-        "ja": "か"
-      }
-    },
-    {
-      "id": "word_one",
-      "kind": "word",
-      "texts": {
-        "en": "one",
-        "th": "หนึ่ง",
-        "fa": "یک",
-        "ar": "واحد",
-        "es": "uno",
-        "zh": "一",
-        "ja": "一"
-      }
-    },
-    {
-      "id": "word_two",
-      "kind": "word",
-      "texts": {
-        "en": "two",
-        "th": "สอง",
-        "fa": "دو",
-        "ar": "اثنان",
-        "es": "dos",
-        "zh": "两",
-        "ja": "二"
-      }
-    },
-    {
-      "id": "word_three",
-      "kind": "word",
-      "texts": {
-        "en": "three",
-        "th": "สาม",
-        "fa": "سه",
-        "ar": "ثلاثة",
-        "es": "tres",
-        "zh": "三",
-        "ja": "三"
-      }
-    },
-    {
-      "id": "header_scenario1",
-      "header": true,
-      "texts": {
-        "en": "Scenario 1: Introducing Family Members",
-        "th": "สถานการณ์ 1: แนะนำสมาชิกในครอบครัว",
-        "fa": "سناریو ۱: معرفی اعضای خانواده",
-        "ar": "السيناريو 1: تقديم أفراد العائلة",
-        "es": "Escenario 1: Presentar a los miembros de la familia",
-        "zh": "场景一：介绍家庭成员",
-        "ja": "シナリオ1：家族を紹介する"
-      }
-    },
-    {
-      "id": "sentence_family_this_father",
-      "kind": "sentence",
-      "itemIds": ["word_this", "word_is", "word_father", "word_of", "word_i"],
-      "texts": {
-        "en": "This is my father",
-        "th": "นี่คือพ่อของฉัน",
-        "fa": "این پدر من است",
-        "ar": "هذا أبي",
-        "es": "Este es mi padre",
-        "zh": "这是我的父亲",
-        "ja": "これは私の父です"
-      },
-      "tokens": {
-        "en": ["This", "is", "my", "father"],
-        "th": ["นี่", "คือ", "พ่อ", "ของ", "ฉัน"],
-        "fa": ["این", "پدر", "من", "است"],
-        "ar": ["هذا", "أبي"],
-        "es": ["Este", "es", "mi", "padre"],
-        "zh": ["这", "是", "我的", "父亲"],
-        "ja": ["これ", "は", "私", "の", "父", "です"]
-      }
-    },
-    {
-      "id": "sentence_family_this_mother",
-      "kind": "sentence",
-      "itemIds": ["word_this", "word_is", "word_mother", "word_of", "word_i"],
-      "texts": {
-        "en": "This is my mother",
-        "th": "นี่คือแม่ของฉัน",
-        "fa": "این مادر من است",
-        "ar": "هذه أمي",
-        "es": "Esta es mi madre",
-        "zh": "这是我的母亲",
-        "ja": "これは私の母です"
-      },
-      "tokens": {
-        "en": ["This", "is", "my", "mother"],
-        "th": ["นี่", "คือ", "แม่", "ของ", "ฉัน"],
-        "fa": ["این", "مادر", "من", "است"],
-        "ar": ["هذه", "أمي"],
-        "es": ["Esta", "es", "mi", "madre"],
-        "zh": ["这", "是", "我的", "母亲"],
-        "ja": ["これ", "は", "私", "の", "母", "です"]
-      }
-    },
-    {
-      "id": "sentence_family_husband_doctor",
-      "kind": "sentence",
-      "itemIds": [
-        "word_husband",
-        "word_of",
-        "word_i",
-        "word_is",
-        "word_doctor"
-      ],
-      "texts": {
-        "en": "My husband is a doctor",
-        "th": "สามีของฉันเป็นหมอ",
-        "fa": "شوهر من دکتر است",
-        "ar": "زوجي طبيب",
-        "es": "Mi esposo es médico",
-        "zh": "我的丈夫是医生",
-        "ja": "私の夫は医者です"
-      },
-      "tokens": {
-        "en": ["My", "husband", "is", "a", "doctor"],
-        "th": ["สามี", "ของ", "ฉัน", "เป็น", "หมอ"],
-        "fa": ["شوهر", "من", "دکتر", "است"],
-        "ar": ["زوجي", "طبيب"],
-        "es": ["Mi", "esposo", "es", "médico"],
-        "zh": ["我的", "丈夫", "是", "医生"],
-        "ja": ["私", "の", "夫", "は", "医者", "です"]
-      }
-    },
-    {
-      "id": "sentence_family_wife_teacher",
-      "kind": "sentence",
-      "itemIds": ["word_wife", "word_of", "word_i", "word_is", "word_teacher"],
-      "texts": {
-        "en": "My wife is a teacher",
-        "th": "ภรรยาของฉันเป็นครู",
-        "fa": "همسر من معلم است",
-        "ar": "زوجتي مدرسة",
-        "es": "Mi esposa es profesora",
-        "zh": "我的妻子是老师",
-        "ja": "私の妻は先生です"
-      },
-      "tokens": {
-        "en": ["My", "wife", "is", "a", "teacher"],
-        "th": ["ภรรยา", "ของ", "ฉัน", "เป็น", "ครู"],
-        "fa": ["همسر", "من", "معلم", "است"],
-        "ar": ["زوجتي", "مدرسة"],
-        "es": ["Mi", "esposa", "es", "profesora"],
-        "zh": ["我的", "妻子", "是", "老师"],
-        "ja": ["私", "の", "妻", "は", "先生", "です"]
-      }
-    },
-    {
-      "id": "word_father",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
         "en": "father",
         "th": "พ่อ",
@@ -282,8 +28,8 @@
       }
     },
     {
-      "id": "word_mother",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
       "texts": {
         "en": "mother",
         "th": "แม่",
@@ -295,478 +41,163 @@
       }
     },
     {
-      "id": "word_husband",
-      "kind": "word",
+      "id": "w3",
+      "kind": "Word",
       "texts": {
-        "en": "husband",
-        "th": "สามี",
-        "fa": "شوهر",
-        "ar": "زوج",
-        "es": "esposo",
-        "zh": "丈夫",
-        "ja": "夫"
+        "en": "brother",
+        "th": "พี่ชาย/น้องชาย",
+        "fa": "برادر",
+        "ar": "أخ",
+        "es": "hermano",
+        "zh": "兄弟",
+        "ja": "兄弟"
       }
     },
     {
-      "id": "word_doctor",
-      "kind": "word",
+      "id": "w4",
+      "kind": "Word",
       "texts": {
-        "en": "doctor",
-        "th": "หมอ",
-        "fa": "دکتر",
-        "ar": "طبيب",
-        "es": "médico",
-        "zh": "医生",
-        "ja": "医者"
+        "en": "sister",
+        "th": "พี่สาว/น้องสาว",
+        "fa": "خواهر",
+        "ar": "أخت",
+        "es": "hermana",
+        "zh": "姐妹",
+        "ja": "姉妹"
       }
     },
     {
-      "id": "word_wife",
-      "kind": "word",
+      "id": "w5",
+      "kind": "Word",
       "texts": {
-        "en": "wife",
-        "th": "ภรรยา",
-        "fa": "همسر",
-        "ar": "زوجة",
-        "es": "esposa",
-        "zh": "妻子",
-        "ja": "妻"
+        "en": "parents",
+        "th": "พ่อแม่",
+        "fa": "والدین",
+        "ar": "والدان",
+        "es": "padres",
+        "zh": "父母",
+        "ja": "両親"
       }
     },
     {
-      "id": "word_teacher",
-      "kind": "word",
+      "id": "s1",
+      "kind": "Sentence",
       "texts": {
-        "en": "teacher",
-        "th": "ครู",
-        "fa": "معلم",
-        "ar": "مدرسة",
-        "es": "profesora",
-        "zh": "老师",
-        "ja": "先生"
+        "en": "This is my father.",
+        "th": "นี่คือพ่อของฉัน",
+        "fa": "این پدر من است.",
+        "ar": "هذا أبي.",
+        "es": "Este es mi padre.",
+        "zh": "这是我的父亲。",
+        "ja": "これは私の父です。"
+      },
+      "tokens": {
+        "th": ["นี่", "คือ", "พ่อ", "ของ", "ฉัน"],
+        "zh": ["这", "是", "我", "的", "父亲", "。"],
+        "ja": ["これ", "は", "私", "の", "父", "です", "。"]
       }
     },
     {
-      "id": "header_scenario2",
+      "id": "s2",
+      "kind": "Sentence",
+      "texts": {
+        "en": "My mother is a teacher.",
+        "th": "แม่ของฉันเป็นครู",
+        "fa": "مادر من معلم است.",
+        "ar": "أمي معلمة.",
+        "es": "Mi madre es profesora.",
+        "zh": "我的母亲是老师。",
+        "ja": "私の母は先生です。"
+      },
+      "tokens": {
+        "th": ["แม่", "ของ", "ฉัน", "เป็น", "ครู"],
+        "zh": ["我", "的", "母亲", "是", "老师", "。"],
+        "ja": ["私", "の", "母", "は", "先生", "です", "。"]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I have one brother.",
+        "th": "ฉันมีพี่ชายหรือน้องชายหนึ่งคน",
+        "fa": "من یک برادر دارم.",
+        "ar": "لدي أخ واحد.",
+        "es": "Tengo un hermano.",
+        "zh": "我有一个兄弟。",
+        "ja": "私には兄弟が一人います。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "มี", "พี่ชาย", "หรือ", "น้องชาย", "หนึ่ง", "คน"],
+        "zh": ["我", "有", "一个", "兄弟", "。"],
+        "ja": ["私", "に", "は", "兄弟", "が", "一人", "い", "ます", "。"]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "My sister is very kind.",
+        "th": "พี่สาวหรือน้องสาวของฉันใจดีมาก",
+        "fa": "خواهر من بسیار مهربان است.",
+        "ar": "أختي لطيفة جداً.",
+        "es": "Mi hermana es muy amable.",
+        "zh": "我的姐妹非常善良。",
+        "ja": "私の姉妹はとても親切です。"
+      },
+      "tokens": {
+        "th": ["พี่สาว", "หรือ", "น้องสาว", "ของ", "ฉัน", "ใจดี", "มาก"],
+        "zh": ["我", "的", "姐妹", "非常", "善良", "。"],
+        "ja": ["私", "の", "姉妹", "は", "とても", "親切", "です", "。"]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "My parents live here.",
+        "th": "พ่อแม่ของฉันอาศัยอยู่ที่นี่",
+        "fa": "والدین من اینجا زندگی می‌کنند.",
+        "ar": "يعيش والداني هنا.",
+        "es": "Mis padres viven aquí.",
+        "zh": "我的父母住在这里。",
+        "ja": "私の両親はここに住んでいます。"
+      },
+      "tokens": {
+        "th": ["พ่อแม่", "ของ", "ฉัน", "อาศัย", "อยู่", "ที่", "นี่"],
+        "zh": ["我", "的", "父母", "住", "在", "这里", "。"],
+        "ja": [
+          "私",
+          "の",
+          "両親",
+          "は",
+          "ここ",
+          "に",
+          "住ん",
+          "で",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+
+    {
+      "id": "h2",
       "header": true,
       "texts": {
-        "en": "Scenario 2: Siblings & Children",
-        "th": "สถานการณ์ 2: พี่น้องและลูก",
-        "fa": "سناریو ۲: خواهران/برادران و فرزندان",
-        "ar": "السيناريو 2: الإخوة والأبناء",
-        "es": "Escenario 2: Hermanos e hijos",
-        "zh": "场景二：兄弟姐妹与孩子",
-        "ja": "シナリオ2：兄弟姉妹と子供"
+        "en": "Scenario 2: Extended Family",
+        "th": "สถานการณ์ที่ 2: ครอบครัวขยาย",
+        "fa": "سناریو ۲: خانواده گسترده",
+        "ar": "السيناريو 2: العائلة الممتدة",
+        "es": "Escenario 2: Familia extendida",
+        "zh": "场景 2：大家庭/亲戚",
+        "ja": "シナリオ 2：親戚"
       }
     },
     {
-      "id": "sentence_family_have_one_brother",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_have", "word_one", "word_older_brother"],
-      "texts": {
-        "en": "I have one older brother",
-        "th": "ฉันมีพี่ชายหนึ่งคน",
-        "fa": "من یک برادر بزرگتر دارم",
-        "ar": "عندي أخ أكبر واحد",
-        "es": "Tengo un hermano mayor",
-        "zh": "我有一个哥哥",
-        "ja": "私には兄が一人います"
-      },
-      "tokens": {
-        "en": ["I", "have", "one", "older", "brother"],
-        "th": ["ฉัน", "มี", "พี่ชาย", "หนึ่ง", "คน"],
-        "fa": ["من", "یک", "برادر", "بزرگتر", "دارم"],
-        "ar": ["عندي", "أخ", "أكبر", "واحد"],
-        "es": ["Tengo", "un", "hermano", "mayor"],
-        "zh": ["我", "有", "一个", "哥哥"],
-        "ja": ["私", "には", "兄", "が", "一人", "います"]
-      }
-    },
-    {
-      "id": "sentence_family_have_two_sisters",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_have", "word_two", "word_older_sister"],
-      "texts": {
-        "en": "I have two older sisters",
-        "th": "ฉันมีพี่สาวสองคน",
-        "fa": "من دو خواهر بزرگتر دارم",
-        "ar": "عندي أختان أكبر",
-        "es": "Tengo dos hermanas mayores",
-        "zh": "我有两个姐姐",
-        "ja": "私には姉が二人います"
-      },
-      "tokens": {
-        "en": ["I", "have", "two", "older", "sisters"],
-        "th": ["ฉัน", "มี", "พี่สาว", "สอง", "คน"],
-        "fa": ["من", "دو", "خواهر", "بزرگتر", "دارم"],
-        "ar": ["عندي", "أختان", "أكبر"],
-        "es": ["Tengo", "dos", "hermanas", "mayores"],
-        "zh": ["我", "有", "两个", "姐姐"],
-        "ja": ["私", "には", "姉", "が", "二人", "います"]
-      }
-    },
-    {
-      "id": "sentence_family_younger_sibling_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_have",
-        "word_younger_sibling",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Do you have younger siblings",
-        "th": "คุณมีน้องไหม",
-        "fa": "آیا خواهر یا برادر کوچکتر دارید",
-        "ar": "هل لديك إخوة أصغر",
-        "es": "Tienes hermanos menores",
-        "zh": "你有弟弟妹妹吗",
-        "ja": "弟か妹がいますか"
-      },
-      "tokens": {
-        "en": ["Do", "you", "have", "younger", "siblings"],
-        "th": ["คุณ", "มี", "น้อง", "ไหม"],
-        "fa": ["آیا", "خواهر", "یا", "برادر", "کوچکتر", "دارید"],
-        "ar": ["هل", "لديك", "إخوة", "أصغر"],
-        "es": ["Tienes", "hermanos", "menores"],
-        "zh": ["你", "有", "弟弟妹妹", "吗"],
-        "ja": ["弟か妹", "が", "います", "か"]
-      }
-    },
-    {
-      "id": "sentence_family_three_children",
-      "kind": "sentence",
-      "itemIds": ["word_we", "word_have", "word_three", "word_child"],
-      "texts": {
-        "en": "We have three children",
-        "th": "เรามีลูกสามคน",
-        "fa": "ما سه فرزند داریم",
-        "ar": "لدينا ثلاثة أبناء",
-        "es": "Tenemos tres hijos",
-        "zh": "我们有三个孩子",
-        "ja": "私たちには三人の子供がいます"
-      },
-      "tokens": {
-        "en": ["We", "have", "three", "children"],
-        "th": ["เรา", "มี", "ลูก", "สาม", "คน"],
-        "fa": ["ما", "سه", "فرزند", "داریم"],
-        "ar": ["لدينا", "ثلاثة", "أبناء"],
-        "es": ["Tenemos", "tres", "hijos"],
-        "zh": ["我们", "有", "三个", "孩子"],
-        "ja": ["私たち", "には", "三人", "の", "子供", "が", "います"]
-      }
-    },
-    {
-      "id": "word_older_brother",
-      "kind": "word",
-      "texts": {
-        "en": "older brother",
-        "th": "พี่ชาย",
-        "fa": "برادر بزرگتر",
-        "ar": "أخ أكبر",
-        "es": "hermano mayor",
-        "zh": "哥哥",
-        "ja": "兄"
-      }
-    },
-    {
-      "id": "word_older_sister",
-      "kind": "word",
-      "texts": {
-        "en": "older sister",
-        "th": "พี่สาว",
-        "fa": "خواهر بزرگتر",
-        "ar": "أخت أكبر",
-        "es": "hermana mayor",
-        "zh": "姐姐",
-        "ja": "姉"
-      }
-    },
-    {
-      "id": "word_younger_sibling",
-      "kind": "word",
-      "texts": {
-        "en": "younger sibling",
-        "th": "น้อง",
-        "fa": "خواهر یا برادر کوچکتر",
-        "ar": "أخ أو أخت أصغر",
-        "es": "hermano menor",
-        "zh": "弟弟或妹妹",
-        "ja": "弟か妹"
-      }
-    },
-    {
-      "id": "word_child",
-      "kind": "word",
-      "texts": {
-        "en": "child",
-        "th": "ลูก",
-        "fa": "فرزند",
-        "ar": "ابن أو بنت",
-        "es": "hijo",
-        "zh": "孩子",
-        "ja": "子供"
-      }
-    },
-    {
-      "id": "header_scenario3",
-      "header": true,
-      "texts": {
-        "en": "Scenario 3: Family Size & Classifiers",
-        "th": "สถานการณ์ 3: ขนาดครอบครัวและลักษณนาม",
-        "fa": "سناریو ۳: اندازه خانواده و شمارنده‌ها",
-        "ar": "السيناريو 3: حجم العائلة والتصنيفات",
-        "es": "Escenario 3: Tamaño de la familia y clasificadores",
-        "zh": "场景三：家庭规模与量词",
-        "ja": "シナリオ3：家族の人数と助数詞"
-      }
-    },
-    {
-      "id": "sentence_family_size_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_family",
-        "word_of",
-        "word_you",
-        "word_have",
-        "word_how_many",
-        "word_classifier_person"
-      ],
-      "texts": {
-        "en": "How many people are there in your family?",
-        "th": "ครอบครัวของคุณมีกี่คน",
-        "fa": "خانواده شما چند نفر دارد؟",
-        "ar": "كم عدد أفراد عائلتك؟",
-        "es": "¿Cuántas personas hay en tu familia?",
-        "zh": "你的家有几口人？",
-        "ja": "あなたの家族は何人いますか？"
-      },
-      "tokens": {
-        "en": [
-          "How",
-          "many",
-          "people",
-          "are",
-          "there",
-          "in",
-          "your",
-          "family?"
-        ],
-        "th": ["ครอบครัว", "ของ", "คุณ", "มี", "กี่", "คน"],
-        "fa": ["خانواده", "شما", "چند", "نفر", "دارد؟"],
-        "ar": ["كم", "عدد", "أفراد", "عائلتك؟"],
-        "es": ["¿Cuántas", "personas", "hay", "en", "tu", "familia?"],
-        "zh": ["你", "的", "家", "有", "几", "口", "人？"],
-        "ja": ["あなた", "の", "家族", "は", "何人", "います", "か？"]
-      }
-    },
-    {
-      "id": "sentence_family_size_four",
-      "kind": "sentence",
-      "itemIds": [
-        "word_family",
-        "word_of",
-        "word_i",
-        "word_have",
-        "word_four",
-        "word_classifier_person"
-      ],
-      "texts": {
-        "en": "My family has four people.",
-        "th": "ครอบครัวของฉันมีสี่คน",
-        "fa": "خانواده من چهار نفر دارد.",
-        "ar": "عائلتي تتكون من أربعة أشخاص.",
-        "es": "Mi familia tiene cuatro personas.",
-        "zh": "我的家有四口人。",
-        "ja": "私の家族は四人です。"
-      },
-      "tokens": {
-        "en": ["My", "family", "has", "four", "people."],
-        "th": ["ครอบครัว", "ของ", "ฉัน", "มี", "สี่", "คน"],
-        "fa": ["خانواده", "من", "چهار", "نفر", "دارد."],
-        "ar": ["عائلتي", "تتكون", "من", "أربعة", "أشخاص."],
-        "es": ["Mi", "familia", "tiene", "cuatro", "personas."],
-        "zh": ["我", "的", "家", "有", "四", "口", "人。"],
-        "ja": ["私", "の", "家族", "は", "四人", "です。"]
-      }
-    },
-    {
-      "id": "word_family",
-      "kind": "word",
-      "texts": {
-        "en": "family",
-        "th": "ครอบครัว",
-        "fa": "خانواده",
-        "ar": "عائلة",
-        "es": "familia",
-        "zh": "家 / 家庭",
-        "ja": "家族"
-      }
-    },
-    {
-      "id": "word_how_many",
-      "kind": "word",
-      "texts": {
-        "en": "how many",
-        "th": "กี่",
-        "fa": "چند",
-        "ar": "كم",
-        "es": "cuántos",
-        "zh": "几",
-        "ja": "何人"
-      }
-    },
-    {
-      "id": "word_four",
-      "kind": "word",
-      "texts": {
-        "en": "four",
-        "th": "สี่",
-        "fa": "چهار",
-        "ar": "أربعة",
-        "es": "cuatro",
-        "zh": "四",
-        "ja": "四"
-      }
-    },
-    {
-      "id": "word_classifier_person",
-      "kind": "word",
-      "texts": {
-        "en": "classifier for people",
-        "th": "คน",
-        "fa": "نفر",
-        "ar": "شخص",
-        "es": "persona",
-        "zh": "人 / 口",
-        "ja": "人"
-      }
-    },
-    {
-      "id": "header_scenario4",
-      "header": true,
-      "texts": {
-        "en": "Scenario 4: Extended Family",
-        "th": "สถานการณ์ 4: ครอบครัวขยาย",
-        "fa": "سناریو ۴: خانواده گسترده",
-        "ar": "السيناريو 4: العائلة الممتدة",
-        "es": "Escenario 4: Familia extendida",
-        "zh": "场景四：大家庭",
-        "ja": "シナリオ4：親戚"
-      }
-    },
-    {
-      "id": "sentence_family_this_grandfather",
-      "kind": "sentence",
-      "itemIds": [
-        "word_this",
-        "word_is",
-        "word_grandfather",
-        "word_of",
-        "word_i"
-      ],
-      "texts": {
-        "en": "This is my grandfather",
-        "th": "นี่คือปู่ของฉัน",
-        "fa": "این پدربزرگ من است",
-        "ar": "هذا جدي",
-        "es": "Este es mi abuelo",
-        "zh": "这是我的祖父",
-        "ja": "これは私の祖父です"
-      },
-      "tokens": {
-        "en": ["This", "is", "my", "grandfather"],
-        "th": ["นี่", "คือ", "ปู่", "ของ", "ฉัน"],
-        "fa": ["این", "پدربزرگ", "من", "است"],
-        "ar": ["هذا", "جدي"],
-        "es": ["Este", "es", "mi", "abuelo"],
-        "zh": ["这", "是", "我的", "祖父"],
-        "ja": ["これ", "は", "私", "の", "祖父", "です"]
-      }
-    },
-    {
-      "id": "sentence_family_this_grandmother",
-      "kind": "sentence",
-      "itemIds": [
-        "word_this",
-        "word_is",
-        "word_grandmother",
-        "word_of",
-        "word_i"
-      ],
-      "texts": {
-        "en": "This is my grandmother",
-        "th": "นี่คือย่าของฉัน",
-        "fa": "این مادربزرگ من است",
-        "ar": "هذه جدتي",
-        "es": "Esta es mi abuela",
-        "zh": "这是我的祖母",
-        "ja": "これは私の祖母です"
-      },
-      "tokens": {
-        "en": ["This", "is", "my", "grandmother"],
-        "th": ["นี่", "คือ", "ย่า", "ของ", "ฉัน"],
-        "fa": ["این", "مادربزرگ", "من", "است"],
-        "ar": ["هذه", "جدتي"],
-        "es": ["Esta", "es", "mi", "abuela"],
-        "zh": ["这", "是", "我的", "祖母"],
-        "ja": ["これ", "は", "私", "の", "祖母", "です"]
-      }
-    },
-    {
-      "id": "sentence_family_have_cousins",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_have", "word_two", "word_cousin"],
-      "texts": {
-        "en": "I have two cousins",
-        "th": "ฉันมีลูกพี่ลูกน้องสองคน",
-        "fa": "من دو پسرعمو دارم",
-        "ar": "عندي اثنان من أبناء العم",
-        "es": "Tengo dos primos",
-        "zh": "我有两个表亲",
-        "ja": "私にはいとこが二人います"
-      },
-      "tokens": {
-        "en": ["I", "have", "two", "cousins"],
-        "th": ["ฉัน", "มี", "ลูกพี่ลูกน้อง", "สอง", "คน"],
-        "fa": ["من", "دو", "پسرعمو", "دارم"],
-        "ar": ["عندي", "اثنان", "من", "أبناء", "العم"],
-        "es": ["Tengo", "dos", "primos"],
-        "zh": ["我", "有", "两个", "表亲"],
-        "ja": ["私", "には", "いとこ", "が", "二人", "います"]
-      }
-    },
-    {
-      "id": "sentence_family_grandchild_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_have",
-        "word_grandchild",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Do you have grandchildren?",
-        "th": "คุณมีหลานไหม",
-        "fa": "آیا نوه دارید؟",
-        "ar": "هل لديك أحفاد؟",
-        "es": "¿Tienes nietos?",
-        "zh": "你有孙子吗？",
-        "ja": "孫がいますか？"
-      },
-      "tokens": {
-        "en": ["Do", "you", "have", "grandchildren?"],
-        "th": ["คุณ", "มี", "หลาน", "ไหม"],
-        "fa": ["آیا", "نوه", "دارید؟"],
-        "ar": ["هل", "لديك", "أحفاد؟"],
-        "es": ["¿Tienes", "nietos?"],
-        "zh": ["你", "有", "孙子", "吗？"],
-        "ja": ["孫", "が", "います", "か？"]
-      }
-    },
-    {
-      "id": "word_grandfather",
-      "kind": "word",
+      "id": "w6",
+      "kind": "Word",
       "texts": {
         "en": "grandfather",
         "th": "ปู่/ตา",
@@ -778,8 +209,8 @@
       }
     },
     {
-      "id": "word_grandmother",
-      "kind": "word",
+      "id": "w7",
+      "kind": "Word",
       "texts": {
         "en": "grandmother",
         "th": "ย่า/ยาย",
@@ -791,38 +222,12 @@
       }
     },
     {
-      "id": "word_grandchild",
-      "kind": "word",
-      "texts": {
-        "en": "grandchild",
-        "th": "หลาน",
-        "fa": "نوه",
-        "ar": "حفيد",
-        "es": "nieto",
-        "zh": "孙子/孙女",
-        "ja": "孫"
-      }
-    },
-    {
-      "id": "word_aunt",
-      "kind": "word",
-      "texts": {
-        "en": "aunt",
-        "th": "ป้า/น้า/อา",
-        "fa": "خاله/عمه",
-        "ar": "عمة/خالة",
-        "es": "tía",
-        "zh": "阿姨/姑姑",
-        "ja": "おば"
-      }
-    },
-    {
-      "id": "word_uncle",
-      "kind": "word",
+      "id": "w8",
+      "kind": "Word",
       "texts": {
         "en": "uncle",
         "th": "ลุง/น้า/อา",
-        "fa": "دایی/عمو",
+        "fa": "عمو/دایی",
         "ar": "عم/خال",
         "es": "tío",
         "zh": "叔叔/舅舅",
@@ -830,157 +235,332 @@
       }
     },
     {
-      "id": "word_cousin",
-      "kind": "word",
+      "id": "w9",
+      "kind": "Word",
+      "texts": {
+        "en": "aunt",
+        "th": "ป้า/น้า/อา",
+        "fa": "عمه/خاله",
+        "ar": "عمة/خالة",
+        "es": "tía",
+        "zh": "阿姨/姑姑",
+        "ja": "おば"
+      }
+    },
+    {
+      "id": "w10",
+      "kind": "Word",
       "texts": {
         "en": "cousin",
         "th": "ลูกพี่ลูกน้อง",
         "fa": "پسرعمو/دخترعمو",
         "ar": "ابن عم/ابنة عم",
         "es": "primo",
-        "zh": "表亲/堂亲",
+        "zh": "堂/表兄弟姐妹",
         "ja": "いとこ"
       }
     },
     {
-      "id": "header_scenario5",
+      "id": "s6",
+      "kind": "Sentence",
+      "texts": {
+        "en": "My grandfather is very old.",
+        "th": "ปู่หรือตาของฉันแก่แล้ว",
+        "fa": "پدربزرگ من خیلی پیر است.",
+        "ar": "جدي كبير في السن جداً.",
+        "es": "Mi abuelo es muy viejo.",
+        "zh": "我的祖父很老了。",
+        "ja": "私の祖父はとても年を取っています。"
+      },
+      "tokens": {
+        "th": ["ปู่", "หรือ", "ตา", "ของ", "ฉัน", "แก่", "แล้ว"],
+        "zh": ["我", "的", "祖父", "很", "老", "了", "。"],
+        "ja": [
+          "私",
+          "の",
+          "祖父",
+          "は",
+          "とても",
+          "年",
+          "を",
+          "取っ",
+          "て",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "kind": "Sentence",
+      "texts": {
+        "en": "My grandmother cooks well.",
+        "th": "ย่าหรือยายของฉันทำอาหารเก่ง",
+        "fa": "مادربزرگ من خوب آشپزی می‌کند.",
+        "ar": "جدتي تطبخ جيداً.",
+        "es": "Mi abuela cocina bien.",
+        "zh": "我的祖母做饭很好吃。",
+        "ja": "私の祖母は料理が上手です。"
+      },
+      "tokens": {
+        "th": ["ย่า", "หรือ", "ยาย", "ของ", "ฉัน", "ทำอาหาร", "เก่ง"],
+        "zh": ["我", "的", "祖母", "做饭", "很", "好吃", "。"],
+        "ja": ["私", "の", "祖母", "は", "料理", "が", "上手", "です", "。"]
+      }
+    },
+    {
+      "id": "s8",
+      "kind": "Sentence",
+      "texts": {
+        "en": "My uncle lives abroad.",
+        "th": "ลุงหรือน้าของฉันอยู่ต่างประเทศ",
+        "fa": "عموی من در خارج از کشور زندگی می‌کند.",
+        "ar": "يعيش عمي في الخارج.",
+        "es": "Mi tío vive en el extranjero.",
+        "zh": "我的叔叔住在国外。",
+        "ja": "私のおじは海外に住んでいます。"
+      },
+      "tokens": {
+        "th": ["ลุง", "หรือ", "น้า", "ของ", "ฉัน", "อยู่", "ต่างประเทศ"],
+        "zh": ["我", "的", "叔叔", "住", "在", "国外", "。"],
+        "ja": [
+          "私",
+          "の",
+          "おじ",
+          "は",
+          "海外",
+          "に",
+          "住ん",
+          "で",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s9",
+      "kind": "Sentence",
+      "texts": {
+        "en": "My aunt is very funny.",
+        "th": "ป้าหรือน้าของฉันตลกมาก",
+        "fa": "عمه من خیلی بامزه است.",
+        "ar": "عمتي مضحكة جداً.",
+        "es": "Mi tía es muy divertida.",
+        "zh": "我的阿姨非常有趣。",
+        "ja": "私のおばはとても面白いです。"
+      },
+      "tokens": {
+        "th": ["ป้า", "หรือ", "น้า", "ของ", "ฉัน", "ตลก", "มาก"],
+        "zh": ["我", "的", "阿姨", "非常", "有趣", "。"],
+        "ja": ["私", "の", "おば", "は", "とても", "面白い", "です", "。"]
+      }
+    },
+    {
+      "id": "s10",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I play with my cousin.",
+        "th": "ฉันเล่นกับลูกพี่ลูกน้อง",
+        "fa": "من با پسرعمویم بازی می‌کنم.",
+        "ar": "ألعب مع ابن عمي.",
+        "es": "Juego con mi primo.",
+        "zh": "我和我的表兄弟一起玩。",
+        "ja": "私はイトコと遊びます。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "เล่น", "กับ", "ลูกพี่ลูกน้อง"],
+        "zh": ["我", "和", "我", "的", "表兄弟", "一起", "玩", "。"],
+        "ja": ["私", "は", "イトコ", "と", "遊び", "ます", "。"]
+      }
+    },
+
+    {
+      "id": "h3",
       "header": true,
       "texts": {
-        "en": "Scenario 5: Marital Status & General Inquiries",
-        "th": "สถานการณ์ 5: สถานภาพสมรสและคำถามทั่วไป",
-        "fa": "سناریو ۵: وضعیت تأهل و پرسش‌های عمومی",
-        "ar": "السيناريو 5: الحالة الاجتماعية والاستفسارات العامة",
-        "es": "Escenario 5: Estado civil y preguntas generales",
-        "zh": "场景五：婚姻状况与一般询问",
-        "ja": "シナリオ5：婚姻状況と一般的な質問"
+        "en": "Scenario 3: Family Size",
+        "th": "สถานการณ์ที่ 3: ขนาดของครอบครัว",
+        "fa": "سناریو ۳: اندازه خانواده",
+        "ar": "السيناريو 3: حجم العائلة",
+        "es": "Escenario 3: Tamaño de la familia",
+        "zh": "场景 3：家庭规模",
+        "ja": "シナリオ 3：家族の規模"
       }
     },
     {
-      "id": "sentence_family_married_question",
-      "kind": "sentence",
-      "itemIds": ["word_you", "word_married", "word_question_particle"],
+      "id": "w11",
+      "kind": "Word",
       "texts": {
-        "en": "Are you married?",
-        "th": "คุณแต่งงานแล้วไหม",
-        "fa": "آیا متأهل هستید؟",
-        "ar": "هل أنت متزوج؟",
-        "es": "¿Estás casado?",
-        "zh": "你结婚了吗？",
-        "ja": "結婚していますか？"
+        "en": "big",
+        "th": "ใหญ่",
+        "fa": "بزرگ",
+        "ar": "كبير",
+        "es": "grande",
+        "zh": "大",
+        "ja": "大きい"
+      }
+    },
+    {
+      "id": "w12",
+      "kind": "Word",
+      "texts": {
+        "en": "small",
+        "th": "เล็ก",
+        "fa": "کوچک",
+        "ar": "صغير",
+        "es": "pequeño",
+        "zh": "小",
+        "ja": "小さい"
+      }
+    },
+    {
+      "id": "w13",
+      "kind": "Word",
+      "texts": {
+        "en": "many",
+        "th": "มาก",
+        "fa": "زیاد",
+        "ar": "كثير",
+        "es": "muchos",
+        "zh": "许多",
+        "ja": "多い"
+      }
+    },
+    {
+      "id": "w14",
+      "kind": "Word",
+      "texts": {
+        "en": "few",
+        "th": "น้อย",
+        "fa": "کم",
+        "ar": "قليل",
+        "es": "pocos",
+        "zh": "少",
+        "ja": "少ない"
+      }
+    },
+    {
+      "id": "w15",
+      "kind": "Word",
+      "texts": {
+        "en": "only child",
+        "th": "ลูกคนเดียว",
+        "fa": "تک‌فرزند",
+        "ar": "طفل وحيد",
+        "es": "hijo único",
+        "zh": "独生子女",
+        "ja": "一人っ子"
+      }
+    },
+    {
+      "id": "s11",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I have a big family.",
+        "th": "ฉันมีครอบครัวใหญ่",
+        "fa": "من یک خانواده بزرگ دارم.",
+        "ar": "لدي عائلة كبيرة.",
+        "es": "Tengo una familia grande.",
+        "zh": "我有一个大家庭。",
+        "ja": "私には大家族がいます。"
       },
       "tokens": {
-        "en": ["Are", "you", "married?"],
-        "th": ["คุณ", "แต่งงาน", "แล้ว", "ไหม"],
-        "fa": ["آیا", "متأهل", "هستید؟"],
-        "ar": ["هل", "أنت", "متزوج؟"],
-        "es": ["¿Estás", "casado?"],
-        "zh": ["你", "结婚", "了", "吗？"],
-        "ja": ["結婚", "して", "います", "か？"]
+        "th": ["ฉัน", "มี", "ครอบครัว", "ใหญ่"],
+        "zh": ["我", "有", "一个", "大", "家庭", "。"],
+        "ja": ["私", "に", "は", "大家族", "が", "い", "ます", "。"]
       }
     },
     {
-      "id": "sentence_family_married_yes",
-      "kind": "sentence",
-      "itemIds": ["word_yes", "word_i", "word_married"],
+      "id": "s12",
+      "kind": "Sentence",
       "texts": {
-        "en": "Yes, I am married",
-        "th": "ใช่ ฉันแต่งงานแล้ว",
-        "fa": "بله، من متأهل هستم",
-        "ar": "نعم، أنا متزوج",
-        "es": "Sí, estoy casado",
-        "zh": "是的，我结婚了",
-        "ja": "はい、結婚しています"
+        "en": "We are a small family.",
+        "th": "เราเป็นครอบครัวเล็ก",
+        "fa": "ما یک خانواده کوچک هستیم.",
+        "ar": "نحن عائلة صغيرة.",
+        "es": "Somos una familia pequeña.",
+        "zh": "我们是一个小家庭。",
+        "ja": "私たちは小家族です。"
       },
       "tokens": {
-        "en": ["Yes,", "I", "am", "married"],
-        "th": ["ใช่", "ฉัน", "แต่งงาน", "แล้ว"],
-        "fa": ["بله،", "من", "متأهل", "هستم"],
-        "ar": ["نعم،", "أنا", "متزوج"],
-        "es": ["Sí,", "estoy", "casado"],
-        "zh": ["是的，", "我", "结婚", "了"],
-        "ja": ["はい、", "結婚", "して", "います"]
+        "th": ["เรา", "เป็น", "ครอบครัว", "เล็ก"],
+        "zh": ["我们", "是", "一个", "小", "家庭", "。"],
+        "ja": ["私", "たち", "は", "小家族", "です", "。"]
       }
     },
     {
-      "id": "sentence_family_single_no",
-      "kind": "sentence",
-      "itemIds": ["word_no", "word_i", "word_single"],
+      "id": "s13",
+      "kind": "Sentence",
       "texts": {
-        "en": "No, I am single",
-        "th": "ไม่ ฉันยังโสด",
-        "fa": "نه، من مجرد هستم",
-        "ar": "لا، أنا أعزب",
-        "es": "No, estoy soltero",
-        "zh": "不，我单身",
-        "ja": "いいえ、独身です"
+        "en": "There are many people here.",
+        "th": "มีคนมากมายที่นี่",
+        "fa": "افراد زیادی اینجا هستند.",
+        "ar": "يوجد الكثير من الناس هنا.",
+        "es": "Hay muchas personas aquí.",
+        "zh": "这里有很多人。",
+        "ja": "ここには多くの人がいます。"
       },
       "tokens": {
-        "en": ["No,", "I", "am", "single"],
-        "th": ["ไม่", "ฉัน", "ยัง", "โสด"],
-        "fa": ["نه،", "من", "مجرد", "هستم"],
-        "ar": ["لا،", "أنا", "أعزب"],
-        "es": ["No,", "estoy", "soltero"],
-        "zh": ["不，", "我", "单身"],
-        "ja": ["いいえ、", "独身", "です"]
+        "th": ["มี", "คน", "มากมาย", "ที่", "นี่"],
+        "zh": ["这里", "有", "很多", "人", "。"],
+        "ja": ["ここ", "に", "は", "多く", "の", "人", "が", "い", "ます", "。"]
       }
     },
     {
-      "id": "sentence_family_have_family_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_have",
-        "word_family",
-        "word_question_particle"
-      ],
+      "id": "s14",
+      "kind": "Sentence",
       "texts": {
-        "en": "Do you have a family?",
-        "th": "คุณมีครอบครัวไหม",
-        "fa": "آیا خانواده دارید؟",
-        "ar": "هل لديك عائلة؟",
-        "es": "¿Tienes familia?",
-        "zh": "你有家庭吗？",
-        "ja": "家族はいますか？"
+        "en": "We have few relatives.",
+        "th": "เรามีญาติไม่กี่คน",
+        "fa": "ما اقوام کمی داریم.",
+        "ar": "لدينا أقارب قليلون.",
+        "es": "Tenemos pocos parientes.",
+        "zh": "我们的亲戚很少。",
+        "ja": "私たちの親戚は少ないです。"
       },
       "tokens": {
-        "en": ["Do", "you", "have", "a", "family?"],
-        "th": ["คุณ", "มี", "ครอบครัว", "ไหม"],
-        "fa": ["آیا", "خانواده", "دارید؟"],
-        "ar": ["هل", "لديك", "عائلة؟"],
-        "es": ["¿Tienes", "familia?"],
-        "zh": ["你", "有", "家庭", "吗？"],
-        "ja": ["家族", "は", "います", "か？"]
+        "th": ["เรา", "มี", "ญาติ", "ไม่", "กี่", "คน"],
+        "zh": ["我们", "的", "亲戚", "很", "少", "。"],
+        "ja": ["私", "たち", "の", "親戚", "は", "少ない", "です", "。"]
       }
     },
     {
-      "id": "word_yes",
-      "kind": "word",
+      "id": "s15",
+      "kind": "Sentence",
       "texts": {
-        "en": "yes",
-        "th": "ใช่",
-        "fa": "بله",
-        "ar": "نعم",
-        "es": "sí",
-        "zh": "是",
-        "ja": "はい"
+        "en": "I am an only child.",
+        "th": "ฉันเป็นลูกคนเดียว",
+        "fa": "من تک‌فرزند هستم.",
+        "ar": "أنا طفل وحيد.",
+        "es": "Soy hijo único.",
+        "zh": "我是独生子女。",
+        "ja": "私は一人っ子です。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "เป็น", "ลูก", "คนเดียว"],
+        "zh": ["我", "是", "独生", "子女", "。"],
+        "ja": ["私", "は", "一人っ子", "です", "。"]
       }
     },
+
     {
-      "id": "word_no",
-      "kind": "word",
+      "id": "h4",
+      "header": true,
       "texts": {
-        "en": "no / not",
-        "th": "ไม่",
-        "fa": "نه / نمی",
-        "ar": "لا / ليس",
-        "es": "no",
-        "zh": "不",
-        "ja": "いいえ / 〜ない"
+        "en": "Scenario 4: Marital Status",
+        "th": "สถานการณ์ที่ 4: สถานภาพสมรส",
+        "fa": "سناریو ۴: وضعیت تأهل",
+        "ar": "السيناريو 4: الحالة الاجتماعية",
+        "es": "Escenario 4: Estado civil",
+        "zh": "场景 4：婚姻状况",
+        "ja": "シナリオ 4：婚姻状態"
       }
     },
     {
-      "id": "word_married",
-      "kind": "word",
+      "id": "w16",
+      "kind": "Word",
       "texts": {
         "en": "married",
         "th": "แต่งงานแล้ว",
@@ -992,8 +572,8 @@
       }
     },
     {
-      "id": "word_single",
-      "kind": "word",
+      "id": "w17",
+      "kind": "Word",
       "texts": {
         "en": "single",
         "th": "โสด",
@@ -1005,234 +585,323 @@
       }
     },
     {
-      "id": "header_scenario6",
-      "header": true,
+      "id": "w18",
+      "kind": "Word",
       "texts": {
-        "en": "Scenario 6: Ages & Residences",
-        "th": "สถานการณ์ 6: อายุและที่อยู่",
-        "fa": "سناریو ۶: سن و محل سکونت",
-        "ar": "السيناريو 6: الأعمار وأماكن الإقامة",
-        "es": "Escenario 6: Edades y residencias",
-        "zh": "场景六：年龄与居住地",
-        "ja": "シナリオ6：年齢と居住地"
+        "en": "husband",
+        "th": "สามี",
+        "fa": "شوهر",
+        "ar": "زوج",
+        "es": "marido",
+        "zh": "丈夫",
+        "ja": "夫"
       }
     },
     {
-      "id": "sentence_family_father_age_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_father",
-        "word_of",
-        "word_you",
-        "word_how_old",
-        "word_question_particle"
-      ],
+      "id": "w19",
+      "kind": "Word",
       "texts": {
-        "en": "How old is your father?",
-        "th": "พ่อของคุณอายุเท่าไหร่",
-        "fa": "پدر شما چند سال دارد؟",
-        "ar": "كم عمر والدك؟",
-        "es": "¿Cuántos años tiene tu padre?",
-        "zh": "你的父亲多大年纪？",
-        "ja": "あなたのお父さんは何歳ですか？"
-      },
-      "tokens": {
-        "en": ["How", "old", "is", "your", "father?"],
-        "th": ["พ่อ", "ของ", "คุณ", "อายุ", "เท่าไหร่"],
-        "fa": ["پدر", "شما", "چند", "سال", "دارد؟"],
-        "ar": ["كم", "عمر", "والدك؟"],
-        "es": ["¿Cuántos", "años", "tiene", "tu", "padre?"],
-        "zh": ["你", "的", "父亲", "多大", "年纪？"],
-        "ja": ["あなた", "の", "お父さん", "は", "何歳", "です", "か？"]
+        "en": "wife",
+        "th": "ภรรยา",
+        "fa": "همسر",
+        "ar": "زوجة",
+        "es": "esposa",
+        "zh": "妻子",
+        "ja": "妻"
       }
     },
     {
-      "id": "sentence_family_mother_age",
-      "kind": "sentence",
-      "itemIds": [
-        "word_mother",
-        "word_of",
-        "word_i",
-        "word_fifty",
-        "word_year"
-      ],
+      "id": "w20",
+      "kind": "Word",
       "texts": {
-        "en": "My mother is fifty years old",
-        "th": "แม่ของฉันอายุห้าสิบปี",
-        "fa": "مادر من پنجاه سال دارد",
-        "ar": "أمي عمرها خمسون سنة",
-        "es": "Mi madre tiene cincuenta años",
-        "zh": "我的母亲五十岁",
-        "ja": "私の母は五十歳です"
-      },
-      "tokens": {
-        "en": ["My", "mother", "is", "fifty", "years", "old"],
-        "th": ["แม่", "ของ", "ฉัน", "อายุ", "ห้าสิบ", "ปี"],
-        "fa": ["مادر", "من", "پنجاه", "سال", "دارد"],
-        "ar": ["أمي", "عمرها", "خمسون", "سنة"],
-        "es": ["Mi", "madre", "tiene", "cincuenta", "años"],
-        "zh": ["我", "的", "母亲", "五十", "岁"],
-        "ja": ["私", "の", "母", "は", "五十", "歳", "です"]
+        "en": "children",
+        "th": "ลูกๆ",
+        "fa": "کودکان",
+        "ar": "أطفال",
+        "es": "niños",
+        "zh": "孩子们",
+        "ja": "子供たち"
       }
     },
     {
-      "id": "sentence_family_parents_live_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_parents",
-        "word_of",
-        "word_you",
-        "word_live",
-        "word_where",
-        "word_question_particle"
-      ],
+      "id": "s16",
+      "kind": "Sentence",
       "texts": {
-        "en": "Where do your parents live?",
-        "th": "พ่อแม่ของคุณอยู่ที่ไหน",
-        "fa": "والدین شما کجا زندگی می‌کنند؟",
-        "ar": "أين يعيش والداك؟",
-        "es": "¿Dónde viven tus padres?",
-        "zh": "你的父母住在哪里？",
-        "ja": "あなたの両親はどこに住んでいますか？"
+        "en": "He is married.",
+        "th": "เขาแต่งงานแล้ว",
+        "fa": "او متأهل است.",
+        "ar": "إنه متزوج.",
+        "es": "Él está casado.",
+        "zh": "他已婚。",
+        "ja": "彼は既婚です。"
       },
       "tokens": {
-        "en": ["Where", "do", "your", "parents", "live?"],
-        "th": ["พ่อแม่", "ของ", "คุณ", "อยู่", "ที่ไหน"],
-        "fa": ["والدین", "شما", "کجا", "زندگی", "می‌کنند؟"],
-        "ar": ["أين", "يعيش", "والداك؟"],
-        "es": ["¿Dónde", "viven", "tus", "padres?"],
-        "zh": ["你", "的", "父母", "住", "在", "哪里？"],
+        "th": ["เขา", "แต่งงาน", "แล้ว"],
+        "zh": ["他", "已婚", "。"],
+        "ja": ["彼", "は", "既婚", "です", "。"]
+      }
+    },
+    {
+      "id": "s17",
+      "kind": "Sentence",
+      "texts": {
+        "en": "She is single.",
+        "th": "เธอยังโสด",
+        "fa": "او مجرد است.",
+        "ar": "هي عزباء.",
+        "es": "Ella es soltera.",
+        "zh": "她单身。",
+        "ja": "彼女は独身です。"
+      },
+      "tokens": {
+        "th": ["เธอ", "ยัง", "โสด"],
+        "zh": ["她", "单身", "。"],
+        "ja": ["彼女", "は", "独身", "です", "。"]
+      }
+    },
+    {
+      "id": "s18",
+      "kind": "Sentence",
+      "texts": {
+        "en": "This is my husband.",
+        "th": "นี่คือสามีของฉัน",
+        "fa": "این شوهر من است.",
+        "ar": "هذا زوجي.",
+        "es": "Este es mi marido.",
+        "zh": "这是我的丈夫。",
+        "ja": "これは私の夫です。"
+      },
+      "tokens": {
+        "th": ["นี่", "คือ", "สามี", "ของ", "ฉัน"],
+        "zh": ["这", "是", "我", "的", "丈夫", "。"],
+        "ja": ["これ", "は", "私", "の", "夫", "です", "。"]
+      }
+    },
+    {
+      "id": "s19",
+      "kind": "Sentence",
+      "texts": {
+        "en": "This is my wife.",
+        "th": "นี่คือภรรยาของฉัน",
+        "fa": "این همسر من است.",
+        "ar": "هذه زوجتي.",
+        "es": "Esta es mi esposa.",
+        "zh": "这是我的妻子。",
+        "ja": "これは私の妻です。"
+      },
+      "tokens": {
+        "th": ["นี่", "คือ", "ภรรยา", "ของ", "ฉัน"],
+        "zh": ["这", "是", "我", "的", "妻子", "。"],
+        "ja": ["これ", "は", "私", "の", "妻", "です", "。"]
+      }
+    },
+    {
+      "id": "s20",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We have two children.",
+        "th": "เรามีลูกสองคน",
+        "fa": "ما دو کودک داریم.",
+        "ar": "لدينا طفلان.",
+        "es": "Tenemos dos niños.",
+        "zh": "我们有两个孩子。",
+        "ja": "私たちには子供が二人います。"
+      },
+      "tokens": {
+        "th": ["เรา", "มี", "ลูก", "สอง", "คน"],
+        "zh": ["我们", "有", "两个", "孩子", "。"],
         "ja": [
-          "あなた",
-          "の",
-          "両親",
-          "は",
-          "どこ",
+          "私",
+          "たち",
           "に",
-          "住んで",
-          "います",
-          "か？"
+          "は",
+          "子供",
+          "が",
+          "二人",
+          "い",
+          "ます",
+          "。"
         ]
       }
     },
+
     {
-      "id": "sentence_family_live_bangkok",
-      "kind": "sentence",
-      "itemIds": [
-        "word_parents",
-        "word_of",
-        "word_i",
-        "word_live",
-        "word_bangkok"
-      ],
+      "id": "h5",
+      "header": true,
       "texts": {
-        "en": "My parents live in Bangkok",
-        "th": "พ่อแม่ของฉันอยู่กรุงเทพฯ",
-        "fa": "والدین من در بانکوک زندگی می‌کنند",
-        "ar": "والداي يعيشان في بانكوك",
-        "es": "Mis padres viven en Bangkok",
-        "zh": "我的父母住在曼谷",
-        "ja": "私の両親はバンコクに住んでいます"
-      },
-      "tokens": {
-        "en": ["My", "parents", "live", "in", "Bangkok"],
-        "th": ["พ่อแม่", "ของ", "ฉัน", "อยู่", "กรุงเทพฯ"],
-        "fa": ["والدین", "من", "در", "بانکوک", "زندگی", "می‌کنند"],
-        "ar": ["والداي", "يعيشان", "في", "بانكوك"],
-        "es": ["Mis", "padres", "viven", "en", "Bangkok"],
-        "zh": ["我", "的", "父母", "住", "在", "曼谷"],
-        "ja": ["私", "の", "両親", "は", "バンコク", "に", "住んで", "います"]
+        "en": "Scenario 5: Ages & Living",
+        "th": "สถานการณ์ที่ 5: อายุและการอยู่อาศัย",
+        "fa": "سناریو ۵: سن و زندگی",
+        "ar": "السيناريو 5: الأعمار والمعيشة",
+        "es": "Escenario 5: Edades y vivienda",
+        "zh": "场景 5：年龄与居住",
+        "ja": "シナリオ 5：年齢と居住"
       }
     },
     {
-      "id": "word_how_old",
-      "kind": "word",
+      "id": "w21",
+      "kind": "Word",
       "texts": {
-        "en": "how old",
-        "th": "อายุเท่าไหร่",
-        "fa": "چند سال",
-        "ar": "كم العمر",
-        "es": "cuántos años",
-        "zh": "多大",
-        "ja": "何歳"
+        "en": "old",
+        "th": "แก่",
+        "fa": "پیر",
+        "ar": "عجوز",
+        "es": "viejo",
+        "zh": "老",
+        "ja": "年配"
       }
     },
     {
-      "id": "word_live",
-      "kind": "word",
+      "id": "w22",
+      "kind": "Word",
       "texts": {
-        "en": "live/reside",
-        "th": "อยู่",
-        "fa": "زندگی کردن",
-        "ar": "يعيش",
-        "es": "vivir",
-        "zh": "住",
-        "ja": "住む"
+        "en": "young",
+        "th": "เด็ก/หนุ่มสาว",
+        "fa": "جوان",
+        "ar": "شاب",
+        "es": "joven",
+        "zh": "年轻",
+        "ja": "若い"
       }
     },
     {
-      "id": "word_where",
-      "kind": "word",
+      "id": "w23",
+      "kind": "Word",
       "texts": {
-        "en": "where",
-        "th": "ที่ไหน",
-        "fa": "کجا",
-        "ar": "أين",
-        "es": "dónde",
-        "zh": "哪里",
-        "ja": "どこ"
-      }
-    },
-    {
-      "id": "word_year",
-      "kind": "word",
-      "texts": {
-        "en": "year (age counter)",
+        "en": "years",
         "th": "ปี",
         "fa": "سال",
-        "ar": "سنة",
+        "ar": "سنوات",
         "es": "años",
         "zh": "岁",
         "ja": "歳"
       }
     },
     {
-      "id": "word_fifty",
-      "kind": "word",
+      "id": "w24",
+      "kind": "Word",
       "texts": {
-        "en": "fifty",
-        "th": "ห้าสิบ",
-        "fa": "پنجاه",
-        "ar": "خمسون",
-        "es": "cincuenta",
-        "zh": "五十",
-        "ja": "五十"
+        "en": "live",
+        "th": "อาศัย",
+        "fa": "زندگی",
+        "ar": "يعيش",
+        "es": "vivir",
+        "zh": "居住",
+        "ja": "住む"
       }
     },
     {
-      "id": "word_bangkok",
-      "kind": "word",
+      "id": "w25",
+      "kind": "Word",
       "texts": {
-        "en": "Bangkok",
-        "th": "กรุงเทพฯ",
-        "fa": "بانکوک",
-        "ar": "بانكوك",
-        "es": "Bangkok",
-        "zh": "曼谷",
-        "ja": "バンコク"
+        "en": "together",
+        "th": "ด้วยกัน",
+        "fa": "با هم",
+        "ar": "معاً",
+        "es": "juntos",
+        "zh": "一起",
+        "ja": "一緒に"
       }
     },
     {
-      "id": "word_parents",
-      "kind": "word",
+      "id": "s21",
+      "kind": "Sentence",
       "texts": {
-        "en": "parents",
-        "th": "พ่อแม่",
-        "fa": "والدین",
-        "ar": "الوالدان",
-        "es": "padres",
-        "zh": "父母",
-        "ja": "両親"
+        "en": "My father is fifty years old.",
+        "th": "พ่อของฉันอายุห้าสิบปี",
+        "fa": "پدر من پنجاه ساله است.",
+        "ar": "أبي يبلغ من العمر خمسين عاماً.",
+        "es": "Mi padre tiene cincuenta años.",
+        "zh": "我的父亲五十岁。",
+        "ja": "私の父は50歳です。"
+      },
+      "tokens": {
+        "th": ["พ่อ", "ของ", "ฉัน", "อายุ", "ห้าสิบ", "ปี"],
+        "zh": ["我", "的", "父亲", "五十", "岁", "。"],
+        "ja": ["私", "の", "父", "は", "50", "歳", "です", "。"]
+      }
+    },
+    {
+      "id": "s22",
+      "kind": "Sentence",
+      "texts": {
+        "en": "My sister is very young.",
+        "th": "พี่สาวหรือน้องสาวของฉันยังเด็กมาก",
+        "fa": "خواهر من خیلی جوان است.",
+        "ar": "أختي صغيرة جداً.",
+        "es": "Mi hermana es muy joven.",
+        "zh": "我的姐妹很年轻。",
+        "ja": "私の姉妹はとても若いです。"
+      },
+      "tokens": {
+        "th": ["พี่สาว", "หรือ", "น้องสาว", "ของ", "ฉัน", "ยัง", "เด็ก", "มาก"],
+        "zh": ["我", "的", "姐妹", "很", "年轻", "。"],
+        "ja": ["私", "の", "姉妹", "は", "とても", "若い", "です", "。"]
+      }
+    },
+    {
+      "id": "s23",
+      "kind": "Sentence",
+      "texts": {
+        "en": "How old are you?",
+        "th": "คุณอายุเท่าไหร่",
+        "fa": "چند سال دارید؟",
+        "ar": "كم عمرك؟",
+        "es": "¿Cuántos años tienes?",
+        "zh": "你多大了？",
+        "ja": "あなたは何歳ですか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "อายุ", "เท่าไหร่"],
+        "zh": ["你", "多大", "了", "？"],
+        "ja": ["あなた", "は", "何", "歳", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s24",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We live in the city.",
+        "th": "เราอาศัยอยู่ในเมือง",
+        "fa": "ما در شهر زندگی می‌کنیم.",
+        "ar": "نعيش في المدينة.",
+        "es": "Vivimos en la ciudad.",
+        "zh": "我们住在城市里。",
+        "ja": "私たちは都市に住んでいます。"
+      },
+      "tokens": {
+        "th": ["เรา", "อาศัย", "อยู่", "ใน", "เมือง"],
+        "zh": ["我们", "住", "在", "城市", "里", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "都市",
+          "に",
+          "住ん",
+          "で",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s25",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We live together.",
+        "th": "เราอาศัยอยู่ด้วยกัน",
+        "fa": "ما با هم زندگی می‌کنیم.",
+        "ar": "نعيش معاً.",
+        "es": "Vivimos juntos.",
+        "zh": "我们住在一起。",
+        "ja": "私たちは一緒に住んでいます。"
+      },
+      "tokens": {
+        "th": ["เรา", "อาศัย", "อยู่", "ด้วยกัน"],
+        "zh": ["我们", "住", "在", "一起", "。"],
+        "ja": ["私", "たち", "は", "一緒に", "住ん", "で", "い", "ます", "。"]
       }
     }
   ]
