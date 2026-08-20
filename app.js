@@ -1071,6 +1071,15 @@
       zh: "得分",
       ja: "スコア",
     },
+    examples: {
+      en: "Examples",
+      th: "ตัวอย่าง",
+      fa: "مثال‌ها",
+      ar: "أمثلة",
+      es: "Ejemplos",
+      zh: "示例",
+      ja: "例",
+    },
     quizRestart: {
       en: "Restart quiz",
       th: "เริ่มแบบทดสอบใหม่",
@@ -1689,6 +1698,7 @@
   let openHelpSections = new Set(["help:first-visit"]);
   let flashcardSession = null;
   let quizSession = null;
+  let nextUpPreviewId = null;
   let quizSessionSeed = "quiz:default";
   let flashcardConfig = { promptLanguage: "", revealLanguages: [] };
   let flashcardKind = "word";
@@ -2536,6 +2546,7 @@
     const previousTarget = state.settings.targetLanguage;
 
     state.settings.targetLanguage = code;
+    nextUpPreviewId = null; // v3.1 Stage 2: Reset card preview when target language changes
 
     // Reset lesson languages to [target, bridge]
     const browserLang = (navigator.language || "").toLowerCase().split("-")[0];
@@ -2600,16 +2611,17 @@
       renderSettings();
     renderCurrent();
   }
+
   function selectedLessonLanguages() {
-    if (!currentLesson?.meta) return state.lessonLanguages;
-    // v3 Architecture: Use 'translations' for data constraints (available columns).
-    const available =
-      currentLesson.meta.translations || currentLesson.meta.languages || [];
+    if (!currentLesson?.meta?.translations) return state.lessonLanguages;
+    // v3.1 Architecture: Use 'translations' for data constraints (available columns).
+    const available = currentLesson.meta.translations || [];
     if (!available.length) return state.lessonLanguages;
     return state.lessonLanguages.filter(
       (code) => available.includes(code) && registry.has(code),
     );
   }
+
   function setLessonLanguageEnabled(code, enabled) {
     if (!registry.has(code)) return;
     const set = new Set(state.lessonLanguages);
@@ -3121,18 +3133,75 @@
     const progress = studyPlanService ? studyPlanService.getProgress() : {};
     const { tiers } = groupCategoriesByProficiency();
     const tierOrder = ["introductory", "intermediate", "advanced"];
+
     for (const tierKey of tierOrder) {
       const tier = tiers[tierKey];
       if (!tier) continue;
+
       for (const category of tier.thematic) {
         for (const lesson of category.lessons || []) {
           const status = progress[lesson.id];
-          if (status !== "complete" && status !== "skipped") return lesson;
+          if (status !== "complete" && status !== "skipped") {
+            return lesson;
+          }
         }
       }
     }
+
     return null;
   }
+
+  // v3.1 Stage 2: Determines the linear context (prev/next) for a given lesson.
+  function getNavigationContext(lessonId) {
+    // 1. Try Study Plan first
+    if (studyPlanService && studyPlanService.hasPlan()) {
+      const plan = studyPlanService.getPlan();
+      const idx = plan.indexOf(lessonId);
+      if (idx !== -1) {
+        return {
+          list: plan,
+          index: idx,
+          prevId: idx > 0 ? plan[idx - 1] : null,
+          nextId: idx < plan.length - 1 ? plan[idx + 1] : null,
+        };
+      }
+    }
+
+    // 2. Fallback to Categories
+    for (const cat of manifest.categories || []) {
+      const lessons = (cat.lessons || []).filter(lessonBelongsToActiveTarget);
+      const idx = lessons.findIndex((l) => l.id === lessonId);
+      if (idx !== -1) {
+        return {
+          list: lessons.map((l) => l.id),
+          index: idx,
+          prevId: idx > 0 ? lessons[idx - 1].id : null,
+          nextId: idx < lessons.length - 1 ? lessons[idx + 1].id : null,
+        };
+      }
+    }
+
+    // 3. Fallback to Topics/Books
+    for (const topic of manifest.topics || []) {
+      for (const book of topic.books || []) {
+        const lessons = (book.lessons || []).filter(
+          lessonBelongsToActiveTarget,
+        );
+        const idx = lessons.findIndex((l) => l.id === lessonId);
+        if (idx !== -1) {
+          return {
+            list: lessons.map((l) => l.id),
+            index: idx,
+            prevId: idx > 0 ? lessons[idx - 1].id : null,
+            nextId: idx < lessons.length - 1 ? lessons[idx + 1].id : null,
+          };
+        }
+      }
+    }
+
+    return { list: [lessonId], index: 0, prevId: null, nextId: null };
+  }
+
   function getTierLabelForLesson(lesson) {
     const prof = lesson.proficiency || "beginner";
     if (prof === "beginner") return t("tierIntroductory");
@@ -3272,49 +3341,107 @@
     section.appendChild(body);
     return section;
   }
+
   function renderNextUpCard() {
-    if (!studyPlanService) return null;
-    let nextLessonId = null;
-    if (studyPlanService.hasPlan())
-      nextLessonId = studyPlanService.getNextLesson();
-    else {
-      const nextLesson = getNextBrowseLesson();
-      if (nextLesson) nextLessonId = nextLesson.id;
+    // 1. Determine the lesson to preview
+    let previewId = nextUpPreviewId;
+    if (!previewId) {
+      if (studyPlanService && studyPlanService.hasPlan()) {
+        previewId = studyPlanService.getNextLesson();
+      } else {
+        const nextLesson = getNextBrowseLesson();
+        if (nextLesson) previewId = nextLesson.id;
+      }
     }
-    if (!nextLessonId) return null;
-    const meta = findLessonMeta(nextLessonId);
+    if (!previewId) return null;
+
+    const meta = findLessonMeta(previewId);
     if (!meta) return null;
+
+    const context = getNavigationContext(previewId);
+
+    // 2. Build DOM
     const card = document.createElement("div");
     card.className = "next-up-card";
-    const label = document.createElement("span");
-    label.className = "next-up-card__label";
-    label.textContent = t("nextUp");
-    const title = document.createElement("span");
+
+    // Row 1: Title (h3)
+    const title = document.createElement("h3");
     title.className = "next-up-card__title";
     title.textContent =
       dataService.getLocalizedText(meta.title, preferredAppLanguages()) ||
       meta.id;
-    const tierBadge = document.createElement("span");
-    tierBadge.className = "next-up-card__tier";
-    tierBadge.textContent = getTierLabelForLesson(meta);
-    const actions = document.createElement("div");
-    actions.className = "next-up-card__actions";
-    const continueBtn = document.createElement("button");
-    continueBtn.type = "button";
-    continueBtn.className = "button";
-    continueBtn.dataset.action = "next-up-continue";
-    continueBtn.dataset.lessonId = nextLessonId;
-    continueBtn.textContent = t("open");
-    const skipBtn = document.createElement("button");
-    skipBtn.type = "button";
-    skipBtn.className = "button";
-    skipBtn.dataset.action = "next-up-skip";
-    skipBtn.dataset.lessonId = nextLessonId;
-    skipBtn.textContent = t("skipLesson");
-    actions.append(continueBtn, skipBtn);
-    card.append(label, title, tierBadge, actions);
+    card.appendChild(title);
+
+    // Row 2: Meta (Level + Grammar Badges)
+    const metaRow = document.createElement("div");
+    metaRow.className = "next-up-card__meta";
+
+    const prof = meta.proficiency || "beginner";
+    let tierIcon = TIER_ICONS.introductory;
+    if (prof === "intermediate") tierIcon = TIER_ICONS.intermediate;
+    else if (prof === "advanced") tierIcon = TIER_ICONS.advanced;
+
+    const levelSpan = document.createElement("span");
+    levelSpan.className = "next-up-card__level";
+    levelSpan.textContent = `${tierIcon} ${getTierLabelForLesson(meta)}`;
+    metaRow.appendChild(levelSpan);
+
+    if (Array.isArray(meta.rules) && meta.rules.length > 0) {
+      meta.rules.forEach((ruleId) => {
+        const rule = (manifest.grammar_rules || []).find(
+          (r) => r.id === ruleId,
+        );
+        if (!rule) return;
+        const badge = document.createElement("button");
+        badge.type = "button";
+        badge.className = "grammar-badge";
+        badge.dataset.action = "open-grammar-rule";
+        badge.dataset.ruleId = ruleId;
+        badge.textContent = `🧩 ${dataService.getLocalizedText(rule.title, preferredAppLanguages()) || ruleId}`;
+        metaRow.appendChild(badge);
+      });
+    }
+    card.appendChild(metaRow);
+
+    // Row 3: Navigation (Prev, Progress, Next) + Open Button
+    const navRow = document.createElement("div");
+    navRow.className = "next-up-card__nav";
+
+    const prevBtn = document.createElement("button");
+    prevBtn.type = "button";
+    prevBtn.className = "button";
+    prevBtn.dataset.action = "next-up-preview-prev";
+    prevBtn.textContent = "◀";
+    prevBtn.disabled = !context.prevId;
+    navRow.appendChild(prevBtn);
+
+    const progress = document.createElement("span");
+    progress.className = "next-up-card__progress";
+    progress.textContent = `${context.index + 1} / ${context.list.length}`;
+    navRow.appendChild(progress);
+
+    const nextBtn = document.createElement("button");
+    nextBtn.type = "button";
+    nextBtn.className = "button";
+    nextBtn.dataset.action = "next-up-preview-next";
+    nextBtn.textContent = "▶";
+    nextBtn.disabled = !context.nextId;
+    navRow.appendChild(nextBtn);
+
+    // Open Button (pushed to the right via CSS margin-inline-start: auto)
+    const openBtn = document.createElement("button");
+    openBtn.type = "button";
+    openBtn.className = "button next-up-card__open";
+    openBtn.dataset.action = "next-up-continue";
+    openBtn.dataset.lessonId = previewId;
+    openBtn.textContent = t("open");
+    navRow.appendChild(openBtn);
+
+    card.appendChild(navRow);
+
     return card;
   }
+
   function handleNextUpSkip(lessonId) {
     if (!studyPlanService) return;
     studyPlanService.markLesson(lessonId, "skipped");
@@ -3529,8 +3656,8 @@
   function lessonBelongsToActiveTarget(lesson) {
     const target = state?.settings?.targetLanguage;
     if (!target) return false;
-    // v3 Architecture: Use 'targets' for pedagogical routing.
-    const targets = lesson.targets || lesson.languages || [];
+    // v3.1 Architecture: Use 'targets' for pedagogical routing.
+    const targets = lesson.targets || [];
     if (!targets.length) return true;
     return targets.includes(target);
   }
@@ -3806,13 +3933,12 @@
     }
     return null;
   }
+
   async function loadLessonFile(path) {
-    const resolvedPath = path.replace(
-      /\{lang\}/g,
-      state.settings.targetLanguage || "th",
-    );
+    // v3.1: path is now static and absolute. No {lang} replacement needed.
     try {
-      const response = await fetch(resolvedPath, { cache: "no-cache" });
+      const response = await fetch(path, { cache: "no-cache" });
+
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       return await response.json();
     } catch (error) {
@@ -4276,16 +4402,99 @@
     renderSettings();
     elements.settingsSheet.hidden = false;
   }
+
   function closeSettings() {
     elements.settingsSheet.hidden = true;
   }
+
+  // v3.1 Stage 2: Grammar Rule Overlay
+  function openGrammarOverlay(ruleId) {
+    const rule = (manifest.grammar_rules || []).find((r) => r.id === ruleId);
+    if (!rule) return;
+
+    const sheet = document.createElement("div");
+    sheet.className = "sheet";
+    sheet.id = "grammar-overlay";
+
+    const backdrop = document.createElement("div");
+    backdrop.className = "sheet__backdrop";
+    backdrop.dataset.action = "close-grammar-overlay";
+    sheet.appendChild(backdrop);
+
+    const panel = document.createElement("div");
+    panel.className = "sheet__panel";
+
+    const header = document.createElement("div");
+    header.className = "sheet__header";
+    const title = document.createElement("h3");
+    title.className = "sheet__title";
+    title.textContent = `🧩 ${dataService.getLocalizedText(rule.title, preferredAppLanguages()) || rule.id}`;
+    const closeBtn = document.createElement("button");
+    closeBtn.type = "button";
+    closeBtn.className = "icon-button";
+    closeBtn.dataset.action = "close-grammar-overlay";
+    closeBtn.textContent = "✕";
+    closeBtn.setAttribute("aria-label", t("back"));
+    header.append(title, closeBtn);
+    panel.appendChild(header);
+
+    const body = document.createElement("div");
+    body.className = "sheet__body";
+
+    // Description
+    const descText = dataService.getLocalizedText(
+      rule.description,
+      preferredAppLanguages(),
+    );
+    if (descText) {
+      const descP = document.createElement("p");
+      descP.className = "grammar-overlay__description";
+      descP.textContent = descText;
+      body.appendChild(descP);
+    }
+
+    // Examples
+    if (Array.isArray(rule.examples) && rule.examples.length > 0) {
+      const exTitle = document.createElement("h4");
+      exTitle.className = "sheet-section__title";
+      exTitle.textContent = t("examples");
+      body.appendChild(exTitle);
+
+      const exList = document.createElement("ul");
+      exList.className = "grammar-overlay__examples";
+      rule.examples.forEach((ex) => {
+        const li = document.createElement("li");
+        li.className = "grammar-overlay__example";
+        // Handle both string examples and object examples {target, bridge}
+        const text =
+          typeof ex === "string"
+            ? ex
+            : ex.target || ex.en || JSON.stringify(ex);
+        li.textContent = text;
+        exList.appendChild(li);
+      });
+      body.appendChild(exList);
+    }
+
+    panel.appendChild(body);
+    sheet.appendChild(panel);
+    document.body.appendChild(sheet);
+  }
+
+  function closeGrammarOverlay() {
+    const sheet = document.getElementById("grammar-overlay");
+    if (sheet) sheet.remove();
+  }
+
   function renderSettings() {
     const body = elements.settingsBody;
     body.innerHTML = "";
+
     const lessonLangs =
-      currentLesson?.meta?.translations ||
-      currentLesson?.meta?.languages ||
-      registry.allCodes();
+      currentLesson?.meta?.translations || registry.allCodes();
+
+    des();
+
     body.appendChild(renderSettingsLanguagesSection(lessonLangs));
     body.appendChild(renderRepeatSection());
     body.appendChild(renderSpeedSection());
@@ -6163,12 +6372,50 @@
         case "retry-lesson":
           if (currentLesson) openLesson(currentLesson.meta.id);
           break;
+
         case "next-up-continue":
+          nextUpPreviewId = null; // Reset preview state when actually opening
           openLesson(actionEl.dataset.lessonId);
           break;
+
         case "next-up-skip":
           handleNextUpSkip(actionEl.dataset.lessonId);
           break;
+        case "open-grammar-rule":
+          openGrammarOverlay(actionEl.dataset.ruleId);
+          break;
+        case "close-grammar-overlay":
+          closeGrammarOverlay();
+          break;
+        case "next-up-preview-prev": {
+          const currentPreview =
+            nextUpPreviewId ||
+            studyPlanService?.getNextLesson() ||
+            getNextBrowseLesson()?.id;
+          if (currentPreview) {
+            const ctx = getNavigationContext(currentPreview);
+            if (ctx.prevId) {
+              nextUpPreviewId = ctx.prevId;
+              renderHome();
+            }
+          }
+          break;
+        }
+        case "next-up-preview-next": {
+          const currentPreviewNext =
+            nextUpPreviewId ||
+            studyPlanService?.getNextLesson() ||
+            getNextBrowseLesson()?.id;
+          if (currentPreviewNext) {
+            const ctx = getNavigationContext(currentPreviewNext);
+            if (ctx.nextId) {
+              nextUpPreviewId = ctx.nextId;
+              renderHome();
+            }
+          }
+          break;
+        }
+
         case "edit-plan":
           handleEditPlan();
           break;

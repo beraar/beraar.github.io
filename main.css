@@ -1567,3 +1567,74 @@ base characters and connection indicators.
   padding-block-start: 0.35rem;
   width: 100%;
 }
+
+/* ------------------------------------------------------------
+v3.1 Stage 2: Enhanced Next Up Card & Grammar Overlay
+------------------------------------------------------------ */
+
+/* Compact Next Up Card (Mobile-First) */
+.next-up-card {
+  padding: var(--space-3); /* Reduced padding */
+}
+
+.next-up-card__title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  unicode-bidi: isolate;
+}
+
+.next-up-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.next-up-card__level {
+  font-weight: 500;
+}
+
+.next-up-card__nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-block-start: var(--space-1);
+  padding-block-start: var(--space-2);
+  border-block-start: 1px dashed var(--line);
+}
+
+.next-up-card__progress {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.next-up-card__open {
+  margin-inline-start: auto; /* Pushes the Open button to the far right */
+  background: var(--accent);
+  color: var(--accent-contrast);
+  border-color: var(--accent);
+  font-weight: 600;
+}
+
+.grammar-overlay__description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 0 var(--space-4) 0;
+}
+
+.grammar-overlay__examples {
+  margin: 0;
+  padding-inline-start: 1.2rem;
+  display: grid;
+  gap: var(--space-2);
+}
+
+.grammar-overlay__example {
+  font-style: italic;
+  color: var(--muted);
+  unicode-bidi: isolate;
+}

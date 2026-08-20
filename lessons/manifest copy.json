@@ -149,24 +149,8 @@
             "ja": "食べ物の基本"
           },
           "file": "lessons/test.json",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -196,22 +180,11 @@
           "file": "lessons/grammar/g01-svo-basic.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
+          "translations": [],
           "targets": [
             "en",
             "es",
             "ar"
-          ],
-          "rules": [
-            "rule_g01"
           ]
         },
         {
@@ -228,20 +201,9 @@
           "file": "lessons/grammar/g02-politeness-particles.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
+          "translations": [],
           "targets": [
             "th"
-          ],
-          "rules": [
-            "rule_g02"
           ]
         },
         {
@@ -258,27 +220,8 @@
           "file": "lessons/grammar/g03-yes-no-questions.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "rules": [
-            "rule_g03"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_g05",
@@ -294,27 +237,8 @@
           "file": "lessons/grammar/g05-wh-questions.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "rules": [
-            "rule_g05"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_g06",
@@ -330,27 +254,8 @@
           "file": "lessons/grammar/g06-descriptive.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "rules": [
-            "rule_g06"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_g07",
@@ -366,27 +271,8 @@
           "file": "lessons/grammar/g07-possession.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "rules": [
-            "rule_g07"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_g09",
@@ -402,20 +288,9 @@
           "file": "lessons/grammar/g09-classifiers.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
+          "translations": [],
           "targets": [
             "th"
-          ],
-          "rules": [
-            "rule_g09"
           ]
         },
         {
@@ -432,27 +307,8 @@
           "file": "lessons/grammar/g22-requests-imperatives.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "rules": [
-            "rule_g22"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -482,27 +338,8 @@
           "file": "lessons/grammar/g08-tense-aspect.json",
           "level": 3,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "rules": [
-            "rule_g08"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_g10",
@@ -518,27 +355,8 @@
           "file": "lessons/grammar/g10-topic-comment.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "rules": [
-            "rule_g10"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_g11",
@@ -554,27 +372,8 @@
           "file": "lessons/grammar/g11-serial-verbs.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "rules": [
-            "rule_g11"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_g12",
@@ -590,27 +389,8 @@
           "file": "lessons/grammar/g12-comparatives.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "rules": [
-            "rule_g12"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_g16",
@@ -626,27 +406,8 @@
           "file": "lessons/grammar/g16-conditionals.json",
           "level": 6,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "rules": [
-            "rule_g16"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_g17",
@@ -662,27 +423,8 @@
           "file": "lessons/grammar/g17-ability.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "rules": [
-            "rule_g17"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_g19",
@@ -698,27 +440,8 @@
           "file": "lessons/grammar/g19-conjunctions.json",
           "level": 5,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "rules": [
-            "rule_g19"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_g20",
@@ -734,27 +457,8 @@
           "file": "lessons/grammar/g20-reported-speech.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "rules": [
-            "rule_g20"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -784,20 +488,9 @@
           "file": "lessons/grammar/g21-emphasis-particles.json",
           "level": 7,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
+          "translations": [],
           "targets": [
             "th"
-          ],
-          "rules": [
-            "rule_g21"
           ]
         },
         {
@@ -814,20 +507,9 @@
           "file": "lessons/grammar/g23-exclamations.json",
           "level": 8,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
+          "translations": [],
           "targets": [
             "th"
-          ],
-          "rules": [
-            "rule_g23"
           ]
         },
         {
@@ -844,20 +526,9 @@
           "file": "lessons/grammar/g24-register-switching.json",
           "level": 9,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
+          "translations": [],
           "targets": [
             "th"
-          ],
-          "rules": [
-            "rule_g24"
           ]
         }
       ]
@@ -888,24 +559,8 @@
           "file": "lessons/greetings/meeting-people.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_1_2",
@@ -921,24 +576,8 @@
           "file": "lessons/greetings/introductions.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_1_3",
@@ -954,24 +593,8 @@
           "file": "lessons/greetings/apologies-thanks.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_5_7",
@@ -987,24 +610,8 @@
           "file": "lessons/greetings/small-talk.json",
           "level": 5,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_8_3",
@@ -1020,24 +627,8 @@
           "file": "lessons/greetings/opinions-debate.json",
           "level": 8,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -1067,24 +658,8 @@
           "file": "lessons/basics/numbers.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_1_5",
@@ -1100,24 +675,8 @@
           "file": "lessons/basics/yes-no-questions.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_1_6",
@@ -1133,24 +692,8 @@
           "file": "lessons/basics/wants-needs.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_1_7",
@@ -1166,24 +709,8 @@
           "file": "lessons/basics/where-is.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_1_8",
@@ -1199,24 +726,8 @@
           "file": "lessons/basics/help.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_2_7",
@@ -1232,24 +743,8 @@
           "file": "lessons/basics/time-days.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -1279,24 +774,8 @@
           "file": "lessons/food-dining/ordering-restaurant.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_2_2",
@@ -1312,24 +791,8 @@
           "file": "lessons/food-dining/street-food.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_2_3",
@@ -1345,24 +808,8 @@
           "file": "lessons/food-dining/paying-bill.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -1392,24 +839,8 @@
           "file": "lessons/shopping/grocery-market.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_2_5",
@@ -1425,24 +856,8 @@
           "file": "lessons/shopping/bargaining.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -1472,24 +887,8 @@
           "file": "lessons/money-bank/currency-exchange.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_4_6",
@@ -1505,24 +904,8 @@
           "file": "lessons/money-bank/bank-basics.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -1552,24 +935,8 @@
           "file": "lessons/transport/asking-directions.json",
           "level": 3,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_3_2",
@@ -1585,24 +952,8 @@
           "file": "lessons/transport/taxi-ride.json",
           "level": 3,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_3_3",
@@ -1618,24 +969,8 @@
           "file": "lessons/transport/bus-train.json",
           "level": 3,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_3_4",
@@ -1651,24 +986,8 @@
           "file": "lessons/transport/airport.json",
           "level": 3,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -1698,24 +1017,8 @@
           "file": "lessons/weather/weather-talk.json",
           "level": 3,
           "proficiency": "beginner",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -1745,24 +1048,8 @@
           "file": "lessons/home-daily/daily-routine.json",
           "level": 3,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -1792,24 +1079,8 @@
           "file": "lessons/health/pharmacy.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_4_2",
@@ -1825,24 +1096,8 @@
           "file": "lessons/health/doctor-clinic.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -1872,24 +1127,8 @@
           "file": "lessons/personal-care/hair-salon.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -1919,24 +1158,8 @@
           "file": "lessons/post-communication/post-office.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_4_5",
@@ -1952,24 +1175,8 @@
           "file": "lessons/post-communication/phone-sim.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_5_6",
@@ -1985,24 +1192,8 @@
           "file": "lessons/post-communication/phone-calls.json",
           "level": 5,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -2032,24 +1223,8 @@
           "file": "lessons/entertainment/gym-fitness.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_5_3",
@@ -2065,24 +1240,8 @@
           "file": "lessons/entertainment/cinema.json",
           "level": 5,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_8_4",
@@ -2098,24 +1257,8 @@
           "file": "lessons/entertainment/news-events.json",
           "level": 8,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -2145,24 +1288,8 @@
           "file": "lessons/family-relationships/making-friends.json",
           "level": 5,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_5_2",
@@ -2178,24 +1305,8 @@
           "file": "lessons/family-relationships/making-plans.json",
           "level": 5,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_5_4",
@@ -2211,24 +1322,8 @@
           "file": "lessons/family-relationships/visiting.json",
           "level": 5,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_5_5",
@@ -2244,24 +1339,8 @@
           "file": "lessons/family-relationships/family-members.json",
           "level": 5,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -2291,24 +1370,8 @@
           "file": "lessons/accommodation/hotel-checkin.json",
           "level": 6,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_6_2",
@@ -2324,24 +1387,8 @@
           "file": "lessons/accommodation/hotel-requests.json",
           "level": 6,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -2371,24 +1418,8 @@
           "file": "lessons/travel-tourism/sightseeing.json",
           "level": 6,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_6_4",
@@ -2404,24 +1435,8 @@
           "file": "lessons/travel-tourism/trip-planning.json",
           "level": 6,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_6_6",
@@ -2437,24 +1452,8 @@
           "file": "lessons/travel-tourism/border-immigration.json",
           "level": 6,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -2484,24 +1483,8 @@
           "file": "lessons/emergency/lost-items.json",
           "level": 6,
           "proficiency": "intermediate",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_9_1",
@@ -2517,24 +1500,8 @@
           "file": "lessons/emergency/hospital-emergency.json",
           "level": 9,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_9_2",
@@ -2550,24 +1517,8 @@
           "file": "lessons/emergency/police-report.json",
           "level": 9,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_9_3",
@@ -2583,24 +1534,8 @@
           "file": "lessons/emergency/natural-disaster.json",
           "level": 9,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -2630,24 +1565,8 @@
           "file": "lessons/work/job-interview.json",
           "level": 7,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_7_2",
@@ -2663,24 +1582,8 @@
           "file": "lessons/work/office-basics.json",
           "level": 7,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_7_3",
@@ -2696,24 +1599,8 @@
           "file": "lessons/work/meetings.json",
           "level": 7,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_7_4",
@@ -2729,24 +1616,8 @@
           "file": "lessons/work/email-messages.json",
           "level": 7,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_7_5",
@@ -2762,24 +1633,8 @@
           "file": "lessons/work/complaints.json",
           "level": 7,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -2809,24 +1664,8 @@
           "file": "lessons/religion-culture/temple.json",
           "level": 8,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_8_2",
@@ -2842,24 +1681,8 @@
           "file": "lessons/religion-culture/festivals.json",
           "level": 8,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_8_5",
@@ -2875,24 +1698,8 @@
           "file": "lessons/religion-culture/idioms-slang.json",
           "level": 8,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         },
         {
           "id": "lesson_8_6",
@@ -2908,24 +1715,8 @@
           "file": "lessons/religion-culture/cultural-etiquette.json",
           "level": 8,
           "proficiency": "advanced",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     },
@@ -2954,24 +1745,8 @@
             "ja": "子音・母音・声調"
           },
           "file": "lessons/reading-writing/consonants-vowels-tones.json",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
+          "translations": [],
+          "targets": [],
           "level": 1,
           "proficiency": "beginner",
           "skill": "reading"
@@ -2991,24 +1766,8 @@
           "level": 1,
           "proficiency": "beginner",
           "skill": "reading",
-          "translations": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ],
-          "targets": [
-            "en",
-            "th",
-            "fa",
-            "ar",
-            "es",
-            "zh",
-            "ja"
-          ]
+          "translations": [],
+          "targets": []
         }
       ]
     }
@@ -3050,15 +1809,7 @@
                 "ja": "第1課：挨拶"
               },
               "file": "lessons/TSL/LS1-lesson-1-greetings.json",
-              "translations": [
-                "th",
-                "en",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3075,15 +1826,7 @@
                 "ja": "第2課：何をしていますか？"
               },
               "file": "lessons/TSL/LS1-lesson-2-what-are-you-doing.json",
-              "translations": [
-                "th",
-                "en",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3100,15 +1843,7 @@
                 "ja": "第3課：タイ料理はどうですか？"
               },
               "file": "lessons/TSL/LS1-lesson-3-how-is-thai-food.json",
-              "translations": [
-                "th",
-                "en",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3125,15 +1860,7 @@
                 "ja": "第4課：買い物に行く"
               },
               "file": "lessons/TSL/LS1-lesson-4-go-shopping.json",
-              "translations": [
-                "th",
-                "en",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3150,15 +1877,7 @@
                 "ja": "第5课：病院はどこですか？"
               },
               "file": "lessons/TSL/LS1-lesson-5-where-is-the-hospital.json",
-              "translations": [
-                "th",
-                "en",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3192,10 +1911,7 @@
                 "ja": "第1課：何をご注文されますか？"
               },
               "file": "lessons/TSL/LS2-lesson-1.json",
-              "translations": [
-                "en",
-                "th"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3212,10 +1928,7 @@
                 "ja": "第2課：何をお飲みになりますか？"
               },
               "file": "lessons/TSL/LS2-lesson-2.json",
-              "translations": [
-                "en",
-                "th"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3232,10 +1945,7 @@
                 "ja": "第3課：果物"
               },
               "file": "lessons/TSL/LS2-lesson-3.json",
-              "translations": [
-                "en",
-                "th"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3252,10 +1962,7 @@
                 "ja": "第4課：色"
               },
               "file": "lessons/TSL/LS2-lesson-4.json",
-              "translations": [
-                "en",
-                "th"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3272,10 +1979,7 @@
                 "ja": "第5課：助数詞"
               },
               "file": "lessons/TSL/LS2-lesson-5.json",
-              "translations": [
-                "en",
-                "th"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3292,10 +1996,7 @@
                 "ja": "第6課：前置詞"
               },
               "file": "lessons/TSL/LS2-lesson-6.json",
-              "translations": [
-                "en",
-                "th"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3329,15 +2030,7 @@
                 "ja": "第1課：今何時ですか？"
               },
               "file": "lessons/TSL/LS3-lesson-1.json",
-              "translations": [
-                "en",
-                "th",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3354,15 +2047,7 @@
                 "ja": "第2課：今日は何曜日ですか？"
               },
               "file": "lessons/TSL/LS3-lesson-2.json",
-              "translations": [
-                "en",
-                "th",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3379,15 +2064,7 @@
                 "ja": "第3课：月・年・季節"
               },
               "file": "lessons/TSL/LS3-lesson-3.json",
-              "translations": [
-                "en",
-                "th",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3404,15 +2081,7 @@
                 "ja": "第4课：私の家族"
               },
               "file": "lessons/TSL/LS3-lesson-4.json",
-              "translations": [
-                "en",
-                "th",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3429,15 +2098,7 @@
                 "ja": "第5课：あなたは何をしていますか？"
               },
               "file": "lessons/TSL/LS3-lesson-5.json",
-              "translations": [
-                "en",
-                "th",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3454,15 +2115,7 @@
                 "ja": "第6课：彼/彼女はどんな顔立ちですか？"
               },
               "file": "lessons/TSL/LS3-lesson-6.json",
-              "translations": [
-                "en",
-                "th",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3496,15 +2149,7 @@
                 "ja": "第1課：体の部位"
               },
               "file": "lessons/TSL/LS4-lesson-1.json",
-              "translations": [
-                "en",
-                "th",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3521,15 +2166,7 @@
                 "ja": "第2課：病気"
               },
               "file": "lessons/TSL/LS4-lesson-2.json",
-              "translations": [
-                "en",
-                "th",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3546,15 +2183,7 @@
                 "ja": "第3課：旅行と観光"
               },
               "file": "lessons/TSL/LS4-lesson-3.json",
-              "translations": [
-                "en",
-                "th",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3571,15 +2200,7 @@
                 "ja": "第4課：交通機関"
               },
               "file": "lessons/TSL/LS4-lesson-4.json",
-              "translations": [
-                "en",
-                "th",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3596,15 +2217,7 @@
                 "ja": "第5課：ビザ"
               },
               "file": "lessons/TSL/LS4-lesson-5.json",
-              "translations": [
-                "en",
-                "th",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3621,15 +2234,7 @@
                 "ja": "第6課：お金と銀行"
               },
               "file": "lessons/TSL/LS4-lesson-6.json",
-              "translations": [
-                "en",
-                "th",
-                "fa",
-                "ar",
-                "es",
-                "zh",
-                "ja"
-              ],
+              "translations": [],
               "targets": [
                 "th"
               ]
@@ -3665,405 +2270,6 @@
       "description": {
         "en": "Words added to the end of sentences to convey respect or soften the tone, highly specific to Thai grammar.",
         "th": "คำที่เติมต่อท้ายประโยคเพื่อแสดงความสุภาพหรือลดความรุนแรงของประโยค"
-      }
-    },
-    {
-      "id": "rule_g01",
-      "title": {
-        "en": "Grammar: Basic SVO",
-        "th": "ไวยากรณ์: ประธาน-กริยา-กรรม",
-        "fa": "دستور زبان: نهاد-فعل-مفعول",
-        "ar": "القواعد: فاعل-فعل-مفعول",
-        "es": "Gramática: Sujeto-Verbo-Objeto",
-        "zh": "语法：主谓宾基础",
-        "ja": "文法：基本SVO"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Basic SVO",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: ประธาน-กริยา-กรรม",
-        "fa": "این درس شامل: دستور زبان: نهاد-فعل-مفعول",
-        "ar": "يغطي هذا الدرس: القواعد: فاعل-فعل-مفعول",
-        "es": "Esta lección cubre: Gramática: Sujeto-Verbo-Objeto",
-        "zh": "本课程涵盖：语法：主谓宾基础",
-        "ja": "このレッスンでカバーする内容：文法：基本SVO"
-      }
-    },
-    {
-      "id": "rule_g02",
-      "title": {
-        "en": "Grammar: Politeness Particles",
-        "th": "ไวยากรณ์: คำลงท้าย",
-        "fa": "دستور زبان: ذرات ادب",
-        "ar": "القواعد: أدوات الأدب",
-        "es": "Gramática: Partículas de cortesía",
-        "zh": "语法：礼貌助词",
-        "ja": "文法：丁寧語"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Politeness Particles",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำลงท้าย",
-        "fa": "این درس شامل: دستور زبان: ذرات ادب",
-        "ar": "يغطي هذا الدرس: القواعد: أدوات الأدب",
-        "es": "Esta lección cubre: Gramática: Partículas de cortesía",
-        "zh": "本课程涵盖：语法：礼貌助词",
-        "ja": "このレッスンでカバーする内容：文法：丁寧語"
-      }
-    },
-    {
-      "id": "rule_g03",
-      "title": {
-        "en": "Grammar: Yes/No Questions",
-        "th": "ไวยากรณ์: คำถาม ใช่/ไม่ใช่",
-        "fa": "دستور زبان: سوالات بله/خیر",
-        "ar": "القواعد: أسئلة نعم/لا",
-        "es": "Gramática: Preguntas de sí/no",
-        "zh": "语法：是非问句",
-        "ja": "文法：はい/いいえ質問"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Yes/No Questions",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำถาม ใช่/ไม่ใช่",
-        "fa": "این درس شامل: دستور زبان: سوالات بله/خیر",
-        "ar": "يغطي هذا الدرس: القواعد: أسئلة نعم/لا",
-        "es": "Esta lección cubre: Gramática: Preguntas de sí/no",
-        "zh": "本课程涵盖：语法：是非问句",
-        "ja": "このレッスンでカバーする内容：文法：はい/いいえ質問"
-      }
-    },
-    {
-      "id": "rule_g05",
-      "title": {
-        "en": "Grammar: Wh- Questions",
-        "th": "ไวยากรณ์: คำถาม_wh",
-        "fa": "دستور زبان: سوالات پرسشی",
-        "ar": "القواعد: أسئلة الاستفهام",
-        "es": "Gramática: Preguntas informativas",
-        "zh": "语法：特殊疑问句",
-        "ja": "文法：疑問詞質問"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Wh- Questions",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำถาม_wh",
-        "fa": "این درس شامل: دستور زبان: سوالات پرسشی",
-        "ar": "يغطي هذا الدرس: القواعد: أسئلة الاستفهام",
-        "es": "Esta lección cubre: Gramática: Preguntas informativas",
-        "zh": "本课程涵盖：语法：特殊疑问句",
-        "ja": "このレッスンでカバーする内容：文法：疑問詞質問"
-      }
-    },
-    {
-      "id": "rule_g06",
-      "title": {
-        "en": "Grammar: Descriptive",
-        "th": "ไวยากรณ์: คำขยาย",
-        "fa": "دستور زبان: توصیفی",
-        "ar": "القواعد: الوصف",
-        "es": "Gramática: Descriptivo",
-        "zh": "语法：描述",
-        "ja": "文法：記述"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Descriptive",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำขยาย",
-        "fa": "این درس شامل: دستور زبان: توصیفی",
-        "ar": "يغطي هذا الدرس: القواعد: الوصف",
-        "es": "Esta lección cubre: Gramática: Descriptivo",
-        "zh": "本课程涵盖：语法：描述",
-        "ja": "このレッスンでカバーする内容：文法：記述"
-      }
-    },
-    {
-      "id": "rule_g07",
-      "title": {
-        "en": "Grammar: Possession",
-        "th": "ไวยากรณ์: การแสดงความเป็นเจ้าของ",
-        "fa": "دستور زبان: مالکیت",
-        "ar": "القواعد: الملكية",
-        "es": "Gramática: Posesión",
-        "zh": "语法：所属",
-        "ja": "文法：所有"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Possession",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: การแสดงความเป็นเจ้าของ",
-        "fa": "این درس شامل: دستور زبان: مالکیت",
-        "ar": "يغطي هذا الدرس: القواعد: الملكية",
-        "es": "Esta lección cubre: Gramática: Posesión",
-        "zh": "本课程涵盖：语法：所属",
-        "ja": "このレッスンでカバーする内容：文法：所有"
-      }
-    },
-    {
-      "id": "rule_g09",
-      "title": {
-        "en": "Grammar: Classifiers",
-        "th": "ไวยากรณ์: ลักษณนาม",
-        "fa": "دستور زبان: شمارنده‌ها",
-        "ar": "القواعد: التصنيفات",
-        "es": "Gramática: Clasificadores",
-        "zh": "语法：量词",
-        "ja": "文法：助数詞"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Classifiers",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: ลักษณนาม",
-        "fa": "این درس شامل: دستور زبان: شمارنده‌ها",
-        "ar": "يغطي هذا الدرس: القواعد: التصنيفات",
-        "es": "Esta lección cubre: Gramática: Clasificadores",
-        "zh": "本课程涵盖：语法：量词",
-        "ja": "このレッスンでカバーする内容：文法：助数詞"
-      }
-    },
-    {
-      "id": "rule_g22",
-      "title": {
-        "en": "Grammar: Requests & Imperatives",
-        "th": "ไวยากรณ์: คำขอร้องและคำสั่ง",
-        "fa": "دستور زبان: درخواست‌ها و افعال امری",
-        "ar": "القواعد: الطلبات والأوامر",
-        "es": "Gramática: Peticiones e imperativos",
-        "zh": "语法：请求与祈使句",
-        "ja": "文法：依頼と命令"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Requests & Imperatives",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำขอร้องและคำสั่ง",
-        "fa": "این درس شامل: دستور زبان: درخواست‌ها و افعال امری",
-        "ar": "يغطي هذا الدرس: القواعد: الطلبات والأوامر",
-        "es": "Esta lección cubre: Gramática: Peticiones e imperativos",
-        "zh": "本课程涵盖：语法：请求与祈使句",
-        "ja": "このレッスンでカバーする内容：文法：依頼と命令"
-      }
-    },
-    {
-      "id": "rule_g08",
-      "title": {
-        "en": "Grammar: Tense & Aspect",
-        "th": "ไวยากรณ์: กาลและลักษณะการกระทำ",
-        "fa": "دستور زبان: زمان و نمود",
-        "ar": "القواعد: الزمن والجانب",
-        "es": "Gramática: Tiempo y aspecto",
-        "zh": "语法：时态与体",
-        "ja": "文法：テンスとアスペクト"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Tense & Aspect",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: กาลและลักษณะการกระทำ",
-        "fa": "این درس شامل: دستور زبان: زمان و نمود",
-        "ar": "يغطي هذا الدرس: القواعد: الزمن والجانب",
-        "es": "Esta lección cubre: Gramática: Tiempo y aspecto",
-        "zh": "本课程涵盖：语法：时态与体",
-        "ja": "このレッスンでカバーする内容：文法：テンスとアスペクト"
-      }
-    },
-    {
-      "id": "rule_g10",
-      "title": {
-        "en": "Grammar: Topic-Comment",
-        "th": "ไวยากรณ์: ประธาน-ภาคแสดง",
-        "fa": "دستور زبان: موضوع-توضیح",
-        "ar": "القواعد: الموضوع-التعليق",
-        "es": "Gramática: Tema-Comentario",
-        "zh": "语法：主题-评论",
-        "ja": "文法：トピック-コメント"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Topic-Comment",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: ประธาน-ภาคแสดง",
-        "fa": "این درس شامل: دستور زبان: موضوع-توضیح",
-        "ar": "يغطي هذا الدرس: القواعد: الموضوع-التعليق",
-        "es": "Esta lección cubre: Gramática: Tema-Comentario",
-        "zh": "本课程涵盖：语法：主题-评论",
-        "ja": "このレッスンでカバーする内容：文法：トピック-コメント"
-      }
-    },
-    {
-      "id": "rule_g11",
-      "title": {
-        "en": "Grammar: Serial Verbs",
-        "th": "ไวยากรณ์: กริยาต่อเนื่อง",
-        "fa": "دستور زبان: افعال متوالی",
-        "ar": "القواعد: الأفعال المتسلسلة",
-        "es": "Gramática: Verbos seriales",
-        "zh": "语法：连动句",
-        "ja": "文法：連動詞"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Serial Verbs",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: กริยาต่อเนื่อง",
-        "fa": "این درس شامل: دستور زبان: افعال متوالی",
-        "ar": "يغطي هذا الدرس: القواعد: الأفعال المتسلسلة",
-        "es": "Esta lección cubre: Gramática: Verbos seriales",
-        "zh": "本课程涵盖：语法：连动句",
-        "ja": "このレッスンでカバーする内容：文法：連動詞"
-      }
-    },
-    {
-      "id": "rule_g12",
-      "title": {
-        "en": "Grammar: Comparatives",
-        "th": "ไวยากรณ์: การเปรียบเทียบ",
-        "fa": "دستور زبان: صفت‌های تفضیلی",
-        "ar": "القواعد: المقارنات",
-        "es": "Gramática: Comparativos",
-        "zh": "语法：比较级",
-        "ja": "文法：比較"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Comparatives",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: การเปรียบเทียบ",
-        "fa": "این درس شامل: دستور زبان: صفت‌های تفضیلی",
-        "ar": "يغطي هذا الدرس: القواعد: المقارنات",
-        "es": "Esta lección cubre: Gramática: Comparativos",
-        "zh": "本课程涵盖：语法：比较级",
-        "ja": "このレッスンでカバーする内容：文法：比較"
-      }
-    },
-    {
-      "id": "rule_g16",
-      "title": {
-        "en": "Grammar: Conditionals",
-        "th": "ไวยากรณ์: ประโยคเงื่อนไข",
-        "fa": "دستور زبان: شرطی",
-        "ar": "القواعد: الجمل الشرطية",
-        "es": "Gramática: Condicionales",
-        "zh": "语法：条件句",
-        "ja": "文法：条件法"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Conditionals",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: ประโยคเงื่อนไข",
-        "fa": "این درس شامل: دستور زبان: شرطی",
-        "ar": "يغطي هذا الدرس: القواعد: الجمل الشرطية",
-        "es": "Esta lección cubre: Gramática: Condicionales",
-        "zh": "本课程涵盖：语法：条件句",
-        "ja": "このレッスンでカバーする内容：文法：条件法"
-      }
-    },
-    {
-      "id": "rule_g17",
-      "title": {
-        "en": "Grammar: Ability",
-        "th": "ไวยากรณ์: ความสามารถ",
-        "fa": "دستور زبان: توانایی",
-        "ar": "القواعد: القدرة",
-        "es": "Gramática: Habilidad",
-        "zh": "语法：能力",
-        "ja": "文法：能力"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Ability",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: ความสามารถ",
-        "fa": "این درس شامل: دستور زبان: توانایی",
-        "ar": "يغطي هذا الدرس: القواعد: القدرة",
-        "es": "Esta lección cubre: Gramática: Habilidad",
-        "zh": "本课程涵盖：语法：能力",
-        "ja": "このレッスンでカバーする内容：文法：能力"
-      }
-    },
-    {
-      "id": "rule_g19",
-      "title": {
-        "en": "Grammar: Conjunctions",
-        "th": "ไวยากรณ์: คำสันธาน",
-        "fa": "دستور زبان: حروف ربط",
-        "ar": "القواعد: حروف العطف",
-        "es": "Gramática: Conjunciones",
-        "zh": "语法：连词",
-        "ja": "文法：接続詞"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Conjunctions",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำสันธาน",
-        "fa": "این درس شامل: دستور زبان: حروف ربط",
-        "ar": "يغطي هذا الدرس: القواعد: حروف العطف",
-        "es": "Esta lección cubre: Gramática: Conjunciones",
-        "zh": "本课程涵盖：语法：连词",
-        "ja": "このレッスンでカバーする内容：文法：接続詞"
-      }
-    },
-    {
-      "id": "rule_g20",
-      "title": {
-        "en": "Grammar: Reported Speech",
-        "th": "ไวยากรณ์: คำพูดอ้างอิง",
-        "fa": "دستور زبان: نقل قول",
-        "ar": "القواعد: الكلام المنقول",
-        "es": "Gramática: Estilo indirecto",
-        "zh": "语法：间接引语",
-        "ja": "文法：間接話法"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Reported Speech",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำพูดอ้างอิง",
-        "fa": "این درس شامل: دستور زبان: نقل قول",
-        "ar": "يغطي هذا الدرس: القواعد: الكلام المنقول",
-        "es": "Esta lección cubre: Gramática: Estilo indirecto",
-        "zh": "本课程涵盖：语法：间接引语",
-        "ja": "このレッスンでカバーする内容：文法：間接話法"
-      }
-    },
-    {
-      "id": "rule_g21",
-      "title": {
-        "en": "Grammar: Emphasis Particles",
-        "th": "ไวยากรณ์: คำลงท้ายเน้นความ",
-        "fa": "دستور زبان: ذرات تأکیدی",
-        "ar": "القواعد: أدوات التأكيد",
-        "es": "Gramática: Partículas de énfasis",
-        "zh": "语法：语气助词",
-        "ja": "文法：強調の終助詞"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Emphasis Particles",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำลงท้ายเน้นความ",
-        "fa": "این درس شامل: دستور زبان: ذرات تأکیدی",
-        "ar": "يغطي هذا الدرس: القواعد: أدوات التأكيد",
-        "es": "Esta lección cubre: Gramática: Partículas de énfasis",
-        "zh": "本课程涵盖：语法：语气助词",
-        "ja": "このレッスンでカバーする内容：文法：強調の終助詞"
-      }
-    },
-    {
-      "id": "rule_g23",
-      "title": {
-        "en": "Grammar: Exclamations",
-        "th": "ไวยากรณ์: คำอุทาน",
-        "fa": "دستور زبان: علائم تعجب",
-        "ar": "القواعد: التعجبات",
-        "es": "Gramática: Exclamaciones",
-        "zh": "语法：感叹词",
-        "ja": "文法：感嘆詞"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Exclamations",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำอุทาน",
-        "fa": "این درس شامل: دستور زبان: علائم تعجب",
-        "ar": "يغطي هذا الدرس: القواعد: التعجبات",
-        "es": "Esta lección cubre: Gramática: Exclamaciones",
-        "zh": "本课程涵盖：语法：感叹词",
-        "ja": "このレッスンでカバーする内容：文法：感嘆詞"
-      }
-    },
-    {
-      "id": "rule_g24",
-      "title": {
-        "en": "Grammar: Register Switching",
-        "th": "ไวยากรณ์: การปรับระดับภาษา",
-        "fa": "دستور زبان: تغییر لحن",
-        "ar": "القواعد: تبديل السجل",
-        "es": "Gramática: Cambio de registro",
-        "zh": "语法：语体转换",
-        "ja": "文法：文体の切り替え"
-      },
-      "description": {
-        "en": "This lesson covers: Grammar: Register Switching",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: การปรับระดับภาษา",
-        "fa": "این درس شامل: دستور زبان: تغییر لحن",
-        "ar": "يغطي هذا الدرس: القواعد: تبديل السجل",
-        "es": "Esta lección cubre: Gramática: Cambio de registro",
-        "zh": "本课程涵盖：语法：语体转换",
-        "ja": "このレッスンでカバーする内容：文法：文体の切り替え"
       }
     }
   ]

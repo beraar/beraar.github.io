@@ -1,70 +1,52 @@
-# Zabon — v3 Multi-Target Baseline & Rules
+# Zabon — v3.1 Data Compliance & Scenario Expansion
 
 ## Session Recovery Log (read first)
 
-The v3 app code is the active baseline.
+The v3.1 Architecture and UI are fully complete and verified.
 
-- **Task 1 (Blank Page Bug):** FIXED. The `init()` flow correctly halts at the target selection view if no language is chosen.
-- **Task 2 (Grammar Restructure):** FIXED. Grammar lessons are consolidated into `cat_grammar_intro`, `cat_grammar_inter`, and `cat_grammar_adv`.
-- **Task 3 (Routing & "Not Implemented" Guard):** IMPLEMENTED. `IMPLEMENTED_TARGET_LANGUAGES` guards the Home view.
-- **CRITICAL REGRESSION (Language Selection Inactive):** Selecting a language does nothing.
-  - **Root Cause 1:** `handleTargetSelection` was calling a non-existent `renderTargetLanguageControl()` function. (This line has been deleted by the user, but the issue persists).
-  - **Root Cause 2 (Confirmed):** The provided `app.js` and `manifest.json` files contain **trailing spaces** in string literals (e.g., `"th "` instead of `"th"`, `"code ": "en "`). This causes `registry.has(langCode)` and `IMPLEMENTED_TARGET_LANGUAGES.includes()` to fail silently.
-  - **Root Cause 3 (Architecture):** The app uses a **single `<main>` element** containing multiple `<section>` elements for views. Previous AI responses hallucinated 10 separate `<main>` tags, which is incorrect and breaks the DOM.
-
-## Immediate Fix Required (Stage 3 Recovery)
-
-Before proceeding to Farsi, we must fix the target selection. Provide exact, safe find/replace blocks for:
-
-**Step 1: Fix Trailing Spaces in `app.js` and `manifest.json`**
-Instruct the user to perform a global find/replace to remove trailing spaces inside string quotes for language codes and keys.
-
-- Find: `"th "` -> Replace: `"th"`
-- Find: `"fa "` -> Replace: `"fa"`
-- Find: `"en "` -> Replace: `"en"`
-- Find: `"code "` -> Replace: `"code"`
-  _(Provide a safe regex or explicit instructions to clean these up without breaking the JSON/JS syntax)._
-
-**Step 2: Verify `IMPLEMENTED_TARGET_LANGUAGES` in `app.js`**
-Ensure it is clean and includes Farsi:
-`const IMPLEMENTED_TARGET_LANGUAGES = Object.freeze(["th", "fa"]);`
-
-**Step 3: Verify `index.html` Structure**
-Confirm that `index.html` has exactly **one** `<main>` container (e.g., `<main id="app-main" class="app-main">`) that holds the view `<section>` elements. Do not generate or suggest multiple `<main>` tags.
-
-**Step 4: Ensure `handleTargetSelection` is clean**
-Verify that `handleTargetSelection` in `app.js` correctly updates `state.settings.targetLanguage`, calls `saveState()`, re-initializes the namespaced services, and calls `goHome()` without calling any missing functions.
-
-## Next Stage Goals (Remaining v3 Stages)
-
-### Task 1: Stage 4 - Farsi Data & Script Display Mode
-
-- **Farsi (`fa`) is the next language to implement.**
-- Update `renderScriptCell()` in `app.js`. Currently, it just dumps the raw `connections` string as text. It needs to parse the `connections` string (e.g., `"isolated: ب | initial: بـ | medial: ـبـ | final: ـب"`) and render the 4 Perso-Arabic forms in a clean CSS grid.
-- Generate the Farsi `cat_reading_writing` JSON data (`lessons/fa/reading-writing/consonants-vowels-tones.json`) utilizing the `"displayMode": "script"` structure.
-- Generate a starter set of Farsi thematic lessons (`lessons/fa/greetings/meeting-people.json` and `introductions.json`).
-
-### Task 2: Stage 5 - i18n Polish & Edge Cases
-
-- Update `UI_STRINGS` to use dynamic placeholders (e.g., `"Your current {targetLanguage} level?"`).
-- Ensure `MediaService` and Voice Test dynamically query the BCP47 code of the Target Language.
-- Verify RTL/LTR mixed-direction rendering in the lesson columns.
+- **v3.1 Stage 1 (Architecture):** COMPLETED. Decoupled App/Target/Lesson languages. Flattened manifest (removed `{lang}` tokens). Introduced `translations` (data constraints) and `targets` (pedagogical routing).
+- **v3.1 Stage 2 (UI/UX):** COMPLETED. Implemented the Enhanced Next Up Card (compact mobile-first design) and the interactive Grammar Rule Overlay (bottom sheet).
+- **Current Goal (Stage 3):** Data Compliance. We must audit all existing lesson JSON files against the strict constraints defined in the Lesson Creation Guide (`new-lesson.md`), specifically the **"Rule of 5" (Scenario-Based Design)**.
 
 ## Crucial Architecture Rules (Do Not Hallucinate)
 
-1. **Single Main Container:** The DOM has one `<main>` element. Views are rendered as `<section>` elements within it, or dynamically swapped. Never suggest multiple `<main>` tags.
-2. **The Manifest is GLOBAL:** `manifest.json` contains all categories and lessons for all languages. **DO NOT** filter categories by target language in `app.js`. **DO NOT** duplicate categories per language in `manifest.json`.
-3. **Routing is handled by tokens:** Lesson files use the `lessons/{lang}/...` path. The `{lang}` token is replaced dynamically by `loadLessonFile()` based on `state.settings.targetLanguage`.
-4. **Data Generation Rules:**
-   - Top level: `{ "version": 2, "items": [...] }`.
-   - Item kinds: `Header`, `Word`, `Sentence`, and `Character` (exception: used specifically for alphabet/reading lessons, paired with `"displayMode": "phonetic"` or `"script"`).
-   - Languages: every `texts` and `tokens` block must cover exactly the lesson's manifest `languages` array.
+1. **Language-Agnostic Entities:** A lesson is a single logical entity containing all languages. Files are stored by domain (e.g., `lessons/greetings/meeting-people.json`), NEVER by language.
+2. **Manifest Schema:** Uses `translations` (array of available languages in the JSON) and `targets` (array of languages this lesson is pedagogically meant for).
+3. **Grammar Registry:** `manifest.json` contains a global `grammar_rules` array. Lessons link to this via the `rules: ["Rule_ID"]` array.
+4. **Single Main Container:** The DOM has one `<main>` element. Views are `<section>` elements.
+5. **No `{lang}` tokens:** The `{lang}` routing token is obsolete. `loadLessonFile()` fetches the static path directly.
 
-## Process rules
+## The "Rule of 5" Constraints (From new-lesson.md)
 
-1. One stage at a time. Deliver one stage, then stop and wait for a completion report.
-2. No code/data is generated until the current stage is confirmed.
-3. Do not refactor unrelated working content.
-4. Present the task description and file list before producing a deliverable.
-5. When providing code changes, give **exact** find/replace blocks or explicit line locations. Do not say "find the place where it reads...".
-6. Keep markdown output cohesive and avoid complex nested HTML that might split the response.
+Every thematic lesson JSON file MUST adhere to this structure:
+
+1. **5 Conversational Scenarios:** The lesson must be divided into exactly 5 distinct, realistic scenarios (represented by `header` items).
+   - _Example (Hotel):_ 1. Check-in, 2. Check-out, 3. Reservation, 4. Room service, 5. Pickup.
+2. **Natural Volume:** Each scenario must contain enough `Word` and `Sentence` items to satisfy the exercise engines (minimum 5 words and 5 sentences per scenario is a good baseline to ensure enough distractors for Quizzes).
+3. **Everyday Language:** Prioritize natural, everyday expressions over stiff textbook phrases.
+4. **Exception:** Reading/Writing (Script/Phonetic) lessons are exempt from conversational scenarios but require a minimum of 5 characters/glyphs with their connection forms.
+
+## Immediate Task for the New Session: Data Validation Script
+
+Before manually editing any JSON files, we need to write a Node.js script (`tools/validate-lessons.js`) that:
+
+1. Reads `manifest.json` to get all lesson file paths.
+2. Parses each lesson JSON file.
+3. Checks if the file contains exactly 5 `header` items (representing the 5 scenarios).
+4. Checks if the word/sentence count meets the minimum threshold for the exercise engines.
+5. Outputs a report of which files are "Compliant" and which need "Expansion/Restructuring".
+
+## Process Rules
+
+1. **One step at a time.** Deliver the validation script first, wait for the user to run it and provide the output.
+2. **No data generation until the audit is complete.** We only rewrite/expand the JSON files that the script flags as non-compliant.
+3. **Strict adherence to `new-lesson.md`.** All generated JSON must follow the `version: 2`, `items: [...]` schema, including `tokens` for unsegmented languages (th, zh, ja).
+4. **Present exact find/replace blocks or full file replacements** when fixing non-compliant JSON files.
+
+## Files Attached for Context
+
+- `app.js` (v3.1 Baseline - Architecture & UI complete)
+- `main.css` (v3.1 Baseline - Compact Card & Overlay styles included)
+- `manifest.json` (v3.1 Schema - `translations`, `targets`, `grammar_rules`)
+- `new-lesson.md` (The definitive guide for lesson creation)
+- `index.html` (App shell)
