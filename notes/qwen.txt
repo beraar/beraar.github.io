@@ -1,11 +1,1 @@
-User feedback change:
-The list of target languages drop-down list to select a language to learn excludes the current App language.  Decouple the App language so the target language selection list in the App toolbar includes all languages, including the current App language.
-
-Bugs:
-- On selecting a new App language, the target language drop-down list displays, "What do you want to learn?" but the click event is inactive.  It requires a manual refresh page to see the "What do you want to learn?" page.
-
-- Selecting a new target language A shows: 
-"No languages are selected." Then changing the target language to language B displays the lesson. Changing again to language A then does display the lesson.
-
-
-
+- With the recent changes, the "Getting Started" text needs an update. 

@@ -1540,15 +1540,6 @@
           zh: "按级别浏览：🌱 入门、🌿 中级、🌳 高级。",
           ja: "レベル別に閲覧：🌱 初級、🌿 中級、🌳 上級。",
         },
-        {
-          en: "🔤 Reading & Writing {targetLanguage} sits below Advanced.",
-          th: "🔤 การอ่านและการเขียน{targetLanguage} อยู่ใต้ระดับสูง",
-          fa: "🔤 خواندن و نوشتن {targetLanguage} زیر بخش پیشرفته قرار دارد.",
-          ar: "🔤 القراءة والكتابة بـ {targetLanguage} أسفل المستوى المتقدم.",
-          es: "🔤 Lectura y escritura en {targetLanguage} está debajo de Avanzado.",
-          zh: "🔤 {targetLanguage}读写位于高级下方。",
-          ja: "🔤 {targetLanguage}の読み書きは上級の下にあります。",
-        },
       ],
     },
     {
@@ -2481,12 +2472,9 @@
       appLanguage: registry.has(s.appLanguage)
         ? s.appLanguage
         : chooseDefaultAppLanguage(),
-      targetLanguage:
-        registry.has(s.targetLanguage) && s.targetLanguage !== s.appLanguage
-          ? s.targetLanguage
-          : null,
+      // FIX 1: Decouple targetLanguage from appLanguage
+      targetLanguage: registry.has(s.targetLanguage) ? s.targetLanguage : null,
       repeatCount: normalizeRepeatCount(s.repeatCount),
-
       speechSpeed: ["normal", "slow", "slower"].includes(s.speechSpeed)
         ? s.speechSpeed
         : "normal",
@@ -2547,12 +2535,9 @@
 
   function setTargetLanguage(code, source = "toolbar") {
     if (!registry.has(code)) return;
-
-    // Safeguard: appLanguage cannot be the targetLanguage.
-    if (code === state.settings.appLanguage) return;
+    // FIX 1: Removed safeguard that prevented targetLanguage === appLanguage
 
     const previousTarget = state.settings.targetLanguage;
-
     state.settings.targetLanguage = code;
     nextUpPreviewId = null; // v3.1 Stage 2: Reset card preview when target language changes
 
@@ -2564,18 +2549,14 @@
         : registry.has("en") && "en" !== code
           ? "en"
           : null;
-
     const desired = [code];
     if (bridgeLang) desired.push(bridgeLang);
-
     state.lessonLanguages = desired.filter((c) => registry.has(c));
 
     saveState();
-
     if (previousTarget !== code) {
       resetTargetScopedServices();
     }
-
     renderTargetLanguageControl();
     goHome();
   }
@@ -2607,6 +2588,7 @@
     renderHamburger();
     renderCurrent();
   }
+
   function setAppLanguage(code) {
     if (!registry.has(code)) return;
     state.settings.appLanguage = code;
@@ -2617,6 +2599,19 @@
     renderTargetLanguageControl();
     if (elements.settingsSheet && !elements.settingsSheet.hidden)
       renderSettings();
+
+    // FIX 2: If target language is missing or invalid after app language change,
+    // redirect to the target selection page instead of rendering a disabled dropdown.
+    if (
+      !state.settings.targetLanguage ||
+      !registry.has(state.settings.targetLanguage)
+    ) {
+      state.settings.targetLanguage = null;
+      saveState();
+      renderTargetSelect();
+      return;
+    }
+
     renderCurrent();
   }
 
@@ -2625,9 +2620,18 @@
     // v3.1 Architecture: Use 'translations' for data constraints (available columns).
     const available = currentLesson.meta.translations || [];
     if (!available.length) return state.lessonLanguages;
-    return state.lessonLanguages.filter(
+
+    const filtered = state.lessonLanguages.filter(
       (code) => available.includes(code) && registry.has(code),
     );
+
+    // FIX 3: Fallback to prevent "No languages are selected" error if the lesson's
+    // translations array is out of sync with the user's selected lesson languages.
+    if (filtered.length === 0 && state.lessonLanguages.length > 0) {
+      return state.lessonLanguages.filter((c) => registry.has(c));
+    }
+
+    return filtered;
   }
 
   function setLessonLanguageEnabled(code, enabled) {
@@ -3095,11 +3099,13 @@
     select.className = "select";
     select.dataset.control = "target-language";
     select.setAttribute("aria-label", t("selectTargetLanguage"));
+
     const appLang = state.settings.appLanguage;
     const targetLang = state.settings.targetLanguage;
-    const hasValidTarget = Boolean(
-      targetLang && registry.has(targetLang) && targetLang !== appLang,
-    );
+
+    // FIX 1: Allow target language to be the same as app language
+    const hasValidTarget = Boolean(targetLang && registry.has(targetLang));
+
     if (!hasValidTarget) {
       const placeholder = document.createElement("option");
       placeholder.value = "";
@@ -3112,9 +3118,9 @@
       select.disabled = false;
     }
 
-    // SORTED LANGUAGES FIX
+    // FIX 1: Include all languages in the dropdown, including the current App language
     const sortedLanguages = [...manifest.zabon.languages]
-      .filter((lang) => lang?.code && lang.code !== appLang)
+      .filter((lang) => lang?.code)
       .sort((a, b) => {
         const nameA = languageDisplayName(a.code).toLowerCase();
         const nameB = languageDisplayName(b.code).toLowerCase();
@@ -3131,9 +3137,11 @@
     if (hasValidTarget) {
       select.value = targetLang;
     }
+
     select.addEventListener("change", () => {
       setTargetLanguage(select.value, "toolbar");
     });
+
     container.appendChild(select);
   }
 
@@ -4497,11 +4505,8 @@
   function renderSettings() {
     const body = elements.settingsBody;
     body.innerHTML = "";
-
     const lessonLangs =
       currentLesson?.meta?.translations || registry.allCodes();
-
-    des();
 
     body.appendChild(renderSettingsLanguagesSection(lessonLangs));
     body.appendChild(renderRepeatSection());
@@ -4509,6 +4514,7 @@
     body.appendChild(renderFontSection());
     body.appendChild(renderVoicesSection());
   }
+
   function renderSettingsLanguagesSection(lessonLangs) {
     const section = document.createElement("div");
     section.className = "sheet-section";
@@ -6587,10 +6593,7 @@
 
   function handleTargetSelection(langCode) {
     if (!registry.has(langCode)) return;
-    state.settings.targetLanguage = langCode;
-    saveState();
-    resetTargetScopedServices();
-    goHome();
+    setTargetLanguage(langCode, "target-select");
   }
 
   function renderTargetSelect() {
@@ -6611,9 +6614,9 @@
     list.className = "target-select-list";
     const appLang = state.settings.appLanguage;
 
-    // SORTED LANGUAGES FIX
+    // FIX 1: Include all languages in the selection page, including the current App language
     const sortedLanguages = [...manifest.zabon.languages]
-      .filter((lang) => lang?.code && lang.code !== appLang)
+      .filter((lang) => lang?.code)
       .sort((a, b) => {
         const nameA = languageDisplayName(a.code).toLowerCase();
         const nameB = languageDisplayName(b.code).toLowerCase();
@@ -6635,6 +6638,7 @@
       btn.append(flag, name);
       list.appendChild(btn);
     });
+
     stage.appendChild(list);
     view.appendChild(stage);
   }
