@@ -1,0 +1,720 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "h1",
+      "header": true,
+      "texts": {
+        "en": "Subject Relative (Who)",
+        "th": "อนุประโยคประธาน (Who)",
+        "fa": "عبارت موصولی فاعلی",
+        "ar": "الصلة الفاعلية",
+        "es": "Relativa de sujeto",
+        "zh": "主语关系从句",
+        "ja": "主格関係節"
+      }
+    },
+    {
+      "id": "w1_1",
+      "kind": "word",
+      "texts": {
+        "en": "man",
+        "th": "男人",
+        "fa": "مرد",
+        "ar": "رجل",
+        "es": "hombre",
+        "zh": "男人",
+        "ja": "男性"
+      }
+    },
+    {
+      "id": "w1_2",
+      "kind": "word",
+      "texts": {
+        "en": "who",
+        "th": "谁",
+        "fa": "که",
+        "ar": "الذي",
+        "es": "que",
+        "zh": "谁",
+        "ja": "誰"
+      }
+    },
+    {
+      "id": "w1_3",
+      "kind": "word",
+      "texts": {
+        "en": "stands",
+        "th": "站",
+        "fa": "ایستادن",
+        "ar": "يقف",
+        "es": "está de pie",
+        "zh": "站",
+        "ja": "立つ"
+      }
+    },
+    {
+      "id": "w1_4",
+      "kind": "word",
+      "texts": {
+        "en": "there",
+        "th": "那里",
+        "fa": "آنجا",
+        "ar": "هناك",
+        "es": "allí",
+        "zh": "那里",
+        "ja": "そこ"
+      }
+    },
+    {
+      "id": "w1_5",
+      "kind": "word",
+      "texts": {
+        "en": "knows",
+        "th": "知道",
+        "fa": "می‌داند",
+        "ar": "يعرف",
+        "es": "sabe",
+        "zh": "知道",
+        "ja": "知る"
+      }
+    },
+    {
+      "id": "s1_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The man who stands there.",
+        "th": "站在那里的那个男人",
+        "fa": "مردی که آنجا ایستاده",
+        "ar": "الرجل الذي يقف هناك",
+        "es": "El hombre que está allí",
+        "zh": "站在那里的那个男人",
+        "ja": "そこに立っている男性"
+      }
+    },
+    {
+      "id": "s1_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The woman who knows.",
+        "th": "知道的那个女人",
+        "fa": "زنی که می‌داند",
+        "ar": "المرأة التي تعرف",
+        "es": "La mujer que sabe",
+        "zh": "知道的那个女人",
+        "ja": "知っている女性"
+      }
+    },
+    {
+      "id": "s1_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The boy who runs.",
+        "th": "跑的那个男孩",
+        "fa": "پسری که می‌دود",
+        "ar": "الولد الذي يركض",
+        "es": "El niño que corre",
+        "zh": "跑的那个男孩",
+        "ja": "走っている男の子"
+      }
+    },
+    {
+      "id": "s1_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The girl who sings.",
+        "th": "唱歌的那个女孩",
+        "fa": "دختری که می‌خواند",
+        "ar": "الفتاة التي تغني",
+        "es": "La niña que canta",
+        "zh": "唱歌的那个女孩",
+        "ja": "歌っている女の子"
+      }
+    },
+    {
+      "id": "s1_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The dog who barks.",
+        "th": "叫的那只狗",
+        "fa": "سگی که پارس می‌کند",
+        "ar": "الكلب الذي ينبح",
+        "es": "El perro que ladra",
+        "zh": "叫的那只狗",
+        "ja": "吠えている犬"
+      }
+    },
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Object Relative (That)",
+        "th": "อนุประโยคกรรม (That)",
+        "fa": "عبارت موصولی مفعولی",
+        "ar": "الصلة المفعولية",
+        "es": "Relativa de objeto",
+        "zh": "宾语关系从句",
+        "ja": "対格関係節"
+      }
+    },
+    {
+      "id": "w2_1",
+      "kind": "word",
+      "texts": {
+        "en": "book",
+        "th": "书",
+        "fa": "کتاب",
+        "ar": "كتاب",
+        "es": "libro",
+        "zh": "书",
+        "ja": "本"
+      }
+    },
+    {
+      "id": "w2_2",
+      "kind": "word",
+      "texts": {
+        "en": "that",
+        "th": "那个",
+        "fa": "که",
+        "ar": "الذي",
+        "es": "que",
+        "zh": "那个",
+        "ja": "那个"
+      }
+    },
+    {
+      "id": "w2_3",
+      "kind": "word",
+      "texts": {
+        "en": "bought",
+        "th": "买",
+        "fa": "خرید",
+        "ar": "اشترى",
+        "es": "compró",
+        "zh": "买",
+        "ja": "買った"
+      }
+    },
+    {
+      "id": "w2_4",
+      "kind": "word",
+      "texts": {
+        "en": "read",
+        "th": "读",
+        "fa": "خواندن",
+        "ar": "يقرأ",
+        "es": "leer",
+        "zh": "读",
+        "ja": "読む"
+      }
+    },
+    {
+      "id": "w2_5",
+      "kind": "word",
+      "texts": {
+        "en": "like",
+        "th": "喜欢",
+        "fa": "دوست داشتن",
+        "ar": "يحب",
+        "es": "gustar",
+        "zh": "喜欢",
+        "ja": "好き"
+      }
+    },
+    {
+      "id": "s2_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The book that I bought.",
+        "th": "我买的那本书",
+        "fa": "کتابی که خریدم",
+        "ar": "الكتاب الذي اشتريته",
+        "es": "El libro que compré",
+        "zh": "我买的那本书",
+        "ja": "私が買った本"
+      }
+    },
+    {
+      "id": "s2_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The food that we ate.",
+        "th": "我们吃的那顿饭",
+        "fa": "غذایی که خوردیم",
+        "ar": "الطعام الذي أكلناه",
+        "es": "La comida que comimos",
+        "zh": "我们吃的那顿饭",
+        "ja": "私たちが食べた食べ物"
+      }
+    },
+    {
+      "id": "s2_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The car that he drives.",
+        "th": "他开的那辆车",
+        "fa": "ماشینی که او می‌راند",
+        "ar": "السيارة التي يقودها",
+        "es": "El coche que él conduce",
+        "zh": "他开的那辆车",
+        "ja": "彼が運転する車"
+      }
+    },
+    {
+      "id": "s2_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The song that I like.",
+        "th": "我喜欢的那首歌",
+        "fa": "آهنگی که دوست دارم",
+        "ar": "الأغنية التي أحبها",
+        "es": "La canción que me gusta",
+        "zh": "我喜欢的那首歌",
+        "ja": "私が好きな歌"
+      }
+    },
+    {
+      "id": "s2_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The house that she saw.",
+        "th": "她看到的那栋房子",
+        "fa": "خانه‌ای که او دید",
+        "ar": "المنزل الذي رأته",
+        "es": "La casa que ella vio",
+        "zh": "她看到的那栋房子",
+        "ja": "彼女が見た家"
+      }
+    },
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Possessive Relative (Whose)",
+        "th": "อนุประโยคแสดงความเป็นเจ้าของ",
+        "fa": "عبارت موصولی ملکی",
+        "ar": "الصلة الملكية",
+        "es": "Relativa posesiva",
+        "zh": "所有格关系从句",
+        "ja": "所有格関係節"
+      }
+    },
+    {
+      "id": "w3_1",
+      "kind": "word",
+      "texts": {
+        "en": "whose",
+        "th": "谁的",
+        "fa": "که مال",
+        "ar": "الذي",
+        "es": "cuyo",
+        "zh": "谁的",
+        "ja": " whose"
+      }
+    },
+    {
+      "id": "w3_2",
+      "kind": "word",
+      "texts": {
+        "en": "car",
+        "th": "车",
+        "fa": "ماشین",
+        "ar": "سيارة",
+        "es": "coche",
+        "zh": "车",
+        "ja": "車"
+      }
+    },
+    {
+      "id": "w3_3",
+      "kind": "word",
+      "texts": {
+        "en": "house",
+        "th": "房子",
+        "fa": "خانه",
+        "ar": "منزل",
+        "es": "casa",
+        "zh": "房子",
+        "ja": "家"
+      }
+    },
+    {
+      "id": "w3_4",
+      "kind": "word",
+      "texts": {
+        "en": "name",
+        "th": "名字",
+        "fa": "نام",
+        "ar": "اسم",
+        "es": "nombre",
+        "zh": "名字",
+        "ja": "名前"
+      }
+    },
+    {
+      "id": "w3_5",
+      "kind": "word",
+      "texts": {
+        "en": "dog",
+        "th": "狗",
+        "fa": "سگ",
+        "ar": "كلب",
+        "es": "perro",
+        "zh": "狗",
+        "ja": "犬"
+      }
+    },
+    {
+      "id": "s3_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The man whose car is red.",
+        "th": "车是红色的那个男人",
+        "fa": "مردی که ماشینش قرمز است",
+        "ar": "الرجل الذي سيارته حمراء",
+        "es": "El hombre cuyo coche es rojo",
+        "zh": "车是红色的那个男人",
+        "ja": "車が赤い男性"
+      }
+    },
+    {
+      "id": "s3_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The woman whose house is big.",
+        "th": "房子很大的那个女人",
+        "fa": "زنی که خانه‌اش بزرگ است",
+        "ar": "المرأة التي منزلها كبير",
+        "es": "La mujer cuya casa es grande",
+        "zh": "房子很大的那个女人",
+        "ja": "家が大きい女性"
+      }
+    },
+    {
+      "id": "s3_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The boy whose name is Ali.",
+        "th": "名字叫阿里的那个男孩",
+        "fa": "پسری که نامش علی است",
+        "ar": "الولد الذي اسمه علي",
+        "es": "El niño cuyo nombre es Ali",
+        "zh": "名字叫阿里的那个男孩",
+        "ja": "名前がアリである男の子"
+      }
+    },
+    {
+      "id": "s3_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The girl whose dog is lost.",
+        "th": "狗丢了的那个女孩",
+        "fa": "دختری که سگش گم شده",
+        "ar": "الفتاة التي كلبها ضائع",
+        "es": "La niña cuyo perro está perdido",
+        "zh": "狗丢了的那个女孩",
+        "ja": "犬を失った女の子"
+      }
+    },
+    {
+      "id": "s3_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The teacher whose book is new.",
+        "th": "书是新的那位老师",
+        "fa": "معلمی که کتابش جدید است",
+        "ar": "المعلم الذي كتابه جديد",
+        "es": "El profesor cuyo libro es nuevo",
+        "zh": "书是新的那位老师",
+        "ja": "本が新しい先生"
+      }
+    },
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Place Relative (Where)",
+        "th": "อนุประโยคสถานที่ (Where)",
+        "fa": "عبارت موصولی مکانی",
+        "ar": "الصلة المكانية",
+        "es": "Relativa de lugar",
+        "zh": "地点关系从句",
+        "ja": "場所関係節"
+      }
+    },
+    {
+      "id": "w4_1",
+      "kind": "word",
+      "texts": {
+        "en": "city",
+        "th": "城市",
+        "fa": "شهر",
+        "ar": "مدينة",
+        "es": "ciudad",
+        "zh": "城市",
+        "ja": "都市"
+      }
+    },
+    {
+      "id": "w4_2",
+      "kind": "word",
+      "texts": {
+        "en": "where",
+        "th": "哪里",
+        "fa": "که در",
+        "ar": "حيث",
+        "es": "donde",
+        "zh": "哪里",
+        "ja": "どこ"
+      }
+    },
+    {
+      "id": "w4_3",
+      "kind": "word",
+      "texts": {
+        "en": "born",
+        "th": "出生",
+        "fa": "تولد",
+        "ar": "ولد",
+        "es": "nació",
+        "zh": "出生",
+        "ja": "生まれた"
+      }
+    },
+    {
+      "id": "w4_4",
+      "kind": "word",
+      "texts": {
+        "en": "live",
+        "th": "住",
+        "fa": "زندگی",
+        "ar": "يعيش",
+        "es": "vive",
+        "zh": "住",
+        "ja": "住む"
+      }
+    },
+    {
+      "id": "w4_5",
+      "kind": "word",
+      "texts": {
+        "en": "work",
+        "th": "工作",
+        "fa": "کار",
+        "ar": "يعمل",
+        "es": "trabaja",
+        "zh": "工作",
+        "ja": "働く"
+      }
+    },
+    {
+      "id": "s4_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The city where I was born.",
+        "th": "我出生的那个城市",
+        "fa": "شهری که در آن متولد شدم",
+        "ar": "المدينة التي ولدت فيها",
+        "es": "La ciudad donde nací",
+        "zh": "我出生的那个城市",
+        "ja": "私が生まれた都市"
+      }
+    },
+    {
+      "id": "s4_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The house where I live.",
+        "th": "我住的那栋房子",
+        "fa": "خانه‌ای که در آن زندگی می‌کنم",
+        "ar": "المنزل الذي أعيش فيه",
+        "es": "La casa donde vivo",
+        "zh": "我住的那栋房子",
+        "ja": "私が住んでいる家"
+      }
+    },
+    {
+      "id": "s4_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The office where I work.",
+        "th": "我工作的那间办公室",
+        "fa": "دفتری که در آن کار می‌کنم",
+        "ar": "المكتب الذي أعمل فيه",
+        "es": "La oficina donde trabajo",
+        "zh": "我工作的那间办公室",
+        "ja": "私が働いている事務所"
+      }
+    },
+    {
+      "id": "s4_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The park where we play.",
+        "th": "我们玩的那个公园",
+        "fa": "پارکی که در آن بازی می‌کنیم",
+        "ar": "الحديقة التي نلعب فيها",
+        "es": "El parque donde jugamos",
+        "zh": "我们玩的那个公园",
+        "ja": "私たちが遊ぶ公園"
+      }
+    },
+    {
+      "id": "s4_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The school where she studies.",
+        "th": "她学习的那所学校",
+        "fa": "مدرسه‌ای که در آن درس می‌خواند",
+        "ar": "المدرسة التي تدرس فيها",
+        "es": "La escuela donde ella estudia",
+        "zh": "她学习的那所学校",
+        "ja": "彼女が勉強している学校"
+      }
+    },
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Time Relative (When)",
+        "th": "อนุประโยค时间 (When)",
+        "fa": "عبارت موصولی زمانی",
+        "ar": "الصلة الزمانية",
+        "es": "Relativa de tiempo",
+        "zh": "时间关系从句",
+        "ja": "時関係節"
+      }
+    },
+    {
+      "id": "w5_1",
+      "kind": "word",
+      "texts": {
+        "en": "day",
+        "th": "天",
+        "fa": "روز",
+        "ar": "يوم",
+        "es": "día",
+        "zh": "天",
+        "ja": "日"
+      }
+    },
+    {
+      "id": "w5_2",
+      "kind": "word",
+      "texts": {
+        "en": "when",
+        "th": "当",
+        "fa": "که در",
+        "ar": "عندما",
+        "es": "cuando",
+        "zh": "当",
+        "ja": "のとき"
+      }
+    },
+    {
+      "id": "w5_3",
+      "kind": "word",
+      "texts": {
+        "en": "met",
+        "th": "遇见",
+        "fa": "ملاقات",
+        "ar": "التقى",
+        "es": "conocí",
+        "zh": "遇见",
+        "ja": "会った"
+      }
+    },
+    {
+      "id": "w5_4",
+      "kind": "word",
+      "texts": {
+        "en": "left",
+        "th": "离开",
+        "fa": "ترک",
+        "ar": "غادر",
+        "es": "salió",
+        "zh": "离开",
+        "ja": "去った"
+      }
+    },
+    {
+      "id": "w5_5",
+      "kind": "word",
+      "texts": {
+        "en": "started",
+        "th": "开始",
+        "fa": "شروع",
+        "ar": "بدأ",
+        "es": "empezó",
+        "zh": "开始",
+        "ja": "始まった"
+      }
+    },
+    {
+      "id": "s5_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The day when we met.",
+        "th": "我们遇见的那一天",
+        "fa": "روزی که همدیگر را دیدیم",
+        "ar": "اليوم الذي التقينا فيه",
+        "es": "El día cuando nos conocimos",
+        "zh": "我们遇见的那一天",
+        "ja": "私たちが会った日"
+      }
+    },
+    {
+      "id": "s5_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The time when he left.",
+        "th": "他离开的那个时候",
+        "fa": "زمانی که او رفت",
+        "ar": "الوقت الذي غادر فيه",
+        "es": "El tiempo cuando él salió",
+        "zh": "他离开的那个时候",
+        "ja": "彼が去った時"
+      }
+    },
+    {
+      "id": "s5_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The year when it started.",
+        "th": "它开始的那一年",
+        "fa": "سالی که شروع شد",
+        "ar": "السنة التي بدأ فيها",
+        "es": "El año cuando empezó",
+        "zh": "它开始的那一年",
+        "ja": "それが始まった年"
+      }
+    },
+    {
+      "id": "s5_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The moment when I knew.",
+        "th": "我知道的那一刻",
+        "fa": "لحظه‌ای که فهمیدم",
+        "ar": "اللحظة التي عرفت فيها",
+        "es": "El momento cuando supe",
+        "zh": "我知道的那一刻",
+        "ja": "私が知った瞬間"
+      }
+    },
+    {
+      "id": "s5_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The night when it rained.",
+        "th": "下雨的那一晚",
+        "fa": "شبی که باران آمد",
+        "ar": "الليلة التي أمطرت فيها",
+        "es": "La noche cuando llovió",
+        "zh": "下雨的那一晚",
+        "ja": "雨が降った夜"
+      }
+    }
+  ]
+}

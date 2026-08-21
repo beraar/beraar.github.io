@@ -1,0 +1,725 @@
+{
+  "version": 2,
+  "displayMode": "standard",
+  "items": [
+    {
+      "id": "h1",
+      "header": true,
+      "texts": {
+        "en": "Ser for Identity & Profession",
+        "th": "Ser สำหรับอัตลักษณ์และอาชีพ",
+        "fa": "Ser برای هویت و شغل",
+        "ar": "Ser للهوية والمهنة",
+        "es": "Ser para identidad y profesión",
+        "zh": "Ser 用于身份与职业",
+        "ja": "Ser：アイデンティティと職業"
+      }
+    },
+    {
+      "id": "w1_1",
+      "kind": "word",
+      "texts": {
+        "en": "I am",
+        "th": "ฉันเป็น",
+        "fa": "من هستم",
+        "ar": "أنا",
+        "es": "Soy",
+        "zh": "我是",
+        "ja": "私は～です"
+      }
+    },
+    {
+      "id": "w1_2",
+      "kind": "word",
+      "texts": {
+        "en": "teacher",
+        "th": "ครู",
+        "fa": "معلم",
+        "ar": "معلم",
+        "es": "profesor",
+        "zh": "老师",
+        "ja": "先生"
+      }
+    },
+    {
+      "id": "w1_3",
+      "kind": "word",
+      "texts": {
+        "en": "she is",
+        "th": "เธอเป็น",
+        "fa": "او هست",
+        "ar": "هي",
+        "es": "Ella es",
+        "zh": "她是",
+        "ja": "彼女は～です"
+      }
+    },
+    {
+      "id": "w1_4",
+      "kind": "word",
+      "texts": {
+        "en": "doctor",
+        "th": "หมอ",
+        "fa": "دکتر",
+        "ar": "طبيب",
+        "es": "médica",
+        "zh": "医生",
+        "ja": "医者"
+      }
+    },
+    {
+      "id": "w1_5",
+      "kind": "word",
+      "texts": {
+        "en": "engineer",
+        "th": "วิศวกร",
+        "fa": "مهندس",
+        "ar": "مهندس",
+        "es": "ingeniero",
+        "zh": "工程师",
+        "ja": "エンジニア"
+      }
+    },
+    {
+      "id": "s1_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I am a teacher.",
+        "th": "ฉันเป็นครู",
+        "fa": "من یک معلم هستم.",
+        "ar": "أنا معلم.",
+        "es": "Soy profesor.",
+        "zh": "我是一名老师。",
+        "ja": "私は先生です。"
+      }
+    },
+    {
+      "id": "s1_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "She is a doctor.",
+        "th": "เธอเป็นหมอ",
+        "fa": "او یک دکتر است.",
+        "ar": "هي طبيبة.",
+        "es": "Ella es médica.",
+        "zh": "她是一名医生。",
+        "ja": "彼女は医者です。"
+      }
+    },
+    {
+      "id": "s1_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "He is an engineer.",
+        "th": "เขาเป็นวิศวกร",
+        "fa": "او یک مهندس است.",
+        "ar": "هو مهندس.",
+        "es": "Él es ingeniero.",
+        "zh": "他是一名工程师。",
+        "ja": "彼はエンジニアです。"
+      }
+    },
+    {
+      "id": "s1_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "We are students.",
+        "th": "พวกเราเป็นนักเรียน",
+        "fa": "ما دانش‌آموز هستیم.",
+        "ar": "نحن طلاب.",
+        "es": "Somos estudiantes.",
+        "zh": "我们是学生。",
+        "ja": "私たちは学生です。"
+      }
+    },
+    {
+      "id": "s1_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "You are a friend.",
+        "th": "คุณเป็นเพื่อน",
+        "fa": "تو یک دوست هستی.",
+        "ar": "أنت صديق.",
+        "es": "Tú eres un amigo.",
+        "zh": "你是一个朋友。",
+        "ja": "あなたは友達です。"
+      }
+    },
+
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Ser for Origin & Nationality",
+        "th": "Ser สำหรับถิ่นกำเนิดและสัญชาติ",
+        "fa": "Ser برای اصل و ملیت",
+        "ar": "Ser للأصل والجنسية",
+        "es": "Ser para origen y nacionalidad",
+        "zh": "Ser 用于出身与国籍",
+        "ja": "Ser：出身と国籍"
+      }
+    },
+    {
+      "id": "w2_1",
+      "kind": "word",
+      "texts": {
+        "en": "from",
+        "th": "จาก",
+        "fa": "از",
+        "ar": "من",
+        "es": "de",
+        "zh": "来自",
+        "ja": "～から"
+      }
+    },
+    {
+      "id": "w2_2",
+      "kind": "word",
+      "texts": {
+        "en": "Spain",
+        "th": "สเปน",
+        "fa": "اسپانیا",
+        "ar": "إسبانيا",
+        "es": "España",
+        "zh": "西班牙",
+        "ja": "スペイン"
+      }
+    },
+    {
+      "id": "w2_3",
+      "kind": "word",
+      "texts": {
+        "en": "Mexico",
+        "th": "เม็กซิโก",
+        "fa": "مکزیک",
+        "ar": "المكسيك",
+        "es": "México",
+        "zh": "墨西哥",
+        "ja": "メキシコ"
+      }
+    },
+    {
+      "id": "w2_4",
+      "kind": "word",
+      "texts": {
+        "en": "Japan",
+        "th": "ญี่ปุ่น",
+        "fa": "ژاپن",
+        "ar": "اليابان",
+        "es": "Japón",
+        "zh": "日本",
+        "ja": "日本"
+      }
+    },
+    {
+      "id": "w2_5",
+      "kind": "word",
+      "texts": {
+        "en": "Colombia",
+        "th": "โคลอมเบีย",
+        "fa": "کلمبیا",
+        "ar": "كولومبيا",
+        "es": "Colombia",
+        "zh": "哥伦比亚",
+        "ja": "コロンビア"
+      }
+    },
+    {
+      "id": "s2_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I am from Spain.",
+        "th": "ฉันมาจากสเปน",
+        "fa": "من از اسپانیا هستم.",
+        "ar": "أنا من إسبانيا.",
+        "es": "Soy de España.",
+        "zh": "我来自西班牙。",
+        "ja": "私はスペイン出身です。"
+      }
+    },
+    {
+      "id": "s2_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "She is from Mexico.",
+        "th": "เธอมาจากเม็กซิโก",
+        "fa": "او از مکزیک است.",
+        "ar": "هي من المكسيك.",
+        "es": "Ella es de México.",
+        "zh": "她来自墨西哥。",
+        "ja": "彼女はメキシコ出身です。"
+      }
+    },
+    {
+      "id": "s2_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "He is from Japan.",
+        "th": "เขามาจากญี่ปุ่น",
+        "fa": "او از ژاپن است.",
+        "ar": "هو من اليابان.",
+        "es": "Él es de Japón.",
+        "zh": "他来自日本。",
+        "ja": "彼は日本出身です。"
+      }
+    },
+    {
+      "id": "s2_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "We are from Colombia.",
+        "th": "พวกเรามาจากโคลอมเบีย",
+        "fa": "ما از کلمبیا هستیم.",
+        "ar": "نحن من كولومبيا.",
+        "es": "Somos de Colombia.",
+        "zh": "我们来自哥伦比亚。",
+        "ja": "私たちはコロンビア出身です。"
+      }
+    },
+    {
+      "id": "s2_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "They are from Argentina.",
+        "th": "พวกเขามาจากอาร์เจนตินา",
+        "fa": "آن‌ها از آرژانتین هستند.",
+        "ar": "هم من الأرجنتين.",
+        "es": "Ellos son de Argentina.",
+        "zh": "他们来自阿根廷。",
+        "ja": "彼らはアルゼンチン出身です。"
+      }
+    },
+
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Estar for Location & Position",
+        "th": "Estar สำหรับตำแหน่งและที่ตั้ง",
+        "fa": "Estar برای مکان و موقعیت",
+        "ar": "Estar للموقع والموضع",
+        "es": "Estar para ubicación y posición",
+        "zh": "Estar 用于位置与方位",
+        "ja": "Estar：場所と位置"
+      }
+    },
+    {
+      "id": "w3_1",
+      "kind": "word",
+      "texts": {
+        "en": "in",
+        "th": "ใน",
+        "fa": "در",
+        "ar": "في",
+        "es": "en",
+        "zh": "在...里",
+        "ja": "～の中に"
+      }
+    },
+    {
+      "id": "w3_2",
+      "kind": "word",
+      "texts": {
+        "en": "house",
+        "th": "บ้าน",
+        "fa": "خانه",
+        "ar": "casa",
+        "es": "casa",
+        "zh": "房子",
+        "ja": "家"
+      }
+    },
+    {
+      "id": "w3_3",
+      "kind": "word",
+      "texts": {
+        "en": "on",
+        "th": "บน",
+        "fa": "روی",
+        "ar": "على",
+        "es": "sobre",
+        "zh": "在...上",
+        "ja": "～の上に"
+      }
+    },
+    {
+      "id": "w3_4",
+      "kind": "word",
+      "texts": {
+        "en": "table",
+        "th": "โต๊ะ",
+        "fa": "میز",
+        "ar": "mesa",
+        "es": "mesa",
+        "zh": "桌子",
+        "ja": "テーブル"
+      }
+    },
+    {
+      "id": "w3_5",
+      "kind": "word",
+      "texts": {
+        "en": "at",
+        "th": "ที่",
+        "fa": "در",
+        "ar": "في",
+        "es": "en",
+        "zh": "在",
+        "ja": "～で"
+      }
+    },
+    {
+      "id": "s3_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I am in the house.",
+        "th": "ฉันอยู่ในบ้าน",
+        "fa": "من در خانه هستم.",
+        "ar": "أنا في المنزل.",
+        "es": "Estoy en la casa.",
+        "zh": "我在房子里。",
+        "ja": "私は家にいます。"
+      }
+    },
+    {
+      "id": "s3_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The book is on the table.",
+        "th": "หนังสืออยู่บนโต๊ะ",
+        "fa": "کتاب روی میز است.",
+        "ar": "الكتاب على الطاولة.",
+        "es": "El libro está sobre la mesa.",
+        "zh": "书在桌子上。",
+        "ja": "本はテーブルの上にあります。"
+      }
+    },
+    {
+      "id": "s3_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "He is at school.",
+        "th": "เขาอยู่ที่โรงเรียน",
+        "fa": "او در مدرسه است.",
+        "ar": "هو في المدرسة.",
+        "es": "Él está en la escuela.",
+        "zh": "他在学校。",
+        "ja": "彼は学校にいます。"
+      }
+    },
+    {
+      "id": "s3_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "We are in the park.",
+        "th": "พวกเราอยู่ในสวนสาธารณะ",
+        "fa": "ما در پارک هستیم.",
+        "ar": "نحن في الحديقة.",
+        "es": "Estamos en el parque.",
+        "zh": "我们在公园里。",
+        "ja": "私たちは公園にいます。"
+      }
+    },
+    {
+      "id": "s3_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "They are at work.",
+        "th": "พวกเขาอยู่ที่ทำงาน",
+        "fa": "آن‌ها در محل کار هستند.",
+        "ar": "هم في العمل.",
+        "es": "Ellos están en el trabajo.",
+        "zh": "他们在上班。",
+        "ja": "彼らは職場にいます。"
+      }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Estar for Temporary States & Emotions",
+        "th": "Estar สำหรับสถานะชั่วคราวและอารมณ์",
+        "fa": "Estar برای حالات موقت و احساسات",
+        "ar": "Estar للحالات المؤقتة والمشاعر",
+        "es": "Estar para estados temporales y emociones",
+        "zh": "Estar 用于临时状态与情绪",
+        "ja": "Estar：一時的な状態と感情"
+      }
+    },
+    {
+      "id": "w4_1",
+      "kind": "word",
+      "texts": {
+        "en": "tired",
+        "th": "เหนื่อย",
+        "fa": "خسته",
+        "ar": "متعب",
+        "es": "cansado",
+        "zh": "累",
+        "ja": "疲れた"
+      }
+    },
+    {
+      "id": "w4_2",
+      "kind": "word",
+      "texts": {
+        "en": "happy",
+        "th": "มีความสุข",
+        "fa": "خوشحال",
+        "ar": "سعيد",
+        "es": "feliz",
+        "zh": "高兴",
+        "ja": "幸せ"
+      }
+    },
+    {
+      "id": "w4_3",
+      "kind": "word",
+      "texts": {
+        "en": "sad",
+        "th": "เศร้า",
+        "fa": "غمگین",
+        "ar": "حزين",
+        "es": "triste",
+        "zh": "伤心",
+        "ja": "悲しい"
+      }
+    },
+    {
+      "id": "w4_4",
+      "kind": "word",
+      "texts": {
+        "en": "sick",
+        "th": "ป่วย",
+        "fa": "بیمار",
+        "ar": "مريض",
+        "es": "enfermo",
+        "zh": "生病",
+        "ja": "病気"
+      }
+    },
+    {
+      "id": "w4_5",
+      "kind": "word",
+      "texts": {
+        "en": "well",
+        "th": "สบายดี",
+        "fa": "خوب",
+        "ar": "بخير",
+        "es": "bien",
+        "zh": "好",
+        "ja": "元気"
+      }
+    },
+    {
+      "id": "s4_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I am tired.",
+        "th": "ฉันเหนื่อย",
+        "fa": "من خسته هستم.",
+        "ar": "أنا متعب.",
+        "es": "Estoy cansado.",
+        "zh": "我很累。",
+        "ja": "私は疲れています。"
+      }
+    },
+    {
+      "id": "s4_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "She is happy.",
+        "th": "เธอมีความสุข",
+        "fa": "او خوشحال است.",
+        "ar": "هي سعيدة.",
+        "es": "Ella está feliz.",
+        "zh": "她很高兴。",
+        "ja": "彼女は幸せです。"
+      }
+    },
+    {
+      "id": "s4_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "He is sad.",
+        "th": "เขาเศร้า",
+        "fa": "او غمگین است.",
+        "ar": "هو حزين.",
+        "es": "Él está triste.",
+        "zh": "他很伤心。",
+        "ja": "彼は悲しいです。"
+      }
+    },
+    {
+      "id": "s4_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "We are sick.",
+        "th": "พวกเราป่วย",
+        "fa": "ما بیمار هستیم.",
+        "ar": "نحن مرضى.",
+        "es": "Estamos enfermos.",
+        "zh": "我们生病了。",
+        "ja": "私たちは病気です。"
+      }
+    },
+    {
+      "id": "s4_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "You are well.",
+        "th": "คุณสบายดี",
+        "fa": "تو خوب هستی.",
+        "ar": "أنت بخير.",
+        "es": "Tú estás bien.",
+        "zh": "你很好。",
+        "ja": "あなたは元気です。"
+      }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Mixed Ser vs. Estar",
+        "th": "การผสม Ser vs. Estar",
+        "fa": "ترکیب Ser و Estar",
+        "ar": "مزج Ser و Estar",
+        "es": "Mezcla de Ser y Estar",
+        "zh": "Ser 与 Estar 混合",
+        "ja": "SerとEstarの混合"
+      }
+    },
+    {
+      "id": "w5_1",
+      "kind": "word",
+      "texts": {
+        "en": "tall",
+        "th": "สูง",
+        "fa": "قد بلند",
+        "ar": "طويل",
+        "es": "alto",
+        "zh": "高",
+        "ja": "背が高い"
+      }
+    },
+    {
+      "id": "w5_2",
+      "kind": "word",
+      "texts": {
+        "en": "building",
+        "th": "ตึก",
+        "fa": "ساختمان",
+        "ar": "مبنى",
+        "es": "edificio",
+        "zh": "建筑",
+        "ja": "建物"
+      }
+    },
+    {
+      "id": "w5_3",
+      "kind": "word",
+      "texts": {
+        "en": "hungry",
+        "th": "หิว",
+        "fa": "گرسنه",
+        "ar": "جائع",
+        "es": "hambriento",
+        "zh": "饿",
+        "ja": "お腹が空いた"
+      }
+    },
+    {
+      "id": "w5_4",
+      "kind": "word",
+      "texts": {
+        "en": "apple",
+        "th": "แอปเปิ้ล",
+        "fa": "سیب",
+        "ar": "تفاحة",
+        "es": "manzana",
+        "zh": "苹果",
+        "ja": "りんご"
+      }
+    },
+    {
+      "id": "w5_5",
+      "kind": "word",
+      "texts": {
+        "en": "cold",
+        "th": "หนาว",
+        "fa": "سرد",
+        "ar": "بارد",
+        "es": "frío",
+        "zh": "冷",
+        "ja": "寒い"
+      }
+    },
+    {
+      "id": "s5_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I am tall.",
+        "th": "ฉันสูง",
+        "fa": "من قد بلند هستم.",
+        "ar": "أنا طويل.",
+        "es": "Soy alto.",
+        "zh": "我个子高。",
+        "ja": "私は背が高いです。"
+      }
+    },
+    {
+      "id": "s5_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The building is tall.",
+        "th": "ตึกนั้นสูง",
+        "fa": "ساختمان قد بلند است.",
+        "ar": "المبنى طويل.",
+        "es": "El edificio es alto.",
+        "zh": "那栋建筑很高。",
+        "ja": "その建物は高いです。"
+      }
+    },
+    {
+      "id": "s5_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "I am hungry.",
+        "th": "ฉันหิว",
+        "fa": "من گرسنه هستم.",
+        "ar": "أنا جائع.",
+        "es": "Estoy hambriento.",
+        "zh": "我饿了。",
+        "ja": "私はお腹が空いています。"
+      }
+    },
+    {
+      "id": "s5_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The apple is green.",
+        "th": "แอปเปิ้ลเป็นสีเขียว",
+        "fa": "سیب سبز است.",
+        "ar": "التفاحة خضراء.",
+        "es": "La manzana es verde.",
+        "zh": "那个苹果是绿色的。",
+        "ja": "そのりんごは緑色です。"
+      }
+    },
+    {
+      "id": "s5_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "We are cold.",
+        "th": "พวกเรารู้สึกหนาว",
+        "fa": "ما سردمان است.",
+        "ar": "نحن نشعر بالبرد.",
+        "es": "Estamos fríos.",
+        "zh": "我们觉得很冷。",
+        "ja": "私たちは寒いです。"
+      }
+    }
+  ]
+}

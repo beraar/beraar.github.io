@@ -1,0 +1,720 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "h1",
+      "header": true,
+      "texts": {
+        "en": "Present Passive",
+        "th": "รูปถูกกระทำปัจจุบัน",
+        "fa": "مجهول حال",
+        "ar": "المجهول الحاضر",
+        "es": "Pasiva presente",
+        "zh": "现在被动",
+        "ja": "現在受動態"
+      }
+    },
+    {
+      "id": "w1_1",
+      "kind": "word",
+      "texts": {
+        "en": "is",
+        "th": "是",
+        "fa": "است",
+        "ar": "هو",
+        "es": "es",
+        "zh": "是",
+        "ja": "です"
+      }
+    },
+    {
+      "id": "w1_2",
+      "kind": "word",
+      "texts": {
+        "en": "made",
+        "th": "做",
+        "fa": "ساخته",
+        "ar": "مصنوع",
+        "es": "hecho",
+        "zh": "做",
+        "ja": "作られる"
+      }
+    },
+    {
+      "id": "w1_3",
+      "kind": "word",
+      "texts": {
+        "en": "built",
+        "th": "建",
+        "fa": "ساخته",
+        "ar": "مبني",
+        "es": "construido",
+        "zh": "建",
+        "ja": "建てられる"
+      }
+    },
+    {
+      "id": "w1_4",
+      "kind": "word",
+      "texts": {
+        "en": "written",
+        "th": "写",
+        "fa": "نوشته",
+        "ar": "مكتوب",
+        "es": "escrito",
+        "zh": "写",
+        "ja": "書かれる"
+      }
+    },
+    {
+      "id": "w1_5",
+      "kind": "word",
+      "texts": {
+        "en": "spoken",
+        "th": "说",
+        "fa": "گفته",
+        "ar": "منطوق",
+        "es": "hablado",
+        "zh": "说",
+        "ja": "話される"
+      }
+    },
+    {
+      "id": "s1_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "It is made of wood.",
+        "th": "它是木头做的",
+        "fa": "آن از چوب ساخته شده",
+        "ar": "إنه مصنوع من الخشب",
+        "es": "Está hecho de madera",
+        "zh": "它是木头做的",
+        "ja": "それは木でできている"
+      }
+    },
+    {
+      "id": "s1_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The house is built of stone.",
+        "th": "房子是石头建的",
+        "fa": "خانه از سنگ ساخته شده",
+        "ar": "المنزل مبني من الحجر",
+        "es": "La casa está construida de piedra",
+        "zh": "房子是石头建的",
+        "ja": "その家は石で建てられている"
+      }
+    },
+    {
+      "id": "s1_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The book is written in English.",
+        "th": "书是用英语写的",
+        "fa": "کتاب به انگلیسی نوشته شده",
+        "ar": "الكتاب مكتوب بالإنجليزية",
+        "es": "El libro está escrito en inglés",
+        "zh": "书是用英语写的",
+        "ja": "その本は英語で書かれている"
+      }
+    },
+    {
+      "id": "s1_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "Spanish is spoken here.",
+        "th": "这里说西班牙语",
+        "fa": "اسپانیایی اینجا صحبت می‌شود",
+        "ar": "الإسبانية تتحدث هنا",
+        "es": "El español se habla aquí",
+        "zh": "这里说西班牙语",
+        "ja": "ここではスペイン語が話される"
+      }
+    },
+    {
+      "id": "s1_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The work is done.",
+        "th": "工作完成了",
+        "fa": "کار انجام شده",
+        "ar": "العمل منجز",
+        "es": "El trabajo está hecho",
+        "zh": "工作完成了",
+        "ja": "仕事は完了している"
+      }
+    },
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Past Passive",
+        "th": "รูปถูกกระทำอดีต",
+        "fa": "مجهول گذشته",
+        "ar": "المجهول الماضي",
+        "es": "Pasiva pasada",
+        "zh": "过去被动",
+        "ja": "過去受動態"
+      }
+    },
+    {
+      "id": "w2_1",
+      "kind": "word",
+      "texts": {
+        "en": "was",
+        "th": "曾是",
+        "fa": "بود",
+        "ar": "كان",
+        "es": "fue",
+        "zh": "曾是",
+        "ja": "だった"
+      }
+    },
+    {
+      "id": "w2_2",
+      "kind": "word",
+      "texts": {
+        "en": "stolen",
+        "th": "偷",
+        "fa": "دزدیده",
+        "ar": "مسروق",
+        "es": "robado",
+        "zh": "偷",
+        "ja": "盗まれた"
+      }
+    },
+    {
+      "id": "w2_3",
+      "kind": "word",
+      "texts": {
+        "en": "broken",
+        "th": "破",
+        "fa": "شکسته",
+        "ar": "مكسور",
+        "es": "roto",
+        "zh": "破",
+        "ja": "割れた"
+      }
+    },
+    {
+      "id": "w2_4",
+      "kind": "word",
+      "texts": {
+        "en": "scolded",
+        "th": "骂",
+        "fa": "سرزنش",
+        "ar": "موبخ",
+        "es": "regañado",
+        "zh": "骂",
+        "ja": "叱られた"
+      }
+    },
+    {
+      "id": "w2_5",
+      "kind": "word",
+      "texts": {
+        "en": "invited",
+        "th": "邀请",
+        "fa": "دعوت",
+        "ar": "مدعو",
+        "es": "invitado",
+        "zh": "邀请",
+        "ja": "招待された"
+      }
+    },
+    {
+      "id": "s2_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "My bag was stolen.",
+        "th": "我的包被偷了",
+        "fa": "کیف من دزدیده شد",
+        "ar": "سرقت حقيبتي",
+        "es": "Mi bolso fue robado",
+        "zh": "我的包被偷了",
+        "ja": "私のかばんが盗まれた"
+      }
+    },
+    {
+      "id": "s2_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The window was broken.",
+        "th": "窗户被打破了",
+        "fa": "پنجره شکسته شد",
+        "ar": "كسرت النافذة",
+        "es": "La ventana fue rota",
+        "zh": "窗户被打破了",
+        "ja": "窓が割られた"
+      }
+    },
+    {
+      "id": "s2_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "He was scolded.",
+        "th": "他被骂了",
+        "fa": "او سرزنش شد",
+        "ar": "تم توبيخه",
+        "es": "Él fue regañado",
+        "zh": "他被骂了",
+        "ja": "彼は叱られた"
+      }
+    },
+    {
+      "id": "s2_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "We were invited.",
+        "th": "我们被邀请了",
+        "fa": "ما دعوت شدیم",
+        "ar": "تمت دعوتنا",
+        "es": "Fuimos invitados",
+        "zh": "我们被邀请了",
+        "ja": "私たちは招待された"
+      }
+    },
+    {
+      "id": "s2_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The car was repaired.",
+        "th": "车被修了",
+        "fa": "ماشین تعمیر شد",
+        "ar": "تم إصلاح السيارة",
+        "es": "El coche fue reparado",
+        "zh": "车被修了",
+        "ja": "車が修理された"
+      }
+    },
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Passive with Agent (by)",
+        "th": "รูปถูกกระทำกับประธาน",
+        "fa": "مجهول با فاعل",
+        "ar": "المجهول بالفاعل",
+        "es": "Pasiva con agente",
+        "zh": "带施事被动",
+        "ja": "動作主付き受動態"
+      }
+    },
+    {
+      "id": "w3_1",
+      "kind": "word",
+      "texts": {
+        "en": "by",
+        "th": "โดย",
+        "fa": "توسط",
+        "ar": "بواسطة",
+        "es": "por",
+        "zh": "由",
+        "ja": "によって"
+      }
+    },
+    {
+      "id": "w3_2",
+      "kind": "word",
+      "texts": {
+        "en": "teacher",
+        "th": "老师",
+        "fa": "معلم",
+        "ar": "معلم",
+        "es": "profesor",
+        "zh": "老师",
+        "ja": "先生"
+      }
+    },
+    {
+      "id": "w3_3",
+      "kind": "word",
+      "texts": {
+        "en": "boss",
+        "th": "老板",
+        "fa": "رئیس",
+        "ar": "رئيس",
+        "es": "jefe",
+        "zh": "老板",
+        "ja": "上司"
+      }
+    },
+    {
+      "id": "w3_4",
+      "kind": "word",
+      "texts": {
+        "en": "police",
+        "th": "警察",
+        "fa": "پلیس",
+        "ar": "شرطة",
+        "es": "policía",
+        "zh": "警察",
+        "ja": "警察"
+      }
+    },
+    {
+      "id": "w3_5",
+      "kind": "word",
+      "texts": {
+        "en": "doctor",
+        "th": "医生",
+        "fa": "دکتر",
+        "ar": "طبيب",
+        "es": "médico",
+        "zh": "医生",
+        "ja": "医者"
+      }
+    },
+    {
+      "id": "s3_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "It was done by the teacher.",
+        "th": "这是老师做的",
+        "fa": "آن توسط معلم انجام شد",
+        "ar": "تم إنجازه بواسطة المعلم",
+        "es": "Fue hecho por el profesor",
+        "zh": "这是老师做的",
+        "ja": "それは先生によって行われた"
+      }
+    },
+    {
+      "id": "s3_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "He was fired by the boss.",
+        "th": "他被老板解雇了",
+        "fa": "او توسط رئیس اخراج شد",
+        "ar": "تم فصله بواسطة الرئيس",
+        "es": "Él fue despedido por el jefe",
+        "zh": "他被老板解雇了",
+        "ja": "彼は上司に解雇された"
+      }
+    },
+    {
+      "id": "s3_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The thief was caught by the police.",
+        "th": "小偷被警察抓住了",
+        "fa": "دزد توسط پلیس دستگیر شد",
+        "ar": "تم القبض على اللص بواسطة الشرطة",
+        "es": "El ladrón fue atrapado por la policía",
+        "zh": "小偷被警察抓住了",
+        "ja": "泥棒は警察に捕まった"
+      }
+    },
+    {
+      "id": "s3_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "I was examined by the doctor.",
+        "th": "我被医生检查了",
+        "fa": "من توسط دکتر معاینه شدم",
+        "ar": "تم فحصي بواسطة الطبيب",
+        "es": "Fui examinado por el médico",
+        "zh": "我被医生检查了",
+        "ja": "私は医者に診察された"
+      }
+    },
+    {
+      "id": "s3_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The song was sung by her.",
+        "th": "这首歌是她唱的",
+        "fa": "آهنگ توسط او خوانده شد",
+        "ar": "تم غناء الأغنية بواسطتها",
+        "es": "La canción fue cantada por ella",
+        "zh": "这首歌是她唱的",
+        "ja": "その歌は彼女によって歌われた"
+      }
+    },
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Passive with Modals",
+        "th": "รูปถูกกระทำกับคำช่วย",
+        "fa": "مجهول با افعال کمکی",
+        "ar": "المجهول مع الأفعال المساعدة",
+        "es": "Pasiva con modales",
+        "zh": "带情态动词被动",
+        "ja": "助動詞付き受動態"
+      }
+    },
+    {
+      "id": "w4_1",
+      "kind": "word",
+      "texts": {
+        "en": "can",
+        "th": "可以",
+        "fa": "می‌توان",
+        "ar": "يمكن",
+        "es": "puede",
+        "zh": "可以",
+        "ja": "できる"
+      }
+    },
+    {
+      "id": "w4_2",
+      "kind": "word",
+      "texts": {
+        "en": "must",
+        "th": "必须",
+        "fa": "باید",
+        "ar": "يجب",
+        "es": "debe",
+        "zh": "必须",
+        "ja": "しなければならない"
+      }
+    },
+    {
+      "id": "w4_3",
+      "kind": "word",
+      "texts": {
+        "en": "should",
+        "th": "应该",
+        "fa": "باید",
+        "ar": "يجب",
+        "es": "debería",
+        "zh": "应该",
+        "ja": "すべき"
+      }
+    },
+    {
+      "id": "w4_4",
+      "kind": "word",
+      "texts": {
+        "en": "be",
+        "th": "是",
+        "fa": "بودن",
+        "ar": "يكون",
+        "es": "ser",
+        "zh": "是",
+        "ja": "である"
+      }
+    },
+    {
+      "id": "w4_5",
+      "kind": "word",
+      "texts": {
+        "en": "done",
+        "th": "做",
+        "fa": "انجام",
+        "ar": "منجز",
+        "es": "hecho",
+        "zh": "做",
+        "ja": "される"
+      }
+    },
+    {
+      "id": "s4_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "It can be done.",
+        "th": "它可以被完成",
+        "fa": "آن می‌تواند انجام شود",
+        "ar": "يمكن إنجازه",
+        "es": "Puede ser hecho",
+        "zh": "它可以被完成",
+        "ja": "それはできる"
+      }
+    },
+    {
+      "id": "s4_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The work must be finished.",
+        "th": "工作必须完成",
+        "fa": "کار باید تمام شود",
+        "ar": "يجب إنهاء العمل",
+        "es": "El trabajo debe ser terminado",
+        "zh": "工作必须完成",
+        "ja": "仕事を終えなければならない"
+      }
+    },
+    {
+      "id": "s4_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The rules should be followed.",
+        "th": "规则应该被遵守",
+        "fa": "قوانین باید رعایت شوند",
+        "ar": "يجب اتباع القواعد",
+        "es": "Las reglas deben ser seguidas",
+        "zh": "规则应该被遵守",
+        "ja": "規則は守られるべき"
+      }
+    },
+    {
+      "id": "s4_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The door can be opened.",
+        "th": "门可以被打开",
+        "fa": "در می‌تواند باز شود",
+        "ar": "يمكن فتح الباب",
+        "es": "La puerta puede ser abierta",
+        "zh": "门可以被打开",
+        "ja": "ドアは開けられる"
+      }
+    },
+    {
+      "id": "s4_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The problem must be solved.",
+        "th": "问题必须被解决",
+        "fa": "مشکل باید حل شود",
+        "ar": "يجب حل المشكلة",
+        "es": "El problema debe ser resuelto",
+        "zh": "问题必须被解决",
+        "ja": "問題は解決されなければならない"
+      }
+    },
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Future Passive",
+        "th": "รูปถูกกระทำอนาคต",
+        "fa": "مجهول آینده",
+        "ar": "المجهول المستقبلي",
+        "es": "Pasiva futura",
+        "zh": "将来被动",
+        "ja": "未来受動態"
+      }
+    },
+    {
+      "id": "w5_1",
+      "kind": "word",
+      "texts": {
+        "en": "will",
+        "th": "将",
+        "fa": "خواهد",
+        "ar": "سوف",
+        "es": "será",
+        "zh": "将",
+        "ja": "される"
+      }
+    },
+    {
+      "id": "w5_2",
+      "kind": "word",
+      "texts": {
+        "en": "published",
+        "th": "出版",
+        "fa": "منتشر",
+        "ar": "منشور",
+        "es": "publicado",
+        "zh": "出版",
+        "ja": "出版される"
+      }
+    },
+    {
+      "id": "w5_3",
+      "kind": "word",
+      "texts": {
+        "en": "released",
+        "th": "发布",
+        "fa": "منتشر",
+        "ar": "مصدر",
+        "es": "lanzado",
+        "zh": "发布",
+        "ja": "リリースされる"
+      }
+    },
+    {
+      "id": "w5_4",
+      "kind": "word",
+      "texts": {
+        "en": "announced",
+        "th": "宣布",
+        "fa": "اعلام",
+        "ar": "معلن",
+        "es": "anunciado",
+        "zh": "宣布",
+        "ja": "発表される"
+      }
+    },
+    {
+      "id": "w5_5",
+      "kind": "word",
+      "texts": {
+        "en": "posted",
+        "th": "张贴",
+        "fa": "پست",
+        "ar": "منشور",
+        "es": "publicado",
+        "zh": "张贴",
+        "ja": "投稿される"
+      }
+    },
+    {
+      "id": "s5_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The book will be published.",
+        "th": "书将被出版",
+        "fa": "کتاب منتشر خواهد شد",
+        "ar": "سيتم نشر الكتاب",
+        "es": "El libro será publicado",
+        "zh": "书将被出版",
+        "ja": "本は出版される"
+      }
+    },
+    {
+      "id": "s5_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The movie will be released.",
+        "th": "电影将被发布",
+        "fa": "فیلم اکران خواهد شد",
+        "ar": "سيتم إصدار الفيلم",
+        "es": "La película será lanzada",
+        "zh": "电影将被发布",
+        "ja": "映画はリリースされる"
+      }
+    },
+    {
+      "id": "s5_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The winner will be announced.",
+        "th": "获胜者将被宣布",
+        "fa": "برنده اعلام خواهد شد",
+        "ar": "سيتم الإعلان عن الفائز",
+        "es": "El ganador será anunciado",
+        "zh": "获胜者将被宣布",
+        "ja": "勝者が発表される"
+      }
+    },
+    {
+      "id": "s5_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The results will be posted.",
+        "th": "结果将被张贴",
+        "fa": "نتایج پست خواهد شد",
+        "ar": "سيتم نشر النتائج",
+        "es": "Los resultados serán publicados",
+        "zh": "结果将被张贴",
+        "ja": "結果は投稿される"
+      }
+    },
+    {
+      "id": "s5_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The decision will be made.",
+        "th": "决定将被做出",
+        "fa": "تصمیم گرفته خواهد شد",
+        "ar": "سيتم اتخاذ القرار",
+        "es": "La decisión será tomada",
+        "zh": "决定将被做出",
+        "ja": "決定が下される"
+      }
+    }
+  ]
+}

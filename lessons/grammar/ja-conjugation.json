@@ -1,0 +1,752 @@
+{
+  "version": 2,
+  "displayMode": "standard",
+  "items": [
+    {
+      "id": "h1",
+      "header": true,
+      "texts": {
+        "en": "Polite Present/Future (masu)",
+        "th": "รูปแบบสุภาพ ปัจจุบัน/อนาคต (masu)",
+        "fa": "حال/آینده مؤدبانه (masu)",
+        "ar": "الحاضر/المستقبل المهذب (masu)",
+        "es": "Presente/Futuro cortés (masu)",
+        "zh": "礼貌现在/将来时 (masu)",
+        "ja": "丁寧な現在・未来 (ます)"
+      }
+    },
+    {
+      "id": "w1_1",
+      "kind": "word",
+      "texts": {
+        "en": "masu (ます)",
+        "th": "masu (ます)",
+        "fa": "masu (ます)",
+        "ar": "masu (ます)",
+        "es": "masu (ます)",
+        "zh": "masu (ます)",
+        "ja": "ます"
+      }
+    },
+    {
+      "id": "w1_2",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "w1_3",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "يأكل",
+        "es": "comer",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "w1_4",
+      "kind": "word",
+      "texts": {
+        "en": "drink",
+        "th": "ดื่ม",
+        "fa": "نوشیدن",
+        "ar": "يشرب",
+        "es": "beber",
+        "zh": "喝",
+        "ja": "飲む"
+      }
+    },
+    {
+      "id": "w1_5",
+      "kind": "word",
+      "texts": {
+        "en": "see/watch",
+        "th": "ดู/มอง",
+        "fa": "دیدن",
+        "ar": "يرى",
+        "es": "ver",
+        "zh": "看",
+        "ja": "見る"
+      }
+    },
+    {
+      "id": "s1_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I go to school.",
+        "th": "ฉันไปโรงเรียน",
+        "fa": "من به مدرسه می‌روم.",
+        "ar": "أذهب إلى المدرسة.",
+        "es": "Voy a la escuela.",
+        "zh": "我去学校。",
+        "ja": "学校に行きます。"
+      },
+      "tokens": { "ja": ["学校", "に", "行き", "ます", "。"] }
+    },
+    {
+      "id": "s1_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "I eat a meal.",
+        "th": "ฉันกินข้าว",
+        "fa": "من غذا می‌خورم.",
+        "ar": "آكل وجبة.",
+        "es": "Como una comida.",
+        "zh": "我吃饭。",
+        "ja": "ご飯を食べます。"
+      },
+      "tokens": { "ja": ["ご飯", "を", "食べ", "ます", "。"] }
+    },
+    {
+      "id": "s1_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "I drink water.",
+        "th": "ฉันดื่มน้ำ",
+        "fa": "من آب می‌نوشم.",
+        "ar": "أشرب الماء.",
+        "es": "Bebo agua.",
+        "zh": "我喝水。",
+        "ja": "水を飲みます。"
+      },
+      "tokens": { "ja": ["水", "を", "飲み", "ます", "。"] }
+    },
+    {
+      "id": "s1_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "I watch TV.",
+        "th": "ฉันดูทีวี",
+        "fa": "من تلویزیون می‌بینم.",
+        "ar": "أشاهد التلفاز.",
+        "es": "Veo la televisión.",
+        "zh": "我看电视。",
+        "ja": "テレビを見ます。"
+      },
+      "tokens": { "ja": ["テレビ", "を", "見", "ます", "。"] }
+    },
+    {
+      "id": "s1_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "I read a book.",
+        "th": "ฉันอ่านหนังสือ",
+        "fa": "من کتاب می‌خوانم.",
+        "ar": "أقرأ كتاباً.",
+        "es": "Leo un libro.",
+        "zh": "我读书。",
+        "ja": "本を読みます。"
+      },
+      "tokens": { "ja": ["本", "を", "読み", "ます", "。"] }
+    },
+
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Dictionary Form (Basics)",
+        "th": "รูปแบบพจนานุกรม (พื้นฐาน)",
+        "fa": "شکل لغت‌نامه‌ای (مقدماتی)",
+        "ar": "شكل القاموس (الأساسيات)",
+        "es": "Forma de diccionario (Básicos)",
+        "zh": "辞书形 (基础)",
+        "ja": "辞書形 (基本)"
+      }
+    },
+    {
+      "id": "w2_1",
+      "kind": "word",
+      "texts": {
+        "en": "iku (to go)",
+        "th": "iku (ไป)",
+        "fa": "iku (رفتن)",
+        "ar": "iku (الذهاب)",
+        "es": "iku (ir)",
+        "zh": "iku (去)",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "w2_2",
+      "kind": "word",
+      "texts": {
+        "en": "taberu (to eat)",
+        "th": "taberu (กิน)",
+        "fa": "taberu (خوردن)",
+        "ar": "taberu (الأكل)",
+        "es": "taberu (comer)",
+        "zh": "taberu (吃)",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "w2_3",
+      "kind": "word",
+      "texts": {
+        "en": "nomu (to drink)",
+        "th": "nomu (ดื่ม)",
+        "fa": "nomu (نوشیدن)",
+        "ar": "nomu (الشرب)",
+        "es": "nomu (beber)",
+        "zh": "nomu (喝)",
+        "ja": "飲む"
+      }
+    },
+    {
+      "id": "w2_4",
+      "kind": "word",
+      "texts": {
+        "en": "miru (to see)",
+        "th": "miru (ดู)",
+        "fa": "miru (دیدن)",
+        "ar": "miru (الرؤية)",
+        "es": "miru (ver)",
+        "zh": "miru (看)",
+        "ja": "見る"
+      }
+    },
+    {
+      "id": "w2_5",
+      "kind": "word",
+      "texts": {
+        "en": "yomu (to read)",
+        "th": "yomu (อ่าน)",
+        "fa": "yomu (خواندن)",
+        "ar": "yomu (القراءة)",
+        "es": "yomu (leer)",
+        "zh": "yomu (读)",
+        "ja": "読む"
+      }
+    },
+    {
+      "id": "s2_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I go every day.",
+        "th": "ฉันไปทุกวัน",
+        "fa": "من هر روز می‌روم.",
+        "ar": "أذهب كل يوم.",
+        "es": "Voy todos los días.",
+        "zh": "我每天去。",
+        "ja": "毎日行く。"
+      },
+      "tokens": { "ja": ["毎日", "行く", "。"] }
+    },
+    {
+      "id": "s2_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "I eat an apple.",
+        "th": "ฉันกินแอปเปิ้ล",
+        "fa": "من سیب می‌خورم.",
+        "ar": "آكل تفاحة.",
+        "es": "Como una manzana.",
+        "zh": "我吃苹果。",
+        "ja": "りんごを食べる。"
+      },
+      "tokens": { "ja": ["りんご", "を", "食べる", "。"] }
+    },
+    {
+      "id": "s2_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "I drink water.",
+        "th": "ฉันดื่มน้ำ",
+        "fa": "من آب می‌نوشم.",
+        "ar": "أشرب الماء.",
+        "es": "Bebo agua.",
+        "zh": "我喝水。",
+        "ja": "水を飲む。"
+      },
+      "tokens": { "ja": ["水", "を", "飲む", "。"] }
+    },
+    {
+      "id": "s2_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "I watch a movie.",
+        "th": "ฉันดูหนัง",
+        "fa": "من فیلم می‌بینم.",
+        "ar": "أشاهد فيلماً.",
+        "es": "Veo una película.",
+        "zh": "我看电影。",
+        "ja": "映画を見る。"
+      },
+      "tokens": { "ja": ["映画", "を", "見る", "。"] }
+    },
+    {
+      "id": "s2_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "I read a book.",
+        "th": "ฉันอ่านหนังสือ",
+        "fa": "من کتاب می‌خوانم.",
+        "ar": "أقرأ كتاباً.",
+        "es": "Leo un libro.",
+        "zh": "我读书。",
+        "ja": "本を読む。"
+      },
+      "tokens": { "ja": ["本", "を", "読む", "。"] }
+    },
+
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Polite Negative (masen)",
+        "th": "รูปแบบปฏิเสธแบบสุภาพ (masen)",
+        "fa": "منفی مؤدبانه (masen)",
+        "ar": "السلبي المهذب (masen)",
+        "es": "Negativo cortés (masen)",
+        "zh": "礼貌否定形 (masen)",
+        "ja": "丁寧な否定 (ません)"
+      }
+    },
+    {
+      "id": "w3_1",
+      "kind": "word",
+      "texts": {
+        "en": "masen (ません)",
+        "th": "masen (ません)",
+        "fa": "masen (ません)",
+        "ar": "masen (ません)",
+        "es": "masen (ません)",
+        "zh": "masen (ません)",
+        "ja": "ません"
+      }
+    },
+    {
+      "id": "w3_2",
+      "kind": "word",
+      "texts": {
+        "en": "do not go",
+        "th": "ไม่ไป",
+        "fa": "نمی‌روم",
+        "ar": "لا أذهب",
+        "es": "no voy",
+        "zh": "不去",
+        "ja": "行きません"
+      }
+    },
+    {
+      "id": "w3_3",
+      "kind": "word",
+      "texts": {
+        "en": "do not eat",
+        "th": "ไม่กิน",
+        "fa": "نمی‌خورم",
+        "ar": "لا آكل",
+        "es": "no como",
+        "zh": "不吃",
+        "ja": "食べません"
+      }
+    },
+    {
+      "id": "w3_4",
+      "kind": "word",
+      "texts": {
+        "en": "do not drink",
+        "th": "ไม่ดื่ม",
+        "fa": "نمی‌نوشم",
+        "ar": "لا أشرب",
+        "es": "no bebo",
+        "zh": "不喝",
+        "ja": "飲みません"
+      }
+    },
+    {
+      "id": "w3_5",
+      "kind": "word",
+      "texts": {
+        "en": "do not do",
+        "th": "ไม่ทำ",
+        "fa": "انجام نمی‌دهم",
+        "ar": "لا أفعل",
+        "es": "no hago",
+        "zh": "不做",
+        "ja": "しません"
+      }
+    },
+    {
+      "id": "s3_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I do not go to school.",
+        "th": "ฉันไม่ไปโรงเรียน",
+        "fa": "من به مدرسه نمی‌روم.",
+        "ar": "لا أذهب إلى المدرسة.",
+        "es": "No voy a la escuela.",
+        "zh": "我不去学校。",
+        "ja": "学校に行きません。"
+      },
+      "tokens": { "ja": ["学校", "に", "行き", "ません", "。"] }
+    },
+    {
+      "id": "s3_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "I do not eat meat.",
+        "th": "ฉันไม่กินเนื้อ",
+        "fa": "من گوشت نمی‌خورم.",
+        "ar": "لا آكل اللحم.",
+        "es": "No como carne.",
+        "zh": "我不吃肉。",
+        "ja": "肉を食べません。"
+      },
+      "tokens": { "ja": ["肉", "を", "食べ", "ません", "。"] }
+    },
+    {
+      "id": "s3_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "I do not drink alcohol.",
+        "th": "ฉันไม่ดื่มแอลกอฮอล์",
+        "fa": "من الکل نمی‌نوشم.",
+        "ar": "لا أشرب الكحول.",
+        "es": "No bebo alcohol.",
+        "zh": "我不喝酒。",
+        "ja": "お酒を飲みません。"
+      },
+      "tokens": { "ja": ["お酒", "を", "飲み", "ません", "。"] }
+    },
+    {
+      "id": "s3_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "I do not study.",
+        "th": "ฉันไม่เรียน",
+        "fa": "من مطالعه نمی‌کنم.",
+        "ar": "لا أدرس.",
+        "es": "No estudio.",
+        "zh": "我不学习。",
+        "ja": "勉強しません。"
+      },
+      "tokens": { "ja": ["勉強", "し", "ません", "。"] }
+    },
+    {
+      "id": "s3_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "I do not watch TV.",
+        "th": "ฉันไม่ดูทีวี",
+        "fa": "من تلویزیون نمی‌بینم.",
+        "ar": "لا أشاهد التلفاز.",
+        "es": "No veo la televisión.",
+        "zh": "我不看电视。",
+        "ja": "テレビを見ません。"
+      },
+      "tokens": { "ja": ["テレビ", "を", "見", "ません", "。"] }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Past Tense Polite (mashita)",
+        "th": "อดีตกาลแบบสุภาพ (mashita)",
+        "fa": "گذشته مؤدبانه (mashita)",
+        "ar": "الماضي المهذب (mashita)",
+        "es": "Pasado cortés (mashita)",
+        "zh": "礼貌过去时 (mashita)",
+        "ja": "丁寧な過去 (ました)"
+      }
+    },
+    {
+      "id": "w4_1",
+      "kind": "word",
+      "texts": {
+        "en": "mashita (ました)",
+        "th": "mashita (ました)",
+        "fa": "mashita (ました)",
+        "ar": "mashita (ました)",
+        "es": "mashita (ました)",
+        "zh": "mashita (ました)",
+        "ja": "ました"
+      }
+    },
+    {
+      "id": "w4_2",
+      "kind": "word",
+      "texts": {
+        "en": "went",
+        "th": "ไป (อดีต)",
+        "fa": "رفتم",
+        "ar": "ذهبت",
+        "es": "fui",
+        "zh": "去了",
+        "ja": "行きました"
+      }
+    },
+    {
+      "id": "w4_3",
+      "kind": "word",
+      "texts": {
+        "en": "ate",
+        "th": "กิน (อดีต)",
+        "fa": "خوردم",
+        "ar": "أكلت",
+        "es": "comí",
+        "zh": "吃了",
+        "ja": "食べました"
+      }
+    },
+    {
+      "id": "w4_4",
+      "kind": "word",
+      "texts": {
+        "en": "drank",
+        "th": "ดื่ม (อดีต)",
+        "fa": "نوشیدم",
+        "ar": "شربت",
+        "es": "bebí",
+        "zh": "喝了",
+        "ja": "飲みました"
+      }
+    },
+    {
+      "id": "w4_5",
+      "kind": "word",
+      "texts": {
+        "en": "watched",
+        "th": "ดู (อดีต)",
+        "fa": "دیدم",
+        "ar": "شاهدت",
+        "es": "vi",
+        "zh": "看了",
+        "ja": "見ました"
+      }
+    },
+    {
+      "id": "s4_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I went to school yesterday.",
+        "th": "เมื่อวานฉันไปโรงเรียน",
+        "fa": "دیروز به مدرسه رفتم.",
+        "ar": "ذهبت إلى المدرسة أمس.",
+        "es": "Ayer fui a la escuela.",
+        "zh": "我昨天去了学校。",
+        "ja": "昨日、学校に行きました。"
+      },
+      "tokens": {
+        "ja": ["昨日", "、", "学校", "に", "行き", "まし", "た", "。"]
+      }
+    },
+    {
+      "id": "s4_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "I ate sushi.",
+        "th": "ฉันกินซูชิ (อดีต)",
+        "fa": "من سوشی خوردم.",
+        "ar": "أكلت السوشي.",
+        "es": "Comí sushi.",
+        "zh": "我吃了寿司。",
+        "ja": "寿司を食べました。"
+      },
+      "tokens": { "ja": ["寿司", "を", "食べ", "まし", "た", "。"] }
+    },
+    {
+      "id": "s4_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "I drank coffee.",
+        "th": "ฉันดื่มกาแฟ (อดีต)",
+        "fa": "من قهوه نوشیدم.",
+        "ar": "شربت القهوة.",
+        "es": "Bebí café.",
+        "zh": "我喝了咖啡。",
+        "ja": "コーヒーを飲みました。"
+      },
+      "tokens": { "ja": ["コーヒー", "を", "飲み", "まし", "た", "。"] }
+    },
+    {
+      "id": "s4_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "I watched a movie.",
+        "th": "ฉันดูหนัง (อดีต)",
+        "fa": "من فیلم دیدم.",
+        "ar": "شاهدت فيلماً.",
+        "es": "Vi una película.",
+        "zh": "我看了电影。",
+        "ja": "映画を見ました。"
+      },
+      "tokens": { "ja": ["映画", "を", "見", "まし", "た", "。"] }
+    },
+    {
+      "id": "s4_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "I read a book.",
+        "th": "ฉันอ่านหนังสือ (อดีต)",
+        "fa": "من کتاب خواندم.",
+        "ar": "قرأت كتاباً.",
+        "es": "Leí un libro.",
+        "zh": "我读了书。",
+        "ja": "本を読みました。"
+      },
+      "tokens": { "ja": ["本", "を", "読み", "まし", "た", "。"] }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Dictionary Form for Noun Modification",
+        "th": "รูปแบบพจนานุกรมสำหรับขยายคำนาม",
+        "fa": "شکل لغت‌نامه‌ای برای توصیف اسم",
+        "ar": "شكل القاموس لوصف الاسم",
+        "es": "Forma de diccionario para modificar sustantivos",
+        "zh": "辞书形修饰名词",
+        "ja": "辞書形による名詞修飾"
+      }
+    },
+    {
+      "id": "w5_1",
+      "kind": "word",
+      "texts": {
+        "en": "koto (thing/fact)",
+        "th": "koto (สิ่ง/เรื่อง)",
+        "fa": "koto (چیز/موضوع)",
+        "ar": "koto (شيء/حقيقة)",
+        "es": "koto (cosa/hecho)",
+        "zh": "koto (事情)",
+        "ja": "こと"
+      }
+    },
+    {
+      "id": "w5_2",
+      "kind": "word",
+      "texts": {
+        "en": "suki (like)",
+        "th": "suki (ชอบ)",
+        "fa": "suki (دوست داشتن)",
+        "ar": "suki (يحب)",
+        "es": "suki (gustar)",
+        "zh": "suki (喜欢)",
+        "ja": "好き"
+      }
+    },
+    {
+      "id": "w5_3",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "يأكل",
+        "es": "comer",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "w5_4",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "w5_5",
+      "kind": "word",
+      "texts": {
+        "en": "drink",
+        "th": "ดื่ม",
+        "fa": "نوشیدن",
+        "ar": "يشرب",
+        "es": "beber",
+        "zh": "喝",
+        "ja": "飲む"
+      }
+    },
+    {
+      "id": "s5_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I like to eat.",
+        "th": "ฉันชอบกิน",
+        "fa": "من دوست دارم بخورم.",
+        "ar": "أحب أن آكل.",
+        "es": "Me gusta comer.",
+        "zh": "我喜欢吃。",
+        "ja": "食べることが好きです。"
+      },
+      "tokens": { "ja": ["食べる", "こと", "が", "好き", "です", "。"] }
+    },
+    {
+      "id": "s5_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "Going is difficult.",
+        "th": "การไปเป็นเรื่องยาก",
+        "fa": "رفتن سخت است.",
+        "ar": "الذهاب صعب.",
+        "es": "Ir es difícil.",
+        "zh": "去很难。",
+        "ja": "行くことが大変です。"
+      },
+      "tokens": { "ja": ["行く", "こと", "が", "大変", "です", "。"] }
+    },
+    {
+      "id": "s5_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "I like to drink.",
+        "th": "ฉันชอบดื่ม",
+        "fa": "من دوست دارم بنوشم.",
+        "ar": "أحب أن أشرب.",
+        "es": "Me gusta beber.",
+        "zh": "我喜欢喝。",
+        "ja": "飲むことが好きです。"
+      },
+      "tokens": { "ja": ["飲む", "こと", "が", "好き", "です", "。"] }
+    },
+    {
+      "id": "s5_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "I like to read.",
+        "th": "ฉันชอบอ่าน",
+        "fa": "من دوست دارم بخوانم.",
+        "ar": "أحب أن أقرأ.",
+        "es": "Me gusta leer.",
+        "zh": "我喜欢读。",
+        "ja": "読むことが好きです。"
+      },
+      "tokens": { "ja": ["読む", "こと", "が", "好き", "です", "。"] }
+    },
+    {
+      "id": "s5_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "I like to watch.",
+        "th": "ฉันชอบดู",
+        "fa": "من دوست دارم ببینم.",
+        "ar": "أحب أن أشاهد.",
+        "es": "Me gusta ver.",
+        "zh": "我喜欢看。",
+        "ja": "見ることが好きです。"
+      },
+      "tokens": { "ja": ["見る", "こと", "が", "好き", "です", "。"] }
+    }
+  ]
+}

@@ -1,0 +1,725 @@
+{
+  "version": 2,
+  "displayMode": "standard",
+  "items": [
+    {
+      "id": "h1",
+      "header": true,
+      "texts": {
+        "en": "Masculine Singular",
+        "th": "เอกพจน์เพศชาย",
+        "fa": "مفرد مذکر",
+        "ar": "المفرد المذكر",
+        "es": "Masculino singular",
+        "zh": "阳性单数",
+        "ja": "男性単数"
+      }
+    },
+    {
+      "id": "w1_1",
+      "kind": "word",
+      "texts": {
+        "en": "student",
+        "th": "นักเรียน (ชาย)",
+        "fa": "دانش‌آموز (مرد)",
+        "ar": "طَالِب",
+        "es": "estudiante",
+        "zh": "学生",
+        "ja": "学生"
+      }
+    },
+    {
+      "id": "w1_2",
+      "kind": "word",
+      "texts": {
+        "en": "diligent",
+        "th": "ขยัน",
+        "fa": "پرتلاش",
+        "ar": "مُجْتَهِد",
+        "es": "diligente",
+        "zh": "勤奋",
+        "ja": "勤勉"
+      }
+    },
+    {
+      "id": "w1_3",
+      "kind": "word",
+      "texts": {
+        "en": "big",
+        "th": "ใหญ่",
+        "fa": "بزرگ",
+        "ar": "كَبِير",
+        "es": "grande",
+        "zh": "大",
+        "ja": "大きい"
+      }
+    },
+    {
+      "id": "w1_4",
+      "kind": "word",
+      "texts": {
+        "en": "new",
+        "th": "ใหม่",
+        "fa": "جدید",
+        "ar": "جَدِيد",
+        "es": "nuevo",
+        "zh": "新",
+        "ja": "新しい"
+      }
+    },
+    {
+      "id": "w1_5",
+      "kind": "word",
+      "texts": {
+        "en": "tall",
+        "th": "สูง",
+        "fa": "قد بلند",
+        "ar": "طَوِيل",
+        "es": "alto",
+        "zh": "高",
+        "ja": "背が高い"
+      }
+    },
+    {
+      "id": "s1_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The student is diligent.",
+        "th": "นักเรียนขยัน",
+        "fa": "دانش‌آموز پرتلاش است.",
+        "ar": "الطَّالِبُ مُجْتَهِدٌ.",
+        "es": "El estudiante es diligente.",
+        "zh": "学生很勤奋。",
+        "ja": "学生は勤勉です。"
+      }
+    },
+    {
+      "id": "s1_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The house is big.",
+        "th": "บ้านหลังใหญ่",
+        "fa": "خانه بزرگ است.",
+        "ar": "الْبَيْتُ كَبِيرٌ.",
+        "es": "La casa es grande.",
+        "zh": "房子很大。",
+        "ja": "家は大きいです。"
+      }
+    },
+    {
+      "id": "s1_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The pen is new.",
+        "th": "ปากกาใหม่",
+        "fa": "خودکار جدید است.",
+        "ar": "الْقَلَمُ جَدِيدٌ.",
+        "es": "El bolígrafo es nuevo.",
+        "zh": "笔是新的。",
+        "ja": "ペンは新しいです。"
+      }
+    },
+    {
+      "id": "s1_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The man is tall.",
+        "th": "ผู้ชายสูง",
+        "fa": "مرد قد بلند است.",
+        "ar": "الرَّجُلُ طَوِيلٌ.",
+        "es": "El hombre es alto.",
+        "zh": "男人很高。",
+        "ja": "男性は背が高いです。"
+      }
+    },
+    {
+      "id": "s1_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The book is useful.",
+        "th": "หนังสือมีประโยชน์",
+        "fa": "کتاب مفید است.",
+        "ar": "الْكِتَابُ مُفِيدٌ.",
+        "es": "El libro es útil.",
+        "zh": "书很有用。",
+        "ja": "本は役に立ちます。"
+      }
+    },
+
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Feminine Singular",
+        "th": "เอกพจน์เพศหญิง",
+        "fa": "مفرد مؤنث",
+        "ar": "المفرد المؤنث",
+        "es": "Femenino singular",
+        "zh": "阴性单数",
+        "ja": "女性単数"
+      }
+    },
+    {
+      "id": "w2_1",
+      "kind": "word",
+      "texts": {
+        "en": "student (f)",
+        "th": "นักเรียน (หญิง)",
+        "fa": "دانش‌آموز (زن)",
+        "ar": "طَالِبَة",
+        "es": "estudiante (f)",
+        "zh": "女学生",
+        "ja": "女子学生"
+      }
+    },
+    {
+      "id": "w2_2",
+      "kind": "word",
+      "texts": {
+        "en": "diligent (f)",
+        "th": "ขยัน (หญิง)",
+        "fa": "پرتلاش (زن)",
+        "ar": "مُجْتَهِدَة",
+        "es": "diligente (f)",
+        "zh": "勤奋的",
+        "ja": "勤勉な"
+      }
+    },
+    {
+      "id": "w2_3",
+      "kind": "word",
+      "texts": {
+        "en": "big (f)",
+        "th": "ใหญ่ (หญิง)",
+        "fa": "بزرگ (زن)",
+        "ar": "كَبِيرَة",
+        "es": "grande (f)",
+        "zh": "大的",
+        "ja": "大きい"
+      }
+    },
+    {
+      "id": "w2_4",
+      "kind": "word",
+      "texts": {
+        "en": "new (f)",
+        "th": "ใหม่ (หญิง)",
+        "fa": "جدید (زن)",
+        "ar": "جَدِيدَة",
+        "es": "nueva",
+        "zh": "新的",
+        "ja": "新しい"
+      }
+    },
+    {
+      "id": "w2_5",
+      "kind": "word",
+      "texts": {
+        "en": "tall (f)",
+        "th": "สูง (หญิง)",
+        "fa": "قد بلند (زن)",
+        "ar": "طَوِيلَة",
+        "es": "alta",
+        "zh": "高的",
+        "ja": "背が高い"
+      }
+    },
+    {
+      "id": "s2_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The female student is diligent.",
+        "th": "นักเรียนหญิงขยัน",
+        "fa": "دانش‌آموز زن پرتلاش است.",
+        "ar": "الطَّالِبَةُ مُجْتَهِدَةٌ.",
+        "es": "La estudiante es diligente.",
+        "zh": "女学生很勤奋。",
+        "ja": "女子学生は勤勉です。"
+      }
+    },
+    {
+      "id": "s2_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The school is big.",
+        "th": "โรงเรียนใหญ่",
+        "fa": "مدرسه بزرگ است.",
+        "ar": "الْمَدْرَسَةُ كَبِيرَةٌ.",
+        "es": "La escuela es grande.",
+        "zh": "学校很大。",
+        "ja": "学校は大きいです。"
+      }
+    },
+    {
+      "id": "s2_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The bag is new.",
+        "th": "กระเป๋าใหม่",
+        "fa": "کیف جدید است.",
+        "ar": "الْحَقِيبَةُ جَدِيدَةٌ.",
+        "es": "La bolsa es nueva.",
+        "zh": "包是新的。",
+        "ja": "バッグは新しいです。"
+      }
+    },
+    {
+      "id": "s2_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The tree is tall.",
+        "th": "ต้นไม้สูง",
+        "fa": "درخت قد بلند است.",
+        "ar": "الشَّجَرَةُ طَوِيلَةٌ.",
+        "es": "El árbol es alto.",
+        "zh": "树很高。",
+        "ja": "木は背が高いです。"
+      }
+    },
+    {
+      "id": "s2_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The story is useful.",
+        "th": "เรื่องราวมีประโยชน์",
+        "fa": "داستان مفید است.",
+        "ar": "الْقِصَّةُ مُفِيدَةٌ.",
+        "es": "La historia es útil.",
+        "zh": "故事很有用。",
+        "ja": "物語は役に立ちます。"
+      }
+    },
+
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Masculine Plural",
+        "th": "พหูพจน์เพศชาย",
+        "fa": "جمع مذکر",
+        "ar": "الجمع المذكر",
+        "es": "Masculino plural",
+        "zh": "阳性复数",
+        "ja": "男性複数"
+      }
+    },
+    {
+      "id": "w3_1",
+      "kind": "word",
+      "texts": {
+        "en": "students (m.pl)",
+        "th": "นักเรียน (ชาย, พหูพจน์)",
+        "fa": "دانش‌آموزان (مرد)",
+        "ar": "طُلَّاب",
+        "es": "estudiantes (m.pl)",
+        "zh": "男学生们",
+        "ja": "男子学生たち"
+      }
+    },
+    {
+      "id": "w3_2",
+      "kind": "word",
+      "texts": {
+        "en": "diligent (m.pl)",
+        "th": "ขยัน (ชาย, พหูพจน์)",
+        "fa": "پرتلاش (مرد)",
+        "ar": "مُجْتَهِدُونَ",
+        "es": "diligentes",
+        "zh": "勤奋的",
+        "ja": "勤勉な"
+      }
+    },
+    {
+      "id": "w3_3",
+      "kind": "word",
+      "texts": {
+        "en": "teachers (m.pl)",
+        "th": "ครู (ชาย, พหูพจน์)",
+        "fa": "معلمان (مرد)",
+        "ar": "مُعَلِّمُونَ",
+        "es": "profesores",
+        "zh": "男老师们",
+        "ja": "男性教師たち"
+      }
+    },
+    {
+      "id": "w3_4",
+      "kind": "word",
+      "texts": {
+        "en": "new (m.pl)",
+        "th": "ใหม่ (ชาย, พหูพจน์)",
+        "fa": "جدید (مرد)",
+        "ar": "جُدُد",
+        "es": "nuevos",
+        "zh": "新的",
+        "ja": "新しい"
+      }
+    },
+    {
+      "id": "w3_5",
+      "kind": "word",
+      "texts": {
+        "en": "skilled (m.pl)",
+        "th": "มีทักษะ (ชาย, พหูพจน์)",
+        "fa": "ماهر (مرد)",
+        "ar": "مَاهِرُونَ",
+        "es": "hábiles",
+        "zh": "熟练的",
+        "ja": "熟練した"
+      }
+    },
+    {
+      "id": "s3_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The male students are diligent.",
+        "th": "นักเรียนชายขยัน",
+        "fa": "دانش‌آموزان مرد پرتلاش هستند.",
+        "ar": "الطُّلَّابُ مُجْتَهِدُونَ.",
+        "es": "Los estudiantes son diligentes.",
+        "zh": "男学生们很勤奋。",
+        "ja": "男子学生たちは勤勉です。"
+      }
+    },
+    {
+      "id": "s3_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The male teachers are new.",
+        "th": "ครูชายเป็นคนใหม่",
+        "fa": "معلمان مرد جدید هستند.",
+        "ar": "الْمُعَلِّمُونَ جُدُدٌ.",
+        "es": "Los profesores son nuevos.",
+        "zh": "男老师们是新的。",
+        "ja": "男性教師たちは新しいです。"
+      }
+    },
+    {
+      "id": "s3_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The men are tall.",
+        "th": "ผู้ชายสูง",
+        "fa": "مردان قد بلند هستند.",
+        "ar": "الرِّجَالُ طِوَالٌ.",
+        "es": "Los hombres son altos.",
+        "zh": "男人们很高。",
+        "ja": "男性たちは背が高いです。"
+      }
+    },
+    {
+      "id": "s3_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The sons are loyal.",
+        "th": "ลูกชายมีความจงรักภักดี",
+        "fa": "پسران وفادار هستند.",
+        "ar": "الأَبْنَاءُ أَوْفِيَاءُ.",
+        "es": "Los hijos son leales.",
+        "zh": "儿子们是忠诚的。",
+        "ja": "息子たちは忠実です。"
+      }
+    },
+    {
+      "id": "s3_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The engineers are skilled.",
+        "th": "วิศวกรมีทักษะ",
+        "fa": "مهندسان ماهر هستند.",
+        "ar": "الْمُهَنْدِسُونَ مَاهِرُونَ.",
+        "es": "Los ingenieros son hábiles.",
+        "zh": "工程师们很熟练。",
+        "ja": "エンジニアたちは熟練しています。"
+      }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Feminine Plural",
+        "th": "พหูพจน์เพศหญิง",
+        "fa": "جمع مؤنث",
+        "ar": "الجمع المؤنث",
+        "es": "Femenino plural",
+        "zh": "阴性复数",
+        "ja": "女性複数"
+      }
+    },
+    {
+      "id": "w4_1",
+      "kind": "word",
+      "texts": {
+        "en": "students (f.pl)",
+        "th": "นักเรียน (หญิง, พหูพจน์)",
+        "fa": "دانش‌آموزان (زن)",
+        "ar": "طَالِبَات",
+        "es": "estudiantes (f.pl)",
+        "zh": "女学生们",
+        "ja": "女子学生たち"
+      }
+    },
+    {
+      "id": "w4_2",
+      "kind": "word",
+      "texts": {
+        "en": "diligent (f.pl)",
+        "th": "ขยัน (หญิง, พหูพจน์)",
+        "fa": "پرتلاش (زن)",
+        "ar": "مُجْتَهِدَات",
+        "es": "diligentes (f)",
+        "zh": "勤奋的",
+        "ja": "勤勉な"
+      }
+    },
+    {
+      "id": "w4_3",
+      "kind": "word",
+      "texts": {
+        "en": "teachers (f.pl)",
+        "th": "ครู (หญิง, พหูพจน์)",
+        "fa": "معلمان (زن)",
+        "ar": "مُعَلِّمَات",
+        "es": "profesoras",
+        "zh": "女老师们",
+        "ja": "女性教師たち"
+      }
+    },
+    {
+      "id": "w4_4",
+      "kind": "word",
+      "texts": {
+        "en": "new (f.pl)",
+        "th": "ใหม่ (หญิง, พหูพจน์)",
+        "fa": "جدید (زن)",
+        "ar": "جَدِيدَات",
+        "es": "nuevas",
+        "zh": "新的",
+        "ja": "新しい"
+      }
+    },
+    {
+      "id": "w4_5",
+      "kind": "word",
+      "texts": {
+        "en": "beautiful (f.pl)",
+        "th": "สวยงาม (หญิง, พหูพจน์)",
+        "fa": "زیبا (زن)",
+        "ar": "جَمِيلَات",
+        "es": "hermosas",
+        "zh": "美丽的",
+        "ja": "美しい"
+      }
+    },
+    {
+      "id": "s4_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The female students are diligent.",
+        "th": "นักเรียนหญิงขยัน",
+        "fa": "دانش‌آموزان زن پرتلاش هستند.",
+        "ar": "الطَّالِبَاتُ مُجْتَهِدَاتٌ.",
+        "es": "Las estudiantes son diligentes.",
+        "zh": "女学生们很勤奋。",
+        "ja": "女子学生たちは勤勉です。"
+      }
+    },
+    {
+      "id": "s4_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The female teachers are new.",
+        "th": "ครูหญิงเป็นคนใหม่",
+        "fa": "معلمان زن جدید هستند.",
+        "ar": "الْمُعَلِّمَاتُ جَدِيدَاتٌ.",
+        "es": "Las profesoras son nuevas.",
+        "zh": "女老师们是新的。",
+        "ja": "女性教師たちは新しいです。"
+      }
+    },
+    {
+      "id": "s4_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The girls are tall.",
+        "th": "เด็กหญิงสูง",
+        "fa": "دختران قد بلند هستند.",
+        "ar": "الْبَنَاتُ طَوِيلَاتٌ.",
+        "es": "Las niñas son altas.",
+        "zh": "女孩们很高。",
+        "ja": "女の子たちは背が高いです。"
+      }
+    },
+    {
+      "id": "s4_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The mothers are compassionate.",
+        "th": "คุณแม่มีความเมตตา",
+        "fa": "مادران دلسوز هستند.",
+        "ar": "الأُمَّهَاتُ حَنُونَاتٌ.",
+        "es": "Las madres son compasivas.",
+        "zh": "母亲们充满同情心。",
+        "ja": "母親たちは思いやりがあります。"
+      }
+    },
+    {
+      "id": "s4_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The flowers are beautiful.",
+        "th": "ดอกไม้สวยงาม",
+        "fa": "گل‌ها زیبا هستند.",
+        "ar": "الزَّهَرَاتُ جَمِيلَاتٌ.",
+        "es": "Las flores son hermosas.",
+        "zh": "花朵很美丽。",
+        "ja": "花は美しいです。"
+      }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Dual (Masculine & Feminine)",
+        "th": "ทวิพจน์ (ชายและหญิง)",
+        "fa": "مثنی (مذکر و مؤنث)",
+        "ar": "المثنى (مذكر ومؤنث)",
+        "es": "Dual (Masculino y Femenino)",
+        "zh": "双数（阳性和阴性）",
+        "ja": "双数（男性と女性）"
+      }
+    },
+    {
+      "id": "w5_1",
+      "kind": "word",
+      "texts": {
+        "en": "two students (m)",
+        "th": "นักเรียนสองคน (ชาย)",
+        "fa": "دو دانش‌آموز (مرد)",
+        "ar": "طَالِبَانِ",
+        "es": "dos estudiantes (m)",
+        "zh": "两个男学生",
+        "ja": "二人の男子学生"
+      }
+    },
+    {
+      "id": "w5_2",
+      "kind": "word",
+      "texts": {
+        "en": "diligent (dual m)",
+        "th": "ขยัน (ทวิพจน์ ชาย)",
+        "fa": "پرتلاش (مثنی مذکر)",
+        "ar": "مُجْتَهِدَانِ",
+        "es": "diligentes (dual m)",
+        "zh": "勤奋的",
+        "ja": "勤勉な"
+      }
+    },
+    {
+      "id": "w5_3",
+      "kind": "word",
+      "texts": {
+        "en": "two students (f)",
+        "th": "นักเรียนสองคน (หญิง)",
+        "fa": "دو دانش‌آموز (زن)",
+        "ar": "طَالِبَتَانِ",
+        "es": "dos estudiantes (f)",
+        "zh": "两个女学生",
+        "ja": "二人の女子学生"
+      }
+    },
+    {
+      "id": "w5_4",
+      "kind": "word",
+      "texts": {
+        "en": "diligent (dual f)",
+        "th": "ขยัน (ทวิพจน์ หญิง)",
+        "fa": "پرتلاش (مثنی مؤنث)",
+        "ar": "مُجْتَهِدَتَانِ",
+        "es": "diligentes (dual f)",
+        "zh": "勤奋的",
+        "ja": "勤勉な"
+      }
+    },
+    {
+      "id": "w5_5",
+      "kind": "word",
+      "texts": {
+        "en": "two books",
+        "th": "หนังสือสองเล่ม",
+        "fa": "دو کتاب",
+        "ar": "كِتَابَانِ",
+        "es": "dos libros",
+        "zh": "两本书",
+        "ja": "二冊の本"
+      }
+    },
+    {
+      "id": "s5_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The two male students are diligent.",
+        "th": "นักเรียนชายสองคนขยัน",
+        "fa": "دو دانش‌آموز مرد پرتلاش هستند.",
+        "ar": "الطَّالِبَانِ مُجْتَهِدَانِ.",
+        "es": "Los dos estudiantes son diligentes.",
+        "zh": "两个男学生很勤奋。",
+        "ja": "二人の男子学生は勤勉です。"
+      }
+    },
+    {
+      "id": "s5_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The two female students are diligent.",
+        "th": "นักเรียนหญิงสองคนขยัน",
+        "fa": "دو دانش‌آموز زن پرتلاش هستند.",
+        "ar": "الطَّالِبَتَانِ مُجْتَهِدَتَانِ.",
+        "es": "Las dos estudiantes son diligentes.",
+        "zh": "两个女学生很勤奋。",
+        "ja": "二人の女子学生は勤勉です。"
+      }
+    },
+    {
+      "id": "s5_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The two books are new.",
+        "th": "หนังสือสองเล่มใหม่",
+        "fa": "دو کتاب جدید هستند.",
+        "ar": "الْكِتَابَانِ جَدِيدَانِ.",
+        "es": "Los dos libros son nuevos.",
+        "zh": "两本书是新的。",
+        "ja": "二冊の本は新しいです。"
+      }
+    },
+    {
+      "id": "s5_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The two schools are big.",
+        "th": "โรงเรียนสองแห่งใหญ่",
+        "fa": "دو مدرسه بزرگ هستند.",
+        "ar": "الْمَدْرَسَتَانِ كَبِيرَتَانِ.",
+        "es": "Las dos escuelas son grandes.",
+        "zh": "两所学校很大。",
+        "ja": "二つの学校は大きいです。"
+      }
+    },
+    {
+      "id": "s5_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The two pens are blue.",
+        "th": "ปากกาสองด้ามเป็นสีน้ำเงิน",
+        "fa": "دو خودکار آبی هستند.",
+        "ar": "الْقَلَمَانِ أَزْرَقَانِ.",
+        "es": "Los dos bolígrafos son azules.",
+        "zh": "两支笔是蓝色的。",
+        "ja": "二本のペンは青いです。"
+      }
+    }
+  ]
+}

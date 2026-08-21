@@ -1,0 +1,721 @@
+{
+  "version": 2,
+  "displayMode": "standard",
+  "items": [
+    {
+      "id": "h1",
+      "header": true,
+      "texts": {
+        "en": "Noun + Adjective",
+        "th": "คำนาม + คำคุณศัพท์",
+        "fa": "اسم + صفت",
+        "ar": "اسم + صفة",
+        "es": "Sustantivo + Adjetivo",
+        "zh": "名词 + 形容词",
+        "ja": "名詞 + 形容詞"
+      }
+    },
+    {
+      "id": "w1_1",
+      "kind": "word",
+      "texts": {
+        "en": "book",
+        "th": "หนังสือ",
+        "fa": "کتاب",
+        "ar": "كتاب",
+        "es": "libro",
+        "zh": "书",
+        "ja": "本"
+      }
+    },
+    {
+      "id": "w1_2",
+      "kind": "word",
+      "texts": {
+        "en": "big",
+        "th": "ใหญ่",
+        "fa": "بزرگ",
+        "ar": "كبير",
+        "es": "grande",
+        "zh": "大",
+        "ja": "大きい"
+      }
+    },
+    {
+      "id": "w1_3",
+      "kind": "word",
+      "texts": {
+        "en": "beautiful",
+        "th": "สวยงาม",
+        "fa": "زیبا",
+        "ar": "جميل",
+        "es": "hermoso",
+        "zh": "美丽",
+        "ja": "美しい"
+      }
+    },
+    {
+      "id": "w1_4",
+      "kind": "word",
+      "texts": {
+        "en": "good",
+        "th": "ดี",
+        "fa": "خوب",
+        "ar": "جيد",
+        "es": "bueno",
+        "zh": "好",
+        "ja": "良い"
+      }
+    },
+    {
+      "id": "w1_5",
+      "kind": "word",
+      "texts": {
+        "en": "city",
+        "th": "เมือง",
+        "fa": "شهر",
+        "ar": "مدينة",
+        "es": "ciudad",
+        "zh": "城市",
+        "ja": "都市"
+      }
+    },
+    {
+      "id": "s1_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "This book is big.",
+        "th": "หนังสือเล่มนี้ใหญ่",
+        "fa": "این کتاب بزرگ است.",
+        "ar": "هذا الكتاب كبير.",
+        "es": "Este libro es grande.",
+        "zh": "这本书很大。",
+        "ja": "この本は大きいです。"
+      }
+    },
+    {
+      "id": "s1_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "That house is beautiful.",
+        "th": "บ้านหลังนั้นสวยงาม",
+        "fa": "آن خانه زیبا است.",
+        "ar": "ذلك المنزل جميل.",
+        "es": "Esa casa es hermosa.",
+        "zh": "那栋房子很漂亮。",
+        "ja": "あの家は美しいです。"
+      }
+    },
+    {
+      "id": "s1_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "This pen is good.",
+        "th": "ปากกานี้ดี",
+        "fa": "این قلم خوب است.",
+        "ar": "هذا القلم جيد.",
+        "es": "Este bolígrafo es bueno.",
+        "zh": "这支笔很好。",
+        "ja": "このペンは良いです。"
+      }
+    },
+    {
+      "id": "s1_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "That car is fast.",
+        "th": "รถคันนั้นเร็ว",
+        "fa": "آن ماشین سریع است.",
+        "ar": "تلك السيارة سريعة.",
+        "es": "Ese coche es rápido.",
+        "zh": "那辆车很快。",
+        "ja": "あの車は速いです。"
+      }
+    },
+    {
+      "id": "s1_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "This city is old.",
+        "th": "เมืองนี้เก่าแก่",
+        "fa": "این شهر قدیمی است.",
+        "ar": "هذه المدينة قديمة.",
+        "es": "Esta ciudad es antigua.",
+        "zh": "这座城市很古老。",
+        "ja": "この都市は古いです。"
+      }
+    },
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Noun + Possessor",
+        "th": "คำนาม + เจ้าของ",
+        "fa": "اسم + مالک",
+        "ar": "اسم + مالك",
+        "es": "Sustantivo + Poseedor",
+        "zh": "名词 + 所有者",
+        "ja": "名詞 + 所有者"
+      }
+    },
+    {
+      "id": "w2_1",
+      "kind": "word",
+      "texts": {
+        "en": "book",
+        "th": "หนังสือ",
+        "fa": "کتاب",
+        "ar": "كتاب",
+        "es": "libro",
+        "zh": "书",
+        "ja": "本"
+      }
+    },
+    {
+      "id": "w2_2",
+      "kind": "word",
+      "texts": {
+        "en": "Ali",
+        "th": "อาลี",
+        "fa": "علی",
+        "ar": "علي",
+        "es": "Ali",
+        "zh": "阿里",
+        "ja": "アリ"
+      }
+    },
+    {
+      "id": "w2_3",
+      "kind": "word",
+      "texts": {
+        "en": "bag",
+        "th": "กระเป๋า",
+        "fa": "کیف",
+        "ar": "حقيبة",
+        "es": "bolso",
+        "zh": "包",
+        "ja": "バッグ"
+      }
+    },
+    {
+      "id": "w2_4",
+      "kind": "word",
+      "texts": {
+        "en": "Maryam",
+        "th": "มัรยัม",
+        "fa": "مریم",
+        "ar": "مريم",
+        "es": "Maryam",
+        "zh": "玛丽亚姆",
+        "ja": "マルヤム"
+      }
+    },
+    {
+      "id": "w2_5",
+      "kind": "word",
+      "texts": {
+        "en": "house",
+        "th": "บ้าน",
+        "fa": "خانه",
+        "ar": "منزل",
+        "es": "casa",
+        "zh": "房子",
+        "ja": "家"
+      }
+    },
+    {
+      "id": "s2_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "This is Ali's book.",
+        "th": "นี่คือหนังสือของอาลี",
+        "fa": "این کتاب علی است.",
+        "ar": "هذا كتاب علي.",
+        "es": "Este es el libro de Ali.",
+        "zh": "这是阿里的书。",
+        "ja": "これはアリの本です。"
+      }
+    },
+    {
+      "id": "s2_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "That is Maryam's bag.",
+        "th": "นั่นคือกระเป๋าของมัรยัม",
+        "fa": "آن کیف مریم است.",
+        "ar": "تلك حقيبة مريم.",
+        "es": "Ese es el bolso de Maryam.",
+        "zh": "那是玛丽亚姆的包。",
+        "ja": "あれはマルヤムのバッグです。"
+      }
+    },
+    {
+      "id": "s2_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "This is my father's house.",
+        "th": "นี่คือบ้านของพ่อฉัน",
+        "fa": "این خانه پدر من است.",
+        "ar": "هذا منزل أبي.",
+        "es": "Esta es la casa de mi padre.",
+        "zh": "这是我父亲的房子。",
+        "ja": "これは私の父の家です。"
+      }
+    },
+    {
+      "id": "s2_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "That is your brother's car.",
+        "th": "นั่นคือรถของพี่ชายคุณ",
+        "fa": "آن ماشین برادر توست.",
+        "ar": "تلك سيارة أخيك.",
+        "es": "Ese es el coche de tu hermano.",
+        "zh": "那是你哥哥的车。",
+        "ja": "あれはあなたの兄の車です。"
+      }
+    },
+    {
+      "id": "s2_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "This is my good friend.",
+        "th": "นี่คือเพื่อนที่ดีของฉัน",
+        "fa": "این دوست خوب من است.",
+        "ar": "هذا صديقي الجيد.",
+        "es": "Este es mi buen amigo.",
+        "zh": "这是我的好朋友。",
+        "ja": "これは私の良い友達です。"
+      }
+    },
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Plural Noun + Ezafe",
+        "th": "คำนามพหูพจน์ + เอซาเฟะ",
+        "fa": "اسم جمع + اضافه",
+        "ar": "اسم جمع + إضافة",
+        "es": "Sustantivo plural + Ezafe",
+        "zh": "复数名词 + 伊扎菲",
+        "ja": "複数形名詞 + エザーフェ"
+      }
+    },
+    {
+      "id": "w3_1",
+      "kind": "word",
+      "texts": {
+        "en": "books",
+        "th": "หนังสือ (พหูพจน์)",
+        "fa": "کتاب‌ها",
+        "ar": "الكتب",
+        "es": "libros",
+        "zh": "书 (复数)",
+        "ja": "本 (複数)"
+      }
+    },
+    {
+      "id": "w3_2",
+      "kind": "word",
+      "texts": {
+        "en": "new",
+        "th": "ใหม่",
+        "fa": "جدید",
+        "ar": "جديد",
+        "es": "nuevo",
+        "zh": "新的",
+        "ja": "新しい"
+      }
+    },
+    {
+      "id": "w3_3",
+      "kind": "word",
+      "texts": {
+        "en": "students",
+        "th": "นักเรียน",
+        "fa": "دانش‌آموزان",
+        "ar": "الطلاب",
+        "es": "estudiantes",
+        "zh": "学生",
+        "ja": "学生"
+      }
+    },
+    {
+      "id": "w3_4",
+      "kind": "word",
+      "texts": {
+        "en": "good",
+        "th": "ดี",
+        "fa": "خوب",
+        "ar": "جيد",
+        "es": "bueno",
+        "zh": "好",
+        "ja": "良い"
+      }
+    },
+    {
+      "id": "w3_5",
+      "kind": "word",
+      "texts": {
+        "en": "trees",
+        "th": "ต้นไม้",
+        "fa": "درخت‌ها",
+        "ar": "الأشجار",
+        "es": "árboles",
+        "zh": "树",
+        "ja": "木"
+      }
+    },
+    {
+      "id": "s3_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The new books are interesting.",
+        "th": "หนังสือเล่มใหม่ที่น่าสนใจ",
+        "fa": "کتاب‌های جدید جالب هستند.",
+        "ar": "الكتب الجديدة مثيرة للاهتمام.",
+        "es": "Los libros nuevos son interesantes.",
+        "zh": "新书很有趣。",
+        "ja": "新しい本は面白いです。"
+      }
+    },
+    {
+      "id": "s3_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The good students are in class.",
+        "th": "นักเรียนที่ดีอยู่ในชั้นเรียน",
+        "fa": "دانش‌آموزان خوب در کلاس هستند.",
+        "ar": "الطلاب الجيدون في الفصل.",
+        "es": "Los buenos estudiantes están en clase.",
+        "zh": "好学生都在教室里。",
+        "ja": "良い生徒は教室にいます。"
+      }
+    },
+    {
+      "id": "s3_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The tall trees are green.",
+        "th": "ต้นไม้สูงเป็นสีเขียว",
+        "fa": "درخت‌های بلند سبز هستند.",
+        "ar": "الأشجار الطويلة خضراء.",
+        "es": "Los árboles altos son verdes.",
+        "zh": "高大的树是绿色的。",
+        "ja": "背の高い木は緑色です。"
+      }
+    },
+    {
+      "id": "s3_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The beautiful flowers are in the garden.",
+        "th": "ดอกไม้ที่สวยงามอยู่ในสวน",
+        "fa": "گل‌های زیبا در باغ هستند.",
+        "ar": "الزهور الجميلة في الحديقة.",
+        "es": "Las flores hermosas están en el jardín.",
+        "zh": "美丽的花朵在花园里。",
+        "ja": "美しい花は庭にあります。"
+      }
+    },
+    {
+      "id": "s3_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The old houses are in the city.",
+        "th": "บ้านเก่าในเมือง",
+        "fa": "خانه‌های قدیمی در شهر هستند.",
+        "ar": "المنازل القديمة في المدينة.",
+        "es": "Las casas antiguas están en la ciudad.",
+        "zh": "老房子在城市里。",
+        "ja": "古い家は街の中にあります。"
+      }
+    },
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Noun + Noun (Genitive)",
+        "th": "คำนาม + คำนาม",
+        "fa": "اسم + اسم",
+        "ar": "اسم + اسم",
+        "es": "Sustantivo + Sustantivo",
+        "zh": "名词 + 名词",
+        "ja": "名詞 + 名詞"
+      }
+    },
+    {
+      "id": "w4_1",
+      "kind": "word",
+      "texts": {
+        "en": "school",
+        "th": "โรงเรียน",
+        "fa": "مدرسه",
+        "ar": "مدرسة",
+        "es": "escuela",
+        "zh": "学校",
+        "ja": "学校"
+      }
+    },
+    {
+      "id": "w4_2",
+      "kind": "word",
+      "texts": {
+        "en": "city",
+        "th": "เมือง",
+        "fa": "شهر",
+        "ar": "مدينة",
+        "es": "ciudad",
+        "zh": "城市",
+        "ja": "都市"
+      }
+    },
+    {
+      "id": "w4_3",
+      "kind": "word",
+      "texts": {
+        "en": "door",
+        "th": "ประตู",
+        "fa": "درب",
+        "ar": "باب",
+        "es": "puerta",
+        "zh": "门",
+        "ja": "ドア"
+      }
+    },
+    {
+      "id": "w4_4",
+      "kind": "word",
+      "texts": {
+        "en": "house",
+        "th": "บ้าน",
+        "fa": "خانه",
+        "ar": "منزل",
+        "es": "casa",
+        "zh": "房子",
+        "ja": "家"
+      }
+    },
+    {
+      "id": "w4_5",
+      "kind": "word",
+      "texts": {
+        "en": "teacher",
+        "th": "ครู",
+        "fa": "معلم",
+        "ar": "معلم",
+        "es": "profesor",
+        "zh": "老师",
+        "ja": "先生"
+      }
+    },
+    {
+      "id": "s4_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The city school is big.",
+        "th": "โรงเรียนในเมืองใหญ่",
+        "fa": "مدرسه شهر بزرگ است.",
+        "ar": "مدرسة المدينة كبيرة.",
+        "es": "La escuela de la ciudad es grande.",
+        "zh": "城市学校很大。",
+        "ja": "街の学校は大きいです。"
+      }
+    },
+    {
+      "id": "s4_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The house door is open.",
+        "th": "ประตูบ้านเปิดอยู่",
+        "fa": "درب خانه باز است.",
+        "ar": "باب المنزل مفتوح.",
+        "es": "La puerta de la casa está abierta.",
+        "zh": "房子的门开着。",
+        "ja": "家のドアは開いています。"
+      }
+    },
+    {
+      "id": "s4_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The class teacher is kind.",
+        "th": "ครูประจำชั้นใจดี",
+        "fa": "معلم کلاس مهربان است.",
+        "ar": "معلم الفصل لطيف.",
+        "es": "El profesor de la clase es amable.",
+        "zh": "班级老师很和蔼。",
+        "ja": "クラスの先生は親切です。"
+      }
+    },
+    {
+      "id": "s4_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The house roof is white.",
+        "th": "หลังคาบ้านเป็นสีขาว",
+        "fa": "سقف خانه سفید است.",
+        "ar": "سقف المنزل أبيض.",
+        "es": "El techo de la casa es blanco.",
+        "zh": "房子的屋顶是白色的。",
+        "ja": "家の屋根は白いです。"
+      }
+    },
+    {
+      "id": "s4_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The city street is crowded.",
+        "th": "ถนนในเมืองพลุกพล่าน",
+        "fa": "خیابان شهر شلوغ است.",
+        "ar": "شارع المدينة مزدحم.",
+        "es": "La calle de la ciudad está concurrida.",
+        "zh": "城市街道很拥挤。",
+        "ja": "街の通りは混雑しています。"
+      }
+    },
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Multiple Ezafe",
+        "th": "เอซาเฟะหลายชั้น",
+        "fa": "اضافه چندگانه",
+        "ar": "إضافة متعددة",
+        "es": "Ezafe múltiple",
+        "zh": "多重伊扎菲",
+        "ja": "複数のエザーフェ"
+      }
+    },
+    {
+      "id": "w5_1",
+      "kind": "word",
+      "texts": {
+        "en": "book",
+        "th": "หนังสือ",
+        "fa": "کتاب",
+        "ar": "كتاب",
+        "es": "libro",
+        "zh": "书",
+        "ja": "本"
+      }
+    },
+    {
+      "id": "w5_2",
+      "kind": "word",
+      "texts": {
+        "en": "new",
+        "th": "ใหม่",
+        "fa": "جدید",
+        "ar": "جديد",
+        "es": "nuevo",
+        "zh": "新的",
+        "ja": "新しい"
+      }
+    },
+    {
+      "id": "w5_3",
+      "kind": "word",
+      "texts": {
+        "en": "Ali",
+        "th": "อาลี",
+        "fa": "علی",
+        "ar": "علي",
+        "es": "Ali",
+        "zh": "阿里",
+        "ja": "アリ"
+      }
+    },
+    {
+      "id": "w5_4",
+      "kind": "word",
+      "texts": {
+        "en": "car",
+        "th": "รถยนต์",
+        "fa": "ماشین",
+        "ar": "سيارة",
+        "es": "coche",
+        "zh": "汽车",
+        "ja": "車"
+      }
+    },
+    {
+      "id": "w5_5",
+      "kind": "word",
+      "texts": {
+        "en": "red",
+        "th": "สีแดง",
+        "fa": "قرمز",
+        "ar": "أحمر",
+        "es": "rojo",
+        "zh": "红色的",
+        "ja": "赤い"
+      }
+    },
+    {
+      "id": "s5_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "This is Ali's new book.",
+        "th": "นี่คือหนังสือเล่มใหม่ของอาลี",
+        "fa": "این کتاب جدید علی است.",
+        "ar": "هذا كتاب علي الجديد.",
+        "es": "Este es el nuevo libro de Ali.",
+        "zh": "这是阿里的新书。",
+        "ja": "これはアリの新しい本です。"
+      }
+    },
+    {
+      "id": "s5_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "That red car is my brother's.",
+        "th": "รถสีแดงคันนั้นเป็นของพี่ชายฉัน",
+        "fa": "آن ماشین قرمز برادر من است.",
+        "ar": "تلك السيارة الحمراء هي لأخي.",
+        "es": "Ese coche rojo es de mi hermano.",
+        "zh": "那辆红色的车是我哥哥的。",
+        "ja": "あの赤い車は私の兄のものです。"
+      }
+    },
+    {
+      "id": "s5_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "This big old house...",
+        "th": "บ้านเก่าหลังใหญ่แห่งนี้",
+        "fa": "این خانه بزرگ قدیمی است.",
+        "ar": "هذا المنزل الكبير القديم.",
+        "es": "Esta casa grande y antigua.",
+        "zh": "这座古老的大房子。",
+        "ja": "この古くて大きな家。"
+      }
+    },
+    {
+      "id": "s5_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "That is my good friend.",
+        "th": "นั่นคือเพื่อนที่ดีของฉัน",
+        "fa": "آن دوست خوب من است.",
+        "ar": "ذلك صديقي الجيد.",
+        "es": "Ese es mi buen amigo.",
+        "zh": "那是我的好朋友。",
+        "ja": "あれは私の良い友達です。"
+      }
+    },
+    {
+      "id": "s5_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "This is Maryam's beautiful dress.",
+        "th": "นี่คือชุดที่สวยงามของมัรยัม",
+        "fa": "این لباس زیبای مریم است.",
+        "ar": "هذا فستان مريم الجميل.",
+        "es": "Este es el hermoso vestido de Maryam.",
+        "zh": "这是玛丽亚姆漂亮的裙子。",
+        "ja": "これはマルヤムの美しいドレスです。"
+      }
+    }
+  ]
+}

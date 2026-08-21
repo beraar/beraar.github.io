@@ -1,0 +1,726 @@
+{
+  "version": 2,
+  "displayMode": "standard",
+  "items": [
+    {
+      "id": "h1",
+      "header": true,
+      "texts": {
+        "en": "Masculine Singular Agreement",
+        "th": "ความสอดคล้องเอกพจน์เพศชาย",
+        "fa": "تطابق مفرد مذکر",
+        "ar": "التوافق المفرد المذكر",
+        "es": "Concordancia masculina singular",
+        "zh": "阳性单数一致性",
+        "ja": "男性単数の一致"
+      }
+    },
+    {
+      "id": "w1_1",
+      "kind": "word",
+      "texts": {
+        "en": "the (m)",
+        "th": "นั้น (ชาย)",
+        "fa": "(مذکر) آن",
+        "ar": "(مذكر) الـ",
+        "es": "el",
+        "zh": "那个 (阳)",
+        "ja": "その (男性)"
+      }
+    },
+    {
+      "id": "w1_2",
+      "kind": "word",
+      "texts": {
+        "en": "book",
+        "th": "หนังสือ",
+        "fa": "کتاب",
+        "ar": "libro",
+        "es": "libro",
+        "zh": "书",
+        "ja": "本"
+      }
+    },
+    {
+      "id": "w1_3",
+      "kind": "word",
+      "texts": {
+        "en": "red",
+        "th": "สีแดง",
+        "fa": "قرمز",
+        "ar": "rojo",
+        "es": "rojo",
+        "zh": "红色的",
+        "ja": "赤い"
+      }
+    },
+    {
+      "id": "w1_4",
+      "kind": "word",
+      "texts": {
+        "en": "one (m)",
+        "th": "หนึ่ง (ชาย)",
+        "fa": "(مذکر) یک",
+        "ar": "(مذكر) un",
+        "es": "un",
+        "zh": "一个 (阳)",
+        "ja": "一つの (男性)"
+      }
+    },
+    {
+      "id": "w1_5",
+      "kind": "word",
+      "texts": {
+        "en": "tall",
+        "th": "สูง",
+        "fa": "قد بلند",
+        "ar": "alto",
+        "es": "alto",
+        "zh": "高的",
+        "ja": "背が高い"
+      }
+    },
+    {
+      "id": "s1_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The book is red.",
+        "th": "หนังสือเล่มนั้นเป็นสีแดง",
+        "fa": "کتاب قرمز است.",
+        "ar": "الكتاب أحمر.",
+        "es": "El libro es rojo.",
+        "zh": "那本书是红色的。",
+        "ja": "その本は赤いです。"
+      }
+    },
+    {
+      "id": "s1_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "A tall boy.",
+        "th": "เด็กชายคนหนึ่งสูง",
+        "fa": "یک پسر قد بلند.",
+        "ar": "صبي طويل.",
+        "es": "Un chico alto.",
+        "zh": "一个高个子男孩。",
+        "ja": "背の高い男の子。"
+      }
+    },
+    {
+      "id": "s1_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The house is big.",
+        "th": "บ้านหลังนั้นใหญ่",
+        "fa": "خانه بزرگ است.",
+        "ar": "البيت كبير.",
+        "es": "El casa es grande. (Wait, casa is fem. Let's use: El edificio es grande.)",
+        "es": "El edificio es grande.",
+        "zh": "那栋建筑很大。",
+        "ja": "その建物は大きいです。"
+      }
+    },
+    {
+      "id": "s1_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "A good friend.",
+        "th": "เพื่อนที่ดีคนหนึ่ง",
+        "fa": "یک دوست خوب.",
+        "ar": "صديق جيد.",
+        "es": "Un buen amigo.",
+        "zh": "一个好朋友。",
+        "ja": "良い友達。"
+      }
+    },
+    {
+      "id": "s1_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The car is fast.",
+        "th": "รถยนต์คันนั้นเร็ว",
+        "fa": "ماشین سریع است.",
+        "ar": "السيارة سريعة.",
+        "es": "El coche es rápido.",
+        "zh": "那辆车很快。",
+        "ja": "その車は速いです。"
+      }
+    },
+
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Feminine Singular Agreement",
+        "th": "ความสอดคล้องเอกพจน์เพศหญิง",
+        "fa": "تطابق مفرد مؤنث",
+        "ar": "التوافق المفرد المؤنث",
+        "es": "Concordancia femenina singular",
+        "zh": "阴性单数一致性",
+        "ja": "女性単数の一致"
+      }
+    },
+    {
+      "id": "w2_1",
+      "kind": "word",
+      "texts": {
+        "en": "the (f)",
+        "th": "นั้น (หญิง)",
+        "fa": "(مونث) آن",
+        "ar": "(مؤنث) الـ",
+        "es": "la",
+        "zh": "那个 (阴)",
+        "ja": "その (女性)"
+      }
+    },
+    {
+      "id": "w2_2",
+      "kind": "word",
+      "texts": {
+        "en": "house",
+        "th": "บ้าน",
+        "fa": "خانه",
+        "ar": "casa",
+        "es": "casa",
+        "zh": "房子",
+        "ja": "家"
+      }
+    },
+    {
+      "id": "w2_3",
+      "kind": "word",
+      "texts": {
+        "en": "white",
+        "th": "สีขาว",
+        "fa": "سفید",
+        "ar": "blanca",
+        "es": "blanca",
+        "zh": "白色的",
+        "ja": "白い"
+      }
+    },
+    {
+      "id": "w2_4",
+      "kind": "word",
+      "texts": {
+        "en": "one (f)",
+        "th": "หนึ่ง (หญิง)",
+        "fa": "(مونث) یک",
+        "ar": "(مؤنث) una",
+        "es": "una",
+        "zh": "一个 (阴)",
+        "ja": "一つの (女性)"
+      }
+    },
+    {
+      "id": "w2_5",
+      "kind": "word",
+      "texts": {
+        "en": "smart",
+        "th": "ฉลาด",
+        "fa": "باهوش",
+        "ar": "inteligente",
+        "es": "inteligente",
+        "zh": "聪明的",
+        "ja": "賢い"
+      }
+    },
+    {
+      "id": "s2_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The house is white.",
+        "th": "บ้านหลังนั้นเป็นสีขาว",
+        "fa": "خانه سفید است.",
+        "ar": "البيت أبيض.",
+        "es": "La casa es blanca.",
+        "zh": "那栋房子是白色的。",
+        "ja": "その家は白いです。"
+      }
+    },
+    {
+      "id": "s2_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "A smart girl.",
+        "th": "เด็กหญิงที่ฉลาดคนหนึ่ง",
+        "fa": "یک دختر باهوش.",
+        "ar": "فتاة ذكية.",
+        "es": "Una chica inteligente.",
+        "zh": "一个聪明的女孩。",
+        "ja": "賢い女の子。"
+      }
+    },
+    {
+      "id": "s2_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The table is round.",
+        "th": "โต๊ะนั้นเป็นวงกลม",
+        "fa": "میز گرد است.",
+        "ar": "الطاولة مستديرة.",
+        "es": "La mesa es redonda.",
+        "zh": "那张桌子是圆的。",
+        "ja": "そのテーブルは丸いです。"
+      }
+    },
+    {
+      "id": "s2_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "A beautiful flower.",
+        "th": "ดอกไม้ที่สวยงามหนึ่งดอก",
+        "fa": "یک گل زیبا.",
+        "ar": "زهرة جميلة.",
+        "es": "Una flor hermosa.",
+        "zh": "一朵美丽的花。",
+        "ja": "美しい花。"
+      }
+    },
+    {
+      "id": "s2_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The shirt is clean.",
+        "th": "เสื้อเชิ้ตนั้นสะอาด",
+        "fa": "پیراهن تمیز است.",
+        "ar": "القميص نظيف.",
+        "es": "La camisa está limpia.",
+        "zh": "那件衬衫很干净。",
+        "ja": "そのシャツはきれいです。"
+      }
+    },
+
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Masculine Plural Agreement",
+        "th": "ความสอดคล้องพหูพจน์เพศชาย",
+        "fa": "تطابق جمع مذکر",
+        "ar": "التوافق الجمع المذكر",
+        "es": "Concordancia masculina plural",
+        "zh": "阳性复数一致性",
+        "ja": "男性複数の一致"
+      }
+    },
+    {
+      "id": "w3_1",
+      "kind": "word",
+      "texts": {
+        "en": "the (m.pl)",
+        "th": "เหล่านั้น (ชาย)",
+        "fa": "(مذکر جمع) آن‌ها",
+        "ar": "(مذكر جمع) الـ",
+        "es": "los",
+        "zh": "那些 (阳)",
+        "ja": "その (男性複数)"
+      }
+    },
+    {
+      "id": "w3_2",
+      "kind": "word",
+      "texts": {
+        "en": "books",
+        "th": "หนังสือ",
+        "fa": "کتاب‌ها",
+        "ar": "libros",
+        "es": "libros",
+        "zh": "书",
+        "ja": "本"
+      }
+    },
+    {
+      "id": "w3_3",
+      "kind": "word",
+      "texts": {
+        "en": "new",
+        "th": "ใหม่",
+        "fa": "جدید",
+        "ar": "nuevos",
+        "es": "nuevos",
+        "zh": "新的",
+        "ja": "新しい"
+      }
+    },
+    {
+      "id": "w3_4",
+      "kind": "word",
+      "texts": {
+        "en": "some (m)",
+        "th": "บางส่วน (ชาย)",
+        "fa": "(مذکر) برخی",
+        "ar": "(مذكر) unos",
+        "es": "unos",
+        "zh": "一些 (阳)",
+        "ja": "いくつかの (男性)"
+      }
+    },
+    {
+      "id": "w3_5",
+      "kind": "word",
+      "texts": {
+        "en": "boys",
+        "th": "เด็กชาย",
+        "fa": "پسرها",
+        "ar": "chicos",
+        "es": "chicos",
+        "zh": "男孩",
+        "ja": "男の子"
+      }
+    },
+    {
+      "id": "s3_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The books are new.",
+        "th": "หนังสือเหล่านั้นเป็นเล่มใหม่",
+        "fa": "کتاب‌ها جدید هستند.",
+        "ar": "الكتب جديدة.",
+        "es": "Los libros son nuevos.",
+        "zh": "那些书是新的。",
+        "ja": "その本は新しいです。"
+      }
+    },
+    {
+      "id": "s3_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "Some tall boys.",
+        "th": "เด็กชายที่สูงบางคน",
+        "fa": "برخی پسران قد بلند.",
+        "ar": "بعض الفتيان الطوال.",
+        "es": "Unos chicos altos.",
+        "zh": "一些高个子男孩。",
+        "ja": "背の高い男の子たち。"
+      }
+    },
+    {
+      "id": "s3_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The houses are big.",
+        "th": "บ้านเหล่านั้นใหญ่",
+        "fa": "خانه‌ها بزرگ هستند.",
+        "ar": "البيوت كبيرة.",
+        "es": "Los edificios son grandes.",
+        "zh": "那些建筑很大。",
+        "ja": "その建物は大きいです。"
+      }
+    },
+    {
+      "id": "s3_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "Good friends.",
+        "th": "เพื่อนที่ดี",
+        "fa": "دوستان خوب.",
+        "ar": "أصدقاء جيدون.",
+        "es": "Buenos amigos.",
+        "zh": "好朋友们。",
+        "ja": "良い友達たち。"
+      }
+    },
+    {
+      "id": "s3_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The cars are fast.",
+        "th": "รถยนต์เหล่านั้นเร็ว",
+        "fa": "ماشین‌ها سریع هستند.",
+        "ar": "السيارات سريعة.",
+        "es": "Los coches son rápidos.",
+        "zh": "那些车很快。",
+        "ja": "その車たちは速いです。"
+      }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Feminine Plural Agreement",
+        "th": "ความสอดคล้องพหูพจน์เพศหญิง",
+        "fa": "تطابق جمع مؤنث",
+        "ar": "التوافق الجمع المؤنث",
+        "es": "Concordancia femenina plural",
+        "zh": "阴性复数一致性",
+        "ja": "女性複数の一致"
+      }
+    },
+    {
+      "id": "w4_1",
+      "kind": "word",
+      "texts": {
+        "en": "the (f.pl)",
+        "th": "เหล่านั้น (หญิง)",
+        "fa": "(مونث جمع) آن‌ها",
+        "ar": "(مؤنث جمع) الـ",
+        "es": "las",
+        "zh": "那些 (阴)",
+        "ja": "その (女性複数)"
+      }
+    },
+    {
+      "id": "w4_2",
+      "kind": "word",
+      "texts": {
+        "en": "houses",
+        "th": "บ้าน",
+        "fa": "خانه‌ها",
+        "ar": "casas",
+        "es": "casas",
+        "zh": "房子",
+        "ja": "家"
+      }
+    },
+    {
+      "id": "w4_3",
+      "kind": "word",
+      "texts": {
+        "en": "white",
+        "th": "สีขาว",
+        "fa": "سفید",
+        "ar": "blancas",
+        "es": "blancas",
+        "zh": "白色的",
+        "ja": "白い"
+      }
+    },
+    {
+      "id": "w4_4",
+      "kind": "word",
+      "texts": {
+        "en": "some (f)",
+        "th": "บางส่วน (หญิง)",
+        "fa": "(مونث) برخی",
+        "ar": "(مؤنث) unas",
+        "es": "unas",
+        "zh": "一些 (阴)",
+        "ja": "いくつかの (女性)"
+      }
+    },
+    {
+      "id": "w4_5",
+      "kind": "word",
+      "texts": {
+        "en": "girls",
+        "th": "เด็กหญิง",
+        "fa": "دخترها",
+        "ar": "chicas",
+        "es": "chicas",
+        "zh": "女孩",
+        "ja": "女の子"
+      }
+    },
+    {
+      "id": "s4_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The houses are white.",
+        "th": "บ้านเหล่านั้นเป็นสีขาว",
+        "fa": "خانه‌ها سفید هستند.",
+        "ar": "البيوت بيضاء.",
+        "es": "Las casas son blancas.",
+        "zh": "那些房子是白色的。",
+        "ja": "その家は白いです。"
+      }
+    },
+    {
+      "id": "s4_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "Some smart girls.",
+        "th": "เด็กหญิงที่ฉลาดบางคน",
+        "fa": "برخی دختران باهوش.",
+        "ar": "بعض الفتيات الذكيات.",
+        "es": "Unas chicas inteligentes.",
+        "zh": "一些聪明的女孩。",
+        "ja": "賢い女の子たち。"
+      }
+    },
+    {
+      "id": "s4_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The tables are round.",
+        "th": "โต๊ะเหล่านั้นเป็นวงกลม",
+        "fa": "میزها گرد هستند.",
+        "ar": "الطاولات مستديرة.",
+        "es": "Las mesas son redondas.",
+        "zh": "那些桌子是圆的。",
+        "ja": "そのテーブルは丸いです。"
+      }
+    },
+    {
+      "id": "s4_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "Beautiful flowers.",
+        "th": "ดอกไม้ที่สวยงาม",
+        "fa": "گل‌های زیبا.",
+        "ar": "زهور جميلة.",
+        "es": "Flores hermosas.",
+        "zh": "美丽的花朵。",
+        "ja": "美しい花たち。"
+      }
+    },
+    {
+      "id": "s4_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The shirts are clean.",
+        "th": "เสื้อเชิ้ตเหล่านั้นสะอาด",
+        "fa": "پیراهن‌ها تمیز هستند.",
+        "ar": "القمصان نظيفة.",
+        "es": "Las camisas están limpias.",
+        "zh": "那些衬衫很干净。",
+        "ja": "そのシャツはきれいです。"
+      }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Agreement in Sentences",
+        "th": "ความสอดคล้องในประโยค",
+        "fa": "تطابق در جملات",
+        "ar": "التوافق في الجمل",
+        "es": "Concordancia en oraciones",
+        "zh": "句子中的一致性",
+        "ja": "文における一致"
+      }
+    },
+    {
+      "id": "w5_1",
+      "kind": "word",
+      "texts": {
+        "en": "dog",
+        "th": "สุนัข",
+        "fa": "سگ",
+        "ar": "perro",
+        "es": "perro",
+        "zh": "狗",
+        "ja": "犬"
+      }
+    },
+    {
+      "id": "w5_2",
+      "kind": "word",
+      "texts": {
+        "en": "cats",
+        "th": "แมว",
+        "fa": "گربه‌ها",
+        "ar": "gatos",
+        "es": "gatos",
+        "zh": "猫",
+        "ja": "猫"
+      }
+    },
+    {
+      "id": "w5_3",
+      "kind": "word",
+      "texts": {
+        "en": "birds",
+        "th": "นก",
+        "fa": "پرندگان",
+        "ar": "pájaros",
+        "es": "pájaros",
+        "zh": "鸟",
+        "ja": "鳥"
+      }
+    },
+    {
+      "id": "w5_4",
+      "kind": "word",
+      "texts": {
+        "en": "trees",
+        "th": "ต้นไม้",
+        "fa": "درخت‌ها",
+        "ar": "árboles",
+        "es": "árboles",
+        "zh": "树",
+        "ja": "木"
+      }
+    },
+    {
+      "id": "w5_5",
+      "kind": "word",
+      "texts": {
+        "en": "apples",
+        "th": "แอปเปิ้ล",
+        "fa": "سیب‌ها",
+        "ar": "manzanas",
+        "es": "manzanas",
+        "zh": "苹果",
+        "ja": "りんご"
+      }
+    },
+    {
+      "id": "s5_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The big dog barks.",
+        "th": "สุนัขตัวใหญ่เห่า",
+        "fa": "سگ بزرگ پارس می‌کند.",
+        "ar": "الكلب الكبير ينبح.",
+        "es": "El perro grande ladra.",
+        "zh": "那只大狗在叫。",
+        "ja": "その大きい犬が吠えます。"
+      }
+    },
+    {
+      "id": "s5_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The small cats sleep.",
+        "th": "แมวตัวเล็กนอน",
+        "fa": "گربه‌های کوچک می‌خوابند.",
+        "ar": "القطط الصغيرة تنام.",
+        "es": "Los gatos pequeños duermen.",
+        "zh": "那些小猫在睡觉。",
+        "ja": "その小さい猫たちは寝ます。"
+      }
+    },
+    {
+      "id": "s5_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The birds are fast.",
+        "th": "นกเหล่านั้นเร็ว",
+        "fa": "پرندگان سریع هستند.",
+        "ar": "الطيور سريعة.",
+        "es": "Los pájaros son rápidos.",
+        "zh": "那些鸟很快。",
+        "ja": "その鳥たちは速いです。"
+      }
+    },
+    {
+      "id": "s5_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The tall trees fall.",
+        "th": "ต้นไม้สูงล้มลง",
+        "fa": "درخت‌های قد بلند می‌افتند.",
+        "ar": "الأشجار الطويلة تسقط.",
+        "es": "Los árboles altos caen.",
+        "zh": "那些高大的树倒下了。",
+        "ja": "その背の高い木が倒れます。"
+      }
+    },
+    {
+      "id": "s5_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The red apples are sweet.",
+        "th": "แอปเปิ้ลสีแดงหวาน",
+        "fa": "سیب‌های قرمز شیرین هستند.",
+        "ar": "التفاحات الحمراء حلوة.",
+        "es": "Las manzanas rojas son dulces.",
+        "zh": "那些红苹果很甜。",
+        "ja": "その赤いりんごは甘いです。"
+      }
+    }
+  ]
+}

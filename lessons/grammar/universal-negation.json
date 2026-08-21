@@ -1,0 +1,720 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "h1",
+      "header": true,
+      "texts": {
+        "en": "Basic Negation (Not)",
+        "th": "การปฏิเสธพื้นฐาน",
+        "fa": "نفی پایه",
+        "ar": "النفي الأساسي",
+        "es": "Negación básica",
+        "zh": "基本否定",
+        "ja": "基本否定"
+      }
+    },
+    {
+      "id": "w1_1",
+      "kind": "word",
+      "texts": {
+        "en": "not",
+        "th": "ไม่",
+        "fa": "نه",
+        "ar": "لا",
+        "es": "no",
+        "zh": "不",
+        "ja": "ない"
+      }
+    },
+    {
+      "id": "w1_2",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "w1_3",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "يأكل",
+        "es": "comer",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "w1_4",
+      "kind": "word",
+      "texts": {
+        "en": "ready",
+        "th": "พร้อม",
+        "fa": "آماده",
+        "ar": "جاهز",
+        "es": "listo",
+        "zh": "准备",
+        "ja": "準備"
+      }
+    },
+    {
+      "id": "w1_5",
+      "kind": "word",
+      "texts": {
+        "en": "good",
+        "th": "ดี",
+        "fa": "خوب",
+        "ar": "جيد",
+        "es": "bueno",
+        "zh": "好",
+        "ja": "良い"
+      }
+    },
+    {
+      "id": "s1_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I do not go.",
+        "th": "ฉันไม่ไป",
+        "fa": "من نمی‌روم",
+        "ar": "أنا لا أذهب",
+        "es": "Yo no voy",
+        "zh": "我不去",
+        "ja": "私は行きません"
+      }
+    },
+    {
+      "id": "s1_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "She does not eat.",
+        "th": "เธอ不กิน",
+        "fa": "او نمی‌خورد",
+        "ar": "هي لا تأكل",
+        "es": "Ella no come",
+        "zh": "她不吃",
+        "ja": "彼女は食べません"
+      }
+    },
+    {
+      "id": "s1_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "We are not ready.",
+        "th": "เราไม่พร้อม",
+        "fa": "ما آماده نیستیم",
+        "ar": "نحن لسنا جاهزين",
+        "es": "No estamos listos",
+        "zh": "我们没准备好",
+        "ja": "私たちは準備ができていません"
+      }
+    },
+    {
+      "id": "s1_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "It is not good.",
+        "th": "มันไม่ดี",
+        "fa": "آن خوب نیست",
+        "ar": "إنه ليس جيداً",
+        "es": "No es bueno",
+        "zh": "它不好",
+        "ja": "それは良くない"
+      }
+    },
+    {
+      "id": "s1_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "You do not know.",
+        "th": "คุณ不知",
+        "fa": "تو نمی‌دانی",
+        "ar": "أنت لا تعرف",
+        "es": "Tú no sabes",
+        "zh": "你不知道",
+        "ja": "あなたは知りません"
+      }
+    },
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Negation of Existence (None)",
+        "th": "การปฏิเสธการมีอยู่",
+        "fa": "نفی وجود",
+        "ar": "نفي الوجود",
+        "es": "Negación de existencia",
+        "zh": "否定存在",
+        "ja": "存在の否定"
+      }
+    },
+    {
+      "id": "w2_1",
+      "kind": "word",
+      "texts": {
+        "en": "no",
+        "th": "ไม่มี",
+        "fa": "هیچ",
+        "ar": "لا يوجد",
+        "es": "ningún",
+        "zh": "没有",
+        "ja": "ない"
+      }
+    },
+    {
+      "id": "w2_2",
+      "kind": "word",
+      "texts": {
+        "en": "money",
+        "th": "เงิน",
+        "fa": "پول",
+        "ar": "مال",
+        "es": "dinero",
+        "zh": "钱",
+        "ja": "お金"
+      }
+    },
+    {
+      "id": "w2_3",
+      "kind": "word",
+      "texts": {
+        "en": "water",
+        "th": "น้ำ",
+        "fa": "آب",
+        "ar": "ماء",
+        "es": "agua",
+        "zh": "水",
+        "ja": "水"
+      }
+    },
+    {
+      "id": "w2_4",
+      "kind": "word",
+      "texts": {
+        "en": "time",
+        "th": "เวลา",
+        "fa": "وقت",
+        "ar": "وقت",
+        "es": "tiempo",
+        "zh": "时间",
+        "ja": "時間"
+      }
+    },
+    {
+      "id": "w2_5",
+      "kind": "word",
+      "texts": {
+        "en": "problems",
+        "th": "ปัญหา",
+        "fa": "مشکلات",
+        "ar": "مشاكل",
+        "es": "problemas",
+        "zh": "问题",
+        "ja": "問題"
+      }
+    },
+    {
+      "id": "s2_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I have no money.",
+        "th": "ฉันไม่มีเงิน",
+        "fa": "من پولی ندارم",
+        "ar": "ليس لدي مال",
+        "es": "No tengo dinero",
+        "zh": "我没有钱",
+        "ja": "私はお金がありません"
+      }
+    },
+    {
+      "id": "s2_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "There is no water.",
+        "th": "ไม่มีน้ำ",
+        "fa": "آبی نیست",
+        "ar": "لا يوجد ماء",
+        "es": "No hay agua",
+        "zh": "没有水",
+        "ja": "水がありません"
+      }
+    },
+    {
+      "id": "s2_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "She has no time.",
+        "th": "เธอไม่มีเวลา",
+        "fa": "او وقت ندارد",
+        "ar": "ليس لديها وقت",
+        "es": "Ella no tiene tiempo",
+        "zh": "她没有时间",
+        "ja": "彼女には時間がありません"
+      }
+    },
+    {
+      "id": "s2_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "There are no problems.",
+        "th": "ไม่มีปัญหา",
+        "fa": "مشکلی نیست",
+        "ar": "لا توجد مشاكل",
+        "es": "No hay problemas",
+        "zh": "没有问题",
+        "ja": "問題はありません"
+      }
+    },
+    {
+      "id": "s2_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "He has no friends.",
+        "th": "เขาไม่มีเพื่อน",
+        "fa": "او دوستی ندارد",
+        "ar": "ليس لديه أصدقاء",
+        "es": "Él no tiene amigos",
+        "zh": "他没有朋友",
+        "ja": "彼には友達がいません"
+      }
+    },
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Negation of Ability (Cannot)",
+        "th": "การปฏิเสธความสามารถ",
+        "fa": "نفی توانایی",
+        "ar": "نفي القدرة",
+        "es": "Negación de habilidad",
+        "zh": "否定能力",
+        "ja": "能力の否定"
+      }
+    },
+    {
+      "id": "w3_1",
+      "kind": "word",
+      "texts": {
+        "en": "cannot",
+        "th": "ไม่สามารถ",
+        "fa": "نمی‌توانم",
+        "ar": "لا أستطيع",
+        "es": "no puedo",
+        "zh": "不能",
+        "ja": "できない"
+      }
+    },
+    {
+      "id": "w3_2",
+      "kind": "word",
+      "texts": {
+        "en": "swim",
+        "th": "ว่ายน้ำ",
+        "fa": "شنا کردن",
+        "ar": "يسبح",
+        "es": "nadar",
+        "zh": "游泳",
+        "ja": "泳ぐ"
+      }
+    },
+    {
+      "id": "w3_3",
+      "kind": "word",
+      "texts": {
+        "en": "drive",
+        "th": "ขับรถ",
+        "fa": "رانندگی کردن",
+        "ar": "يقود",
+        "es": "conducir",
+        "zh": "开车",
+        "ja": "運転する"
+      }
+    },
+    {
+      "id": "w3_4",
+      "kind": "word",
+      "texts": {
+        "en": "hear",
+        "th": "听见",
+        "fa": "شنیدن",
+        "ar": "يسمع",
+        "es": "oír",
+        "zh": "听见",
+        "ja": "聞く"
+      }
+    },
+    {
+      "id": "w3_5",
+      "kind": "word",
+      "texts": {
+        "en": "understand",
+        "th": "理解",
+        "fa": "فهمیدن",
+        "ar": "يفهم",
+        "es": "entender",
+        "zh": "理解",
+        "ja": "理解する"
+      }
+    },
+    {
+      "id": "s3_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I cannot swim.",
+        "th": "ฉันว่ายน้ำไม่ได้",
+        "fa": "من نمی‌توانم شنا کنم",
+        "ar": "لا أستطيع السباحة",
+        "es": "No puedo nadar",
+        "zh": "我不会游泳",
+        "ja": "私は泳げません"
+      }
+    },
+    {
+      "id": "s3_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "He cannot drive.",
+        "th": "เขา开车ไม่ได้",
+        "fa": "او نمی‌تواند رانندگی کند",
+        "ar": "لا يستطيع القيادة",
+        "es": "Él no puede conducir",
+        "zh": "他不会开车",
+        "ja": "彼は運転できません"
+      }
+    },
+    {
+      "id": "s3_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "They cannot hear.",
+        "th": "พวกเขา听不见",
+        "fa": "آن‌ها نمی‌توانند بشنوند",
+        "ar": "لا يستطيعون السمع",
+        "es": "Ellos no pueden oír",
+        "zh": "他们听不见",
+        "ja": "彼らは聞けません"
+      }
+    },
+    {
+      "id": "s3_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "I cannot understand.",
+        "th": "ฉัน理解不了",
+        "fa": "من نمی‌توانم بفهمم",
+        "ar": "لا أستطيع الفهم",
+        "es": "No puedo entender",
+        "zh": "我无法理解",
+        "ja": "私は理解できません"
+      }
+    },
+    {
+      "id": "s3_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "We cannot wait.",
+        "th": "我们不能等",
+        "fa": "ما نمی‌توانیم صبر کنیم",
+        "ar": "لا نستطيع الانتظار",
+        "es": "No podemos esperar",
+        "zh": "我们不能等",
+        "ja": "私たちは待てません"
+      }
+    },
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Negative Imperatives (Don't)",
+        "th": "คำสั่งปฏิเสธ",
+        "fa": "امرهایی منفی",
+        "ar": "أوامر سلبية",
+        "es": "Imperativos negativos",
+        "zh": "否定祈使句",
+        "ja": "否定命令"
+      }
+    },
+    {
+      "id": "w4_1",
+      "kind": "word",
+      "texts": {
+        "en": "don't",
+        "th": "อย่า",
+        "fa": "نکن",
+        "ar": "لا تفعل",
+        "es": "no hagas",
+        "zh": "别",
+        "ja": "するな"
+      }
+    },
+    {
+      "id": "w4_2",
+      "kind": "word",
+      "texts": {
+        "en": "run",
+        "th": "跑",
+        "fa": "دویدن",
+        "ar": "تركض",
+        "es": "correr",
+        "zh": "跑",
+        "ja": "走る"
+      }
+    },
+    {
+      "id": "w4_3",
+      "kind": "word",
+      "texts": {
+        "en": "touch",
+        "th": "摸",
+        "fa": "لمس کردن",
+        "ar": "تلمس",
+        "es": "tocar",
+        "zh": "触摸",
+        "ja": "触る"
+      }
+    },
+    {
+      "id": "w4_4",
+      "kind": "word",
+      "texts": {
+        "en": "late",
+        "th": "迟到",
+        "fa": "دیر",
+        "ar": "متأخر",
+        "es": "tarde",
+        "zh": "迟到",
+        "ja": "遅れる"
+      }
+    },
+    {
+      "id": "w4_5",
+      "kind": "word",
+      "texts": {
+        "en": "worry",
+        "th": "担心",
+        "fa": "نگران شدن",
+        "ar": "تقلق",
+        "es": "preocuparse",
+        "zh": "担心",
+        "ja": "心配する"
+      }
+    },
+    {
+      "id": "s4_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "Don't run.",
+        "th": "อย่า跑",
+        "fa": "ندو",
+        "ar": "لا تركض",
+        "es": "No corras",
+        "zh": "别跑",
+        "ja": "走るな"
+      }
+    },
+    {
+      "id": "s4_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "Don't touch.",
+        "th": "อย่า摸",
+        "fa": "لمس نکن",
+        "ar": "لا تلمس",
+        "es": "No toques",
+        "zh": "别摸",
+        "ja": "触るな"
+      }
+    },
+    {
+      "id": "s4_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "Don't be late.",
+        "th": "别迟到",
+        "fa": "دیر نکن",
+        "ar": "لا تتأخر",
+        "es": "No llegues tarde",
+        "zh": "别迟到",
+        "ja": "遅れるな"
+      }
+    },
+    {
+      "id": "s4_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "Don't worry.",
+        "th": "别担心",
+        "fa": "نگران نشو",
+        "ar": "لا تقلق",
+        "es": "No te preocupes",
+        "zh": "别担心",
+        "ja": "心配するな"
+      }
+    },
+    {
+      "id": "s4_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "Don't speak.",
+        "th": "别说话",
+        "fa": "حرف نزن",
+        "ar": "لا تتكلم",
+        "es": "No hables",
+        "zh": "别说",
+        "ja": "話すな"
+      }
+    },
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Negative Questions",
+        "th": "คำถามปฏิเสธ",
+        "fa": "سوالات منفی",
+        "ar": "أسئلة سلبية",
+        "es": "Preguntas negativas",
+        "zh": "否定疑问句",
+        "ja": "否定疑問文"
+      }
+    },
+    {
+      "id": "w5_1",
+      "kind": "word",
+      "texts": {
+        "en": "isn't",
+        "th": "ไม่ใช่吗",
+        "fa": "نیست؟",
+        "ar": "أليس؟",
+        "es": "¿no es?",
+        "zh": "不是吗",
+        "ja": "ではないか"
+      }
+    },
+    {
+      "id": "w5_2",
+      "kind": "word",
+      "texts": {
+        "en": "don't",
+        "th": "不...吗",
+        "fa": "آیا نه؟",
+        "ar": "ألا؟",
+        "es": "¿no?",
+        "zh": "不...吗",
+        "ja": "しないか"
+      }
+    },
+    {
+      "id": "w5_3",
+      "kind": "word",
+      "texts": {
+        "en": "cold",
+        "th": "冷",
+        "fa": "سرد",
+        "ar": "بارد",
+        "es": "frío",
+        "zh": "冷",
+        "ja": "寒い"
+      }
+    },
+    {
+      "id": "w5_4",
+      "kind": "word",
+      "texts": {
+        "en": "like",
+        "th": "喜欢",
+        "fa": "دوست داشتن",
+        "ar": "يحب",
+        "es": "gustar",
+        "zh": "喜欢",
+        "ja": "好き"
+      }
+    },
+    {
+      "id": "w5_5",
+      "kind": "word",
+      "texts": {
+        "en": "coming",
+        "th": "来",
+        "fa": "آمدن",
+        "ar": "يأتي",
+        "es": "venir",
+        "zh": "来",
+        "ja": "来る"
+      }
+    },
+    {
+      "id": "s5_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "Isn't it cold?",
+        "th": "不冷吗？",
+        "fa": "سرد نیست؟",
+        "ar": "أليس بارداً؟",
+        "es": "¿No hace frío?",
+        "zh": "不冷吗？",
+        "ja": "寒くないか"
+      }
+    },
+    {
+      "id": "s5_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "Don't you like it?",
+        "th": "你不喜欢吗？",
+        "fa": "دوست نداری؟",
+        "ar": "ألا تحبه؟",
+        "es": "¿No te gusta?",
+        "zh": "你不喜欢吗？",
+        "ja": "好きではないか"
+      }
+    },
+    {
+      "id": "s5_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "Isn't he here?",
+        "th": "他不在这吗？",
+        "fa": "اینجا نیست؟",
+        "ar": "أليس هنا؟",
+        "es": "¿No está aquí?",
+        "zh": "他不在这吗？",
+        "ja": "ここにいないのか"
+      }
+    },
+    {
+      "id": "s5_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "Aren't they coming?",
+        "th": "他们不来吗？",
+        "fa": "نمی‌آیند؟",
+        "ar": "ألا يأتون؟",
+        "es": "¿No vienen?",
+        "zh": "他们不来吗？",
+        "ja": "彼らは来ないのか"
+      }
+    },
+    {
+      "id": "s5_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "Isn't this yours?",
+        "th": "这不是你的吗？",
+        "fa": "مال تو نیست؟",
+        "ar": "أليس هذا لك؟",
+        "es": "¿No es tuyo?",
+        "zh": "这不是你的吗？",
+        "ja": "これはあなたのものではないか"
+      }
+    }
+  ]
+}

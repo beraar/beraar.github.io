@@ -93,7 +93,15 @@
     "voicetest",
     "help",
   ]);
-  const IMPLEMENTED_TARGET_LANGUAGES = Object.freeze(["th", "fa"]);
+  const IMPLEMENTED_TARGET_LANGUAGES = Object.freeze([
+    "th",
+    "fa",
+    "en",
+    "zh",
+    "ja",
+    "ar",
+    "es",
+  ]);
   const UI_STRINGS = Object.freeze({
     appTitle: {
       en: "Zabon",

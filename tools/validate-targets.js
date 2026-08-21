@@ -8,25 +8,66 @@ const ALL_LANGUAGES = ["en", "th", "fa", "ar", "es", "zh", "ja"];
 
 // Linguistic Map: Rule ID -> Allowed Target Languages
 const RULE_TO_LANGUAGES = {
-  rule_g01: ["en", "es", "th", "ar", "zh"], // Basic SVO
-  rule_g02: ["th"], // Politeness Particles (Thai specific)
-  rule_g03: ALL_LANGUAGES, // Yes/No Questions (Universal)
-  rule_g05: ALL_LANGUAGES, // Wh- Questions (Universal)
-  rule_g06: ALL_LANGUAGES, // Descriptive (Universal)
-  rule_g07: ALL_LANGUAGES, // Possession (Universal)
-  rule_g08: ALL_LANGUAGES, // Tense & Aspect (Universal)
-  rule_g09: ["th", "zh", "ja"], // Classifiers
-  rule_g10: ["th", "zh", "ja"], // Topic-Comment
-  rule_g11: ["th", "zh"], // Serial Verbs
-  rule_g12: ALL_LANGUAGES, // Comparatives (Universal)
-  rule_g16: ALL_LANGUAGES, // Conditionals (Universal)
-  rule_g17: ALL_LANGUAGES, // Ability (Universal)
-  rule_g19: ALL_LANGUAGES, // Conjunctions (Universal)
-  rule_g20: ALL_LANGUAGES, // Reported Speech (Universal)
-  rule_g21: ["th"], // Emphasis Particles (Thai specific)
-  rule_g22: ALL_LANGUAGES, // Requests & Imperatives (Universal)
-  rule_g23: ALL_LANGUAGES, // Exclamations (Universal)
-  rule_g24: ["th"], // Register Switching (Thai specific)
+  // Universal Rules
+  rule_universal_svo: ["en", "es", "th", "ar", "zh"],
+  rule_universal_yes_no_questions: ALL_LANGUAGES,
+  rule_universal_negation: ALL_LANGUAGES,
+  rule_universal_wh_questions: ALL_LANGUAGES,
+  rule_universal_descriptive: ALL_LANGUAGES,
+  rule_universal_possession: ALL_LANGUAGES,
+  rule_universal_tense_aspect: ALL_LANGUAGES,
+  rule_universal_comparatives: ALL_LANGUAGES,
+  rule_universal_conditionals: ALL_LANGUAGES,
+  rule_universal_ability: ALL_LANGUAGES,
+  rule_universal_conjunctions: ALL_LANGUAGES,
+  rule_universal_reported_speech: ALL_LANGUAGES,
+  rule_universal_requests_imperatives: ALL_LANGUAGES,
+  rule_universal_negation: ALL_LANGUAGES,
+  rule_universal_relative_clauses: ALL_LANGUAGES,
+  rule_universal_passive: ALL_LANGUAGES,
+  rule_universal_causative: ALL_LANGUAGES,
+  rule_universal_quantifiers: ALL_LANGUAGES,
+
+  // Multi-Language Typological Rules
+  rule_universal_classifiers: ["th", "zh", "ja"],
+  rule_universal_topic_comment: ["th", "zh", "ja"],
+  rule_universal_serial_verbs: ["th", "zh"],
+  rule_universal_relative_clauses: ALL_LANGUAGES,
+  rule_universal_passive: ALL_LANGUAGES,
+  rule_universal_causative: ALL_LANGUAGES,
+  rule_universal_quantifiers: ALL_LANGUAGES,
+
+  // Thai-Specific Rules
+  rule_th_politeness_particles: ["th"],
+  rule_th_emphasis_particles: ["th"],
+  rule_th_exclamations: ["th"],
+  rule_th_register_switching: ["th"],
+
+  // Phase 1: English
+  rule_en_articles: ["en"],
+  rule_en_sva: ["en"],
+
+  // Phase 2: Persian
+  rule_fa_ezafe: ["fa"],
+  rule_fa_sov: ["fa"],
+  rule_fa_formality: ["fa"],
+
+  // Phase 3: Chinese
+  rule_zh_aspect: ["zh"],
+
+  // Phase 4: Japanese
+  rule_ja_particles: ["ja"],
+  rule_ja_conjugation: ["ja"],
+
+  // Phase 5: Arabic
+  rule_ar_idafa: ["ar"],
+  rule_ar_agreement: ["ar"],
+  rule_ar_definite: ["ar"],
+
+  // Phase 6: Spanish
+  rule_es_ser_estar: ["es"],
+  rule_es_agreement: ["es"],
+  rule_es_pronouns: ["es"],
 };
 
 function getIntersection(arrays) {

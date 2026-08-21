@@ -1,0 +1,750 @@
+{
+  "version": 2,
+  "displayMode": "standard",
+  "items": [
+    {
+      "id": "h1",
+      "header": true,
+      "texts": {
+        "en": "Completed Action (了)",
+        "th": "การกระทำที่เสร็จสิ้น (了)",
+        "fa": "اقدام کامل شده (了)",
+        "ar": "الفعل المكتمل (了)",
+        "es": "Acción completada (了)",
+        "zh": "完成的动作 (了)",
+        "ja": "完了の動作 (了)"
+      }
+    },
+    {
+      "id": "w1_1",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "Yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "w1_2",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "يأكل",
+        "es": "comer",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "w1_3",
+      "kind": "word",
+      "texts": {
+        "en": "le (completed)",
+        "th": "แล้ว (เสร็จสิ้น)",
+        "fa": "le (کامل شده)",
+        "ar": "le (مكتمل)",
+        "es": "le (completado)",
+        "zh": "了 (完成)",
+        "ja": "了 (完了)"
+      }
+    },
+    {
+      "id": "w1_4",
+      "kind": "word",
+      "texts": {
+        "en": "apple",
+        "th": "แอปเปิ้ล",
+        "fa": "سیب",
+        "ar": "تفاحة",
+        "es": "manzana",
+        "zh": "苹果",
+        "ja": "りんご"
+      }
+    },
+    {
+      "id": "w1_5",
+      "kind": "word",
+      "texts": {
+        "en": "yesterday",
+        "th": "เมื่อวาน",
+        "fa": "دیروز",
+        "ar": "أمس",
+        "es": "ayer",
+        "zh": "昨天",
+        "ja": "昨日"
+      }
+    },
+    {
+      "id": "s1_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I ate the apple.",
+        "th": "ฉันกินแอปเปิ้ลแล้ว",
+        "fa": "من سیب خوردم.",
+        "ar": "أكلت التفاحة.",
+        "es": "Comí la manzana.",
+        "zh": "我吃了苹果。",
+        "ja": "私はりんごを食べました。"
+      },
+      "tokens": { "zh": ["我", "吃", "了", "苹果", "。"] }
+    },
+    {
+      "id": "s1_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "He came yesterday.",
+        "th": "เขามาเมื่อวาน",
+        "fa": "او دیروز آمد.",
+        "ar": "جاء أمس.",
+        "es": "Él vino ayer.",
+        "zh": "他昨天来了。",
+        "ja": "彼は昨日来ました。"
+      },
+      "tokens": { "zh": ["他", "昨天", "来", "了", "。"] }
+    },
+    {
+      "id": "s1_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "We bought books.",
+        "th": "เราซื้อหนังสือแล้ว",
+        "fa": "ما کتاب خریدیم.",
+        "ar": "اشترينا الكتب.",
+        "es": "Compramos libros.",
+        "zh": "我们买了书。",
+        "ja": "私たちは本を買いました。"
+      },
+      "tokens": { "zh": ["我们", "买", "了", "书", "。"] }
+    },
+    {
+      "id": "s1_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "She drank water.",
+        "th": "เธอดื่มน้ำแล้ว",
+        "fa": "او آب نوشید.",
+        "ar": "شربت الماء.",
+        "es": "Ella bebió agua.",
+        "zh": "她喝了水。",
+        "ja": "彼女は水を飲みました。"
+      },
+      "tokens": { "zh": ["她", "喝", "了", "水", "。"] }
+    },
+    {
+      "id": "s1_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The rain stopped.",
+        "th": "ฝนหยุดตกแล้ว",
+        "fa": "باران بند آمد.",
+        "ar": "توقفت الأمطار.",
+        "es": "La lluvia se detuvo.",
+        "zh": "雨停了。",
+        "ja": "雨がやみました。"
+      },
+      "tokens": { "zh": ["雨", "停", "了", "。"] }
+    },
+
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Ongoing Action (着)",
+        "th": "การกระทำที่กำลังดำเนินอยู่ (着)",
+        "fa": "اقدام در حال انجام (着)",
+        "ar": "الفعل الجاري (着)",
+        "es": "Acción en curso (着)",
+        "zh": "正在进行的动作 (着)",
+        "ja": "進行中の動作 (着)"
+      }
+    },
+    {
+      "id": "w2_1",
+      "kind": "word",
+      "texts": {
+        "en": "read/look",
+        "th": "อ่าน/มอง",
+        "fa": "نگاه کردن",
+        "ar": "ينظر",
+        "es": "leer/mirar",
+        "zh": "看",
+        "ja": "見る"
+      }
+    },
+    {
+      "id": "w2_2",
+      "kind": "word",
+      "texts": {
+        "en": "zhe (ongoing)",
+        "th": "กำลัง (ดำเนินอยู่)",
+        "fa": "zhe (در حال انجام)",
+        "ar": "zhe (جاري)",
+        "es": "zhe (en curso)",
+        "zh": "着 (进行中)",
+        "ja": "着 (進行中)"
+      }
+    },
+    {
+      "id": "w2_3",
+      "kind": "word",
+      "texts": {
+        "en": "door",
+        "th": "ประตู",
+        "fa": "در",
+        "ar": "باب",
+        "es": "puerta",
+        "zh": "门",
+        "ja": "ドア"
+      }
+    },
+    {
+      "id": "w2_4",
+      "kind": "word",
+      "texts": {
+        "en": "open",
+        "th": "เปิด",
+        "fa": "باز",
+        "ar": "مفتوح",
+        "es": "abierto",
+        "zh": "开",
+        "ja": "開ける"
+      }
+    },
+    {
+      "id": "w2_5",
+      "kind": "word",
+      "texts": {
+        "en": "sit",
+        "th": "นั่ง",
+        "fa": "نشستن",
+        "ar": "يجلس",
+        "es": "sentarse",
+        "zh": "坐",
+        "ja": "座る"
+      }
+    },
+    {
+      "id": "s2_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The door is open.",
+        "th": "ประตูเปิดอยู่",
+        "fa": "در باز است.",
+        "ar": "الباب مفتوح.",
+        "es": "La puerta está abierta.",
+        "zh": "门开着。",
+        "ja": "ドアが開いています。"
+      },
+      "tokens": { "zh": ["门", "开", "着", "。"] }
+    },
+    {
+      "id": "s2_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "He is reading a book.",
+        "th": "เขากำลังอ่านหนังสือ",
+        "fa": "او دارد کتاب می‌خواند.",
+        "ar": "إنه يقرأ كتاباً.",
+        "es": "Él está leyendo un libro.",
+        "zh": "他看着书。",
+        "ja": "彼は本を読んでいます。"
+      },
+      "tokens": { "zh": ["他", "看", "着", "书", "。"] }
+    },
+    {
+      "id": "s2_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "She is sitting.",
+        "th": "เธอกำลังนั่ง",
+        "fa": "او نشسته است.",
+        "ar": "إنها جالسة.",
+        "es": "Ella está sentada.",
+        "zh": "她坐着。",
+        "ja": "彼女は座っています。"
+      },
+      "tokens": { "zh": ["她", "坐", "着", "。"] }
+    },
+    {
+      "id": "s2_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The light is on.",
+        "th": "ไฟเปิดอยู่",
+        "fa": "چراغ روشن است.",
+        "ar": "المصباح مضاء.",
+        "es": "La luz está encendida.",
+        "zh": "灯亮着。",
+        "ja": "電気がついています。"
+      },
+      "tokens": { "zh": ["灯", "亮", "着", "。"] }
+    },
+    {
+      "id": "s2_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "I am listening to music.",
+        "th": "ฉันกำลังฟังเพลง",
+        "fa": "من دارم به موسیقی گوش می‌دهم.",
+        "ar": "أنا أستمع إلى الموسيقى.",
+        "es": "Estoy escuchando música.",
+        "zh": "我听着音乐。",
+        "ja": "私は音楽を聞いています。"
+      },
+      "tokens": { "zh": ["我", "听", "着", "音乐", "。"] }
+    },
+
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Experienced Action (过)",
+        "th": "การกระทำที่เคยประสบ (过)",
+        "fa": "اقدام تجربه شده (过)",
+        "ar": "الفعل المجرب (过)",
+        "es": "Acción experimentada (过)",
+        "zh": "经历过的动作 (过)",
+        "ja": "経験した動作 (过)"
+      }
+    },
+    {
+      "id": "w3_1",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "w3_2",
+      "kind": "word",
+      "texts": {
+        "en": "guo (experienced)",
+        "th": "เคย (ประสบ)",
+        "fa": "guo (تجربه شده)",
+        "ar": "guo (مُجرَّب)",
+        "es": "guo (experimentado)",
+        "zh": "过 (经历过)",
+        "ja": "过 (経験済み)"
+      }
+    },
+    {
+      "id": "w3_3",
+      "kind": "word",
+      "texts": {
+        "en": "China",
+        "th": "จีน",
+        "fa": "چین",
+        "ar": "الصين",
+        "es": "China",
+        "zh": "中国",
+        "ja": "中国"
+      }
+    },
+    {
+      "id": "w3_4",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "خوردن",
+        "ar": "يأكل",
+        "es": "comer",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "w3_5",
+      "kind": "word",
+      "texts": {
+        "en": "sushi",
+        "th": "ซูชิ",
+        "fa": "سوشی",
+        "ar": "سوشي",
+        "es": "sushi",
+        "zh": "寿司",
+        "ja": "寿司"
+      }
+    },
+    {
+      "id": "s3_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I have been to China.",
+        "th": "ฉันเคยไปจีน",
+        "fa": "من به چین رفته‌ام.",
+        "ar": "لقد ذهبت إلى الصين.",
+        "es": "He estado en China.",
+        "zh": "我去过中国。",
+        "ja": "私は中国に行ったことがあります。"
+      },
+      "tokens": { "zh": ["我", "去", "过", "中国", "。"] }
+    },
+    {
+      "id": "s3_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "He has eaten sushi.",
+        "th": "เขากินซูชิแล้ว",
+        "fa": "او سوشی خورده است.",
+        "ar": "لقد أكل السوشي.",
+        "es": "Él ha comido sushi.",
+        "zh": "他吃过寿司。",
+        "ja": "彼は寿司を食べたことがあります。"
+      },
+      "tokens": { "zh": ["他", "吃", "过", "寿司", "。"] }
+    },
+    {
+      "id": "s3_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "We have met.",
+        "th": "เราเคยเจอกัน",
+        "fa": "ما همدیگر را دیده‌ایم.",
+        "ar": "لقد التقينا.",
+        "es": "Nos hemos conocido.",
+        "zh": "我们见过面。",
+        "ja": "私たちは会ったことがあります。"
+      },
+      "tokens": { "zh": ["我们", "见", "过", "面", "。"] }
+    },
+    {
+      "id": "s3_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "Have you studied Chinese?",
+        "th": "คุณเคยเรียนภาษาจีนไหม?",
+        "fa": "آیا چینی یاد گرفته‌ای؟",
+        "ar": "هل درست الصينية؟",
+        "es": "¿Has estudiado chino?",
+        "zh": "你学过中文吗？",
+        "ja": "あなたは中国語を勉強したことがありますか？"
+      },
+      "tokens": { "zh": ["你", "学", "过", "中文", "吗", "？"] }
+    },
+    {
+      "id": "s3_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "She has been to Japan.",
+        "th": "เธอเคยไปญี่ปุ่น",
+        "fa": "او به ژاپن رفته است.",
+        "ar": "لقد ذهبت إلى اليابان.",
+        "es": "Ella ha estado en Japón.",
+        "zh": "她去过日本。",
+        "ja": "彼女は日本に行ったことがあります。"
+      },
+      "tokens": { "zh": ["她", "去", "过", "日本", "。"] }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Change of State (了)",
+        "th": "การเปลี่ยนสถานะ (了)",
+        "fa": "تغییر وضعیت (了)",
+        "ar": "تغير الحالة (了)",
+        "es": "Cambio de estado (了)",
+        "zh": "状态的变化 (了)",
+        "ja": "状態の変化 (了)"
+      }
+    },
+    {
+      "id": "w4_1",
+      "kind": "word",
+      "texts": {
+        "en": "rain",
+        "th": "ฝนตก",
+        "fa": "باران",
+        "ar": "يمطر",
+        "es": "llover",
+        "zh": "下雨",
+        "ja": "雨が降る"
+      }
+    },
+    {
+      "id": "w4_2",
+      "kind": "word",
+      "texts": {
+        "en": "cold",
+        "th": "หนาว",
+        "fa": "سرد",
+        "ar": "بارد",
+        "es": "frío",
+        "zh": "冷",
+        "ja": "寒い"
+      }
+    },
+    {
+      "id": "w4_3",
+      "kind": "word",
+      "texts": {
+        "en": "big/grow",
+        "th": "ใหญ่/โต",
+        "fa": "بزرگ",
+        "ar": "كبير",
+        "es": "grande/crecer",
+        "zh": "大",
+        "ja": "大きい"
+      }
+    },
+    {
+      "id": "w4_4",
+      "kind": "word",
+      "texts": {
+        "en": "new",
+        "th": "ใหม่",
+        "fa": "جدید",
+        "ar": "جديد",
+        "es": "nuevo",
+        "zh": "新",
+        "ja": "新しい"
+      }
+    },
+    {
+      "id": "w4_5",
+      "kind": "word",
+      "texts": {
+        "en": "understand",
+        "th": "เข้าใจ",
+        "fa": "فهمیدن",
+        "ar": "يفهم",
+        "es": "entender",
+        "zh": "懂",
+        "ja": "分かる"
+      }
+    },
+    {
+      "id": "s4_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "It's raining.",
+        "th": "ฝนตกแล้ว",
+        "fa": "دارد باران می‌بارد.",
+        "ar": "إنها تمطر.",
+        "es": "Está lloviendo.",
+        "zh": "下雨了。",
+        "ja": "雨が降っています。"
+      },
+      "tokens": { "zh": ["下雨", "了", "。"] }
+    },
+    {
+      "id": "s4_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The weather has become cold.",
+        "th": "อากาศหนาวแล้ว",
+        "fa": "هوا سرد شده است.",
+        "ar": "أصبح الجو بارداً.",
+        "es": "El clima se ha vuelto frío.",
+        "zh": "天气冷了。",
+        "ja": "寒くなりました。"
+      },
+      "tokens": { "zh": ["天气", "冷", "了", "。"] }
+    },
+    {
+      "id": "s4_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "He has grown up.",
+        "th": "เขาโตแล้ว",
+        "fa": "او بزرگ شده است.",
+        "ar": "لقد كبر.",
+        "es": "Él ha crecido.",
+        "zh": "他长大了。",
+        "ja": "彼は大きくなりました。"
+      },
+      "tokens": { "zh": ["他", "长大", "了", "。"] }
+    },
+    {
+      "id": "s4_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "I understand now.",
+        "th": "ฉันเข้าใจแล้ว",
+        "fa": "حالا فهمیدم.",
+        "ar": "أنا أفهم الآن.",
+        "es": "Entiendo ahora.",
+        "zh": "我懂了。",
+        "ja": "分かりました。"
+      },
+      "tokens": { "zh": ["我", "懂", "了", "。"] }
+    },
+    {
+      "id": "s4_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "These are new clothes now.",
+        "th": "นี่คือเสื้อผ้าใหม่แล้ว",
+        "fa": "این لباس‌های جدید است.",
+        "ar": "هذه ملابس جديدة الآن.",
+        "es": "Esta es ropa nueva ahora.",
+        "zh": "这是新衣服了。",
+        "ja": "これは新しい服です。"
+      },
+      "tokens": { "zh": ["这", "是", "新", "衣服", "了", "。"] }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Mixed Aspect Practice",
+        "th": "แบบฝึกหัดผสมผสาน",
+        "fa": "تمرین ترکیبی",
+        "ar": "تدريب مختلط",
+        "es": "Práctica mixta",
+        "zh": "混合体貌练习",
+        "ja": "混合アスペクト練習"
+      }
+    },
+    {
+      "id": "w5_1",
+      "kind": "word",
+      "texts": {
+        "en": "currently",
+        "th": "กำลัง (ปัจจุบัน)",
+        "fa": "در حال حاضر",
+        "ar": "حالياً",
+        "es": "actualmente",
+        "zh": "正在",
+        "ja": "現在"
+      }
+    },
+    {
+      "id": "w5_2",
+      "kind": "word",
+      "texts": {
+        "en": "already",
+        "th": "แล้ว (เสร็จ)",
+        "fa": "قبلاً",
+        "ar": "بالفعل",
+        "es": "ya",
+        "zh": "已经",
+        "ja": "すでに"
+      }
+    },
+    {
+      "id": "w5_3",
+      "kind": "word",
+      "texts": {
+        "en": "not yet",
+        "th": "ยังไม่",
+        "fa": "هنوز نه",
+        "ar": "ليس بعد",
+        "es": "todavía no",
+        "zh": "还没",
+        "ja": "まだ"
+      }
+    },
+    {
+      "id": "w5_4",
+      "kind": "word",
+      "texts": {
+        "en": "in hand",
+        "th": "ในมือ",
+        "fa": "در دست",
+        "ar": "في اليد",
+        "es": "en la mano",
+        "zh": "手里",
+        "ja": "手に"
+      }
+    },
+    {
+      "id": "w5_5",
+      "kind": "word",
+      "texts": {
+        "en": "before",
+        "th": "ก่อนหน้านี้",
+        "fa": "قبلاً",
+        "ar": "سابقاً",
+        "es": "antes",
+        "zh": "以前",
+        "ja": "以前"
+      }
+    },
+    {
+      "id": "s5_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I am currently eating.",
+        "th": "ฉันกำลังกินข้าว",
+        "fa": "من در حال غذا خوردن هستم.",
+        "ar": "أنا آكل حالياً.",
+        "es": "Estoy comiendo actualmente.",
+        "zh": "我正在吃饭。",
+        "ja": "私は今食事をしています。"
+      },
+      "tokens": { "zh": ["我", "正在", "吃饭", "。"] }
+    },
+    {
+      "id": "s5_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "He has already left.",
+        "th": "เขาไปแล้ว",
+        "fa": "او قبلاً رفته است.",
+        "ar": "لقد غادر بالفعل.",
+        "es": "Él ya se ha ido.",
+        "zh": "他已经走了。",
+        "ja": "彼はもう行きました。"
+      },
+      "tokens": { "zh": ["他", "已经", "走", "了", "。"] }
+    },
+    {
+      "id": "s5_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "I haven't slept yet.",
+        "th": "ฉันยังไม่นอน",
+        "fa": "من هنوز نخوابیده‌ام.",
+        "ar": "لم أنم بعد.",
+        "es": "Aún no he dormido.",
+        "zh": "我还没睡觉。",
+        "ja": "私はまだ寝ていません。"
+      },
+      "tokens": { "zh": ["我", "还", "没", "睡觉", "。"] }
+    },
+    {
+      "id": "s5_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "She is holding a book in her hand.",
+        "th": "เธอถือหนังสืออยู่ในมือ",
+        "fa": "او کتابی در دست دارد.",
+        "ar": "إنها تحمل كتاباً في يدها.",
+        "es": "Ella sostiene un libro en su mano.",
+        "zh": "她手里拿着书。",
+        "ja": "彼女は手に本を持っています。"
+      },
+      "tokens": { "zh": ["她", "手里", "拿", "着", "书", "。"] }
+    },
+    {
+      "id": "s5_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "Have you been here before?",
+        "th": "คุณเคยมาที่นี่มาก่อนไหม?",
+        "fa": "آیا قبلاً اینجا آمده‌ای؟",
+        "ar": "هل زرت هذا المكان من قبل؟",
+        "es": "¿Has estado aquí antes?",
+        "zh": "你以前来过这里吗？",
+        "ja": "あなたは以前ここに来たことがありますか？"
+      },
+      "tokens": { "zh": ["你", "以前", "来", "过", "这里", "吗", "？"] }
+    }
+  ]
+}

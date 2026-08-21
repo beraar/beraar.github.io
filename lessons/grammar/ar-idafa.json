@@ -1,0 +1,725 @@
+{
+  "version": 2,
+  "displayMode": "standard",
+  "items": [
+    {
+      "id": "h1",
+      "header": true,
+      "texts": {
+        "en": "Basic Idafa (Noun + Noun)",
+        "th": "อีดาฟาพื้นฐาน (คำนาม + คำนาม)",
+        "fa": "اضافه پایه (اسم + اسم)",
+        "ar": "الإضافة الأساسية (اسم + اسم)",
+        "es": "Idafa básica (Sustantivo + Sustantivo)",
+        "zh": "基础伊达法（名词+名词）",
+        "ja": "基本イダーファ（名詞+名詞）"
+      }
+    },
+    {
+      "id": "w1_1",
+      "kind": "word",
+      "texts": {
+        "en": "book",
+        "th": "หนังสือ",
+        "fa": "کتاب",
+        "ar": "كِتَاب",
+        "es": "libro",
+        "zh": "书",
+        "ja": "本"
+      }
+    },
+    {
+      "id": "w1_2",
+      "kind": "word",
+      "texts": {
+        "en": "student",
+        "th": "นักเรียน",
+        "fa": "دانش‌آموز",
+        "ar": "طَالِب",
+        "es": "estudiante",
+        "zh": "学生",
+        "ja": "学生"
+      }
+    },
+    {
+      "id": "w1_3",
+      "kind": "word",
+      "texts": {
+        "en": "door",
+        "th": "ประตู",
+        "fa": "در",
+        "ar": "بَاب",
+        "es": "puerta",
+        "zh": "门",
+        "ja": "ドア"
+      }
+    },
+    {
+      "id": "w1_4",
+      "kind": "word",
+      "texts": {
+        "en": "school",
+        "th": "โรงเรียน",
+        "fa": "مدرسه",
+        "ar": "مَدْرَسَة",
+        "es": "escuela",
+        "zh": "学校",
+        "ja": "学校"
+      }
+    },
+    {
+      "id": "w1_5",
+      "kind": "word",
+      "texts": {
+        "en": "pen",
+        "th": "ปากกา",
+        "fa": "خودکار",
+        "ar": "قَلَم",
+        "es": "bolígrafo",
+        "zh": "笔",
+        "ja": "ペン"
+      }
+    },
+    {
+      "id": "s1_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "This is the student's book.",
+        "th": "นี่คือหนังสือของนักเรียน",
+        "fa": "این کتاب دانش‌آموز است.",
+        "ar": "هَذَا كِتَابُ الطَّالِبِ.",
+        "es": "Este es el libro del estudiante.",
+        "zh": "这是学生的书。",
+        "ja": "これは学生の本です。"
+      }
+    },
+    {
+      "id": "s1_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The school door is open.",
+        "th": "ประตูโรงเรียนเปิดอยู่",
+        "fa": "در مدرسه باز است.",
+        "ar": "بَابُ الْمَدْرَسَةِ مَفْتُوحٌ.",
+        "es": "La puerta de la escuela está abierta.",
+        "zh": "学校的门开着。",
+        "ja": "学校のドアは開いています。"
+      }
+    },
+    {
+      "id": "s1_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The teacher's pen is new.",
+        "th": "ปากกาของครูใหม่",
+        "fa": "خودکار معلم جدید است.",
+        "ar": "قَلَمُ الْمُعَلِّمِ جَدِيدٌ.",
+        "es": "El bolígrafo del profesor es nuevo.",
+        "zh": "老师的笔是新的。",
+        "ja": "先生のペンは新しいです。"
+      }
+    },
+    {
+      "id": "s1_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The roof of the house is high.",
+        "th": "หลังคาบ้านสูง",
+        "fa": "سقف خانه بلند است.",
+        "ar": "سَقْفُ الْبَيْتِ عَالٍ.",
+        "es": "El techo de la casa es alto.",
+        "zh": "房子的屋顶很高。",
+        "ja": "家の屋根は高いです。"
+      }
+    },
+    {
+      "id": "s1_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The child's voice is beautiful.",
+        "th": "เสียงของเด็กไพเราะ",
+        "fa": "صدای کودک زیبا است.",
+        "ar": "صَوْتُ الطِّفْلِ جَمِيلٌ.",
+        "es": "La voz del niño es hermosa.",
+        "zh": "孩子的声音很美。",
+        "ja": "子供の声は美しいです。"
+      }
+    },
+
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Idafa with Adjective",
+        "th": "อีดาฟากับคำคุณศัพท์",
+        "fa": "اضافه با صفت",
+        "ar": "الإضافة مع الصفة",
+        "es": "Idafa con adjetivo",
+        "zh": "带形容词的伊达法",
+        "ja": "形容詞付きイダーファ"
+      }
+    },
+    {
+      "id": "w2_1",
+      "kind": "word",
+      "texts": {
+        "en": "big",
+        "th": "ใหญ่",
+        "fa": "بزرگ",
+        "ar": "كَبِير",
+        "es": "grande",
+        "zh": "大",
+        "ja": "大きい"
+      }
+    },
+    {
+      "id": "w2_2",
+      "kind": "word",
+      "texts": {
+        "en": "small",
+        "th": "เล็ก",
+        "fa": "کوچک",
+        "ar": "صَغِير",
+        "es": "pequeño",
+        "zh": "小",
+        "ja": "小さい"
+      }
+    },
+    {
+      "id": "w2_3",
+      "kind": "word",
+      "texts": {
+        "en": "beautiful",
+        "th": "สวยงาม",
+        "fa": "زیبا",
+        "ar": "جَمِيل",
+        "es": "hermoso",
+        "zh": "美丽",
+        "ja": "美しい"
+      }
+    },
+    {
+      "id": "w2_4",
+      "kind": "word",
+      "texts": {
+        "en": "new",
+        "th": "ใหม่",
+        "fa": "جدید",
+        "ar": "جَدِيد",
+        "es": "nuevo",
+        "zh": "新",
+        "ja": "新しい"
+      }
+    },
+    {
+      "id": "w2_5",
+      "kind": "word",
+      "texts": {
+        "en": "old",
+        "th": "เก่า",
+        "fa": "قدیمی",
+        "ar": "قَدِيم",
+        "es": "viejo",
+        "zh": "旧",
+        "ja": "古い"
+      }
+    },
+    {
+      "id": "s2_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The door of the big school is open.",
+        "th": "ประตูของโรงเรียนใหญ่เปิดอยู่",
+        "fa": "در مدرسه بزرگ باز است.",
+        "ar": "بَابُ الْمَدْرَسَةِ الْكَبِيرَةِ مَفْتُوحٌ.",
+        "es": "La puerta de la escuela grande está abierta.",
+        "zh": "大学校的门开着。",
+        "ja": "大きな学校のドアは開いています。"
+      }
+    },
+    {
+      "id": "s2_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The diligent student's book is new.",
+        "th": "หนังสือของนักเรียนที่ขยันเป็นเล่มใหม่",
+        "fa": "کتاب دانش‌آموز پرتلاش جدید است.",
+        "ar": "كِتَابُ الطَّالِبِ الْمُجْتَهِدِ جَدِيدٌ.",
+        "es": "El libro del estudiante diligente es nuevo.",
+        "zh": "勤奋学生的书是新的。",
+        "ja": "勤勉な学生の本は新しいです。"
+      }
+    },
+    {
+      "id": "s2_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The small house's garden is beautiful.",
+        "th": "สวนของบ้านเล็กสวยงาม",
+        "fa": "باغ خانه کوچک زیبا است.",
+        "ar": "حَدِيقَةُ الْبَيْتِ الصَّغِيرِ جَمِيلَةٌ.",
+        "es": "El jardín de la casa pequeña es hermoso.",
+        "zh": "小房子的花园很美。",
+        "ja": "小さな家の庭は美しいです。"
+      }
+    },
+    {
+      "id": "s2_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The old city's street is long.",
+        "th": "ถนนของเมืองเก่ายาว",
+        "fa": "خیابان شهر قدیمی طولانی است.",
+        "ar": "شَارِعُ الْمَدِينَةِ الْقَدِيمَةِ طَوِيلٌ.",
+        "es": "La calle de la ciudad vieja es larga.",
+        "zh": "老城的街道很长。",
+        "ja": "古い町の通りは長いです。"
+      }
+    },
+    {
+      "id": "s2_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The new teacher's pen is blue.",
+        "th": "ปากกาของครูคนใหม่เป็นสีน้ำเงิน",
+        "fa": "خودکار معلم جدید آبی است.",
+        "ar": "قَلَمُ الْمُعَلِّمِ الْجَدِيدِ أَزْرَقُ.",
+        "es": "El bolígrafo del nuevo profesor es azul.",
+        "zh": "新老师的笔是蓝色的。",
+        "ja": "新しい先生のペンは青いです。"
+      }
+    },
+
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Idafa with Pronoun Suffix",
+        "th": "อีดาฟากับคำสรรพนามต่อท้าย",
+        "fa": "اضافه با پسوند ضمیر",
+        "ar": "الإضافة مع ضمير متصل",
+        "es": "Idafa con sufijo de pronombre",
+        "zh": "带代词后缀的伊达法",
+        "ja": "代名詞接尾辞付きイダーファ"
+      }
+    },
+    {
+      "id": "w3_1",
+      "kind": "word",
+      "texts": {
+        "en": "my book",
+        "th": "หนังสือของฉัน",
+        "fa": "کتاب من",
+        "ar": "كِتَابِي",
+        "es": "mi libro",
+        "zh": "我的书",
+        "ja": "私の本"
+      }
+    },
+    {
+      "id": "w3_2",
+      "kind": "word",
+      "texts": {
+        "en": "our house",
+        "th": "บ้านของเรา",
+        "fa": "خانه ما",
+        "ar": "بَيْتُنَا",
+        "es": "nuestra casa",
+        "zh": "我们的房子",
+        "ja": "私たちの家"
+      }
+    },
+    {
+      "id": "w3_3",
+      "kind": "word",
+      "texts": {
+        "en": "your pen",
+        "th": "ปากกาของคุณ",
+        "fa": "خودکار تو",
+        "ar": "قَلَمُكَ",
+        "es": "tu bolígrafo",
+        "zh": "你的笔",
+        "ja": "あなたのペン"
+      }
+    },
+    {
+      "id": "w3_4",
+      "kind": "word",
+      "texts": {
+        "en": "their school",
+        "th": "โรงเรียนของพวกเขา",
+        "fa": "مدرسه آنها",
+        "ar": "مَدْرَسَتُهُمْ",
+        "es": "su escuela",
+        "zh": "他们的学校",
+        "ja": "彼らの学校"
+      }
+    },
+    {
+      "id": "w3_5",
+      "kind": "word",
+      "texts": {
+        "en": "his friend",
+        "th": "เพื่อนของเขา",
+        "fa": "دوست او",
+        "ar": "صَدِيقُهُ",
+        "es": "su amigo",
+        "zh": "他的朋友",
+        "ja": "彼の友達"
+      }
+    },
+    {
+      "id": "s3_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "This is my book.",
+        "th": "นี่คือหนังสือของฉัน",
+        "fa": "این کتاب من است.",
+        "ar": "هَذَا كِتَابِي.",
+        "es": "Este es mi libro.",
+        "zh": "这是我的书。",
+        "ja": "これは私の本です。"
+      }
+    },
+    {
+      "id": "s3_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "Our house is big.",
+        "th": "บ้านของเรากว้างใหญ่",
+        "fa": "خانه ما بزرگ است.",
+        "ar": "بَيْتُنَا كَبِيرٌ.",
+        "es": "Nuestra casa es grande.",
+        "zh": "我们的房子很大。",
+        "ja": "私たちの家は大きいです。"
+      }
+    },
+    {
+      "id": "s3_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "Your pen is on the desk.",
+        "th": "ปากกาของคุณอยู่บนโต๊ะ",
+        "fa": "خودکار تو روی میز است.",
+        "ar": "قَلَمُكَ عَلَى الْمَكْتَبِ.",
+        "es": "Tu bolígrafo está en el escritorio.",
+        "zh": "你的笔在桌子上。",
+        "ja": "あなたのペンは机の上にあります。"
+      }
+    },
+    {
+      "id": "s3_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "Their school is far.",
+        "th": "โรงเรียนของพวกเขาอยู่ไกล",
+        "fa": "مدرسه آنها دور است.",
+        "ar": "مَدْرَسَتُهُمْ بَعِيدَةٌ.",
+        "es": "Su escuela está lejos.",
+        "zh": "他们的学校很远。",
+        "ja": "彼らの学校は遠いです。"
+      }
+    },
+    {
+      "id": "s3_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "His friend is in the garden.",
+        "th": "เพื่อนของเขาอยู่ในสวน",
+        "fa": "دوست او در باغ است.",
+        "ar": "صَدِيقُهُ فِي الْحَدِيقَةِ.",
+        "es": "Su amigo está en el jardín.",
+        "zh": "他的朋友在花园里。",
+        "ja": "彼の友達は庭にいます。"
+      }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Dual Idafa",
+        "th": "อีดาฟารูปทวิพจน์",
+        "fa": "اضافه مثنی",
+        "ar": "الإضافة للمثنى",
+        "es": "Idafa dual",
+        "zh": "双数伊达法",
+        "ja": "双数イダーファ"
+      }
+    },
+    {
+      "id": "w4_1",
+      "kind": "word",
+      "texts": {
+        "en": "two students",
+        "th": "นักเรียนสองคน",
+        "fa": "دو دانش‌آموز",
+        "ar": "طَالِبَا",
+        "es": "dos estudiantes",
+        "zh": "两个学生",
+        "ja": "二人の学生"
+      }
+    },
+    {
+      "id": "w4_2",
+      "kind": "word",
+      "texts": {
+        "en": "two teachers",
+        "th": "ครูสองคน",
+        "fa": "دو معلم",
+        "ar": "مُعَلِّمَا",
+        "es": "dos profesores",
+        "zh": "两个老师",
+        "ja": "二人の先生"
+      }
+    },
+    {
+      "id": "w4_3",
+      "kind": "word",
+      "texts": {
+        "en": "two doors",
+        "th": "ประตูสองบาน",
+        "fa": "دو در",
+        "ar": "بَابَا",
+        "es": "dos puertas",
+        "zh": "两扇门",
+        "ja": "二つのドア"
+      }
+    },
+    {
+      "id": "w4_4",
+      "kind": "word",
+      "texts": {
+        "en": "two books",
+        "th": "หนังสือสองเล่ม",
+        "fa": "دو کتاب",
+        "ar": "كِتَابَا",
+        "es": "dos libros",
+        "zh": "两本书",
+        "ja": "二冊の本"
+      }
+    },
+    {
+      "id": "w4_5",
+      "kind": "word",
+      "texts": {
+        "en": "two boys",
+        "th": "เด็กชายสองคน",
+        "fa": "دو پسر",
+        "ar": "وَلَدَا",
+        "es": "dos niños",
+        "zh": "两个男孩",
+        "ja": "二人の男の子"
+      }
+    },
+    {
+      "id": "s4_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The two students of knowledge are diligent.",
+        "th": "นักเรียนแห่งความรู้ทั้งสองคนขยัน",
+        "fa": "دو دانش‌آموز دانش پرتلاش هستند.",
+        "ar": "طَالِبَا الْعِلْمِ مُجْتَهِدَانِ.",
+        "es": "Los dos estudiantes de conocimiento son diligentes.",
+        "zh": "求知的两个学生很勤奋。",
+        "ja": "知識を求める二人の学生は勤勉です。"
+      }
+    },
+    {
+      "id": "s4_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The two teachers of the school are present.",
+        "th": "ครูทั้งสองคนของโรงเรียนอยู่ที่นี่",
+        "fa": "دو معلم مدرسه حاضر هستند.",
+        "ar": "مُعَلِّمَا الْمَدْرَسَةِ حَاضِرَانِ.",
+        "es": "Los dos profesores de la escuela están presentes.",
+        "zh": "学校的两个老师在场。",
+        "ja": "学校の二人の先生は出席しています。"
+      }
+    },
+    {
+      "id": "s4_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The two doors of the house are open.",
+        "th": "ประตูทั้งสองบานของบ้านเปิดอยู่",
+        "fa": "دو در خانه باز هستند.",
+        "ar": "بَابَا الْبَيْتِ مَفْتُوحَانِ.",
+        "es": "Las dos puertas de la casa están abiertas.",
+        "zh": "房子的两扇门开着。",
+        "ja": "家の二つのドアは開いています。"
+      }
+    },
+    {
+      "id": "s4_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The student's two books are new.",
+        "th": "หนังสือสองเล่มของนักเรียนเป็นเล่มใหม่",
+        "fa": "دو کتاب دانش‌آموز جدید هستند.",
+        "ar": "كِتَابَا الطَّالِبِ جَدِيدَانِ.",
+        "es": "Los dos libros del estudiante son nuevos.",
+        "zh": "学生的两本书是新的。",
+        "ja": "学生の二冊の本は新しいです。"
+      }
+    },
+    {
+      "id": "s4_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The neighbor's two boys are playing.",
+        "th": "เด็กชายสองคนของเพื่อนบ้านกำลังเล่น",
+        "fa": "دو پسر همسایه در حال بازی هستند.",
+        "ar": "وَلَدَا الْجَارِ يَلْعَبَانِ.",
+        "es": "Los dos niños del vecino están jugando.",
+        "zh": "邻居的两个男孩在玩耍。",
+        "ja": "隣人の二人の男の子は遊んでいます。"
+      }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Plural Idafa",
+        "th": "อีดาฟารูปพหูพจน์",
+        "fa": "اضافه جمع",
+        "ar": "الإضافة للجمع",
+        "es": "Idafa plural",
+        "zh": "复数伊达法",
+        "ja": "複数形イダーファ"
+      }
+    },
+    {
+      "id": "w5_1",
+      "kind": "word",
+      "texts": {
+        "en": "teachers of",
+        "th": "ครูของ",
+        "fa": "معلمانِ",
+        "ar": "مُعَلِّمُو",
+        "es": "profesores de",
+        "zh": "……的老师",
+        "ja": "〜の先生たち"
+      }
+    },
+    {
+      "id": "w5_2",
+      "kind": "word",
+      "texts": {
+        "en": "students of",
+        "th": "นักเรียนของ",
+        "fa": "دانش‌آموزانِ",
+        "ar": "طُلَّابُ",
+        "es": "estudiantes de",
+        "zh": "……的学生",
+        "ja": "〜の学生たち"
+      }
+    },
+    {
+      "id": "w5_3",
+      "kind": "word",
+      "texts": {
+        "en": "doors of",
+        "th": "ประตูของ",
+        "fa": "درهایِ",
+        "ar": "أَبْوَابُ",
+        "es": "puertas de",
+        "zh": "……的门",
+        "ja": "〜のドア"
+      }
+    },
+    {
+      "id": "w5_4",
+      "kind": "word",
+      "texts": {
+        "en": "books of",
+        "th": "หนังสือของ",
+        "fa": "کتاب‌هایِ",
+        "ar": "كُتُبُ",
+        "es": "libros de",
+        "zh": "……的书",
+        "ja": "〜の本"
+      }
+    },
+    {
+      "id": "w5_5",
+      "kind": "word",
+      "texts": {
+        "en": "sons of",
+        "th": "ลูกชายของ",
+        "fa": "پسرانِ",
+        "ar": "أَبْنَاءُ",
+        "es": "hijos de",
+        "zh": "……的儿子",
+        "ja": "〜の息子たち"
+      }
+    },
+    {
+      "id": "s5_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The school's teachers are excellent.",
+        "th": "ครูของโรงเรียนยอดเยี่ยม",
+        "fa": "معلمان مدرسه عالی هستند.",
+        "ar": "مُعَلِّمُو الْمَدْرَسَةِ مُمْتَازُونَ.",
+        "es": "Los profesores de la escuela son excelentes.",
+        "zh": "学校的老师们很优秀。",
+        "ja": "学校の先生たちは優秀です。"
+      }
+    },
+    {
+      "id": "s5_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The students of knowledge are many.",
+        "th": "นักเรียนแห่งความรู้มีจำนวนมาก",
+        "fa": "دانش‌آموزان دانش زیاد هستند.",
+        "ar": "طُلَّابُ الْعِلْمِ كَثِيرُونَ.",
+        "es": "Los estudiantes de conocimiento son muchos.",
+        "zh": "求知的学生很多。",
+        "ja": "知識を求める学生は多いです。"
+      }
+    },
+    {
+      "id": "s5_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The house's doors are closed.",
+        "th": "ประตูของบ้านปิดอยู่",
+        "fa": "درهای خانه بسته هستند.",
+        "ar": "أَبْوَابُ الْبَيْتِ مُغْلَقَةٌ.",
+        "es": "Las puertas de la casa están cerradas.",
+        "zh": "房子的门关着。",
+        "ja": "家のドアは閉まっています。"
+      }
+    },
+    {
+      "id": "s5_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The library's books are useful.",
+        "th": "หนังสือของห้องสมุดมีประโยชน์",
+        "fa": "کتاب‌های کتابخانه مفید هستند.",
+        "ar": "كُتُبُ الْمَكْتَبَةِ مُفِيدَةٌ.",
+        "es": "Los libros de la biblioteca son útiles.",
+        "zh": "图书馆的书很有用。",
+        "ja": "図書館の本は役に立ちます。"
+      }
+    },
+    {
+      "id": "s5_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The nation's sons are loyal.",
+        "th": "ลูกชายของชาติมีความจงรักภักดี",
+        "fa": "پسران ملت وفادار هستند.",
+        "ar": "أَبْنَاءُ الْوَطَنِ أَوْفِيَاءُ.",
+        "es": "Los hijos de la nación son leales.",
+        "zh": "国家的儿子们是忠诚的。",
+        "ja": "国の息子たちは忠実です。"
+      }
+    }
+  ]
+}

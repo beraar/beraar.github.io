@@ -149,8 +149,8 @@
             "ja": "食べ物の基本"
           },
           "file": "lessons/test.json",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -177,15 +177,12 @@
             "zh": "语法：主谓宾基础",
             "ja": "文法：基本SVO"
           },
-          "file": "lessons/grammar/g01-svo-basic.json",
+          "file": "lessons/grammar/universal-svo.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": [
-            "en",
-            "es",
-            "ar"
-          ]
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "es", "ar"],
+          "rules": ["rule_g01"]
         },
         {
           "id": "lesson_g02",
@@ -198,13 +195,12 @@
             "zh": "语法：礼貌助词",
             "ja": "文法：丁寧語"
           },
-          "file": "lessons/grammar/g02-politeness-particles.json",
+          "file": "lessons/grammar/th-politeness-particles.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": [
-            "th"
-          ]
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["th"],
+          "rules": ["rule_g02"]
         },
         {
           "id": "lesson_g03",
@@ -217,11 +213,12 @@
             "zh": "语法：是非问句",
             "ja": "文法：はい/いいえ質問"
           },
-          "file": "lessons/grammar/g03-yes-no-questions.json",
+          "file": "lessons/grammar/universal-yes-no-questions.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "rules": ["rule_g03"]
         },
         {
           "id": "lesson_g05",
@@ -234,11 +231,12 @@
             "zh": "语法：特殊疑问句",
             "ja": "文法：疑問詞質問"
           },
-          "file": "lessons/grammar/g05-wh-questions.json",
+          "file": "lessons/grammar/universal-wh-questions.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "rules": ["rule_g05"]
         },
         {
           "id": "lesson_g06",
@@ -251,11 +249,12 @@
             "zh": "语法：描述",
             "ja": "文法：記述"
           },
-          "file": "lessons/grammar/g06-descriptive.json",
+          "file": "lessons/grammar/universal-descriptive.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "rules": ["rule_g06"]
         },
         {
           "id": "lesson_g07",
@@ -268,11 +267,12 @@
             "zh": "语法：所属",
             "ja": "文法：所有"
           },
-          "file": "lessons/grammar/g07-possession.json",
+          "file": "lessons/grammar/universal-possession.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "rules": ["rule_g07"]
         },
         {
           "id": "lesson_g09",
@@ -285,13 +285,12 @@
             "zh": "语法：量词",
             "ja": "文法：助数詞"
           },
-          "file": "lessons/grammar/g09-classifiers.json",
+          "file": "lessons/grammar/universal-classifiers.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": [
-            "th"
-          ]
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["th", "zh", "ja"],
+          "rules": ["rule_g09"]
         },
         {
           "id": "lesson_g22",
@@ -304,11 +303,246 @@
             "zh": "语法：请求与祈使句",
             "ja": "文法：依頼と命令"
           },
-          "file": "lessons/grammar/g22-requests-imperatives.json",
+          "file": "lessons/grammar/universal-requests-imperatives.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "rules": ["rule_g22"]
+        },
+        {
+          "id": "lesson_en_articles",
+          "title": {
+            "en": "Grammar: Definite & Indefinite Articles",
+            "th": "ไวยากรณ์: คำนำหน้านามชี้เฉพาะและไม่ชี้เฉพาะ",
+            "fa": "دستور زبان: حروف تعریف معین و نامعین",
+            "ar": "القواعد: أدوات التعريف والتنكير",
+            "es": "Gramática: Artículos definidos e indefinidos",
+            "zh": "语法：定冠词与不定冠词",
+            "ja": "文法：定冠詞と不定冠詞"
+          },
+          "file": "lessons/grammar/en-articles.json",
+          "level": 1,
+          "proficiency": "beginner",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en"],
+          "rules": ["rule_en_articles"]
+        },
+        {
+          "id": "lesson_en_sva",
+          "title": {
+            "en": "Grammar: Subject-Verb Agreement",
+            "th": "ไวยากรณ์: ความสอดคล้องระหว่างประธานและกริยา",
+            "fa": "دستور زبان: تطابق نهاد و فعل",
+            "ar": "القواعد: توافق الفاعل والفعل",
+            "es": "Gramática: Concordancia sujeto-verbo",
+            "zh": "语法：主谓一致",
+            "ja": "文法：主語と動詞の一致"
+          },
+          "file": "lessons/grammar/en-sva.json",
+          "level": 1,
+          "proficiency": "beginner",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en"],
+          "rules": ["rule_en_sva"]
+        },
+        {
+          "id": "lesson_fa_ezafe",
+          "title": {
+            "en": "Grammar: Ezafe Construction",
+            "th": "ไวยากรณ์: โครงสร้างเอซาเฟะ",
+            "fa": "دستور زبان: ساختار اضافه",
+            "ar": "القواعد: بنية الإضافة",
+            "es": "Gramática: Construcción Ezafe",
+            "zh": "语法：伊扎菲结构",
+            "ja": "文法：エザーフェ構造"
+          },
+          "file": "lessons/grammar/fa-ezafe.json",
+          "level": 1,
+          "proficiency": "beginner",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["fa"],
+          "rules": ["rule_fa_ezafe"]
+        },
+        {
+          "id": "lesson_fa_sov",
+          "title": {
+            "en": "Grammar: SOV Word Order",
+            "th": "ไวยากรณ์: ลำดับคำ ประธาน-กรรม-กริยา",
+            "fa": "دستور زبان: ترتیب واژگان نهاد-مفعول-فعل",
+            "ar": "القواعد: ترتيب الكلمات فاعل-مفعول-فعل",
+            "es": "Gramática: Orden de palabras SOV",
+            "zh": "语法：SOV 语序",
+            "ja": "文法：SOV語順"
+          },
+          "file": "lessons/grammar/fa-sov.json",
+          "level": 1,
+          "proficiency": "beginner",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["fa"],
+          "rules": ["rule_fa_sov"]
+        },
+        {
+          "id": "lesson_fa_formality",
+          "title": {
+            "en": "Grammar: Formal vs. Informal Address",
+            "th": "ไวยากรณ์: การพูดแบบทางการและไม่เป็นทางการ",
+            "fa": "دستور زبان: خطاب رسمی در برابر غیررسمی",
+            "ar": "القواعد: المخاطبة الرسمية مقابل غير الرسمية",
+            "es": "Gramática: Trato formal vs. informal",
+            "zh": "语法：正式与非正式称呼",
+            "ja": "文法：公式な呼びかけと非公式な呼びかけ"
+          },
+          "file": "lessons/grammar/fa-formality.json",
+          "level": 1,
+          "proficiency": "beginner",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["fa"],
+          "rules": ["rule_fa_formality"]
+        },
+        {
+          "id": "lesson_ja_particles",
+          "title": {
+            "en": "Grammar: Core Case Particles",
+            "th": "ไวยากรณ์: คำช่วยหลัก",
+            "fa": "دستور زبان: ذرات حالت اصلی",
+            "ar": "القواعد: حروف الحالة الأساسية",
+            "es": "Gramática: Partículas de caso principales",
+            "zh": "语法：核心格助词",
+            "ja": "文法：主要な格助詞"
+          },
+          "file": "lessons/grammar/ja-particles.json",
+          "level": 1,
+          "proficiency": "beginner",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["ja"],
+          "rules": ["rule_ja_particles"]
+        },
+        {
+          "id": "lesson_ja_conjugation",
+          "title": {
+            "en": "Grammar: Polite vs. Dictionary Form",
+            "th": "ไวยากรณ์: รูปแบบสุภาพ vs พจนานุกรม",
+            "fa": "دستور زبان: شکل مؤدبانه در برابر لغت‌نامه‌ای",
+            "ar": "القواعد: الشكل المهذب مقابل شكل القاموس",
+            "es": "Gramática: Forma cortés vs. forma de diccionario",
+            "zh": "语法：礼貌体 vs 辞书形",
+            "ja": "文法：丁寧語と辞書形"
+          },
+          "file": "lessons/grammar/ja-conjugation.json",
+          "level": 1,
+          "proficiency": "beginner",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["ja"],
+          "rules": ["rule_ja_conjugation"]
+        },
+        {
+          "id": "lesson_ar_idafa",
+          "title": {
+            "en": "Grammar: The Construct State (Idafa)",
+            "th": "ไวยากรณ์: สถานะการก่อสร้าง (อีดาฟา)",
+            "fa": "دستور زبان: حالت اضافی (اضافه)",
+            "ar": "القواعد: حالة الإضافة",
+            "es": "Gramática: El Estado Constructo (Idafa)",
+            "zh": "语法：正偏组合（伊达法）",
+            "ja": "文法：附加状态（イダーファ）"
+          },
+          "file": "lessons/grammar/ar-idafa.json",
+          "level": 2,
+          "proficiency": "beginner",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["ar"],
+          "rules": ["rule_ar_idafa"]
+        },
+        {
+          "id": "lesson_ar_agreement",
+          "title": {
+            "en": "Grammar: Gender & Number Agreement",
+            "th": "ไวยากรณ์: ความสอดคล้องของเพศและจำนวน",
+            "fa": "دستور زبان: تطابق جنسیت و عدد",
+            "ar": "القواعد: التوافق بين الجنس والعدد",
+            "es": "Gramática: Concordancia de género y número",
+            "zh": "语法：性与数的一致性",
+            "ja": "文法：性と数の一致"
+          },
+          "file": "lessons/grammar/ar-agreement.json",
+          "level": 2,
+          "proficiency": "beginner",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["ar"],
+          "rules": ["rule_ar_agreement"]
+        },
+        {
+          "id": "lesson_ar_definite",
+          "title": {
+            "en": "Grammar: Definite Article & Sun/Moon Letters",
+            "th": "ไวยากรณ์: คำนำหน้านามชี้เฉพาะและอักษรอาทิตย์/จันทร์",
+            "fa": "دستور زبان: حرف تعریف و حروف شمسی/قمری",
+            "ar": "القواعد: أداة التعريف والحروف الشمسية والقمرية",
+            "es": "Gramática: Artículo definido y letras solares/lunares",
+            "zh": "语法：定冠词与太阳/月亮字母",
+            "ja": "文法：定冠詞と太陽/月文字"
+          },
+          "file": "lessons/grammar/ar-definite.json",
+          "level": 2,
+          "proficiency": "beginner",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["ar"],
+          "rules": ["rule_ar_definite"]
+        },
+        {
+          "id": "lesson_es_ser_estar",
+          "title": {
+            "en": "Grammar: Ser vs. Estar",
+            "th": "ไวยากรณ์: Ser vs. Estar",
+            "fa": "دستور زبان: Ser در برابر Estar",
+            "ar": "القواعد: Ser مقابل Estar",
+            "es": "Gramática: Ser vs. Estar",
+            "zh": "语法：Ser 与 Estar",
+            "ja": "文法：SerとEstar"
+          },
+          "file": "lessons/grammar/es-ser-estar.json",
+          "level": 1,
+          "proficiency": "beginner",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["es"],
+          "rules": ["rule_es_ser_estar"]
+        },
+        {
+          "id": "lesson_es_agreement",
+          "title": {
+            "en": "Grammar: Gender & Number Agreement",
+            "th": "ไวยากรณ์: ความสอดคล้องของเพศและจำนวน",
+            "fa": "دستور زبان: تطابق جنسیت و عدد",
+            "ar": "القواعد: التوافق بين الجنس والعدد",
+            "es": "Gramática: Concordancia de género y número",
+            "zh": "语法：性与数的一致性",
+            "ja": "文法：性と数の一致"
+          },
+          "file": "lessons/grammar/es-agreement.json",
+          "level": 1,
+          "proficiency": "beginner",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["es"],
+          "rules": ["rule_es_agreement"]
+        },
+        {
+          "id": "lesson_es_pronouns",
+          "title": {
+            "en": "Grammar: Object Pronoun Placement",
+            "th": "ไวยากรณ์: ตำแหน่งของคำสรรพนามกรรม",
+            "fa": "دستور زبان: جایگاه ضمایر مفعولی",
+            "ar": "القواعد: موضع ضمائر المفعول",
+            "es": "Gramática: Colocación de pronombres de objeto",
+            "zh": "语法：宾语代词位置",
+            "ja": "文法：目的語代名詞の配置"
+          },
+          "file": "lessons/grammar/es-pronouns.json",
+          "level": 2,
+          "proficiency": "beginner",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["es"],
+          "rules": ["rule_es_pronouns"]
         }
       ]
     },
@@ -335,11 +569,12 @@
             "zh": "语法：时态与体",
             "ja": "文法：テンスとアスペクト"
           },
-          "file": "lessons/grammar/g08-tense-aspect.json",
+          "file": "lessons/grammar/universal-tense-aspect.json",
           "level": 3,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "rules": ["rule_g08"]
         },
         {
           "id": "lesson_g10",
@@ -352,11 +587,12 @@
             "zh": "语法：主题-评论",
             "ja": "文法：トピック-コメント"
           },
-          "file": "lessons/grammar/g10-topic-comment.json",
+          "file": "lessons/grammar/universal-topic-comment.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["th", "zh", "ja"],
+          "rules": ["rule_g10"]
         },
         {
           "id": "lesson_g11",
@@ -369,11 +605,12 @@
             "zh": "语法：连动句",
             "ja": "文法：連動詞"
           },
-          "file": "lessons/grammar/g11-serial-verbs.json",
+          "file": "lessons/grammar/universal-serial-verbs.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["th", "zh"],
+          "rules": ["rule_g11"]
         },
         {
           "id": "lesson_g12",
@@ -386,11 +623,12 @@
             "zh": "语法：比较级",
             "ja": "文法：比較"
           },
-          "file": "lessons/grammar/g12-comparatives.json",
+          "file": "lessons/grammar/universal-comparatives.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "rules": ["rule_g12"]
         },
         {
           "id": "lesson_g16",
@@ -403,11 +641,12 @@
             "zh": "语法：条件句",
             "ja": "文法：条件法"
           },
-          "file": "lessons/grammar/g16-conditionals.json",
+          "file": "lessons/grammar/universal-conditionals.json",
           "level": 6,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "rules": ["rule_g16"]
         },
         {
           "id": "lesson_g17",
@@ -420,11 +659,12 @@
             "zh": "语法：能力",
             "ja": "文法：能力"
           },
-          "file": "lessons/grammar/g17-ability.json",
+          "file": "lessons/grammar/universal-ability.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "rules": ["rule_g17"]
         },
         {
           "id": "lesson_g19",
@@ -437,11 +677,12 @@
             "zh": "语法：连词",
             "ja": "文法：接続詞"
           },
-          "file": "lessons/grammar/g19-conjunctions.json",
+          "file": "lessons/grammar/universal-conjunctions.json",
           "level": 5,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "rules": ["rule_g19"]
         },
         {
           "id": "lesson_g20",
@@ -454,11 +695,30 @@
             "zh": "语法：间接引语",
             "ja": "文法：間接話法"
           },
-          "file": "lessons/grammar/g20-reported-speech.json",
+          "file": "lessons/grammar/universal-reported-speech.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "rules": ["rule_g20"]
+        },
+        {
+          "id": "lesson_zh_aspect",
+          "title": {
+            "en": "Grammar: Aspect Particles",
+            "th": "ไวยากรณ์: อนุภาคบอกอาการ",
+            "fa": "دستور زبان: ذرات نمود",
+            "ar": "القواعد: حروف الجانب",
+            "es": "Gramática: Partículas de aspecto",
+            "zh": "语法：体貌助词",
+            "ja": "文法：アスペクト粒子"
+          },
+          "file": "lessons/grammar/zh-aspect.json",
+          "level": 3,
+          "proficiency": "intermediate",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["zh"],
+          "rules": ["rule_zh_aspect"]
         }
       ]
     },
@@ -485,13 +745,12 @@
             "zh": "语法：语气助词",
             "ja": "文法：強調の終助詞"
           },
-          "file": "lessons/grammar/g21-emphasis-particles.json",
+          "file": "lessons/grammar/th-emphasis-particles.json",
           "level": 7,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": [
-            "th"
-          ]
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["th"],
+          "rules": ["rule_g21"]
         },
         {
           "id": "lesson_g23",
@@ -504,13 +763,12 @@
             "zh": "语法：感叹词",
             "ja": "文法：感嘆詞"
           },
-          "file": "lessons/grammar/g23-exclamations.json",
+          "file": "lessons/grammar/th-exclamations.json",
           "level": 8,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": [
-            "th"
-          ]
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["th"],
+          "rules": ["rule_g23"]
         },
         {
           "id": "lesson_g24",
@@ -523,13 +781,12 @@
             "zh": "语法：语体转换",
             "ja": "文法：文体の切り替え"
           },
-          "file": "lessons/grammar/g24-register-switching.json",
+          "file": "lessons/grammar/th-register-switching.json",
           "level": 9,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": [
-            "th"
-          ]
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["th"],
+          "rules": ["rule_g24"]
         }
       ]
     },
@@ -559,8 +816,8 @@
           "file": "lessons/greetings/meeting-people.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_1_2",
@@ -576,8 +833,8 @@
           "file": "lessons/greetings/introductions.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_1_3",
@@ -593,8 +850,8 @@
           "file": "lessons/greetings/apologies-thanks.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_5_7",
@@ -610,8 +867,8 @@
           "file": "lessons/greetings/small-talk.json",
           "level": 5,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_8_3",
@@ -627,8 +884,8 @@
           "file": "lessons/greetings/opinions-debate.json",
           "level": 8,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -658,8 +915,8 @@
           "file": "lessons/basics/numbers.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_1_5",
@@ -675,8 +932,8 @@
           "file": "lessons/basics/yes-no-questions.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_1_6",
@@ -692,8 +949,8 @@
           "file": "lessons/basics/wants-needs.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_1_7",
@@ -709,8 +966,8 @@
           "file": "lessons/basics/where-is.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_1_8",
@@ -726,8 +983,8 @@
           "file": "lessons/basics/help.json",
           "level": 1,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_2_7",
@@ -743,8 +1000,8 @@
           "file": "lessons/basics/time-days.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -774,8 +1031,8 @@
           "file": "lessons/food-dining/ordering-restaurant.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_2_2",
@@ -791,8 +1048,8 @@
           "file": "lessons/food-dining/street-food.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_2_3",
@@ -808,8 +1065,8 @@
           "file": "lessons/food-dining/paying-bill.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -839,8 +1096,8 @@
           "file": "lessons/shopping/grocery-market.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_2_5",
@@ -856,8 +1113,8 @@
           "file": "lessons/shopping/bargaining.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -887,8 +1144,8 @@
           "file": "lessons/money-bank/currency-exchange.json",
           "level": 2,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_4_6",
@@ -904,8 +1161,8 @@
           "file": "lessons/money-bank/bank-basics.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -935,8 +1192,8 @@
           "file": "lessons/transport/asking-directions.json",
           "level": 3,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_3_2",
@@ -952,8 +1209,8 @@
           "file": "lessons/transport/taxi-ride.json",
           "level": 3,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_3_3",
@@ -969,8 +1226,8 @@
           "file": "lessons/transport/bus-train.json",
           "level": 3,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_3_4",
@@ -986,8 +1243,8 @@
           "file": "lessons/transport/airport.json",
           "level": 3,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -1017,8 +1274,8 @@
           "file": "lessons/weather/weather-talk.json",
           "level": 3,
           "proficiency": "beginner",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -1048,8 +1305,8 @@
           "file": "lessons/home-daily/daily-routine.json",
           "level": 3,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -1079,8 +1336,8 @@
           "file": "lessons/health/pharmacy.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_4_2",
@@ -1096,8 +1353,8 @@
           "file": "lessons/health/doctor-clinic.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -1127,8 +1384,8 @@
           "file": "lessons/personal-care/hair-salon.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -1158,8 +1415,8 @@
           "file": "lessons/post-communication/post-office.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_4_5",
@@ -1175,8 +1432,8 @@
           "file": "lessons/post-communication/phone-sim.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_5_6",
@@ -1192,8 +1449,8 @@
           "file": "lessons/post-communication/phone-calls.json",
           "level": 5,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -1223,8 +1480,8 @@
           "file": "lessons/entertainment/gym-fitness.json",
           "level": 4,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_5_3",
@@ -1240,8 +1497,8 @@
           "file": "lessons/entertainment/cinema.json",
           "level": 5,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_8_4",
@@ -1257,8 +1514,8 @@
           "file": "lessons/entertainment/news-events.json",
           "level": 8,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -1288,8 +1545,8 @@
           "file": "lessons/family-relationships/making-friends.json",
           "level": 5,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_5_2",
@@ -1305,8 +1562,8 @@
           "file": "lessons/family-relationships/making-plans.json",
           "level": 5,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_5_4",
@@ -1322,8 +1579,8 @@
           "file": "lessons/family-relationships/visiting.json",
           "level": 5,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_5_5",
@@ -1339,8 +1596,8 @@
           "file": "lessons/family-relationships/family-members.json",
           "level": 5,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -1370,8 +1627,8 @@
           "file": "lessons/accommodation/hotel-checkin.json",
           "level": 6,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_6_2",
@@ -1387,8 +1644,8 @@
           "file": "lessons/accommodation/hotel-requests.json",
           "level": 6,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -1418,8 +1675,8 @@
           "file": "lessons/travel-tourism/sightseeing.json",
           "level": 6,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_6_4",
@@ -1435,8 +1692,8 @@
           "file": "lessons/travel-tourism/trip-planning.json",
           "level": 6,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_6_6",
@@ -1452,8 +1709,8 @@
           "file": "lessons/travel-tourism/border-immigration.json",
           "level": 6,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -1483,8 +1740,8 @@
           "file": "lessons/emergency/lost-items.json",
           "level": 6,
           "proficiency": "intermediate",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_9_1",
@@ -1500,8 +1757,8 @@
           "file": "lessons/emergency/hospital-emergency.json",
           "level": 9,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_9_2",
@@ -1517,8 +1774,8 @@
           "file": "lessons/emergency/police-report.json",
           "level": 9,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_9_3",
@@ -1534,8 +1791,8 @@
           "file": "lessons/emergency/natural-disaster.json",
           "level": 9,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -1565,8 +1822,8 @@
           "file": "lessons/work/job-interview.json",
           "level": 7,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_7_2",
@@ -1582,8 +1839,8 @@
           "file": "lessons/work/office-basics.json",
           "level": 7,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_7_3",
@@ -1599,8 +1856,8 @@
           "file": "lessons/work/meetings.json",
           "level": 7,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_7_4",
@@ -1616,8 +1873,8 @@
           "file": "lessons/work/email-messages.json",
           "level": 7,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_7_5",
@@ -1633,8 +1890,8 @@
           "file": "lessons/work/complaints.json",
           "level": 7,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -1664,8 +1921,8 @@
           "file": "lessons/religion-culture/temple.json",
           "level": 8,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_8_2",
@@ -1681,8 +1938,8 @@
           "file": "lessons/religion-culture/festivals.json",
           "level": 8,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_8_5",
@@ -1698,8 +1955,8 @@
           "file": "lessons/religion-culture/idioms-slang.json",
           "level": 8,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         },
         {
           "id": "lesson_8_6",
@@ -1715,8 +1972,8 @@
           "file": "lessons/religion-culture/cultural-etiquette.json",
           "level": 8,
           "proficiency": "advanced",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     },
@@ -1745,8 +2002,8 @@
             "ja": "子音・母音・声調"
           },
           "file": "lessons/reading-writing/consonants-vowels-tones.json",
-          "translations": [],
-          "targets": [],
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "level": 1,
           "proficiency": "beginner",
           "skill": "reading"
@@ -1766,8 +2023,8 @@
           "level": 1,
           "proficiency": "beginner",
           "skill": "reading",
-          "translations": [],
-          "targets": []
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
         }
       ]
     }
@@ -1809,10 +2066,8 @@
                 "ja": "第1課：挨拶"
               },
               "file": "lessons/TSL/LS1-lesson-1-greetings.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["th", "en", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls1_2",
@@ -1826,10 +2081,8 @@
                 "ja": "第2課：何をしていますか？"
               },
               "file": "lessons/TSL/LS1-lesson-2-what-are-you-doing.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["th", "en", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls1_3",
@@ -1843,10 +2096,8 @@
                 "ja": "第3課：タイ料理はどうですか？"
               },
               "file": "lessons/TSL/LS1-lesson-3-how-is-thai-food.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["th", "en", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls1_4",
@@ -1860,10 +2111,8 @@
                 "ja": "第4課：買い物に行く"
               },
               "file": "lessons/TSL/LS1-lesson-4-go-shopping.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["th", "en", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls1_5",
@@ -1877,15 +2126,11 @@
                 "ja": "第5课：病院はどこですか？"
               },
               "file": "lessons/TSL/LS1-lesson-5-where-is-the-hospital.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["th", "en", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             }
           ],
-          "targets": [
-            "th"
-          ]
+          "targets": ["th"]
         },
         {
           "id": "book_ls2",
@@ -1911,10 +2156,8 @@
                 "ja": "第1課：何をご注文されますか？"
               },
               "file": "lessons/TSL/LS2-lesson-1.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls2_2",
@@ -1928,10 +2171,8 @@
                 "ja": "第2課：何をお飲みになりますか？"
               },
               "file": "lessons/TSL/LS2-lesson-2.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls2_3",
@@ -1945,10 +2186,8 @@
                 "ja": "第3課：果物"
               },
               "file": "lessons/TSL/LS2-lesson-3.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls2_4",
@@ -1962,10 +2201,8 @@
                 "ja": "第4課：色"
               },
               "file": "lessons/TSL/LS2-lesson-4.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls2_5",
@@ -1979,10 +2216,8 @@
                 "ja": "第5課：助数詞"
               },
               "file": "lessons/TSL/LS2-lesson-5.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls2_6",
@@ -1996,15 +2231,11 @@
                 "ja": "第6課：前置詞"
               },
               "file": "lessons/TSL/LS2-lesson-6.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th"],
+              "targets": ["th"]
             }
           ],
-          "targets": [
-            "th"
-          ]
+          "targets": ["th"]
         },
         {
           "id": "book_ls3",
@@ -2030,10 +2261,8 @@
                 "ja": "第1課：今何時ですか？"
               },
               "file": "lessons/TSL/LS3-lesson-1.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls3_2",
@@ -2047,10 +2276,8 @@
                 "ja": "第2課：今日は何曜日ですか？"
               },
               "file": "lessons/TSL/LS3-lesson-2.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls3_3",
@@ -2064,10 +2291,8 @@
                 "ja": "第3课：月・年・季節"
               },
               "file": "lessons/TSL/LS3-lesson-3.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls3_4",
@@ -2081,10 +2306,8 @@
                 "ja": "第4课：私の家族"
               },
               "file": "lessons/TSL/LS3-lesson-4.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls3_5",
@@ -2098,10 +2321,8 @@
                 "ja": "第5课：あなたは何をしていますか？"
               },
               "file": "lessons/TSL/LS3-lesson-5.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls3_6",
@@ -2115,15 +2336,11 @@
                 "ja": "第6课：彼/彼女はどんな顔立ちですか？"
               },
               "file": "lessons/TSL/LS3-lesson-6.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             }
           ],
-          "targets": [
-            "th"
-          ]
+          "targets": ["th"]
         },
         {
           "id": "book_ls4",
@@ -2149,10 +2366,8 @@
                 "ja": "第1課：体の部位"
               },
               "file": "lessons/TSL/LS4-lesson-1.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls4_2",
@@ -2166,10 +2381,8 @@
                 "ja": "第2課：病気"
               },
               "file": "lessons/TSL/LS4-lesson-2.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls4_3",
@@ -2183,10 +2396,8 @@
                 "ja": "第3課：旅行と観光"
               },
               "file": "lessons/TSL/LS4-lesson-3.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls4_4",
@@ -2200,10 +2411,8 @@
                 "ja": "第4課：交通機関"
               },
               "file": "lessons/TSL/LS4-lesson-4.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls4_5",
@@ -2217,10 +2426,8 @@
                 "ja": "第5課：ビザ"
               },
               "file": "lessons/TSL/LS4-lesson-5.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             },
             {
               "id": "lesson_ls4_6",
@@ -2234,15 +2441,11 @@
                 "ja": "第6課：お金と銀行"
               },
               "file": "lessons/TSL/LS4-lesson-6.json",
-              "translations": [],
-              "targets": [
-                "th"
-              ]
+              "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+              "targets": ["th"]
             }
           ],
-          "targets": [
-            "th"
-          ]
+          "targets": ["th"]
         }
       ]
     }
@@ -2270,6 +2473,699 @@
       "description": {
         "en": "Words added to the end of sentences to convey respect or soften the tone, highly specific to Thai grammar.",
         "th": "คำที่เติมต่อท้ายประโยคเพื่อแสดงความสุภาพหรือลดความรุนแรงของประโยค"
+      }
+    },
+    {
+      "id": "rule_g01",
+      "title": {
+        "en": "Grammar: Basic SVO",
+        "th": "ไวยากรณ์: ประธาน-กริยา-กรรม",
+        "fa": "دستور زبان: نهاد-فعل-مفعول",
+        "ar": "القواعد: فاعل-فعل-مفعول",
+        "es": "Gramática: Sujeto-Verbo-Objeto",
+        "zh": "语法：主谓宾基础",
+        "ja": "文法：基本SVO"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Basic SVO",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: ประธาน-กริยา-กรรม",
+        "fa": "این درس شامل: دستور زبان: نهاد-فعل-مفعول",
+        "ar": "يغطي هذا الدرس: القواعد: فاعل-فعل-مفعول",
+        "es": "Esta lección cubre: Gramática: Sujeto-Verbo-Objeto",
+        "zh": "本课程涵盖：语法：主谓宾基础",
+        "ja": "このレッスンでカバーする内容：文法：基本SVO"
+      }
+    },
+    {
+      "id": "rule_g02",
+      "title": {
+        "en": "Grammar: Politeness Particles",
+        "th": "ไวยากรณ์: คำลงท้าย",
+        "fa": "دستور زبان: ذرات ادب",
+        "ar": "القواعد: أدوات الأدب",
+        "es": "Gramática: Partículas de cortesía",
+        "zh": "语法：礼貌助词",
+        "ja": "文法：丁寧語"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Politeness Particles",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำลงท้าย",
+        "fa": "این درس شامل: دستور زبان: ذرات ادب",
+        "ar": "يغطي هذا الدرس: القواعد: أدوات الأدب",
+        "es": "Esta lección cubre: Gramática: Partículas de cortesía",
+        "zh": "本课程涵盖：语法：礼貌助词",
+        "ja": "このレッスンでカバーする内容：文法：丁寧語"
+      }
+    },
+    {
+      "id": "rule_g03",
+      "title": {
+        "en": "Grammar: Yes/No Questions",
+        "th": "ไวยากรณ์: คำถาม ใช่/ไม่ใช่",
+        "fa": "دستور زبان: سوالات بله/خیر",
+        "ar": "القواعد: أسئلة نعم/لا",
+        "es": "Gramática: Preguntas de sí/no",
+        "zh": "语法：是非问句",
+        "ja": "文法：はい/いいえ質問"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Yes/No Questions",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำถาม ใช่/ไม่ใช่",
+        "fa": "این درس شامل: دستور زبان: سوالات بله/خیر",
+        "ar": "يغطي هذا الدرس: القواعد: أسئلة نعم/لا",
+        "es": "Esta lección cubre: Gramática: Preguntas de sí/no",
+        "zh": "本课程涵盖：语法：是非问句",
+        "ja": "このレッスンでカバーする内容：文法：はい/いいえ質問"
+      }
+    },
+    {
+      "id": "rule_g05",
+      "title": {
+        "en": "Grammar: Wh- Questions",
+        "th": "ไวยากรณ์: คำถาม_wh",
+        "fa": "دستور زبان: سوالات پرسشی",
+        "ar": "القواعد: أسئلة الاستفهام",
+        "es": "Gramática: Preguntas informativas",
+        "zh": "语法：特殊疑问句",
+        "ja": "文法：疑問詞質問"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Wh- Questions",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำถาม_wh",
+        "fa": "این درس شامل: دستور زبان: سوالات پرسشی",
+        "ar": "يغطي هذا الدرس: القواعد: أسئلة الاستفهام",
+        "es": "Esta lección cubre: Gramática: Preguntas informativas",
+        "zh": "本课程涵盖：语法：特殊疑问句",
+        "ja": "このレッスンでカバーする内容：文法：疑問詞質問"
+      }
+    },
+    {
+      "id": "rule_g06",
+      "title": {
+        "en": "Grammar: Descriptive",
+        "th": "ไวยากรณ์: คำขยาย",
+        "fa": "دستور زبان: توصیفی",
+        "ar": "القواعد: الوصف",
+        "es": "Gramática: Descriptivo",
+        "zh": "语法：描述",
+        "ja": "文法：記述"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Descriptive",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำขยาย",
+        "fa": "این درس شامل: دستور زبان: توصیفی",
+        "ar": "يغطي هذا الدرس: القواعد: الوصف",
+        "es": "Esta lección cubre: Gramática: Descriptivo",
+        "zh": "本课程涵盖：语法：描述",
+        "ja": "このレッスンでカバーする内容：文法：記述"
+      }
+    },
+    {
+      "id": "rule_g07",
+      "title": {
+        "en": "Grammar: Possession",
+        "th": "ไวยากรณ์: การแสดงความเป็นเจ้าของ",
+        "fa": "دستور زبان: مالکیت",
+        "ar": "القواعد: الملكية",
+        "es": "Gramática: Posesión",
+        "zh": "语法：所属",
+        "ja": "文法：所有"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Possession",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: การแสดงความเป็นเจ้าของ",
+        "fa": "این درس شامل: دستور زبان: مالکیت",
+        "ar": "يغطي هذا الدرس: القواعد: الملكية",
+        "es": "Esta lección cubre: Gramática: Posesión",
+        "zh": "本课程涵盖：语法：所属",
+        "ja": "このレッスンでカバーする内容：文法：所有"
+      }
+    },
+    {
+      "id": "rule_g09",
+      "title": {
+        "en": "Grammar: Classifiers",
+        "th": "ไวยากรณ์: ลักษณนาม",
+        "fa": "دستور زبان: شمارنده‌ها",
+        "ar": "القواعد: التصنيفات",
+        "es": "Gramática: Clasificadores",
+        "zh": "语法：量词",
+        "ja": "文法：助数詞"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Classifiers",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: ลักษณนาม",
+        "fa": "این درس شامل: دستور زبان: شمارنده‌ها",
+        "ar": "يغطي هذا الدرس: القواعد: التصنيفات",
+        "es": "Esta lección cubre: Gramática: Clasificadores",
+        "zh": "本课程涵盖：语法：量词",
+        "ja": "このレッスンでカバーする内容：文法：助数詞"
+      }
+    },
+    {
+      "id": "rule_g22",
+      "title": {
+        "en": "Grammar: Requests & Imperatives",
+        "th": "ไวยากรณ์: คำขอร้องและคำสั่ง",
+        "fa": "دستور زبان: درخواست‌ها و افعال امری",
+        "ar": "القواعد: الطلبات والأوامر",
+        "es": "Gramática: Peticiones e imperativos",
+        "zh": "语法：请求与祈使句",
+        "ja": "文法：依頼と命令"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Requests & Imperatives",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำขอร้องและคำสั่ง",
+        "fa": "این درس شامل: دستور زبان: درخواست‌ها و افعال امری",
+        "ar": "يغطي هذا الدرس: القواعد: الطلبات والأوامر",
+        "es": "Esta lección cubre: Gramática: Peticiones e imperativos",
+        "zh": "本课程涵盖：语法：请求与祈使句",
+        "ja": "このレッスンでカバーする内容：文法：依頼と命令"
+      }
+    },
+    {
+      "id": "rule_g08",
+      "title": {
+        "en": "Grammar: Tense & Aspect",
+        "th": "ไวยากรณ์: กาลและลักษณะการกระทำ",
+        "fa": "دستور زبان: زمان و نمود",
+        "ar": "القواعد: الزمن والجانب",
+        "es": "Gramática: Tiempo y aspecto",
+        "zh": "语法：时态与体",
+        "ja": "文法：テンスとアスペクト"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Tense & Aspect",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: กาลและลักษณะการกระทำ",
+        "fa": "این درس شامل: دستور زبان: زمان و نمود",
+        "ar": "يغطي هذا الدرس: القواعد: الزمن والجانب",
+        "es": "Esta lección cubre: Gramática: Tiempo y aspecto",
+        "zh": "本课程涵盖：语法：时态与体",
+        "ja": "このレッスンでカバーする内容：文法：テンスとアスペクト"
+      }
+    },
+    {
+      "id": "rule_g10",
+      "title": {
+        "en": "Grammar: Topic-Comment",
+        "th": "ไวยากรณ์: ประธาน-ภาคแสดง",
+        "fa": "دستور زبان: موضوع-توضیح",
+        "ar": "القواعد: الموضوع-التعليق",
+        "es": "Gramática: Tema-Comentario",
+        "zh": "语法：主题-评论",
+        "ja": "文法：トピック-コメント"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Topic-Comment",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: ประธาน-ภาคแสดง",
+        "fa": "این درس شامل: دستور زبان: موضوع-توضیح",
+        "ar": "يغطي هذا الدرس: القواعد: الموضوع-التعليق",
+        "es": "Esta lección cubre: Gramática: Tema-Comentario",
+        "zh": "本课程涵盖：语法：主题-评论",
+        "ja": "このレッスンでカバーする内容：文法：トピック-コメント"
+      }
+    },
+    {
+      "id": "rule_g11",
+      "title": {
+        "en": "Grammar: Serial Verbs",
+        "th": "ไวยากรณ์: กริยาต่อเนื่อง",
+        "fa": "دستور زبان: افعال متوالی",
+        "ar": "القواعد: الأفعال المتسلسلة",
+        "es": "Gramática: Verbos seriales",
+        "zh": "语法：连动句",
+        "ja": "文法：連動詞"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Serial Verbs",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: กริยาต่อเนื่อง",
+        "fa": "این درس شامل: دستور زبان: افعال متوالی",
+        "ar": "يغطي هذا الدرس: القواعد: الأفعال المتسلسلة",
+        "es": "Esta lección cubre: Gramática: Verbos seriales",
+        "zh": "本课程涵盖：语法：连动句",
+        "ja": "このレッスンでカバーする内容：文法：連動詞"
+      }
+    },
+    {
+      "id": "rule_g12",
+      "title": {
+        "en": "Grammar: Comparatives",
+        "th": "ไวยากรณ์: การเปรียบเทียบ",
+        "fa": "دستور زبان: صفت‌های تفضیلی",
+        "ar": "القواعد: المقارنات",
+        "es": "Gramática: Comparativos",
+        "zh": "语法：比较级",
+        "ja": "文法：比較"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Comparatives",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: การเปรียบเทียบ",
+        "fa": "این درس شامل: دستور زبان: صفت‌های تفضیلی",
+        "ar": "يغطي هذا الدرس: القواعد: المقارنات",
+        "es": "Esta lección cubre: Gramática: Comparativos",
+        "zh": "本课程涵盖：语法：比较级",
+        "ja": "このレッスンでカバーする内容：文法：比較"
+      }
+    },
+    {
+      "id": "rule_g16",
+      "title": {
+        "en": "Grammar: Conditionals",
+        "th": "ไวยากรณ์: ประโยคเงื่อนไข",
+        "fa": "دستور زبان: شرطی",
+        "ar": "القواعد: الجمل الشرطية",
+        "es": "Gramática: Condicionales",
+        "zh": "语法：条件句",
+        "ja": "文法：条件法"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Conditionals",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: ประโยคเงื่อนไข",
+        "fa": "این درس شامل: دستور زبان: شرطی",
+        "ar": "يغطي هذا الدرس: القواعد: الجمل الشرطية",
+        "es": "Esta lección cubre: Gramática: Condicionales",
+        "zh": "本课程涵盖：语法：条件句",
+        "ja": "このレッスンでカバーする内容：文法：条件法"
+      }
+    },
+    {
+      "id": "rule_g17",
+      "title": {
+        "en": "Grammar: Ability",
+        "th": "ไวยากรณ์: ความสามารถ",
+        "fa": "دستور زبان: توانایی",
+        "ar": "القواعد: القدرة",
+        "es": "Gramática: Habilidad",
+        "zh": "语法：能力",
+        "ja": "文法：能力"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Ability",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: ความสามารถ",
+        "fa": "این درس شامل: دستور زبان: توانایی",
+        "ar": "يغطي هذا الدرس: القواعد: القدرة",
+        "es": "Esta lección cubre: Gramática: Habilidad",
+        "zh": "本课程涵盖：语法：能力",
+        "ja": "このレッスンでカバーする内容：文法：能力"
+      }
+    },
+    {
+      "id": "rule_g19",
+      "title": {
+        "en": "Grammar: Conjunctions",
+        "th": "ไวยากรณ์: คำสันธาน",
+        "fa": "دستور زبان: حروف ربط",
+        "ar": "القواعد: حروف العطف",
+        "es": "Gramática: Conjunciones",
+        "zh": "语法：连词",
+        "ja": "文法：接続詞"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Conjunctions",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำสันธาน",
+        "fa": "این درس شامل: دستور زبان: حروف ربط",
+        "ar": "يغطي هذا الدرس: القواعد: حروف العطف",
+        "es": "Esta lección cubre: Gramática: Conjunciones",
+        "zh": "本课程涵盖：语法：连词",
+        "ja": "このレッスンでカバーする内容：文法：接続詞"
+      }
+    },
+    {
+      "id": "rule_g20",
+      "title": {
+        "en": "Grammar: Reported Speech",
+        "th": "ไวยากรณ์: คำพูดอ้างอิง",
+        "fa": "دستور زبان: نقل قول",
+        "ar": "القواعد: الكلام المنقول",
+        "es": "Gramática: Estilo indirecto",
+        "zh": "语法：间接引语",
+        "ja": "文法：間接話法"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Reported Speech",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำพูดอ้างอิง",
+        "fa": "این درس شامل: دستور زبان: نقل قول",
+        "ar": "يغطي هذا الدرس: القواعد: الكلام المنقول",
+        "es": "Esta lección cubre: Gramática: Estilo indirecto",
+        "zh": "本课程涵盖：语法：间接引语",
+        "ja": "このレッスンでカバーする内容：文法：間接話法"
+      }
+    },
+    {
+      "id": "rule_g21",
+      "title": {
+        "en": "Grammar: Emphasis Particles",
+        "th": "ไวยากรณ์: คำลงท้ายเน้นความ",
+        "fa": "دستور زبان: ذرات تأکیدی",
+        "ar": "القواعد: أدوات التأكيد",
+        "es": "Gramática: Partículas de énfasis",
+        "zh": "语法：语气助词",
+        "ja": "文法：強調の終助詞"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Emphasis Particles",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำลงท้ายเน้นความ",
+        "fa": "این درس شامل: دستور زبان: ذرات تأکیدی",
+        "ar": "يغطي هذا الدرس: القواعد: أدوات التأكيد",
+        "es": "Esta lección cubre: Gramática: Partículas de énfasis",
+        "zh": "本课程涵盖：语法：语气助词",
+        "ja": "このレッスンでカバーする内容：文法：強調の終助詞"
+      }
+    },
+    {
+      "id": "rule_g23",
+      "title": {
+        "en": "Grammar: Exclamations",
+        "th": "ไวยากรณ์: คำอุทาน",
+        "fa": "دستور زبان: علائم تعجب",
+        "ar": "القواعد: التعجبات",
+        "es": "Gramática: Exclamaciones",
+        "zh": "语法：感叹词",
+        "ja": "文法：感嘆詞"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Exclamations",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำอุทาน",
+        "fa": "این درس شامل: دستور زبان: علائم تعجب",
+        "ar": "يغطي هذا الدرس: القواعد: التعجبات",
+        "es": "Esta lección cubre: Gramática: Exclamaciones",
+        "zh": "本课程涵盖：语法：感叹词",
+        "ja": "このレッスンでカバーする内容：文法：感嘆詞"
+      }
+    },
+    {
+      "id": "rule_g24",
+      "title": {
+        "en": "Grammar: Register Switching",
+        "th": "ไวยากรณ์: การปรับระดับภาษา",
+        "fa": "دستور زبان: تغییر لحن",
+        "ar": "القواعد: تبديل السجل",
+        "es": "Gramática: Cambio de registro",
+        "zh": "语法：语体转换",
+        "ja": "文法：文体の切り替え"
+      },
+      "description": {
+        "en": "This lesson covers: Grammar: Register Switching",
+        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: การปรับระดับภาษา",
+        "fa": "این درس شامل: دستور زبان: تغییر لحن",
+        "ar": "يغطي هذا الدرس: القواعد: تبديل السجل",
+        "es": "Esta lección cubre: Gramática: Cambio de registro",
+        "zh": "本课程涵盖：语法：语体转换",
+        "ja": "このレッスンでカバーする内容：文法：文体の切り替え"
+      }
+    },
+    {
+      "id": "rule_en_articles",
+      "title": {
+        "en": "Grammar: Definite & Indefinite Articles",
+        "th": "ไวยากรณ์: คำนำหน้านามชี้เฉพาะและไม่ชี้เฉพาะ",
+        "fa": "دستور زبان: حروف تعریف معین و نامعین",
+        "ar": "القواعد: أدوات التعريف والتنكير",
+        "es": "Gramática: Artículos definidos e indefinidos",
+        "zh": "语法：定冠词与不定冠词",
+        "ja": "文法：定冠詞と不定冠詞"
+      },
+      "description": {
+        "en": "This lesson covers the use of 'a', 'an', and 'the' in English, a common hurdle for learners from article-less languages.",
+        "th": "บทเรียนนี้ครอบคลุมการใช้ 'a', 'an', และ 'the' ในภาษาอังกฤษ ซึ่งเป็นอุปสรรคทั่วไปสำหรับผู้เรียนจากภาษาที่ไม่มีคำนำหน้านาม",
+        "fa": "این درس شامل استفاده از 'a'، 'an' و 'the' در انگلیسی است که مانعی رایج برای زبان‌آموزان زبان‌های بدون حرف تعریف است.",
+        "ar": "يغطي هذا الدرس استخدام 'a' و 'an' و 'the' في الإنجليزية، وهو عائق شائع للمتعلّمين من لغات لا تستخدم أدوات التعريف.",
+        "es": "Esta lección cubre el uso de 'a', 'an' y 'the' en inglés, un obstáculo común para estudiantes de idiomas sin artículos.",
+        "zh": "本课程涵盖英语中 'a'、'an' 和 'the' 的用法，这是无冠词语言学习者的常见难点。",
+        "ja": "このレッスンでは、英語における 'a'、'an'、'the' の用法を扱い、冠詞のない言語を話す学習者にとって一般的な困難点をカバーします。"
+      }
+    },
+    {
+      "id": "rule_en_sva",
+      "title": {
+        "en": "Grammar: Subject-Verb Agreement",
+        "th": "ไวยากรณ์: ความสอดคล้องระหว่างประธานและกริยา",
+        "fa": "دستور زبان: تطابق نهاد و فعل",
+        "ar": "القواعد: توافق الفاعل والفعل",
+        "es": "Gramática: Concordancia sujeto-verbo",
+        "zh": "语法：主谓一致",
+        "ja": "文法：主語と動詞の一致"
+      },
+      "description": {
+        "en": "This lesson covers English subject-verb agreement, particularly the third-person singular '-s' inflection.",
+        "th": "บทเรียนนี้ครอบคลุมความสอดคล้องระหว่างประธานและกริยาในภาษาอังกฤษ โดยเฉพาะการเติม '-s' สำหรับบุรุษที่สามเอกพจน์",
+        "fa": "این درس شامل تطابق نهاد و فعل در انگلیسی، به ویژه پسوند '-s' برای سوم شخص مفرد است.",
+        "ar": "يغطي هذا الدرس توافق الفاعل والفعل في الإنجليزية، وخاصة إضافة '-s' للمفرد الغائب.",
+        "es": "Esta lección cubre la concordancia sujeto-verbo en inglés, particularmente la inflexión '-s' de la tercera persona del singular.",
+        "zh": "本课程涵盖英语主谓一致，特别是第三人称单数的 '-s' 变化。",
+        "ja": "このレッスンでは、英語の主語と動詞の一致、特に三人称単数の '-s' の語形変化を扱います。"
+      }
+    },
+    {
+      "id": "rule_fa_ezafe",
+      "title": {
+        "en": "Grammar: Ezafe Construction",
+        "th": "ไวยากรณ์: โครงสร้างเอซาเฟะ",
+        "fa": "دستور زبان: ساختار اضافه",
+        "ar": "القواعد: بنية الإضافة",
+        "es": "Gramática: Construcción Ezafe",
+        "zh": "语法：伊扎菲结构",
+        "ja": "文法：エザーフェ構造"
+      },
+      "description": {
+        "en": "The Ezafe is a grammatical particle in Persian used to link a noun to a following adjective or possessor.",
+        "th": "เอซาเฟะคืออนุภาคไวยากรณ์ในภาษาเปอร์เซียที่ใช้เชื่อมโยงคำนามกับคำคุณศัพท์หรือเจ้าของที่ตามมา",
+        "fa": "اضافه یک نشانه دستوری در زبان فارسی است که اسم را به صفت یا مضاف‌الیه بعد از خود متصل می‌کند.",
+        "ar": "الإضافة هي أداة نحوية في الفارسية تُستخدم لربط الاسم بصفة أو مضاف إليه يليه.",
+        "es": "El Ezafe es una partícula gramatical en persa utilizada para vincular un sustantivo con un adjetivo o poseedor siguiente.",
+        "zh": "伊扎菲是波斯语中的一种语法助词，用于将名词与随后的形容词或所有者连接起来。",
+        "ja": "エザーフェは、名詞を後続の形容詞や所有者に結びつけるために使用されるペルシャ語の文法粒子です。"
+      }
+    },
+    {
+      "id": "rule_fa_sov",
+      "title": {
+        "en": "Grammar: SOV Word Order",
+        "th": "ไวยากรณ์: ลำดับคำ ประธาน-กรรม-กริยา",
+        "fa": "دستور زبان: ترتیب واژگان نهاد-مفعول-فعل",
+        "ar": "القواعد: ترتيب الكلمات فاعل-مفعول-فعل",
+        "es": "Gramática: Orden de palabras SOV",
+        "zh": "语法：SOV 语序",
+        "ja": "文法：SOV語順"
+      },
+      "description": {
+        "en": "Persian strictly follows a Subject-Object-Verb (SOV) word order, unlike English or Spanish.",
+        "th": "ภาษาเปอร์เซียใช้ลำดับคำแบบ ประธาน-กรรม-กริยา (SOV) อย่างเคร่งครัด ซึ่งต่างจากภาษาอังกฤษหรือสเปน",
+        "fa": "زبان فارسی به‌طور دقیق از ترتیب واژگان نهاد-مفعول-فعل (SOV) پیروی می‌کند، برخلاف انگلیسی یا اسپانیایی.",
+        "ar": "تتبع اللغة الفارسية بدقة ترتيب الكلمات فاعل-مفعول-فعل (SOV)، على عكس الإنجليزية أو الإسبانية.",
+        "es": "El persa sigue estrictamente un orden de palabras Sujeto-Objeto-Verbo (SOV), a diferencia del inglés o el español.",
+        "zh": "波斯语严格遵循主-宾-谓（SOV）语序，这与英语或西班牙语不同。",
+        "ja": "ペルシャ語は、英語やスペイン語とは異なり、厳密に主語-目的語-動詞（SOV）の語順に従います。"
+      }
+    },
+    {
+      "id": "rule_fa_formality",
+      "title": {
+        "en": "Grammar: Formal vs. Informal Address",
+        "th": "ไวยากรณ์: การพูดแบบทางการและไม่เป็นทางการ",
+        "fa": "دستور زبان: خطاب رسمی در برابر غیررسمی",
+        "ar": "القواعد: المخاطبة الرسمية مقابل غير الرسمية",
+        "es": "Gramática: Trato formal vs. informal",
+        "zh": "语法：正式与非正式称呼",
+        "ja": "文法：公式な呼びかけと非公式な呼びかけ"
+      },
+      "description": {
+        "en": "Persian distinguishes between informal 'to' (you) and formal 'shomā' (you), which affects verb conjugation.",
+        "th": "ภาษาเปอร์เซียแยกแยะระหว่าง 'to' (คุณ, ไม่เป็นทางการ) และ 'shomā' (คุณ, ทางการ) ซึ่งส่งผลต่อการผันกริยา",
+        "fa": "فارسی بین «تو» (شما، غیررسمی) و «شما» (رسمی) تمایز قائل می‌شود که بر صرف فعل تأثیر می‌گذارد.",
+        "ar": "تميز الفارسية بين 'تو' (أنت، غير رسمي) و 'شما' (أنت، رسمي)، مما يؤثر على تصريف الفعل.",
+        "es": "El persa distingue entre el 'to' informal (tú) y el 'shomā' formal (usted), lo que afecta a la conjugación verbal.",
+        "zh": "波斯语区分非正式的“to”（你）和正式的“shomā”（您），这会影响动词变位。",
+        "ja": "ペルシャ語は、動詞の活用に影響を与える非公式な「to」（あなた）と公式な「shomā」（あなた）を区別します。"
+      }
+    },
+    {
+      "id": "rule_zh_aspect",
+      "title": {
+        "en": "Grammar: Aspect Particles",
+        "th": "ไวยากรณ์: อนุภาคบอกอาการ",
+        "fa": "دستور زبان: ذرات نمود",
+        "ar": "القواعد: حروف الجانب",
+        "es": "Gramática: Partículas de aspecto",
+        "zh": "语法：体貌助词",
+        "ja": "文法：アスペクト粒子"
+      },
+      "description": {
+        "en": "This lesson covers Chinese aspect particles (le 了, zhe 着, guo 过) used to indicate completed, ongoing, or experienced actions.",
+        "th": "บทเรียนนี้ครอบคลุมอนุภาคบอกอาการในภาษาจีน (le, zhe, guo) ที่ใช้บ่งบอกการกระทำที่เสร็จสิ้น กำลังดำเนินอยู่ หรือเคยประสบ",
+        "fa": "این درس شامل ذرات نمود چینی (le, zhe, guo) است که برای نشان دادن اقدامات کامل شده، در حال انجام یا تجربه شده استفاده می‌شود.",
+        "ar": "يغطي هذا الدرس حروف الجانب الصينية (le, zhe, guo) المستخدمة للإشارة إلى الأفعال المكتملة أو الجارية أو المجربة.",
+        "es": "Esta lección cubre las partículas de aspecto chinas (le, zhe, guo) utilizadas para indicar acciones completadas, en curso o experimentadas.",
+        "zh": "本课程涵盖中文体貌助词（了、着、过），用于表示已完成、正在进行或经历过的动作。",
+        "ja": "このレッスンでは、完了、進行、または経験した動作を示すために使用される中国語のアスペクト粒子（了、着、过）を扱います。"
+      }
+    },
+    {
+      "id": "rule_ja_particles",
+      "title": {
+        "en": "Grammar: Core Case Particles",
+        "th": "ไวยากรณ์: คำช่วยหลัก",
+        "fa": "دستور زبان: ذرات حالت اصلی",
+        "ar": "القواعد: حروف الحالة الأساسية",
+        "es": "Gramática: Partículas de caso principales",
+        "zh": "语法：核心格助词",
+        "ja": "文法：主要な格助詞"
+      },
+      "description": {
+        "en": "This lesson covers essential Japanese particles (wa, ga, wo, ni, de) that indicate grammatical roles like topic, subject, object, and direction.",
+        "th": "บทเรียนนี้ครอบคลุมคำช่วยที่สำคัญในภาษาญี่ปุ่น (wa, ga, wo, ni, de) ที่ใช้บอกบทบาททางไวยากรณ์ เช่น ประเด็น ประธาน กรรม และทิศทาง",
+        "fa": "این درس شامل ذرات ضروری ژاپنی (wa, ga, wo, ni, de) است که نقش‌های دستوری مانند موضوع، فاعل، مفعول و جهت را نشان می‌دهند.",
+        "ar": "يغطي هذا الدرس حروف الجر اليابانية الأساسية (wa, ga, wo, ni, de) التي تشير إلى الأدوار النحوية مثل الموضوع والفاعل والمفعول والاتجاه.",
+        "es": "Esta lección cubre las partículas japonesas esenciales (wa, ga, wo, ni, de) que indican roles gramaticales como tema, sujeto, objeto y dirección.",
+        "zh": "本课程涵盖日语中基本的助词（wa, ga, wo, ni, de），用于指示主题、主语、宾语和方向等语法角色。",
+        "ja": "このレッスンでは、主題、主語、目的語、方向などの文法的役割を示す、日本語の必須助詞（は、が、を、に、で）を扱います。"
+      }
+    },
+    {
+      "id": "rule_ja_conjugation",
+      "title": {
+        "en": "Grammar: Polite vs. Dictionary Form",
+        "th": "ไวยากรณ์: รูปแบบสุภาพ vs พจนานุกรม",
+        "fa": "دستور زبان: شکل مؤدبانه در برابر لغت‌نامه‌ای",
+        "ar": "القواعد: الشكل المهذب مقابل شكل القاموس",
+        "es": "Gramática: Forma cortés vs. forma de diccionario",
+        "zh": "语法：礼貌体 vs 辞书形",
+        "ja": "文法：丁寧語と辞書形"
+      },
+      "description": {
+        "en": "This lesson introduces the difference between the polite '-masu' form used in daily conversation and the plain dictionary form used for casual speech and grammar structures.",
+        "th": "บทเรียนนี้แนะนำความแตกต่างระหว่างรูปแบบ '-masu' แบบสุภาพที่ใช้ในการสนทนาประจำวัน และรูปแบบพจนานุกรมที่ใช้ในการพูดแบบกันเองและโครงสร้างไวยากรณ์",
+        "fa": "این درس تفاوت بین شکل مؤدبانه «-ماسو» که در مکالمات روزمره استفاده می‌شود و شکل ساده لغت‌نامه‌ای که برای گفتار غیررسمی و ساختارهای دستوری به کار می‌رود را معرفی می‌کند.",
+        "ar": "يقدم هذا الدرس الفرق بين شكل «-ماسو» المهذب المستخدم في المحادثات اليومية وشكل القاموس العادي المستخدم في الكلام غير الرسمي والهياكل النحوية.",
+        "es": "Esta lección introduce la diferencia entre la forma cortés '-masu' usada en conversaciones diarias y la forma plana de diccionario usada para el habla casual y estructuras gramaticales.",
+        "zh": "本课程介绍日常会话中使用的礼貌“-masu”形与用于随意交谈和语法结构的普通辞书形之间的区别。",
+        "ja": "このレッスンでは、日常会話で使われる丁寧な「-ます」形と、カジュアルな会話や文法構造で使われる辞書形の違いを紹介します。"
+      }
+    },
+    {
+      "id": "rule_ar_idafa",
+      "title": {
+        "en": "Grammar: The Construct State (Idafa)",
+        "th": "ไวยากรณ์: สถานะการก่อสร้าง (อีดาฟา)",
+        "fa": "دستور زبان: حالت اضافی (اضافه)",
+        "ar": "القواعد: حالة الإضافة",
+        "es": "Gramática: El Estado Constructo (Idafa)",
+        "zh": "语法：正偏组合（伊达法）",
+        "ja": "文法：附加状态（イダーファ）"
+      },
+      "description": {
+        "en": "The Idafa is a grammatical construction in Arabic used to show possession or relationship between two nouns, where the first noun loses its definite article.",
+        "th": "อีดาฟาเป็นโครงสร้างไวยากรณ์ในภาษาอาหรับที่ใช้แสดงความเป็นเจ้าของหรือความสัมพันธ์ระหว่างคำนามสองคำ โดยคำนามแรกจะละคำนำหน้านามชี้เฉพาะ",
+        "fa": "اضافه یک ساختار دستوری در عربی است که برای نشان دادن مالکیت یا رابطه بین دو اسم استفاده می‌شود، جایی که اسم اول حرف تعریف خود را از دست می‌دهد.",
+        "ar": "الإضافة هي تركيب نحوي في العربية يُستخدم لإظهار الملكية أو العلاقة بين اسمين، حيث يفقد الاسم الأول أداة التعريف.",
+        "es": "La Idafa es una construcción gramatical en árabe utilizada para mostrar posesión o relación entre dos sustantivos, donde el primer sustantivo pierde su artículo definido.",
+        "zh": "伊达法是阿拉伯语中的一种语法结构，用于表示两个名词之间的所属或关系，其中第一个名词失去其定冠词。",
+        "ja": "イダーファは、所有権や2つの名詞間の関係を示すために使用されるアラビア語の文法構造であり、最初の名詞は定冠詞を失います。"
+      }
+    },
+    {
+      "id": "rule_ar_agreement",
+      "title": {
+        "en": "Grammar: Gender & Number Agreement",
+        "th": "ไวยากรณ์: ความสอดคล้องของเพศและจำนวน",
+        "fa": "دستور زبان: تطابق جنسیت و عدد",
+        "ar": "القواعد: التوافق بين الجنس والعدد",
+        "es": "Gramática: Concordancia de género y número",
+        "zh": "语法：性与数的一致性",
+        "ja": "文法：性と数の一致"
+      },
+      "description": {
+        "en": "Arabic requires strict agreement in gender (masculine/feminine) and number (singular/dual/plural) between nouns, adjectives, and verbs.",
+        "th": "ภาษาอาหรับต้องการความสอดคล้องที่เคร่งครัดในเพศ (ชาย/หญิง) และจำนวน (เอกพจน์/ทวิพจน์/พหูพจน์) ระหว่างคำนาม คำคุณศัพท์ และกริยา",
+        "fa": "عربی نیاز به تطابق دقیق در جنسیت (مذکر/مونث) و عدد (مفرد/مثنی/جمع) بین اسم‌ها، صفت‌ها و فعل‌ها دارد.",
+        "ar": "تتطلب العربية توافقاً صارماً في الجنس (مذكر/مؤنث) والعدد (مفرد/مثنى/جمع) بين الأسماء والصفات والأفعال.",
+        "es": "El árabe requiere una estricta concordancia de género (masculino/femenino) y número (singular/dual/plural) entre sustantivos, adjetivos y verbos.",
+        "zh": "阿拉伯语要求名词、形容词和动词之间在性（阳性/阴性）和数（单数/双数/复数）上严格一致。",
+        "ja": "アラビア語では、名詞、形容詞、動詞の間で性（男性/女性）と数（単数/双数/複数）の厳格な一致が必要です。"
+      }
+    },
+    {
+      "id": "rule_ar_definite",
+      "title": {
+        "en": "Grammar: Definite Article & Sun/Moon Letters",
+        "th": "ไวยากรณ์: คำนำหน้านามชี้เฉพาะและอักษรอาทิตย์/จันทร์",
+        "fa": "دستور زبان: حرف تعریف و حروف شمسی/قمری",
+        "ar": "القواعد: أداة التعريف والحروف الشمسية والقمرية",
+        "es": "Gramática: Artículo definido y letras solares/lunares",
+        "zh": "语法：定冠词与太阳/月亮字母",
+        "ja": "文法：定冠詞と太陽/月文字"
+      },
+      "description": {
+        "en": "This lesson covers the definite article 'Al-' and how its pronunciation changes depending on whether the following letter is a 'Sun' or 'Moon' letter.",
+        "th": "บทเรียนนี้ครอบคลุมคำนำหน้านามชี้เฉพาะ 'Al-' และการออกเสียงที่เปลี่ยนไปขึ้นอยู่กับว่าอักษรที่ตามมาเป็นอักษร 'อาทิตย์' หรือ 'จันทร์'",
+        "fa": "این درس حرف تعریف «الـ» و نحوه تغییر تلفظ آن را بسته به اینکه حرف بعدی حرف «شمسی» یا «قمری» باشد، پوشش می‌دهد.",
+        "ar": "يغطي هذا الدرس أداة التعريف 'الـ' وكيف يتغير نطقها اعتماداً على ما إذا كان الحرف التالي حرفاً شمسياً أو قمرياً.",
+        "es": "Esta lección cubre el artículo definido 'Al-' y cómo cambia su pronunciación dependiendo de si la letra siguiente es 'solar' o 'lunar'.",
+        "zh": "本课程涵盖定冠词“Al-”，以及其发音如何根据后续字母是“太阳”字母还是“月亮”字母而改变。",
+        "ja": "このレッスンでは、定冠詞「Al-」と、続く文字が「太陽」文字か「月」文字かによって発音がどのように変化するかを扱います。"
+      }
+    },
+    {
+      "id": "rule_es_ser_estar",
+      "title": {
+        "en": "Grammar: Ser vs. Estar",
+        "th": "ไวยากรณ์: Ser vs. Estar",
+        "fa": "دستور زبان: Ser در برابر Estar",
+        "ar": "القواعد: Ser مقابل Estar",
+        "es": "Gramática: Ser vs. Estar",
+        "zh": "语法：Ser 与 Estar",
+        "ja": "文法：SerとEstar"
+      },
+      "description": {
+        "en": "This lesson covers the distinction between 'Ser' (used for permanent states, identity, and origin) and 'Estar' (used for temporary states, emotions, and location).",
+        "th": "บทเรียนนี้ครอบคลุมความแตกต่างระหว่าง 'Ser' (ใช้สำหรับสถานะถาวร อัตลักษณ์ และถิ่นกำเนิด) และ 'Estar' (ใช้สำหรับสถานะชั่วคราว อารมณ์ และตำแหน่ง)",
+        "fa": "این درس تفاوت بین «Ser» (برای حالات دائمی، هویت و اصل و نسب) و «Estar» (برای حالات موقت، احساسات و مکان) را پوشش می‌دهد.",
+        "ar": "يغطي هذا الدرس التمييز بين 'Ser' (يُستخدم للحالات الدائمة والهوية والأصل) و 'Estar' (يُستخدم للحالات المؤقتة والمشاعر والموقع).",
+        "es": "Esta lección cubre la distinción entre 'Ser' (usado para estados permanentes, identidad y origen) y 'Estar' (usado para estados temporales, emociones y ubicación).",
+        "zh": "本课程涵盖“Ser”（用于永久状态、身份和出身）与“Estar”（用于临时状态、情绪和位置）之间的区别。",
+        "ja": "このレッスンでは、「Ser」（永続的な状態、アイデンティティ、出身に使用）と「Estar」（一時的な状態、感情、場所に使用）の使い分けを扱います。"
+      }
+    },
+    {
+      "id": "rule_es_agreement",
+      "title": {
+        "en": "Grammar: Gender & Number Agreement",
+        "th": "ไวยากรณ์: ความสอดคล้องของเพศและจำนวน",
+        "fa": "دستور زبان: تطابق جنسیت و عدد",
+        "ar": "القواعد: التوافق بين الجنس والعدد",
+        "es": "Gramática: Concordancia de género y número",
+        "zh": "语法：性与数的一致性",
+        "ja": "文法：性と数の一致"
+      },
+      "description": {
+        "en": "Spanish requires strict agreement in gender (masculine/feminine) and number (singular/plural) between nouns, articles, and adjectives.",
+        "th": "ภาษาสเปนต้องการความสอดคล้องที่เคร่งครัดในเพศ (ชาย/หญิง) และจำนวน (เอกพจน์/พหูพจน์) ระหว่างคำนาม คำนำหน้านาม และคำคุณศัพท์",
+        "fa": "اسپانیایی نیاز به تطابق دقیق در جنسیت (مذکر/مونث) و عدد (مفرد/جمع) بین اسم‌ها، حروف تعریف و صفت‌ها دارد.",
+        "ar": "تتطلب الإسبانية توافقاً صارماً في الجنس (مذكر/مؤنث) والعدد (مفرد/جمع) بين الأسماء وأدوات التعريف والصفات.",
+        "es": "El español requiere una estricta concordancia de género (masculino/femenino) y número (singular/plural) entre sustantivos, artículos y adjetivos.",
+        "zh": "西班牙语要求名词、冠词和形容词之间在性（阳性/阴性）和数（单数/复数）上严格一致。",
+        "ja": "スペイン語では、名詞、冠詞、形容詞の間で性（男性/女性）と数（単数/複数）の厳格な一致が必要です。"
+      }
+    },
+    {
+      "id": "rule_es_pronouns",
+      "title": {
+        "en": "Grammar: Object Pronoun Placement",
+        "th": "ไวยากรณ์: ตำแหน่งของคำสรรพนามกรรม",
+        "fa": "دستور زبان: جایگاه ضمایر مفعولی",
+        "ar": "القواعد: موضع ضمائر المفعول",
+        "es": "Gramática: Colocación de pronombres de objeto",
+        "zh": "语法：宾语代词位置",
+        "ja": "文法：目的語代名詞の配置"
+      },
+      "description": {
+        "en": "This lesson covers how direct and indirect object pronouns are placed before conjugated verbs, but attached to the end of infinitives and gerunds.",
+        "th": "บทเรียนนี้ครอบคลุมวิธีวางคำสรรพนามกรรมตรงและกรรมรองไว้หน้ากริยาที่ผันแล้ว แต่จะต่อท้ายกริยาอนันต์และเจอร์ันด์",
+        "fa": "این درس نحوه قرارگیری ضمایر مفعول مستقیم و غیرمستقیم را قبل از افعال صرف شده، و چسبیده به انتهای مصدرها و اسم مفعول‌ها پوشش می‌دهد.",
+        "ar": "يغطي هذا الدرس كيفية وضع ضمائر المفعول المباشر وغير المباشر قبل الأفعال المُصرفة، ولكن تُضاف إلى نهاية الأفعال المصدرية والجارودية.",
+        "es": "Esta lección cubre cómo los pronombres de objeto directo e indirecto se colocan antes de los verbos conjugados, pero se unen al final de los infinitivos y gerundios.",
+        "zh": "本课程涵盖直接和间接宾语代词如何放置在变位动词之前，但附着在动词不定式和动名词的末尾。",
+        "ja": "このレッスンでは、直接・間接目的語代名詞が活用された動詞の前に配置されるが、不定詞や動名詞の末尾に付加される仕組みを扱います。"
       }
     }
   ]

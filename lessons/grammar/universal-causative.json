@@ -1,0 +1,720 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "h1",
+      "header": true,
+      "texts": {
+        "en": "Direct Causative (Make)",
+        "th": "รูปกริยาทำให้ทำ (Make)",
+        "fa": "سببی مستقیم (مجبور کردن)",
+        "ar": "السببية المباشرة (يجعل)",
+        "es": "Causativo directo (Hacer)",
+        "zh": "直接使役 (让)",
+        "ja": "直接的使役 (させる)"
+      }
+    },
+    {
+      "id": "w1_1",
+      "kind": "word",
+      "texts": {
+        "en": "make",
+        "th": "使",
+        "fa": "مجبور",
+        "ar": "يجعل",
+        "es": "hacer",
+        "zh": "让",
+        "ja": "させる"
+      }
+    },
+    {
+      "id": "w1_2",
+      "kind": "word",
+      "texts": {
+        "en": "clean",
+        "th": "打扫",
+        "fa": "تمیز",
+        "ar": "ينظف",
+        "es": "limpiar",
+        "zh": "打扫",
+        "ja": "掃除する"
+      }
+    },
+    {
+      "id": "w1_3",
+      "kind": "word",
+      "texts": {
+        "en": "cry",
+        "th": "哭",
+        "fa": "گریه",
+        "ar": "يبكي",
+        "es": "llorar",
+        "zh": "哭",
+        "ja": "泣く"
+      }
+    },
+    {
+      "id": "w1_4",
+      "kind": "word",
+      "texts": {
+        "en": "laugh",
+        "th": "笑",
+        "fa": "خندیدن",
+        "ar": "يضحك",
+        "es": "reír",
+        "zh": "笑",
+        "ja": "笑う"
+      }
+    },
+    {
+      "id": "w1_5",
+      "kind": "word",
+      "texts": {
+        "en": "work",
+        "th": "工作",
+        "fa": "کار",
+        "ar": "يعمل",
+        "es": "trabajar",
+        "zh": "工作",
+        "ja": "働く"
+      }
+    },
+    {
+      "id": "s1_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I make him clean.",
+        "th": "我让他打扫",
+        "fa": "من او را مجبور به تمیز کردن می‌کنم",
+        "ar": "أجعله ينظف",
+        "es": "Hago que él limpie",
+        "zh": "我让他打扫",
+        "ja": "私は彼に掃除させる"
+      }
+    },
+    {
+      "id": "s1_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The onion makes me cry.",
+        "th": "洋葱让我哭",
+        "fa": "پیاز مرا به گریه می‌اندازد",
+        "ar": "البصل يجعلني أبكي",
+        "es": "La cebolla me hace llorar",
+        "zh": "洋葱让我哭",
+        "ja": "玉ねぎは私を泣かせる"
+      }
+    },
+    {
+      "id": "s1_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The joke makes her laugh.",
+        "th": "笑话让她笑",
+        "fa": "جوک او را می‌خنداند",
+        "ar": "النكتة تجعلها تضحك",
+        "es": "El chiste la hace reír",
+        "zh": "笑话让她笑",
+        "ja": "その冗談は彼女を笑わせる"
+      }
+    },
+    {
+      "id": "s1_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "He makes me work.",
+        "th": "他让我工作",
+        "fa": "او مرا مجبور به کار می‌کند",
+        "ar": "هو يجعلني أعمل",
+        "es": "Él me hace trabajar",
+        "zh": "他让我工作",
+        "ja": "彼は私に働かせる"
+      }
+    },
+    {
+      "id": "s1_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "She makes the baby sleep.",
+        "th": "她让婴儿睡觉",
+        "fa": "او کودک را می‌خواباند",
+        "ar": "هي تجعل الطفل ينام",
+        "es": "Ella hace que el bebé duerma",
+        "zh": "她让婴儿睡觉",
+        "ja": "彼女は赤ちゃんを寝かせる"
+      }
+    },
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Permissive Causative (Let)",
+        "th": "รูปอนุญาต (Let)",
+        "fa": "سببی اجازه‌ای (اجازه دادن)",
+        "ar": "السببية الإذنية (يدع)",
+        "es": "Causativo permisivo (Dejar)",
+        "zh": "允许使役 (让)",
+        "ja": "許可の使役 (させる)"
+      }
+    },
+    {
+      "id": "w2_1",
+      "kind": "word",
+      "texts": {
+        "en": "let",
+        "th": "让",
+        "fa": "اجازه",
+        "ar": "يدع",
+        "es": "dejar",
+        "zh": "让",
+        "ja": "させる"
+      }
+    },
+    {
+      "id": "w2_2",
+      "kind": "word",
+      "texts": {
+        "en": "play",
+        "th": "玩",
+        "fa": "بازی",
+        "ar": "يلعب",
+        "es": "jugar",
+        "zh": "玩",
+        "ja": "遊ぶ"
+      }
+    },
+    {
+      "id": "w2_3",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "去",
+        "fa": "رفتن",
+        "ar": "يذهب",
+        "es": "ir",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "w2_4",
+      "kind": "word",
+      "texts": {
+        "en": "enter",
+        "th": "进入",
+        "fa": "وارد",
+        "ar": "يدخل",
+        "es": "entrar",
+        "zh": "进入",
+        "ja": "入る"
+      }
+    },
+    {
+      "id": "w2_5",
+      "kind": "word",
+      "texts": {
+        "en": "see",
+        "th": "看",
+        "fa": "دیدن",
+        "ar": "يرى",
+        "es": "ver",
+        "zh": "看",
+        "ja": "見る"
+      }
+    },
+    {
+      "id": "s2_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "Let him play.",
+        "th": "让他玩",
+        "fa": "اجازه بده بازی کند",
+        "ar": "دعه يلعب",
+        "es": "Déjalo jugar",
+        "zh": "让他玩",
+        "ja": "彼に遊ばせろ"
+      }
+    },
+    {
+      "id": "s2_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "Let me go.",
+        "th": "让我走",
+        "fa": "اجازه بده بروم",
+        "ar": "دعني أذهب",
+        "es": "Déjame ir",
+        "zh": "让我走",
+        "ja": "行かせてくれ"
+      }
+    },
+    {
+      "id": "s2_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "Let them enter.",
+        "th": "让他们进",
+        "fa": "اجازه بده وارد شوند",
+        "ar": "دعهم يدخلون",
+        "es": "Déjalos entrar",
+        "zh": "让他们进",
+        "ja": "彼らに入れさせる"
+      }
+    },
+    {
+      "id": "s2_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "Let me see.",
+        "th": "让我看",
+        "fa": "اجازه بده ببینم",
+        "ar": "دعني أرى",
+        "es": "Déjame ver",
+        "zh": "让我看",
+        "ja": "見せてくれ"
+      }
+    },
+    {
+      "id": "s2_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "Let it be.",
+        "th": "顺其自然",
+        "fa": "اجازه بده باشد",
+        "ar": "دعها تكون",
+        "es": "Que sea",
+        "zh": "顺其自然",
+        "ja": "そのままにさせろ"
+      }
+    },
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Causative of Service (Have)",
+        "th": "รูป服务使役 (Have)",
+        "fa": "سببی خدماتی (وا داشتن)",
+        "ar": "السببية الخدمية (يجعل)",
+        "es": "Causativo de servicio (Hacer)",
+        "zh": "服务使役 (叫)",
+        "ja": "依頼の使役 (頼む)"
+      }
+    },
+    {
+      "id": "w3_1",
+      "kind": "word",
+      "texts": {
+        "en": "have",
+        "th": "叫",
+        "fa": "وا داشتن",
+        "ar": "يجعل",
+        "es": "hacer",
+        "zh": "叫",
+        "ja": "頼む"
+      }
+    },
+    {
+      "id": "w3_2",
+      "kind": "word",
+      "texts": {
+        "en": "cut",
+        "th": "剪",
+        "fa": "کوتاه",
+        "ar": "يقص",
+        "es": "cortar",
+        "zh": "剪",
+        "ja": "切る"
+      }
+    },
+    {
+      "id": "w3_3",
+      "kind": "word",
+      "texts": {
+        "en": "wash",
+        "th": "洗",
+        "fa": "شستن",
+        "ar": "يغسل",
+        "es": "lavar",
+        "zh": "洗",
+        "ja": "洗う"
+      }
+    },
+    {
+      "id": "w3_4",
+      "kind": "word",
+      "texts": {
+        "en": "fix",
+        "th": "修",
+        "fa": "تعمیر",
+        "ar": "يصلح",
+        "es": "reparar",
+        "zh": "修",
+        "ja": "修理する"
+      }
+    },
+    {
+      "id": "w3_5",
+      "kind": "word",
+      "texts": {
+        "en": "paint",
+        "th": "画",
+        "fa": "رنگ",
+        "ar": "يرسم",
+        "es": "pintar",
+        "zh": "画",
+        "ja": "塗る"
+      }
+    },
+    {
+      "id": "s3_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I have my hair cut.",
+        "th": "我叫人剪头发",
+        "fa": "من موهایم را کوتاه می‌کنم",
+        "ar": "أجعل شعري يُقص",
+        "es": "Hago que me corten el pelo",
+        "zh": "我叫人剪头发",
+        "ja": "私は髪を切らせる"
+      }
+    },
+    {
+      "id": "s3_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "She has her car washed.",
+        "th": "她叫人洗车",
+        "fa": "او ماشینش را می‌شوید",
+        "ar": "هي تجعل سيارتها تُغسل",
+        "es": "Ella hace que le laven el coche",
+        "zh": "她叫人洗车",
+        "ja": "彼女は車を洗わせる"
+      }
+    },
+    {
+      "id": "s3_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "We had the roof fixed.",
+        "th": "我们叫人修屋顶",
+        "fa": "ما سقف را تعمیر کردیم",
+        "ar": "جعلنا السقف يُصلح",
+        "es": "Hicimos que repararan el techo",
+        "zh": "我们叫人修屋顶",
+        "ja": "私たちは屋根を修理させた"
+      }
+    },
+    {
+      "id": "s3_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "He had his shoes painted.",
+        "th": "他叫人画鞋",
+        "fa": "او کفش‌هایش را رنگ کرد",
+        "ar": "جعل حذاءه يُرسم",
+        "es": "Él hizo que le pintaran los zapatos",
+        "zh": "他叫人画鞋",
+        "ja": "彼は靴を塗らせた"
+      }
+    },
+    {
+      "id": "s3_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "I will have the document translated.",
+        "th": "我将叫人翻译文件",
+        "fa": "من سند را ترجمه خواهم کرد",
+        "ar": "سأجعل الوثيقة تُترجم",
+        "es": "Haré que traduzcan el documento",
+        "zh": "我将叫人翻译文件",
+        "ja": "私は文書を翻訳させる"
+      }
+    },
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Causative with Help",
+        "th": "รูป帮助使役",
+        "fa": "سببی با کمک",
+        "ar": "السببية مع المساعدة",
+        "es": "Causativo con ayuda",
+        "zh": "帮助使役",
+        "ja": "助けの使役"
+      }
+    },
+    {
+      "id": "w4_1",
+      "kind": "word",
+      "texts": {
+        "en": "help",
+        "th": "帮助",
+        "fa": "کمک",
+        "ar": "يساعد",
+        "es": "ayudar",
+        "zh": "帮助",
+        "ja": "助ける"
+      }
+    },
+    {
+      "id": "w4_2",
+      "kind": "word",
+      "texts": {
+        "en": "cook",
+        "th": "做饭",
+        "fa": "آشپزی",
+        "ar": "يطبخ",
+        "es": "cocinar",
+        "zh": "做饭",
+        "ja": "料理する"
+      }
+    },
+    {
+      "id": "w4_3",
+      "kind": "word",
+      "texts": {
+        "en": "study",
+        "th": "学习",
+        "fa": "مطالعه",
+        "ar": "يدرس",
+        "es": "estudiar",
+        "zh": "学习",
+        "ja": "勉強する"
+      }
+    },
+    {
+      "id": "w4_4",
+      "kind": "word",
+      "texts": {
+        "en": "move",
+        "th": "搬",
+        "fa": "اسباب",
+        "ar": "ينقل",
+        "es": "mudarse",
+        "zh": "搬",
+        "ja": "引っ越す"
+      }
+    },
+    {
+      "id": "w4_5",
+      "kind": "word",
+      "texts": {
+        "en": "build",
+        "th": "建",
+        "fa": "ساختن",
+        "ar": "يبني",
+        "es": "construir",
+        "zh": "建",
+        "ja": "建てる"
+      }
+    },
+    {
+      "id": "s4_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "She helped me cook.",
+        "th": "她帮我做饭",
+        "fa": "او به من در آشپزی کمک کرد",
+        "ar": "ساعدتني في الطبخ",
+        "es": "Ella me ayudó a cocinar",
+        "zh": "她帮我做饭",
+        "ja": "彼女は私が料理するのを手伝った"
+      }
+    },
+    {
+      "id": "s4_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "I helped him study.",
+        "th": "我帮他学习",
+        "fa": "من به او در مطالعه کمک کردم",
+        "ar": "ساعدته في الدراسة",
+        "es": "Yo le ayudé a estudiar",
+        "zh": "我帮他学习",
+        "ja": "私は彼が勉強するのを手伝った"
+      }
+    },
+    {
+      "id": "s4_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "We helped them move.",
+        "th": "我们帮他们搬",
+        "fa": "ما به آن‌ها در اسباب‌کشی کمک کردیم",
+        "ar": "ساعدناهم في الانتقال",
+        "es": "Nosotros les ayudamos a mudarse",
+        "zh": "我们帮他们搬",
+        "ja": "私たちは彼らが引っ越すのを手伝った"
+      }
+    },
+    {
+      "id": "s4_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "He helped me build.",
+        "th": "他帮我建",
+        "fa": "او به من در ساختن کمک کرد",
+        "ar": "ساعدني في البناء",
+        "es": "Él me ayudó a construir",
+        "zh": "他帮我建",
+        "ja": "彼は私が建てるのを手伝った"
+      }
+    },
+    {
+      "id": "s4_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "They helped us clean.",
+        "th": "他们帮我们打扫",
+        "fa": "آن‌ها به ما در تمیز کردن کمک کردند",
+        "ar": "ساعدونا في التنظيف",
+        "es": "Ellos nos ayudaron a limpiar",
+        "zh": "他们帮我们打扫",
+        "ja": "彼らは私たちが掃除するのを手伝った"
+      }
+    },
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Causative of Perception",
+        "th": "รูป感知使役",
+        "fa": "سببی ادراکی",
+        "ar": "السببية الإدراكية",
+        "es": "Causativo de percepción",
+        "zh": "感知使役",
+        "ja": "知覚の使役"
+      }
+    },
+    {
+      "id": "w5_1",
+      "kind": "word",
+      "texts": {
+        "en": "show",
+        "th": "展示",
+        "fa": "نشان",
+        "ar": "يري",
+        "es": "mostrar",
+        "zh": "展示",
+        "ja": "見せる"
+      }
+    },
+    {
+      "id": "w5_2",
+      "kind": "word",
+      "texts": {
+        "en": "let",
+        "th": "让",
+        "fa": "اجازه",
+        "ar": "يدع",
+        "es": "dejar",
+        "zh": "让",
+        "ja": "させる"
+      }
+    },
+    {
+      "id": "w5_3",
+      "kind": "word",
+      "texts": {
+        "en": "see",
+        "th": "看",
+        "fa": "دیدن",
+        "ar": "يرى",
+        "es": "ver",
+        "zh": "看",
+        "ja": "見る"
+      }
+    },
+    {
+      "id": "w5_4",
+      "kind": "word",
+      "texts": {
+        "en": "know",
+        "th": "知道",
+        "fa": "دانستن",
+        "ar": "يعرف",
+        "es": "saber",
+        "zh": "知道",
+        "ja": "知る"
+      }
+    },
+    {
+      "id": "w5_5",
+      "kind": "word",
+      "texts": {
+        "en": "hear",
+        "th": "听",
+        "fa": "شنیدن",
+        "ar": "يسمع",
+        "es": "oír",
+        "zh": "听",
+        "ja": "聞く"
+      }
+    },
+    {
+      "id": "s5_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "Let me know.",
+        "th": "让我知道",
+        "fa": "اجازه بده بدانم",
+        "ar": "دعني أعرف",
+        "es": "Hazme saber",
+        "zh": "让我知道",
+        "ja": "私に知らせてくれ"
+      }
+    },
+    {
+      "id": "s5_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "Show me the way.",
+        "th": "给我指路",
+        "fa": "راه را به من نشان بده",
+        "ar": "أرني الطريق",
+        "es": "Muéstrame el camino",
+        "zh": "给我指路",
+        "ja": "私に道を見せてくれ"
+      }
+    },
+    {
+      "id": "s5_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "Let him hear it.",
+        "th": "让他听到",
+        "fa": "اجازه بده او بشنود",
+        "ar": "دعه يسمعه",
+        "es": "Déjalo oírlo",
+        "zh": "让他听到",
+        "ja": "彼にそれを聞かせろ"
+      }
+    },
+    {
+      "id": "s5_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "Make it known.",
+        "th": "让它被知道",
+        "fa": "آن را معروف کن",
+        "ar": "اجعله معروفاً",
+        "es": "Hazlo conocido",
+        "zh": "让它被知道",
+        "ja": "それを知られろ"
+      }
+    },
+    {
+      "id": "s5_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "Let the world see.",
+        "th": "让世界看到",
+        "fa": "اجازه بده دنیا ببیند",
+        "ar": "دع العالم يرى",
+        "es": "Deja que el mundo vea",
+        "zh": "让世界看到",
+        "ja": "世界に見させろ"
+      }
+    }
+  ]
+}

@@ -1,0 +1,720 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "h1",
+      "header": true,
+      "texts": {
+        "en": "All / Every",
+        "th": "ทั้งหมด / ทุก",
+        "fa": "همه / هر",
+        "ar": "الكل / كل",
+        "es": "Todo / Cada",
+        "zh": "所有 / 每",
+        "ja": "すべて / 毎"
+      }
+    },
+    {
+      "id": "w1_1",
+      "kind": "word",
+      "texts": {
+        "en": "all",
+        "th": "ทั้งหมด",
+        "fa": "همه",
+        "ar": "الكل",
+        "es": "todo",
+        "zh": "所有",
+        "ja": "すべて"
+      }
+    },
+    {
+      "id": "w1_2",
+      "kind": "word",
+      "texts": {
+        "en": "every",
+        "th": "ทุก",
+        "fa": "هر",
+        "ar": "كل",
+        "es": "cada",
+        "zh": "每",
+        "ja": "毎"
+      }
+    },
+    {
+      "id": "w1_3",
+      "kind": "word",
+      "texts": {
+        "en": "day",
+        "th": "วัน",
+        "fa": "روز",
+        "ar": "يوم",
+        "es": "día",
+        "zh": "天",
+        "ja": "日"
+      }
+    },
+    {
+      "id": "w1_4",
+      "kind": "word",
+      "texts": {
+        "en": "people",
+        "th": "人们",
+        "fa": "مردم",
+        "ar": "ناس",
+        "es": "gente",
+        "zh": "人们",
+        "ja": "人々"
+      }
+    },
+    {
+      "id": "w1_5",
+      "kind": "word",
+      "texts": {
+        "en": "time",
+        "th": "时间",
+        "fa": "وقت",
+        "ar": "وقت",
+        "es": "tiempo",
+        "zh": "时间",
+        "ja": "時間"
+      }
+    },
+    {
+      "id": "s1_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "All people are good.",
+        "th": "所有人都是好的",
+        "fa": "همه مردم خوب هستند",
+        "ar": "كل الناس جيدون",
+        "es": "Toda la gente es buena",
+        "zh": "所有人都是好的",
+        "ja": "すべての人々は良い"
+      }
+    },
+    {
+      "id": "s1_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "I go every day.",
+        "th": "ฉัน每天去",
+        "fa": "من هر روز می‌روم",
+        "ar": "أذهب كل يوم",
+        "es": "Voy cada día",
+        "zh": "我每天去",
+        "ja": "私は毎日行く"
+      }
+    },
+    {
+      "id": "s1_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "All time is precious.",
+        "th": "所有时间都宝贵",
+        "fa": "همه وقت ارزشمند است",
+        "ar": "كل وقت ثمين",
+        "es": "Todo tiempo es precioso",
+        "zh": "所有时间都宝贵",
+        "ja": "すべての時間は貴重"
+      }
+    },
+    {
+      "id": "s1_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "Every child knows.",
+        "th": "每个孩子都知道",
+        "fa": "هر کودکی می‌داند",
+        "ar": "كل طفل يعرف",
+        "es": "Cada niño sabe",
+        "zh": "每个孩子都知道",
+        "ja": "毎日子供は知る"
+      }
+    },
+    {
+      "id": "s1_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "All doors are open.",
+        "th": "所有的门都开着",
+        "fa": "همه درها باز هستند",
+        "ar": "كل الأبواب مفتوحة",
+        "es": "Todas las puertas están abiertas",
+        "zh": "所有的门都开着",
+        "ja": "すべてのドアは開いている"
+      }
+    },
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Some / A few",
+        "th": "一些 / 几个",
+        "fa": "برخی / چند",
+        "ar": "بعض / قليل",
+        "es": "Algunos / Pocos",
+        "zh": "一些 / 几个",
+        "ja": "いくつか / 少数"
+      }
+    },
+    {
+      "id": "w2_1",
+      "kind": "word",
+      "texts": {
+        "en": "some",
+        "th": "一些",
+        "fa": "برخی",
+        "ar": "بعض",
+        "es": "algunos",
+        "zh": "一些",
+        "ja": "いくつか"
+      }
+    },
+    {
+      "id": "w2_2",
+      "kind": "word",
+      "texts": {
+        "en": "water",
+        "th": "水",
+        "fa": "آب",
+        "ar": "ماء",
+        "es": "agua",
+        "zh": "水",
+        "ja": "水"
+      }
+    },
+    {
+      "id": "w2_3",
+      "kind": "word",
+      "texts": {
+        "en": "time",
+        "th": "时间",
+        "fa": "وقت",
+        "ar": "وقت",
+        "es": "tiempo",
+        "zh": "时间",
+        "ja": "時間"
+      }
+    },
+    {
+      "id": "w2_4",
+      "kind": "word",
+      "texts": {
+        "en": "friends",
+        "th": "朋友",
+        "fa": "دوستان",
+        "ar": "أصدقاء",
+        "es": "amigos",
+        "zh": "朋友",
+        "ja": "友達"
+      }
+    },
+    {
+      "id": "w2_5",
+      "kind": "word",
+      "texts": {
+        "en": "help",
+        "th": "帮助",
+        "fa": "کمک",
+        "ar": "مساعدة",
+        "es": "ayuda",
+        "zh": "帮助",
+        "ja": "助け"
+      }
+    },
+    {
+      "id": "s2_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "Some people like it.",
+        "th": "一些人喜欢它",
+        "fa": "برخی مردم آن را دوست دارند",
+        "ar": "بعض الناس يحبونه",
+        "es": "A algunas personas les gusta",
+        "zh": "一些人喜欢它",
+        "ja": "何人かはそれが好き"
+      }
+    },
+    {
+      "id": "s2_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "I have some water.",
+        "th": "我有一些水",
+        "fa": "من کمی آب دارم",
+        "ar": "لدي بعض الماء",
+        "es": "Tengo algo de agua",
+        "zh": "我有一些水",
+        "ja": "私は少し水を持っている"
+      }
+    },
+    {
+      "id": "s2_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "We have some time.",
+        "th": "我们有一些时间",
+        "fa": "ما کمی وقت داریم",
+        "ar": "لدينا بعض الوقت",
+        "es": "Tenemos algo de tiempo",
+        "zh": "我们有一些时间",
+        "ja": "私たちは少し時間がある"
+      }
+    },
+    {
+      "id": "s2_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "Some friends came.",
+        "th": "一些朋友来了",
+        "fa": "برخی دوستان آمدند",
+        "ar": "جاء بعض الأصدقاء",
+        "es": "Vinieron algunos amigos",
+        "zh": "一些朋友来了",
+        "ja": "何人かの友達が来た"
+      }
+    },
+    {
+      "id": "s2_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "I need some help.",
+        "th": "我需要一些帮助",
+        "fa": "من به کمی کمک نیاز دارم",
+        "ar": "أحتاج إلى بعض المساعدة",
+        "es": "Necesito algo de ayuda",
+        "zh": "我需要一些帮助",
+        "ja": "私は少し助けが必要"
+      }
+    },
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "None / Zero",
+        "th": "没有 / 零",
+        "fa": "هیچ / صفر",
+        "ar": "لا شيء / صفر",
+        "es": "Ninguno / Cero",
+        "zh": "没有 / 零",
+        "ja": "なし / ゼロ"
+      }
+    },
+    {
+      "id": "w3_1",
+      "kind": "word",
+      "texts": {
+        "en": "none",
+        "th": "没有",
+        "fa": "هیچ",
+        "ar": "لا شيء",
+        "es": "ninguno",
+        "zh": "没有",
+        "ja": "なし"
+      }
+    },
+    {
+      "id": "w3_2",
+      "kind": "word",
+      "texts": {
+        "en": "zero",
+        "th": "零",
+        "fa": "صفر",
+        "ar": "صفر",
+        "es": "cero",
+        "zh": "零",
+        "ja": "ゼロ"
+      }
+    },
+    {
+      "id": "w3_3",
+      "kind": "word",
+      "texts": {
+        "en": "nothing",
+        "th": "什么也没有",
+        "fa": "هیچ چیز",
+        "ar": "لا شيء",
+        "es": "nada",
+        "zh": "什么也没有",
+        "ja": "何もない"
+      }
+    },
+    {
+      "id": "w3_4",
+      "kind": "word",
+      "texts": {
+        "en": "nobody",
+        "th": "没有人",
+        "fa": "هیچکس",
+        "ar": "لا أحد",
+        "es": "nadie",
+        "zh": "没有人",
+        "ja": "誰も"
+      }
+    },
+    {
+      "id": "w3_5",
+      "kind": "word",
+      "texts": {
+        "en": "nowhere",
+        "th": "无处",
+        "fa": "هیچجا",
+        "ar": "لا مكان",
+        "es": "en ningún lugar",
+        "zh": "无处",
+        "ja": "どこにも"
+      }
+    },
+    {
+      "id": "s3_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I have none.",
+        "th": "我没有",
+        "fa": "من هیچ ندارم",
+        "ar": "ليس لدي شيء",
+        "es": "No tengo ninguno",
+        "zh": "我没有",
+        "ja": "私は持っていない"
+      }
+    },
+    {
+      "id": "s3_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "Zero is a number.",
+        "th": "零是一个数字",
+        "fa": "صفر یک عدد است",
+        "ar": "الصفر رقم",
+        "es": "El cero es un número",
+        "zh": "零是一个数字",
+        "ja": "ゼロは数字"
+      }
+    },
+    {
+      "id": "s3_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "I see nothing.",
+        "th": "我什么也没看见",
+        "fa": "من هیچ چیز نمی‌بینم",
+        "ar": "لا أرى شيئاً",
+        "es": "No veo nada",
+        "zh": "我什么也没看见",
+        "ja": "私は何もない"
+      }
+    },
+    {
+      "id": "s3_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "Nobody knows.",
+        "th": "没有人知道",
+        "fa": "هیچکس نمی‌داند",
+        "ar": "لا أحد يعرف",
+        "es": "Nadie sabe",
+        "zh": "没有人知道",
+        "ja": "誰も知らない"
+      }
+    },
+    {
+      "id": "s3_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "I go nowhere.",
+        "th": "我无处可去",
+        "fa": "من هیچجا نمی‌روم",
+        "ar": "لا أذهب إلى أي مكان",
+        "es": "No voy a ningún lugar",
+        "zh": "我无处可去",
+        "ja": "私はどこにも行かない"
+      }
+    },
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Many / A lot",
+        "th": "很多 / 许多",
+        "fa": "زیاد / بسیار",
+        "ar": "كثير / الكثير",
+        "es": "Muchos / Mucho",
+        "zh": "很多 / 许多",
+        "ja": "多い / たくさん"
+      }
+    },
+    {
+      "id": "w4_1",
+      "kind": "word",
+      "texts": {
+        "en": "many",
+        "th": "很多",
+        "fa": "زیاد",
+        "ar": "كثير",
+        "es": "muchos",
+        "zh": "很多",
+        "ja": "多い"
+      }
+    },
+    {
+      "id": "w4_2",
+      "kind": "word",
+      "texts": {
+        "en": "books",
+        "th": "书",
+        "fa": "کتاب‌ها",
+        "ar": "كتب",
+        "es": "libros",
+        "zh": "书",
+        "ja": "本"
+      }
+    },
+    {
+      "id": "w4_3",
+      "kind": "word",
+      "texts": {
+        "en": "cars",
+        "th": "车",
+        "fa": "ماشین‌ها",
+        "ar": "سيارات",
+        "es": "coches",
+        "zh": "车",
+        "ja": "車"
+      }
+    },
+    {
+      "id": "w4_4",
+      "kind": "word",
+      "texts": {
+        "en": "times",
+        "th": "次",
+        "fa": "بار",
+        "ar": "مرات",
+        "es": "veces",
+        "zh": "次",
+        "ja": "回"
+      }
+    },
+    {
+      "id": "w4_5",
+      "kind": "word",
+      "texts": {
+        "en": "people",
+        "th": "人",
+        "fa": "مردم",
+        "ar": "ناس",
+        "es": "personas",
+        "zh": "人",
+        "ja": "人々"
+      }
+    },
+    {
+      "id": "s4_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I have many books.",
+        "th": "我有很多书",
+        "fa": "من کتاب‌های زیادی دارم",
+        "ar": "لدي كتب كثيرة",
+        "es": "Tengo muchos libros",
+        "zh": "我有很多书",
+        "ja": "私は本をたくさん持っている"
+      }
+    },
+    {
+      "id": "s4_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "There are many cars.",
+        "th": "有很多车",
+        "fa": "ماشین‌های زیادی وجود دارد",
+        "ar": "هناك سيارات كثيرة",
+        "es": "Hay muchos coches",
+        "zh": "有很多车",
+        "ja": "車がたくさんある"
+      }
+    },
+    {
+      "id": "s4_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "Many times I tried.",
+        "th": "我尝试了很多次",
+        "fa": "بارها تلاش کردم",
+        "ar": "حاولت مرات كثيرة",
+        "es": "Muchas veces lo intenté",
+        "zh": "我尝试了很多次",
+        "ja": "私は何度も試した"
+      }
+    },
+    {
+      "id": "s4_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "Many people came.",
+        "th": "来了很多人",
+        "fa": "مردم زیادی آمدند",
+        "ar": "جاء ناس كثيرون",
+        "es": "Vinieron muchas personas",
+        "zh": "来了很多人",
+        "ja": "多くの人が来た"
+      }
+    },
+    {
+      "id": "s4_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "A lot of water.",
+        "th": "大量的水",
+        "fa": "آب زیاد",
+        "ar": "كثير من الماء",
+        "es": "Mucha agua",
+        "zh": "大量的水",
+        "ja": "たくさんの水"
+      }
+    },
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Any (Questions)",
+        "th": "任何 (疑问句)",
+        "fa": "هیچ (در سوال)",
+        "ar": "أي (في الأسئلة)",
+        "es": "Algún (Preguntas)",
+        "zh": "任何 (疑问)",
+        "ja": "何か (疑問文)"
+      }
+    },
+    {
+      "id": "w5_1",
+      "kind": "word",
+      "texts": {
+        "en": "any",
+        "th": "任何",
+        "fa": "هیچ",
+        "ar": "أي",
+        "es": "algún",
+        "zh": "任何",
+        "ja": "何か"
+      }
+    },
+    {
+      "id": "w5_2",
+      "kind": "word",
+      "texts": {
+        "en": "water",
+        "th": "水",
+        "fa": "آب",
+        "ar": "ماء",
+        "es": "agua",
+        "zh": "水",
+        "ja": "水"
+      }
+    },
+    {
+      "id": "w5_3",
+      "kind": "word",
+      "texts": {
+        "en": "time",
+        "th": "时间",
+        "fa": "وقت",
+        "ar": "وقت",
+        "es": "tiempo",
+        "zh": "时间",
+        "ja": "時間"
+      }
+    },
+    {
+      "id": "w5_4",
+      "kind": "word",
+      "texts": {
+        "en": "problems",
+        "th": "问题",
+        "fa": "مشکلات",
+        "ar": "مشاكل",
+        "es": "problemas",
+        "zh": "问题",
+        "ja": "問題"
+      }
+    },
+    {
+      "id": "w5_5",
+      "kind": "word",
+      "texts": {
+        "en": "milk",
+        "th": "牛奶",
+        "fa": "شیر",
+        "ar": "حليب",
+        "es": "leche",
+        "zh": "牛奶",
+        "ja": "牛乳"
+      }
+    },
+    {
+      "id": "s5_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "Do you have any water?",
+        "th": "你有水吗？",
+        "fa": "آیا آبی داری؟",
+        "ar": "هل لديك أي ماء؟",
+        "es": "¿Tienes algo de agua?",
+        "zh": "你有水吗？",
+        "ja": "水はありますか"
+      }
+    },
+    {
+      "id": "s5_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "Is there any time?",
+        "th": "有时间吗？",
+        "fa": "آیا وقتی هست؟",
+        "ar": "هل يوجد أي وقت؟",
+        "es": "¿Hay algo de tiempo?",
+        "zh": "有时间吗？",
+        "ja": "時間はありますか"
+      }
+    },
+    {
+      "id": "s5_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "Are there any problems?",
+        "th": "有问题吗？",
+        "fa": "آیا مشکلی هست؟",
+        "ar": "هل توجد أي مشاكل؟",
+        "es": "¿Hay algún problema?",
+        "zh": "有问题吗？",
+        "ja": "問題はありますか"
+      }
+    },
+    {
+      "id": "s5_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "Do you have any friends?",
+        "th": "你有朋友吗？",
+        "fa": "آیا دوستی داری؟",
+        "ar": "هل لديك أي أصدقاء؟",
+        "es": "¿Tienes algunos amigos?",
+        "zh": "你有朋友吗？",
+        "ja": "友達はいますか"
+      }
+    },
+    {
+      "id": "s5_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "Is there any milk?",
+        "th": "有牛奶吗？",
+        "fa": "آیا شیری هست؟",
+        "ar": "هل يوجد أي حليب؟",
+        "es": "¿Hay algo de leche?",
+        "zh": "有牛奶吗？",
+        "ja": "牛乳はありますか"
+      }
+    }
+  ]
+}

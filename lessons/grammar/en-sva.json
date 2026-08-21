@@ -1,0 +1,725 @@
+{
+  "version": 2,
+  "displayMode": "standard",
+  "items": [
+    {
+      "id": "h1",
+      "header": true,
+      "texts": {
+        "en": "Scenario 1: Third Person Singular (-s)",
+        "th": "สถานการณ์ 1: บุรุษที่สามเอกพจน์ (-s)",
+        "fa": "سناریو ۱: سوم شخص مفرد (-s)",
+        "ar": "السيناريو 1: المفرد الغائب (-s)",
+        "es": "Escenario 1: Tercera persona del singular (-s)",
+        "zh": "场景 1：第三人称单数 (-s)",
+        "ja": "シナリオ 1：三人称単数 (-s)"
+      }
+    },
+    {
+      "id": "w1_1",
+      "kind": "word",
+      "texts": {
+        "en": "walks",
+        "th": "เดิน",
+        "fa": "راه می‌رود",
+        "ar": "يمشي",
+        "es": "camina",
+        "zh": "走",
+        "ja": "歩く"
+      }
+    },
+    {
+      "id": "w1_2",
+      "kind": "word",
+      "texts": {
+        "en": "runs",
+        "th": "วิ่ง",
+        "fa": "می‌دود",
+        "ar": "يجري",
+        "es": "corre",
+        "zh": "跑",
+        "ja": "走る"
+      }
+    },
+    {
+      "id": "w1_3",
+      "kind": "word",
+      "texts": {
+        "en": "eats",
+        "th": "กิน",
+        "fa": "می‌خورد",
+        "ar": "يأكل",
+        "es": "come",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "w1_4",
+      "kind": "word",
+      "texts": {
+        "en": "sleeps",
+        "th": "นอน",
+        "fa": "می‌خوابد",
+        "ar": "ينام",
+        "es": "duerme",
+        "zh": "睡觉",
+        "ja": "寝る"
+      }
+    },
+    {
+      "id": "w1_5",
+      "kind": "word",
+      "texts": {
+        "en": "plays",
+        "th": "เล่น",
+        "fa": "بازی می‌کند",
+        "ar": "يلعب",
+        "es": "juega",
+        "zh": "玩",
+        "ja": "遊ぶ"
+      }
+    },
+    {
+      "id": "s1_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "He walks to school.",
+        "th": "เขาเดินไปโรงเรียน",
+        "fa": "او به مدرسه پیاده می‌رود.",
+        "ar": "هو يمشي إلى المدرسة.",
+        "es": "Él camina a la escuela.",
+        "zh": "他步行去学校。",
+        "ja": "彼は学校へ歩きます。"
+      }
+    },
+    {
+      "id": "s1_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "She runs fast.",
+        "th": "เธอวิ่งเร็ว",
+        "fa": "او سریع می‌دود.",
+        "ar": "هي تجري بسرعة.",
+        "es": "Ella corre rápido.",
+        "zh": "她跑得很快。",
+        "ja": "彼女は速く走ります。"
+      }
+    },
+    {
+      "id": "s1_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The cat eats fish.",
+        "th": "แมวกินปลา",
+        "fa": "گربه ماهی می‌خورد.",
+        "ar": "القطة تأكل السمك.",
+        "es": "El gato come pescado.",
+        "zh": "猫吃鱼。",
+        "ja": "猫は魚を食べます。"
+      }
+    },
+    {
+      "id": "s1_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "It sleeps all day.",
+        "th": "มันนอนทั้งวัน",
+        "fa": "آن تمام روز می‌خوابد.",
+        "ar": "إنه ينام طوال اليوم.",
+        "es": "Duerme todo el día.",
+        "zh": "它整天都在睡觉。",
+        "ja": "それは一日中寝ます。"
+      }
+    },
+    {
+      "id": "s1_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "He plays soccer.",
+        "th": "เขาเล่นฟุตบอล",
+        "fa": "او فوتبال بازی می‌کند.",
+        "ar": "هو يلعب كرة القدم.",
+        "es": "Él juega al fútbol.",
+        "zh": "他踢足球。",
+        "ja": "彼はサッカーをします。"
+      }
+    },
+
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: First/Second Person & Plural",
+        "th": "สถานการณ์ 2: บุรุษที่ 1/2 และพหูพจน์",
+        "fa": "سناریو ۲: اول/دوم شخص و جمع",
+        "ar": "السيناريو 2: المتكلم/المخاطب والجمع",
+        "es": "Escenario 2: Primera/segunda persona y plural",
+        "zh": "场景 2：第一/二人称及复数",
+        "ja": "シナリオ 2：第一/二人称および複数"
+      }
+    },
+    {
+      "id": "w2_1",
+      "kind": "word",
+      "texts": {
+        "en": "walk",
+        "th": "เดิน",
+        "fa": "راه می‌روم/می‌روی",
+        "ar": "أمشي/تمشي",
+        "es": "camino/caminas",
+        "zh": "走",
+        "ja": "歩く"
+      }
+    },
+    {
+      "id": "w2_2",
+      "kind": "word",
+      "texts": {
+        "en": "run",
+        "th": "วิ่ง",
+        "fa": "می‌دوم/می‌دوی",
+        "ar": "أجري/تجري",
+        "es": "corro/corres",
+        "zh": "跑",
+        "ja": "走る"
+      }
+    },
+    {
+      "id": "w2_3",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "می‌خورم/می‌خوری",
+        "ar": "آكل/تأكل",
+        "es": "como/comes",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "w2_4",
+      "kind": "word",
+      "texts": {
+        "en": "sleep",
+        "th": "นอน",
+        "fa": "می‌خوابم/می‌خوابی",
+        "ar": "أنام/تنام",
+        "es": "duermo/duermes",
+        "zh": "睡觉",
+        "ja": "寝る"
+      }
+    },
+    {
+      "id": "w2_5",
+      "kind": "word",
+      "texts": {
+        "en": "play",
+        "th": "เล่น",
+        "fa": "بازی می‌کنم/می‌کنی",
+        "ar": "ألعب/تلعب",
+        "es": "juego/juegas",
+        "zh": "玩",
+        "ja": "遊ぶ"
+      }
+    },
+    {
+      "id": "s2_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I walk to work.",
+        "th": "ฉันเดินไปทำงาน",
+        "fa": "من پیاده به سر کار می‌روم.",
+        "ar": "أمشي إلى العمل.",
+        "es": "Camino al trabajo.",
+        "zh": "我步行去上班。",
+        "ja": "私は歩いて仕事に行きます。"
+      }
+    },
+    {
+      "id": "s2_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "You run every day.",
+        "th": "คุณวิ่งทุกวัน",
+        "fa": "تو هر روز می‌دوی.",
+        "ar": "أنت تجري كل يوم.",
+        "es": "Tú corres cada día.",
+        "zh": "你每天跑步。",
+        "ja": "あなたは毎日走ります。"
+      }
+    },
+    {
+      "id": "s2_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "We eat together.",
+        "th": "เรากินด้วยกัน",
+        "fa": "ما با هم می‌خوریم.",
+        "ar": "نحن نأكل معاً.",
+        "es": "Comemos juntos.",
+        "zh": "我们一起吃。",
+        "ja": "私たちは一緒に食べます。"
+      }
+    },
+    {
+      "id": "s2_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "They sleep late.",
+        "th": "พวกเขานอนดึก",
+        "fa": "آن‌ها دیر می‌خوابند.",
+        "ar": "هم ينامون متأخرين.",
+        "es": "Ellos duermen tarde.",
+        "zh": "他们睡得很晚。",
+        "ja": "彼らは遅くまで寝ます。"
+      }
+    },
+    {
+      "id": "s2_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "We play games.",
+        "th": "เราเล่นเกม",
+        "fa": "ما بازی می‌کنیم.",
+        "ar": "نحن نلعب ألعاباً.",
+        "es": "Jugamos juegos.",
+        "zh": "我们玩游戏。",
+        "ja": "私たちはゲームをします。"
+      }
+    },
+
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Auxiliary Verbs (do/does)",
+        "th": "สถานการณ์ 3: กริยาช่วย (do/does)",
+        "fa": "سناریو ۳: افعال کمکی (do/does)",
+        "ar": "السيناريو 3: الأفعال المساعدة (do/does)",
+        "es": "Escenario 3: Verbos auxiliares (do/does)",
+        "zh": "场景 3：助动词 (do/does)",
+        "ja": "シナリオ 3：助動詞 (do/does)"
+      }
+    },
+    {
+      "id": "w3_1",
+      "kind": "word",
+      "texts": {
+        "en": "do",
+        "th": "ทำ (ช่วย)",
+        "fa": "انجام می‌دهم",
+        "ar": "أفعل",
+        "es": "hago",
+        "zh": "做",
+        "ja": "する"
+      }
+    },
+    {
+      "id": "w3_2",
+      "kind": "word",
+      "texts": {
+        "en": "does",
+        "th": "ทำ (ช่วย, เอกพจน์)",
+        "fa": "انجام می‌دهد",
+        "ar": "يفعل",
+        "es": "hace",
+        "zh": "做 (单数)",
+        "ja": "する (単数)"
+      }
+    },
+    {
+      "id": "w3_3",
+      "kind": "word",
+      "texts": {
+        "en": "don't",
+        "th": "ไม่ทำ",
+        "fa": "انجام نمی‌دهم",
+        "ar": "لا أفعل",
+        "es": "no hago",
+        "zh": "不做",
+        "ja": "しない"
+      }
+    },
+    {
+      "id": "w3_4",
+      "kind": "word",
+      "texts": {
+        "en": "doesn't",
+        "th": "ไม่ทำ (เอกพจน์)",
+        "fa": "انجام نمی‌دهد",
+        "ar": "لا يفعل",
+        "es": "no hace",
+        "zh": "不做 (单数)",
+        "ja": "しない (単数)"
+      }
+    },
+    {
+      "id": "w3_5",
+      "kind": "word",
+      "texts": {
+        "en": "is",
+        "th": "เป็น/อยู่/คือ",
+        "fa": "است",
+        "ar": "هو/هي",
+        "es": "es/está",
+        "zh": "是",
+        "ja": "です/いる"
+      }
+    },
+    {
+      "id": "s3_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "Do you like coffee?",
+        "th": "คุณชอบกาแฟไหม?",
+        "fa": "آیا قهوه دوست داری؟",
+        "ar": "هل تحب القهوة؟",
+        "es": "¿Te gusta el café?",
+        "zh": "你喜欢咖啡吗？",
+        "ja": "コーヒーは好きですか？"
+      }
+    },
+    {
+      "id": "s3_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "Does she know him?",
+        "th": "เธอรู้จักเขาไหม?",
+        "fa": "آیا او او را می‌شناسد؟",
+        "ar": "هل تعرفه؟",
+        "es": "¿Lo conoce ella?",
+        "zh": "她认识他吗？",
+        "ja": "彼女は彼を知っていますか？"
+      }
+    },
+    {
+      "id": "s3_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "I don't understand.",
+        "th": "ฉันไม่เข้าใจ",
+        "fa": "من نمی‌فهمم.",
+        "ar": "لا أفهم.",
+        "es": "No entiendo.",
+        "zh": "我不明白。",
+        "ja": "私は理解しません。"
+      }
+    },
+    {
+      "id": "s3_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "He doesn't agree.",
+        "th": "เขาไม่ตกลง",
+        "fa": "او موافق نیست.",
+        "ar": "هو لا يوافق.",
+        "es": "Él no está de acuerdo.",
+        "zh": "他不同意。",
+        "ja": "彼は同意しません。"
+      }
+    },
+    {
+      "id": "s3_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "She is happy.",
+        "th": "เธอมีความสุข",
+        "fa": "او خوشحال است.",
+        "ar": "هي سعيدة.",
+        "es": "Ella está feliz.",
+        "zh": "她很高兴。",
+        "ja": "彼女は幸せです。"
+      }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: To Be Verb (am/is/are)",
+        "th": "สถานการณ์ 4: กริยา To Be",
+        "fa": "سناریو ۴: فعل To Be",
+        "ar": "السيناريو 4: فعل الكينونة",
+        "es": "Escenario 4: Verbo To Be",
+        "zh": "场景 4：To Be 动词",
+        "ja": "シナリオ 4：To Be 動詞"
+      }
+    },
+    {
+      "id": "w4_1",
+      "kind": "word",
+      "texts": {
+        "en": "am",
+        "th": "เป็น/อยู่/คือ (ฉัน)",
+        "fa": "هستم",
+        "ar": "أكون",
+        "es": "soy/estoy",
+        "zh": "是 (我)",
+        "ja": "です (私)"
+      }
+    },
+    {
+      "id": "w4_2",
+      "kind": "word",
+      "texts": {
+        "en": "is",
+        "th": "เป็น/อยู่/คือ (เขา/มัน)",
+        "fa": "است",
+        "ar": "يكون",
+        "es": "es/está",
+        "zh": "是 (他/它)",
+        "ja": "です (彼/それ)"
+      }
+    },
+    {
+      "id": "w4_3",
+      "kind": "word",
+      "texts": {
+        "en": "are",
+        "th": "เป็น/อยู่/คือ (คุณ/พวกเขา)",
+        "fa": "هستیم/هستید/هستند",
+        "ar": "نكون/تكونون/يكونون",
+        "es": "somos/están",
+        "zh": "是 (你/他们)",
+        "ja": "です (あなた/彼ら)"
+      }
+    },
+    {
+      "id": "w4_4",
+      "kind": "word",
+      "texts": {
+        "en": "was",
+        "th": "เคยเป็น (อดีต)",
+        "fa": "بودم",
+        "ar": "كنت",
+        "es": "fui/estaba",
+        "zh": "曾是",
+        "ja": "だった"
+      }
+    },
+    {
+      "id": "w4_5",
+      "kind": "word",
+      "texts": {
+        "en": "were",
+        "th": "เคยเป็น (อดีต, พหูพจน์)",
+        "fa": "بودیم",
+        "ar": "كنا",
+        "es": "fuimos/estaban",
+        "zh": "曾是 (复数)",
+        "ja": "だった (複数)"
+      }
+    },
+    {
+      "id": "s4_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I am a student.",
+        "th": "ฉันเป็นนักเรียน",
+        "fa": "من یک دانش‌آموز هستم.",
+        "ar": "أنا طالب.",
+        "es": "Soy estudiante.",
+        "zh": "我是一名学生。",
+        "ja": "私は学生です。"
+      }
+    },
+    {
+      "id": "s4_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "He is tall.",
+        "th": "เขาสูง",
+        "fa": "او قد بلند است.",
+        "ar": "هو طويل.",
+        "es": "Él es alto.",
+        "zh": "他很高。",
+        "ja": "彼は背が高いです。"
+      }
+    },
+    {
+      "id": "s4_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "They are friends.",
+        "th": "พวกเขาเป็นเพื่อนกัน",
+        "fa": "آن‌ها دوست هستند.",
+        "ar": "هم أصدقاء.",
+        "es": "Ellos son amigos.",
+        "zh": "他们是朋友。",
+        "ja": "彼らは友達です。"
+      }
+    },
+    {
+      "id": "s4_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "She was here.",
+        "th": "เธอเคยอยู่ที่นี่",
+        "fa": "او اینجا بود.",
+        "ar": "هي كانت هنا.",
+        "es": "Ella estaba aquí.",
+        "zh": "她曾在这里。",
+        "ja": "彼女はここにいました。"
+      }
+    },
+    {
+      "id": "s4_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "We were happy.",
+        "th": "พวกเราเคยมีความสุข",
+        "fa": "ما خوشحال بودیم.",
+        "ar": "كنا سعداء.",
+        "es": "Éramos felices.",
+        "zh": "我们曾很高兴。",
+        "ja": "私たちは幸せでした。"
+      }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Have/Has Agreement",
+        "th": "สถานการณ์ 5: ความสอดคล้องของ Have/Has",
+        "fa": "سناریو ۵: تطابق Have/Has",
+        "ar": "السيناريو 5: توافق Have/Has",
+        "es": "Escenario 5: Concordancia de Have/Has",
+        "zh": "场景 5：Have/Has 一致性",
+        "ja": "シナリオ 5：Have/Has の一致"
+      }
+    },
+    {
+      "id": "w5_1",
+      "kind": "word",
+      "texts": {
+        "en": "have",
+        "th": "มี",
+        "fa": "دارم/داری/داریم/دارند",
+        "ar": "أملك",
+        "es": "tengo/tienes",
+        "zh": "有",
+        "ja": "持っている"
+      }
+    },
+    {
+      "id": "w5_2",
+      "kind": "word",
+      "texts": {
+        "en": "has",
+        "th": "มี (เอกพจน์)",
+        "fa": "دارد",
+        "ar": "يملك",
+        "es": "tiene",
+        "zh": "有 (单数)",
+        "ja": "持っている (単数)"
+      }
+    },
+    {
+      "id": "w5_3",
+      "kind": "word",
+      "texts": {
+        "en": "had",
+        "th": "เคยมี",
+        "fa": "داشتم",
+        "ar": "ملكت",
+        "es": "tenía",
+        "zh": "曾有",
+        "ja": "持っていた"
+      }
+    },
+    {
+      "id": "w5_4",
+      "kind": "word",
+      "texts": {
+        "en": "having",
+        "th": "กำลังมี/กำลังทำ",
+        "fa": "دارم (در حال)",
+        "ar": "أملك (حالياً)",
+        "es": "teniendo",
+        "zh": "正在有/进行",
+        "ja": "持っている (進行)"
+      }
+    },
+    {
+      "id": "w5_5",
+      "kind": "word",
+      "texts": {
+        "en": "has not",
+        "th": "ไม่มี/ไม่ได้มี",
+        "fa": "ندارد",
+        "ar": "لا يملك",
+        "es": "no tiene",
+        "zh": "没有",
+        "ja": "持っていない"
+      }
+    },
+    {
+      "id": "s5_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I have a car.",
+        "th": "ฉันมีรถยนต์",
+        "fa": "من یک ماشین دارم.",
+        "ar": "أملك سيارة.",
+        "es": "Tengo un coche.",
+        "zh": "我有一辆车。",
+        "ja": "私は車を持っています。"
+      }
+    },
+    {
+      "id": "s5_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "She has a dog.",
+        "th": "เธอมีสุนัข",
+        "fa": "او یک سگ دارد.",
+        "ar": "هي تملك كلباً.",
+        "es": "Ella tiene un perro.",
+        "zh": "她有一只狗。",
+        "ja": "彼女は犬を飼っています。"
+      }
+    },
+    {
+      "id": "s5_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "We had fun.",
+        "th": "พวกเราสนุกกัน",
+        "fa": "ما خوش گذراندیم.",
+        "ar": "استمتعنا.",
+        "es": "Nos divertimos.",
+        "zh": "我们玩得很开心。",
+        "ja": "私たちは楽しみました。"
+      }
+    },
+    {
+      "id": "s5_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "He is having lunch.",
+        "th": "เขากำลังกินอาหารกลางวัน",
+        "fa": "او در حال ناهار خوردن است.",
+        "ar": "هو يتناول الغداء الآن.",
+        "es": "Él está almorzando.",
+        "zh": "他正在吃午餐。",
+        "ja": "彼は昼食を食べています。"
+      }
+    },
+    {
+      "id": "s5_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "It has not rained.",
+        "th": "ฝนยังไม่ตก",
+        "fa": "باران نباریده است.",
+        "ar": "لم تمطر.",
+        "es": "No ha llovido.",
+        "zh": "还没下雨。",
+        "ja": "雨は降っていません。"
+      }
+    }
+  ]
+}

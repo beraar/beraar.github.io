@@ -1,0 +1,725 @@
+{
+  "version": 2,
+  "displayMode": "standard",
+  "items": [
+    {
+      "id": "h1",
+      "header": true,
+      "texts": {
+        "en": "Moon Letters (الحروف القمرية)",
+        "th": "อักษรจันทร์",
+        "fa": "حروف قمری",
+        "ar": "الحروف القمرية",
+        "es": "Letras lunares",
+        "zh": "月亮字母",
+        "ja": "月文字"
+      }
+    },
+    {
+      "id": "w1_1",
+      "kind": "word",
+      "texts": {
+        "en": "the moon",
+        "th": "ดวงจันทร์",
+        "fa": "ماه",
+        "ar": "الْقَمَر",
+        "es": "la luna",
+        "zh": "月亮",
+        "ja": "月"
+      }
+    },
+    {
+      "id": "w1_2",
+      "kind": "word",
+      "texts": {
+        "en": "the book",
+        "th": "หนังสือ",
+        "fa": "کتاب",
+        "ar": "الْكِتَاب",
+        "es": "el libro",
+        "zh": "书",
+        "ja": "本"
+      }
+    },
+    {
+      "id": "w1_3",
+      "kind": "word",
+      "texts": {
+        "en": "the house",
+        "th": "บ้าน",
+        "fa": "خانه",
+        "ar": "الْبَيْت",
+        "es": "la casa",
+        "zh": "房子",
+        "ja": "家"
+      }
+    },
+    {
+      "id": "w1_4",
+      "kind": "word",
+      "texts": {
+        "en": "the pen",
+        "th": "ปากกา",
+        "fa": "خودکار",
+        "ar": "الْقَلَم",
+        "es": "el bolígrafo",
+        "zh": "笔",
+        "ja": "ペン"
+      }
+    },
+    {
+      "id": "w1_5",
+      "kind": "word",
+      "texts": {
+        "en": "the door",
+        "th": "ประตู",
+        "fa": "در",
+        "ar": "الْبَاب",
+        "es": "la puerta",
+        "zh": "门",
+        "ja": "ドア"
+      }
+    },
+    {
+      "id": "s1_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The moon is beautiful.",
+        "th": "ดวงจันทร์สวยงาม",
+        "fa": "ماه زیبا است.",
+        "ar": "الْقَمَرُ جَمِيلٌ.",
+        "es": "La luna es hermosa.",
+        "zh": "月亮很美。",
+        "ja": "月は美しいです。"
+      }
+    },
+    {
+      "id": "s1_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The book is on the desk.",
+        "th": "หนังสืออยู่บนโต๊ะ",
+        "fa": "کتاب روی میز است.",
+        "ar": "الْكِتَابُ عَلَى الْمَكْتَبِ.",
+        "es": "El libro está en el escritorio.",
+        "zh": "书在桌子上。",
+        "ja": "本は机の上にあります。"
+      }
+    },
+    {
+      "id": "s1_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The house is big.",
+        "th": "บ้านหลังใหญ่",
+        "fa": "خانه بزرگ است.",
+        "ar": "الْبَيْتُ كَبِيرٌ.",
+        "es": "La casa es grande.",
+        "zh": "房子很大。",
+        "ja": "家は大きいです。"
+      }
+    },
+    {
+      "id": "s1_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The pen is in the bag.",
+        "th": "ปากกาอยู่ในกระเป๋า",
+        "fa": "خودکار در کیف است.",
+        "ar": "الْقَلَمُ فِي الْحَقِيبَةِ.",
+        "es": "El bolígrafo está en la bolsa.",
+        "zh": "笔在包里。",
+        "ja": "ペンはバッグの中にあります。"
+      }
+    },
+    {
+      "id": "s1_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The door is open.",
+        "th": "ประตูเปิดอยู่",
+        "fa": "در باز است.",
+        "ar": "الْبَابُ مَفْتُوحٌ.",
+        "es": "La puerta está abierta.",
+        "zh": "门开着。",
+        "ja": "ドアは開いています。"
+      }
+    },
+
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Sun Letters (الحروف الشمسية)",
+        "th": "อักษรอาทิตย์",
+        "fa": "حروف شمسی",
+        "ar": "الحروف الشمسية",
+        "es": "Letras solares",
+        "zh": "太阳字母",
+        "ja": "太陽文字"
+      }
+    },
+    {
+      "id": "w2_1",
+      "kind": "word",
+      "texts": {
+        "en": "the sun",
+        "th": "ดวงอาทิตย์",
+        "fa": "خورشید",
+        "ar": "الشَّمْس",
+        "es": "el sol",
+        "zh": "太阳",
+        "ja": "太陽"
+      }
+    },
+    {
+      "id": "w2_2",
+      "kind": "word",
+      "texts": {
+        "en": "the man",
+        "th": "ผู้ชาย",
+        "fa": "مرد",
+        "ar": "الرَّجُل",
+        "es": "el hombre",
+        "zh": "男人",
+        "ja": "男性"
+      }
+    },
+    {
+      "id": "w2_3",
+      "kind": "word",
+      "texts": {
+        "en": "the light",
+        "th": "แสงสว่าง",
+        "fa": "نور",
+        "ar": "النُّور",
+        "es": "la luz",
+        "zh": "光",
+        "ja": "光"
+      }
+    },
+    {
+      "id": "w2_4",
+      "kind": "word",
+      "texts": {
+        "en": "the car",
+        "th": "รถยนต์",
+        "fa": "ماشین",
+        "ar": "السَّيَّارَة",
+        "es": "el coche",
+        "zh": "汽车",
+        "ja": "車"
+      }
+    },
+    {
+      "id": "w2_5",
+      "kind": "word",
+      "texts": {
+        "en": "the road",
+        "th": "ถนน",
+        "fa": "جاده",
+        "ar": "الطَّرِيق",
+        "es": "el camino",
+        "zh": "道路",
+        "ja": "道"
+      }
+    },
+    {
+      "id": "s2_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The sun is bright.",
+        "th": "ดวงอาทิตย์สว่างจ้า",
+        "fa": "خورشید درخشان است.",
+        "ar": "الشَّمْسُ سَاطِعَةٌ.",
+        "es": "El sol está brillante.",
+        "zh": "太阳很明亮。",
+        "ja": "太陽は明るく輝いています。"
+      }
+    },
+    {
+      "id": "s2_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The man is working.",
+        "th": "ผู้ชายกำลังทำงาน",
+        "fa": "مرد در حال کار است.",
+        "ar": "الرَّجُلُ يَعْمَلُ.",
+        "es": "El hombre está trabajando.",
+        "zh": "男人在工作。",
+        "ja": "男性は働いています。"
+      }
+    },
+    {
+      "id": "s2_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The light is clear.",
+        "th": "แสงสว่างชัดเจน",
+        "fa": "نور واضح است.",
+        "ar": "النُّورُ وَاضِحٌ.",
+        "es": "La luz es clara.",
+        "zh": "光线很清晰。",
+        "ja": "光ははっきりしています。"
+      }
+    },
+    {
+      "id": "s2_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The car is fast.",
+        "th": "รถยนต์เร็ว",
+        "fa": "ماشین سریع است.",
+        "ar": "السَّيَّارَةُ سَرِيعَةٌ.",
+        "es": "El coche es rápido.",
+        "zh": "汽车很快。",
+        "ja": "車は速いです。"
+      }
+    },
+    {
+      "id": "s2_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The road is long.",
+        "th": "ถนนยาว",
+        "fa": "جاده طولانی است.",
+        "ar": "الطَّرِيقُ طَوِيلٌ.",
+        "es": "El camino es largo.",
+        "zh": "道路很长。",
+        "ja": "道は長いです。"
+      }
+    },
+
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Definite Noun + Definite Adjective",
+        "th": "คำนามชี้เฉพาะ + คำคุณศัพท์ชี้เฉพาะ",
+        "fa": "اسم معرفه + صفت معرفه",
+        "ar": "اسم معرف + صفة معرفة",
+        "es": "Sustantivo definido + Adjetivo definido",
+        "zh": "定冠名词 + 定冠形容词",
+        "ja": "定冠名詞 + 定冠形容詞"
+      }
+    },
+    {
+      "id": "w3_1",
+      "kind": "word",
+      "texts": {
+        "en": "the big",
+        "th": "ใหญ่",
+        "fa": "بزرگ",
+        "ar": "الْكَبِير",
+        "es": "el grande",
+        "zh": "大的",
+        "ja": "大きい"
+      }
+    },
+    {
+      "id": "w3_2",
+      "kind": "word",
+      "texts": {
+        "en": "the new",
+        "th": "ใหม่",
+        "fa": "جدید",
+        "ar": "الْجَدِيد",
+        "es": "el nuevo",
+        "zh": "新的",
+        "ja": "新しい"
+      }
+    },
+    {
+      "id": "w3_3",
+      "kind": "word",
+      "texts": {
+        "en": "the beautiful",
+        "th": "สวยงาม",
+        "fa": "زیبا",
+        "ar": "الْجَمِيل",
+        "es": "el hermoso",
+        "zh": "美丽的",
+        "ja": "美しい"
+      }
+    },
+    {
+      "id": "w3_4",
+      "kind": "word",
+      "texts": {
+        "en": "the tall",
+        "th": "สูง",
+        "fa": "قد بلند",
+        "ar": "الطَّوِيل",
+        "es": "el alto",
+        "zh": "高的",
+        "ja": "背が高い"
+      }
+    },
+    {
+      "id": "w3_5",
+      "kind": "word",
+      "texts": {
+        "en": "the useful",
+        "th": "มีประโยชน์",
+        "fa": "مفید",
+        "ar": "الْمُفِيد",
+        "es": "el útil",
+        "zh": "有用的",
+        "ja": "役に立つ"
+      }
+    },
+    {
+      "id": "s3_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "The big house is comfortable.",
+        "th": "บ้านหลังใหญ่สะดวกสบาย",
+        "fa": "خانه بزرگ راحت است.",
+        "ar": "الْبَيْتُ الْكَبِيرُ مُرِيحٌ.",
+        "es": "La casa grande es cómoda.",
+        "zh": "大房子很舒服。",
+        "ja": "大きな家は快適です。"
+      }
+    },
+    {
+      "id": "s3_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The new pen is blue.",
+        "th": "ปากกาใหม่เป็นสีน้ำเงิน",
+        "fa": "خودکار جدید آبی است.",
+        "ar": "الْقَلَمُ الْجَدِيدُ أَزْرَقُ.",
+        "es": "El bolígrafo nuevo es azul.",
+        "zh": "新笔是蓝色的。",
+        "ja": "新しいペンは青いです。"
+      }
+    },
+    {
+      "id": "s3_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "The beautiful garden is spacious.",
+        "th": "สวนที่สวยงามกว้างขวาง",
+        "fa": "باغ زیبا وسیع است.",
+        "ar": "الْحَدِيقَةُ الْجَمِيلَةُ وَاسِعَةٌ.",
+        "es": "El hermoso jardín es espacioso.",
+        "zh": "美丽的花园很宽敞。",
+        "ja": "美しい庭は広々としています。"
+      }
+    },
+    {
+      "id": "s3_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The tall man is strong.",
+        "th": "ผู้ชายสูงแข็งแรง",
+        "fa": "مرد قد بلند قوی است.",
+        "ar": "الرَّجُلُ الطَّوِيلُ قَوِيٌّ.",
+        "es": "El hombre alto es fuerte.",
+        "zh": "高个子男人很强壮。",
+        "ja": "背の高い男性は強いです。"
+      }
+    },
+    {
+      "id": "s3_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The useful lesson is short.",
+        "th": "บทเรียนที่มีประโยชน์นั้นสั้น",
+        "fa": "درس مفید کوتاه است.",
+        "ar": "الدَّرْسُ الْمُفِيدُ قَصِيرٌ.",
+        "es": "La lección útil es corta.",
+        "zh": "有用的课程很短。",
+        "ja": "役に立つレッスンは短いです。"
+      }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Indefinite vs Definite",
+        "th": "ไม่ชี้เฉพาะ vs ชี้เฉพาะ",
+        "fa": "نکره در برابر معرفه",
+        "ar": "النكرة والمعرفة",
+        "es": "Indefinido vs Definido",
+        "zh": "不定指 vs 定指",
+        "ja": "不定冠詞 vs 定冠詞"
+      }
+    },
+    {
+      "id": "w4_1",
+      "kind": "word",
+      "texts": {
+        "en": "a book",
+        "th": "หนังสือ (เล่มหนึ่ง)",
+        "fa": "یک کتاب",
+        "ar": "كِتَابٌ",
+        "es": "un libro",
+        "zh": "一本书",
+        "ja": "一冊の本"
+      }
+    },
+    {
+      "id": "w4_2",
+      "kind": "word",
+      "texts": {
+        "en": "the book",
+        "th": "หนังสือ (เล่มนั้น)",
+        "fa": "آن کتاب",
+        "ar": "الْكِتَابُ",
+        "es": "el libro",
+        "zh": "那本书",
+        "ja": "その本"
+      }
+    },
+    {
+      "id": "w4_3",
+      "kind": "word",
+      "texts": {
+        "en": "a student",
+        "th": "นักเรียน (คนหนึ่ง)",
+        "fa": "یک دانش‌آموز",
+        "ar": "طَالِبٌ",
+        "es": "un estudiante",
+        "zh": "一个学生",
+        "ja": "一人の学生"
+      }
+    },
+    {
+      "id": "w4_4",
+      "kind": "word",
+      "texts": {
+        "en": "the student",
+        "th": "นักเรียน (คนนั้น)",
+        "fa": "آن دانش‌آموز",
+        "ar": "الطَّالِبُ",
+        "es": "el estudiante",
+        "zh": "那个学生",
+        "ja": "その学生"
+      }
+    },
+    {
+      "id": "w4_5",
+      "kind": "word",
+      "texts": {
+        "en": "a pen",
+        "th": "ปากกา (ด้ามหนึ่ง)",
+        "fa": "یک خودکار",
+        "ar": "قَلَمٌ",
+        "es": "un bolígrafo",
+        "zh": "一支笔",
+        "ja": "一本のペン"
+      }
+    },
+    {
+      "id": "s4_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "This is a new book.",
+        "th": "นี่คือหนังสือเล่มใหม่",
+        "fa": "این یک کتاب جدید است.",
+        "ar": "هَذَا كِتَابٌ جَدِيدٌ.",
+        "es": "Este es un libro nuevo.",
+        "zh": "这是一本新书。",
+        "ja": "これは新しい本です。"
+      }
+    },
+    {
+      "id": "s4_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "The new book is useful.",
+        "th": "หนังสือเล่มใหม่นั้นมีประโยชน์",
+        "fa": "آن کتاب جدید مفید است.",
+        "ar": "الْكِتَابُ الْجَدِيدُ مُفِيدٌ.",
+        "es": "El libro nuevo es útil.",
+        "zh": "那本新书很有用。",
+        "ja": "その新しい本は役に立ちます。"
+      }
+    },
+    {
+      "id": "s4_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "A diligent student came.",
+        "th": "นักเรียนที่ขยันคนหนึ่งมา",
+        "fa": "یک دانش‌آموز پرتلاش آمد.",
+        "ar": "جَاءَ طَالِبٌ مُجْتَهِدٌ.",
+        "es": "Vino un estudiante diligente.",
+        "zh": "一个勤奋的学生来了。",
+        "ja": "勤勉な学生が来ました。"
+      }
+    },
+    {
+      "id": "s4_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "The diligent student succeeds.",
+        "th": "นักเรียนที่ขยันคนนั้นประสบความสำเร็จ",
+        "fa": "آن دانش‌آموز پرتلاش موفق می‌شود.",
+        "ar": "الطَّالِبُ الْمُجْتَهِدُ يَنْجَحُ.",
+        "es": "El estudiante diligente tiene éxito.",
+        "zh": "那个勤奋的学生成功了。",
+        "ja": "その勤勉な学生は成功します。"
+      }
+    },
+    {
+      "id": "s4_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "The blue pen is on the desk.",
+        "th": "ปากกาสีน้ำเงินอยู่บนโต๊ะ",
+        "fa": "خودکار آبی روی میز است.",
+        "ar": "الْقَلَمُ الْأَزْرَقُ عَلَى الْمَكْتَبِ.",
+        "es": "El bolígrafo azul está en el escritorio.",
+        "zh": "那支蓝色的笔在桌子上。",
+        "ja": "その青いペンは机の上にあります。"
+      }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Proper Nouns (No 'Al-')",
+        "th": "คำนามวิสามานยนาม (ไม่มี 'Al-')",
+        "fa": "اسامی خاص (بدون 'الـ')",
+        "ar": "الأسماء المعرفة (بدون 'الـ')",
+        "es": "Nombres propios (Sin 'Al-')",
+        "zh": "专有名词（无 'Al-'）",
+        "ja": "固有名詞（'Al-' なし）"
+      }
+    },
+    {
+      "id": "w5_1",
+      "kind": "word",
+      "texts": {
+        "en": "Ahmed",
+        "th": "อาเหม็ด",
+        "fa": "احمد",
+        "ar": "أَحْمَد",
+        "es": "Ahmed",
+        "zh": "艾哈迈德",
+        "ja": "アフマド"
+      }
+    },
+    {
+      "id": "w5_2",
+      "kind": "word",
+      "texts": {
+        "en": "Fatima",
+        "th": "ฟาติมา",
+        "fa": "فاطمه",
+        "ar": "فَاطِمَة",
+        "es": "Fátima",
+        "zh": "法蒂玛",
+        "ja": "ファーティマ"
+      }
+    },
+    {
+      "id": "w5_3",
+      "kind": "word",
+      "texts": {
+        "en": "Egypt",
+        "th": "อียิปต์",
+        "fa": "مصر",
+        "ar": "مِصْر",
+        "es": "Egipto",
+        "zh": "埃及",
+        "ja": "エジプト"
+      }
+    },
+    {
+      "id": "w5_4",
+      "kind": "word",
+      "texts": {
+        "en": "Mecca",
+        "th": "มักกะฮ์",
+        "fa": "مکه",
+        "ar": "مَكَّة",
+        "es": "La Meca",
+        "zh": "麦加",
+        "ja": "メッカ"
+      }
+    },
+    {
+      "id": "w5_5",
+      "kind": "word",
+      "texts": {
+        "en": "Muhammad",
+        "th": "มูฮัมหมัด",
+        "fa": "محمد",
+        "ar": "مُحَمَّد",
+        "es": "Mahoma",
+        "zh": "穆罕默德",
+        "ja": "ムハンマド"
+      }
+    },
+    {
+      "id": "s5_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "Ahmed is a diligent student.",
+        "th": "อาเหม็ดเป็นนักเรียนที่ขยัน",
+        "fa": "احمد یک دانش‌آموز پرتلاش است.",
+        "ar": "أَحْمَدُ طَالِبٌ مُجْتَهِدٌ.",
+        "es": "Ahmed es un estudiante diligente.",
+        "zh": "艾哈迈德是一个勤奋的学生。",
+        "ja": "アフマドは勤勉な学生です。"
+      }
+    },
+    {
+      "id": "s5_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "Fatima is in the school.",
+        "th": "ฟาติมาอยู่ในโรงเรียน",
+        "fa": "فاطمه در مدرسه است.",
+        "ar": "فَاطِمَةُ فِي الْمَدْرَسَةِ.",
+        "es": "Fátima está en la escuela.",
+        "zh": "法蒂玛在学校里。",
+        "ja": "ファーティマは学校にいます。"
+      }
+    },
+    {
+      "id": "s5_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "Egypt is a big country.",
+        "th": "อียิปต์เป็นประเทศใหญ่",
+        "fa": "مصر یک کشور بزرگ است.",
+        "ar": "مِصْرُ بَلَدٌ كَبِيرٌ.",
+        "es": "Egipto es un país grande.",
+        "zh": "埃及是一个大国。",
+        "ja": "エジプトは大きな国です。"
+      }
+    },
+    {
+      "id": "s5_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "Mecca is a holy city.",
+        "th": "มักกะฮ์เป็นเมืองศักดิ์สิทธิ์",
+        "fa": "مکه یک شهر مقدس است.",
+        "ar": "مَكَّةُ مَدِينَةٌ مُقَدَّسَةٌ.",
+        "es": "La Meca es una ciudad santa.",
+        "zh": "麦加是一座圣城。",
+        "ja": "メッカは聖なる都市です。"
+      }
+    },
+    {
+      "id": "s5_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "Muhammad is reading the book.",
+        "th": "มูฮัมหมัดกำลังอ่านหนังสือ",
+        "fa": "محمد در حال خواندن کتاب است.",
+        "ar": "مُحَمَّدٌ يَقْرَأُ الْكِتَابَ.",
+        "es": "Mahoma está leyendo el libro.",
+        "zh": "穆罕默德正在读书。",
+        "ja": "ムハンマドは本を読んでいます。"
+      }
+    }
+  ]
+}

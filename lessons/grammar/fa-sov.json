@@ -1,0 +1,721 @@
+{
+  "version": 2,
+  "displayMode": "standard",
+  "items": [
+    {
+      "id": "h1",
+      "header": true,
+      "texts": {
+        "en": "Basic SOV",
+        "th": "SOV พื้นฐาน",
+        "fa": "نهاد-مفعول-فعل پایه",
+        "ar": "فاعل-مفعول-فعل أساسي",
+        "es": "SOV básico",
+        "zh": "基础 SOV 语序",
+        "ja": "基本 SOV 語順"
+      }
+    },
+    {
+      "id": "w1_1",
+      "kind": "word",
+      "texts": {
+        "en": "I",
+        "th": "ฉัน",
+        "fa": "من",
+        "ar": "أنا",
+        "es": "Yo",
+        "zh": "我",
+        "ja": "私"
+      }
+    },
+    {
+      "id": "w1_2",
+      "kind": "word",
+      "texts": {
+        "en": "apple",
+        "th": "แอปเปิ้ล",
+        "fa": "سیب",
+        "ar": "تفاحة",
+        "es": "manzana",
+        "zh": "苹果",
+        "ja": "りんご"
+      }
+    },
+    {
+      "id": "w1_3",
+      "kind": "word",
+      "texts": {
+        "en": "eat",
+        "th": "กิน",
+        "fa": "می‌خورم",
+        "ar": "آكل",
+        "es": "como",
+        "zh": "吃",
+        "ja": "食べる"
+      }
+    },
+    {
+      "id": "w1_4",
+      "kind": "word",
+      "texts": {
+        "en": "water",
+        "th": "น้ำ",
+        "fa": "آب",
+        "ar": "ماء",
+        "es": "agua",
+        "zh": "水",
+        "ja": "水"
+      }
+    },
+    {
+      "id": "w1_5",
+      "kind": "word",
+      "texts": {
+        "en": "drink",
+        "th": "ดื่ม",
+        "fa": "می‌نوشم",
+        "ar": "أشرب",
+        "es": "bebo",
+        "zh": "喝",
+        "ja": "飲む"
+      }
+    },
+    {
+      "id": "s1_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I eat an apple.",
+        "th": "ฉันกินแอปเปิ้ล",
+        "fa": "من سیب می‌خورم.",
+        "ar": "أنا آكل تفاحة.",
+        "es": "Yo como una manzana.",
+        "zh": "我吃苹果。",
+        "ja": "私はりんごを食べます。"
+      }
+    },
+    {
+      "id": "s1_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "I drink water.",
+        "th": "ฉันดื่มน้ำ",
+        "fa": "من آب می‌نوشم.",
+        "ar": "أنا أشرب الماء.",
+        "es": "Yo bebo agua.",
+        "zh": "我喝水。",
+        "ja": "私は水を飲みます。"
+      }
+    },
+    {
+      "id": "s1_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "He reads a book.",
+        "th": "เขาอ่านหนังสือ",
+        "fa": "او کتاب می‌خواند.",
+        "ar": "هو يقرأ كتاباً.",
+        "es": "Él lee un libro.",
+        "zh": "他读书。",
+        "ja": "彼は本を読みます。"
+      }
+    },
+    {
+      "id": "s1_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "We drink tea.",
+        "th": "เราดื่มชา",
+        "fa": "ما چای می‌نوشیم.",
+        "ar": "نحن نشرب الشاي.",
+        "es": "Nosotros bebemos té.",
+        "zh": "我们喝茶。",
+        "ja": "私たちはお茶を飲みます。"
+      }
+    },
+    {
+      "id": "s1_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "They cook food.",
+        "th": "พวกเขาทำอาหาร",
+        "fa": "آن‌ها غذا می‌پزند.",
+        "ar": "هم يطبخون الطعام.",
+        "es": "Ellos cocinan comida.",
+        "zh": "他们做饭。",
+        "ja": "彼らは料理をします。"
+      }
+    },
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "SOV with Adverb",
+        "th": "SOV พร้อมกริยาวิเศษณ์",
+        "fa": "نهاد-مفعول-فعل با قید",
+        "ar": "فاعل-مفعول-فعل مع ظرف",
+        "es": "SOV con adverbio",
+        "zh": "带副词的 SOV",
+        "ja": "副詞付き SOV"
+      }
+    },
+    {
+      "id": "w2_1",
+      "kind": "word",
+      "texts": {
+        "en": "today",
+        "th": "วันนี้",
+        "fa": "امروز",
+        "ar": "اليوم",
+        "es": "hoy",
+        "zh": "今天",
+        "ja": "今日"
+      }
+    },
+    {
+      "id": "w2_2",
+      "kind": "word",
+      "texts": {
+        "en": "tomorrow",
+        "th": "พรุ่งนี้",
+        "fa": "فردا",
+        "ar": "غداً",
+        "es": "mañana",
+        "zh": "明天",
+        "ja": "明日"
+      }
+    },
+    {
+      "id": "w2_3",
+      "kind": "word",
+      "texts": {
+        "en": "school",
+        "th": "โรงเรียน",
+        "fa": "مدرسه",
+        "ar": "مدرسة",
+        "es": "escuela",
+        "zh": "学校",
+        "ja": "学校"
+      }
+    },
+    {
+      "id": "w2_4",
+      "kind": "word",
+      "texts": {
+        "en": "go",
+        "th": "ไป",
+        "fa": "می‌روم",
+        "ar": "أذهب",
+        "es": "voy",
+        "zh": "去",
+        "ja": "行く"
+      }
+    },
+    {
+      "id": "w2_5",
+      "kind": "word",
+      "texts": {
+        "en": "come",
+        "th": "มา",
+        "fa": "می‌آیم",
+        "ar": "آتي",
+        "es": "vengo",
+        "zh": "来",
+        "ja": "来る"
+      }
+    },
+    {
+      "id": "s2_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I go to school today.",
+        "th": "วันนี้ฉันไปโรงเรียน",
+        "fa": "من امروز به مدرسه می‌روم.",
+        "ar": "أنا أذهب إلى المدرسة اليوم.",
+        "es": "Yo voy a la escuela hoy.",
+        "zh": "我今天去学校。",
+        "ja": "私は今日学校に行きます。"
+      }
+    },
+    {
+      "id": "s2_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "He comes home tomorrow.",
+        "th": "พรุ่งนี้เขากลับบ้าน",
+        "fa": "او فردا به خانه می‌آید.",
+        "ar": "هو يأتي إلى المنزل غداً.",
+        "es": "Él viene a casa mañana.",
+        "zh": "他明天回家。",
+        "ja": "彼は明日家に帰ってきます。"
+      }
+    },
+    {
+      "id": "s2_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "We went to the park yesterday.",
+        "th": "เมื่อวานเราไปสวนสาธารณะ",
+        "fa": "ما دیروز به پارک رفتیم.",
+        "ar": "نحن ذهبنا إلى الحديقة أمس.",
+        "es": "Nosotros fuimos al parque ayer.",
+        "zh": "我们昨天去了公园。",
+        "ja": "私たちは昨日公園に行きました。"
+      }
+    },
+    {
+      "id": "s2_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "They eat food now.",
+        "th": "ตอนนี้พวกเขากำลังกินอาหาร",
+        "fa": "آن‌ها الان غذا می‌خورند.",
+        "ar": "هم يأكلون الطعام الآن.",
+        "es": "Ellos comen comida ahora.",
+        "zh": "他们现在吃饭。",
+        "ja": "彼らは今食事をしています。"
+      }
+    },
+    {
+      "id": "s2_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "You always arrive late.",
+        "th": "คุณมาถึงสายเสมอ",
+        "fa": "تو همیشه دیر می‌رسی.",
+        "ar": "أنت تصل متأخراً دائماً.",
+        "es": "Tú siempre llegas tarde.",
+        "zh": "你总是迟到。",
+        "ja": "あなたはいつも遅刻します。"
+      }
+    },
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "SOV with Object Marker 'ra'",
+        "th": "SOV พร้อมเครื่องหมายกรรม 'ra'",
+        "fa": "نهاد-مفعول-فعل با نشانه مفعولی «را»",
+        "ar": "فاعل-مفعول-فعل مع علامة المفعول 'ra'",
+        "es": "SOV con marcador de objeto",
+        "zh": "带宾语标记 'ra' 的 SOV",
+        "ja": "目的語マーカー 'ra' 付き SOV"
+      }
+    },
+    {
+      "id": "w3_1",
+      "kind": "word",
+      "texts": {
+        "en": "book",
+        "th": "หนังสือ",
+        "fa": "کتاب",
+        "ar": "كتاب",
+        "es": "libro",
+        "zh": "书",
+        "ja": "本"
+      }
+    },
+    {
+      "id": "w3_2",
+      "kind": "word",
+      "texts": {
+        "en": "ra (object marker)",
+        "th": "รา (เครื่องหมายกรรม)",
+        "fa": "را",
+        "ar": "ra (علامة المفعول)",
+        "es": "ra (marcador)",
+        "zh": "ra (宾语标记)",
+        "ja": "ra (目的語マーカー)"
+      }
+    },
+    {
+      "id": "w3_3",
+      "kind": "word",
+      "texts": {
+        "en": "saw",
+        "th": "เห็น",
+        "fa": "دیدی",
+        "ar": "رأيت",
+        "es": "viste",
+        "zh": "看见",
+        "ja": "見た"
+      }
+    },
+    {
+      "id": "w3_4",
+      "kind": "word",
+      "texts": {
+        "en": "letter",
+        "th": "จดหมาย",
+        "fa": "نامه",
+        "ar": "رسالة",
+        "es": "carta",
+        "zh": "信",
+        "ja": "手紙"
+      }
+    },
+    {
+      "id": "w3_5",
+      "kind": "word",
+      "texts": {
+        "en": "wrote",
+        "th": "เขียน",
+        "fa": "نوشتم",
+        "ar": "كتبت",
+        "es": "escribí",
+        "zh": "写了",
+        "ja": "書いた"
+      }
+    },
+    {
+      "id": "s3_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I saw that book.",
+        "th": "ฉันเห็นหนังสือเล่มนั้น",
+        "fa": "من آن کتاب را دیدم.",
+        "ar": "أنا رأيت ذلك الكتاب.",
+        "es": "Yo vi ese libro.",
+        "zh": "我看到了那本书。",
+        "ja": "私はその本を見ました。"
+      }
+    },
+    {
+      "id": "s3_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "You wrote the letter.",
+        "th": "คุณเขียนจดหมาย",
+        "fa": "تو نامه را نوشتی.",
+        "ar": "أنت كتبت الرسالة.",
+        "es": "Tú escribiste la carta.",
+        "zh": "你写了那封信。",
+        "ja": "あなたはその手紙を書きました。"
+      }
+    },
+    {
+      "id": "s3_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "He ate the apple.",
+        "th": "เขากินแอปเปิ้ล",
+        "fa": "او سیب را خورد.",
+        "ar": "هو أكل التفاحة.",
+        "es": "Él comió la manzana.",
+        "zh": "他吃了那个苹果。",
+        "ja": "彼はそのりんごを食べました。"
+      }
+    },
+    {
+      "id": "s3_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "We bought the house.",
+        "th": "เราซื้อบ้าน",
+        "fa": "ما خانه را خریدیم.",
+        "ar": "نحن اشترينا المنزل.",
+        "es": "Nosotros compramos la casa.",
+        "zh": "我们买了那栋房子。",
+        "ja": "私たちはその家を買いました。"
+      }
+    },
+    {
+      "id": "s3_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "They washed the car.",
+        "th": "พวกเขาล้างรถ",
+        "fa": "آن‌ها ماشین را شستند.",
+        "ar": "هم غسلوا السيارة.",
+        "es": "Ellos lavaron el coche.",
+        "zh": "他们洗了那辆车。",
+        "ja": "彼らはその車を洗いました。"
+      }
+    },
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Negative SOV",
+        "th": "SOV รูปปฏิเสธ",
+        "fa": "نهاد-مفعول-فعل منفی",
+        "ar": "فاعل-مفعول-فعل منفي",
+        "es": "SOV negativo",
+        "zh": "否定 SOV",
+        "ja": "否定 SOV"
+      }
+    },
+    {
+      "id": "w4_1",
+      "kind": "word",
+      "texts": {
+        "en": "do not eat",
+        "th": "ไม่กิน",
+        "fa": "نمی‌خورم",
+        "ar": "لا آكل",
+        "es": "no como",
+        "zh": "不吃",
+        "ja": "食べません"
+      }
+    },
+    {
+      "id": "w4_2",
+      "kind": "word",
+      "texts": {
+        "en": "do not go",
+        "th": "ไม่ไป",
+        "fa": "نمی‌روم",
+        "ar": "لا أذهب",
+        "es": "no voy",
+        "zh": "不去",
+        "ja": "行きません"
+      }
+    },
+    {
+      "id": "w4_3",
+      "kind": "word",
+      "texts": {
+        "en": "is not",
+        "th": "ไม่เป็น/ไม่อยู่",
+        "fa": "نیست",
+        "ar": "ليس",
+        "es": "no es",
+        "zh": "不是",
+        "ja": "ではありません"
+      }
+    },
+    {
+      "id": "w4_4",
+      "kind": "word",
+      "texts": {
+        "en": "do not have",
+        "th": "ไม่มี",
+        "fa": "ندارم",
+        "ar": "ليس لدي",
+        "es": "no tengo",
+        "zh": "没有",
+        "ja": "持っていません"
+      }
+    },
+    {
+      "id": "w4_5",
+      "kind": "word",
+      "texts": {
+        "en": "do not know",
+        "th": "ไม่ทราบ",
+        "fa": "نمی‌دانم",
+        "ar": "لا أعرف",
+        "es": "no sé",
+        "zh": "不知道",
+        "ja": "知りません"
+      }
+    },
+    {
+      "id": "s4_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "I do not eat apples.",
+        "th": "ฉันไม่กินแอปเปิ้ล",
+        "fa": "من سیب نمی‌خورم.",
+        "ar": "أنا لا آكل التفاح.",
+        "es": "Yo no como manzanas.",
+        "zh": "我不吃苹果。",
+        "ja": "私はりんごを食べません。"
+      }
+    },
+    {
+      "id": "s4_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "He does not go to school.",
+        "th": "เขาไม่ไปโรงเรียน",
+        "fa": "او به مدرسه نمی‌رود.",
+        "ar": "هو لا يذهب إلى المدرسة.",
+        "es": "Él no va a la escuela.",
+        "zh": "他不去学校。",
+        "ja": "彼は学校に行きません。"
+      }
+    },
+    {
+      "id": "s4_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "This book is not mine.",
+        "th": "หนังสือเล่มนี้ไม่ใช่ของฉัน",
+        "fa": "این کتاب من نیست.",
+        "ar": "هذا الكتاب ليس لي.",
+        "es": "Este libro no es mío.",
+        "zh": "这本书不是我的。",
+        "ja": "この本は私のものではありません。"
+      }
+    },
+    {
+      "id": "s4_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "We do not have time.",
+        "th": "เราไม่มีเวลา",
+        "fa": "ما وقت نداریم.",
+        "ar": "ليس لدينا وقت.",
+        "es": "Nosotros no tenemos tiempo.",
+        "zh": "我们没有时间。",
+        "ja": "私たちには時間がありません。"
+      }
+    },
+    {
+      "id": "s4_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "You do not know this.",
+        "th": "คุณไม่ทราบเรื่องนี้",
+        "fa": "تو این را نمی‌دانی.",
+        "ar": "أنت لا تعرف هذا.",
+        "es": "Tú no sabes esto.",
+        "zh": "你不知道这个。",
+        "ja": "あなたはこのことを知りません。"
+      }
+    },
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "SOV Question",
+        "th": "ประโยคคำถาม SOV",
+        "fa": "سوال نهاد-مفعول-فعل",
+        "ar": "سؤال فاعل-مفعول-فعل",
+        "es": "Pregunta SOV",
+        "zh": "SOV 疑问句",
+        "ja": "SOV 疑問文"
+      }
+    },
+    {
+      "id": "w5_1",
+      "kind": "word",
+      "texts": {
+        "en": "aya (question particle)",
+        "th": "อายะ (คำช่วยคำถาม)",
+        "fa": "آیا",
+        "ar": "هل",
+        "es": "¿acaso",
+        "zh": "吗 (疑问词)",
+        "ja": "か (疑問)"
+      }
+    },
+    {
+      "id": "w5_2",
+      "kind": "word",
+      "texts": {
+        "en": "where",
+        "th": "ที่ไหน",
+        "fa": "کجا",
+        "ar": "أين",
+        "es": "dónde",
+        "zh": "哪里",
+        "ja": "どこ"
+      }
+    },
+    {
+      "id": "w5_3",
+      "kind": "word",
+      "texts": {
+        "en": "what",
+        "th": "อะไร",
+        "fa": "چه",
+        "ar": "ماذا",
+        "es": "qué",
+        "zh": "什么",
+        "ja": "何"
+      }
+    },
+    {
+      "id": "w5_4",
+      "kind": "word",
+      "texts": {
+        "en": "when",
+        "th": "เมื่อไหร่",
+        "fa": "کی",
+        "ar": "متى",
+        "es": "cuándo",
+        "zh": "什么时候",
+        "ja": "いつ"
+      }
+    },
+    {
+      "id": "w5_5",
+      "kind": "word",
+      "texts": {
+        "en": "why",
+        "th": "ทำไม",
+        "fa": "چرا",
+        "ar": "لماذا",
+        "es": "por qué",
+        "zh": "为什么",
+        "ja": "なぜ"
+      }
+    },
+    {
+      "id": "s5_1",
+      "kind": "sentence",
+      "texts": {
+        "en": "Are you going to Tehran?",
+        "th": "คุณจะไปเตหะรานหรือไม่?",
+        "fa": "آیا تو به تهران می‌روی؟",
+        "ar": "هل تذهب إلى طهران؟",
+        "es": "¿Vas a Teherán?",
+        "zh": "你要去德黑兰吗？",
+        "ja": "あなたはテヘランに行きますか？"
+      }
+    },
+    {
+      "id": "s5_2",
+      "kind": "sentence",
+      "texts": {
+        "en": "Where are you going?",
+        "th": "คุณกำลังไปที่ไหน?",
+        "fa": "تو کجا می‌روی؟",
+        "ar": "أين تذهب؟",
+        "es": "¿Adónde vas?",
+        "zh": "你要去哪里？",
+        "ja": "あなたはどこに行きますか？"
+      }
+    },
+    {
+      "id": "s5_3",
+      "kind": "sentence",
+      "texts": {
+        "en": "What is he eating?",
+        "th": "เขากำลังกินอะไร?",
+        "fa": "او چه می‌خورد؟",
+        "ar": "ماذا يأكل؟",
+        "es": "¿Qué está comiendo?",
+        "zh": "他在吃什么？",
+        "ja": "彼は何を食べていますか？"
+      }
+    },
+    {
+      "id": "s5_4",
+      "kind": "sentence",
+      "texts": {
+        "en": "When are we coming?",
+        "th": "เราจะมาเมื่อไหร่?",
+        "fa": "ما کی می‌آییم؟",
+        "ar": "متى نأتي؟",
+        "es": "¿Cuándo venimos?",
+        "zh": "我们什么时候来？",
+        "ja": "私たちはいつ来ますか？"
+      }
+    },
+    {
+      "id": "s5_5",
+      "kind": "sentence",
+      "texts": {
+        "en": "Why did they arrive late?",
+        "th": "ทำไมพวกเขาถึงมาสาย?",
+        "fa": "آن‌ها چرا دیر کردند؟",
+        "ar": "لماذا تأخروا؟",
+        "es": "¿Por qué llegaron tarde?",
+        "zh": "他们为什么迟到了？",
+        "ja": "彼らはなぜ遅刻したのですか？"
+      }
+    }
+  ]
+}
