@@ -2,462 +2,21 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
-      "header": true,
-      "texts": {
-        "en": "Core Words",
-        "th": "คำศัพท์หลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras clave",
-        "zh": "核心词汇",
-        "ja": "基本単語"
-      }
-    },
-    {
-      "id": "word_i",
-      "kind": "word",
-      "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
-      }
-    },
-    {
-      "id": "word_you",
-      "kind": "word",
-      "texts": {
-        "en": "you",
-        "th": "คุณ",
-        "fa": "شما",
-        "ar": "أنت",
-        "es": "usted",
-        "zh": "您",
-        "ja": "あなた"
-      }
-    },
-    {
-      "id": "word_we",
-      "kind": "word",
-      "texts": {
-        "en": "we",
-        "th": "ทางเรา",
-        "fa": "ما",
-        "ar": "نحن",
-        "es": "nosotros",
-        "zh": "我们",
-        "ja": "私たち"
-      }
-    },
-    {
-      "id": "word_want",
-      "kind": "word",
-      "texts": {
-        "en": "want",
-        "th": "ต้องการ",
-        "fa": "خواستن",
-        "ar": "يريد",
-        "es": "querer",
-        "zh": "想要",
-        "ja": "欲しい"
-      }
-    },
-    {
-      "id": "word_request",
-      "kind": "word",
-      "texts": {
-        "en": "request",
-        "th": "ขอ",
-        "fa": "درخواست کردن",
-        "ar": "يطلب",
-        "es": "solicitar",
-        "zh": "请求",
-        "ja": "要求する"
-      }
-    },
-    {
-      "id": "word_please",
-      "kind": "word",
-      "texts": {
-        "en": "please",
-        "th": "กรุณา",
-        "fa": "لطفا",
-        "ar": "من فضلك",
-        "es": "por favor",
-        "zh": "请",
-        "ja": "どうぞ"
-      }
-    },
-    {
-      "id": "word_about",
-      "kind": "word",
-      "texts": {
-        "en": "about",
-        "th": "เกี่ยวกับ",
-        "fa": "درباره",
-        "ar": "حول",
-        "es": "sobre",
-        "zh": "关于",
-        "ja": "について"
-      }
-    },
-    {
-      "id": "word_how",
-      "kind": "word",
-      "texts": {
-        "en": "how",
-        "th": "อย่างไร",
-        "fa": "چگونه",
-        "ar": "كيف",
-        "es": "cómo",
-        "zh": "怎么",
-        "ja": "どう"
-      }
-    },
-    {
-      "id": "word_let",
-      "kind": "word",
-      "texts": {
-        "en": "let / give",
-        "th": "ให้",
-        "fa": "اجازه دادن / دادن",
-        "ar": "يسمح / يعطي",
-        "es": "dejar / dar",
-        "zh": "让 / 给",
-        "ja": "〜させる / あげる"
-      }
-    },
-    {
-      "id": "word_make_cause",
-      "kind": "word",
-      "texts": {
-        "en": "make (causative)",
-        "th": "ทำให้",
-        "fa": "باعث شدن",
-        "ar": "يجعل",
-        "es": "hacer (causativo)",
-        "zh": "使 / 让",
-        "ja": "〜させる"
-      }
-    },
-    {
-      "id": "word_i_formal",
-      "kind": "word",
-      "texts": {
-        "en": "I (formal)",
-        "th": "ดิฉัน / กระผม",
-        "fa": "من (رسمی)",
-        "ar": "أنا (رسمي)",
-        "es": "yo (formal)",
-        "zh": "我（正式）",
-        "ja": "わたくし"
-      }
-    },
-    {
-      "id": "word_ask",
-      "kind": "word",
-      "texts": {
-        "en": "ask",
-        "th": "ถาม",
-        "fa": "پرسیدن",
-        "ar": "يسأل",
-        "es": "preguntar",
-        "zh": "问",
-        "ja": "聞く"
-      }
-    },
-    {
-      "id": "word_inquire",
-      "kind": "word",
-      "texts": {
-        "en": "inquire (formal)",
-        "th": "สอบถาม",
-        "fa": "استعلام کردن",
-        "ar": "يستفسر",
-        "es": "consultar",
-        "zh": "询问",
-        "ja": "尋ねる"
-      }
-    },
-    {
-      "id": "header_scenario1",
+      "id": "h1",
       "header": true,
       "texts": {
         "en": "Scenario 1: Making a Complaint",
-        "th": "สถานการณ์ 1: การร้องเรียน",
-        "fa": "سناریو ۱: شکایت کردن",
+        "th": "สถานการณ์ที่ 1: การร้องเรียน",
+        "fa": "سناریو ۱: ثبت شکایت",
         "ar": "السيناريو 1: تقديم شكوى",
-        "es": "Escenario 1: Presentar una queja",
-        "zh": "场景一：提出投诉",
-        "ja": "シナリオ1：苦情を申し立てる"
+        "es": "Escenario 1: Hacer una queja",
+        "zh": "场景 1：提出投诉",
+        "ja": "シナリオ 1：苦情の申し立て"
       }
     },
     {
-      "id": "sentence_complaint_complain_service",
-      "kind": "sentence",
-      "itemIds": [
-        "word_i",
-        "word_want",
-        "word_complain",
-        "word_about",
-        "word_service"
-      ],
-      "texts": {
-        "en": "I would like to complain about the service",
-        "th": "ฉันต้องการร้องเรียนเกี่ยวกับการบริการ",
-        "fa": "من می‌خواهم درباره خدمات شکایت کنم",
-        "ar": "أود أن أشكو من الخدمة",
-        "es": "Me gustaría quejarme del servicio",
-        "zh": "我想投诉这项服务",
-        "ja": "サービスについて苦情を申し立てたいです"
-      },
-      "tokens": {
-        "en": [
-          "I",
-          "would",
-          "like",
-          "to",
-          "complain",
-          "about",
-          "the",
-          "service"
-        ],
-        "th": ["ฉัน", "ต้องการ", "ร้องเรียน", "เกี่ยวกับ", "การบริการ"],
-        "fa": ["من", "می‌خواهم", "درباره", "خدمات", "شکایت", "کنم"],
-        "ar": ["أود", "أن", "أشكو", "من", "الخدمة"],
-        "es": ["Me", "gustaría", "quejarme", "del", "servicio"],
-        "zh": ["我", "想", "投诉", "这项", "服务"],
-        "ja": ["サービス", "について", "苦情", "を", "申し立て", "たい", "です"]
-      }
-    },
-    {
-      "id": "sentence_customer_angry",
-      "kind": "sentence",
-      "itemIds": ["word_customer", "word_angry"],
-      "texts": {
-        "en": "The customer is very angry",
-        "th": "ลูกค้าโกรธมากครับ",
-        "fa": "مشتری خیلی عصبانی است",
-        "ar": "العميل غاضب جداً",
-        "es": "El cliente está muy enojado",
-        "zh": "顾客非常生气",
-        "ja": "お客様はとても怒っています"
-      },
-      "tokens": {
-        "en": ["The", "customer", "is", "very", "angry"],
-        "th": ["ลูกค้า", "โกรธ", "มาก", "ครับ"],
-        "fa": ["مشتری", "خیلی", "عصبانی", "است"],
-        "ar": ["العميل", "غاضب", "جداً"],
-        "es": ["El", "cliente", "está", "muy", "enojado"],
-        "zh": ["顾客", "非常", "生气"],
-        "ja": ["お客様", "は", "とても", "怒って", "います"]
-      }
-    },
-    {
-      "id": "word_complain",
-      "kind": "word",
-      "texts": {
-        "en": "complain",
-        "th": "ร้องเรียน",
-        "fa": "شکایت کردن",
-        "ar": "يشتكي",
-        "es": "quejarse",
-        "zh": "投诉",
-        "ja": "苦情を言う"
-      }
-    },
-    {
-      "id": "word_service",
-      "kind": "word",
-      "texts": {
-        "en": "service",
-        "th": "การบริการ",
-        "fa": "خدمات",
-        "ar": "خدمة",
-        "es": "servicio",
-        "zh": "服务",
-        "ja": "サービス"
-      }
-    },
-    {
-      "id": "word_customer",
-      "kind": "word",
-      "texts": {
-        "en": "customer",
-        "th": "ลูกค้า",
-        "fa": "مشتری",
-        "ar": "عميل",
-        "es": "cliente",
-        "zh": "顾客",
-        "ja": "お客様"
-      }
-    },
-    {
-      "id": "word_angry",
-      "kind": "word",
-      "texts": {
-        "en": "angry",
-        "th": "โกรธ",
-        "fa": "عصبانی",
-        "ar": "غاضب",
-        "es": "enojado",
-        "zh": "生气",
-        "ja": "怒った"
-      }
-    },
-    {
-      "id": "header_scenario2",
-      "header": true,
-      "texts": {
-        "en": "Scenario 2: Apologies & Solutions",
-        "th": "สถานการณ์ 2: การขออภัยและทางออก",
-        "fa": "سناریو ۲: عذرخواهی و راه‌حل‌ها",
-        "ar": "السيناريو 2: الاعتذارات والحلول",
-        "es": "Escenario 2: Disculpas y soluciones",
-        "zh": "场景二：道歉与解决方案",
-        "ja": "シナリオ2：謝罪と解決策"
-      }
-    },
-    {
-      "id": "sentence_complaint_apologize_mistake",
-      "kind": "sentence",
-      "itemIds": [
-        "word_we",
-        "word_apologize",
-        "word_sincerely",
-        "word_mistake"
-      ],
-      "texts": {
-        "en": "We sincerely apologize for the mistake",
-        "th": "ทางเราต้องขออภัยเป็นอย่างสูงสำหรับข้อผิดพลาด",
-        "fa": "ما صمیمانه برای اشتباه عذرخواهی می‌کنیم",
-        "ar": "نعتذر بإخلاص عن الخطأ",
-        "es": "Pedimos sinceras disculpas por el error",
-        "zh": "我们为这个错误真诚道歉",
-        "ja": "間違いについて心よりお詫び申し上げます"
-      },
-      "tokens": {
-        "en": ["We", "sincerely", "apologize", "for", "the", "mistake"],
-        "th": [
-          "ทางเรา",
-          "ต้อง",
-          "ขออภัย",
-          "เป็นอย่างสูง",
-          "สำหรับ",
-          "ข้อผิดพลาด"
-        ],
-        "fa": ["ما", "صمیمانه", "برای", "اشتباه", "عذرخواهی", "می‌کنیم"],
-        "ar": ["نعتذر", "بإخلاص", "عن", "الخطأ"],
-        "es": ["Pedimos", "sinceras", "disculpas", "por", "el", "error"],
-        "zh": ["我们", "为", "这个", "错误", "真诚", "道歉"],
-        "ja": ["間違い", "について", "心より", "お詫び", "申し上げ", "ます"]
-      }
-    },
-    {
-      "id": "sentence_complaint_how_solve",
-      "kind": "sentence",
-      "itemIds": ["word_how", "word_you", "word_solve", "word_problem"],
-      "texts": {
-        "en": "How will you solve this problem",
-        "th": "คุณจะแก้ไขปัญหานี้อย่างไร",
-        "fa": "چگونه این مشکل را حل خواهید کرد",
-        "ar": "كيف ستحل هذه المشكلة",
-        "es": "Cómo resolverá este problema",
-        "zh": "您将如何解决这个问题",
-        "ja": "この問題をどのように解決しますか"
-      },
-      "tokens": {
-        "en": ["How", "will", "you", "solve", "this", "problem"],
-        "th": ["คุณ", "จะ", "แก้ไข", "ปัญหา", "นี้", "อย่างไร"],
-        "fa": ["چگونه", "این", "مشکل", "را", "حل", "خواهید", "کرد"],
-        "ar": ["كيف", "ستحل", "هذه", "المشكلة"],
-        "es": ["Cómo", "resolverá", "este", "problema"],
-        "zh": ["您", "将", "如何", "解决", "这个", "问题"],
-        "ja": ["この", "問題", "を", "どのよう", "に", "解決", "します", "か"]
-      }
-    },
-    {
-      "id": "sentence_we_solve_problem",
-      "kind": "sentence",
-      "itemIds": ["word_we", "word_solve", "word_problem", "word_soon"],
-      "texts": {
-        "en": "We will solve the problem soon",
-        "th": "เราจะแก้ไขปัญหาเร็วๆ นี้ครับ",
-        "fa": "ما به زودی مشکل را حل خواهیم کرد",
-        "ar": "سنحل المشكلة قريباً",
-        "es": "Resolveremos el problema pronto",
-        "zh": "我们很快会解决问题",
-        "ja": "まもなく問題を解決します"
-      },
-      "tokens": {
-        "en": ["We", "will", "solve", "the", "problem", "soon"],
-        "th": ["เรา", "จะ", "แก้ไข", "ปัญหา", "เร็วๆ", "นี้", "ครับ"],
-        "fa": ["ما", "به", "زودی", "مشکل", "را", "حل", "خواهیم", "کرد"],
-        "ar": ["سنحل", "المشكلة", "قريباً"],
-        "es": ["Resolveremos", "el", "problema", "pronto"],
-        "zh": ["我们", "很快", "会", "解决", "问题"],
-        "ja": ["まもなく", "問題", "を", "解決", "します"]
-      }
-    },
-    {
-      "id": "word_apologize",
-      "kind": "word",
-      "texts": {
-        "en": "apologize",
-        "th": "ขออภัย",
-        "fa": "عذرخواهی کردن",
-        "ar": "يعتذر",
-        "es": "disculparse",
-        "zh": "道歉",
-        "ja": "謝罪する"
-      }
-    },
-    {
-      "id": "word_sincerely",
-      "kind": "word",
-      "texts": {
-        "en": "sincerely",
-        "th": "เป็นอย่างสูง",
-        "fa": "صمیمانه",
-        "ar": "بإخلاص",
-        "es": "sinceramente",
-        "zh": "真诚地",
-        "ja": "心より"
-      }
-    },
-    {
-      "id": "word_mistake",
-      "kind": "word",
-      "texts": {
-        "en": "mistake",
-        "th": "ข้อผิดพลาด",
-        "fa": "اشتباه",
-        "ar": "خطأ",
-        "es": "error",
-        "zh": "错误",
-        "ja": "間違い"
-      }
-    },
-    {
-      "id": "word_solve",
-      "kind": "word",
-      "texts": {
-        "en": "solve",
-        "th": "แก้ไข",
-        "fa": "حل کردن",
-        "ar": "يحل",
-        "es": "resolver",
-        "zh": "解决",
-        "ja": "解決する"
-      }
-    },
-    {
-      "id": "word_problem",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
         "en": "problem",
         "th": "ปัญหา",
@@ -469,223 +28,34 @@
       }
     },
     {
-      "id": "word_improve",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
       "texts": {
-        "en": "improve",
-        "th": "ปรับปรุง",
-        "fa": "بهبود بخشیدن",
-        "ar": "يحسن",
-        "es": "mejorar",
-        "zh": "改进",
-        "ja": "改善する"
+        "en": "issue",
+        "th": "เรื่อง",
+        "fa": "مسئله",
+        "ar": "قضية",
+        "es": "asunto",
+        "zh": "事项",
+        "ja": "事項"
       }
     },
     {
-      "id": "word_soon",
-      "kind": "word",
+      "id": "w3",
+      "kind": "Word",
       "texts": {
-        "en": "soon",
-        "th": "เร็วๆ นี้",
-        "fa": "به زودی",
-        "ar": "قريبا",
-        "es": "pronto",
-        "zh": "很快",
-        "ja": "まもなく"
+        "en": "dissatisfied",
+        "th": "ไม่พอใจ",
+        "fa": "ناراضی",
+        "ar": "غير راضٍ",
+        "es": "insatisfecho",
+        "zh": "不满意",
+        "ja": "不満"
       }
     },
     {
-      "id": "header_scenario3",
-      "header": true,
-      "texts": {
-        "en": "Scenario 3: Refunds & Compensation",
-        "th": "สถานการณ์ 3: การคืนเงินและค่าชดเชย",
-        "fa": "سناریو ۳: بازپرداخت و غرامت",
-        "ar": "السيناريو 3: الاسترداد والتعويض",
-        "es": "Escenario 3: Reembolsos y compensación",
-        "zh": "场景三：退款与补偿",
-        "ja": "シナリオ3：返金と補償"
-      }
-    },
-    {
-      "id": "sentence_complaint_request_refund",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_want", "word_request", "word_refund"],
-      "texts": {
-        "en": "I want to request a refund",
-        "th": "ฉันต้องการขอคืนเงิน",
-        "fa": "من می‌خواهم درخواست بازپرداخت کنم",
-        "ar": "أريد أن أطلب استرداد المال",
-        "es": "Quiero solicitar un reembolso",
-        "zh": "我想要求退款",
-        "ja": "返金を要求したいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "to", "request", "a", "refund"],
-        "th": ["ฉัน", "ต้องการ", "ขอ", "คืนเงิน"],
-        "fa": ["من", "می‌خواهم", "درخواست", "بازپرداخت", "کنم"],
-        "ar": ["أريد", "أن", "أطلب", "استرداد", "المال"],
-        "es": ["Quiero", "solicitar", "un", "reembolso"],
-        "zh": ["我", "想", "要求", "退款"],
-        "ja": ["返金", "を", "要求", "したい", "です"]
-      }
-    },
-    {
-      "id": "sentence_give_compensation",
-      "kind": "sentence",
-      "itemIds": ["word_we", "word_let", "word_you", "word_compensation"],
-      "texts": {
-        "en": "We will give you compensation",
-        "th": "เราจะให้ค่าชดเชยคุณครับ",
-        "fa": "ما به شما غرامت خواهیم داد",
-        "ar": "سنقدم لك تعويضاً",
-        "es": "Le daremos una compensación",
-        "zh": "我们将给您补偿",
-        "ja": "あなたに補償をします"
-      },
-      "tokens": {
-        "en": ["We", "will", "give", "you", "compensation"],
-        "th": ["เรา", "จะ", "ให้", "ค่าชดเชย", "คุณ", "ครับ"],
-        "fa": ["ما", "به", "شما", "غرامت", "خواهیم", "داد"],
-        "ar": ["سنقدم", "لك", "تعويضاً"],
-        "es": ["Le", "daremos", "una", "compensación"],
-        "zh": ["我们", "将", "给", "您", "补偿"],
-        "ja": ["あなた", "に", "補償", "を", "し", "ます"]
-      }
-    },
-    {
-      "id": "word_refund",
-      "kind": "word",
-      "texts": {
-        "en": "refund",
-        "th": "คืนเงิน",
-        "fa": "بازپرداخت",
-        "ar": "استرداد",
-        "es": "reembolso",
-        "zh": "退款",
-        "ja": "返金"
-      }
-    },
-    {
-      "id": "word_compensation",
-      "kind": "word",
-      "texts": {
-        "en": "compensation",
-        "th": "ค่าชดเชย",
-        "fa": "غرامت",
-        "ar": "تعويض",
-        "es": "compensación",
-        "zh": "补偿",
-        "ja": "補償"
-      }
-    },
-    {
-      "id": "header_scenario4",
-      "header": true,
-      "texts": {
-        "en": "Scenario 4: Causative Actions",
-        "th": "สถานการณ์ 4: การกระทำแบบกรรมตรง (Causative)",
-        "fa": "سناریو ۴: افعال سببی",
-        "ar": "السيناريو 4: الأفعال التسببية",
-        "es": "Escenario 4: Acciones causativas",
-        "zh": "场景四：使役动作",
-        "ja": "シナリオ4：使役の動作"
-      }
-    },
-    {
-      "id": "sentence_let_talk_manager",
-      "kind": "sentence",
-      "itemIds": [
-        "word_please",
-        "word_let",
-        "word_i",
-        "word_speak",
-        "word_manager"
-      ],
-      "texts": {
-        "en": "Please let me speak to the manager",
-        "th": "กรุณาให้ฉันคุยกับผู้จัดการครับ",
-        "fa": "لطفاً به من اجازه دهید با مدیر صحبت کنم",
-        "ar": "من فضلك دعني أتحدث إلى المدير",
-        "es": "Por favor déjeme hablar con el gerente",
-        "zh": "请让我和经理谈谈",
-        "ja": "マネージャーと話させてください"
-      },
-      "tokens": {
-        "en": ["Please", "let", "me", "speak", "to", "the", "manager"],
-        "th": ["กรุณา", "ให้", "ฉัน", "คุย", "กับ", "ผู้จัดการ", "ครับ"],
-        "fa": [
-          "لطفاً",
-          "به",
-          "من",
-          "اجازه",
-          "دهید",
-          "با",
-          "مدیر",
-          "صحبت",
-          "کنم"
-        ],
-        "ar": ["من", "فضلك", "دعني", "أتحدث", "إلى", "المدير"],
-        "es": ["Por", "favor", "déjeme", "hablar", "con", "el", "gerente"],
-        "zh": ["请", "让", "我", "和", "经理", "谈谈"],
-        "ja": ["マネージャー", "と", "話さ", "せて", "ください"]
-      }
-    },
-    {
-      "id": "sentence_make_lose_work",
-      "kind": "sentence",
-      "itemIds": [
-        "word_mistake",
-        "word_make_cause",
-        "word_i",
-        "word_lose",
-        "word_work"
-      ],
-      "texts": {
-        "en": "The mistake made me lose my work",
-        "th": "ข้อผิดพลาดทำให้ฉันเสียงานครับ",
-        "fa": "اشتباه باعث شد من کارم را از دست بدهم",
-        "ar": "الخطأ جعلني أفقد عملي",
-        "es": "El error me hizo perder mi trabajo",
-        "zh": "这个错误让我失去了工作",
-        "ja": "その間違いのせいで仕事を失いました"
-      },
-      "tokens": {
-        "en": ["The", "mistake", "made", "me", "lose", "my", "work"],
-        "th": ["ข้อผิดพลาด", "ทำให้", "ฉัน", "เสีย", "งาน", "ครับ"],
-        "fa": ["اشتباه", "باعث", "شد", "من", "کارم", "را", "از", "دست", "بدهم"],
-        "ar": ["الخطأ", "جعلني", "أفقد", "عملي"],
-        "es": ["El", "error", "me", "hizo", "perder", "mi", "trabajo"],
-        "zh": ["这个", "错误", "让", "我", "失去", "了", "工作"],
-        "ja": ["その", "間違い", "の", "せいで", "仕事", "を", "失い", "ました"]
-      }
-    },
-    {
-      "id": "sentence_complaint_manager_contact",
-      "kind": "sentence",
-      "itemIds": ["word_manager", "word_contact", "word_you", "word_soon"],
-      "texts": {
-        "en": "The manager will contact you soon",
-        "th": "ผู้จัดการจะติดต่อคุณเร็วๆ นี้",
-        "fa": "مدیر به زودی با شما تماس خواهد گرفت",
-        "ar": "سيتصل بك المدير قريبا",
-        "es": "El gerente le contactará pronto",
-        "zh": "经理很快会联系您",
-        "ja": "マネージャーがまもなく連絡します"
-      },
-      "tokens": {
-        "en": ["The", "manager", "will", "contact", "you", "soon"],
-        "th": ["ผู้จัดการ", "จะ", "ติดต่อ", "คุณ", "เร็วๆ", "นี้"],
-        "fa": ["مدیر", "به", "زودی", "با", "شما", "تماس", "خواهد", "گرفت"],
-        "ar": ["سيتصل", "بك", "المدير", "قريبا"],
-        "es": ["El", "gerente", "le", "contactará", "pronto"],
-        "zh": ["经理", "很快", "会", "联系", "您"],
-        "ja": ["マネージャー", "が", "まもなく", "連絡", "します"]
-      }
-    },
-    {
-      "id": "word_manager",
-      "kind": "word",
+      "id": "w4",
+      "kind": "Word",
       "texts": {
         "en": "manager",
         "th": "ผู้จัดการ",
@@ -697,135 +67,980 @@
       }
     },
     {
-      "id": "word_contact",
-      "kind": "word",
+      "id": "w5",
+      "kind": "Word",
       "texts": {
-        "en": "contact",
-        "th": "ติดต่อ",
-        "fa": "تماس گرفتن",
-        "ar": "يتصل",
-        "es": "contactar",
-        "zh": "联系",
-        "ja": "連絡する"
+        "en": "resolve",
+        "th": "แก้ไข",
+        "fa": "حل",
+        "ar": "حل",
+        "es": "resolver",
+        "zh": "解决",
+        "ja": "解決"
       }
     },
     {
-      "id": "word_speak",
-      "kind": "word",
+      "id": "s1",
+      "kind": "Sentence",
       "texts": {
-        "en": "speak",
-        "th": "พูด / คุย",
-        "fa": "صحبت کردن",
-        "ar": "يتحدث",
-        "es": "hablar",
-        "zh": "说话",
-        "ja": "話す"
+        "en": "I have a problem with my order.",
+        "th": "ฉันมีปัญหาเกี่ยวกับคำสั่งซื้อของฉัน",
+        "fa": "من با سفارش خود مشکلی دارم.",
+        "ar": "لدي مشكلة في طلبي.",
+        "es": "Tengo un problema con mi pedido.",
+        "zh": "我的订单有问题。",
+        "ja": "注文に問題があります。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "มี", "ปัญหา", "เกี่ยวกับ", "คำสั่งซื้อ", "ของ", "ฉัน"],
+        "zh": ["我", "的", "订单", "有", "问题", "。"],
+        "ja": ["注文", "に", "問題", "が", "あり", "ます", "。"]
       }
     },
     {
-      "id": "word_lose",
-      "kind": "word",
+      "id": "s2",
+      "kind": "Sentence",
       "texts": {
-        "en": "lose",
-        "th": "เสีย / สูญเสีย",
-        "fa": "از دست دادن",
-        "ar": "يفقد",
-        "es": "perder",
-        "zh": "失去",
-        "ja": "失う"
+        "en": "This is a serious issue.",
+        "th": "นี่เป็นปัญหาที่ร้ายแรง",
+        "fa": "این یک مسئله جدی است.",
+        "ar": "هذه قضية خطيرة.",
+        "es": "Este es un asunto serio.",
+        "zh": "这是一个严重的问题。",
+        "ja": "これは深刻な事項です。"
+      },
+      "tokens": {
+        "th": ["นี่", "เป็น", "ปัญหา", "ที่", "ร้ายแรง"],
+        "zh": ["这", "是", "一个", "严重", "的", "问题", "。"],
+        "ja": ["これ", "は", "深刻", "な", "事項", "です", "。"]
       }
     },
     {
-      "id": "word_work",
-      "kind": "word",
+      "id": "s3",
+      "kind": "Sentence",
       "texts": {
-        "en": "work",
-        "th": "งาน",
-        "fa": "کار",
-        "ar": "عمل",
-        "es": "trabajo",
-        "zh": "工作",
-        "ja": "仕事"
+        "en": "I am very dissatisfied with the service.",
+        "th": "ฉันไม่พอใจกับการบริการเป็นอย่างมาก",
+        "fa": "من از خدمات بسیار ناراضی هستم.",
+        "ar": "أنا غير راضٍ جداً عن الخدمة.",
+        "es": "Estoy muy insatisfecho con el servicio.",
+        "zh": "我对服务非常不满意。",
+        "ja": "サービスに非常に不満を持っています。"
+      },
+      "tokens": {
+        "th": [
+          "ฉัน",
+          "ไม่พอใจ",
+          "กับ",
+          "การ",
+          "บริการ",
+          "เป็น",
+          "อย่าง",
+          "มาก"
+        ],
+        "zh": ["我", "对", "服务", "非常", "不", "满意", "。"],
+        "ja": [
+          "サービス",
+          "に",
+          "非常",
+          "に",
+          "不満",
+          "を",
+          "持って",
+          "い",
+          "ます",
+          "。"
+        ]
       }
     },
     {
-      "id": "header_scenario5",
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I would like to speak to the manager.",
+        "th": "ฉันต้องการพูดคุยกับผู้จัดการ",
+        "fa": "من می‌خواهم با مدیر صحبت کنم.",
+        "ar": "أرغب في التحدث إلى المدير.",
+        "es": "Me gustaría hablar con el gerente.",
+        "zh": "我想和经理谈谈。",
+        "ja": "マネージャーと話したいです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้องการ", "พูดคุย", "กับ", "ผู้จัดการ"],
+        "zh": ["我", "想", "和", "经理", "谈谈", "。"],
+        "ja": ["マネージャー", "と", "話し", "たい", "です", "。"]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "How can we resolve this?",
+        "th": "เราจะแก้ไขสิ่งนี้ได้อย่างไร",
+        "fa": "چگونه می‌توانیم این را حل کنیم؟",
+        "ar": "كيف يمكننا حل هذا؟",
+        "es": "¿Cómo podemos resolver esto?",
+        "zh": "我们如何解决这个问题？",
+        "ja": "これをどのように解決できますか？"
+      },
+      "tokens": {
+        "th": ["เรา", "จะ", "แก้ไข", "สิ่ง", "นี้", "ได้", "อย่างไร"],
+        "zh": ["我们", "如何", "解决", "这个", "问题", "？"],
+        "ja": [
+          "これ",
+          "を",
+          "どの",
+          "よう",
+          "に",
+          "解決",
+          "でき",
+          "ます",
+          "か",
+          "？"
+        ]
+      }
+    },
+
+    {
+      "id": "h2",
       "header": true,
       "texts": {
-        "en": "Scenario 5: Formal vs. Casual Register",
-        "th": "สถานการณ์ 5: ภาษาทางการกับภาษาพูด",
-        "fa": "سناریو ۵: لحن رسمی در برابر عامیانه",
-        "ar": "السيناريو 5: الأسلوب الرسمي مقابل غير الرسمي",
-        "es": "Escenario 5: Registro formal vs. informal",
-        "zh": "场景五：正式与非正式语体",
-        "ja": "シナリオ5：フォーマルとカジュアルな表現"
+        "en": "Scenario 2: Apologizing & Solutions",
+        "th": "สถานการณ์ที่ 2: การขอโทษและแนวทางแก้ไข",
+        "fa": "سناریو ۲: عذرخواهی و راه‌حل‌ها",
+        "ar": "السيناريو 2: الاعتذار والحلول",
+        "es": "Escenario 2: Disculpas y soluciones",
+        "zh": "场景 2：道歉与解决方案",
+        "ja": "シナリオ 2：謝罪と解決策"
       }
     },
     {
-      "id": "sentence_casual_ask_refund",
-      "kind": "sentence",
-      "itemIds": [
-        "word_i",
-        "word_want",
-        "word_ask",
-        "word_about",
-        "word_refund"
-      ],
+      "id": "w6",
+      "kind": "Word",
       "texts": {
-        "en": "I want to ask about the refund",
-        "th": "ฉันต้องการถามเกี่ยวกับการคืนเงิน",
-        "fa": "من می‌خواهم درباره بازپرداخت بپرسم",
-        "ar": "أريد أن أسأل عن استرداد المال",
-        "es": "Quiero preguntar sobre el reembolso",
-        "zh": "我想问问关于退款的事",
-        "ja": "返金について聞きたいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "to", "ask", "about", "the", "refund"],
-        "th": ["ฉัน", "ต้องการ", "ถาม", "เกี่ยวกับ", "การ", "คืนเงิน"],
-        "fa": ["من", "می‌خواهم", "درباره", "بازپرداخت", "بپرسم"],
-        "ar": ["أريد", "أن", "أسأل", "عن", "استرداد", "المال"],
-        "es": ["Quiero", "preguntar", "sobre", "el", "reembolso"],
-        "zh": ["我", "想", "问问", "关于", "退款", "的", "事"],
-        "ja": ["返金", "について", "聞き", "たい", "です"]
+        "en": "sorry",
+        "th": "เสียใจ",
+        "fa": "متأسف",
+        "ar": "آسف",
+        "es": "lo siento",
+        "zh": "抱歉",
+        "ja": "申し訳ない"
       }
     },
     {
-      "id": "sentence_formal_inquire_compensation",
-      "kind": "sentence",
-      "itemIds": [
-        "word_i_formal",
-        "word_request",
-        "word_inquire",
-        "word_about",
-        "word_compensation"
-      ],
+      "id": "w7",
+      "kind": "Word",
       "texts": {
-        "en": "I would like to inquire about the compensation",
-        "th": "ดิฉันขอสอบถามเกี่ยวกับค่าชดเชยค่ะ",
-        "fa": "مایل هستم درباره غرامت استعلام کنم",
-        "ar": "أود الاستفسار عن التعويض",
-        "es": "Me gustaría consultar sobre la compensación",
-        "zh": "我想咨询一下补偿事宜",
-        "ja": "補償についてお尋ねしたいのですが"
+        "en": "apologize",
+        "th": "ขอโทษ",
+        "fa": "عذرخواهی",
+        "ar": "أعتذر",
+        "es": "disculparse",
+        "zh": "道歉",
+        "ja": "謝罪"
+      }
+    },
+    {
+      "id": "w8",
+      "kind": "Word",
+      "texts": {
+        "en": "refund",
+        "th": "คืนเงิน",
+        "fa": "بازپرداخت",
+        "ar": "استرداد",
+        "es": "reembolso",
+        "zh": "退款",
+        "ja": "返金"
+      }
+    },
+    {
+      "id": "w9",
+      "kind": "Word",
+      "texts": {
+        "en": "replace",
+        "th": "เปลี่ยน",
+        "fa": "جایگزین",
+        "ar": "استبدال",
+        "es": "reemplazar",
+        "zh": "更换",
+        "ja": "交換"
+      }
+    },
+    {
+      "id": "w10",
+      "kind": "Word",
+      "texts": {
+        "en": "fix",
+        "th": "ซ่อม",
+        "fa": "تعمیر",
+        "ar": "إصلاح",
+        "es": "arreglar",
+        "zh": "修理",
+        "ja": "修理"
+      }
+    },
+    {
+      "id": "s6",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We are very sorry for the inconvenience.",
+        "th": "เราขออภัยในความไม่สะดวกเป็นอย่างยิ่ง",
+        "fa": "ما بابت این ناراحتی بسیار متأسفیم.",
+        "ar": "نحن آسفون جداً للإزعاج.",
+        "es": "Lamentamos mucho las molestias.",
+        "zh": "我们对造成的不便深表歉意。",
+        "ja": "ご不便をおかけして誠に申し訳ございません。"
       },
       "tokens": {
-        "en": [
-          "I",
-          "would",
-          "like",
-          "to",
-          "inquire",
-          "about",
-          "the",
-          "compensation"
+        "th": [
+          "เรา",
+          "ขออภัย",
+          "ใน",
+          "ความ",
+          "ไม่สะดวก",
+          "เป็น",
+          "อย่าง",
+          "ยิ่ง"
         ],
-        "th": ["ดิฉัน", "ขอ", "สอบถาม", "เกี่ยวกับ", "ค่าชดเชย", "ค่ะ"],
-        "fa": ["مایل", "هستم", "درباره", "غرامت", "استعلام", "کنم"],
-        "ar": ["أود", "الاستفسار", "عن", "التعويض"],
-        "es": ["Me", "gustaría", "consultar", "sobre", "la", "compensación"],
-        "zh": ["我", "想", "咨询", "一下", "补偿", "事宜"],
-        "ja": ["補償", "について", "お", "尋ね", "したい", "の", "です", "が"]
+        "zh": ["我们", "对", "造成", "的", "不便", "深表", "歉意", "。"],
+        "ja": [
+          "ご",
+          "不便",
+          "を",
+          "おかけ",
+          "し",
+          "て",
+          "誠に",
+          "申し訳",
+          "ござい",
+          "ませ",
+          "ん",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Please accept our sincere apologies.",
+        "th": "กรุณายอมรับคำขอโทษอย่างจริงใจจากเรา",
+        "fa": "لطفاً عذرخواهی صمیمانه ما را بپذیرید.",
+        "ar": "يرجى قبول اعتذارنا الصادق.",
+        "es": "Por favor, acepta nuestras sinceras disculpas.",
+        "zh": "请接受我们真诚的道歉。",
+        "ja": "心よりお詫び申し上げます。"
+      },
+      "tokens": {
+        "th": ["กรุณา", "ยอมรับ", "คำขอโทษ", "อย่าง", "จริงใจ", "จาก", "เรา"],
+        "zh": ["请", "接受", "我们", "真诚", "的", "道歉", "。"],
+        "ja": ["心より", "お", "詫び", "申し上げ", "ます", "。"]
+      }
+    },
+    {
+      "id": "s8",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We will issue a full refund.",
+        "th": "เราจะคืนเงินเต็มจำนวน",
+        "fa": "ما مبلغ کامل را بازپرداخت خواهیم کرد.",
+        "ar": "سنصدر استرداداً كاملاً.",
+        "es": "Emitiremos un reembolso completo.",
+        "zh": "我们将全额退款。",
+        "ja": "全額返金いたします。"
+      },
+      "tokens": {
+        "th": ["เรา", "จะ", "คืนเงิน", "เต็ม", "จำนวน"],
+        "zh": ["我们", "将", "全额", "退款", "。"],
+        "ja": ["全額", "返金", "いたし", "ます", "。"]
+      }
+    },
+    {
+      "id": "s9",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We can replace the damaged item.",
+        "th": "เราสามารถเปลี่ยนสินค้าที่เสียหายได้",
+        "fa": "ما می‌توانیم کالای آسیب‌دیده را جایگزین کنیم.",
+        "ar": "يمكننا استبدال العنصر التالف.",
+        "es": "Podemos reemplazar el artículo dañado.",
+        "zh": "我们可以更换损坏的物品。",
+        "ja": "破損した商品を交換いたします。"
+      },
+      "tokens": {
+        "th": ["เรา", "สามารถ", "เปลี่ยน", "สินค้า", "ที่", "เสียหาย", "ได้"],
+        "zh": ["我们", "可以", "更换", "损坏", "的", "物品", "。"],
+        "ja": ["破損", "し", "た", "商品", "を", "交換", "いたし", "ます", "。"]
+      }
+    },
+    {
+      "id": "s10",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We will fix this immediately.",
+        "th": "เราจะแก้ไขสิ่งนี้ทันที",
+        "fa": "ما این را فوراً تعمیر خواهیم کرد.",
+        "ar": "سنصلح هذا فوراً.",
+        "es": "Arreglaremos esto de inmediato.",
+        "zh": "我们会立即解决这个问题。",
+        "ja": "すぐにこれを修正いたします。"
+      },
+      "tokens": {
+        "th": ["เรา", "จะ", "แก้ไข", "สิ่ง", "นี้", "ทันที"],
+        "zh": ["我们", "会", "立即", "解决", "这个", "问题", "。"],
+        "ja": ["すぐに", "これ", "を", "修正", "いたし", "ます", "。"]
+      }
+    },
+
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Giving Feedback",
+        "th": "สถานการณ์ที่ 3: การให้ข้อเสนอแนะ",
+        "fa": "سناریو ۳: ارائه بازخورد",
+        "ar": "السيناريو 3: تقديم الملاحظات",
+        "es": "Escenario 3: Dar retroalimentación",
+        "zh": "场景 3：提供反馈",
+        "ja": "シナリオ 3：フィードバックの提供"
+      }
+    },
+    {
+      "id": "w11",
+      "kind": "Word",
+      "texts": {
+        "en": "feedback",
+        "th": "ข้อเสนอแนะ",
+        "fa": "بازخورد",
+        "ar": "ملاحظات",
+        "es": "retroalimentación",
+        "zh": "反馈",
+        "ja": "フィードバック"
+      }
+    },
+    {
+      "id": "w12",
+      "kind": "Word",
+      "texts": {
+        "en": "review",
+        "th": "รีวิว",
+        "fa": "بررسی",
+        "ar": "مراجعة",
+        "es": "reseña",
+        "zh": "评价",
+        "ja": "レビュー"
+      }
+    },
+    {
+      "id": "w13",
+      "kind": "Word",
+      "texts": {
+        "en": "suggestion",
+        "th": "คำแนะนำ",
+        "fa": "پیشنهاد",
+        "ar": "اقتراح",
+        "es": "sugerencia",
+        "zh": "建议",
+        "ja": "提案"
+      }
+    },
+    {
+      "id": "w14",
+      "kind": "Word",
+      "texts": {
+        "en": "improve",
+        "th": "ปรับปรุง",
+        "fa": "بهبود",
+        "ar": "تحسين",
+        "es": "mejorar",
+        "zh": "改善",
+        "ja": "改善"
+      }
+    },
+    {
+      "id": "w15",
+      "kind": "Word",
+      "texts": {
+        "en": "comment",
+        "th": "ความคิดเห็น",
+        "fa": "نظر",
+        "ar": "تعليق",
+        "es": "comentario",
+        "zh": "评论",
+        "ja": "コメント"
+      }
+    },
+    {
+      "id": "s11",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I would like to leave some feedback.",
+        "th": "ฉันต้องการให้ข้อเสนอแนะ",
+        "fa": "من می‌خواهم مقداری بازخورد بگذارم.",
+        "ar": "أرغب في ترك بعض الملاحظات.",
+        "es": "Me gustaría dejar algunos comentarios.",
+        "zh": "我想留下一些反馈。",
+        "ja": "フィードバックを残したいと思います。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้องการ", "ให้", "ข้อเสนอแนะ"],
+        "zh": ["我", "想", "留下", "一些", "反馈", "。"],
+        "ja": [
+          "フィードバック",
+          "を",
+          "残し",
+          "たい",
+          "と",
+          "思い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I wrote a review on your website.",
+        "th": "ฉันเขียนรีวิวบนเว็บไซต์ของคุณ",
+        "fa": "من یک بررسی در وب‌سایت شما نوشتم.",
+        "ar": "كتبت مراجعة على موقعك الإلكتروني.",
+        "es": "Escribí una reseña en su sitio web.",
+        "zh": "我在你们的网站上写了评价。",
+        "ja": "あなたのウェブサイトにレビューを書きました。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "เขียน", "รีวิว", "บน", "เว็บไซต์", "ของ", "คุณ"],
+        "zh": [
+          "我",
+          "在",
+          "你们",
+          "的",
+          "网站",
+          "上",
+          "写",
+          "了",
+          "评价",
+          "。"
+        ],
+        "ja": [
+          "あなた",
+          "の",
+          "ウェブサイト",
+          "に",
+          "レビュー",
+          "を",
+          "書き",
+          "まし",
+          "た",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Here is a suggestion for improvement.",
+        "th": "นี่คือคำแนะนำสำหรับการปรับปรุง",
+        "fa": "این یک پیشنهاد برای بهبود است.",
+        "ar": "إليك اقتراح للتحسين.",
+        "es": "Aquí hay una sugerencia de mejora.",
+        "zh": "这是一个改进建议。",
+        "ja": "これが改善のための提案です。"
+      },
+      "tokens": {
+        "th": ["นี่", "คือ", "คำแนะนำ", "สำหรับ", "การ", "ปรับปรุง"],
+        "zh": ["这", "是", "一个", "改进", "建议", "。"],
+        "ja": ["これ", "が", "改善", "の", "ため", "の", "提案", "です", "。"]
+      }
+    },
+    {
+      "id": "s14",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Your service needs to improve.",
+        "th": "บริการของคุณจำเป็นต้องได้รับการปรับปรุง",
+        "fa": "خدمات شما نیاز به بهبود دارد.",
+        "ar": "خدمتكم تحتاج إلى التحسين.",
+        "es": "Su servicio necesita mejorar.",
+        "zh": "你们的服务需要改善。",
+        "ja": "あなたのサービスは改善が必要です。"
+      },
+      "tokens": {
+        "th": [
+          "บริการ",
+          "ของ",
+          "คุณ",
+          "จำเป็น",
+          "ต้อง",
+          "ได้รับ",
+          "การ",
+          "ปรับปรุง"
+        ],
+        "zh": ["你们", "的", "服务", "需要", "改善", "。"],
+        "ja": [
+          "あなた",
+          "の",
+          "サービス",
+          "は",
+          "改善",
+          "が",
+          "必要",
+          "です",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s15",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Do you have a comment box?",
+        "th": "คุณมีกล่องแสดงความคิดเห็นไหม",
+        "fa": "آیا جعبه نظرات دارید؟",
+        "ar": "هل لديك صندوق تعليقات؟",
+        "es": "¿Tiene un buzón de sugerencias?",
+        "zh": "你们有意见箱吗？",
+        "ja": "コメントボックスはありますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "มี", "กล่อง", "แสดง", "ความคิดเห็น", "ไหม"],
+        "zh": ["你们", "有", "意见", "箱", "吗", "？"],
+        "ja": ["コメント", "ボックス", "は", "あり", "ます", "か", "？"]
+      }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Responding to Feedback",
+        "th": "สถานการณ์ที่ 4: การตอบสนองต่อข้อเสนอแนะ",
+        "fa": "سناریو ۴: پاسخ به بازخورد",
+        "ar": "السيناريو 4: الرد على الملاحظات",
+        "es": "Escenario 4: Responder a la retroalimentación",
+        "zh": "场景 4：回应反馈",
+        "ja": "シナリオ 4：フィードバックへの対応"
+      }
+    },
+    {
+      "id": "w16",
+      "kind": "Word",
+      "texts": {
+        "en": "thank",
+        "th": "ขอบคุณ",
+        "fa": "تشکر",
+        "ar": "شكر",
+        "es": "agradecer",
+        "zh": "感谢",
+        "ja": "感謝"
+      }
+    },
+    {
+      "id": "w17",
+      "kind": "Word",
+      "texts": {
+        "en": "appreciate",
+        "th": "ซาบซึ้ง",
+        "fa": "قدردانی",
+        "ar": "أقدر",
+        "es": "apreciar",
+        "zh": "感激",
+        "ja": "感謝"
+      }
+    },
+    {
+      "id": "w18",
+      "kind": "Word",
+      "texts": {
+        "en": "consider",
+        "th": "พิจารณา",
+        "fa": "در نظر گرفتن",
+        "ar": "نظر",
+        "es": "considerar",
+        "zh": "考虑",
+        "ja": "検討"
+      }
+    },
+    {
+      "id": "w19",
+      "kind": "Word",
+      "texts": {
+        "en": "implement",
+        "th": "นำไปใช้",
+        "fa": "اجرا",
+        "ar": "تنفيذ",
+        "es": "implementar",
+        "zh": "实施",
+        "ja": "実施"
+      }
+    },
+    {
+      "id": "w20",
+      "kind": "Word",
+      "texts": {
+        "en": "value",
+        "th": "คุณค่า",
+        "fa": "ارزش",
+        "ar": "قيمة",
+        "es": "valor",
+        "zh": "重视",
+        "ja": "重視"
+      }
+    },
+    {
+      "id": "s16",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Thank you for your feedback.",
+        "th": "ขอบคุณสำหรับข้อเสนอแนะของคุณ",
+        "fa": "ممنون بابت بازخورد شما.",
+        "ar": "شكراً لملاحظاتك.",
+        "es": "Gracias por sus comentarios.",
+        "zh": "感谢您的反馈。",
+        "ja": "フィードバックをありがとうございます。"
+      },
+      "tokens": {
+        "th": ["ขอบคุณ", "สำหรับ", "ข้อเสนอแนะ", "ของ", "คุณ"],
+        "zh": ["感谢", "您", "的", "反馈", "。"],
+        "ja": ["フィードバック", "を", "ありがとう", "ございます", "。"]
+      }
+    },
+    {
+      "id": "s17",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We appreciate your honest review.",
+        "th": "เราซาบซึ้งกับการรีวิวที่ตรงไปตรงมาของคุณ",
+        "fa": "ما از بررسی صادقانه شما قدردانی می‌کنیم.",
+        "ar": "نحن نقدر مراجعتك الصادقة.",
+        "es": "Apreciamos su reseña honesta.",
+        "zh": "我们感谢您诚实的评价。",
+        "ja": "率直なレビューに感謝いたします。"
+      },
+      "tokens": {
+        "th": [
+          "เรา",
+          "ซาบซึ้ง",
+          "กับ",
+          "การ",
+          "รีวิว",
+          "ที่",
+          "ตรงไปตรงมา",
+          "ของ",
+          "คุณ"
+        ],
+        "zh": ["我们", "感谢", "您", "诚实", "的", "评价", "。"],
+        "ja": ["率直", "な", "レビュー", "に", "感謝", "いたし", "ます", "。"]
+      }
+    },
+    {
+      "id": "s18",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We will consider your suggestion.",
+        "th": "เราจะพิจารณาข้อเสนอแนะของคุณ",
+        "fa": "ما پیشنهاد شما را در نظر خواهیم گرفت.",
+        "ar": "سننظر في اقتراحك.",
+        "es": "Consideraremos su sugerencia.",
+        "zh": "我们会考虑您的建议。",
+        "ja": "ご提案を検討いたします。"
+      },
+      "tokens": {
+        "th": ["เรา", "จะ", "พิจารณา", "ข้อเสนอแนะ", "ของ", "คุณ"],
+        "zh": ["我们", "会", "考虑", "您", "的", "建议", "。"],
+        "ja": ["ご", "提案", "を", "検討", "いたし", "ます", "。"]
+      }
+    },
+    {
+      "id": "s19",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We plan to implement these changes.",
+        "th": "เราวางแผนที่จะนำการเปลี่ยนแปลงเหล่านี้ไปใช้",
+        "fa": "ما قصد داریم این تغییرات را اجرا کنیم.",
+        "ar": "نخطط لتنفيذ هذه التغييرات.",
+        "es": "Planeamos implementar estos cambios.",
+        "zh": "我们计划实施这些更改。",
+        "ja": "これらの変更を実施する予定です。"
+      },
+      "tokens": {
+        "th": [
+          "เรา",
+          "วางแผน",
+          "ที่",
+          "จะ",
+          "นำ",
+          "การ",
+          "เปลี่ยนแปลง",
+          "เหล่านี้",
+          "ไปใช้"
+        ],
+        "zh": ["我们", "计划", "实施", "这些", "更改", "。"],
+        "ja": [
+          "これら",
+          "の",
+          "変更",
+          "を",
+          "実施",
+          "する",
+          "予定",
+          "です",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s20",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We value your opinion highly.",
+        "th": "เราให้ความสำคัญกับความคิดเห็นของคุณอย่างมาก",
+        "fa": "ما برای نظر شما ارزش زیادی قائلیم.",
+        "ar": "نحن نقدر رأيك كثيراً.",
+        "es": "Valoramos mucho su opinión.",
+        "zh": "我们非常重视您的意见。",
+        "ja": "私たちはあなたの意見を非常に重視しています。"
+      },
+      "tokens": {
+        "th": [
+          "เรา",
+          "ให้",
+          "ความสำคัญ",
+          "กับ",
+          "ความคิดเห็น",
+          "ของ",
+          "คุณ",
+          "อย่าง",
+          "มาก"
+        ],
+        "zh": ["我们", "非常", "重视", "您", "的", "意见", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "あなた",
+          "の",
+          "意見",
+          "を",
+          "非常",
+          "に",
+          "重視",
+          "し",
+          "て",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Escalation",
+        "th": "สถานการณ์ที่ 5: การยกระดับปัญหา",
+        "fa": "سناریو ۵: تشدید",
+        "ar": "السيناريو 5: التصعيد",
+        "es": "Escenario 5: Escalada",
+        "zh": "场景 5：问题升级",
+        "ja": "シナリオ 5：エスカレーション"
+      }
+    },
+    {
+      "id": "w21",
+      "kind": "Word",
+      "texts": {
+        "en": "escalate",
+        "th": "ยกระดับ",
+        "fa": "تشدید",
+        "ar": "تصعيد",
+        "es": "escalar",
+        "zh": "升级",
+        "ja": "エスカレート"
+      }
+    },
+    {
+      "id": "w22",
+      "kind": "Word",
+      "texts": {
+        "en": "supervisor",
+        "th": "หัวหน้างาน",
+        "fa": "سرپرست",
+        "ar": "مشرف",
+        "es": "supervisor",
+        "zh": "主管",
+        "ja": "監督者"
+      }
+    },
+    {
+      "id": "w23",
+      "kind": "Word",
+      "texts": {
+        "en": "formal",
+        "th": "ทางการ",
+        "fa": "رسمی",
+        "ar": "رسمي",
+        "es": "formal",
+        "zh": "正式",
+        "ja": "正式"
+      }
+    },
+    {
+      "id": "w24",
+      "kind": "Word",
+      "texts": {
+        "en": "written",
+        "th": "ลายลักษณ์อักษร",
+        "fa": "کتبی",
+        "ar": "مكتوب",
+        "es": "escrito",
+        "zh": "书面",
+        "ja": "書面"
+      }
+    },
+    {
+      "id": "w25",
+      "kind": "Word",
+      "texts": {
+        "en": "record",
+        "th": "บันทึก",
+        "fa": "سابقه",
+        "ar": "سجل",
+        "es": "registro",
+        "zh": "记录",
+        "ja": "記録"
+      }
+    },
+    {
+      "id": "s21",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I need to escalate this issue.",
+        "th": "ฉันจำเป็นต้องยกระดับปัญหานี้",
+        "fa": "من باید این مسئله را تشدید کنم.",
+        "ar": "أحتاج إلى تصعيد هذه القضية.",
+        "es": "Necesito escalar este asunto.",
+        "zh": "我需要升级这个问题。",
+        "ja": "この問題をエスカレートさせる必要があります。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "จำเป็น", "ต้อง", "ยกระดับ", "ปัญหา", "นี้"],
+        "zh": ["我", "需要", "升级", "这个", "问题", "。"],
+        "ja": [
+          "この",
+          "問題",
+          "を",
+          "エスカレート",
+          "させる",
+          "必要",
+          "が",
+          "あり",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s22",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Please put me in touch with your supervisor.",
+        "th": "กรุณาติดต่อหัวหน้างานของคุณให้ฉัน",
+        "fa": "لطفاً مرا با سرپرست خود در تماس قرار دهید.",
+        "ar": "يرجى توصيلي بمشرفك.",
+        "es": "Por favor, póngame en contacto con su supervisor.",
+        "zh": "请让我联系您的主管。",
+        "ja": "監督者と連絡を取らせてください。"
+      },
+      "tokens": {
+        "th": ["กรุณา", "ติดต่อ", "หัวหน้างาน", "ของ", "คุณ", "ให้", "ฉัน"],
+        "zh": ["请", "让", "我", "联系", "您", "的", "主管", "。"],
+        "ja": [
+          "監督者",
+          "と",
+          "連絡",
+          "を",
+          "取ら",
+          "せ",
+          "て",
+          "ください",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s23",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I am filing a formal complaint.",
+        "th": "ฉันกำลังยื่นเรื่องร้องเรียนอย่างเป็นทางการ",
+        "fa": "من در حال ثبت شکایت رسمی هستم.",
+        "ar": "أنا أقدم شكوى رسمية.",
+        "es": "Estoy presentando una queja formal.",
+        "zh": "我正在提出正式投诉。",
+        "ja": "正式な苦情を申し立てています。"
+      },
+      "tokens": {
+        "th": [
+          "ฉัน",
+          "กำลัง",
+          "ยื่น",
+          "เรื่อง",
+          "ร้องเรียน",
+          "อย่าง",
+          "เป็นทางการ"
+        ],
+        "zh": ["我", "正在", "提出", "正式", "投诉", "。"],
+        "ja": ["正式", "な", "苦情", "を", "申し立て", "て", "い", "ます", "。"]
+      }
+    },
+    {
+      "id": "s24",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Please provide this in writing.",
+        "th": "กรุณาแจ้งเป็นลายลักษณ์อักษร",
+        "fa": "لطفاً این را به صورت کتبی ارائه دهید.",
+        "ar": "يرجى تقديم هذا كتابةً.",
+        "es": "Por favor, proporcione esto por escrito.",
+        "zh": "请提供书面说明。",
+        "ja": "書面でご提供ください。"
+      },
+      "tokens": {
+        "th": ["กรุณา", "แจ้ง", "เป็น", "ลายลักษณ์อักษร"],
+        "zh": ["请", "提供", "书面", "说明", "。"],
+        "ja": ["書面", "で", "ご", "提供", "ください", "。"]
+      }
+    },
+    {
+      "id": "s25",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We will keep a record of this conversation.",
+        "th": "เราจะบันทึกการสนทนานี้ไว้",
+        "fa": "ما سابقه این مکالمه را نگه خواهیم داشت.",
+        "ar": "سنحتفظ بسجل لهذه المحادثة.",
+        "es": "Mantendremos un registro de esta conversación.",
+        "zh": "我们将保留这次谈话的记录。",
+        "ja": "この会話の記録を保管いたします。"
+      },
+      "tokens": {
+        "th": ["เรา", "จะ", "บันทึก", "การ", "สนทนา", "นี้", "ไว้"],
+        "zh": ["我们", "将", "保留", "这次", "谈话", "的", "记录", "。"],
+        "ja": [
+          "この",
+          "会話",
+          "の",
+          "記録",
+          "を",
+          "保管",
+          "いたし",
+          "ます",
+          "。"
+        ]
       }
     }
   ]

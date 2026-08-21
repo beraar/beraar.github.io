@@ -2,60 +2,47 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "h1",
       "header": true,
       "texts": {
-        "en": "Core Words",
-        "th": "คำหลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras básicas",
-        "zh": "核心词汇",
-        "ja": "コア単語"
+        "en": "Scenario 1: Current Weather",
+        "th": "สถานการณ์ที่ 1: สภาพอากาศปัจจุบัน",
+        "fa": "سناریو ۱: آب و هوای فعلی",
+        "ar": "السيناريو 1: الطقس الحالي",
+        "es": "Escenario 1: Clima actual",
+        "zh": "场景 1：当前天气",
+        "ja": "シナリオ 1：現在の天気"
       }
     },
     {
-      "id": "word_weather",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
-        "en": "weather",
-        "th": "อากาศ",
-        "fa": "آب‌وهوا",
-        "ar": "طقس",
-        "es": "clima",
-        "zh": "天气",
-        "ja": "天気"
+        "en": "sunny",
+        "th": "แดดออก",
+        "fa": "آفتابی",
+        "ar": "مشمس",
+        "es": "soleado",
+        "zh": "晴朗",
+        "ja": "晴れ"
       }
     },
     {
-      "id": "word_hot",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
       "texts": {
-        "en": "hot",
-        "th": "ร้อน",
-        "fa": "گرم",
-        "ar": "حار",
-        "es": "calor",
-        "zh": "热",
-        "ja": "暑い"
+        "en": "cloudy",
+        "th": "มีเมฆ",
+        "fa": "ابری",
+        "ar": "غائم",
+        "es": "nublado",
+        "zh": "多云",
+        "ja": "曇り"
       }
     },
     {
-      "id": "word_cold",
-      "kind": "word",
-      "texts": {
-        "en": "cold",
-        "th": "หนาว",
-        "fa": "سرد",
-        "ar": "بارد",
-        "es": "frío",
-        "zh": "冷",
-        "ja": "寒い"
-      }
-    },
-    {
-      "id": "word_rain",
-      "kind": "word",
+      "id": "w3",
+      "kind": "Word",
       "texts": {
         "en": "rain",
         "th": "ฝน",
@@ -67,732 +54,8 @@
       }
     },
     {
-      "id": "word_sun",
-      "kind": "word",
-      "texts": {
-        "en": "sun",
-        "th": "แดด",
-        "fa": "آفتاب",
-        "ar": "شمس",
-        "es": "sol",
-        "zh": "太阳",
-        "ja": "太陽"
-      }
-    },
-    {
-      "id": "word_today",
-      "kind": "word",
-      "texts": {
-        "en": "today",
-        "th": "วันนี้",
-        "fa": "امروز",
-        "ar": "اليوم",
-        "es": "hoy",
-        "zh": "今天",
-        "ja": "今日"
-      }
-    },
-    {
-      "id": "word_tomorrow",
-      "kind": "word",
-      "texts": {
-        "en": "tomorrow",
-        "th": "พรุ่งนี้",
-        "fa": "فردا",
-        "ar": "غداً",
-        "es": "mañana",
-        "zh": "明天",
-        "ja": "明日"
-      }
-    },
-    {
-      "id": "word_how",
-      "kind": "word",
-      "texts": {
-        "en": "how",
-        "th": "อย่างไร",
-        "fa": "چگونه",
-        "ar": "كيف",
-        "es": "cómo",
-        "zh": "怎么",
-        "ja": "どう"
-      }
-    },
-    {
-      "id": "word_very",
-      "kind": "word",
-      "texts": {
-        "en": "very",
-        "th": "มาก",
-        "fa": "خیلی",
-        "ar": "جداً",
-        "es": "muy",
-        "zh": "很",
-        "ja": "とても"
-      }
-    },
-    {
-      "id": "word_not",
-      "kind": "word",
-      "texts": {
-        "en": "not",
-        "th": "ไม่",
-        "fa": "نه",
-        "ar": "لا",
-        "es": "no",
-        "zh": "不",
-        "ja": "ない"
-      }
-    },
-    {
-      "id": "word_question",
-      "kind": "word",
-      "texts": {
-        "en": "question marker",
-        "th": "ไหม",
-        "fa": "آیا",
-        "ar": "هل",
-        "es": "partícula interrogativa",
-        "zh": "吗",
-        "ja": "か"
-      }
-    },
-    {
-      "id": "word_I",
-      "kind": "word",
-      "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
-      }
-    },
-    {
-      "id": "word_like",
-      "kind": "word",
-      "texts": {
-        "en": "like",
-        "th": "ชอบ",
-        "fa": "دوست داشتن",
-        "ar": "يحب",
-        "es": "gustar",
-        "zh": "喜欢",
-        "ja": "好き"
-      }
-    },
-    {
-      "id": "word_outside",
-      "kind": "word",
-      "texts": {
-        "en": "outside",
-        "th": "ข้างนอก",
-        "fa": "بیرون",
-        "ar": "خارج",
-        "es": "afuera",
-        "zh": "外面",
-        "ja": "外"
-      }
-    },
-    {
-      "id": "word_fall",
-      "kind": "word",
-      "texts": {
-        "en": "fall",
-        "th": "ตก",
-        "fa": "باریدن",
-        "ar": "يسقط",
-        "es": "caer",
-        "zh": "下",
-        "ja": "降る"
-      }
-    },
-    {
-      "id": "word_have",
-      "kind": "word",
-      "texts": {
-        "en": "have",
-        "th": "มี",
-        "fa": "داشتن",
-        "ar": "يملك",
-        "es": "tener",
-        "zh": "有",
-        "ja": "ある"
-      }
-    },
-    {
-      "id": "word_want",
-      "kind": "word",
-      "texts": {
-        "en": "want",
-        "th": "อยาก",
-        "fa": "خواستن",
-        "ar": "يريد",
-        "es": "querer",
-        "zh": "想",
-        "ja": "したい"
-      }
-    },
-    {
-      "id": "word_water",
-      "kind": "word",
-      "texts": {
-        "en": "water",
-        "th": "น้ำ",
-        "fa": "آب",
-        "ar": "ماء",
-        "es": "agua",
-        "zh": "水",
-        "ja": "水"
-      }
-    },
-    {
-      "id": "word_good",
-      "kind": "word",
-      "texts": {
-        "en": "good",
-        "th": "ดี",
-        "fa": "خوب",
-        "ar": "جيد",
-        "es": "bueno",
-        "zh": "好",
-        "ja": "良い"
-      }
-    },
-    {
-      "id": "word_be",
-      "kind": "word",
-      "texts": {
-        "en": "be",
-        "th": "เป็น",
-        "fa": "بودن",
-        "ar": "يكون",
-        "es": "ser",
-        "zh": "是",
-        "ja": "です"
-      }
-    },
-    {
-      "id": "header_scenario_1",
-      "header": true,
-      "texts": {
-        "en": "Scenario 1: Current Weather & Small Talk",
-        "th": "สถานการณ์ 1: อากาศปัจจุบันและพูดคุยทั่วไป",
-        "fa": "سناریوی ۱: آب‌وهوای فعلی و گپ کوتاه",
-        "ar": "السيناريو ١: الطقس الحالي والمحادثة القصيرة",
-        "es": "Escenario 1: Clima actual y charla casual",
-        "zh": "场景一：当前天气与闲聊",
-        "ja": "シーン1：現在の天気とスモールトーク"
-      }
-    },
-    {
-      "id": "sentence_wt_s1_how_weather",
-      "kind": "sentence",
-      "itemIds": [
-        "word_today",
-        "word_weather",
-        "word_be",
-        "word_how"
-      ],
-      "texts": {
-        "en": "How is the weather today",
-        "th": "วันนี้อากาศเป็นยังไงคะ",
-        "fa": "امروز آب‌وهوا چطور است",
-        "ar": "كيف هو الطقس اليوم",
-        "es": "Cómo está el clima hoy",
-        "zh": "今天天气怎么样",
-        "ja": "今日の天気はどうですか"
-      },
-      "tokens": {
-        "en": [
-          "How",
-          "is",
-          "the",
-          "weather",
-          "today"
-        ],
-        "th": [
-          "วันนี้",
-          "อากาศ",
-          "เป็น",
-          "ยังไง",
-          "คะ"
-        ],
-        "fa": [
-          "امروز",
-          "آب‌وهوا",
-          "چطور",
-          "است"
-        ],
-        "ar": [
-          "كيف",
-          "هو",
-          "الطقس",
-          "اليوم"
-        ],
-        "es": [
-          "Cómo",
-          "está",
-          "el",
-          "clima",
-          "hoy"
-        ],
-        "zh": [
-          "今天",
-          "天气",
-          "怎么样"
-        ],
-        "ja": [
-          "今日",
-          "の",
-          "天気",
-          "は",
-          "どう",
-          "です",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s1_very_hot",
-      "kind": "sentence",
-      "itemIds": [
-        "word_hot",
-        "word_very"
-      ],
-      "texts": {
-        "en": "It is very hot",
-        "th": "ร้อนมากค่ะ",
-        "fa": "خیلی گرم است",
-        "ar": "الجو حار جداً",
-        "es": "Hace mucho calor",
-        "zh": "非常热",
-        "ja": "とても暑いです"
-      },
-      "tokens": {
-        "en": [
-          "It",
-          "is",
-          "very",
-          "hot"
-        ],
-        "th": [
-          "ร้อน",
-          "มาก",
-          "ค่ะ"
-        ],
-        "fa": [
-          "خیلی",
-          "گرم",
-          "است"
-        ],
-        "ar": [
-          "الجو",
-          "حار",
-          "جداً"
-        ],
-        "es": [
-          "Hace",
-          "mucho",
-          "calor"
-        ],
-        "zh": [
-          "非常",
-          "热"
-        ],
-        "ja": [
-          "とても",
-          "暑い",
-          "です"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s1_rain_outside",
-      "kind": "sentence",
-      "itemIds": [
-        "word_outside",
-        "word_rain",
-        "word_fall",
-        "word_question"
-      ],
-      "texts": {
-        "en": "Is it raining outside",
-        "th": "ข้างนอกฝนตกไหมคะ",
-        "fa": "آیا بیرون باران می‌بارد",
-        "ar": "هل تمطر خارجاً",
-        "es": "Está lloviendo afuera",
-        "zh": "外面下雨吗",
-        "ja": "外は雨が降っていますか"
-      },
-      "tokens": {
-        "en": [
-          "Is",
-          "it",
-          "raining",
-          "outside"
-        ],
-        "th": [
-          "ข้างนอก",
-          "ฝน",
-          "ตก",
-          "ไหม",
-          "คะ"
-        ],
-        "fa": [
-          "آیا",
-          "بیرون",
-          "باران",
-          "می‌بارد"
-        ],
-        "ar": [
-          "هل",
-          "تمطر",
-          "خارجاً"
-        ],
-        "es": [
-          "Está",
-          "lloviendo",
-          "afuera"
-        ],
-        "zh": [
-          "外面",
-          "下雨",
-          "吗"
-        ],
-        "ja": [
-          "外",
-          "は",
-          "雨",
-          "が",
-          "降って",
-          "います",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s1_sun_strong",
-      "kind": "sentence",
-      "itemIds": [
-        "word_sun",
-        "word_strong",
-        "word_very"
-      ],
-      "texts": {
-        "en": "The sun is very strong",
-        "th": "แดดแรงมากค่ะ",
-        "fa": "آفتاب خیلی شدید است",
-        "ar": "الشمس قوية جداً",
-        "es": "El sol es muy fuerte",
-        "zh": "太阳很强烈",
-        "ja": "日差しがとても強いです"
-      },
-      "tokens": {
-        "en": [
-          "The",
-          "sun",
-          "is",
-          "very",
-          "strong"
-        ],
-        "th": [
-          "แดด",
-          "แรง",
-          "มาก",
-          "ค่ะ"
-        ],
-        "fa": [
-          "آفتاب",
-          "خیلی",
-          "شدید",
-          "است"
-        ],
-        "ar": [
-          "الشمس",
-          "قوية",
-          "جداً"
-        ],
-        "es": [
-          "El",
-          "sol",
-          "es",
-          "muy",
-          "fuerte"
-        ],
-        "zh": [
-          "太阳",
-          "很",
-          "强烈"
-        ],
-        "ja": [
-          "日差し",
-          "が",
-          "とても",
-          "強い",
-          "です"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s1_humid",
-      "kind": "sentence",
-      "itemIds": [
-        "word_today",
-        "word_weather",
-        "word_humid",
-        "word_very"
-      ],
-      "texts": {
-        "en": "It is very humid today",
-        "th": "วันนี้อากาศชื้นมากค่ะ",
-        "fa": "امروز هوا خیلی مرطوب است",
-        "ar": "الجو رطب جداً اليوم",
-        "es": "Está muy húmedo hoy",
-        "zh": "今天很潮湿",
-        "ja": "今日はとても蒸し暑いです"
-      },
-      "tokens": {
-        "en": [
-          "It",
-          "is",
-          "very",
-          "humid",
-          "today"
-        ],
-        "th": [
-          "วันนี้",
-          "อากาศ",
-          "ชื้น",
-          "มาก",
-          "ค่ะ"
-        ],
-        "fa": [
-          "امروز",
-          "هوا",
-          "خیلی",
-          "مرطوب",
-          "است"
-        ],
-        "ar": [
-          "الجو",
-          "رطب",
-          "جداً",
-          "اليوم"
-        ],
-        "es": [
-          "Está",
-          "muy",
-          "húmedo",
-          "hoy"
-        ],
-        "zh": [
-          "今天",
-          "很",
-          "潮湿"
-        ],
-        "ja": [
-          "今日",
-          "は",
-          "とても",
-          "蒸し暑い",
-          "です"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s1_feel_cold",
-      "kind": "sentence",
-      "itemIds": [
-        "word_I",
-        "word_feel",
-        "word_cold",
-        "word_very"
-      ],
-      "texts": {
-        "en": "I feel very cold",
-        "th": "ฉันรู้สึกหนาวมากค่ะ",
-        "fa": "من خیلی احساس سرما می‌کنم",
-        "ar": "أشعر بالبرد الشديد",
-        "es": "Siento mucho frío",
-        "zh": "我感觉很冷",
-        "ja": "とても寒く感じます"
-      },
-      "tokens": {
-        "en": [
-          "I",
-          "feel",
-          "very",
-          "cold"
-        ],
-        "th": [
-          "ฉัน",
-          "รู้สึก",
-          "หนาว",
-          "มาก",
-          "ค่ะ"
-        ],
-        "fa": [
-          "من",
-          "خیلی",
-          "احساس",
-          "سرما",
-          "می‌کنم"
-        ],
-        "ar": [
-          "أشعر",
-          "بالبرد",
-          "الشديد"
-        ],
-        "es": [
-          "Siento",
-          "mucho",
-          "frío"
-        ],
-        "zh": [
-          "我",
-          "感觉",
-          "很",
-          "冷"
-        ],
-        "ja": [
-          "とても",
-          "寒く",
-          "感じ",
-          "ます"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s1_wind_lot",
-      "kind": "sentence",
-      "itemIds": [
-        "word_have",
-        "word_wind",
-        "word_a_lot"
-      ],
-      "texts": {
-        "en": "There is a lot of wind",
-        "th": "มีลมเยอะค่ะ",
-        "fa": "باد زیادی می‌وزد",
-        "ar": "هناك رياح كثيرة",
-        "es": "Hay mucho viento",
-        "zh": "风很大",
-        "ja": "風がたくさん吹いています"
-      },
-      "tokens": {
-        "en": [
-          "There",
-          "is",
-          "a",
-          "lot",
-          "of",
-          "wind"
-        ],
-        "th": [
-          "มี",
-          "ลม",
-          "เยอะ",
-          "ค่ะ"
-        ],
-        "fa": [
-          "باد",
-          "زیادی",
-          "می‌وزد"
-        ],
-        "ar": [
-          "هناك",
-          "رياح",
-          "كثيرة"
-        ],
-        "es": [
-          "Hay",
-          "mucho",
-          "viento"
-        ],
-        "zh": [
-          "风",
-          "很大"
-        ],
-        "ja": [
-          "風",
-          "が",
-          "たくさん",
-          "吹いて",
-          "います"
-        ]
-      }
-    },
-    {
-      "id": "word_humid",
-      "kind": "word",
-      "texts": {
-        "en": "humid",
-        "th": "ชื้น",
-        "fa": "مرطوب",
-        "ar": "رطب",
-        "es": "húmedo",
-        "zh": "潮湿",
-        "ja": "蒸し暑い"
-      }
-    },
-    {
-      "id": "word_cool",
-      "kind": "word",
-      "texts": {
-        "en": "cool",
-        "th": "เย็น",
-        "fa": "خنک",
-        "ar": "بارد لطيف",
-        "es": "fresco",
-        "zh": "凉爽",
-        "ja": "涼しい"
-      }
-    },
-    {
-      "id": "word_strong",
-      "kind": "word",
-      "texts": {
-        "en": "strong",
-        "th": "แรง",
-        "fa": "شدید",
-        "ar": "قوي",
-        "es": "fuerte",
-        "zh": "强烈",
-        "ja": "強い"
-      }
-    },
-    {
-      "id": "word_feel",
-      "kind": "word",
-      "texts": {
-        "en": "feel",
-        "th": "รู้สึก",
-        "fa": "احساس کردن",
-        "ar": "يشعر",
-        "es": "sentir",
-        "zh": "感觉",
-        "ja": "感じる"
-      }
-    },
-    {
-      "id": "word_a_lot",
-      "kind": "word",
-      "texts": {
-        "en": "a lot",
-        "th": "เยอะ",
-        "fa": "زیاد",
-        "ar": "كثير",
-        "es": "mucho",
-        "zh": "很多",
-        "ja": "たくさん"
-      }
-    },
-    {
-      "id": "word_wind",
-      "kind": "word",
+      "id": "w4",
+      "kind": "Word",
       "texts": {
         "en": "wind",
         "th": "ลม",
@@ -804,1541 +67,498 @@
       }
     },
     {
-      "id": "header_scenario_2",
+      "id": "w5",
+      "kind": "Word",
+      "texts": {
+        "en": "hot",
+        "th": "ร้อน",
+        "fa": "گرم",
+        "ar": "حار",
+        "es": "caliente",
+        "zh": "热",
+        "ja": "暑い"
+      }
+    },
+    {
+      "id": "s1",
+      "kind": "Sentence",
+      "texts": {
+        "en": "It is sunny today.",
+        "th": "วันนี้แดดออก",
+        "fa": "امروز آفتابی است.",
+        "ar": "الجو مشمس اليوم.",
+        "es": "Hace sol hoy.",
+        "zh": "今天天气晴朗。",
+        "ja": "今日は晴れています。"
+      },
+      "tokens": {
+        "th": ["วันนี้", "แดด", "ออก"],
+        "zh": ["今天", "天气", "晴朗", "。"],
+        "ja": ["今日", "は", "晴れ", "て", "い", "ます", "。"]
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "Sentence",
+      "texts": {
+        "en": "It is very cloudy.",
+        "th": "ท้องฟ้ามืดครึ้มมาก",
+        "fa": "هوا خیلی ابری است.",
+        "ar": "الجو غائم جداً.",
+        "es": "Está muy nublado.",
+        "zh": "天气非常多云。",
+        "ja": "とても曇っています。"
+      },
+      "tokens": {
+        "th": ["ท้องฟ้า", "มืดครึ้ม", "มาก"],
+        "zh": ["天气", "非常", "多云", "。"],
+        "ja": ["とても", "曇っ", "て", "い", "ます", "。"]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "Sentence",
+      "texts": {
+        "en": "It is raining outside.",
+        "th": "ข้างนอกกำลังฝนตก",
+        "fa": "بیرون باران می‌بارد.",
+        "ar": "إنها تمطر في الخارج.",
+        "es": "Está lloviendo afuera.",
+        "zh": "外面正在下雨。",
+        "ja": "外は雨が降っています。"
+      },
+      "tokens": {
+        "th": ["ข้างนอก", "กำลัง", "ฝนตก"],
+        "zh": ["外面", "正在", "下雨", "。"],
+        "ja": ["外", "は", "雨", "が", "降っ", "て", "い", "ます", "。"]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The wind is blowing strongly.",
+        "th": "ลมพัดแรงมาก",
+        "fa": "باد به شدت می‌وزد.",
+        "ar": "الرياح تهب بقوة.",
+        "es": "El viento sopla fuerte.",
+        "zh": "风刮得很大。",
+        "ja": "風が強く吹いています。"
+      },
+      "tokens": {
+        "th": ["ลม", "พัด", "แรง", "มาก"],
+        "zh": ["风", "刮", "得", "很", "大", "。"],
+        "ja": ["風", "が", "強く", "吹い", "て", "い", "ます", "。"]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "It is too hot today.",
+        "th": "วันนี้ร้อนเกินไป",
+        "fa": "امروز خیلی گرم است.",
+        "ar": "الجو حار جداً اليوم.",
+        "es": "Hace demasiado calor hoy.",
+        "zh": "今天太热了。",
+        "ja": "今日は暑すぎます。"
+      },
+      "tokens": {
+        "th": ["วันนี้", "ร้อน", "เกิน", "ไป"],
+        "zh": ["今天", "太", "热", "了", "。"],
+        "ja": ["今日", "は", "暑すぎ", "ます", "。"]
+      }
+    },
+
+    {
+      "id": "h2",
       "header": true,
       "texts": {
-        "en": "Scenario 2: Forecasts & Tomorrow",
-        "th": "สถานการณ์ 2: พยากรณ์และพรุ่งนี้",
-        "fa": "سناریوی ۲: پیش‌بینی و فردا",
-        "ar": "السيناريو ٢: التوقعات وغداً",
-        "es": "Escenario 2: Pronósticos y mañana",
-        "zh": "场景二：预报与明天",
-        "ja": "シーン2：予報と明日"
+        "en": "Scenario 2: Forecast & Predictions",
+        "th": "สถานการณ์ที่ 2: การพยากรณ์อากาศ",
+        "fa": "سناریو ۲: پیش‌بینی هوا",
+        "ar": "السيناريو 2: التنبؤات",
+        "es": "Escenario 2: Pronóstico",
+        "zh": "场景 2：天气预报",
+        "ja": "シナリオ 2：天気予報"
       }
     },
     {
-      "id": "sentence_wt_s2_rain_tomorrow",
-      "kind": "sentence",
-      "itemIds": [
-        "word_tomorrow",
-        "word_rain",
-        "word_fall",
-        "word_question"
-      ],
-      "texts": {
-        "en": "Will it rain tomorrow",
-        "th": "พรุ่งนี้ฝนตกไหมคะ",
-        "fa": "آیا فردا باران می‌بارد",
-        "ar": "هل ستمطر غداً",
-        "es": "Lloverá mañana",
-        "zh": "明天下雨吗",
-        "ja": "明日は雨が降りますか"
-      },
-      "tokens": {
-        "en": [
-          "Will",
-          "it",
-          "rain",
-          "tomorrow"
-        ],
-        "th": [
-          "พรุ่งนี้",
-          "ฝน",
-          "ตก",
-          "ไหม",
-          "คะ"
-        ],
-        "fa": [
-          "آیا",
-          "فردا",
-          "باران",
-          "می‌بارد"
-        ],
-        "ar": [
-          "هل",
-          "ستمطر",
-          "غداً"
-        ],
-        "es": [
-          "Lloverá",
-          "mañana"
-        ],
-        "zh": [
-          "明天",
-          "下雨",
-          "吗"
-        ],
-        "ja": [
-          "明日",
-          "は",
-          "雨",
-          "が",
-          "降り",
-          "ます",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s2_forecast",
-      "kind": "sentence",
-      "itemIds": [
-        "word_forecast",
-        "word_weather",
-        "word_be",
-        "word_how"
-      ],
-      "texts": {
-        "en": "What is the forecast",
-        "th": "พยากรณ์อากาศเป็นยังไงคะ",
-        "fa": "پیش‌بینی آب‌وهوا چطور است",
-        "ar": "ما هي توقعات الطقس",
-        "es": "Cuál es el pronóstico",
-        "zh": "天气预报怎么样",
-        "ja": "天気予報はどうですか"
-      },
-      "tokens": {
-        "en": [
-          "What",
-          "is",
-          "the",
-          "forecast"
-        ],
-        "th": [
-          "พยากรณ์",
-          "อากาศ",
-          "เป็น",
-          "ยังไง",
-          "คะ"
-        ],
-        "fa": [
-          "پیش‌بینی",
-          "آب‌وهوا",
-          "چطور",
-          "است"
-        ],
-        "ar": [
-          "ما",
-          "هي",
-          "توقعات",
-          "الطقس"
-        ],
-        "es": [
-          "Cuál",
-          "es",
-          "el",
-          "pronóstico"
-        ],
-        "zh": [
-          "天气预报",
-          "怎么样"
-        ],
-        "ja": [
-          "天気",
-          "予報",
-          "は",
-          "どう",
-          "です",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s2_night_cool",
-      "kind": "sentence",
-      "itemIds": [
-        "word_night",
-        "word_weather",
-        "word_cool"
-      ],
-      "texts": {
-        "en": "It will be cool at night",
-        "th": "กลางคืนอากาศเย็นค่ะ",
-        "fa": "شب هوا خنک خواهد بود",
-        "ar": "سيكون الجو بارداً ليلاً",
-        "es": "Estará fresco por la noche",
-        "zh": "晚上会凉爽",
-        "ja": "夜は涼しいでしょう"
-      },
-      "tokens": {
-        "en": [
-          "It",
-          "will",
-          "be",
-          "cool",
-          "at",
-          "night"
-        ],
-        "th": [
-          "กลางคืน",
-          "อากาศ",
-          "เย็น",
-          "ค่ะ"
-        ],
-        "fa": [
-          "شب",
-          "هوا",
-          "خنک",
-          "خواهد",
-          "بود"
-        ],
-        "ar": [
-          "سيكون",
-          "الجو",
-          "بارداً",
-          "ليلاً"
-        ],
-        "es": [
-          "Estará",
-          "fresco",
-          "por",
-          "la",
-          "noche"
-        ],
-        "zh": [
-          "晚上",
-          "会",
-          "凉爽"
-        ],
-        "ja": [
-          "夜",
-          "は",
-          "涼しい",
-          "でしょう"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s2_bring_umbrella",
-      "kind": "sentence",
-      "itemIds": [
-        "word_bring",
-        "word_umbrella"
-      ],
-      "texts": {
-        "en": "Please bring an umbrella",
-        "th": "เอาร่มไปค่ะ",
-        "fa": "لطفاً چتر ببرید",
-        "ar": "أحضر مظلة من فضلك",
-        "es": "Traiga un paraguas por favor",
-        "zh": "请带伞",
-        "ja": "傘を持って行ってください"
-      },
-      "tokens": {
-        "en": [
-          "Please",
-          "bring",
-          "an",
-          "umbrella"
-        ],
-        "th": [
-          "เอา",
-          "ร่ม",
-          "ไป",
-          "ค่ะ"
-        ],
-        "fa": [
-          "لطفاً",
-          "چتر",
-          "ببرید"
-        ],
-        "ar": [
-          "أحضر",
-          "مظلة",
-          "من",
-          "فضلك"
-        ],
-        "es": [
-          "Traiga",
-          "un",
-          "paraguas",
-          "por",
-          "favor"
-        ],
-        "zh": [
-          "请",
-          "带",
-          "伞"
-        ],
-        "ja": [
-          "傘",
-          "を",
-          "持って",
-          "行って",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s2_rain_not_stop",
-      "kind": "sentence",
-      "itemIds": [
-        "word_rain",
-        "word_not",
-        "word_stop",
-        "word_fall"
-      ],
-      "texts": {
-        "en": "The rain will not stop",
-        "th": "ฝนไม่หยุดตกค่ะ",
-        "fa": "باران متوقف نخواهد شد",
-        "ar": "لن يتوقف المطر",
-        "es": "La lluvia no parará",
-        "zh": "雨不会停",
-        "ja": "雨は止まないでしょう"
-      },
-      "tokens": {
-        "en": [
-          "The",
-          "rain",
-          "will",
-          "not",
-          "stop"
-        ],
-        "th": [
-          "ฝน",
-          "ไม่",
-          "หยุด",
-          "ตก",
-          "ค่ะ"
-        ],
-        "fa": [
-          "باران",
-          "متوقف",
-          "نخواهد",
-          "شد"
-        ],
-        "ar": [
-          "لن",
-          "يتوقف",
-          "المطر"
-        ],
-        "es": [
-          "La",
-          "lluvia",
-          "no",
-          "parará"
-        ],
-        "zh": [
-          "雨",
-          "不会",
-          "停"
-        ],
-        "ja": [
-          "雨",
-          "は",
-          "止まない",
-          "でしょう"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s2_rain_all_day",
-      "kind": "sentence",
-      "itemIds": [
-        "word_rain",
-        "word_fall",
-        "word_all_day"
-      ],
-      "texts": {
-        "en": "It will rain all day",
-        "th": "ฝนตกทั้งวันค่ะ",
-        "fa": "تمام روز باران می‌بارد",
-        "ar": "ستمطر طوال اليوم",
-        "es": "Lloverá todo el día",
-        "zh": "会下一整天的雨",
-        "ja": "一日中雨が降るでしょう"
-      },
-      "tokens": {
-        "en": [
-          "It",
-          "will",
-          "rain",
-          "all",
-          "day"
-        ],
-        "th": [
-          "ฝน",
-          "ตก",
-          "ทั้งวัน",
-          "ค่ะ"
-        ],
-        "fa": [
-          "تمام",
-          "روز",
-          "باران",
-          "می‌بارد"
-        ],
-        "ar": [
-          "ستمطر",
-          "طوال",
-          "اليوم"
-        ],
-        "es": [
-          "Lloverá",
-          "todo",
-          "el",
-          "día"
-        ],
-        "zh": [
-          "会",
-          "下",
-          "一整天",
-          "的",
-          "雨"
-        ],
-        "ja": [
-          "一日中",
-          "雨",
-          "が",
-          "降る",
-          "でしょう"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s2_want_bring",
-      "kind": "sentence",
-      "itemIds": [
-        "word_I",
-        "word_want",
-        "word_bring",
-        "word_umbrella"
-      ],
-      "texts": {
-        "en": "I want to bring an umbrella",
-        "th": "ฉันอยากเอาร่มไปค่ะ",
-        "fa": "می‌خواهم چتر ببرم",
-        "ar": "أريد أن أحضر مظلة",
-        "es": "Quiero traer un paraguas",
-        "zh": "我想带伞",
-        "ja": "傘を持って行きたいです"
-      },
-      "tokens": {
-        "en": [
-          "I",
-          "want",
-          "to",
-          "bring",
-          "an",
-          "umbrella"
-        ],
-        "th": [
-          "ฉัน",
-          "อยาก",
-          "เอา",
-          "ร่ม",
-          "ไป",
-          "ค่ะ"
-        ],
-        "fa": [
-          "می‌خواهم",
-          "چتر",
-          "ببرم"
-        ],
-        "ar": [
-          "أريد",
-          "أن",
-          "أحضر",
-          "مظلة"
-        ],
-        "es": [
-          "Quiero",
-          "traer",
-          "un",
-          "paraguas"
-        ],
-        "zh": [
-          "我",
-          "想",
-          "带",
-          "伞"
-        ],
-        "ja": [
-          "傘",
-          "を",
-          "持って",
-          "行き",
-          "たい",
-          "です"
-        ]
-      }
-    },
-    {
-      "id": "word_forecast",
-      "kind": "word",
+      "id": "w6",
+      "kind": "Word",
       "texts": {
         "en": "forecast",
         "th": "พยากรณ์",
         "fa": "پیش‌بینی",
-        "ar": "توقعات",
+        "ar": "تنبؤ",
         "es": "pronóstico",
         "zh": "预报",
         "ja": "予報"
       }
     },
     {
-      "id": "word_umbrella",
-      "kind": "word",
+      "id": "w7",
+      "kind": "Word",
       "texts": {
-        "en": "umbrella",
-        "th": "ร่ม",
-        "fa": "چتر",
-        "ar": "مظلة",
-        "es": "paraguas",
-        "zh": "伞",
-        "ja": "傘"
+        "en": "tomorrow",
+        "th": "พรุ่งนี้",
+        "fa": "فردا",
+        "ar": "غداً",
+        "es": "mañana",
+        "zh": "明天",
+        "ja": "明日"
       }
     },
     {
-      "id": "word_bring",
-      "kind": "word",
+      "id": "w8",
+      "kind": "Word",
       "texts": {
-        "en": "bring",
-        "th": "เอา",
-        "fa": "آوردن",
-        "ar": "يحضر",
-        "es": "traer",
-        "zh": "带",
-        "ja": "持って行く"
+        "en": "might",
+        "th": "อาจจะ",
+        "fa": "شاید",
+        "ar": "ربما",
+        "es": "podría",
+        "zh": "可能",
+        "ja": "かもしれない"
       }
     },
     {
-      "id": "word_night",
-      "kind": "word",
+      "id": "w9",
+      "kind": "Word",
       "texts": {
-        "en": "night",
-        "th": "กลางคืน",
-        "fa": "شب",
-        "ar": "ليل",
-        "es": "noche",
-        "zh": "晚上",
-        "ja": "夜"
+        "en": "storm",
+        "th": "พายุ",
+        "fa": "طوفان",
+        "ar": "عاصفة",
+        "es": "tormenta",
+        "zh": "风暴",
+        "ja": "嵐"
       }
     },
     {
-      "id": "word_stop",
-      "kind": "word",
+      "id": "w10",
+      "kind": "Word",
       "texts": {
-        "en": "stop",
-        "th": "หยุด",
-        "fa": "توقف کردن",
-        "ar": "يتوقف",
-        "es": "parar",
-        "zh": "停",
-        "ja": "止む"
+        "en": "clear",
+        "th": "แจ่มใส",
+        "fa": "صاف",
+        "ar": "صافٍ",
+        "es": "despejado",
+        "zh": "晴朗",
+        "ja": "晴れ"
       }
     },
     {
-      "id": "word_all_day",
-      "kind": "word",
+      "id": "s6",
+      "kind": "Sentence",
       "texts": {
-        "en": "all day",
-        "th": "ทั้งวัน",
-        "fa": "تمام روز",
-        "ar": "طوال اليوم",
-        "es": "todo el día",
-        "zh": "整天",
-        "ja": "一日中"
+        "en": "The forecast says it will rain.",
+        "th": "พยากรณ์อากาศบอกว่าฝนจะตก",
+        "fa": "پیش‌بینی هوا می‌گوید باران می‌بارد.",
+        "ar": "التنبؤ يقول إنها ستمطر.",
+        "es": "El pronóstico dice que lloverá.",
+        "zh": "预报说会下雨。",
+        "ja": "予報によると雨が降るそうです。"
+      },
+      "tokens": {
+        "th": ["พยากรณ์", "อากาศ", "บอก", "ว่า", "ฝน", "จะ", "ตก"],
+        "zh": ["预报", "说", "会", "下雨", "。"],
+        "ja": [
+          "予報",
+          "に",
+          "よる",
+          "と",
+          "雨",
+          "が",
+          "降る",
+          "そう",
+          "です",
+          "。"
+        ]
       }
     },
     {
-      "id": "header_scenario_3",
+      "id": "s7",
+      "kind": "Sentence",
+      "texts": {
+        "en": "It might storm tomorrow.",
+        "th": "พรุ่งนี้อาจจะมีพายุ",
+        "fa": "فردا ممکن است طوفان باشد.",
+        "ar": "قد تكون هناك عاصفة غداً.",
+        "es": "Podría haber una tormenta mañana.",
+        "zh": "明天可能会有风暴。",
+        "ja": "明日は嵐になるかもしれません。"
+      },
+      "tokens": {
+        "th": ["พรุ่งนี้", "อาจ", "จะ", "มี", "พายุ"],
+        "zh": ["明天", "可能", "会", "有", "风暴", "。"],
+        "ja": [
+          "明日",
+          "は",
+          "嵐",
+          "に",
+          "なる",
+          "か",
+          "も",
+          "しれ",
+          "ませ",
+          "ん",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The sky will be clear.",
+        "th": "ท้องฟ้าจะแจ่มใส",
+        "fa": "آسمان صاف خواهد بود.",
+        "ar": "ستكون السماء صافية.",
+        "es": "El cielo estará despejado.",
+        "zh": "天空将会晴朗。",
+        "ja": "空は晴れるでしょう。"
+      },
+      "tokens": {
+        "th": ["ท้องฟ้า", "จะ", "แจ่มใส"],
+        "zh": ["天空", "将", "会", "晴朗", "。"],
+        "ja": ["空", "は", "晴れる", "でしょう", "。"]
+      }
+    },
+    {
+      "id": "s9",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Will it be cold tonight?",
+        "th": "คืนนี้หนาวไหม",
+        "fa": "آیا امشب سرد خواهد بود؟",
+        "ar": "هل سيكون الجو بارداً الليلة؟",
+        "es": "¿Hacía frío esta noche?",
+        "zh": "今晚会冷吗？",
+        "ja": "今夜は寒いですか？"
+      },
+      "tokens": {
+        "th": ["คืน", "นี้", "หนาว", "ไหม"],
+        "zh": ["今晚", "会", "冷", "吗", "？"],
+        "ja": ["今夜", "は", "寒い", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s10",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I hope the weather improves.",
+        "th": "ฉันหวังว่าอากาศจะดีขึ้น",
+        "fa": "امیدوارم هوا بهتر شود.",
+        "ar": "آمل أن يتحسن الطقس.",
+        "es": "Espero que mejore el clima.",
+        "zh": "我希望天气会好转。",
+        "ja": "天気が良くなることを願っています。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "หวัง", "ว่า", "อากาศ", "จะ", "ดี", "ขึ้น"],
+        "zh": ["我", "希望", "天气", "会", "好转", "。"],
+        "ja": [
+          "天気",
+          "が",
+          "良く",
+          "なる",
+          "こと",
+          "を",
+          "願っ",
+          "て",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+
+    {
+      "id": "h3",
       "header": true,
       "texts": {
-        "en": "Scenario 3: Thai Seasons & Climate Realities",
-        "th": "สถานการณ์ 3: ฤดูและสภาพอากาศไทย",
-        "fa": "سناریوی ۳: فصل‌ها و واقعیت‌های اقلیمی تایلند",
-        "ar": "السيناريو ٣: فصول تايلاند وحقائق المناخ",
-        "es": "Escenario 3: Estaciones y realidades climáticas",
-        "zh": "场景三：泰国季节与气候现实",
-        "ja": "シーン3：タイの季節と気候の現実"
+        "en": "Scenario 3: Seasons & Temperature",
+        "th": "สถานการณ์ที่ 3: ฤดูกาลและอุณหภูมิ",
+        "fa": "سناریو ۳: فصل‌ها و دما",
+        "ar": "السيناريو 3: الفصول ودرجة الحرارة",
+        "es": "Escenario 3: Estaciones y temperatura",
+        "zh": "场景 3：季节与温度",
+        "ja": "シナリオ 3：季節と気温"
       }
     },
     {
-      "id": "sentence_wt_s3_dust_lot",
-      "kind": "sentence",
-      "itemIds": [
-        "word_have",
-        "word_dust",
-        "word_a_lot"
-      ],
-      "texts": {
-        "en": "There is a lot of dust",
-        "th": "มีฝุ่นเยอะค่ะ",
-        "fa": "گرد و غبار زیادی وجود دارد",
-        "ar": "هناك غبار كثيف",
-        "es": "Hay mucho polvo",
-        "zh": "有很多灰尘",
-        "ja": "ほこりがたくさんあります"
-      },
-      "tokens": {
-        "en": [
-          "There",
-          "is",
-          "a",
-          "lot",
-          "of",
-          "dust"
-        ],
-        "th": [
-          "มี",
-          "ฝุ่น",
-          "เยอะ",
-          "ค่ะ"
-        ],
-        "fa": [
-          "گرد",
-          "و",
-          "غبار",
-          "زیادی",
-          "وجود",
-          "دارد"
-        ],
-        "ar": [
-          "هناك",
-          "غبار",
-          "كثيف"
-        ],
-        "es": [
-          "Hay",
-          "mucho",
-          "polvo"
-        ],
-        "zh": [
-          "有",
-          "很多",
-          "灰尘"
-        ],
-        "ja": [
-          "ほこり",
-          "が",
-          "たくさん",
-          "あります"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s3_pollution_not_good",
-      "kind": "sentence",
-      "itemIds": [
-        "word_pollution",
-        "word_not",
-        "word_good"
-      ],
-      "texts": {
-        "en": "The pollution is not good",
-        "th": "มลพิษไม่ดีค่ะ",
-        "fa": "آلودگی خوب نیست",
-        "ar": "التلوث ليس جيداً",
-        "es": "La contaminación no es buena",
-        "zh": "污染不好",
-        "ja": "汚染がひどいです"
-      },
-      "tokens": {
-        "en": [
-          "The",
-          "pollution",
-          "is",
-          "not",
-          "good"
-        ],
-        "th": [
-          "มลพิษ",
-          "ไม่",
-          "ดี",
-          "ค่ะ"
-        ],
-        "fa": [
-          "آلودگی",
-          "خوب",
-          "نیست"
-        ],
-        "ar": [
-          "التلوث",
-          "ليس",
-          "جيداً"
-        ],
-        "es": [
-          "La",
-          "contaminación",
-          "no",
-          "es",
-          "buena"
-        ],
-        "zh": [
-          "污染",
-          "不好"
-        ],
-        "ja": [
-          "汚染",
-          "が",
-          "ひどい",
-          "です"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s3_wear_mask",
-      "kind": "sentence",
-      "itemIds": [
-        "word_wear",
-        "word_mask"
-      ],
-      "texts": {
-        "en": "Please wear a mask",
-        "th": "ใส่หน้ากากค่ะ",
-        "fa": "لطفاً ماسک بزنید",
-        "ar": "يرجى ارتداء قناع",
-        "es": "Use mascarilla por favor",
-        "zh": "请戴口罩",
-        "ja": "マスクを着用してください"
-      },
-      "tokens": {
-        "en": [
-          "Please",
-          "wear",
-          "a",
-          "mask"
-        ],
-        "th": [
-          "ใส่",
-          "หน้ากาก",
-          "ค่ะ"
-        ],
-        "fa": [
-          "لطفاً",
-          "ماسک",
-          "بزنید"
-        ],
-        "ar": [
-          "يرجى",
-          "ارتداء",
-          "قناع"
-        ],
-        "es": [
-          "Use",
-          "mascarilla",
-          "por",
-          "favor"
-        ],
-        "zh": [
-          "请",
-          "戴",
-          "口罩"
-        ],
-        "ja": [
-          "マスク",
-          "を",
-          "着用",
-          "して",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s3_like_winter",
-      "kind": "sentence",
-      "itemIds": [
-        "word_I",
-        "word_like",
-        "word_winter"
-      ],
-      "texts": {
-        "en": "I like the cool season",
-        "th": "ฉันชอบหน้าหนาวค่ะ",
-        "fa": "من فصل سرما را دوست دارم",
-        "ar": "أحب فصل الشتاء",
-        "es": "Me gusta la temporada fresca",
-        "zh": "我喜欢凉季",
-        "ja": "涼季が好きです"
-      },
-      "tokens": {
-        "en": [
-          "I",
-          "like",
-          "the",
-          "cool",
-          "season"
-        ],
-        "th": [
-          "ฉัน",
-          "ชอบ",
-          "หน้าหนาว",
-          "ค่ะ"
-        ],
-        "fa": [
-          "من",
-          "فصل",
-          "سرما",
-          "را",
-          "دوست",
-          "دارم"
-        ],
-        "ar": [
-          "أحب",
-          "فصل",
-          "الشتاء"
-        ],
-        "es": [
-          "Me",
-          "gusta",
-          "la",
-          "temporada",
-          "fresca"
-        ],
-        "zh": [
-          "我",
-          "喜欢",
-          "凉季"
-        ],
-        "ja": [
-          "涼季",
-          "が",
-          "好き",
-          "です"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s3_summer_hot",
-      "kind": "sentence",
-      "itemIds": [
-        "word_summer",
-        "word_hot",
-        "word_very"
-      ],
-      "texts": {
-        "en": "The hot season is very hot",
-        "th": "หน้าร้อนร้อนมากค่ะ",
-        "fa": "فصل گرما خیلی گرم است",
-        "ar": "فصل الصيف حار جداً",
-        "es": "La temporada de calor es muy calurosa",
-        "zh": "热季非常热",
-        "ja": "暑季はとても暑いです"
-      },
-      "tokens": {
-        "en": [
-          "The",
-          "hot",
-          "season",
-          "is",
-          "very",
-          "hot"
-        ],
-        "th": [
-          "หน้าร้อน",
-          "ร้อน",
-          "มาก",
-          "ค่ะ"
-        ],
-        "fa": [
-          "فصل",
-          "گرما",
-          "خیلی",
-          "گرم",
-          "است"
-        ],
-        "ar": [
-          "فصل",
-          "الصيف",
-          "حار",
-          "جداً"
-        ],
-        "es": [
-          "La",
-          "temporada",
-          "de",
-          "calor",
-          "es",
-          "muy",
-          "calurosa"
-        ],
-        "zh": [
-          "热季",
-          "非常",
-          "热"
-        ],
-        "ja": [
-          "暑季",
-          "は",
-          "とても",
-          "暑い",
-          "です"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s3_like_summer_q",
-      "kind": "sentence",
-      "itemIds": [
-        "word_like",
-        "word_summer",
-        "word_question"
-      ],
-      "texts": {
-        "en": "Do you like the hot season",
-        "th": "ชอบหน้าร้อนไหมคะ",
-        "fa": "آیا فصل گرما را دوست دارید",
-        "ar": "هل تحب فصل الصيف",
-        "es": "Te gusta la temporada de calor",
-        "zh": "你喜欢热季吗",
-        "ja": "暑季が好きですか"
-      },
-      "tokens": {
-        "en": [
-          "Do",
-          "you",
-          "like",
-          "the",
-          "hot",
-          "season"
-        ],
-        "th": [
-          "ชอบ",
-          "หน้าร้อน",
-          "ไหม",
-          "คะ"
-        ],
-        "fa": [
-          "آیا",
-          "فصل",
-          "گرما",
-          "را",
-          "دوست",
-          "دارید"
-        ],
-        "ar": [
-          "هل",
-          "تحب",
-          "فصل",
-          "الصيف"
-        ],
-        "es": [
-          "Te",
-          "gusta",
-          "la",
-          "temporada",
-          "de",
-          "calor"
-        ],
-        "zh": [
-          "你",
-          "喜欢",
-          "热季",
-          "吗"
-        ],
-        "ja": [
-          "暑季",
-          "が",
-          "好き",
-          "です",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s3_not_like_summer",
-      "kind": "sentence",
-      "itemIds": [
-        "word_I",
-        "word_not",
-        "word_like",
-        "word_summer"
-      ],
-      "texts": {
-        "en": "I do not like the hot season",
-        "th": "ฉันไม่ชอบหน้าร้อนค่ะ",
-        "fa": "من فصل گرما را دوست ندارم",
-        "ar": "لا أحب فصل الصيف",
-        "es": "No me gusta la temporada de calor",
-        "zh": "我不喜欢热季",
-        "ja": "暑季は好きではありません"
-      },
-      "tokens": {
-        "en": [
-          "I",
-          "do",
-          "not",
-          "like",
-          "the",
-          "hot",
-          "season"
-        ],
-        "th": [
-          "ฉัน",
-          "ไม่",
-          "ชอบ",
-          "หน้าร้อน",
-          "ค่ะ"
-        ],
-        "fa": [
-          "من",
-          "فصل",
-          "گرما",
-          "را",
-          "دوست",
-          "ندارم"
-        ],
-        "ar": [
-          "لا",
-          "أحب",
-          "فصل",
-          "الصيف"
-        ],
-        "es": [
-          "No",
-          "me",
-          "gusta",
-          "la",
-          "temporada",
-          "de",
-          "calor"
-        ],
-        "zh": [
-          "我",
-          "不",
-          "喜欢",
-          "热季"
-        ],
-        "ja": [
-          "暑季",
-          "は",
-          "好き",
-          "で",
-          "は",
-          "ありません"
-        ]
-      }
-    },
-    {
-      "id": "word_dust",
-      "kind": "word",
-      "texts": {
-        "en": "dust",
-        "th": "ฝุ่น",
-        "fa": "گرد و غبار",
-        "ar": "غبار",
-        "es": "polvo",
-        "zh": "灰尘",
-        "ja": "ほこり"
-      }
-    },
-    {
-      "id": "word_mask",
-      "kind": "word",
-      "texts": {
-        "en": "mask",
-        "th": "หน้ากาก",
-        "fa": "ماسک",
-        "ar": "قناع",
-        "es": "mascarilla",
-        "zh": "口罩",
-        "ja": "マスク"
-      }
-    },
-    {
-      "id": "word_pollution",
-      "kind": "word",
-      "texts": {
-        "en": "pollution",
-        "th": "มลพิษ",
-        "fa": "آلودگی",
-        "ar": "تلوث",
-        "es": "contaminación",
-        "zh": "污染",
-        "ja": "汚染"
-      }
-    },
-    {
-      "id": "word_wear",
-      "kind": "word",
-      "texts": {
-        "en": "wear",
-        "th": "ใส่",
-        "fa": "پوشیدن",
-        "ar": "يرتدي",
-        "es": "llevar",
-        "zh": "戴",
-        "ja": "着用する"
-      }
-    },
-    {
-      "id": "word_summer",
-      "kind": "word",
+      "id": "w11",
+      "kind": "Word",
       "texts": {
         "en": "summer",
-        "th": "หน้าร้อน",
-        "fa": "فصل گرما",
-        "ar": "فصل الصيف",
+        "th": "ฤดูร้อน",
+        "fa": "تابستان",
+        "ar": "صيف",
         "es": "verano",
-        "zh": "热季",
-        "ja": "暑季"
+        "zh": "夏天",
+        "ja": "夏"
       }
     },
     {
-      "id": "word_winter",
-      "kind": "word",
+      "id": "w12",
+      "kind": "Word",
       "texts": {
         "en": "winter",
-        "th": "หน้าหนาว",
-        "fa": "فصل سرما",
-        "ar": "فصل الشتاء",
+        "th": "ฤดูหนาว",
+        "fa": "زمستان",
+        "ar": "شتاء",
         "es": "invierno",
-        "zh": "凉季",
-        "ja": "涼季"
+        "zh": "冬天",
+        "ja": "冬"
       }
     },
     {
-      "id": "header_scenario_4",
+      "id": "w13",
+      "kind": "Word",
+      "texts": {
+        "en": "spring",
+        "th": "ฤดูใบไม้ผลิ",
+        "fa": "بهار",
+        "ar": "ربيع",
+        "es": "primavera",
+        "zh": "春天",
+        "ja": "春"
+      }
+    },
+    {
+      "id": "w14",
+      "kind": "Word",
+      "texts": {
+        "en": "autumn",
+        "th": "ฤดูใบไม้ร่วง",
+        "fa": "پاییز",
+        "ar": "خريف",
+        "es": "otoño",
+        "zh": "秋天",
+        "ja": "秋"
+      }
+    },
+    {
+      "id": "w15",
+      "kind": "Word",
+      "texts": {
+        "en": "degree",
+        "th": "องศา",
+        "fa": "درجه",
+        "ar": "درجة",
+        "es": "grado",
+        "zh": "度",
+        "ja": "度"
+      }
+    },
+    {
+      "id": "s11",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Summer is very hot here.",
+        "th": "ฤดูร้อนที่นี่ร้อนมาก",
+        "fa": "تابستان اینجا خیلی گرم است.",
+        "ar": "الصيف حار جداً هنا.",
+        "es": "El verano es muy caluroso aquí.",
+        "zh": "这里的夏天非常热。",
+        "ja": "ここの夏はとても暑いです。"
+      },
+      "tokens": {
+        "th": ["ฤดูร้อน", "ที่", "นี่", "ร้อน", "มาก"],
+        "zh": ["这里", "的", "夏天", "非常", "热", "。"],
+        "ja": ["ここ", "の", "夏", "は", "とても", "暑い", "です", "。"]
+      }
+    },
+    {
+      "id": "s12",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Winter is cold and snowy.",
+        "th": "ฤดูหนาวหนาวและมีหิมะ",
+        "fa": "زمستان سرد و برفی است.",
+        "ar": "الشتاء بارد ومثلج.",
+        "es": "El invierno es frío y nevado.",
+        "zh": "冬天又冷又下雪。",
+        "ja": "冬は寒くて雪が降ります。"
+      },
+      "tokens": {
+        "th": ["ฤดูหนาว", "หนาว", "และ", "มี", "หิมะ"],
+        "zh": ["冬天", "又", "冷", "又", "下雪", "。"],
+        "ja": ["冬", "は", "寒く", "て", "雪", "が", "降り", "ます", "。"]
+      }
+    },
+    {
+      "id": "s13",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Spring is beautiful and warm.",
+        "th": "ฤดูใบไม้ผลิสวยงามและอบอุ่น",
+        "fa": "بهار زیبا و گرم است.",
+        "ar": "الربيع جميل ودافئ.",
+        "es": "La primavera es hermosa y cálida.",
+        "zh": "春天美丽又温暖。",
+        "ja": "春は美しく暖かいです。"
+      },
+      "tokens": {
+        "th": ["ฤดูใบไม้ผลิ", "สวยงาม", "และ", "อบอุ่น"],
+        "zh": ["春天", "美丽", "又", "温暖", "。"],
+        "ja": ["春", "は", "美しく", "暖かい", "です", "。"]
+      }
+    },
+    {
+      "id": "s14",
+      "kind": "Sentence",
+      "texts": {
+        "en": "It is ten degrees today.",
+        "th": "วันนี้สิบองศา",
+        "fa": "امروز ده درجه است.",
+        "ar": "إنها عشر درجات اليوم.",
+        "es": "Hace diez grados hoy.",
+        "zh": "今天十度。",
+        "ja": "今日は10度です。"
+      },
+      "tokens": {
+        "th": ["วันนี้", "สิบ", "องศา"],
+        "zh": ["今天", "十", "度", "。"],
+        "ja": ["今日", "は", "10", "度", "です", "。"]
+      }
+    },
+    {
+      "id": "s15",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Autumn leaves are falling.",
+        "th": "ใบไม้ร่วงกำลังร่วงหล่น",
+        "fa": "برگ‌های پاییزی در حال ریزش هستند.",
+        "ar": "أوراق الخريف تتساقط.",
+        "es": "Las hojas de otoño están cayendo.",
+        "zh": "秋天的树叶正在飘落。",
+        "ja": "秋の葉が落ちています。"
+      },
+      "tokens": {
+        "th": ["ใบไม้", "ร่วง", "กำลัง", "ร่วงหล่น"],
+        "zh": ["秋天", "的", "树叶", "正在", "飘落", "。"],
+        "ja": ["秋", "の", "葉", "が", "落ち", "て", "い", "ます", "。"]
+      }
+    },
+
+    {
+      "id": "h4",
       "header": true,
       "texts": {
-        "en": "Scenario 4: Severe Weather & Effects",
-        "th": "สถานการณ์ 4: อากาศรุนแรงและผลกระทบ",
-        "fa": "سناریوی ۴: آب‌وهوای شدید و اثرات آن",
-        "ar": "السيناريو ٤: الطقس القاسي وآثاره",
-        "es": "Escenario 4: Clima severo y efectos",
-        "zh": "场景四：恶劣天气与影响",
-        "ja": "シーン4：悪天候と影響"
+        "en": "Scenario 4: Extreme Weather",
+        "th": "สถานการณ์ที่ 4: สภาพอากาศรุนแรง",
+        "fa": "سناریو ۴: آب و هوای شدید",
+        "ar": "السيناريو 4: الطقس القاسي",
+        "es": "Escenario 4: Clima extremo",
+        "zh": "场景 4：极端天气",
+        "ja": "シナリオ 4：異常気象"
       }
     },
     {
-      "id": "sentence_wt_s4_road_flood",
-      "kind": "sentence",
-      "itemIds": [
-        "word_road",
-        "word_flood"
-      ],
-      "texts": {
-        "en": "The road is flooded",
-        "th": "ถนนน้ำท่วมค่ะ",
-        "fa": "جاده سیل زده است",
-        "ar": "الطريق غمرته المياه",
-        "es": "La calle está inundada",
-        "zh": "路被淹了",
-        "ja": "道が冠水しています"
-      },
-      "tokens": {
-        "en": [
-          "The",
-          "road",
-          "is",
-          "flooded"
-        ],
-        "th": [
-          "ถนน",
-          "น้ำท่วม",
-          "ค่ะ"
-        ],
-        "fa": [
-          "جاده",
-          "سیل",
-          "زده",
-          "است"
-        ],
-        "ar": [
-          "الطريق",
-          "غمرته",
-          "المياه"
-        ],
-        "es": [
-          "La",
-          "calle",
-          "está",
-          "inundada"
-        ],
-        "zh": [
-          "路",
-          "被淹",
-          "了"
-        ],
-        "ja": [
-          "道",
-          "が",
-          "冠水",
-          "して",
-          "います"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s4_road_flood_q",
-      "kind": "sentence",
-      "itemIds": [
-        "word_road",
-        "word_flood",
-        "word_question"
-      ],
-      "texts": {
-        "en": "Is the road flooded",
-        "th": "ถนนน้ำท่วมไหมคะ",
-        "fa": "آیا جاده سیل زده است",
-        "ar": "هل الطريق غمرته المياه",
-        "es": "Está inundada la calle",
-        "zh": "路被淹了吗",
-        "ja": "道は冠水していますか"
-      },
-      "tokens": {
-        "en": [
-          "Is",
-          "the",
-          "road",
-          "flooded"
-        ],
-        "th": [
-          "ถนน",
-          "น้ำท่วม",
-          "ไหม",
-          "คะ"
-        ],
-        "fa": [
-          "آیا",
-          "جاده",
-          "سیل",
-          "زده",
-          "است"
-        ],
-        "ar": [
-          "هل",
-          "الطريق",
-          "غمرته",
-          "المياه"
-        ],
-        "es": [
-          "Está",
-          "inundada",
-          "la",
-          "calle"
-        ],
-        "zh": [
-          "路",
-          "被淹",
-          "了",
-          "吗"
-        ],
-        "ja": [
-          "道",
-          "は",
-          "冠水",
-          "して",
-          "います",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s4_traffic_bad",
-      "kind": "sentence",
-      "itemIds": [
-        "word_traffic",
-        "word_very"
-      ],
-      "texts": {
-        "en": "The traffic is very bad",
-        "th": "รถติดมากค่ะ",
-        "fa": "ترافیک خیلی سنگین است",
-        "ar": "الازدحام المروري سيء جداً",
-        "es": "El tráfico está muy mal",
-        "zh": "非常堵车",
-        "ja": "とても渋滞しています"
-      },
-      "tokens": {
-        "en": [
-          "The",
-          "traffic",
-          "is",
-          "very",
-          "bad"
-        ],
-        "th": [
-          "รถติด",
-          "มาก",
-          "ค่ะ"
-        ],
-        "fa": [
-          "ترافیک",
-          "خیلی",
-          "سنگین",
-          "است"
-        ],
-        "ar": [
-          "الازدحام",
-          "المروري",
-          "سيء",
-          "جداً"
-        ],
-        "es": [
-          "El",
-          "tráfico",
-          "está",
-          "muy",
-          "mal"
-        ],
-        "zh": [
-          "非常",
-          "堵车"
-        ],
-        "ja": [
-          "とても",
-          "渋滞",
-          "して",
-          "います"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s4_drive_careful",
-      "kind": "sentence",
-      "itemIds": [
-        "word_drive",
-        "word_careful"
-      ],
-      "texts": {
-        "en": "Please drive carefully",
-        "th": "ขับรถระวังค่ะ",
-        "fa": "لطفاً با احتیاط رانندگی کنید",
-        "ar": "قد بحذر من فضلك",
-        "es": "Conduzca con cuidado por favor",
-        "zh": "请小心驾驶",
-        "ja": "気をつけて運転してください"
-      },
-      "tokens": {
-        "en": [
-          "Please",
-          "drive",
-          "carefully"
-        ],
-        "th": [
-          "ขับ",
-          "รถ",
-          "ระวัง",
-          "ค่ะ"
-        ],
-        "fa": [
-          "لطفاً",
-          "با",
-          "احتیاط",
-          "رانندگی",
-          "کنید"
-        ],
-        "ar": [
-          "قد",
-          "بحذر",
-          "من",
-          "فضلك"
-        ],
-        "es": [
-          "Conduzca",
-          "con",
-          "cuidado",
-          "por",
-          "favor"
-        ],
-        "zh": [
-          "请",
-          "小心",
-          "驾驶"
-        ],
-        "ja": [
-          "気をつけて",
-          "運転",
-          "して",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s4_drive_safe_q",
-      "kind": "sentence",
-      "itemIds": [
-        "word_drive",
-        "word_safe",
-        "word_question"
-      ],
-      "texts": {
-        "en": "Is it safe to drive",
-        "th": "ขับรถปลอดภัยไหมคะ",
-        "fa": "آیا رانندگی امن است",
-        "ar": "هل القيادة آمنة",
-        "es": "Es seguro conducir",
-        "zh": "开车安全吗",
-        "ja": "運転は安全ですか"
-      },
-      "tokens": {
-        "en": [
-          "Is",
-          "it",
-          "safe",
-          "to",
-          "drive"
-        ],
-        "th": [
-          "ขับ",
-          "รถ",
-          "ปลอดภัย",
-          "ไหม",
-          "คะ"
-        ],
-        "fa": [
-          "آیا",
-          "رانندگی",
-          "امن",
-          "است"
-        ],
-        "ar": [
-          "هل",
-          "القيادة",
-          "آمنة"
-        ],
-        "es": [
-          "Es",
-          "seguro",
-          "conducir"
-        ],
-        "zh": [
-          "开车",
-          "安全",
-          "吗"
-        ],
-        "ja": [
-          "運転",
-          "は",
-          "安全",
-          "です",
-          "か"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s4_not_want_drive",
-      "kind": "sentence",
-      "itemIds": [
-        "word_I",
-        "word_not",
-        "word_want",
-        "word_drive"
-      ],
-      "texts": {
-        "en": "I do not want to drive",
-        "th": "ฉันไม่อยากขับรถค่ะ",
-        "fa": "من نمی‌خواهم رانندگی کنم",
-        "ar": "لا أريد أن أقود",
-        "es": "No quiero conducir",
-        "zh": "我不想开车",
-        "ja": "運転したくありません"
-      },
-      "tokens": {
-        "en": [
-          "I",
-          "do",
-          "not",
-          "want",
-          "to",
-          "drive"
-        ],
-        "th": [
-          "ฉัน",
-          "ไม่",
-          "อยาก",
-          "ขับ",
-          "รถ",
-          "ค่ะ"
-        ],
-        "fa": [
-          "من",
-          "نمی‌خواهم",
-          "رانندگی",
-          "کنم"
-        ],
-        "ar": [
-          "لا",
-          "أريد",
-          "أن",
-          "أقود"
-        ],
-        "es": [
-          "No",
-          "quiero",
-          "conducir"
-        ],
-        "zh": [
-          "我",
-          "不想",
-          "开车"
-        ],
-        "ja": [
-          "運転",
-          "したく",
-          "ありません"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s4_road_not_safe",
-      "kind": "sentence",
-      "itemIds": [
-        "word_road",
-        "word_not",
-        "word_safe"
-      ],
-      "texts": {
-        "en": "The road is not safe",
-        "th": "ถนนไม่ปลอดภัยค่ะ",
-        "fa": "جاده امن نیست",
-        "ar": "الطريق ليس آمناً",
-        "es": "La calle no es segura",
-        "zh": "路不安全",
-        "ja": "道は安全ではありません"
-      },
-      "tokens": {
-        "en": [
-          "The",
-          "road",
-          "is",
-          "not",
-          "safe"
-        ],
-        "th": [
-          "ถนน",
-          "ไม่",
-          "ปลอดภัย",
-          "ค่ะ"
-        ],
-        "fa": [
-          "جاده",
-          "امن",
-          "نیست"
-        ],
-        "ar": [
-          "الطريق",
-          "ليس",
-          "آمناً"
-        ],
-        "es": [
-          "La",
-          "calle",
-          "no",
-          "es",
-          "segura"
-        ],
-        "zh": [
-          "路",
-          "不",
-          "安全"
-        ],
-        "ja": [
-          "道",
-          "は",
-          "安全",
-          "で",
-          "は",
-          "ありません"
-        ]
-      }
-    },
-    {
-      "id": "word_flood",
-      "kind": "word",
+      "id": "w16",
+      "kind": "Word",
       "texts": {
         "en": "flood",
         "th": "น้ำท่วม",
@@ -2350,591 +570,335 @@
       }
     },
     {
-      "id": "word_road",
-      "kind": "word",
+      "id": "w17",
+      "kind": "Word",
       "texts": {
-        "en": "road",
-        "th": "ถนน",
-        "fa": "جاده",
-        "ar": "طريق",
-        "es": "calle",
-        "zh": "路",
-        "ja": "道"
+        "en": "drought",
+        "th": "ภัยแล้ง",
+        "fa": "خشکسالی",
+        "ar": "جفاف",
+        "es": "sequía",
+        "zh": "干旱",
+        "ja": "干ばつ"
       }
     },
     {
-      "id": "word_traffic",
-      "kind": "word",
+      "id": "w18",
+      "kind": "Word",
       "texts": {
-        "en": "traffic",
-        "th": "รถติด",
-        "fa": "ترافیک",
-        "ar": "ازدحام",
-        "es": "tráfico",
-        "zh": "交通",
-        "ja": "渋滞"
+        "en": "typhoon",
+        "th": "ไต้ฝุ่น",
+        "fa": "تایفون",
+        "ar": "إعصار",
+        "es": "tifón",
+        "zh": "台风",
+        "ja": "台風"
       }
     },
     {
-      "id": "word_careful",
-      "kind": "word",
+      "id": "w19",
+      "kind": "Word",
       "texts": {
-        "en": "careful",
-        "th": "ระวัง",
-        "fa": "مراقب",
-        "ar": "حذر",
-        "es": "cuidado",
-        "zh": "小心",
-        "ja": "気をつける"
+        "en": "lightning",
+        "th": "ฟ้าผ่า",
+        "fa": "صاعقه",
+        "ar": "برق",
+        "es": "rayo",
+        "zh": "闪电",
+        "ja": "雷"
       }
     },
     {
-      "id": "word_drive",
-      "kind": "word",
+      "id": "w20",
+      "kind": "Word",
       "texts": {
-        "en": "drive",
-        "th": "ขับ",
-        "fa": "رانندگی کردن",
-        "ar": "يقود",
-        "es": "conducir",
-        "zh": "开",
-        "ja": "運転する"
+        "en": "dangerous",
+        "th": "อันตราย",
+        "fa": "خطرناک",
+        "ar": "خطير",
+        "es": "peligroso",
+        "zh": "危险",
+        "ja": "危険"
       }
     },
     {
-      "id": "word_safe",
-      "kind": "word",
+      "id": "s16",
+      "kind": "Sentence",
       "texts": {
-        "en": "safe",
-        "th": "ปลอดภัย",
-        "fa": "امن",
-        "ar": "آمن",
-        "es": "seguro",
-        "zh": "安全",
-        "ja": "安全"
+        "en": "There is a flood warning.",
+        "th": "มีคำเตือนน้ำท่วม",
+        "fa": "هشدار سیل وجود دارد.",
+        "ar": "هناك تحذير من فيضان.",
+        "es": "Hay una advertencia de inundación.",
+        "zh": "有洪水警告。",
+        "ja": "洪水の警告が出ています。"
+      },
+      "tokens": {
+        "th": ["มี", "คำเตือน", "น้ำท่วม"],
+        "zh": ["有", "洪水", "警告", "。"],
+        "ja": ["洪水", "の", "警告", "が", "出", "て", "い", "ます", "。"]
       }
     },
     {
-      "id": "header_scenario_5",
+      "id": "s17",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The drought is very severe.",
+        "th": "ภัยแล้งรุนแรงมาก",
+        "fa": "خشکسالی بسیار شدید است.",
+        "ar": "الجفاف شديد جداً.",
+        "es": "La sequía es muy severa.",
+        "zh": "干旱非常严重。",
+        "ja": "干ばつは非常に深刻です。"
+      },
+      "tokens": {
+        "th": ["ภัยแล้ง", "รุนแรง", "มาก"],
+        "zh": ["干旱", "非常", "严重", "。"],
+        "ja": ["干ばつ", "は", "非常", "に", "深刻", "です", "。"]
+      }
+    },
+    {
+      "id": "s18",
+      "kind": "Sentence",
+      "texts": {
+        "en": "A typhoon is approaching.",
+        "th": "ไต้ฝุ่นกำลังใกล้เข้ามา",
+        "fa": "یک تایفون در حال نزدیک شدن است.",
+        "ar": "إعصار يقترب.",
+        "es": "Se acerca un tifón.",
+        "zh": "台风正在逼近。",
+        "ja": "台風が近づいています。"
+      },
+      "tokens": {
+        "th": ["ไต้ฝุ่น", "กำลัง", "ใกล้", "เข้า", "มา"],
+        "zh": ["台风", "正在", "逼近", "。"],
+        "ja": ["台風", "が", "近づい", "て", "い", "ます", "。"]
+      }
+    },
+    {
+      "id": "s19",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Lightning is dangerous.",
+        "th": "ฟ้าผ่าอันตราย",
+        "fa": "صاعقه خطرناک است.",
+        "ar": "البرق خطير.",
+        "es": "Los rayos son peligrosos.",
+        "zh": "闪电很危险。",
+        "ja": "雷は危険です。"
+      },
+      "tokens": {
+        "th": ["ฟ้าผ่า", "อันตราย"],
+        "zh": ["闪电", "很", "危险", "。"],
+        "ja": ["雷", "は", "危険", "です", "。"]
+      }
+    },
+    {
+      "id": "s20",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Stay inside during the storm.",
+        "th": "อยู่ในบ้านระหว่างพายุ",
+        "fa": "در طول طوفان داخل خانه بمانید.",
+        "ar": "ابقَ في الداخل أثناء العاصفة.",
+        "es": "Quédate adentro durante la tormenta.",
+        "zh": "暴风雨期间待在室内。",
+        "ja": "嵐の間は屋内にいてください。"
+      },
+      "tokens": {
+        "th": ["อยู่", "ใน", "บ้าน", "ระหว่าง", "พายุ"],
+        "zh": ["暴风雨", "期间", "待在", "室内", "。"],
+        "ja": ["嵐", "の", "間", "は", "屋内", "に", "いて", "ください", "。"]
+      }
+    },
+
+    {
+      "id": "h5",
       "header": true,
       "texts": {
-        "en": "Scenario 5: Wrapping Up & Preferences",
-        "th": "สถานการณ์ 5: สรุปและความชอบ",
-        "fa": "سناریوی ۵: جمع‌بندی و ترجیحات",
-        "ar": "السيناريو ٥: الختام والتفضيلات",
-        "es": "Escenario 5: Cierre y preferencias",
-        "zh": "场景五：结束与偏好",
-        "ja": "シーン5：締めくくりと好み"
+        "en": "Scenario 5: Weather Activities",
+        "th": "สถานการณ์ที่ 5: กิจกรรมตามสภาพอากาศ",
+        "fa": "سناریو ۵: فعالیت‌های آب و هوایی",
+        "ar": "السيناريو 5: أنشطة الطقس",
+        "es": "Escenario 5: Actividades climáticas",
+        "zh": "场景 5：天气活动",
+        "ja": "シナリオ 5：天気による活動"
       }
     },
     {
-      "id": "sentence_wt_s5_like_cold",
-      "kind": "sentence",
-      "itemIds": [
-        "word_I",
-        "word_like",
-        "word_weather",
-        "word_cold"
-      ],
+      "id": "w21",
+      "kind": "Word",
       "texts": {
-        "en": "I like the cold weather",
-        "th": "ฉันชอบอากาศหนาวค่ะ",
-        "fa": "من هوای سرد را دوست دارم",
-        "ar": "أحب الطقس البارد",
-        "es": "Me gusta el clima frío",
-        "zh": "我喜欢冷天气",
-        "ja": "寒い天気が好きです"
+        "en": "umbrella",
+        "th": "ร่ม",
+        "fa": "چتر",
+        "ar": "مظلة",
+        "es": "paraguas",
+        "zh": "雨伞",
+        "ja": "傘"
+      }
+    },
+    {
+      "id": "w22",
+      "kind": "Word",
+      "texts": {
+        "en": "jacket",
+        "th": "เสื้อแจ็คเก็ต",
+        "fa": "ژاکت",
+        "ar": "سترة",
+        "es": "chaqueta",
+        "zh": "夹克",
+        "ja": "ジャケット"
+      }
+    },
+    {
+      "id": "w23",
+      "kind": "Word",
+      "texts": {
+        "en": "picnic",
+        "th": "ปิกนิก",
+        "fa": "پیک‌نیک",
+        "ar": "نزهة",
+        "es": "picnic",
+        "zh": "野餐",
+        "ja": "ピクニック"
+      }
+    },
+    {
+      "id": "w24",
+      "kind": "Word",
+      "texts": {
+        "en": "ski",
+        "th": "เล่นสกี",
+        "fa": "اسکی",
+        "ar": "تزلج",
+        "es": "esquiar",
+        "zh": "滑雪",
+        "ja": "スキー"
+      }
+    },
+    {
+      "id": "w25",
+      "kind": "Word",
+      "texts": {
+        "en": "beach",
+        "th": "ชายหาด",
+        "fa": "ساحل",
+        "ar": "شاطئ",
+        "es": "playa",
+        "zh": "海滩",
+        "ja": "ビーチ"
+      }
+    },
+    {
+      "id": "s21",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Don't forget your umbrella.",
+        "th": "อย่าลืมร่มของคุณ",
+        "fa": "چترت را فراموش نکن.",
+        "ar": "لا تنس مظلتك.",
+        "es": "No olvides tu paraguas.",
+        "zh": "别忘了你的雨伞。",
+        "ja": "傘を忘れないでください。"
       },
       "tokens": {
-        "en": [
-          "I",
-          "like",
-          "the",
-          "cold",
-          "weather"
-        ],
-        "th": [
-          "ฉัน",
-          "ชอบ",
-          "อากาศ",
-          "หนาว",
-          "ค่ะ"
-        ],
-        "fa": [
-          "من",
-          "هوای",
-          "سرد",
-          "را",
-          "دوست",
-          "دارم"
-        ],
-        "ar": [
-          "أحب",
-          "الطقس",
-          "البارد"
-        ],
-        "es": [
-          "Me",
-          "gusta",
-          "el",
-          "clima",
-          "frío"
-        ],
-        "zh": [
-          "我",
-          "喜欢",
-          "冷",
-          "天气"
-        ],
+        "th": ["อย่า", "ลืม", "ร่ม", "ของ", "คุณ"],
+        "zh": ["别", "忘", "了", "你", "的", "雨伞", "。"],
+        "ja": ["傘", "を", "忘れ", "ない", "で", "ください", "。"]
+      }
+    },
+    {
+      "id": "s22",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Wear a jacket, it is cold.",
+        "th": "ใส่เสื้อแจ็คเก็ต มันหนาว",
+        "fa": "ژاکت بپوش، سرد است.",
+        "ar": "ارتدِ سترة، الجو بارد.",
+        "es": "Ponte una chaqueta, hace frío.",
+        "zh": "穿件夹克，天气很冷。",
+        "ja": "ジャケットを着てください、寒いです。"
+      },
+      "tokens": {
+        "th": ["ใส่", "เสื้อแจ็คเก็ต", " ", "มัน", "หนาว"],
+        "zh": ["穿", "件", "夹克", "，", "天气", "很", "冷", "。"],
         "ja": [
+          "ジャケット",
+          "を",
+          "着",
+          "て",
+          "ください",
+          "、",
           "寒い",
-          "天気",
-          "が",
-          "好き",
-          "です"
+          "です",
+          "。"
         ]
       }
     },
     {
-      "id": "sentence_wt_s5_not_like_hot",
-      "kind": "sentence",
-      "itemIds": [
-        "word_I",
-        "word_not",
-        "word_like",
-        "word_weather",
-        "word_hot"
-      ],
+      "id": "s23",
+      "kind": "Sentence",
       "texts": {
-        "en": "I do not like the hot weather",
-        "th": "ฉันไม่ชอบอากาศร้อนค่ะ",
-        "fa": "من هوای گرم را دوست ندارم",
-        "ar": "لا أحب الطقس الحار",
-        "es": "No me gusta el clima caluroso",
-        "zh": "我不喜欢热天气",
-        "ja": "暑い天気は好きではありません"
+        "en": "Let's have a picnic today.",
+        "th": "วันนี้เรามาวางแผนปิกนิกกัน",
+        "fa": "بیایید امروز پیک‌نیک داشته باشیم.",
+        "ar": "لنقم بنزهة اليوم.",
+        "es": "Hagamos un picnic hoy.",
+        "zh": "我们今天去野餐吧。",
+        "ja": "今日ピクニックをしましょう。"
       },
       "tokens": {
-        "en": [
-          "I",
-          "do",
-          "not",
-          "like",
-          "the",
-          "hot",
-          "weather"
-        ],
-        "th": [
-          "ฉัน",
-          "ไม่",
-          "ชอบ",
-          "อากาศ",
-          "ร้อน",
-          "ค่ะ"
-        ],
-        "fa": [
-          "من",
-          "هوای",
-          "گرم",
-          "را",
-          "دوست",
-          "ندارم"
-        ],
-        "ar": [
-          "لا",
-          "أحب",
-          "الطقس",
-          "الحار"
-        ],
-        "es": [
-          "No",
-          "me",
-          "gusta",
-          "el",
-          "clima",
-          "caluroso"
-        ],
-        "zh": [
-          "我",
-          "不",
-          "喜欢",
-          "热",
-          "天气"
-        ],
-        "ja": [
-          "暑い",
-          "天気",
-          "は",
-          "好き",
-          "で",
-          "は",
-          "ありません"
-        ]
+        "th": ["วันนี้", "เรา", "มา", "วางแผน", "ปิกนิก", "กัน"],
+        "zh": ["我们", "今天", "去", "野餐", "吧", "。"],
+        "ja": ["今日", "ピクニック", "を", "し", "まし", "ょう", "。"]
       }
     },
     {
-      "id": "sentence_wt_s5_drink_water",
-      "kind": "sentence",
-      "itemIds": [
-        "word_drink",
-        "word_water",
-        "word_a_lot"
-      ],
+      "id": "s24",
+      "kind": "Sentence",
       "texts": {
-        "en": "Please drink a lot of water",
-        "th": "ดื่มน้ำเยอะๆ ค่ะ",
-        "fa": "لطفاً آب زیادی بنوشید",
-        "ar": "اشرب الكثير من الماء من فضلك",
-        "es": "Beba mucha agua por favor",
-        "zh": "请多喝水",
-        "ja": "水をたくさん飲んでください"
+        "en": "We can ski in winter.",
+        "th": "เราสามารถเล่นสกีในฤดูหนาว",
+        "fa": "ما می‌توانیم در زمستان اسکی کنیم.",
+        "ar": "يمكننا التزلج في الشتاء.",
+        "es": "Podemos esquiar en invierno.",
+        "zh": "我们可以在冬天滑雪。",
+        "ja": "冬にスキーをすることができます。"
       },
       "tokens": {
-        "en": [
-          "Please",
-          "drink",
-          "a",
-          "lot",
-          "of",
-          "water"
-        ],
-        "th": [
-          "ดื่ม",
-          "น้ำ",
-          "เยอะๆ",
-          "ค่ะ"
-        ],
-        "fa": [
-          "لطفاً",
-          "آب",
-          "زیادی",
-          "بنوشید"
-        ],
-        "ar": [
-          "اشرب",
-          "الكثير",
-          "من",
-          "الماء",
-          "من",
-          "فضلك"
-        ],
-        "es": [
-          "Beba",
-          "mucha",
-          "agua",
-          "por",
-          "favor"
-        ],
-        "zh": [
-          "请",
-          "多",
-          "喝水"
-        ],
+        "th": ["เรา", "สามารถ", "เล่นสกี", "ใน", "ฤดูหนาว"],
+        "zh": ["我们", "可以", "在", "冬天", "滑雪", "。"],
         "ja": [
-          "水",
-          "を",
-          "たくさん",
-          "飲んで",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s5_take_care",
-      "kind": "sentence",
-      "itemIds": [
-        "word_take_care",
-        "word_health"
-      ],
-      "texts": {
-        "en": "Take care of your health",
-        "th": "รักษาสุขภาพค่ะ",
-        "fa": "مراقب سلامت خود باشید",
-        "ar": "اعتنِ بصحتك",
-        "es": "Cuide su salud",
-        "zh": "请保重身体",
-        "ja": "お体を大事にしてください"
-      },
-      "tokens": {
-        "en": [
-          "Take",
-          "care",
-          "of",
-          "your",
-          "health"
-        ],
-        "th": [
-          "รักษา",
-          "สุขภาพ",
-          "ค่ะ"
-        ],
-        "fa": [
-          "مراقب",
-          "سلامت",
-          "خود",
-          "باشید"
-        ],
-        "ar": [
-          "اعتنِ",
-          "بصحتك"
-        ],
-        "es": [
-          "Cuide",
-          "su",
-          "salud"
-        ],
-        "zh": [
-          "请",
-          "保重",
-          "身体"
-        ],
-        "ja": [
-          "お体",
-          "を",
-          "大事",
+          "冬",
           "に",
-          "して",
-          "ください"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s5_good_day",
-      "kind": "sentence",
-      "itemIds": [
-        "word_today",
-        "word_be",
-        "word_day",
-        "word_good"
-      ],
-      "texts": {
-        "en": "Today is a good day",
-        "th": "วันนี้เป็นวันที่ดีค่ะ",
-        "fa": "امروز روز خوبی است",
-        "ar": "اليوم هو يوم جيد",
-        "es": "Hoy es un buen día",
-        "zh": "今天是个好日子",
-        "ja": "今日は良い一日です"
-      },
-      "tokens": {
-        "en": [
-          "Today",
-          "is",
-          "a",
-          "good",
-          "day"
-        ],
-        "th": [
-          "วันนี้",
-          "เป็น",
-          "วัน",
-          "ที่",
-          "ดี",
-          "ค่ะ"
-        ],
-        "fa": [
-          "امروز",
-          "روز",
-          "خوبی",
-          "است"
-        ],
-        "ar": [
-          "اليوم",
-          "هو",
-          "يوم",
-          "جيد"
-        ],
-        "es": [
-          "Hoy",
-          "es",
-          "un",
-          "buen",
-          "día"
-        ],
-        "zh": [
-          "今天",
-          "是",
-          "个",
-          "好",
-          "日子"
-        ],
-        "ja": [
-          "今日",
-          "は",
-          "良い",
-          "一日",
-          "です"
-        ]
-      }
-    },
-    {
-      "id": "sentence_wt_s5_weather_good",
-      "kind": "sentence",
-      "itemIds": [
-        "word_today",
-        "word_weather",
-        "word_good"
-      ],
-      "texts": {
-        "en": "The weather is good today",
-        "th": "วันนี้อากาศดีค่ะ",
-        "fa": "امروز هوا خوب است",
-        "ar": "الطقس جيد اليوم",
-        "es": "El clima es bueno hoy",
-        "zh": "今天天气很好",
-        "ja": "今日は天気が良いです"
-      },
-      "tokens": {
-        "en": [
-          "The",
-          "weather",
-          "is",
-          "good",
-          "today"
-        ],
-        "th": [
-          "วันนี้",
-          "อากาศ",
-          "ดี",
-          "ค่ะ"
-        ],
-        "fa": [
-          "امروز",
-          "هوا",
-          "خوب",
-          "است"
-        ],
-        "ar": [
-          "الطقس",
-          "جيد",
-          "اليوم"
-        ],
-        "es": [
-          "El",
-          "clima",
-          "es",
-          "bueno",
-          "hoy"
-        ],
-        "zh": [
-          "今天",
-          "天气",
-          "很好"
-        ],
-        "ja": [
-          "今日",
-          "は",
-          "天気",
+          "スキー",
+          "を",
+          "する",
+          "こと",
           "が",
-          "良い",
-          "です"
+          "でき",
+          "ます",
+          "。"
         ]
       }
     },
     {
-      "id": "sentence_wt_s5_goodbye",
-      "kind": "sentence",
-      "itemIds": [
-        "word_goodbye"
-      ],
+      "id": "s25",
+      "kind": "Sentence",
       "texts": {
-        "en": "Goodbye",
-        "th": "สวัสดีค่ะ",
-        "fa": "خداحافظ",
-        "ar": "مع السلامة",
-        "es": "Adiós",
-        "zh": "再见",
-        "ja": "さようなら"
+        "en": "The beach is perfect today.",
+        "th": "ชายหาดสมบูรณ์แบบวันนี้",
+        "fa": "ساحل امروز عالی است.",
+        "ar": "الشاطئ مثالي اليوم.",
+        "es": "La playa está perfecta hoy.",
+        "zh": "今天海滩很完美。",
+        "ja": "今日はビーチが完璧です。"
       },
       "tokens": {
-        "en": [
-          "Goodbye"
-        ],
-        "th": [
-          "สวัสดี",
-          "ค่ะ"
-        ],
-        "fa": [
-          "خداحافظ"
-        ],
-        "ar": [
-          "مع",
-          "السلامة"
-        ],
-        "es": [
-          "Adiós"
-        ],
-        "zh": [
-          "再见"
-        ],
-        "ja": [
-          "さようなら"
-        ]
-      }
-    },
-    {
-      "id": "word_drink",
-      "kind": "word",
-      "texts": {
-        "en": "drink",
-        "th": "ดื่ม",
-        "fa": "نوشیدن",
-        "ar": "يشرب",
-        "es": "beber",
-        "zh": "喝",
-        "ja": "飲む"
-      }
-    },
-    {
-      "id": "word_health",
-      "kind": "word",
-      "texts": {
-        "en": "health",
-        "th": "สุขภาพ",
-        "fa": "سلامت",
-        "ar": "صحة",
-        "es": "salud",
-        "zh": "健康",
-        "ja": "健康"
-      }
-    },
-    {
-      "id": "word_take_care",
-      "kind": "word",
-      "texts": {
-        "en": "take care",
-        "th": "รักษา",
-        "fa": "مراقبت کردن",
-        "ar": "يعتني",
-        "es": "cuidar",
-        "zh": "保重",
-        "ja": "大事にする"
-      }
-    },
-    {
-      "id": "word_day",
-      "kind": "word",
-      "texts": {
-        "en": "day",
-        "th": "วัน",
-        "fa": "روز",
-        "ar": "يوم",
-        "es": "día",
-        "zh": "天",
-        "ja": "日"
-      }
-    },
-    {
-      "id": "word_goodbye",
-      "kind": "word",
-      "texts": {
-        "en": "goodbye",
-        "th": "สวัสดี",
-        "fa": "خداحافظ",
-        "ar": "مع السلامة",
-        "es": "adiós",
-        "zh": "再见",
-        "ja": "さようなら"
+        "th": ["ชายหาด", "สมบูรณ์แบบ", "วันนี้"],
+        "zh": ["今天", "海滩", "很", "完美", "。"],
+        "ja": ["今日", "は", "ビーチ", "が", "完璧", "です", "。"]
       }
     }
   ]

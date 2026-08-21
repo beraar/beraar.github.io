@@ -2,405 +2,21 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "h1",
       "header": true,
       "texts": {
-        "en": "Core Words",
-        "th": "คำศัพท์หลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras clave",
-        "zh": "核心词汇",
-        "ja": "基本単語"
+        "en": "Scenario 1: Songkran Festival",
+        "th": "สถานการณ์ที่ 1: เทศกาลสงกรานต์",
+        "fa": "سناریو ۱: جشنواره سونگکران",
+        "ar": "السيناريو 1: مهرجان سونغكران",
+        "es": "Escenario 1: Festival Songkran",
+        "zh": "场景 1：泼水节",
+        "ja": "シナリオ 1：ソンクラーン祭り"
       }
     },
     {
-      "id": "word_be",
-      "kind": "word",
-      "texts": {
-        "en": "is",
-        "th": "เป็น",
-        "fa": "است",
-        "ar": "هو",
-        "es": "es",
-        "zh": "是",
-        "ja": "です"
-      }
-    },
-    {
-      "id": "word_it",
-      "kind": "word",
-      "texts": {
-        "en": "it",
-        "th": "มัน",
-        "fa": "آن",
-        "ar": "هو",
-        "es": "eso",
-        "zh": "它",
-        "ja": "それ"
-      }
-    },
-    {
-      "id": "word_we",
-      "kind": "word",
-      "texts": {
-        "en": "we",
-        "th": "เรา",
-        "fa": "ما",
-        "ar": "نحن",
-        "es": "nosotros",
-        "zh": "我们",
-        "ja": "私たち"
-      }
-    },
-    {
-      "id": "word_i",
-      "kind": "word",
-      "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
-      }
-    },
-    {
-      "id": "word_you",
-      "kind": "word",
-      "texts": {
-        "en": "you",
-        "th": "คุณ",
-        "fa": "شما",
-        "ar": "أنت",
-        "es": "tú / usted",
-        "zh": "你",
-        "ja": "あなた"
-      }
-    },
-    {
-      "id": "word_people",
-      "kind": "word",
-      "texts": {
-        "en": "people",
-        "th": "ผู้คน",
-        "fa": "مردم",
-        "ar": "الناس",
-        "es": "gente",
-        "zh": "人们",
-        "ja": "人々"
-      }
-    },
-    {
-      "id": "word_festival",
-      "kind": "word",
-      "texts": {
-        "en": "festival",
-        "th": "เทศกาล",
-        "fa": "جشنواره",
-        "ar": "مهرجان",
-        "es": "festival",
-        "zh": "节日",
-        "ja": "祭り"
-      }
-    },
-    {
-      "id": "word_new_year",
-      "kind": "word",
-      "texts": {
-        "en": "New Year",
-        "th": "ปีใหม่",
-        "fa": "سال نو",
-        "ar": "سنة جديدة",
-        "es": "Año Nuevo",
-        "zh": "新年",
-        "ja": "新年"
-      }
-    },
-    {
-      "id": "word_tradition",
-      "kind": "word",
-      "texts": {
-        "en": "tradition",
-        "th": "ประเพณี",
-        "fa": "سنت",
-        "ar": "تقليد",
-        "es": "tradición",
-        "zh": "传统",
-        "ja": "伝統"
-      }
-    },
-    {
-      "id": "word_thai",
-      "kind": "word",
-      "texts": {
-        "en": "Thai",
-        "th": "ไทย",
-        "fa": "تایلندی",
-        "ar": "تايلاندي",
-        "es": "tailandés",
-        "zh": "泰国（的）",
-        "ja": "タイ（の）"
-      }
-    },
-    {
-      "id": "word_and",
-      "kind": "word",
-      "texts": {
-        "en": "and",
-        "th": "และ",
-        "fa": "و",
-        "ar": "و",
-        "es": "y",
-        "zh": "和",
-        "ja": "と"
-      }
-    },
-    {
-      "id": "word_kamlang",
-      "kind": "word",
-      "texts": {
-        "en": "be ~ing (progressive)",
-        "th": "กำลัง",
-        "fa": "در حالِ",
-        "ar": "للاستمرار (يفعل الآن)",
-        "es": "estar ~ndo",
-        "zh": "正在",
-        "ja": "〜ている（進行）"
-      }
-    },
-    {
-      "id": "word_laeo",
-      "kind": "word",
-      "texts": {
-        "en": "already / completed",
-        "th": "แล้ว",
-        "fa": "دیگر / تمام",
-        "ar": "قد / بالفعل",
-        "es": "ya",
-        "zh": "已经",
-        "ja": "もう〜した（完了）"
-      }
-    },
-    {
-      "id": "word_cha",
-      "kind": "word",
-      "texts": {
-        "en": "will (future)",
-        "th": "จะ",
-        "fa": "خواهد",
-        "ar": "سـ (للمستقبل)",
-        "es": "futuro (irá)",
-        "zh": "将 / 会",
-        "ja": "〜するだろう（未来）"
-      }
-    },
-    {
-      "id": "word_khoey",
-      "kind": "word",
-      "texts": {
-        "en": "ever / have done before",
-        "th": "เคย",
-        "fa": "تا به حال",
-        "ar": "سبق أن",
-        "es": "alguna vez",
-        "zh": "曾经",
-        "ja": "〜たことがある（経験）"
-      }
-    },
-    {
-      "id": "word_very",
-      "kind": "word",
-      "texts": {
-        "en": "very",
-        "th": "มาก",
-        "fa": "خیلی",
-        "ar": "جداً",
-        "es": "muy",
-        "zh": "很 / 非常",
-        "ja": "とても"
-      }
-    },
-    {
-      "id": "word_now",
-      "kind": "word",
-      "texts": {
-        "en": "now",
-        "th": "ตอนนี้",
-        "fa": "الان",
-        "ar": "الآن",
-        "es": "ahora",
-        "zh": "现在",
-        "ja": "今"
-      }
-    },
-    {
-      "id": "header_scenario1",
-      "header": true,
-      "texts": {
-        "en": "Scenario 1: Songkran — The Water Festival",
-        "th": "สถานการณ์ 1: สงกรานต์ — เทศกาลสาดน้ำ",
-        "fa": "سناریو ۱: سونگکران — جشنواره آبپاشی",
-        "ar": "السيناريو 1: سونغكران — مهرجان الماء",
-        "es": "Escenario 1: Songkran — El festival del agua",
-        "zh": "场景一：宋干节——泼水节",
-        "ja": "シナリオ1：ソンクラーン——水かけ祭り"
-      }
-    },
-    {
-      "id": "sentence_fest_songkran_new_year",
-      "kind": "sentence",
-      "itemIds": ["word_songkran", "word_be", "word_festival", "word_new_year"],
-      "texts": {
-        "en": "Songkran is the Thai New Year festival",
-        "th": "สงกรานต์เป็นเทศกาลปีใหม่ของไทย",
-        "fa": "سونگکران جشنواره سال نو تایلند است",
-        "ar": "سونغكران هو مهرجان السنة التايلاندية الجديدة",
-        "es": "Songkran es el festival de Año Nuevo tailandés",
-        "zh": "宋干节是泰国的新年节日",
-        "ja": "ソンクラーンはタイの新年の祭りです"
-      },
-      "tokens": {
-        "en": ["Songkran", "is", "the", "Thai", "New", "Year", "festival"],
-        "th": ["สงกรานต์", "เป็น", "เทศกาล", "ปีใหม่", "ของ", "ไทย"],
-        "fa": ["سونگکران", "جشنواره", "سال", "نو", "تایلند", "است"],
-        "ar": ["سونغكران", "هو", "مهرجان", "السنة", "التايلاندية", "الجديدة"],
-        "es": [
-          "Songkran",
-          "es",
-          "el",
-          "festival",
-          "de",
-          "Año",
-          "Nuevo",
-          "tailandés"
-        ],
-        "zh": ["宋干节", "是", "泰国", "的", "新年", "节日"],
-        "ja": ["ソンクラーン", "は", "タイ", "の", "新年", "の", "祭り", "です"]
-      }
-    },
-    {
-      "id": "sentence_fest_splash_water",
-      "kind": "sentence",
-      "itemIds": ["word_people", "word_splash", "word_water"],
-      "texts": {
-        "en": "People splash water on each other",
-        "th": "ผู้คนสาดน้ำใส่กัน",
-        "fa": "مردم آب را روی یکدیگر می‌پاشند",
-        "ar": "يرش الناس الماء على بعضهم البعض",
-        "es": "La gente se salpica agua unos a otros",
-        "zh": "人们互相泼水",
-        "ja": "人々はお互いに水をかけ合います"
-      },
-      "tokens": {
-        "en": ["People", "splash", "water", "on", "each", "other"],
-        "th": ["ผู้คน", "สาด", "น้ำ", "ใส่", "กัน"],
-        "fa": ["مردم", "آب", "را", "روی", "یکدیگر", "می‌پاشند"],
-        "ar": ["يرش", "الناس", "الماء", "على", "بعضهم", "البعض"],
-        "es": ["La", "gente", "se", "salpica", "agua", "unos", "a", "otros"],
-        "zh": ["人们", "互相", "泼水"],
-        "ja": ["人々", "は", "お互い", "に", "水", "を", "かけ合い", "ます"]
-      }
-    },
-    {
-      "id": "sentence_fest_songkran_fun",
-      "kind": "sentence",
-      "itemIds": ["word_songkran", "word_fun", "word_very"],
-      "texts": {
-        "en": "Songkran is very fun",
-        "th": "สงกรานต์สนุกมาก",
-        "fa": "سونگکران خیلی سرگرم‌کننده است",
-        "ar": "سونغكران ممتع جداً",
-        "es": "Songkran es muy divertido",
-        "zh": "宋干节非常好玩",
-        "ja": "ソンクラーンはとても楽しい祭りです"
-      },
-      "tokens": {
-        "en": ["Songkran", "is", "very", "fun"],
-        "th": ["สงกรานต์", "สนุก", "มาก"],
-        "fa": ["سونگکران", "خیلی", "سرگرم‌کننده", "است"],
-        "ar": ["سونغكران", "ممتع", "جداً"],
-        "es": ["Songkran", "es", "muy", "divertido"],
-        "zh": ["宋干节", "非常", "好玩"],
-        "ja": ["ソンクラーン", "は", "とても", "楽しい", "祭り", "です"]
-      }
-    },
-    {
-      "id": "sentence_fest_water_cool",
-      "kind": "sentence",
-      "itemIds": ["word_water", "word_cool"],
-      "texts": {
-        "en": "The water is cool",
-        "th": "น้ำเย็น",
-        "fa": "آب خنک است",
-        "ar": "الماء بارد",
-        "es": "El agua está fresca",
-        "zh": "水很凉爽",
-        "ja": "水は冷たいです"
-      },
-      "tokens": {
-        "en": ["The", "water", "is", "cool"],
-        "th": ["น้ำ", "เย็น"],
-        "fa": ["آب", "خنک", "است"],
-        "ar": ["الماء", "بارد"],
-        "es": ["El", "agua", "está", "fresca"],
-        "zh": ["水", "很", "凉爽"],
-        "ja": ["水", "は", "冷たい", "です"]
-      }
-    },
-    {
-      "id": "sentence_fest_children_play",
-      "kind": "sentence",
-      "itemIds": ["word_child", "word_play", "word_water"],
-      "texts": {
-        "en": "Children play with water",
-        "th": "เด็กเล่นน้ำ",
-        "fa": "بچه‌ها با آب بازی می‌کنند",
-        "ar": "الأطفال يلعبون بالماء",
-        "es": "Los niños juegan con agua",
-        "zh": "孩子们玩水",
-        "ja": "子どもは水遊びをします"
-      },
-      "tokens": {
-        "en": ["Children", "play", "with", "water"],
-        "th": ["เด็ก", "เล่น", "น้ำ"],
-        "fa": ["بچه‌ها", "با", "آب", "بازی", "می‌کنند"],
-        "ar": ["الأطفال", "يلعبون", "بالماء"],
-        "es": ["Los", "niños", "juegan", "con", "agua"],
-        "zh": ["孩子们", "玩", "水"],
-        "ja": ["子ども", "は", "水遊び", "を", "し", "ます"]
-      }
-    },
-    {
-      "id": "word_songkran",
-      "kind": "word",
-      "texts": {
-        "en": "Songkran",
-        "th": "สงกรานต์",
-        "fa": "سونگکران",
-        "ar": "سونغكران",
-        "es": "Songkran",
-        "zh": "宋干节",
-        "ja": "ソンクラーン"
-      }
-    },
-    {
-      "id": "word_splash",
-      "kind": "word",
-      "texts": {
-        "en": "splash",
-        "th": "สาด",
-        "fa": "پاشیدن",
-        "ar": "يرش",
-        "es": "salpicar",
-        "zh": "泼",
-        "ja": "飛び散らす"
-      }
-    },
-    {
-      "id": "word_water",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
         "en": "water",
         "th": "น้ำ",
@@ -412,8 +28,34 @@
       }
     },
     {
-      "id": "word_april",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
+      "texts": {
+        "en": "splash",
+        "th": "สาด",
+        "fa": "پاشیدن",
+        "ar": "رش",
+        "es": "salpicar",
+        "zh": "泼",
+        "ja": "かける"
+      }
+    },
+    {
+      "id": "w3",
+      "kind": "Word",
+      "texts": {
+        "en": "new year",
+        "th": "ปีใหม่",
+        "fa": "سال نو",
+        "ar": "سنة جديدة",
+        "es": "año nuevo",
+        "zh": "新年",
+        "ja": "新年"
+      }
+    },
+    {
+      "id": "w4",
+      "kind": "Word",
       "texts": {
         "en": "April",
         "th": "เมษายน",
@@ -421,263 +63,157 @@
         "ar": "أبريل",
         "es": "abril",
         "zh": "四月",
-        "ja": "四月"
+        "ja": "4月"
       }
     },
     {
-      "id": "word_month",
-      "kind": "word",
-      "texts": {
-        "en": "month",
-        "th": "เดือน",
-        "fa": "ماه",
-        "ar": "شهر",
-        "es": "mes",
-        "zh": "月份",
-        "ja": "月"
-      }
-    },
-    {
-      "id": "word_cool",
-      "kind": "word",
-      "texts": {
-        "en": "cool",
-        "th": "เย็น",
-        "fa": "خنک",
-        "ar": "بارد",
-        "es": "fresco",
-        "zh": "凉爽",
-        "ja": "冷たい"
-      }
-    },
-    {
-      "id": "word_fun",
-      "kind": "word",
+      "id": "w5",
+      "kind": "Word",
       "texts": {
         "en": "fun",
         "th": "สนุก",
         "fa": "سرگرم‌کننده",
-        "ar": "ممتع",
-        "es": "divertido",
-        "zh": "有趣 / 好玩",
+        "ar": "مرح",
+        "es": "diversión",
+        "zh": "有趣",
         "ja": "楽しい"
       }
     },
     {
-      "id": "word_child",
-      "kind": "word",
+      "id": "s1",
+      "kind": "Sentence",
       "texts": {
-        "en": "child / children",
-        "th": "เด็ก",
-        "fa": "بچه / بچه‌ها",
-        "ar": "طفل / أطفال",
-        "es": "niño / niños",
-        "zh": "孩子",
-        "ja": "子ども"
+        "en": "Songkran is the Thai new year.",
+        "th": "สงกรานต์คือปีใหม่ไทย",
+        "fa": "سونگکران سال نو تایلندی است.",
+        "ar": "سونغكران هو العام الجديد التايلاندي.",
+        "es": "Songkran es el año nuevo tailandés.",
+        "zh": "宋干节是泰国新年。",
+        "ja": "ソンクラーンはタイの新年です。"
+      },
+      "tokens": {
+        "th": ["สงกรานต์", "คือ", "ปีใหม่", "ไทย"],
+        "zh": ["宋干节", "是", "泰国", "新年", "。"],
+        "ja": ["ソンクラーン", "は", "タイ", "の", "新年", "です", "。"]
       }
     },
     {
-      "id": "word_play",
-      "kind": "word",
+      "id": "s2",
+      "kind": "Sentence",
       "texts": {
-        "en": "play",
-        "th": "เล่น",
-        "fa": "بازی کردن",
-        "ar": "يلعب",
-        "es": "jugar",
-        "zh": "玩",
-        "ja": "遊ぶ"
+        "en": "We splash water on each other.",
+        "th": "เราสาดน้ำใส่กัน",
+        "fa": "ما به یکدیگر آب می‌پاشیم.",
+        "ar": "نرش الماء على بعضنا البعض.",
+        "es": "Nos salpicamos agua unos a otros.",
+        "zh": "我们互相泼水。",
+        "ja": "私たちはお互いに水をかけ合います。"
+      },
+      "tokens": {
+        "th": ["เรา", "สาด", "น้ำ", "ใส่", "กัน"],
+        "zh": ["我们", "互相", "泼水", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "お互い",
+          "に",
+          "水",
+          "を",
+          "かけ合い",
+          "ます",
+          "。"
+        ]
       }
     },
     {
-      "id": "header_scenario2",
+      "id": "s3",
+      "kind": "Sentence",
+      "texts": {
+        "en": "It happens in mid-April.",
+        "th": "มันเกิดขึ้นกลางเดือนเมษายน",
+        "fa": "این در اواسط آوریل اتفاق می‌افتد.",
+        "ar": "يحدث في منتصف أبريل.",
+        "es": "Ocurre a mediados de abril.",
+        "zh": "它发生在四月中旬。",
+        "ja": "それは4月中旬に起こります。"
+      },
+      "tokens": {
+        "th": ["มัน", "เกิด", "ขึ้น", "กลาง", "เดือน", "เมษายน"],
+        "zh": ["它", "发生", "在", "四月", "中旬", "。"],
+        "ja": ["それ", "は", "4", "月", "中旬", "に", "起こり", "ます", "。"]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Everyone has a lot of fun.",
+        "th": "ทุกคนสนุกมาก",
+        "fa": "همه خیلی سرگرم می‌شوند.",
+        "ar": "الجميع يستمتع كثيراً.",
+        "es": "Todos se divierten mucho.",
+        "zh": "每个人都玩得很开心。",
+        "ja": "誰もがとても楽しみます。"
+      },
+      "tokens": {
+        "th": ["ทุก", "คน", "สนุก", "มาก"],
+        "zh": ["每个", "人", "都", "玩", "得", "很", "开心", "。"],
+        "ja": ["誰", "も", "が", "とても", "楽しみ", "ます", "。"]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "It washes away bad luck.",
+        "th": "มันล้างล้างสิ่งชั่วร้าย",
+        "fa": "این بدشانسی را می‌شوید.",
+        "ar": "يغسل الحظ السيئ.",
+        "es": "Lava la mala suerte.",
+        "zh": "它洗去厄运。",
+        "ja": "それは悪運を洗い流します。"
+      },
+      "tokens": {
+        "th": ["มัน", "ล้าง", "ล้าง", "สิ่ง", "ชั่วร้าย"],
+        "zh": ["它", "洗去", "厄运", "。"],
+        "ja": ["それ", "は", "悪運", "を", "洗い流し", "ます", "。"]
+      }
+    },
+
+    {
+      "id": "h2",
       "header": true,
       "texts": {
-        "en": "Scenario 2: Loy Krathong — The Festival of Lights",
-        "th": "สถานการณ์ 2: ลอยกระทง — เทศกาลแสงเทียน",
-        "fa": "سناریو ۲: لوی کراتونگ — جشنواره چراغ‌ها",
-        "ar": "السيناريو 2: لوي كراثونغ — مهرجان الأنوار",
-        "es": "Escenario 2: Loy Krathong — El festival de las luces",
-        "zh": "场景二：水灯节——灯节",
-        "ja": "シナリオ2：ロイクラトン——光の祭り"
+        "en": "Scenario 2: Loy Krathong",
+        "th": "สถานการณ์ที่ 2: เทศกาลลอยกระทง",
+        "fa": "سناریو ۲: جشنواره لوی کراتونگ",
+        "ar": "السيناريو 2: مهرجان لوي كراتونغ",
+        "es": "Escenario 2: Loy Krathong",
+        "zh": "场景 2：水灯节",
+        "ja": "シナリオ 2：ローイクラトン祭り"
       }
     },
     {
-      "id": "sentence_fest_loy_krathong_full_moon",
-      "kind": "sentence",
-      "itemIds": ["word_loy_krathong", "word_be", "word_full_moon"],
+      "id": "w6",
+      "kind": "Word",
       "texts": {
-        "en": "Loy Krathong is on the full moon",
-        "th": "ลอยกระทงอยู่ในวันพระจันทร์เต็มดวง",
-        "fa": "لوی کراتونگ در زمان ماه کامل است",
-        "ar": "لوي كراثونغ يكون في ليلة البدر",
-        "es": "Loy Krathong es en la luna llena",
-        "zh": "水灯节在满月之时",
-        "ja": "ロイクラトンは満月の日です"
-      },
-      "tokens": {
-        "en": ["Loy", "Krathong", "is", "on", "the", "full", "moon"],
-        "th": ["ลอยกระทง", "อยู่", "ใน", "วัน", "พระจันทร์เต็มดวง"],
-        "fa": ["لوی", "کراتونگ", "در", "زمان", "ماه", "کامل", "است"],
-        "ar": ["لوي", "كراثونغ", "يكون", "في", "ليلة", "البدر"],
-        "es": ["Loy", "Krathong", "es", "en", "la", "luna", "llena"],
-        "zh": ["水灯节", "在", "满月", "之时"],
-        "ja": ["ロイクラトン", "は", "満月", "の", "日", "です"]
+        "en": "river",
+        "th": "แม่น้ำ",
+        "fa": "رودخانه",
+        "ar": "نهر",
+        "es": "río",
+        "zh": "河流",
+        "ja": "川"
       }
     },
     {
-      "id": "sentence_fest_float_river",
-      "kind": "sentence",
-      "itemIds": ["word_we", "word_float", "word_krathong", "word_river"],
-      "texts": {
-        "en": "We float the krathong on the river",
-        "th": "เราลอยกระทงในแม่น้ำ",
-        "fa": "ما کراتونگ را در رودخانه شناور می‌کنیم",
-        "ar": "نطفو الكراثونغ في النهر",
-        "es": "Flotamos el krathong en el río",
-        "zh": "我们在河里放水灯",
-        "ja": "私たちは川にクラトンを流します"
-      },
-      "tokens": {
-        "en": ["We", "float", "the", "krathong", "on", "the", "river"],
-        "th": ["เรา", "ลอย", "กระทง", "ใน", "แม่น้ำ"],
-        "fa": ["ما", "کراتونگ", "را", "در", "رودخانه", "شناور", "می‌کنیم"],
-        "ar": ["نطفو", "الكراثونغ", "في", "النهر"],
-        "es": ["Flotamos", "el", "krathong", "en", "el", "río"],
-        "zh": ["我们", "在", "河里", "放", "水灯"],
-        "ja": ["私たち", "は", "川", "に", "クラトン", "を", "流し", "ます"]
-      }
-    },
-    {
-      "id": "sentence_fest_krathong_flowers",
-      "kind": "sentence",
-      "itemIds": [
-        "word_krathong",
-        "word_have",
-        "word_flower",
-        "word_and",
-        "word_candle"
-      ],
-      "texts": {
-        "en": "The krathong has flowers and candles",
-        "th": "ในกระทงมีดอกไม้และเทียน",
-        "fa": "در کراتونگ گل و شمع هست",
-        "ar": "في الكراثونغ أزهار وشموع",
-        "es": "El krathong tiene flores y velas",
-        "zh": "水灯里有花和蜡烛",
-        "ja": "クラトンの中に花とろうそくがあります"
-      },
-      "tokens": {
-        "en": ["The", "krathong", "has", "flowers", "and", "candles"],
-        "th": ["ใน", "กระทง", "มี", "ดอกไม้", "และ", "เทียน"],
-        "fa": ["در", "کراتونگ", "گل", "و", "شمع", "هست"],
-        "ar": ["في", "الكراثونغ", "أزهار", "وشموع"],
-        "es": ["El", "krathong", "tiene", "flores", "y", "velas"],
-        "zh": ["水灯", "里", "有", "花", "和", "蜡烛"],
-        "ja": [
-          "クラトン",
-          "の",
-          "中",
-          "に",
-          "花",
-          "と",
-          "ろうそく",
-          "が",
-          "あり",
-          "ます"
-        ]
-      }
-    },
-    {
-      "id": "sentence_fest_full_moon_beautiful",
-      "kind": "sentence",
-      "itemIds": ["word_full_moon", "word_beautiful", "word_very"],
-      "texts": {
-        "en": "The full moon is very beautiful",
-        "th": "พระจันทร์เต็มดวงสวยมาก",
-        "fa": "ماه کامل خیلی زیبا است",
-        "ar": "البدر جميل جداً",
-        "es": "La luna llena es muy hermosa",
-        "zh": "满月非常美丽",
-        "ja": "満月はとても美しいです"
-      },
-      "tokens": {
-        "en": ["The", "full", "moon", "is", "very", "beautiful"],
-        "th": ["พระจันทร์เต็มดวง", "สวย", "มาก"],
-        "fa": ["ماه", "کامل", "خیلی", "زیبا", "است"],
-        "ar": ["البدر", "جميل", "جداً"],
-        "es": ["La", "luna", "llena", "es", "muy", "hermosa"],
-        "zh": ["满月", "非常", "美丽"],
-        "ja": ["満月", "は", "とても", "美しい", "です"]
-      }
-    },
-    {
-      "id": "sentence_fest_light_candles",
-      "kind": "sentence",
-      "itemIds": ["word_people", "word_light", "word_candle", "word_night"],
-      "texts": {
-        "en": "People light candles at night",
-        "th": "ผู้คนจุดเทียนในตอนกลางคืน",
-        "fa": "مردم شمع‌ها را در شب روشن می‌کنند",
-        "ar": "يضيء الناس الشموع ليلاً",
-        "es": "La gente enciende velas por la noche",
-        "zh": "人们在夜晚点燃蜡烛",
-        "ja": "人々は夜にろうそくに火をつけます"
-      },
-      "tokens": {
-        "en": ["People", "light", "candles", "at", "night"],
-        "th": ["ผู้คน", "จุด", "เทียน", "ในตอนกลางคืน"],
-        "fa": ["مردم", "شمع‌ها", "را", "در", "شب", "روشن", "می‌کنند"],
-        "ar": ["يضيء", "الناس", "الشموع", "ليلاً"],
-        "es": ["La", "gente", "enciende", "velas", "por", "la", "noche"],
-        "zh": ["人们", "在", "夜晚", "点燃", "蜡烛"],
-        "ja": [
-          "人々",
-          "は",
-          "夜",
-          "に",
-          "ろうそく",
-          "に",
-          "火",
-          "を",
-          "つけ",
-          "ます"
-        ]
-      }
-    },
-    {
-      "id": "word_loy_krathong",
-      "kind": "word",
-      "texts": {
-        "en": "Loy Krathong",
-        "th": "ลอยกระทง",
-        "fa": "لوی کراتونگ",
-        "ar": "لوي كراثونغ",
-        "es": "Loy Krathong",
-        "zh": "水灯节",
-        "ja": "ロイクラトン"
-      }
-    },
-    {
-      "id": "word_full_moon",
-      "kind": "word",
-      "texts": {
-        "en": "full moon",
-        "th": "พระจันทร์เต็มดวง",
-        "fa": "ماه کامل",
-        "ar": "بدر",
-        "es": "luna llena",
-        "zh": "满月",
-        "ja": "満月"
-      }
-    },
-    {
-      "id": "word_float",
-      "kind": "word",
+      "id": "w7",
+      "kind": "Word",
       "texts": {
         "en": "float",
         "th": "ลอย",
-        "fa": "شناور کردن",
+        "fa": "شناور",
         "ar": "يطفو",
         "es": "flotar",
         "zh": "漂浮",
@@ -685,37 +221,202 @@
       }
     },
     {
-      "id": "word_krathong",
-      "kind": "word",
+      "id": "w8",
+      "kind": "Word",
       "texts": {
-        "en": "krathong",
+        "en": "basket",
         "th": "กระทง",
-        "fa": "کراتونگ",
-        "ar": "كراثونغ",
-        "es": "krathong",
+        "fa": "سبد",
+        "ar": "سلة",
+        "es": "cesta",
         "zh": "水灯",
         "ja": "クラトン"
       }
     },
     {
-      "id": "word_river",
-      "kind": "word",
+      "id": "w9",
+      "kind": "Word",
       "texts": {
-        "en": "river",
-        "th": "แม่น้ำ",
-        "fa": "رودخانه",
-        "ar": "نهر",
-        "es": "río",
-        "zh": "河",
-        "ja": "川"
+        "en": "moon",
+        "th": "พระจันทร์",
+        "fa": "ماه",
+        "ar": "قمر",
+        "es": "luna",
+        "zh": "月亮",
+        "ja": "月"
       }
     },
     {
-      "id": "word_beautiful",
-      "kind": "word",
+      "id": "w10",
+      "kind": "Word",
+      "texts": {
+        "en": "November",
+        "th": "พฤศจิกายน",
+        "fa": "نوامبر",
+        "ar": "نوفمبر",
+        "es": "noviembre",
+        "zh": "十一月",
+        "ja": "11月"
+      }
+    },
+    {
+      "id": "s6",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We float a krathong on the river.",
+        "th": "เราลอยกระทงในแม่น้ำ",
+        "fa": "ما یک کراتونگ را روی رودخانه شناور می‌کنیم.",
+        "ar": "نطوف كراتونغ على النهر.",
+        "es": "Flotamos un krathong en el río.",
+        "zh": "我们在河上放水灯。",
+        "ja": "私たちは川にクラトンを浮かべます。"
+      },
+      "tokens": {
+        "th": ["เรา", "ลอย", "กระทง", "ใน", "แม่น้ำ"],
+        "zh": ["我们", "在", "河", "上", "放", "水灯", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "川",
+          "に",
+          "クラトン",
+          "を",
+          "浮かべ",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The moon is full and bright.",
+        "th": "พระจันทร์เต็มดวงและสว่าง",
+        "fa": "ماه کامل و روشن است.",
+        "ar": "القمر مكتمل ومشرق.",
+        "es": "La luna está llena y brillante.",
+        "zh": "月亮又圆又亮。",
+        "ja": "月は満ちて明るいです。"
+      },
+      "tokens": {
+        "th": ["พระจันทร์", "เต็มดวง", "และ", "สว่าง"],
+        "zh": ["月亮", "又", "圆", "又", "亮", "。"],
+        "ja": ["月", "は", "満ち", "て", "明るい", "です", "。"]
+      }
+    },
+    {
+      "id": "s8",
+      "kind": "Sentence",
+      "texts": {
+        "en": "It happens in November.",
+        "th": "มันเกิดขึ้นในเดือนพฤศจิกายน",
+        "fa": "این در نوامبر اتفاق می‌افتد.",
+        "ar": "يحدث في نوفمبر.",
+        "es": "Ocurre en noviembre.",
+        "zh": "它发生在十一月。",
+        "ja": "それは11月に起こります。"
+      },
+      "tokens": {
+        "th": ["มัน", "เกิด", "ขึ้น", "ใน", "เดือน", "พฤศจิกายน"],
+        "zh": ["它", "发生", "在", "十一月", "。"],
+        "ja": ["それ", "は", "11", "月", "に", "起こり", "ます", "。"]
+      }
+    },
+    {
+      "id": "s9",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We make a wish for the future.",
+        "th": "เราอธิษฐานขอพรสำหรับอนาคต",
+        "fa": "ما برای آینده آرزو می‌کنیم.",
+        "ar": "نتمنى شيئاً للمستقبل.",
+        "es": "Pedimos un deseo para el futuro.",
+        "zh": "我们为未来许愿。",
+        "ja": "私たちは未来に願いをかけます。"
+      },
+      "tokens": {
+        "th": ["เรา", "อธิษฐาน", "ขอพร", "สำหรับ", "อนาคต"],
+        "zh": ["我们", "为", "未来", "许愿", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "未来",
+          "に",
+          "願い",
+          "を",
+          "かけ",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s10",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The water looks beautiful at night.",
+        "th": "น้ำดูสวยงามในตอนกลางคืน",
+        "fa": "آب در شب زیبا به نظر می‌رسد.",
+        "ar": "يبدو الماء جميلاً في الليل.",
+        "es": "El agua se ve hermosa por la noche.",
+        "zh": "夜晚的水看起来很美丽。",
+        "ja": "夜の水は美しく見えます。"
+      },
+      "tokens": {
+        "th": ["น้ำ", "ดู", "สวยงาม", "ใน", "ตอน", "กลางคืน"],
+        "zh": ["夜晚", "的", "水", "看起来", "很", "美丽", "。"],
+        "ja": ["夜", "の", "水", "は", "美しく", "見え", "ます", "。"]
+      }
+    },
+
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Traditional Clothing",
+        "th": "สถานการณ์ที่ 3: เครื่องแต่งกายแบบดั้งเดิม",
+        "fa": "سناریو ۳: لباس سنتی",
+        "ar": "السيناريو 3: الملابس التقليدية",
+        "es": "Escenario 3: Ropa tradicional",
+        "zh": "场景 3：传统服饰",
+        "ja": "シナリオ 3：伝統的な服装"
+      }
+    },
+    {
+      "id": "w11",
+      "kind": "Word",
+      "texts": {
+        "en": "silk",
+        "th": "ผ้าไหม",
+        "fa": "ابریشم",
+        "ar": "حرير",
+        "es": "seda",
+        "zh": "丝绸",
+        "ja": "絹"
+      }
+    },
+    {
+      "id": "w12",
+      "kind": "Word",
+      "texts": {
+        "en": "wear",
+        "th": "สวมใส่",
+        "fa": "پوشیدن",
+        "ar": "يرتدي",
+        "es": "usar",
+        "zh": "穿",
+        "ja": "着る"
+      }
+    },
+    {
+      "id": "w13",
+      "kind": "Word",
       "texts": {
         "en": "beautiful",
-        "th": "สวย",
+        "th": "สวยงาม",
         "fa": "زیبا",
         "ar": "جميل",
         "es": "hermoso",
@@ -724,750 +425,243 @@
       }
     },
     {
-      "id": "word_flower",
-      "kind": "word",
+      "id": "w14",
+      "kind": "Word",
       "texts": {
-        "en": "flower",
-        "th": "ดอกไม้",
-        "fa": "گل",
-        "ar": "زهرة",
-        "es": "flor",
-        "zh": "花",
-        "ja": "花"
+        "en": "culture",
+        "th": "วัฒนธรรม",
+        "fa": "فرهنگ",
+        "ar": "ثقافة",
+        "es": "cultura",
+        "zh": "文化",
+        "ja": "文化"
       }
     },
     {
-      "id": "word_candle",
-      "kind": "word",
+      "id": "w15",
+      "kind": "Word",
       "texts": {
-        "en": "candle",
-        "th": "เทียน",
-        "fa": "شمع",
-        "ar": "شمعة",
-        "es": "vela",
-        "zh": "蜡烛",
-        "ja": "ろうそく"
+        "en": "traditional",
+        "th": "ดั้งเดิม",
+        "fa": "سنتی",
+        "ar": "تقليدي",
+        "es": "tradicional",
+        "zh": "传统",
+        "ja": "伝統的な"
       }
     },
     {
-      "id": "word_light",
-      "kind": "word",
+      "id": "s11",
+      "kind": "Sentence",
       "texts": {
-        "en": "light (a candle)",
-        "th": "จุด",
-        "fa": "روشن کردن",
-        "ar": "يضيء",
-        "es": "encender",
-        "zh": "点燃",
-        "ja": "火をつける"
-      }
-    },
-    {
-      "id": "word_night",
-      "kind": "word",
-      "texts": {
-        "en": "night",
-        "th": "ตอนกลางคืน",
-        "fa": "شب",
-        "ar": "ليلاً",
-        "es": "noche",
-        "zh": "夜晚",
-        "ja": "夜"
-      }
-    },
-    {
-      "id": "word_have",
-      "kind": "word",
-      "texts": {
-        "en": "have / there is",
-        "th": "มี",
-        "fa": "داشتن / هست",
-        "ar": "يوجد",
-        "es": "tener / haber",
-        "zh": "有",
-        "ja": "ある"
-      }
-    },
-    {
-      "id": "header_scenario3",
-      "header": true,
-      "texts": {
-        "en": "Scenario 3: Describing Festivals",
-        "th": "สถานการณ์ 3: การบรรยายลักษณะเทศกาล",
-        "fa": "سناریو ۳: توصیف جشنواره‌ها",
-        "ar": "السيناريو 3: وصف المهرجانات",
-        "es": "Escenario 3: Describir festivales",
-        "zh": "场景三：描述节日",
-        "ja": "シナリオ3：祭りを描写する"
-      }
-    },
-    {
-      "id": "sentence_fest_tradition",
-      "kind": "sentence",
-      "itemIds": ["word_it", "word_be", "word_tradition", "word_beautiful"],
-      "texts": {
-        "en": "It is a beautiful tradition",
-        "th": "มันเป็นประเพณีที่สวยมาก",
-        "fa": "این یک سنت بسیار زیبا است",
-        "ar": "إنه تقليد جميل جدا",
-        "es": "Es una tradición muy hermosa",
-        "zh": "这是一个非常美丽的传统",
-        "ja": "それはとても美しい伝統です"
+        "en": "She wears traditional silk clothes.",
+        "th": "เธอสวมเสื้อผ้าไหมแบบดั้งเดิม",
+        "fa": "او لباس‌های ابریشمی سنتی می‌پوشد.",
+        "ar": "ترتدي ملابس حريرية تقليدية.",
+        "es": "Ella usa ropa de seda tradicional.",
+        "zh": "她穿着传统的丝绸衣服。",
+        "ja": "彼女は伝統的な絹の服を着ています。"
       },
       "tokens": {
-        "en": ["It", "is", "a", "beautiful", "tradition"],
-        "th": ["มัน", "เป็น", "ประเพณี", "ที่", "สวย", "มาก"],
-        "fa": ["این", "یک", "سنت", "بسیار", "زیبا", "است"],
-        "ar": ["إنه", "تقليد", "جميل", "جدا"],
-        "es": ["Es", "una", "tradición", "muy", "hermosa"],
-        "zh": ["这", "是", "一个", "非常", "美丽", "的", "传统"],
-        "ja": ["それ", "は", "とても", "美しい", "伝統", "です"]
-      }
-    },
-    {
-      "id": "sentence_fest_lively",
-      "kind": "sentence",
-      "itemIds": ["word_festival", "word_lively", "word_very"],
-      "texts": {
-        "en": "The festival is very lively",
-        "th": "เทศกาลคึกคักมาก",
-        "fa": "جشنواره خیلی پرشور است",
-        "ar": "المهرجان حيوي جداً",
-        "es": "El festival es muy animado",
-        "zh": "节日非常热闹",
-        "ja": "祭りはとても賑やかです"
-      },
-      "tokens": {
-        "en": ["The", "festival", "is", "very", "lively"],
-        "th": ["เทศกาล", "คึกคัก", "มาก"],
-        "fa": ["جشنواره", "خیلی", "پرشور", "است"],
-        "ar": ["المهرجان", "حيوي", "جداً"],
-        "es": ["El", "festival", "es", "muy", "animado"],
-        "zh": ["节日", "非常", "热闹"],
-        "ja": ["祭り", "は", "とても", "賑やか", "です"]
-      }
-    },
-    {
-      "id": "sentence_fest_colorful",
-      "kind": "sentence",
-      "itemIds": [
-        "word_festival",
-        "word_thai",
-        "word_fun",
-        "word_and",
-        "word_colorful"
-      ],
-      "texts": {
-        "en": "Thai festivals are fun and colorful",
-        "th": "เทศกาลไทยสนุกและมีสีสัน",
-        "fa": "جشنواره‌های تایلند سرگرم‌کننده و پررنگ هستند",
-        "ar": "المهرجانات التايلاندية ممتعة وملونة",
-        "es": "Los festivales tailandeses son divertidos y coloridos",
-        "zh": "泰国的节日又有趣又多彩",
-        "ja": "タイの祭りは楽しくてカラフルです"
-      },
-      "tokens": {
-        "en": ["Thai", "festivals", "are", "fun", "and", "colorful"],
-        "th": ["เทศกาล", "ไทย", "สนุก", "และ", "มีสีสัน"],
-        "fa": ["جشنواره‌های", "تایلند", "سرگرم‌کننده", "و", "پررنگ", "هستند"],
-        "ar": ["المهرجانات", "التايلاندية", "ممتعة", "وملونة"],
-        "es": [
-          "Los",
-          "festivales",
-          "tailandeses",
-          "son",
-          "divertidos",
-          "y",
-          "coloridos"
-        ],
-        "zh": ["泰国", "的", "节日", "又", "有趣", "又", "多彩"],
-        "ja": ["タイ", "の", "祭り", "は", "楽しくて", "カラフル", "です"]
-      }
-    },
-    {
-      "id": "sentence_fest_happy_people",
-      "kind": "sentence",
-      "itemIds": ["word_people", "word_happy", "word_very"],
-      "texts": {
-        "en": "The people are very happy",
-        "th": "ผู้คนมีความสุขมาก",
-        "fa": "مردم خیلی خوشحال هستند",
-        "ar": "الناس سعداء جداً",
-        "es": "La gente está muy feliz",
-        "zh": "人们非常开心",
-        "ja": "人々はとても幸せです"
-      },
-      "tokens": {
-        "en": ["The", "people", "are", "very", "happy"],
-        "th": ["ผู้คน", "มีความสุข", "มาก"],
-        "fa": ["مردم", "خیلی", "خوشحال", "هستند"],
-        "ar": ["الناس", "سعداء", "جداً"],
-        "es": ["La", "gente", "está", "muy", "feliz"],
-        "zh": ["人们", "非常", "开心"],
-        "ja": ["人々", "は", "とても", "幸せ", "です"]
-      }
-    },
-    {
-      "id": "sentence_fest_interesting",
-      "kind": "sentence",
-      "itemIds": ["word_tradition", "word_interesting"],
-      "texts": {
-        "en": "The tradition is interesting",
-        "th": "ประเพณีน่าสนใจ",
-        "fa": "این سنت جالب است",
-        "ar": "التقليد مثير للاهتمام",
-        "es": "La tradición es interesante",
-        "zh": "这个传统很有意思",
-        "ja": "この伝統は興味深いです"
-      },
-      "tokens": {
-        "en": ["The", "tradition", "is", "interesting"],
-        "th": ["ประเพณี", "น่าสนใจ"],
-        "fa": ["این", "سنت", "جالب", "است"],
-        "ar": ["التقليد", "مثير", "للاهتمام"],
-        "es": ["La", "tradición", "es", "interesante"],
-        "zh": ["这个", "传统", "很", "有意思"],
-        "ja": ["この", "伝統", "は", "興味深い", "です"]
-      }
-    },
-    {
-      "id": "word_lively",
-      "kind": "word",
-      "texts": {
-        "en": "lively",
-        "th": "คึกคัก",
-        "fa": "پرشور",
-        "ar": "حيوي",
-        "es": "animado",
-        "zh": "热闹",
-        "ja": "賑やか"
-      }
-    },
-    {
-      "id": "word_colorful",
-      "kind": "word",
-      "texts": {
-        "en": "colorful",
-        "th": "มีสีสัน",
-        "fa": "پررنگ",
-        "ar": "ملون",
-        "es": "colorido",
-        "zh": "多彩",
-        "ja": "カラフル"
-      }
-    },
-    {
-      "id": "word_happy",
-      "kind": "word",
-      "texts": {
-        "en": "happy",
-        "th": "มีความสุข",
-        "fa": "خوشحال",
-        "ar": "سعيد",
-        "es": "feliz",
-        "zh": "开心 / 幸福",
-        "ja": "幸せ"
-      }
-    },
-    {
-      "id": "word_interesting",
-      "kind": "word",
-      "texts": {
-        "en": "interesting",
-        "th": "น่าสนใจ",
-        "fa": "جالب",
-        "ar": "مثير للاهتمام",
-        "es": "interesante",
-        "zh": "有意思的",
-        "ja": "面白い"
-      }
-    },
-    {
-      "id": "header_scenario4",
-      "header": true,
-      "texts": {
-        "en": "Scenario 4: Talking About Time — กำลัง, แล้ว, จะ, เคย",
-        "th": "สถานการณ์ 4: การพูดเรื่องเวลา — กำลัง, แล้ว, จะ, เคย",
-        "fa": "سناریو ۴: صحبت درباره زمان — กำลัง, แล้ว, จะ, เคย",
-        "ar": "السيناريو 4: الحديث عن الوقت — กำลัง, แล้ว, จะ, เคย",
-        "es": "Escenario 4: Hablar del tiempo — กำลัง, แล้ว, จะ, เคย",
-        "zh": "场景四：谈论时间——กำลัง, แล้ว, จะ, เคย",
-        "ja": "シナリオ4：時間について話す——กำลัง, แล้ว, จะ, เคย"
-      }
-    },
-    {
-      "id": "sentence_fest_this_year",
-      "kind": "sentence",
-      "itemIds": [
-        "word_this_year",
-        "word_festival",
-        "word_cha",
-        "word_fun",
-        "word_very"
-      ],
-      "texts": {
-        "en": "This year the festival will be very fun",
-        "th": "ปีนี้เทศกาลจะสนุกมาก",
-        "fa": "امسال جشنواره خیلی سرگرم‌کننده خواهد بود",
-        "ar": "هذه السنة سيكون المهرجان ممتعاً جداً",
-        "es": "Este año el festival será muy divertido",
-        "zh": "今年的节日会非常有趣",
-        "ja": "今年の祭りはとても楽しいでしょう"
-      },
-      "tokens": {
-        "en": ["This", "year", "the", "festival", "will", "be", "very", "fun"],
-        "th": ["ปีนี้", "เทศกาล", "จะ", "สนุก", "มาก"],
-        "fa": ["امسال", "جشنواره", "خیلی", "سرگرم‌کننده", "خواهد", "بود"],
-        "ar": ["هذه", "السنة", "سيكون", "المهرجان", "ممتعاً", "جداً"],
-        "es": ["Este", "año", "el", "festival", "será", "muy", "divertido"],
-        "zh": ["今年", "的", "节日", "会", "非常", "有趣"],
-        "ja": ["今年", "の", "祭り", "は", "とても", "楽しい", "でしょう"]
-      }
-    },
-    {
-      "id": "sentence_fest_progressive",
-      "kind": "sentence",
-      "itemIds": [
-        "word_now",
-        "word_people",
-        "word_kamlang",
-        "word_splash",
-        "word_water"
-      ],
-      "texts": {
-        "en": "People are splashing water now",
-        "th": "ตอนนี้ผู้คนกำลังสาดน้ำ",
-        "fa": "الان مردم دارند آب می‌پاشند",
-        "ar": "الآن يرش الناس الماء",
-        "es": "Ahora la gente está salpicando agua",
-        "zh": "现在人们正在泼水",
-        "ja": "今、人々は水をかけ合っています"
-      },
-      "tokens": {
-        "en": ["People", "are", "splashing", "water", "now"],
-        "th": ["ตอนนี้", "ผู้คน", "กำลัง", "สาด", "น้ำ"],
-        "fa": ["الان", "مردم", "دارند", "آب", "می‌پاشند"],
-        "ar": ["الآن", "يرش", "الناس", "الماء"],
-        "es": ["Ahora", "la", "gente", "está", "salpicando", "agua"],
-        "zh": ["现在", "人们", "正在", "泼水"],
-        "ja": ["今", "人々", "は", "水", "を", "かけ合って", "います"]
-      }
-    },
-    {
-      "id": "sentence_fest_finished",
-      "kind": "sentence",
-      "itemIds": ["word_festival", "word_finish", "word_laeo"],
-      "texts": {
-        "en": "The festival has ended",
-        "th": "เทศกาลจบแล้ว",
-        "fa": "جشنواره تمام شده است",
-        "ar": "انتهى المهرجان",
-        "es": "El festival ha terminado",
-        "zh": "节日已经结束了",
-        "ja": "祭りは終わりました"
-      },
-      "tokens": {
-        "en": ["The", "festival", "has", "ended"],
-        "th": ["เทศกาล", "จบ", "แล้ว"],
-        "fa": ["جشنواره", "تمام", "شده", "است"],
-        "ar": ["انتهى", "المهرجان"],
-        "es": ["El", "festival", "ha", "terminado"],
-        "zh": ["节日", "已经", "结束", "了"],
-        "ja": ["祭り", "は", "終わり", "ました"]
-      }
-    },
-    {
-      "id": "sentence_fest_wet",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_wet", "word_laeo"],
-      "texts": {
-        "en": "I am already wet",
-        "th": "ฉันเปียกแล้ว",
-        "fa": "من دیگر خیس شده‌ام",
-        "ar": "أنا مبلل بالفعل",
-        "es": "Ya estoy mojado",
-        "zh": "我已经湿透了",
-        "ja": "私はもう濡れています"
-      },
-      "tokens": {
-        "en": ["I", "am", "already", "wet"],
-        "th": ["ฉัน", "เปียก", "แล้ว"],
-        "fa": ["من", "دیگر", "خیس", "شده‌ام"],
-        "ar": ["أنا", "مبلل", "بالفعل"],
-        "es": ["Ya", "estoy", "mojado"],
-        "zh": ["我", "已经", "湿透", "了"],
-        "ja": ["私", "は", "もう", "濡れて", "います"]
-      }
-    },
-    {
-      "id": "sentence_fest_ever_loy",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_khoey",
-        "word_go",
-        "word_loy_krathong",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Have you ever been to Loy Krathong?",
-        "th": "คุณเคยไปงานลอยกระทงไหม",
-        "fa": "آیا تا به حال در جشنواره لوی کراتونگ شرکت کرده‌اید؟",
-        "ar": "هل سبق لك أن حضرت مهرجان لوي كراثونغ؟",
-        "es": "¿Has estado alguna vez en Loy Krathong?",
-        "zh": "你参加过水灯节吗？",
-        "ja": "ロイクラトンに行ったことがありますか？"
-      },
-      "tokens": {
-        "en": ["Have", "you", "ever", "been", "to", "Loy", "Krathong?"],
-        "th": ["คุณ", "เคย", "ไป", "งาน", "ลอยกระทง", "ไหม"],
-        "fa": [
-          "آیا",
-          "تا",
-          "به",
-          "حال",
-          "در",
-          "جشنواره",
-          "لوی",
-          "کراتونگ",
-          "شرکت",
-          "کرده‌اید؟"
-        ],
-        "ar": ["هل", "سبق", "لك", "أن", "حضرت", "مهرجان", "لوي", "كراثونغ؟"],
-        "es": ["¿Has", "estado", "alguna", "vez", "en", "Loy", "Krathong?"],
-        "zh": ["你", "参加", "过", "水灯节", "吗？"],
+        "th": ["เธอ", "สวม", "เสื้อผ้า", "ไหม", "แบบ", "ดั้งเดิม"],
+        "zh": ["她", "穿着", "传统", "的", "丝绸", "衣服", "。"],
         "ja": [
-          "ロイクラトン",
-          "に",
-          "行った",
-          "こと",
-          "が",
-          "あり",
-          "ます",
-          "か？"
-        ]
-      }
-    },
-    {
-      "id": "sentence_fest_ever_answer",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_go", "word_last_year"],
-      "texts": {
-        "en": "Yes, I went last year",
-        "th": "ค่ะ ฉันไปเมื่อปีที่แล้ว",
-        "fa": "بله، من پارسال رفتم",
-        "ar": "نعم، ذهبت في العام الماضي",
-        "es": "Sí, fui el año pasado",
-        "zh": "是的，我去年去了",
-        "ja": "はい、去年行きました"
-      },
-      "tokens": {
-        "en": ["Yes,", "I", "went", "last", "year"],
-        "th": ["ค่ะ", "ฉัน", "ไป", "เมื่อปีที่แล้ว"],
-        "fa": ["بله،", "من", "پارسال", "رفتم"],
-        "ar": ["نعم،", "ذهبت", "في", "العام", "الماضي"],
-        "es": ["Sí,", "fui", "el", "año", "pasado"],
-        "zh": ["是的，", "我", "去年", "去", "了"],
-        "ja": ["はい、", "去年", "行き", "ました"]
-      }
-    },
-    {
-      "id": "word_this_year",
-      "kind": "word",
-      "texts": {
-        "en": "this year",
-        "th": "ปีนี้",
-        "fa": "امسال",
-        "ar": "هذه السنة",
-        "es": "este año",
-        "zh": "今年",
-        "ja": "今年"
-      }
-    },
-    {
-      "id": "word_last_year",
-      "kind": "word",
-      "texts": {
-        "en": "last year",
-        "th": "ปีที่แล้ว",
-        "fa": "پارسال",
-        "ar": "العام الماضي",
-        "es": "el año pasado",
-        "zh": "去年",
-        "ja": "去年"
-      }
-    },
-    {
-      "id": "word_wet",
-      "kind": "word",
-      "texts": {
-        "en": "wet",
-        "th": "เปียก",
-        "fa": "خیس",
-        "ar": "مبلل",
-        "es": "mojado",
-        "zh": "湿的",
-        "ja": "濡れた"
-      }
-    },
-    {
-      "id": "word_go",
-      "kind": "word",
-      "texts": {
-        "en": "go",
-        "th": "ไป",
-        "fa": "رفتن",
-        "ar": "يذهب",
-        "es": "ir",
-        "zh": "去",
-        "ja": "行く"
-      }
-    },
-    {
-      "id": "word_question_particle",
-      "kind": "word",
-      "texts": {
-        "en": "question marker",
-        "th": "ไหม",
-        "fa": "آیا",
-        "ar": "هل",
-        "es": "partícula interrogativa",
-        "zh": "吗",
-        "ja": "か"
-      }
-    },
-    {
-      "id": "word_finish",
-      "kind": "word",
-      "texts": {
-        "en": "finish / end",
-        "th": "จบ",
-        "fa": "تمام شدن",
-        "ar": "ينتهي",
-        "es": "terminar",
-        "zh": "结束",
-        "ja": "終わる"
-      }
-    },
-    {
-      "id": "header_scenario5",
-      "header": true,
-      "texts": {
-        "en": "Scenario 5: Family, Wishes & Blessings",
-        "th": "สถานการณ์ 5: ครอบครัว คำอวยพร และความสุข",
-        "fa": "سناریو ۵: خانواده، آرزوها و دعاهای خیر",
-        "ar": "السيناريو 5: العائلة والأماني والبركات",
-        "es": "Escenario 5: Familia, deseos y bendiciones",
-        "zh": "场景五：家庭、祝愿与祝福",
-        "ja": "シナリオ5：家族と願いと祝福"
-      }
-    },
-    {
-      "id": "sentence_fest_happy_new_year",
-      "kind": "sentence",
-      "itemIds": ["word_greeting", "word_new_year"],
-      "texts": {
-        "en": "Happy New Year!",
-        "th": "สวัสดีปีใหม่!",
-        "fa": "سال نو مبارک!",
-        "ar": "سنة جديدة سعيدة!",
-        "es": "¡Feliz Año Nuevo!",
-        "zh": "新年快乐！",
-        "ja": "明けましておめでとうございます！"
-      },
-      "tokens": {
-        "en": ["Happy", "New", "Year!"],
-        "th": ["สวัสดี", "ปีใหม่!"],
-        "fa": ["سال", "نو", "مبارک!"],
-        "ar": ["سنة", "جديدة", "سعيدة!"],
-        "es": ["¡Feliz", "Año", "Nuevo!"],
-        "zh": ["新年", "快乐！"],
-        "ja": ["明けまして", "おめでとう", "ございます！"]
-      }
-    },
-    {
-      "id": "sentence_fest_wish_happiness",
-      "kind": "sentence",
-      "itemIds": ["word_wish", "word_you", "word_happy"],
-      "texts": {
-        "en": "Wishing you happiness",
-        "th": "ขอให้คุณมีความสุข",
-        "fa": "برای شما شادی آرزو می‌کنم",
-        "ar": "أتمنى لك السعادة",
-        "es": "Te deseo felicidad",
-        "zh": "祝你幸福",
-        "ja": "あなたの幸せを願います"
-      },
-      "tokens": {
-        "en": ["Wishing", "you", "happiness"],
-        "th": ["ขอให้", "คุณ", "มีความสุข"],
-        "fa": ["برای", "شما", "شادی", "آرزو", "می‌کنم"],
-        "ar": ["أتمنى", "لك", "السعادة"],
-        "es": ["Te", "deseo", "felicidad"],
-        "zh": ["祝", "你", "幸福"],
-        "ja": ["あなた", "の", "幸せ", "を", "願い", "ます"]
-      }
-    },
-    {
-      "id": "sentence_fest_family_gather",
-      "kind": "sentence",
-      "itemIds": ["word_family", "word_meet", "word_during", "word_songkran"],
-      "texts": {
-        "en": "The family gathers during Songkran",
-        "th": "ครอบครัวมาเจอกันในช่วงสงกรานต์",
-        "fa": "خانواده در زمان سونگکران دور هم جمع می‌شوند",
-        "ar": "تجتمع العائلة خلال سونغكران",
-        "es": "La familia se reúne durante Songkran",
-        "zh": "宋干节期间家人团聚",
-        "ja": "ソンクラーンの間に家族が集まります"
-      },
-      "tokens": {
-        "en": ["The", "family", "gathers", "during", "Songkran"],
-        "th": ["ครอบครัว", "มา", "เจอ", "กัน", "ในช่วง", "สงกรานต์"],
-        "fa": [
-          "خانواده",
-          "در",
-          "زمان",
-          "سونگکران",
-          "دور",
-          "هم",
-          "جمع",
-          "می‌شوند"
-        ],
-        "ar": ["تجتمع", "العائلة", "خلال", "سونغكران"],
-        "es": ["La", "familia", "se", "reúne", "durante", "Songkran"],
-        "zh": ["宋干节", "期间", "家人", "团聚"],
-        "ja": ["ソンクラーン", "の", "間", "に", "家族", "が", "集まり", "ます"]
-      }
-    },
-    {
-      "id": "sentence_fest_visit_grandparents",
-      "kind": "sentence",
-      "itemIds": [
-        "word_we",
-        "word_visit",
-        "word_grandparents",
-        "word_during",
-        "word_songkran"
-      ],
-      "texts": {
-        "en": "We visit our grandparents during Songkran",
-        "th": "เราไปเยี่ยมปู่ย่าตายายในช่วงสงกรานต์",
-        "fa": "ما در زمان سونگکران به دیدن پدربزرگ و مادربزرگ می‌رویم",
-        "ar": "نزور أجدادنا خلال سونغكران",
-        "es": "Visitamos a nuestros abuelos durante Songkran",
-        "zh": "宋干节期间我们去看望祖父母",
-        "ja": "ソンクラーンの間に祖父母を訪ねます"
-      },
-      "tokens": {
-        "en": ["We", "visit", "our", "grandparents", "during", "Songkran"],
-        "th": ["เรา", "ไป", "เยี่ยม", "ปู่ย่าตายาย", "ในช่วง", "สงกรานต์"],
-        "fa": [
-          "ما",
-          "در",
-          "زمان",
-          "سونگکران",
-          "به",
-          "دیدن",
-          "پدربزرگ",
-          "و",
-          "مادربزرگ",
-          "می‌رویم"
-        ],
-        "ar": ["نزور", "أجدادنا", "خلال", "سونغكران"],
-        "es": ["Visitamos", "a", "nuestros", "abuelos", "durante", "Songkran"],
-        "zh": ["宋干节", "期间", "我们", "去", "看望", "祖父母"],
-        "ja": ["ソンクラーン", "の", "間", "に", "祖父母", "を", "訪ね", "ます"]
-      }
-    },
-    {
-      "id": "sentence_fest_pour_water",
-      "kind": "sentence",
-      "itemIds": [
-        "word_we",
-        "word_pour",
-        "word_scented_water",
-        "word_hand",
-        "word_elder"
-      ],
-      "texts": {
-        "en": "We pour scented water on the elders' hands",
-        "th": "เรารดน้ำอบที่มือผู้ใหญ่",
-        "fa": "ما آب معطر روی دست بزرگ‌ترها می‌ریزیم",
-        "ar": "نسكب الماء المعطر على أيدي الكبار",
-        "es": "Vertemos agua perfumada en las manos de los mayores",
-        "zh": "我们向长辈的手上洒香水",
-        "ja": "私たちは長老の手に香水をかけます"
-      },
-      "tokens": {
-        "en": [
-          "We",
-          "pour",
-          "scented",
-          "water",
-          "on",
-          "the",
-          "elders'",
-          "hands"
-        ],
-        "th": ["เรา", "รด", "น้ำอบ", "ที่", "มือ", "ผู้ใหญ่"],
-        "fa": ["ما", "آب", "معطر", "روی", "دست", "بزرگ‌ترها", "می‌ریزیم"],
-        "ar": ["نسكب", "الماء", "المعطر", "على", "أيدي", "الكبار"],
-        "es": [
-          "Vertemos",
-          "agua",
-          "perfumada",
-          "en",
-          "las",
-          "manos",
-          "de",
-          "los",
-          "mayores"
-        ],
-        "zh": ["我们", "向", "长辈", "的", "手上", "洒", "香水"],
-        "ja": [
-          "私たち",
+          "彼女",
           "は",
-          "長老",
+          "伝統",
+          "的",
+          "な",
+          "絹",
           "の",
-          "手",
-          "に",
-          "香水",
+          "服",
           "を",
-          "かけ",
-          "ます"
+          "着",
+          "て",
+          "い",
+          "ます",
+          "。"
         ]
       }
     },
     {
-      "id": "word_greeting",
-      "kind": "word",
+      "id": "s12",
+      "kind": "Sentence",
       "texts": {
-        "en": "greeting (hello)",
-        "th": "สวัสดี",
-        "fa": "سلام",
-        "ar": "تحية",
-        "es": "saludo",
-        "zh": "问候",
-        "ja": "挨拶"
+        "en": "The patterns are very beautiful.",
+        "th": "ลวดลายสวยงามมาก",
+        "fa": "الگوها بسیار زیبا هستند.",
+        "ar": "الأنماط جميلة جداً.",
+        "es": "Los patrones son muy hermosos.",
+        "zh": "图案非常美丽。",
+        "ja": "模様はとても美しいです。"
+      },
+      "tokens": {
+        "th": ["ลวดลาย", "สวยงาม", "มาก"],
+        "zh": ["图案", "非常", "美丽", "。"],
+        "ja": ["模様", "は", "とても", "美しい", "です", "。"]
       }
     },
     {
-      "id": "word_wish",
-      "kind": "word",
+      "id": "s13",
+      "kind": "Sentence",
       "texts": {
-        "en": "wish",
-        "th": "ขอให้",
-        "fa": "آرزو کردن",
-        "ar": "يتمنى",
-        "es": "desear",
-        "zh": "祝愿",
-        "ja": "願う"
+        "en": "We wear this for special festivals.",
+        "th": "เราสวมใส่นี้สำหรับเทศกาลพิเศษ",
+        "fa": "ما این را برای جشنواره‌های خاص می‌پوشیم.",
+        "ar": "نرتدي هذا للمهرجانات الخاصة.",
+        "es": "Usamos esto para festivales especiales.",
+        "zh": "我们在特殊节日穿这个。",
+        "ja": "私たちは特別な祭りのためにこれを着ます。"
+      },
+      "tokens": {
+        "th": ["เรา", "สวมใส่", "นี้", "สำหรับ", "เทศกาล", "พิเศษ"],
+        "zh": ["我们", "在", "特殊", "节日", "穿", "这个", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "特別",
+          "な",
+          "祭り",
+          "の",
+          "ため",
+          "に",
+          "これ",
+          "を",
+          "着",
+          "ます",
+          "。"
+        ]
       }
     },
     {
-      "id": "word_family",
-      "kind": "word",
+      "id": "s14",
+      "kind": "Sentence",
+      "texts": {
+        "en": "It shows our rich culture.",
+        "th": "มันแสดงถึงวัฒนธรรมที่รุ่มรวยของเรา",
+        "fa": "این فرهنگ غنی ما را نشان می‌دهد.",
+        "ar": "يظهر ثقافتنا الغنية.",
+        "es": "Muestra nuestra rica cultura.",
+        "zh": "它展示了我们丰富的文化。",
+        "ja": "それは私たちの豊かな文化を示しています。"
+      },
+      "tokens": {
+        "th": [
+          "มัน",
+          "แสดง",
+          "ถึง",
+          "วัฒนธรรม",
+          "ที่",
+          "รุ่มรวย",
+          "ของ",
+          "เรา"
+        ],
+        "zh": ["它", "展示", "了", "我们", "丰富", "的", "文化", "。"],
+        "ja": [
+          "それ",
+          "は",
+          "私たち",
+          "の",
+          "豊か",
+          "な",
+          "文化",
+          "を",
+          "示し",
+          "て",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s15",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Many people take photos.",
+        "th": "หลายคนถ่ายรูป",
+        "fa": "بسیاری از مردم عکس می‌گیرند.",
+        "ar": "الكثير من الناس يلتقطون الصور.",
+        "es": "Mucha gente toma fotos.",
+        "zh": "许多人拍照。",
+        "ja": "多くの人が写真を撮ります。"
+      },
+      "tokens": {
+        "th": ["หลาย", "คน", "ถ่ายรูป"],
+        "zh": ["许多", "人", "拍照", "。"],
+        "ja": ["多く", "の", "人", "が", "写真", "を", "撮り", "ます", "。"]
+      }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Festival Foods",
+        "th": "สถานการณ์ที่ 4: อาหารเทศกาล",
+        "fa": "سناریو ۴: غذاهای جشنواره",
+        "ar": "السيناريو 4: أطعمة المهرجان",
+        "es": "Escenario 4: Comidas del festival",
+        "zh": "场景 4：节日美食",
+        "ja": "シナリオ 4：祭りの食べ物"
+      }
+    },
+    {
+      "id": "w16",
+      "kind": "Word",
+      "texts": {
+        "en": "sweet",
+        "th": "หวาน",
+        "fa": "شیرین",
+        "ar": "حلو",
+        "es": "dulce",
+        "zh": "甜",
+        "ja": "甘い"
+      }
+    },
+    {
+      "id": "w17",
+      "kind": "Word",
+      "texts": {
+        "en": "sticky rice",
+        "th": "ข้าวเหนียว",
+        "fa": "برنج چسبناک",
+        "ar": "أرز لزج",
+        "es": "arroz pegajoso",
+        "zh": "糯米",
+        "ja": "もち米"
+      }
+    },
+    {
+      "id": "w18",
+      "kind": "Word",
+      "texts": {
+        "en": "dessert",
+        "th": "ของหวาน",
+        "fa": "دسر",
+        "ar": "حلوى",
+        "es": "postre",
+        "zh": "甜点",
+        "ja": "デザート"
+      }
+    },
+    {
+      "id": "w19",
+      "kind": "Word",
+      "texts": {
+        "en": "share",
+        "th": "แบ่งปัน",
+        "fa": "به اشتراک گذاشتن",
+        "ar": "مشاركة",
+        "es": "compartir",
+        "zh": "分享",
+        "ja": "共有する"
+      }
+    },
+    {
+      "id": "w20",
+      "kind": "Word",
       "texts": {
         "en": "family",
         "th": "ครอบครัว",
@@ -1479,107 +673,295 @@
       }
     },
     {
-      "id": "word_meet",
-      "kind": "word",
+      "id": "s16",
+      "kind": "Sentence",
       "texts": {
-        "en": "meet / gather",
-        "th": "เจอกัน",
-        "fa": "دور هم جمع شدن",
-        "ar": "يجتمع",
-        "es": "reunirse",
-        "zh": "聚会",
-        "ja": "集まる"
+        "en": "We eat sweet desserts.",
+        "th": "เรากินของหวาน",
+        "fa": "ما دسرهای شیرین می‌خوریم.",
+        "ar": "نأكل الحلويات الحلوة.",
+        "es": "Comemos postres dulces.",
+        "zh": "我们吃甜甜点。",
+        "ja": "私たちは甘いデザートを食べます。"
+      },
+      "tokens": {
+        "th": ["เรา", "กิน", "ของหวาน"],
+        "zh": ["我们", "吃", "甜", "甜点", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "甘い",
+          "デザート",
+          "を",
+          "食べ",
+          "ます",
+          "。"
+        ]
       }
     },
     {
-      "id": "word_during",
-      "kind": "word",
+      "id": "s17",
+      "kind": "Sentence",
       "texts": {
-        "en": "during",
-        "th": "ในช่วง",
-        "fa": "در طول / هنگام",
-        "ar": "خلال",
-        "es": "durante",
-        "zh": "在…期间",
-        "ja": "〜の間に"
+        "en": "Sticky rice is very popular.",
+        "th": "ข้าวเหนียวเป็นที่นิยมมาก",
+        "fa": "برنج چسبناک بسیار محبوب است.",
+        "ar": "الأرز اللزج شائع جداً.",
+        "es": "El arroz pegajoso es muy popular.",
+        "zh": "糯米非常受欢迎。",
+        "ja": "もち米はとても人気があります。"
+      },
+      "tokens": {
+        "th": ["ข้าวเหนียว", "เป็น", "ที่", "นิยม", "มาก"],
+        "zh": ["糯米", "非常", "受欢迎", "。"],
+        "ja": ["もち米", "は", "とても", "人気", "が", "あり", "ます", "。"]
       }
     },
     {
-      "id": "word_visit",
-      "kind": "word",
+      "id": "s18",
+      "kind": "Sentence",
       "texts": {
-        "en": "visit",
-        "th": "เยี่ยม",
-        "fa": "به دیدن رفتن",
-        "ar": "يزور",
-        "es": "visitar",
-        "zh": "看望 / 拜访",
-        "ja": "訪ねる"
+        "en": "We share food with family.",
+        "th": "เราแบ่งปันอาหารกับครอบครัว",
+        "fa": "ما غذا را با خانواده به اشتراک می‌گذاریم.",
+        "ar": "نشارك الطعام مع العائلة.",
+        "es": "Compartimos comida con la familia.",
+        "zh": "我们与家人分享食物。",
+        "ja": "私たちは家族と食べ物を共有します。"
+      },
+      "tokens": {
+        "th": ["เรา", "แบ่งปัน", "อาหาร", "กับ", "ครอบครัว"],
+        "zh": ["我们", "与", "家人", "分享", "食物", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "家族",
+          "と",
+          "食べ物",
+          "を",
+          "共有",
+          "し",
+          "ます",
+          "。"
+        ]
       }
     },
     {
-      "id": "word_grandparents",
-      "kind": "word",
+      "id": "s19",
+      "kind": "Sentence",
       "texts": {
-        "en": "grandparents",
-        "th": "ปู่ย่าตายาย",
-        "fa": "پدربزرگ و مادربزرگ",
-        "ar": "أجداد",
-        "es": "abuelos",
-        "zh": "祖父母",
-        "ja": "祖父母"
+        "en": "The market is full of food.",
+        "th": "ตลาดเต็มไปด้วยอาหาร",
+        "fa": "بازار پر از غذا است.",
+        "ar": "السوق مليء بالطعام.",
+        "es": "El mercado está lleno de comida.",
+        "zh": "市场里充满了食物。",
+        "ja": "市場は食べ物でいっぱいです。"
+      },
+      "tokens": {
+        "th": ["ตลาด", "เต็ม", "ไป", "ด้วย", "อาหาร"],
+        "zh": ["市场", "里", "充满", "了", "食物", "。"],
+        "ja": ["市場", "は", "食べ物", "で", "いっぱい", "です", "。"]
       }
     },
     {
-      "id": "word_pour",
-      "kind": "word",
+      "id": "s20",
+      "kind": "Sentence",
       "texts": {
-        "en": "pour",
-        "th": "รด",
-        "fa": "ریختن",
-        "ar": "يسكب",
-        "es": "verter",
-        "zh": "洒 / 浇",
-        "ja": "かける"
+        "en": "Everyone enjoys the special taste.",
+        "th": "ทุกคนเพลิดเพลินกับรสชาติพิเศษ",
+        "fa": "همه از طعم خاص لذت می‌برند.",
+        "ar": "الجميع يستمتع بالطعم الخاص.",
+        "es": "Todos disfrutan del sabor especial.",
+        "zh": "每个人都享受这种特殊的味道。",
+        "ja": "誰もが特別な味を楽しみます。"
+      },
+      "tokens": {
+        "th": ["ทุก", "คน", "เพลิดเพลิน", "กับ", "รสชาติ", "พิเศษ"],
+        "zh": ["每个", "人", "都", "享受", "这种", "特殊", "的", "味道", "。"],
+        "ja": [
+          "誰",
+          "も",
+          "が",
+          "特別",
+          "な",
+          "味",
+          "を",
+          "楽しみ",
+          "ます",
+          "。"
+        ]
+      }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Wishing & Blessings",
+        "th": "สถานการณ์ที่ 5: การอธิษฐานและให้พร",
+        "fa": "سناریو ۵: آرزو و برکت",
+        "ar": "السيناريو 5: التمنيات والبركات",
+        "es": "Escenario 5: Deseos y bendiciones",
+        "zh": "场景 5：许愿与祝福",
+        "ja": "シナリオ 5：願いと祝福"
       }
     },
     {
-      "id": "word_scented_water",
-      "kind": "word",
+      "id": "w21",
+      "kind": "Word",
       "texts": {
-        "en": "scented water",
-        "th": "น้ำอบ",
-        "fa": "آب معطر",
-        "ar": "ماء معطر",
-        "es": "agua perfumada",
-        "zh": "香水",
-        "ja": "香水"
+        "en": "wish",
+        "th": "อธิษฐาน",
+        "fa": "آرزو",
+        "ar": "أمنية",
+        "es": "deseo",
+        "zh": "愿望",
+        "ja": "願い"
       }
     },
     {
-      "id": "word_hand",
-      "kind": "word",
+      "id": "w22",
+      "kind": "Word",
       "texts": {
-        "en": "hand",
-        "th": "มือ",
-        "fa": "دست",
-        "ar": "يد",
-        "es": "mano",
-        "zh": "手",
-        "ja": "手"
+        "en": "luck",
+        "th": "โชค",
+        "fa": "شانس",
+        "ar": "حظ",
+        "es": "suerte",
+        "zh": "运气",
+        "ja": "運"
       }
     },
     {
-      "id": "word_elder",
-      "kind": "word",
+      "id": "w23",
+      "kind": "Word",
       "texts": {
-        "en": "elder",
-        "th": "ผู้ใหญ่",
-        "fa": "بزرگ‌تر",
-        "ar": "كبار السن",
-        "es": "mayor / anciano",
-        "zh": "长辈",
-        "ja": "長老"
+        "en": "health",
+        "th": "สุขภาพ",
+        "fa": "سلامتی",
+        "ar": "صحة",
+        "es": "salud",
+        "zh": "健康",
+        "ja": "健康"
+      }
+    },
+    {
+      "id": "w24",
+      "kind": "Word",
+      "texts": {
+        "en": "happiness",
+        "th": "ความสุข",
+        "fa": "شادی",
+        "ar": "سعادة",
+        "es": "felicidad",
+        "zh": "幸福",
+        "ja": "幸せ"
+      }
+    },
+    {
+      "id": "w25",
+      "kind": "Word",
+      "texts": {
+        "en": "prosperity",
+        "th": "ความเจริญ",
+        "fa": "رفاه",
+        "ar": "ازدهار",
+        "es": "prosperidad",
+        "zh": "繁荣",
+        "ja": "繁栄"
+      }
+    },
+    {
+      "id": "s21",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I make a wish for good luck.",
+        "th": "ฉันอธิษฐานขอโชคดี",
+        "fa": "من برای شانس خوب آرزو می‌کنم.",
+        "ar": "أتمنى حظاً سعيداً.",
+        "es": "Pido un deseo de buena suerte.",
+        "zh": "我祈求好运。",
+        "ja": "私は幸運を祈ります。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "อธิษฐาน", "ขอ", "โชคดี"],
+        "zh": ["我", "祈求", "好运", "。"],
+        "ja": ["私", "は", "幸運", "を", "祈り", "ます", "。"]
+      }
+    },
+    {
+      "id": "s22",
+      "kind": "Sentence",
+      "texts": {
+        "en": "May you have good health.",
+        "th": "ขอให้คุณมีสุขภาพดี",
+        "fa": "امیدوارم سلامت باشید.",
+        "ar": "أتمنى لك الصحة الجيدة.",
+        "es": "Que tengas buena salud.",
+        "zh": "祝你身体健康。",
+        "ja": "あなたが健康でありますように。"
+      },
+      "tokens": {
+        "th": ["ขอ", "ให้", "คุณ", "มี", "สุขภาพ", "ดี"],
+        "zh": ["祝", "你", "身体", "健康", "。"],
+        "ja": ["あなた", "が", "健康", "で", "あり", "ます", "よう", "に", "。"]
+      }
+    },
+    {
+      "id": "s23",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We wish for happiness.",
+        "th": "เราอธิษฐานขอความสุข",
+        "fa": "ما برای شادی آرزو می‌کنیم.",
+        "ar": "نتمنى السعادة.",
+        "es": "Deseamos felicidad.",
+        "zh": "我们祈求幸福。",
+        "ja": "私たちは幸せを祈ります。"
+      },
+      "tokens": {
+        "th": ["เรา", "อธิษฐาน", "ขอ", "ความสุข"],
+        "zh": ["我们", "祈求", "幸福", "。"],
+        "ja": ["私", "たち", "は", "幸せ", "を", "祈り", "ます", "。"]
+      }
+    },
+    {
+      "id": "s24",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Blessings bring prosperity.",
+        "th": "พรนำพาความเจริญ",
+        "fa": "برکت‌ها رفاه می‌آورند.",
+        "ar": "البركات تجلب الازدهار.",
+        "es": "Las bendiciones traen prosperidad.",
+        "zh": "祝福带来繁荣。",
+        "ja": "祝福は繁栄をもたらします。"
+      },
+      "tokens": {
+        "th": ["พร", "นำพา", "ความ", "เจริญ"],
+        "zh": ["祝福", "带来", "繁荣", "。"],
+        "ja": ["祝福", "は", "繁栄", "を", "もたらし", "ます", "。"]
+      }
+    },
+    {
+      "id": "s25",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Have a wonderful new year.",
+        "th": "ขอให้มีความสุขในวันปีใหม่",
+        "fa": "سال نو مبارک.",
+        "ar": "أتمنى لك سنة جديدة رائعة.",
+        "es": "Que tengas un año nuevo maravilloso.",
+        "zh": "祝你新年快乐。",
+        "ja": "素晴らしい新年をお迎えください。"
+      },
+      "tokens": {
+        "th": ["ขอ", "ให้", "มี", "ความสุข", "ใน", "วัน", "ปีใหม่"],
+        "zh": ["祝", "你", "新年", "快乐", "。"],
+        "ja": ["素晴らしい", "新年", "を", "お", "迎え", "ください", "。"]
       }
     }
   ]

@@ -2,21 +2,21 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "h1",
       "header": true,
       "texts": {
-        "en": "Core Words",
-        "th": "คำศัพท์หลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras clave",
-        "zh": "核心词汇",
-        "ja": "基本単語"
+        "en": "Scenario 1: Asking for Directions",
+        "th": "สถานการณ์ที่ 1: การถามทาง",
+        "fa": "سناریو ۱: پرسیدن آدرس",
+        "ar": "السيناريو 1: طلب الاتجاهات",
+        "es": "Escenario 1: Pedir direcciones",
+        "zh": "场景 1：问路",
+        "ja": "シナリオ 1：道を尋ねる"
       }
     },
     {
-      "id": "word_where",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
         "en": "where",
         "th": "ที่ไหน",
@@ -28,1440 +28,47 @@
       }
     },
     {
-      "id": "word_at",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
       "texts": {
-        "en": "is at / located",
-        "th": "อยู่",
-        "fa": "بودن / قرار داشتن",
-        "ar": "يوجد / يكون",
-        "es": "estar / ubicarse",
-        "zh": "在",
-        "ja": "いる / ある"
-      }
-    },
-    {
-      "id": "word_here",
-      "kind": "word",
-      "texts": {
-        "en": "here",
-        "th": "ที่นี่",
-        "fa": "اینجا",
-        "ar": "هنا",
-        "es": "aquí",
-        "zh": "这里",
-        "ja": "ここ"
-      }
-    },
-    {
-      "id": "word_there",
-      "kind": "word",
-      "texts": {
-        "en": "there",
-        "th": "ที่นั่น",
-        "fa": "آنجا",
-        "ar": "هناك",
-        "es": "allí",
-        "zh": "那里",
-        "ja": "そこ / あそこ"
-      }
-    },
-    {
-      "id": "word_left",
-      "kind": "word",
-      "texts": {
-        "en": "left",
-        "th": "ซ้าย",
-        "fa": "چپ",
-        "ar": "يسار",
-        "es": "izquierda",
-        "zh": "左",
-        "ja": "左"
-      }
-    },
-    {
-      "id": "word_right",
-      "kind": "word",
-      "texts": {
-        "en": "right",
-        "th": "ขวา",
-        "fa": "راست",
-        "ar": "يمين",
-        "es": "derecha",
-        "zh": "右",
-        "ja": "右"
-      }
-    },
-    {
-      "id": "word_straight",
-      "kind": "word",
-      "texts": {
-        "en": "straight",
-        "th": "ตรง",
-        "fa": "مستقیم",
-        "ar": "مستقيم",
-        "es": "recto / derecho",
-        "zh": "直",
-        "ja": "まっすぐ"
-      }
-    },
-    {
-      "id": "word_near",
-      "kind": "word",
-      "texts": {
-        "en": "near / close",
-        "th": "ใกล้",
-        "fa": "نزدیک",
-        "ar": "قريب",
-        "es": "cerca",
-        "zh": "近",
-        "ja": "近い"
-      }
-    },
-    {
-      "id": "word_far",
-      "kind": "word",
-      "texts": {
-        "en": "far",
-        "th": "ไกล",
-        "fa": "دور",
-        "ar": "بعيد",
-        "es": "lejos",
-        "zh": "远",
-        "ja": "遠い"
-      }
-    },
-    {
-      "id": "word_thank",
-      "kind": "word",
-      "texts": {
-        "en": "thank",
-        "th": "ขอบคุณ",
-        "fa": "تشکر",
-        "ar": "شكر",
-        "es": "gracias",
-        "zh": "谢谢",
-        "ja": "ありがとう"
-      }
-    },
-    {
-      "id": "word_please",
-      "kind": "word",
-      "texts": {
-        "en": "please",
-        "th": "กรุณา",
-        "fa": "لطفاً",
-        "ar": "من فضلك",
-        "es": "por favor",
-        "zh": "请",
-        "ja": "お願いします"
-      }
-    },
-    {
-      "id": "word_can",
-      "kind": "word",
-      "texts": {
-        "en": "can",
-        "th": "ได้",
-        "fa": "توانستن",
-        "ar": "يستطيع",
-        "es": "poder",
-        "zh": "可以",
-        "ja": "できる"
-      }
-    },
-    {
-      "id": "word_question_particle",
-      "kind": "word",
-      "texts": {
-        "en": "question marker",
-        "th": "ไหม",
-        "fa": "آیا",
-        "ar": "هل",
-        "es": "partícula interrogativa",
-        "zh": "吗",
-        "ja": "か"
-      }
-    },
-    {
-      "id": "word_polite_particle",
-      "kind": "word",
-      "texts": {
-        "en": "polite particle",
-        "th": "ครับ / ค่ะ",
-        "fa": "ذره ادب",
-        "ar": "أداة أدب",
-        "es": "partícula de cortesía",
-        "zh": "礼貌助词",
-        "ja": "丁寧語"
-      }
-    },
-    {
-      "id": "word_i",
-      "kind": "word",
-      "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
-      }
-    },
-    {
-      "id": "word_you",
-      "kind": "word",
-      "texts": {
-        "en": "you",
-        "th": "คุณ",
-        "fa": "شما",
-        "ar": "أنت",
-        "es": "tú / usted",
-        "zh": "你",
-        "ja": "あなた"
-      }
-    },
-    {
-      "id": "word_go",
-      "kind": "word",
-      "texts": {
-        "en": "go",
-        "th": "ไป",
-        "fa": "رفتن",
-        "ar": "يذهب",
-        "es": "ir",
-        "zh": "去",
-        "ja": "行く"
-      }
-    },
-    {
-      "id": "word_come",
-      "kind": "word",
-      "texts": {
-        "en": "come",
-        "th": "มา",
-        "fa": "آمدن",
-        "ar": "يأتي",
-        "es": "venir",
-        "zh": "来",
-        "ja": "来る"
-      }
-    },
-    {
-      "id": "word_not",
-      "kind": "word",
-      "texts": {
-        "en": "not",
-        "th": "ไม่",
-        "fa": "نه / نمی",
-        "ar": "لا / ليس",
-        "es": "no",
-        "zh": "不",
-        "ja": "〜ない"
-      }
-    },
-    {
-      "id": "header_scenario1",
-      "header": true,
-      "texts": {
-        "en": "Scenario 1: Basic Location Questions",
-        "th": "สถานการณ์ 1: คำถามตำแหน่งพื้นฐาน",
-        "fa": "سناریو ۱: سوالات پایه درباره مکان",
-        "ar": "السيناريو 1: أسئلة الموقع الأساسية",
-        "es": "Escenario 1: Preguntas básicas de ubicación",
-        "zh": "场景一：基本位置询问",
-        "ja": "シナリオ1：基本的な場所の質問"
-      }
-    },
-    {
-      "id": "sentence_basic_where_bathroom",
-      "kind": "sentence",
-      "itemIds": ["word_bathroom", "word_at", "word_where"],
-      "texts": {
-        "en": "Where is the bathroom?",
-        "th": "ห้องน้ำอยู่ที่ไหนคะ",
-        "fa": "دستشویی کجاست؟",
-        "ar": "أين الحمام؟",
-        "es": "¿Dónde está el baño?",
-        "zh": "洗手间在哪里？",
-        "ja": "トイレはどこですか？"
-      },
-      "tokens": {
-        "en": ["Where", "is", "the", "bathroom?"],
-        "th": ["ห้องน้ำ", "อยู่", "ที่ไหน", "คะ"],
-        "fa": ["دستشویی", "کجاست؟"],
-        "ar": ["أين", "الحمام؟"],
-        "es": ["¿Dónde", "está", "el", "baño?"],
-        "zh": ["洗手间", "在", "哪里？"],
-        "ja": ["トイレ", "は", "どこ", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_basic_where_restaurant",
-      "kind": "sentence",
-      "itemIds": ["word_restaurant", "word_at", "word_where"],
-      "texts": {
-        "en": "Where is the restaurant?",
-        "th": "ร้านอาหารอยู่ที่ไหนคะ",
-        "fa": "رستوران کجاست؟",
-        "ar": "أين المطعم؟",
-        "es": "¿Dónde está el restaurante?",
-        "zh": "餐厅在哪里？",
-        "ja": "レストランはどこですか？"
-      },
-      "tokens": {
-        "en": ["Where", "is", "the", "restaurant?"],
-        "th": ["ร้านอาหาร", "อยู่", "ที่ไหน", "คะ"],
-        "fa": ["رستوران", "کجاست؟"],
-        "ar": ["أين", "المطعم؟"],
-        "es": ["¿Dónde", "está", "el", "restaurante?"],
-        "zh": ["餐厅", "在", "哪里？"],
-        "ja": ["レストラン", "は", "どこ", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_basic_where_hotel",
-      "kind": "sentence",
-      "itemIds": ["word_hotel", "word_at", "word_where"],
-      "texts": {
-        "en": "Where is the hotel?",
-        "th": "โรงแรมอยู่ที่ไหนคะ",
-        "fa": "هتل کجاست؟",
-        "ar": "أين الفندق؟",
-        "es": "¿Dónde está el hotel?",
-        "zh": "酒店在哪里？",
-        "ja": "ホテルはどこですか？"
-      },
-      "tokens": {
-        "en": ["Where", "is", "the", "hotel?"],
-        "th": ["โรงแรม", "อยู่", "ที่ไหน", "คะ"],
-        "fa": ["هتل", "کجاست؟"],
-        "ar": ["أين", "الفندق؟"],
-        "es": ["¿Dónde", "está", "el", "hotel?"],
-        "zh": ["酒店", "在", "哪里？"],
-        "ja": ["ホテル", "は", "どこ", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_basic_its_here",
-      "kind": "sentence",
-      "itemIds": ["word_at", "word_here"],
-      "texts": {
-        "en": "It is here",
-        "th": "อยู่ที่นี่ครับ",
-        "fa": "اینجاست",
-        "ar": "إنه هنا",
-        "es": "Está aquí",
-        "zh": "在这里",
-        "ja": "ここです"
-      },
-      "tokens": {
-        "en": ["It", "is", "here"],
-        "th": ["อยู่", "ที่นี่", "ครับ"],
-        "fa": ["اینجاست"],
-        "ar": ["إنه", "هنا"],
-        "es": ["Está", "aquí"],
-        "zh": ["在", "这里"],
-        "ja": ["ここ", "です"]
-      }
-    },
-    {
-      "id": "sentence_basic_its_there",
-      "kind": "sentence",
-      "itemIds": ["word_at", "word_there"],
-      "texts": {
-        "en": "It is there",
-        "th": "อยู่ที่นั่นครับ",
-        "fa": "آنجاست",
-        "ar": "إنه هناك",
-        "es": "Está allí",
-        "zh": "在那里",
-        "ja": "そこです"
-      },
-      "tokens": {
-        "en": ["It", "is", "there"],
-        "th": ["อยู่", "ที่นั่น", "ครับ"],
-        "fa": ["آنجاست"],
-        "ar": ["إنه", "هناك"],
-        "es": ["Está", "allí"],
-        "zh": ["在", "那里"],
-        "ja": ["そこ", "です"]
-      }
-    },
-    {
-      "id": "sentence_basic_its_over_there",
-      "kind": "sentence",
-      "itemIds": ["word_at", "word_over_there"],
-      "texts": {
-        "en": "It is over there",
-        "th": "อยู่ตรงโน้นครับ",
-        "fa": "آن طرف است",
-        "ar": "إنه هناك بعيداً",
-        "es": "Está por allá",
-        "zh": "在那边",
-        "ja": "あそこです"
-      },
-      "tokens": {
-        "en": ["It", "is", "over", "there"],
-        "th": ["อยู่", "ตรงโน้น", "ครับ"],
-        "fa": ["آن", "طرف", "است"],
-        "ar": ["إنه", "هناك", "بعيداً"],
-        "es": ["Está", "por", "allá"],
-        "zh": ["在", "那边"],
-        "ja": ["あそこ", "です"]
-      }
-    },
-    {
-      "id": "sentence_basic_dont_know",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_not", "word_know"],
-      "texts": {
-        "en": "I don't know",
-        "th": "ฉันไม่ทราบค่ะ",
-        "fa": "من نمی‌دانم",
-        "ar": "لا أعرف",
-        "es": "No sé",
-        "zh": "我不知道",
-        "ja": "わかりません"
-      },
-      "tokens": {
-        "en": ["I", "don't", "know"],
-        "th": ["ฉัน", "ไม่", "ทราบ", "ค่ะ"],
-        "fa": ["من", "نمی‌دانم"],
-        "ar": ["لا", "أعرف"],
-        "es": ["No", "sé"],
-        "zh": ["我", "不", "知道"],
-        "ja": ["わかり", "ません"]
-      }
-    },
-    {
-      "id": "word_bathroom",
-      "kind": "word",
-      "texts": {
-        "en": "bathroom / toilet",
+        "en": "bathroom",
         "th": "ห้องน้ำ",
-        "fa": "دستشویی / توالت",
-        "ar": "حمام / مرحاض",
-        "es": "baño / servicio",
+        "fa": "دستشویی",
+        "ar": "الحمام",
+        "es": "baño",
         "zh": "洗手间",
         "ja": "トイレ"
       }
     },
     {
-      "id": "word_restaurant",
-      "kind": "word",
-      "texts": {
-        "en": "restaurant",
-        "th": "ร้านอาหาร",
-        "fa": "رستوران",
-        "ar": "مطعم",
-        "es": "restaurante",
-        "zh": "餐厅",
-        "ja": "レストラン"
-      }
-    },
-    {
-      "id": "word_hotel",
-      "kind": "word",
-      "texts": {
-        "en": "hotel",
-        "th": "โรงแรม",
-        "fa": "هتل",
-        "ar": "فندق",
-        "es": "hotel",
-        "zh": "酒店",
-        "ja": "ホテル"
-      }
-    },
-    {
-      "id": "word_over_there",
-      "kind": "word",
-      "texts": {
-        "en": "over there (far)",
-        "th": "ตรงโน้น",
-        "fa": "آن طرف",
-        "ar": "هناك بعيداً",
-        "es": "por allá",
-        "zh": "那边",
-        "ja": "あそこ"
-      }
-    },
-    {
-      "id": "word_know",
-      "kind": "word",
-      "texts": {
-        "en": "know",
-        "th": "ทราบ / รู้",
-        "fa": "دانستن",
-        "ar": "يعرف",
-        "es": "saber",
-        "zh": "知道",
-        "ja": "知る"
-      }
-    },
-    {
-      "id": "header_scenario2",
-      "header": true,
-      "texts": {
-        "en": "Scenario 2: Giving Directions",
-        "th": "สถานการณ์ 2: การบอกทาง",
-        "fa": "سناریو ۲: دادن directions",
-        "ar": "السيناريو 2: إعطاء الاتجاهات",
-        "es": "Escenario 2: Dar direcciones",
-        "zh": "场景二：指路",
-        "ja": "シナリオ2：道案内"
-      }
-    },
-    {
-      "id": "sentence_dir_turn_left",
-      "kind": "sentence",
-      "itemIds": ["word_turn", "word_left"],
-      "texts": {
-        "en": "Turn left",
-        "th": "เลี้ยวซ้ายครับ",
-        "fa": "به چپ بپیچید",
-        "ar": "اتجه يساراً",
-        "es": "Gira a la izquierda",
-        "zh": "向左转",
-        "ja": "左に曲がってください"
-      },
-      "tokens": {
-        "en": ["Turn", "left"],
-        "th": ["เลี้ยว", "ซ้าย", "ครับ"],
-        "fa": ["به", "چپ", "بپیچید"],
-        "ar": ["اتجه", "يساراً"],
-        "es": ["Gira", "a", "la", "izquierda"],
-        "zh": ["向", "左", "转"],
-        "ja": ["左", "に", "曲がって", "ください"]
-      }
-    },
-    {
-      "id": "sentence_dir_turn_right",
-      "kind": "sentence",
-      "itemIds": ["word_turn", "word_right"],
-      "texts": {
-        "en": "Turn right",
-        "th": "เลี้ยวขวาครับ",
-        "fa": "به راست بپیچید",
-        "ar": "اتجه يميناً",
-        "es": "Gira a la derecha",
-        "zh": "向右转",
-        "ja": "右に曲がってください"
-      },
-      "tokens": {
-        "en": ["Turn", "right"],
-        "th": ["เลี้ยว", "ขวา", "ครับ"],
-        "fa": ["به", "راست", "بپیچید"],
-        "ar": ["اتجه", "يميناً"],
-        "es": ["Gira", "a", "la", "derecha"],
-        "zh": ["向", "右", "转"],
-        "ja": ["右", "に", "曲がって", "ください"]
-      }
-    },
-    {
-      "id": "sentence_dir_go_straight",
-      "kind": "sentence",
-      "itemIds": ["word_go", "word_straight"],
-      "texts": {
-        "en": "Go straight",
-        "th": "ตรงไปครับ",
-        "fa": "مستقیم بروید",
-        "ar": "اذهب مباشرة",
-        "es": "Ve recto",
-        "zh": "直走",
-        "ja": "まっすぐ行ってください"
-      },
-      "tokens": {
-        "en": ["Go", "straight"],
-        "th": ["ตรง", "ไป", "ครับ"],
-        "fa": ["مستقیم", "بروید"],
-        "ar": ["اذهب", "مباشرة"],
-        "es": ["Ve", "recto"],
-        "zh": ["直", "走"],
-        "ja": ["まっすぐ", "行って", "ください"]
-      }
-    },
-    {
-      "id": "sentence_dir_walk_straight",
-      "kind": "sentence",
-      "itemIds": ["word_walk", "word_straight"],
-      "texts": {
-        "en": "Walk straight",
-        "th": "เดินตรงไปครับ",
-        "fa": "مستقیم قدم بزنید",
-        "ar": "امشِ مباشرة",
-        "es": "Camina recto",
-        "zh": "直走",
-        "ja": "まっすぐ歩いてください"
-      },
-      "tokens": {
-        "en": ["Walk", "straight"],
-        "th": ["เดิน", "ตรง", "ไป", "ครับ"],
-        "fa": ["مستقیم", "قدم", "بزنید"],
-        "ar": ["امشِ", "مباشرة"],
-        "es": ["Camina", "recto"],
-        "zh": ["直", "走"],
-        "ja": ["まっすぐ", "歩いて", "ください"]
-      }
-    },
-    {
-      "id": "sentence_dir_turn_at_intersection",
-      "kind": "sentence",
-      "itemIds": ["word_turn", "word_left", "word_intersection"],
-      "texts": {
-        "en": "Turn left at the intersection",
-        "th": "เลี้ยวซ้ายที่แยกครับ",
-        "fa": "در تقاطع به چپ بپیچید",
-        "ar": "اتجه يساراً عند التقاطع",
-        "es": "Gira a la izquierda en la intersección",
-        "zh": "在路口左转",
-        "ja": "交差点で左に曲がってください"
-      },
-      "tokens": {
-        "en": ["Turn", "left", "at", "the", "intersection"],
-        "th": ["เลี้ยว", "ซ้าย", "ที่", "แยก", "ครับ"],
-        "fa": ["در", "تقاطع", "به", "چپ", "بپیچید"],
-        "ar": ["اتجه", "يساراً", "عند", "التقاطع"],
-        "es": ["Gira", "a", "la", "izquierda", "en", "la", "intersección"],
-        "zh": ["在", "路口", "左转"],
-        "ja": ["交差点", "で", "左", "に", "曲がって", "ください"]
-      }
-    },
-    {
-      "id": "sentence_dir_on_left",
-      "kind": "sentence",
-      "itemIds": ["word_at", "word_left"],
-      "texts": {
-        "en": "It is on the left",
-        "th": "อยู่ทางซ้ายครับ",
-        "fa": "در سمت چپ است",
-        "ar": "إنه على اليسار",
-        "es": "Está a la izquierda",
-        "zh": "在左边",
-        "ja": "左にあります"
-      },
-      "tokens": {
-        "en": ["It", "is", "on", "the", "left"],
-        "th": ["อยู่", "ทาง", "ซ้าย", "ครับ"],
-        "fa": ["در", "سمت", "چپ", "است"],
-        "ar": ["إنه", "على", "اليسار"],
-        "es": ["Está", "a", "la", "izquierda"],
-        "zh": ["在", "左边"],
-        "ja": ["左", "に", "あり", "ます"]
-      }
-    },
-    {
-      "id": "sentence_dir_how_many_minutes",
-      "kind": "sentence",
-      "itemIds": ["word_how_many", "word_minute", "word_question_particle"],
-      "texts": {
-        "en": "How many minutes?",
-        "th": "กี่นาทีคะ",
-        "fa": "چند دقیقه؟",
-        "ar": "كم دقيقة؟",
-        "es": "¿Cuántos minutos?",
-        "zh": "几分钟？",
-        "ja": "何分ですか？"
-      },
-      "tokens": {
-        "en": ["How", "many", "minutes?"],
-        "th": ["กี่", "นาที", "คะ"],
-        "fa": ["چند", "دقیقه؟"],
-        "ar": ["كم", "دقيقة؟"],
-        "es": ["¿Cuántos", "minutos?"],
-        "zh": ["几", "分钟？"],
-        "ja": ["何分", "です", "か？"]
-      }
-    },
-    {
-      "id": "word_turn",
-      "kind": "word",
-      "texts": {
-        "en": "turn",
-        "th": "เลี้ยว",
-        "fa": "پیچیدن / turning",
-        "ar": "ينعطف / يتجه",
-        "es": "girar",
-        "zh": "转",
-        "ja": "曲がる"
-      }
-    },
-    {
-      "id": "word_walk",
-      "kind": "word",
-      "texts": {
-        "en": "walk",
-        "th": "เดิน",
-        "fa": "قدم زدن / walking",
-        "ar": "يمشي",
-        "es": "caminar",
-        "zh": "走",
-        "ja": "歩く"
-      }
-    },
-    {
-      "id": "word_minute",
-      "kind": "word",
-      "texts": {
-        "en": "minute",
-        "th": "นาที",
-        "fa": "دقیقه",
-        "ar": "دقيقة",
-        "es": "minuto",
-        "zh": "分钟",
-        "ja": "分"
-      }
-    },
-    {
-      "id": "word_first",
-      "kind": "word",
-      "texts": {
-        "en": "first",
-        "th": "แรก",
-        "fa": "اول",
-        "ar": "أول",
-        "es": "primero",
-        "zh": "第一",
-        "ja": "最初の"
-      }
-    },
-    {
-      "id": "word_second",
-      "kind": "word",
-      "texts": {
-        "en": "second",
-        "th": "ที่สอง",
-        "fa": "دوم",
-        "ar": "ثاني",
-        "es": "segundo",
-        "zh": "第二",
-        "ja": "二番目の"
-      }
-    },
-    {
-      "id": "word_intersection",
-      "kind": "word",
-      "texts": {
-        "en": "intersection",
-        "th": "แยก",
-        "fa": "تقاطع",
-        "ar": "تقاطع",
-        "es": "intersección / cruce",
-        "zh": "路口",
-        "ja": "交差点"
-      }
-    },
-    {
-      "id": "word_how_many",
-      "kind": "word",
-      "texts": {
-        "en": "how many",
-        "th": "กี่",
-        "fa": "چند",
-        "ar": "كم",
-        "es": "cuántos",
-        "zh": "几",
-        "ja": "いくつ / 何"
-      }
-    },
-    {
-      "id": "header_scenario3",
-      "header": true,
-      "texts": {
-        "en": "Scenario 3: Relative Positions",
-        "th": "สถานการณ์ 3: ตำแหน่งสัมพัทธ์",
-        "fa": "سناریو ۳: موقعیت‌های نسبی",
-        "ar": "السيناريو 3: المواقع النسبية",
-        "es": "Escenario 3: Posiciones relativas",
-        "zh": "场景三：相对位置",
-        "ja": "シナリオ3：相対位置"
-      }
-    },
-    {
-      "id": "sentence_pos_next_to",
-      "kind": "sentence",
-      "itemIds": ["word_at", "word_next_to", "word_hotel"],
-      "texts": {
-        "en": "It is next to the hotel",
-        "th": "อยู่ข้าง ๆ โรงแรมครับ",
-        "fa": "کنار هتل است",
-        "ar": "إنه بجانب الفندق",
-        "es": "Está al lado del hotel",
-        "zh": "在酒店旁边",
-        "ja": "ホテルの隣です"
-      },
-      "tokens": {
-        "en": ["It", "is", "next", "to", "the", "hotel"],
-        "th": ["อยู่", "ข้าง ๆ", "โรงแรม", "ครับ"],
-        "fa": ["کنار", "هتل", "است"],
-        "ar": ["إنه", "بجانب", "الفندق"],
-        "es": ["Está", "al", "lado", "del", "hotel"],
-        "zh": ["在", "酒店", "旁边"],
-        "ja": ["ホテル", "の", "隣", "です"]
-      }
-    },
-    {
-      "id": "sentence_pos_opposite",
-      "kind": "sentence",
-      "itemIds": ["word_at", "word_opposite", "word_restaurant"],
-      "texts": {
-        "en": "It is opposite the restaurant",
-        "th": "อยู่ตรงข้ามร้านอาหารครับ",
-        "fa": "روبروی رستوران است",
-        "ar": "إنه مقابل المطعم",
-        "es": "Está enfrente del restaurante",
-        "zh": "在餐厅对面",
-        "ja": "レストランの向かいです"
-      },
-      "tokens": {
-        "en": ["It", "is", "opposite", "the", "restaurant"],
-        "th": ["อยู่", "ตรงข้าม", "ร้านอาหาร", "ครับ"],
-        "fa": ["روبروی", "رستوران", "است"],
-        "ar": ["إنه", "مقابل", "المطعم"],
-        "es": ["Está", "enfrente", "del", "restaurante"],
-        "zh": ["在", "餐厅", "对面"],
-        "ja": ["レストラン", "の", "向かい", "です"]
-      }
-    },
-    {
-      "id": "sentence_pos_behind",
-      "kind": "sentence",
-      "itemIds": ["word_at", "word_behind", "word_bank"],
-      "texts": {
-        "en": "It is behind the bank",
-        "th": "อยู่ข้างหลังธนาคารครับ",
-        "fa": "پشت بانک است",
-        "ar": "إنه خلف البنك",
-        "es": "Está detrás del banco",
-        "zh": "在银行后面",
-        "ja": "銀行の後ろです"
-      },
-      "tokens": {
-        "en": ["It", "is", "behind", "the", "bank"],
-        "th": ["อยู่", "ข้างหลัง", "ธนาคาร", "ครับ"],
-        "fa": ["پشت", "بانک", "است"],
-        "ar": ["إنه", "خلف", "البنك"],
-        "es": ["Está", "detrás", "del", "banco"],
-        "zh": ["在", "银行", "后面"],
-        "ja": ["銀行", "の", "後ろ", "です"]
-      }
-    },
-    {
-      "id": "sentence_pos_in_front",
-      "kind": "sentence",
-      "itemIds": ["word_at", "word_in_front_of"],
-      "texts": {
-        "en": "It is in front",
-        "th": "อยู่ข้างหน้าครับ",
-        "fa": "جلو است",
-        "ar": "إنه في الأمام",
-        "es": "Está enfrente",
-        "zh": "在前面",
-        "ja": "前です"
-      },
-      "tokens": {
-        "en": ["It", "is", "in", "front"],
-        "th": ["อยู่", "ข้างหน้า", "ครับ"],
-        "fa": ["جلو", "است"],
-        "ar": ["إنه", "في", "الأمام"],
-        "es": ["Está", "enfrente"],
-        "zh": ["在", "前面"],
-        "ja": ["前", "です"]
-      }
-    },
-    {
-      "id": "sentence_pos_inside",
-      "kind": "sentence",
-      "itemIds": ["word_at", "word_inside"],
-      "texts": {
-        "en": "It is inside",
-        "th": "อยู่ข้างในครับ",
-        "fa": "داخل است",
-        "ar": "إنه بالداخل",
-        "es": "Está adentro",
-        "zh": "在里面",
-        "ja": "中です"
-      },
-      "tokens": {
-        "en": ["It", "is", "inside"],
-        "th": ["อยู่", "ข้างใน", "ครับ"],
-        "fa": ["داخل", "است"],
-        "ar": ["إنه", "بالداخل"],
-        "es": ["Está", "adentro"],
-        "zh": ["在", "里面"],
-        "ja": ["中", "です"]
-      }
-    },
-    {
-      "id": "sentence_pos_outside",
-      "kind": "sentence",
-      "itemIds": ["word_at", "word_outside"],
-      "texts": {
-        "en": "It is outside",
-        "th": "อยู่ข้างนอกครับ",
-        "fa": "بیرون است",
-        "ar": "إنه بالخارج",
-        "es": "Está afuera",
-        "zh": "在外面",
-        "ja": "外です"
-      },
-      "tokens": {
-        "en": ["It", "is", "outside"],
-        "th": ["อยู่", "ข้างนอก", "ครับ"],
-        "fa": ["بیرون", "است"],
-        "ar": ["إنه", "بالخارج"],
-        "es": ["Está", "afuera"],
-        "zh": ["在", "外面"],
-        "ja": ["外", "です"]
-      }
-    },
-    {
-      "id": "sentence_pos_is_it_near",
-      "kind": "sentence",
-      "itemIds": ["word_near", "word_question_particle"],
-      "texts": {
-        "en": "Is it near?",
-        "th": "ใกล้ไหมคะ",
-        "fa": "آیا نزدیک است؟",
-        "ar": "هل هو قريب؟",
-        "es": "¿Está cerca?",
-        "zh": "近吗？",
-        "ja": "近いですか？"
-      },
-      "tokens": {
-        "en": ["Is", "it", "near?"],
-        "th": ["ใกล้", "ไหม", "คะ"],
-        "fa": ["آیا", "نزدیک", "است؟"],
-        "ar": ["هل", "هو", "قريب؟"],
-        "es": ["¿Está", "cerca?"],
-        "zh": ["近", "吗？"],
-        "ja": ["近い", "です", "か？"]
-      }
-    },
-    {
-      "id": "word_next_to",
-      "kind": "word",
-      "texts": {
-        "en": "next to / beside",
-        "th": "ข้าง ๆ",
-        "fa": "کنار / بغل",
-        "ar": "بجانب",
-        "es": "al lado de",
-        "zh": "旁边",
-        "ja": "隣"
-      }
-    },
-    {
-      "id": "word_opposite",
-      "kind": "word",
-      "texts": {
-        "en": "opposite / across",
-        "th": "ตรงข้าม",
-        "fa": "روبرو",
-        "ar": "مقابل",
-        "es": "enfrente de",
-        "zh": "对面",
-        "ja": "向かい"
-      }
-    },
-    {
-      "id": "word_behind",
-      "kind": "word",
-      "texts": {
-        "en": "behind",
-        "th": "ข้างหลัง",
-        "fa": "پشت",
-        "ar": "خلف",
-        "es": "detrás de",
-        "zh": "后面",
-        "ja": "後ろ"
-      }
-    },
-    {
-      "id": "word_in_front_of",
-      "kind": "word",
-      "texts": {
-        "en": "in front of",
-        "th": "ข้างหน้า",
-        "fa": "جلو",
-        "ar": "أمام",
-        "es": "delante de",
-        "zh": "前面",
-        "ja": "前"
-      }
-    },
-    {
-      "id": "word_inside",
-      "kind": "word",
-      "texts": {
-        "en": "inside",
-        "th": "ข้างใน",
-        "fa": "داخل",
-        "ar": "داخل",
-        "es": "dentro",
-        "zh": "里面",
-        "ja": "中"
-      }
-    },
-    {
-      "id": "word_outside",
-      "kind": "word",
-      "texts": {
-        "en": "outside",
-        "th": "ข้างนอก",
-        "fa": "بیرون",
-        "ar": "خارج",
-        "es": "fuera",
-        "zh": "外面",
-        "ja": "外"
-      }
-    },
-    {
-      "id": "header_scenario4",
-      "header": true,
-      "texts": {
-        "en": "Scenario 4: Essential Places",
-        "th": "สถานการณ์ 4: สถานที่สำคัญ",
-        "fa": "سناریو ۴: مکان‌های ضروری",
-        "ar": "السيناريو 4: الأماكن الأساسية",
-        "es": "Escenario 4: Lugares esenciales",
-        "zh": "场景四：重要场所",
-        "ja": "シナリオ4：重要な場所"
-      }
-    },
-    {
-      "id": "sentence_ess_hospital",
-      "kind": "sentence",
-      "itemIds": ["word_hospital", "word_at", "word_where"],
-      "texts": {
-        "en": "Where is the hospital?",
-        "th": "โรงพยาบาลอยู่ที่ไหนคะ",
-        "fa": "بیمارستان کجاست؟",
-        "ar": "أين المستشفى؟",
-        "es": "¿Dónde está el hospital?",
-        "zh": "医院在哪里？",
-        "ja": "病院はどこですか？"
-      },
-      "tokens": {
-        "en": ["Where", "is", "the", "hospital?"],
-        "th": ["โรงพยาบาล", "อยู่", "ที่ไหน", "คะ"],
-        "fa": ["بیمارستان", "کجاست؟"],
-        "ar": ["أين", "المستشفى؟"],
-        "es": ["¿Dónde", "está", "el", "hospital?"],
-        "zh": ["医院", "在", "哪里？"],
-        "ja": ["病院", "は", "どこ", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_ess_pharmacy",
-      "kind": "sentence",
-      "itemIds": ["word_pharmacy", "word_at", "word_where"],
-      "texts": {
-        "en": "Where is the pharmacy?",
-        "th": "ร้านขายยาอยู่ที่ไหนคะ",
-        "fa": "داروخانه کجاست؟",
-        "ar": "أين الصيدلية؟",
-        "es": "¿Dónde está la farmacia?",
-        "zh": "药房在哪里？",
-        "ja": "薬局はどこですか？"
-      },
-      "tokens": {
-        "en": ["Where", "is", "the", "pharmacy?"],
-        "th": ["ร้านขายยา", "อยู่", "ที่ไหน", "คะ"],
-        "fa": ["داروخانه", "کجاست؟"],
-        "ar": ["أين", "الصيدلية؟"],
-        "es": ["¿Dónde", "está", "la", "farmacia?"],
-        "zh": ["药房", "在", "哪里？"],
-        "ja": ["薬局", "は", "どこ", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_ess_station",
-      "kind": "sentence",
-      "itemIds": ["word_station", "word_at", "word_where"],
-      "texts": {
-        "en": "Where is the station?",
-        "th": "สถานีอยู่ที่ไหนคะ",
-        "fa": "ایستگاه کجاست؟",
-        "ar": "أين المحطة؟",
-        "es": "¿Dónde está la estación?",
-        "zh": "车站在哪里？",
-        "ja": "駅はどこですか？"
-      },
-      "tokens": {
-        "en": ["Where", "is", "the", "station?"],
-        "th": ["สถานี", "อยู่", "ที่ไหน", "คะ"],
-        "fa": ["ایستگاه", "کجاست؟"],
-        "ar": ["أين", "المحطة؟"],
-        "es": ["¿Dónde", "está", "la", "estación?"],
-        "zh": ["车站", "在", "哪里？"],
-        "ja": ["駅", "は", "どこ", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_ess_airport",
-      "kind": "sentence",
-      "itemIds": ["word_airport", "word_at", "word_where"],
-      "texts": {
-        "en": "Where is the airport?",
-        "th": "สนามบินอยู่ที่ไหนคะ",
-        "fa": "فرودگاه کجاست؟",
-        "ar": "أين المطار؟",
-        "es": "¿Dónde está el aeropuerto?",
-        "zh": "机场在哪里？",
-        "ja": "空港はどこですか？"
-      },
-      "tokens": {
-        "en": ["Where", "is", "the", "airport?"],
-        "th": ["สนามบิน", "อยู่", "ที่ไหน", "คะ"],
-        "fa": ["فرودگاه", "کجاست؟"],
-        "ar": ["أين", "المطار؟"],
-        "es": ["¿Dónde", "está", "el", "aeropuerto?"],
-        "zh": ["机场", "在", "哪里？"],
-        "ja": ["空港", "は", "どこ", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_ess_market",
-      "kind": "sentence",
-      "itemIds": ["word_market", "word_at", "word_where"],
-      "texts": {
-        "en": "Where is the market?",
-        "th": "ตลาดอยู่ที่ไหนคะ",
-        "fa": "بازار کجاست؟",
-        "ar": "أين السوق؟",
-        "es": "¿Dónde está el mercado?",
-        "zh": "市场在哪里？",
-        "ja": "市場はどこですか？"
-      },
-      "tokens": {
-        "en": ["Where", "is", "the", "market?"],
-        "th": ["ตลาด", "อยู่", "ที่ไหน", "คะ"],
-        "fa": ["بازار", "کجاست؟"],
-        "ar": ["أين", "السوق؟"],
-        "es": ["¿Dónde", "está", "el", "mercado?"],
-        "zh": ["市场", "在", "哪里？"],
-        "ja": ["市場", "は", "どこ", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_ess_police",
-      "kind": "sentence",
-      "itemIds": ["word_police", "word_station", "word_at", "word_where"],
-      "texts": {
-        "en": "Where is the police station?",
-        "th": "สถานีตำรวจอยู่ที่ไหนคะ",
-        "fa": "ایستگاه پلیس کجاست؟",
-        "ar": "أين مركز الشرطة؟",
-        "es": "¿Dónde está la comisaría?",
-        "zh": "警察局在哪里？",
-        "ja": "警察署はどこですか？"
-      },
-      "tokens": {
-        "en": ["Where", "is", "the", "police", "station?"],
-        "th": ["สถานี", "ตำรวจ", "อยู่", "ที่ไหน", "คะ"],
-        "fa": ["ایستگاه", "پلیس", "کجاست؟"],
-        "ar": ["أين", "مركز", "الشرطة؟"],
-        "es": ["¿Dónde", "está", "la", "comisaría?"],
-        "zh": ["警察局", "在", "哪里？"],
-        "ja": ["警察署", "は", "どこ", "です", "か？"]
-      }
-    },
-    {
-      "id": "word_hospital",
-      "kind": "word",
-      "texts": {
-        "en": "hospital",
-        "th": "โรงพยาบาล",
-        "fa": "بیمارستان",
-        "ar": "مستشفى",
-        "es": "hospital",
-        "zh": "医院",
-        "ja": "病院"
-      }
-    },
-    {
-      "id": "word_pharmacy",
-      "kind": "word",
-      "texts": {
-        "en": "pharmacy",
-        "th": "ร้านขายยา",
-        "fa": "داروخانه",
-        "ar": "صيدلية",
-        "es": "farmacia",
-        "zh": "药房",
-        "ja": "薬局"
-      }
-    },
-    {
-      "id": "word_station",
-      "kind": "word",
+      "id": "w3",
+      "kind": "Word",
       "texts": {
         "en": "station",
         "th": "สถานี",
         "fa": "ایستگاه",
-        "ar": "محطة",
+        "ar": "المحطة",
         "es": "estación",
         "zh": "车站",
         "ja": "駅"
       }
     },
     {
-      "id": "word_airport",
-      "kind": "word",
+      "id": "w4",
+      "kind": "Word",
       "texts": {
-        "en": "airport",
-        "th": "สนามบิน",
-        "fa": "فرودگاه",
-        "ar": "مطار",
-        "es": "aeropuerto",
-        "zh": "机场",
-        "ja": "空港"
+        "en": "hospital",
+        "th": "โรงพยาบาล",
+        "fa": "بیمارستان",
+        "ar": "المستشفى",
+        "es": "hospital",
+        "zh": "医院",
+        "ja": "病院"
       }
     },
     {
-      "id": "word_market",
-      "kind": "word",
-      "texts": {
-        "en": "market",
-        "th": "ตลาด",
-        "fa": "بازار",
-        "ar": "سوق",
-        "es": "mercado",
-        "zh": "市场",
-        "ja": "市場"
-      }
-    },
-    {
-      "id": "word_police",
-      "kind": "word",
-      "texts": {
-        "en": "police",
-        "th": "ตำรวจ",
-        "fa": "پلیس",
-        "ar": "شرطة",
-        "es": "policía",
-        "zh": "警察",
-        "ja": "警察"
-      }
-    },
-    {
-      "id": "word_bank",
-      "kind": "word",
-      "texts": {
-        "en": "bank",
-        "th": "ธนาคาร",
-        "fa": "بانک",
-        "ar": "بنك",
-        "es": "banco",
-        "zh": "银行",
-        "ja": "銀行"
-      }
-    },
-    {
-      "id": "header_scenario5",
-      "header": true,
-      "texts": {
-        "en": "Scenario 5: Asking for Help Finding",
-        "th": "สถานการณ์ 5: ขอความช่วยเหลือหาทาง",
-        "fa": "سناریو ۵: درخواست کمک برای پیدا کردن",
-        "ar": "السيناريو 5: طلب المساعدة في العثور",
-        "es": "Escenario 5: Pedir ayuda para encontrar",
-        "zh": "场景五：求助指路",
-        "ja": "シナリオ5：道を探す助けを求める"
-      }
-    },
-    {
-      "id": "sentence_help_lost",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_lost"],
-      "texts": {
-        "en": "I am lost",
-        "th": "ฉันหลงทางค่ะ",
-        "fa": "من گم شده‌ام",
-        "ar": "أنا تائه",
-        "es": "Estoy perdido",
-        "zh": "我迷路了",
-        "ja": "迷子になりました"
-      },
-      "tokens": {
-        "en": ["I", "am", "lost"],
-        "th": ["ฉัน", "หลงทาง", "ค่ะ"],
-        "fa": ["من", "گم", "شده‌ام"],
-        "ar": ["أنا", "تائه"],
-        "es": ["Estoy", "perdido"],
-        "zh": ["我", "迷路了"],
-        "ja": ["迷子", "に", "なり", "ました"]
-      }
-    },
-    {
-      "id": "sentence_help_show_me",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_show",
-        "word_can",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Can you show me?",
-        "th": "คุณช่วยชี้ให้หน่อยได้ไหมคะ",
-        "fa": "می‌توانید نشانم دهید؟",
-        "ar": "هل يمكنك أن تريني؟",
-        "es": "¿Puedes mostrarme?",
-        "zh": "你能指给我看吗？",
-        "ja": "教えてもらえますか？"
-      },
-      "tokens": {
-        "en": ["Can", "you", "show", "me?"],
-        "th": ["คุณ", "ช่วย", "ชี้", "ให้", "หน่อย", "ได้", "ไหม", "คะ"],
-        "fa": ["می‌توانید", "نشانم", "دهید؟"],
-        "ar": ["هل", "يمكنك", "أن", "تريني؟"],
-        "es": ["¿Puedes", "mostrarme?"],
-        "zh": ["你", "能", "指给", "我", "看", "吗？"],
-        "ja": ["教えて", "もらえます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_help_how_to_get",
-      "kind": "sentence",
-      "itemIds": ["word_how", "word_go", "word_way"],
-      "texts": {
-        "en": "How do I get to...?",
-        "th": "จะไป...ยังไงคะ",
-        "fa": "چگونه به ... برسم؟",
-        "ar": "كيف أصل إلى...؟",
-        "es": "¿Cómo llego a...?",
-        "zh": "我怎么去...？",
-        "ja": "...へはどう行けばいいですか？"
-      },
-      "tokens": {
-        "en": ["How", "do", "I", "get", "to...?"],
-        "th": ["จะ", "ไป...ยังไง", "คะ"],
-        "fa": ["چگونه", "به", "...", "برسم؟"],
-        "ar": ["كيف", "أصل", "إلى...؟"],
-        "es": ["¿Cómo", "llego", "a...?"],
-        "zh": ["我", "怎么", "去...？"],
-        "ja": ["...", "へ", "は", "どう", "行けば", "いい", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_help_show_map",
-      "kind": "sentence",
-      "itemIds": [
-        "word_show",
-        "word_map",
-        "word_can",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Can you show me on the map?",
-        "th": "ชี้ในแผนที่ให้หน่อยได้ไหมคะ",
-        "fa": "می‌توانید روی نقشه نشان دهید؟",
-        "ar": "هل يمكنك أن تريني على الخريطة؟",
-        "es": "¿Puedes mostrarme en el mapa?",
-        "zh": "你能在地图上指给我看吗？",
-        "ja": "地図で教えてもらえますか？"
-      },
-      "tokens": {
-        "en": ["Can", "you", "show", "me", "on", "the", "map?"],
-        "th": ["ชี้", "ใน", "แผนที่", "ให้", "หน่อย", "ได้", "ไหม", "คะ"],
-        "fa": ["می‌توانید", "روی", "نقشه", "نشان", "دهید؟"],
-        "ar": ["هل", "يمكنك", "أن", "تريني", "على", "الخريطة؟"],
-        "es": ["¿Puedes", "mostrarme", "en", "el", "mapa?"],
-        "zh": ["能", "在", "地图上", "指给", "我", "看", "吗？"],
-        "ja": ["地図", "で", "教えて", "もらえます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_help_understand",
-      "kind": "sentence",
-      "itemIds": ["word_you", "word_understand", "word_question_particle"],
-      "texts": {
-        "en": "Do you understand?",
-        "th": "คุณเข้าใจไหมคะ",
-        "fa": "آیا می‌فهمید؟",
-        "ar": "هل تفهم؟",
-        "es": "¿Entiendes?",
-        "zh": "你明白了吗？",
-        "ja": "わかりますか？"
-      },
-      "tokens": {
-        "en": ["Do", "you", "understand?"],
-        "th": ["คุณ", "เข้าใจ", "ไหม", "คะ"],
-        "fa": ["آیا", "می‌فهمید؟"],
-        "ar": ["هل", "تفهم؟"],
-        "es": ["¿Entiendes?"],
-        "zh": ["你", "明白了", "吗？"],
-        "ja": ["わかり", "ます", "か？"]
-      }
-    },
-    {
-      "id": "sentence_help_go_together",
-      "kind": "sentence",
-      "itemIds": ["word_go", "word_together"],
-      "texts": {
-        "en": "Let's go together",
-        "th": "ไปด้วยกันเถอะค่ะ",
-        "fa": "بیایید با هم برویم",
-        "ar": "هيا نذهب معاً",
-        "es": "Vamos juntos",
-        "zh": "我们一起去吧",
-        "ja": "一緒に行きましょう"
-      },
-      "tokens": {
-        "en": ["Let's", "go", "together"],
-        "th": ["ไป", "ด้วยกัน", "เถอะ", "ค่ะ"],
-        "fa": ["بیایید", "با", "هم", "برویم"],
-        "ar": ["هيا", "نذهب", "معاً"],
-        "es": ["Vamos", "juntos"],
-        "zh": ["我们", "一起", "去吧"],
-        "ja": ["一緒", "に", "行き", "ましょう"]
-      }
-    },
-    {
-      "id": "word_lost",
-      "kind": "word",
-      "texts": {
-        "en": "lost",
-        "th": "หลงทาง",
-        "fa": "گم شده",
-        "ar": "تائه / ضائع",
-        "es": "perdido",
-        "zh": "迷路",
-        "ja": "迷子"
-      }
-    },
-    {
-      "id": "word_show",
-      "kind": "word",
-      "texts": {
-        "en": "show / point",
-        "th": "ชี้ / แสดง",
-        "fa": "نشان دادن",
-        "ar": "يرى / يشير",
-        "es": "mostrar",
-        "zh": "指 / 显示",
-        "ja": "示す / 見せる"
-      }
-    },
-    {
-      "id": "word_way",
-      "kind": "word",
-      "texts": {
-        "en": "way / path",
-        "th": "ทาง",
-        "fa": "راه / مسیر",
-        "ar": "طريق",
-        "es": "camino",
-        "zh": "路",
-        "ja": "道"
-      }
-    },
-    {
-      "id": "word_map",
-      "kind": "word",
+      "id": "w5",
+      "kind": "Word",
       "texts": {
         "en": "map",
         "th": "แผนที่",
@@ -1473,42 +80,937 @@
       }
     },
     {
-      "id": "word_understand",
-      "kind": "word",
+      "id": "s1",
+      "kind": "Sentence",
       "texts": {
-        "en": "understand",
-        "th": "เข้าใจ",
-        "fa": "فهمیدن",
-        "ar": "يفهم",
-        "es": "entender",
-        "zh": "明白",
-        "ja": "わかる"
+        "en": "Where is the bathroom?",
+        "th": "ห้องน้ำอยู่ที่ไหน",
+        "fa": "دستشویی کجاست؟",
+        "ar": "أين الحمام؟",
+        "es": "¿Dónde está el baño?",
+        "zh": "洗手间在哪里？",
+        "ja": "トイレはどこですか？"
+      },
+      "tokens": {
+        "th": ["ห้องน้ำ", "อยู่", "ที่", "ไหน"],
+        "zh": ["洗手间", "在", "哪里", "？"],
+        "ja": ["トイレ", "は", "どこ", "です", "か", "？"]
       }
     },
     {
-      "id": "word_together",
-      "kind": "word",
+      "id": "s2",
+      "kind": "Sentence",
       "texts": {
-        "en": "together",
-        "th": "ด้วยกัน",
-        "fa": "با هم",
-        "ar": "معاً",
-        "es": "juntos",
-        "zh": "一起",
-        "ja": "一緒に"
+        "en": "Can you show me on the map?",
+        "th": "คุณช่วยชี้ให้ฉันดูบนแผนที่ได้ไหม",
+        "fa": "آیا می‌توانید روی نقشه به من نشان دهید؟",
+        "ar": "هل يمكنك إظهار ذلك لي على الخريطة؟",
+        "es": "¿Puedes mostrarme en el mapa?",
+        "zh": "你能在地图上指给我看吗？",
+        "ja": "地図で教えていただけますか？"
+      },
+      "tokens": {
+        "th": [
+          "คุณ",
+          "ช่วย",
+          "ชี้",
+          "ให้",
+          "ฉัน",
+          "ดู",
+          "บน",
+          "แผนที่",
+          "ได้",
+          "ไหม"
+        ],
+        "zh": [
+          "你",
+          "能",
+          "在",
+          "地图",
+          "上",
+          "指",
+          "给",
+          "我",
+          "看",
+          "吗",
+          "？"
+        ],
+        "ja": ["地図", "で", "教え", "て", "いただけ", "ます", "か", "？"]
       }
     },
     {
-      "id": "word_how",
-      "kind": "word",
+      "id": "s3",
+      "kind": "Sentence",
       "texts": {
-        "en": "how",
-        "th": "ยังไง / อย่างไร",
-        "fa": "چگونه",
-        "ar": "كيف",
-        "es": "cómo",
-        "zh": "怎么",
-        "ja": "どう"
+        "en": "Is the station far from here?",
+        "th": "สถานีอยู่ไกลจากที่นี่ไหม",
+        "fa": "آیا ایستگاه از اینجا دور است؟",
+        "ar": "هل المحطة بعيدة من هنا؟",
+        "es": "¿La estación está lejos de aquí?",
+        "zh": "车站离这里远吗？",
+        "ja": "駅はここから遠いですか？"
+      },
+      "tokens": {
+        "th": ["สถานี", "อยู่", "ไกล", "จาก", "ที่นี่", "ไหม"],
+        "zh": ["车站", "离", "这里", "远", "吗", "？"],
+        "ja": ["駅", "は", "ここ", "から", "遠い", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Where is the nearest hospital?",
+        "th": "โรงพยาบาลที่ใกล้ที่สุดอยู่ที่ไหน",
+        "fa": "نزدیک‌ترین بیمارستان کجاست؟",
+        "ar": "أين أقرب مستشفى؟",
+        "es": "¿Dónde está el hospital más cercano?",
+        "zh": "最近的医院在哪里？",
+        "ja": "一番近い病院はどこですか？"
+      },
+      "tokens": {
+        "th": ["โรงพยาบาล", "ที่", "ใกล้", "ที่สุด", "อยู่", "ที่", "ไหน"],
+        "zh": ["最近", "的", "医院", "在", "哪里", "？"],
+        "ja": ["一番", "近い", "病院", "は", "どこ", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Excuse me, how do I get there?",
+        "th": "ขอโทษครับ ฉันจะไปที่นี่ได้อย่างไร",
+        "fa": "ببخشید، چطور به آنجا بروم؟",
+        "ar": "عذراً، كيف أصل إلى هناك؟",
+        "es": "Disculpe, ¿cómo llego allí?",
+        "zh": "打扰一下，我怎么去那里？",
+        "ja": "すみません、どうやってそこに行きますか？"
+      },
+      "tokens": {
+        "th": [
+          "ขอโทษ",
+          "ครับ",
+          " ",
+          "ฉัน",
+          "จะ",
+          "ไป",
+          "ที่",
+          "นี่",
+          "ได้",
+          "อย่างไร"
+        ],
+        "zh": ["打扰", "一下", "，", "我", "怎么", "去", "那里", "？"],
+        "ja": [
+          "すみません",
+          "、",
+          "どう",
+          "やって",
+          "そこ",
+          "に",
+          "行き",
+          "ます",
+          "か",
+          "？"
+        ]
+      }
+    },
+
+    {
+      "id": "h2",
+      "header": true,
+      "texts": {
+        "en": "Scenario 2: Inside the Building",
+        "th": "สถานการณ์ที่ 2: ภายในอาคาร",
+        "fa": "سناریو ۲: داخل ساختمان",
+        "ar": "السيناريو 2: داخل المبنى",
+        "es": "Escenario 2: Dentro del edificio",
+        "zh": "场景 2：在建筑物内",
+        "ja": "シナリオ 2：建物の中"
+      }
+    },
+    {
+      "id": "w6",
+      "kind": "Word",
+      "texts": {
+        "en": "floor",
+        "th": "ชั้น",
+        "fa": "طبقه",
+        "ar": "طابق",
+        "es": "piso",
+        "zh": "楼层",
+        "ja": "階"
+      }
+    },
+    {
+      "id": "w7",
+      "kind": "Word",
+      "texts": {
+        "en": "elevator",
+        "th": "ลิฟต์",
+        "fa": "آسانسور",
+        "ar": "مصعد",
+        "es": "ascensor",
+        "zh": "电梯",
+        "ja": "エレベーター"
+      }
+    },
+    {
+      "id": "w8",
+      "kind": "Word",
+      "texts": {
+        "en": "stairs",
+        "th": "บันได",
+        "fa": "پله‌ها",
+        "ar": "درج",
+        "es": "escaleras",
+        "zh": "楼梯",
+        "ja": "階段"
+      }
+    },
+    {
+      "id": "w9",
+      "kind": "Word",
+      "texts": {
+        "en": "room",
+        "th": "ห้อง",
+        "fa": "اتاق",
+        "ar": "غرفة",
+        "es": "habitación",
+        "zh": "房间",
+        "ja": "部屋"
+      }
+    },
+    {
+      "id": "w10",
+      "kind": "Word",
+      "texts": {
+        "en": "exit",
+        "th": "ทางออก",
+        "fa": "خروجی",
+        "ar": "مخرج",
+        "es": "salida",
+        "zh": "出口",
+        "ja": "出口"
+      }
+    },
+    {
+      "id": "s6",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The room is on the second floor.",
+        "th": "ห้องอยู่บนชั้นสอง",
+        "fa": "اتاق در طبقه دوم است.",
+        "ar": "الغرفة في الطابق الثاني.",
+        "es": "La habitación está en el segundo piso.",
+        "zh": "房间在二楼。",
+        "ja": "部屋は2階にあります。"
+      },
+      "tokens": {
+        "th": ["ห้อง", "อยู่", "บน", "ชั้น", "สอง"],
+        "zh": ["房间", "在", "二楼", "。"],
+        "ja": ["部屋", "は", "2", "階", "に", "あり", "ます", "。"]
+      }
+    },
+    {
+      "id": "s7",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Where is the elevator?",
+        "th": "ลิฟต์อยู่ที่ไหน",
+        "fa": "آسانسور کجاست؟",
+        "ar": "أين المصعد؟",
+        "es": "¿Dónde está el ascensor?",
+        "zh": "电梯在哪里？",
+        "ja": "エレベーターはどこですか？"
+      },
+      "tokens": {
+        "th": ["ลิฟต์", "อยู่", "ที่", "ไหน"],
+        "zh": ["电梯", "在", "哪里", "？"],
+        "ja": ["エレベーター", "は", "どこ", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s8",
+      "kind": "Sentence",
+      "texts": {
+        "en": "You can take the stairs.",
+        "th": "คุณสามารถใช้บันไดได้",
+        "fa": "می‌توانید از پله‌ها استفاده کنید.",
+        "ar": "يمكنك استخدام الدرج.",
+        "es": "Puedes tomar las escaleras.",
+        "zh": "你可以走楼梯。",
+        "ja": "階段を使えます。"
+      },
+      "tokens": {
+        "th": ["คุณ", "สามารถ", "ใช้", "บันได", "ได้"],
+        "zh": ["你", "可以", "走", "楼梯", "。"],
+        "ja": ["階段", "を", "使え", "ます", "。"]
+      }
+    },
+    {
+      "id": "s9",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The exit is at the end of the hall.",
+        "th": "ทางออกอยู่ที่สุดทางเดิน",
+        "fa": "خروجی در انتهای راهرو است.",
+        "ar": "المخرج في نهاية الممر.",
+        "es": "La salida está al final del pasillo.",
+        "zh": "出口在走廊尽头。",
+        "ja": "出口は廊下の突き当たりにあります。"
+      },
+      "tokens": {
+        "th": ["ทางออก", "อยู่", "ที่", "สุด", "ทางเดิน"],
+        "zh": ["出口", "在", "走廊", "尽头", "。"],
+        "ja": [
+          "出口",
+          "は",
+          "廊下",
+          "の",
+          "突き当たり",
+          "に",
+          "あり",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s10",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Is this the right room?",
+        "th": "นี่คือห้องที่ถูกต้องไหม",
+        "fa": "آیا این اتاق درست است؟",
+        "ar": "هل هذه هي الغرفة الصحيحة؟",
+        "es": "¿Es esta la habitación correcta?",
+        "zh": "这是正确的房间吗？",
+        "ja": "これは正しい部屋ですか？"
+      },
+      "tokens": {
+        "th": ["นี่", "คือ", "ห้อง", "ที่", "ถูกต้อง", "ไหม"],
+        "zh": ["这", "是", "正确", "的", "房间", "吗", "？"],
+        "ja": ["これ", "は", "正しい", "部屋", "です", "か", "？"]
+      }
+    },
+
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Transportation Stops",
+        "th": "สถานการณ์ที่ 3: ป้ายขนส่ง",
+        "fa": "سناریو ۳: ایستگاه‌های حمل و نقل",
+        "ar": "السيناريو 3: محطات النقل",
+        "es": "Escenario 3: Paradas de transporte",
+        "zh": "场景 3：交通站点",
+        "ja": "シナリオ 3：交通機関の停留所"
+      }
+    },
+    {
+      "id": "w11",
+      "kind": "Word",
+      "texts": {
+        "en": "bus stop",
+        "th": "ป้ายรถเมล์",
+        "fa": "ایستگاه اتوبوس",
+        "ar": "موقف الحافلة",
+        "es": "parada de autobús",
+        "zh": "公交车站",
+        "ja": "バス停"
+      }
+    },
+    {
+      "id": "w12",
+      "kind": "Word",
+      "texts": {
+        "en": "ticket",
+        "th": "ตั๋ว",
+        "fa": "بلیط",
+        "ar": "تذكرة",
+        "es": "boleto",
+        "zh": "票",
+        "ja": "切符"
+      }
+    },
+    {
+      "id": "w13",
+      "kind": "Word",
+      "texts": {
+        "en": "platform",
+        "th": "ชานชาลา",
+        "fa": "سکو",
+        "ar": "رصيف",
+        "es": "andén",
+        "zh": "站台",
+        "ja": "プラットホーム"
+      }
+    },
+    {
+      "id": "w14",
+      "kind": "Word",
+      "texts": {
+        "en": "schedule",
+        "th": "ตารางเวลา",
+        "fa": "برنامه زمانی",
+        "ar": "جدول",
+        "es": "horario",
+        "zh": "时刻表",
+        "ja": "時刻表"
+      }
+    },
+    {
+      "id": "w15",
+      "kind": "Word",
+      "texts": {
+        "en": "arrive",
+        "th": "มาถึง",
+        "fa": "رسیدن",
+        "ar": "وصول",
+        "es": "llegar",
+        "zh": "到达",
+        "ja": "到着"
+      }
+    },
+    {
+      "id": "s11",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Where is the nearest bus stop?",
+        "th": "ป้ายรถเมล์ที่ใกล้ที่สุดอยู่ที่ไหน",
+        "fa": "نزدیک‌ترین ایستگاه اتوبوس کجاست؟",
+        "ar": "أين أقرب موقف حافلة؟",
+        "es": "¿Dónde está la parada de autobús más cercana?",
+        "zh": "最近的公交车站在哪里？",
+        "ja": "一番近いバス停はどこですか？"
+      },
+      "tokens": {
+        "th": ["ป้าย", "รถเมล์", "ที่", "ใกล้", "ที่สุด", "อยู่", "ที่", "ไหน"],
+        "zh": ["最近", "的", "公交车站", "在", "哪里", "？"],
+        "ja": ["一番", "近い", "バス停", "は", "どこ", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s12",
+      "kind": "Sentence",
+      "texts": {
+        "en": "What time does the train arrive?",
+        "th": "รถไฟมาถึงกี่โมง",
+        "fa": "قطار چه ساعتی می‌رسد؟",
+        "ar": "متى يصل القطار؟",
+        "es": "¿A qué hora llega el tren?",
+        "zh": "火车几点到达？",
+        "ja": "電車は何時に到着しますか？"
+      },
+      "tokens": {
+        "th": ["รถไฟ", "มา", "ถึง", "กี่", "โมง"],
+        "zh": ["火车", "几点", "到达", "？"],
+        "ja": ["電車", "は", "何時", "に", "到着", "し", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s13",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Which platform is for the city center?",
+        "th": "ชานชาลาไหนไปใจกลางเมือง",
+        "fa": "کدام سکو به مرکز شهر می‌رود؟",
+        "ar": "أي رصيف يتجه إلى وسط المدينة؟",
+        "es": "¿Qué andén va al centro de la ciudad?",
+        "zh": "哪个站台去市中心？",
+        "ja": "どのプラットホームが市中心に行きますか？"
+      },
+      "tokens": {
+        "th": ["ชานชาลา", "ไหน", "ไป", "กลาง", "เมือง"],
+        "zh": ["哪个", "站台", "去", "市中心", "？"],
+        "ja": [
+          "どの",
+          "プラットホーム",
+          "が",
+          "市中心",
+          "に",
+          "行き",
+          "ます",
+          "か",
+          "？"
+        ]
+      }
+    },
+    {
+      "id": "s14",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Where can I buy a ticket?",
+        "th": "ฉันจะซื้อตั๋วได้ที่ไหน",
+        "fa": "کجا می‌توانم بلیط بخرم؟",
+        "ar": "أين يمكنني شراء تذكرة؟",
+        "es": "¿Dónde puedo comprar un boleto?",
+        "zh": "我在哪里可以买票？",
+        "ja": "どこで切符を買えますか？"
+      },
+      "tokens": {
+        "th": ["ฉัน", "จะ", "ซื้อ", "ตั๋ว", "ได้", "ที่", "ไหน"],
+        "zh": ["我", "在", "哪里", "可以", "买", "票", "？"],
+        "ja": ["どこ", "で", "切符", "を", "買え", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s15",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Is there a schedule posted here?",
+        "th": "มีตารางเวลาติดอยู่ที่นี่ไหม",
+        "fa": "آیا برنامه زمانی اینجا نصب شده است؟",
+        "ar": "هل يوجد جدول مواعيد معلق هنا؟",
+        "es": "¿Hay un horario publicado aquí?",
+        "zh": "这里有时刻表吗？",
+        "ja": "ここに時刻表は掲示されていますか？"
+      },
+      "tokens": {
+        "th": ["มี", "ตารางเวลา", "ติด", "อยู่", "ที่", "นี่", "ไหม"],
+        "zh": ["这里", "有", "时刻表", "吗", "？"],
+        "ja": [
+          "ここ",
+          "に",
+          "時刻表",
+          "は",
+          "掲示",
+          "され",
+          "て",
+          "い",
+          "ます",
+          "か",
+          "？"
+        ]
+      }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Relative Locations",
+        "th": "สถานการณ์ที่ 4: ตำแหน่งสัมพัทธ์",
+        "fa": "سناریو ۴: موقعیت‌های نسبی",
+        "ar": "السيناريو 4: المواقع النسبية",
+        "es": "Escenario 4: Ubicaciones relativas",
+        "zh": "场景 4：相对位置",
+        "ja": "シナリオ 4：相対的な位置"
+      }
+    },
+    {
+      "id": "w16",
+      "kind": "Word",
+      "texts": {
+        "en": "next to",
+        "th": "ถัดจาก",
+        "fa": "کنار",
+        "ar": "بجانب",
+        "es": "al lado de",
+        "zh": "旁边",
+        "ja": "隣"
+      }
+    },
+    {
+      "id": "w17",
+      "kind": "Word",
+      "texts": {
+        "en": "behind",
+        "th": "ข้างหลัง",
+        "fa": "پشت",
+        "ar": "خلف",
+        "es": "detrás de",
+        "zh": "后面",
+        "ja": "後ろ"
+      }
+    },
+    {
+      "id": "w18",
+      "kind": "Word",
+      "texts": {
+        "en": "in front of",
+        "th": "ข้างหน้า",
+        "fa": "جلوی",
+        "ar": "أمام",
+        "es": "delante de",
+        "zh": "前面",
+        "ja": "前"
+      }
+    },
+    {
+      "id": "w19",
+      "kind": "Word",
+      "texts": {
+        "en": "between",
+        "th": "ระหว่าง",
+        "fa": "بین",
+        "ar": "بين",
+        "es": "entre",
+        "zh": "之间",
+        "ja": "間"
+      }
+    },
+    {
+      "id": "w20",
+      "kind": "Word",
+      "texts": {
+        "en": "opposite",
+        "th": "ตรงข้าม",
+        "fa": "روبرو",
+        "ar": "مقابل",
+        "es": "enfrente de",
+        "zh": "对面",
+        "ja": "向かい"
+      }
+    },
+    {
+      "id": "s16",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The bank is next to the post office.",
+        "th": "ธนาคารอยู่ถัดจากที่ทำการไปรษณีย์",
+        "fa": "بانک کنار اداره پست است.",
+        "ar": "البنك بجانب مكتب البريد.",
+        "es": "El banco está al lado de la oficina de correos.",
+        "zh": "银行在邮局旁边。",
+        "ja": "銀行は郵便局の隣にあります。"
+      },
+      "tokens": {
+        "th": ["ธนาคาร", "อยู่", "ถัดจาก", "ที่ทำการ", "ไปรษณีย์"],
+        "zh": ["银行", "在", "邮局", "旁边", "。"],
+        "ja": ["銀行", "は", "郵便局", "の", "隣", "に", "あり", "ます", "。"]
+      }
+    },
+    {
+      "id": "s17",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The park is behind the school.",
+        "th": "สวนสาธารณะอยู่ข้างหลังโรงเรียน",
+        "fa": "پارک پشت مدرسه است.",
+        "ar": "الحديقة خلف المدرسة.",
+        "es": "El parque está detrás de la escuela.",
+        "zh": "公园在学校后面。",
+        "ja": "公園は学校の後ろにあります。"
+      },
+      "tokens": {
+        "th": ["สวนสาธารณะ", "อยู่", "ข้างหลัง", "โรงเรียน"],
+        "zh": ["公园", "在", "学校", "后面", "。"],
+        "ja": ["公園", "は", "学校", "の", "後ろ", "に", "あり", "ます", "。"]
+      }
+    },
+    {
+      "id": "s18",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The cafe is in front of the hotel.",
+        "th": "ร้านกาแฟอยู่ข้างหน้าโรงแรม",
+        "fa": "کافه جلوی هتل است.",
+        "ar": "المقهى أمام الفندق.",
+        "es": "La cafetería está delante del hotel.",
+        "zh": "咖啡馆在酒店前面。",
+        "ja": "カフェはホテルの前にあります。"
+      },
+      "tokens": {
+        "th": ["ร้านกาแฟ", "อยู่", "ข้างหน้า", "โรงแรม"],
+        "zh": ["咖啡馆", "在", "酒店", "前面", "。"],
+        "ja": ["カフェ", "は", "ホテル", "の", "前", "に", "あり", "ます", "。"]
+      }
+    },
+    {
+      "id": "s19",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The pharmacy is between the bank and the shop.",
+        "th": "ร้านขายยาอยู่ระหว่างธนาคารและร้านค้า",
+        "fa": "داروخانه بین بانک و فروشگاه است.",
+        "ar": "الصيدلية بين البنك والمتجر.",
+        "es": "La farmacia está entre el banco y la tienda.",
+        "zh": "药店在银行和商店之间。",
+        "ja": "薬局は銀行と店の間にあります。"
+      },
+      "tokens": {
+        "th": ["ร้านขายยา", "อยู่", "ระหว่าง", "ธนาคาร", "และ", "ร้านค้า"],
+        "zh": ["药店", "在", "银行", "和", "商店", "之间", "。"],
+        "ja": [
+          "薬局",
+          "は",
+          "銀行",
+          "と",
+          "店",
+          "の",
+          "間",
+          "に",
+          "あり",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s20",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The museum is opposite the square.",
+        "th": "พิพิธภัณฑ์อยู่ตรงข้ามจัตุรัส",
+        "fa": "موزه روبروی میدان است.",
+        "ar": "المتحف مقابل الساحة.",
+        "es": "El museo está enfrente de la plaza.",
+        "zh": "博物馆在广场对面。",
+        "ja": "博物館は広場の向かいにあります。"
+      },
+      "tokens": {
+        "th": ["พิพิธภัณฑ์", "อยู่", "ตรงข้าม", "จัตุรัส"],
+        "zh": ["博物馆", "在", "广场", "对面", "。"],
+        "ja": [
+          "博物館",
+          "は",
+          "広場",
+          "の",
+          "向かい",
+          "に",
+          "あり",
+          "ます",
+          "。"
+        ]
+      }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Getting Lost",
+        "th": "สถานการณ์ที่ 5: การหลงทาง",
+        "fa": "سناریو ۵: گم شدن",
+        "ar": "السيناريو 5: الضياع",
+        "es": "Escenario 5: Perderse",
+        "zh": "场景 5：迷路",
+        "ja": "シナリオ 5：道に迷う"
+      }
+    },
+    {
+      "id": "w21",
+      "kind": "Word",
+      "texts": {
+        "en": "lost",
+        "th": "หลงทาง",
+        "fa": "گم‌شده",
+        "ar": "ضائع",
+        "es": "perdido",
+        "zh": "迷路",
+        "ja": "迷う"
+      }
+    },
+    {
+      "id": "w22",
+      "kind": "Word",
+      "texts": {
+        "en": "help",
+        "th": "ช่วย",
+        "fa": "کمک",
+        "ar": "مساعدة",
+        "es": "ayuda",
+        "zh": "帮助",
+        "ja": "助ける"
+      }
+    },
+    {
+      "id": "w23",
+      "kind": "Word",
+      "texts": {
+        "en": "address",
+        "th": "ที่อยู่",
+        "fa": "آدرس",
+        "ar": "عنوان",
+        "es": "dirección",
+        "zh": "地址",
+        "ja": "住所"
+      }
+    },
+    {
+      "id": "w24",
+      "kind": "Word",
+      "texts": {
+        "en": "show",
+        "th": "แสดง",
+        "fa": "نشان دادن",
+        "ar": "إظهار",
+        "es": "mostrar",
+        "zh": "显示",
+        "ja": "見せる"
+      }
+    },
+    {
+      "id": "w25",
+      "kind": "Word",
+      "texts": {
+        "en": "return",
+        "th": "กลับ",
+        "fa": "بازگشت",
+        "ar": "عودة",
+        "es": "volver",
+        "zh": "返回",
+        "ja": "戻る"
+      }
+    },
+    {
+      "id": "s21",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I think I am lost.",
+        "th": "ฉันคิดว่าฉันหลงทาง",
+        "fa": "فکر می‌کنم گم شده‌ام.",
+        "ar": "أعتقد أنني ضائع.",
+        "es": "Creo que estoy perdido.",
+        "zh": "我想我迷路了。",
+        "ja": "道に迷ったと思います。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "คิด", "ว่า", "ฉัน", "หลงทาง"],
+        "zh": ["我", "想", "我", "迷路", "了", "。"],
+        "ja": ["道", "に", "迷っ", "た", "と", "思い", "ます", "。"]
+      }
+    },
+    {
+      "id": "s22",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Can you help me find my way?",
+        "th": "คุณช่วยหาทางให้ฉันได้ไหม",
+        "fa": "آیا می‌توانید به من کمک کنید راهم را پیدا کنم؟",
+        "ar": "هل يمكنك مساعدتي في العثور على طريقي؟",
+        "es": "¿Puedes ayudarme a encontrar mi camino?",
+        "zh": "你能帮我找路吗？",
+        "ja": "道を見つけるのを手伝ってくれますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "ช่วย", "หา", "ทาง", "ให้", "ฉัน", "ได้", "ไหม"],
+        "zh": ["你", "能", "帮", "我", "找", "路", "吗", "？"],
+        "ja": [
+          "道",
+          "を",
+          "見つける",
+          "の",
+          "を",
+          "手伝っ",
+          "て",
+          "くれ",
+          "ます",
+          "か",
+          "？"
+        ]
+      }
+    },
+    {
+      "id": "s23",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Here is the address of my hotel.",
+        "th": "นี่คือที่อยู่ของโรงแรมของฉัน",
+        "fa": "این آدرس هتل من است.",
+        "ar": "إليك عنوان فندقي.",
+        "es": "Aquí está la dirección de mi hotel.",
+        "zh": "这是我酒店的地址。",
+        "ja": "これが私のホテルの住所です。"
+      },
+      "tokens": {
+        "th": ["นี่", "คือ", "ที่อยู่", "ของ", "โรงแรม", "ของ", "ฉัน"],
+        "zh": ["这", "是", "我", "酒店", "的", "地址", "。"],
+        "ja": ["これ", "が", "私", "の", "ホテル", "の", "住所", "です", "。"]
+      }
+    },
+    {
+      "id": "s24",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Can you show me on this map?",
+        "th": "คุณช่วยชี้ให้ฉันดูบนแผนที่นี้ได้ไหม",
+        "fa": "آیا می‌توانید روی این نقشه به من نشان دهید؟",
+        "ar": "هل يمكنك إظهار ذلك لي على هذه الخريطة؟",
+        "es": "¿Puedes mostrarme en este mapa?",
+        "zh": "你能在这张地图上指给我看吗？",
+        "ja": "この地図で教えていただけますか？"
+      },
+      "tokens": {
+        "th": [
+          "คุณ",
+          "ช่วย",
+          "ชี้",
+          "ให้",
+          "ฉัน",
+          "ดู",
+          "บน",
+          "แผนที่",
+          "นี้",
+          "ได้",
+          "ไหม"
+        ],
+        "zh": [
+          "你",
+          "能",
+          "在",
+          "这",
+          "张",
+          "地图",
+          "上",
+          "指",
+          "给",
+          "我",
+          "看",
+          "吗",
+          "？"
+        ],
+        "ja": [
+          "この",
+          "地図",
+          "で",
+          "教え",
+          "て",
+          "いただけ",
+          "ます",
+          "か",
+          "？"
+        ]
+      }
+    },
+    {
+      "id": "s25",
+      "kind": "Sentence",
+      "texts": {
+        "en": "How do I return to the main street?",
+        "th": "ฉันจะกลับไปยังถนนสายหลักได้อย่างไร",
+        "fa": "چطور به خیابان اصلی برگردم؟",
+        "ar": "كيف أعود إلى الشارع الرئيسي؟",
+        "es": "¿Cómo vuelvo a la calle principal?",
+        "zh": "我怎么回到主街？",
+        "ja": "どうやってメインストリートに戻りますか？"
+      },
+      "tokens": {
+        "th": [
+          "ฉัน",
+          "จะ",
+          "กลับ",
+          "ไป",
+          "ยัง",
+          "ถนน",
+          "สาย",
+          "หลัก",
+          "ได้",
+          "อย่างไร"
+        ],
+        "zh": ["我", "怎么", "回到", "主街", "？"],
+        "ja": [
+          "どう",
+          "やって",
+          "メイン",
+          "ストリート",
+          "に",
+          "戻り",
+          "ます",
+          "か",
+          "？"
+        ]
       }
     }
   ]

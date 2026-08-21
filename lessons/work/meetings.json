@@ -2,383 +2,396 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
-      "header": true,
-      "texts": {
-        "en": "Core Words",
-        "th": "คำศัพท์หลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras clave",
-        "zh": "核心词汇",
-        "ja": "基本単語"
-      }
-    },
-    {
-      "id": "word_i",
-      "kind": "word",
-      "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
-      }
-    },
-    {
-      "id": "word_we",
-      "kind": "word",
-      "texts": {
-        "en": "we",
-        "th": "เรา",
-        "fa": "ما",
-        "ar": "نحن",
-        "es": "nosotros",
-        "zh": "我们",
-        "ja": "私たち"
-      }
-    },
-    {
-      "id": "word_you",
-      "kind": "word",
-      "texts": {
-        "en": "you",
-        "th": "คุณ",
-        "fa": "شما",
-        "ar": "أنت",
-        "es": "usted",
-        "zh": "您",
-        "ja": "あなた"
-      }
-    },
-    {
-      "id": "word_yes",
-      "kind": "word",
-      "texts": {
-        "en": "yes",
-        "th": "ใช่",
-        "fa": "بله",
-        "ar": "نعم",
-        "es": "sí",
-        "zh": "是",
-        "ja": "はい"
-      }
-    },
-    {
-      "id": "word_no",
-      "kind": "word",
-      "texts": {
-        "en": "no / not",
-        "th": "ไม่",
-        "fa": "نه / نمی",
-        "ar": "لا / ليس",
-        "es": "no",
-        "zh": "不",
-        "ja": "いいえ / 〜ない"
-      }
-    },
-    {
-      "id": "word_have",
-      "kind": "word",
-      "texts": {
-        "en": "have",
-        "th": "มี",
-        "fa": "داشتن",
-        "ar": "يملك",
-        "es": "tener",
-        "zh": "有",
-        "ja": "ある"
-      }
-    },
-    {
-      "id": "word_what",
-      "kind": "word",
-      "texts": {
-        "en": "what",
-        "th": "อะไร",
-        "fa": "چه",
-        "ar": "ماذا",
-        "es": "qué",
-        "zh": "什么",
-        "ja": "何"
-      }
-    },
-    {
-      "id": "word_who",
-      "kind": "word",
-      "texts": {
-        "en": "who",
-        "th": "ใคร",
-        "fa": "چه کسی",
-        "ar": "من",
-        "es": "quién",
-        "zh": "谁",
-        "ja": "誰"
-      }
-    },
-    {
-      "id": "word_question_particle",
-      "kind": "word",
-      "texts": {
-        "en": "question marker",
-        "th": "ไหม",
-        "fa": "آیا",
-        "ar": "هل",
-        "es": "partícula interrogativa",
-        "zh": "吗",
-        "ja": "か"
-      }
-    },
-    {
-      "id": "word_and",
-      "kind": "word",
-      "texts": {
-        "en": "and",
-        "th": "และ",
-        "fa": "و",
-        "ar": "و",
-        "es": "y",
-        "zh": "和",
-        "ja": "と"
-      }
-    },
-    {
-      "id": "word_but",
-      "kind": "word",
-      "texts": {
-        "en": "but",
-        "th": "แต่",
-        "fa": "اما",
-        "ar": "لكن",
-        "es": "pero",
-        "zh": "但是",
-        "ja": "しかし"
-      }
-    },
-    {
-      "id": "word_because",
-      "kind": "word",
-      "texts": {
-        "en": "because",
-        "th": "เพราะ",
-        "fa": "زیرا",
-        "ar": "لأن",
-        "es": "porque",
-        "zh": "因为",
-        "ja": "〜だから"
-      }
-    },
-    {
-      "id": "word_or",
-      "kind": "word",
-      "texts": {
-        "en": "or",
-        "th": "หรือ",
-        "fa": "یا",
-        "ar": "أو",
-        "es": "o",
-        "zh": "还是 / 或者",
-        "ja": "または / それとも"
-      }
-    },
-    {
-      "id": "header_scenario1",
+      "id": "h1",
       "header": true,
       "texts": {
         "en": "Scenario 1: Starting the Meeting",
-        "th": "สถานการณ์ 1: การเริ่มการประชุม",
+        "th": "สถานการณ์ที่ 1: การเริ่มการประชุม",
         "fa": "سناریو ۱: شروع جلسه",
         "ar": "السيناريو 1: بدء الاجتماع",
-        "es": "Escenario 1: Empezar la reunión",
-        "zh": "场景一：开始会议",
-        "ja": "シナリオ1：会議の開始"
+        "es": "Escenario 1: Iniciar la reunión",
+        "zh": "场景 1：开始会议",
+        "ja": "シナリオ 1：会議の開始"
       }
     },
     {
-      "id": "sentence_meeting_start",
-      "kind": "sentence",
-      "itemIds": ["word_we", "word_start", "word_meeting"],
-      "texts": {
-        "en": "Let us start the meeting",
-        "th": "เรามาเริ่มการประชุมกันเถอะ",
-        "fa": "بیایید جلسه را شروع کنیم",
-        "ar": "هيا نبدأ الاجتماع",
-        "es": "Comencemos la reunión",
-        "zh": "我们开始开会吧",
-        "ja": "会議を始めましょう"
-      },
-      "tokens": {
-        "en": ["Let", "us", "start", "the", "meeting"],
-        "th": ["เรา", "มา", "เริ่ม", "การประชุม", "กันเถอะ"],
-        "fa": ["بیایید", "جلسه", "را", "شروع", "کنیم"],
-        "ar": ["هيا", "نبدأ", "الاجتماع"],
-        "es": ["Comencemos", "la", "reunión"],
-        "zh": ["我们", "开始", "开会", "吧"],
-        "ja": ["会議", "を", "始め", "ましょう"]
-      }
-    },
-    {
-      "id": "sentence_meeting_first_agenda",
-      "kind": "sentence",
-      "itemIds": ["word_what", "word_first", "word_agenda"],
-      "texts": {
-        "en": "What is the first agenda item",
-        "th": "วาระแรกคืออะไร",
-        "fa": "اولین دستور جلسه چیست",
-        "ar": "ما هو البند الأول في جدول الأعمال",
-        "es": "Cuál es el primer punto del orden del día",
-        "zh": "第一个议程是什么",
-        "ja": "最初の議事は何ですか"
-      },
-      "tokens": {
-        "en": ["What", "is", "the", "first", "agenda", "item"],
-        "th": ["วาระ", "แรก", "คือ", "อะไร"],
-        "fa": ["اولین", "دستور", "جلسه", "چیست"],
-        "ar": ["ما", "هو", "البند", "الأول", "في", "جدول", "الأعمال"],
-        "es": [
-          "Cuál",
-          "es",
-          "el",
-          "primer",
-          "punto",
-          "del",
-          "orden",
-          "del",
-          "día"
-        ],
-        "zh": ["第一个", "议程", "是", "什么"],
-        "ja": ["最初", "の", "議事", "は", "何", "です", "か"]
-      }
-    },
-    {
-      "id": "word_start",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
         "en": "start",
         "th": "เริ่ม",
-        "fa": "شروع کردن",
-        "ar": "يبدأ",
+        "fa": "شروع",
+        "ar": "بدء",
         "es": "empezar",
         "zh": "开始",
         "ja": "始める"
       }
     },
     {
-      "id": "word_meeting",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
       "texts": {
-        "en": "meeting",
-        "th": "การประชุม",
-        "fa": "جلسه",
-        "ar": "اجتماع",
-        "es": "reunión",
-        "zh": "会议",
-        "ja": "会議"
+        "en": "purpose",
+        "th": "วัตถุประสงค์",
+        "fa": "هدف",
+        "ar": "غرض",
+        "es": "propósito",
+        "zh": "目的",
+        "ja": "目的"
       }
     },
     {
-      "id": "word_first",
-      "kind": "word",
+      "id": "w3",
+      "kind": "Word",
       "texts": {
-        "en": "first",
-        "th": "แรก",
-        "fa": "اول",
-        "ar": "أول",
-        "es": "primero",
-        "zh": "第一",
-        "ja": "最初の"
+        "en": "attend",
+        "th": "เข้าร่วม",
+        "fa": "حضور",
+        "ar": "حضور",
+        "es": "asistir",
+        "zh": "参加",
+        "ja": "出席する"
       }
     },
     {
-      "id": "word_agenda",
-      "kind": "word",
+      "id": "w4",
+      "kind": "Word",
       "texts": {
-        "en": "agenda",
-        "th": "วาระ",
-        "fa": "دستور جلسه",
-        "ar": "جدول أعمال",
-        "es": "orden del día",
-        "zh": "议程",
-        "ja": "議事"
+        "en": "minutes",
+        "th": "รายงานการประชุม",
+        "fa": "صورت‌جلسه",
+        "ar": "محضر",
+        "es": "acta",
+        "zh": "会议纪要",
+        "ja": "議事録"
       }
     },
     {
-      "id": "header_scenario2",
+      "id": "w5",
+      "kind": "Word",
+      "texts": {
+        "en": "brief",
+        "th": "สรุป",
+        "fa": "خلاصه",
+        "ar": "موجز",
+        "es": "resumen",
+        "zh": "简短",
+        "ja": "簡潔な"
+      }
+    },
+    {
+      "id": "s1",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Let's get started.",
+        "th": "เรามาเริ่มกันเลย",
+        "fa": "بیایید شروع کنیم.",
+        "ar": "لنبدأ.",
+        "es": "Empecemos.",
+        "zh": "我们开始吧。",
+        "ja": "始めましょう。"
+      },
+      "tokens": {
+        "th": ["เรา", "มา", "เริ่ม", "กัน", "เลย"],
+        "zh": ["我们", "开始", "吧", "。"],
+        "ja": ["始め", "まし", "ょう", "。"]
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Thank you all for attending.",
+        "th": "ขอบคุณทุกท่านที่เข้าร่วม",
+        "fa": "از همه شما برای حضور تشکر می‌کنم.",
+        "ar": "شكراً لكم جميعاً على الحضور.",
+        "es": "Gracias a todos por asistir.",
+        "zh": "感谢大家的参加。",
+        "ja": "ご出席いただきありがとうございます。"
+      },
+      "tokens": {
+        "th": ["ขอบคุณ", "ทุก", "ท่าน", "ที่", "เข้าร่วม"],
+        "zh": ["感谢", "大家", "的", "参加", "。"],
+        "ja": ["ご", "出席", "いただき", "ありがとう", "ございます", "。"]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The purpose of this meeting is clear.",
+        "th": "วัตถุประสงค์ของการประชุมนี้ชัดเจน",
+        "fa": "هدف این جلسه روشن است.",
+        "ar": "غرض هذا الاجتماع واضح.",
+        "es": "El propósito de esta reunión es claro.",
+        "zh": "这次会议的目的很明确。",
+        "ja": "この会議の目的は明確です。"
+      },
+      "tokens": {
+        "th": ["วัตถุประสงค์", "ของ", "การ", "ประชุม", "นี้", "ชัดเจน"],
+        "zh": ["这次", "会议", "的", "目的", "很", "明确", "。"],
+        "ja": ["この", "会議", "の", "目的", "は", "明確", "です", "。"]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Who is taking the minutes?",
+        "th": "ใครเป็นผู้จดรายงานการประชุม",
+        "fa": "چه کسی صورت‌جلسه را می‌نویسد؟",
+        "ar": "من يأخذ المحضر؟",
+        "es": "¿Quién toma el acta?",
+        "zh": "谁负责做会议纪要？",
+        "ja": "誰が議事録を取りますか？"
+      },
+      "tokens": {
+        "th": ["ใคร", "เป็น", "ผู้", "จด", "รายงาน", "การ", "ประชุม"],
+        "zh": ["谁", "负责", "做", "会议", "纪要", "？"],
+        "ja": ["誰", "が", "議事録", "を", "取り", "ます", "か", "？"]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Let's keep this brief.",
+        "th": "เรามาทำให้เรื่องนี้สั้นๆ กัน",
+        "fa": "بیایید این را کوتاه نگه داریم.",
+        "ar": "لنجعل هذا موجزاً.",
+        "es": "Mantengamos esto breve.",
+        "zh": "让我们简明扼要。",
+        "ja": "簡潔に済ませましょう。"
+      },
+      "tokens": {
+        "th": ["เรา", "มา", "ทำให้", "เรื่อง", "นี้", "สั้นๆ", "กัน"],
+        "zh": ["让", "我们", "简明", "扼要", "。"],
+        "ja": ["簡潔", "に", "済ませ", "まし", "ょう", "。"]
+      }
+    },
+
+    {
+      "id": "h2",
       "header": true,
       "texts": {
-        "en": "Scenario 2: Opinions & Agreement",
-        "th": "สถานการณ์ 2: ความคิดเห็นและความเห็นพ้อง",
-        "fa": "سناریو ۲: نظرات و موافقت",
-        "ar": "السيناريو 2: الآراء والموافقة",
-        "es": "Escenario 2: Opiniones y acuerdo",
-        "zh": "场景二：意见与表态",
-        "ja": "シナリオ2：意見と賛成"
+        "en": "Scenario 2: Presenting Ideas",
+        "th": "สถานการณ์ที่ 2: การนำเสนอแนวคิด",
+        "fa": "سناریو ۲: ارائه ایده‌ها",
+        "ar": "السيناريو 2: تقديم الأفكار",
+        "es": "Escenario 2: Presentar ideas",
+        "zh": "场景 2：提出想法",
+        "ja": "シナリオ 2：アイデアの提示"
       }
     },
     {
-      "id": "sentence_meeting_share_opinion",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_request", "word_opinion"],
+      "id": "w6",
+      "kind": "Word",
       "texts": {
-        "en": "I would like to share my opinion",
-        "th": "ฉันขอแสดงความคิดเห็น",
-        "fa": "من می‌خواهم نظرم را بیان کنم",
-        "ar": "أود أن أشارك رأيي",
-        "es": "Me gustaría compartir mi opinión",
-        "zh": "我想分享我的意见",
-        "ja": "意見を述べさせてください"
+        "en": "idea",
+        "th": "แนวคิด",
+        "fa": "ایده",
+        "ar": "فكرة",
+        "es": "idea",
+        "zh": "想法",
+        "ja": "アイデア"
+      }
+    },
+    {
+      "id": "w7",
+      "kind": "Word",
+      "texts": {
+        "en": "suggest",
+        "th": "แนะนำ",
+        "fa": "پیشنهاد",
+        "ar": "اقتراح",
+        "es": "sugerir",
+        "zh": "建议",
+        "ja": "提案する"
+      }
+    },
+    {
+      "id": "w8",
+      "kind": "Word",
+      "texts": {
+        "en": "point",
+        "th": "ประเด็น",
+        "fa": "نکته",
+        "ar": "نقطة",
+        "es": "punto",
+        "zh": "要点",
+        "ja": "ポイント"
+      }
+    },
+    {
+      "id": "w9",
+      "kind": "Word",
+      "texts": {
+        "en": "graph",
+        "th": "กราฟ",
+        "fa": "نمودار",
+        "ar": "رسم بياني",
+        "es": "gráfico",
+        "zh": "图表",
+        "ja": "グラフ"
+      }
+    },
+    {
+      "id": "w10",
+      "kind": "Word",
+      "texts": {
+        "en": "data",
+        "th": "ข้อมูล",
+        "fa": "داده",
+        "ar": "بيانات",
+        "es": "datos",
+        "zh": "数据",
+        "ja": "データ"
+      }
+    },
+    {
+      "id": "s6",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I would like to share an idea.",
+        "th": "ฉันอยากแบ่งปันแนวคิดหนึ่ง",
+        "fa": "من می‌خواهم یک ایده را به اشتراک بگذارم.",
+        "ar": "أود مشاركة فكرة.",
+        "es": "Me gustaría compartir una idea.",
+        "zh": "我想分享一个想法。",
+        "ja": "アイデアを共有したいと思います。"
       },
       "tokens": {
-        "en": ["I", "would", "like", "to", "share", "my", "opinion"],
-        "th": ["ฉัน", "ขอ", "แสดง", "ความคิดเห็น"],
-        "fa": ["من", "می‌خواهم", "نظرم", "را", "بیان", "کنم"],
-        "ar": ["أود", "أن", "أشارك", "رأيي"],
-        "es": ["Me", "gustaría", "compartir", "mi", "opinión"],
-        "zh": ["我", "想", "分享", "我的", "意见"],
-        "ja": ["意見", "を", "述べ", "させて", "ください"]
+        "th": ["ฉัน", "อยาก", "แบ่งปัน", "แนวคิด", "หนึ่ง"],
+        "zh": ["我", "想", "分享", "一个", "想法", "。"],
+        "ja": [
+          "私",
+          "は",
+          "アイデア",
+          "を",
+          "共有",
+          "し",
+          "たい",
+          "と",
+          "思い",
+          "ます",
+          "。"
+        ]
       }
     },
     {
-      "id": "sentence_meeting_agree_project",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_agree", "word_project"],
+      "id": "s7",
+      "kind": "Sentence",
       "texts": {
-        "en": "I agree with this project",
-        "th": "ฉันเห็นด้วยกับโครงการนี้",
-        "fa": "من با این پروژه موافقم",
-        "ar": "أنا أوافق على هذا المشروع",
-        "es": "Estoy de acuerdo con este proyecto",
-        "zh": "我同意这个项目",
-        "ja": "このプロジェクトに賛成です"
+        "en": "I suggest we change the process.",
+        "th": "ฉันแนะนำว่าเราควรเปลี่ยนกระบวนการ",
+        "fa": "من پیشنهاد می‌کنم فرآیند را تغییر دهیم.",
+        "ar": "أقترح أن نغير العملية.",
+        "es": "Sugiero que cambiemos el proceso.",
+        "zh": "我建议我们改变流程。",
+        "ja": "プロセスを変更することを提案します。"
       },
       "tokens": {
-        "en": ["I", "agree", "with", "this", "project"],
-        "th": ["ฉัน", "เห็นด้วย", "กับ", "โครงการ", "นี้"],
-        "fa": ["من", "با", "این", "پروژه", "موافقم"],
-        "ar": ["أنا", "أوافق", "على", "هذا", "المشروع"],
-        "es": ["Estoy", "de", "acuerdo", "con", "este", "proyecto"],
-        "zh": ["我", "同意", "这个", "项目"],
-        "ja": ["この", "プロジェクト", "に", "賛成", "です"]
+        "th": ["ฉัน", "แนะนำ", "ว่า", "เรา", "ควร", "เปลี่ยน", "กระบวนการ"],
+        "zh": ["我", "建议", "我们", "改变", "流程", "。"],
+        "ja": [
+          "私",
+          "は",
+          "プロセス",
+          "を",
+          "変更",
+          "する",
+          "こと",
+          "を",
+          "提案",
+          "し",
+          "ます",
+          "。"
+        ]
       }
     },
     {
-      "id": "word_request",
-      "kind": "word",
+      "id": "s8",
+      "kind": "Sentence",
       "texts": {
-        "en": "request",
-        "th": "ขอ",
-        "fa": "درخواست کردن",
-        "ar": "يطلب",
-        "es": "solicitar",
-        "zh": "请求",
-        "ja": "求める"
+        "en": "That is a valid point.",
+        "th": "นั่นเป็นประเด็นที่สมเหตุสมผล",
+        "fa": "این یک نکته معتبر است.",
+        "ar": "تلك نقطة صحيحة.",
+        "es": "Ese es un punto válido.",
+        "zh": "那是一个合理的要点。",
+        "ja": "それは妥当なポイントです。"
+      },
+      "tokens": {
+        "th": ["นั่น", "เป็น", "ประเด็น", "ที่", "สมเหตุสมผล"],
+        "zh": ["那", "是", "一个", "合理", "的", "要点", "。"],
+        "ja": ["それ", "は", "妥当", "な", "ポイント", "です", "。"]
       }
     },
     {
-      "id": "word_opinion",
-      "kind": "word",
+      "id": "s9",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Let's look at the graph.",
+        "th": "มาดูกราฟกัน",
+        "fa": "بیایید به نمودار نگاه کنیم.",
+        "ar": "لننظر إلى الرسم البياني.",
+        "es": "Miremos el gráfico.",
+        "zh": "我们来看看图表。",
+        "ja": "グラフを見てみましょう。"
+      },
+      "tokens": {
+        "th": ["มา", "ดู", "กราฟ", "กัน"],
+        "zh": ["我们", "来", "看看", "图表", "。"],
+        "ja": ["グラフ", "を", "見", "て", "み", "まし", "ょう", "。"]
+      }
+    },
+    {
+      "id": "s10",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The data supports this conclusion.",
+        "th": "ข้อมูลสนับสนุนข้อสรุปนี้",
+        "fa": "داده‌ها از این نتیجه‌گیری پشتیبانی می‌کنند.",
+        "ar": "البيانات تدعم هذا الاستنتاج.",
+        "es": "Los datos apoyan esta conclusión.",
+        "zh": "数据支持这个结论。",
+        "ja": "データはこの結論を支持しています。"
+      },
+      "tokens": {
+        "th": ["ข้อมูล", "สนับสนุน", "ข้อสรุป", "นี้"],
+        "zh": ["数据", "支持", "这个", "结论", "。"],
+        "ja": [
+          "データ",
+          "は",
+          "この",
+          "結論",
+          "を",
+          "支持",
+          "し",
+          "て",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Asking for Opinions",
+        "th": "สถานการณ์ที่ 3: การถามความคิดเห็น",
+        "fa": "سناریو ۳: پرسیدن نظرات",
+        "ar": "السيناريو 3: طلب الآراء",
+        "es": "Escenario 3: Pedir opiniones",
+        "zh": "场景 3：征求意见",
+        "ja": "シナリオ 3：意見を求める"
+      }
+    },
+    {
+      "id": "w11",
+      "kind": "Word",
       "texts": {
         "en": "opinion",
         "th": "ความคิดเห็น",
@@ -390,543 +403,575 @@
       }
     },
     {
-      "id": "word_agree",
-      "kind": "word",
+      "id": "w12",
+      "kind": "Word",
       "texts": {
-        "en": "agree",
-        "th": "เห็นด้วย",
-        "fa": "موافق بودن",
-        "ar": "يوافق",
-        "es": "estar de acuerdo",
-        "zh": "同意",
-        "ja": "賛成する"
+        "en": "think",
+        "th": "คิด",
+        "fa": "فکر",
+        "ar": "يعتقد",
+        "es": "pensar",
+        "zh": "认为",
+        "ja": "思う"
       }
     },
     {
-      "id": "word_project",
-      "kind": "word",
+      "id": "w13",
+      "kind": "Word",
       "texts": {
-        "en": "project",
-        "th": "โครงการ",
-        "fa": "پروژه",
-        "ar": "مشروع",
-        "es": "proyecto",
-        "zh": "项目",
-        "ja": "プロジェクト"
+        "en": "feedback",
+        "th": "ข้อเสนอแนะ",
+        "fa": "بازخورد",
+        "ar": "ملاحظات",
+        "es": "comentarios",
+        "zh": "反馈",
+        "ja": "フィードバック"
       }
     },
     {
-      "id": "header_scenario3",
-      "header": true,
+      "id": "w14",
+      "kind": "Word",
       "texts": {
-        "en": "Scenario 3: Presentations & Scheduling",
-        "th": "สถานการณ์ 3: การนำเสนอและการจัดตารางเวลา",
-        "fa": "سناریو ۳: ارائه‌ها و زمان‌بندی",
-        "ar": "السيناريو 3: العروض والجدولة",
-        "es": "Escenario 3: Presentaciones y programación",
-        "zh": "场景三：展示与日程",
-        "ja": "シナリオ3：発表とスケジュール"
+        "en": "perspective",
+        "th": "มุมมอง",
+        "fa": "دیدگاه",
+        "ar": "منظور",
+        "es": "perspectiva",
+        "zh": "视角",
+        "ja": "視点"
       }
     },
     {
-      "id": "sentence_meeting_who_present",
-      "kind": "sentence",
-      "itemIds": ["word_who", "word_present", "word_next_week"],
+      "id": "w15",
+      "kind": "Word",
       "texts": {
-        "en": "Who will present next week",
-        "th": "ใครจะนำเสนอในสัปดาห์หน้า",
-        "fa": "چه کسی هفته آینده ارائه خواهد داد",
-        "ar": "من سيقدم الأسبوع القادم",
-        "es": "Quién presentará la próxima semana",
-        "zh": "下周谁来做展示",
-        "ja": "来週誰が発表しますか"
+        "en": "input",
+        "th": "ข้อมูลนำเข้า/ความคิดเห็น",
+        "fa": "ورودی",
+        "ar": "مدخلات",
+        "es": "aportación",
+        "zh": "输入/意见",
+        "ja": "入力/意見"
+      }
+    },
+    {
+      "id": "s11",
+      "kind": "Sentence",
+      "texts": {
+        "en": "What is your opinion on this?",
+        "th": "คุณมีความคิดเห็นอย่างไรเกี่ยวกับเรื่องนี้",
+        "fa": "نظر شما در این مورد چیست؟",
+        "ar": "ما هو رأيك في هذا؟",
+        "es": "¿Cuál es tu opinión sobre esto?",
+        "zh": "你对此有什么意见？",
+        "ja": "これについてあなたの意見は何ですか？"
       },
       "tokens": {
-        "en": ["Who", "will", "present", "next", "week"],
-        "th": ["ใคร", "จะ", "นำเสนอ", "ใน", "สัปดาห์หน้า"],
-        "fa": ["چه", "کسی", "هفته", "آینده", "ارائه", "خواهد", "داد"],
-        "ar": ["من", "سيقدم", "الأسبوع", "القادم"],
-        "es": ["Quién", "presentará", "la", "próxima", "semana"],
-        "zh": ["下周", "谁", "来", "做", "展示"],
-        "ja": ["来週", "誰", "が", "発表", "します", "か"]
-      }
-    },
-    {
-      "id": "sentence_meeting_i_present",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_present", "word_next_week"],
-      "texts": {
-        "en": "I will present next week",
-        "th": "ฉันจะนำเสนอในสัปดาห์หน้าครับ",
-        "fa": "من هفته آینده ارائه خواهم داد",
-        "ar": "سأقدم العرض الأسبوع القادم",
-        "es": "Presentaré la próxima semana",
-        "zh": "下周我来做展示",
-        "ja": "来週私が発表します"
-      },
-      "tokens": {
-        "en": ["I", "will", "present", "next", "week"],
-        "th": ["ฉัน", "จะ", "นำเสนอ", "ใน", "สัปดาห์หน้า", "ครับ"],
-        "fa": ["من", "هفته", "آینده", "ارائه", "خواهم", "داد"],
-        "ar": ["سأقدم", "العرض", "الأسبوع", "القادم"],
-        "es": ["Presentaré", "la", "próxima", "semana"],
-        "zh": ["下周", "我", "来", "做", "展示"],
-        "ja": ["来週", "私", "が", "発表", "し", "ます"]
-      }
-    },
-    {
-      "id": "sentence_meeting_discuss_later",
-      "kind": "sentence",
-      "itemIds": ["word_we", "word_discuss", "word_later"],
-      "texts": {
-        "en": "We will discuss this later",
-        "th": "เราจะหารือเรื่องนี้ทีหลัง",
-        "fa": "ما بعدا در این مورد بحث خواهیم کرد",
-        "ar": "سنناقش هذا لاحقا",
-        "es": "Discutiremos esto más tarde",
-        "zh": "我们稍后讨论这个",
-        "ja": "これについては後で話し合います"
-      },
-      "tokens": {
-        "en": ["We", "will", "discuss", "this", "later"],
-        "th": ["เรา", "จะ", "หารือ", "เรื่องนี้", "ทีหลัง"],
-        "fa": ["ما", "بعدا", "در", "این", "مورد", "بحث", "خواهیم", "کرد"],
-        "ar": ["سنناقش", "هذا", "لاحقا"],
-        "es": ["Discutiremos", "esto", "más", "tarde"],
-        "zh": ["我们", "稍后", "讨论", "这个"],
-        "ja": ["これ", "について", "は", "後で", "話し合い", "ます"]
-      }
-    },
-    {
-      "id": "word_present",
-      "kind": "word",
-      "texts": {
-        "en": "present",
-        "th": "นำเสนอ",
-        "fa": "ارائه دادن",
-        "ar": "يقدم",
-        "es": "presentar",
-        "zh": "展示",
-        "ja": "発表する"
-      }
-    },
-    {
-      "id": "word_next_week",
-      "kind": "word",
-      "texts": {
-        "en": "next week",
-        "th": "สัปดาห์หน้า",
-        "fa": "هفته آینده",
-        "ar": "الأسبوع القادم",
-        "es": "la próxima semana",
-        "zh": "下周",
-        "ja": "来週"
-      }
-    },
-    {
-      "id": "word_discuss",
-      "kind": "word",
-      "texts": {
-        "en": "discuss",
-        "th": "หารือ",
-        "fa": "بحث کردن",
-        "ar": "يناقش",
-        "es": "discutir",
-        "zh": "讨论",
-        "ja": "話し合う"
-      }
-    },
-    {
-      "id": "word_later",
-      "kind": "word",
-      "texts": {
-        "en": "later",
-        "th": "ทีหลัง",
-        "fa": "بعدا",
-        "ar": "لاحقا",
-        "es": "más tarde",
-        "zh": "以后",
-        "ja": "後で"
-      }
-    },
-    {
-      "id": "header_scenario4",
-      "header": true,
-      "texts": {
-        "en": "Scenario 4: Yes/No Questions",
-        "th": "สถานการณ์ 4: คำถามใช่/ไม่ใช่",
-        "fa": "سناریو ۴: سوالات بله/خیر",
-        "ar": "السيناريو 4: أسئلة نعم/لا",
-        "es": "Escenario 4: Preguntas de sí/no",
-        "zh": "场景四：是非问句",
-        "ja": "シナリオ4：はい/いいえ質問"
-      }
-    },
-    {
-      "id": "sentence_yn_ready_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_ready",
-        "word_meeting",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Are you ready for the meeting?",
-        "th": "คุณพร้อมสำหรับการประชุมไหมครับ",
-        "fa": "آیا برای جلسه آماده هستید؟",
-        "ar": "هل أنت مستعد للاجتماع؟",
-        "es": "¿Estás listo para la reunión?",
-        "zh": "你准备好开会了吗？",
-        "ja": "会議の準備はできていますか？"
-      },
-      "tokens": {
-        "en": ["Are", "you", "ready", "for", "the", "meeting?"],
-        "th": ["คุณ", "พร้อม", "สำหรับ", "การประชุม", "ไหม", "ครับ"],
-        "fa": ["آیا", "برای", "جلسه", "آماده", "هستید؟"],
-        "ar": ["هل", "أنت", "مستعد", "للاجتماع؟"],
-        "es": ["¿Estás", "listo", "para", "la", "reunión?"],
-        "zh": ["你", "准备好", "开会", "了", "吗？"],
-        "ja": ["会議", "の", "準備", "は", "できて", "います", "か？"]
-      }
-    },
-    {
-      "id": "sentence_yn_ready_answer",
-      "kind": "sentence",
-      "itemIds": ["word_yes", "word_i", "word_ready"],
-      "texts": {
-        "en": "Yes, I am ready",
-        "th": "ใช่ค่ะ ฉันพร้อมแล้วค่ะ",
-        "fa": "بله، من آماده هستم",
-        "ar": "نعم، أنا مستعد",
-        "es": "Sí, estoy listo",
-        "zh": "是的，我准备好了",
-        "ja": "はい、準備ができています"
-      },
-      "tokens": {
-        "en": ["Yes,", "I", "am", "ready"],
-        "th": ["ใช่", "ค่ะ", "ฉัน", "พร้อม", "แล้ว", "ค่ะ"],
-        "fa": ["بله،", "من", "آماده", "هستم"],
-        "ar": ["نعم،", "أنا", "مستعد"],
-        "es": ["Sí,", "estoy", "listo"],
-        "zh": ["是的，", "我", "准备好", "了"],
-        "ja": ["はい、", "準備", "が", "できて", "います"]
-      }
-    },
-    {
-      "id": "sentence_yn_agree_question",
-      "kind": "sentence",
-      "itemIds": ["word_you", "word_agree", "word_question_particle"],
-      "texts": {
-        "en": "Do you agree?",
-        "th": "คุณเห็นด้วยไหมครับ",
-        "fa": "آیا موافق هستید؟",
-        "ar": "هل أنت موافق؟",
-        "es": "¿Estás de acuerdo?",
-        "zh": "你同意吗？",
-        "ja": "賛成ですか？"
-      },
-      "tokens": {
-        "en": ["Do", "you", "agree?"],
-        "th": ["คุณ", "เห็นด้วย", "ไหม", "ครับ"],
-        "fa": ["آیا", "موافق", "هستید؟"],
-        "ar": ["هل", "أنت", "موافق؟"],
-        "es": ["¿Estás", "de", "acuerdo?"],
-        "zh": ["你", "同意", "吗？"],
-        "ja": ["賛成", "です", "か？"]
-      }
-    },
-    {
-      "id": "sentence_meeting_disagree",
-      "kind": "sentence",
-      "itemIds": ["word_no", "word_i", "word_agree"],
-      "texts": {
-        "en": "No, I don't agree",
-        "th": "ไม่ค่ะ ฉันไม่เห็นด้วยค่ะ",
-        "fa": "نه، من موافق نیستم",
-        "ar": "لا، أنا غير موافق",
-        "es": "No, no estoy de acuerdo",
-        "zh": "不，我不同意",
-        "ja": "いいえ、賛成ではありません"
-      },
-      "tokens": {
-        "en": ["No,", "I", "don't", "agree"],
-        "th": ["ไม่", "ค่ะ", "ฉัน", "ไม่เห็นด้วย", "ค่ะ"],
-        "fa": ["نه،", "من", "موافق", "نیستم"],
-        "ar": ["لا،", "أنا", "غير", "موافق"],
-        "es": ["No,", "no", "estoy", "de", "acuerdo"],
-        "zh": ["不，", "我", "不同意"],
-        "ja": ["いいえ、", "賛成", "では", "ありません"]
-      }
-    },
-    {
-      "id": "word_ready",
-      "kind": "word",
-      "texts": {
-        "en": "ready",
-        "th": "พร้อม",
-        "fa": "آماده",
-        "ar": "مستعد",
-        "es": "listo",
-        "zh": "准备好",
-        "ja": "準備ができている"
-      }
-    },
-    {
-      "id": "header_scenario5",
-      "header": true,
-      "texts": {
-        "en": "Scenario 5: Conjunctions",
-        "th": "สถานการณ์ 5: คำสันธาน",
-        "fa": "سناریو ۵: حروف ربط",
-        "ar": "السيناريو 5: حروف العطف",
-        "es": "Escenario 5: Conjunciones",
-        "zh": "场景五：连词",
-        "ja": "シナリオ5：接続詞"
-      }
-    },
-    {
-      "id": "sentence_conj_and",
-      "kind": "sentence",
-      "itemIds": ["word_meeting", "word_and", "word_present", "word_next_week"],
-      "texts": {
-        "en": "The meeting and the presentation are next week",
-        "th": "การประชุมและการนำเสนออยู่ในสัปดาห์หน้าครับ",
-        "fa": "جلسه و ارائه هفته آینده هستند",
-        "ar": "الاجتماع والعرض الأسبوع القادم",
-        "es": "La reunión y la presentación son la próxima semana",
-        "zh": "会议和展示都在下周",
-        "ja": "会議と発表は来週です"
-      },
-      "tokens": {
-        "en": [
-          "The",
-          "meeting",
-          "and",
-          "the",
-          "presentation",
-          "are",
-          "next",
-          "week"
-        ],
         "th": [
-          "การประชุม",
-          "และ",
-          "การนำเสนอ",
-          "อยู่",
-          "ใน",
-          "สัปดาห์หน้า",
-          "ครับ"
-        ],
-        "fa": ["جلسه", "و", "ارائه", "هفته", "آینده", "هستند"],
-        "ar": ["الاجتماع", "والعرض", "الأسبوع", "القادم"],
-        "es": [
-          "La",
-          "reunión",
-          "y",
-          "la",
-          "presentación",
-          "son",
-          "la",
-          "próxima",
-          "semana"
-        ],
-        "zh": ["会议", "和", "展示", "都", "在", "下周"],
-        "ja": ["会議", "と", "発表", "は", "来週", "です"]
-      }
-    },
-    {
-      "id": "sentence_conj_but",
-      "kind": "sentence",
-      "itemIds": [
-        "word_project",
-        "word_good",
-        "word_but",
-        "word_i",
-        "word_have",
-        "word_question"
-      ],
-      "texts": {
-        "en": "The project is good, but I have a question",
-        "th": "โครงการดี แต่ฉันมีคำถามหนึ่งข้อครับ",
-        "fa": "پروژه خوب است، اما من یک سؤال دارم",
-        "ar": "المشروع جيد، لكن لدي سؤال",
-        "es": "El proyecto es bueno, pero tengo una pregunta",
-        "zh": "项目很好，但我有一个问题",
-        "ja": "プロジェクトはいいですが、質問があります"
-      },
-      "tokens": {
-        "en": [
-          "The",
-          "project",
-          "is",
-          "good,",
-          "but",
-          "I",
-          "have",
-          "a",
-          "question"
-        ],
-        "th": [
-          "โครงการ",
-          "ดี",
-          "แต่",
-          "ฉัน",
+          "คุณ",
           "มี",
-          "คำถาม",
-          "หนึ่ง",
-          "ข้อ",
-          "ครับ"
+          "ความ",
+          "คิดเห็น",
+          "อย่างไร",
+          "เกี่ยวกับ",
+          "เรื่อง",
+          "นี้"
         ],
-        "fa": ["پروژه", "خوب", "است،", "اما", "من", "یک", "سؤال", "دارم"],
-        "ar": ["المشروع", "جيد،", "لكن", "لدي", "سؤال"],
-        "es": [
-          "El",
-          "proyecto",
-          "es",
-          "bueno,",
-          "pero",
-          "tengo",
-          "una",
-          "pregunta"
-        ],
-        "zh": ["项目", "很好，", "但", "我", "有", "一个", "问题"],
+        "zh": ["你", "对此", "有", "什么", "意见", "？"],
         "ja": [
-          "プロジェクト",
+          "これ",
+          "に",
+          "ついて",
+          "あなた",
+          "の",
+          "意見",
           "は",
-          "いい",
+          "何",
           "です",
-          "が、",
-          "質問",
-          "が",
-          "あり",
-          "ます"
+          "か",
+          "？"
         ]
       }
     },
     {
-      "id": "sentence_conj_because",
-      "kind": "sentence",
-      "itemIds": [
-        "word_i",
-        "word_agree",
-        "word_because",
-        "word_project",
-        "word_good"
-      ],
+      "id": "s12",
+      "kind": "Sentence",
       "texts": {
-        "en": "I agree because the project is good",
-        "th": "ฉันเห็นด้วยเพราะโครงการดีครับ",
-        "fa": "من موافقم زیرا پروژه خوب است",
-        "ar": "أنا موافق لأن المشروع جيد",
-        "es": "Estoy de acuerdo porque el proyecto es bueno",
-        "zh": "我同意，因为这个项目很好",
-        "ja": "プロジェクトがいいので賛成です"
+        "en": "What do you think about the proposal?",
+        "th": "คุณคิดอย่างไรเกี่ยวกับข้อเสนอ",
+        "fa": "شما درباره پیشنهاد چه فکر می‌کنید؟",
+        "ar": "ماذا تعتقد بشأن الاقتراح؟",
+        "es": "¿Qué piensas sobre la propuesta?",
+        "zh": "你对这个提议怎么看？",
+        "ja": "この提案についてどう思いますか？"
       },
       "tokens": {
-        "en": ["I", "agree", "because", "the", "project", "is", "good"],
-        "th": ["ฉัน", "เห็นด้วย", "เพราะ", "โครงการ", "ดี", "ครับ"],
-        "fa": ["من", "موافقم", "زیرا", "پروژه", "خوب", "است"],
-        "ar": ["أنا", "موافق", "لأن", "المشروع", "جيد"],
-        "es": [
-          "Estoy",
-          "de",
-          "acuerdo",
-          "porque",
-          "el",
-          "proyecto",
-          "es",
-          "bueno"
-        ],
-        "zh": ["我", "同意，", "因为", "这个", "项目", "很好"],
-        "ja": ["プロジェクト", "が", "いい", "ので", "賛成", "です"]
+        "th": ["คุณ", "คิด", "อย่างไร", "เกี่ยวกับ", "ข้อเสนอ"],
+        "zh": ["你", "对", "这个", "提议", "怎么", "看", "？"],
+        "ja": [
+          "この",
+          "提案",
+          "に",
+          "ついて",
+          "どう",
+          "思い",
+          "ます",
+          "か",
+          "？"
+        ]
       }
     },
     {
-      "id": "sentence_conj_or",
-      "kind": "sentence",
-      "itemIds": [
-        "word_we",
-        "word_discuss",
-        "word_now",
-        "word_or",
-        "word_later"
-      ],
+      "id": "s13",
+      "kind": "Sentence",
       "texts": {
-        "en": "We can discuss this now or later",
-        "th": "เราหารือเรื่องนี้ตอนนี้หรือทีหลังได้ครับ",
-        "fa": "می‌توانیم این موضوع را اکنون یا بعدا بحث کنیم",
-        "ar": "يمكننا مناقشة هذا الآن أو لاحقا",
-        "es": "Podemos discutir esto ahora o más tarde",
-        "zh": "我们可以现在或以后讨论这个",
-        "ja": "この件は今または後で話し合えます"
+        "en": "I would appreciate your feedback.",
+        "th": "ฉันจะขอบคุณสำหรับข้อเสนอแนะของคุณ",
+        "fa": "من از بازخورد شما قدردانی خواهم کرد.",
+        "ar": "سأقدر ملاحظاتك.",
+        "es": "Agradecería tus comentarios.",
+        "zh": "我将感激你的反馈。",
+        "ja": "あなたのフィードバックをいただければ幸いです。"
       },
       "tokens": {
-        "en": ["We", "can", "discuss", "this", "now", "or", "later"],
-        "th": [
-          "เรา",
-          "หารือ",
-          "เรื่องนี้",
-          "ตอนนี้",
-          "หรือ",
-          "ทีหลัง",
-          "ได้",
-          "ครับ"
-        ],
-        "fa": [
-          "می‌توانیم",
-          "این",
-          "موضوع",
-          "را",
-          "اکنون",
-          "یا",
-          "بعدا",
-          "بحث",
-          "کنیم"
-        ],
-        "ar": ["يمكننا", "مناقشة", "هذا", "الآن", "أو", "لاحقا"],
-        "es": ["Podemos", "discutir", "esto", "ahora", "o", "más", "tarde"],
-        "zh": ["我们", "可以", "现在", "或", "以后", "讨论", "这个"],
-        "ja": ["この", "件", "は", "今", "または", "後で", "話し合え", "ます"]
+        "th": ["ฉัน", "จะ", "ขอบคุณ", "สำหรับ", "ข้อเสนอแนะ", "ของ", "คุณ"],
+        "zh": ["我", "将", "感激", "你", "的", "反馈", "。"],
+        "ja": [
+          "あなた",
+          "の",
+          "フィードバック",
+          "を",
+          "いただけ",
+          "れ",
+          "ば",
+          "幸い",
+          "です",
+          "。"
+        ]
       }
     },
     {
-      "id": "word_now",
-      "kind": "word",
+      "id": "s14",
+      "kind": "Sentence",
       "texts": {
-        "en": "now",
-        "th": "ตอนนี้",
-        "fa": "اکنون",
-        "ar": "الآن",
-        "es": "ahora",
-        "zh": "现在",
-        "ja": "今"
+        "en": "Can you share your perspective?",
+        "th": "คุณแบ่งปันมุมมองของคุณได้ไหม",
+        "fa": "آیا می‌توانید دیدگاه خود را به اشتراک بگذارید؟",
+        "ar": "هل يمكنك مشاركة منظورك؟",
+        "es": "¿Puedes compartir tu perspectiva?",
+        "zh": "你能分享你的视角吗？",
+        "ja": "あなたの視点を共有していただけますか？"
+      },
+      "tokens": {
+        "th": ["คุณ", "แบ่งปัน", "มุมมอง", "ของ", "คุณ", "ได้", "ไหม"],
+        "zh": ["你", "能", "分享", "你", "的", "视角", "吗", "？"],
+        "ja": [
+          "あなた",
+          "の",
+          "視点",
+          "を",
+          "共有",
+          "し",
+          "て",
+          "いただけ",
+          "ます",
+          "か",
+          "？"
+        ]
       }
     },
     {
-      "id": "word_good",
-      "kind": "word",
+      "id": "s15",
+      "kind": "Sentence",
       "texts": {
-        "en": "good",
-        "th": "ดี",
-        "fa": "خوب",
-        "ar": "جيد",
-        "es": "bueno",
-        "zh": "好",
-        "ja": "いい"
+        "en": "Does anyone have any input?",
+        "th": "มีใครมีข้อมูลนำเข้าบ้างไหม",
+        "fa": "آیا کسی ورودی دارد؟",
+        "ar": "هل لدى أي شخص أي مدخلات؟",
+        "es": "¿Alguien tiene alguna aportación?",
+        "zh": "有人有意见吗？",
+        "ja": "何か意見はありますか？"
+      },
+      "tokens": {
+        "th": ["มี", "ใคร", "มี", "ข้อมูล", "นำเข้า", "บ้าง", "ไหม"],
+        "zh": ["有人", "有", "意见", "吗", "？"],
+        "ja": ["何か", "意見", "は", "あり", "ます", "か", "？"]
+      }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Agreeing & Disagreeing",
+        "th": "สถานการณ์ที่ 4: การเห็นด้วยและไม่เห็นด้วย",
+        "fa": "سناریو ۴: موافقت و مخالفت",
+        "ar": "السيناريو 4: الموافقة والمعارضة",
+        "es": "Escenario 4: Estar de acuerdo y en desacuerdo",
+        "zh": "场景 4：同意与不同意",
+        "ja": "シナリオ 4：同意と反対"
       }
     },
     {
-      "id": "word_question",
-      "kind": "word",
+      "id": "w16",
+      "kind": "Word",
       "texts": {
-        "en": "question",
-        "th": "คำถาม",
-        "fa": "سؤال",
-        "ar": "سؤال",
-        "es": "pregunta",
-        "zh": "问题",
-        "ja": "質問"
+        "en": "agree",
+        "th": "เห็นด้วย",
+        "fa": "موافق",
+        "ar": "يوافق",
+        "es": "estar de acuerdo",
+        "zh": "同意",
+        "ja": "同意する"
+      }
+    },
+    {
+      "id": "w17",
+      "kind": "Word",
+      "texts": {
+        "en": "disagree",
+        "th": "ไม่เห็นด้วย",
+        "fa": "مخالف",
+        "ar": "يعارض",
+        "es": "no estar de acuerdo",
+        "zh": "不同意",
+        "ja": "反対する"
+      }
+    },
+    {
+      "id": "w18",
+      "kind": "Word",
+      "texts": {
+        "en": "exactly",
+        "th": "ถูกต้องเลย",
+        "fa": "دقیقاً",
+        "ar": "بالضبط",
+        "es": "exactamente",
+        "zh": "完全正确",
+        "ja": "まさに"
+      }
+    },
+    {
+      "id": "w19",
+      "kind": "Word",
+      "texts": {
+        "en": "concern",
+        "th": "ความกังวล",
+        "fa": "نگرانی",
+        "ar": "قلق",
+        "es": "preocupación",
+        "zh": "担忧",
+        "ja": "懸念"
+      }
+    },
+    {
+      "id": "w20",
+      "kind": "Word",
+      "texts": {
+        "en": "compromise",
+        "th": "การประนีประนอม",
+        "fa": "سازش",
+        "ar": "تسوية",
+        "es": "compromiso",
+        "zh": "妥协",
+        "ja": "妥協"
+      }
+    },
+    {
+      "id": "s16",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I completely agree with you.",
+        "th": "ฉันเห็นด้วยกับคุณอย่างสมบูรณ์",
+        "fa": "من کاملاً با شما موافقم.",
+        "ar": "أنا أتفق معك تماماً.",
+        "es": "Estoy completamente de acuerdo contigo.",
+        "zh": "我完全同意你的看法。",
+        "ja": "私はあなたに完全に同意します。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "เห็นด้วย", "กับ", "คุณ", "อย่าง", "สมบูรณ์"],
+        "zh": ["我", "完全", "同意", "你", "的", "看法", "。"],
+        "ja": ["私", "は", "あなた", "に", "完全に", "同意", "し", "ます", "。"]
+      }
+    },
+    {
+      "id": "s17",
+      "kind": "Sentence",
+      "texts": {
+        "en": "That is exactly right.",
+        "th": "นั่นถูกต้องเลย",
+        "fa": "آن دقیقاً درست است.",
+        "ar": "هذا صحيح بالضبط.",
+        "es": "Eso es exactamente correcto.",
+        "zh": "那完全正确。",
+        "ja": "それはまさにその通りです。"
+      },
+      "tokens": {
+        "th": ["นั่น", "ถูกต้อง", "เลย"],
+        "zh": ["那", "完全", "正确", "。"],
+        "ja": ["それ", "は", "まさに", "その", "通り", "です", "。"]
+      }
+    },
+    {
+      "id": "s18",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I have to disagree on that point.",
+        "th": "ฉันต้องไม่เห็นด้วยในจุดนั้น",
+        "fa": "من باید در آن نکته مخالفت کنم.",
+        "ar": "يجب أن أعترض على تلك النقطة.",
+        "es": "Tengo que discrepar en ese punto.",
+        "zh": "在那一点上我不得不不同意。",
+        "ja": "その点については反対せざるを得ません。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้อง", "ไม่", "เห็นด้วย", "ใน", "จุด", "นั้น"],
+        "zh": ["在", "那", "一点", "上", "我", "不得不", "不同意", "。"],
+        "ja": [
+          "その",
+          "点",
+          "に",
+          "ついて",
+          "は",
+          "反対",
+          "せ",
+          "ざる",
+          "を",
+          "得",
+          "ませ",
+          "ん",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s19",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I understand your concern.",
+        "th": "ฉันเข้าใจความกังวลของคุณ",
+        "fa": "من نگرانی شما را درک می‌کنم.",
+        "ar": "أفهم قلقك.",
+        "es": "Entiendo tu preocupación.",
+        "zh": "我理解你的担忧。",
+        "ja": "あなたの懸念は理解できます。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "เข้าใจ", "ความ", "กังวล", "ของ", "คุณ"],
+        "zh": ["我", "理解", "你", "的", "担忧", "。"],
+        "ja": ["あなた", "の", "懸念", "は", "理解", "でき", "ます", "。"]
+      }
+    },
+    {
+      "id": "s20",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We need to find a compromise.",
+        "th": "เราต้องหาทางประนีประนอม",
+        "fa": "ما باید یک سازش پیدا کنیم.",
+        "ar": "نحتاج إلى إيجاد تسوية.",
+        "es": "Necesitamos encontrar un compromiso.",
+        "zh": "我们需要找到妥协方案。",
+        "ja": "私たちは妥協点を見つける必要があります。"
+      },
+      "tokens": {
+        "th": ["เรา", "ต้อง", "หา", "ทาง", "ประนีประนอม"],
+        "zh": ["我们", "需要", "找到", "妥协", "方案", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "妥協",
+          "点",
+          "を",
+          "見つける",
+          "必要",
+          "が",
+          "あり",
+          "ます",
+          "。"
+        ]
+      }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Action Items & Closing",
+        "th": "สถานการณ์ที่ 5: รายการดำเนินการและการปิดท้าย",
+        "fa": "سناریو ۵: موارد اقدام و پایان‌بندی",
+        "ar": "السيناريو 5: بنود العمل والإغلاق",
+        "es": "Escenario 5: Elementos de acción y cierre",
+        "zh": "场景 5：行动项与收尾",
+        "ja": "シナリオ 5：アクションアイテムと締めくくり"
+      }
+    },
+    {
+      "id": "w21",
+      "kind": "Word",
+      "texts": {
+        "en": "action",
+        "th": "การกระทำ",
+        "fa": "اقدام",
+        "ar": "عمل",
+        "es": "acción",
+        "zh": "行动",
+        "ja": "行動"
+      }
+    },
+    {
+      "id": "w22",
+      "kind": "Word",
+      "texts": {
+        "en": "deadline",
+        "th": "กำหนดเวลา",
+        "fa": "مهلت",
+        "ar": "موعد نهائي",
+        "es": "fecha límite",
+        "zh": "截止日期",
+        "ja": "期限"
+      }
+    },
+    {
+      "id": "w23",
+      "kind": "Word",
+      "texts": {
+        "en": "assign",
+        "th": "มอบหมาย",
+        "fa": "تخصیص",
+        "ar": "تعيين",
+        "es": "asignar",
+        "zh": "分配",
+        "ja": "割り当てる"
+      }
+    },
+    {
+      "id": "w24",
+      "kind": "Word",
+      "texts": {
+        "en": "wrap up",
+        "th": "สรุป",
+        "fa": "جمع‌بندی",
+        "ar": "إنهاء",
+        "es": "resumir",
+        "zh": "总结",
+        "ja": "まとめる"
+      }
+    },
+    {
+      "id": "w25",
+      "kind": "Word",
+      "texts": {
+        "en": "adjourn",
+        "th": "ปิดประชุม",
+        "fa": "تعطیل کردن",
+        "ar": "رفع الجلسة",
+        "es": "levantar la sesión",
+        "zh": "休会",
+        "ja": "散会する"
+      }
+    },
+    {
+      "id": "s21",
+      "kind": "Sentence",
+      "texts": {
+        "en": "What are the action items?",
+        "th": "รายการดำเนินการมีอะไรบ้าง",
+        "fa": "موارد اقدام چیست؟",
+        "ar": "ما هي بنود العمل؟",
+        "es": "¿Cuáles son los elementos de acción?",
+        "zh": "行动项有哪些？",
+        "ja": "アクションアイテムは何ですか？"
+      },
+      "tokens": {
+        "th": ["รายการ", "ดำเนินการ", "มี", "อะไร", "บ้าง"],
+        "zh": ["行动", "项", "有", "哪些", "？"],
+        "ja": ["アクション", "アイテム", "は", "何", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s22",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The deadline is next Friday.",
+        "th": "กำหนดเวลาคือวันศุกร์หน้า",
+        "fa": "مهلت جمعه آینده است.",
+        "ar": "الموعد النهائي هو الجمعة المقبلة.",
+        "es": "La fecha límite es el próximo viernes.",
+        "zh": "截止日期是下周五。",
+        "ja": "期限は来週の金曜日です。"
+      },
+      "tokens": {
+        "th": ["กำหนดเวลา", "คือ", "วัน", "ศุกร์", "หน้า"],
+        "zh": ["截止", "日期", "是", "下", "周五", "。"],
+        "ja": ["期限", "は", "来週", "の", "金曜日", "です", "。"]
+      }
+    },
+    {
+      "id": "s23",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I will assign this task to you.",
+        "th": "ฉันจะมอบหมายงานนี้ให้คุณ",
+        "fa": "من این وظیفه را به شما اختصاص می‌دهم.",
+        "ar": "سأعين هذه المهمة لك.",
+        "es": "Te asignaré esta tarea.",
+        "zh": "我会把这个任务分配给你。",
+        "ja": "私はこのタスクをあなたに割り当てます。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "จะ", "มอบหมาย", "งาน", "นี้", "ให้", "คุณ"],
+        "zh": ["我", "会", "把", "这个", "任务", "分配", "给", "你", "。"],
+        "ja": [
+          "私",
+          "は",
+          "この",
+          "タスク",
+          "を",
+          "あなた",
+          "に",
+          "割り当て",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s24",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Let's wrap up the meeting.",
+        "th": "เรามาสรุปการประชุมกัน",
+        "fa": "بیایید جلسه را جمع‌بندی کنیم.",
+        "ar": "لننهِ الاجتماع.",
+        "es": "Resumamos la reunión.",
+        "zh": "我们来总结一下会议。",
+        "ja": "会議をまとめましょう。"
+      },
+      "tokens": {
+        "th": ["เรา", "มา", "สรุป", "การ", "ประชุม", "กัน"],
+        "zh": ["我们", "来", "总结", "一下", "会议", "。"],
+        "ja": ["会議", "を", "まとめ", "まし", "ょう", "。"]
+      }
+    },
+    {
+      "id": "s25",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The meeting is adjourned.",
+        "th": "การประชุมปิดลงแล้ว",
+        "fa": "جلسه تعطیل شد.",
+        "ar": "انتهت الجلسة.",
+        "es": "Se levanta la sesión.",
+        "zh": "会议休会。",
+        "ja": "会議は散会します。"
+      },
+      "tokens": {
+        "th": ["การ", "ประชุม", "ปิด", "ลง", "แล้ว"],
+        "zh": ["会议", "休会", "。"],
+        "ja": ["会議", "は", "散会", "し", "ます", "。"]
       }
     }
   ]

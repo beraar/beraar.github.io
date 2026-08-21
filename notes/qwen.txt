@@ -1,13 +1,4 @@
-Proposed Batching Strategy
-I recommend we proceed in the following order. For each batch, I will generate the exact full file replacements for the non-compliant JSON files.
+The final validation script tests are successful.
 
-    Batch 1: The 19 Grammar Lessons (lesson_g01 through lesson_g24). These currently have 0 scenarios and need 5 contextual examples each.
+The final step for this stage is to update the new-chat.md and include the next task in the new chat to final completion of data compliance after user testing.
 
-    Batch 2: Greetings & Basics (lesson_1_1 to lesson_1_8, lesson_2_7, lesson_5_7, lesson_8_3).
-
-    Batch 3: Survival, Food & Transport (lesson_2_1 to lesson_2_6, lesson_3_1 to lesson_3_6).
-    
-    Batch 4: Health, Post & Entertainment (lesson_4_1 to lesson_4_7, lesson_5_3, lesson_8_4).
-    Batch 5: Family, Accommodation, Travel & Emergency (lesson_5_1, lesson_5_2, lesson_5_4, lesson_5_5, lesson_6_1 to lesson_6_6).
-    Batch 6: Work, Religion & Culture (lesson_7_1 to lesson_7_5, lesson_8_1, lesson_8_2, lesson_8_5, lesson_8_6).
-    Batch 7: Reading/Writing Translation Fix (lesson_rw1). Note: For this one, I will either need you to paste the current file content so I can patch the missing languages, or I can generate a fresh compliant version from scratch.

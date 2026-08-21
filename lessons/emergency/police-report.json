@@ -2,21 +2,21 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "h1",
       "header": true,
       "texts": {
-        "en": "Core Police & Crime Words",
-        "th": "คำศัพท์ตำรวจและอาชญากรรมหลัก",
-        "fa": "کلمات اصلی پلیس و جرم",
-        "ar": "كلمات الشرطة والجرائم الأساسية",
-        "es": "Palabras clave de policía y crimen",
-        "zh": "核心警察与犯罪词汇",
-        "ja": "警察・犯罪核心単語"
+        "en": "Scenario 1: Reporting a Crime",
+        "th": "สถานการณ์ที่ 1: การรายงานอาชญากรรม",
+        "fa": "سناریو ۱: گزارش جرم",
+        "ar": "السيناريو 1: الإبلاغ عن جريمة",
+        "es": "Escenario 1: Reportar un crimen",
+        "zh": "场景 1：报案",
+        "ja": "シナリオ 1：犯罪の報告"
       }
     },
     {
-      "id": "word_police",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
         "en": "police",
         "th": "ตำรวจ",
@@ -28,947 +28,164 @@
       }
     },
     {
-      "id": "word_station",
-      "kind": "word",
-      "texts": {
-        "en": "police station",
-        "th": "สถานีตำรวจ",
-        "fa": "کلانتری",
-        "ar": "مركز الشرطة",
-        "es": "comisaría",
-        "zh": "警察局",
-        "ja": "警察署"
-      }
-    },
-    {
-      "id": "word_report",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
       "texts": {
         "en": "report",
-        "th": "แจ้งความ",
-        "fa": "گزارش دادن",
-        "ar": "يبلغ",
-        "es": "reportar",
-        "zh": "报案",
-        "ja": "通報する"
+        "th": "รายงาน",
+        "fa": "گزارش",
+        "ar": "تقرير",
+        "es": "informe",
+        "zh": "报告",
+        "ja": "報告"
       }
     },
     {
-      "id": "word_steal",
-      "kind": "word",
+      "id": "w3",
+      "kind": "Word",
       "texts": {
-        "en": "steal",
-        "th": "ขโมย",
-        "fa": "دزدیدن",
-        "ar": "يسرق",
-        "es": "robar",
-        "zh": "偷",
-        "ja": "盗む"
+        "en": "crime",
+        "th": "อาชญากรรม",
+        "fa": "جرم",
+        "ar": "جريمة",
+        "es": "crimen",
+        "zh": "犯罪",
+        "ja": "犯罪"
       }
     },
     {
-      "id": "word_thief",
-      "kind": "word",
-      "texts": {
-        "en": "thief",
-        "th": "โจร",
-        "fa": "دزد",
-        "ar": "لص",
-        "es": "ladrón",
-        "zh": "小偷",
-        "ja": "泥棒"
-      }
-    },
-    {
-      "id": "word_lose",
-      "kind": "word",
-      "texts": {
-        "en": "lose",
-        "th": "หาย",
-        "fa": "گم کردن",
-        "ar": "يفقد",
-        "es": "perder",
-        "zh": "丢失",
-        "ja": "なくす"
-      }
-    },
-    {
-      "id": "word_passport",
-      "kind": "word",
-      "texts": {
-        "en": "passport",
-        "th": "หนังสือเดินทาง",
-        "fa": "گذرنامه",
-        "ar": "جواز سفر",
-        "es": "pasaporte",
-        "zh": "护照",
-        "ja": "パスポート"
-      }
-    },
-    {
-      "id": "word_wallet",
-      "kind": "word",
-      "texts": {
-        "en": "wallet",
-        "th": "กระเป๋าตังค์",
-        "fa": "کیف پول",
-        "ar": "محفظة",
-        "es": "cartera",
-        "zh": "钱包",
-        "ja": "財布"
-      }
-    },
-    {
-      "id": "word_bag",
-      "kind": "word",
-      "texts": {
-        "en": "bag",
-        "th": "กระเป๋า",
-        "fa": "کیف",
-        "ar": "حقيبة",
-        "es": "bolsa",
-        "zh": "包",
-        "ja": "鞄"
-      }
-    },
-    {
-      "id": "word_money",
-      "kind": "word",
-      "texts": {
-        "en": "money",
-        "th": "เงิน",
-        "fa": "پول",
-        "ar": "مال",
-        "es": "dinero",
-        "zh": "钱",
-        "ja": "お金"
-      }
-    },
-    {
-      "id": "word_id",
-      "kind": "word",
-      "texts": {
-        "en": "ID card",
-        "th": "บัตรประชาชน",
-        "fa": "کارت شناسایی",
-        "ar": "بطاقة هوية",
-        "es": "tarjeta de identificación",
-        "zh": "身份证",
-        "ja": "身分証明書"
-      }
-    },
-    {
-      "id": "word_incident",
-      "kind": "word",
+      "id": "w4",
+      "kind": "Word",
       "texts": {
         "en": "incident",
-        "th": "เหตุ",
+        "th": "เหตุการณ์",
         "fa": "حادثه",
         "ar": "حادث",
         "es": "incidente",
         "zh": "事件",
-        "ja": "出来事"
+        "ja": "事件"
       }
     },
     {
-      "id": "header_scenario1",
+      "id": "w5",
+      "kind": "Word",
+      "texts": {
+        "en": "emergency",
+        "th": "ฉุกเฉิน",
+        "fa": "اورژانس",
+        "ar": "طوارئ",
+        "es": "emergencia",
+        "zh": "紧急",
+        "ja": "緊急"
+      }
+    },
+    {
+      "id": "s1",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I need to report a crime.",
+        "th": "ฉันต้องการรายงานอาชญากรรม",
+        "fa": "من نیاز دارم یک جرم را گزارش دهم.",
+        "ar": "أحتاج إلى الإبلاغ عن جريمة.",
+        "es": "Necesito reportar un crimen.",
+        "zh": "我需要报案。",
+        "ja": "犯罪を報告する必要があります。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้องการ", "รายงาน", "อาชญากรรม"],
+        "zh": ["我", "需要", "报案", "。"],
+        "ja": ["犯罪", "を", "報告", "する", "必要", "が", "あり", "ます", "。"]
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "Sentence",
+      "texts": {
+        "en": "There was an incident last night.",
+        "th": "มีเหตุการณ์เกิดขึ้นเมื่อคืน",
+        "fa": "دیشب یک حادثه رخ داد.",
+        "ar": "كان هناك حادث الليلة الماضية.",
+        "es": "Hubo un incidente anoche.",
+        "zh": "昨晚发生了一起事件。",
+        "ja": "昨夜事件がありました。"
+      },
+      "tokens": {
+        "th": ["มี", "เหตุการณ์", "เกิด", "ขึ้น", "เมื่อคืน"],
+        "zh": ["昨晚", "发生", "了", "一起", "事件", "。"],
+        "ja": ["昨夜", "事件", "が", "あり", "まし", "た", "。"]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "Sentence",
+      "texts": {
+        "en": "This is an emergency.",
+        "th": "นี่เป็นเหตุฉุกเฉิน",
+        "fa": "این یک وضعیت اضطراری است.",
+        "ar": "هذه حالة طوارئ.",
+        "es": "Esta es una emergencia.",
+        "zh": "这是紧急情况。",
+        "ja": "これは緊急事態です。"
+      },
+      "tokens": {
+        "th": ["นี่", "เป็น", "เหตุ", "ฉุกเฉิน"],
+        "zh": ["这", "是", "紧急", "情况", "。"],
+        "ja": ["これ", "は", "緊急", "事態", "です", "。"]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Please send the police.",
+        "th": "กรุณาส่งตำรวจมา",
+        "fa": "لطفاً پلیس را بفرستید.",
+        "ar": "يرجى إرسال الشرطة.",
+        "es": "Por favor, envíe a la policía.",
+        "zh": "请派警察来。",
+        "ja": "警察を派遣してください。"
+      },
+      "tokens": {
+        "th": ["กรุณา", "ส่ง", "ตำรวจ", "มา"],
+        "zh": ["请", "派", "警察", "来", "。"],
+        "ja": ["警察", "を", "派遣", "し", "て", "ください", "。"]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I am at the police station.",
+        "th": "ฉันอยู่ที่สถานีตำรวจ",
+        "fa": "من در ایستگاه پلیس هستم.",
+        "ar": "أنا في مركز الشرطة.",
+        "es": "Estoy en la estación de policía.",
+        "zh": "我在警察局。",
+        "ja": "私は警察署にいます。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "อยู่", "ที่", "สถานี", "ตำรวจ"],
+        "zh": ["我", "在", "警察", "局", "。"],
+        "ja": ["私", "は", "警察", "署", "に", "い", "ます", "。"]
+      }
+    },
+
+    {
+      "id": "h2",
       "header": true,
       "texts": {
-        "en": "Scenario 1: Arriving & Reporting",
-        "th": "สถานการณ์ 1: การมาถึงและแจ้งความ",
-        "fa": "سناریو ۱: ورود و گزارش دادن",
-        "ar": "السيناريو 1: الوصول والإبلاغ",
-        "es": "Escenario 1: Llegada y reporte",
-        "zh": "场景 1：到达与报案",
-        "ja": "シナリオ 1：到着と届け出"
+        "en": "Scenario 2: Describing the Suspect",
+        "th": "สถานการณ์ที่ 2: การอธิบายผู้ต้องสงสัย",
+        "fa": "سناریو ۲: توصیف مظنون",
+        "ar": "السيناريو 2: وصف المشتبه به",
+        "es": "Escenario 2: Describir al sospechoso",
+        "zh": "场景 2：描述嫌疑人",
+        "ja": "シナリオ 2：容疑者の説明"
       }
     },
     {
-      "id": "sentence_pol_report_bag",
-      "kind": "sentence",
-      "itemIds": ["word_report", "word_steal", "word_bag"],
-      "texts": {
-        "en": "I want to report a stolen bag.",
-        "th": "ผมต้องการแจ้งความเรื่องกระเป๋าถูกขโมยครับ",
-        "fa": "من می‌خواهم دزدیده شدن کیف را گزارش دهم.",
-        "ar": "أريد الإبلاغ عن حقيبة مسروقة.",
-        "es": "Quiero reportar una bolsa robada.",
-        "zh": "我想报案包被偷了。",
-        "ja": "鞄が盗まれたと通報したいです。"
-      },
-      "tokens": {
-        "en": ["I", "want", "to", "report", "a", "stolen", "bag."],
-        "th": [
-          "ผม",
-          "ต้องการ",
-          "แจ้งความ",
-          "เรื่อง",
-          "กระเป๋า",
-          "ถูกขโมย",
-          "ครับ"
-        ],
-        "fa": ["من", "می‌خواهم", "دزدیده", "شدن", "کیف", "را", "گزارش", "دهم."],
-        "ar": ["أريد", "الإبلاغ", "عن", "حقيبة", "مسروقة."],
-        "es": ["Quiero", "reportar", "una", "bolsa", "robada."],
-        "zh": ["我", "想", "报案", "包", "被偷", "了。"],
-        "ja": ["鞄が", "盗まれた", "と", "通報", "したいです。"]
-      }
-    },
-    {
-      "id": "sentence_pol_passport_taken",
-      "kind": "sentence",
-      "itemIds": ["word_officer", "word_passport", "word_steal"],
-      "texts": {
-        "en": "Officer, my passport was taken.",
-        "th": "คุณตำรวจครับ หนังสือเดินทางของผมถูกขโมยครับ",
-        "fa": "افسر، گذرنامه من را دزدیدند.",
-        "ar": "أيها الضابط، سرق جواز سفري.",
-        "es": "Oficial, me quitaron el pasaporte.",
-        "zh": "警官，我的护照被偷了。",
-        "ja": "お巡りさん、パスポートを盗まれました。"
-      },
-      "tokens": {
-        "en": ["Officer,", "my", "passport", "was", "taken."],
-        "th": [
-          "คุณตำรวจ",
-          "ครับ",
-          "หนังสือเดินทาง",
-          "ของ",
-          "ผม",
-          "ถูกขโมย",
-          "ครับ"
-        ],
-        "fa": ["افسر،", "گذرنامه", "من", "را", "دزدیدند."],
-        "ar": ["أيها", "الضابط،", "سرق", "جواز", "سفري."],
-        "es": ["Oficial,", "me", "quitaron", "el", "pasaporte."],
-        "zh": ["警官，", "我的", "护照", "被偷", "了。"],
-        "ja": ["お巡りさん、", "パスポートを", "盗まれ", "ました。"]
-      }
-    },
-    {
-      "id": "sentence_pol_where_happen",
-      "kind": "sentence",
-      "itemIds": ["word_where", "word_happen"],
-      "texts": {
-        "en": "Where exactly did it happen?",
-        "th": "เหตุเกิดตรงไหนคะ",
-        "fa": "دقیقاً کجا اتفاق افتاد؟",
-        "ar": "أين حدث ذلك بالضبط؟",
-        "es": "¿Dónde ocurrió exactamente?",
-        "zh": "具体是在哪里发生的？",
-        "ja": "正確にはどこで起きましたか？"
-      },
-      "tokens": {
-        "en": ["Where", "exactly", "did", "it", "happen?"],
-        "th": ["เหตุเกิด", "ตรงไหน", "คะ"],
-        "fa": ["دقیقاً", "کجا", "اتفاق", "افتاد؟"],
-        "ar": ["أين", "حدث", "ذلك", "بالضبط؟"],
-        "es": ["¿Dónde", "ocurrió", "exactamente?"],
-        "zh": ["具体", "是在", "哪里", "发生", "的？"],
-        "ja": ["正確には", "どこで", "起き", "ましたか？"]
-      }
-    },
-    {
-      "id": "sentence_pol_street_market",
-      "kind": "sentence",
-      "itemIds": ["word_happen", "word_street"],
-      "texts": {
-        "en": "It happened on the street near the market.",
-        "th": "มันเกิดขึ้นบนถนนใกล้ตลาดครับ",
-        "fa": "در خیابان نزدیک بازار اتفاق افتاد.",
-        "ar": "حدث في الشارع بالقرب من السوق.",
-        "es": "Ocurrió en la calle cerca del mercado.",
-        "zh": "发生在市场附近的街道上。",
-        "ja": "市場の近くの通りで起きました。"
-      },
-      "tokens": {
-        "en": [
-          "It",
-          "happened",
-          "on",
-          "the",
-          "street",
-          "near",
-          "the",
-          "market."
-        ],
-        "th": ["มัน", "เกิดขึ้น", "บน", "ถนน", "ใกล้", "ตลาด", "ครับ"],
-        "fa": ["در", "خیابان", "نزدیک", "بازار", "اتفاق", "افتاد."],
-        "ar": ["حدث", "في", "الشارع", "بالقرب", "من", "السوق."],
-        "es": ["Ocurrió", "en", "la", "calle", "cerca", "del", "mercado."],
-        "zh": ["发生", "在", "市场", "附近", "的", "街道", "上。"],
-        "ja": ["市場の", "近くの", "通りで", "起き", "ました。"]
-      }
-    },
-    {
-      "id": "sentence_pol_time_occur",
-      "kind": "sentence",
-      "itemIds": ["word_time", "word_happen"],
-      "texts": {
-        "en": "What time did the incident occur?",
-        "th": "เหตุเกิดเวลาเท่าไหร่คะ",
-        "fa": "حادثه چه زمانی رخ داد؟",
-        "ar": "في أي وقت وقع الحادث؟",
-        "es": "¿A qué hora ocurrió el incidente?",
-        "zh": "事件发生在什么时间？",
-        "ja": "事件は何時に起きましたか？"
-      },
-      "tokens": {
-        "en": ["What", "time", "did", "the", "incident", "occur?"],
-        "th": ["เหตุเกิด", "เวลา", "เท่าไหร่", "คะ"],
-        "fa": ["حادثه", "چه", "زمانی", "رخ", "داد؟"],
-        "ar": ["في", "أي", "وقت", "وقع", "الحادث؟"],
-        "es": ["¿A", "qué", "hora", "ocurrió", "el", "incidente?"],
-        "zh": ["事件", "发生", "在", "什么", "时间？"],
-        "ja": ["事件は", "何時に", "起き", "ましたか？"]
-      }
-    },
-    {
-      "id": "sentence_pol_thirty_mins",
-      "kind": "sentence",
-      "itemIds": ["word_happen", "word_when"],
-      "texts": {
-        "en": "It happened about thirty minutes ago.",
-        "th": "มันเกิดขึ้นเมื่อประมาณสามสิบนาทีที่แล้วครับ",
-        "fa": "حدود سی دقیقه پیش اتفاق افتاد.",
-        "ar": "حدث قبل حوالي ثلاثين دقيقة.",
-        "es": "Ocurrió hace unos treinta minutos.",
-        "zh": "大约发生在三十分钟前。",
-        "ja": "30分ほど前に起きました。"
-      },
-      "tokens": {
-        "en": ["It", "happened", "about", "thirty", "minutes", "ago."],
-        "th": [
-          "มัน",
-          "เกิดขึ้น",
-          "เมื่อ",
-          "ประมาณ",
-          "สามสิบ",
-          "นาที",
-          "ที่แล้ว",
-          "ครับ"
-        ],
-        "fa": ["حدود", "سی", "دقیقه", "پیش", "اتفاق", "افتاد."],
-        "ar": ["حدث", "قبل", "حوالي", "ثلاثين", "دقيقة."],
-        "es": ["Ocurrió", "hace", "unos", "treinta", "minutos."],
-        "zh": ["大约", "发生", "在", "三十", "分钟", "前。"],
-        "ja": ["30分", "ほど", "前に", "起き", "ました。"]
-      }
-    },
-    {
-      "id": "word_officer",
-      "kind": "word",
-      "texts": {
-        "en": "officer",
-        "th": "เจ้าหน้าที่",
-        "fa": "افسر",
-        "ar": "ضابط",
-        "es": "oficial",
-        "zh": "警官",
-        "ja": "警官"
-      }
-    },
-    {
-      "id": "word_happen",
-      "kind": "word",
-      "texts": {
-        "en": "happen",
-        "th": "เกิด",
-        "fa": "رخ دادن",
-        "ar": "يحدث",
-        "es": "ocurrir",
-        "zh": "发生",
-        "ja": "起きる"
-      }
-    },
-    {
-      "id": "word_where",
-      "kind": "word",
-      "texts": {
-        "en": "where",
-        "th": "ที่ไหน",
-        "fa": "کجا",
-        "ar": "أين",
-        "es": "dónde",
-        "zh": "哪里",
-        "ja": "どこ"
-      }
-    },
-    {
-      "id": "word_when",
-      "kind": "word",
-      "texts": {
-        "en": "when",
-        "th": "เมื่อไหร่",
-        "fa": "چه زمانی",
-        "ar": "متى",
-        "es": "cuándo",
-        "zh": "什么时候",
-        "ja": "いつ"
-      }
-    },
-    {
-      "id": "word_time",
-      "kind": "word",
-      "texts": {
-        "en": "time",
-        "th": "เวลา",
-        "fa": "زمان",
-        "ar": "وقت",
-        "es": "hora",
-        "zh": "时间",
-        "ja": "時間"
-      }
-    },
-    {
-      "id": "word_street",
-      "kind": "word",
-      "texts": {
-        "en": "street",
-        "th": "ถนน",
-        "fa": "خیابان",
-        "ar": "شارع",
-        "es": "calle",
-        "zh": "街道",
-        "ja": "通り"
-      }
-    },
-    {
-      "id": "header_scenario2",
-      "header": true,
-      "texts": {
-        "en": "Scenario 2: Describing the Items",
-        "th": "สถานการณ์ 2: การอธิบายสิ่งของ",
-        "fa": "سناریو ۲: توصیف اشیاء",
-        "ar": "السيناريو 2: وصف الأغراض",
-        "es": "Escenario 2: Describiendo los objetos",
-        "zh": "场景 2：描述物品",
-        "ja": "シナリオ 2：持ち物の説明"
-      }
-    },
-    {
-      "id": "sentence_pol_color_bag",
-      "kind": "sentence",
-      "itemIds": ["word_color", "word_bag"],
-      "texts": {
-        "en": "What color was the bag?",
-        "th": "กระเป๋าสีอะไรคะ",
-        "fa": "کیف چه رنگی بود؟",
-        "ar": "ما لون الحقيبة؟",
-        "es": "¿De qué color era la bolsa?",
-        "zh": "包是什么颜色的？",
-        "ja": "鞄は何色でしたか？"
-      },
-      "tokens": {
-        "en": ["What", "color", "was", "the", "bag?"],
-        "th": ["กระเป๋า", "สี", "อะไร", "คะ"],
-        "fa": ["کیف", "چه", "رنگی", "بود؟"],
-        "ar": ["ما", "لون", "الحقيبة؟"],
-        "es": ["¿De", "qué", "color", "era", "la", "bolsa?"],
-        "zh": ["包", "是", "什么", "颜色", "的？"],
-        "ja": ["鞄は", "何色", "でしたか？"]
-      }
-    },
-    {
-      "id": "sentence_pol_black_leather",
-      "kind": "sentence",
-      "itemIds": ["word_color"],
-      "texts": {
-        "en": "It was a black leather backpack.",
-        "th": "มันเป็นเป้หนังสีดำครับ",
-        "fa": "یک کوله‌پشتی چرمی سیاه بود.",
-        "ar": "كانت حقيبة ظهر جلدية سوداء.",
-        "es": "Era una mochila de cuero negra.",
-        "zh": "那是一个黑色的皮背包。",
-        "ja": "黒い革のリュックサックでした。"
-      },
-      "tokens": {
-        "en": ["It", "was", "a", "black", "leather", "backpack."],
-        "th": ["มัน", "เป็น", "เป้", "หนัง", "สีดำ", "ครับ"],
-        "fa": ["یک", "کوله‌پشتی", "چرمی", "سیاه", "بود."],
-        "ar": ["كانت", "حقيبة", "ظهر", "جلدية", "سوداء."],
-        "es": ["Era", "una", "mochila", "de", "cuero", "negra."],
-        "zh": ["那是", "一个", "黑色", "的", "皮", "背包。"],
-        "ja": ["黒い", "革の", "リュックサック", "でした。"]
-      }
-    },
-    {
-      "id": "sentence_pol_inside_bag",
-      "kind": "sentence",
-      "itemIds": ["word_inside", "word_bag"],
-      "texts": {
-        "en": "What was inside the bag?",
-        "th": "ข้างในกระเป๋ามีอะไรคะ",
-        "fa": "داخل کیف چه بود؟",
-        "ar": "ماذا كان داخل الحقيبة؟",
-        "es": "¿Qué había dentro de la bolsa?",
-        "zh": "包里面有什么？",
-        "ja": "鞄の中は何がありましたか？"
-      },
-      "tokens": {
-        "en": ["What", "was", "inside", "the", "bag?"],
-        "th": ["ข้างใน", "กระเป๋า", "มี", "อะไร", "คะ"],
-        "fa": ["داخل", "کیف", "چه", "بود؟"],
-        "ar": ["ماذا", "كان", "داخل", "الحقيبة؟"],
-        "es": ["¿Qué", "había", "dentro", "de", "la", "bolsa?"],
-        "zh": ["包", "里面", "有", "什么？"],
-        "ja": ["鞄の", "中は", "何", "が", "ありましたか？"]
-      }
-    },
-    {
-      "id": "sentence_pol_wallet_camera",
-      "kind": "sentence",
-      "itemIds": ["word_wallet", "word_id", "word_inside"],
-      "texts": {
-        "en": "My wallet, camera, and ID card were inside.",
-        "th": "ข้างในมีกระเป๋าตังค์ กล้อง และบัตรประชาชนครับ",
-        "fa": "کیف پول، دوربین و کارت شناسایی‌ام داخلش بود.",
-        "ar": "كانت محفظتي وكاميرتي وبطاقة هويتي في الداخل.",
-        "es": "Mi cartera, cámara y tarjeta de identificación estaban dentro.",
-        "zh": "里面有我的钱包、相机和身份证。",
-        "ja": "中には財布、カメラ、身分証明書がありました。"
-      },
-      "tokens": {
-        "en": [
-          "My",
-          "wallet,",
-          "camera,",
-          "and",
-          "ID",
-          "card",
-          "were",
-          "inside."
-        ],
-        "th": [
-          "ข้างใน",
-          "มี",
-          "กระเป๋าตังค์",
-          "กล้อง",
-          "และ",
-          "บัตรประชาชน",
-          "ครับ"
-        ],
-        "fa": [
-          "کیف",
-          "پول،",
-          "دوربین",
-          "و",
-          "کارت",
-          "شناسایی‌ام",
-          "داخلش",
-          "بود."
-        ],
-        "ar": [
-          "كانت",
-          "محفظتي",
-          "وكاميرتي",
-          "وبطاقة",
-          "هويتي",
-          "في",
-          "الداخل."
-        ],
-        "es": [
-          "Mi",
-          "cartera,",
-          "cámara",
-          "y",
-          "tarjeta",
-          "de",
-          "identificación",
-          "estaban",
-          "dentro."
-        ],
-        "zh": ["里面", "有", "我的", "钱包、", "相机", "和", "身份证。"],
-        "ja": [
-          "中には",
-          "財布、",
-          "カメラ、",
-          "身分",
-          "証明書",
-          "が",
-          "ありました。"
-        ]
-      }
-    },
-    {
-      "id": "sentence_pol_serial_number",
-      "kind": "sentence",
-      "itemIds": ["word_serial"],
-      "texts": {
-        "en": "Do you have the camera's serial number?",
-        "th": "คุณมีเลขซีเรียลของกล้องไหมคะ",
-        "fa": "آیا شماره سریال دوربین را دارید؟",
-        "ar": "هل لديك الرقم التسلسلي للكاميرا؟",
-        "es": "¿Tiene el número de serie de la cámara?",
-        "zh": "您有相机的序列号吗？",
-        "ja": "カメラのシリアル番号はお持ちですか？"
-      },
-      "tokens": {
-        "en": ["Do", "you", "have", "the", "camera's", "serial", "number?"],
-        "th": ["คุณ", "มี", "เลขซีเรียล", "ของ", "กล้อง", "ไหม", "คะ"],
-        "fa": ["آیا", "شماره", "سریال", "دوربین", "را", "دارید؟"],
-        "ar": ["هل", "لديك", "الرقم", "التسلسلي", "للكاميرا؟"],
-        "es": ["¿Tiene", "el", "número", "de", "serie", "de", "la", "cámara?"],
-        "zh": ["您", "有", "相机", "的", "序列号", "吗？"],
-        "ja": ["カメラの", "シリアル", "番号は", "お持ち", "ですか？"]
-      }
-    },
-    {
-      "id": "sentence_pol_brand_model",
-      "kind": "sentence",
-      "itemIds": ["word_brand", "word_model"],
-      "texts": {
-        "en": "Yes, I have the brand and model details.",
-        "th": "ครับ ผมมีรายละเอียดยี่ห้อและรุ่นครับ",
-        "fa": "بله، من جزئیات مارک و مدل را دارم.",
-        "ar": "نعم، لدي تفاصيل الماركة والموديل.",
-        "es": "Sí, tengo los detalles de la marca y el modelo.",
-        "zh": "有的，我有品牌和型号的详细信息。",
-        "ja": "はい、ブランドとモデルの詳細があります。"
-      },
-      "tokens": {
-        "en": ["Yes,", "I", "have", "the", "brand", "and", "model", "details."],
-        "th": [
-          "ครับ",
-          "ผม",
-          "มี",
-          "รายละเอียด",
-          "ยี่ห้อ",
-          "และ",
-          "รุ่น",
-          "ครับ"
-        ],
-        "fa": ["بله،", "من", "جزئیات", "مارک", "و", "مدل", "را", "دارم."],
-        "ar": ["نعم،", "لدي", "تفاصيل", "الماركة", "والموديل."],
-        "es": [
-          "Sí,",
-          "tengo",
-          "los",
-          "detalles",
-          "de",
-          "la",
-          "marca",
-          "y",
-          "el",
-          "modelo."
-        ],
-        "zh": [
-          "有的，",
-          "我",
-          "有",
-          "品牌",
-          "和",
-          "型号",
-          "的",
-          "详细",
-          "信息。"
-        ],
-        "ja": ["はい、", "ブランドと", "モデルの", "詳細", "が", "あります。"]
-      }
-    },
-    {
-      "id": "sentence_pol_cash_wallet",
-      "kind": "sentence",
-      "itemIds": ["word_cash", "word_wallet"],
-      "texts": {
-        "en": "How much cash was in the wallet?",
-        "th": "ในกระเป๋าตังค์มีเงินสดเท่าไหร่คะ",
-        "fa": "چقدر پول نقد در کیف پول بود؟",
-        "ar": "كم كان مقدار النقد في المحفظة؟",
-        "es": "¿Cuánto efectivo había en la cartera?",
-        "zh": "钱包里有多少现金？",
-        "ja": "財布には現金がいくら入っていましたか？"
-      },
-      "tokens": {
-        "en": ["How", "much", "cash", "was", "in", "the", "wallet?"],
-        "th": ["ใน", "กระเป๋าตังค์", "มี", "เงินสด", "เท่าไหร่", "คะ"],
-        "fa": ["چقدر", "پول", "نقد", "در", "کیف", "پول", "بود؟"],
-        "ar": ["كم", "كان", "مقدار", "النقد", "في", "المحفظة؟"],
-        "es": ["¿Cuánto", "efectivo", "había", "en", "la", "cartera?"],
-        "zh": ["钱包里", "有", "多少", "现金？"],
-        "ja": ["財布には", "現金が", "いくら", "入って", "いましたか？"]
-      }
-    },
-    {
-      "id": "word_color",
-      "kind": "word",
-      "texts": {
-        "en": "color",
-        "th": "สี",
-        "fa": "رنگ",
-        "ar": "لون",
-        "es": "color",
-        "zh": "颜色",
-        "ja": "色"
-      }
-    },
-    {
-      "id": "word_brand",
-      "kind": "word",
-      "texts": {
-        "en": "brand",
-        "th": "ยี่ห้อ",
-        "fa": "مارک",
-        "ar": "ماركة",
-        "es": "marca",
-        "zh": "品牌",
-        "ja": "ブランド"
-      }
-    },
-    {
-      "id": "word_model",
-      "kind": "word",
-      "texts": {
-        "en": "model",
-        "th": "รุ่น",
-        "fa": "مدل",
-        "ar": "موديل",
-        "es": "modelo",
-        "zh": "型号",
-        "ja": "モデル"
-      }
-    },
-    {
-      "id": "word_serial",
-      "kind": "word",
-      "texts": {
-        "en": "serial number",
-        "th": "เลขซีเรียล",
-        "fa": "شماره سریال",
-        "ar": "الرقم التسلسلي",
-        "es": "número de serie",
-        "zh": "序列号",
-        "ja": "シリアル番号"
-      }
-    },
-    {
-      "id": "word_inside",
-      "kind": "word",
-      "texts": {
-        "en": "inside",
-        "th": "ข้างใน",
-        "fa": "داخل",
-        "ar": "في الداخل",
-        "es": "dentro",
-        "zh": "里面",
-        "ja": "中"
-      }
-    },
-    {
-      "id": "word_cash",
-      "kind": "word",
-      "texts": {
-        "en": "cash",
-        "th": "เงินสด",
-        "fa": "پول نقد",
-        "ar": "نقد",
-        "es": "efectivo",
-        "zh": "现金",
-        "ja": "現金"
-      }
-    },
-    {
-      "id": "word_credit",
-      "kind": "word",
-      "texts": {
-        "en": "credit card",
-        "th": "บัตรเครดิต",
-        "fa": "کارت اعتباری",
-        "ar": "بطاقة ائتمان",
-        "es": "tarjeta de crédito",
-        "zh": "信用卡",
-        "ja": "クレジットカード"
-      }
-    },
-    {
-      "id": "header_scenario3",
-      "header": true,
-      "texts": {
-        "en": "Scenario 3: Suspect & CCTV Evidence",
-        "th": "สถานการณ์ 3: ผู้ต้องสงสัยและหลักฐานกล้องวงจรปิด",
-        "fa": "سناریو ۳: مظنون و شواهد دوربین مداربسته",
-        "ar": "السيناريو 3: المشتبه به وأدلة الكاميرات",
-        "es": "Escenario 3: Sospechoso y evidencia de CCTV",
-        "zh": "场景 3：嫌疑人与监控证据",
-        "ja": "シナリオ 3：容疑者と防犯カメラ証拠"
-      }
-    },
-    {
-      "id": "sentence_pol_face_thief",
-      "kind": "sentence",
-      "itemIds": ["word_thief"],
-      "texts": {
-        "en": "Did you see the thief's face?",
-        "th": "คุณเห็นหน้าโจรไหมคะ",
-        "fa": "آیا چهره دزد را دیدید؟",
-        "ar": "هل رأيت وجه اللص؟",
-        "es": "¿Vio la cara del ladrón?",
-        "zh": "您看到小偷的脸了吗？",
-        "ja": "泥棒の顔を見ましたか？"
-      },
-      "tokens": {
-        "en": ["Did", "you", "see", "the", "thief's", "face?"],
-        "th": ["คุณ", "เห็น", "หน้า", "โจร", "ไหม", "คะ"],
-        "fa": ["آیا", "چهره", "دزد", "را", "دیدید؟"],
-        "ar": ["هل", "رأيت", "وجه", "اللص؟"],
-        "es": ["¿Vio", "la", "cara", "del", "ladrón?"],
-        "zh": ["您", "看到", "小偷", "的", "脸", "了吗？"],
-        "ja": ["泥棒の", "顔を", "見ましたか？"]
-      }
-    },
-    {
-      "id": "sentence_pol_tall_red",
-      "kind": "sentence",
-      "itemIds": ["word_tall", "word_wear", "word_shirt"],
-      "texts": {
-        "en": "He was tall and wore a red shirt.",
-        "th": "เขาตัวสูงและใส่เสื้อสีแดงครับ",
-        "fa": "او بلند قد بود و پیراهن قرمز پوشیده بود.",
-        "ar": "كان طويلاً ويرتدي قميصاً أحمر.",
-        "es": "Era alto y llevaba una camisa roja.",
-        "zh": "他个子很高，穿着红衬衫。",
-        "ja": "彼は背が高く、赤いシャツを着ていました。"
-      },
-      "tokens": {
-        "en": ["He", "was", "tall", "and", "wore", "a", "red", "shirt."],
-        "th": ["เขา", "ตัวสูง", "และ", "ใส่", "เสื้อ", "สีแดง", "ครับ"],
-        "fa": [
-          "او",
-          "بلند",
-          "قد",
-          "بود",
-          "و",
-          "پیراهن",
-          "قرمز",
-          "پوشیده",
-          "بود."
-        ],
-        "ar": ["كان", "طويلاً", "ويرتدي", "قميصاً", "أحمر."],
-        "es": ["Era", "alto", "y", "llevaba", "una", "camisa", "roja."],
-        "zh": ["他", "个子", "很高，", "穿着", "红", "衬衫。"],
-        "ja": [
-          "彼は",
-          "背が",
-          "高く、",
-          "赤い",
-          "シャツを",
-          "着て",
-          "いました。"
-        ]
-      }
-    },
-    {
-      "id": "sentence_pol_direction_run",
-      "kind": "sentence",
-      "itemIds": ["word_direction", "word_suspect", "word_run"],
-      "texts": {
-        "en": "Which direction did the suspect run?",
-        "th": "ผู้ต้องสงสัยวิ่งไปทิศทางไหนคะ",
-        "fa": "مظنون به کدام جهت دوید؟",
-        "ar": "في أي اتجاه ركض المشتبه به؟",
-        "es": "¿En qué dirección corrió el sospechoso?",
-        "zh": "嫌疑人往哪个方向跑了？",
-        "ja": "容疑者はどちらの方向に走りましたか？"
-      },
-      "tokens": {
-        "en": ["Which", "direction", "did", "the", "suspect", "run?"],
-        "th": ["ผู้ต้องสงสัย", "วิ่ง", "ไป", "ทิศทาง", "ไหน", "คะ"],
-        "fa": ["مظنون", "به", "کدام", "جهت", "دوید؟"],
-        "ar": ["في", "أي", "اتجاه", "ركض", "المشتبه", "به؟"],
-        "es": ["¿En", "qué", "dirección", "corrió", "el", "sospechoso?"],
-        "zh": ["嫌疑人", "往", "哪个", "方向", "跑", "了؟"],
-        "ja": ["容疑者は", "どちらの", "方向に", "走り", "ましたか؟"]
-      }
-    },
-    {
-      "id": "sentence_pol_alley",
-      "kind": "sentence",
-      "itemIds": ["word_run"],
-      "texts": {
-        "en": "He ran towards the alley.",
-        "th": "เขาวิ่งไปทางซอยครับ",
-        "fa": "او به سمت کوچه دوید.",
-        "ar": "ركض باتجاه الزقاق.",
-        "es": "Corrió hacia el callejón.",
-        "zh": "他朝小巷跑去了。",
-        "ja": "彼は路地の方へ走りました。"
-      },
-      "tokens": {
-        "en": ["He", "ran", "towards", "the", "alley."],
-        "th": ["เขา", "วิ่ง", "ไปทาง", "ซอย", "ครับ"],
-        "fa": ["او", "به", "سمت", "کوچه", "دوید."],
-        "ar": ["ركض", "باتجاه", "الزقاق."],
-        "es": ["Corrió", "hacia", "el", "callejón."],
-        "zh": ["他", "朝", "小巷", "跑", "去", "了。"],
-        "ja": ["彼は", "路地の", "方へ", "走り", "ました。"]
-      }
-    },
-    {
-      "id": "sentence_pol_cctv_check",
-      "kind": "sentence",
-      "itemIds": ["word_cctv"],
-      "texts": {
-        "en": "Can you check the CCTV?",
-        "th": "คุณช่วยตรวจสอบกล้องวงจรปิดได้ไหมครับ",
-        "fa": "آیا می‌توانید دوربین مداربسته را بررسی کنید؟",
-        "ar": "هل يمكنك فحص كاميرا المراقبة؟",
-        "es": "¿Puede revisar el CCTV?",
-        "zh": "您能查一下监控摄像头吗？",
-        "ja": "防犯カメラを確認してもらえますか？"
-      },
-      "tokens": {
-        "en": ["Can", "you", "check", "the", "CCTV?"],
-        "th": ["คุณ", "ช่วย", "ตรวจสอบ", "กล้องวงจรปิด", "ได้", "ไหม", "ครับ"],
-        "fa": [
-          "آیا",
-          "می‌توانید",
-          "دوربین",
-          "مداربسته",
-          "را",
-          "بررسی",
-          "کنید؟"
-        ],
-        "ar": ["هل", "يمكنك", "فحص", "كاميرا", "المراقبة؟"],
-        "es": ["¿Puede", "revisar", "el", "CCTV?"],
-        "zh": ["您", "能", "查一下", "监控", "摄像头", "吗？"],
-        "ja": ["防犯カメラを", "確認", "して", "もらえますか؟"]
-      }
-    },
-    {
-      "id": "sentence_pol_footage_shop",
-      "kind": "sentence",
-      "itemIds": ["word_cctv"],
-      "texts": {
-        "en": "We will check the footage from the shop.",
-        "th": "เราจะตรวจสอบฟุตเทจจากร้านค้าค่ะ",
-        "fa": "ما فیلم دوربین فروشگاه را بررسی خواهیم کرد.",
-        "ar": "سنتحقق من لقطات الكاميرا من المتجر.",
-        "es": "Revisaremos las grabaciones de la tienda.",
-        "zh": "我们会检查商店的监控录像。",
-        "ja": "お店の防犯カメラ映像を確認します。"
-      },
-      "tokens": {
-        "en": ["We", "will", "check", "the", "footage", "from", "the", "shop."],
-        "th": ["เรา", "จะ", "ตรวจสอบ", "ฟุตเทจ", "จาก", "ร้านค้า", "ค่ะ"],
-        "fa": [
-          "ما",
-          "فیلم",
-          "دوربین",
-          "فروشگاه",
-          "را",
-          "بررسی",
-          "خواهیم",
-          "کرد."
-        ],
-        "ar": ["سنتحقق", "من", "لقطات", "الكاميرا", "من", "المتجر."],
-        "es": ["Revisaremos", "las", "grabaciones", "de", "la", "tienda."],
-        "zh": ["我们", "会", "检查", "商店的", "监控", "录像。"],
-        "ja": ["お店の", "防犯カメラ", "映像を", "確認", "します。"]
-      }
-    },
-    {
-      "id": "word_suspect",
-      "kind": "word",
+      "id": "w6",
+      "kind": "Word",
       "texts": {
         "en": "suspect",
         "th": "ผู้ต้องสงสัย",
@@ -980,705 +197,420 @@
       }
     },
     {
-      "id": "word_tall",
-      "kind": "word",
+      "id": "w7",
+      "kind": "Word",
       "texts": {
-        "en": "tall",
-        "th": "สูง",
-        "fa": "بلند قد",
-        "ar": "طويل",
-        "es": "alto",
-        "zh": "高",
-        "ja": "背が高い"
+        "en": "height",
+        "th": "ความสูง",
+        "fa": "قد",
+        "ar": "ارتفاع",
+        "es": "altura",
+        "zh": "身高",
+        "ja": "身長"
       }
     },
     {
-      "id": "word_short",
-      "kind": "word",
+      "id": "w8",
+      "kind": "Word",
       "texts": {
-        "en": "short",
-        "th": "เตี้ย",
-        "fa": "کوتاه قد",
-        "ar": "قصير",
-        "es": "bajo",
-        "zh": "矮",
-        "ja": "背が低い"
+        "en": "weight",
+        "th": "น้ำหนัก",
+        "fa": "وزن",
+        "ar": "وزن",
+        "es": "peso",
+        "zh": "体重",
+        "ja": "体重"
       }
     },
     {
-      "id": "word_wear",
-      "kind": "word",
+      "id": "w9",
+      "kind": "Word",
       "texts": {
-        "en": "wear",
-        "th": "ใส่",
-        "fa": "پوشیدن",
-        "ar": "يرتدي",
-        "es": "llevar puesto",
-        "zh": "穿",
-        "ja": "着る"
+        "en": "hair",
+        "th": "ผม",
+        "fa": "مو",
+        "ar": "شعر",
+        "es": "cabello",
+        "zh": "头发",
+        "ja": "髪"
       }
     },
     {
-      "id": "word_shirt",
-      "kind": "word",
+      "id": "w10",
+      "kind": "Word",
       "texts": {
-        "en": "shirt",
-        "th": "เสื้อ",
-        "fa": "پیراهن",
-        "ar": "قميص",
-        "es": "camisa",
-        "zh": "衬衫",
-        "ja": "シャツ"
+        "en": "clothing",
+        "th": "เสื้อผ้า",
+        "fa": "لباس",
+        "ar": "ملابس",
+        "es": "ropa",
+        "zh": "衣服",
+        "ja": "服"
       }
     },
     {
-      "id": "word_run",
-      "kind": "word",
+      "id": "s6",
+      "kind": "Sentence",
       "texts": {
-        "en": "run",
-        "th": "วิ่ง",
-        "fa": "دویدن",
-        "ar": "يركض",
-        "es": "correr",
-        "zh": "跑",
-        "ja": "走る"
-      }
-    },
-    {
-      "id": "word_direction",
-      "kind": "word",
-      "texts": {
-        "en": "direction",
-        "th": "ทิศทาง",
-        "fa": "جهت",
-        "ar": "اتجاه",
-        "es": "dirección",
-        "zh": "方向",
-        "ja": "方向"
-      }
-    },
-    {
-      "id": "word_cctv",
-      "kind": "word",
-      "texts": {
-        "en": "CCTV",
-        "th": "กล้องวงจรปิด",
-        "fa": "دوربین مداربسته",
-        "ar": "كاميرا مراقبة",
-        "es": "CCTV",
-        "zh": "监控摄像头",
-        "ja": "防犯カメラ"
-      }
-    },
-    {
-      "id": "header_scenario4",
-      "header": true,
-      "texts": {
-        "en": "Scenario 4: Report, Embassy & Immigration",
-        "th": "สถานการณ์ 4: รายงาน สถานทูตและตม.",
-        "fa": "سناریو ۴: گزارش، سفارت و مهاجرت",
-        "ar": "السيناريو 4: التقرير والسفارة والهجرة",
-        "es": "Escenario 4: Reporte, Embajada e Inmigración",
-        "zh": "场景 4：报告、使馆与移民局",
-        "ja": "シナリオ 4：報告書、大使館、入国管理局"
-      }
-    },
-    {
-      "id": "sentence_pol_report_embassy",
-      "kind": "sentence",
-      "itemIds": ["word_report", "word_embassy"],
-      "texts": {
-        "en": "I need a police report for the embassy.",
-        "th": "ผมขอใบแจ้งความสำหรับสถานทูตครับ",
-        "fa": "من به گزارش پلیس برای سفارت نیاز دارم.",
-        "ar": "أحتاج إلى تقرير الشرطة للسفارة.",
-        "es": "Necesito un reporte policial para la embajada.",
-        "zh": "我需要一份给大使馆的警察报告。",
-        "ja": "大使館用の警察証明書が必要です。"
+        "en": "The suspect is a tall man.",
+        "th": "ผู้ต้องสงสัยเป็นชายตัวสูง",
+        "fa": "مظنون یک مرد قد بلند است.",
+        "ar": "المشتبه به رجل طويل القامة.",
+        "es": "El sospechoso es un hombre alto.",
+        "zh": "嫌疑人是个高个子男人。",
+        "ja": "容疑者は背の高い男性です。"
       },
       "tokens": {
-        "en": ["I", "need", "a", "police", "report", "for", "the", "embassy."],
-        "th": ["ผม", "ขอ", "ใบแจ้งความ", "สำหรับ", "สถานทูต", "ครับ"],
-        "fa": ["من", "به", "گزارش", "پلیس", "برای", "سفارت", "نیاز", "دارم."],
-        "ar": ["أحتاج", "إلى", "تقرير", "الشرطة", "للسفارة."],
-        "es": [
-          "Necesito",
-          "un",
-          "reporte",
-          "policial",
-          "para",
-          "la",
-          "embajada."
-        ],
-        "zh": ["我", "需要", "一份", "给", "大使馆", "的", "警察", "报告。"],
-        "ja": ["大使館用の", "警察", "証明書", "が", "必要です。"]
+        "th": ["ผู้ต้องสงสัย", "เป็น", "ชาย", "ตัว", "สูง"],
+        "zh": ["嫌疑人", "是", "个", "高个子", "男人", "。"],
+        "ja": ["容疑者", "は", "背", "の", "高い", "男性", "です", "。"]
       }
     },
     {
-      "id": "sentence_pol_sign_statement",
-      "kind": "sentence",
-      "itemIds": ["word_sign"],
+      "id": "s7",
+      "kind": "Sentence",
       "texts": {
-        "en": "You must sign this official statement.",
-        "th": "คุณต้องเซ็นชื่อในบันทึกถ้อยคำนี้ค่ะ",
-        "fa": "شما باید این بیانیه رسمی را امضا کنید.",
-        "ar": "يجب عليك توقيع هذا الإفادة الرسمية.",
-        "es": "Debe firmar esta declaración oficial.",
-        "zh": "您必须在这份官方笔录上签字。",
-        "ja": "この公式の陳述書に署名する必要があります。"
+        "en": "He is about 180 centimeters tall.",
+        "th": "เขาสูงประมาณ 180 เซนติเมตร",
+        "fa": "او حدود ۱۸۰ سانتی‌متر قد دارد.",
+        "ar": "يبلغ طوله حوالي 180 سم.",
+        "es": "Mide aproximadamente 180 centímetros.",
+        "zh": "他大约180厘米高。",
+        "ja": "彼の身長は約180センチです。"
       },
       "tokens": {
-        "en": ["You", "must", "sign", "this", "official", "statement."],
-        "th": ["คุณ", "ต้อง", "เซ็นชื่อ", "ใน", "บันทึกถ้อยคำ", "นี้", "ค่ะ"],
-        "fa": ["شما", "باید", "این", "بیانیه", "رسمی", "را", "امضا", "کنید."],
-        "ar": ["يجب", "عليك", "توقيع", "هذا", "الإفادة", "الرسمية."],
-        "es": ["Debe", "firmar", "esta", "declaración", "oficial."],
-        "zh": ["您", "必须", "在这份", "官方", "笔录", "上", "签字。"],
-        "ja": ["この", "公式の", "陳述書に", "署名する", "必要が", "あります。"]
+        "th": ["เขา", "สูง", "ประมาณ", "180", "เซนติเมตร"],
+        "zh": ["他", "大约", "180", "厘米", "高", "。"],
+        "ja": ["彼", "の", "身長", "は", "約", "180", "センチ", "です", "。"]
       }
     },
     {
-      "id": "sentence_pol_two_copies",
-      "kind": "sentence",
-      "itemIds": ["word_copy"],
+      "id": "s8",
+      "kind": "Sentence",
       "texts": {
-        "en": "Please give me two certified copies.",
-        "th": "ขอสำเนาที่รับรองแล้วสองชุดครับ",
-        "fa": "لطفاً دو کپی تایید شده به من بدهید.",
-        "ar": "يرجى إعطائي نسختين موثقتين.",
-        "es": "Por favor, déme dos copias certificadas.",
-        "zh": "请给我两份认证复印件。",
-        "ja": "認証済みのコピーを2部ください。"
+        "en": "He has short black hair.",
+        "th": "เขาไว้ผมสั้นสีดำ",
+        "fa": "او موهای کوتاه مشکی دارد.",
+        "ar": "لديه شعر أسود قصير.",
+        "es": "Tiene el pelo negro y corto.",
+        "zh": "他留着黑色短发。",
+        "ja": "彼は黒髪のショートヘアです。"
       },
       "tokens": {
-        "en": ["Please", "give", "me", "two", "certified", "copies."],
-        "th": ["ขอ", "สำเนา", "ที่", "รับรองแล้ว", "สอง", "ชุด", "ครับ"],
-        "fa": ["لطفاً", "دو", "کپی", "تایید", "شده", "به", "من", "بدهید."],
-        "ar": ["يرجى", "إعطائي", "نسختين", "موثقتين."],
-        "es": ["Por", "favor,", "déme", "dos", "copias", "certificadas."],
-        "zh": ["请", "给", "我", "两份", "认证", "复印件。"],
-        "ja": ["認証済みの", "コピーを", "2部", "ください。"]
+        "th": ["เขา", "ไว้", "ผม", "สั้น", "สี", "ดำ"],
+        "zh": ["他", "留着", "黑色", "短发", "。"],
+        "ja": ["彼", "は", "黒髪", "の", "ショートヘア", "です", "。"]
       }
     },
     {
-      "id": "sentence_pol_visa_immigration",
-      "kind": "sentence",
-      "itemIds": ["word_visa", "word_immigration"],
+      "id": "s9",
+      "kind": "Sentence",
       "texts": {
-        "en": "I need to get a new visa at immigration.",
-        "th": "ผมต้องไปทำวีซ่าใหม่ที่ตม.ครับ",
-        "fa": "من باید در اداره مهاجرت ویزای جدید بگیرم.",
-        "ar": "أحتاج إلى الحصول على تأشيرة جديدة في إدارة الهجرة.",
-        "es": "Necesito obtener una nueva visa en inmigración.",
-        "zh": "我需要去移民局办理新签证。",
-        "ja": "入国管理局で新しいビザを取得する必要があります。"
+        "en": "He was wearing a blue jacket.",
+        "th": "เขาสวมแจ็คเก็ตสีน้ำเงิน",
+        "fa": "او کت آبی می‌پوشید.",
+        "ar": "كان يرتدي سترة زرقاء.",
+        "es": "Llevaba una chaqueta azul.",
+        "zh": "他穿着一件蓝色夹克。",
+        "ja": "彼は青いジャケットを着ていました。"
       },
       "tokens": {
-        "en": [
-          "I",
-          "need",
-          "to",
-          "get",
-          "a",
-          "new",
-          "visa",
-          "at",
-          "immigration."
-        ],
-        "th": ["ผม", "ต้อง", "ไป", "ทำ", "วีซ่า", "ใหม่", "ที่", "ตม.", "ครับ"],
-        "fa": [
-          "من",
-          "باید",
-          "در",
-          "اداره",
-          "مهاجرت",
-          "ویزای",
-          "جدید",
-          "بگیرم."
-        ],
-        "ar": [
-          "أحتاج",
-          "إلى",
-          "الحصول",
-          "على",
-          "تأشيرة",
-          "جديدة",
-          "في",
-          "إدارة",
-          "الهجرة."
-        ],
-        "es": [
-          "Necesito",
-          "obtener",
-          "una",
-          "nueva",
-          "visa",
-          "en",
-          "inmigración."
-        ],
-        "zh": ["我", "需要", "去", "移民局", "办理", "新", "签证。"],
+        "th": ["เขา", "สวม", "แจ็คเก็ต", "สี", "น้ำเงิน"],
+        "zh": ["他", "穿着", "一件", "蓝色", "夹克", "。"],
         "ja": [
-          "入国管理局で",
-          "新しい",
-          "ビザを",
-          "取得する",
-          "必要が",
-          "あります。"
+          "彼",
+          "は",
+          "青い",
+          "ジャケット",
+          "を",
+          "着て",
+          "い",
+          "まし",
+          "た",
+          "。"
         ]
       }
     },
     {
-      "id": "sentence_pol_doc_original",
-      "kind": "sentence",
-      "itemIds": ["word_embassy", "word_doc"],
+      "id": "s10",
+      "kind": "Sentence",
       "texts": {
-        "en": "The embassy requires the original document.",
-        "th": "สถานทูตต้องการเอกสารต้นฉบับครับ",
-        "fa": "سفارت به سند اصلی نیاز دارد.",
-        "ar": "تتطلب السفارة الوثيقة الأصلية.",
-        "es": "La embajada requiere el documento original.",
-        "zh": "大使馆需要文件原件。",
-        "ja": "大使館は原本の書類を要求しています。"
+        "en": "I didn't see his face clearly.",
+        "th": "ฉันไม่เห็นหน้าเขาชัดเจน",
+        "fa": "من صورتش را به وضوح ندیدم.",
+        "ar": "لم أرَ وجهه بوضوح.",
+        "es": "No vi su cara claramente.",
+        "zh": "我没看清他的脸。",
+        "ja": "彼の顔ははっきり見えませんでした。"
       },
       "tokens": {
-        "en": ["The", "embassy", "requires", "the", "original", "document."],
-        "th": ["สถานทูต", "ต้องการ", "เอกสาร", "ต้นฉบับ", "ครับ"],
-        "fa": ["سفارت", "به", "سند", "اصلی", "نیاز", "دارد."],
-        "ar": ["تتطلب", "السفارة", "الوثيقة", "الأصلية."],
-        "es": ["La", "embajada", "requiere", "el", "documento", "original."],
-        "zh": ["大使馆", "需要", "文件", "原件。"],
-        "ja": ["大使館は", "原本の", "書類を", "要求して", "います。"]
+        "th": ["ฉัน", "ไม่", "เห็น", "หน้า", "เขา", "ชัดเจน"],
+        "zh": ["我", "没", "看清", "他", "的", "脸", "。"],
+        "ja": [
+          "彼",
+          "の",
+          "顔",
+          "は",
+          "はっきり",
+          "見え",
+          "ませ",
+          "ん",
+          "でし",
+          "た",
+          "。"
+        ]
       }
     },
+
     {
-      "id": "sentence_pol_stamp_copy",
-      "kind": "sentence",
-      "itemIds": ["word_stamp", "word_copy", "word_immigration"],
-      "texts": {
-        "en": "We will stamp the copy for immigration.",
-        "th": "เราจะประทับตราสำเนาสำหรับตม.ค่ะ",
-        "fa": "ما کپی را برای اداره مهاجرت مهر خواهیم کرد.",
-        "ar": "سنختم النسخة لإدارة الهجرة.",
-        "es": "Sellaremos la copia para inmigración.",
-        "zh": "我们会为移民局盖章复印件。",
-        "ja": "入国管理局用にコピーにスタンプを押します。"
-      },
-      "tokens": {
-        "en": ["We", "will", "stamp", "the", "copy", "for", "immigration."],
-        "th": ["เรา", "จะ", "ประทับตรา", "สำเนา", "สำหรับ", "ตม.", "ค่ะ"],
-        "fa": [
-          "ما",
-          "کپی",
-          "را",
-          "برای",
-          "اداره",
-          "مهاجرت",
-          "مهر",
-          "خواهیم",
-          "کرد."
-        ],
-        "ar": ["سنختم", "النسخة", "لإدارة", "الهجرة."],
-        "es": ["Sellaremos", "la", "copia", "para", "inmigración."],
-        "zh": ["我们", "会", "为", "移民局", "盖章", "复印件。"],
-        "ja": ["入国管理局用に", "コピーに", "スタンプを", "押し", "ます。"]
-      }
-    },
-    {
-      "id": "sentence_pol_how_long",
-      "kind": "sentence",
-      "itemIds": ["word_report"],
-      "texts": {
-        "en": "How long until the report is ready?",
-        "th": "อีกนานเท่าไหร่กว่าใบแจ้งความจะเสร็จครับ",
-        "fa": "چقدر طول می‌کشد تا گزارش آماده شود؟",
-        "ar": "كم من الوقت حتى يصبح التقرير جاهزاً؟",
-        "es": "¿Cuánto tiempo hasta que el reporte esté listo?",
-        "zh": "报告还要多久才能准备好？",
-        "ja": "報告書の作成はあとどのくらいかかりますか？"
-      },
-      "tokens": {
-        "en": ["How", "long", "until", "the", "report", "is", "ready?"],
-        "th": [
-          "อีก",
-          "นาน",
-          "เท่าไหร่",
-          "กว่า",
-          "ใบแจ้งความ",
-          "จะ",
-          "เสร็จ",
-          "ครับ"
-        ],
-        "fa": ["چقدر", "طول", "می‌کشد", "تا", "گزارش", "آماده", "شود؟"],
-        "ar": ["كم", "من", "الوقت", "حتى", "يصبح", "التقرير", "جاهزاً؟"],
-        "es": [
-          "¿Cuánto",
-          "tiempo",
-          "hasta",
-          "que",
-          "el",
-          "reporte",
-          "esté",
-          "listo?"
-        ],
-        "zh": ["报告", "还要", "多久", "才能", "准备", "好？"],
-        "ja": ["報告書の", "作成は", "あと", "どのくらい", "かかり", "ますか？"]
-      }
-    },
-    {
-      "id": "word_doc",
-      "kind": "word",
-      "texts": {
-        "en": "document",
-        "th": "เอกสาร",
-        "fa": "سند",
-        "ar": "وثيقة",
-        "es": "documento",
-        "zh": "文件",
-        "ja": "書類"
-      }
-    },
-    {
-      "id": "word_sign",
-      "kind": "word",
-      "texts": {
-        "en": "sign",
-        "th": "เซ็น",
-        "fa": "امضا کردن",
-        "ar": "يوقع",
-        "es": "firmar",
-        "zh": "签字",
-        "ja": "署名する"
-      }
-    },
-    {
-      "id": "word_copy",
-      "kind": "word",
-      "texts": {
-        "en": "copy",
-        "th": "สำเนา",
-        "fa": "کپی",
-        "ar": "نسخة",
-        "es": "copia",
-        "zh": "复印件",
-        "ja": "コピー"
-      }
-    },
-    {
-      "id": "word_embassy",
-      "kind": "word",
-      "texts": {
-        "en": "embassy",
-        "th": "สถานทูต",
-        "fa": "سفارت",
-        "ar": "سفارة",
-        "es": "embajada",
-        "zh": "大使馆",
-        "ja": "大使館"
-      }
-    },
-    {
-      "id": "word_immigration",
-      "kind": "word",
-      "texts": {
-        "en": "immigration",
-        "th": "ตม.",
-        "fa": "اداره مهاجرت",
-        "ar": "إدارة الهجرة",
-        "es": "inmigración",
-        "zh": "移民局",
-        "ja": "入国管理局"
-      }
-    },
-    {
-      "id": "word_visa",
-      "kind": "word",
-      "texts": {
-        "en": "visa",
-        "th": "วีซ่า",
-        "fa": "ویزا",
-        "ar": "تأشيرة",
-        "es": "visado",
-        "zh": "签证",
-        "ja": "ビザ"
-      }
-    },
-    {
-      "id": "word_stamp",
-      "kind": "word",
-      "texts": {
-        "en": "stamp",
-        "th": "ประทับตรา",
-        "fa": "مهر زدن",
-        "ar": "يختم",
-        "es": "sellar",
-        "zh": "盖章",
-        "ja": "スタンプを押す"
-      }
-    },
-    {
-      "id": "header_scenario5",
+      "id": "h3",
       "header": true,
       "texts": {
-        "en": "Scenario 5: Follow-up & Contact",
-        "th": "สถานการณ์ 5: การติดตามและติดต่อ",
-        "fa": "سناریو ۵: پیگیری و تماس",
-        "ar": "السيناريو 5: المتابعة والتواصل",
-        "es": "Escenario 5: Seguimiento y contacto",
-        "zh": "场景 5：后续与联系",
-        "ja": "シナリオ 5：その後の連絡"
+        "en": "Scenario 3: Stolen Items",
+        "th": "สถานการณ์ที่ 3: สิ่งของที่ถูกขโมย",
+        "fa": "سناریو ۳: اشیاء دزدیده شده",
+        "ar": "السيناريو 3: المسروقات",
+        "es": "Escenario 3: Artículos robados",
+        "zh": "场景 3：被盗物品",
+        "ja": "シナリオ 3：盗まれた品物"
       }
     },
     {
-      "id": "sentence_pol_investigate_case",
-      "kind": "sentence",
-      "itemIds": ["word_police", "word_investigate"],
+      "id": "w11",
+      "kind": "Word",
       "texts": {
-        "en": "Will the police investigate this case?",
-        "th": "ตำรวจจะสืบสวนคดีนี้ไหมครับ",
-        "fa": "آیا پلیس این پرونده را تحقیق خواهد کرد؟",
-        "ar": "هل ستحقق الشرطة في هذه القضية؟",
-        "es": "¿Investigará la policía este caso?",
-        "zh": "警察会调查这个案子吗？",
-        "ja": "警察はこの事件を捜査しますか？"
-      },
-      "tokens": {
-        "en": ["Will", "the", "police", "investigate", "this", "case?"],
-        "th": ["ตำรวจ", "จะ", "สืบสวน", "คดี", "นี้", "ไหม", "ครับ"],
-        "fa": ["آیا", "پلیس", "این", "پرونده", "را", "تحقیق", "خواهد", "کرد؟"],
-        "ar": ["هل", "ستحقق", "الشرطة", "في", "هذه", "القضية؟"],
-        "es": ["¿Investigará", "la", "policía", "este", "caso?"],
-        "zh": ["警察", "会", "调查", "这个", "案子", "吗？"],
-        "ja": ["警察は", "この", "事件を", "捜査", "しますか？"]
+        "en": "wallet",
+        "th": "กระเป๋าสตางค์",
+        "fa": "کیف پول",
+        "ar": "محفظة",
+        "es": "billetera",
+        "zh": "钱包",
+        "ja": "財布"
       }
     },
     {
-      "id": "sentence_pol_find_belongings",
-      "kind": "sentence",
-      "itemIds": ["word_find"],
+      "id": "w12",
+      "kind": "Word",
       "texts": {
-        "en": "We will try to find your belongings.",
-        "th": "เราจะพยายามหาของของคุณค่ะ",
-        "fa": "ما تلاش خواهیم کرد وسایل شما را پیدا کنیم.",
-        "ar": "سنحاول العثور على ممتلكاتك.",
-        "es": "Intentaremos encontrar sus pertenencias.",
-        "zh": "我们会尽力找到您的物品。",
-        "ja": "あなたの持ち物を見つけるよう努力します。"
-      },
-      "tokens": {
-        "en": ["We", "will", "try", "to", "find", "your", "belongings."],
-        "th": ["เรา", "จะ", "พยายาม", "หา", "ของ", "ของ", "คุณ", "ค่ะ"],
-        "fa": [
-          "ما",
-          "تلاش",
-          "خواهیم",
-          "کرد",
-          "وسایل",
-          "شما",
-          "را",
-          "پیدا",
-          "کنیم."
-        ],
-        "ar": ["سنحاول", "العثور", "على", "ممتلكاتك."],
-        "es": ["Intentaremos", "encontrar", "sus", "pertenencias."],
-        "zh": ["我们", "会", "尽力", "找到", "您的", "物品。"],
-        "ja": ["あなたの", "持ち物を", "見つける", "よう", "努力", "します。"]
+        "en": "phone",
+        "th": "โทรศัพท์",
+        "fa": "تلفن",
+        "ar": "هاتف",
+        "es": "teléfono",
+        "zh": "手机",
+        "ja": "携帯電話"
       }
     },
     {
-      "id": "sentence_pol_contact_officer",
-      "kind": "sentence",
-      "itemIds": ["word_contact", "word_officer"],
+      "id": "w13",
+      "kind": "Word",
       "texts": {
-        "en": "How can I contact the investigating officer?",
-        "th": "ผมจะติดต่อพนักงานสอบสวนได้อย่างไรครับ",
-        "fa": "چگونه می‌توانم با افسر محقق تماس بگیرم؟",
-        "ar": "كيف يمكنني الاتصال بالضابط المحقق؟",
-        "es": "¿Cómo puedo contactar al oficial investigador?",
-        "zh": "我该如何联系办案警官？",
-        "ja": "担当の警官にはどう連絡すればよいですか？"
-      },
-      "tokens": {
-        "en": [
-          "How",
-          "can",
-          "I",
-          "contact",
-          "the",
-          "investigating",
-          "officer?"
-        ],
-        "th": ["ผม", "จะ", "ติดต่อ", "พนักงานสอบสวน", "ได้", "อย่างไร", "ครับ"],
-        "fa": ["چگونه", "می‌توانم", "با", "افسر", "محقق", "تماس", "بگیرم؟"],
-        "ar": ["كيف", "يمكنني", "الاتصال", "بالضابط", "المحقق؟"],
-        "es": ["¿Cómo", "puedo", "contactar", "al", "oficial", "investigador?"],
-        "zh": ["我", "该", "如何", "联系", "办案", "警官？"],
-        "ja": ["担当の", "警官には", "どう", "連絡", "すれば", "よいですか？"]
+        "en": "jewelry",
+        "th": "เครื่องประดับ",
+        "fa": "جواهرات",
+        "ar": "مجوهرات",
+        "es": "joyas",
+        "zh": "珠宝",
+        "ja": "宝石"
       }
     },
     {
-      "id": "sentence_pol_hotel_phone",
-      "kind": "sentence",
-      "itemIds": ["word_hotel", "word_phone"],
+      "id": "w14",
+      "kind": "Word",
       "texts": {
-        "en": "Please write down your hotel and phone number.",
-        "th": "ช่วยเขียนชื่อโรงแรมและเบอร์โทรลงไปด้วยค่ะ",
-        "fa": "لطفاً نام هتل و شماره تلفن خود را یادداشت کنید.",
-        "ar": "يرجى كتابة اسم فندقك ورقم هاتفك.",
-        "es": "Por favor, anote su hotel y número de teléfono.",
-        "zh": "请写下您的酒店名称和电话号码。",
-        "ja": "ホテル名と電話番号を書き留めてください。"
+        "en": "bag",
+        "th": "กระเป๋า",
+        "fa": "کیف",
+        "ar": "حقيبة",
+        "es": "bolso",
+        "zh": "包",
+        "ja": "かばん"
+      }
+    },
+    {
+      "id": "w15",
+      "kind": "Word",
+      "texts": {
+        "en": "serial number",
+        "th": "หมายเลขซีเรียล",
+        "fa": "شماره سریال",
+        "ar": "رقم تسلسلي",
+        "es": "número de serie",
+        "zh": "序列号",
+        "ja": "シリアル番号"
+      }
+    },
+    {
+      "id": "s11",
+      "kind": "Sentence",
+      "texts": {
+        "en": "My wallet was stolen.",
+        "th": "กระเป๋าสตางค์ของฉันถูกขโมย",
+        "fa": "کیف پول من دزدیده شد.",
+        "ar": "سُرقت محفظتي.",
+        "es": "Me robaron la billetera.",
+        "zh": "我的钱包被偷了。",
+        "ja": "私の財布が盗まれました。"
       },
       "tokens": {
-        "en": [
-          "Please",
-          "write",
-          "down",
-          "your",
-          "hotel",
-          "and",
-          "phone",
-          "number."
-        ],
+        "th": ["กระเป๋าสตางค์", "ของ", "ฉัน", "ถูก", "ขโมย"],
+        "zh": ["我", "的", "钱包", "被", "偷", "了", "。"],
+        "ja": ["私", "の", "財布", "が", "盗ま", "れ", "まし", "た", "。"]
+      }
+    },
+    {
+      "id": "s12",
+      "kind": "Sentence",
+      "texts": {
+        "en": "They took my phone and jewelry.",
+        "th": "พวกเขานำโทรศัพท์และเครื่องประดับของฉันไป",
+        "fa": "آن‌ها تلفن و جواهرات من را بردند.",
+        "ar": "أخذوا هاتفي ومجوهراتي.",
+        "es": "Se llevaron mi teléfono y mis joyas.",
+        "zh": "他们拿走了我的手机和珠宝。",
+        "ja": "彼らは私の携帯電話と宝石を持って行きました。"
+      },
+      "tokens": {
         "th": [
-          "ช่วย",
-          "เขียน",
-          "ชื่อ",
-          "โรงแรม",
+          "พวกเขา",
+          "นำ",
+          "โทรศัพท์",
           "และ",
-          "เบอร์โทร",
-          "ลงไป",
-          "ด้วย",
-          "ค่ะ"
+          "เครื่องประดับ",
+          "ของ",
+          "ฉัน",
+          "ไป"
         ],
-        "fa": [
-          "لطفاً",
-          "نام",
-          "هتل",
-          "و",
-          "شماره",
-          "تلفن",
-          "خود",
-          "را",
-          "یادداشت",
-          "کنید."
-        ],
-        "ar": ["يرجى", "كتابة", "اسم", "فندقك", "ورقم", "هاتفك."],
-        "es": [
-          "Por",
-          "favor,",
-          "anote",
-          "su",
-          "hotel",
-          "y",
-          "número",
-          "de",
-          "teléfono."
-        ],
-        "zh": ["请", "写下", "您的", "酒店", "名称", "和", "电话", "号码。"],
-        "ja": ["ホテル名と", "電話番号を", "書き留めて", "ください。"]
+        "zh": ["他们", "拿走", "了", "我", "的", "手机", "和", "珠宝", "。"],
+        "ja": [
+          "彼ら",
+          "は",
+          "私",
+          "の",
+          "携帯電話",
+          "と",
+          "宝石",
+          "を",
+          "持って",
+          "行き",
+          "まし",
+          "た",
+          "。"
+        ]
       }
     },
     {
-      "id": "sentence_pol_email_address",
-      "kind": "sentence",
-      "itemIds": ["word_email"],
+      "id": "s13",
+      "kind": "Sentence",
       "texts": {
-        "en": "I will also provide my email address.",
-        "th": "ผมจะให้อีเมลของผมด้วยครับ",
-        "fa": "من آدرس ایمیل خود را نیز ارائه خواهم داد.",
-        "ar": "سأقدم أيضاً عنوان بريدي الإلكتروني.",
-        "es": "También proporcionaré mi dirección de correo.",
-        "zh": "我也会提供我的电子邮件地址。",
-        "ja": "メールアドレスもお伝えします。"
+        "en": "The bag was left on the table.",
+        "th": "กระเป๋าถูกทิ้งไว้บนโต๊ะ",
+        "fa": "کیف روی میز رها شده بود.",
+        "ar": "تُركت الحقيبة على الطاولة.",
+        "es": "La bolsa se dejó sobre la mesa.",
+        "zh": "包被留在了桌子上。",
+        "ja": "かばんはテーブルの上に置かれたままでした。"
       },
       "tokens": {
-        "en": ["I", "will", "also", "provide", "my", "email", "address."],
-        "th": ["ผม", "จะ", "ให้", "อีเมล", "ของ", "ผม", "ด้วย", "ครับ"],
-        "fa": [
-          "من",
-          "آدرس",
-          "ایمیل",
-          "خود",
-          "را",
-          "نیز",
-          "ارائه",
-          "خواهم",
-          "داد."
-        ],
-        "ar": ["سأقدم", "أيضاً", "عنوان", "بريدي", "الإلكتروني."],
-        "es": ["También", "proporcionaré", "mi", "dirección", "de", "correo."],
-        "zh": ["我", "也", "会", "提供", "我的", "电子邮件", "地址。"],
-        "ja": ["メール", "アドレスも", "お伝え", "します。"]
+        "th": ["กระเป๋า", "ถูก", "ทิ้ง", "ไว้", "บน", "โต๊ะ"],
+        "zh": ["包", "被", "留在", "了", "桌子", "上", "。"],
+        "ja": [
+          "かばん",
+          "は",
+          "テーブル",
+          "の",
+          "上",
+          "に",
+          "置か",
+          "れ",
+          "た",
+          "まま",
+          "でし",
+          "た",
+          "。"
+        ]
       }
     },
     {
-      "id": "sentence_pol_thank_officer",
-      "kind": "sentence",
-      "itemIds": ["word_officer"],
+      "id": "s14",
+      "kind": "Sentence",
       "texts": {
-        "en": "Thank you for your help, officer.",
-        "th": "ขอบคุณสำหรับความช่วยเหลือครับ คุณตำรวจ",
-        "fa": "از کمک شما سپاسگزارم، افسر.",
-        "ar": "شكراً لمساعدتك، أيها الضابط.",
-        "es": "Gracias por su ayuda, oficial.",
-        "zh": "感谢您的帮助，警官。",
-        "ja": "ご協力ありがとうございます、お巡りさん。"
+        "en": "Do you have the serial number?",
+        "th": "คุณมีหมายเลขซีเรียลไหม",
+        "fa": "آیا شماره سریال را دارید؟",
+        "ar": "هل لديك الرقم التسلسلي؟",
+        "es": "¿Tienes el número de serie?",
+        "zh": "你有序列号吗？",
+        "ja": "シリアル番号はありますか？"
       },
       "tokens": {
-        "en": ["Thank", "you", "for", "your", "help,", "officer."],
-        "th": ["ขอบคุณ", "สำหรับ", "ความช่วยเหลือ", "ครับ", "คุณตำรวจ"],
-        "fa": ["از", "کمک", "شما", "سپاسگزارم،", "افسر."],
-        "ar": ["شكراً", "لمساعدتك،", "أيها", "الضابط."],
-        "es": ["Gracias", "por", "su", "ayuda,", "oficial."],
-        "zh": ["感谢", "您的", "帮助，", "警官。"],
-        "ja": ["ご協力", "ありがとう", "ございます、", "お巡りさん。"]
+        "th": ["คุณ", "มี", "หมายเลข", "ซีเรียล", "ไหม"],
+        "zh": ["你", "有", "序列号", "吗", "？"],
+        "ja": ["シリアル", "番号", "は", "あり", "ます", "か", "？"]
       }
     },
     {
-      "id": "word_investigate",
-      "kind": "word",
+      "id": "s15",
+      "kind": "Sentence",
       "texts": {
-        "en": "investigate",
-        "th": "สืบสวน",
-        "fa": "تحقیق کردن",
-        "ar": "يحقق",
-        "es": "investigar",
-        "zh": "调查",
-        "ja": "捜査する"
+        "en": "I need to cancel my credit cards.",
+        "th": "ฉันต้องยกเลิกบัตรเครดิตของฉัน",
+        "fa": "من باید کارت‌های اعتباری خود را لغو کنم.",
+        "ar": "أحتاج إلى إلغاء بطاقات الائتمان الخاصة بي.",
+        "es": "Necesito cancelar mis tarjetas de crédito.",
+        "zh": "我需要注销我的信用卡。",
+        "ja": "クレジットカードを無効にする必要があります。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้อง", "ยกเลิก", "บัตรเครดิต", "ของ", "ฉัน"],
+        "zh": ["我", "需要", "注销", "我", "的", "信用卡", "。"],
+        "ja": [
+          "クレジットカード",
+          "を",
+          "無効",
+          "に",
+          "する",
+          "必要",
+          "が",
+          "あり",
+          "ます",
+          "。"
+        ]
       }
     },
+
     {
-      "id": "word_find",
-      "kind": "word",
+      "id": "h4",
+      "header": true,
       "texts": {
-        "en": "find",
-        "th": "หา",
-        "fa": "پیدا کردن",
-        "ar": "يجد",
-        "es": "encontrar",
-        "zh": "找到",
-        "ja": "見つける"
+        "en": "Scenario 4: Providing Contact Info",
+        "th": "สถานการณ์ที่ 4: การให้ข้อมูลการติดต่อ",
+        "fa": "سناریو ۴: ارائه اطلاعات تماس",
+        "ar": "السيناريو 4: تقديم معلومات الاتصال",
+        "es": "Escenario 4: Proporcionar información de contacto",
+        "zh": "场景 4：提供联系信息",
+        "ja": "シナリオ 4：連絡先の提供"
       }
     },
     {
-      "id": "word_contact",
-      "kind": "word",
+      "id": "w16",
+      "kind": "Word",
       "texts": {
-        "en": "contact",
-        "th": "ติดต่อ",
-        "fa": "تماس گرفتن",
-        "ar": "يتصل بـ",
-        "es": "contactar",
-        "zh": "联系",
-        "ja": "連絡する"
+        "en": "address",
+        "th": "ที่อยู่",
+        "fa": "آدرس",
+        "ar": "عنوان",
+        "es": "dirección",
+        "zh": "地址",
+        "ja": "住所"
       }
     },
     {
-      "id": "word_phone",
-      "kind": "word",
+      "id": "w17",
+      "kind": "Word",
       "texts": {
         "en": "phone number",
-        "th": "เบอร์โทร",
+        "th": "เบอร์โทรศัพท์",
         "fa": "شماره تلفن",
         "ar": "رقم الهاتف",
         "es": "número de teléfono",
@@ -1687,8 +619,8 @@
       }
     },
     {
-      "id": "word_email",
-      "kind": "word",
+      "id": "w18",
+      "kind": "Word",
       "texts": {
         "en": "email",
         "th": "อีเมล",
@@ -1700,16 +632,310 @@
       }
     },
     {
-      "id": "word_hotel",
-      "kind": "word",
+      "id": "w19",
+      "kind": "Word",
       "texts": {
-        "en": "hotel",
-        "th": "โรงแรม",
-        "fa": "هتل",
-        "ar": "فندق",
-        "es": "hotel",
-        "zh": "酒店",
-        "ja": "ホテル"
+        "en": "witness",
+        "th": "พยาน",
+        "fa": "شاهد",
+        "ar": "شاهد",
+        "es": "testigo",
+        "zh": "证人",
+        "ja": "証人"
+      }
+    },
+    {
+      "id": "w20",
+      "kind": "Word",
+      "texts": {
+        "en": "statement",
+        "th": "คำแถลง",
+        "fa": "بیانیه",
+        "ar": "بيان",
+        "es": "declaración",
+        "zh": "陈述",
+        "ja": "供述"
+      }
+    },
+    {
+      "id": "s16",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Here is my home address.",
+        "th": "นี่คือที่อยู่บ้านของฉัน",
+        "fa": "این آدرس خانه من است.",
+        "ar": "هذا هو عنوان منزلي.",
+        "es": "Aquí está mi dirección de casa.",
+        "zh": "这是我的家庭住址。",
+        "ja": "これが私の自宅の住所です。"
+      },
+      "tokens": {
+        "th": ["นี่", "คือ", "ที่อยู่", "บ้าน", "ของ", "ฉัน"],
+        "zh": ["这", "是", "我", "的", "家庭", "住址", "。"],
+        "ja": ["これ", "が", "私", "の", "自宅", "の", "住所", "です", "。"]
+      }
+    },
+    {
+      "id": "s17",
+      "kind": "Sentence",
+      "texts": {
+        "en": "You can call me at this number.",
+        "th": "คุณสามารถโทรหาฉันที่เบอร์นี้",
+        "fa": "می‌توانید با این شماره با من تماس بگیرید.",
+        "ar": "يمكنك الاتصال بي على هذا الرقم.",
+        "es": "Puedes llamarme a este número.",
+        "zh": "你可以打这个电话找我。",
+        "ja": "この番号で私に電話できます。"
+      },
+      "tokens": {
+        "th": ["คุณ", "สามารถ", "โทรหา", "ฉัน", "ที่", "เบอร์", "นี้"],
+        "zh": ["你", "可以", "打", "这个", "电话", "找", "我", "。"],
+        "ja": ["この", "番号", "で", "私", "に", "電話", "でき", "ます", "。"]
+      }
+    },
+    {
+      "id": "s18",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I will send an email with the details.",
+        "th": "ฉันจะส่งอีเมลพร้อมรายละเอียด",
+        "fa": "من یک ایمیل با جزئیات ارسال خواهم کرد.",
+        "ar": "سأرسل بريدًا إلكترونيًا بالتفاصيل.",
+        "es": "Enviaré un correo electrónico con los detalles.",
+        "zh": "我会发送包含详细信息的电子邮件。",
+        "ja": "詳細をメールで送信します。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "จะ", "ส่ง", "อีเมล", "พร้อม", "รายละเอียด"],
+        "zh": [
+          "我",
+          "会",
+          "发送",
+          "包含",
+          "详细",
+          "信息",
+          "的",
+          "电子邮件",
+          "。"
+        ],
+        "ja": ["詳細", "を", "メール", "で", "送信", "し", "ます", "。"]
+      }
+    },
+    {
+      "id": "s19",
+      "kind": "Sentence",
+      "texts": {
+        "en": "There was a witness at the scene.",
+        "th": "มีพยานอยู่ที่เกิดเหตุ",
+        "fa": "یک شاهد در صحنه بود.",
+        "ar": "كان هناك شاهد في مكان الحادث.",
+        "es": "Había un testigo en la escena.",
+        "zh": "现场有一名证人。",
+        "ja": "現場に証人がいました。"
+      },
+      "tokens": {
+        "th": ["มี", "พยาน", "อยู่", "ที่", "เกิดเหตุ"],
+        "zh": ["现场", "有", "一名", "证人", "。"],
+        "ja": ["現場", "に", "証人", "が", "い", "まし", "た", "。"]
+      }
+    },
+    {
+      "id": "s20",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I am ready to give my statement.",
+        "th": "ฉันพร้อมที่จะให้คำแถลง",
+        "fa": "من آماده ارائه بیانیه خود هستم.",
+        "ar": "أنا مستعد للإدلاء ببياني.",
+        "es": "Estoy listo para dar mi declaración.",
+        "zh": "我准备好提供我的陈述了。",
+        "ja": "私は供述する準備ができています。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "พร้อม", "ที่", "จะ", "ให้", "คำแถลง"],
+        "zh": ["我", "准备好", "提供", "我", "的", "陈述", "了", "。"],
+        "ja": [
+          "私",
+          "は",
+          "供述",
+          "する",
+          "準備",
+          "が",
+          "でき",
+          "て",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Follow-up & Statement",
+        "th": "สถานการณ์ที่ 5: การติดตามผลและคำแถลง",
+        "fa": "سناریو ۵: پیگیری و بیانیه",
+        "ar": "السيناريو 5: المتابعة والبيان",
+        "es": "Escenario 5: Seguimiento y declaración",
+        "zh": "场景 5：跟进与陈述",
+        "ja": "シナリオ 5：フォローアップと供述"
+      }
+    },
+    {
+      "id": "w21",
+      "kind": "Word",
+      "texts": {
+        "en": "investigation",
+        "th": "การสืบสวน",
+        "fa": "تحقیق",
+        "ar": "تحقيق",
+        "es": "investigación",
+        "zh": "调查",
+        "ja": "調査"
+      }
+    },
+    {
+      "id": "w22",
+      "kind": "Word",
+      "texts": {
+        "en": "case number",
+        "th": "หมายเลขคดี",
+        "fa": "شماره پرونده",
+        "ar": "رقم القضية",
+        "es": "número de caso",
+        "zh": "案件编号",
+        "ja": "事件番号"
+      }
+    },
+    {
+      "id": "w23",
+      "kind": "Word",
+      "texts": {
+        "en": "detective",
+        "th": "นักสืบ",
+        "fa": "کارآگاه",
+        "ar": "محقق",
+        "es": "detective",
+        "zh": "侦探",
+        "ja": "探偵"
+      }
+    },
+    {
+      "id": "w24",
+      "kind": "Word",
+      "texts": {
+        "en": "update",
+        "th": "อัปเดต",
+        "fa": "به‌روزرسانی",
+        "ar": "تحديث",
+        "es": "actualización",
+        "zh": "更新",
+        "ja": "更新"
+      }
+    },
+    {
+      "id": "w25",
+      "kind": "Word",
+      "texts": {
+        "en": "safe",
+        "th": "ปลอดภัย",
+        "fa": "امن",
+        "ar": "آمن",
+        "es": "seguro",
+        "zh": "安全",
+        "ja": "安全"
+      }
+    },
+    {
+      "id": "s21",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The investigation has started.",
+        "th": "การสืบสวนได้เริ่มต้นแล้ว",
+        "fa": "تحقیق آغاز شده است.",
+        "ar": "لقد بدأ التحقيق.",
+        "es": "La investigación ha comenzado.",
+        "zh": "调查已经开始了。",
+        "ja": "調査が始まりました。"
+      },
+      "tokens": {
+        "th": ["การ", "สืบสวน", "ได้", "เริ่มต้น", "แล้ว"],
+        "zh": ["调查", "已经", "开始", "了", "。"],
+        "ja": ["調査", "が", "始まり", "まし", "た", "。"]
+      }
+    },
+    {
+      "id": "s22",
+      "kind": "Sentence",
+      "texts": {
+        "en": "What is my case number?",
+        "th": "หมายเลขคดีของฉันคืออะไร",
+        "fa": "شماره پرونده من چیست؟",
+        "ar": "ما هو رقم قضيتي؟",
+        "es": "¿Cuál es mi número de caso?",
+        "zh": "我的案件编号是多少？",
+        "ja": "私の事件番号は何ですか？"
+      },
+      "tokens": {
+        "th": ["หมายเลข", "คดี", "ของ", "ฉัน", "คือ", "อะไร"],
+        "zh": ["我", "的", "案件", "编号", "是", "多少", "？"],
+        "ja": ["私", "の", "事件", "番号", "は", "何", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s23",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The detective will contact you.",
+        "th": "นักสืบจะติดต่อคุณ",
+        "fa": "کارآگاه با شما تماس خواهد گرفت.",
+        "ar": "سيتصل بك المحقق.",
+        "es": "El detective se pondrá en contacto contigo.",
+        "zh": "侦探会联系你。",
+        "ja": "探偵があなたに連絡します。"
+      },
+      "tokens": {
+        "th": ["นักสืบ", "จะ", "ติดต่อ", "คุณ"],
+        "zh": ["侦探", "会", "联系", "你", "。"],
+        "ja": ["探偵", "が", "あなた", "に", "連絡", "し", "ます", "。"]
+      }
+    },
+    {
+      "id": "s24",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We will give you an update soon.",
+        "th": "เราจะแจ้งให้คุณทราบเร็วๆ นี้",
+        "fa": "ما به زودی به شما اطلاع خواهیم داد.",
+        "ar": "سنمنحك تحديثًا قريبًا.",
+        "es": "Te daremos una actualización pronto.",
+        "zh": "我们会很快给你更新。",
+        "ja": "すぐにお知らせします。"
+      },
+      "tokens": {
+        "th": ["เรา", "จะ", "แจ้ง", "ให้", "คุณ", "ทราบ", "เร็วๆ", "นี้"],
+        "zh": ["我们", "会", "很快", "给", "你", "更新", "。"],
+        "ja": ["すぐ", "に", "お", "知らせ", "し", "ます", "。"]
+      }
+    },
+    {
+      "id": "s25",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Please stay safe at home.",
+        "th": "โปรดอยู่ที่บ้านอย่างปลอดภัย",
+        "fa": "لطفاً در خانه در امان بمانید.",
+        "ar": "يرجى البقاء بأمان في المنزل.",
+        "es": "Por favor, quédate seguro en casa.",
+        "zh": "请待在家里保持安全。",
+        "ja": "自宅で安全に過ごしてください。"
+      },
+      "tokens": {
+        "th": ["โปรด", "อยู่", "ที่", "บ้าน", "อย่าง", "ปลอดภัย"],
+        "zh": ["请", "待", "在", "家里", "保持", "安全", "。"],
+        "ja": ["自宅", "で", "安全", "に", "過ごし", "て", "ください", "。"]
       }
     }
   ]

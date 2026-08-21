@@ -2,440 +2,34 @@
   "version": 2,
   "items": [
     {
-      "id": "header_core_words",
+      "id": "h1",
       "header": true,
       "texts": {
-        "en": "Core Words",
-        "th": "คำศัพท์หลัก",
-        "fa": "واژه‌های اصلی",
-        "ar": "الكلمات الأساسية",
-        "es": "Palabras clave",
-        "zh": "核心词汇",
-        "ja": "基本単語"
+        "en": "Scenario 1: Choosing a Destination",
+        "th": "สถานการณ์ที่ 1: การเลือกจุดหมายปลายทาง",
+        "fa": "سناریو ۱: انتخاب مقصد",
+        "ar": "السيناريو 1: اختيار الوجهة",
+        "es": "Escenario 1: Elegir un destino",
+        "zh": "场景 1：选择目的地",
+        "ja": "シナリオ 1：目的地の選択"
       }
     },
     {
-      "id": "word_i",
-      "kind": "word",
+      "id": "w1",
+      "kind": "Word",
       "texts": {
-        "en": "I",
-        "th": "ฉัน",
-        "fa": "من",
-        "ar": "أنا",
-        "es": "yo",
-        "zh": "我",
-        "ja": "私"
+        "en": "destination",
+        "th": "จุดหมาย",
+        "fa": "مقصد",
+        "ar": "وجهة",
+        "es": "destino",
+        "zh": "目的地",
+        "ja": "目的地"
       }
     },
     {
-      "id": "word_you",
-      "kind": "word",
-      "texts": {
-        "en": "you",
-        "th": "คุณ",
-        "fa": "شما",
-        "ar": "أنت",
-        "es": "tú / usted",
-        "zh": "你",
-        "ja": "あなた"
-      }
-    },
-    {
-      "id": "word_we",
-      "kind": "word",
-      "texts": {
-        "en": "we",
-        "th": "เรา",
-        "fa": "ما",
-        "ar": "نحن",
-        "es": "nosotros",
-        "zh": "我们",
-        "ja": "私たち"
-      }
-    },
-    {
-      "id": "word_want",
-      "kind": "word",
-      "texts": {
-        "en": "want",
-        "th": "ต้องการ",
-        "fa": "خواستن",
-        "ar": "يريد",
-        "es": "querer",
-        "zh": "想要",
-        "ja": "欲しい"
-      }
-    },
-    {
-      "id": "word_need",
-      "kind": "word",
-      "texts": {
-        "en": "need",
-        "th": "ต้องการ",
-        "fa": "نیاز داشتن",
-        "ar": "يحتاج",
-        "es": "necesitar",
-        "zh": "需要",
-        "ja": "必要"
-      }
-    },
-    {
-      "id": "word_have",
-      "kind": "word",
-      "texts": {
-        "en": "have",
-        "th": "มี",
-        "fa": "داشتن",
-        "ar": "يملك",
-        "es": "tener",
-        "zh": "有",
-        "ja": "ある"
-      }
-    },
-    {
-      "id": "word_go",
-      "kind": "word",
-      "texts": {
-        "en": "go",
-        "th": "ไป",
-        "fa": "رفتن",
-        "ar": "يذهب",
-        "es": "ir",
-        "zh": "去",
-        "ja": "行く"
-      }
-    },
-    {
-      "id": "word_question_particle",
-      "kind": "word",
-      "texts": {
-        "en": "question marker",
-        "th": "ไหม",
-        "fa": "آیا",
-        "ar": "هل",
-        "es": "partícula interrogativa",
-        "zh": "吗",
-        "ja": "か"
-      }
-    },
-    {
-      "id": "word_will",
-      "kind": "word",
-      "texts": {
-        "en": "will / future marker",
-        "th": "จะ",
-        "fa": "خواهد (نشانه آینده)",
-        "ar": "سوف",
-        "es": "partícula de futuro",
-        "zh": "将 / 会",
-        "ja": "〜するつもり (未来のマーカー)"
-      }
-    },
-    {
-      "id": "word_progressive",
-      "kind": "word",
-      "texts": {
-        "en": "currently / -ing marker",
-        "th": "กำลัง",
-        "fa": "در حال (نشانه استمراری)",
-        "ar": "قيد / الآن",
-        "es": "estar + gerundio",
-        "zh": "正在",
-        "ja": "〜している (進行のマーカー)"
-      }
-    },
-    {
-      "id": "word_already",
-      "kind": "word",
-      "texts": {
-        "en": "already / completed marker",
-        "th": "แล้ว",
-        "fa": "قبلاً / انجام شد",
-        "ar": "قد / بالفعل",
-        "es": "ya",
-        "zh": "已经",
-        "ja": "もう〜した (完了のマーカー)"
-      }
-    },
-    {
-      "id": "word_ever",
-      "kind": "word",
-      "texts": {
-        "en": "ever / have done before",
-        "th": "เคย",
-        "fa": "تا به حال / سابقه داشتن",
-        "ar": "سبق أن",
-        "es": "alguna vez / haber hecho",
-        "zh": "曾经",
-        "ja": "〜したことがある (経験)"
-      }
-    },
-    {
-      "id": "word_if",
-      "kind": "word",
-      "texts": {
-        "en": "if",
-        "th": "ถ้า",
-        "fa": "اگر",
-        "ar": "إذا / لو",
-        "es": "si",
-        "zh": "如果",
-        "ja": "もし〜なら"
-      }
-    },
-    {
-      "id": "word_then",
-      "kind": "word",
-      "texts": {
-        "en": "then / in that case",
-        "th": "ก็",
-        "fa": "پس / در آن صورت",
-        "ar": "فـ / إذن",
-        "es": "entonces",
-        "zh": "就",
-        "ja": "それなら"
-      }
-    },
-    {
-      "id": "header_scenario1",
-      "header": true,
-      "texts": {
-        "en": "Scenario 1: Booking a Tour",
-        "th": "สถานการณ์ 1: การจองทัวร์",
-        "fa": "سناریو ۱: رزرو تور",
-        "ar": "السيناريو 1: حجز جولة",
-        "es": "Escenario 1: Reservar un tour",
-        "zh": "场景一：预订旅游团",
-        "ja": "シナリオ1：ツアーを予約する"
-      }
-    },
-    {
-      "id": "sentence_plan_book_tour",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_want", "word_book", "word_tour"],
-      "texts": {
-        "en": "I want to book a tour",
-        "th": "ฉันต้องการจองทัวร์",
-        "fa": "من می‌خواهم یک تور رزرو کنم",
-        "ar": "أريد حجز جولة",
-        "es": "Quiero reservar un tour",
-        "zh": "我想预订旅游团",
-        "ja": "ツアーを予約したいです"
-      },
-      "tokens": {
-        "en": ["I", "want", "to", "book", "a", "tour"],
-        "th": ["ฉัน", "ต้องการ", "จอง", "ทัวร์"],
-        "fa": ["من", "می‌خواهم", "یک", "تور", "رزرو", "کنم"],
-        "ar": ["أريد", "حجز", "جولة"],
-        "es": ["Quiero", "reservar", "un", "tour"],
-        "zh": ["我", "想", "预订", "旅游团"],
-        "ja": ["ツアー", "を", "予約", "したい", "です"]
-      }
-    },
-    {
-      "id": "sentence_plan_need_guide_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_we",
-        "word_need",
-        "word_guide",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Do we need a guide",
-        "th": "เราต้องการไกด์ไหม",
-        "fa": "آیا ما به راهنما نیاز داریم",
-        "ar": "هل نحتاج إلى مرشد",
-        "es": "Necesitamos un guía",
-        "zh": "我们需要导游吗",
-        "ja": "ガイドは必要ですか"
-      },
-      "tokens": {
-        "en": ["Do", "we", "need", "a", "guide"],
-        "th": ["เรา", "ต้องการ", "ไกด์", "ไหม"],
-        "fa": ["آیا", "ما", "به", "راهنما", "نیاز", "داریم"],
-        "ar": ["هل", "نحتاج", "إلى", "مرشد"],
-        "es": ["Necesitamos", "un", "guía"],
-        "zh": ["我们", "需要", "导游", "吗"],
-        "ja": ["ガイド", "は", "必要", "です", "か"]
-      }
-    },
-    {
-      "id": "word_book",
-      "kind": "word",
-      "texts": {
-        "en": "book",
-        "th": "จอง",
-        "fa": "رزرو کردن",
-        "ar": "يحجز",
-        "es": "reservar",
-        "zh": "预订",
-        "ja": "予約する"
-      }
-    },
-    {
-      "id": "word_tour",
-      "kind": "word",
-      "texts": {
-        "en": "tour",
-        "th": "ทัวร์",
-        "fa": "تور",
-        "ar": "جولة",
-        "es": "tour",
-        "zh": "旅游团",
-        "ja": "ツアー"
-      }
-    },
-    {
-      "id": "word_guide",
-      "kind": "word",
-      "texts": {
-        "en": "guide",
-        "th": "ไกด์",
-        "fa": "راهنما",
-        "ar": "مرشد",
-        "es": "guía",
-        "zh": "导游",
-        "ja": "ガイド"
-      }
-    },
-    {
-      "id": "header_scenario2",
-      "header": true,
-      "texts": {
-        "en": "Scenario 2: Destinations & Trip Questions",
-        "th": "สถานการณ์ 2: จุดหมายและคำถามเกี่ยวกับการเดินทาง",
-        "fa": "سناریو ۲: مقصدها و پرسش‌های سفر",
-        "ar": "السيناريو 2: الوجهات وأسئلة الرحلة",
-        "es": "Escenario 2: Destinos y preguntas del viaje",
-        "zh": "场景二：目的地与行程问题",
-        "ja": "シナリオ2：目的地と旅の質問"
-      }
-    },
-    {
-      "id": "sentence_plan_how_many_days",
-      "kind": "sentence",
-      "itemIds": ["word_trip", "word_how_many", "word_day"],
-      "texts": {
-        "en": "How many days is the trip",
-        "th": "การเดินทางกี่วัน",
-        "fa": "سفر چند روز است",
-        "ar": "كم يوما تستغرق الرحلة",
-        "es": "Cuántos días dura el viaje",
-        "zh": "旅行是多少天",
-        "ja": "旅行は何日間ですか"
-      },
-      "tokens": {
-        "en": ["How", "many", "days", "is", "the", "trip"],
-        "th": ["การเดินทาง", "กี่", "วัน"],
-        "fa": ["سفر", "چند", "روز", "است"],
-        "ar": ["كم", "يوما", "تستغرق", "الرحلة"],
-        "es": ["Cuántos", "días", "dura", "el", "viaje"],
-        "zh": ["旅行", "是", "多少", "天"],
-        "ja": ["旅行", "は", "何日間", "です", "か"]
-      }
-    },
-    {
-      "id": "sentence_plan_go_mountain",
-      "kind": "sentence",
-      "itemIds": ["word_we", "word_want", "word_go", "word_mountain"],
-      "texts": {
-        "en": "We want to go to the mountain",
-        "th": "เราต้องการไปภูเขา",
-        "fa": "ما می‌خواهیم به کوه برویم",
-        "ar": "نريد الذهاب إلى الجبل",
-        "es": "Queremos ir a la montaña",
-        "zh": "我们想去山上",
-        "ja": "山に行きたいです"
-      },
-      "tokens": {
-        "en": ["We", "want", "to", "go", "to", "the", "mountain"],
-        "th": ["เรา", "ต้องการ", "ไป", "ภูเขา"],
-        "fa": ["ما", "می‌خواهیم", "به", "کوه", "برویم"],
-        "ar": ["نريد", "الذهاب", "إلى", "الجبل"],
-        "es": ["Queremos", "ir", "a", "la", "montaña"],
-        "zh": ["我们", "想", "去", "山上"],
-        "ja": ["山", "に", "行き", "たい", "です"]
-      }
-    },
-    {
-      "id": "sentence_plan_beach_far_question",
-      "kind": "sentence",
-      "itemIds": ["word_beach", "word_far", "word_question_particle"],
-      "texts": {
-        "en": "Is the beach far",
-        "th": "ชายหาดไกลไหม",
-        "fa": "آیا ساحل دور است",
-        "ar": "هل الشاطئ بعيد",
-        "es": "Está lejos la playa",
-        "zh": "海滩远吗",
-        "ja": "ビーチは遠いですか"
-      },
-      "tokens": {
-        "en": ["Is", "the", "beach", "far"],
-        "th": ["ชายหาด", "ไกล", "ไหม"],
-        "fa": ["آیا", "ساحل", "دور", "است"],
-        "ar": ["هل", "الشاطئ", "بعيد"],
-        "es": ["Está", "lejos", "la", "playa"],
-        "zh": ["海滩", "远", "吗"],
-        "ja": ["ビーチ", "は", "遠い", "です", "か"]
-      }
-    },
-    {
-      "id": "word_trip",
-      "kind": "word",
-      "texts": {
-        "en": "trip",
-        "th": "การเดินทาง",
-        "fa": "سفر",
-        "ar": "رحلة",
-        "es": "viaje",
-        "zh": "旅行",
-        "ja": "旅行"
-      }
-    },
-    {
-      "id": "word_day",
-      "kind": "word",
-      "texts": {
-        "en": "day",
-        "th": "วัน",
-        "fa": "روز",
-        "ar": "يوم",
-        "es": "día",
-        "zh": "天",
-        "ja": "日"
-      }
-    },
-    {
-      "id": "word_how_many",
-      "kind": "word",
-      "texts": {
-        "en": "how many",
-        "th": "กี่",
-        "fa": "چند",
-        "ar": "كم",
-        "es": "cuántos",
-        "zh": "多少",
-        "ja": "何"
-      }
-    },
-    {
-      "id": "word_mountain",
-      "kind": "word",
-      "texts": {
-        "en": "mountain",
-        "th": "ภูเขา",
-        "fa": "کوه",
-        "ar": "جبل",
-        "es": "montaña",
-        "zh": "山",
-        "ja": "山"
-      }
-    },
-    {
-      "id": "word_beach",
-      "kind": "word",
+      "id": "w2",
+      "kind": "Word",
       "texts": {
         "en": "beach",
         "th": "ชายหาด",
@@ -447,469 +41,917 @@
       }
     },
     {
-      "id": "word_far",
-      "kind": "word",
+      "id": "w3",
+      "kind": "Word",
       "texts": {
-        "en": "far",
-        "th": "ไกล",
-        "fa": "دور",
-        "ar": "بعيد",
-        "es": "lejos",
-        "zh": "远",
-        "ja": "遠い"
+        "en": "mountain",
+        "th": "ภูเขา",
+        "fa": "کوه",
+        "ar": "جبل",
+        "es": "montaña",
+        "zh": "山",
+        "ja": "山"
       }
     },
     {
-      "id": "header_scenario3",
+      "id": "w4",
+      "kind": "Word",
+      "texts": {
+        "en": "city",
+        "th": "เมือง",
+        "fa": "شهر",
+        "ar": "مدينة",
+        "es": "ciudad",
+        "zh": "城市",
+        "ja": "都市"
+      }
+    },
+    {
+      "id": "w5",
+      "kind": "Word",
+      "texts": {
+        "en": "explore",
+        "th": "สำรวจ",
+        "fa": "کاوش",
+        "ar": "استكشاف",
+        "es": "explorar",
+        "zh": "探索",
+        "ja": "探索"
+      }
+    },
+    {
+      "id": "s1",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Where should we go?",
+        "th": "เราควรไปที่ไหน",
+        "fa": "کجا باید برویم؟",
+        "ar": "إلى أين يجب أن نذهب؟",
+        "es": "¿A dónde deberíamos ir?",
+        "zh": "我们应该去哪里？",
+        "ja": "どこに行くべきですか？"
+      },
+      "tokens": {
+        "th": ["เรา", "ควร", "ไป", "ที่", "ไหน"],
+        "zh": ["我们", "应该", "去", "哪里", "？"],
+        "ja": ["どこ", "に", "行く", "べき", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I want to visit the beach.",
+        "th": "ฉันอยากไปชายหาด",
+        "fa": "من می‌خواهم به ساحل بروم.",
+        "ar": "أريد زيارة الشاطئ.",
+        "es": "Quiero visitar la playa.",
+        "zh": "我想去海滩。",
+        "ja": "ビーチに行きたいです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "อยาก", "ไป", "ชายหาด"],
+        "zh": ["我", "想", "去", "海滩", "。"],
+        "ja": ["ビーチ", "に", "行き", "たい", "です", "。"]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The mountains are beautiful.",
+        "th": "ภูเขาสวยงามมาก",
+        "fa": "کوه‌ها بسیار زیبا هستند.",
+        "ar": "الجبال جميلة جداً.",
+        "es": "Las montañas son hermosas.",
+        "zh": "山非常美丽。",
+        "ja": "山はとても美しいです。"
+      },
+      "tokens": {
+        "th": ["ภูเขา", "สวยงาม", "มาก"],
+        "zh": ["山", "非常", "美丽", "。"],
+        "ja": ["山", "は", "とても", "美しい", "です", "。"]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Let's explore a new city.",
+        "th": "ไปสำรวจเมืองใหม่กัน",
+        "fa": "بیایید یک شهر جدید را کاوش کنیم.",
+        "ar": "لنستكشف مدينة جديدة.",
+        "es": "Exploremos una nueva ciudad.",
+        "zh": "我们去探索一个新城市吧。",
+        "ja": "新しい都市を探索しましょう。"
+      },
+      "tokens": {
+        "th": ["ไป", "สำรวจ", "เมือง", "ใหม่", "กัน"],
+        "zh": ["我们", "去", "探索", "一个", "新", "城市", "吧", "。"],
+        "ja": ["新しい", "都市", "を", "探索", "し", "まし", "ょう", "。"]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "Sentence",
+      "texts": {
+        "en": "This destination is perfect.",
+        "th": "จุดหมายนี้สมบูรณ์แบบ",
+        "fa": "این مقصد عالی است.",
+        "ar": "هذه الوجهة مثالية.",
+        "es": "Este destino es perfecto.",
+        "zh": "这个目的地很完美。",
+        "ja": "この目的地は完璧です。"
+      },
+      "tokens": {
+        "th": ["จุดหมาย", "นี้", "สมบูรณ์แบบ"],
+        "zh": ["这个", "目的地", "很", "完美", "。"],
+        "ja": ["この", "目的地", "は", "完璧", "です", "。"]
+      }
+    },
+
+    {
+      "id": "h2",
       "header": true,
       "texts": {
-        "en": "Scenario 3: Future Plans with จะ",
-        "th": "สถานการณ์ 3: แผนในอนาคตด้วย จะ",
-        "fa": "سناریو ۳: برنامه‌های آینده با จะ",
-        "ar": "السيناريو 3: الخطط المستقبلية بـ จะ",
-        "es": "Escenario 3: Planes futuros con จะ",
-        "zh": "场景三：用 จะ 表达未来计划",
-        "ja": "シナリオ3：จะ で未来の計画"
+        "en": "Scenario 2: Booking Flights & Accommodation",
+        "th": "สถานการณ์ที่ 2: การจองเที่ยวบินและที่พัก",
+        "fa": "سناریو ۲: رزرو پرواز و اقامتگاه",
+        "ar": "السيناريو 2: حجز الرحلات والإقامة",
+        "es": "Escenario 2: Reservar vuelos y alojamiento",
+        "zh": "场景 2：预订航班与住宿",
+        "ja": "シナリオ 2：フライトと宿泊の予約"
       }
     },
     {
-      "id": "sentence_plan_will_book_tomorrow",
-      "kind": "sentence",
-      "itemIds": [
-        "word_i",
-        "word_will",
-        "word_book",
-        "word_tour",
-        "word_tomorrow"
-      ],
+      "id": "w6",
+      "kind": "Word",
       "texts": {
-        "en": "I will book the tour tomorrow",
-        "th": "ฉันจะจองทัวร์พรุ่งนี้ค่ะ",
-        "fa": "من فردا تور را رزرو خواهم کرد",
-        "ar": "سأحجز الجولة غدا",
-        "es": "Reservaré el tour mañana",
-        "zh": "我明天会预订旅游团",
-        "ja": "明日ツアーを予約します"
-      },
-      "tokens": {
-        "en": ["I", "will", "book", "the", "tour", "tomorrow"],
-        "th": ["ฉัน", "จะ", "จอง", "ทัวร์", "พรุ่งนี้", "ค่ะ"],
-        "fa": ["من", "فردا", "تور", "را", "رزرو", "خواهم", "کرد"],
-        "ar": ["سأحجز", "الجولة", "غدا"],
-        "es": ["Reservaré", "el", "tour", "mañana"],
-        "zh": ["我", "明天", "会", "预订", "旅游团"],
-        "ja": ["明日", "ツアー", "を", "予約", "し", "ます"]
+        "en": "flight",
+        "th": "เที่ยวบิน",
+        "fa": "پرواز",
+        "ar": "رحلة طيران",
+        "es": "vuelo",
+        "zh": "航班",
+        "ja": "フライト"
       }
     },
     {
-      "id": "sentence_plan_will_stay_two_days",
-      "kind": "sentence",
-      "itemIds": ["word_we", "word_will", "word_stay", "word_two", "word_day"],
-      "texts": {
-        "en": "We will stay two days",
-        "th": "เราจะพักสองวันครับ",
-        "fa": "ما دو روز می‌مانیم",
-        "ar": "سنقيم يومين",
-        "es": "Nos quedaremos dos días",
-        "zh": "我们会住两天",
-        "ja": "二日間泊まります"
-      },
-      "tokens": {
-        "en": ["We", "will", "stay", "two", "days"],
-        "th": ["เรา", "จะ", "พัก", "สอง", "วัน", "ครับ"],
-        "fa": ["ما", "دو", "روز", "می‌مانیم"],
-        "ar": ["سنقيم", "يومين"],
-        "es": ["Nos", "quedaremos", "dos", "días"],
-        "zh": ["我们", "会", "住", "两天"],
-        "ja": ["二日間", "泊まり", "ます"]
-      }
-    },
-    {
-      "id": "sentence_plan_will_go_beach",
-      "kind": "sentence",
-      "itemIds": [
-        "word_we",
-        "word_will",
-        "word_go",
-        "word_beach",
-        "word_tomorrow"
-      ],
-      "texts": {
-        "en": "We will go to the beach tomorrow",
-        "th": "เราจะไปชายหาดพรุ่งนี้ครับ",
-        "fa": "ما فردا به ساحل می‌رویم",
-        "ar": "سنذهب إلى الشاطئ غدا",
-        "es": "Iremos a la playa mañana",
-        "zh": "我们明天去海滩",
-        "ja": "明日ビーチに行きます"
-      },
-      "tokens": {
-        "en": ["We", "will", "go", "to", "the", "beach", "tomorrow"],
-        "th": ["เรา", "จะ", "ไป", "ชายหาด", "พรุ่งนี้", "ครับ"],
-        "fa": ["ما", "فردا", "به", "ساحل", "می‌رویم"],
-        "ar": ["سنذهب", "إلى", "الشاطئ", "غدا"],
-        "es": ["Iremos", "a", "la", "playa", "mañana"],
-        "zh": ["我们", "明天", "去", "海滩"],
-        "ja": ["明日", "ビーチ", "に", "行き", "ます"]
-      }
-    },
-    {
-      "id": "word_tomorrow",
-      "kind": "word",
-      "texts": {
-        "en": "tomorrow",
-        "th": "พรุ่งนี้",
-        "fa": "فردا",
-        "ar": "غدا",
-        "es": "mañana",
-        "zh": "明天",
-        "ja": "明日"
-      }
-    },
-    {
-      "id": "word_stay",
-      "kind": "word",
-      "texts": {
-        "en": "stay",
-        "th": "พัก",
-        "fa": "اقامت کردن / ماندن",
-        "ar": "يقيم / يمكث",
-        "es": "alojarse / quedarse",
-        "zh": "住 / 停留",
-        "ja": "泊まる / 滞在する"
-      }
-    },
-    {
-      "id": "word_two",
-      "kind": "word",
-      "texts": {
-        "en": "two",
-        "th": "สอง",
-        "fa": "دو",
-        "ar": "اثنان",
-        "es": "dos",
-        "zh": "两",
-        "ja": "二"
-      }
-    },
-    {
-      "id": "header_scenario4",
-      "header": true,
-      "texts": {
-        "en": "Scenario 4: Progress & Experience — กำลัง/แล้ว/เคย",
-        "th": "สถานการณ์ 4: ความคืบหน้าและประสบการณ์ — กำลัง/แล้ว/เคย",
-        "fa": "سناریو ۴: پیشرفت و تجربه — กำลัง/แล้ว/เคย",
-        "ar": "السيناريو 4: التقدم والتجربة — กำลัง/แล้ว/เคย",
-        "es": "Escenario 4: Progreso y experiencia — กำลัง/แล้ว/เคย",
-        "zh": "场景四：进行与经验——กำลัง/แล้ว/เคย",
-        "ja": "シナリオ4：進行と経験 — กำลัง/แล้ว/เคย"
-      }
-    },
-    {
-      "id": "sentence_plan_planning_now",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_progressive", "word_plan", "word_trip"],
-      "texts": {
-        "en": "I am planning the trip now",
-        "th": "ฉันกำลังวางแผนการเดินทางค่ะ",
-        "fa": "من الان دارم سفر را برنامه‌ریزی می‌کنم",
-        "ar": "أنا أخطط للرحلة الآن",
-        "es": "Estoy planificando el viaje ahora",
-        "zh": "我正在计划行程",
-        "ja": "今旅行を計画しています"
-      },
-      "tokens": {
-        "en": ["I", "am", "planning", "the", "trip", "now"],
-        "th": ["ฉัน", "กำลัง", "วางแผน", "การเดินทาง", "ค่ะ"],
-        "fa": ["من", "الان", "دارم", "سفر", "را", "برنامه‌ریزی", "می‌کنم"],
-        "ar": ["أنا", "أخطط", "للرحلة", "الآن"],
-        "es": ["Estoy", "planificando", "el", "viaje", "ahora"],
-        "zh": ["我", "正在", "计划", "行程"],
-        "ja": ["今", "旅行", "を", "計画", "して", "います"]
-      }
-    },
-    {
-      "id": "sentence_plan_booked_already",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_book", "word_tour", "word_already"],
-      "texts": {
-        "en": "I have already booked the tour",
-        "th": "ฉันจองทัวร์แล้วค่ะ",
-        "fa": "من تور را رزرو کرده‌ام",
-        "ar": "لقد حجزت الجولة بالفعل",
-        "es": "Ya he reservado el tour",
-        "zh": "我已经预订了旅游团",
-        "ja": "もうツアーを予約しました"
-      },
-      "tokens": {
-        "en": ["I", "have", "already", "booked", "the", "tour"],
-        "th": ["ฉัน", "จอง", "ทัวร์", "แล้ว", "ค่ะ"],
-        "fa": ["من", "تور", "را", "رزرو", "کرده‌ام"],
-        "ar": ["لقد", "حجزت", "الجولة", "بالفعل"],
-        "es": ["Ya", "he", "reservado", "el", "tour"],
-        "zh": ["我", "已经", "预订", "了", "旅游团"],
-        "ja": ["もう", "ツアー", "を", "予約", "し", "ました"]
-      }
-    },
-    {
-      "id": "sentence_plan_hotel_booked",
-      "kind": "sentence",
-      "itemIds": ["word_i", "word_book", "word_hotel", "word_already"],
-      "texts": {
-        "en": "I have booked the hotel",
-        "th": "ฉันจองโรงแรมแล้วครับ",
-        "fa": "من هتل را رزرو کرده‌ام",
-        "ar": "لقد حجزت الفندق",
-        "es": "He reservado el hotel",
-        "zh": "我已经预订了酒店",
-        "ja": "ホテルを予約しました"
-      },
-      "tokens": {
-        "en": ["I", "have", "booked", "the", "hotel"],
-        "th": ["ฉัน", "จอง", "โรงแรม", "แล้ว", "ครับ"],
-        "fa": ["من", "هتل", "را", "رزرو", "کرده‌ام"],
-        "ar": ["لقد", "حجزت", "الفندق"],
-        "es": ["He", "reservado", "el", "hotel"],
-        "zh": ["我", "已经", "预订", "了", "酒店"],
-        "ja": ["ホテル", "を", "予約", "し", "ました"]
-      }
-    },
-    {
-      "id": "sentence_plan_ever_been_question",
-      "kind": "sentence",
-      "itemIds": [
-        "word_you",
-        "word_ever",
-        "word_go",
-        "word_mountain",
-        "word_question_particle"
-      ],
-      "texts": {
-        "en": "Have you ever been to the mountains?",
-        "th": "คุณเคยไปภูเขาไหมครับ",
-        "fa": "آیا تا به حال به کوه رفته‌اید؟",
-        "ar": "هل سبق أن ذهبت إلى الجبال؟",
-        "es": "¿Alguna vez has ido a la montaña?",
-        "zh": "你曾经去过山里吗？",
-        "ja": "山に行ったことはありますか？"
-      },
-      "tokens": {
-        "en": ["Have", "you", "ever", "been", "to", "the", "mountains?"],
-        "th": ["คุณ", "เคย", "ไป", "ภูเขา", "ไหม", "ครับ"],
-        "fa": ["آیا", "تا", "به", "حال", "به", "کوه", "رفته‌اید؟"],
-        "ar": ["هل", "سبق", "أن", "ذهبت", "إلى", "الجبال؟"],
-        "es": ["¿Alguna", "vez", "has", "ido", "a", "la", "montaña?"],
-        "zh": ["你", "曾经", "去过", "山里", "吗？"],
-        "ja": ["山", "に", "行った", "こと", "は", "あります", "か？"]
-      }
-    },
-    {
-      "id": "word_plan",
-      "kind": "word",
-      "texts": {
-        "en": "plan (to plan)",
-        "th": "วางแผน",
-        "fa": "برنامه‌ریزی کردن",
-        "ar": "يخطط",
-        "es": "planear / planificar",
-        "zh": "计划 / 规划",
-        "ja": "計画する"
-      }
-    },
-    {
-      "id": "word_hotel",
-      "kind": "word",
+      "id": "w7",
+      "kind": "Word",
       "texts": {
         "en": "hotel",
         "th": "โรงแรม",
         "fa": "هتل",
         "ar": "فندق",
         "es": "hotel",
-        "zh": "酒店 / 旅馆",
+        "zh": "酒店",
         "ja": "ホテル"
       }
     },
     {
-      "id": "header_scenario5",
-      "header": true,
+      "id": "w8",
+      "kind": "Word",
       "texts": {
-        "en": "Scenario 5: Conditionals — ถ้า...ก็...",
-        "th": "สถานการณ์ 5: ประโยคเงื่อนไข — ถ้า...ก็...",
-        "fa": "سناریو ۵: جملات شرطی — ถ้า...ก็...",
-        "ar": "السيناريو 5: الجمل الشرطية — ถ้า...ก็...",
-        "es": "Escenario 5: Condicionales — ถ้า...ก็...",
-        "zh": "场景五：条件句——ถ้า...ก็...",
-        "ja": "シナリオ5：条件文 — ถ้า...ก็..."
+        "en": "reserve",
+        "th": "จอง",
+        "fa": "رزرو",
+        "ar": "حجز",
+        "es": "reservar",
+        "zh": "预订",
+        "ja": "予約"
       }
     },
     {
-      "id": "sentence_plan_if_rain",
-      "kind": "sentence",
-      "itemIds": [
-        "word_if",
-        "word_rain",
-        "word_we",
-        "word_then",
-        "word_will",
-        "word_stay",
-        "word_hotel"
-      ],
+      "id": "w9",
+      "kind": "Word",
       "texts": {
-        "en": "If it rains, we will stay at the hotel",
-        "th": "ถ้าฝนตก เราก็จะพักโรงแรมครับ",
-        "fa": "اگر باران ببارد، در هتل می‌مانیم",
-        "ar": "إذا أمطرت، سنبقى في الفندق",
-        "es": "Si llueve, nos quedaremos en el hotel",
-        "zh": "如果下雨，我们就住在酒店",
-        "ja": "もし雨が降ったら、ホテルに泊まります"
+        "en": "ticket",
+        "th": "ตั๋ว",
+        "fa": "بلیط",
+        "ar": "تذكرة",
+        "es": "boleto",
+        "zh": "票",
+        "ja": "切符"
+      }
+    },
+    {
+      "id": "w10",
+      "kind": "Word",
+      "texts": {
+        "en": "room",
+        "th": "ห้อง",
+        "fa": "اتاق",
+        "ar": "غرفة",
+        "es": "habitación",
+        "zh": "房间",
+        "ja": "部屋"
+      }
+    },
+    {
+      "id": "s6",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I need to book a flight.",
+        "th": "ฉันต้องจองเที่ยวบิน",
+        "fa": "من باید یک پرواز رزرو کنم.",
+        "ar": "أحتاج إلى حجز رحلة طيران.",
+        "es": "Necesito reservar un vuelo.",
+        "zh": "我需要预订航班。",
+        "ja": "フライトを予約する必要があります。"
       },
       "tokens": {
-        "en": [
-          "If",
-          "it",
-          "rains,",
-          "we",
-          "will",
-          "stay",
-          "at",
-          "the",
-          "hotel"
-        ],
-        "th": ["ถ้า", "ฝนตก", "เรา", "ก็", "จะ", "พัก", "โรงแรม", "ครับ"],
-        "fa": ["اگر", "باران", "ببارد،", "در", "هتل", "می‌مانیم"],
-        "ar": ["إذا", "أمطرت،", "سنبقى", "في", "الفندق"],
-        "es": ["Si", "llueve,", "nos", "quedaremos", "en", "el", "hotel"],
-        "zh": ["如果", "下雨，", "我们", "就", "住在", "酒店"],
+        "th": ["ฉัน", "ต้อง", "จอง", "เที่ยวบิน"],
+        "zh": ["我", "需要", "预订", "航班", "。"],
         "ja": [
-          "もし",
-          "雨",
+          "フライト",
+          "を",
+          "予約",
+          "する",
+          "必要",
           "が",
-          "降ったら、",
-          "ホテル",
-          "に",
-          "泊まり",
-          "ます"
+          "あり",
+          "ます",
+          "。"
         ]
       }
     },
     {
-      "id": "sentence_plan_if_time",
-      "kind": "sentence",
-      "itemIds": [
-        "word_if",
-        "word_have",
-        "word_time",
-        "word_we",
-        "word_then",
-        "word_will",
-        "word_go",
-        "word_beach"
-      ],
+      "id": "s7",
+      "kind": "Sentence",
       "texts": {
-        "en": "If there is time, we will go to the beach",
-        "th": "ถ้ามีเวลา เราก็จะไปชายหาดค่ะ",
-        "fa": "اگر وقت داشته باشیم، به ساحل می‌رویم",
-        "ar": "إذا كان لدينا وقت، سنذهب إلى الشاطئ",
-        "es": "Si hay tiempo, iremos a la playa",
-        "zh": "如果有时间，我们就去海滩",
-        "ja": "時間があれば、ビーチに行きます"
+        "en": "The hotel is fully booked.",
+        "th": "โรงแรมเต็มแล้ว",
+        "fa": "هتل کاملاً رزرو شده است.",
+        "ar": "الفندق محجوز بالكامل.",
+        "es": "El hotel está completamente reservado.",
+        "zh": "酒店已经订满了。",
+        "ja": "ホテルは満室です。"
       },
       "tokens": {
-        "en": [
-          "If",
-          "there",
-          "is",
-          "time,",
-          "we",
-          "will",
-          "go",
-          "to",
-          "the",
-          "beach"
-        ],
-        "th": ["ถ้า", "มี", "เวลา", "เรา", "ก็", "จะ", "ไป", "ชายหาด", "ค่ะ"],
-        "fa": ["اگر", "وقت", "داشته", "باشیم،", "به", "ساحل", "می‌رویم"],
-        "ar": ["إذا", "كان", "لدينا", "وقت،", "سنذهب", "إلى", "الشاطئ"],
-        "es": ["Si", "hay", "tiempo,", "iremos", "a", "la", "playa"],
-        "zh": ["如果", "有", "时间，", "我们", "就", "去", "海滩"],
-        "ja": ["時間", "が", "あれば、", "ビーチ", "に", "行き", "ます"]
+        "th": ["โรงแรม", "เต็ม", "แล้ว"],
+        "zh": ["酒店", "已经", "订满", "了", "。"],
+        "ja": ["ホテル", "は", "満室", "です", "。"]
       }
     },
     {
-      "id": "sentence_plan_if_book_guide",
-      "kind": "sentence",
-      "itemIds": [
-        "word_if",
-        "word_book",
-        "word_tour",
-        "word_we",
-        "word_then",
-        "word_will",
-        "word_guide"
-      ],
+      "id": "s8",
+      "kind": "Sentence",
       "texts": {
-        "en": "If we book a tour, we will get a guide",
-        "th": "ถ้าจองทัวร์ เราก็จะได้ไกด์ครับ",
-        "fa": "اگر تور رزرو کنیم، راهنما خواهیم داشت",
-        "ar": "إذا حجزنا جولة، سنحصل على مرشد",
-        "es": "Si reservamos un tour, tendremos un guía",
-        "zh": "如果预订旅游团，我们就会有导游",
-        "ja": "ツアーを予約すれば、ガイドが付きます"
+        "en": "We reserved a double room.",
+        "th": "เราจองห้องคู่",
+        "fa": "ما یک اتاق دو تخته رزرو کردیم.",
+        "ar": "حجزنا غرفة مزدوجة.",
+        "es": "Reservamos una habitación doble.",
+        "zh": "我们预订了一间双人房。",
+        "ja": "私たちはダブルルームを予約しました。"
       },
       "tokens": {
-        "en": [
-          "If",
-          "we",
-          "book",
-          "a",
-          "tour,",
-          "we",
-          "will",
-          "get",
-          "a",
-          "guide"
-        ],
-        "th": ["ถ้า", "จอง", "ทัวร์", "เรา", "ก็", "จะ", "ได้", "ไกด์", "ครับ"],
-        "fa": ["اگر", "تور", "رزرو", "کنیم،", "راهنما", "خواهیم", "داشت"],
-        "ar": ["إذا", "حجزنا", "جولة،", "سنحصل", "على", "مرشد"],
-        "es": ["Si", "reservamos", "un", "tour,", "tendremos", "un", "guía"],
-        "zh": ["如果", "预订", "旅游团，", "我们", "就", "会", "有", "导游"],
+        "th": ["เรา", "จอง", "ห้อง", "คู่"],
+        "zh": ["我们", "预订", "了", "一", "间", "双人房", "。"],
         "ja": [
+          "私",
+          "たち",
+          "は",
+          "ダブル",
+          "ルーム",
+          "を",
+          "予約",
+          "し",
+          "まし",
+          "た",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s9",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I bought my ticket online.",
+        "th": "ฉันซื้อตั๋วออนไลน์",
+        "fa": "من بلیط خود را آنلاین خریدم.",
+        "ar": "اشتريت تذكرتي عبر الإنترنت.",
+        "es": "Compré mi boleto en línea.",
+        "zh": "我在网上买了票。",
+        "ja": "私はオンラインで切符を買いました。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ซื้อ", "ตั๋ว", "ออนไลน์"],
+        "zh": ["我", "在", "网上", "买", "了", "票", "。"],
+        "ja": [
+          "私",
+          "は",
+          "オンライン",
+          "で",
+          "切符",
+          "を",
+          "買い",
+          "まし",
+          "た",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s10",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The room has a nice view.",
+        "th": "ห้องนี้มีวิวที่ดี",
+        "fa": "این اتاق منظره خوبی دارد.",
+        "ar": "الغرفة لها منظر جميل.",
+        "es": "La habitación tiene una buena vista.",
+        "zh": "这个房间视野很好。",
+        "ja": "この部屋は景色が良いです。"
+      },
+      "tokens": {
+        "th": ["ห้อง", "นี้", "มี", "วิว", "ที่", "ดี"],
+        "zh": ["这个", "房间", "视野", "很", "好", "。"],
+        "ja": ["この", "部屋", "は", "景色", "が", "良い", "です", "。"]
+      }
+    },
+
+    {
+      "id": "h3",
+      "header": true,
+      "texts": {
+        "en": "Scenario 3: Packing Essentials",
+        "th": "สถานการณ์ที่ 3: การเตรียมสัมภาระที่จำเป็น",
+        "fa": "سناریو ۳: بسته‌بندی ضروریات",
+        "ar": "السيناريو 3: تعبئة الأساسيات",
+        "es": "Escenario 3: Empacar lo esencial",
+        "zh": "场景 3：打包必需品",
+        "ja": "シナリオ 3：必需品のパッキング"
+      }
+    },
+    {
+      "id": "w11",
+      "kind": "Word",
+      "texts": {
+        "en": "suitcase",
+        "th": "กระเป๋าเดินทาง",
+        "fa": "چمدان",
+        "ar": "حقيبة سفر",
+        "es": "maleta",
+        "zh": "行李箱",
+        "ja": "スーツケース"
+      }
+    },
+    {
+      "id": "w12",
+      "kind": "Word",
+      "texts": {
+        "en": "clothes",
+        "th": "เสื้อผ้า",
+        "fa": "لباس",
+        "ar": "ملابس",
+        "es": "ropa",
+        "zh": "衣服",
+        "ja": "服"
+      }
+    },
+    {
+      "id": "w13",
+      "kind": "Word",
+      "texts": {
+        "en": "passport",
+        "th": "หนังสือเดินทาง",
+        "fa": "گذرنامه",
+        "ar": "جواز سفر",
+        "es": "pasaporte",
+        "zh": "护照",
+        "ja": "パスポート"
+      }
+    },
+    {
+      "id": "w14",
+      "kind": "Word",
+      "texts": {
+        "en": "charger",
+        "th": "ที่ชาร์จ",
+        "fa": "شارژر",
+        "ar": "شاحن",
+        "es": "cargador",
+        "zh": "充电器",
+        "ja": "充電器"
+      }
+    },
+    {
+      "id": "w15",
+      "kind": "Word",
+      "texts": {
+        "en": "forget",
+        "th": "ลืม",
+        "fa": "فراموش کردن",
+        "ar": "نسيان",
+        "es": "olvidar",
+        "zh": "忘记",
+        "ja": "忘れる"
+      }
+    },
+    {
+      "id": "s11",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Pack your suitcase carefully.",
+        "th": "จัดกระเป๋าเดินทางของคุณอย่างระมัดระวัง",
+        "fa": "چمدان خود را با دقت بسته‌بندی کنید.",
+        "ar": "عبئ حقيبتك بعناية.",
+        "es": "Empaca tu maleta con cuidado.",
+        "zh": "仔细打包你的行李箱。",
+        "ja": "スーツケースを慎重にパッキングしてください。"
+      },
+      "tokens": {
+        "th": ["จัด", "กระเป๋าเดินทาง", "ของ", "คุณ", "อย่าง", "ระมัดระวัง"],
+        "zh": ["仔细", "打包", "你", "的", "行李箱", "。"],
+        "ja": [
+          "スーツケース",
+          "を",
+          "慎重",
+          "に",
+          "パッキング",
+          "し",
+          "て",
+          "ください",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I need to bring warm clothes.",
+        "th": "ฉันต้องนำเสื้อผ้าอุ่นๆ มาด้วย",
+        "fa": "من باید لباس گرم بیاورم.",
+        "ar": "أحتاج إلى إحضار ملابس دافئة.",
+        "es": "Necesito traer ropa abrigada.",
+        "zh": "我需要带保暖的衣服。",
+        "ja": "暖かい服を持っていく必要があります。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้อง", "นำ", "เสื้อผ้า", "อุ่นๆ", "มา", "ด้วย"],
+        "zh": ["我", "需要", "带", "保暖", "的", "衣服", "。"],
+        "ja": [
+          "暖かい",
+          "服",
+          "を",
+          "持って",
+          "いく",
+          "必要",
+          "が",
+          "あり",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Do not forget your passport.",
+        "th": "อย่าลืมหนังสือเดินทางของคุณ",
+        "fa": "گذرنامه خود را فراموش نکنید.",
+        "ar": "لا تنس جواز سفرك.",
+        "es": "No olvides tu pasaporte.",
+        "zh": "别忘了你的护照。",
+        "ja": "パスポートを忘れないでください。"
+      },
+      "tokens": {
+        "th": ["อย่า", "ลืม", "หนังสือเดินทาง", "ของ", "คุณ"],
+        "zh": ["别", "忘", "了", "你", "的", "护照", "。"],
+        "ja": ["パスポート", "を", "忘れ", "ない", "で", "ください", "。"]
+      }
+    },
+    {
+      "id": "s14",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I have my phone charger.",
+        "th": "ฉันมีที่ชาร์จโทรศัพท์",
+        "fa": "من شارژر تلفن خود را دارم.",
+        "ar": "لدي شاحن هاتفي.",
+        "es": "Tengo el cargador de mi teléfono.",
+        "zh": "我有手机充电器。",
+        "ja": "私は携帯電話の充電器を持っています。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "มี", "ที่ชาร์จ", "โทรศัพท์"],
+        "zh": ["我", "有", "手机", "充电器", "。"],
+        "ja": [
+          "私",
+          "は",
+          "携帯電話",
+          "の",
+          "充電器",
+          "を",
+          "持って",
+          "い",
+          "ます",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s15",
+      "kind": "Sentence",
+      "texts": {
+        "en": "The bag is too heavy.",
+        "th": "กระเป๋านี้หนักเกินไป",
+        "fa": "کیف خیلی سنگین است.",
+        "ar": "الحقيبة ثقيلة جداً.",
+        "es": "La bolsa es demasiado pesada.",
+        "zh": "这个包太重了。",
+        "ja": "このかばんは重すぎます。"
+      },
+      "tokens": {
+        "th": ["กระเป๋า", "นี้", "หนัก", "เกิน", "ไป"],
+        "zh": ["这个", "包", "太", "重", "了", "。"],
+        "ja": ["この", "かばん", "は", "重すぎ", "ます", "。"]
+      }
+    },
+
+    {
+      "id": "h4",
+      "header": true,
+      "texts": {
+        "en": "Scenario 4: Itinerary & Activities",
+        "th": "สถานการณ์ที่ 4: แผนการเดินทางและกิจกรรม",
+        "fa": "سناریو ۴: برنامه سفر و فعالیت‌ها",
+        "ar": "السيناريو 4: الجدول الزمني والأنشطة",
+        "es": "Escenario 4: Itinerario y actividades",
+        "zh": "场景 4：行程与活动",
+        "ja": "シナリオ 4：旅程と活動"
+      }
+    },
+    {
+      "id": "w16",
+      "kind": "Word",
+      "texts": {
+        "en": "schedule",
+        "th": "ตารางเวลา",
+        "fa": "برنامه",
+        "ar": "جدول",
+        "es": "horario",
+        "zh": "日程",
+        "ja": "スケジュール"
+      }
+    },
+    {
+      "id": "w17",
+      "kind": "Word",
+      "texts": {
+        "en": "tour",
+        "th": "ทัวร์",
+        "fa": "تور",
+        "ar": "جولة",
+        "es": "tour",
+        "zh": "旅游",
+        "ja": "ツアー"
+      }
+    },
+    {
+      "id": "w18",
+      "kind": "Word",
+      "texts": {
+        "en": "guide",
+        "th": "ไกด์",
+        "fa": "راهنما",
+        "ar": "دليل",
+        "es": "guía",
+        "zh": "导游",
+        "ja": "ガイド"
+      }
+    },
+    {
+      "id": "w19",
+      "kind": "Word",
+      "texts": {
+        "en": "museum",
+        "th": "พิพิธภัณฑ์",
+        "fa": "موزه",
+        "ar": "متحف",
+        "es": "museo",
+        "zh": "博物馆",
+        "ja": "博物館"
+      }
+    },
+    {
+      "id": "w20",
+      "kind": "Word",
+      "texts": {
+        "en": "free",
+        "th": "ว่าง/อิสระ",
+        "fa": "آزاد",
+        "ar": "حر",
+        "es": "libre",
+        "zh": "自由",
+        "ja": "自由"
+      }
+    },
+    {
+      "id": "s16",
+      "kind": "Sentence",
+      "texts": {
+        "en": "What is the schedule for today?",
+        "th": "ตารางเวลาของวันนี้คืออะไร",
+        "fa": "برنامه امروز چیست؟",
+        "ar": "ما هو جدول اليوم؟",
+        "es": "¿Cuál es el horario de hoy?",
+        "zh": "今天的日程是什么？",
+        "ja": "今日のスケジュールは何ですか？"
+      },
+      "tokens": {
+        "th": ["ตารางเวลา", "ของ", "วันนี้", "คือ", "อะไร"],
+        "zh": ["今天", "的", "日程", "是", "什么", "？"],
+        "ja": ["今日", "の", "スケジュール", "は", "何", "です", "か", "？"]
+      }
+    },
+    {
+      "id": "s17",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We booked a city tour.",
+        "th": "เราจองทัวร์ชมเมือง",
+        "fa": "ما یک تور شهری رزرو کردیم.",
+        "ar": "حجزنا جولة في المدينة.",
+        "es": "Reservamos un tour por la ciudad.",
+        "zh": "我们预订了城市观光游。",
+        "ja": "私たちはシティツアーを予約しました。"
+      },
+      "tokens": {
+        "th": ["เรา", "จอง", "ทัวร์", "ชม", "เมือง"],
+        "zh": ["我们", "预订", "了", "城市", "观光", "游", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "シティ",
           "ツアー",
           "を",
           "予約",
-          "すれば、",
-          "ガイド",
-          "が",
-          "付き",
-          "ます"
+          "し",
+          "まし",
+          "た",
+          "。"
         ]
       }
     },
     {
-      "id": "word_rain",
-      "kind": "word",
+      "id": "s18",
+      "kind": "Sentence",
       "texts": {
-        "en": "rain (to rain)",
-        "th": "ฝนตก",
-        "fa": "باران باریدن",
-        "ar": "يمطر",
-        "es": "llover",
-        "zh": "下雨",
-        "ja": "雨が降る"
+        "en": "The guide speaks English.",
+        "th": "ไกด์พูดภาษาอังกฤษ",
+        "fa": "راهنما انگلیسی صحبت می‌کند.",
+        "ar": "المرشد يتحدث الإنجليزية.",
+        "es": "El guía habla inglés.",
+        "zh": "导游说英语。",
+        "ja": "ガイドは英語を話します。"
+      },
+      "tokens": {
+        "th": ["ไกด์", "พูด", "ภาษา", "อังกฤษ"],
+        "zh": ["导游", "说", "英语", "。"],
+        "ja": ["ガイド", "は", "英語", "を", "話し", "ます", "。"]
       }
     },
     {
-      "id": "word_time",
-      "kind": "word",
+      "id": "s19",
+      "kind": "Sentence",
       "texts": {
-        "en": "time",
-        "th": "เวลา",
-        "fa": "وقت / زمان",
-        "ar": "وقت",
-        "es": "tiempo",
-        "zh": "时间",
-        "ja": "時間"
+        "en": "We will visit the museum.",
+        "th": "เราจะไปเยี่ยมชมพิพิธภัณฑ์",
+        "fa": "ما از موزه بازدید خواهیم کرد.",
+        "ar": "سنزور المتحف.",
+        "es": "Visitaremos el museo.",
+        "zh": "我们将参观博物馆。",
+        "ja": "私たちは博物館を訪れます。"
+      },
+      "tokens": {
+        "th": ["เรา", "จะ", "ไป", "เยี่ยมชม", "พิพิธภัณฑ์"],
+        "zh": ["我们", "将", "参观", "博物馆", "。"],
+        "ja": ["私", "たち", "は", "博物館", "を", "訪れ", "ます", "。"]
+      }
+    },
+    {
+      "id": "s20",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I have free time tomorrow.",
+        "th": "ฉันมีเวลาว่างพรุ่งนี้",
+        "fa": "من فردا وقت آزاد دارم.",
+        "ar": "لدي وقت فراغ غداً.",
+        "es": "Tengo tiempo libre mañana.",
+        "zh": "我明天有空闲时间。",
+        "ja": "私は明日自由な時間があります。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "มี", "เวลา", "ว่าง", "พรุ่งนี้"],
+        "zh": ["我", "明天", "有", "空闲", "时间", "。"],
+        "ja": [
+          "私",
+          "は",
+          "明日",
+          "自由",
+          "な",
+          "時間",
+          "が",
+          "あり",
+          "ます",
+          "。"
+        ]
+      }
+    },
+
+    {
+      "id": "h5",
+      "header": true,
+      "texts": {
+        "en": "Scenario 5: Budget & Expenses",
+        "th": "สถานการณ์ที่ 5: งบประมาณและค่าใช้จ่าย",
+        "fa": "سناریو ۵: بودجه و هزینه‌ها",
+        "ar": "السيناريو 5: الميزانية والنفقات",
+        "es": "Escenario 5: Presupuesto y gastos",
+        "zh": "场景 5：预算与开销",
+        "ja": "シナリオ 5：予算と経費"
+      }
+    },
+    {
+      "id": "w21",
+      "kind": "Word",
+      "texts": {
+        "en": "budget",
+        "th": "งบประมาณ",
+        "fa": "بودجه",
+        "ar": "ميزانية",
+        "es": "presupuesto",
+        "zh": "预算",
+        "ja": "予算"
+      }
+    },
+    {
+      "id": "w22",
+      "kind": "Word",
+      "texts": {
+        "en": "expensive",
+        "th": "แพง",
+        "fa": "گران",
+        "ar": "غالي",
+        "es": "caro",
+        "zh": "贵",
+        "ja": "高い"
+      }
+    },
+    {
+      "id": "w23",
+      "kind": "Word",
+      "texts": {
+        "en": "cheap",
+        "th": "ถูก",
+        "fa": "ارزان",
+        "ar": "رخيص",
+        "es": "barato",
+        "zh": "便宜",
+        "ja": "安い"
+      }
+    },
+    {
+      "id": "w24",
+      "kind": "Word",
+      "texts": {
+        "en": "save",
+        "th": "ประหยัด",
+        "fa": "پس‌انداز",
+        "ar": "توفير",
+        "es": "ahorrar",
+        "zh": "节省",
+        "ja": "節約"
+      }
+    },
+    {
+      "id": "w25",
+      "kind": "Word",
+      "texts": {
+        "en": "spend",
+        "th": "ใช้จ่าย",
+        "fa": "هزینه کردن",
+        "ar": "إنفاق",
+        "es": "gastar",
+        "zh": "花费",
+        "ja": "使う"
+      }
+    },
+    {
+      "id": "s21",
+      "kind": "Sentence",
+      "texts": {
+        "en": "What is your travel budget?",
+        "th": "งบประมาณการเดินทางของคุณคือเท่าไหร่",
+        "fa": "بودجه سفر شما چقدر است؟",
+        "ar": "ما هي ميزانية سفرك؟",
+        "es": "¿Cuál es tu presupuesto de viaje?",
+        "zh": "你的旅行预算是多少？",
+        "ja": "あなたの旅行予算はいくらですか？"
+      },
+      "tokens": {
+        "th": ["งบประมาณ", "การ", "เดินทาง", "ของ", "คุณ", "คือ", "เท่าไหร่"],
+        "zh": ["你", "的", "旅行", "预算", "是", "多少", "？"],
+        "ja": [
+          "あなた",
+          "の",
+          "旅行",
+          "予算",
+          "は",
+          "いくら",
+          "です",
+          "か",
+          "？"
+        ]
+      }
+    },
+    {
+      "id": "s22",
+      "kind": "Sentence",
+      "texts": {
+        "en": "This hotel is too expensive.",
+        "th": "โรงแรมนี้แพงเกินไป",
+        "fa": "این هتل خیلی گران است.",
+        "ar": "هذا الفندق غالي جداً.",
+        "es": "Este hotel es demasiado caro.",
+        "zh": "这家酒店太贵了。",
+        "ja": "このホテルは高すぎます。"
+      },
+      "tokens": {
+        "th": ["โรงแรม", "นี้", "แพง", "เกิน", "ไป"],
+        "zh": ["这家", "酒店", "太", "贵", "了", "。"],
+        "ja": ["この", "ホテル", "は", "高すぎ", "ます", "。"]
+      }
+    },
+    {
+      "id": "s23",
+      "kind": "Sentence",
+      "texts": {
+        "en": "We found a cheap flight.",
+        "th": "เราเจอเที่ยวบินราคาถูก",
+        "fa": "ما یک پرواز ارزان پیدا کردیم.",
+        "ar": "وجدنا رحلة طيران رخيصة.",
+        "es": "Encontramos un vuelo barato.",
+        "zh": "我们找到了便宜的航班。",
+        "ja": "私たちは安いフライトを見つけました。"
+      },
+      "tokens": {
+        "th": ["เรา", "เจอ", "เที่ยวบิน", "ราคา", "ถูก"],
+        "zh": ["我们", "找到", "了", "便宜", "的", "航班", "。"],
+        "ja": [
+          "私",
+          "たち",
+          "は",
+          "安い",
+          "フライト",
+          "を",
+          "見つけ",
+          "まし",
+          "た",
+          "。"
+        ]
+      }
+    },
+    {
+      "id": "s24",
+      "kind": "Sentence",
+      "texts": {
+        "en": "I want to save money.",
+        "th": "ฉันต้องการประหยัดเงิน",
+        "fa": "من می‌خواهم پول پس‌انداز کنم.",
+        "ar": "أريد توفير المال.",
+        "es": "Quiero ahorrar dinero.",
+        "zh": "我想省钱。",
+        "ja": "私はお金を節約したいです。"
+      },
+      "tokens": {
+        "th": ["ฉัน", "ต้องการ", "ประหยัด", "เงิน"],
+        "zh": ["我", "想", "省钱", "。"],
+        "ja": ["私", "は", "お金", "を", "節約", "し", "たい", "です", "。"]
+      }
+    },
+    {
+      "id": "s25",
+      "kind": "Sentence",
+      "texts": {
+        "en": "Do not spend too much.",
+        "th": "อย่าใช้จ่ายมากเกินไป",
+        "fa": "خیلی زیاد هزینه نکنید.",
+        "ar": "لا تنفق الكثير.",
+        "es": "No gastes demasiado.",
+        "zh": "不要花太多钱。",
+        "ja": "あまり使いすぎないでください。"
+      },
+      "tokens": {
+        "th": ["อย่า", "ใช้จ่าย", "มาก", "เกิน", "ไป"],
+        "zh": ["不要", "花", "太", "多", "钱", "。"],
+        "ja": ["あまり", "使い", "すぎ", "ない", "で", "ください", "。"]
       }
     }
   ]
