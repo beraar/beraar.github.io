@@ -1,18 +1,23 @@
-
 I have uploaded the updated configuration files: new-chat.md, manifest.json, validate-lessons.js, and tokenize-lessons.js. 
-Please generate the lesson file for lessons/grammar/ar-idafa.json.
+Please generate the lesson file for: 
+lessons/basic/yes-no-questions.json
+
 Constraints & Instructions:
 
-1. Check the manifest.json for the exact proficiency level (beginner) and generate the required minimum number of sentences (25+).
-2. Follow the Sentence-First Extraction method strictly from new-chat.md.
-3. Ensure absolutely NO trailing or leading spaces in any of the translation strings.
-4. DO NOT generate the tokens array for th, zh, and ja. My post-processing script will handle segmentation.
-5. Output ONLY the valid JSON. Do not include markdown wrappers, explanations, or conversational text.
+    1.  the manifest.json for the exact proficiency level and generate the required minimum number of sentences (Beginner: 25+, Intermediate: 35+, Advanced: 50+).
+    2. 🚨 CONVERSATION SCENARIO REQUIREMENT (Thematic Lessons): The lesson MUST be based on a realistic, everyday conversation scenario between 2 or more people. The sentences must represent actual spoken dialogue in natural, informal language (not formal, isolated, or textbook-style statements). The sequence of sentences must flow cohesively and read as a continuous, natural conversation.
+    3. Follow the Sentence-First Extraction method strictly:
+        Step 1: Define the conversation scenario.
+        Step 2: Generate the conversational sentences FIRST. 
+        Step 3: Extract the words DIRECTLY from these spoken sentences. Do NOT use dictionary/infinitive forms. The word text for every language must be an exact substring of the text in at least one sentence.
+    4. Ensure absolutely NO trailing or leading spaces in any of the translation strings.
+    5. DO NOT generate the tokens array for th, zh, and ja. My post-processing script will handle segmentation.
+    6. Output ONLY the valid JSON. Do not include markdown wrappers, explanations, or conversational text.
 
 
 ==========================================
 Files to upload for new chat:
-new-chat.md manifest.json validate-lessons.js
+new-chat.md manifest.json validate-lessons.js tokenize-lessons.js
 
 ======================================
 
