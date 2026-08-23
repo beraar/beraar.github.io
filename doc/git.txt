@@ -3,6 +3,28 @@ git push all main
 git push ebbi main
 git push beraar main
 
+===================
+
+git checkout -b new-branch
+... make changes
+if success:
+
+git add .
+git commit -m "success ..."
+
+git checkout main
+git merge new-branch
+
+If unsuccessful:
+git checkout new-branch
+git reset --hard HEAD
+
+git checkout main
+git branch -d new-branch
+
+===================
+
+
 ssh-keygen -t ed25519 -C "ebbi@github.com" -f ~/.ssh/id_ed25519_ebbi
 ssh-keygen -t ed25519 -C "beraar@github.com" -f ~/.ssh/id_ed25519_beraar
 

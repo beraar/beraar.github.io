@@ -16,12 +16,12 @@
     },
     {
       "id": "w1",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "what",
         "th": "อะไร",
         "fa": "چه",
-        "ar": "ماذا",
+        "ar": "ما",
         "es": "qué",
         "zh": "什么",
         "ja": "何"
@@ -29,11 +29,11 @@
     },
     {
       "id": "w2",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "who",
         "th": "ใคร",
-        "fa": "چه کسی",
+        "fa": "کی",
         "ar": "من",
         "es": "quién",
         "zh": "谁",
@@ -42,7 +42,7 @@
     },
     {
       "id": "w3",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "name",
         "th": "ชื่อ",
@@ -55,12 +55,12 @@
     },
     {
       "id": "w4",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "job",
-        "th": "งาน/อาชีพ",
+        "th": "งาน",
         "fa": "شغل",
-        "ar": "وظيفة",
+        "ar": "الوظيفة",
         "es": "trabajo",
         "zh": "工作",
         "ja": "仕事"
@@ -68,7 +68,7 @@
     },
     {
       "id": "w5",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "this",
         "th": "นี้",
@@ -81,7 +81,7 @@
     },
     {
       "id": "s1",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "What is this?",
         "th": "นี่คืออะไร",
@@ -99,7 +99,7 @@
     },
     {
       "id": "s2",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "Who is that?",
         "th": "นั่นคือใคร",
@@ -117,7 +117,7 @@
     },
     {
       "id": "s3",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "What is your name?",
         "th": "คุณชื่ออะไร",
@@ -135,12 +135,12 @@
     },
     {
       "id": "s4",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "What is your job?",
         "th": "คุณทำงานอะไร",
         "fa": "شغل شما چیست؟",
-        "ar": "ما هي وظيفتك؟",
+        "ar": "ما هي الوظيفة؟",
         "es": "¿Cuál es tu trabajo?",
         "zh": "你的工作是什么？",
         "ja": "あなたは何をしていますか？"
@@ -153,7 +153,7 @@
     },
     {
       "id": "s5",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "Who is he?",
         "th": "เขาคือใคร",
@@ -184,7 +184,7 @@
     },
     {
       "id": "w6",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "where",
         "th": "ที่ไหน",
@@ -197,7 +197,7 @@
     },
     {
       "id": "w7",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "bathroom",
         "th": "ห้องน้ำ",
@@ -210,7 +210,7 @@
     },
     {
       "id": "w8",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "station",
         "th": "สถานี",
@@ -223,7 +223,7 @@
     },
     {
       "id": "w9",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "from",
         "th": "จาก",
@@ -236,7 +236,7 @@
     },
     {
       "id": "w10",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "live",
         "th": "อาศัยอยู่",
@@ -249,7 +249,7 @@
     },
     {
       "id": "s6",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "Where is the bathroom?",
         "th": "ห้องน้ำอยู่ที่ไหน",
@@ -267,7 +267,7 @@
     },
     {
       "id": "s7",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "Where is the station?",
         "th": "สถานีอยู่ที่ไหน",
@@ -285,7 +285,7 @@
     },
     {
       "id": "s8",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "Where are you from?",
         "th": "คุณมาจากไหน",
@@ -303,7 +303,7 @@
     },
     {
       "id": "s9",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "Where do you live?",
         "th": "คุณอาศัยอยู่ที่ไหน",
@@ -321,7 +321,7 @@
     },
     {
       "id": "s10",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "Where is my bag?",
         "th": "กระเป๋าของฉันอยู่ที่ไหน",
@@ -352,7 +352,7 @@
     },
     {
       "id": "w11",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "when",
         "th": "เมื่อไหร่",
@@ -365,7 +365,7 @@
     },
     {
       "id": "w12",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "meeting",
         "th": "การประชุม",
@@ -378,7 +378,7 @@
     },
     {
       "id": "w13",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "wake up",
         "th": "ตื่นนอน",
@@ -391,7 +391,7 @@
     },
     {
       "id": "w14",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "open",
         "th": "เปิด",
@@ -404,7 +404,7 @@
     },
     {
       "id": "w15",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "leave",
         "th": "ออกเดินทาง",
@@ -417,7 +417,7 @@
     },
     {
       "id": "s11",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "When is the meeting?",
         "th": "การประชุมมีขึ้นเมื่อไหร่",
@@ -435,7 +435,7 @@
     },
     {
       "id": "s12",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "When do you wake up?",
         "th": "คุณตื่นนอนเมื่อไหร่",
@@ -453,7 +453,7 @@
     },
     {
       "id": "s13",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "When does the store open?",
         "th": "ร้านเปิดเมื่อไหร่",
@@ -471,7 +471,7 @@
     },
     {
       "id": "s14",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "When are you leaving?",
         "th": "คุณจะออกเดินทางเมื่อไหร่",
@@ -489,7 +489,7 @@
     },
     {
       "id": "s15",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "When is your birthday?",
         "th": "วันเกิดของคุณคือเมื่อไหร่",
@@ -520,7 +520,7 @@
     },
     {
       "id": "w16",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "why",
         "th": "ทำไม",
@@ -533,7 +533,7 @@
     },
     {
       "id": "w17",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "because",
         "th": "เพราะว่า",
@@ -546,7 +546,7 @@
     },
     {
       "id": "w18",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "late",
         "th": "สาย",
@@ -559,7 +559,7 @@
     },
     {
       "id": "w19",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "happy",
         "th": "มีความสุข",
@@ -572,7 +572,7 @@
     },
     {
       "id": "w20",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "stop",
         "th": "หยุด",
@@ -585,7 +585,7 @@
     },
     {
       "id": "s16",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "Why are you late?",
         "th": "ทำไมคุณมาสาย",
@@ -603,7 +603,7 @@
     },
     {
       "id": "s17",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "Why is she happy?",
         "th": "ทำไมเธอถึงมีความสุข",
@@ -621,7 +621,7 @@
     },
     {
       "id": "s18",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "Why are we stopping?",
         "th": "ทำไมเราถึงหยุด",
@@ -639,7 +639,7 @@
     },
     {
       "id": "s19",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "Why do you like it?",
         "th": "ทำไมคุณถึงชอบมัน",
@@ -657,7 +657,7 @@
     },
     {
       "id": "s20",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "Why is the shop closed?",
         "th": "ทำไมร้านถึงปิด",
@@ -688,7 +688,7 @@
     },
     {
       "id": "w21",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "how",
         "th": "อย่างไร",
@@ -701,7 +701,7 @@
     },
     {
       "id": "w22",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "much",
         "th": "มาก/เท่าไหร่",
@@ -714,7 +714,7 @@
     },
     {
       "id": "w23",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "many",
         "th": "หลาย/กี่",
@@ -727,7 +727,7 @@
     },
     {
       "id": "w24",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "make",
         "th": "ทำ/สร้าง",
@@ -740,7 +740,7 @@
     },
     {
       "id": "w25",
-      "kind": "Word",
+      "kind": "word",
       "texts": {
         "en": "go",
         "th": "ไป",
@@ -753,7 +753,7 @@
     },
     {
       "id": "s21",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "How much is this?",
         "th": "อันนี้เท่าไหร่",
@@ -771,7 +771,7 @@
     },
     {
       "id": "s22",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "How do you make this?",
         "th": "คุณทำสิ่งนี้ได้อย่างไร",
@@ -789,7 +789,7 @@
     },
     {
       "id": "s23",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "How many are there?",
         "th": "มีกี่อัน",
@@ -807,7 +807,7 @@
     },
     {
       "id": "s24",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "How are you?",
         "th": "คุณเป็นอย่างไรบ้าง",
@@ -825,7 +825,7 @@
     },
     {
       "id": "s25",
-      "kind": "Sentence",
+      "kind": "sentence",
       "texts": {
         "en": "How do we go there?",
         "th": "เราไปที่นั่นอย่างไร",

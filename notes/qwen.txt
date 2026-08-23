@@ -1,1 +1,36 @@
-- With the recent changes, the "Getting Started" text needs an update. 
+
+I have uploaded the updated configuration files: new-chat.md, manifest.json, validate-lessons.js, and tokenize-lessons.js. 
+Please generate the lesson file for lessons/grammar/th-politeness-particles.json.
+Constraints & Instructions:
+
+1. Check the manifest.json for the exact proficiency level (beginner) and generate the required minimum number of sentences (25+).
+2. Follow the Sentence-First Extraction method strictly from new-chat.md.
+3. Ensure absolutely NO trailing or leading spaces in any of the translation strings.
+4. DO NOT generate the tokens array for th, zh, and ja. My post-processing script will handle segmentation.
+5. Output ONLY the valid JSON. Do not include markdown wrappers, explanations, or conversational text.
+
+
+==========================================
+Files to upload for new chat:
+new-chat.md manifest.json validate-lessons.js
+
+======================================
+
+How your new workflow looks:
+
+1. Paste the prompt into a fresh chat. The LLM generates the JSON in ~10 seconds with 0 validation errors regarding tokens.
+
+2. Run the tokenizer: node tools/tokenize-lessons.js lessons/grammar/universal-reported-speecjsonh.
+
+3. Run the validator: node tools/validate-lessons.js lessons/grammar/universal-reported-speech.json -> ✅ PASSED.
+
+
+===========================
+The two step method still returns errors for a similar repeated generation as the previous method!  Please advise.
+
+berar@berar:/run/media/berar/backup-disk/code/zabon$ node tools/tokenize-lessons.js lessons/grammar/universal-requests-imperatives.json
+🔧 Tokenizing: /run/media/berar/backup-disk/code/zabon/lessons/grammar/universal-requests-imperatives.json
+✅ Success! Injected tokens for 105 sentence-language pairs.
+👉 Now run: node tools/validate-lessons.js lessons/grammar/universal-requests-imperatives.json
+berar@berar:/run/media/berar/backup-disk/code/zabon$ node tools/validate-lessons.js lessons/grammar/universal-requests-imperatives.json
+🔍 Validating: lessons/grammar/universal-requests-imperatives.json
