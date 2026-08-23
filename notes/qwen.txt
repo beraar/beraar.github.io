@@ -1,6 +1,6 @@
 
 I have uploaded the updated configuration files: new-chat.md, manifest.json, validate-lessons.js, and tokenize-lessons.js. 
-Please generate the lesson file for lessons/grammar/th-politeness-particles.json.
+Please generate the lesson file for lessons/grammar/ar-idafa.json.
 Constraints & Instructions:
 
 1. Check the manifest.json for the exact proficiency level (beginner) and generate the required minimum number of sentences (25+).
