@@ -1,7 +1,7 @@
 I am working on the Zabon language learning app. I need you to generate a lesson data file (JSON) for a specific lesson path defined in my `manifest.json` uploaded in this message.
 
 The lesson path is:
-lessons/basics/yes-no-questions.json
+lessons/accommodation/hotel-requests.json
 
 Here are the strict constraints and instructions you MUST follow:
 
