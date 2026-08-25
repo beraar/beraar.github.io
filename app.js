@@ -2485,10 +2485,8 @@
     };
   }
 
-  function normalizeLessonLanguages(saved) {
-    const targetLang = state?.settings?.targetLanguage;
+  function normalizeLessonLanguages(saved, targetLang) {
     if (!targetLang) return [];
-
     // Bridge language: browser default or 'en'
     const browserLang = (navigator.language || "").toLowerCase().split("-")[0];
     const bridgeLang =
@@ -2497,10 +2495,8 @@
         : registry.has("en") && "en" !== targetLang
           ? "en"
           : null;
-
     const defaults = [targetLang];
     if (bridgeLang) defaults.push(bridgeLang);
-
     if (Array.isArray(saved)) {
       const filtered = saved.filter((code) => registry.has(code));
       if (filtered.length) return filtered;
@@ -3986,13 +3982,16 @@
     quizSession = null;
     buildSession = null;
     buildCurrent = null;
+
     openLessonSections.clear();
-    const hasSentenceItems = currentLesson.items.some(
-      (item) => !item.header && dataService.getItemKind(item) === "sentence",
-    );
-    openLessonSections.add(
-      hasSentenceItems ? "lesson:sentences" : "lesson:words",
-    );
+
+    // Dynamically open all scenario and vocabulary sections by default on first load
+    for (const item of currentLesson.items) {
+      if (item.header) {
+        openLessonSections.add(`lesson:section:${item.id}`);
+      }
+    }
+
     resetQuizSessionSeed();
     ensureExerciseConfigs();
     renderLesson();
@@ -4028,35 +4027,72 @@
         "";
     }
   }
+
   function splitItemsByKind(items) {
     const list = Array.isArray(items) ? items : [];
     const headerTargets = new Map();
+
+    // First pass: determine what follows each header
     for (let i = 0; i < list.length; i += 1) {
       const header = list[i];
       if (!header?.header) continue;
+
       let hasWord = false;
       let hasSentence = false;
-      for (let j = i + 1; j < list.length && !list[j].header; j += 1) {
-        if (dataService.getItemKind(list[j]) === "sentence") hasSentence = true;
+
+      for (let j = i + 1; j < list.length; j += 1) {
+        const nextItem = list[j];
+        if (!nextItem) break;
+        if (nextItem.header) break; // Stop at the next header
+
+        const kind = dataService.getItemKind(nextItem);
+        if (kind === "sentence") hasSentence = true;
         else hasWord = true;
       }
-      headerTargets.set(header, { hasWord, hasSentence });
+
+      // FIX: Always mark headers as having content if they are valid headers,
+      // so they don't disappear if they are consecutive or at the end of the file.
+      headerTargets.set(header, {
+        hasWord: hasWord || !hasSentence,
+        hasSentence,
+      });
     }
+
     const wordItems = [];
     const sentenceItems = [];
+
     for (const item of list) {
       if (item.header) {
-        const targets = headerTargets.get(item) || {};
+        const targets = headerTargets.get(item) || {
+          hasWord: true,
+          hasSentence: false,
+        };
         if (targets.hasWord) wordItems.push(item);
         if (targets.hasSentence) sentenceItems.push(item);
         continue;
       }
-      if (dataService.getItemKind(item) === "sentence")
+
+      // Fallback: If an item lacks "kind" but has no spaces and is short, treat as word
+      // to prevent it from being hidden in the "Sentences" section unexpectedly.
+      const kind = dataService.getItemKind(item);
+      if (kind === "sentence") {
+        const text = dataService.getText(
+          item,
+          state.settings.targetLanguage || "en",
+        );
+        if (text && !text.includes(" ") && text.length < 15) {
+          wordItems.push(item);
+          continue;
+        }
         sentenceItems.push(item);
-      else wordItems.push(item);
+      } else {
+        wordItems.push(item);
+      }
     }
+
     return { wordItems, sentenceItems };
   }
+
   function renderLesson() {
     showView("lesson");
     const view = elements.lessonView;
@@ -4093,19 +4129,45 @@
       view.appendChild(makeEmptyState(t("noLanguagesSelected")));
       return;
     }
+
     const items = currentLesson.items;
-    const { wordItems, sentenceItems } = splitItemsByKind(items);
-    view.appendChild(
-      renderLessonSection(t("words"), wordItems, langs, "lesson:words"),
-    );
-    view.appendChild(
-      renderLessonSection(
-        t("sentences"),
-        sentenceItems,
-        langs,
-        "lesson:sentences",
-      ),
-    );
+
+    // --- DYNAMIC GROUPING: Group items sequentially by their headers ---
+    const sections = [];
+    let currentSection = { header: null, items: [] };
+
+    for (const item of items) {
+      if (item.header) {
+        if (currentSection.header || currentSection.items.length > 0) {
+          sections.push(currentSection);
+        }
+        currentSection = { header: item, items: [] };
+      } else {
+        currentSection.items.push(item);
+      }
+    }
+    if (currentSection.header || currentSection.items.length > 0) {
+      sections.push(currentSection);
+    }
+
+    // Render each grouped section as its own collapsible panel
+    sections.forEach((section, index) => {
+      const sectionKey = section.header
+        ? `lesson:section:${section.header.id}`
+        : `lesson:section:fallback:${index}`;
+
+      const titleText = section.header
+        ? dataService.getLocalizedText(
+            section.header.texts,
+            preferredAppLanguages(),
+          ) || section.header.id
+        : t("sentences");
+
+      view.appendChild(
+        renderLessonSection(titleText, section.items, langs, sectionKey),
+      );
+    });
+
     renderCompleteToggle();
   }
   function renderCompleteToggle() {
@@ -4157,10 +4219,18 @@
       studyPlanService.markLesson(lessonId, restored);
     }
   }
+
   function ensureAllSectionsOpen() {
-    openLessonSections.add("lesson:words");
-    openLessonSections.add("lesson:sentences");
+    // Dynamically find all rendered lesson section headers and open them
+    document
+      .querySelectorAll("[data-action='toggle-lesson-section']")
+      .forEach((btn) => {
+        if (btn.dataset.sectionKey) {
+          openLessonSections.add(btn.dataset.sectionKey);
+        }
+      });
   }
+
   function renderLessonSection(titleText, items, langs, sectionKey) {
     const section = document.createElement("section");
     section.className = "lesson-section";
@@ -6672,12 +6742,19 @@
     // 2. Load Manifest & Registry
     manifest = await loadManifest();
     registry = createRegistry(manifest?.zabon?.languages || []);
+
+    // FIX 1: Initialize settings first, then compute lessonLanguages with the targetLang
+    const settings = normalizeSettings(loadJSON(STORAGE_KEYS.settings, {}));
     state = {
-      settings: normalizeSettings(loadJSON(STORAGE_KEYS.settings, {})),
-      lessonLanguages: normalizeLessonLanguages(
-        loadJSON(STORAGE_KEYS.lessonLanguages, null),
-      ),
+      settings,
+      lessonLanguages: [], // Temporary empty array
     };
+
+    // Now pass the targetLanguage explicitly
+    state.lessonLanguages = normalizeLessonLanguages(
+      loadJSON(STORAGE_KEYS.lessonLanguages, null),
+      settings.targetLanguage,
+    );
 
     // 3. Initialize mediaService EARLY
     mediaService = new MediaService(registry);
@@ -6720,7 +6797,6 @@
     srsService = new SrsService(STORAGE_KEYS.srs);
     quizProgressService = new QuizProgressService(STORAGE_KEYS.quiz);
     studyPlanService = new StudyPlanService();
-
     const savedTried = loadJSON(STORAGE_KEYS.lessonsTried, []);
     lessonsTried = new Set(Array.isArray(savedTried) ? savedTried : []);
 

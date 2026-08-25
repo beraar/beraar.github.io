@@ -167,7 +167,7 @@
       },
       "lessons": [
         {
-          "id": "lesson_g01",
+          "id": "lesson_universal_svo",
           "title": {
             "en": "Grammar: Basic SVO",
             "th": "ไวยากรณ์: ประธาน-กริยา-กรรม",
@@ -182,10 +182,28 @@
           "proficiency": "beginner",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["en", "es", "ar"],
-          "rules": ["rule_g01"]
+          "rules": ["rule_universal_svo"]
         },
         {
-          "id": "lesson_g02",
+          "id": "lesson_universal_negation",
+          "title": {
+            "en": "Grammar: Negation",
+            "th": "ไวยากรณ์: การปฏิเสธ",
+            "fa": "دستور زبان: منفی‌سازی",
+            "ar": "القواعد: النفي",
+            "es": "Gramática: Negación",
+            "zh": "语法：否定",
+            "ja": "文法：否定"
+          },
+          "file": "lessons/grammar/universal-negation.json",
+          "level": 2,
+          "proficiency": "beginner",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "rules": ["rule_universal_negation"]
+        },
+        {
+          "id": "lesson_th_politeness_particles",
           "title": {
             "en": "Grammar: Politeness Particles",
             "th": "ไวยากรณ์: คำลงท้าย",
@@ -200,10 +218,10 @@
           "proficiency": "beginner",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["th"],
-          "rules": ["rule_g02"]
+          "rules": ["rule_th_politeness_particles"]
         },
         {
-          "id": "lesson_g03",
+          "id": "lesson_universal_yes_no_questions",
           "title": {
             "en": "Grammar: Yes/No Questions",
             "th": "ไวยากรณ์: คำถาม ใช่/ไม่ใช่",
@@ -218,10 +236,10 @@
           "proficiency": "beginner",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
-          "rules": ["rule_g03"]
+          "rules": ["rule_universal_yes_no_questions"]
         },
         {
-          "id": "lesson_g05",
+          "id": "lesson_universal_wh_questions",
           "title": {
             "en": "Grammar: Wh- Questions",
             "th": "ไวยากรณ์: คำถาม_wh",
@@ -236,10 +254,10 @@
           "proficiency": "beginner",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
-          "rules": ["rule_g05"]
+          "rules": ["rule_universal_wh_questions"]
         },
         {
-          "id": "lesson_g06",
+          "id": "lesson_universal_descriptive",
           "title": {
             "en": "Grammar: Descriptive",
             "th": "ไวยากรณ์: คำขยาย",
@@ -254,10 +272,10 @@
           "proficiency": "beginner",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
-          "rules": ["rule_g06"]
+          "rules": ["rule_universal_descriptive"]
         },
         {
-          "id": "lesson_g07",
+          "id": "lesson_universal_possession",
           "title": {
             "en": "Grammar: Possession",
             "th": "ไวยากรณ์: การแสดงความเป็นเจ้าของ",
@@ -272,10 +290,10 @@
           "proficiency": "beginner",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
-          "rules": ["rule_g07"]
+          "rules": ["rule_universal_possession"]
         },
         {
-          "id": "lesson_g09",
+          "id": "lesson_universal_classifiers",
           "title": {
             "en": "Grammar: Classifiers",
             "th": "ไวยากรณ์: ลักษณนาม",
@@ -290,10 +308,10 @@
           "proficiency": "beginner",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["th", "zh", "ja"],
-          "rules": ["rule_g09"]
+          "rules": ["rule_universal_classifiers"]
         },
         {
-          "id": "lesson_g22",
+          "id": "lesson_universal_requests_imperatives",
           "title": {
             "en": "Grammar: Requests & Imperatives",
             "th": "ไวยากรณ์: คำขอร้องและคำสั่ง",
@@ -308,7 +326,7 @@
           "proficiency": "beginner",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
-          "rules": ["rule_g22"]
+          "rules": ["rule_universal_requests_imperatives"]
         },
         {
           "id": "lesson_en_articles",
@@ -559,7 +577,7 @@
       },
       "lessons": [
         {
-          "id": "lesson_g08",
+          "id": "lesson_universal_tense_aspect",
           "title": {
             "en": "Grammar: Tense & Aspect",
             "th": "ไวยากรณ์: กาลและลักษณะการกระทำ",
@@ -574,10 +592,10 @@
           "proficiency": "intermediate",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
-          "rules": ["rule_g08"]
+          "rules": ["rule_universal_tense_aspect"]
         },
         {
-          "id": "lesson_g10",
+          "id": "lesson_universal_topic_comment",
           "title": {
             "en": "Grammar: Topic-Comment",
             "th": "ไวยากรณ์: ประธาน-ภาคแสดง",
@@ -592,10 +610,10 @@
           "proficiency": "intermediate",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["th", "zh", "ja"],
-          "rules": ["rule_g10"]
+          "rules": ["rule_universal_topic_comment"]
         },
         {
-          "id": "lesson_g11",
+          "id": "lesson_universal_serial_verbs",
           "title": {
             "en": "Grammar: Serial Verbs",
             "th": "ไวยากรณ์: กริยาต่อเนื่อง",
@@ -610,10 +628,10 @@
           "proficiency": "intermediate",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["th", "zh"],
-          "rules": ["rule_g11"]
+          "rules": ["rule_universal_serial_verbs"]
         },
         {
-          "id": "lesson_g12",
+          "id": "lesson_universal_comparatives",
           "title": {
             "en": "Grammar: Comparatives",
             "th": "ไวยากรณ์: การเปรียบเทียบ",
@@ -628,10 +646,10 @@
           "proficiency": "intermediate",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
-          "rules": ["rule_g12"]
+          "rules": ["rule_universal_comparatives"]
         },
         {
-          "id": "lesson_g16",
+          "id": "lesson_universal_conditionals",
           "title": {
             "en": "Grammar: Conditionals",
             "th": "ไวยากรณ์: ประโยคเงื่อนไข",
@@ -646,10 +664,10 @@
           "proficiency": "intermediate",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
-          "rules": ["rule_g16"]
+          "rules": ["rule_universal_conditionals"]
         },
         {
-          "id": "lesson_g17",
+          "id": "lesson_universal_ability",
           "title": {
             "en": "Grammar: Ability",
             "th": "ไวยากรณ์: ความสามารถ",
@@ -664,10 +682,10 @@
           "proficiency": "intermediate",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
-          "rules": ["rule_g17"]
+          "rules": ["rule_universal_ability"]
         },
         {
-          "id": "lesson_g19",
+          "id": "lesson_universal_conjunctions",
           "title": {
             "en": "Grammar: Conjunctions",
             "th": "ไวยากรณ์: คำสันธาน",
@@ -682,10 +700,10 @@
           "proficiency": "intermediate",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
-          "rules": ["rule_g19"]
+          "rules": ["rule_universal_ability"]
         },
         {
-          "id": "lesson_g20",
+          "id": "lesson_universal_reported_speech",
           "title": {
             "en": "Grammar: Reported Speech",
             "th": "ไวยากรณ์: คำพูดอ้างอิง",
@@ -700,7 +718,7 @@
           "proficiency": "intermediate",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
-          "rules": ["rule_g20"]
+          "rules": ["rule_universal_reported_speech"]
         },
         {
           "id": "lesson_zh_aspect",
@@ -719,6 +737,60 @@
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["zh"],
           "rules": ["rule_zh_aspect"]
+        },
+        {
+          "id": "lesson_universal_quantifiers",
+          "title": {
+            "en": "Grammar: Quantifiers",
+            "th": "ไวยากรณ์: คำบอกปริมาณ",
+            "fa": "دستور زبان: کمیت‌سنج‌ها",
+            "ar": "القواعد: أدوات الكمية",
+            "es": "Gramática: Cuantificadores",
+            "zh": "语法：数量词",
+            "ja": "文法：数量詞"
+          },
+          "file": "lessons/grammar/universal-quantifiers.json",
+          "level": 4,
+          "proficiency": "intermediate",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "rules": ["rule_universal_quantifiers"]
+        },
+        {
+          "id": "lesson_universal_relative_clauses",
+          "title": {
+            "en": "Grammar: Relative Clauses",
+            "th": "ไวยากรณ์: อนุประโยคRelative",
+            "fa": "دستور زبان: جملات موصولی",
+            "ar": "القواعد: جملات الصلة",
+            "es": "Gramática: Oraciones relativas",
+            "zh": "语法：关系从句",
+            "ja": "文法：関係節"
+          },
+          "file": "lessons/grammar/universal-relative-clauses.json",
+          "level": 5,
+          "proficiency": "intermediate",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "rules": ["rule_universal_relative_clauses"]
+        },
+        {
+          "id": "lesson_universal_passive",
+          "title": {
+            "en": "Grammar: Passive Voice",
+            "th": "ไวยากรณ์: รูปถูกกระทำ",
+            "fa": "دستور زبان: وجه مجهول",
+            "ar": "القواعد: صيغة المجهول",
+            "es": "Gramática: Voz pasiva",
+            "zh": "语法：被动语态",
+            "ja": "文法：受動態"
+          },
+          "file": "lessons/grammar/universal-passive.json",
+          "level": 5,
+          "proficiency": "intermediate",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "rules": ["rule_universal_passive"]
         }
       ]
     },
@@ -735,7 +807,7 @@
       },
       "lessons": [
         {
-          "id": "lesson_g21",
+          "id": "lesson_th_emphasis_particles",
           "title": {
             "en": "Grammar: Emphasis Particles",
             "th": "ไวยากรณ์: คำลงท้ายเน้นความ",
@@ -750,10 +822,10 @@
           "proficiency": "advanced",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["th"],
-          "rules": ["rule_g21"]
+          "rules": ["rule_th_emphasis_particles"]
         },
         {
-          "id": "lesson_g23",
+          "id": "lesson_th_exclamations",
           "title": {
             "en": "Grammar: Exclamations",
             "th": "ไวยากรณ์: คำอุทาน",
@@ -768,10 +840,10 @@
           "proficiency": "advanced",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["th"],
-          "rules": ["rule_g23"]
+          "rules": ["rule_th_exclamations"]
         },
         {
-          "id": "lesson_g24",
+          "id": "lesson_th_register_switching",
           "title": {
             "en": "Grammar: Register Switching",
             "th": "ไวยากรณ์: การปรับระดับภาษา",
@@ -786,7 +858,25 @@
           "proficiency": "advanced",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
           "targets": ["th"],
-          "rules": ["rule_g24"]
+          "rules": ["rule_th_register_switching"]
+        },
+        {
+          "id": "lesson_universal_causative",
+          "title": {
+            "en": "Grammar: Causative",
+            "th": "ไวยากรณ์: รูปกริยาทำให้ทำ",
+            "fa": "دستور زبان: سببی",
+            "ar": "القواعد: صيغة السببية",
+            "es": "Gramática: Causativo",
+            "zh": "语法：使役态",
+            "ja": "文法：使役態"
+          },
+          "file": "lessons/grammar/universal-causative.json",
+          "level": 7,
+          "proficiency": "advanced",
+          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "rules": ["rule_universal_causative"]
         }
       ]
     },
@@ -2002,8 +2092,8 @@
             "ja": "子音・母音・声調"
           },
           "file": "lessons/reading-writing/consonants-vowels-tones.json",
-          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
-          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"],
+          "translations": ["th"],
+          "targets": ["th"],
           "level": 1,
           "proficiency": "beginner",
           "skill": "reading"
@@ -2023,8 +2113,8 @@
           "level": 1,
           "proficiency": "beginner",
           "skill": "reading",
-          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
-          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
+          "translations": ["th"],
+          "targets": ["th"]
         }
       ]
     }
@@ -2476,7 +2566,7 @@
       }
     },
     {
-      "id": "rule_g01",
+      "id": "rule_universal_svo",
       "title": {
         "en": "Grammar: Basic SVO",
         "th": "ไวยากรณ์: ประธาน-กริยา-กรรม",
@@ -2497,7 +2587,7 @@
       }
     },
     {
-      "id": "rule_g02",
+      "id": "rule_th_politeness_particles",
       "title": {
         "en": "Grammar: Politeness Particles",
         "th": "ไวยากรณ์: คำลงท้าย",
@@ -2518,7 +2608,7 @@
       }
     },
     {
-      "id": "rule_g03",
+      "id": "rule_universal_yes_no_questions",
       "title": {
         "en": "Grammar: Yes/No Questions",
         "th": "ไวยากรณ์: คำถาม ใช่/ไม่ใช่",
@@ -2539,7 +2629,7 @@
       }
     },
     {
-      "id": "rule_g05",
+      "id": "rule_universal_wh_questions",
       "title": {
         "en": "Grammar: Wh- Questions",
         "th": "ไวยากรณ์: คำถาม_wh",
@@ -2560,7 +2650,7 @@
       }
     },
     {
-      "id": "rule_g06",
+      "id": "rule_universal_descriptive",
       "title": {
         "en": "Grammar: Descriptive",
         "th": "ไวยากรณ์: คำขยาย",
@@ -2581,7 +2671,7 @@
       }
     },
     {
-      "id": "rule_g07",
+      "id": "rule_universal_possession",
       "title": {
         "en": "Grammar: Possession",
         "th": "ไวยากรณ์: การแสดงความเป็นเจ้าของ",
@@ -2602,7 +2692,7 @@
       }
     },
     {
-      "id": "rule_g09",
+      "id": "rule_universal_classifiers",
       "title": {
         "en": "Grammar: Classifiers",
         "th": "ไวยากรณ์: ลักษณนาม",
@@ -2623,7 +2713,7 @@
       }
     },
     {
-      "id": "rule_g22",
+      "id": "rule_universal_requests_imperatives",
       "title": {
         "en": "Grammar: Requests & Imperatives",
         "th": "ไวยากรณ์: คำขอร้องและคำสั่ง",
@@ -2644,7 +2734,7 @@
       }
     },
     {
-      "id": "rule_g08",
+      "id": "rule_universal_tense_aspect",
       "title": {
         "en": "Grammar: Tense & Aspect",
         "th": "ไวยากรณ์: กาลและลักษณะการกระทำ",
@@ -2665,7 +2755,7 @@
       }
     },
     {
-      "id": "rule_g10",
+      "id": "rule_universal_topic_comment",
       "title": {
         "en": "Grammar: Topic-Comment",
         "th": "ไวยากรณ์: ประธาน-ภาคแสดง",
@@ -2686,7 +2776,7 @@
       }
     },
     {
-      "id": "rule_g11",
+      "id": "rule_universal_serial_verbs",
       "title": {
         "en": "Grammar: Serial Verbs",
         "th": "ไวยากรณ์: กริยาต่อเนื่อง",
@@ -2707,7 +2797,7 @@
       }
     },
     {
-      "id": "rule_g12",
+      "id": "rule_universal_comparatives",
       "title": {
         "en": "Grammar: Comparatives",
         "th": "ไวยากรณ์: การเปรียบเทียบ",
@@ -2728,7 +2818,7 @@
       }
     },
     {
-      "id": "rule_g16",
+      "id": "rule_universal_conditionals",
       "title": {
         "en": "Grammar: Conditionals",
         "th": "ไวยากรณ์: ประโยคเงื่อนไข",
@@ -2749,7 +2839,7 @@
       }
     },
     {
-      "id": "rule_g17",
+      "id": "rule_universal_ability",
       "title": {
         "en": "Grammar: Ability",
         "th": "ไวยากรณ์: ความสามารถ",
@@ -2770,7 +2860,7 @@
       }
     },
     {
-      "id": "rule_g19",
+      "id": "rule_universal_ability",
       "title": {
         "en": "Grammar: Conjunctions",
         "th": "ไวยากรณ์: คำสันธาน",
@@ -2791,7 +2881,7 @@
       }
     },
     {
-      "id": "rule_g20",
+      "id": "rule_universal_reported_speech",
       "title": {
         "en": "Grammar: Reported Speech",
         "th": "ไวยากรณ์: คำพูดอ้างอิง",
@@ -2812,7 +2902,7 @@
       }
     },
     {
-      "id": "rule_g21",
+      "id": "rule_th_emphasis_particles",
       "title": {
         "en": "Grammar: Emphasis Particles",
         "th": "ไวยากรณ์: คำลงท้ายเน้นความ",
@@ -2833,7 +2923,7 @@
       }
     },
     {
-      "id": "rule_g23",
+      "id": "rule_th_exclamations",
       "title": {
         "en": "Grammar: Exclamations",
         "th": "ไวยากรณ์: คำอุทาน",
@@ -2854,7 +2944,7 @@
       }
     },
     {
-      "id": "rule_g24",
+      "id": "rule_th_register_switching",
       "title": {
         "en": "Grammar: Register Switching",
         "th": "ไวยากรณ์: การปรับระดับภาษา",
@@ -3166,6 +3256,111 @@
         "es": "Esta lección cubre cómo los pronombres de objeto directo e indirecto se colocan antes de los verbos conjugados, pero se unen al final de los infinitivos y gerundios.",
         "zh": "本课程涵盖直接和间接宾语代词如何放置在变位动词之前，但附着在动词不定式和动名词的末尾。",
         "ja": "このレッスンでは、直接・間接目的語代名詞が活用された動詞の前に配置されるが、不定詞や動名詞の末尾に付加される仕組みを扱います。"
+      }
+    },
+    {
+      "id": "rule_universal_negation",
+      "title": {
+        "en": "Grammar: Negation",
+        "th": "ไวยากรณ์: การปฏิเสธ",
+        "fa": "دستور زبان: منفی‌سازی",
+        "ar": "القواعد: النفي",
+        "es": "Gramática: Negación",
+        "zh": "语法：否定",
+        "ja": "文法：否定"
+      },
+      "description": {
+        "en": "How to form negative sentences and express inability across different languages.",
+        "th": "วิธีการสร้างประโยคปฏิเสธและแสดงถึงความไม่สามารถในภาษาต่างๆ",
+        "fa": "نحوه ساخت جملات منفی و بیان ناتوانی در زبان‌های مختلف.",
+        "ar": "كيفية تكوين الجمل السلبية والتعبير عن العجز عبر لغات مختلفة.",
+        "es": "Cómo formar oraciones negativas y expresar incapacidad en diferentes idiomas.",
+        "zh": "如何在不同语言中构成否定句和表达不能。",
+        "ja": "異なる言語で否定文を作り、不可能を表現する方法。"
+      }
+    },
+    {
+      "id": "rule_universal_relative_clauses",
+      "title": {
+        "en": "Grammar: Relative Clauses",
+        "th": "ไวยากรณ์: อนุประโยคRelative",
+        "fa": "دستور زبان: جملات موصولی",
+        "ar": "القواعد: جملات الصلة",
+        "es": "Gramática: Oraciones relativas",
+        "zh": "语法：关系从句",
+        "ja": "文法：関係節"
+      },
+      "description": {
+        "en": "Using clauses to modify nouns (e.g., 'The man *who stands there*').",
+        "th": "การใช้ประโยคย่อยเพื่อขยายคำนาม (เช่น 'ผู้ชาย*ที่ยืนอยู่ที่นั่น')",
+        "fa": "استفاده از جملات برای توصیف اسامی (مثلاً 'مردی *که آنجا ایستاده است*').",
+        "ar": "استخدام الجمل لتعديل الأسماء (مثل 'الرجل *الذي يقف هناك*').",
+        "es": "Uso de cláusulas para modificar sustantivos (ej., 'El hombre *que está de pie allí*').",
+        "zh": "使用从句修饰名词（例如“*站在那里的*男人”）。",
+        "ja": "名詞を修飾する節の使用（例：「*そこに立っている*男性」）。"
+      }
+    },
+    {
+      "id": "rule_universal_passive",
+      "title": {
+        "en": "Grammar: Passive Voice",
+        "th": "ไวยากรณ์: รูปถูกกระทำ",
+        "fa": "دستور زبان: وجه مجهول",
+        "ar": "القواعد: صيغة المجهول",
+        "es": "Gramática: Voz pasiva",
+        "zh": "语法：被动语态",
+        "ja": "文法：受動態"
+      },
+      "description": {
+        "en": "Structures where the subject receives the action (e.g., 'The window *was broken*').",
+        "th": "โครงสร้างที่ประธานเป็นผู้ถูกกระทำ (เช่น 'หน้าต่าง*ถูกทำแตก*')",
+        "fa": "ساختارهایی که فاعل عمل را دریافت می‌کند (مثلاً 'پنجره *شکسته شد*').",
+        "ar": "الهياكل التي يتلقى فيها الفاعل الفعل (مثل 'كُسرت النافذة').",
+        "es": "Estructuras donde el sujeto recibe la acción (ej., 'La ventana *fue rota*').",
+        "zh": "主语接受动作的结构（例如“窗户*被打破了*”）。",
+        "ja": "主語が動作を受ける構造（例：「窓が*割られた*」）。"
+      }
+    },
+    {
+      "id": "rule_universal_causative",
+      "title": {
+        "en": "Grammar: Causative",
+        "th": "ไวยากรณ์: รูปกริยาทำให้ทำ",
+        "fa": "دستور زبان: سببی",
+        "ar": "القواعد: صيغة السببية",
+        "es": "Gramática: Causativo",
+        "zh": "语法：使役态",
+        "ja": "文法：使役態"
+      },
+      "description": {
+        "en": "Expressing that someone causes another person to do something (e.g., 'I *made him clean*').",
+        "th": "การแสดงว่าใครบางคนทำให้คนอื่นทำบางสิ่ง (เช่น 'ฉัน*ให้เขาทำความสะอาด*')",
+        "fa": "بیان اینکه کسی باعث می‌شود شخص دیگری کاری انجام دهد (مثلاً 'من او را *مجبور کردم تمیز کند*').",
+        "ar": "التعبير عن أن شخصًا يجعل شخصًا آخر يفعل شيئًا (مثل 'أجعله *ينظف*').",
+        "es": "Expresar que alguien hace que otra persona haga algo (ej., 'Hago que él *limpie*').",
+        "zh": "表达某人使另一人做某事（例如“我*让他打扫*”）。",
+        "ja": "ある人が別の人に何かをさせることを表現する（例：「私は彼に*掃除させた*」）。"
+      }
+    },
+    {
+      "id": "rule_universal_quantifiers",
+      "title": {
+        "en": "Grammar: Quantifiers",
+        "th": "ไวยากรณ์: คำบอกปริมาณ",
+        "fa": "دستور زبان: کمیت‌سنج‌ها",
+        "ar": "القواعد: أدوات الكمية",
+        "es": "Gramática: Cuantificadores",
+        "zh": "语法：数量词",
+        "ja": "文法：数量詞"
+      },
+      "description": {
+        "en": "Words that indicate amount or quantity (e.g., 'every', 'some', 'all').",
+        "th": "คำที่ระบุจำนวนหรือปริมาณ (เช่น 'ทุก', 'บาง', 'ทั้งหมด')",
+        "fa": "کلماتی که مقدار یا کمیت را نشان می‌دهند (مثلاً 'هر'، 'برخی'، 'همه').",
+        "ar": "الكلمات التي تشير إلى الكمية أو المقدار (مثل 'كل'، 'بعض'، 'جميع').",
+        "es": "Palabras que indican cantidad (ej., 'cada', 'algunos', 'todos').",
+        "zh": "表示数量或量的词（例如“每”、“有些”、“所有”）。",
+        "ja": "量や数量を示す言葉（例：「毎」、「一部」、「すべて」）。"
       }
     }
   ]

@@ -2542,30 +2542,6 @@
   ],
   "grammar_rules": [
     {
-      "id": "SVO",
-      "title": {
-        "en": "Subject-Verb-Object",
-        "th": "ประธาน-กริยา-กรรม",
-        "fa": "نهاد-فعل-مفعول"
-      },
-      "description": {
-        "en": "The standard sentence structure placing the subject first, followed by the action, and then the object.",
-        "fa": "در زبان‌های SVO، ساختار استاندارد جمله فاعل را در ابتدا، سپس فعل و در نهایت مفعول قرار می‌دهد."
-      }
-    },
-    {
-      "id": "Politeness_Particles",
-      "title": {
-        "en": "Politeness Particles",
-        "th": "คำลงท้าย",
-        "fa": "ذرات ادب"
-      },
-      "description": {
-        "en": "Words added to the end of sentences to convey respect or soften the tone, highly specific to Thai grammar.",
-        "th": "คำที่เติมต่อท้ายประโยคเพื่อแสดงความสุภาพหรือลดความรุนแรงของประโยค"
-      }
-    },
-    {
       "id": "rule_universal_svo",
       "title": {
         "en": "Grammar: Basic SVO",
@@ -2577,13 +2553,13 @@
         "ja": "文法：基本SVO"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Basic SVO",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: ประธาน-กริยา-กรรม",
-        "fa": "این درس شامل: دستور زبان: نهاد-فعل-مفعول",
-        "ar": "يغطي هذا الدرس: القواعد: فاعل-فعل-مفعول",
-        "es": "Esta lección cubre: Gramática: Sujeto-Verbo-Objeto",
-        "zh": "本课程涵盖：语法：主谓宾基础",
-        "ja": "このレッスンでカバーする内容：文法：基本SVO"
+        "en": "Standard Subject-Verb-Object word order. Sentences must clearly demonstrate a subject performing an action on an object. Avoid complex embedded clauses or passive voice. Keep sentences short and direct.",
+        "th": "ลำดับคำ ประธาน-กริยา-กรรม มาตรฐาน ประโยคต้องแสดงให้เห็นชัดเจนว่าประธานกระทำกริยาต่อกรรม หลีกเลี่ยงประโยคความรวมที่ซับซ้อนหรือรูปถูกกระทำ ใช้ประโยคสั้นและตรงไปตรงมา",
+        "fa": "ترتیب واژگان استاندارد نهاد-فعل-مفعول. جملات باید به وضوح نشان دهند که نهاد عملی را بر مفعول انجام می‌دهد. از جملاتواره‌های پیچیده یا وجه مجهول پرهیز کنید. جملات را کوتاه و مستقیم نگه دارید.",
+        "ar": "ترتيب الكلمات القياسي: فاعل-فعل-مفعول. يجب أن توضح الجمل أن الفاعل يقوم بفعل على المفعول به. تجنب الجمل المعقدة أو صيغة المجهول. اجعل الجمل قصيرة ومباشرة.",
+        "es": "Orden de palabras estándar Sujeto-Verbo-Objeto. Las oraciones deben demostrar claramente un sujeto realizando una acción sobre un objeto. Evita cláusulas incrustadas complejas o la voz pasiva. Mantén las oraciones cortas y directas.",
+        "zh": "标准的主谓宾语序。句子必须清楚地展示主语对宾语执行动作。避免复杂的嵌入从句或被动语态。保持句子简短直接。",
+        "ja": "標準的な主語-動詞-目的語の語順。文は、主語が目的語に動作を行っていることを明確に示す必要があります。複雑な埋め込み節や受動態は避け、文を短く直接的に保ちます。"
       }
     },
     {
@@ -2598,13 +2574,13 @@
         "ja": "文法：丁寧語"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Politeness Particles",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำลงท้าย",
-        "fa": "این درس شامل: دستور زبان: ذرات ادب",
-        "ar": "يغطي هذا الدرس: القواعد: أدوات الأدب",
-        "es": "Esta lección cubre: Gramática: Partículas de cortesía",
-        "zh": "本课程涵盖：语法：礼貌助词",
-        "ja": "このレッスンでカバーする内容：文法：丁寧語"
+        "en": "Use Thai politeness particles 'ครับ' (khrap) for male speakers and 'ค่ะ' (kha) for female speakers at the end of sentences to convey respect. Ensure the particle matches the implied gender of the speaker.",
+        "th": "ใช้คำลงท้ายสุภาพ 'ครับ' สำหรับผู้พูดชาย และ 'ค่ะ' สำหรับผู้พูดหญิง ต่อท้ายประโยคเพื่อแสดงความสุภาพ ตรวจสอบให้แน่ใจว่าคำลงท้ายตรงกับเพศโดยนัยของผู้พูด",
+        "fa": "از ذرات ادب تایلندی 'ครับ' (khrap) برای گویندگان مرد و 'ค่ะ' (kha) برای گویندگان زن در انتهای جملات برای نشان دادن احترام استفاده کنید. اطمینان حاصل کنید که ذره با جنسیت ضمنی گوینده مطابقت دارد.",
+        "ar": "استخدم أدوات الأدب التايلاندية 'ครับ' (khrap) للمتحدثين الذكور و 'ค่ะ' (kha) للمتحدثات الإناث في نهاية الجمل لنقل الاحترام. تأكد من أن الأداة تتطابق مع الجنس الضمني للمتحدث.",
+        "es": "Usa las partículas de cortesía tailandesas 'ครับ' (khrap) para hablantes masculinos y 'ค่ะ' (kha) para hablantes femeninas al final de las oraciones para mostrar respeto. Asegúrate de que la partícula coincida con el género implícito del hablante.",
+        "zh": "在句尾使用泰语礼貌助词“ครับ”（khrap，男性用）和“ค่ะ”（kha，女性用）以表达尊重。确保助词与说话人的隐含性别一致。",
+        "ja": "敬意を表すために、文の最後に男性話者にはタイ語の丁寧語「ครับ」(khrap)、女性話者には「ค่ะ」(kha)を使用します。助詞が話者の暗黙の性別と一致していることを確認してください。"
       }
     },
     {
@@ -2619,13 +2595,13 @@
         "ja": "文法：はい/いいえ質問"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Yes/No Questions",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำถาม ใช่/ไม่ใช่",
-        "fa": "این درس شامل: دستور زبان: سوالات بله/خیر",
-        "ar": "يغطي هذا الدرس: القواعد: أسئلة نعم/لا",
-        "es": "Esta lección cubre: Gramática: Preguntas de sí/no",
-        "zh": "本课程涵盖：语法：是非问句",
-        "ja": "このレッスンでカバーする内容：文法：はい/いいえ質問"
+        "en": "Formulate questions that can be answered with a simple 'yes' or 'no'. Use standard question particles or auxiliary verbs. Keep the sentence structure simple and direct.",
+        "th": "สร้างประโยคคำถามที่ตอบได้ด้วย 'ใช่' หรือ 'ไม่ใช่' อย่างง่าย ใช้คำลงท้ายคำถามหรือกริยาช่วยมาตรฐาน โครงสร้างประโยคต้องเรียบง่ายและตรงไปตรงมา",
+        "fa": "سوالاتی را مطرح کنید که بتوان با یک 'بله' یا 'خیر' ساده به آن‌ها پاسخ داد. از ذرات پرسشی استاندارد یا افعال کمکی استفاده کنید. ساختار جمله را ساده و مستقیم نگه دارید.",
+        "ar": "صغ أسئلة يمكن الإجابة عليها بـ 'نعم' أو 'لا' بسيطة. استخدم أدوات الاستفهام القياسية أو الأفعال المساعدة. اجعل بنية الجملة بسيطة ومباشرة.",
+        "es": "Formula preguntas que puedan responderse con un simple 'sí' o 'no'. Usa partículas de pregunta estándar o verbos auxiliares. Mantén la estructura de la oración simple y directa.",
+        "zh": "提出可以用简单的“是”或“否”来回答的问题。使用标准的疑问助词或助动词。保持句子结构简单直接。",
+        "ja": "簡単な「はい」または「いいえ」で答えられる質問を作成します。標準的な疑問詞や助動詞を使用し、文構造をシンプルで直接的に保ちます。"
       }
     },
     {
@@ -2640,13 +2616,13 @@
         "ja": "文法：疑問詞質問"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Wh- Questions",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำถาม_wh",
-        "fa": "این درس شامل: دستور زبان: سوالات پرسشی",
-        "ar": "يغطي هذا الدرس: القواعد: أسئلة الاستفهام",
-        "es": "Esta lección cubre: Gramática: Preguntas informativas",
-        "zh": "本课程涵盖：语法：特殊疑问句",
-        "ja": "このレッスンでカバーする内容：文法：疑問詞質問"
+        "en": "Formulate questions using interrogative words (Who, What, Where, When, Why, How). The answer should require specific information. Ensure the question word is placed correctly according to the target language's syntax.",
+        "th": "สร้างประโยคคำถามโดยใช้คำสรรพนามคำถาม (ใคร, อะไร, ที่ไหน, เมื่อไหร่, ทำไม, อย่างไร) คำตอบต้องต้องการข้อมูลเฉพาะ ตรวจสอบให้แน่ใจว่าวางคำคำถามถูกต้องตามไวยากรณ์ของภาษาเป้าหมาย",
+        "fa": "سوالاتی را با استفاده از کلمات پرسشی (چه کسی، چه چیزی، کجا، کی، چرا، چگونه) مطرح کنید. پاسخ باید به اطلاعات خاصی نیاز داشته باشد. اطمینان حاصل کنید که کلمه پرسشی بر اساس نحو زبان هدف به درستی قرار گرفته است.",
+        "ar": "صغ أسئلة باستخدام أدوات الاستفهام (من، ماذا، أين، متى، لماذا، كيف). يجب أن تتطلب الإجابة معلومات محددة. تأكد من وضع كلمة الاستفهام بشكل صحيح وفقًا لبنية اللغة المستهدفة.",
+        "es": "Formula preguntas usando palabras interrogativas (Quién, Qué, Dónde, Cuándo, Por qué, Cómo). La respuesta debe requerir información específica. Asegúrate de que la palabra interrogativa esté colocada correctamente según la sintaxis del idioma objetivo.",
+        "zh": "使用疑问词（谁、什么、哪里、何时、为什么、如何）提出问题。答案需要具体的信息。确保疑问词根据目标语言的句法正确放置。",
+        "ja": "疑問詞（誰、何、どこ、いつ、なぜ、どのように）を使って質問を作成します。答えは特定の情報を必要とするはずです。疑問詞が目標言語の構文に従って正しく配置されていることを確認してください。"
       }
     },
     {
@@ -2661,13 +2637,13 @@
         "ja": "文法：記述"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Descriptive",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำขยาย",
-        "fa": "این درس شامل: دستور زبان: توصیفی",
-        "ar": "يغطي هذا الدرس: القواعد: الوصف",
-        "es": "Esta lección cubre: Gramática: Descriptivo",
-        "zh": "本课程涵盖：语法：描述",
-        "ja": "このレッスンでカバーする内容：文法：記述"
+        "en": "Use adjectives to describe nouns. Demonstrate the correct word order for noun-adjective pairs. Include colors, sizes, and basic qualities.",
+        "th": "ใช้คำคุณศัพท์เพื่อขยายคำนาม สาธิตลำดับคำที่ถูกต้องสำหรับคู่นาม-คำคุณศัพท์ รวมสี ขนาด และคุณสมบัติพื้นฐาน",
+        "fa": "از صفت‌ها برای توصیف اسامی استفاده کنید. ترتیب صحیح واژگان برای جفت‌های اسم-صفت را نشان دهید. شامل رنگ‌ها، اندازه‌ها و ویژگی‌های اساسی باشد.",
+        "ar": "استخدم الصفات لوصف الأسماء. أظهر ترتيب الكلمات الصحيح لأزواج الاسم والصفة. تضمين الألوان والأحجام والصفات الأساسية.",
+        "es": "Usa adjetivos para describir sustantivos. Demuestra el orden correcto de las palabras para los pares sustantivo-adjetivo. Incluye colores, tamaños y cualidades básicas.",
+        "zh": "使用形容词来描述名词。展示名词-形容词对的正确语序。包括颜色、大小和基本特征。",
+        "ja": "名詞を説明するために形容詞を使用します。名詞-形容詞のペアの正しい語順を示します。色、サイズ、基本的な性質を含めます。"
       }
     },
     {
@@ -2682,13 +2658,13 @@
         "ja": "文法：所有"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Possession",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: การแสดงความเป็นเจ้าของ",
-        "fa": "این درس شامل: دستور زبان: مالکیت",
-        "ar": "يغطي هذا الدرس: القواعد: الملكية",
-        "es": "Esta lección cubre: Gramática: Posesión",
-        "zh": "本课程涵盖：语法：所属",
-        "ja": "このレッスンでカバーする内容：文法：所有"
+        "en": "Express ownership or relationships using possessive pronouns or possessive structures. Clearly show who owns what or the relationship between people.",
+        "th": "แสดงความเป็นเจ้าของหรือความสัมพันธ์โดยใช้คำสรรพนามแสดงความเป็นเจ้าของหรือโครงสร้างแสดงความเป็นเจ้าของ แสดงให้ชัดเจนว่าใครเป็นเจ้าของอะไรหรือความสัมพันธ์ระหว่างบุคคล",
+        "fa": "مالکیت یا روابط را با استفاده از ضمایر ملکی یا ساختارهای ملکی بیان کنید. به وضوح نشان دهید چه کسی مالک چیست یا رابطه بین افراد چگونه است.",
+        "ar": "عبّر عن الملكية أو العلاقات باستخدام ضمائر الملكية أو هياكل الملكية. أظهر بوضوح من يملك ماذا أو العلاقة بين الأشخاص.",
+        "es": "Expresa posesión o relaciones usando pronombres posesivos o estructuras posesivas. Muestra claramente quién es dueño de qué o la relación entre las personas.",
+        "zh": "使用物主代词或所有格结构表达所有权或关系。清楚地展示谁拥有什么或人与人之间的关系。",
+        "ja": "所有代名詞または所有構造を使用して、所有権または関係を表現します。誰が何を所有しているか、または人々の間の関係を明確に示します。"
       }
     },
     {
@@ -2703,13 +2679,13 @@
         "ja": "文法：助数詞"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Classifiers",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: ลักษณนาม",
-        "fa": "این درس شامل: دستور زبان: شمارنده‌ها",
-        "ar": "يغطي هذا الدرس: القواعد: التصنيفات",
-        "es": "Esta lección cubre: Gramática: Clasificadores",
-        "zh": "本课程涵盖：语法：量词",
-        "ja": "このレッスンでカバーする内容：文法：助数詞"
+        "en": "Use appropriate measure words/classifiers when counting nouns. Essential for Thai, Chinese, and Japanese. Ensure the classifier matches the semantic category of the noun.",
+        "th": "ใช้ลักษณนามที่เหมาะสมเมื่อนับคำนาม จำเป็นสำหรับภาษาไทย จีน และญี่ปุ่น ตรวจสอบให้แน่ใจว่าลักษณนามตรงกับหมวดหมู่ความหมายของคำนาม",
+        "fa": "هنگام شمارش اسامی از شمارنده‌های مناسب استفاده کنید. برای تایلندی، چینی و ژاپنی ضروری است. اطمینان حاصل کنید که شمارنده با دسته معنایی اسم مطابقت دارد.",
+        "ar": "استخدم أدوات التصنيف/القياس المناسبة عند عد الأسماء. ضرورية للتايلاندية والصينية واليابانية. تأكد من أن أداة التصنيف تتطابق مع الفئة الدلالية للاسم.",
+        "es": "Usa clasificadores o medidas apropiadas al contar sustantivos. Esencial para tailandés, chino y japonés. Asegúrate de que el clasificador coincida con la categoría semántica del sustantivo.",
+        "zh": "在数名词时使用适当的量词。这对于泰语、中文和日语至关重要。确保量词与名词的语义类别相匹配。",
+        "ja": "名詞を数えるときに適切な助数詞を使用します。タイ語、中国語、日本語に不可欠です。助数詞が名詞の意味カテゴリーと一致していることを確認してください。"
       }
     },
     {
@@ -2724,13 +2700,13 @@
         "ja": "文法：依頼と命令"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Requests & Imperatives",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำขอร้องและคำสั่ง",
-        "fa": "این درس شامل: دستور زبان: درخواست‌ها و افعال امری",
-        "ar": "يغطي هذا الدرس: القواعد: الطلبات والأوامر",
-        "es": "Esta lección cubre: Gramática: Peticiones e imperativos",
-        "zh": "本课程涵盖：语法：请求与祈使句",
-        "ja": "このレッスンでカバーする内容：文法：依頼と命令"
+        "en": "Formulate polite requests, commands, or instructions. Use imperative verbs or polite request structures. Vary the level of politeness if appropriate.",
+        "th": "สร้างคำขอร้อง คำสั่ง หรือคำแนะนำอย่างสุภาพ ใช้กริยาบังคับหรือโครงสร้างคำขอร้องอย่างสุภาพ ปรับระดับความสุภาพตามความเหมาะสม",
+        "fa": "درخواست‌های مؤدبانه، دستورات یا دستورالعمل‌ها را بیان کنید. از افعال امری یا ساختارهای درخواست مؤدبانه استفاده کنید. در صورت مناسب بودن، سطح ادب را تغییر دهید.",
+        "ar": "صغ طلبات مهذبة أو أوامر أو تعليمات. استخدم أفعال الأمر أو هياكل الطلب المهذب. نوّع مستوى الأدب إذا كان ذلك مناسبًا.",
+        "es": "Formula peticiones educadas, comandos o instrucciones. Usa verbos imperativos o estructuras de petición educada. Varía el nivel de cortesía si es apropiado.",
+        "zh": "提出礼貌的请求、命令或指示。使用祈使动词或礼貌的请求结构。如果合适，改变礼貌的程度。",
+        "ja": "丁寧なリクエスト、命令、または指示を作成します。命令形の動詞や丁寧なリクエスト構造を使用します。適切であれば、丁寧さのレベルを変えます。"
       }
     },
     {
@@ -2745,13 +2721,13 @@
         "ja": "文法：テンスとアスペクト"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Tense & Aspect",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: กาลและลักษณะการกระทำ",
-        "fa": "این درس شامل: دستور زبان: زمان و نمود",
-        "ar": "يغطي هذا الدرس: القواعد: الزمن والجانب",
-        "es": "Esta lección cubre: Gramática: Tiempo y aspecto",
-        "zh": "本课程涵盖：语法：时态与体",
-        "ja": "このレッスンでカバーする内容：文法：テンスとアスペクト"
+        "en": "Demonstrate the use of tense and aspect to indicate when an action occurs or its state. Use appropriate time markers, auxiliary verbs, or aspect particles.",
+        "th": "สาธิตการใช้กาลและลักษณะการกระทำเพื่อระบุว่าเหตุการณ์เกิดขึ้นเมื่อใดหรือสถานะเป็นอย่างไร ใช้เครื่องหมายบอกเวลา กริยาช่วย หรืออนุภาคบอกอาการที่เหมาะสม",
+        "fa": "استفاده از زمان و نمود را برای نشان دادن زمان وقوع یک عمل یا حالت آن نشان دهید. از نشانگرهای زمانی مناسب، افعال کمکی یا ذرات نمود استفاده کنید.",
+        "ar": "أظهر استخدام الزمن والجانب للإشارة إلى وقت حدوث الفعل أو حالته. استخدم علامات زمنية مناسبة أو أفعال مساعدة أو حروف جانب.",
+        "es": "Demuestra el uso del tiempo y aspecto para indicar cuándo ocurre una acción o su estado. Usa marcadores de tiempo apropiados, verbos auxiliares o partículas de aspecto.",
+        "zh": "展示时态和体的用法，以指示动作发生的时间或其状态。使用适当的时间标记、助动词或体貌助词。",
+        "ja": "動作がいつ発生するか、またはその状態を示すために、テンスとアスペクトの使用方法を示します。適切な時間マーカー、助動詞、またはアスペクト粒子を使用します。"
       }
     },
     {
@@ -2766,13 +2742,13 @@
         "ja": "文法：トピック-コメント"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Topic-Comment",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: ประธาน-ภาคแสดง",
-        "fa": "این درس شامل: دستور زبان: موضوع-توضیح",
-        "ar": "يغطي هذا الدرس: القواعد: الموضوع-التعليق",
-        "es": "Esta lección cubre: Gramática: Tema-Comentario",
-        "zh": "本课程涵盖：语法：主题-评论",
-        "ja": "このレッスンでカバーする内容：文法：トピック-コメント"
+        "en": "Structure sentences where a topic is introduced first, followed by a comment or predicate about it. Common in Thai, Chinese, and Japanese. The topic is often marked by a specific particle or word order.",
+        "th": "โครงสร้างประโยคที่แนะนำหัวข้อก่อน ตามด้วยข้อคิดเห็นหรือภาคแสดงเกี่ยวกับหัวข้อนั้น พบบ่อยในภาษาไทย จีน และญี่ปุ่น หัวข้อมักถูกทำเครื่องหมายด้วยอนุภาคเฉพาะหรือลำดับคำ",
+        "fa": "جملاتی را ساختار دهید که در آن ابتدا یک موضوع معرفی می‌شود و سپس یک توضیح یا گزاره درباره آن می‌آید. در تایلندی، چینی و ژاپنی رایج است. موضوع اغلب با یک ذره خاص یا ترتیب واژگان مشخص می‌شود.",
+        "ar": "هيكّل الجمل حيث يتم تقديم الموضوع أولاً، يليه تعليق أو مسند عنه. شائع في التايلاندية والصينية واليابانية. غالبًا ما يتم تمييز الموضوع بأداة محددة أو ترتيب الكلمات.",
+        "es": "Estructura oraciones donde se introduce primero un tema, seguido de un comentario o predicado sobre él. Común en tailandés, chino y japonés. El tema a menudo se marca con una partícula específica o el orden de las palabras.",
+        "zh": "构建先引入主题，然后对其进行评论或谓语的句子。这在泰语、中文和日语中很常见。主题通常由特定的助词或语序标记。",
+        "ja": "最初にトピックを導入し、それに関するコメントまたは述語を続ける文を構成します。タイ語、中国語、日本語で一般的です。トピックは多くの場合、特定の助詞または語順でマークされます。"
       }
     },
     {
@@ -2787,13 +2763,13 @@
         "ja": "文法：連動詞"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Serial Verbs",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: กริยาต่อเนื่อง",
-        "fa": "این درس شامل: دستور زبان: افعال متوالی",
-        "ar": "يغطي هذا الدرس: القواعد: الأفعال المتسلسلة",
-        "es": "Esta lección cubre: Gramática: Verbos seriales",
-        "zh": "本课程涵盖：语法：连动句",
-        "ja": "このレッスンでカバーする内容：文法：連動詞"
+        "en": "Use sequences of two or more verbs in a single clause to describe a complex action or sequence of events without using conjunctions. Common in Thai and Chinese.",
+        "th": "ใช้ลำดับของกริยาสองคำขึ้นไปในประโยคเดียวเพื่ออธิบายการกระทำที่ซับซ้อนหรือลำดับของเหตุการณ์โดยไม่ต้องใช้คำสันธาน พบบ่อยในภาษาไทยและภาษาจีน",
+        "fa": "از توالی دو فعل یا بیشتر در یک جمله برای توصیف یک عمل پیچیده یا توالی رویدادها بدون استفاده از حروف ربط استفاده کنید. در تایلندی و چینی رایج است.",
+        "ar": "استخدم تسلسلًا من فعلين أو أكثر في جملة واحدة لوصف إجراء معقد أو تسلسل أحداث دون استخدام حروف العطف. شائع في التايلاندية والصينية.",
+        "es": "Usa secuencias de dos o más verbos en una sola cláusula para describir una acción compleja o una secuencia de eventos sin usar conjunciones. Común en tailandés y chino.",
+        "zh": "在单个从句中使用两个或多个动词的序列来描述复杂的动作或事件序列，而不使用连词。这在泰语和中文中很常见。",
+        "ja": "接続詞を使用せずに、複雑な動作や一連の出来事を記述するために、1つの節で2つ以上の動詞のシーケンスを使用します。タイ語と中国語で一般的です。"
       }
     },
     {
@@ -2808,13 +2784,13 @@
         "ja": "文法：比較"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Comparatives",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: การเปรียบเทียบ",
-        "fa": "این درس شامل: دستور زبان: صفت‌های تفضیلی",
-        "ar": "يغطي هذا الدرس: القواعد: المقارنات",
-        "es": "Esta lección cubre: Gramática: Comparativos",
-        "zh": "本课程涵盖：语法：比较级",
-        "ja": "このレッスンでカバーする内容：文法：比較"
+        "en": "Compare two or more nouns using comparative structures. Use appropriate comparative adjectives and conjunctions (like 'than').",
+        "th": "เปรียบเทียบคำนามสองคำหรือมากกว่าโดยใช้โครงสร้างการเปรียบเทียบ ใช้คำคุณศัพท์เปรียบเทียบและคำสันธาน (เช่น 'กว่า') อย่างเหมาะสม",
+        "fa": "دو اسم یا بیشتر را با استفاده از ساختارهای مقایسه‌ای مقایسه کنید. از صفت‌های تفضیلی و حروف ربط مناسب (مانند 'تر از') استفاده کنید.",
+        "ar": "قارن بين اسمين أو أكثر باستخدام هياكل المقارنة. استخدم صفات المقارنة وحروف العطف المناسبة (مثل 'من').",
+        "es": "Compara dos o más sustantivos usando estructuras comparativas. Usa adjetivos comparativos y conjunciones apropiadas (como 'que').",
+        "zh": "使用比较结构比较两个或多个名词。使用适当的比较级形容词和连词（如“比”）。",
+        "ja": "比較構造を使用して2つ以上の名詞を比較します。適切な比較級形容詞と接続詞（「より」など）を使用します。"
       }
     },
     {
@@ -2829,13 +2805,13 @@
         "ja": "文法：条件法"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Conditionals",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: ประโยคเงื่อนไข",
-        "fa": "این درس شامل: دستور زبان: شرطی",
-        "ar": "يغطي هذا الدرس: القواعد: الجمل الشرطية",
-        "es": "Esta lección cubre: Gramática: Condicionales",
-        "zh": "本课程涵盖：语法：条件句",
-        "ja": "このレッスンでカバーする内容：文法：条件法"
+        "en": "Formulate conditional sentences (If... then...). Demonstrate the correct verb tenses in both the 'if' clause and the main clause.",
+        "th": "สร้างประโยคเงื่อนไข (ถ้า... แล้ว...) สาธิตการใช้กาลของกริยาที่ถูกต้องทั้งในอนุประโยค 'ถ้า' และประโยคหลัก",
+        "fa": "جملات شرطی را بیان کنید (اگر... آنگاه...). زمان‌های صحیح فعل را هم در جمله‌واره 'اگر' و هم در جمله اصلی نشان دهید.",
+        "ar": "صغ جمل شرطية (إذا... إذن...). أظهر أزمنة الأفعال الصحيحة في كل من جملة 'إذا' والجملة الرئيسية.",
+        "es": "Formula oraciones condicionales (Si... entonces...). Demuestra los tiempos verbales correctos tanto en la cláusula 'si' como en la cláusula principal.",
+        "zh": "构建条件句（如果……那么……）。展示“如果”从句和主句中正确的动词时态。",
+        "ja": "条件文（もし…なら…）を作成します。「もし」の節と主節の両方で正しい動詞のテンスを示します。"
       }
     },
     {
@@ -2850,17 +2826,17 @@
         "ja": "文法：能力"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Ability",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: ความสามารถ",
-        "fa": "این درس شامل: دستور زبان: توانایی",
-        "ar": "يغطي هذا الدرس: القواعد: القدرة",
-        "es": "Esta lección cubre: Gramática: Habilidad",
-        "zh": "本课程涵盖：语法：能力",
-        "ja": "このレッスンでカバーする内容：文法：能力"
+        "en": "Express ability or inability to do something using modals or equivalent structures in the target language.",
+        "th": "แสดงความสามารถหรือความไม่สามารถในการทำสิ่งใดสิ่งหนึ่งโดยใช้กริยาช่วยหรือโครงสร้างที่เทียบเท่าในภาษาเป้าหมาย",
+        "fa": "توانایی یا ناتوانی در انجام کاری را با استفاده از افعال وجهی یا ساختارهای معادل در زبان هدف بیان کنید.",
+        "ar": "عبّر عن القدرة أو عدم القدرة على فعل شيء باستخدام الأفعال المساعدة أو الهياكل المكافئة في اللغة المستهدفة.",
+        "es": "Expresa la capacidad o incapacidad de hacer algo usando modales o estructuras equivalentes en el idioma objetivo.",
+        "zh": "使用目标语言中的情态动词或等效结构表达做某事的能力或无能。",
+        "ja": "目標言語の助動詞または同等の構造を使用して、何かをする能力または無能力を表現します。"
       }
     },
     {
-      "id": "rule_universal_ability",
+      "id": "rule_universal_conjunctions",
       "title": {
         "en": "Grammar: Conjunctions",
         "th": "ไวยากรณ์: คำสันธาน",
@@ -2871,13 +2847,13 @@
         "ja": "文法：接続詞"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Conjunctions",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำสันธาน",
-        "fa": "این درس شامل: دستور زبان: حروف ربط",
-        "ar": "يغطي هذا الدرس: القواعد: حروف العطف",
-        "es": "Esta lección cubre: Gramática: Conjunciones",
-        "zh": "本课程涵盖：语法：连词",
-        "ja": "このレッスンでカバーする内容：文法：接続詞"
+        "en": "Connect words, phrases, or clauses using conjunctions (and, but, or, so, because). Demonstrate how conjunctions change the flow and meaning of the sentence.",
+        "th": "เชื่อมต่อคำ วลี หรืออนุประโยคโดยใช้คำสันธาน (และ แต่ หรือ ดังนั้น เพราะ) สาธิตว่าคำสันธานเปลี่ยนการไหลและความหมายของประโยคอย่างไร",
+        "fa": "کلمات، عبارات یا جملات‌واره‌ها را با استفاده از حروف ربط (و، اما، یا، بنابراین، زیرا) به هم متصل کنید. نشان دهید که حروف ربط چگونه جریان و معنای جمله را تغییر می‌دهند.",
+        "ar": "اربط الكلمات أو العبارات أو الجمل باستخدام حروف العطف (و، لكن، أو، لذلك، لأن). أظهر كيف تغير حروف العطف تدفق ومعنى الجملة.",
+        "es": "Conecta palabras, frases o cláusulas usando conjunciones (y, pero, o, así que, porque). Demuestra cómo las conjunciones cambian el flujo y el significado de la oración.",
+        "zh": "使用连词（和、但是、或者、所以、因为）连接单词、短语或从句。展示连词如何改变句子的流畅度和意义。",
+        "ja": "接続詞（そして、しかし、または、だから、なぜなら）を使用して、単語、句、または節を接続します。接続詞が文の流れと意味をどのように変えるかを示します。"
       }
     },
     {
@@ -2892,13 +2868,13 @@
         "ja": "文法：間接話法"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Reported Speech",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำพูดอ้างอิง",
-        "fa": "این درس شامل: دستور زبان: نقل قول",
-        "ar": "يغطي هذا الدرس: القواعد: الكلام المنقول",
-        "es": "Esta lección cubre: Gramática: Estilo indirecto",
-        "zh": "本课程涵盖：语法：间接引语",
-        "ja": "このレッスンでカバーする内容：文法：間接話法"
+        "en": "Report what someone else said using reported speech structures. Demonstrate the correct backshifting of tenses and changes in pronouns/time expressions if applicable.",
+        "th": "รายงานสิ่งที่คนอื่นพูดโดยใช้โครงสร้างคำพูดอ้างอิง สาธิตการถอยหลังของกาลและการเปลี่ยนคำสรรพนาม/การแสดงเวลาอย่างถูกต้องถ้ามี",
+        "fa": "آنچه شخص دیگری گفته است را با استفاده از ساختارهای نقل قول گزارش دهید. در صورت امکان، تغییر زمان‌ها و تغییرات ضمایر/عبارات زمانی را به درستی نشان دهید.",
+        "ar": "أبلغ عن ما قاله شخص آخر باستخدام هياكل الكلام المنقول. أظهر التراجع الصحيح في الأزمنة والتغيرات في الضمائر/تعبيرات الوقت إذا كان ذلك قابلاً للتطبيق.",
+        "es": "Reporta lo que alguien más dijo usando estructuras de estilo indirecto. Demuestra el retroceso correcto de los tiempos y los cambios en los pronombres/expresiones de tiempo si es aplicable.",
+        "zh": "使用间接引语结构报告别人说的话。如果适用，展示时态的正确后退以及代词/时间表达的变化。",
+        "ja": "間接話法構造を使用して、他の人が言ったことを報告します。該当する場合、テンスの正しい後退と代名詞/時間表現の変化を示します。"
       }
     },
     {
@@ -2913,13 +2889,13 @@
         "ja": "文法：強調の終助詞"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Emphasis Particles",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำลงท้ายเน้นความ",
-        "fa": "این درس شامل: دستور زبان: ذرات تأکیدی",
-        "ar": "يغطي هذا الدرس: القواعد: أدوات التأكيد",
-        "es": "Esta lección cubre: Gramática: Partículas de énfasis",
-        "zh": "本课程涵盖：语法：语气助词",
-        "ja": "このレッスンでカバーする内容：文法：強調の終助詞"
+        "en": "Use Thai emphasis particles to soften commands, show surprise, or add emotional nuance. Ensure they are used in appropriate informal/semi-formal contexts.",
+        "th": "ใช้คำลงท้ายเน้นความเพื่อลดความแข็งของคำสั่ง แสดงความประหลาดใจ หรือเพิ่มอารมณ์ให้กับประโยค ตรวจสอบให้แน่ใจว่าใช้ในบริบทที่ไม่เป็นทางการหรือกึ่งทางการที่เหมาะสม",
+        "fa": "از ذرات تأکیدی تایلندی برای نرم کردن دستورات، نشان دادن تعجب یا افزودن ظرافت احساسی استفاده کنید. اطمینان حاصل کنید که در زمینه‌های غیررسمی/نیمه‌رسمی مناسب استفاده می‌شوند.",
+        "ar": "استخدم أدوات التأكيد التايلاندية لتليين الأوامر أو إظهار المفاجأة أو إضافة نبرة عاطفية. تأكد من استخدامها في سياقات غير رسمية/شبه رسمية مناسبة.",
+        "es": "Usa partículas de énfasis tailandesas para suavizar comandos, mostrar sorpresa o añadir un matiz emocional. Asegúrate de que se usen en contextos informales/semiformales apropiados.",
+        "zh": "使用泰语语气助词来软化命令、表示惊讶或增加情感色彩。确保在适当的非正式/半正式语境中使用。",
+        "ja": "タイ語の強調の終助詞を使用して、命令を和らげたり、驚きを示したり、感情的なニュアンスを追加したりします。適切な非公式/半公式の文脈で使用されていることを確認してください。"
       }
     },
     {
@@ -2934,13 +2910,13 @@
         "ja": "文法：感嘆詞"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Exclamations",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: คำอุทาน",
-        "fa": "این درس شامل: دستور زبان: علائم تعجب",
-        "ar": "يغطي هذا الدرس: القواعد: التعجبات",
-        "es": "Esta lección cubre: Gramática: Exclamaciones",
-        "zh": "本课程涵盖：语法：感叹词",
-        "ja": "このレッスンでカバーする内容：文法：感嘆詞"
+        "en": "Use Thai exclamations and interjections to express sudden emotions like surprise, pain, or realization. Place them naturally at the beginning or end of the utterance.",
+        "th": "ใช้คำอุทานและคำแทรกภาษาไทยเพื่อแสดงอารมณ์กะทันหันเช่น ความประหลาดใจ ความเจ็บปวด หรือการตระหนักรู้ วางไว้ตามธรรมชาติที่จุดเริ่มต้นหรือจุดสิ้นสุดของประโยค",
+        "fa": "از علائم تعجب وinterjections تایلندی برای بیان احساسات ناگهانی مانند تعجب، درد یا درک استفاده کنید. آن‌ها را به طور طبیعی در ابتدا یا انتهای عبارت قرار دهید.",
+        "ar": "استخدم التعجب والتداخلات التايلاندية للتعبير عن المشاعر المفاجئة مثل المفاجأة أو الألم أو الإدراك. ضعها بشكل طبيعي في بداية أو نهاية العبارة.",
+        "es": "Usa exclamaciones e interjecciones tailandesas para expresar emociones repentinas como sorpresa, dolor o realización. Colócalas naturalmente al principio o al final de la expresión.",
+        "zh": "使用泰语感叹词和插词来表达突然的情绪，如惊讶、疼痛或醒悟。将它们自然地放在话语的开头或结尾。",
+        "ja": "タイ語の感嘆詞と挿入詞を使用して、驚き、痛み、気づきなどの突然の感情を表現します。発話の最初または最後に自然に配置します。"
       }
     },
     {
@@ -2955,13 +2931,13 @@
         "ja": "文法：文体の切り替え"
       },
       "description": {
-        "en": "This lesson covers: Grammar: Register Switching",
-        "th": "บทเรียนนี้ครอบคลุม: ไวยากรณ์: การปรับระดับภาษา",
-        "fa": "این درس شامل: دستور زبان: تغییر لحن",
-        "ar": "يغطي هذا الدرس: القواعد: تبديل السجل",
-        "es": "Esta lección cubre: Gramática: Cambio de registro",
-        "zh": "本课程涵盖：语法：语体转换",
-        "ja": "このレッスンでカバーする内容：文法：文体の切り替え"
+        "en": "Demonstrate switching between different levels of Thai register (e.g., street/informal vs. formal). Use specific vocabulary and pronouns that change depending on the social context.",
+        "th": "สาธิตการสลับระหว่างระดับภาษาต่างๆ ของภาษาไทย (เช่น ภาษาถนน/ไม่เป็นทางการ เทียบกับ ภาษาทางการ) ใช้คำศัพท์และคำสรรพนามเฉพาะที่เปลี่ยนไปตามบริบททางสังคม",
+        "fa": "تغییر بین سطوح مختلف لحن تایلندی (مثلاً خیابانی/غیررسمی در مقابل رسمی) را نشان دهید. از واژگان و ضمایر خاصی استفاده کنید که بسته به زمینه اجتماعی تغییر می‌کنند.",
+        "ar": "أظهر التبديل بين مستويات مختلفة من السجل التايلاندي (مثل الشارع/غير الرسمي مقابل الرسمي). استخدم مفردات وضمائر محددة تتغير حسب السياق الاجتماعي.",
+        "es": "Demuestra el cambio entre diferentes niveles de registro tailandés (ej. callejero/informal vs. formal). Usa vocabulario y pronombres específicos que cambian según el contexto social.",
+        "zh": "展示在泰语不同语体（例如街头/非正式与正式）之间切换。使用根据社交语境变化的特定词汇和代词。",
+        "ja": "タイ語の異なるレジスター（例：ストリート/非公式と公式）間の切り替えを示します。社会的文脈に応じて変化する特定の語彙と代名詞を使用します。"
       }
     },
     {
@@ -3141,7 +3117,7 @@
         "ar": "القواعد: حالة الإضافة",
         "es": "Gramática: El Estado Constructo (Idafa)",
         "zh": "语法：正偏组合（伊达法）",
-        "ja": "文法：附加状态（イダーファ）"
+        "ja": "文法：附加状態（イダーファ）"
       },
       "description": {
         "en": "The Idafa is a grammatical construction in Arabic used to show possession or relationship between two nouns, where the first noun loses its definite article.",
@@ -3270,13 +3246,13 @@
         "ja": "文法：否定"
       },
       "description": {
-        "en": "How to form negative sentences and express inability across different languages.",
-        "th": "วิธีการสร้างประโยคปฏิเสธและแสดงถึงความไม่สามารถในภาษาต่างๆ",
-        "fa": "نحوه ساخت جملات منفی و بیان ناتوانی در زبان‌های مختلف.",
-        "ar": "كيفية تكوين الجمل السلبية والتعبير عن العجز عبر لغات مختلفة.",
-        "es": "Cómo formar oraciones negativas y expresar incapacidad en diferentes idiomas.",
-        "zh": "如何在不同语言中构成否定句和表达不能。",
-        "ja": "異なる言語で否定文を作り、不可能を表現する方法。"
+        "en": "Formulate negative sentences to express denial, absence, or inability. Use the correct negative markers in the correct syntactic position.",
+        "th": "สร้างประโยคปฏิเสธเพื่อแสดงการปฏิเสธ ความไม่มีอยู่ หรือความไม่สามารถ ใช้เครื่องหมายปฏิเสธที่ถูกต้องในตำแหน่งทางไวยากรณ์ที่ถูกต้อง",
+        "fa": "جملات منفی را برای بیان انکار، عدم حضور یا ناتوانی بیان کنید. از نشانگرهای منفی صحیح در موقعیت نحوی صحیح استفاده کنید.",
+        "ar": "صغ جمل سلبية للتعبير عن الإنكار أو الغياب أو العجز. استخدم علامات النفي الصحيحة في الموضع النحوي الصحيح.",
+        "es": "Formula oraciones negativas para expresar denegación, ausencia o incapacidad. Usa los marcadores negativos correctos en la posición sintáctica correcta.",
+        "zh": "构建否定句以表达否认、缺席或无能。在正确的句法位置使用正确的否定标记。",
+        "ja": "否定、不在、または無能力を表現するために否定文を作成します。正しい構文位置に正しい否定マーカーを使用します。"
       }
     },
     {
@@ -3291,13 +3267,13 @@
         "ja": "文法：関係節"
       },
       "description": {
-        "en": "Using clauses to modify nouns (e.g., 'The man *who stands there*').",
-        "th": "การใช้ประโยคย่อยเพื่อขยายคำนาม (เช่น 'ผู้ชาย*ที่ยืนอยู่ที่นั่น')",
-        "fa": "استفاده از جملات برای توصیف اسامی (مثلاً 'مردی *که آنجا ایستاده است*').",
-        "ar": "استخدام الجمل لتعديل الأسماء (مثل 'الرجل *الذي يقف هناك*').",
-        "es": "Uso de cláusulas para modificar sustantivos (ej., 'El hombre *que está de pie allí*').",
-        "zh": "使用从句修饰名词（例如“*站在那里的*男人”）。",
-        "ja": "名詞を修飾する節の使用（例：「*そこに立っている*男性」）。"
+        "en": "Use relative clauses to modify nouns. Use relative pronouns or language-specific relative clause structures correctly.",
+        "th": "ใช้อนุประโยคRelativeเพื่อขยายคำนาม ใช้คำสรรพนามRelativeหรือโครงสร้างอนุประโยคRelativeเฉพาะภาษาอย่างถูกต้อง",
+        "fa": "از جملات موصولی برای توصیف اسامی استفاده کنید. از ضمایر موصولی یا ساختارهای خاص زبان برای جملات موصولی به درستی استفاده کنید.",
+        "ar": "استخدم جملات الصلة لتعديل الأسماء. استخدم ضمائر الصلة أو هياكل جمل الصلة الخاصة باللغة بشكل صحيح.",
+        "es": "Usa oraciones relativas para modificar sustantivos. Usa pronombres relativos o estructuras de oraciones relativas específicas del idioma correctamente.",
+        "zh": "使用关系从句修饰名词。正确使用关系代词或特定语言的关系从句结构。",
+        "ja": "名詞を修飾するために関係節を使用します。関係代名詞または言語固有の関係節構造を正しく使用します。"
       }
     },
     {
@@ -3312,13 +3288,13 @@
         "ja": "文法：受動態"
       },
       "description": {
-        "en": "Structures where the subject receives the action (e.g., 'The window *was broken*').",
-        "th": "โครงสร้างที่ประธานเป็นผู้ถูกกระทำ (เช่น 'หน้าต่าง*ถูกทำแตก*')",
-        "fa": "ساختارهایی که فاعل عمل را دریافت می‌کند (مثلاً 'پنجره *شکسته شد*').",
-        "ar": "الهياكل التي يتلقى فيها الفاعل الفعل (مثل 'كُسرت النافذة').",
-        "es": "Estructuras donde el sujeto recibe la acción (ej., 'La ventana *fue rota*').",
-        "zh": "主语接受动作的结构（例如“窗户*被打破了*”）。",
-        "ja": "主語が動作を受ける構造（例：「窓が*割られた*」）。"
+        "en": "Formulate passive voice sentences where the subject receives the action. Use appropriate auxiliary verbs and past participles, or language-specific passive markers.",
+        "th": "สร้างประโยครูปถูกกระทำที่ประธานเป็นผู้รับกระทำ ใช้กริยาช่วยและกริยาช่องที่ 3 อย่างเหมาะสม หรือใช้เครื่องหมายรูปถูกกระทำเฉพาะภาษา",
+        "fa": "جملات وجه مجهول را بیان کنید که در آن نهاد عمل را دریافت می‌کند. از افعال کمکی مناسب و قسمت مفعولی گذشته، یا نشانگرهای خاص زبان برای وجه مجهول استفاده کنید.",
+        "ar": "صغ جمل بصيغة المجهول حيث يتلقى الفاعل الفعل. استخدم الأفعال المساعدة المناسبة والتصريفات الماضية، أو علامات المجهول الخاصة باللغة.",
+        "es": "Formula oraciones en voz pasiva donde el sujeto recibe la acción. Usa verbos auxiliares apropiados y participios pasados, o marcadores de voz pasiva específicos del idioma.",
+        "zh": "构建被动语态句子，其中主语接受动作。使用适当的助动词和过去分词，或特定语言的被动标记。",
+        "ja": "主語が動作を受ける受動態の文を作成します。適切な助動詞と過去分詞、または言語固有の受動態マーカーを使用します。"
       }
     },
     {
@@ -3333,13 +3309,13 @@
         "ja": "文法：使役態"
       },
       "description": {
-        "en": "Expressing that someone causes another person to do something (e.g., 'I *made him clean*').",
-        "th": "การแสดงว่าใครบางคนทำให้คนอื่นทำบางสิ่ง (เช่น 'ฉัน*ให้เขาทำความสะอาด*')",
-        "fa": "بیان اینکه کسی باعث می‌شود شخص دیگری کاری انجام دهد (مثلاً 'من او را *مجبور کردم تمیز کند*').",
-        "ar": "التعبير عن أن شخصًا يجعل شخصًا آخر يفعل شيئًا (مثل 'أجعله *ينظف*').",
-        "es": "Expresar que alguien hace que otra persona haga algo (ej., 'Hago que él *limpie*').",
-        "zh": "表达某人使另一人做某事（例如“我*让他打扫*”）。",
-        "ja": "ある人が別の人に何かをさせることを表現する（例：「私は彼に*掃除させた*」）。"
+        "en": "Express that the subject causes someone else to perform an action. Use causative verbs or structures appropriate for the target language.",
+        "th": "แสดงว่าประธานทำให้คนอื่นกระทำสิ่งใดสิ่งหนึ่ง ใช้กริยาทำให้ทำหรือโครงสร้างที่เหมาะสมสำหรับภาษาเป้าหมาย",
+        "fa": "بیان کنید که نهاد باعث می‌شود شخص دیگری کاری انجام دهد. از افعال سببی یا ساختارهای مناسب برای زبان هدف استفاده کنید.",
+        "ar": "عبّر عن أن الفاعل يجعل شخصًا آخر يقوم بفعل ما. استخدم أفعال السببية أو الهياكل المناسبة للغة المستهدفة.",
+        "es": "Expresa que el sujeto hace que otra persona realice una acción. Usa verbos causativos o estructuras apropiadas para el idioma objetivo.",
+        "zh": "表达主语使其他人执行某个动作。使用目标语言中适当的使役动词或结构。",
+        "ja": "主語が他の人に動作を行わせることを表現します。目標言語に適した使役動詞または構造を使用します。"
       }
     },
     {
@@ -3354,13 +3330,13 @@
         "ja": "文法：数量詞"
       },
       "description": {
-        "en": "Words that indicate amount or quantity (e.g., 'every', 'some', 'all').",
-        "th": "คำที่ระบุจำนวนหรือปริมาณ (เช่น 'ทุก', 'บาง', 'ทั้งหมด')",
-        "fa": "کلماتی که مقدار یا کمیت را نشان می‌دهند (مثلاً 'هر'، 'برخی'، 'همه').",
-        "ar": "الكلمات التي تشير إلى الكمية أو المقدار (مثل 'كل'، 'بعض'، 'جميع').",
-        "es": "Palabras que indican cantidad (ej., 'cada', 'algunos', 'todos').",
-        "zh": "表示数量或量的词（例如“每”、“有些”、“所有”）。",
-        "ja": "量や数量を示す言葉（例：「毎」、「一部」、「すべて」）。"
+        "en": "Use quantifiers to indicate amount or quantity. Ensure they are placed correctly before the noun and agree with countable/uncountable nouns.",
+        "th": "ใช้คำบอกปริมาณเพื่อระบุจำนวนหรือปริมาณ ตรวจสอบให้แน่ใจว่าวางไว้หน้าคำนามอย่างถูกต้องและสอดคล้องกับคำนามที่นับได้/นับไม่ได้",
+        "fa": "از کمیت‌سنج‌ها برای نشان دادن مقدار یا کمیت استفاده کنید. اطمینان حاصل کنید که به درستی قبل از اسم قرار می‌گیرند و با اسامی قابل شمارش/غیرقابل شمارش مطابقت دارند.",
+        "ar": "استخدم أدوات الكمية للإشارة إلى المقدار أو الكمية. تأكد من وضعها بشكل صحيح قبل الاسم وتتوافق مع الأسماء القابلة للعد/غير القابلة للعد.",
+        "es": "Usa cuantificadores para indicar cantidad o monto. Asegúrate de que se coloquen correctamente antes del sustantivo y concuerden con sustantivos contables/incontables.",
+        "zh": "使用数量词表示数量或金额。确保它们正确放置在名词之前，并与可数/不可数名词一致。",
+        "ja": "量または数量を示すために数量詞を使用します。それらが名詞の前に正しく配置され、可算/不可算名詞と一致していることを確認します。"
       }
     }
   ]
