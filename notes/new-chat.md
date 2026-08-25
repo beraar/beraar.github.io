@@ -1,7 +1,7 @@
 I am working on the Zabon language learning app. I need you to generate a lesson data file (JSON) for a specific lesson path defined in my `manifest.json` uploaded in this message.
 
 The lesson path is:
-lessons/accommodation/hotel-requests.json
+lessons/grammar/fa-sov.json
 
 Here are the strict constraints and instructions you MUST follow:
 
@@ -17,7 +17,7 @@ Levels 4-6 (Intermediate): Compound sentences, natural conversational flow, spec
 Levels 7-9 (Advanced): Complex grammar (conditionals, passive voice, reported speech), nuanced dialogue, formal/informal register switching, specialized/professional vocabulary.
 
 🚨 GRAMMAR & RULES ALIGNMENT
-If the target lesson in `manifest.json` has a `"rules"` array (e.g., `"rules": ["rule_universal_svo"]`), you MUST look up that rule ID in the top-level `grammar_rules` registry. Read the `description` field carefully—it contains the strict linguistic constraints and pedagogical boundaries for that specific concept. The generated sentences MUST explicitly demonstrate these rules.
+If the target lesson in `manifest.json` has a `"rules"` array (e.g., `"rules": ["rule_universal_svo"]`), you MUST look up that rule ID in the top-level `grammar_rules` registry. Read the `description` field carefully—it contains the strict linguistic constraints and pedagogical boundaries for that specific concept. The generated scenarios sentences should mainly demonstrate these rules and follow the CONVERSATION SCENARIO REQUIREMENT (Thematic Lessons).
 
 🚨 CONVERSATION SCENARIO REQUIREMENT (Thematic Lessons)
 The lesson MUST be based on a realistic, everyday conversation scenario between 2 or more people. The sentences must represent actual spoken dialogue in natural, informal language (not formal, isolated, or textbook-style statements). The sequence of sentences must flow cohesively and read as a continuous, natural conversation.
@@ -49,7 +49,6 @@ You MUST extract EVERY distinct word that appears in the generated sentences.
 - Do not arbitrarily stop adding words from the sentences to keep the list short. If a distinct word appears in the spoken sentences, it MUST have a corresponding `word_*` entry under the Words header.
 - Do not duplicate words in the word list.
 - Ensure the text for every word is an exact substring of the text in at least one sentence (do not use dictionary/infinitive forms if they differ from the spoken text).
-  (Note: If the target lesson is a Grammar lesson belonging to `cat_grammar_*`, omit the scenario headers and words header. Simply provide a flat list of `word_*` and `sentence_*` items demonstrating the grammar rule).
 
 SENTENCE-FIRST EXTRACTION METHOD
 Because the JSON requires sentences first and vocabulary last, you will naturally generate the content in the correct order.
