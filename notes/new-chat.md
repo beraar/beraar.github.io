@@ -1,7 +1,7 @@
 I am working on the Zabon language learning app. I need you to generate a lesson data file (JSON) for a specific lesson path defined in my `manifest.json` uploaded in this message.
 
 The lesson path is:
-lessons/grammar/fa-sov.json
+lessons/grammar/universal-classifiers.json
 
 Here are the strict constraints and instructions you MUST follow:
 
@@ -20,7 +20,7 @@ Levels 7-9 (Advanced): Complex grammar (conditionals, passive voice, reported sp
 If the target lesson in `manifest.json` has a `"rules"` array (e.g., `"rules": ["rule_universal_svo"]`), you MUST look up that rule ID in the top-level `grammar_rules` registry. Read the `description` field carefully—it contains the strict linguistic constraints and pedagogical boundaries for that specific concept. The generated scenarios sentences should mainly demonstrate these rules and follow the CONVERSATION SCENARIO REQUIREMENT (Thematic Lessons).
 
 🚨 CONVERSATION SCENARIO REQUIREMENT (Thematic Lessons)
-The lesson MUST be based on a realistic, everyday conversation scenario between 2 or more people. The sentences must represent actual spoken dialogue in natural, informal language (not formal, isolated, or textbook-style statements). The sequence of sentences must flow cohesively and read as a continuous, natural conversation.
+The lesson MUST be based on a realistic, everyday conversation scenario between 2 people. The sentences must represent actual spoken dialogue in natural, informal language (not formal, isolated, or textbook-style statements). The sequence of sentences must flow cohesively and read as a continuous, natural conversation.
 
 🚨 STRICT STRUCTURAL & NAMING CONVENTIONS (CRITICAL FOR FRONTEND)
 You MUST follow this exact JSON structure and ID naming scheme. Do NOT use lazy IDs like "h1", "s1", or "w1".
@@ -110,27 +110,24 @@ Instead, **ONLY output the specific JSON block(s) that need fixing.**
 
 **Example Response for a Fix:**
 
-```json
-// Fix for sentence_15 and its affected words
 [
-  {
-    "id": "sentence_15",
-    "kind": "sentence",
-    "texts": {
-      "en": "Wait, let me write it down.",
-      "th": "เดี๋ยว ขอจดก่อน",
-      "fa": "صبر کن، بگذار بنویسم.",
-      "ar": "انتظر، دعني أكتبه.",
-      "es": "Espera, déjame anotarlo.",
-      "zh": "等等，我记一下。",
-      "ja": "待ってください、書きますので。"
-    },
-    "tokens": {
-      "en": ["Wait,", "let", "me", "write", "it", "down."],
-      "fa": ["صبر", "کن،", "بگذار", "بنویسم."],
-      "ar": ["انتظر،", "دعني", "أكتبه."],
-      "es": ["Espera,", "déjame", "anotarlo."]
-    }
-  }
+{
+"id": "sentence_15",
+"kind": "sentence",
+"texts": {
+"en": "Wait, let me write it down.",
+"th": "เดี๋ยว ขอจดก่อน",
+"fa": "صبر کن، بگذار بنویسم.",
+"ar": "انتظر، دعني أكتبه.",
+"es": "Espera, déjame anotarlo.",
+"zh": "等等，我记一下。",
+"ja": "待ってください、書きますので。"
+},
+"tokens": {
+"en": ["Wait,", "let", "me", "write", "it", "down."],
+"fa": ["صبر", "کن،", "بگذار", "بنویسم."],
+"ar": ["انتظر،", "دعني", "أكتبه."],
+"es": ["Espera,", "déjame", "anotarlo."]
+}
+}
 ]
-```
