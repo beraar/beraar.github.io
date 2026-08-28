@@ -1,44 +1,12 @@
+See the files for the mobile first, language learning Web App. 
 
-🚀 Your Copy-Paste Workflow Template
-Step 1: Start a New Chat
-Upload manifest.json and new-chat.md. Then send this exact prompt:
-
-I am ready to generate a lesson. The target lesson path is: lessons/basics/where-is.json. Please read the manifest, apply the rules from new-chat.md, use the <planning> scratchpad, and output the valid JSON.
-
-Step 2: Run the Validator
-Save the LLM's output to lessons/basics/numbers.json and run:
-node tools/validate-lessons.js lessons/basics/numbers.json
-Step 3: Handle the Result
-
-    If it says ✅ SUCCESS!: You are done. Move on to the next lesson and start a brand new chat.
-    If it fails: Copy the 📋 VALIDATION REPORT from the terminal. Start a new message in the same chat and say:
-
-The validator returned these errors. Please fix the JSON and output only the corrected code block:
-[Paste the error report here]
-
-(Note: If a lesson fails validation more than 2 times in the same chat, abandon that chat entirely and start a fresh one. This resets the model's attention and almost always yields a perfect result on the first try).
-
-===================================
-Clarification for 2.1 which states:
-
-2.1 Recording Button Placement
-Add a "Record" button (🎤 icon) to the lesson view.
-The button should be positioned below each sentence or word item, not in the global media toolbar.
-The button should fade in after the audio for that item has finished playing.
-The button should fade out when the user navigates to the next item or starts playback of a different item.
-
-Currently, the play button is continuous from sentence to sentence without user intervention to navigate to the next lesson.
-
-Possible solutions: Place a toggle button in the lesson settings panel for "Record & Compare".  When the "Record & Compare" is on, fade in the record button for say, 5 seconds to allow the user to select the record button otherwise timeout and continue to plat the next sentence.  If the "Record & Compare" toggle is off, continue as it is now and play continues.  The default should be with the "Record & Compare" toggle on.
-
-I am not sure if that is the best solution? Please clarify and update the plan.
-
-======================
-
-I have replaced the revised 2.1 section in the main plan.  I have removed the references to "Revised" in readiness to start the first chat for the first stage.
-
-Rather than later modifications, it is best to have a meticulous plan at the start.  I have meticulously checked and do not have any further modifications.  Perhaps you could give the same confirmation after a final check and I will start a new chat for stage 1.
+Analyze and comment on the record-compare.md describing a staged implementation of the new Record and Compare feature in successive chats.  Each stage should provide full details so that it could be cut and pasted to start a new chat.  The motivation for successive chats is to avoid context drift.
 
 
 
+===============
+
+Please incorporate your recommended fixes into the plan and output a new record-compare.md 
+- the volume control and volume meter can be deleted.
+- the record-compare.md should have each stage complete so that it can be copied and pasted into a new chat.
 

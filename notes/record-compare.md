@@ -1,650 +1,1002 @@
-Thank you for the comprehensive answers. Based on your clarifications, I will now generate a detailed, stage-by-stage implementation prompt message.
+Here is the revised, production-ready `record-compare.md`. It incorporates all the recommended fixes, removes the volume meter/control entirely, and is explicitly structured so that **each stage is 100% self-contained**.
+
+You can copy any stage, paste it into a new chat along with your `app.js` and `main.css` files, and the AI will have all the exact context and insertion points needed to implement it without context drift.
 
 ---
 
-# Implementation Prompt: "Record & Compare" Feature for Zabon
+# Record & Compare Feature Implementation Plan
+
+## Project Context
+
+**Zabon** is a language-learning web app (vanilla HTML/CSS/JS, no frameworks).
+
+- `app.js` is a single IIFE containing all logic, state, and UI rendering.
+- `main.css` is a mobile-first, language-agnostic design system using CSS variables.
+- The app supports 7 languages. Content is displayed in stacked language cells (`.language-cell`) inside item columns (`.item-column`).
+- **Goal:** Implement a "Record & Compare" feature allowing users to record their voice speaking a specific text and compare it to the original TTS.
+- **Privacy Default:** The feature is **OFF by default** and must be opted-in via Settings.
 
 ---
 
-## Context Recovery Information
+## Stage 1: Settings Flag, UI Toggle & Feature Detection
 
-This implementation prompt describes the design and staged implementation of a "Record & Compare" feature for the Zabon language learning app.
+**Branch:** `feature/record-compare-settings`
+**Objective:** Add a settings toggle to enable/disable the feature, with browser feature detection. Default state is OFF (privacy-first).
 
-**If context is lost at any point, provide this summary to the AI assistant:**
+### Files to Modify
 
-> "We are implementing a 'Record & Compare' feature for the Zabon language learning app (mobile-first, JSON-driven lessons, Web Speech API). The feature allows users to record themselves speaking a sentence or word from the lesson, then compare their recording to the original audio. We are following a staged implementation approach. The app's lessons are structured as ordered sets of individual sentences (scenario conversations) and word lists. Sentences are stored with 'kind': 'sentence' and have 'texts' and 'tokens' properties. Words are stored with 'kind': 'word'. The current workflow includes: selecting a target language, selecting bridge languages, and playing audio with text highlighting. We are adding recording functionality that appears after listening, with manual stop, countdown, visual indicator, and compare playback. Recordings are held in memory only. The 'Hide Text' challenge is a global setting in the lesson settings panel. The 'Record' button should fade in/out with the spoken text. The 'Compare' playback has a brief pause between original and recording, with the pause duration based on the user's speech speed setting. MediaRecorder fallback: hide the button if unsupported. We are at Stage [X] and need to continue."
+- `app.js`
+- `main.css`
+
+### Context for New Chat
+
+_You are modifying `app.js`. The settings are normalized in `normalizeSettings()`. The settings UI is rendered in `renderSettings()`, which appends sections to `elements.settingsBody`. The `UI_STRINGS` object is defined near the top of the file._
+
+### Code Changes
+
+**1. Add UI Strings (Inside the `UI_STRINGS` object in `app.js`)**
+
+```javascript
+// Add these keys inside the UI_STRINGS object:
+recordCompareTitle: { en: "Record & Compare", th: "บันทึกและเปรียบเทียบ", fa: "ضبط و مقایسه", ar: "تسجيل ومقارنة", es: "Grabar y Comparar", zh: "录音与比较", ja: "録音と比較" },
+recordCompareToggle: { en: "Record & Compare", th: "บันทึกและเปรียบเทียบ", fa: "ضبط و مقایسه", ar: "تسجيل ومقارنة", es: "Grabar y Comparar", zh: "录音与比较", ja: "録音と比較" },
+recordCompareUnsupported: { en: "Recording not supported in this browser.", th: "เบราว์เซอร์นี้ไม่รองรับการบันทึก", fa: "ضبط در این مرورگر پشتیبانی نمی‌شود.", ar: "التسجيل غير مدعوم في هذا المتصفح.", es: "Grabación no soportada en este navegador.", zh: "此浏览器不支持录音。", ja: "このブラウザでは録音をサポートしていません。" },
+```
+
+**2. Add Feature Detection & Settings Flag (In `app.js`)**
+
+```javascript
+// Add this function anywhere at the top level of the IIFE:
+function isRecordingSupported() {
+  return !!(
+    navigator.mediaDevices &&
+    navigator.mediaDevices.getUserMedia &&
+    window.MediaRecorder
+  );
+}
+
+// Modify normalizeSettings() to include the flag (Default: false for privacy):
+function normalizeSettings(saved) {
+  const s = saved || {};
+  return {
+    // ... existing settings ...
+    recordCompareEnabled:
+      typeof s.recordCompareEnabled === "boolean"
+        ? s.recordCompareEnabled
+        : false, // Default OFF
+  };
+}
+
+// In init(), after settings are loaded and applied, enforce feature detection:
+// Find the line: applyDocumentLanguage(); and add this right below it:
+if (!isRecordingSupported()) {
+  state.settings.recordCompareEnabled = false;
+}
+```
+
+**3. Update Settings UI (In `renderSettings()` in `app.js`)**
+
+```javascript
+// Find the renderSettings() function. It currently looks like this:
+// body.appendChild(renderSettingsLanguagesSection(lessonLangs));
+// body.appendChild(renderRepeatSection());
+// body.appendChild(renderSpeedSection());
+// body.appendChild(renderFontSection());
+// body.appendChild(renderVoicesSection());
+
+// Replace it with this to insert the new Audio section above Voices:
+function renderSettings() {
+  const body = elements.settingsBody;
+  body.innerHTML = "";
+  const lessonLangs = currentLesson?.meta?.translations || registry.allCodes();
+
+  body.appendChild(renderSettingsLanguagesSection(lessonLangs));
+  body.appendChild(renderRepeatSection());
+  body.appendChild(renderSpeedSection());
+  body.appendChild(renderFontSection());
+
+  // --- NEW: Audio Section ---
+  body.appendChild(renderRecordCompareSection());
+
+  body.appendChild(renderVoicesSection());
+}
+
+// Add this new function right below renderSettings():
+function renderRecordCompareSection() {
+  const section = document.createElement("div");
+  section.className = "sheet-section";
+  const title = document.createElement("h3");
+  title.className = "sheet-section__title";
+  title.textContent = t("recordCompareTitle");
+  section.appendChild(title);
+
+  const row = document.createElement("div");
+  row.className = "sheet-field";
+
+  const label = document.createElement("span");
+  label.className = "voice-row__label";
+  label.textContent = t("recordCompareToggle");
+
+  const toggle = document.createElement("input");
+  toggle.type = "checkbox";
+  toggle.checked = state.settings.recordCompareEnabled;
+
+  if (!isRecordingSupported()) {
+    toggle.disabled = true;
+    label.textContent += ` (${t("recordCompareUnsupported")})`;
+    label.style.opacity = "0.6";
+  } else {
+    toggle.addEventListener("change", () => {
+      state.settings.recordCompareEnabled = toggle.checked;
+      saveState();
+      renderCurrent(); // Re-render lesson to show/hide mic icons
+    });
+  }
+
+  row.append(label, toggle);
+  section.appendChild(row);
+  return section;
+}
+```
+
+**4. Add CSS (In `main.css`)**
+
+```css
+/* Add to the bottom of main.css */
+.sheet-field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+.sheet-field input[type="checkbox"] {
+  accent-color: var(--accent);
+  width: 1.2rem;
+  height: 1.2rem;
+}
+```
+
+### Testing Plan
+
+1. Open Settings. Verify "Record & Compare" section appears above "Voices".
+2. Toggle it ON. Refresh page. Verify it stays ON.
+3. Toggle it OFF. Refresh page. Verify it stays OFF.
+4. (If testing in an unsupported browser/iframe) Verify toggle is disabled with unsupported message.
 
 ---
 
-## Overview
+## Stage 2: Mic Icon Rendering in Lessons
 
-This feature enhances the existing lesson listening experience by adding an interactive "Listen, Then Speak" workflow. After the user hears a sentence or word with highlighting, they are invited to record themselves speaking the same phrase. They can then compare their recording to the original audio, enabling self-assessment and active pronunciation practice.
+**Branch:** `feature/record-compare-mic-icon`
+**Objective:** Render a mic icon inside every visible language cell when the feature is enabled.
 
-The implementation follows a staged approach, with each stage building upon the previous one. Each stage must be tested and approved before proceeding to the next.
+### Files to Modify
 
----
+- `app.js`
+- `main.css`
 
-## Files to Be Modified or Created
+### Context for New Chat
 
-| File                           | Purpose                                              | Stage          |
-| :----------------------------- | :--------------------------------------------------- | :------------- |
-| `app.js`                       | Core application logic, UI rendering, event handling | All Stages     |
-| `main.css`                     | Styling for new UI elements                          | Stages 1, 3, 6 |
-| `index.html`                   | HTML structure for new controls (if needed)          | Stage 1        |
-| _No new files are anticipated_ | -                                                    | -              |
+_You are modifying `app.js`. The function `renderLanguageCell(item, code)` generates the HTML for each language text block. We need to append a mic button inside this cell. The global click handler is in `bindGlobalEvents()`._
 
----
+### Code Changes
 
-# Suggested Opening Message for Stage 1 Chat
+**1. Modify `renderLanguageCell()` (In `app.js`)**
 
-    "We are implementing the 'Record & Compare' feature for the Zabon language learning app. We are following a staged implementation plan. This is Stage 1: Core Recording Infrastructure. The goal is to establish the foundational audio recording capabilities with support detection, permission handling, start/stop, maximum duration guard, and a test harness. Please implement Stage 1 as specified. I will upload the current versions of app.js, index.html, and main.css. After implementation, I will run the tests (T1.1 through T1.8) and confirm before proceeding to Stage 2."
+```javascript
+// Find the renderLanguageCell(item, code) function.
+// At the very end of the function, right before `return cell;`, add this logic:
 
----
+function renderLanguageCell(item, code) {
+  // ... [existing code that builds the cell and text] ...
 
-# Stage 1: Core Recording Infrastructure
+  // --- NEW: Append Mic Icon if feature is enabled ---
+  if (state.settings.recordCompareEnabled && isRecordingSupported()) {
+    const micBtn = document.createElement("button");
+    micBtn.type = "button";
+    micBtn.className = "record-mic";
+    micBtn.innerHTML = "🎤";
+    micBtn.dataset.action = "open-record-compare";
+    micBtn.dataset.itemId = item.id;
+    micBtn.dataset.lang = code;
+    micBtn.setAttribute("aria-label", `Record ${code} pronunciation`);
 
-**Goal:** Establish the foundational audio recording capabilities. No UI integration with lessons yet—just a test harness to verify recording works.
+    // Prevent the mic click from triggering the cell's speak-cell action
+    micBtn.addEventListener("click", (e) => e.stopPropagation());
 
----
+    cell.appendChild(micBtn);
+  }
 
-## Files to Upload
+  return cell;
+}
+```
 
-- `app.js` (current version)
-- `index.html` (current version)
-- `main.css` (current version)
+**2. Guard Lesson Playback Conflict (In `bindGlobalEvents` in `app.js`)**
 
----
+```javascript
+// Find the switch(action) statement inside the 'click' event listener in bindGlobalEvents().
+// Find the case "speak-cell": block. Add a guard at the top of it:
 
-## Implementation Requirements
+case "speak-cell":
+  // Prevent lesson playback if record panel is open
+  if (typeof recordPanelState !== 'undefined' && recordPanelState.isOpen) return;
+  startPlaybackFromCell(actionEl.dataset.itemId, actionEl.dataset.lang);
+  break;
+```
 
-### 1.1 Detect Browser Support
+**3. Add CSS (In `main.css`)**
 
-- Create a function `isMediaRecorderSupported()` that checks for:
-  - `window.MediaRecorder` existence
-  - `navigator.mediaDevices` and `getUserMedia` support
-  - Return `true` only if all required APIs are available
+```css
+/* Add to the bottom of main.css */
+.record-mic {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline-start: 0.5rem;
+  padding: 0.25rem;
+  min-width: 2rem;
+  min-height: 2rem;
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  opacity: 0.5;
+  border-radius: 50%;
+  transition:
+    opacity 0.2s,
+    background-color 0.2s;
+  vertical-align: middle;
+}
+.record-mic:hover {
+  opacity: 1;
+  background-color: rgba(127, 127, 127, 0.1);
+}
+.record-mic:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+```
 
-### 1.2 Recording Class/Module
+### Testing Plan
 
-Create a self-contained recording manager with the following capabilities:
-
-- **Request Microphone Access:** Prompt the user for microphone permission. Handle both "granted" and "denied" states gracefully.
-- **Start Recording:** Begin capturing audio from the microphone.
-- **Stop Recording:** Stop capturing and return the recorded audio as a `Blob` (WebM format recommended).
-- **Get Recording State:** Return the current state (idle, recording, stopped, error).
-- **Maximum Duration Guard:** Implement a safety limit to prevent excessively large blobs. If a recording exceeds **10 seconds** (or a defined maximum based on the original sentence length multiplied by a factor, e.g., 3x the original duration), automatically stop recording and notify the user.
-- **Cleanup:** Release microphone resources when recording is complete or aborted.
-
-### 1.3 Test Harness (Temporary)
-
-Add a hidden test panel accessible only via a debug flag (e.g., `?test=record` in the URL) or a console-accessible function:
-
-- A "Start Recording" button
-- A "Stop Recording" button
-- A "Play Recording" button
-- A display showing recording duration
-- A display showing the size of the recorded blob
-
-### 1.4 Error Handling
-
-- Handle `NotAllowedError` (user denied permission) with a user-friendly message
-- Handle `NotFoundError` (no microphone found) with a guidance message
-- Handle `NotReadableError` (microphone in use by another application)
-- Log all errors to the console for debugging
-
----
-
-## Tests to Confirm
-
-| Test     | Expected Result                                                                                | Pass/Fail |
-| :------- | :--------------------------------------------------------------------------------------------- | :-------- |
-| **T1.1** | `isMediaRecorderSupported()` returns `true` on a modern mobile browser with microphone access. | ☐         |
-| **T1.2** | Request microphone permission displays the browser's permission dialog.                        | ☐         |
-| **T1.3** | "Start Recording" begins capturing audio and shows a recording indicator.                      | ☐         |
-| **T1.4** | "Stop Recording" stops capture and returns a valid `Blob` object.                              | ☐         |
-| **T1.5** | "Play Recording" plays back the captured audio correctly.                                      | ☐         |
-| **T1.6** | Recording automatically stops if the maximum duration is exceeded.                             | ☐         |
-| **T1.7** | Denying microphone permission displays an appropriate message and does not crash.              | ☐         |
-| **T1.8** | No memory leaks or hanging microphone streams after repeated start/stop cycles.                | ☐         |
-
----
-
-## Context Recovery for Stage 1
-
-> "We are implementing the 'Record & Compare' feature for Zabon. We have completed Stage 1: Core Recording Infrastructure. All tests T1.1 through T1.8 have passed. The recording manager is functional with support detection, permission handling, start/stop with manual control, maximum duration guard (10 seconds or 3x original), and a temporary test harness. Please proceed to Stage 2."
-
----
-
-# Stage 2: Lesson UI Integration — Recording Controls (Revised)
-
-**Goal:** Integrate the "Record" button into the lesson view with a timeout-based pause mechanism.
+1. Turn feature ON in Settings. Open a lesson. Verify a 🎤 icon appears at the end of every text cell.
+2. Turn feature OFF. Refresh. Verify icons are gone.
+3. Click a language cell -> TTS plays. Click the 🎤 icon -> TTS does _not_ play (event stopped).
+4. Verify keyboard focus can reach the mic icons.
 
 ---
 
-## Files to Upload
+## Stage 3: Record Panel UI Structure & Accessibility
 
-- `app.js` (Stage 1 complete)
-- `main.css` (current version)
-- `index.html` (current version)
+**Branch:** `feature/record-compare-panel-structure`
+**Objective:** Create the full-screen overlay panel DOM, handle focus trapping, and manage opening/closing.
+
+### Files to Modify
+
+- `app.js`
+- `main.css`
+
+### Context for New Chat
+
+_We are building the UI shell for the panel. It will be dynamically injected into `document.body`. We need to define the initial state object and the render/close functions._
+
+### Code Changes
+
+**1. Add State & Panel Functions (In `app.js`)**
+
+```javascript
+// Add this state object at the top level of the IIFE (near other state variables):
+let recordPanelState = {
+  isOpen: false,
+  itemId: null,
+  lang: null,
+  text: "",
+  recordingBlob: null,
+  status: "idle", // 'idle' | 'recording' | 'recorded' | 'playback' | 'finished' | 'error'
+  errorType: null,
+  micElement: null,
+};
+
+// Add these functions anywhere at the top level:
+function renderRecordComparePanel(itemId, lang, micElement) {
+  if (recordPanelState.isOpen) closeRecordPanel();
+
+  const item = dataService.getItem(itemId);
+  if (!item) return;
+
+  const text = dataService.getText(item, lang);
+  if (!text) return;
+
+  recordPanelState = {
+    isOpen: true,
+    itemId,
+    lang,
+    text,
+    recordingBlob: null,
+    status: "idle",
+    errorType: null,
+    micElement: micElement,
+  };
+
+  // Pause any active lesson playback to prevent audio conflict
+  if (typeof stopPlayback === "function") stopPlayback();
+
+  const panel = document.createElement("div");
+  panel.className = "record-panel";
+  panel.id = "record-panel-root";
+  panel.innerHTML = `
+    <div class="record-panel__backdrop" data-action="close-record-panel"></div>
+    <div class="record-panel__container" role="dialog" aria-label="${t("recordCompareTitle")}" aria-modal="true">
+      <div class="record-panel__header">
+        <h3 class="record-panel__title">${t("recordCompareTitle")}</h3>
+        <button type="button" class="icon-button" data-action="close-record-panel" aria-label="Close">✕</button>
+      </div>
+      <div class="record-panel__body">
+        <div class="record-panel__text" data-action="play-original-tts" dir="${registry.dir(lang)}" lang="${registry.bcp47(lang)}">
+          ${text}
+        </div>
+        <div class="record-panel__instruction" aria-live="polite" aria-atomic="true">
+          Compare your speech. Tap to record.
+        </div>
+        <button type="button" class="record-panel__button" data-action="toggle-record">
+          🎤 Record
+        </button>
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(panel);
+  updateRecordPanelUI();
+
+  // Focus management
+  const closeBtn = panel.querySelector('[data-action="close-record-panel"]');
+  if (closeBtn) closeBtn.focus();
+}
+
+function closeRecordPanel() {
+  const panel = document.getElementById("record-panel-root");
+  if (panel) panel.remove();
+
+  // Cleanup media
+  if (typeof cleanupRecording === "function") cleanupRecording();
+  if (typeof cleanupPlayback === "function") cleanupPlayback();
+
+  const micElement = recordPanelState.micElement;
+
+  // Reset state
+  recordPanelState = {
+    isOpen: false,
+    itemId: null,
+    lang: null,
+    text: "",
+    recordingBlob: null,
+    status: "idle",
+    errorType: null,
+    micElement: null,
+  };
+
+  // Return focus
+  if (micElement && typeof micElement.focus === "function") {
+    micElement.focus();
+  }
+}
+
+function updateRecordPanelUI() {
+  const panel = document.getElementById("record-panel-root");
+  if (!panel) return;
+
+  const instruction = panel.querySelector(".record-panel__instruction");
+  const button = panel.querySelector('[data-action="toggle-record"]');
+  const textEl = panel.querySelector(".record-panel__text");
+
+  if (!instruction || !button) return;
+
+  // Map states to UI
+  const uiMap = {
+    idle: {
+      text: "Compare your speech. Tap to record.",
+      btn: "🎤 Record",
+      disabled: false,
+    },
+    recording: {
+      text: "Recording... Tap to stop.",
+      btn: "⏹ Stop",
+      disabled: false,
+    },
+    recorded: {
+      text: "Recording complete. Tap to listen.",
+      btn: "▶️ Listen",
+      disabled: false,
+    },
+    playback: {
+      text: "Playing original... Now your recording...",
+      btn: "▶️ Playing...",
+      disabled: true,
+    },
+    finished: {
+      text: "Done. Tap to record again.",
+      btn: "🎤 Record",
+      disabled: false,
+    },
+    error: {
+      text: t(recordPanelState.errorType || "recordCompareUnsupported"),
+      btn: "🎤 Retry",
+      disabled: false,
+    },
+  };
+
+  const current = uiMap[recordPanelState.status] || uiMap.idle;
+  instruction.textContent = current.text;
+  button.textContent = current.btn;
+  button.disabled = current.disabled;
+
+  // Disable text clicking during playback
+  if (textEl) {
+    textEl.classList.toggle(
+      "record-panel__text--disabled",
+      recordPanelState.status === "playback",
+    );
+  }
+}
+```
+
+**2. Add Global Event Handlers (In `bindGlobalEvents` in `app.js`)**
+
+```javascript
+// Inside the switch(action) in the click listener, add these cases:
+case "open-record-compare":
+  renderRecordComparePanel(actionEl.dataset.itemId, actionEl.dataset.lang, actionEl);
+  break;
+case "close-record-panel":
+  closeRecordPanel();
+  break;
+case "toggle-record":
+  if (typeof handleRecordPanelButtonClick === 'function') handleRecordPanelButtonClick();
+  break;
+case "play-original-tts":
+  if (recordPanelState.status !== "playback" && recordPanelState.lang) {
+    mediaService.speakText(recordPanelState.text, recordPanelState.lang);
+  }
+  break;
+
+// Inside the keydown listener in bindGlobalEvents, add Escape handling:
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && recordPanelState.isOpen) {
+    closeRecordPanel();
+  }
+  // ... existing Enter/Space logic ...
+});
+```
+
+**3. Add CSS (In `main.css`)**
+
+```css
+/* Add to the bottom of main.css */
+.record-panel {
+  position: fixed;
+  inset: 0;
+  z-index: 100; /* Above settings sheet (60) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.record-panel__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.record-panel__container {
+  position: relative;
+  max-width: 480px;
+  width: 90%;
+  max-height: 80vh;
+  padding: 1.5rem;
+  background: var(--surface);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow);
+  overflow-y: auto;
+  z-index: 1;
+}
+.record-panel__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.record-panel__title {
+  margin: 0;
+  font-size: 1.2rem;
+}
+.record-panel__text {
+  padding: 1rem;
+  margin: 0.5rem 0 1rem 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  font-size: 1.1rem;
+  cursor: pointer;
+  line-height: 1.6;
+}
+.record-panel__text:hover:not(.record-panel__text--disabled) {
+  border-color: var(--accent);
+}
+.record-panel__text--disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.record-panel__instruction {
+  color: var(--muted);
+  margin: 0.5rem 0 1.5rem 0;
+  text-align: center;
+  min-height: 2.5rem;
+  font-size: 1rem;
+}
+.record-panel__button {
+  display: block;
+  width: 100%;
+  min-height: 3.5rem;
+  padding: 0.75rem;
+  font-size: 1.2rem;
+  border: 2px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.record-panel__button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.record-panel__button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+```
+
+### Testing Plan
+
+1. Click a mic icon. Panel opens. Focus is on the Close (✕) button.
+2. Click the text -> TTS plays.
+3. Press `Escape` or click backdrop -> Panel closes, focus returns to the mic icon.
+4. Verify panel is above all other UI elements (z-index 100).
 
 ---
 
-## Implementation Requirements
+## Stage 4: Panel State Management & UI Flow
 
-### 2.1 Recording Button Placement
+**Branch:** `feature/record-compare-panel-state`
+**Objective:** Implement the strict state machine to control UI transitions and button clicks.
 
-    Add a toggle switch labeled "Record & Compare Mode" to the lesson settings panel.
+### Files to Modify
 
-    Default state: ON.
+- `app.js`
 
-    When ON: Playback pauses after each sentence/word, and the Record button appears.
+### Context for New Chat
 
-    When OFF: Playback continues uninterrupted (current behavior).
+_We are wiring up the logic for the "Record/Stop/Listen" button. The UI updates via `updateRecordPanelUI()`. We need to define valid state transitions to prevent UI bugs._
 
-    The toggle state is saved in localStorage (e.g., zabon.recordCompareMode).
+### Code Changes
 
-### 2.2 Visual Indicator
+**1. Add State Machine Logic (In `app.js`)**
 
-    When "Record & Compare Mode" is ON, display a subtle indicator in the lesson view:
+```javascript
+// Add these constants and functions at the top level:
+const RECORD_STATES = {
+  IDLE: "idle",
+  RECORDING: "recording",
+  RECORDED: "recorded",
+  PLAYBACK: "playback",
+  FINISHED: "finished",
+  ERROR: "error",
+};
 
-        A small microphone icon (🎤) or badge near the sentence counter
+function setRecordPanelState(newState, errorType = null) {
+  // Define valid transitions
+  const validTransitions = {
+    [RECORD_STATES.IDLE]: [RECORD_STATES.RECORDING, RECORD_STATES.ERROR],
+    [RECORD_STATES.RECORDING]: [RECORD_STATES.RECORDED, RECORD_STATES.ERROR],
+    [RECORD_STATES.RECORDED]: [
+      RECORD_STATES.PLAYBACK,
+      RECORD_STATES.IDLE,
+      RECORD_STATES.ERROR,
+    ],
+    [RECORD_STATES.PLAYBACK]: [
+      RECORD_STATES.FINISHED,
+      RECORD_STATES.ERROR,
+      RECORD_STATES.IDLE,
+    ], // IDLE added for panel close
+    [RECORD_STATES.FINISHED]: [
+      RECORD_STATES.IDLE,
+      RECORD_STATES.RECORDING,
+      RECORD_STATES.ERROR,
+    ],
+    [RECORD_STATES.ERROR]: [RECORD_STATES.IDLE, RECORD_STATES.RECORDING],
+  };
 
-        A brief tooltip or label: "Record mode active"
+  const allowed = validTransitions[recordPanelState.status] || [];
+  if (!allowed.includes(newState) && newState !== recordPanelState.status) {
+    console.warn(
+      `Invalid state transition: ${recordPanelState.status} → ${newState}`,
+    );
+    return;
+  }
 
-### 2.3 Recording Button Placement
+  recordPanelState.status = newState;
+  if (errorType) recordPanelState.errorType = errorType;
+  updateRecordPanelUI();
+}
 
-    The Record button (🎤) appears below each sentence or word item.
+function handleRecordPanelButtonClick() {
+  try {
+    switch (recordPanelState.status) {
+      case RECORD_STATES.IDLE:
+      case RECORD_STATES.FINISHED:
+      case RECORD_STATES.ERROR:
+        if (isRecordingSupported()) {
+          if (typeof startRecording === "function") startRecording();
+        } else {
+          setRecordPanelState(RECORD_STATES.ERROR, "recordCompareUnsupported");
+        }
+        break;
+      case RECORD_STATES.RECORDING:
+        if (typeof stopRecording === "function") stopRecording();
+        break;
+      case RECORD_STATES.RECORDED:
+        if (typeof startPlayback === "function") startPlayback();
+        break;
+      default:
+        break;
+    }
+  } catch (error) {
+    console.error("Record panel error:", error);
+    setRecordPanelState(RECORD_STATES.ERROR, "recordCompareUnsupported");
+  }
+}
+```
 
-    The button appears immediately when playback pauses.
+### Testing Plan
 
-    The button is accompanied by a visible countdown timer (e.g., "⏱ 5s").
-
-    The button and timer fade in together (300ms).
-
-### 2.4 Countdown Timer Behavior
-
-    The timer starts counting down immediately when playback pauses.
-
-    The countdown is paused if the user taps or focuses on the Record button.
-
-    The countdown resumes if the user moves away from the button.
-
-    The countdown is configurable in settings (default: 5 seconds).
-
-    If the timer expires, playback auto-continues.
-
-### 2.5 "Skip" Button
-
-    A small "Skip" button (⏭) appears next to the Record button.
-
-    Tapping "Skip" immediately continues playback.
-
-    The "Skip" button is subtle and does not distract from the primary Record action.
-
-### 2.6 Recording States (Unchanged from Original Plan)
-
-    Visible (Idle): Microphone icon, waiting for user action.
-
-    Recording: Red indicator with pulse animation.
-
-    Processing: Brief spinner while blob is prepared.
-
-    Completed: Checkmark icon, Compare button appears.
-
-### 2.7 Countdown Animation
-
-    The countdown timer should have a smooth visual animation (numbers "pop" or scale).
-
-    The timer should be clearly visible and readable.
-
-### 2.8 Word-Level Behavior
-
-    For word items, the same behavior applies: pause, Record button with timer, auto-continue.
-
-    The timeout duration should be shorter for words (e.g., 3-4 seconds).
-
-### 2.9 "Re-record" Workflow
-
-    After recording and comparing, the user has two options:
-
-        Continue (▶️) — resumes playback
-
-        Re-record (🔄) — starts a new recording session for the same item
-
-    The "Re-record" option appears after the Compare playback finishes.
-
----
-
-## Revised Tests for Stage 2
-
-Test Expected Result Pass/Fail
-T2.1 The "Record & Compare Mode" toggle appears in the lesson settings panel, defaulting to ON. ☐
-T2.2 When the toggle is ON, playback pauses after each sentence/word. ☐
-T2.3 When the toggle is OFF, playback continues uninterrupted. ☐
-T2.4 The toggle state is saved in localStorage and persists across sessions. ☐
-T2.5 A subtle visual indicator (e.g., mic badge) appears in the lesson view when mode is ON. ☐
-T2.6 The Record button and countdown timer appear immediately when playback pauses. ☐
-T2.7 The countdown timer counts down and auto-continues when it expires. ☐
-T2.8 The countdown is paused when the user taps or focuses on the Record button. ☐
-T2.9 The countdown duration is configurable in settings (3s, 5s, 10s, 15s). ☐
-T2.10 The "Skip" button immediately continues playback. ☐
-T2.11 Tapping the Record button starts the recording process (countdown, then recording). ☐
-T2.12 The red pulse animation and visual indicators work during recording. ☐
-T2.13 After recording and comparing, "Continue" and "Re-record" options are available. ☐
-T2.14 The timeout is shorter for word items (3-4 seconds). ☐
-T2.15 The Record button is hidden if MediaRecorder is not supported. ☐
+1. Open panel. State is `idle`. Button says "Record".
+2. Click Record. (Will fail in next stages, but state should attempt to change).
+3. Verify console doesn't throw errors for invalid transitions.
+4. Verify clicking the text while in `idle` state plays TTS.
 
 ---
 
-## Context Recovery for Stage 2
+## Stage 5: Audio Capture Implementation
 
-> "We are implementing the 'Record & Compare' feature for Zabon. The implementation includes a global 'Record & Compare Mode' toggle in the lesson settings panel (default ON). When active, playback pauses after each sentence/word with a visible countdown timer (default 5s, configurable). The user can Record, Skip, or let the timer expire to continue. The Record button appears below each item with a countdown and 'Skip' button. We have completed Stage 1. Please proceed to Stage 2 (Revised)."
+**Branch:** `feature/record-compare-audio-capture`
+**Objective:** Implement microphone access, `MediaRecorder` logic, and proper cleanup.
 
----
+### Files to Modify
 
-# Stage 3: Compare Playback
+- `app.js`
+- `main.css`
 
-**Goal:** Implement the "Compare" functionality that plays the original audio followed by the user's recording.
+### Context for New Chat
 
----
+_We are implementing the actual browser recording APIs. We need to handle permissions, MIME types, and stream cleanup._
 
-## Files to Upload
+### Code Changes
 
-- `app.js` (Stage 2 complete)
-- `main.css` (Stage 2 complete)
-- `index.html` (current version)
+**1. Add Recording Functions (In `app.js`)**
 
----
+```javascript
+// Add these variables and functions at the top level:
+let mediaRecorder = null;
+let recordedChunks = [];
+let mediaStream = null;
+let recordingTimer = null;
 
-## Implementation Requirements
+function getBestMimeType() {
+  const types = [
+    "audio/webm;codecs=opus",
+    "audio/webm",
+    "audio/mp4",
+    "audio/ogg;codecs=opus",
+  ];
+  for (const type of types) {
+    if (MediaRecorder.isTypeSupported(type)) return type;
+  }
+  return "";
+}
 
-### 3.1 "Compare" Button
+async function startRecording() {
+  try {
+    mediaStream = await navigator.mediaDevices.getUserMedia({
+      audio: {
+        echoCancellation: true,
+        noiseSuppression: true,
+        autoGainControl: true,
+      },
+    });
 
-- After recording is complete, the "Record" button transforms into a "Compare" button (▶️ icon or a "Compare" label).
-- The "Compare" button should remain visible until the user navigates away from the item or starts a new recording.
+    const audioTrack = mediaStream.getAudioTracks()[0];
+    if (!audioTrack) throw new Error("No audio track");
 
-### 3.2 Compare Playback Sequence
+    mediaRecorder = new MediaRecorder(mediaStream, {
+      mimeType: getBestMimeType(),
+    });
+    recordedChunks = [];
 
-- When the user taps "Compare":
-  1. **Play the original audio** (using the existing `SpeechSynthesis` playback with highlighting).
-  2. **Pause** for a duration based on the user's speech speed setting:
-     - Normal: 0.5 seconds
-     - Slow: 0.75 seconds
-     - Slower: 1.0 seconds
-  3. **Play the user's recording** (using the recorded `Blob`).
-  4. **Indicate which audio is playing** (e.g., a label showing "Original" or "Your recording").
-  5. **Highlight** the text during original playback (reuse existing highlighting logic).
+    mediaRecorder.ondataavailable = (event) => {
+      if (event.data.size > 0) recordedChunks.push(event.data);
+    };
 
-### 3.3 Separate Original Playback
+    mediaRecorder.onstop = () => {
+      const mimeType = mediaRecorder.mimeType || "audio/webm";
+      const blob = new Blob(recordedChunks, { type: mimeType });
+      recordPanelState.recordingBlob = blob;
+      setRecordPanelState(RECORD_STATES.RECORDED);
+      cleanupRecording(); // Clean up streams, keep blob
+    };
 
-- The user should be able to replay the **original audio separately** at any time, even without recording.
-- This can be achieved by tapping the existing "Play" button on the sentence/item.
+    mediaRecorder.onerror = () => {
+      setRecordPanelState(RECORD_STATES.ERROR, "recordCompareUnsupported");
+      cleanupRecording();
+    };
 
-### 3.4 Audio Playback UI Controls
+    mediaRecorder.start(100);
+    setRecordPanelState(RECORD_STATES.RECORDING);
 
-- During compare playback, show the same media controls as the main player:
-  - ▶️ Play (if paused)
-  - ⏹️ Stop
-  - 📊 Progress bar (visual only, showing which audio is playing)
+    // 60-second safety timeout
+    recordingTimer = setTimeout(() => {
+      if (recordPanelState.status === RECORD_STATES.RECORDING) {
+        stopRecording();
+      }
+    }, 60000);
+  } catch (error) {
+    console.error("Recording start error:", error);
+    cleanupRecording();
+    setRecordPanelState(RECORD_STATES.ERROR, "recordCompareUnsupported");
+  }
+}
 
-### 3.5 Compare State Management
+function stopRecording() {
+  if (mediaRecorder && mediaRecorder.state === "recording") {
+    mediaRecorder.stop();
+  }
+  cleanupRecording();
+}
 
-- Store the recorded `Blob` in memory for the duration of the lesson session.
-- When the user navigates to a different sentence, the recorded `Blob` for the previous sentence should be discarded to free memory.
-- If the user navigates back to a sentence they previously recorded, the recording should **not** be retained (fresh recording required).
+function cleanupRecording() {
+  if (recordingTimer) {
+    clearTimeout(recordingTimer);
+    recordingTimer = null;
+  }
+  if (mediaStream) {
+    mediaStream.getTracks().forEach((track) => track.stop());
+    mediaStream = null;
+  }
+  mediaRecorder = null;
+}
+```
 
----
+**2. Add CSS for Recording State (In `main.css`)**
 
-## Tests to Confirm
+```css
+/* Add to main.css */
+.record-panel__button.recording {
+  border-color: var(--danger);
+  color: var(--danger);
+  animation: pulse-recording 1.5s infinite;
+}
+@keyframes pulse-recording {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+```
 
-| Test      | Expected Result                                                                                              | Pass/Fail |
-| :-------- | :----------------------------------------------------------------------------------------------------------- | :-------- |
-| **T3.1**  | After recording, the "Record" button transforms into a "Compare" button.                                     | ☐         |
-| **T3.2**  | Tapping "Compare" plays the **original audio** first.                                                        | ☐         |
-| **T3.3**  | There is a **pause** between original and user recording (0.5s for Normal, 0.75s for Slow, 1.0s for Slower). | ☐         |
-| **T3.4**  | The **user's recording** plays after the pause.                                                              | ☐         |
-| **T3.5**  | A label shows "Original" during original playback and "Your recording" during user playback.                 | ☐         |
-| **T3.6**  | The original audio **highlighting** works during compare playback.                                           | ☐         |
-| **T3.7**  | Tapping the existing "Play" button replays the **original audio** separately.                                | ☐         |
-| **T3.8**  | Recorded blobs are **discarded** from memory when navigating to a different item.                            | ☐         |
-| **T3.9**  | The "Compare" button remains visible until the user navigates away or starts a new recording.                | ☐         |
-| **T3.10** | The compare playback can be **stopped** mid-sequence by tapping the Stop button.                             | ☐         |
+_Note: In `updateRecordPanelUI()` from Stage 3, add this line inside the function to apply the CSS class:_
 
----
+```javascript
+// Inside updateRecordPanelUI(), after setting button.textContent:
+button.classList.toggle(
+  "recording",
+  recordPanelState.status === RECORD_STATES.RECORDING,
+);
+```
 
-## Context Recovery for Stage 3
+### Testing Plan
 
-> "We are implementing the 'Record & Compare' feature for Zabon. We have completed Stage 3: Compare Playback. All tests T3.1 through T3.10 have passed. The 'Compare' button appears after recording and plays original audio with highlighting, pauses based on speech speed setting, then plays the user's recording. Recordings are discarded when navigating between items. Please proceed to Stage 4."
-
----
-
-# Stage 4: Lesson Settings — "Hide Text" Challenge Toggle
-
-**Goal:** Add a global setting in the lesson settings panel to hide the text during the recording challenge.
-
----
-
-## Files to Upload
-
-- `app.js` (Stage 3 complete)
-- `main.css` (current version)
-- `index.html` (current version)
-
----
-
-## Implementation Requirements
-
-### 4.1 Settings Panel Addition
-
-- Add a new control to the existing lesson settings panel (the panel accessed via the ⚙ icon in the bottom bar).
-- The control should be a **toggle switch** labeled "Hide Text Challenge" or similar.
-- The toggle state should be saved in `localStorage` (e.g., `zabon.hideTextChallenge`) so it persists across sessions.
-
-### 4.2 Behavior When Toggle is Active (Text Hidden)
-
-- When the user plays audio for a sentence or word, the **text is hidden**.
-- The user must rely on listening alone to understand the phrase.
-- A hint or placeholder (e.g., "···" or a subtle visual block) should indicate where the text would be.
-- When the user taps "Record" and completes the recording, or when they tap the existing "Play" button, the text can be temporarily revealed.
-
-### 4.3 Behavior When Toggle is Inactive
-
-- Text is displayed as normal (current behavior).
-- The "Record" button appears after audio playback as before.
-
-### 4.4 "Reveal" Button (Optional Enhancement)
-
-- When the text is hidden, a small "Hint" or "Reveal" button should be available.
-- Tapping this button temporarily shows the text for the current item.
-- The text remains visible until the user interacts with another item or dismisses it.
-
-### 4.5 Visual State for Hidden Text
-
-- The hidden text area should have a subtle visual treatment:
-  - A dashed border or blurred text effect
-  - A small lock or eye icon indicating the text is hidden
-  - The number of words (e.g., "4 words") displayed as a placeholder
-
----
-
-## Tests to Confirm
-
-| Test      | Expected Result                                                                        | Pass/Fail |
-| :-------- | :------------------------------------------------------------------------------------- | :-------- |
-| **T4.1**  | The "Hide Text Challenge" toggle appears in the lesson settings panel.                 | ☐         |
-| **T4.2**  | The toggle state is saved in `localStorage` and persists across sessions.              | ☐         |
-| **T4.3**  | When the toggle is active, text for sentences and words is **hidden** during playback. | ☐         |
-| **T4.4**  | A visual placeholder (e.g., "···" or blurred text) appears where the text would be.    | ☐         |
-| **T4.5**  | The word count or item length is displayed as a placeholder hint.                      | ☐         |
-| **T4.6**  | Tapping the existing "Play" button temporarily **reveals** the text.                   | ☐         |
-| **T4.7**  | Tapping "Record" temporarily **reveals** the text during recording.                    | ☐         |
-| **T4.8**  | The "Reveal" button (if implemented) temporarily shows the text.                       | ☐         |
-| **T4.9**  | When the toggle is inactive, text is displayed normally.                               | ☐         |
-| **T4.10** | The toggle works correctly for both sentence and word items.                           | ☐         |
-
----
-
-## Context Recovery for Stage 4
-
-> "We are implementing the 'Record & Compare' feature for Zabon. We have completed Stage 4: Lesson Settings — 'Hide Text' Challenge Toggle. All tests T4.1 through T4.10 have passed. The toggle appears in the lesson settings panel, persists across sessions, and hides text when active with placeholder indicators. Text is temporarily revealed during playback or recording. Please proceed to Stage 5."
+1. Click Record. Browser prompts for mic permission. Allow.
+2. Button changes to "Stop" and pulses red.
+3. Speak for 3 seconds. Click Stop.
+4. Button changes to "Listen". State is `recorded`.
+5. Deny permission -> Error state shows.
+6. Verify mic indicator in browser tab turns off after stopping.
 
 ---
 
-# Stage 5: UI Polish — Fade In/Out and Animation Refinements
+## Stage 6: Playback Sequence & Memory Management
 
-**Goal:** Refine the visual experience of the recording controls with smooth animations and context-aware behavior.
+**Branch:** `feature/record-compare-playback`
+**Objective:** Implement the TTS -> Pause -> User Recording playback sequence, and fix blob lifecycle.
 
----
+### Files to Modify
 
-## Files to Upload
+- `app.js`
 
-- `app.js` (Stage 4 complete)
-- `main.css` (Stage 4 complete)
-- `index.html` (current version)
+### Context for New Chat
 
----
+_We are chaining the original TTS and the user's recorded audio. Crucially, we must NOT destroy the recorded blob after the first playback, allowing the user to re-listen or re-record._
 
-## Implementation Requirements
+### Code Changes
 
-### 5.1 Smooth Fade Transitions
+**1. Add Playback Functions (In `app.js`)**
 
-- The "Record" button should **fade in** over 300ms after audio playback finishes.
-- The "Record" button should **fade out** over 300ms when:
-  - The user navigates to a different item
-  - A new audio playback starts
-  - The user dismisses the lesson
+```javascript
+// Add these variables and functions at the top level:
+let playbackAudio = null;
 
-### 5.2 Recording Indicator Animation
+function startPlayback() {
+  setRecordPanelState(RECORD_STATES.PLAYBACK);
+  const { text, lang, recordingBlob } = recordPanelState;
 
-- When recording is active, show a **pulsing red circle** next to or as part of the recording button.
-- The pulse animation should be subtle (not distracting) and use a CSS animation.
+  if (!recordingBlob) {
+    setRecordPanelState(RECORD_STATES.ERROR, "recordCompareUnsupported");
+    return;
+  }
 
-### 5.3 Countdown Animation
+  // Step 1: Play original TTS
+  mediaService.speakText(text, lang, {
+    onEnd: () => {
+      // Step 2: 500ms pause, then play user recording
+      setTimeout(() => playUserRecording(recordingBlob), 500);
+    },
+    onError: () => {
+      // Fallback: if TTS fails, still play user recording
+      setTimeout(() => playUserRecording(recordingBlob), 500);
+    },
+  });
+}
 
-- The 3-second countdown should have a smooth **scale/zoom** animation.
-- Each number should appear to "pop" slightly.
-- The countdown should be centered and visually prominent.
+function playUserRecording(blob) {
+  try {
+    const audioUrl = URL.createObjectURL(blob);
+    playbackAudio = new Audio(audioUrl);
 
-### 5.4 "Compare" Button Transition
+    playbackAudio.onended = () => {
+      URL.revokeObjectURL(audioUrl); // Clean up temporary URL
+      cleanupPlayback();
+      setRecordPanelState(RECORD_STATES.FINISHED);
+    };
 
-- The transition from "Record" to "Compare" button should be smooth.
-- The icon should change from 🎤 to ▶️ (or a "Compare" label) with a subtle fade.
+    playbackAudio.onerror = () => {
+      URL.revokeObjectURL(audioUrl);
+      cleanupPlayback();
+      setRecordPanelState(RECORD_STATES.ERROR, "recordCompareUnsupported");
+    };
 
-### 5.5 Mobile-Friendly Touch Targets
+    playbackAudio.play();
+  } catch (error) {
+    console.error("Playback error:", error);
+    cleanupPlayback();
+    setRecordPanelState(RECORD_STATES.ERROR, "recordCompareUnsupported");
+  }
+}
 
-- Ensure all interactive elements (Record, Compare, Play, Stop) have a minimum touch target size of **44px × 44px**.
-- Buttons should have adequate spacing to avoid accidental taps.
+function cleanupPlayback() {
+  if (playbackAudio) {
+    playbackAudio.pause();
+    playbackAudio.src = ""; // Releases memory
+    playbackAudio = null;
+  }
+  // NOTE: Do NOT nullify recordPanelState.recordingBlob here!
+  // The blob must survive so the user can click "Listen" again or re-record.
+}
+```
 
-### 5.6 Loading/Processing State
+**2. Update `closeRecordPanel()` (In `app.js`)**
 
-- When the recording is being saved or prepared for playback, show a brief **spinner** or "Processing..." state.
-- This state should last no more than 500ms (it should be very fast).
+```javascript
+// Find the closeRecordPanel() function from Stage 3.
+// Ensure it explicitly clears the blob when the panel is fully closed:
 
-### 5.7 Theme and Font Mode Compatibility
+function closeRecordPanel() {
+  // ... existing DOM removal and state reset ...
 
-- All new UI elements should respect the user's selected **theme** (light/dark/auto) and **font mode** (modern/traditional).
-- Colors should use CSS variables (e.g., `var(--accent)`, `var(--surface)`) rather than hard-coded values.
+  // Ensure blob is cleared from memory when panel closes
+  if (recordPanelState.recordingBlob) {
+    recordPanelState.recordingBlob = null;
+  }
 
----
+  // ... rest of existing close logic ...
+}
+```
 
-## Tests to Confirm
+### Testing Plan
 
-| Test      | Expected Result                                                              | Pass/Fail |
-| :-------- | :--------------------------------------------------------------------------- | :-------- |
-| **T5.1**  | The "Record" button fades in smoothly (300ms) after audio playback finishes. | ☐         |
-| **T5.2**  | The "Record" button fades out smoothly (300ms) when navigating away.         | ☐         |
-| **T5.3**  | A **pulsing red circle** is visible during recording.                        | ☐         |
-| **T5.4**  | The countdown has a smooth **scale/zoom** animation.                         | ☐         |
-| **T5.5**  | The "Record" to "Compare" transition is smooth and subtle.                   | ☐         |
-| **T5.6**  | All touch targets are at least **44px × 44px**.                              | ☐         |
-| **T5.7**  | A "Processing..." state appears briefly when recording is saved.             | ☐         |
-| **T5.8**  | New UI elements respect **dark mode** color variables.                       | ☐         |
-| **T5.9**  | New UI elements respect **font mode** (modern/traditional) variables.        | ☐         |
-| **T5.10** | The interface remains responsive and usable on small screens (320px width).  | ☐         |
-
----
-
-## Context Recovery for Stage 5
-
-> "We are implementing the 'Record & Compare' feature for Zabon. We have completed Stage 5: UI Polish — Fade In/Out and Animation Refinements. All tests T5.1 through T5.10 have passed. The UI has smooth transitions, responsive touch targets, and respects theme/font settings. Please proceed to Stage 6."
-
----
-
-# Stage 6: End-to-End Workflow Validation & Edge Case Handling
-
-**Goal:** Validate the complete "Listen, Then Speak" workflow and handle edge cases.
-
----
-
-## Files to Upload
-
-- `app.js` (Stage 5 complete)
-- `main.css` (Stage 5 complete)
-- `index.html` (current version)
-
----
-
-## Implementation Requirements
-
-### 6.1 Complete Workflow Validation
-
-Test the full user journey end-to-end:
-
-1. User opens a lesson.
-2. User selects target and bridge languages.
-3. User taps a sentence to hear it (with highlighting).
-4. The "Record" button fades in.
-5. User taps "Record" → 3-second countdown → recording starts.
-6. User speaks the sentence.
-7. User taps "Stop" → recording ends.
-8. The "Compare" button appears.
-9. User taps "Compare" → original audio plays with highlighting → pause → user's recording plays.
-10. User hears the difference and can decide to re-record.
-
-### 6.2 Error Recovery
-
-- **No Microphone Available:** "Record" button is hidden, and a subtle message in the lesson view explains that recording is unavailable.
-- **Permission Denied:** If the user denies microphone permission, show a friendly message explaining that recording is required for this feature, with a "Try Again" button to request permission again.
-- **Recording Timeout:** If the user records for too long (exceeds the maximum duration guard), automatically stop and notify the user.
-
-### 6.3 Edge Cases
-
-- **No Audio:** What if the user taps "Record" before ever playing the audio? (The "Record" button should not be visible until after audio playback, so this should not occur.)
-- **Multiple Recordings:** If the user records, compares, then records again, the previous recording should be discarded.
-- **Navigating Away:** If the user navigates away from a sentence while recording, the recording should be discarded and the button should reset.
-- **Lesson End:** When the user reaches the end of the lesson, the recording controls should not cause errors.
-
-### 6.4 Performance
-
-- Recording and playback should be smooth with no noticeable lag.
-- Memory usage should remain stable (recordings are held in memory only, never persisted).
-- No memory leaks after repeated recording/comparing cycles.
-
-### 6.5 Accessibility
-
-- All recording controls should have appropriate ARIA labels.
-- The recording state should be announced to screen readers (e.g., "Recording started," "Recording stopped").
-- Visual indicators (color, icons) should be supplemented with text labels where possible.
+1. Record a sentence. Stop. Click "Listen".
+2. Verify original TTS plays first.
+3. Verify 500ms pause, then user recording plays.
+4. After playback finishes, button says "Record" (State: `finished`).
+5. Click "Listen" again (if you temporarily change state back to `recorded` in dev tools, or just click Record to overwrite). _Correction: In `finished` state, clicking the button triggers `startRecording()`. This is correct._
+6. Close panel. Verify no memory leaks in Chrome DevTools (Memory tab).
 
 ---
 
-## Tests to Confirm
+## Stage 7: Polish, Edge Cases & Integration
 
-| Test      | Expected Result                                                                                     | Pass/Fail |
-| :-------- | :-------------------------------------------------------------------------------------------------- | :-------- |
-| **T6.1**  | The complete "Listen, Then Speak" workflow works end-to-end without errors.                         | ☐         |
-| **T6.2**  | If the user denies microphone permission, a friendly message is shown with a "Try Again" button.    | ☐         |
-| **T6.3**  | Recording automatically stops if the maximum duration is exceeded, with a notification to the user. | ☐         |
-| **T6.4**  | If the user records, compares, then records again, the previous recording is discarded.             | ☐         |
-| **T6.5**  | Navigating away from a sentence during recording discards the recording and resets the button.      | ☐         |
-| **T6.6**  | The lesson ends gracefully with no errors related to recording controls.                            | ☐         |
-| **T6.7**  | Recording and playback are smooth with no noticeable lag.                                           | ☐         |
-| **T6.8**  | Memory usage remains stable after repeated recording/comparing cycles.                              | ☐         |
-| **T6.9**  | All recording controls have appropriate **ARIA labels**.                                            | ☐         |
-| **T6.10** | Recording state changes are announced to **screen readers**.                                        | ☐         |
-| **T6.11** | Visual indicators are supplemented with **text labels** where possible.                             | ☐         |
+**Branch:** `feature/record-compare-polish`
+**Objective:** Handle iOS Safari quirks, dark mode, and final integration checks.
 
----
+### Files to Modify
 
-## Context Recovery for Stage 6
+- `app.js`
+- `main.css`
 
-> "We are implementing the 'Record & Compare' feature for Zabon. We have completed Stage 6: End-to-End Workflow Validation & Edge Case Handling. All tests T6.1 through T6.11 have passed. The feature is complete and ready for final review. Please proceed to the final integration and testing phase."
+### Context for New Chat
 
----
+_Final polish. iOS Safari requires user gestures for audio playback and has quirks with MediaRecorder. We also need to ensure dark mode colors are correct._
 
-# Stage 7: Final Integration and User Acceptance Testing
+### Code Changes
 
-**Goal:** Integrate the feature with the rest of the app and prepare for production release.
+**1. iOS Safari Audio Quirk (In `playUserRecording` in `app.js`)**
 
----
+```javascript
+// Find the playUserRecording(blob) function from Stage 6.
+// Modify the Audio creation to include playsInline for iOS:
 
-## Files to Upload
+function playUserRecording(blob) {
+  try {
+    const audioUrl = URL.createObjectURL(blob);
+    playbackAudio = new Audio(audioUrl);
+    playbackAudio.playsInline = true; // Crucial for iOS Safari
+    playbackAudio.preload = "auto";
 
-- `app.js` (Stage 6 complete)
-- `main.css` (Stage 6 complete)
-- `index.html` (final version)
+    // ... rest of existing onended/onerror/play logic ...
+```
 
----
+**2. Dark Mode Verification (In `main.css`)**
 
-## Implementation Requirements
+```css
+/* Add to main.css. The existing CSS variables should handle most of it, 
+   but we need to ensure the recording red color is visible in dark mode. */
 
-### 7.1 Integration with Existing Features
+:root[data-theme="dark"] .record-panel__button.recording {
+  border-color: #ff6666;
+  color: #ff6666;
+}
 
-- Ensure "Record & Compare" works seamlessly with:
-  - Existing playback controls (Play, Pause, Stop)
-  - Theme and font mode settings
-  - Language selection (target and bridge languages)
-  - Lesson navigation (Next Up, Category browsing)
-  - Flashcard and Quiz exercises (the recording feature should not interfere with these)
+:root[data-theme="dark"] .record-panel__container {
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+```
 
-### 7.2 Performance Testing
+**3. Error Recovery (In `handleRecordPanelButtonClick` in `app.js`)**
 
-- Test on a range of mobile devices:
-  - iOS (Safari)
-  - Android (Chrome)
-  - Android (Firefox)
-- Verify recording quality and playback are acceptable.
-- Check memory usage during extended lesson sessions.
+```javascript
+// If the user hits an error state, allow them to retry by clicking the button.
+// In handleRecordPanelButtonClick(), ensure the ERROR case routes to startRecording:
 
-### 7.3 User Acceptance Testing (UAT)
+case RECORD_STATES.ERROR:
+  // Reset to idle first to allow clean transition to recording
+  recordPanelState.status = RECORD_STATES.IDLE;
+  if (isRecordingSupported()) {
+    startRecording();
+  }
+  break;
+```
 
-- Conduct testing with real users to gather feedback on:
-  - Ease of use (is the "Record" button discoverable?)
-  - Effectiveness (does the compare feature help with pronunciation?)
-  - Satisfaction (is the feature engaging and useful?)
+### Testing Plan
 
-### 7.4 Documentation
-
-- Update `README.md` or user documentation to mention the new "Record & Compare" feature.
-- Add inline code comments for future maintainability.
-
-### 7.5 Release Checklist
-
-- All tests across all stages pass.
-- Feature works on the minimum supported browser versions.
-- No regressions in existing functionality.
-- Performance meets acceptable thresholds.
-- UAT feedback has been incorporated (if applicable).
+1. **iOS Safari:** Test recording and playback on an actual iPhone/iPad. Verify audio plays without requiring the screen to be unlocked or going to fullscreen.
+2. **Dark Mode:** Toggle to Dark Mode. Open panel. Verify text, borders, and the red recording pulse are clearly visible.
+3. **Error Recovery:** Deny mic permission. Click the "Retry" button. Verify it prompts for permission again or shows the error cleanly.
+4. **Integration:** Open a lesson. Play lesson TTS. Open Record panel. Verify lesson TTS stops. Close panel. Verify lesson TTS doesn't auto-resume (clean state).
 
 ---
 
-## Tests to Confirm
+## Summary of Architecture Decisions
 
-| Test      | Expected Result                                                                     | Pass/Fail |
-| :-------- | :---------------------------------------------------------------------------------- | :-------- |
-| **T7.1**  | "Record & Compare" works alongside existing playback controls without interference. | ☐         |
-| **T7.2**  | The feature respects theme and font mode settings.                                  | ☐         |
-| **T7.3**  | The feature works correctly with all target and bridge language selections.         | ☐         |
-| **T7.4**  | Lesson navigation (Next Up, Category browsing) does not cause recording errors.     | ☐         |
-| **T7.5**  | Flashcard and Quiz exercises are unaffected by the new feature.                     | ☐         |
-| **T7.6**  | The feature works on **iOS Safari** with acceptable recording quality.              | ☐         |
-| **T7.7**  | The feature works on **Android Chrome** with acceptable recording quality.          | ☐         |
-| **T7.8**  | Memory usage remains stable over extended lesson sessions (20+ sentences).          | ☐         |
-| **T7.9**  | UAT feedback has been collected and incorporated (if applicable).                   | ☐         |
-| **T7.10** | Documentation is updated to reflect the new feature.                                | ☐         |
-
----
-
-## Completion
-
-Once all tests across all stages are confirmed passing, the "Record & Compare" feature is ready for production release.
-
----
-
-## Summary of Implementation Stages
-
-| Stage       | Focus                                               | Tests        |
-| :---------- | :-------------------------------------------------- | :----------- |
-| **Stage 1** | Core Recording Infrastructure                       | T1.1 - T1.8  |
-| **Stage 2** | Lesson UI Integration — Recording Controls          | T2.1 - T2.12 |
-| **Stage 3** | Compare Playback                                    | T3.1 - T3.10 |
-| **Stage 4** | Lesson Settings — "Hide Text" Challenge Toggle      | T4.1 - T4.10 |
-| **Stage 5** | UI Polish — Fade In/Out and Animation Refinements   | T5.1 - T5.10 |
-| **Stage 6** | End-to-End Workflow Validation & Edge Case Handling | T6.1 - T6.11 |
-| **Stage 7** | Final Integration and User Acceptance Testing       | T7.1 - T7.10 |
-
----
-
-## Important Note
-
-This prompt contains **no code**. It is a design and implementation guide to be used by a developer (or an AI assistant with coding capabilities) to implement the "Record & Compare" feature. Each stage should be completed, tested, and approved before proceeding to the next. If context is lost at any point, refer to the "Context Recovery Information" section at the beginning of this document to re-establish the implementation state.
+1. **Privacy First:** Feature is OFF by default. No background recording.
+2. **Memory Safety:** Blobs are kept alive during the panel session for re-listening, but strictly revoked when the panel closes. Object URLs are cleaned up immediately after audio playback.
+3. **Playback Isolation:** Opening the panel halts the main lesson playback engine to prevent audio overlap and state corruption.
+4. **State Machine:** Strict transition map prevents UI desync (e.g., trying to stop when not recording).
