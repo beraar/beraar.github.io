@@ -678,8 +678,6 @@ input {
    Each item is a vertical column of language cells. Columns sit
    side by side and wrap to the next line when they exceed the
    available width.
-   Stage 15: no borders on rows/columns/cells; spacing reads like
-   text in a book. Columns are content-sized (no clamped widths).
    ------------------------------------------------------------ */
 .lesson-section {
   margin-block-end: 1.25rem;

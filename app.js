@@ -2649,6 +2649,8 @@
       Boolean,
     );
   }
+
+  /*
   function voicesForLanguage(code) {
     const bcp47 = registry.bcp47(code);
     const normalize = (value) =>
@@ -2674,6 +2676,8 @@
     }
     return matching[0] || null;
   }
+*/
+
   function setVoiceForLanguage(code, name) {
     if (!state.settings.voices) state.settings.voices = {};
     if (name) state.settings.voices[code] = name;
@@ -3087,6 +3091,16 @@
     }
   }
 
+  function getSortedLanguages() {
+    return [...manifest.zabon.languages]
+      .filter((lang) => lang?.code)
+      .sort((a, b) => {
+        const nameA = languageDisplayName(a.code).toLowerCase();
+        const nameB = languageDisplayName(b.code).toLowerCase();
+        return nameA.localeCompare(nameB);
+      });
+  }
+
   function renderTargetLanguageControl() {
     const container = elements.targetLanguageControl;
     if (!container) return;
@@ -3114,14 +3128,7 @@
       select.disabled = false;
     }
 
-    // FIX 1: Include all languages in the dropdown, including the current App language
-    const sortedLanguages = [...manifest.zabon.languages]
-      .filter((lang) => lang?.code)
-      .sort((a, b) => {
-        const nameA = languageDisplayName(a.code).toLowerCase();
-        const nameB = languageDisplayName(b.code).toLowerCase();
-        return nameA.localeCompare(nameB);
-      });
+    const sortedLanguages = getSortedLanguages();
 
     sortedLanguages.forEach((lang) => {
       const option = document.createElement("option");
@@ -4585,16 +4592,10 @@
     body.appendChild(renderVoicesSection());
   }
 
-  function renderSettingsLanguagesSection(lessonLangs) {
-    const section = document.createElement("div");
-    section.className = "sheet-section";
-    const title = document.createElement("h3");
-    title.className = "sheet-section__title";
-    title.textContent = t("languages");
-    section.appendChild(title);
+  function renderLanguageCheckboxList(codes, onChangeHandler) {
     const list = document.createElement("div");
     list.className = "language-list";
-    lessonLangs.forEach((code) => {
+    codes.forEach((code) => {
       if (!registry.has(code)) return;
       const label = document.createElement("label");
       label.className = "language-control";
@@ -4602,7 +4603,7 @@
       input.type = "checkbox";
       input.checked = state.lessonLanguages.includes(code);
       input.addEventListener("change", () =>
-        setLessonLanguageEnabled(code, input.checked),
+        onChangeHandler(code, input.checked),
       );
       const flag = document.createElement("span");
       flag.className = "language-control__flag";
@@ -4613,6 +4614,22 @@
       label.append(input, flag, name);
       list.appendChild(label);
     });
+    return list;
+  }
+
+  function renderSettingsLanguagesSection(lessonLangs) {
+    const section = document.createElement("div");
+    section.className = "sheet-section";
+    const title = document.createElement("h3");
+    title.className = "sheet-section__title";
+    title.textContent = t("languages");
+    section.appendChild(title);
+
+    const list = renderLanguageCheckboxList(
+      lessonLangs,
+      setLessonLanguageEnabled,
+    );
+
     section.appendChild(list);
     return section;
   }
@@ -4718,7 +4735,7 @@
       defaultOption.value = "";
       defaultOption.textContent = t("defaultVoice");
       select.appendChild(defaultOption);
-      const voices = voicesForLanguage(code);
+      const voices = mediaService.voicesForLanguage(code);
       voices.forEach((voice) => {
         const option = document.createElement("option");
         option.value = voice.name;
@@ -4957,24 +4974,18 @@
       playbackState.timerId = setTimeout(finish, delay);
       return;
     }
-    const utterance = new SpeechSynthesisUtterance(unit.text);
-    utterance.lang = registry.bcp47(unit.languageCode);
-    const preset =
-      SPEED_PRESETS[state.settings.speechSpeed] || SPEED_PRESETS.normal;
-    utterance.rate = preset.rate;
-    utterance.pitch = preset.pitch;
-    const voice = findSelectedVoice(unit.languageCode);
-    if (voice) utterance.voice = voice;
-    playbackState.utterance = utterance;
-    utterance.onend = () => {
-      if (playbackState.utterance !== utterance) return;
-      finish();
-    };
-    utterance.onerror = () => {
-      if (playbackState.utterance !== utterance) return;
-      handleError();
-    };
-    window.speechSynthesis.speak(utterance);
+
+    const utterance = mediaService.speakText(unit.text, unit.languageCode, {
+      onEnd: () => {
+        if (playbackState.utterance !== utterance) return;
+        finish();
+      },
+      onError: () => {
+        if (playbackState.utterance !== utterance) return;
+        handleError();
+      },
+    });
+    playbackState.utterance = utterance || null;
   }
   function highlightUnit(unit) {
     clearPlaybackHighlights();
@@ -6021,26 +6032,12 @@
     langTitle.className = "sheet-section__title";
     langTitle.textContent = t("languages");
     langSection.appendChild(langTitle);
-    const list = document.createElement("div");
-    list.className = "language-list";
-    registry.allCodes().forEach((code) => {
-      const label = document.createElement("label");
-      label.className = "language-control";
-      const input = document.createElement("input");
-      input.type = "checkbox";
-      input.checked = state.lessonLanguages.includes(code);
-      input.addEventListener("change", () =>
-        setLessonLanguageEnabled(code, input.checked),
-      );
-      const flag = document.createElement("span");
-      flag.className = "language-control__flag";
-      flag.textContent = flagEmoji(code);
-      const name = document.createElement("span");
-      name.className = "language-control__label";
-      name.textContent = languageDisplayName(code);
-      label.append(input, flag, name);
-      list.appendChild(label);
-    });
+
+    const list = renderLanguageCheckboxList(
+      registry.allCodes(),
+      setLessonLanguageEnabled,
+    );
+
     langSection.appendChild(list);
     view.appendChild(langSection);
     const langs = voiceTestLanguages();
@@ -6057,7 +6054,8 @@
     const available = [];
     const missing = [];
     langs.forEach((code) => {
-      const hasVoice = voicesForLanguage(code).length > 0;
+      const hasVoice = mediaService.voicesForLanguage(code).length > 0;
+
       if (hasVoice) available.push(code);
       else missing.push(code);
       const row = document.createElement("div");
@@ -6154,7 +6152,7 @@
     if (voiceTestPlaying) return;
     refreshVoices();
     const playable = voiceTestLanguages().filter(
-      (code) => voicesForLanguage(code).length > 0,
+      (code) => mediaService.voicesForLanguage(code).length > 0,
     );
     if (!playable.length) return;
     voiceTestQueue = playable.map((code) => ({
@@ -6176,23 +6174,16 @@
       voiceTestTimer = setTimeout(speakNextVoiceTest, 1000);
       return;
     }
-    const utterance = new SpeechSynthesisUtterance(entry.text);
-    utterance.lang = registry.bcp47(entry.code);
-    const preset =
-      SPEED_PRESETS[state.settings.speechSpeed] || SPEED_PRESETS.normal;
-    utterance.rate = preset.rate;
-    utterance.pitch = preset.pitch;
-    const voice = findSelectedVoice(entry.code);
-    if (voice) utterance.voice = voice;
-    voiceTestUtterance = utterance;
-    utterance.onend = () => {
-      if (voiceTestUtterance === utterance) speakNextVoiceTest();
-    };
-    utterance.onerror = () => {
-      if (voiceTestUtterance === utterance) speakNextVoiceTest();
-    };
-    window.speechSynthesis.cancel();
-    window.speechSynthesis.speak(utterance);
+
+    const utterance = mediaService.speakText(entry.text, entry.code, {
+      onEnd: () => {
+        if (voiceTestUtterance === utterance) speakNextVoiceTest();
+      },
+      onError: () => {
+        if (voiceTestUtterance === utterance) speakNextVoiceTest();
+      },
+    });
+    voiceTestUtterance = utterance || null;
   }
   function stopVoiceTestPlayback() {
     voiceTestPlaying = false;
@@ -6643,23 +6634,6 @@
     );
   }
   document.addEventListener("DOMContentLoaded", init);
-  function initializeServices() {
-    mediaService = new MediaService(registry);
-    srsService = new SrsService(STORAGE_KEYS.srs);
-    quizProgressService = new QuizProgressService(STORAGE_KEYS.quiz);
-    studyPlanService = new StudyPlanService();
-    dataService = new DataService({ items: [] }, registry);
-    if (
-      mediaService.supported &&
-      typeof window.speechSynthesis.addEventListener === "function"
-    ) {
-      window.speechSynthesis.addEventListener("voiceschanged", () => {
-        refreshVoices();
-        if (elements.settingsSheet && !elements.settingsSheet.hidden)
-          renderSettings();
-      });
-    }
-  }
 
   function handleTargetSelection(langCode) {
     if (!registry.has(langCode)) return;
@@ -6684,14 +6658,7 @@
     list.className = "target-select-list";
     const appLang = state.settings.appLanguage;
 
-    // FIX 1: Include all languages in the selection page, including the current App language
-    const sortedLanguages = [...manifest.zabon.languages]
-      .filter((lang) => lang?.code)
-      .sort((a, b) => {
-        const nameA = languageDisplayName(a.code).toLowerCase();
-        const nameB = languageDisplayName(b.code).toLowerCase();
-        return nameA.localeCompare(nameB);
-      });
+    const sortedLanguages = getSortedLanguages();
 
     sortedLanguages.forEach((lang) => {
       const btn = document.createElement("button");
@@ -6794,11 +6761,7 @@
     }
 
     // 8. Initialize namespaced services (now that targetLanguage is set)
-    srsService = new SrsService(STORAGE_KEYS.srs);
-    quizProgressService = new QuizProgressService(STORAGE_KEYS.quiz);
-    studyPlanService = new StudyPlanService();
-    const savedTried = loadJSON(STORAGE_KEYS.lessonsTried, []);
-    lessonsTried = new Set(Array.isArray(savedTried) ? savedTried : []);
+    resetTargetScopedServices();
 
     // 9. Render Home
     goHome();
