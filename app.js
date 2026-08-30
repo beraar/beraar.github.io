@@ -1322,6 +1322,97 @@
       zh: "设备",
       ja: "デバイス",
     },
+    // --- STAGE 1: Record and Compare i18n ---
+    recordAndCompare: {
+      en: "Record and Compare",
+      th: "บันทึกและเปรียบเทียบ",
+      fa: "ضبط و مقایسه",
+      ar: "تسجيل ومقارنة",
+      es: "Grabar y comparar",
+      zh: "录音并比较",
+      ja: "録音して比較",
+    },
+    recordAndCompareDesc: {
+      en: "Show microphone icons to record your speech",
+      th: "แสดงไอคอนไมโครโฟนเพื่อบันทึกเสียงของคุณ",
+      fa: "نمایش نماد میکروفون برای ضبط صدای شما",
+      ar: "إظهار أيقونات الميكروفون لتسجيل كلامك",
+      es: "Mostrar iconos de micrófono para grabar tu voz",
+      zh: "显示麦克风图标以录制您的语音",
+      ja: "音声を録音するためのマイクアイコンを表示",
+    },
+    recordMicAriaLabel: {
+      en: "Record this text",
+      th: "บันทึกข้อความนี้",
+      fa: "ضبط این متن",
+      ar: "تسجيل هذا النص",
+      es: "Grabar este texto",
+      zh: "录制此文本",
+      ja: "このテキストを録音",
+    },
+    recordOverlayTitle: {
+      en: "Record & Compare",
+      th: "บันทึกและเปรียบเทียบ",
+      fa: "ضبط و مقایسه",
+      ar: "تسجيل ومقارنة",
+      es: "Grabar y comparar",
+      zh: "录音并比较",
+      ja: "録音して比較",
+    },
+    recordInstruction: {
+      en: "Compare your speech. Tap to record.",
+      th: "เปรียบเทียบเสียงพูด แตะเพื่อบันทึก",
+      fa: "گفتار خود را مقایسه کنید. برای ضبط ضربه بزنید.",
+      ar: "قارن كلامك. انقر للتسجيل.",
+      es: "Compara tu voz. Toca para grabar.",
+      zh: "比较您的语音。点击录音。",
+      ja: "音声を比較します。タップして録音。",
+    },
+    recordBtnStart: {
+      en: "Record",
+      th: "บันทึก",
+      fa: "ضبط",
+      ar: "تسجيل",
+      es: "Grabar",
+      zh: "录音",
+      ja: "録音",
+    },
+    recordBtnStop: {
+      en: "Stop recording",
+      th: "หยุดบันทึก",
+      fa: "توقف ضبط",
+      ar: "إيقاف التسجيل",
+      es: "Detener grabación",
+      zh: "停止录音",
+      ja: "録音停止",
+    },
+    recordBtnPlay: {
+      en: "Play and Compare",
+      th: "เล่นและเปรียบเทียบ",
+      fa: "پخش و مقایسه",
+      ar: "تشغيل ومقارنة",
+      es: "Reproducir y comparar",
+      zh: "播放并比较",
+      ja: "再生して比較",
+    },
+    recordPermissionDenied: {
+      en: "Microphone access denied. Please enable it in your browser settings.",
+      th: "การเข้าถึงไมโครโฟนถูกปฏิเสธ โปรดเปิดใช้งานในการตั้งค่าเบราว์เซอร์ของคุณ",
+      fa: "دسترسی به میکروفون رد شد. لطفاً آن را در تنظیمات مرورگر خود فعال کنید.",
+      ar: "تم رفض الوصول إلى الميكروفون. يرجى تمكينه في إعدادات المتصفح.",
+      es: "Acceso al micrófono denegado. Por favor, habilítalo en la configuración de tu navegador.",
+      zh: "麦克风访问被拒绝。请在浏览器设置中启用它。",
+      ja: "マイクへのアクセスが拒否されました。ブラウザの設定で有効にしてください。",
+    },
+    recordFailed: {
+      en: "Recording failed or was silent. Please try again.",
+      th: "การบันทึกล้มเหลวหรือไม่มีเสียง กรุณาลองอีกครั้ง",
+      fa: "ضبط ناموفق بود یا بی‌صدا بود. لطفاً دوباره تلاش کنید.",
+      ar: "فشل التسجيل أو كان صامتًا. يرجى المحاولة مرة أخرى.",
+      es: "La grabación falló o fue silenciosa. Por favor, inténtalo de nuevo.",
+      zh: "录音失败或无声。请重试。",
+      ja: "録音に失敗したか、無音でした。もう一度お試しください。",
+    },
   });
 
   const VOICE_TEST_MESSAGES = Object.freeze({
@@ -2482,6 +2573,8 @@
         s.voices && typeof s.voices === "object" && !Array.isArray(s.voices)
           ? s.voices
           : {},
+      // --- STAGE 1: Record and Compare State ---
+      recordAndCompare: Boolean(s.recordAndCompare),
     };
   }
 
@@ -4375,13 +4468,48 @@
       } else {
         container.textContent = text;
       }
+
+      // Stage 4: Append mic icon for sentence cells if setting is enabled
+      if (state.settings.recordAndCompare) {
+        const micBtn = document.createElement("button");
+        micBtn.type = "button";
+        micBtn.className = "record-mic-btn";
+        micBtn.dataset.action = "open-record-overlay";
+        micBtn.dataset.itemId = item.id;
+        micBtn.dataset.lang = code;
+        micBtn.dataset.text = text;
+        micBtn.setAttribute("aria-label", t("recordMicAriaLabel"));
+        micBtn.textContent = "🎙️";
+        container.appendChild(micBtn);
+      }
+
       cell.appendChild(container);
     } else {
+      // Wrapper to align text and mic button horizontally
+      const wrapper = document.createElement("div");
+      wrapper.className = "language-cell__word-wrapper";
+
       const span = document.createElement("span");
       span.className = "language-cell__text";
       span.lang = registry.bcp47(code);
       span.textContent = text;
-      cell.appendChild(span);
+      wrapper.appendChild(span);
+
+      // Stage 3: Append mic icon for word cells if setting is enabled
+      if (state.settings.recordAndCompare) {
+        const micBtn = document.createElement("button");
+        micBtn.type = "button";
+        micBtn.className = "record-mic-btn";
+        micBtn.dataset.action = "open-record-overlay";
+        micBtn.dataset.itemId = item.id;
+        micBtn.dataset.lang = code;
+        micBtn.dataset.text = text;
+        micBtn.setAttribute("aria-label", t("recordMicAriaLabel"));
+        micBtn.textContent = "🎙️";
+        wrapper.appendChild(micBtn);
+      }
+
+      cell.appendChild(wrapper);
     }
     return cell;
   }
@@ -4579,6 +4707,314 @@
     if (sheet) sheet.remove();
   }
 
+  // --- STAGE 7: getUserMedia & MediaRecorder Basics ---
+  let mediaRecorder = null;
+  let audioChunks = [];
+  let audioStream = null;
+  let recordedBlob = null;
+
+  // --- STAGE 10: Context for Play & Compare ---
+  let currentRecordLang = "";
+  let currentRecordText = "";
+
+  // --- STAGE 8: State Machine & Timeout Variables ---
+  let isRecording = false;
+  let recordingTimeoutId = null;
+  let currentAudioUrl = null; // Stage 11: Track audio URL for memory cleanup
+
+  async function startRecordingTest() {
+    try {
+      // 1. Get the audio stream
+      audioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      audioChunks = [];
+      // Determine supported mime type for cross-browser compatibility
+      let mimeType = "audio/webm;codecs=opus";
+      if (!MediaRecorder.isTypeSupported(mimeType)) {
+        mimeType = "audio/webm";
+        if (!MediaRecorder.isTypeSupported(mimeType)) {
+          mimeType = ""; // Fallback to browser default
+        }
+      }
+      // 2. Initialize MediaRecorder
+      const options = mimeType ? { mimeType } : {};
+      mediaRecorder = new MediaRecorder(audioStream, options);
+      // 3. Collect dataavailable chunks
+      mediaRecorder.ondataavailable = (event) => {
+        if (event.data.size > 0) {
+          audioChunks.push(event.data);
+        }
+      };
+      // Create Blob on stop
+      mediaRecorder.onstop = () => {
+        recordedBlob = new Blob(audioChunks, {
+          type: mimeType || "audio/webm",
+        });
+        console.log(
+          "Zabon Stage 7: Recording stopped. Blob created:",
+          recordedBlob,
+        );
+        // Release the microphone
+        if (audioStream) {
+          audioStream.getTracks().forEach((track) => track.stop());
+        }
+      };
+      mediaRecorder.start();
+      console.log("Zabon Stage 7: Recording started...");
+      return true; // Success
+    } catch (err) {
+      console.error("Zabon Stage 7: Error accessing microphone:", err);
+      return false; // Failure
+    }
+  }
+
+  function stopRecordingTest() {
+    if (mediaRecorder && mediaRecorder.state !== "inactive") {
+      mediaRecorder.stop();
+    }
+  }
+
+  // --- STAGE 8: Button State Machine & Timeout ---
+  function updateRecordOverlayButton(state) {
+    const btn = document.querySelector("#record-overlay .record-overlay__btn");
+    if (!btn) return;
+
+    if (state === "idle") {
+      btn.dataset.action = "record-start";
+      btn.textContent = `🎙️ ${t("recordBtnStart")}`;
+      btn.disabled = false; // Ensure it's enabled
+    } else if (state === "recording") {
+      btn.dataset.action = "record-stop";
+      btn.textContent = `⏹️ ${t("recordBtnStop")}`;
+      btn.disabled = false; // Ensure it's enabled
+    } else if (state === "ready") {
+      btn.dataset.action = "record-play";
+      btn.textContent = `▶️ ${t("recordBtnPlay")}`;
+      btn.disabled = false; // Ensure it's enabled
+    }
+  }
+
+  async function startRecordingFlow() {
+    isRecording = true;
+    updateRecordOverlayButton("recording");
+
+    // --- STAGE 11: Cleanup previous recording memory if starting a new one ---
+    if (currentAudioUrl) {
+      URL.revokeObjectURL(currentAudioUrl);
+      currentAudioUrl = null;
+    }
+    recordedBlob = null;
+    audioChunks = [];
+
+    // 60-second auto-stop timeout
+    recordingTimeoutId = setTimeout(() => {
+      if (isRecording) {
+        stopRecordingFlow();
+      }
+    }, 60000);
+
+    const success = await startRecordingTest();
+    if (!success) {
+      // If mic access fails, revert to idle and show error
+      isRecording = false;
+      if (recordingTimeoutId) {
+        clearTimeout(recordingTimeoutId);
+        recordingTimeoutId = null;
+      }
+      updateRecordOverlayButton("idle");
+      showRecordError();
+    }
+  }
+
+  // --- NEW: Error Display Helper ---
+  function showRecordError() {
+    const body = document.getElementById("record-overlay-body");
+    if (!body) return;
+
+    // Remove existing error if any
+    const existingError = body.querySelector(".record-overlay__error");
+    if (existingError) existingError.remove();
+
+    const errorEl = document.createElement("p");
+    errorEl.className = "record-overlay__error";
+    errorEl.textContent = `⚠️ ${t("recordPermissionDenied")}`;
+    body.appendChild(errorEl);
+
+    // Disable the record button
+    const btn = body.querySelector(".record-overlay__btn");
+    if (btn) {
+      btn.disabled = true;
+    }
+  }
+
+  function stopRecordingFlow() {
+    if (!isRecording) return;
+    isRecording = false;
+
+    if (recordingTimeoutId) {
+      clearTimeout(recordingTimeoutId);
+      recordingTimeoutId = null;
+    }
+
+    stopRecordingTest();
+    updateRecordOverlayButton("ready");
+  }
+
+  // --- STAGE 10: Play & Compare Sequence ---
+  async function playAndCompare() {
+    const btn = document.querySelector("#record-overlay .record-overlay__btn");
+    if (!btn || !recordedBlob) return;
+
+    // 1. Disable the button
+    btn.disabled = true;
+
+    // 2. Play original text using TTS
+    const ttsPromise = new Promise((resolve) => {
+      if (
+        !mediaService.supported ||
+        !currentRecordText ||
+        !currentRecordText.trim()
+      ) {
+        resolve();
+        return;
+      }
+      const utterance = mediaService.speakText(
+        currentRecordText,
+        currentRecordLang,
+        {
+          onEnd: () => resolve(),
+          onError: () => resolve(),
+        },
+      );
+      if (!utterance) resolve();
+    });
+    await ttsPromise;
+
+    // 3. Wait for 800ms delay
+    await new Promise((resolve) => setTimeout(resolve, 800));
+
+    // 4. Create Audio object and play recorded blob
+    currentAudioUrl = URL.createObjectURL(recordedBlob);
+    const audio = new Audio(currentAudioUrl);
+
+    // --- STAGE 11: Cleanup and Reset Handler ---
+    const cleanupAndReset = () => {
+      // Revoke Object URL to free memory
+      if (currentAudioUrl) {
+        URL.revokeObjectURL(currentAudioUrl);
+        currentAudioUrl = null;
+      }
+      // Nullify blob and clear chunks
+      recordedBlob = null;
+      audioChunks = [];
+
+      // Reset button back to "Record"
+      updateRecordOverlayButton("idle");
+    };
+
+    audio.onended = cleanupAndReset;
+    audio.onerror = cleanupAndReset;
+
+    try {
+      await audio.play();
+    } catch (err) {
+      cleanupAndReset();
+    }
+  }
+
+  // --- STAGE 5: Record Overlay Shell ---
+  function openRecordOverlay(itemId, lang, text) {
+    // Save context for Stage 10 playback
+    currentRecordLang = lang;
+    currentRecordText = text;
+
+    const sheet = document.createElement("div");
+    sheet.className = "sheet record-overlay";
+    sheet.id = "record-overlay";
+
+    const backdrop = document.createElement("div");
+    backdrop.className = "sheet__backdrop";
+    backdrop.dataset.action = "close-record-overlay";
+    sheet.appendChild(backdrop);
+
+    const panel = document.createElement("div");
+    panel.className = "sheet__panel";
+
+    const header = document.createElement("div");
+    header.className = "sheet__header";
+
+    const title = document.createElement("h3");
+    title.className = "sheet__title";
+    title.textContent = t("recordOverlayTitle");
+
+    const closeBtn = document.createElement("button");
+    closeBtn.type = "button";
+    closeBtn.className = "icon-button";
+    closeBtn.dataset.action = "close-record-overlay";
+    closeBtn.textContent = "✕";
+    closeBtn.setAttribute("aria-label", t("back"));
+
+    header.append(title, closeBtn);
+    panel.appendChild(header);
+
+    const body = document.createElement("div");
+    body.className = "sheet__body record-overlay__body";
+    body.id = "record-overlay-body";
+
+    // --- STAGE 6: Content Display, TTS & Buttons ---
+
+    // 1. Instruction Text
+    const instruction = document.createElement("p");
+    instruction.className = "record-overlay__instruction";
+    instruction.textContent = `ℹ️ ${t("recordInstruction")}`;
+    body.appendChild(instruction);
+
+    // 2. Target Text Display with TTS
+    const item = dataService.getItem(itemId);
+    let textLine;
+    if (item && dataService.getItemKind(item) === "sentence") {
+      textLine = createSentenceTextLine(item, text, lang, [
+        "record-overlay__text",
+      ]);
+    } else {
+      textLine = createTextLine(text, lang, ["record-overlay__text"]);
+    }
+
+    if (textLine) {
+      body.appendChild(textLine);
+    }
+
+    // 3. Record Button
+    const recordBtn = document.createElement("button");
+    recordBtn.type = "button";
+    recordBtn.className = "button button--wide record-overlay__btn";
+    recordBtn.dataset.action = "record-start"; // Placeholder action for future stages
+    recordBtn.textContent = `🎙️ ${t("recordBtnStart")}`;
+    body.appendChild(recordBtn);
+
+    panel.appendChild(body);
+
+    sheet.appendChild(panel);
+    document.body.appendChild(sheet);
+  }
+
+  function closeRecordOverlay() {
+    const sheet = document.getElementById("record-overlay");
+    if (sheet) sheet.remove();
+
+    // Clean up recording state if modal is closed mid-recording
+    if (isRecording) {
+      stopRecordingFlow();
+    }
+
+    // --- STAGE 11: Cleanup memory on close ---
+    if (currentAudioUrl) {
+      URL.revokeObjectURL(currentAudioUrl);
+      currentAudioUrl = null;
+    }
+    recordedBlob = null;
+    audioChunks = [];
+  }
+
   function renderSettings() {
     const body = elements.settingsBody;
     body.innerHTML = "";
@@ -4589,6 +5025,10 @@
     body.appendChild(renderRepeatSection());
     body.appendChild(renderSpeedSection());
     body.appendChild(renderFontSection());
+
+    // --- STAGE 2: Add Record & Compare Section ---
+    body.appendChild(renderRecordAndCompareSection());
+
     body.appendChild(renderVoicesSection());
   }
 
@@ -4711,6 +5151,51 @@
     section.appendChild(row);
     return section;
   }
+
+  function renderRecordAndCompareSection() {
+    const section = document.createElement("div");
+    section.className = "sheet-section";
+
+    // Title
+    const title = document.createElement("h3");
+    title.className = "sheet-section__title";
+    title.textContent = t("recordAndCompare");
+    section.appendChild(title);
+
+    // Description
+    const desc = document.createElement("p");
+    desc.style.margin = "0 0 0.75rem 0";
+    desc.style.color = "var(--muted)";
+    desc.style.fontSize = "0.9rem";
+    desc.textContent = t("recordAndCompareDesc");
+    section.appendChild(desc);
+
+    // Toggle Control
+    const label = document.createElement("label");
+    label.className = "language-control";
+    label.style.cursor = "pointer";
+
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.checked = Boolean(state.settings.recordAndCompare);
+
+    input.addEventListener("change", () => {
+      state.settings.recordAndCompare = input.checked;
+      saveState();
+      renderSettings(); // Update the sheet UI
+      renderCurrent(); // Re-render current view to apply any future logic
+    });
+
+    const text = document.createElement("span");
+    text.className = "language-control__label";
+    text.textContent = t("recordAndCompare");
+
+    label.append(input, text);
+    section.appendChild(label);
+
+    return section;
+  }
+
   function renderVoicesSection() {
     const section = document.createElement("div");
     section.className = "sheet-section";
@@ -6462,6 +6947,27 @@
         case "close-grammar-overlay":
           closeGrammarOverlay();
           break;
+        case "open-record-overlay":
+          openRecordOverlay(
+            actionEl.dataset.itemId,
+            actionEl.dataset.lang,
+            actionEl.dataset.text,
+          );
+          break;
+        case "close-record-overlay":
+          closeRecordOverlay();
+          break;
+        // --- STAGE 8: Record State Machine Actions ---
+        case "record-start":
+          startRecordingFlow();
+          break;
+        case "record-stop":
+          stopRecordingFlow();
+          break;
+        case "record-play":
+          playAndCompare(); // Stage 10: Trigger Play & Compare
+          break;
+
         case "next-up-preview-prev": {
           const currentPreview =
             nextUpPreviewId ||
@@ -6775,6 +7281,9 @@
       mediaService,
       srsService,
       quizProgressService,
+      startRecordingTest,
+      stopRecordingTest,
+      getRecordedBlob: () => recordedBlob,
     };
   }
 })();

@@ -799,6 +799,88 @@ input {
   background-color: rgba(127, 127, 127, 0.16);
   background-color: color-mix(in srgb, var(--accent) 18%, transparent);
 }
+
+/* ------------------------------------------------------------
+Record Mic Button (Stage 3)
+------------------------------------------------------------ */
+.language-cell__word-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.record-mic-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem 0.4rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1;
+  cursor: pointer;
+  flex: 0 0 auto;
+  flex-shrink: 0;
+  transition:
+    border-color 0.2s,
+    color 0.2s;
+}
+
+.record-mic-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* In main.css */
+
+/* ------------------------------------------------------------
+Record Overlay Visual States (Stage 9)
+------------------------------------------------------------ */
+/* Recording State: Danger theme + Pulsing Red Dot */
+.record-overlay__btn[data-action="record-stop"] {
+  background-color: var(--surface);
+  color: var(--danger);
+  border-color: var(--danger);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.record-overlay__btn[data-action="record-stop"]::before {
+  content: "";
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: var(--danger);
+  border-radius: 50%;
+  margin-inline-end: 0.5rem;
+  animation: pulse-dot 1s infinite;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(0.8);
+  }
+}
+
+/* Error State Message */
+.record-overlay__error {
+  color: var(--danger);
+  font-size: 0.9rem;
+  text-align: center;
+  margin: var(--space-3) 0 0 0;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
 /* ------------------------------------------------------------
    Shared components
    ------------------------------------------------------------ */
@@ -1635,4 +1717,39 @@ v3.1 Stage 2: Enhanced Next Up Card & Grammar Overlay
   font-style: italic;
   color: var(--muted);
   unicode-bidi: isolate;
+}
+/* ------------------------------------------------------------
+Record Overlay (Stage 5)
+------------------------------------------------------------ */
+/*.record-overlay {
+   Inherits base modal layout from .sheet 
+}
+*/
+
+.record-overlay__body {
+  /* Placeholder styling for future recording UI */
+  min-block-size: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.record-overlay__instruction {
+  margin: 0 0 var(--space-3) 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.record-overlay__text {
+  margin-block-end: var(--space-4);
+  width: 100%;
+  justify-content: center;
+}
+
+.record-overlay__btn {
+  margin-block-start: var(--space-3);
 }

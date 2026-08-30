@@ -1,0 +1,2 @@
+Review the plan in the record-compare.md and evaluate the context drift for each stage.  Any stage with higher than low risk should be divided into smaller stages.
+
