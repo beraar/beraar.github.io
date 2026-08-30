@@ -1,8 +1,6 @@
 I am working on the Zabon language learning app. I need you to generate a lesson data file (JSON) for a specific lesson path defined in my `manifest.json` uploaded in this message.
-
 The lesson path is:
 lessons/grammar/universal-classifiers.json
-
 Here are the strict constraints and instructions you MUST follow:
 
 🚨 METADATA ADHERENCE (Length & Linguistic Complexity)
@@ -12,59 +10,64 @@ LENGTH (Based on `proficiency`):
 `"intermediate"`: Generate a MINIMUM of 35 sentences.
 `"advanced"`: Generate a MINIMUM of 50 sentences.
 LINGUISTIC COMPLEXITY (Based on `level` 1-9):
-Levels 1-3 (Beginner): Simple SVO structures, high-frequency survival vocabulary, short sentences, concrete topics.
+Levels 1-3 (Beginner): Simple structures, high-frequency survival vocabulary, short sentences, concrete topics.
 Levels 4-6 (Intermediate): Compound sentences, natural conversational flow, specific situational vocabulary, common idioms.
 Levels 7-9 (Advanced): Complex grammar (conditionals, passive voice, reported speech), nuanced dialogue, formal/informal register switching, specialized/professional vocabulary.
 
 🚨 GRAMMAR & RULES ALIGNMENT
-If the target lesson in `manifest.json` has a `"rules"` array (e.g., `"rules": ["rule_universal_svo"]`), you MUST look up that rule ID in the top-level `grammar_rules` registry. Read the `description` field carefully—it contains the strict linguistic constraints and pedagogical boundaries for that specific concept. The generated scenarios sentences should mainly demonstrate these rules and follow the CONVERSATION SCENARIO REQUIREMENT (Thematic Lessons).
+The specific grammar rule description for this lesson will be provided in the user prompt. You MUST read this description carefully—it contains the strict linguistic constraints and pedagogical boundaries for that specific concept. The generated scenario sentences should mainly demonstrate these rules and follow the CONVERSATION SCENARIO REQUIREMENT.
 
-🚨 CONVERSATION SCENARIO REQUIREMENT (Thematic Lessons)
-The lesson MUST be based on a realistic, everyday conversation scenario between 2 people. The sentences must represent actual spoken dialogue in natural, informal language (not formal, isolated, or textbook-style statements). The sequence of sentences must flow cohesively and read as a continuous, natural conversation.
+🚨 TARGET LANGUAGES vs. TRANSLATION LANGUAGES
+The `manifest.json` defines `translations` (all 7 languages) and `targets` (the specific languages being taught).
+
+- You MUST provide all 7 languages in the `texts` object for UI consistency.
+- However, the **linguistic complexity, naturalness, and strict grammar rules** ONLY apply to the `targets` array. The other languages just need to be accurate semantic translations.
+
+🚨 CONVERSATION SCENARIO & SPEAKER REQUIREMENT (Thematic Lessons)
+The lesson MUST be based on a realistic, everyday conversation scenario between 2 people. The sentences must represent actual spoken dialogue in natural, informal language.
+"CRITICAL: The dialogue MUST strictly alternate between two distinct speakers. You MUST include a `"speaker"` field in every sentence object, using exactly `"A"` or `"B"`. Even indices (0, 2, 4) should generally be Speaker A, and odd indices (1, 3, 5) should be Speaker B. Do not generate monologues."
 
 🚨 STRICT STRUCTURAL & NAMING CONVENTIONS (CRITICAL FOR FRONTEND)
 You MUST follow this exact JSON structure and ID naming scheme. Do NOT use lazy IDs like "h1", "s1", or "w1".
 The JSON `"items"` array MUST follow this exact sequential order:
+
 A. Scenario Sections (MUST come first):
 Generate at least 5 distinct conversational scenarios.
 Each scenario MUST start with a header using the prefix `"header_scenario_"` (e.g., `"header_scenario_1"`, `"header_scenario_2"`).
 Under each scenario header, provide the conversational sentences.
 Sentence IDs MUST use the prefix `"sentence_"` (e.g., `"sentence_1"`, `"sentence_2"`).
-"CRITICAL: The dialogue MUST strictly alternate between at least two distinct speakers (e.g., Person A and Person B). Do not generate monologues. Each sentence must be a direct response, question, or natural continuation of the previous speaker's turn."
 
 B. Words Section (MUST come last):
 After all scenarios and sentences are complete, add the words header:
 `{"id": "header_words", "header": true, "texts": {"en": "Words", "th": "คำศัพท์", "fa": "واژگان", "ar": "المفردات", "es": "Palabras", "zh": "词汇", "ja": "語彙"}}`
 Immediately following this header, list the words extracted from the scenarios.
+Each scenario set of words MUST start with a header using the prefix `"header_scenario_[1..n]_words"` (e.g., `"header_scenario_1_words"`, `"header_scenario_2_words"`).
 Word IDs MUST use the prefix `"word_"` (e.g., `"word_1"`, `"word_2"`).
-Do NOT put any words at the beginning of the file. All words must be under `"Words"` at the end.
-Do NOT limit the number of words to an arbitrary number. This ensures the vocabulary list is a comprehensive, exact reflection of the words actually used in the lesson's dialogue.
+Do NOT put any words at the beginning of the file. All words must be under `"header_words"` at the end.
 
-🚨 EXHAUSTIVE WORD EXTRACTION (CRITICAL)
-You MUST extract EVERY distinct word that appears in the generated sentences.
+🚨 VOCABULARY EXTRACTION RULES (CRITICAL)
+Extract all **content words** (nouns, verbs, adjectives, adverbs) and **target grammar particles**.
+**DO NOT** extract universal stop words (articles like 'a/the', basic pronouns like 'I/you', or basic prepositions) unless they are the specific grammar focus of the lesson. This keeps the vocabulary list focused and prevents output token exhaustion.
 
-- DO NOT limit the vocabulary list to the number of sentences.
-- Include ALL words used in the text: nouns, verbs, adjectives, adverbs, pronouns, prepositions, conjunctions, and articles.
-- The ONLY things you must exclude are pure punctuation marks.
-- Do not arbitrarily stop adding words from the sentences to keep the list short. If a distinct word appears in the spoken sentences, it MUST have a corresponding `word_*` entry under the Words header.
-- Do not duplicate words in the word list.
+- Do not duplicate words in the word list. If a word was already extracted in a previous scenario, do not generate a new `word_*` object for it. Just omit it from the subsequent scenario's word list.
 - Ensure the text for every word is an exact substring of the text in at least one sentence (do not use dictionary/infinitive forms if they differ from the spoken text).
 
 SENTENCE-FIRST EXTRACTION METHOD
-Because the JSON requires sentences first and vocabulary last, you will naturally generate the content in the correct order.
 Step 1: Define the conversation scenarios and generate the conversational sentences FIRST.
 Step 2: Review the sentences you just generated.
-Step 3: Extract the core words DIRECTLY from these spoken sentences. Do NOT use dictionary/infinitive forms. The word text for every language must be an exact substring of the text in at least one sentence.
+Step 3: Extract the core words DIRECTLY from these spoken sentences following the rules above.
 
-TOKENS & FORMATTING RULES
+🚨 TOKENS & FORMATTING RULES
 Whitespace Languages (`en`, `fa`, `ar`, `es`): You MUST generate a `"tokens"` array for these languages in every sentence. The tokens must be the exact words that reconstruct the sentence when joined by spaces.
 🚨 CRITICAL TOKENIZATION RULE: Punctuation marks (., ?, !, ,, etc.) MUST remain attached to the word they follow. Do NOT separate punctuation into its own token. For example, "Excuse me." must be tokenized as `["Excuse", "me."]`, NOT `["Excuse", "me", "."]`. Joining the tokens with a single space MUST perfectly reconstruct the original text without adding erroneous spaces before punctuation.
+
 Segmenter Languages (`th`, `zh`, `ja`): DO NOT generate the `"tokens"` array for these languages. My post-processing pipeline will handle word segmentation.
+
 Formatting: Ensure absolutely NO trailing or leading spaces in any of the translation strings or token strings.
 
-OUTPUT FORMAT
-To ensure perfect alignment and prevent context drift, you MUST use a scratchpad before generating the JSON.
-Output your response in exactly this format. Do NOT include any other conversational text, apologies, or notes outside of these blocks:
+🚨 STRICT OUTPUT FORMAT (NO SCRATCHPAD)
+Perform your planning and vocabulary extraction internally. Output **ONLY** a valid JSON object. Do not output markdown formatting (like ```json), scratchpads, or explanations. The very first character of your response must be `{`and the last must be`}`.
+
 {
 "items": [
 {
@@ -75,6 +78,14 @@ Output your response in exactly this format. Do NOT include any other conversati
 {
 "id": "sentence_1",
 "kind": "sentence",
+"speaker": "A",
+"texts": { "en": "...", "th": "...", "fa": "...", "ar": "...", "es": "...", "zh": "...", "ja": "..." },
+"tokens": { "en": ["..."], "fa": ["..."], "ar": ["..."], "es": ["..."] }
+},
+{
+"id": "sentence_2",
+"kind": "sentence",
+"speaker": "B",
 "texts": { "en": "...", "th": "...", "fa": "...", "ar": "...", "es": "...", "zh": "...", "ja": "..." },
 "tokens": { "en": ["..."], "fa": ["..."], "ar": ["..."], "es": ["..."] }
 },
@@ -85,6 +96,11 @@ Output your response in exactly this format. Do NOT include any other conversati
 "texts": { "en": "Words", "th": "คำศัพท์", "fa": "واژگان", "ar": "المفردات", "es": "Palabras", "zh": "词汇", "ja": "語彙" }
 },
 {
+"id": "header_scenario_1_words",
+"header": true,
+"texts": { "en": "Scenario 1 words", "th": "คำศัพท์สถานการณ์ 1", "fa": "کلمات سناریو 1", "ar": "كلمات السيناريو 1", "es": "Palabras del escenario 1", "zh": "场景1词汇", "ja": "シナリオ1の単語" }
+},
+{
 "id": "word_1",
 "kind": "word",
 "texts": { "en": "...", "th": "...", "fa": "...", "ar": "...", "es": "...", "zh": "...", "ja": "..." }
@@ -92,28 +108,25 @@ Output your response in exactly this format. Do NOT include any other conversati
 ]
 }
 
-### 🚨 ERROR HANDLING & PARTIAL REGENERATION (CRITICAL FOR TOKEN SAVING)
-
+🚨 ERROR HANDLING & PARTIAL REGENERATION (CRITICAL FOR TOKEN SAVING)
 When the validation script (`validate-lessons.js`) returns a failure report with specific item errors (e.g., `[TOKEN_MISMATCH] items[17] (sentence_15)` or `[TEXT_MISMATCH] items[42] (word_12)`):
-
-**DO NOT regenerate or output the entire JSON file.**
+DO NOT regenerate or output the entire JSON file.
 Outputting the whole file wastes tokens and risks context drift.
+Instead, ONLY output the specific JSON block(s) that need fixing.
 
-Instead, **ONLY output the specific JSON block(s) that need fixing.**
+Rules for Partial Output:
 
-**Rules for Partial Output:**
+1. Identify the broken items: Look at the validation report (e.g., `items[17] (sentence_15)`).
+2. Output ONLY the corrected block(s): Provide just the JSON object for the broken `sentence_*` or `word_*`.
+3. Cascading Fixes: If you change the `texts` of a `sentence_*` to fix a tokenization or spelling error, you MUST also output the corresponding `word_*` blocks that contain the modified text so they remain in sync.
+4. Format: Output the corrected blocks as a simple JSON array, clearly labeled so I can easily copy-paste and replace them in the main file.
 
-1. **Identify the broken items:** Look at the validation report (e.g., `items[17] (sentence_15)`).
-2. **Output ONLY the corrected block(s):** Provide just the JSON object for the broken `sentence_*` or `word_*`.
-3. **Cascading Fixes:** If you change the `texts` of a `sentence_*` to fix a tokenization or spelling error, you **MUST** also output the corresponding `word_*` blocks that contain the modified text so they remain in sync.
-4. **Format:** Output the corrected blocks as a simple JSON array or individual JSON objects, clearly labeled so I can easily copy-paste and replace them in the main file.
-
-**Example Response for a Fix:**
-
+Example Response for a Fix:
 [
 {
 "id": "sentence_15",
 "kind": "sentence",
+"speaker": "A",
 "texts": {
 "en": "Wait, let me write it down.",
 "th": "เดี๋ยว ขอจดก่อน",
