@@ -4619,7 +4619,10 @@
       `.language-cell[data-item-id="${cssEscape(itemId)}"][data-lang="${cssEscape(lang)}"]`,
     );
   }
+
   function openSettings() {
+    stopPlayback();
+    clearExerciseHighlights();
     renderSettings();
     elements.settingsSheet.hidden = false;
   }
@@ -4717,10 +4720,10 @@
   let currentRecordLang = "";
   let currentRecordText = "";
 
-  // --- STAGE 8: State Machine & Timeout Variables ---
   let isRecording = false;
   let recordingTimeoutId = null;
   let currentAudioUrl = null; // Stage 11: Track audio URL for memory cleanup
+  let currentAudioElement = null; // Stage 12: Track audio element for cleanup
 
   async function startRecordingTest() {
     try {
@@ -4750,14 +4753,31 @@
           type: mimeType || "audio/webm",
         });
         console.log(
-          "Zabon Stage 7: Recording stopped. Blob created:",
+          "Zabon Stage 7: Recording stopped. Blob created: ",
           recordedBlob,
         );
+
         // Release the microphone
         if (audioStream) {
           audioStream.getTracks().forEach((track) => track.stop());
         }
+
+        // Stage 12: Check for silent/empty recording
+        if (recordedBlob.size < 1000) {
+          showRecordError("recordFailed", false);
+          updateRecordOverlayButton("idle");
+          recordedBlob = null;
+          audioChunks = [];
+        } else {
+          const body = document.getElementById("record-overlay-body");
+          if (body) {
+            const existingError = body.querySelector(".record-overlay__error");
+            if (existingError) existingError.remove();
+          }
+          updateRecordOverlayButton("ready");
+        }
       };
+
       mediaRecorder.start();
       console.log("Zabon Stage 7: Recording started...");
       return true; // Success
@@ -4826,7 +4846,10 @@
   }
 
   // --- NEW: Error Display Helper ---
-  function showRecordError() {
+  function showRecordError(
+    messageKey = "recordPermissionDenied",
+    disableButton = true,
+  ) {
     const body = document.getElementById("record-overlay-body");
     if (!body) return;
 
@@ -4836,27 +4859,25 @@
 
     const errorEl = document.createElement("p");
     errorEl.className = "record-overlay__error";
-    errorEl.textContent = `⚠️ ${t("recordPermissionDenied")}`;
+    errorEl.textContent = `⚠️ ${t(messageKey)}`;
     body.appendChild(errorEl);
 
     // Disable the record button
     const btn = body.querySelector(".record-overlay__btn");
     if (btn) {
-      btn.disabled = true;
+      btn.disabled = disableButton;
     }
   }
 
   function stopRecordingFlow() {
     if (!isRecording) return;
     isRecording = false;
-
     if (recordingTimeoutId) {
       clearTimeout(recordingTimeoutId);
       recordingTimeoutId = null;
     }
-
     stopRecordingTest();
-    updateRecordOverlayButton("ready");
+    // UI update moved to mediaRecorder.onstop to handle silent recording checks
   }
 
   // --- STAGE 10: Play & Compare Sequence ---
@@ -4895,14 +4916,21 @@
     // 4. Create Audio object and play recorded blob
     currentAudioUrl = URL.createObjectURL(recordedBlob);
     const audio = new Audio(currentAudioUrl);
+    currentAudioElement = audio;
 
-    // --- STAGE 11: Cleanup and Reset Handler ---
+    // --- STAGE 11 & 12: Cleanup and Reset Handler ---
     const cleanupAndReset = () => {
       // Revoke Object URL to free memory
       if (currentAudioUrl) {
         URL.revokeObjectURL(currentAudioUrl);
         currentAudioUrl = null;
       }
+      if (currentAudioElement) {
+        currentAudioElement.pause();
+        currentAudioElement.src = "";
+        currentAudioElement = null;
+      }
+
       // Nullify blob and clear chunks
       recordedBlob = null;
       audioChunks = [];
@@ -4923,6 +4951,8 @@
 
   // --- STAGE 5: Record Overlay Shell ---
   function openRecordOverlay(itemId, lang, text) {
+    stopPlayback();
+    clearExerciseHighlights();
     // Save context for Stage 10 playback
     currentRecordLang = lang;
     currentRecordText = text;
@@ -5004,6 +5034,13 @@
     // Clean up recording state if modal is closed mid-recording
     if (isRecording) {
       stopRecordingFlow();
+    }
+
+    // Stage 12: Stop audio if overlay is closed mid-playback
+    if (currentAudioElement) {
+      currentAudioElement.pause();
+      currentAudioElement.src = "";
+      currentAudioElement = null;
     }
 
     // --- STAGE 11: Cleanup memory on close ---

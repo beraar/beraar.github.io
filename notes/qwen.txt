@@ -1,2 +1,343 @@
-Review the plan in the record-compare.md and evaluate the context drift for each stage.  Any stage with higher than low risk should be divided into smaller stages.
+// app.js
+(() => {
+  "use strict";
 
+  const STORAGE_KEYS = {
+    get settings() {
+      return "zabon.settings";
+    },
+    get lessonLanguages() {
+      return "zabon.lessonLanguages";
+    },
+    get onboardingComplete() {
+      return "zabon.onboardingComplete";
+    },
+    get onboardingAnswers() {
+      return "zabon.onboardingAnswers";
+    },
+    get buildLanguages() {
+      return "zabon.buildLanguages";
+    },
+    get srs() {
+      return `zabon.${state?.settings?.targetLanguage || "th"}.srs`;
+    },
+    get quiz() {
+      return `zabon.${state?.settings?.targetLanguage || "th"}.quiz`;
+    },
+    get lessonsTried() {
+      return `zabon.${state?.settings?.targetLanguage || "th"}.lessonsTried`;
+    },
+    get studyPlan() {
+      return `zabon.${state?.settings?.targetLanguage || "th"}.studyPlan`;
+    },
+    get studyPlanProgress() {
+      return `zabon.${state?.settings?.targetLanguage || "th"}.studyPlanProgress`;
+    },
+    get lessonBaseStatus() {
+      return `zabon.${state?.settings?.targetLanguage || "th"}.lessonBaseStatus`;
+    },
+  };
+
+  const DEFAULT_LESSON_LANGUAGES = Object.freeze(["en", "th"]);
+  const THEME_CYCLE = Object.freeze(["auto", "light", "dark"]);
+  const SPEED_PRESETS = Object.freeze({
+    normal: { rate: 1, pitch: 1 },
+    slow: { rate: 0.75, pitch: 1.05 },
+    slower: { rate: 0.5, pitch: 1.1 },
+  });
+
+  const CATEGORY_ICONS = Object.freeze({
+    cat_grammar_intro: "📜",
+    cat_grammar_inter: "📜",
+    cat_grammar_adv: "📜",
+    cat_greetings: "👋",
+    cat_basics: "🧭",
+    cat_food: "🍜",
+    cat_shopping: "🛍️",
+    cat_money: "💰",
+    cat_transport: "🚌",
+    cat_weather: "⛅",
+    cat_home: "🏠",
+    cat_health: "💊",
+    cat_personal: "💇",
+    cat_post: "📮",
+    cat_entertainment: "🎬",
+    cat_family: "👪",
+    cat_accommodation: "🏨",
+    cat_travel: "✈️",
+    cat_emergency: "🚨",
+    cat_work: "💼",
+    cat_religion_culture: "🛕",
+    cat_reading_writing: "🔤",
+  });
+
+  const TIER_ICONS = Object.freeze({
+    introductory: "🌱",
+    intermediate: "🌿",
+    advanced: "🌳",
+  });
+
+  const TOPIC_ICON = "📚";
+  const BOOK_ICON = "📖";
+  const SCROLL_SUPPRESSION_MS = 900;
+
+  const VIEW_IDS = Object.freeze([
+    "targetSelect",
+    "onboarding",
+    "home",
+    "lesson",
+    "flashcard",
+    "quiz",
+    "build",
+    "progress",
+    "voicetest",
+    "help",
+  ]);
+
+  const IMPLEMENTED_TARGET_LANGUAGES = Object.freeze([
+    "th",
+    "fa",
+    "en",
+    "zh",
+    "ja",
+    "ar",
+    "es",
+  ]);
+
+  const UI_STRINGS = Object.freeze({
+    appTitle: {
+      en: "Zabon",
+      th: "ซาบอน",
+      fa: "زبون",
+      ar: "زابون",
+      es: "Zabon",
+      zh: "扎邦",
+      ja: "ザボン",
+    },
+    // ... (Other UI_STRINGS remain unchanged for brevity)
+    recordFailed: {
+      en: "Recording failed or was silent. Please try again.",
+      th: "การบันทึกล้มเหลวหรือไม่มีเสียง กรุณาลองอีกครั้ง",
+      fa: "ضبط ناموفق بود یا بی‌صدا بود. لطفاً دوباره تلاش کنید.",
+      ar: "فشل التسجيل أو كان صامتًا. يرجى المحاولة مرة أخرى.",
+      es: "La grabación falló o fue silenciosa. Por favor, inténtalo de nuevo.",
+      zh: "录音失败或无声。请重试。",
+      ja: "録音に失敗したか、無音でした。もう一度お試しください。",
+    },
+    recordPermissionDenied: {
+      en: "Microphone access denied. Please enable it in your browser settings.",
+      th: "การเข้าถึงไมโครโฟนถูกปฏิเสธ โปรดเปิดใช้งานในการตั้งค่าเบราว์เซอร์ของคุณ",
+      fa: "دسترسی به میکروفون رد شد. لطفاً آن را در تنظیمات مرورگر خود فعال کنید.",
+      ar: "تم رفض الوصول إلى الميكروفون. يرجى تمكينه في إعدادات المتصفح.",
+      es: "Acceso al micrófono denegado. Por favor, habilítalo en la configuración de tu navegador.",
+      zh: "麦克风访问被拒绝。请在浏览器设置中启用它。",
+      ja: "マイクへのアクセスが拒否されました。ブラウザの設定で有効にしてください。",
+    },
+  });
+
+  // ... (Other constants and initializations remain unchanged)
+
+  let currentAudioUrl = null; // Stage 11: Track audio URL for memory cleanup
+  let currentAudioElement = null; // Stage 12: Track audio element for cleanup
+
+  // ...
+
+  // --- NEW: Error Display Helper ---
+  function showRecordError(messageKey = "recordPermissionDenied", disableButton = true) {
+    const body = document.getElementById("record-overlay-body");
+    if (!body) return;
+
+    const existingError = body.querySelector(".record-overlay__error");
+    if (existingError) existingError.remove();
+
+    const errorEl = document.createElement("p");
+    errorEl.className = "record-overlay__error";
+    errorEl.textContent = `⚠️ ${t(messageKey)}`;
+    body.appendChild(errorEl);
+
+    const btn = body.querySelector(".record-overlay__btn");
+    if (btn) {
+      btn.disabled = disableButton;
+    }
+  }
+
+  async function startRecordingFlow() {
+    isRecording = true;
+    updateRecordOverlayButton("recording");
+
+    if (currentAudioUrl) {
+      URL.revokeObjectURL(currentAudioUrl);
+      currentAudioUrl = null;
+    }
+    recordedBlob = null;
+    audioChunks = [];
+
+    recordingTimeoutId = setTimeout(() => {
+      if (isRecording) {
+        stopRecordingFlow();
+      }
+    }, 60000);
+
+    const success = await startRecordingTest();
+    if (!success) {
+      isRecording = false;
+      if (recordingTimeoutId) {
+        clearTimeout(recordingTimeoutId);
+        recordingTimeoutId = null;
+      }
+      updateRecordOverlayButton("idle");
+      showRecordError("recordPermissionDenied", true);
+    }
+  }
+
+  function stopRecordingFlow() {
+    if (!isRecording) return;
+    isRecording = false;
+    if (recordingTimeoutId) {
+      clearTimeout(recordingTimeoutId);
+      recordingTimeoutId = null;
+    }
+    stopRecordingTest();
+    // UI update moved to mediaRecorder.onstop to handle silent recording checks
+  }
+
+  async function startRecordingTest() {
+    try {
+      audioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      audioChunks = [];
+
+      let mimeType = "audio/webm;codecs=opus";
+      if (!MediaRecorder.isTypeSupported(mimeType)) {
+        mimeType = "audio/webm";
+        if (!MediaRecorder.isTypeSupported(mimeType)) {
+          mimeType = "";
+        }
+      }
+
+      const options = mimeType ? { mimeType } : {};
+      mediaRecorder = new MediaRecorder(audioStream, options);
+
+      mediaRecorder.ondataavailable = (event) => {
+        if (event.data.size > 0) {
+          audioChunks.push(event.data);
+        }
+      };
+
+      mediaRecorder.onstop = () => {
+        recordedBlob = new Blob(audioChunks, {
+          type: mimeType || "audio/webm",
+        });
+
+        if (audioStream) {
+          audioStream.getTracks().forEach((track) => track.stop());
+        }
+
+        // Stage 12: Check for silent/empty recording
+        if (recordedBlob.size < 1000) {
+          showRecordError("recordFailed", false);
+          updateRecordOverlayButton("idle");
+          recordedBlob = null;
+          audioChunks = [];
+        } else {
+          const body = document.getElementById("record-overlay-body");
+          if (body) {
+            const existingError = body.querySelector(".record-overlay__error");
+            if (existingError) existingError.remove();
+          }
+          updateRecordOverlayButton("ready");
+        }
+      };
+
+      mediaRecorder.start();
+      return true;
+    } catch (err) {
+      console.error("Zabon Stage 7: Error accessing microphone:", err);
+      return false;
+    }
+  }
+
+  async function playAndCompare() {
+    const btn = document.querySelector("#record-overlay .record-overlay__btn");
+    if (!btn || !recordedBlob) return;
+
+    btn.disabled = true;
+
+    const ttsPromise = new Promise((resolve) => {
+      if (
+        !mediaService.supported ||
+        !currentRecordText ||
+        !currentRecordText.trim()
+      ) {
+        resolve();
+        return;
+      }
+      const utterance = mediaService.speakText(
+        currentRecordText,
+        currentRecordLang,
+        {
+          onEnd: () => resolve(),
+          onError: () => resolve(), // Gracefully abort TTS and proceed to recorded audio
+        },
+      );
+      if (!utterance) resolve();
+    });
+
+    await ttsPromise;
+    await new Promise((resolve) => setTimeout(resolve, 800));
+
+    currentAudioUrl = URL.createObjectURL(recordedBlob);
+    const audio = new Audio(currentAudioUrl);
+    currentAudioElement = audio;
+
+    const cleanupAndReset = () => {
+      if (currentAudioUrl) {
+        URL.revokeObjectURL(currentAudioUrl);
+        currentAudioUrl = null;
+      }
+      if (currentAudioElement) {
+        currentAudioElement.pause();
+        currentAudioElement.src = "";
+        currentAudioElement = null;
+      }
+
+      recordedBlob = null;
+      audioChunks = [];
+      updateRecordOverlayButton("idle");
+    };
+
+    audio.onended = cleanupAndReset;
+    audio.onerror = cleanupAndReset;
+
+    try {
+      await audio.play();
+    } catch (err) {
+      cleanupAndReset();
+    }
+  }
+
+  function closeRecordOverlay() {
+    const sheet = document.getElementById("record-overlay");
+    if (sheet) sheet.remove();
+
+    if (isRecording) {
+      stopRecordingFlow();
+    }
+
+    // Stage 12: Stop audio if overlay is closed mid-playback
+    if (currentAudioElement) {
+      currentAudioElement.pause();
+      currentAudioElement.src = "";
+      currentAudioElement = null;
+    }
+
+    if (currentAudioUrl) {
+      URL.revokeObjectURL(currentAudioUrl);
+      currentAudioUrl = null;
+    }
+    recordedBlob = null;
+    audioChunks = [];
+  }
+
+  // ... (Rest of the application code remains unchanged)
+
+})();
