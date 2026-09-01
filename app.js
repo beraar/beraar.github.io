@@ -4084,15 +4084,8 @@
     buildCurrent = null;
 
     openLessonSections.clear();
-
-    // Dynamically open all scenario and vocabulary sections by default on first load
-    for (const item of currentLesson.items) {
-      if (item.header) {
-        openLessonSections.add(`lesson:section:${item.id}`);
-      }
-    }
-
     resetQuizSessionSeed();
+
     ensureExerciseConfigs();
     renderLesson();
   }
@@ -4235,18 +4228,20 @@
     // --- DYNAMIC GROUPING: Group items sequentially by their headers ---
     const sections = [];
     let currentSection = { header: null, items: [] };
-
     for (const item of items) {
       if (item.header) {
-        if (currentSection.header || currentSection.items.length > 0) {
+        if (currentSection.items.length > 0) {
           sections.push(currentSection);
+          currentSection = { header: item, items: [] };
+        } else {
+          // Skip empty sections (e.g., consecutive headers) to prevent "No items" message
+          currentSection.header = item;
         }
-        currentSection = { header: item, items: [] };
       } else {
         currentSection.items.push(item);
       }
     }
-    if (currentSection.header || currentSection.items.length > 0) {
+    if (currentSection.items.length > 0) {
       sections.push(currentSection);
     }
 

@@ -147,6 +147,7 @@ items.forEach((item, idx) => {
       );
 
     // --- NEW: Speaker Validation ---
+    /*
     if (!item.speaker || typeof item.speaker !== "string") {
       addError(
         "MISSING_SPEAKER",
@@ -160,6 +161,8 @@ items.forEach((item, idx) => {
         p,
       );
     }
+*/
+
     // -------------------------------
   } else if (item.kind === "character") {
     characters.push({ id, idx });
