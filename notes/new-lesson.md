@@ -1,11 +1,10 @@
 I am working on the Zabon language learning app. I need you to generate a lesson data file (JSON) for the following metadata:
 
-          "file": "lessons/grammar/fa-sov.json",
-          "level": 1,
-          "proficiency": "beginner",
+          "file": "lessons/accommodation/hotel-requests.json",
+          "level": 6,
+          "proficiency": "intermediate",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
-          "targets": ["fa"],
-          "focus": "SOV word order"
+          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
 
 Here are the strict constraints and instructions you MUST follow:
 

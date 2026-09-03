@@ -641,7 +641,7 @@
             "zh": "语法：比较级",
             "ja": "文法：比較"
           },
-          "file": "lessons/grammar/universal-comparatives.json",
+          "file": "lessons/grammar/universal-conditionals.json",
           "level": 4,
           "proficiency": "intermediate",
           "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
