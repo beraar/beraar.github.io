@@ -1,4 +1,3 @@
-// app.js
 (() => {
   "use strict";
   const STORAGE_KEYS = {
@@ -26,12 +25,10 @@
     get lessonsTried() {
       return `zabon.${state?.settings?.targetLanguage || "th"}.lessonsTried`;
     },
-    // ── Stage 2: Milestone Engine ──
     get milestoneProgress() {
       return `zabon.${state?.settings?.targetLanguage || "th"}.milestoneProgress`;
     },
   };
-
   const DEFAULT_LESSON_LANGUAGES = Object.freeze(["en", "th"]);
   const THEME_CYCLE = Object.freeze(["auto", "light", "dark"]);
   const SPEED_PRESETS = Object.freeze({
@@ -90,7 +87,6 @@
     "ar",
     "es",
   ]);
-
   const UI_STRINGS = Object.freeze({
     appTitle: {
       en: "Zabon",
@@ -146,9 +142,6 @@
       zh: "你的主要目标是什么？",
       ja: "主な目標は何ですか？",
     },
-
-    // ── Inside UI_STRINGS ──
-
     onboardingGoalSurvival: {
       en: "Survival & Travel",
       th: "การเอาตัวรอดและการเดินทาง",
@@ -1374,7 +1367,6 @@
       ja: "録音に失敗したか、無音でした。もう一度お試しください。",
     },
   });
-
   const VOICE_TEST_MESSAGES = Object.freeze({
     en: "{language} is available",
     th: "{language} พร้อมใช้งาน",
@@ -1805,7 +1797,6 @@
     if (str.length <= max) return str;
     return `${str.slice(0, max - 1).trimEnd()}\u2026`;
   }
-
   function createRegistry(languages) {
     const all = Array.isArray(languages)
       ? languages.filter((l) => l && typeof l.code === "string")
@@ -2395,7 +2386,6 @@
     }
   }
 
-  // ── Stage 2 & 3: Milestone Engine ──
   class MilestoneService {
     constructor() {
       this.progressKey = STORAGE_KEYS.milestoneProgress;
@@ -2415,9 +2405,7 @@
         !Array.isArray(existing) &&
         Object.keys(existing).length === milestones.length &&
         milestones.length > 0;
-      if (isValid) {
-        return existing;
-      }
+      if (isValid) return existing;
       const progress = {};
       milestones.forEach((m, index) => {
         progress[m.id] = {
@@ -2540,7 +2528,6 @@
       this.saveProgress(progress);
       return true;
     }
-
     markInProgress(id) {
       let progress = this.getProgress();
       if (!progress) progress = this.initializeProgress();
@@ -2553,23 +2540,15 @@
       let progress = this.getProgress();
       if (!progress) progress = this.initializeProgress();
       const milestones = manifest?.milestones || [];
-
-      // 1. Always resume an in-progress milestone first
       for (const m of milestones) {
         if (progress[m.id]?.state === "IN_PROGRESS") return m.id;
       }
-
-      // 2. Collect every UNLOCKED milestone
       const unlocked = milestones.filter(
         (m) => progress[m.id]?.state === "UNLOCKED",
       );
       if (unlocked.length === 0) return null;
-
-      // 3. ★ Stage 3: read goal from state.settings
       const goal = state?.settings?.userGoal;
       const goalTags = goal ? this._getGoalTags(goal) : [];
-
-      // 4. Sort unlocked milestones by relevance to the user's goal
       if (goalTags.length > 0) {
         unlocked.sort((a, b) => {
           const aTags = a.priority_tags || [];
@@ -2577,16 +2556,13 @@
           const aScore = aTags.filter((t) => goalTags.includes(t)).length;
           const bScore = bTags.filter((t) => goalTags.includes(t)).length;
           if (bScore !== aScore) return bScore - aScore;
-
           const aFirst = goalTags.includes(aTags[0]) ? 1 : 0;
           const bFirst = goalTags.includes(bTags[0]) ? 1 : 0;
           return bFirst - aFirst;
         });
       }
-
       return unlocked[0].id;
     }
-
     _getGoalTags(goal) {
       switch (goal) {
         case "survival":
@@ -2603,7 +2579,6 @@
           return [];
       }
     }
-
     hasProgress() {
       const p = this.getProgress();
       return p && typeof p === "object" && Object.keys(p).length > 0;
@@ -2661,7 +2636,6 @@
     saveJSON(STORAGE_KEYS.settings, state.settings);
     saveJSON(STORAGE_KEYS.lessonLanguages, state.lessonLanguages);
   }
-
   function resetTargetScopedServices() {
     srsService = new SrsService(STORAGE_KEYS.srs);
     quizProgressService = new QuizProgressService(STORAGE_KEYS.quiz);
@@ -2677,13 +2651,12 @@
     exerciseSettingsOpen = false;
     if (typeof resetQuizSessionSeed === "function") resetQuizSessionSeed();
   }
-
   function setTargetLanguage(code, source = "toolbar") {
     if (!registry.has(code)) return;
     const previousTarget = state.settings.targetLanguage;
     state.settings.targetLanguage = code;
     nextUpPreviewId = null;
-    const browserLang = (navigator.language || " ").toLowerCase().split("-")[0];
+    const browserLang = (navigator.language || "").toLowerCase().split("-")[0];
     const bridgeLang =
       registry.has(browserLang) && browserLang !== code
         ? browserLang
@@ -2696,17 +2669,13 @@
     saveState();
     if (previousTarget !== code) resetTargetScopedServices();
     renderTargetLanguageControl();
-
-    // ★ Stage 3 Fix: Redirect to onboarding if not yet completed
     const onboardingComplete = loadJSON(STORAGE_KEYS.onboardingComplete, false);
     if (!onboardingComplete) {
       renderOnboarding();
       return;
     }
-
     goHome();
   }
-
   function applyTheme() {
     document.documentElement.dataset.theme = state.settings.theme;
   }
@@ -2812,6 +2781,8 @@
         if (bar) {
           const existing = bar.querySelector(".complete-toggle");
           if (existing) existing.remove();
+          const existingProgress = bar.querySelector(".auto-complete-progress");
+          if (existingProgress) existingProgress.remove();
         }
       });
     }
@@ -3048,15 +3019,11 @@
     select.addEventListener("change", () => setAppLanguage(select.value));
     container.appendChild(select);
   }
-
   async function loadManifest() {
     try {
-      // Fetch from root level as requested
       const response = await fetch("manifest.json", { cache: "no-cache" });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const rawData = await response.json();
-
-      // Ensure fallback structure exists if the file is incomplete or missing blocks
       if (!rawData.zabon) {
         console.warn(
           "Zabon: manifest.json is missing the 'zabon' object. Adding fallback.",
@@ -3065,7 +3032,7 @@
       }
       if (!rawData.categories) rawData.categories = [];
       if (!rawData.milestones) rawData.milestones = [];
-
+      if (!rawData.tiers) rawData.tiers = [];
       return rawData;
     } catch (error) {
       console.error("Zabon: unable to load manifest.json.", error);
@@ -3073,110 +3040,105 @@
         zabon: { languages: [] },
         categories: [],
         milestones: [],
+        tiers: [],
       };
     }
   }
 
-  function groupCategoriesByProficiency() {
-    const tiers = {
-      introductory: { thematic: [] },
-      intermediate: { thematic: [] },
-      advanced: { thematic: [] },
+  // ── Stage 4: Milestone UI ──
+  function renderMilestoneList() {
+    const list = document.createElement("div");
+    list.className = "category-list";
+    const tiers = manifest?.tiers || [];
+    const tierLabels = {
+      beginner: t("tierIntroductory"),
+      intermediate: t("tierIntermediate"),
+      advanced: t("tierAdvanced"),
     };
-    const standalone = [];
-    const proficiencyToTier = {
-      beginner: "introductory",
-      intermediate: "intermediate",
-      advanced: "advanced",
+    const tierIcons = {
+      beginner: TIER_ICONS.introductory,
+      intermediate: TIER_ICONS.intermediate,
+      advanced: TIER_ICONS.advanced,
     };
-    const filteredCategories = (manifest.categories || [])
-      .map((cat) => {
-        if (cat.id === "cat_test") return null;
-        const validLessons = (cat.lessons || []).filter(
-          lessonBelongsToActiveTarget,
-        );
-        if (validLessons.length === 0) return null;
-        return { ...cat, lessons: validLessons };
-      })
-      .filter(Boolean);
-    for (const category of filteredCategories) {
-      if (category.standalone) {
-        standalone.push(category);
-        continue;
+
+    for (const tier of tiers) {
+      const tierKey = tier.id;
+      const openKey = "tier:" + tierKey;
+      const isOpen = openCategories.has(openKey);
+      const wrap = document.createElement("div");
+      wrap.className = "proficiency-tier";
+      const header = document.createElement("button");
+      header.type = "button";
+      header.className = "proficiency-tier__header";
+      header.dataset.action = "toggle-tier";
+      header.dataset.tierId = tierKey;
+      const icon = document.createElement("span");
+      icon.className = "proficiency-tier__icon";
+      icon.textContent = tierIcons[tierKey] || "🌱";
+      const title = document.createElement("span");
+      title.className = "proficiency-tier__title";
+      title.textContent = tierLabels[tierKey] || tier.label;
+      const titleGroup = document.createElement("span");
+      titleGroup.className = "proficiency-tier__title-group";
+      titleGroup.append(icon, title);
+      const milestoneIds = tier.milestones || [];
+      const completedCount = milestoneIds.filter(
+        (id) => milestoneService.getMilestoneState(id) === "COMPLETED",
+      ).length;
+      const progress = document.createElement("span");
+      progress.className = "proficiency-tier__progress";
+      progress.textContent = `${completedCount}/${milestoneIds.length}`;
+      const chevron = document.createElement("span");
+      chevron.className = "category__chevron";
+      chevron.textContent = isOpen ? "\u25BE" : "\u25B8";
+      header.append(titleGroup, progress, chevron);
+      wrap.appendChild(header);
+      if (isOpen) {
+        const body = document.createElement("div");
+        body.className = "proficiency-tier__body";
+        for (const mId of milestoneIds) {
+          const milestone = (manifest.milestones || []).find(
+            (m) => m.id === mId,
+          );
+          if (!milestone) continue;
+          const mState = milestoneService.getMilestoneState(mId);
+          const card = document.createElement("button");
+          card.type = "button";
+          card.className = "lesson-card milestone-card";
+          if (mState === "LOCKED") {
+            card.classList.add("is-locked");
+            card.disabled = true;
+            card.title = "Complete previous milestones to unlock";
+          } else if (mState === "IN_PROGRESS") {
+            card.classList.add("is-in-progress");
+          } else if (mState === "COMPLETED") {
+            card.classList.add("is-complete");
+          }
+          if (mState !== "LOCKED") {
+            card.dataset.action = "open-lesson";
+          }
+          card.dataset.lessonId = mId;
+          const statusIcon = document.createElement("span");
+          statusIcon.className = "lesson-card__status";
+          if (mState === "LOCKED") statusIcon.textContent = "🔒";
+          else if (mState === "IN_PROGRESS") statusIcon.textContent = "🟡";
+          else if (mState === "COMPLETED") statusIcon.textContent = "✅";
+          else statusIcon.textContent = "▶️";
+          const titleEl = document.createElement("span");
+          titleEl.className = "lesson-card__title";
+          titleEl.textContent =
+            dataService.getLocalizedText(
+              { en: milestone.title },
+              preferredAppLanguages(),
+            ) || milestone.id;
+          card.append(statusIcon, titleEl);
+          body.appendChild(card);
+        }
+        wrap.appendChild(body);
       }
-      const firstLesson = category.lessons[0];
-      const proficiency = firstLesson?.proficiency || "beginner";
-      const tier = proficiencyToTier[proficiency] || "introductory";
-      tiers[tier].thematic.push(category);
+      list.appendChild(wrap);
     }
-    for (const tierKey of Object.keys(tiers)) {
-      tiers[tierKey].thematic.sort((a, b) => {
-        const isGrammarA = a.id.startsWith("cat_grammar");
-        const isGrammarB = b.id.startsWith("cat_grammar");
-        if (isGrammarA && !isGrammarB) return -1;
-        if (!isGrammarA && isGrammarB) return 1;
-        const titleA =
-          dataService.getLocalizedText(a.title, preferredAppLanguages()) ||
-          a.id;
-        const titleB =
-          dataService.getLocalizedText(b.title, preferredAppLanguages()) ||
-          b.id;
-        return titleA.localeCompare(titleB);
-      });
-    }
-    return { tiers, standalone };
-  }
-  function countTierLessons(tier) {
-    let count = 0;
-    for (const category of tier.thematic)
-      count += (category.lessons || []).length;
-    return count;
-  }
-  function countTierLessonsTried(tier) {
-    let count = 0;
-    for (const category of tier.thematic) {
-      for (const lesson of category.lessons || [])
-        if (lessonsTried.has(lesson.id)) count += 1;
-    }
-    return count;
-  }
-  function renderProficiencyTier(tierKey, label, tier) {
-    const wrap = document.createElement("div");
-    wrap.className = "proficiency-tier";
-    const openKey = "tier:" + tierKey;
-    const isOpen = openCategories.has(openKey);
-    const totalLessons = countTierLessons(tier);
-    const triedLessons = countTierLessonsTried(tier);
-    const header = document.createElement("button");
-    header.type = "button";
-    header.className = "proficiency-tier__header";
-    header.dataset.action = "toggle-tier";
-    header.dataset.tierId = tierKey;
-    const icon = document.createElement("span");
-    icon.className = "proficiency-tier__icon";
-    icon.textContent = TIER_ICONS[tierKey] || "";
-    const title = document.createElement("span");
-    title.className = "proficiency-tier__title";
-    title.textContent = label;
-    const titleGroup = document.createElement("span");
-    titleGroup.className = "proficiency-tier__title-group";
-    titleGroup.append(icon, title);
-    const progress = document.createElement("span");
-    progress.className = "proficiency-tier__progress";
-    progress.textContent = triedLessons + "/" + totalLessons;
-    const chevron = document.createElement("span");
-    chevron.className = "category__chevron";
-    chevron.textContent = isOpen ? "\u25BE" : "\u25B8";
-    header.append(titleGroup, progress, chevron);
-    wrap.appendChild(header);
-    if (isOpen) {
-      const body = document.createElement("div");
-      body.className = "proficiency-tier__body";
-      for (const category of tier.thematic)
-        body.appendChild(renderCategory(category));
-      wrap.appendChild(body);
-    }
-    return wrap;
+    return list;
   }
 
   function renderHome() {
@@ -3202,31 +3164,13 @@
       banner.appendChild(btn);
       view.appendChild(banner);
     }
-    const { tiers, standalone } = groupCategoriesByProficiency();
-    const tierOrder = ["introductory", "intermediate", "advanced"];
-    const tierLabels = {
-      introductory: t("tierIntroductory"),
-      intermediate: t("tierIntermediate"),
-      advanced: t("tierAdvanced"),
-    };
     const nextUpCard = renderNextUpCard();
     if (nextUpCard) view.appendChild(nextUpCard);
-    const list = document.createElement("div");
-    list.className = "category-list";
-    for (const tierKey of tierOrder) {
-      const tier = tiers[tierKey];
-      if (!tier.thematic.length) continue;
-      list.appendChild(
-        renderProficiencyTier(tierKey, tierLabels[tierKey], tier),
-      );
-    }
-    for (const category of standalone)
-      list.appendChild(renderCategory(category));
+    const list = renderMilestoneList();
     view.appendChild(list);
   }
 
   function getSortedLanguages() {
-    // Safely access manifest.zabon.languages, fallback to empty array if missing
     const langs = manifest?.zabon?.languages || [];
     return [...langs]
       .filter((lang) => lang?.code)
@@ -3271,47 +3215,6 @@
     );
     container.appendChild(select);
   }
-
-  function getNextBrowseLesson() {
-    const progress = milestoneService ? milestoneService.getProgress() : {};
-    const { tiers } = groupCategoriesByProficiency();
-    const tierOrder = ["introductory", "intermediate", "advanced"];
-    for (const tierKey of tierOrder) {
-      const tier = tiers[tierKey];
-      if (!tier) continue;
-      for (const category of tier.thematic) {
-        for (const lesson of category.lessons || []) {
-          const status = progress[lesson.id];
-          if (status !== "complete" && status !== "skipped") return lesson;
-        }
-      }
-    }
-    return null;
-  }
-
-  function getNavigationContext(lessonId) {
-    for (const cat of manifest.categories || []) {
-      const lessons = (cat.lessons || []).filter(lessonBelongsToActiveTarget);
-      const idx = lessons.findIndex((l) => l.id === lessonId);
-      if (idx !== -1) {
-        return {
-          list: lessons.map((l) => l.id),
-          index: idx,
-          prevId: idx > 0 ? lessons[idx - 1].id : null,
-          nextId: idx < lessons.length - 1 ? lessons[idx + 1].id : null,
-        };
-      }
-    }
-    return { list: [lessonId], index: 0, prevId: null, nextId: null };
-  }
-
-  function getTierLabelForLesson(lesson) {
-    const prof = lesson.proficiency || "beginner";
-    if (prof === "beginner") return t("tierIntroductory");
-    if (prof === "intermediate") return t("tierIntermediate");
-    return t("tierAdvanced");
-  }
-
   function renderNextUpCard() {
     let previewId = nextUpPreviewId;
     if (!previewId) {
@@ -3319,43 +3222,29 @@
         ? milestoneService.getNextMilestone()
         : null;
       if (nextMilestoneId) previewId = nextMilestoneId;
-      else {
-        const nextLesson = getNextBrowseLesson();
-        if (nextLesson) previewId = nextLesson.id;
-      }
     }
     if (!previewId) return null;
-    let meta = findLessonMeta(previewId);
-    if (!meta) {
-      const milestone = manifest?.milestones?.find((m) => m.id === previewId);
-      if (milestone)
-        meta = {
-          id: milestone.id,
-          title: { en: milestone.title },
-          proficiency:
-            milestone.tier === "beginner" ? "beginner" : milestone.tier,
-        };
-    }
-    if (!meta) return null;
-    const context = getNavigationContext(previewId);
+    const milestone = (manifest?.milestones || []).find(
+      (m) => m.id === previewId,
+    );
+    if (!milestone) return null;
     const card = document.createElement("div");
     card.className = "next-up-card";
     const title = document.createElement("h3");
     title.className = "next-up-card__title";
     title.textContent =
-      dataService.getLocalizedText(meta.title, preferredAppLanguages()) ||
-      meta.id;
+      dataService.getLocalizedText(
+        { en: milestone.title },
+        preferredAppLanguages(),
+      ) || milestone.id;
     card.appendChild(title);
     const metaRow = document.createElement("div");
     metaRow.className = "next-up-card__meta";
-    const prof = meta.proficiency || "beginner";
-    let tierIcon = TIER_ICONS.introductory;
-    if (prof === "intermediate") tierIcon = TIER_ICONS.intermediate;
-    else if (prof === "advanced") tierIcon = TIER_ICONS.advanced;
-    const levelSpan = document.createElement("span");
-    levelSpan.className = "next-up-card__level";
-    levelSpan.textContent = `${tierIcon} ${getTierLabelForLesson(meta)} ${t("lessonsLabel")}`;
-    metaRow.appendChild(levelSpan);
+    const tags = (milestone.priority_tags || []).join(", ");
+    const metaSpan = document.createElement("span");
+    metaSpan.className = "next-up-card__level";
+    metaSpan.textContent = `Focus: ${tags || "General"}`;
+    metaRow.appendChild(metaSpan);
     card.appendChild(metaRow);
     const navRow = document.createElement("div");
     navRow.className = "next-up-card__nav";
@@ -3369,7 +3258,6 @@
     card.appendChild(navRow);
     return card;
   }
-
   function handleNextUpSkip(lessonId) {
     nextUpPreviewId = null;
     renderHome();
@@ -3387,7 +3275,6 @@
     ];
     const validLevels = ["beginner", "some", "basic", "advanced"];
     const validUsage = ["conversation", "digital", "media", "formal"];
-
     return {
       goal: validGoals.includes(saved?.goal) ? saved.goal : "",
       level: validLevels.includes(saved?.level) ? saved.level : "",
@@ -3422,7 +3309,6 @@
     generateButton.disabled = disabled;
     if (hint) hint.hidden = !disabled;
   }
-
   function renderOnboarding() {
     showView("onboarding");
     const view = elements.onboardingView;
@@ -3560,23 +3446,16 @@
     view.appendChild(stage);
     refreshOnboardingGenerateButton();
   }
-
   function generateStudyPlan() {
     const answers = collectOnboardingAnswers();
     if (!answers.goal || !answers.level) return;
-
-    // Persist raw onboarding answers
     saveJSON(STORAGE_KEYS.onboardingAnswers, answers);
-
-    // ★ Stage 3: save the chosen goal into state.settings
     state.settings.userGoal = answers.goal;
-    saveState(); // writes state.settings → localStorage (zabon.settings)
-
+    saveState();
     if (milestoneService) milestoneService.initializeProgress();
     saveJSON(STORAGE_KEYS.onboardingComplete, true);
     renderHome();
   }
-
   function skipOnboarding() {
     saveCurrentOnboardingAnswers();
     saveJSON(STORAGE_KEYS.onboardingComplete, true);
@@ -3592,67 +3471,6 @@
     if (!targets.length) return true;
     return targets.includes(target);
   }
-
-  function renderCategory(category) {
-    const wrap = document.createElement("div");
-    wrap.className = "category";
-    const isOpen = openCategories.has(category.id);
-    const progressMap = milestoneService ? milestoneService.getProgress() : {};
-    const header = document.createElement("button");
-    header.type = "button";
-    header.className = "category__header";
-    header.dataset.action = "toggle-category";
-    header.dataset.categoryId = category.id;
-    const icon = document.createElement("span");
-    icon.className = "category__icon";
-    icon.textContent = CATEGORY_ICONS[category.id] || "";
-    const title = document.createElement("span");
-    title.className = "category__title";
-    title.textContent =
-      dataService.getLocalizedText(category.title, preferredAppLanguages()) ||
-      category.id;
-    const titleGroup = document.createElement("span");
-    titleGroup.className = "category__title-group";
-    titleGroup.append(icon, title);
-    const lessons = category.lessons || [];
-    const tried = lessons.filter((lesson) =>
-      lessonsTried.has(lesson.id),
-    ).length;
-    const counter = document.createElement("span");
-    counter.className = "category__progress";
-    counter.textContent = tried + "/" + lessons.length;
-    const chevron = document.createElement("span");
-    chevron.className = "category__chevron";
-    chevron.textContent = isOpen ? "\u25BE" : "\u25B8";
-    header.append(titleGroup, counter, chevron);
-    wrap.appendChild(header);
-    if (isOpen) {
-      const lessonsEl = document.createElement("div");
-      lessonsEl.className = "category__lessons";
-      lessons.forEach((lesson) => {
-        const status = progressMap[lesson.id];
-        const button = document.createElement("button");
-        button.type = "button";
-        button.className = "lesson-card";
-        if (status === "complete") button.classList.add("is-complete");
-        button.dataset.action = "open-lesson";
-        button.dataset.lessonId = lesson.id;
-        const statusIcon = document.createElement("span");
-        statusIcon.className = "lesson-card__status";
-        statusIcon.textContent = statusToIcon(status);
-        const titleEl = document.createElement("span");
-        titleEl.className = "lesson-card__title";
-        titleEl.textContent =
-          dataService.getLocalizedText(lesson.title, preferredAppLanguages()) ||
-          lesson.id;
-        button.append(statusIcon, titleEl);
-        lessonsEl.appendChild(button);
-      });
-      wrap.appendChild(lessonsEl);
-    }
-    return wrap;
-  }
-
   function statusToIcon(status) {
     if (status === "complete") return "\u2705";
     if (status === "skipped") return "\u23ED";
@@ -3680,14 +3498,12 @@
     else openLessonSections.add(sectionKey);
     renderLesson();
   }
-
   function handleDeletePlan() {
     if (!milestoneService) return;
     if (!window.confirm(t("deleteStudyPlanConfirm"))) return;
     milestoneService.reset();
     renderHome();
   }
-
   function findLessonMeta(lessonId) {
     for (const category of manifest.categories || []) {
       for (const lesson of category.lessons || [])
@@ -3705,12 +3521,25 @@
       return { items: [], failed: true };
     }
   }
-
   async function openLesson(lessonId) {
-    const lessonMeta = findLessonMeta(lessonId);
-    if (!lessonMeta) return;
+    let lessonMeta = findLessonMeta(lessonId);
+    if (!lessonMeta) {
+      const milestone = (manifest?.milestones || []).find(
+        (m) => m.id === lessonId,
+      );
+      if (milestone) {
+        lessonMeta = {
+          id: milestone.id,
+          title: { en: milestone.title },
+          proficiency: milestone.tier,
+        };
+      } else {
+        return;
+      }
+    }
     markLessonTried(lessonMeta.id);
-    const content = await loadLessonFile(lessonMeta.file);
+    let content = { items: [], failed: false };
+    if (lessonMeta.file) content = await loadLessonFile(lessonMeta.file);
     currentLesson = {
       meta: lessonMeta,
       items: Array.isArray(content.items) ? content.items : [],
@@ -3733,7 +3562,6 @@
     ensureExerciseConfigs();
     renderLesson();
   }
-
   function ensureExerciseConfigs() {
     const langs = selectedLessonLanguages();
     const appLang = state.settings.appLanguage;
@@ -3764,6 +3592,59 @@
         langs.find((c) => c !== quizConfig.questionLanguage) ||
         "";
     }
+  }
+
+  function getMilestoneProgressText(milestoneId) {
+    const milestoneData = (manifest?.milestones || []).find(
+      (m) => m.id === milestoneId,
+    );
+    if (!milestoneData) return "";
+    const requirements = milestoneData.unlock_requirements || {
+      srs_box_level: 4,
+      grammar_quiz_pass_pct: 80,
+    };
+    const requiredBox = requirements.srs_box_level || 4;
+    const requiredPct = requirements.grammar_quiz_pass_pct || 80;
+    const targetItems = (milestoneData.items || []).filter(
+      (i) => i.role === "target",
+    );
+    const grammarItems = (milestoneData.items || []).filter(
+      (i) => i.role === "grammar",
+    );
+    let vocabText = "0/0";
+    if (targetItems.length > 0) {
+      let metCount = 0;
+      for (const item of targetItems) {
+        const records = srsService?.records || {};
+        const matchingKey = Object.keys(records).find((key) =>
+          key.includes(item.id),
+        );
+        if (matchingKey && records[matchingKey].box >= requiredBox) metCount++;
+      }
+      vocabText = `${metCount}/${targetItems.length}`;
+    }
+    let grammarText = "0%";
+    if (grammarItems.length > 0) {
+      let totalAttempts = 0,
+        correctAttempts = 0;
+      const quizRecords = quizProgressService?.records || {};
+      for (const item of grammarItems) {
+        const matchingKeys = Object.keys(quizRecords).filter((key) =>
+          key.startsWith(item.id + ":"),
+        );
+        for (const key of matchingKeys) {
+          const rec = quizRecords[key];
+          totalAttempts += (rec.correct || 0) + (rec.incorrect || 0);
+          correctAttempts += rec.correct || 0;
+        }
+      }
+      const pct =
+        totalAttempts > 0
+          ? Math.round((correctAttempts / totalAttempts) * 100)
+          : 0;
+      grammarText = `${pct}%`;
+    }
+    return `Auto-complete progress: Vocab ${vocabText} | Grammar Quiz ${grammarText} (Need ${requiredPct}%)`;
   }
 
   function renderLesson() {
@@ -3840,6 +3721,8 @@
       if (bar) {
         const existing = bar.querySelector(".complete-toggle");
         if (existing) existing.remove();
+        const existingProgress = bar.querySelector(".auto-complete-progress");
+        if (existingProgress) existingProgress.remove();
       }
     });
     const targetBar = elements.bottomBar;
@@ -3848,14 +3731,31 @@
     const isComplete = milestoneService
       ? milestoneService.getMilestoneState(lessonId) === "COMPLETED"
       : false;
+
+    const progressText = getMilestoneProgressText(lessonId);
+    if (progressText) {
+      const progressEl = document.createElement("div");
+      progressEl.className = "auto-complete-progress";
+      progressEl.style.width = "100%";
+      progressEl.style.textAlign = "center";
+      progressEl.style.fontSize = "0.85rem";
+      progressEl.style.color = "var(--muted)";
+      progressEl.style.marginBlockEnd = "0.5rem";
+      progressEl.textContent = progressText;
+      targetBar.insertBefore(progressEl, targetBar.firstChild);
+    }
+
     const label = document.createElement("label");
     label.className = "complete-toggle";
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.checked = isComplete;
-    checkbox.addEventListener("change", () =>
-      setLessonComplete(lessonId, checkbox.checked),
-    );
+    checkbox.addEventListener("change", () => {
+      if (milestoneService) {
+        milestoneService.setMilestoneComplete(lessonId, checkbox.checked);
+        renderLesson();
+      }
+    });
     const text = document.createElement("span");
     text.className = "complete-toggle__label";
     text.textContent = t("completeQuestion");
@@ -3865,11 +3765,6 @@
     );
     if (settingsBtn) targetBar.insertBefore(label, settingsBtn);
     else targetBar.appendChild(label);
-  }
-
-  function setLessonComplete(lessonId, complete) {
-    if (!milestoneService) return;
-    milestoneService.setMilestoneComplete(lessonId, complete);
   }
 
   function ensureAllSectionsOpen() {
@@ -3999,9 +3894,8 @@
       } else {
         container.textContent = text;
       }
-      if (state.settings.recordAndCompare) {
+      if (state.settings.recordAndCompare)
         container.appendChild(createRecordMicButton(item, code, text));
-      }
       cell.appendChild(container);
     } else {
       const wrapper = document.createElement("div");
@@ -4011,9 +3905,8 @@
       span.lang = registry.bcp47(code);
       span.textContent = text;
       wrapper.appendChild(span);
-      if (state.settings.recordAndCompare) {
+      if (state.settings.recordAndCompare)
         wrapper.appendChild(createRecordMicButton(item, code, text));
-      }
       cell.appendChild(wrapper);
     }
     return cell;
@@ -4178,7 +4071,6 @@
     const sheet = document.getElementById("grammar-overlay");
     if (sheet) sheet.remove();
   }
-
   let mediaRecorder = null;
   let audioChunks = [];
   let audioStream = null;
@@ -4413,7 +4305,6 @@
     recordedBlob = null;
     audioChunks = [];
   }
-
   function renderSettings() {
     const body = elements.settingsBody;
     body.innerHTML = "";
@@ -4961,7 +4852,6 @@
     stage.innerHTML = "";
     stage.appendChild(makeEmptyState(text));
   }
-
   function renderFlashcards() {
     showView("flashcard");
     const view = elements.flashcardView;
@@ -5184,7 +5074,6 @@
     }
     renderCurrentFlashcard();
   }
-
   function renderQuiz() {
     showView("quiz");
     const view = elements.quizView;
@@ -5521,7 +5410,6 @@
     };
     renderCurrentQuizQuestion();
   }
-
   function ensureBuildConfig() {
     const langs = selectedLessonLanguages();
     const appLang = state.settings.appLanguage;
@@ -5855,7 +5743,6 @@
     }
     showBuildSentence();
   }
-
   function detectOs() {
     const ua = String(navigator.userAgent || "");
     if (/iPhone|iPad|iPod/i.test(ua)) return "ios";
@@ -6056,7 +5943,6 @@
     if (mediaService?.supported) window.speechSynthesis.cancel();
     refreshVoiceTestUI();
   }
-
   function renderProgress() {
     showView("progress");
     const view = elements.progressView;
@@ -6094,7 +5980,6 @@
     stage.appendChild(resetPanel);
     view.appendChild(stage);
   }
-
   function renderHelp() {
     showView("help");
     const view = elements.helpView;
@@ -6181,7 +6066,6 @@
     if (elements.progressView && !elements.progressView.hidden)
       renderProgress();
   }
-
   function bindGlobalEvents() {
     document.addEventListener("click", (event) => {
       const actionEl = event.target.closest("[data-action]");
@@ -6287,13 +6171,12 @@
           break;
         case "next-up-preview-prev": {
           const currentPreview =
-            nextUpPreviewId ||
-            milestoneService?.getNextMilestone() ||
-            getNextBrowseLesson()?.id;
+            nextUpPreviewId || milestoneService?.getNextMilestone();
           if (currentPreview) {
-            const ctx = getNavigationContext(currentPreview);
-            if (ctx.prevId) {
-              nextUpPreviewId = ctx.prevId;
+            const milestones = manifest?.milestones || [];
+            const idx = milestones.findIndex((m) => m.id === currentPreview);
+            if (idx > 0) {
+              nextUpPreviewId = milestones[idx - 1].id;
               renderHome();
             }
           }
@@ -6301,13 +6184,14 @@
         }
         case "next-up-preview-next": {
           const currentPreviewNext =
-            nextUpPreviewId ||
-            milestoneService?.getNextMilestone() ||
-            getNextBrowseLesson()?.id;
+            nextUpPreviewId || milestoneService?.getNextMilestone();
           if (currentPreviewNext) {
-            const ctx = getNavigationContext(currentPreviewNext);
-            if (ctx.nextId) {
-              nextUpPreviewId = ctx.nextId;
+            const milestones = manifest?.milestones || [];
+            const idx = milestones.findIndex(
+              (m) => m.id === currentPreviewNext,
+            );
+            if (idx < milestones.length - 1) {
+              nextUpPreviewId = milestones[idx + 1].id;
               renderHome();
             }
           }
@@ -6455,9 +6339,7 @@
       { capture: true, passive: true },
     );
   }
-
   document.addEventListener("DOMContentLoaded", init);
-
   function renderTargetSelect() {
     showView("targetSelect");
     const view = elements.targetSelectView;
@@ -6494,7 +6376,6 @@
     stage.appendChild(list);
     view.appendChild(stage);
   }
-
   async function init() {
     elements.onboardingView = document.getElementById("onboarding-view");
     elements.homeView = document.getElementById("home-view");
@@ -6550,22 +6431,17 @@
           renderSettings();
       });
     }
-
     if (!state.settings.targetLanguage) {
       renderTargetSelect();
       return;
     }
-
-    // ★ Stage 3 Fix: Show onboarding if target language is set but onboarding is incomplete
     const onboardingComplete = loadJSON(STORAGE_KEYS.onboardingComplete, false);
     if (!onboardingComplete) {
       renderOnboarding();
       return;
     }
-
     resetTargetScopedServices();
     goHome();
-
     window.ZabonV2 = {
       state,
       registry,

@@ -1,17 +1,16 @@
 /* ============================================================
-   Zabon v2 — Stage 15 stylesheet (mobile-first app shell)
-   Language-agnostic visual system.
-   Rules enforced in this file:
-   No language-specific selectors.
-   No [lang="..."], :lang(...), or [data-lang="..."] styling.
-   All language content shares the same component styles.
-   Direction is functional only, via dir attributes and logical CSS.
-   Dark mode and font mode affect global variables only.
-   ============================================================ */
-
+Zabon v2 — Stage 15 stylesheet (mobile-first app shell)
+Language-agnostic visual system.
+Rules enforced in this file:
+No language-specific selectors.
+No [lang="..."], :lang(...), or [data-lang="..."] styling.
+All language content shares the same component styles.
+Direction is functional only, via dir attributes and logical CSS.
+Dark mode and font mode affect global variables only.
+============================================================ */
 /* ------------------------------------------------------------
-   Theme variables
-   ------------------------------------------------------------ */
+Theme variables
+------------------------------------------------------------ */
 :root {
   --bg: #f6f2e9;
   --surface: #fffdf8;
@@ -36,8 +35,8 @@
   --toolbar-height: 3.5rem;
   --bottombar-height: 3.75rem;
   /* Stage 15: modern multilingual stacks (loaded via Google Fonts).
-     The order matters: English first (Inter), then Farsi (Vazirmatn),
-     then Thai (Prompt / Noto Serif Thai), then generic fallbacks. */
+  The order matters: English first (Inter), then Farsi (Vazirmatn),
+  then Thai (Prompt / Noto Serif Thai), then generic fallbacks. */
   --font-primary:
     "Inter", "Vazirmatn", "Prompt", system-ui, -apple-system, sans-serif;
   --font-modern: var(--font-primary);
@@ -47,8 +46,8 @@
 }
 
 /* ------------------------------------------------------------
-   Font mode: changes only the global content font stack.
-   ------------------------------------------------------------ */
+Font mode: changes only the global content font stack.
+------------------------------------------------------------ */
 :root[data-font="modern"] {
   --content-font: var(--font-modern);
 }
@@ -57,9 +56,9 @@
 }
 
 /* ------------------------------------------------------------
-   Dark mode: changes semantic color variables only.
-   Stage 15: modern neutral near-black scheme with a cool accent.
-   ------------------------------------------------------------ */
+Dark mode: changes semantic color variables only.
+Stage 15: modern neutral near-black scheme with a cool accent.
+------------------------------------------------------------ */
 :root[data-theme="dark"] {
   --bg: #0a0a0a;
   --surface: #141416;
@@ -90,8 +89,8 @@
 }
 
 /* ------------------------------------------------------------
-   Base
-   ------------------------------------------------------------ */
+Base
+------------------------------------------------------------ */
 *,
 *::before,
 *::after {
@@ -108,7 +107,7 @@ body {
   color: var(--text);
   font-weight: 400;
   /* Stage 15: slightly increased line height accommodates Thai tone
-     marks and Farsi diacritics. */
+  marks and Farsi diacritics. */
   line-height: 1.6;
 }
 button,
@@ -126,9 +125,9 @@ input {
 }
 
 /* ------------------------------------------------------------
-   App shell — mobile-first fixed toolbar / scrollable main /
-   fixed bottom bars.
-   ------------------------------------------------------------ */
+App shell — mobile-first fixed toolbar / scrollable main /
+fixed bottom bars.
+------------------------------------------------------------ */
 .app-shell {
   display: flex;
   flex-direction: column;
@@ -218,9 +217,9 @@ input {
 }
 
 /* ------------------------------------------------------------
-   Views
-   Stage 15: inline-size can never exceed the viewport.
-   ------------------------------------------------------------ */
+Views
+Stage 15: inline-size can never exceed the viewport.
+------------------------------------------------------------ */
 .view {
   inline-size: min(920px, 100%);
   max-inline-size: 100%;
@@ -235,8 +234,8 @@ input {
 }
 
 /* ------------------------------------------------------------
-   Icon buttons (toolbar, bottom bar, close)
-   ------------------------------------------------------------ */
+Icon buttons (toolbar, bottom bar, close)
+------------------------------------------------------------ */
 .icon-button {
   inline-size: 2.4rem;
   block-size: 2.4rem;
@@ -266,8 +265,8 @@ input {
 }
 
 /* ------------------------------------------------------------
-   Buttons
-   ------------------------------------------------------------ */
+Buttons
+------------------------------------------------------------ */
 .button {
   display: inline-flex;
   align-items: center;
@@ -301,8 +300,8 @@ input {
 }
 
 /* ------------------------------------------------------------
-   Backdrop + hamburger panel
-   ------------------------------------------------------------ */
+Backdrop + hamburger panel
+------------------------------------------------------------ */
 .backdrop {
   position: fixed;
   inset: 0;
@@ -385,9 +384,9 @@ input {
 }
 
 /* ------------------------------------------------------------
-   Settings sheet (bottom sheet)
-   Stage 15: sections never extend beyond the viewport width.
-   ------------------------------------------------------------ */
+Settings sheet (bottom sheet)
+Stage 15: sections never extend beyond the viewport width.
+------------------------------------------------------------ */
 .sheet {
   position: fixed;
   inset: 0;
@@ -452,8 +451,8 @@ input {
 }
 
 /* ------------------------------------------------------------
-   Controls
-   ------------------------------------------------------------ */
+Controls
+------------------------------------------------------------ */
 .select,
 .text-input {
   min-block-size: 2.2rem;
@@ -521,7 +520,7 @@ input {
   overflow-wrap: anywhere;
 }
 /* Stage 15: voice selects never exceed the sheet width; long voice
-   names are truncated instead of pushing the layout off-screen. */
+names are truncated instead of pushing the layout off-screen. */
 .voice-row .select {
   inline-size: 100%;
   min-inline-size: 0;
@@ -542,9 +541,10 @@ input {
 .voice-instructions__steps li {
   unicode-bidi: isolate;
 }
+
 /* ------------------------------------------------------------
-   Home view — categories
-   ------------------------------------------------------------ */
+Home view — categories
+------------------------------------------------------------ */
 .home-title {
   margin: 0 0 1rem;
   font-size: 1.2rem;
@@ -587,7 +587,6 @@ input {
   gap: var(--space-2);
   padding: 0 var(--space-3) var(--space-3);
 }
-
 .category__icon,
 .proficiency-tier__icon {
   flex: 0 0 auto;
@@ -608,7 +607,6 @@ input {
   text-align: center;
   font-size: 1.1rem;
 }
-
 .lesson-card {
   display: flex;
   flex-wrap: wrap;
@@ -634,45 +632,9 @@ input {
   overflow-wrap: anywhere;
 }
 
-/*
-.grammar-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-1);
-  flex-basis: 100%;
-  inline-size: 100%;
-  margin-block-start: var(--space-1);
-}
-.grammar-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.15rem 0.5rem;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--surface);
-  color: var(--muted);
-  font-size: 0.75rem;
-  font-weight: 600;
-  line-height: 1.4;
-  cursor: pointer;
-  unicode-bidi: isolate;
-}
-.grammar-badge:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-}
-.grammar-badge:focus-visible {
-  border-color: var(--accent);
-  color: var(--accent);
-  outline: 2px solid var(--accent);
-  outline-offset: 1px;
-}
-  */
-
 /* ------------------------------------------------------------
-   Document header (lesson / exercise / progress)
-   ------------------------------------------------------------ */
+Document header (lesson / exercise / progress)
+------------------------------------------------------------ */
 .document-header {
   display: flex;
   align-items: center;
@@ -685,11 +647,8 @@ input {
 }
 
 /* ------------------------------------------------------------
-   Lesson view — stacked language columns.
-   Each item is a vertical column of language cells. Columns sit
-   side by side and wrap to the next line when they exceed the
-   available width.
-   ------------------------------------------------------------ */
+Lesson view — stacked language columns.
+------------------------------------------------------------ */
 .lesson-section {
   margin-block-end: 1.25rem;
 }
@@ -736,8 +695,6 @@ input {
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
 }
-
-/* Generic language cells — all languages share the same style. */
 .language-cell {
   display: grid;
   gap: 0.25rem;
@@ -765,8 +722,6 @@ input {
   opacity: 0.58;
   cursor: default;
 }
-
-/* Sentence word tokens inside the cell (book-reader highlighting). */
 .sentence-text {
   display: flex;
   flex-wrap: wrap;
@@ -779,24 +734,12 @@ input {
   border-radius: var(--radius-sm);
   unicode-bidi: isolate;
 }
-
-/* ------------------------------------------------------------
-   Compact sentence token rendering.
-   Applied via segmentation strategy in app.js, not via language
-   selectors. Used for languages whose writing system does not use
-   spaces between words, such as Thai, Chinese, and Japanese.
-   ------------------------------------------------------------ */
 .sentence-text--compact {
   gap: 0;
 }
 .sentence-text--compact .sentence-token {
   padding-inline: 0;
 }
-
-/* ------------------------------------------------------------
-   Playback state hooks (language-agnostic)
-   Stage 15: borderless cells — speaking state is a soft tint.
-   ------------------------------------------------------------ */
 .language-cell.is-speaking {
   background-color: rgba(127, 127, 127, 0.16);
   background-color: color-mix(in srgb, var(--accent) 18%, transparent);
@@ -810,16 +753,11 @@ input {
   background-color: rgba(127, 127, 127, 0.16);
   background-color: color-mix(in srgb, var(--accent) 18%, transparent);
 }
-
-/* ------------------------------------------------------------
-Record Mic Button (Stage 3)
------------------------------------------------------------- */
 .language-cell__word-wrapper {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
-
 .record-mic-btn {
   display: inline-flex;
   align-items: center;
@@ -838,18 +776,14 @@ Record Mic Button (Stage 3)
     border-color 0.2s,
     color 0.2s;
 }
-
 .record-mic-btn:hover {
   border-color: var(--accent);
   color: var(--accent);
 }
 
-/* In main.css */
-
 /* ------------------------------------------------------------
 Record Overlay Visual States (Stage 9)
 ------------------------------------------------------------ */
-/* Recording State: Danger theme + Pulsing Red Dot */
 .record-overlay__btn[data-action="record-stop"] {
   background-color: var(--surface);
   color: var(--danger);
@@ -858,7 +792,6 @@ Record Overlay Visual States (Stage 9)
   align-items: center;
   justify-content: center;
 }
-
 .record-overlay__btn[data-action="record-stop"]::before {
   content: "";
   display: inline-block;
@@ -869,7 +802,6 @@ Record Overlay Visual States (Stage 9)
   margin-inline-end: 0.5rem;
   animation: pulse-dot 1s infinite;
 }
-
 @keyframes pulse-dot {
   0%,
   100% {
@@ -881,8 +813,6 @@ Record Overlay Visual States (Stage 9)
     transform: scale(0.8);
   }
 }
-
-/* Error State Message */
 .record-overlay__error {
   color: var(--danger);
   font-size: 0.9rem;
@@ -893,8 +823,8 @@ Record Overlay Visual States (Stage 9)
 }
 
 /* ------------------------------------------------------------
-   Shared components
-   ------------------------------------------------------------ */
+Shared components
+------------------------------------------------------------ */
 .empty-state {
   padding: 1rem;
   border: 1px dashed var(--line);
@@ -939,8 +869,6 @@ Record Overlay Visual States (Stage 9)
   color: var(--muted);
   font-size: 0.95rem;
 }
-
-/* Generic language lines (flashcards / quiz) */
 .language-line {
   display: flex;
   align-items: center;
@@ -954,7 +882,6 @@ Record Overlay Visual States (Stage 9)
   line-height: 1.65;
   text-align: start;
 }
-/* Stage 15: language lines speak TTS on click. */
 .language-line[data-action="speak-text"] {
   cursor: pointer;
 }
@@ -968,7 +895,6 @@ Record Overlay Visual States (Stage 9)
   text-align: start;
   overflow-wrap: anywhere;
 }
-
 .quiz-question {
   display: grid;
   gap: 1rem;
@@ -1119,7 +1045,6 @@ Record Overlay Visual States (Stage 9)
 .exercise-settings__body {
   padding: 0 1rem 1rem;
 }
-
 .exercise-config {
   display: grid;
   gap: 0.75rem;
@@ -1144,15 +1069,12 @@ Record Overlay Visual States (Stage 9)
 }
 
 /* ------------------------------------------------------------
-   Progress
-   Stage 15: top-level progress only shows lessons-tried counts
-   per category, plus the reset actions.
-   ------------------------------------------------------------ */
+Progress
+------------------------------------------------------------ */
 .progress-stage {
   display: grid;
   gap: 1rem;
 }
-
 .progress-section {
   border: 1px solid var(--line);
   border-radius: 16px;
@@ -1194,7 +1116,6 @@ Record Overlay Visual States (Stage 9)
   gap: 0.75rem;
   padding: 0 1rem 1rem;
 }
-
 .progress-list {
   display: grid;
   gap: 0.55rem;
@@ -1216,8 +1137,8 @@ Record Overlay Visual States (Stage 9)
 }
 
 /* ------------------------------------------------------------
-   Larger screens (responsive enhancement only)
-   ------------------------------------------------------------ */
+Larger screens (responsive enhancement only)
+------------------------------------------------------------ */
 @media (min-width: 700px) {
   .app-toolbar {
     padding-inline: var(--space-4);
@@ -1226,7 +1147,6 @@ Record Overlay Visual States (Stage 9)
 
 /* ------------------------------------------------------------
 Proficiency tiers (Stage A1)
-Three collapsible tiers replace the flat category list.
 ------------------------------------------------------------ */
 .proficiency-tier {
   border: 1px solid var(--line);
@@ -1279,35 +1199,29 @@ Onboarding (Stage B1)
   display: grid;
   gap: var(--space-4);
 }
-
 .onboarding-title {
   margin: 0;
   font-size: 1.2rem;
 }
-
 .onboarding-intro {
   margin: 0;
   color: var(--muted);
 }
-
 .onboarding-actions {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
 }
-
 .onboarding-hint {
   margin: 0;
   color: var(--muted);
   font-size: 0.9rem;
 }
-
 .onboarding-options {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
 }
-
 .onboarding-option {
   display: inline-flex;
   align-items: center;
@@ -1319,11 +1233,9 @@ Onboarding (Stage B1)
   background: var(--surface);
   cursor: pointer;
 }
-
 .onboarding-option input {
   accent-color: var(--accent);
 }
-
 .onboarding-option__label {
   unicode-bidi: isolate;
 }
@@ -1340,7 +1252,6 @@ Next Up card (Stage B3)
   border-radius: var(--radius-xl);
   background: color-mix(in srgb, var(--accent) 6%, var(--surface));
 }
-
 .next-up-card__label {
   color: var(--accent);
   font-size: 0.8rem;
@@ -1348,13 +1259,11 @@ Next Up card (Stage B3)
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
-
 .next-up-card__title {
   font-size: 1.1rem;
   font-weight: 600;
   unicode-bidi: isolate;
 }
-
 .next-up-card__tier {
   display: inline-block;
   align-self: start;
@@ -1364,27 +1273,21 @@ Next Up card (Stage B3)
   color: var(--muted);
   font-size: 0.78rem;
 }
-
 .next-up-card__actions {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
   margin-block-start: var(--space-1);
 }
-
-/* Browse by Level heading (Stage B3) */
 .browse-by-level {
   margin: var(--space-3) 0 var(--space-2);
   font-size: 1rem;
   color: var(--muted);
   font-weight: 600;
 }
-
-/* Study Plan lesson list (Stage B3) */
 .study-plan-list {
   margin-block-end: var(--space-3);
 }
-
 .study-plan-item {
   display: flex;
   flex-wrap: wrap;
@@ -1396,12 +1299,10 @@ Next Up card (Stage B3)
   background: var(--surface);
   margin-block-end: var(--space-1);
 }
-
 .study-plan-item__status {
   flex: 0 0 auto;
   font-size: 0.9rem;
 }
-
 .study-plan-item__title {
   flex: 1;
   min-inline-size: 0;
@@ -1410,14 +1311,12 @@ Next Up card (Stage B3)
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-
 .study-plan-item__open {
   flex: 0 0 auto;
   padding: 0.3rem 0.7rem;
   min-block-size: 2rem;
   font-size: 0.85rem;
 }
-
 .study-plan-item--next {
   box-shadow: inset 3px 0 0 0 var(--accent);
 }
@@ -1458,7 +1357,6 @@ Study Plan progress section (Stage B4)
   gap: var(--space-2);
   padding: var(--space-1) var(--space-2);
 }
-
 .plan-lesson-title {
   flex: 1;
   min-inline-size: 0;
@@ -1473,6 +1371,7 @@ Study Plan progress section (Stage B4)
   gap: var(--space-2);
   margin-block-start: var(--space-3);
 }
+
 /* Complete? toggle in lesson action bar */
 .complete-toggle {
   display: inline-flex;
@@ -1506,10 +1405,9 @@ Study Plan progress section (Stage B4)
   font-size: 0.9rem;
   margin-inline-end: var(--space-2);
 }
+
 /* ------------------------------------------------------------
 Phonetic display mode (Stage E2)
-Special lesson layout: one Thai column per item, extra-large
-character with a smaller phonetic note underneath.
 ------------------------------------------------------------ */
 .phonetic-cell {
   display: grid;
@@ -1533,10 +1431,9 @@ character with a smaller phonetic note underneath.
   border: none;
   margin-block-start: var(--space-2);
 }
+
 /* ------------------------------------------------------------
 Getting Started guide (Stage F2)
-Reuses the .progress-section* shell. List styling is
-language-agnostic; direction flows from the document dir.
 ------------------------------------------------------------ */
 .help-list {
   display: grid;
@@ -1598,10 +1495,9 @@ Target Language Selection (v3)
 .target-select-name {
   unicode-bidi: isolate;
 }
+
 /* ------------------------------------------------------------
 Script display mode (v3 Baseline)
-Special lesson layout for Perso-Arabic scripts handling 
-base characters and connection indicators.
 ------------------------------------------------------------ */
 .script-cell {
   display: grid;
@@ -1620,8 +1516,6 @@ base characters and connection indicators.
   text-align: center;
   overflow-wrap: anywhere;
 }
-
-/* Stage 4: Perso-Arabic script connection grid */
 .script-cell__forms {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1633,21 +1527,18 @@ base characters and connection indicators.
   border-top: 1px dashed var(--line);
   padding-block-start: 0.5rem;
 }
-
 .script-cell__form-col {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.2rem;
 }
-
 .script-cell__form-label {
   font-size: 0.6rem;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
-
 .script-cell__note {
   font-size: 0.85rem;
   color: var(--muted);
@@ -1663,19 +1554,15 @@ base characters and connection indicators.
 /* ------------------------------------------------------------
 v3.1 Stage 2: Enhanced Next Up Card & Grammar Overlay
 ------------------------------------------------------------ */
-
-/* Compact Next Up Card (Mobile-First) */
 .next-up-card {
-  padding: var(--space-3); /* Reduced padding */
+  padding: var(--space-3);
 }
-
 .next-up-card__title {
   margin: 0;
   font-size: 1.1rem;
   font-weight: 600;
   unicode-bidi: isolate;
 }
-
 .next-up-card__meta {
   display: flex;
   flex-wrap: wrap;
@@ -1684,11 +1571,9 @@ v3.1 Stage 2: Enhanced Next Up Card & Grammar Overlay
   font-size: 0.85rem;
   color: var(--muted);
 }
-
 .next-up-card__level {
   font-weight: 500;
 }
-
 .next-up-card__nav {
   display: flex;
   align-items: center;
@@ -1697,49 +1582,39 @@ v3.1 Stage 2: Enhanced Next Up Card & Grammar Overlay
   padding-block-start: var(--space-2);
   border-block-start: 1px dashed var(--line);
 }
-
 .next-up-card__progress {
   color: var(--muted);
   font-size: 0.85rem;
   font-variant-numeric: tabular-nums;
 }
-
 .next-up-card__open {
-  margin-inline-start: auto; /* Pushes the Open button to the far right */
+  margin-inline-start: auto;
   background: var(--accent);
   color: var(--accent-contrast);
   border-color: var(--accent);
   font-weight: 600;
 }
-
 .grammar-overlay__description {
   font-size: 1rem;
   line-height: 1.6;
   margin: 0 0 var(--space-4) 0;
 }
-
 .grammar-overlay__examples {
   margin: 0;
   padding-inline-start: 1.2rem;
   display: grid;
   gap: var(--space-2);
 }
-
 .grammar-overlay__example {
   font-style: italic;
   color: var(--muted);
   unicode-bidi: isolate;
 }
+
 /* ------------------------------------------------------------
 Record Overlay (Stage 5)
 ------------------------------------------------------------ */
-/*.record-overlay {
-   Inherits base modal layout from .sheet 
-}
-*/
-
 .record-overlay__body {
-  /* Placeholder styling for future recording UI */
   min-block-size: 15rem;
   display: flex;
   flex-direction: column;
@@ -1748,20 +1623,61 @@ Record Overlay (Stage 5)
   color: var(--muted);
   font-size: 0.95rem;
 }
-
 .record-overlay__instruction {
   margin: 0 0 var(--space-3) 0;
   color: var(--muted);
   font-size: 0.95rem;
   text-align: center;
 }
-
 .record-overlay__text {
   margin-block-end: var(--space-4);
   width: 100%;
   justify-content: center;
 }
-
 .record-overlay__btn {
   margin-block-start: var(--space-3);
+}
+
+/* ------------------------------------------------------------
+Stage 4: Milestone Visual States & Auto-Complete Progress
+------------------------------------------------------------ */
+.milestone-card.is-locked {
+  background: var(--surface-2);
+  color: var(--muted);
+  border-color: var(--line);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.milestone-card.is-locked .lesson-card__status {
+  filter: grayscale(0.5);
+}
+.milestone-card.is-locked:hover {
+  border-color: var(--line);
+  background: var(--surface-2);
+}
+
+.milestone-card.is-in-progress {
+  background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+  border-color: var(--accent);
+  border-width: 2px;
+}
+.milestone-card.is-in-progress .lesson-card__title {
+  font-weight: 700;
+}
+
+.milestone-card.is-complete {
+  opacity: 0.75;
+  background: color-mix(in srgb, var(--accent) 12%, var(--surface));
+}
+
+.auto-complete-progress {
+  width: 100%;
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--muted);
+  padding: 0.4rem 0.5rem;
+  background: var(--surface-2);
+  border-radius: var(--radius-md);
+  margin-block-end: 0.5rem;
+  line-height: 1.4;
 }
