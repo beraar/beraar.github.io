@@ -194,7 +194,6 @@
       zh: "文化融入",
       ja: "文化統合",
     },
-
     onboardingLevel: {
       en: "Your current {targetLanguage} level?",
       th: "ระดับ{targetLanguage}ปัจจุบันของคุณคืออะไร",
@@ -249,41 +248,41 @@
       zh: "你将主要如何使用{targetLanguage}？",
       ja: "{targetLanguage}を主にどのように使いますか？",
     },
-    onboardingUsageReading: {
-      en: "Reading menus & signs",
-      th: "อ่านเมนูและป้าย",
-      fa: "خواندن منو و تابلوها",
-      ar: "قراءة القوائم واللافتات",
-      es: "Leer menús y letreros",
-      zh: "阅读菜单和标识",
-      ja: "メニューや標識を読む",
+    onboardingUsageConversation: {
+      en: "Talking & listening in real life",
+      th: "พูดคุยและฟังในชีวิตจริง",
+      fa: "گفتگو و شنیدن در دنیای واقعی",
+      ar: "التحدث والاستماع في الواقع",
+      es: "Conversaciones en la vida real",
+      zh: "日常交谈与倾听",
+      ja: "実生活での会話とリスニング",
     },
-    onboardingUsageSpeaking: {
-      en: "Speaking with locals",
-      th: "พูดคุยกับคนท้องถิ่น",
-      fa: "صحبت با مردم محلی",
-      ar: "التحدث مع السكان المحليين",
-      es: "Hablar con locales",
-      zh: "与当地人交流",
-      ja: "地元の人と話す",
+    onboardingUsageDigital: {
+      en: "Texting & social media",
+      th: "แชทและโซเชียลมีเดีย",
+      fa: "پیام‌رسانی و شبکه‌های اجتماعی",
+      ar: "المراسلة ووسائل التواصل الاجتماعي",
+      es: "Mensajería y redes sociales",
+      zh: "聊天与社交媒体",
+      ja: "チャットとSNS",
     },
     onboardingUsageMedia: {
-      en: "Watching {targetLanguage} media",
-      th: "ดูสื่อ{targetLanguage}",
-      fa: "تماشای رسانه‌های {targetLanguage}",
-      ar: "مشاهدة وسائط {targetLanguage}",
-      es: "Ver medios en {targetLanguage}",
-      zh: "观看{targetLanguage}媒体",
-      ja: "{targetLanguage}のメディアを見る",
+      en: "Movies, music & podcasts",
+      th: "ภาพยนตร์ เพลง และพอดแคสต์",
+      fa: "فیلم، موسیقی و پادکست",
+      ar: "الأفلام والموسيقى والبودكاست",
+      es: "Películas, música y podcasts",
+      zh: "电影、音乐与播客",
+      ja: "映画、音楽、ポッドキャスト",
     },
-    onboardingUsageWriting: {
-      en: "Writing & formal contexts",
-      th: "การเขียนและบริบททางการ",
-      fa: "نوشتن و موقعیت‌های رسمی",
-      ar: "الكتابة والسياقات الرسمية",
-      es: "Escribir y contextos formales",
-      zh: "书写和正式场合",
-      ja: "書き言葉と公式な場面",
+    onboardingUsageFormal: {
+      en: "Work, study & formal reading",
+      th: "การทำงาน การเรียน และการอ่านทางการ",
+      fa: "کار، تحصیل و مطالعه رسمی",
+      ar: "العمل والدراسة والقراءة الرسمية",
+      es: "Trabajo, estudio y lectura formal",
+      zh: "工作、学习与正式阅读",
+      ja: "仕事、勉強、フォーマルな読書",
     },
     generateStudyPlan: {
       en: "Generate my study plan",
@@ -2396,7 +2395,7 @@
     }
   }
 
-  // ── Stage 2: Milestone Engine ──
+  // ── Stage 2 & 3: Milestone Engine ──
   class MilestoneService {
     constructor() {
       this.progressKey = STORAGE_KEYS.milestoneProgress;
@@ -2410,20 +2409,15 @@
     initializeProgress() {
       const existing = this.getProgress();
       const milestones = manifest?.milestones || [];
-
-      // Validate that existing progress is not empty and matches the current manifest length
       const isValid =
         existing &&
         typeof existing === "object" &&
         !Array.isArray(existing) &&
         Object.keys(existing).length === milestones.length &&
         milestones.length > 0;
-
       if (isValid) {
         return existing;
       }
-
-      // Re-initialize if invalid, empty, or manifest changed
       const progress = {};
       milestones.forEach((m, index) => {
         progress[m.id] = {
@@ -2546,6 +2540,15 @@
       this.saveProgress(progress);
       return true;
     }
+
+    markInProgress(id) {
+      let progress = this.getProgress();
+      if (!progress) progress = this.initializeProgress();
+      if (progress[id]?.state === "UNLOCKED") {
+        progress[id] = { ...progress[id], state: "IN_PROGRESS" };
+        this.saveProgress(progress);
+      }
+    }
     getNextMilestone() {
       let progress = this.getProgress();
       if (!progress) progress = this.initializeProgress();
@@ -2562,7 +2565,7 @@
       );
       if (unlocked.length === 0) return null;
 
-      // 3. ★ Stage 3: read goal from state.settings (not onboardingAnswers)
+      // 3. ★ Stage 3: read goal from state.settings
       const goal = state?.settings?.userGoal;
       const goalTags = goal ? this._getGoalTags(goal) : [];
 
@@ -2571,11 +2574,10 @@
         unlocked.sort((a, b) => {
           const aTags = a.priority_tags || [];
           const bTags = b.priority_tags || [];
-          // Count how many of the milestone's priority_tags match the goal tags
           const aScore = aTags.filter((t) => goalTags.includes(t)).length;
           const bScore = bTags.filter((t) => goalTags.includes(t)).length;
-          if (bScore !== aScore) return bScore - aScore; // higher match first
-          // Tie-break: prefer a milestone whose *first* tag matches
+          if (bScore !== aScore) return bScore - aScore;
+
           const aFirst = goalTags.includes(aTags[0]) ? 1 : 0;
           const bFirst = goalTags.includes(bTags[0]) ? 1 : 0;
           return bFirst - aFirst;
@@ -2584,17 +2586,8 @@
 
       return unlocked[0].id;
     }
-    markInProgress(id) {
-      let progress = this.getProgress();
-      if (!progress) progress = this.initializeProgress();
-      if (progress[id]?.state === "UNLOCKED") {
-        progress[id] = { ...progress[id], state: "IN_PROGRESS" };
-        this.saveProgress(progress);
-      }
-    }
+
     _getGoalTags(goal) {
-      // Maps each language-agnostic goal → the manifest priority_tags
-      // it should surface first.
       switch (goal) {
         case "survival":
           return ["travel", "everyday"];
@@ -2610,6 +2603,7 @@
           return [];
       }
     }
+
     hasProgress() {
       const p = this.getProgress();
       return p && typeof p === "object" && Object.keys(p).length > 0;
@@ -2689,7 +2683,7 @@
     const previousTarget = state.settings.targetLanguage;
     state.settings.targetLanguage = code;
     nextUpPreviewId = null;
-    const browserLang = (navigator.language || "").toLowerCase().split("-")[0];
+    const browserLang = (navigator.language || " ").toLowerCase().split("-")[0];
     const bridgeLang =
       registry.has(browserLang) && browserLang !== code
         ? browserLang
@@ -2702,8 +2696,17 @@
     saveState();
     if (previousTarget !== code) resetTargetScopedServices();
     renderTargetLanguageControl();
+
+    // ★ Stage 3 Fix: Redirect to onboarding if not yet completed
+    const onboardingComplete = loadJSON(STORAGE_KEYS.onboardingComplete, false);
+    if (!onboardingComplete) {
+      renderOnboarding();
+      return;
+    }
+
     goHome();
   }
+
   function applyTheme() {
     document.documentElement.dataset.theme = state.settings.theme;
   }
@@ -3383,7 +3386,8 @@
       "cultural",
     ];
     const validLevels = ["beginner", "some", "basic", "advanced"];
-    const validUsage = ["reading", "speaking", "media", "writing"];
+    const validUsage = ["conversation", "digital", "media", "formal"];
+
     return {
       goal: validGoals.includes(saved?.goal) ? saved.goal : "",
       level: validLevels.includes(saved?.level) ? saved.level : "",
@@ -3511,10 +3515,10 @@
     const usageOptions = document.createElement("div");
     usageOptions.className = "onboarding-options";
     [
-      ["reading", t("onboardingUsageReading")],
-      ["speaking", t("onboardingUsageSpeaking")],
+      ["conversation", t("onboardingUsageConversation")],
+      ["digital", t("onboardingUsageDigital")],
       ["media", t("onboardingUsageMedia")],
-      ["writing", t("onboardingUsageWriting")],
+      ["formal", t("onboardingUsageFormal")],
     ].forEach(([value, label]) => {
       const option = document.createElement("label");
       option.className = "onboarding-option";
@@ -3564,10 +3568,9 @@
     // Persist raw onboarding answers
     saveJSON(STORAGE_KEYS.onboardingAnswers, answers);
 
-    // ★ Stage 3: save the chosen goal into state.settings so
-    //   MilestoneService can read it without re-parsing storage.
+    // ★ Stage 3: save the chosen goal into state.settings
     state.settings.userGoal = answers.goal;
-    saveState(); // writes state.settings → localStorage
+    saveState(); // writes state.settings → localStorage (zabon.settings)
 
     if (milestoneService) milestoneService.initializeProgress();
     saveJSON(STORAGE_KEYS.onboardingComplete, true);
@@ -6547,12 +6550,22 @@
           renderSettings();
       });
     }
+
     if (!state.settings.targetLanguage) {
       renderTargetSelect();
       return;
     }
+
+    // ★ Stage 3 Fix: Show onboarding if target language is set but onboarding is incomplete
+    const onboardingComplete = loadJSON(STORAGE_KEYS.onboardingComplete, false);
+    if (!onboardingComplete) {
+      renderOnboarding();
+      return;
+    }
+
     resetTargetScopedServices();
     goHome();
+
     window.ZabonV2 = {
       state,
       registry,
