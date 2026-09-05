@@ -92,7 +92,17 @@
     </noscript>
     <div class="app-shell">
       <header class="app-toolbar">
-        <h1 class="app-toolbar__title" data-ui-string="appTitle">Zabon</h1>
+        <span
+          class="toolbar__title"
+          data-ui-string="appTitle"
+          data-action="go-home-header"
+          role="button"
+          tabindex="0"
+          aria-label="Go to home page"
+          style="cursor: pointer"
+        >
+          Zabon
+        </span>
         <div id="target-language-control"></div>
         <button
           type="button"
@@ -239,8 +249,8 @@
             class="panel-nav__button"
             data-action="show-progress"
           >
-            <span class="panel-nav__icon" aria-hidden="true">📈</span>
-            <span data-ui-string="studyPlanAndProgress"></span>
+            <span class="menu-icon">🗑️</span>
+            <span data-ui-string="resetProgressPage">Reset Progress</span>
           </button>
           <button
             type="button"

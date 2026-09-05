@@ -153,6 +153,17 @@ input {
   margin: 0;
   font-size: 1.25rem;
 }
+.toolbar__title[role="button"] {
+  transition:
+    opacity 0.2s ease,
+    text-decoration 0.2s ease;
+}
+.toolbar__title[role="button"]:hover,
+.toolbar__title[role="button"]:focus {
+  opacity: 0.75;
+  text-decoration: underline;
+  outline: none; /* Rely on your global focus styles if preferred */
+}
 .app-main {
   flex: 1;
   overflow-y: auto;
@@ -1147,6 +1158,7 @@ Record Overlay Visual States (Stage 9)
   border-radius: 16px;
   background: var(--surface);
   overflow: hidden;
+  margin-bottom: 1rem;
 }
 .progress-section__header {
   display: flex;

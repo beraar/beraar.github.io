@@ -321,6 +321,15 @@
       zh: "下一个",
       ja: "次へ",
     },
+    skipLesson: {
+      en: "Skip",
+      th: "ข้าม",
+      fa: "رد کردن",
+      ar: "تخطي",
+      es: "Omitir",
+      zh: "跳过",
+      ja: "スキップ",
+    },
     studyPlan: {
       en: "Study Plan",
       th: "แผนการเรียน",
@@ -329,6 +338,15 @@
       es: "Plan de estudio",
       zh: "学习计划",
       ja: "学習プラン",
+    },
+    browseByLevel: {
+      en: "Browse by Level",
+      th: "เรียกดูตามระดับ",
+      fa: "مرور بر اساس سطح",
+      ar: "تصفح حسب المستوى",
+      es: "Explorar por nivel",
+      zh: "按级别浏览",
+      ja: "レベル別に閲覧",
     },
     completeQuestion: {
       en: "Complete?",
@@ -401,6 +419,15 @@
       es: "Aún no hay plan de estudio.",
       zh: "尚无学习计划。",
       ja: "学習プランはまだありません。",
+    },
+    exercises: {
+      en: "Exercises",
+      th: "แบบฝึกหัด",
+      fa: "تمرین‌ها",
+      ar: "التمارين",
+      es: "Ejercicios",
+      zh: "练习",
+      ja: "練習",
     },
     lessonStatusComplete: {
       en: "Complete",
@@ -1131,6 +1158,25 @@
       zh: "无",
       ja: "なし",
     },
+    open: {
+      en: "Open",
+      th: "เปิด",
+      fa: "باز کردن",
+      ar: "فتح",
+      es: "Abrir",
+      zh: "打开",
+      ja: "開く",
+    },
+    noProgress: {
+      en: "No progress yet.",
+      th: "ยังไม่มีความคืบหน้า",
+      fa: "هنوز پیشرفتی وجود ندارد.",
+      ar: "لا يوجد تقدم بعد.",
+      es: "Aún no hay progreso.",
+      zh: "尚无进度。",
+      ja: "まだ進捗がありません。",
+    },
+
     resetProgressPage: {
       en: "Reset Progress",
       th: "รีเซ็ตความคืบหน้า",
@@ -1743,7 +1789,7 @@
   let currentLesson = null;
   let availableVoices = [];
   let openCategories = new Set();
-  let openProgressSections = new Set();
+  let openProgressSections = new Set(["progress:lessons-tried"]);
   let openLessonSections = new Set();
   let openHelpSections = new Set(["help:first-visit"]);
   let flashcardSession = null;
@@ -2757,19 +2803,6 @@
     return div;
   }
 
-  function createRecordMicButton(item, code, text) {
-    const micBtn = document.createElement("button");
-    micBtn.type = "button";
-    micBtn.className = "record-mic-btn";
-    micBtn.dataset.action = "open-record-overlay";
-    micBtn.dataset.itemId = item.id;
-    micBtn.dataset.lang = code;
-    micBtn.dataset.text = text;
-    micBtn.setAttribute("aria-label", t("recordMicAriaLabel"));
-    micBtn.textContent = "🎙️";
-    return micBtn;
-  }
-
   function createTextLine(text, code, extraClasses = []) {
     if (!registry.has(code)) return null;
     if (typeof text !== "string" || !text.trim()) return null;
@@ -3242,6 +3275,166 @@
     if (prof === "beginner") return t("tierIntroductory");
     if (prof === "intermediate") return t("tierIntermediate");
     return t("tierAdvanced");
+  }
+
+  function renderStudyPlanList() {
+    if (!studyPlanService || !studyPlanService.hasPlan()) return null;
+    const plan = studyPlanService.getPlan();
+    const progress = studyPlanService.getProgress();
+    const nextLessonId = studyPlanService.getNextLesson();
+    const section = document.createElement("div");
+    section.className = "study-plan-list";
+    const heading = document.createElement("h3");
+    heading.className = "browse-by-level";
+    heading.textContent = t("studyPlan");
+    section.appendChild(heading);
+    for (const lessonId of plan) {
+      const meta = findLessonMeta(lessonId);
+      if (!meta) continue;
+      const status = progress[lessonId] || "in-progress";
+      const panel = document.createElement("div");
+      panel.className = "study-plan-item";
+      if (lessonId === nextLessonId)
+        panel.classList.add("study-plan-item--next");
+      if (status === "complete") panel.classList.add("is-complete");
+      const statusIcon = document.createElement("span");
+      statusIcon.className = "study-plan-item__status";
+      statusIcon.textContent = statusToIcon(status);
+      const title = document.createElement("span");
+      title.className = "study-plan-item__title";
+      title.textContent =
+        dataService.getLocalizedText(meta.title, preferredAppLanguages()) ||
+        meta.id;
+      const openBtn = document.createElement("button");
+      openBtn.type = "button";
+      openBtn.className = "button study-plan-item__open";
+      openBtn.dataset.action = "open-lesson";
+      openBtn.dataset.lessonId = lessonId;
+      openBtn.textContent = t("open");
+      panel.append(statusIcon, title, openBtn);
+      section.appendChild(panel);
+    }
+    return section;
+  }
+
+  function getLessonCategory(lessonId) {
+    for (const cat of manifest.categories || []) {
+      for (const lesson of cat.lessons || []) {
+        if (lesson.id === lessonId) return cat;
+      }
+    }
+    return null;
+  }
+
+  function buildPlanTiers(plan) {
+    const tiers = {
+      introductory: { lessons: [] },
+      intermediate: { lessons: [] },
+      advanced: { lessons: [] },
+    };
+
+    for (const lessonId of plan) {
+      const meta = findLessonMeta(lessonId);
+      if (!meta) continue;
+      const prof = meta.proficiency || "beginner";
+      let tierKey = "introductory";
+      if (prof === "intermediate") tierKey = "intermediate";
+      else if (prof === "advanced") tierKey = "advanced";
+      tiers[tierKey].lessons.push(meta);
+    }
+
+    // Sort lessons: Grammar first, then alphabetical
+    for (const tierKey of Object.keys(tiers)) {
+      tiers[tierKey].lessons.sort((a, b) => {
+        const catA = getLessonCategory(a.id);
+        const catB = getLessonCategory(b.id);
+        const isGrammarA = catA?.id?.startsWith("cat_grammar");
+        const isGrammarB = catB?.id?.startsWith("cat_grammar");
+        if (isGrammarA && !isGrammarB) return -1;
+        if (!isGrammarA && isGrammarB) return 1;
+        const titleA =
+          dataService.getLocalizedText(a.title, preferredAppLanguages()) ||
+          a.id;
+        const titleB =
+          dataService.getLocalizedText(b.title, preferredAppLanguages()) ||
+          b.id;
+        return titleA.localeCompare(titleB);
+      });
+    }
+
+    return tiers;
+  }
+
+  function renderPlanTier(tierKey, label, lessons) {
+    const wrap = document.createElement("div");
+    wrap.className = "proficiency-tier";
+    const openKey = "tier:" + tierKey;
+    const isOpen = openCategories.has(openKey);
+
+    const totalLessons = lessons.length;
+    const triedLessons = lessons.filter((l) => lessonsTried.has(l.id)).length;
+
+    const header = document.createElement("button");
+    header.type = "button";
+    header.className = "proficiency-tier__header";
+    header.dataset.action = "toggle-tier";
+    header.dataset.tierId = tierKey;
+
+    const icon = document.createElement("span");
+    icon.className = "proficiency-tier__icon";
+    icon.textContent = TIER_ICONS[tierKey] || "";
+
+    const title = document.createElement("span");
+    title.className = "proficiency-tier__title";
+    title.textContent = label;
+
+    const titleGroup = document.createElement("span");
+    titleGroup.className = "proficiency-tier__title-group";
+    titleGroup.append(icon, title);
+
+    const progress = document.createElement("span");
+    progress.className = "proficiency-tier__progress";
+    progress.textContent = triedLessons + "/" + totalLessons;
+
+    const chevron = document.createElement("span");
+    chevron.className = "category__chevron";
+    chevron.textContent = isOpen ? "\u25BE" : "\u25B8";
+
+    header.append(titleGroup, progress, chevron);
+    wrap.appendChild(header);
+
+    if (isOpen) {
+      const body = document.createElement("div");
+      body.className = "proficiency-tier__body";
+      const progressMap = studyPlanService
+        ? studyPlanService.getProgress()
+        : {};
+
+      lessons.forEach((lesson) => {
+        const status = progressMap[lesson.id];
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "lesson-card";
+        if (status === "complete") button.classList.add("is-complete");
+        button.dataset.action = "open-lesson";
+        button.dataset.lessonId = lesson.id;
+
+        const statusIcon = document.createElement("span");
+        statusIcon.className = "lesson-card__status";
+        statusIcon.textContent = statusToIcon(status);
+
+        const titleEl = document.createElement("span");
+        titleEl.className = "lesson-card__title";
+        titleEl.textContent =
+          dataService.getLocalizedText(lesson.title, preferredAppLanguages()) ||
+          lesson.id;
+
+        button.append(statusIcon, titleEl);
+        body.appendChild(button);
+      });
+      wrap.appendChild(body);
+    }
+    return wrap;
   }
 
   function renderStudyPlanProgressSection() {
@@ -3762,6 +3955,19 @@
     return targets.includes(target);
   }
 
+  function filterCategoriesForActiveTarget(categories) {
+    const source = Array.isArray(categories) ? categories : [];
+    return source
+      .map((category) => {
+        const lessons = Array.isArray(category?.lessons)
+          ? category.lessons.filter(lessonBelongsToActiveTarget)
+          : [];
+        if (!lessons.length) return null;
+        return { ...category, lessons };
+      })
+      .filter(Boolean);
+  }
+
   function renderCategory(category) {
     const wrap = document.createElement("div");
     wrap.className = "category";
@@ -3842,6 +4048,11 @@
     if (status === "complete") return "\u2705";
     if (status === "skipped") return "\u23ED";
     return "\u25B6";
+  }
+
+  function lessonStatusIcon(lessonId) {
+    const progress = studyPlanService ? studyPlanService.getProgress() : {};
+    return statusToIcon(progress[lessonId]);
   }
 
   function toggleCategory(id) {
@@ -3955,6 +4166,57 @@
         langs.find((c) => c !== quizConfig.questionLanguage) ||
         "";
     }
+  }
+
+  function splitItemsByKind(items) {
+    const list = Array.isArray(items) ? items : [];
+    const headerTargets = new Map();
+    for (let i = 0; i < list.length; i += 1) {
+      const header = list[i];
+      if (!header?.header) continue;
+      let hasWord = false;
+      let hasSentence = false;
+      for (let j = i + 1; j < list.length; j += 1) {
+        const nextItem = list[j];
+        if (!nextItem) break;
+        if (nextItem.header) break;
+        const kind = dataService.getItemKind(nextItem);
+        if (kind === "sentence") hasSentence = true;
+        else hasWord = true;
+      }
+      headerTargets.set(header, {
+        hasWord: hasWord || !hasSentence,
+        hasSentence,
+      });
+    }
+    const wordItems = [];
+    const sentenceItems = [];
+    for (const item of list) {
+      if (item.header) {
+        const targets = headerTargets.get(item) || {
+          hasWord: true,
+          hasSentence: false,
+        };
+        if (targets.hasWord) wordItems.push(item);
+        if (targets.hasSentence) sentenceItems.push(item);
+        continue;
+      }
+      const kind = dataService.getItemKind(item);
+      if (kind === "sentence") {
+        const text = dataService.getText(
+          item,
+          state.settings.targetLanguage || "en",
+        );
+        if (text && !text.includes(" ") && text.length < 15) {
+          wordItems.push(item);
+          continue;
+        }
+        sentenceItems.push(item);
+      } else {
+        wordItems.push(item);
+      }
+    }
+    return { wordItems, sentenceItems };
   }
 
   function renderLesson() {
@@ -4209,7 +4471,16 @@
         container.textContent = text;
       }
       if (state.settings.recordAndCompare) {
-        container.appendChild(createRecordMicButton(item, code, text));
+        const micBtn = document.createElement("button");
+        micBtn.type = "button";
+        micBtn.className = "record-mic-btn";
+        micBtn.dataset.action = "open-record-overlay";
+        micBtn.dataset.itemId = item.id;
+        micBtn.dataset.lang = code;
+        micBtn.dataset.text = text;
+        micBtn.setAttribute("aria-label", t("recordMicAriaLabel"));
+        micBtn.textContent = "🎙️";
+        container.appendChild(micBtn);
       }
       cell.appendChild(container);
     } else {
@@ -4221,7 +4492,16 @@
       span.textContent = text;
       wrapper.appendChild(span);
       if (state.settings.recordAndCompare) {
-        wrapper.appendChild(createRecordMicButton(item, code, text));
+        const micBtn = document.createElement("button");
+        micBtn.type = "button";
+        micBtn.className = "record-mic-btn";
+        micBtn.dataset.action = "open-record-overlay";
+        micBtn.dataset.itemId = item.id;
+        micBtn.dataset.lang = code;
+        micBtn.dataset.text = text;
+        micBtn.setAttribute("aria-label", t("recordMicAriaLabel"));
+        micBtn.textContent = "🎙️";
+        wrapper.appendChild(micBtn);
       }
       cell.appendChild(wrapper);
     }
@@ -6771,6 +7051,11 @@
   }
 
   document.addEventListener("DOMContentLoaded", init);
+
+  function handleTargetSelection(langCode) {
+    if (!registry.has(langCode)) return;
+    setTargetLanguage(langCode, "target-select");
+  }
 
   function renderTargetSelect() {
     showView("targetSelect");
