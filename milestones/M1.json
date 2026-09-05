@@ -1,6 +1,40 @@
 {
   "id": "M1",
   "title": "Foundations & Greetings",
+  "unlock_requirements": {
+    "srs_box_level": 4,
+    "grammar_quiz_pass_pct": 80
+  },
+  "grammar_questions": [
+    {
+      "id": "M1_GQ1",
+      "question": {
+        "en": "Which phrase means 'Thank you'?",
+        "th": "คำว่า 'ขอบคุณ' แปลว่าอะไร?"
+      },
+      "options": [
+        { "text": { "en": "Hello", "th": "สวัสดี" } },
+        { "text": { "en": "Thank you", "th": "ขอบคุณ" } },
+        { "text": { "en": "Goodbye", "th": "ลาก่อน" } },
+        { "text": { "en": "Please", "th": "กรุณา" } }
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "M1_GQ2",
+      "question": {
+        "en": "How do you say 'Goodbye'?",
+        "th": "คำว่า 'ลาก่อน' พูดว่าอย่างไร?"
+      },
+      "options": [
+        { "text": { "en": "Hello", "th": "สวัสดี" } },
+        { "text": { "en": "Thank you", "th": "ขอบคุณ" } },
+        { "text": { "en": "Goodbye", "th": "ลาก่อน" } },
+        { "text": { "en": "Yes", "th": "ใช่" } }
+      ],
+      "correctOptionIndex": 2
+    }
+  ],
   "items": [
     {
       "id": "M1_T01",

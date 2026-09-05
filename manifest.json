@@ -78,7 +78,8 @@
       "id": "M1",
       "title": "Foundations & Greetings",
       "tier": "beginner",
-      "priority_tags": ["everyday", "travel"]
+      "priority_tags": ["everyday", "travel"],
+      "file": "milestones/M1.json"
     },
     {
       "id": "M2",

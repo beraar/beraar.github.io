@@ -1060,6 +1060,17 @@
       zh: "重新开始测验",
       ja: "クイズを再開",
     },
+
+    grammarQuiz: {
+      en: "Grammar Quiz",
+      th: "แบบทดสอบไวยากรณ์",
+      fa: "آزمون گرامر",
+      ar: "اختبار القواعد",
+      es: "Cuestionario de gramática",
+      zh: "语法测验",
+      ja: "文法クイズ",
+    },
+
     quizRetry: {
       en: "Retry quiz",
       th: "ลองทำแบบทดสอบใหม่",
@@ -1367,6 +1378,7 @@
       ja: "録音に失敗したか、無音でした。もう一度お試しください。",
     },
   });
+
   const VOICE_TEST_MESSAGES = Object.freeze({
     en: "{language} is available",
     th: "{language} พร้อมใช้งาน",
@@ -2430,6 +2442,7 @@
       if (currentIndex === -1) return progress;
       if (isComplete) {
         progress[id] = {
+          ...progress[id],
           state: "COMPLETED",
           completed_via: "manual_override",
           completed_at: new Date().toISOString(),
@@ -2445,6 +2458,7 @@
         }
       } else {
         progress[id] = {
+          ...progress[id],
           state: "IN_PROGRESS",
           completed_via: null,
           completed_at: null,
@@ -2469,13 +2483,24 @@
       const currentState = this.getMilestoneState(id);
       if (currentState === "LOCKED" || currentState === "COMPLETED")
         return false;
-      const requirements = milestoneData.unlock_requirements || {};
+
+      // FIX: Read items and requirements from currentLesson if available, as manifest doesn't hold the full JSON data
+      const isCurrentLesson =
+        currentLesson && currentLesson.meta && currentLesson.meta.id === id;
+      const items = isCurrentLesson
+        ? currentLesson.items || []
+        : milestoneData.items || [];
+      const requirements = isCurrentLesson
+        ? currentLesson.unlock_requirements || {}
+        : milestoneData.unlock_requirements || {};
+
       const requiredBox = requirements.srs_box_level || 4;
       const requiredPct = requirements.grammar_quiz_pass_pct || 80;
-      const targetItems = (milestoneData.items || []).filter(
-        (item) => item.role === "target",
-      );
+
+      // Ensure no trailing spaces in "target" (e.g. "target " vs "target")
+      const targetItems = items.filter((item) => item.role === "target");
       if (targetItems.length === 0) return false;
+
       const allTargetsMet = targetItems.every((item) => {
         const records = srsService.records || {};
         const matchingKey = Object.keys(records).find((key) =>
@@ -2486,10 +2511,15 @@
         return Number.isInteger(record.box) && record.box >= requiredBox;
       });
       if (!allTargetsMet) return false;
-      const grammarItems = (milestoneData.items || []).filter(
-        (item) => item.role === "grammar",
-      );
-      if (grammarItems.length > 0) {
+
+      let progress = this.getProgress();
+      if (!progress) progress = this.initializeProgress();
+      const mProgress = progress[id] || {};
+      const grammarQuizPassed =
+        mProgress.grammar_quiz && mProgress.grammar_quiz.passed;
+
+      const grammarItems = items.filter((item) => item.role === "grammar");
+      if (grammarItems.length > 0 && !grammarQuizPassed) {
         const quizRecords = quizProgressService.records || {};
         let totalAttempts = 0,
           correctAttempts = 0;
@@ -2507,27 +2537,32 @@
         const passPct = Math.round((correctAttempts / totalAttempts) * 100);
         if (passPct < requiredPct) return false;
       }
-      let progress = this.getProgress();
-      if (!progress) progress = this.initializeProgress();
+
       const milestones = manifest?.milestones || [];
       const currentIndex = milestones.findIndex((m) => m.id === id);
+
       progress[id] = {
+        ...mProgress,
         state: "COMPLETED",
         completed_via: "automated",
         completed_at: new Date().toISOString(),
       };
+
       if (currentIndex + 1 < milestones.length) {
         const nextId = milestones[currentIndex + 1].id;
-        if (progress[nextId]?.state === "LOCKED")
+        if (progress[nextId]?.state === "LOCKED") {
           progress[nextId] = {
             state: "UNLOCKED",
             completed_via: null,
             completed_at: null,
           };
+        }
       }
+
       this.saveProgress(progress);
       return true;
     }
+
     markInProgress(id) {
       let progress = this.getProgress();
       if (!progress) progress = this.initializeProgress();
@@ -3532,6 +3567,7 @@
           id: milestone.id,
           title: { en: milestone.title },
           proficiency: milestone.tier,
+          file: milestone.file,
         };
       } else {
         return;
@@ -3540,11 +3576,17 @@
     markLessonTried(lessonMeta.id);
     let content = { items: [], failed: false };
     if (lessonMeta.file) content = await loadLessonFile(lessonMeta.file);
+
     currentLesson = {
       meta: lessonMeta,
       items: Array.isArray(content.items) ? content.items : [],
+      grammar_questions: Array.isArray(content.grammar_questions)
+        ? content.grammar_questions
+        : [],
+      unlock_requirements: content.unlock_requirements || {},
       failed: Boolean(content.failed),
     };
+
     if (content.displayMode)
       currentLesson.meta = {
         ...currentLesson.meta,
@@ -3605,12 +3647,14 @@
     };
     const requiredBox = requirements.srs_box_level || 4;
     const requiredPct = requirements.grammar_quiz_pass_pct || 80;
+
     const targetItems = (milestoneData.items || []).filter(
       (i) => i.role === "target",
     );
     const grammarItems = (milestoneData.items || []).filter(
       (i) => i.role === "grammar",
     );
+
     let vocabText = "0/0";
     if (targetItems.length > 0) {
       let metCount = 0;
@@ -3623,8 +3667,14 @@
       }
       vocabText = `${metCount}/${targetItems.length}`;
     }
+
     let grammarText = "0%";
-    if (grammarItems.length > 0) {
+    const progress = milestoneService?.getProgress();
+    const mProgress = progress?.[milestoneId];
+
+    if (mProgress?.grammar_quiz) {
+      grammarText = `${mProgress.grammar_quiz.best_accuracy}% (Best)`;
+    } else if (grammarItems.length > 0) {
       let totalAttempts = 0,
         correctAttempts = 0;
       const quizRecords = quizProgressService?.records || {};
@@ -3644,6 +3694,7 @@
           : 0;
       grammarText = `${pct}%`;
     }
+
     return `Auto-complete progress: Vocab ${vocabText} | Grammar Quiz ${grammarText} (Need ${requiredPct}%)`;
   }
 
@@ -3667,6 +3718,26 @@
         preferredAppLanguages(),
       ) || currentLesson.meta.id;
     header.append(back, title);
+
+    console.log(
+      "[Zabon Debug] renderLesson: grammar_questions =",
+      currentLesson.grammar_questions,
+    );
+
+    if (
+      currentLesson.grammar_questions &&
+      currentLesson.grammar_questions.length > 0
+    ) {
+      const gqBtn = document.createElement("button");
+      gqBtn.type = "button";
+      gqBtn.className = "button";
+      gqBtn.dataset.action = "open-grammar-quiz";
+      gqBtn.textContent = "📝";
+      gqBtn.setAttribute("aria-label", t("grammarQuiz"));
+      gqBtn.title = t("grammarQuiz");
+      header.appendChild(gqBtn);
+    }
+
     view.appendChild(header);
     if (currentLesson.failed) {
       view.appendChild(makeEmptyState(t("lessonLoadError")));
@@ -3678,11 +3749,13 @@
       view.appendChild(retry);
       return;
     }
+
     const langs = selectedLessonLanguages();
     if (!langs.length) {
       view.appendChild(makeEmptyState(t("noLanguagesSelected")));
       return;
     }
+
     const items = currentLesson.items;
     const sections = [];
     let currentSection = { header: null, items: [] };
@@ -3699,6 +3772,7 @@
       }
     }
     if (currentSection.items.length > 0) sections.push(currentSection);
+
     sections.forEach((section, index) => {
       const sectionKey = section.header
         ? `lesson:section:${section.header.id}`
@@ -4786,6 +4860,7 @@
     const stopButton = document.querySelector('[data-action="media-stop"]');
     if (stopButton) stopButton.disabled = playbackState.status === "idle";
   }
+
   function exerciseHeader(titleText, backAction) {
     const header = document.createElement("div");
     header.className = "document-header";
@@ -4801,6 +4876,7 @@
     header.append(back, title);
     return header;
   }
+
   function configRow(labelText, control) {
     const row = document.createElement("div");
     row.className = "config-row";
@@ -5074,19 +5150,66 @@
     }
     renderCurrentFlashcard();
   }
+
+  function buildGrammarQuizSession(
+    questions,
+    questionLanguage,
+    answerLanguage,
+  ) {
+    const qs = questions.map((q) => {
+      const qText = q.question[questionLanguage] || q.question.en || "";
+      const options = q.options.map((opt, idx) => ({
+        itemId: `${q.id}_opt_${idx}`,
+        text: opt.text[answerLanguage] || opt.text.en || "",
+        dir: registry.dir(answerLanguage),
+        bcp47: registry.bcp47(answerLanguage),
+        isCorrect: idx === q.correctOptionIndex,
+      }));
+      const shuffledOptions = deterministicShuffle(options, `gq:${q.id}`);
+      const correctOpt = shuffledOptions.find((o) => o.isCorrect);
+      return {
+        questionId: q.id,
+        itemId: q.id,
+        itemKind: "word",
+        questionLanguage,
+        answerLanguage,
+        questionText: qText,
+        questionDir: registry.dir(questionLanguage),
+        questionBcp47: registry.bcp47(questionLanguage),
+        answerItemId: correctOpt ? correctOpt.itemId : "",
+        answerText: correctOpt ? correctOpt.text : "",
+        answerDir: registry.dir(answerLanguage),
+        answerBcp47: registry.bcp47(answerLanguage),
+        options: shuffledOptions,
+      };
+    });
+    return {
+      questions: qs,
+      stats: { questions: qs.length },
+      questionLanguage,
+      answerLanguage,
+      reason: "",
+    };
+  }
+
   function renderQuiz() {
     showView("quiz");
     const view = elements.quizView;
     view.innerHTML = "";
-    view.appendChild(
-      exerciseHeader(
-        quizKind === "sentence" ? t("sentenceQuiz") : t("wordQuiz"),
-        "back-lesson",
-      ),
-    );
+
+    const isGQ = quizSession?.isGrammarQuiz;
+    const headerTitle = isGQ
+      ? t("grammarQuiz")
+      : quizKind === "sentence"
+        ? t("sentenceQuiz")
+        : t("wordQuiz");
+
+    view.appendChild(exerciseHeader(headerTitle, "back-lesson"));
+
     const langs = selectedLessonLanguages();
     const settingsOpen = langs.length < 2 || exerciseSettingsOpen;
     ensureExerciseConfigs();
+
     const config = document.createElement("div");
     config.className = "exercise-config";
     config.appendChild(
@@ -5117,19 +5240,29 @@
       ),
     );
     view.appendChild(renderExerciseSettingsPanel(settingsOpen, config));
+
     const stage = document.createElement("div");
     stage.id = "quiz-stage";
     stage.className = "quiz-stage";
     view.appendChild(stage);
+
     if (langs.length < 2) {
       showStageMessage(stage, t("selectTwoLanguages"));
       return;
     }
-    if (!quizSession) startQuiz();
-    else if (quizSession.index < quizSession.session.questions.length)
-      renderCurrentQuizQuestion();
-    else renderQuizFinished();
+
+    if (isGQ) {
+      if (quizSession.index < quizSession.session.questions.length)
+        renderCurrentQuizQuestion();
+      else renderQuizFinished();
+    } else {
+      if (!quizSession) startQuiz();
+      else if (quizSession.index < quizSession.session.questions.length)
+        renderCurrentQuizQuestion();
+      else renderQuizFinished();
+    }
   }
+
   function startQuiz() {
     ensureExerciseConfigs();
     const stage = document.getElementById("quiz-stage");
@@ -5354,22 +5487,74 @@
     }
     renderCurrentQuizQuestion();
   }
+
   function renderQuizFinished() {
     const stage = document.getElementById("quiz-stage");
     if (!stage) return;
     clearExerciseHighlights();
     stage.innerHTML = "";
+
     const total = quizSession?.session?.questions?.length || 0;
     const correct = quizSession?.correct || 0;
     const hasIncorrect = (quizSession?.incorrectQuestions || []).length > 0;
+
     const article = document.createElement("article");
     article.className = "quiz-question";
     const feedback = document.createElement("div");
     feedback.className = "quiz-feedback";
-    feedback.textContent = `${t("quizFinished")} ${t("quizScore")}: ${correct} / ${total}`;
+
+    if (quizSession.isGrammarQuiz) {
+      const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
+      const milestoneId = quizSession.milestoneId;
+      let progress = milestoneService.getProgress();
+      if (!progress) progress = milestoneService.initializeProgress();
+      if (!progress[milestoneId])
+        progress[milestoneId] = {
+          state: "UNLOCKED",
+          completed_via: null,
+          completed_at: null,
+        };
+
+      const gq = progress[milestoneId].grammar_quiz || {
+        best_accuracy: 0,
+        attempts: 0,
+        passed: false,
+      };
+      gq.attempts += 1;
+      gq.best_accuracy = Math.max(gq.best_accuracy, accuracy);
+      const milestoneData = (manifest?.milestones || []).find(
+        (m) => m.id === milestoneId,
+      );
+      const requiredPct =
+        milestoneData?.unlock_requirements?.grammar_quiz_pass_pct || 80;
+      gq.passed = gq.best_accuracy >= requiredPct;
+
+      progress[milestoneId].grammar_quiz = gq;
+      milestoneService.saveProgress(progress);
+      feedback.textContent = `${t("quizFinished")} Accuracy: ${accuracy}%. Best: ${gq.best_accuracy}%. ${gq.passed ? "PASSED!" : `Need ${requiredPct}% to pass.`}`;
+      milestoneService.evaluateAutoCompletion(milestoneId);
+    } else {
+      feedback.textContent = `${t("quizFinished")} ${t("quizScore")}: ${correct} / ${total}`;
+    }
+
     const actions = document.createElement("div");
     actions.className = "quiz-options";
-    if (hasIncorrect) {
+
+    if (quizSession.isGrammarQuiz) {
+      const backBtn = document.createElement("button");
+      backBtn.type = "button";
+      backBtn.className = "button button--wide";
+      backBtn.dataset.action = "back-lesson";
+      backBtn.textContent = t("back");
+      actions.appendChild(backBtn);
+
+      const retryBtn = document.createElement("button");
+      retryBtn.type = "button";
+      retryBtn.className = "button button--wide";
+      retryBtn.dataset.action = "grammar-quiz-retry";
+      retryBtn.textContent = t("quizRetry");
+      actions.appendChild(retryBtn);
+    } else if (hasIncorrect) {
       const retryButton = document.createElement("button");
       retryButton.type = "button";
       retryButton.className = "button button--wide";
@@ -5384,9 +5569,11 @@
       restartButton.textContent = t("quizRestart");
       actions.appendChild(restartButton);
     }
+
     article.append(feedback, actions);
     stage.appendChild(article);
   }
+
   function restartQuiz() {
     resetQuizSessionSeed();
     startQuiz();
@@ -5659,6 +5846,7 @@
     article.className = "quiz-question";
     const feedback = document.createElement("div");
     feedback.className = "quiz-feedback";
+
     feedback.textContent = t("buildFinished");
     const actions = document.createElement("div");
     actions.className = "quiz-options";
@@ -6322,6 +6510,43 @@
         case "reset-progress-all":
           resetAllProgress();
           break;
+        case "open-grammar-quiz": {
+          const questions = currentLesson.grammar_questions || [];
+          if (!questions.length) return;
+          const qLang = state.settings.appLanguage;
+          const aLang = state.settings.targetLanguage;
+          quizSession = {
+            session: buildGrammarQuizSession(questions, qLang, aLang),
+            index: 0,
+            correct: 0,
+            answered: false,
+            selectedItemId: "",
+            incorrectQuestions: [],
+            isGrammarQuiz: true,
+            milestoneId: currentLesson.meta.id,
+          };
+          showView("quiz");
+          renderQuiz();
+          break;
+        }
+        case "grammar-quiz-retry": {
+          const questions = currentLesson.grammar_questions || [];
+          if (!questions.length) return;
+          const qLang = state.settings.appLanguage;
+          const aLang = state.settings.targetLanguage;
+          quizSession = {
+            session: buildGrammarQuizSession(questions, qLang, aLang),
+            index: 0,
+            correct: 0,
+            answered: false,
+            selectedItemId: "",
+            incorrectQuestions: [],
+            isGrammarQuiz: true,
+            milestoneId: currentLesson.meta.id,
+          };
+          renderQuiz();
+          break;
+        }
         default:
           break;
       }
