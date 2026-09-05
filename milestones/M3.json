@@ -1,0 +1,45 @@
+{
+  "id": "M3",
+  "title": "Survival Needs",
+  "items": [
+    {
+      "id": "M3_T01",
+      "role": "target",
+      "texts": {
+        "en": "Water",
+        "th": "น้ำ",
+        "fa": "آب",
+        "ar": "ماء",
+        "es": "Agua",
+        "zh": "水",
+        "ja": "水"
+      }
+    },
+    {
+      "id": "M3_T02",
+      "role": "target",
+      "texts": {
+        "en": "Help",
+        "th": "ช่วยด้วย",
+        "fa": "کمک",
+        "ar": "مساعدة",
+        "es": "Ayuda",
+        "zh": "帮助",
+        "ja": "助け"
+      }
+    },
+    {
+      "id": "M3_C01",
+      "role": "context",
+      "texts": {
+        "en": "Hungry",
+        "th": "หิว",
+        "fa": "گرسنه",
+        "ar": "جائع",
+        "es": "Hambriento",
+        "zh": "饿",
+        "ja": "空腹"
+      }
+    }
+  ]
+}

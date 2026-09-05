@@ -1,0 +1,136 @@
+{
+  "id": "M1",
+  "title": "Foundations & Greetings",
+  "items": [
+    {
+      "id": "M1_T01",
+      "role": "target",
+      "texts": {
+        "en": "Hello",
+        "th": "สวัสดี",
+        "fa": "سلام",
+        "ar": "مرحبا",
+        "es": "Hola",
+        "zh": "你好",
+        "ja": "こんにちは"
+      }
+    },
+    {
+      "id": "M1_T02",
+      "role": "target",
+      "texts": {
+        "en": "Goodbye",
+        "th": "ลาก่อน",
+        "fa": "خداحافظ",
+        "ar": "مع السلامة",
+        "es": "Adiós",
+        "zh": "再见",
+        "ja": "さようなら"
+      }
+    },
+    {
+      "id": "M1_T03",
+      "role": "target",
+      "texts": {
+        "en": "Thank you",
+        "th": "ขอบคุณ",
+        "fa": "ممنون",
+        "ar": "شكرا",
+        "es": "Gracias",
+        "zh": "谢谢",
+        "ja": "ありがとう"
+      }
+    },
+    {
+      "id": "M1_T04",
+      "role": "target",
+      "texts": {
+        "en": "Please",
+        "th": "กรุณา",
+        "fa": "لطفا",
+        "ar": "من فضلك",
+        "es": "Por favor",
+        "zh": "请",
+        "ja": "お願いします"
+      }
+    },
+    {
+      "id": "M1_T05",
+      "role": "target",
+      "texts": {
+        "en": "Yes",
+        "th": "ใช่",
+        "fa": "بله",
+        "ar": "نعم",
+        "es": "Sí",
+        "zh": "是",
+        "ja": "はい"
+      }
+    },
+    {
+      "id": "M1_T06",
+      "role": "target",
+      "texts": {
+        "en": "No",
+        "th": "ไม่",
+        "fa": "نه",
+        "ar": "لا",
+        "es": "No",
+        "zh": "不",
+        "ja": "いいえ"
+      }
+    },
+    {
+      "id": "M1_T07",
+      "role": "target",
+      "texts": {
+        "en": "Excuse me",
+        "th": "ขอโทษ",
+        "fa": "ببخشید",
+        "ar": "عفوا",
+        "es": "Disculpe",
+        "zh": "打扰一下",
+        "ja": "すみません"
+      }
+    },
+    {
+      "id": "M1_T08",
+      "role": "target",
+      "texts": {
+        "en": "I don't understand",
+        "th": "ฉันไม่เข้าใจ",
+        "fa": "من نمی‌فهمم",
+        "ar": "لا أفهم",
+        "es": "No entiendo",
+        "zh": "我不明白",
+        "ja": "わかりません"
+      }
+    },
+    {
+      "id": "M1_C01",
+      "role": "context",
+      "texts": {
+        "en": "Good morning",
+        "th": "สวัสดีตอนเช้า",
+        "fa": "صبح بخیر",
+        "ar": "صباح الخير",
+        "es": "Buenos días",
+        "zh": "早上好",
+        "ja": "おはようございます"
+      }
+    },
+    {
+      "id": "M1_C02",
+      "role": "context",
+      "texts": {
+        "en": "Good night",
+        "th": "ราตรีสวัสดิ์",
+        "fa": "شب بخیر",
+        "ar": "تصبح على خير",
+        "es": "Buenas noches",
+        "zh": "晚安",
+        "ja": "おやすみなさい"
+      }
+    }
+  ]
+}

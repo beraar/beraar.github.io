@@ -1,0 +1,115 @@
+{
+  "name": "Zabon",
+  "version": "2.0.0",
+  "architecture": "spiral-mastery",
+  "priority_tags": ["everyday", "travel", "business", "academic", "cultural"],
+  "tiers": [
+    {
+      "id": "beginner",
+      "label": "Beginner",
+      "milestones": ["M1", "M2", "M3", "M4", "M5"]
+    },
+    {
+      "id": "intermediate",
+      "label": "Intermediate",
+      "milestones": ["M6", "M7", "M8", "M9", "M10"]
+    },
+    {
+      "id": "advanced",
+      "label": "Advanced",
+      "milestones": ["M11", "M12", "M13", "M14", "M15"]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "M1",
+      "title": "Foundations & Greetings",
+      "tier": "beginner",
+      "priority_tags": ["everyday", "travel"]
+    },
+    {
+      "id": "M2",
+      "title": "Numbers & Time",
+      "tier": "beginner",
+      "priority_tags": ["everyday", "travel"]
+    },
+    {
+      "id": "M3",
+      "title": "Survival Needs",
+      "tier": "beginner",
+      "priority_tags": ["everyday", "travel"]
+    },
+    {
+      "id": "M4",
+      "title": "Directions & Transport",
+      "tier": "beginner",
+      "priority_tags": ["travel", "everyday"]
+    },
+    {
+      "id": "M5",
+      "title": "Shopping & Money",
+      "tier": "beginner",
+      "priority_tags": ["travel", "everyday"]
+    },
+    {
+      "id": "M6",
+      "title": "Daily Routines & Hobbies",
+      "tier": "intermediate",
+      "priority_tags": ["everyday", "cultural"]
+    },
+    {
+      "id": "M7",
+      "title": "Health & Emergencies",
+      "tier": "intermediate",
+      "priority_tags": ["everyday", "travel"]
+    },
+    {
+      "id": "M8",
+      "title": "Work & Business Basics",
+      "tier": "intermediate",
+      "priority_tags": ["business", "academic"]
+    },
+    {
+      "id": "M9",
+      "title": "Travel & Accommodation",
+      "tier": "intermediate",
+      "priority_tags": ["travel", "cultural"]
+    },
+    {
+      "id": "M10",
+      "title": "Socializing & Opinions",
+      "tier": "intermediate",
+      "priority_tags": ["everyday", "cultural"]
+    },
+    {
+      "id": "M11",
+      "title": "Abstract Concepts & Philosophy",
+      "tier": "advanced",
+      "priority_tags": ["academic", "cultural"]
+    },
+    {
+      "id": "M12",
+      "title": "Media, News & Technology",
+      "tier": "advanced",
+      "priority_tags": ["academic", "business"]
+    },
+    {
+      "id": "M13",
+      "title": "Culture, History & Traditions",
+      "tier": "advanced",
+      "priority_tags": ["cultural", "academic"]
+    },
+    {
+      "id": "M14",
+      "title": "Professional Negotiations",
+      "tier": "advanced",
+      "priority_tags": ["business", "academic"]
+    },
+    {
+      "id": "M15",
+      "title": "Nuance, Humor & Idioms",
+      "tier": "advanced",
+      "priority_tags": ["cultural", "everyday"]
+    }
+  ]
+}

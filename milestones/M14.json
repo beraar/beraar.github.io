@@ -1,0 +1,45 @@
+{
+  "id": "M14",
+  "title": "Professional Negotiations",
+  "items": [
+    {
+      "id": "M14_T01",
+      "role": "target",
+      "texts": {
+        "en": "Contract",
+        "th": "สัญญา",
+        "fa": "قرارداد",
+        "ar": "عقد",
+        "es": "Contrato",
+        "zh": "合同",
+        "ja": "契約"
+      }
+    },
+    {
+      "id": "M14_T02",
+      "role": "target",
+      "texts": {
+        "en": "Negotiate",
+        "th": "เจรจา",
+        "fa": "مذاکره",
+        "ar": "تفاوض",
+        "es": "Negociar",
+        "zh": "谈判",
+        "ja": "交渉"
+      }
+    },
+    {
+      "id": "M14_C01",
+      "role": "context",
+      "texts": {
+        "en": "Agreement",
+        "th": "ข้อตกลง",
+        "fa": "توافق",
+        "ar": "اتفاق",
+        "es": "Acuerdo",
+        "zh": "协议",
+        "ja": "合意"
+      }
+    }
+  ]
+}

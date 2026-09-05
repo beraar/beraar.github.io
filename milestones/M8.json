@@ -1,0 +1,45 @@
+{
+  "id": "M8",
+  "title": "Work & Business Basics",
+  "items": [
+    {
+      "id": "M8_T01",
+      "role": "target",
+      "texts": {
+        "en": "Office",
+        "th": "สำนักงาน",
+        "fa": "دفتر",
+        "ar": "مكتب",
+        "es": "Oficina",
+        "zh": "办公室",
+        "ja": "事務所"
+      }
+    },
+    {
+      "id": "M8_T02",
+      "role": "target",
+      "texts": {
+        "en": "Meeting",
+        "th": "การประชุม",
+        "fa": "جلسه",
+        "ar": "اجتماع",
+        "es": "Reunión",
+        "zh": "会议",
+        "ja": "会議"
+      }
+    },
+    {
+      "id": "M8_C01",
+      "role": "context",
+      "texts": {
+        "en": "Boss",
+        "th": "เจ้านาย",
+        "fa": "رئیس",
+        "ar": "مدير",
+        "es": "Jefe",
+        "zh": "老板",
+        "ja": "上司"
+      }
+    }
+  ]
+}

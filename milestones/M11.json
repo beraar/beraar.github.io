@@ -1,0 +1,45 @@
+{
+  "id": "M11",
+  "title": "Abstract Concepts & Philosophy",
+  "items": [
+    {
+      "id": "M11_T01",
+      "role": "target",
+      "texts": {
+        "en": "Freedom",
+        "th": "อิสระ",
+        "fa": "آزادی",
+        "ar": "حرية",
+        "es": "Libertad",
+        "zh": "自由",
+        "ja": "自由"
+      }
+    },
+    {
+      "id": "M11_T02",
+      "role": "target",
+      "texts": {
+        "en": "Truth",
+        "th": "ความจริง",
+        "fa": "حقیقت",
+        "ar": "حقيقة",
+        "es": "Verdad",
+        "zh": "真相",
+        "ja": "真実"
+      }
+    },
+    {
+      "id": "M11_C01",
+      "role": "context",
+      "texts": {
+        "en": "Justice",
+        "th": "ความยุติธรรม",
+        "fa": "عدالت",
+        "ar": "عدالة",
+        "es": "Justicia",
+        "zh": "正义",
+        "ja": "正義"
+      }
+    }
+  ]
+}

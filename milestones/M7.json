@@ -1,0 +1,45 @@
+{
+  "id": "M7",
+  "title": "Health & Emergencies",
+  "items": [
+    {
+      "id": "M7_T01",
+      "role": "target",
+      "texts": {
+        "en": "Doctor",
+        "th": "หมอ",
+        "fa": "دکتر",
+        "ar": "طبيب",
+        "es": "Médico",
+        "zh": "医生",
+        "ja": "医者"
+      }
+    },
+    {
+      "id": "M7_T02",
+      "role": "target",
+      "texts": {
+        "en": "Pain",
+        "th": "ปวด",
+        "fa": "درد",
+        "ar": "ألم",
+        "es": "Dolor",
+        "zh": "痛",
+        "ja": "痛み"
+      }
+    },
+    {
+      "id": "M7_C01",
+      "role": "context",
+      "texts": {
+        "en": "Medicine",
+        "th": "ยา",
+        "fa": "دارو",
+        "ar": "دواء",
+        "es": "Medicina",
+        "zh": "药",
+        "ja": "薬"
+      }
+    }
+  ]
+}

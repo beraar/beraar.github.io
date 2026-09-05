@@ -1,0 +1,45 @@
+{
+  "id": "M5",
+  "title": "Shopping & Money",
+  "items": [
+    {
+      "id": "M5_T01",
+      "role": "target",
+      "texts": {
+        "en": "How much?",
+        "th": "เท่าไหร่",
+        "fa": "چند",
+        "ar": "كم",
+        "es": "¿Cuánto?",
+        "zh": "多少？",
+        "ja": "いくら？"
+      }
+    },
+    {
+      "id": "M5_T02",
+      "role": "target",
+      "texts": {
+        "en": "Expensive",
+        "th": "แพง",
+        "fa": "گران",
+        "ar": "غالي",
+        "es": "Caro",
+        "zh": "贵",
+        "ja": "高い"
+      }
+    },
+    {
+      "id": "M5_C01",
+      "role": "context",
+      "texts": {
+        "en": "Cheap",
+        "th": "ถูก",
+        "fa": "ارزان",
+        "ar": "رخيص",
+        "es": "Barato",
+        "zh": "便宜",
+        "ja": "安い"
+      }
+    }
+  ]
+}

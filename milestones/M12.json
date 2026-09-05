@@ -1,0 +1,45 @@
+{
+  "id": "M12",
+  "title": "Media, News & Technology",
+  "items": [
+    {
+      "id": "M12_T01",
+      "role": "target",
+      "texts": {
+        "en": "Internet",
+        "th": "อินเทอร์เน็ต",
+        "fa": "اینترنت",
+        "ar": "إنترنت",
+        "es": "Internet",
+        "zh": "互联网",
+        "ja": "インターネット"
+      }
+    },
+    {
+      "id": "M12_T02",
+      "role": "target",
+      "texts": {
+        "en": "News",
+        "th": "ข่าว",
+        "fa": "اخبار",
+        "ar": "أخبار",
+        "es": "Noticias",
+        "zh": "新闻",
+        "ja": "ニュース"
+      }
+    },
+    {
+      "id": "M12_C01",
+      "role": "context",
+      "texts": {
+        "en": "Computer",
+        "th": "คอมพิวเตอร์",
+        "fa": "کامپیوتر",
+        "ar": "حاسوب",
+        "es": "Computadora",
+        "zh": "电脑",
+        "ja": "コンピュータ"
+      }
+    }
+  ]
+}
