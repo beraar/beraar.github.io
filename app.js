@@ -1,7 +1,6 @@
 // app.js
 (() => {
   "use strict";
-
   const STORAGE_KEYS = {
     get settings() {
       return "zabon.settings";
@@ -27,14 +26,9 @@
     get lessonsTried() {
       return `zabon.${state?.settings?.targetLanguage || "th"}.lessonsTried`;
     },
-    get studyPlan() {
-      return `zabon.${state?.settings?.targetLanguage || "th"}.studyPlan`;
-    },
-    get studyPlanProgress() {
-      return `zabon.${state?.settings?.targetLanguage || "th"}.studyPlanProgress`;
-    },
-    get lessonBaseStatus() {
-      return `zabon.${state?.settings?.targetLanguage || "th"}.lessonBaseStatus`;
+    // ── Stage 2: Milestone Engine ──
+    get milestoneProgress() {
+      return `zabon.${state?.settings?.targetLanguage || "th"}.milestoneProgress`;
     },
   };
 
@@ -45,7 +39,6 @@
     slow: { rate: 0.75, pitch: 1.05 },
     slower: { rate: 0.5, pitch: 1.1 },
   });
-
   const CATEGORY_ICONS = Object.freeze({
     cat_grammar_intro: "📜",
     cat_grammar_inter: "📜",
@@ -70,15 +63,12 @@
     cat_religion_culture: "🛕",
     cat_reading_writing: "🔤",
   });
-
   const TIER_ICONS = Object.freeze({
     introductory: "🌱",
     intermediate: "🌿",
     advanced: "🌳",
   });
-
   const SCROLL_SUPPRESSION_MS = 900;
-
   const VIEW_IDS = Object.freeze([
     "targetSelect",
     "onboarding",
@@ -91,7 +81,6 @@
     "voicetest",
     "help",
   ]);
-
   const IMPLEMENTED_TARGET_LANGUAGES = Object.freeze([
     "th",
     "fa",
@@ -102,8 +91,6 @@
     "es",
   ]);
 
-  // UI_STRINGS and other large constant blocks are preserved exactly as needed
-  // but with trailing spaces removed from keys/values to prevent bugs.
   const UI_STRINGS = Object.freeze({
     appTitle: {
       en: "Zabon",
@@ -1140,7 +1127,6 @@
       zh: "重置进度",
       ja: "進捗をリセット",
     },
-
     resetProgress: {
       en: "Reset all progress",
       th: "รีเซ็ตความคืบหน้าทั้งหมด",
@@ -1386,7 +1372,6 @@
     zh: "{language}可用",
     ja: "{language}は利用可能です",
   });
-
   const VOICE_OS_LABELS = Object.freeze([
     ["android", "Android"],
     ["ios", "iOS (iPhone/iPad)"],
@@ -1394,7 +1379,6 @@
     ["windows", "Windows"],
     ["linux", "Linux"],
   ]);
-
   const VOICE_OS_INSTRUCTIONS = Object.freeze({
     android: {
       steps: [
@@ -1552,7 +1536,6 @@
       ],
     },
   });
-
   const HELP_SECTIONS = Object.freeze([
     {
       key: "help:first-visit",
@@ -1738,7 +1721,7 @@
   let flashcardService = null;
   let quizService = null;
   let quizProgressService = null;
-  let studyPlanService = null;
+  let milestoneService = null;
   let state = null;
   let currentLesson = null;
   let availableVoices = [];
@@ -1789,26 +1772,22 @@
       return fallback;
     }
   }
-
   function saveJSON(key, value) {
     try {
       localStorage.setItem(key, JSON.stringify(value));
     } catch {}
   }
-
   function cssEscape(value) {
     const raw = String(value ?? "");
     if (window.CSS && typeof window.CSS.escape === "function")
       return window.CSS.escape(raw);
     return raw.replace(/[^a-zA-Z0-9_-]/g, (ch) => `\\${ch}`);
   }
-
   function normalizeRepeatCount(value) {
     const parsed = Number.parseInt(value, 10);
     if (!Number.isFinite(parsed)) return 1;
     return Math.max(1, parsed);
   }
-
   function truncateLabel(text, max = 28) {
     const str = String(text ?? "");
     if (str.length <= max) return str;
@@ -1843,7 +1822,6 @@
       },
     };
   }
-
   function languageDisplayName(code) {
     const language = registry.getLanguage(code);
     if (!language) return code;
@@ -1851,7 +1829,6 @@
     const names = language.names || {};
     return names[appLang] || names.en || language.label || code;
   }
-
   function flagEmoji(code) {
     const language = registry.getLanguage(code);
     const bcp47 = language?.bcp47 || "";
@@ -1865,7 +1842,6 @@
       base + up.charCodeAt(1) - 65,
     );
   }
-
   function t(key) {
     const textMap = UI_STRINGS[key];
     if (!textMap) return key;
@@ -2218,7 +2194,6 @@
     }
     return "";
   }
-
   function hashString(value) {
     let hash = 2166136261 >>> 0;
     const text = String(value);
@@ -2228,7 +2203,6 @@
     }
     return hash >>> 0;
   }
-
   function mulberry32(seed) {
     let a = seed >>> 0;
     return function next() {
@@ -2238,7 +2212,6 @@
       return ((t2 ^ (t2 >>> 14)) >>> 0) / 4294967296;
     };
   }
-
   function deterministicShuffle(values, seed) {
     const result = [...values];
     const random = mulberry32(hashString(seed));
@@ -2248,7 +2221,6 @@
     }
     return result;
   }
-
   function resetQuizSessionSeed() {
     quizSessionSeed = `quiz:${Date.now()}:${Math.random().toString(36).slice(2)}`;
   }
@@ -2411,112 +2383,209 @@
     }
   }
 
-  class StudyPlanService {
+  // ── Stage 2: Milestone Engine ──
+  class MilestoneService {
     constructor() {
-      this.planKey = STORAGE_KEYS.studyPlan;
-      this.progressKey = STORAGE_KEYS.studyPlanProgress;
-    }
-    getPlan() {
-      return loadJSON(this.planKey, []);
+      this.progressKey = STORAGE_KEYS.milestoneProgress;
     }
     getProgress() {
-      return loadJSON(this.progressKey, {});
+      return loadJSON(this.progressKey, null);
     }
-    hasPlan() {
-      return this.getPlan().length > 0;
-    }
-    markLesson(lessonId, status) {
-      const progress = this.getProgress();
-      progress[lessonId] = status;
+    saveProgress(progress) {
       saveJSON(this.progressKey, progress);
     }
-    getNextLesson() {
-      const plan = this.getPlan();
-      const progress = this.getProgress();
-      for (const lessonId of plan) {
-        const status = progress[lessonId];
-        if (status !== "complete" && status !== "skipped") return lessonId;
+    initializeProgress() {
+      const existing = this.getProgress();
+      const milestones = manifest?.milestones || [];
+
+      // Validate that existing progress is not empty and matches the current manifest length
+      const isValid =
+        existing &&
+        typeof existing === "object" &&
+        !Array.isArray(existing) &&
+        Object.keys(existing).length === milestones.length &&
+        milestones.length > 0;
+
+      if (isValid) {
+        return existing;
+      }
+
+      // Re-initialize if invalid, empty, or manifest changed
+      const progress = {};
+      milestones.forEach((m, index) => {
+        progress[m.id] = {
+          state: index === 0 ? "UNLOCKED" : "LOCKED",
+          completed_via: null,
+          completed_at: null,
+        };
+      });
+      this.saveProgress(progress);
+      return progress;
+    }
+    getMilestoneState(id) {
+      let progress = this.getProgress();
+      if (!progress) progress = this.initializeProgress();
+      return progress[id]?.state || "LOCKED";
+    }
+    setMilestoneComplete(id, isComplete) {
+      let progress = this.getProgress();
+      if (!progress) progress = this.initializeProgress();
+      const milestones = manifest?.milestones || [];
+      const currentIndex = milestones.findIndex((m) => m.id === id);
+      if (currentIndex === -1) return progress;
+      if (isComplete) {
+        progress[id] = {
+          state: "COMPLETED",
+          completed_via: "manual_override",
+          completed_at: new Date().toISOString(),
+        };
+        if (currentIndex + 1 < milestones.length) {
+          const nextId = milestones[currentIndex + 1].id;
+          if (progress[nextId]?.state === "LOCKED")
+            progress[nextId] = {
+              state: "UNLOCKED",
+              completed_via: null,
+              completed_at: null,
+            };
+        }
+      } else {
+        progress[id] = {
+          state: "IN_PROGRESS",
+          completed_via: null,
+          completed_at: null,
+        };
+        for (let i = currentIndex + 1; i < milestones.length; i++) {
+          const mid = milestones[i].id;
+          progress[mid] = {
+            state: "LOCKED",
+            completed_via: null,
+            completed_at: null,
+          };
+        }
+      }
+      this.saveProgress(progress);
+      return progress;
+    }
+    evaluateAutoCompletion(id) {
+      const milestoneData = (manifest?.milestones || []).find(
+        (m) => m.id === id,
+      );
+      if (!milestoneData || !srsService || !quizProgressService) return false;
+      const currentState = this.getMilestoneState(id);
+      if (currentState === "LOCKED" || currentState === "COMPLETED")
+        return false;
+      const requirements = milestoneData.unlock_requirements || {};
+      const requiredBox = requirements.srs_box_level || 4;
+      const requiredPct = requirements.grammar_quiz_pass_pct || 80;
+      const targetItems = (milestoneData.items || []).filter(
+        (item) => item.role === "target",
+      );
+      if (targetItems.length === 0) return false;
+      const allTargetsMet = targetItems.every((item) => {
+        const records = srsService.records || {};
+        const matchingKey = Object.keys(records).find((key) =>
+          key.includes(item.id),
+        );
+        if (!matchingKey) return false;
+        const record = records[matchingKey];
+        return Number.isInteger(record.box) && record.box >= requiredBox;
+      });
+      if (!allTargetsMet) return false;
+      const grammarItems = (milestoneData.items || []).filter(
+        (item) => item.role === "grammar",
+      );
+      if (grammarItems.length > 0) {
+        const quizRecords = quizProgressService.records || {};
+        let totalAttempts = 0,
+          correctAttempts = 0;
+        for (const item of grammarItems) {
+          const matchingKeys = Object.keys(quizRecords).filter((key) =>
+            key.startsWith(item.id + ":"),
+          );
+          for (const key of matchingKeys) {
+            const rec = quizRecords[key];
+            totalAttempts += (rec.correct || 0) + (rec.incorrect || 0);
+            correctAttempts += rec.correct || 0;
+          }
+        }
+        if (totalAttempts === 0) return false;
+        const passPct = Math.round((correctAttempts / totalAttempts) * 100);
+        if (passPct < requiredPct) return false;
+      }
+      let progress = this.getProgress();
+      if (!progress) progress = this.initializeProgress();
+      const milestones = manifest?.milestones || [];
+      const currentIndex = milestones.findIndex((m) => m.id === id);
+      progress[id] = {
+        state: "COMPLETED",
+        completed_via: "automated",
+        completed_at: new Date().toISOString(),
+      };
+      if (currentIndex + 1 < milestones.length) {
+        const nextId = milestones[currentIndex + 1].id;
+        if (progress[nextId]?.state === "LOCKED")
+          progress[nextId] = {
+            state: "UNLOCKED",
+            completed_via: null,
+            completed_at: null,
+          };
+      }
+      this.saveProgress(progress);
+      return true;
+    }
+    getNextMilestone() {
+      let progress = this.getProgress();
+      if (!progress) progress = this.initializeProgress();
+      const milestones = manifest?.milestones || [];
+      for (const m of milestones) {
+        if (progress[m.id]?.state === "IN_PROGRESS") return m.id;
+      }
+      const answers = loadJSON(STORAGE_KEYS.onboardingAnswers, {});
+      const goal = answers?.goal;
+      if (goal) {
+        const goalTags = this._getGoalTags(goal);
+        for (const m of milestones) {
+          if (progress[m.id]?.state === "UNLOCKED") {
+            const mTags = m.priority_tags || [];
+            if (mTags.some((t) => goalTags.includes(t))) return m.id;
+          }
+        }
+      }
+      for (const m of milestones) {
+        if (progress[m.id]?.state === "UNLOCKED") return m.id;
       }
       return null;
     }
-    reset() {
-      try {
-        localStorage.removeItem(this.planKey);
-        localStorage.removeItem(this.progressKey);
-      } catch {}
-    }
-    generate(answers) {
-      const plan = this._buildPlan(answers);
-      saveJSON(this.planKey, plan);
-      const progress = {};
-      plan.forEach((id) => {
-        progress[id] = "in-progress";
-      });
-      saveJSON(this.progressKey, progress);
-      return plan;
-    }
-    _buildPlan(answers) {
-      const allLessons = this._getAllLessons();
-      const minLevel = this._getMinLevel(answers.level);
-      const priorityCats = this._getPriorityCategories(answers.goal);
-      let filtered = allLessons.filter((l) => (l.level || 1) >= minLevel);
-      if (priorityCats.length > 0) {
-        const priority = [];
-        const rest = [];
-        for (const lesson of filtered) {
-          if (priorityCats.includes(lesson._categoryId)) priority.push(lesson);
-          else rest.push(lesson);
-        }
-        filtered = [...priority, ...rest];
-      }
-      const plan = [];
-      const added = new Set();
-      for (const lesson of filtered) {
-        if (!added.has(lesson.id)) {
-          plan.push(lesson.id);
-          added.add(lesson.id);
-        }
-      }
-      return plan.slice(0, 30);
-    }
-    _getMinLevel(userLevel) {
-      switch (userLevel) {
-        case "beginner":
-          return 1;
-        case "some":
-          return 2;
-        case "basic":
-          return 4;
-        case "advanced":
-          return 7;
-        default:
-          return 1;
+    markInProgress(id) {
+      let progress = this.getProgress();
+      if (!progress) progress = this.initializeProgress();
+      if (progress[id]?.state === "UNLOCKED") {
+        progress[id] = { ...progress[id], state: "IN_PROGRESS" };
+        this.saveProgress(progress);
       }
     }
-    _getPriorityCategories(goal) {
+    _getGoalTags(goal) {
       switch (goal) {
         case "travel":
-          return [
-            "cat_food",
-            "cat_transport",
-            "cat_accommodation",
-            "cat_travel",
-            "cat_emergency",
-          ];
+          return ["travel", "everyday"];
         case "business":
-          return ["cat_work", "cat_post", "cat_money"];
+          return ["business", "academic"];
+        case "everyday":
+          return ["everyday", "cultural"];
+        case "exam":
+          return ["academic", "everyday"];
         default:
           return [];
       }
     }
-    _getAllLessons() {
-      const lessons = [];
-      for (const category of manifest.categories || []) {
-        if (category.id === "cat_test") continue;
-        for (const lesson of category.lessons || [])
-          lessons.push({ ...lesson, _categoryId: category.id });
-      }
-      return lessons;
+    hasProgress() {
+      const p = this.getProgress();
+      return p && typeof p === "object" && Object.keys(p).length > 0;
+    }
+    reset() {
+      try {
+        localStorage.removeItem(this.progressKey);
+      } catch {}
     }
   }
 
@@ -2525,7 +2594,6 @@
     if (registry?.has(browserCode)) return browserCode;
     return registry?.allCodes()[0] || "";
   }
-
   function normalizeSettings(saved) {
     const s = saved || {};
     return {
@@ -2546,7 +2614,6 @@
       recordAndCompare: Boolean(s.recordAndCompare),
     };
   }
-
   function normalizeLessonLanguages(saved, targetLang) {
     if (!targetLang) return [];
     const browserLang = (navigator.language || "").toLowerCase().split("-")[0];
@@ -2564,7 +2631,6 @@
     }
     return defaults;
   }
-
   function saveState() {
     saveJSON(STORAGE_KEYS.settings, state.settings);
     saveJSON(STORAGE_KEYS.lessonLanguages, state.lessonLanguages);
@@ -2573,7 +2639,8 @@
   function resetTargetScopedServices() {
     srsService = new SrsService(STORAGE_KEYS.srs);
     quizProgressService = new QuizProgressService(STORAGE_KEYS.quiz);
-    studyPlanService = new StudyPlanService();
+    milestoneService = new MilestoneService();
+    milestoneService.initializeProgress();
     const savedTried = loadJSON(STORAGE_KEYS.lessonsTried, []);
     lessonsTried = new Set(Array.isArray(savedTried) ? savedTried : []);
     currentLesson = null;
@@ -2605,7 +2672,6 @@
     renderTargetLanguageControl();
     goHome();
   }
-
   function applyTheme() {
     document.documentElement.dataset.theme = state.settings.theme;
   }
@@ -2618,7 +2684,6 @@
     document.documentElement.lang = language?.bcp47 || appLang || "";
     document.documentElement.dir = language?.dir || "ltr";
   }
-
   function cycleTheme() {
     const index = THEME_CYCLE.indexOf(state.settings.theme);
     state.settings.theme = THEME_CYCLE[(index + 1) % THEME_CYCLE.length];
@@ -2626,7 +2691,6 @@
     applyTheme();
     renderHamburger();
   }
-
   function cycleFont() {
     state.settings.font =
       state.settings.font === "modern" ? "traditional" : "modern";
@@ -2635,7 +2699,6 @@
     renderHamburger();
     renderCurrent();
   }
-
   function setAppLanguage(code) {
     if (!registry.has(code)) return;
     state.settings.appLanguage = code;
@@ -2657,7 +2720,6 @@
     }
     renderCurrent();
   }
-
   function selectedLessonLanguages() {
     if (!currentLesson?.meta?.translations) return state.lessonLanguages;
     const available = currentLesson.meta.translations || [];
@@ -2669,7 +2731,6 @@
       return state.lessonLanguages.filter((c) => registry.has(c));
     return filtered;
   }
-
   function setLessonLanguageEnabled(code, enabled) {
     if (!registry.has(code)) return;
     const set = new Set(state.lessonLanguages);
@@ -2684,24 +2745,20 @@
     renderSettings();
     renderCurrent();
   }
-
   function preferredAppLanguages() {
     return [state.settings.appLanguage, "en", ...registry.allCodes()].filter(
       Boolean,
     );
   }
-
   function setVoiceForLanguage(code, name) {
     if (!state.settings.voices) state.settings.voices = {};
     if (name) state.settings.voices[code] = name;
     else delete state.settings.voices[code];
     saveState();
   }
-
   function refreshVoices() {
     availableVoices = mediaService?.getVoices() || [];
   }
-
   function markLessonTried(lessonId) {
     if (!lessonId) return;
     if (!lessonsTried.has(lessonId)) {
@@ -2709,10 +2766,8 @@
       saveJSON(STORAGE_KEYS.lessonsTried, [...lessonsTried]);
     }
   }
-
   function showView(name) {
     currentView = name;
-
     if (name !== "voicetest") stopVoiceTestPlayback();
     stopPlayback();
     clearPlaybackHighlights();
@@ -2733,13 +2788,11 @@
     if (elements.actionBar) elements.actionBar.hidden = !isLesson;
     if (elements.bottomBar) elements.bottomBar.hidden = !isLesson;
   }
-
   function rerenderCurrentView() {
     if (currentView === "progress") renderProgress();
     else if (currentView === "help") renderHelp();
     else renderHome();
   }
-
   function renderStaticLabels() {
     document.querySelectorAll("[data-ui-string]").forEach((el) => {
       el.textContent = t(el.dataset.uiString);
@@ -2749,14 +2802,12 @@
     });
     document.title = t("appTitle");
   }
-
   function makeEmptyState(text) {
     const div = document.createElement("div");
     div.className = "empty-state";
     div.textContent = text;
     return div;
   }
-
   function createRecordMicButton(item, code, text) {
     const micBtn = document.createElement("button");
     micBtn.type = "button";
@@ -2769,7 +2820,6 @@
     micBtn.textContent = "🎙️";
     return micBtn;
   }
-
   function createTextLine(text, code, extraClasses = []) {
     if (!registry.has(code)) return null;
     if (typeof text !== "string" || !text.trim()) return null;
@@ -2787,7 +2837,6 @@
     line.appendChild(span);
     return line;
   }
-
   function createSentenceTextLine(item, text, code, extraClasses = []) {
     if (!registry.has(code)) return null;
     if (typeof text !== "string" || !text.trim()) return null;
@@ -2823,7 +2872,6 @@
     line.appendChild(span);
     return line;
   }
-
   function clearExerciseHighlights() {
     if (exerciseHighlightTimerId) {
       clearInterval(exerciseHighlightTimerId);
@@ -2840,7 +2888,6 @@
       .querySelectorAll(".sentence-token.is-highlighted")
       .forEach((el) => el.classList.remove("is-highlighted"));
   }
-
   function speakLineWithHighlight(lineEl, text, code) {
     clearExerciseHighlights();
     if (!lineEl) {
@@ -2880,7 +2927,6 @@
       setTimeout(clearExerciseHighlights, delay);
     }
   }
-
   function renderCurrent() {
     if (elements.flashcardView && !elements.flashcardView.hidden) {
       renderFlashcards();
@@ -2916,7 +2962,6 @@
     }
     renderHome();
   }
-
   function openHamburger() {
     renderHamburger();
     elements.hamburgerPanel.hidden = false;
@@ -2924,14 +2969,12 @@
     const toggle = document.querySelector('[data-action="toggle-hamburger"]');
     if (toggle) toggle.setAttribute("aria-expanded", "true");
   }
-
   function closeHamburger() {
     elements.hamburgerPanel.hidden = true;
     elements.hamburgerBackdrop.hidden = true;
     const toggle = document.querySelector('[data-action="toggle-hamburger"]');
     if (toggle) toggle.setAttribute("aria-expanded", "false");
   }
-
   function renderHamburger() {
     const theme = state.settings.theme;
     elements.themeIcon.textContent =
@@ -2954,7 +2997,6 @@
     elements.fontLabel.textContent = `${t("font")}: ${fontName}`;
     renderAppLanguageControl();
   }
-
   function renderAppLanguageControl() {
     const container = elements.appLanguageControl;
     if (!container) return;
@@ -2974,14 +3016,29 @@
 
   async function loadManifest() {
     try {
-      const response = await fetch("lessons/manifest.json", {
-        cache: "no-cache",
-      });
+      // Fetch from root level as requested
+      const response = await fetch("manifest.json", { cache: "no-cache" });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      return await response.json();
+      const rawData = await response.json();
+
+      // Ensure fallback structure exists if the file is incomplete or missing blocks
+      if (!rawData.zabon) {
+        console.warn(
+          "Zabon: manifest.json is missing the 'zabon' object. Adding fallback.",
+        );
+        rawData.zabon = { languages: [] };
+      }
+      if (!rawData.categories) rawData.categories = [];
+      if (!rawData.milestones) rawData.milestones = [];
+
+      return rawData;
     } catch (error) {
       console.error("Zabon: unable to load manifest.json.", error);
-      return { zabon: { languages: [] }, categories: [] };
+      return {
+        zabon: { languages: [] },
+        categories: [],
+        milestones: [],
+      };
     }
   }
 
@@ -2997,7 +3054,6 @@
       intermediate: "intermediate",
       advanced: "advanced",
     };
-
     const filteredCategories = (manifest.categories || [])
       .map((cat) => {
         if (cat.id === "cat_test") return null;
@@ -3008,7 +3064,6 @@
         return { ...cat, lessons: validLessons };
       })
       .filter(Boolean);
-
     for (const category of filteredCategories) {
       if (category.standalone) {
         standalone.push(category);
@@ -3019,8 +3074,6 @@
       const tier = proficiencyToTier[proficiency] || "introductory";
       tiers[tier].thematic.push(category);
     }
-
-    // Sort categories: Grammar first, then alphabetical
     for (const tierKey of Object.keys(tiers)) {
       tiers[tierKey].thematic.sort((a, b) => {
         const isGrammarA = a.id.startsWith("cat_grammar");
@@ -3036,17 +3089,14 @@
         return titleA.localeCompare(titleB);
       });
     }
-
     return { tiers, standalone };
   }
-
   function countTierLessons(tier) {
     let count = 0;
     for (const category of tier.thematic)
       count += (category.lessons || []).length;
     return count;
   }
-
   function countTierLessonsTried(tier) {
     let count = 0;
     for (const category of tier.thematic) {
@@ -3055,7 +3105,6 @@
     }
     return count;
   }
-
   function renderProficiencyTier(tierKey, label, tier) {
     const wrap = document.createElement("div");
     wrap.className = "proficiency-tier";
@@ -3127,12 +3176,7 @@
     };
     const nextUpCard = renderNextUpCard();
     if (nextUpCard) view.appendChild(nextUpCard);
-
-    const studyPlanSection = renderStudyPlanProgressSection();
-    if (studyPlanSection) view.appendChild(studyPlanSection);
-
     const list = document.createElement("div");
-
     list.className = "category-list";
     for (const tierKey of tierOrder) {
       const tier = tiers[tierKey];
@@ -3147,7 +3191,9 @@
   }
 
   function getSortedLanguages() {
-    return [...manifest.zabon.languages]
+    // Safely access manifest.zabon.languages, fallback to empty array if missing
+    const langs = manifest?.zabon?.languages || [];
+    return [...langs]
       .filter((lang) => lang?.code)
       .sort((a, b) => {
         const nameA = languageDisplayName(a.code).toLowerCase();
@@ -3155,7 +3201,6 @@
         return nameA.localeCompare(nameB);
       });
   }
-
   function renderTargetLanguageControl() {
     const container = elements.targetLanguageControl;
     if (!container) return;
@@ -3193,7 +3238,7 @@
   }
 
   function getNextBrowseLesson() {
-    const progress = studyPlanService ? studyPlanService.getProgress() : {};
+    const progress = milestoneService ? milestoneService.getProgress() : {};
     const { tiers } = groupCategoriesByProficiency();
     const tierOrder = ["introductory", "intermediate", "advanced"];
     for (const tierKey of tierOrder) {
@@ -3210,18 +3255,6 @@
   }
 
   function getNavigationContext(lessonId) {
-    if (studyPlanService && studyPlanService.hasPlan()) {
-      const plan = studyPlanService.getPlan();
-      const idx = plan.indexOf(lessonId);
-      if (idx !== -1) {
-        return {
-          list: plan,
-          index: idx,
-          prevId: idx > 0 ? plan[idx - 1] : null,
-          nextId: idx < plan.length - 1 ? plan[idx + 1] : null,
-        };
-      }
-    }
     for (const cat of manifest.categories || []) {
       const lessons = (cat.lessons || []).filter(lessonBelongsToActiveTarget);
       const idx = lessons.findIndex((l) => l.id === lessonId);
@@ -3244,229 +3277,30 @@
     return t("tierAdvanced");
   }
 
-  function renderStudyPlanProgressSection() {
-    if (!studyPlanService) return null;
-
-    const section = document.createElement("section");
-    section.className = "progress-section";
-
-    const isOpen = openProgressSections.has("progress:study-plan");
-    const header = document.createElement("button");
-    header.type = "button";
-    header.className = "progress-section__header";
-    header.dataset.action = "toggle-progress-section";
-    header.dataset.sectionKey = "progress:study-plan";
-
-    const title = document.createElement("span");
-    title.className = "progress-section__title";
-    title.textContent = "🎯 " + t("studyPlanAndProgress");
-
-    const chevron = document.createElement("span");
-    chevron.className = "progress-section__chevron";
-    chevron.textContent = isOpen ? "\u25BE" : "\u25B8";
-
-    header.append(title, chevron);
-    section.appendChild(header);
-    if (!isOpen) return section;
-
-    const body = document.createElement("div");
-    body.className = "progress-section__body";
-
-    if (!studyPlanService.hasPlan()) {
-      body.appendChild(makeEmptyState(t("noStudyPlan")));
-      const createBtn = document.createElement("button");
-      createBtn.type = "button";
-      createBtn.className = "button button--wide";
-      createBtn.dataset.action = "create-plan";
-      createBtn.textContent = t("createStudyPlan");
-      body.appendChild(createBtn);
-      section.appendChild(body);
-      return section;
-    }
-
-    const plan = studyPlanService.getPlan();
-    const progress = studyPlanService.getProgress();
-    const completeCount = plan.filter(
-      (id) => progress[id] === "complete",
-    ).length;
-    const totalCount = plan.length;
-    const percentage =
-      totalCount > 0 ? Math.round((completeCount / totalCount) * 100) : 0;
-
-    const progressBar = document.createElement("div");
-    progressBar.className = "plan-progress-bar";
-    const progressFill = document.createElement("div");
-    progressFill.className = "plan-progress-fill";
-    progressFill.style.inlineSize = percentage + "%";
-    progressBar.appendChild(progressFill);
-    body.appendChild(progressBar);
-
-    const progressLabel = document.createElement("div");
-    progressLabel.className = "plan-progress-label";
-    progressLabel.textContent =
-      completeCount + "/" + totalCount + " \u00B7 " + percentage + "%";
-    body.appendChild(progressLabel);
-
-    // Inner collapsible panel: "Study Plan" (Closed by default)
-    const innerOpen = openProgressSections.has("progress:study-plan-inner");
-    const innerSection = document.createElement("section");
-    innerSection.className = "progress-section";
-
-    const innerHeader = document.createElement("button");
-    innerHeader.type = "button";
-    innerHeader.className = "progress-section__header";
-    innerHeader.dataset.action = "toggle-progress-section";
-    innerHeader.dataset.sectionKey = "progress:study-plan-inner";
-
-    const innerTitle = document.createElement("span");
-    innerTitle.className = "progress-section__title";
-    innerTitle.textContent = t("studyPlan");
-
-    const innerChevron = document.createElement("span");
-    innerChevron.className = "progress-section__chevron";
-    innerChevron.textContent = innerOpen ? "\u25BE" : "\u25B8";
-
-    innerHeader.append(innerTitle, innerChevron);
-    innerSection.appendChild(innerHeader);
-
-    if (innerOpen) {
-      const innerBody = document.createElement("div");
-      innerBody.className = "progress-section__body";
-
-      // Group lessons by proficiency, PRESERVING the plan array order
-      const planTiers = { introductory: [], intermediate: [], advanced: [] };
-      for (const lessonId of plan) {
-        const meta = findLessonMeta(lessonId);
-        if (!meta) continue;
-        const prof = meta.proficiency || "beginner";
-        let tierKey = "introductory";
-        if (prof === "intermediate") tierKey = "intermediate";
-        else if (prof === "advanced") tierKey = "advanced";
-        planTiers[tierKey].push(meta);
-      }
-
-      const tierOrder = ["introductory", "intermediate", "advanced"];
-      const tierLabels = {
-        introductory: t("tierIntroductory"),
-        intermediate: t("tierIntermediate"),
-        advanced: t("tierAdvanced"),
-      };
-
-      for (const tierKey of tierOrder) {
-        const lessons = planTiers[tierKey];
-        if (lessons.length === 0) continue; // Skip empty tiers
-
-        const wrap = document.createElement("div");
-        wrap.className = "proficiency-tier";
-        const openKey = "tier:" + tierKey;
-        const isOpenTier = openCategories.has(openKey);
-
-        const totalLessons = lessons.length;
-        const triedLessons = lessons.filter((l) =>
-          lessonsTried.has(l.id),
-        ).length;
-
-        const tierHeader = document.createElement("button");
-        tierHeader.type = "button";
-        tierHeader.className = "proficiency-tier__header";
-        tierHeader.dataset.action = "toggle-tier";
-        tierHeader.dataset.tierId = tierKey;
-
-        const icon = document.createElement("span");
-        icon.className = "proficiency-tier__icon";
-        icon.textContent = TIER_ICONS[tierKey] || "";
-
-        const titleEl = document.createElement("span");
-        titleEl.className = "proficiency-tier__title";
-        titleEl.textContent = tierLabels[tierKey];
-
-        const titleGroup = document.createElement("span");
-        titleGroup.className = "proficiency-tier__title-group";
-        titleGroup.append(icon, titleEl);
-
-        const progressEl = document.createElement("span");
-        progressEl.className = "proficiency-tier__progress";
-        progressEl.textContent = triedLessons + "/" + totalLessons;
-
-        const chev = document.createElement("span");
-        chev.className = "category__chevron";
-        chev.textContent = isOpenTier ? "\u25BE" : "\u25B8";
-
-        tierHeader.append(titleGroup, progressEl, chev);
-        wrap.appendChild(tierHeader);
-
-        if (isOpenTier) {
-          const tierBody = document.createElement("div");
-          tierBody.className = "proficiency-tier__body";
-
-          // Render lessons directly in plan order (NO category wrapper, NO alphabetical sort)
-          lessons.forEach((lesson) => {
-            const status = progress[lesson.id];
-            const button = document.createElement("button");
-            button.type = "button";
-            button.className = "lesson-card";
-            if (status === "complete") button.classList.add("is-complete");
-            button.dataset.action = "open-lesson";
-            button.dataset.lessonId = lesson.id;
-
-            const statusIcon = document.createElement("span");
-            statusIcon.className = "lesson-card__status";
-            statusIcon.textContent = statusToIcon(status);
-
-            const lessonTitle = document.createElement("span");
-            lessonTitle.className = "lesson-card__title";
-            lessonTitle.textContent =
-              dataService.getLocalizedText(
-                lesson.title,
-                preferredAppLanguages(),
-              ) || lesson.id;
-
-            button.append(statusIcon, lessonTitle);
-            tierBody.appendChild(button);
-          });
-          wrap.appendChild(tierBody);
-        }
-        innerBody.appendChild(wrap);
-      }
-
-      const actions = document.createElement("div");
-      actions.className = "plan-actions";
-
-      const editBtn = document.createElement("button");
-      editBtn.type = "button";
-      editBtn.className = "button button--wide";
-      editBtn.dataset.action = "edit-plan";
-      editBtn.textContent = t("editStudyPlan");
-
-      const deleteBtn = document.createElement("button");
-      deleteBtn.type = "button";
-      deleteBtn.className = "button button--wide";
-      deleteBtn.dataset.action = "delete-plan";
-      deleteBtn.textContent = t("deleteStudyPlan");
-
-      actions.append(editBtn, deleteBtn);
-      innerBody.appendChild(actions);
-
-      innerSection.appendChild(innerBody);
-    }
-
-    body.appendChild(innerSection);
-    section.appendChild(body);
-    return section;
-  }
-
   function renderNextUpCard() {
     let previewId = nextUpPreviewId;
     if (!previewId) {
-      if (studyPlanService && studyPlanService.hasPlan())
-        previewId = studyPlanService.getNextLesson();
+      const nextMilestoneId = milestoneService
+        ? milestoneService.getNextMilestone()
+        : null;
+      if (nextMilestoneId) previewId = nextMilestoneId;
       else {
         const nextLesson = getNextBrowseLesson();
         if (nextLesson) previewId = nextLesson.id;
       }
     }
     if (!previewId) return null;
-    const meta = findLessonMeta(previewId);
+    let meta = findLessonMeta(previewId);
+    if (!meta) {
+      const milestone = manifest?.milestones?.find((m) => m.id === previewId);
+      if (milestone)
+        meta = {
+          id: milestone.id,
+          title: { en: milestone.title },
+          proficiency:
+            milestone.tier === "beginner" ? "beginner" : milestone.tier,
+        };
+    }
     if (!meta) return null;
     const context = getNavigationContext(previewId);
     const card = document.createElement("div");
@@ -3487,63 +3321,27 @@
     levelSpan.className = "next-up-card__level";
     levelSpan.textContent = `${tierIcon} ${getTierLabelForLesson(meta)} ${t("lessonsLabel")}`;
     metaRow.appendChild(levelSpan);
-    if (Array.isArray(meta.rules) && meta.rules.length > 0) {
-      meta.rules.forEach((ruleId) => {
-        const rule = (manifest.grammar_rules || []).find(
-          (r) => r.id === ruleId,
-        );
-        if (!rule) return;
-        const badge = document.createElement("button");
-        badge.type = "button";
-        badge.className = "grammar-badge";
-        badge.dataset.action = "open-grammar-rule";
-        badge.dataset.ruleId = ruleId;
-        badge.textContent = `🧩 ${dataService.getLocalizedText(rule.title, preferredAppLanguages()) || ruleId}`;
-        metaRow.appendChild(badge);
-      });
-    }
     card.appendChild(metaRow);
     const navRow = document.createElement("div");
     navRow.className = "next-up-card__nav";
-    const prevBtn = document.createElement("button");
-    prevBtn.type = "button";
-    prevBtn.className = "button";
-    prevBtn.dataset.action = "next-up-preview-prev";
-    prevBtn.textContent = "◀";
-    prevBtn.disabled = !context.prevId;
-    navRow.appendChild(prevBtn);
-    const progress = document.createElement("span");
-    progress.className = "next-up-card__progress";
-    progress.textContent = `${context.index + 1} / ${context.list.length}`;
-    navRow.appendChild(progress);
-    const nextBtn = document.createElement("button");
-    nextBtn.type = "button";
-    nextBtn.className = "button";
-    nextBtn.dataset.action = "next-up-preview-next";
-    nextBtn.textContent = "▶";
-    nextBtn.disabled = !context.nextId;
-    navRow.appendChild(nextBtn);
     const openBtn = document.createElement("button");
     openBtn.type = "button";
     openBtn.className = "button next-up-card__open";
     openBtn.dataset.action = "next-up-continue";
     openBtn.dataset.lessonId = previewId;
-    openBtn.textContent = t("open");
+    openBtn.textContent = "Open";
     navRow.appendChild(openBtn);
     card.appendChild(navRow);
     return card;
   }
 
   function handleNextUpSkip(lessonId) {
-    if (!studyPlanService) return;
-    studyPlanService.markLesson(lessonId, "skipped");
+    nextUpPreviewId = null;
     renderHome();
   }
-
   function handleEditPlan() {
     renderOnboarding();
   }
-
   function normalizeOnboardingAnswers(saved) {
     const validGoals = ["travel", "business", "everyday", "exam"];
     const validLevels = ["beginner", "some", "basic", "advanced"];
@@ -3556,7 +3354,6 @@
         : [],
     };
   }
-
   function collectOnboardingAnswers() {
     const view = elements.onboardingView;
     if (!view) return normalizeOnboardingAnswers({});
@@ -3569,11 +3366,9 @@
     ).map((input) => input.value);
     return normalizeOnboardingAnswers({ goal, level, usage });
   }
-
   function saveCurrentOnboardingAnswers() {
     saveJSON(STORAGE_KEYS.onboardingAnswers, collectOnboardingAnswers());
   }
-
   function refreshOnboardingGenerateButton() {
     const view = elements.onboardingView;
     if (!view) return;
@@ -3610,13 +3405,12 @@
     goalSection.appendChild(goalTitle);
     const goalOptions = document.createElement("div");
     goalOptions.className = "onboarding-options";
-    const goalValues = [
+    [
       ["travel", t("onboardingGoalTravel")],
       ["business", t("onboardingGoalBusiness")],
       ["everyday", t("onboardingGoalEveryday")],
       ["exam", t("onboardingGoalExam")],
-    ];
-    goalValues.forEach(([value, label]) => {
+    ].forEach(([value, label]) => {
       const option = document.createElement("label");
       option.className = "onboarding-option";
       const input = document.createElement("input");
@@ -3644,13 +3438,12 @@
     levelSection.appendChild(levelTitle);
     const levelOptions = document.createElement("div");
     levelOptions.className = "onboarding-options";
-    const levelValues = [
+    [
       ["beginner", t("onboardingLevelBeginner")],
       ["some", t("onboardingLevelSome")],
       ["basic", t("onboardingLevelBasic")],
       ["advanced", t("onboardingLevelAdvanced")],
-    ];
-    levelValues.forEach(([value, label]) => {
+    ].forEach(([value, label]) => {
       const option = document.createElement("label");
       option.className = "onboarding-option";
       const input = document.createElement("input");
@@ -3678,13 +3471,12 @@
     usageSection.appendChild(usageTitle);
     const usageOptions = document.createElement("div");
     usageOptions.className = "onboarding-options";
-    const usageValues = [
+    [
       ["reading", t("onboardingUsageReading")],
       ["speaking", t("onboardingUsageSpeaking")],
       ["media", t("onboardingUsageMedia")],
       ["writing", t("onboardingUsageWriting")],
-    ];
-    usageValues.forEach(([value, label]) => {
+    ].forEach(([value, label]) => {
       const option = document.createElement("label");
       option.className = "onboarding-option";
       const input = document.createElement("input");
@@ -3730,16 +3522,7 @@
     const answers = collectOnboardingAnswers();
     if (!answers.goal || !answers.level) return;
     saveJSON(STORAGE_KEYS.onboardingAnswers, answers);
-    const oldProgress = studyPlanService.getProgress();
-    studyPlanService.generate(answers);
-    const newPlan = studyPlanService.getPlan();
-    const updatedProgress = studyPlanService.getProgress();
-    for (const lessonId of newPlan) {
-      const oldStatus = oldProgress[lessonId];
-      if (oldStatus === "complete" || oldStatus === "skipped")
-        updatedProgress[lessonId] = oldStatus;
-    }
-    saveJSON(STORAGE_KEYS.studyPlanProgress, updatedProgress);
+    if (milestoneService) milestoneService.initializeProgress();
     saveJSON(STORAGE_KEYS.onboardingComplete, true);
     renderHome();
   }
@@ -3749,11 +3532,9 @@
     saveJSON(STORAGE_KEYS.onboardingComplete, true);
     renderHome();
   }
-
   function goHome() {
     renderHome();
   }
-
   function lessonBelongsToActiveTarget(lesson) {
     const target = state?.settings?.targetLanguage;
     if (!target) return false;
@@ -3766,51 +3547,38 @@
     const wrap = document.createElement("div");
     wrap.className = "category";
     const isOpen = openCategories.has(category.id);
-    const progressMap = studyPlanService ? studyPlanService.getProgress() : {};
-
+    const progressMap = milestoneService ? milestoneService.getProgress() : {};
     const header = document.createElement("button");
     header.type = "button";
     header.className = "category__header";
     header.dataset.action = "toggle-category";
     header.dataset.categoryId = category.id;
-
     const icon = document.createElement("span");
     icon.className = "category__icon";
     icon.textContent = CATEGORY_ICONS[category.id] || "";
-
     const title = document.createElement("span");
     title.className = "category__title";
     title.textContent =
       dataService.getLocalizedText(category.title, preferredAppLanguages()) ||
       category.id;
-
     const titleGroup = document.createElement("span");
     titleGroup.className = "category__title-group";
     titleGroup.append(icon, title);
-
-    // PRESERVE MANIFEST ORDER (No alphabetical sorting)
     const lessons = category.lessons || [];
-
     const tried = lessons.filter((lesson) =>
       lessonsTried.has(lesson.id),
     ).length;
-
     const counter = document.createElement("span");
     counter.className = "category__progress";
     counter.textContent = tried + "/" + lessons.length;
-
     const chevron = document.createElement("span");
     chevron.className = "category__chevron";
     chevron.textContent = isOpen ? "\u25BE" : "\u25B8";
-
     header.append(titleGroup, counter, chevron);
     wrap.appendChild(header);
-
     if (isOpen) {
       const lessonsEl = document.createElement("div");
       lessonsEl.className = "category__lessons";
-
-      // Render lessons in their original manifest order
       lessons.forEach((lesson) => {
         const status = progressMap[lesson.id];
         const button = document.createElement("button");
@@ -3819,17 +3587,14 @@
         if (status === "complete") button.classList.add("is-complete");
         button.dataset.action = "open-lesson";
         button.dataset.lessonId = lesson.id;
-
         const statusIcon = document.createElement("span");
         statusIcon.className = "lesson-card__status";
         statusIcon.textContent = statusToIcon(status);
-
         const titleEl = document.createElement("span");
         titleEl.className = "lesson-card__title";
         titleEl.textContent =
           dataService.getLocalizedText(lesson.title, preferredAppLanguages()) ||
           lesson.id;
-
         button.append(statusIcon, titleEl);
         lessonsEl.appendChild(button);
       });
@@ -3843,26 +3608,22 @@
     if (status === "skipped") return "\u23ED";
     return "\u25B6";
   }
-
   function toggleCategory(id) {
     if (openCategories.has(id)) openCategories.delete(id);
     else openCategories.add(id);
-    rerenderCurrentView(); // Changed from renderHome()
+    rerenderCurrentView();
   }
-
   function toggleTier(tierId) {
     const key = "tier:" + tierId;
     if (openCategories.has(key)) openCategories.delete(key);
     else openCategories.add(key);
-    rerenderCurrentView(); // Changed from renderHome()
+    rerenderCurrentView();
   }
-
   function toggleProgressSection(key) {
     if (openProgressSections.has(key)) openProgressSections.delete(key);
     else openProgressSections.add(key);
-    rerenderCurrentView(); // Changed from renderProgress()
+    rerenderCurrentView();
   }
-
   function toggleLessonSection(sectionKey) {
     if (openLessonSections.has(sectionKey))
       openLessonSections.delete(sectionKey);
@@ -3871,10 +3632,9 @@
   }
 
   function handleDeletePlan() {
-    if (!studyPlanService) return;
+    if (!milestoneService) return;
     if (!window.confirm(t("deleteStudyPlanConfirm"))) return;
-    studyPlanService.reset();
-    clearProgressKeys([STORAGE_KEYS.lessonBaseStatus]);
+    milestoneService.reset();
     renderHome();
   }
 
@@ -3885,7 +3645,6 @@
     }
     return null;
   }
-
   async function loadLessonFile(path) {
     try {
       const response = await fetch(path, { cache: "no-cache" });
@@ -4036,8 +3795,9 @@
     const targetBar = elements.bottomBar;
     if (!targetBar || !currentLesson) return;
     const lessonId = currentLesson.meta.id;
-    const progress = studyPlanService ? studyPlanService.getProgress() : {};
-    const isComplete = progress[lessonId] === "complete";
+    const isComplete = milestoneService
+      ? milestoneService.getMilestoneState(lessonId) === "COMPLETED"
+      : false;
     const label = document.createElement("label");
     label.className = "complete-toggle";
     const checkbox = document.createElement("input");
@@ -4058,23 +3818,8 @@
   }
 
   function setLessonComplete(lessonId, complete) {
-    if (!studyPlanService) return;
-    const baseStatusMap = loadJSON(STORAGE_KEYS.lessonBaseStatus, {});
-    if (complete) {
-      const currentStatus = studyPlanService.getProgress()[lessonId];
-      if (currentStatus !== "complete") {
-        baseStatusMap[lessonId] = currentStatus || "in-progress";
-        saveJSON(STORAGE_KEYS.lessonBaseStatus, baseStatusMap);
-      }
-      studyPlanService.markLesson(lessonId, "complete");
-    } else {
-      const saved = baseStatusMap[lessonId];
-      const restored =
-        saved === "skipped" || saved === "in-progress" ? saved : "in-progress";
-      delete baseStatusMap[lessonId];
-      saveJSON(STORAGE_KEYS.lessonBaseStatus, baseStatusMap);
-      studyPlanService.markLesson(lessonId, restored);
-    }
+    if (!milestoneService) return;
+    milestoneService.setMilestoneComplete(lessonId, complete);
   }
 
   function ensureAllSectionsOpen() {
@@ -4085,7 +3830,6 @@
           openLessonSections.add(btn.dataset.sectionKey);
       });
   }
-
   function renderLessonSection(titleText, items, langs, sectionKey) {
     const section = document.createElement("section");
     section.className = "lesson-section";
@@ -4117,7 +3861,6 @@
     section.appendChild(body);
     return section;
   }
-
   function renderItemColumn(item, langs) {
     if (item.header) {
       const column = document.createElement("div");
@@ -4147,7 +3890,6 @@
       );
     return column;
   }
-
   function parseScriptConnections(connections) {
     const forms = { isolated: "", initial: "", medial: "", final: "" };
     if (!connections) return forms;
@@ -4170,7 +3912,6 @@
     }
     return forms;
   }
-
   function renderLanguageCell(item, code) {
     const kind = dataService.getItemKind(item);
     const text = dataService.getText(item, code);
@@ -4227,7 +3968,6 @@
     }
     return cell;
   }
-
   function renderPhoneticCell(item) {
     const code = state.settings.targetLanguage;
     const text = dataService.getText(item, code);
@@ -4254,7 +3994,6 @@
     }
     return cell;
   }
-
   function renderScriptCell(item) {
     const code = state.settings.targetLanguage;
     const text = dataService.getText(item, code);
@@ -4311,13 +4050,11 @@
     }
     return cell;
   }
-
   function getCellElement(itemId, lang) {
     return document.querySelector(
       `.language-cell[data-item-id="${cssEscape(itemId)}"][data-lang="${cssEscape(lang)}"]`,
     );
   }
-
   function openSettings() {
     stopPlayback();
     clearExerciseHighlights();
@@ -4327,7 +4064,6 @@
   function closeSettings() {
     elements.settingsSheet.hidden = true;
   }
-
   function openGrammarOverlay(ruleId) {
     const rule = (manifest.grammar_rules || []).find((r) => r.id === ruleId);
     if (!rule) return;
@@ -4388,7 +4124,6 @@
     sheet.appendChild(panel);
     document.body.appendChild(sheet);
   }
-
   function closeGrammarOverlay() {
     const sheet = document.getElementById("grammar-overlay");
     if (sheet) sheet.remove();
@@ -4404,7 +4139,6 @@
   let recordingTimeoutId = null;
   let currentAudioUrl = null;
   let currentAudioElement = null;
-
   async function startRecordingTest() {
     try {
       audioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
@@ -4446,12 +4180,10 @@
       return false;
     }
   }
-
   function stopRecordingTest() {
     if (mediaRecorder && mediaRecorder.state !== "inactive")
       mediaRecorder.stop();
   }
-
   function updateRecordOverlayButton(state) {
     const btn = document.querySelector("#record-overlay .record-overlay__btn");
     if (!btn) return;
@@ -4469,7 +4201,6 @@
       btn.disabled = false;
     }
   }
-
   async function startRecordingFlow() {
     isRecording = true;
     updateRecordOverlayButton("recording");
@@ -4493,7 +4224,6 @@
       showRecordError();
     }
   }
-
   function showRecordError(
     messageKey = "recordPermissionDenied",
     disableButton = true,
@@ -4509,7 +4239,6 @@
     const btn = body.querySelector(".record-overlay__btn");
     if (btn) btn.disabled = disableButton;
   }
-
   function stopRecordingFlow() {
     if (!isRecording) return;
     isRecording = false;
@@ -4519,7 +4248,6 @@
     }
     stopRecordingTest();
   }
-
   async function playAndCompare() {
     const btn = document.querySelector("#record-overlay .record-overlay__btn");
     if (!btn || !recordedBlob) return;
@@ -4567,7 +4295,6 @@
       cleanupAndReset();
     }
   }
-
   function openRecordOverlay(itemId, lang, text) {
     stopPlayback();
     clearExerciseHighlights();
@@ -4620,7 +4347,6 @@
     sheet.appendChild(panel);
     document.body.appendChild(sheet);
   }
-
   function closeRecordOverlay() {
     const sheet = document.getElementById("record-overlay");
     if (sheet) sheet.remove();
@@ -4650,7 +4376,6 @@
     body.appendChild(renderRecordAndCompareSection());
     body.appendChild(renderVoicesSection());
   }
-
   function renderLanguageCheckboxList(codes, onChangeHandler) {
     const list = document.createElement("div");
     list.className = "language-list";
@@ -4675,7 +4400,6 @@
     });
     return list;
   }
-
   function renderSettingsLanguagesSection(lessonLangs) {
     const section = document.createElement("div");
     section.className = "sheet-section";
@@ -4690,7 +4414,6 @@
     section.appendChild(list);
     return section;
   }
-
   function renderRepeatSection() {
     const section = document.createElement("div");
     section.className = "sheet-section";
@@ -4708,7 +4431,6 @@
     section.appendChild(input);
     return section;
   }
-
   function renderSpeedSection() {
     const section = document.createElement("div");
     section.className = "sheet-section";
@@ -4718,12 +4440,11 @@
     section.appendChild(title);
     const row = document.createElement("div");
     row.className = "radio-row";
-    const speeds = [
+    [
       ["normal", t("speedNormal")],
       ["slow", t("speedSlow")],
       ["slower", t("speedSlower")],
-    ];
-    speeds.forEach(([value, label]) => {
+    ].forEach(([value, label]) => {
       const labelEl = document.createElement("label");
       labelEl.className = "radio-control";
       const input = document.createElement("input");
@@ -4740,7 +4461,6 @@
     section.appendChild(row);
     return section;
   }
-
   function renderFontSection() {
     const section = document.createElement("div");
     section.className = "sheet-section";
@@ -4750,11 +4470,10 @@
     section.appendChild(title);
     const row = document.createElement("div");
     row.className = "radio-row";
-    const fonts = [
+    [
       ["modern", t("fontModern")],
       ["traditional", t("fontTraditional")],
-    ];
-    fonts.forEach(([value, label]) => {
+    ].forEach(([value, label]) => {
       const labelEl = document.createElement("label");
       labelEl.className = "radio-control";
       const input = document.createElement("input");
@@ -4771,7 +4490,6 @@
     section.appendChild(row);
     return section;
   }
-
   function renderRecordAndCompareSection() {
     const section = document.createElement("div");
     section.className = "sheet-section";
@@ -4804,7 +4522,6 @@
     section.appendChild(label);
     return section;
   }
-
   function renderVoicesSection() {
     const section = document.createElement("div");
     section.className = "sheet-section";
@@ -4853,7 +4570,6 @@
     section.appendChild(reset);
     return section;
   }
-
   function setRepeatCount(value) {
     state.settings.repeatCount = normalizeRepeatCount(value);
     saveState();
@@ -4871,7 +4587,6 @@
     applyFont();
     renderHamburger();
   }
-
   function getItemPool(kind) {
     if (!currentLesson) return [];
     const items = kind
@@ -4881,7 +4596,6 @@
       : currentLesson.items.filter((item) => !item.header);
     return items.map((item) => item.id);
   }
-
   function buildPlaybackUnits() {
     if (!currentLesson) return [];
     const items = currentLesson.items.filter((item) => !item.header);
@@ -4911,7 +4625,6 @@
     }
     return units;
   }
-
   function startPlaybackFromBeginning() {
     ensureAllSectionsOpen();
     renderLesson();
@@ -4922,7 +4635,6 @@
     }
     startPlaybackAt(units, 0);
   }
-
   function startPlaybackFromCell(itemId, code) {
     const units = buildPlaybackUnits();
     const index = units.findIndex(
@@ -4934,7 +4646,6 @@
     }
     startPlaybackAt(units, index);
   }
-
   function startPlaybackAt(units, index) {
     stopPlayback();
     playbackSessionCounter += 1;
@@ -4951,7 +4662,6 @@
     playCurrentUnit();
     refreshPlaybackUI();
   }
-
   function togglePlayPause() {
     if (playbackState.status === "playing") {
       pausePlayback();
@@ -4963,7 +4673,6 @@
     }
     startPlaybackFromBeginning();
   }
-
   function pausePlayback() {
     if (playbackState.status !== "playing") return;
     playbackSessionCounter += 1;
@@ -4972,7 +4681,6 @@
     cancelCurrentSpeech();
     refreshPlaybackUI();
   }
-
   function resumePlayback() {
     if (playbackState.status !== "paused") return;
     playbackSessionCounter += 1;
@@ -4981,7 +4689,6 @@
     playCurrentUnit();
     refreshPlaybackUI();
   }
-
   function stopPlayback() {
     if (playbackState) {
       playbackSessionCounter += 1;
@@ -4994,7 +4701,6 @@
     cancelCurrentSpeech();
     refreshPlaybackUI();
   }
-
   function cancelCurrentSpeech() {
     clearPlaybackHighlights();
     if (playbackState) {
@@ -5006,7 +4712,6 @@
     }
     if (mediaService?.supported) window.speechSynthesis.cancel();
   }
-
   function clearPlaybackHighlights() {
     if (playbackState && playbackState.highlightTimerId) {
       clearInterval(playbackState.highlightTimerId);
@@ -5019,7 +4724,6 @@
       .querySelectorAll(".sentence-token.is-highlighted")
       .forEach((el) => el.classList.remove("is-highlighted"));
   }
-
   function scrollUnitIntoView(unit) {
     const cell = getCellElement(unit.itemId, unit.languageCode);
     if (!cell) return;
@@ -5031,7 +4735,6 @@
       behavior: "smooth",
     });
   }
-
   function playCurrentUnit() {
     if (!playbackState || playbackState.status !== "playing") return;
     const unit = playbackState.units?.[playbackState.index];
@@ -5047,7 +4750,6 @@
     scrollUnitIntoView(unit);
     speakUnit(unit);
   }
-
   function speakUnit(unit) {
     if (!playbackState || playbackState.status !== "playing") return;
     const session = playbackState.session ?? 0;
@@ -5095,7 +4797,6 @@
     });
     playbackState.utterance = utterance || null;
   }
-
   function highlightUnit(unit) {
     clearPlaybackHighlights();
     const cell = getCellElement(unit.itemId, unit.languageCode);
@@ -5124,7 +4825,6 @@
       }
     }
   }
-
   function nextUnit() {
     if (playbackState.status !== "playing") return;
     playbackState.index += 1;
@@ -5135,7 +4835,6 @@
     }
     playCurrentUnit();
   }
-
   function refreshPlaybackUI() {
     const playButton = document.querySelector('[data-action="media-play"]');
     if (playButton) {
@@ -5146,7 +4845,6 @@
     const stopButton = document.querySelector('[data-action="media-stop"]');
     if (stopButton) stopButton.disabled = playbackState.status === "idle";
   }
-
   function exerciseHeader(titleText, backAction) {
     const header = document.createElement("div");
     header.className = "document-header";
@@ -5162,7 +4860,6 @@
     header.append(back, title);
     return header;
   }
-
   function configRow(labelText, control) {
     const row = document.createElement("div");
     row.className = "config-row";
@@ -5173,7 +4870,6 @@
     row.appendChild(control);
     return row;
   }
-
   function renderExerciseSettingsPanel(isOpen, configBody) {
     const wrap = document.createElement("div");
     wrap.className = "exercise-settings";
@@ -5197,7 +4893,6 @@
     }
     return wrap;
   }
-
   function buildLanguageSelect(langs, selected, onChange) {
     const select = document.createElement("select");
     select.className = "select";
@@ -5212,7 +4907,6 @@
     select.addEventListener("change", () => onChange(select.value));
     return select;
   }
-
   function showStageMessage(stage, text) {
     stage.innerHTML = "";
     stage.appendChild(makeEmptyState(text));
@@ -5292,7 +4986,6 @@
       renderCurrentFlashcard();
     else showStageMessage(stage, t("noDueCards"));
   }
-
   function setFlashcardReveal(code, enabled) {
     const set = new Set(flashcardConfig.revealLanguages);
     if (enabled) set.add(code);
@@ -5301,7 +4994,6 @@
     flashcardSession = null;
     renderFlashcards();
   }
-
   function startFlashcardSession() {
     ensureExerciseConfigs();
     const stage = document.getElementById("flashcard-stage");
@@ -5330,7 +5022,6 @@
     }
     renderCurrentFlashcard();
   }
-
   function renderCurrentFlashcard() {
     const stage = document.getElementById("flashcard-stage");
     if (!stage) return;
@@ -5389,7 +5080,6 @@
       speakLineWithHighlight(front, card.promptText, card.promptLanguage);
     else mediaService.speakImmediate(card.promptText, card.promptLanguage);
   }
-
   function createRatingPanel() {
     const panel = document.createElement("div");
     panel.className = "rating-panel";
@@ -5405,7 +5095,6 @@
     });
     return panel;
   }
-
   function revealCurrentCard() {
     const stage = document.getElementById("flashcard-stage");
     if (!stage) return;
@@ -5429,14 +5118,12 @@
         mediaService.speakImmediate(answerLine.text, answerLine.languageCode);
     }
   }
-
   function rateCurrentCard(rating) {
     const card = flashcardSession?.due?.[flashcardSession.index];
     if (!card) return;
     srsService.rateCard(card, rating);
     nextFlashcard();
   }
-
   function nextFlashcard() {
     if (!flashcardSession) return;
     flashcardSession.index += 1;
@@ -5504,7 +5191,6 @@
       renderCurrentQuizQuestion();
     else renderQuizFinished();
   }
-
   function startQuiz() {
     ensureExerciseConfigs();
     const stage = document.getElementById("quiz-stage");
@@ -5545,7 +5231,6 @@
     };
     renderCurrentQuizQuestion();
   }
-
   function updateQuizStatus() {
     const statusEl = document.getElementById("quiz-status");
     if (!statusEl || !quizSession) return;
@@ -5553,7 +5238,6 @@
     const current = Math.min(quizSession.index + 1, total);
     statusEl.textContent = `${current} / ${total} \xB7 ${t("quizScore")}: ${quizSession.correct}`;
   }
-
   function renderCurrentQuizQuestion() {
     const stage = document.getElementById("quiz-stage");
     if (!stage) return;
@@ -5654,7 +5338,6 @@
         question.questionLanguage,
       );
   }
-
   function applyQuizAnswerUI(answerItemId) {
     const question = quizSession.session.questions[quizSession.index];
     if (!question) return;
@@ -5685,7 +5368,6 @@
       feedback.append(message, nextButton);
     }
   }
-
   function answerQuiz(answerItemId) {
     if (!quizSession || quizSession.answered) return;
     const question = quizSession.session.questions[quizSession.index];
@@ -5722,7 +5404,6 @@
     }
     updateQuizStatus();
   }
-
   function nextQuizQuestion() {
     if (!quizSession || !quizSession.answered) return;
     quizSession.index += 1;
@@ -5734,7 +5415,6 @@
     }
     renderCurrentQuizQuestion();
   }
-
   function renderQuizFinished() {
     const stage = document.getElementById("quiz-stage");
     if (!stage) return;
@@ -5768,12 +5448,10 @@
     article.append(feedback, actions);
     stage.appendChild(article);
   }
-
   function restartQuiz() {
     resetQuizSessionSeed();
     startQuiz();
   }
-
   function retryQuiz() {
     if (!quizSession || !(quizSession.incorrectQuestions || []).length) return;
     const questions = quizSession.incorrectQuestions;
@@ -5831,14 +5509,12 @@
     }
     return changed;
   }
-
   function saveBuildConfig() {
     saveJSON(STORAGE_KEYS.buildLanguages, {
       displayLanguage: buildConfig.displayLanguage,
       buildLanguage: buildConfig.buildLanguage,
     });
   }
-
   function getBuildTargetTokens(item, code) {
     const explicit = dataService.getExplicitTokens(item, code);
     if (Array.isArray(explicit) && explicit.length > 0)
@@ -5848,7 +5524,6 @@
         .filter(Boolean);
     return dataService.tokenize(item, code).map((token) => token.text);
   }
-
   function buildEligibleSentenceIds() {
     return getItemPool("sentence").filter((id) => {
       const item = dataService.getItem(id);
@@ -5858,12 +5533,10 @@
       );
     });
   }
-
   function startBuildSession() {
     buildSession = { itemIds: buildEligibleSentenceIds(), index: 0 };
     buildCurrent = null;
   }
-
   function loadBuildSentence() {
     const itemId = buildSession.itemIds[buildSession.index];
     const item = dataService.getItem(itemId);
@@ -5875,7 +5548,6 @@
     );
     buildCurrent = { itemId, chips, selected: [], poolOrder: order };
   }
-
   function renderBuildSentence() {
     showView("build");
     const view = elements.buildView;
@@ -5945,7 +5617,6 @@
       }
     }
   }
-
   function createBuildChip(chipId, isSelected) {
     const chip = buildCurrent.chips[chipId];
     const buildCode = buildConfig.buildLanguage;
@@ -5967,7 +5638,6 @@
     }
     return button;
   }
-
   function renderBuildStage() {
     const stage = document.getElementById("build-stage");
     if (!stage) return;
@@ -6045,7 +5715,6 @@
     actions.append(hintButton, nextButton);
     stage.appendChild(actions);
   }
-
   function renderBuildFinished(stage) {
     clearExerciseHighlights();
     const article = document.createElement("article");
@@ -6064,7 +5733,6 @@
     article.append(feedback, actions);
     stage.appendChild(article);
   }
-
   function showBuildSentence() {
     loadBuildSentence();
     renderBuildStage();
@@ -6074,7 +5742,6 @@
     if (lineEl && text.trim())
       speakLineWithHighlight(lineEl, text, buildConfig.displayLanguage);
   }
-
   function buildAddChip(chipId) {
     if (!buildCurrent || buildCurrent.selected.includes(chipId)) return;
     buildCurrent.selected.push(chipId);
@@ -6084,7 +5751,6 @@
     );
     renderBuildStage();
   }
-
   function buildRemoveChip(chipId) {
     if (!buildCurrent) return;
     const position = buildCurrent.selected.indexOf(chipId);
@@ -6096,7 +5762,6 @@
     );
     renderBuildStage();
   }
-
   function buildHint() {
     if (!buildCurrent) return;
     const total = buildCurrent.chips.length;
@@ -6109,14 +5774,12 @@
     );
     renderBuildStage();
   }
-
   function normalizeBuildToken(text) {
     return String(text)
       .toLowerCase()
       .replace(/[\p{P}\p{S}]/gu, " ")
       .trim();
   }
-
   function isBuildSentenceCorrect() {
     if (!buildCurrent) return false;
     return buildCurrent.selected.every(
@@ -6125,7 +5788,6 @@
         normalizeBuildToken(buildCurrent.chips[index].text),
     );
   }
-
   function buildNext() {
     if (!buildSession) return;
     buildSession.index += 1;
@@ -6135,7 +5797,6 @@
     }
     showBuildSentence();
   }
-
   function buildRestart() {
     startBuildSession();
     if (!buildSession.itemIds.length) {
@@ -6161,20 +5822,17 @@
     if (/Linux/i.test(ua)) return "linux";
     return "linux";
   }
-
   function voiceTestLanguages() {
     return registry
       .allCodes()
       .filter((code) => state.lessonLanguages.includes(code));
   }
-
   function voiceTestMessage(code) {
     const language = registry.getLanguage(code);
     const endonym = language?.names?.[code] || language?.label || code;
     const template = VOICE_TEST_MESSAGES[code] || VOICE_TEST_MESSAGES.en;
     return template.replace("{language}", endonym);
   }
-
   function renderVoiceTest() {
     stopVoiceTestPlayback();
     refreshVoices();
@@ -6238,7 +5896,6 @@
     view.appendChild(results);
     if (missing.length) view.appendChild(renderVoiceInstructions(missing));
   }
-
   function renderVoiceInstructions(missing) {
     if (!VOICE_OS_INSTRUCTIONS[voiceTestOs]) voiceTestOs = detectOs();
     const section = document.createElement("div");
@@ -6292,7 +5949,6 @@
     section.appendChild(details);
     return section;
   }
-
   function refreshVoiceTestUI() {
     const playButton = document.querySelector(
       '[data-action="voice-test-play"]',
@@ -6303,7 +5959,6 @@
     if (playButton) playButton.disabled = voiceTestPlaying;
     if (stopButton) stopButton.disabled = !voiceTestPlaying;
   }
-
   function startVoiceTestPlayback() {
     if (voiceTestPlaying) return;
     refreshVoices();
@@ -6319,7 +5974,6 @@
     refreshVoiceTestUI();
     speakNextVoiceTest();
   }
-
   function speakNextVoiceTest() {
     if (!voiceTestPlaying) return;
     const entry = voiceTestQueue.shift();
@@ -6341,7 +5995,6 @@
     });
     voiceTestUtterance = utterance || null;
   }
-
   function stopVoiceTestPlayback() {
     voiceTestPlaying = false;
     voiceTestQueue = [];
@@ -6358,25 +6011,17 @@
     showView("progress");
     const view = elements.progressView;
     view.innerHTML = "";
-
-    // 1. Updated Header with Icon
     view.appendChild(
       exerciseHeader("🗑️ " + t("resetProgressPage"), "back-home"),
     );
-
     const stage = document.createElement("div");
     stage.className = "progress-stage";
-
-    // 2. Direct Reset Actions (No sub-headings needed)
     const resetPanel = document.createElement("section");
     resetPanel.className = "progress-section";
-
     const resetBody = document.createElement("div");
     resetBody.className = "progress-section__body";
-
     const resetActions = document.createElement("div");
     resetActions.className = "progress-reset-actions";
-
     const makeResetButton = (label, action) => {
       const button = document.createElement("button");
       button.type = "button";
@@ -6385,7 +6030,6 @@
       button.textContent = label;
       return button;
     };
-
     resetActions.appendChild(
       makeResetButton(t("resetFlashcards"), "reset-progress-srs"),
     );
@@ -6395,11 +6039,9 @@
     resetActions.appendChild(
       makeResetButton(t("resetProgress"), "reset-progress-all"),
     );
-
     resetBody.appendChild(resetActions);
     resetPanel.appendChild(resetBody);
     stage.appendChild(resetPanel);
-
     view.appendChild(stage);
   }
 
@@ -6415,7 +6057,6 @@
     );
     view.appendChild(stage);
   }
-
   function renderHelpSection(section) {
     const wrap = document.createElement("section");
     wrap.className = "progress-section";
@@ -6451,13 +6092,11 @@
     wrap.appendChild(body);
     return wrap;
   }
-
   function toggleHelpSection(key) {
     if (openHelpSections.has(key)) openHelpSections.delete(key);
     else openHelpSections.add(key);
     renderHelp();
   }
-
   function clearProgressKeys(keys) {
     keys.forEach((key) => {
       try {
@@ -6465,7 +6104,6 @@
       } catch {}
     });
   }
-
   function resetFlashcardProgress() {
     if (!window.confirm(t("resetFlashcardsConfirm"))) return;
     clearProgressKeys([STORAGE_KEYS.srs]);
@@ -6473,7 +6111,6 @@
     if (elements.progressView && !elements.progressView.hidden)
       renderProgress();
   }
-
   function resetQuizProgress() {
     if (!window.confirm(t("resetQuizConfirm"))) return;
     clearProgressKeys([STORAGE_KEYS.quiz]);
@@ -6481,7 +6118,6 @@
     if (elements.progressView && !elements.progressView.hidden)
       renderProgress();
   }
-
   function resetAllProgress() {
     if (!window.confirm(t("resetProgressConfirm"))) return;
     clearProgressKeys([
@@ -6602,7 +6238,7 @@
         case "next-up-preview-prev": {
           const currentPreview =
             nextUpPreviewId ||
-            studyPlanService?.getNextLesson() ||
+            milestoneService?.getNextMilestone() ||
             getNextBrowseLesson()?.id;
           if (currentPreview) {
             const ctx = getNavigationContext(currentPreview);
@@ -6616,7 +6252,7 @@
         case "next-up-preview-next": {
           const currentPreviewNext =
             nextUpPreviewId ||
-            studyPlanService?.getNextLesson() ||
+            milestoneService?.getNextMilestone() ||
             getNextBrowseLesson()?.id;
           if (currentPreviewNext) {
             const ctx = getNavigationContext(currentPreviewNext);
@@ -6833,7 +6469,6 @@
     elements.settingsSheet = document.getElementById("settings-sheet");
     elements.settingsBody = document.getElementById("settings-body");
     elements.targetSelectView = document.getElementById("target-select-view");
-
     manifest = await loadManifest();
     registry = createRegistry(manifest?.zabon?.languages || []);
     const settings = normalizeSettings(loadJSON(STORAGE_KEYS.settings, {}));
@@ -6879,6 +6514,7 @@
       mediaService,
       srsService,
       quizProgressService,
+      milestoneService,
       startRecordingTest,
       stopRecordingTest,
       getRecordedBlob: () => recordedBlob,
