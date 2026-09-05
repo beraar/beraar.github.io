@@ -146,42 +146,55 @@
       zh: "你的主要目标是什么？",
       ja: "主な目標は何ですか？",
     },
-    onboardingGoalTravel: {
-      en: "Travel & tourism",
-      th: "การเดินทางและท่องเที่ยว",
-      fa: "سفر و گردشگری",
-      ar: "السفر والسياحة",
-      es: "Viajes y turismo",
-      zh: "旅行与旅游",
-      ja: "旅行・観光",
+
+    // ── Inside UI_STRINGS ──
+
+    onboardingGoalSurvival: {
+      en: "Survival & Travel",
+      th: "การเอาตัวรอดและการเดินทาง",
+      fa: "بقا و سفر",
+      ar: "البقاء والسفر",
+      es: "Supervivencia y viajes",
+      zh: "生存与旅行",
+      ja: "サバイバルと旅行",
     },
-    onboardingGoalBusiness: {
-      en: "Business & work",
-      th: "ธุรกิจและการทำงาน",
-      fa: "کسب‌وکار و کار",
-      ar: "الأعمال والعمل",
-      es: "Negocios y trabajo",
-      zh: "商务与工作",
-      ja: "ビジネスと仕事",
+    onboardingGoalSocial: {
+      en: "Social & Everyday",
+      th: "สังคมและชีวิตประจำวัน",
+      fa: "اجتماعی و روزمره",
+      ar: "اجتماعي ويومي",
+      es: "Social y cotidiano",
+      zh: "社交与日常",
+      ja: "ソーシャルと日常",
     },
-    onboardingGoalEveryday: {
-      en: "Everyday conversation",
-      th: "การสนทนาในชีวิตประจำวัน",
-      fa: "مکالمه روزمره",
-      ar: "محادثة يومية",
-      es: "Conversación cotidiana",
-      zh: "日常会话",
-      ja: "日常会話",
+    onboardingGoalProfessional: {
+      en: "Professional & Business",
+      th: "วิชาชีพและธุรกิจ",
+      fa: "حرفه‌ای و کسب‌وکار",
+      ar: "مهني وأعمال",
+      es: "Profesional y negocios",
+      zh: "职业与商务",
+      ja: "プロフェッショナルとビジネス",
     },
-    onboardingGoalExam: {
-      en: "Exam preparation",
-      th: "การเตรียมสอบ",
-      fa: "آماده‌سازی آزمون",
-      ar: "التحضير للامتحان",
-      es: "Preparación de exámenes",
-      zh: "考试准备",
-      ja: "試験準備",
+    onboardingGoalMedia: {
+      en: "Media & Literacy",
+      th: "สื่อและการรู้หนังสือ",
+      fa: "رسانه و سوادآموزی",
+      ar: "الإعلام ومحو الأمية",
+      es: "Medios y alfabetización",
+      zh: "媒体与读写",
+      ja: "メディアとリテラシー",
     },
+    onboardingGoalCultural: {
+      en: "Cultural Integration",
+      th: "การบูรณาการทางวัฒนธรรม",
+      fa: "ادغام فرهنگی",
+      ar: "الاندماج الثقافي",
+      es: "Integración cultural",
+      zh: "文化融入",
+      ja: "文化統合",
+    },
+
     onboardingLevel: {
       en: "Your current {targetLanguage} level?",
       th: "ระดับ{targetLanguage}ปัจจุบันของคุณคืออะไร",
@@ -2537,24 +2550,39 @@
       let progress = this.getProgress();
       if (!progress) progress = this.initializeProgress();
       const milestones = manifest?.milestones || [];
+
+      // 1. Always resume an in-progress milestone first
       for (const m of milestones) {
         if (progress[m.id]?.state === "IN_PROGRESS") return m.id;
       }
-      const answers = loadJSON(STORAGE_KEYS.onboardingAnswers, {});
-      const goal = answers?.goal;
-      if (goal) {
-        const goalTags = this._getGoalTags(goal);
-        for (const m of milestones) {
-          if (progress[m.id]?.state === "UNLOCKED") {
-            const mTags = m.priority_tags || [];
-            if (mTags.some((t) => goalTags.includes(t))) return m.id;
-          }
-        }
+
+      // 2. Collect every UNLOCKED milestone
+      const unlocked = milestones.filter(
+        (m) => progress[m.id]?.state === "UNLOCKED",
+      );
+      if (unlocked.length === 0) return null;
+
+      // 3. ★ Stage 3: read goal from state.settings (not onboardingAnswers)
+      const goal = state?.settings?.userGoal;
+      const goalTags = goal ? this._getGoalTags(goal) : [];
+
+      // 4. Sort unlocked milestones by relevance to the user's goal
+      if (goalTags.length > 0) {
+        unlocked.sort((a, b) => {
+          const aTags = a.priority_tags || [];
+          const bTags = b.priority_tags || [];
+          // Count how many of the milestone's priority_tags match the goal tags
+          const aScore = aTags.filter((t) => goalTags.includes(t)).length;
+          const bScore = bTags.filter((t) => goalTags.includes(t)).length;
+          if (bScore !== aScore) return bScore - aScore; // higher match first
+          // Tie-break: prefer a milestone whose *first* tag matches
+          const aFirst = goalTags.includes(aTags[0]) ? 1 : 0;
+          const bFirst = goalTags.includes(bTags[0]) ? 1 : 0;
+          return bFirst - aFirst;
+        });
       }
-      for (const m of milestones) {
-        if (progress[m.id]?.state === "UNLOCKED") return m.id;
-      }
-      return null;
+
+      return unlocked[0].id;
     }
     markInProgress(id) {
       let progress = this.getProgress();
@@ -2565,15 +2593,19 @@
       }
     }
     _getGoalTags(goal) {
+      // Maps each language-agnostic goal → the manifest priority_tags
+      // it should surface first.
       switch (goal) {
-        case "travel":
+        case "survival":
           return ["travel", "everyday"];
-        case "business":
-          return ["business", "academic"];
-        case "everyday":
+        case "social":
           return ["everyday", "cultural"];
-        case "exam":
-          return ["academic", "everyday"];
+        case "professional":
+          return ["business", "academic"];
+        case "media":
+          return ["academic", "cultural"];
+        case "cultural":
+          return ["cultural", "everyday"];
         default:
           return [];
       }
@@ -3343,7 +3375,13 @@
     renderOnboarding();
   }
   function normalizeOnboardingAnswers(saved) {
-    const validGoals = ["travel", "business", "everyday", "exam"];
+    const validGoals = [
+      "survival",
+      "social",
+      "professional",
+      "media",
+      "cultural",
+    ];
     const validLevels = ["beginner", "some", "basic", "advanced"];
     const validUsage = ["reading", "speaking", "media", "writing"];
     return {
@@ -3406,10 +3444,11 @@
     const goalOptions = document.createElement("div");
     goalOptions.className = "onboarding-options";
     [
-      ["travel", t("onboardingGoalTravel")],
-      ["business", t("onboardingGoalBusiness")],
-      ["everyday", t("onboardingGoalEveryday")],
-      ["exam", t("onboardingGoalExam")],
+      ["survival", t("onboardingGoalSurvival")],
+      ["social", t("onboardingGoalSocial")],
+      ["professional", t("onboardingGoalProfessional")],
+      ["media", t("onboardingGoalMedia")],
+      ["cultural", t("onboardingGoalCultural")],
     ].forEach(([value, label]) => {
       const option = document.createElement("label");
       option.className = "onboarding-option";
@@ -3521,7 +3560,15 @@
   function generateStudyPlan() {
     const answers = collectOnboardingAnswers();
     if (!answers.goal || !answers.level) return;
+
+    // Persist raw onboarding answers
     saveJSON(STORAGE_KEYS.onboardingAnswers, answers);
+
+    // ★ Stage 3: save the chosen goal into state.settings so
+    //   MilestoneService can read it without re-parsing storage.
+    state.settings.userGoal = answers.goal;
+    saveState(); // writes state.settings → localStorage
+
     if (milestoneService) milestoneService.initializeProgress();
     saveJSON(STORAGE_KEYS.onboardingComplete, true);
     renderHome();
