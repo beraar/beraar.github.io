@@ -1,130 +1,148 @@
-I am working on the Zabon language learning app. I need you to generate a lesson data file (JSON) for the following metadata:
+# 📘 Document 1: `new-lesson.md` (Finalized Data Generation Runbook)
 
-          "file": "lessons/accommodation/hotel-requests.json",
-          "level": 6,
-          "proficiency": "intermediate",
-          "translations": ["en", "th", "fa", "ar", "es", "zh", "ja"],
-          "targets": ["en", "th", "fa", "ar", "es", "zh", "ja"]
+This document is the single source of truth for generating milestone data. It is strictly aligned with the provided `manifest.json` structure and the `app.js` parsing logic.
 
-Here are the strict constraints and instructions you MUST follow:
+## 1. Core Architectural Constraints
 
-🚨 METADATA ADHERENCE (Length & Linguistic Complexity)
-You MUST read the target lesson's `proficiency` and `level` fields to determine the length and complexity of the generated content.
+- **Manifest Integrity**: The `manifest.json` is the central registry. It must retain its exact top-level structure (`name`, `version`, `architecture`, `priority_tags`, `zabon.languages`, `tiers`, `milestones`). The _only_ required modification to the provided `manifest.json` is ensuring every milestone object includes the `"file": "milestones/MX.json"` property for routing (currently only M1 has it).
+- **Conversation-First Pipeline**: Every lesson is generated using a strict 3-step process:
+  1. **Draft**: Write 3–5 natural, culturally adapted 2-person dialogues per milestone.
+  2. **Review**: Ensure idiomatic flow, appropriate register, and logical context.
+  3. **Extract**: Derive the `items` and `grammar_questions` _directly_ from the finalized dialogue to ensure 100% consistency with what the user reads.
+- **Front-End Interdependence**: The JSON will contain both a `dialogues` array (for the new conversational UI) and an `items` array (for backward compatibility with existing `app.js` exercise engines).
 
-LENGTH (Based on `proficiency`):
-`"beginner"` (Introductory): Target 20-25 sentences.
-`"intermediate"`: Target 30-35 sentences.
-`"advanced"`: Target 40-50 sentences.
-_Note: Prioritize a natural conclusion to the scenario over artificially padding the conversation just to hit a number._
+## 2. Tiered Complexity Constraints
 
-LINGUISTIC COMPLEXITY (Based on `level` 1-9):
-Levels 1-3 (Beginner): Simple structures, high-frequency survival vocabulary, short sentences, concrete topics.
-Levels 4-6 (Intermediate): Compound sentences, natural conversational flow, specific situational vocabulary, common idioms.
-Levels 7-9 (Advanced): Complex grammar (conditionals, passive voice, reported speech), nuanced dialogue, formal/informal register switching, specialized/professional vocabulary.
+- **Beginner (M1-M5)**: 3–4 dialogues. 4–6 turns per dialogue. Focus: Survival, high-frequency vocab, simple tenses.
+- **Intermediate (M6-M10)**: 4 dialogues. 8–12 turns per dialogue. Focus: Daily routines, opinions, compound sentences, polite requests.
+- **Advanced (M11-M15)**: 4–5 dialogues. 12+ turns per dialogue. Focus: Abstract concepts, negotiations, humor, idioms, nuanced register shifts.
 
-🚨 GRAMMAR & PEDAGOGICAL FOCUS
-If the lesson contains a `"focus"` attribute, this indicates the pedagogical topic.
-You MUST naturally integrate this focus topic into the dialogue. Prioritize natural conversational flow, idiomatic expressions, and logical context over forcing the grammar rule into every single sentence. The grammar point should be the thematic flavor of the conversation, not a syntactic straitjacket.
+## 3. Tokenization & Multi-Language Rules
 
-🚨 TARGET LANGUAGES vs. TRANSLATION LANGUAGES
-The metadata defines `translations` (all 7 languages) and `targets` (the specific languages being taught).
-You MUST provide all 7 languages in the `texts` object for UI consistency.
-However, the linguistic complexity, naturalness, and pedagogical focus ONLY apply to the `targets` array. The other languages just need to be accurate semantic translations.
+- **Universal JSON**: Every lesson JSON file contains translations for all 7 supported languages (`en`, `th`, `fa`, `zh`, `ja`, `ar`, `es`).
+- **Segmenter Languages (`th`, `zh`, `ja`)**: Explicit `tokens` arrays are **mandatory** for all target sentences. This is required by `app.js` (`dataService.tokenize`) to guarantee correct word-boundary extraction for TTS highlighting and "Build a Sentence" exercises.
+- **Whitespace Languages (`en`, `fa`, `ar`, `es`)**: Explicit `tokens` are optional but recommended for complex compounds.
 
-🚨 CONVERSATION SCENARIO & FLOW (CRITICAL FOR NATURALNESS)
-The lesson MUST be divided into at least 5 distinct conversational scenarios (e.g., Scenario 1: Greeting & Browsing, Scenario 2: Asking for details, etc.).
+## 4. Lesson JSON Schema (Dual-Structure)
 
-CRITICAL INTRA-SCENARIO COHESION: Within each scenario, the sentences MUST form a single, continuous, logical back-and-forth dialogue. The second speaker's line MUST directly respond to, answer, or react to the first speaker's immediately preceding line. Do NOT generate disconnected, random, or unrelated statements within the same scenario.
-Allow for natural turn-taking. Do not write long monologues; keep turns relatively balanced and responsive.
+This schema is explicitly designed to be parsed by the provided `app.js` `openLesson` and `buildGrammarQuizSession` functions without breaking existing functionality, while introducing the new conversational data.
 
-🚨 STRICT STRUCTURAL & NAMING CONVENTIONS (CRITICAL FOR FRONTEND)
-You MUST follow this exact JSON structure and ID naming scheme. Do NOT use lazy IDs like "h1", "s1", or "w1".
-The JSON `"items"` array MUST follow this exact sequential order:
-
-A. Scenario Sections (MUST come first):
-Generate at least 5 distinct conversational scenarios.
-Each scenario MUST start with a header using the prefix `"header_scenario_"` (e.g., `"header_scenario_1"`, `"header_scenario_2"`).
-Under each scenario header, provide the conversational sentences that form a cohesive back-and-forth dialogue for that specific scenario.
-Sentence IDs MUST use the prefix `"sentence_"` (e.g., `"sentence_1"`, `"sentence_2"`).
-
-B. Words Section (MUST come last):
-Each scenario set of words MUST start with a header using the prefix `"header_scenario_[1..n]_words"` (e.g., `"header_scenario_1_words"`, `"header_scenario_2_words"`).
-Word IDs MUST use the prefix `"word_"` (e.g., `"word_1"`, `"word_2"`).
-Do NOT put any words at the beginning of the file. All words must be under `"header_words"` at the end.
-
-🚨 VOCABULARY EXTRACTION RULES (CRITICAL)
-Extract all content words (nouns, verbs, adjectives, adverbs) and target grammar particles.
-DO NOT extract universal stop words (articles like 'a/the', basic pronouns like 'I/you', or basic prepositions) unless they are the specific grammar focus of the lesson. This keeps the vocabulary list focused and prevents output token exhaustion.
-
-Do not duplicate words in the word list. If a word was already extracted in a previous scenario, do not generate a new `word_*` object for it. Just omit it from the subsequent scenario's word list.
-
-Ensure the text for every word is an EXACT substring of the text in at least one sentence in that specific scenario. Do not use dictionary/infinitive forms if they differ from the spoken text (e.g., if the sentence says "went", extract "went", not "go").
-
-SENTENCE-FIRST EXTRACTION METHOD
-Step 1: Define the conversation scenarios and generate the conversational sentences FIRST.
-Step 2: Review the sentences you just generated.
-Step 3: Extract the core words DIRECTLY from these spoken sentences following the rules above.
-
-🚨 TOKENS & FORMATTING RULES
-Whitespace Languages (`en`, `fa`, `ar`, `es`): You MUST generate a `"tokens"` array for these languages in every sentence. The tokens must be the exact words that reconstruct the sentence when joined by spaces.
-
-🚨 CRITICAL TOKENIZATION RULE: Punctuation marks (., ?, !, ,, etc.) MUST remain attached to the word they follow. Do NOT separate punctuation into its own token. For example, "Excuse me." must be tokenized as `["Excuse", "me."]`. Joining the tokens with a single space MUST perfectly reconstruct the original text without adding erroneous spaces before punctuation.
-
-Segmenter Languages (`th`, `zh`, `ja`): DO NOT generate the `"tokens"` array for these languages. My post-processing pipeline will handle word segmentation.
-
-Formatting: Ensure absolutely NO trailing or leading spaces in any of the translation strings or token strings.
-
-🚨 STRICT OUTPUT FORMAT (NO SCRATCHPAD)
-Perform your planning and vocabulary extraction internally. Output ONLY a valid JSON object. Do not output markdown formatting (like ```json), scratchpads, or explanations. The very first character of your response must be `{`and the last must be`}`.
-
+```json
 {
-"items": [
-{
-"id": "header_scenario_1",
-"header": true,
-"texts": { "en": "Scenario 1: ...", "th": "...", "fa": "...", "ar": "...", "es": "...", "zh": "...", "ja": "..." }
-},
-{
-"id": "sentence_1",
-"kind": "sentence",
-"texts": { "en": "...", "th": "...", "fa": "...", "ar": "...", "es": "...", "zh": "...", "ja": "..." },
-"tokens": { "en": ["..."], "fa": ["..."], "ar": ["..."], "es": ["..."] }
-},
-{
-"id": "sentence_2",
-"kind": "sentence",
-"texts": { "en": "...", "th": "...", "fa": "...", "ar": "...", "es": "...", "zh": "...", "ja": "..." },
-"tokens": { "en": ["..."], "fa": ["..."], "ar": ["..."], "es": ["..."] }
-},
-...
-{
-"id": "header_words",
-"header": true,
-"texts": { "en": "Words", "th": "คำศัพท์", "fa": "واژگان", "ar": "المفردات", "es": "Palabras", "zh": "词汇", "ja": "語彙" }
-},
-{
-"id": "header_scenario_1_words",
-"header": true,
-"texts": { "en": "Scenario 1 words", "th": "คำศัพท์สถานการณ์ 1", "fa": "کلمات سناریو 1", "ar": "كلمات السيناريو 1", "es": "Palabras del escenario 1", "zh": "场景1词汇", "ja": "シナリオ1の単語" }
-},
-{
-"id": "word_1",
-"kind": "word",
-"texts": { "en": "...", "th": "...", "fa": "...", "ar": "...", "es": "...", "zh": "...", "ja": "..." }
+  "milestone_id": "M1",
+  "displayMode": "default",
+  "unlock_requirements": {
+    "srs_box_level": 4,
+    "grammar_quiz_pass_pct": 80
+  },
+  "cultural_context": {
+    "en": "In Thai, greetings change based on the time of day and the speaker's gender.",
+    "th": "ในภาษาไทย การทักทายจะเปลี่ยนไปตามเวลาของวันและเพศของผู้พูด"
+  },
+  "dialogues": [
+    {
+      "id": "M1_d1",
+      "context": "Meeting a colleague in the morning",
+      "turns": [
+        {
+          "speaker": "A",
+          "texts": {
+            "en": "Good morning. How are you?",
+            "th": "สวัสดีครับ สบายดีไหมครับ"
+          },
+          "tokens": { "th": ["สวัสดี", "ครับ", "สบายดี", "ไหม", "ครับ"] }
+        },
+        {
+          "speaker": "B",
+          "texts": {
+            "en": "Good morning. I am well, thank you.",
+            "th": "สวัสดีครับ สบายดี ขอบคุณครับ"
+          },
+          "tokens": { "th": ["สวัสดี", "ครับ", "สบายดี", "ขอบคุณ", "ครับ"] }
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "header": true,
+      "id": "M1_h1",
+      "texts": {
+        "en": "Dialogue 1: Morning Greeting",
+        "th": "บทสนทนา 1: การทักทายตอนเช้า"
+      }
+    },
+    {
+      "id": "M1_t1",
+      "role": "target",
+      "texts": {
+        "en": "Good morning. How are you?",
+        "th": "สวัสดีครับ สบายดีไหมครับ"
+      },
+      "tokens": { "th": ["สวัสดี", "ครับ", "สบายดี", "ไหม", "ครับ"] }
+    },
+    {
+      "id": "M1_t2",
+      "role": "target",
+      "texts": {
+        "en": "Good morning. I am well, thank you.",
+        "th": "สวัสดีครับ สบายดี ขอบคุณครับ"
+      },
+      "tokens": { "th": ["สวัสดี", "ครับ", "สบายดี", "ขอบคุณ", "ครับ"] }
+    },
+    {
+      "header": true,
+      "id": "M1_h2",
+      "texts": { "en": "Grammar Focus", "th": "จุดเน้นไวยากรณ์" }
+    },
+    {
+      "id": "M1_g1",
+      "role": "grammar",
+      "texts": {
+        "en": "Polite particle (male): ครับ (khrap)",
+        "th": "คำสุภาพ (ชาย): ครับ"
+      }
+    }
+  ],
+  "grammar_questions": [
+    {
+      "id": "M1_gq1",
+      "question": {
+        "en": "Which word is the polite particle for males?",
+        "th": "คำใดเป็นคำสุภาพสำหรับเพศชาย?"
+      },
+      "options": [
+        { "text": { "en": "ครับ", "th": "ครับ" } },
+        { "text": { "en": "ค่ะ", "th": "ค่ะ" } }
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
 }
-]
-}
+```
 
-🚨 ERROR HANDLING & PARTIAL REGENERATION (CRITICAL FOR TOKEN SAVING)
-When the validation script (`validate-lessons.js`) returns a failure report with specific item errors (e.g., `[TOKEN_MISMATCH] items[17] (sentence_15)` or `[TEXT_MISMATCH] items[42] (word_12)`):
-DO NOT regenerate or output the entire JSON file.
-Outputting the whole file wastes tokens and risks context drift.
+## 5. Execution Runbook (Copy & Paste Templates)
 
-Instead, ONLY output the specific JSON block(s) that need fixing.
-Rules for Partial Output:
+### 📋 Template A: Front-End Update & M1 Sample Test (IMMEDIATE NEXT STEP)
 
-1. Identify the broken items: Look at the validation report.
-2. Output ONLY the corrected block(s): Provide just the JSON object for the broken `sentence_*` or `word_*`.
-3. Cascading Fixes: If you change the `texts` of a `sentence_*` to fix a tokenization or spelling error, you MUST also output the corresponding `word_*` blocks that contain the modified text so they remain in sync.
+> **Prompt:**
+> "We are executing the Zabon Lesson Generation Runbook.
+> **Goal**: Update the front-end to support the new conversational data structure, and generate the M1 sample lesson to test the full pipeline.
+> **Git Branch**: `feature/ui-dialogue-and-m1-sample`
+> **Files Attached**: `manifest.json`, `app.js`, `new-lesson.md`, `new-front-end.md`.
+>
+> **Tasks**:
+>
+> 1. **Manifest Patch**: Update `manifest.json` to add `"file": "milestones/MX.json"` to all milestones (M2-M15), preserving all existing metadata.
+> 2. **Front-End Update**: Apply the changes defined in `new-front-end.md` to `app.js` to render the `dialogues` array and `cultural_context`.
+> 3. **M1 Data Generation**: Generate `milestones/M1.json` following the 3-step pipeline and Dual-Structure Schema. Include 3-4 micro-dialogues across all 7 languages with explicit `tokens` for `th`, `zh`, `ja`.
+>
+> **Testing Criteria**:
+>
+> - Verify M1 loads and renders the chat-bubble UI and cultural context correctly.
+> - Verify TTS highlighting works using the explicit `tokens`.
+> - Verify Flashcards and Grammar Quizzes still function using the extracted `items` and `grammar_questions`.
+>
+> **Action**: Output the updated `manifest.json`, the updated `app.js` code snippets, and the complete `M1.json`. Wait for my approval to commit and test."
 
-Format: Output the corrected blocks as a simple JSON array, clearly labeled so I can easily copy-paste and replace them in the main file.
+---

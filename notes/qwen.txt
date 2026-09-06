@@ -1,25 +1,29 @@
-Please verify and comment on the details of the study plan. Make suggestions for any improvement.
-Is the plan ready for the staged implementation?
+This is a design chat and as such anything can change including code spec, manifest design and data design.
 
-======================
+My responses for:
 
-Please add your Suggestions & Refinements by Stage and recommendations  and output an updated study plan.
+1. Core Architectural Constraints
 
-===========================
+Manifest Integrity: 
+The point with the manifest was the existing structure (name, version, architecture, zabon.languages, tiers, priority_tags) was omitted causing errors down the line.  It is now reinstated. However, the only modification allowed is ensuring every milestone object includes a "file": "milestones/MX.json" property for routing is not true.  We are at the design stage and you can modify the manifest for an optimum solution before implementation.
 
-I agree with the 4 pillars but please do not generate the schemas, instead update the study plan accordingly.  I would like further reflection and review of the study plan before each stage of the plan is implemented in separate chats.
+Agree to points for Front-End Interdependence and Conversation-First Pipeline
 
+2. Tiered Complexity Constraints
+Each Milestone (M1-M15) contains exactly 3 Micro-Dialogues.
+I think the milestone should contain 3 to 5 Micro-Dialogues based on the tier.
 
+3. Tokenization & Multi-Language Rules
+Response: agree
 
-I would rather have the entire plan updated into the study-plan.md adhering to the initial process.  
+4. Lesson JSON Schema (Dual-Structure)
+Please clarify if the lesson JSON schema is separate from the manifest.json or a replacement.  You have added a milestone object includes a "file": "milestones/MX.json" property for routing in the manifest but the rest of the milestone is defined in another JSON under this heading. Please clarify.
 
-The initial process started with the master study-plan.md defining each stage of the plan implementation in a new chat.  Each stage of the plan had the text message with context, files to upload, and test for the approval before progressing to the next stage in a new chat.
+5. Execution Runbook (Copy & Paste Templates)
+Template A has the essential Front-End Update.
 
-Each stage was designed to avoid context drift. In case of context drift, the git branch for the stage would be deleted and the stage message retried in a new chat.
+For the Next Step, we should keep to the above as our new task to complete and test before any further template.
 
-Please clarify any ambiguity in the above request before outputting the updated study-plan.md
-
-
-
+Please clarify any ambiguity in the points above and output an update.
 
 

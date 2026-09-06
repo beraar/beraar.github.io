@@ -1,45 +1,103 @@
 {
-  "id": "M2",
-  "title": "Numbers & Time",
+  "displayMode": "default",
+  "unlock_requirements": {
+    "srs_box_level": 4,
+    "grammar_quiz_pass_pct": 80
+  },
   "items": [
     {
-      "id": "M2_T01",
-      "role": "target",
-      "texts": {
-        "en": "One",
-        "th": "หนึ่ง",
-        "fa": "یک",
-        "ar": "واحد",
-        "es": "Uno",
-        "zh": "一",
-        "ja": "一"
-      }
+      "header": true,
+      "id": "m2_h1",
+      "texts": { "en": "Numbers 1-5", "th": "ตัวเลข 1-5" }
     },
     {
-      "id": "M2_T02",
+      "id": "m2_t1",
       "role": "target",
-      "texts": {
-        "en": "Two",
-        "th": "สอง",
-        "fa": "دو",
-        "ar": "اثنان",
-        "es": "Dos",
-        "zh": "二",
-        "ja": "二"
-      }
+      "texts": { "en": "One", "th": "หนึ่ง" }
+    },
+    { "id": "m2_t2", "role": "target", "texts": { "en": "Two", "th": "สอง" } },
+    {
+      "id": "m2_t3",
+      "role": "target",
+      "texts": { "en": "Three", "th": "สาม" }
+    },
+    { "id": "m2_t4", "role": "target", "texts": { "en": "Four", "th": "สี่" } },
+    { "id": "m2_t5", "role": "target", "texts": { "en": "Five", "th": "ห้า" } },
+
+    {
+      "header": true,
+      "id": "m2_h2",
+      "texts": { "en": "Time & Days", "th": "เวลาและวัน" }
     },
     {
-      "id": "M2_C01",
-      "role": "context",
-      "texts": {
-        "en": "Today",
-        "th": "วันนี้",
-        "fa": "امروز",
-        "ar": "اليوم",
-        "es": "Hoy",
-        "zh": "今天",
-        "ja": "今日"
-      }
+      "id": "m2_t6",
+      "role": "target",
+      "texts": { "en": "Today", "th": "วันนี้" }
+    },
+    {
+      "id": "m2_t7",
+      "role": "target",
+      "texts": { "en": "Tomorrow", "th": "พรุ่งนี้" }
+    },
+    {
+      "id": "m2_t8",
+      "role": "target",
+      "texts": { "en": "Yesterday", "th": "เมื่อวาน" }
+    },
+    {
+      "id": "m2_t9",
+      "role": "target",
+      "texts": { "en": "Morning", "th": "ตอนเช้า" }
+    },
+    {
+      "id": "m2_t10",
+      "role": "target",
+      "texts": { "en": "Night", "th": "ตอนกลางคืน" }
+    },
+
+    {
+      "header": true,
+      "id": "m2_h3",
+      "texts": { "en": "Sentences", "th": "ประโยค" }
+    },
+    {
+      "id": "m2_s1",
+      "role": "target",
+      "texts": { "en": "What time is it?", "th": "ตอนนี้กี่โมงแล้ว" },
+      "tokens": { "th": ["ตอนนี้", "กี่โมง", "แล้ว"] }
+    },
+    {
+      "id": "m2_s2",
+      "role": "target",
+      "texts": { "en": "I will go tomorrow.", "th": "ฉันจะไปพรุ่งนี้" },
+      "tokens": { "th": ["ฉัน", "จะ", "ไป", "พรุ่งนี้"] }
+    },
+
+    {
+      "header": true,
+      "id": "m2_h4",
+      "texts": { "en": "Grammar", "th": "ไวยากรณ์" }
+    },
+    {
+      "id": "m2_g1",
+      "role": "grammar",
+      "texts": { "en": "Question word: How many / What time", "th": "กี่" }
+    }
+  ],
+  "grammar_questions": [
+    {
+      "id": "m2_gq1",
+      "question": {
+        "en": "Which word means 'What time' or 'How many'?",
+        "th": "คำใดหมายถึง 'กี่โมง' หรือ 'เท่าไหร่'?"
+      },
+      "options": [
+        { "text": { "en": "กี่", "th": "กี่" } },
+        { "text": { "en": "ไหน", "th": "ไหน" } },
+        { "text": { "en": "อะไร", "th": "อะไร" } },
+        { "text": { "en": "ใคร", "th": "ใคร" } }
+      ],
+      "correctOptionIndex": 0
     }
   ]
 }
