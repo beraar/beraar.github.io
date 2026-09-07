@@ -45,7 +45,7 @@
         <div id="help-view" class="view" hidden></div>
       </main>
 
-      <!-- ── Action Bar (Lesson Mode) ── -->
+      <!-- ── Action Bar (Lesson Mode) - Row 1: Exercises ── -->
       <div class="action-bar" id="action-bar" hidden>
         <button
           type="button"
@@ -87,6 +87,9 @@
         >
           🧩
         </button>
+      </div>
+      <!-- ── Bottom Bar (Lesson Mode) - Row 2: Media, Score & Settings ── -->
+      <div class="bottom-bar" id="bottom-bar" hidden>
         <button
           type="button"
           class="action-bar__button"
@@ -104,6 +107,9 @@
         >
           ◼
         </button>
+
+        <!-- Score and Complete toggle are injected dynamically by app.js right before Settings -->
+
         <button
           type="button"
           class="icon-button"
@@ -112,11 +118,6 @@
         >
           ⚙
         </button>
-      </div>
-
-      <!-- ── Bottom Bar (Lesson Mode) ── -->
-      <div class="bottom-bar" id="bottom-bar" hidden>
-        <!-- Complete toggle and auto-complete progress are injected dynamically by app.js -->
       </div>
 
       <!-- ── Hamburger Panel & Backdrop ── -->

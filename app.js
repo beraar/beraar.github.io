@@ -1179,6 +1179,223 @@
       zh: "重置所有进度？闪卡、测验记录和已尝试的课程都将被清除。",
       ja: "すべての進捗をリセットしますか？フラッシュカード、クイズ履歴、試したレッスンが削除されます。",
     },
+
+    open: {
+      en: "Open",
+      th: "เปิด",
+      fa: "باز کردن",
+      ar: "فتح",
+      es: "Abrir",
+      zh: "打开",
+      ja: "開く",
+    },
+    focus: {
+      en: "Focus",
+      th: "เน้น",
+      fa: "تمرکز",
+      ar: "التركيز",
+      es: "Enfoque",
+      zh: "重点",
+      ja: "フォーカス",
+    },
+    general: {
+      en: "General",
+      th: "ทั่วไป",
+      fa: "عمومی",
+      ar: "عام",
+      es: "General",
+      zh: "通用",
+      ja: "一般",
+    },
+    lockedTooltip: {
+      en: "Complete previous milestones to unlock",
+      th: "ทำบทเรียนก่อนหน้าให้เสร็จเพื่อปลดล็อก",
+      fa: "برای باز کردن، درس‌های قبلی را کامل کنید",
+      ar: "أكمل المعالم السابقة للفتح",
+      es: "Completa los hitos anteriores para desbloquear",
+      zh: "完成之前的里程碑以解锁",
+      ja: "前のマイルストーンを完了してロック解除",
+    },
+    milestone_M1: {
+      en: "Foundations & Greetings",
+      th: "พื้นฐานและการทักทาย",
+      fa: "مبانی و احوال‌پرسی",
+      zh: "基础与问候",
+      ja: "基礎と挨拶",
+      ar: "الأساسيات والتحيات",
+      es: "Fundamentos y saludos",
+    },
+    milestone_M2: {
+      en: "Numbers & Time",
+      th: "ตัวเลขและเวลา",
+      fa: "اعداد و زمان",
+      zh: "数字与时间",
+      ja: "数字と時間",
+      ar: "الأرقام والوقت",
+      es: "Números y tiempo",
+    },
+    milestone_M3: {
+      en: "Survival Needs",
+      th: "ความจำเป็นเพื่อการอยู่รอด",
+      fa: "نیازهای بقا",
+      zh: "生存需求",
+      ja: "サバイバルニーズ",
+      ar: "احتياجات البقاء",
+      es: "Necesidades de supervivencia",
+    },
+    milestone_M4: {
+      en: "Directions & Transport",
+      th: "ทิศทางและการขนส่ง",
+      fa: "مسیرها و حمل‌ونقل",
+      zh: "方向与交通",
+      ja: "道案内と交通",
+      ar: "الاتجاهات والنقل",
+      es: "Direcciones y transporte",
+    },
+    milestone_M5: {
+      en: "Shopping & Money",
+      th: "การช้อปปิ้งและเงินตรา",
+      fa: "خرید و پول",
+      zh: "购物与金钱",
+      ja: "買い物とお金",
+      ar: "التسوق والمال",
+      es: "Compras y dinero",
+    },
+    milestone_M6: {
+      en: "Daily Routines & Hobbies",
+      th: "กิจวัตรประจำวันและงานอดิเรก",
+      fa: "روتین روزانه و سرگرمی‌ها",
+      zh: "日常与爱好",
+      ja: "日常生活と趣味",
+      ar: "الروتين اليومي والهوايات",
+      es: "Rutinas diarias y pasatiempos",
+    },
+    milestone_M7: {
+      en: "Health & Emergencies",
+      th: "สุขภาพและเหตุฉุกเฉิน",
+      fa: "سلامت و اورژانس",
+      zh: "健康与急救",
+      ja: "健康と緊急事態",
+      ar: "الصحة والطوارئ",
+      es: "Salud y emergencias",
+    },
+    milestone_M8: {
+      en: "Work & Business Basics",
+      th: "งานและพื้นฐานธุรกิจ",
+      fa: "کار و مبانی کسب‌وکار",
+      zh: "工作与商业基础",
+      ja: "仕事とビジネス基礎",
+      ar: "العمل وأساسيات الأعمال",
+      es: "Trabajo y conceptos básicos de negocios",
+    },
+    milestone_M9: {
+      en: "Travel & Accommodation",
+      th: "การเดินทางและที่พัก",
+      fa: "سفر و اقامت",
+      zh: "旅行与住宿",
+      ja: "旅行と宿泊",
+      ar: "السفر والإقامة",
+      es: "Viajes y alojamiento",
+    },
+    milestone_M10: {
+      en: "Socializing & Opinions",
+      th: "การเข้าสังคมและความคิดเห็น",
+      fa: "معاشرت و نظرات",
+      zh: "社交与观点",
+      ja: "交流と意見",
+      ar: "التواصل والآراء",
+      es: "Socialización y opiniones",
+    },
+    milestone_M11: {
+      en: "Abstract Concepts & Philosophy",
+      th: "แนวคิดนามธรรมและปรัชญา",
+      fa: "مفاهیم انتزاعی و فلسفه",
+      zh: "抽象概念与哲学",
+      ja: "抽象概念と哲学",
+      ar: "المفاهيم المجردة والفلسفة",
+      es: "Conceptos abstractos y filosofía",
+    },
+    milestone_M12: {
+      en: "Media, News & Technology",
+      th: "สื่อ ข่าวสาร และเทคโนโลยี",
+      fa: "رسانه، اخبار و فناوری",
+      zh: "媒体、新闻与科技",
+      ja: "メディア、ニュース、テクノロジー",
+      ar: "الإعلام والأخبار والتكنولوجيا",
+      es: "Medios, noticias y tecnología",
+    },
+    milestone_M13: {
+      en: "Culture, History & Traditions",
+      th: "วัฒนธรรม ประวัติศาสตร์ และประเพณี",
+      fa: "فرهنگ، تاریخ و سنت‌ها",
+      zh: "文化、历史与传统",
+      ja: "文化、歴史、伝統",
+      ar: "الثقافة والتاريخ والتقاليد",
+      es: "Cultura, historia y tradiciones",
+    },
+    milestone_M14: {
+      en: "Professional Negotiations",
+      th: "การเจรจาทางวิชาชีพ",
+      fa: "مذاکرات حرفه‌ای",
+      zh: "专业谈判",
+      ja: "専門的な交渉",
+      ar: "المفاوضات المهنية",
+      es: "Negociaciones profesionales",
+    },
+    milestone_M15: {
+      en: "Nuance, Humor & Idioms",
+      th: "น้ำเสียง อารมณ์ขัน และสำนวน",
+      fa: "ظرافت، طنز و اصطلاحات",
+      zh: "细微差别、幽默与习语",
+      ja: "ニュアンス、ユーモア、慣用句",
+      ar: "الفروق الدقيقة والفكر والأمثال",
+      es: "Matices, humor y modismos",
+    },
+    tag_everyday: {
+      en: "everyday",
+      th: "ชีวิตประจำวัน",
+      fa: "روزمره",
+      ar: "يومي",
+      es: "cotidiano",
+      zh: "日常",
+      ja: "日常",
+    },
+    tag_travel: {
+      en: "travel",
+      th: "การเดินทาง",
+      fa: "سفر",
+      ar: "سفر",
+      es: "viajes",
+      zh: "旅行",
+      ja: "旅行",
+    },
+    tag_business: {
+      en: "business",
+      th: "ธุรกิจ",
+      fa: "کسب‌وکار",
+      ar: "أعمال",
+      es: "negocios",
+      zh: "商务",
+      ja: "ビジネス",
+    },
+    tag_academic: {
+      en: "academic",
+      th: "วิชาการ",
+      fa: "تحصیلی",
+      ar: "أكاديمي",
+      es: "académico",
+      zh: "学术",
+      ja: "学術",
+    },
+    tag_cultural: {
+      en: "cultural",
+      th: "วัฒนธรรม",
+      fa: "فرهنگی",
+      ar: "ثقافي",
+      es: "cultural",
+      zh: "文化",
+      ja: "文化",
+    },
     lessonLoadError: {
       en: "This lesson could not be loaded. Please try again.",
       th: "ไม่สามารถโหลดบทเรียนนี้ได้ กรุณาลองอีกครั้ง",
@@ -2518,25 +2735,8 @@
       const grammarQuizPassed =
         mProgress.grammar_quiz && mProgress.grammar_quiz.passed;
 
-      const grammarItems = items.filter((item) => item.role === "grammar");
-      if (grammarItems.length > 0 && !grammarQuizPassed) {
-        const quizRecords = quizProgressService.records || {};
-        let totalAttempts = 0,
-          correctAttempts = 0;
-        for (const item of grammarItems) {
-          const matchingKeys = Object.keys(quizRecords).filter((key) =>
-            key.startsWith(item.id + ":"),
-          );
-          for (const key of matchingKeys) {
-            const rec = quizRecords[key];
-            totalAttempts += (rec.correct || 0) + (rec.incorrect || 0);
-            correctAttempts += rec.correct || 0;
-          }
-        }
-        if (totalAttempts === 0) return false;
-        const passPct = Math.round((correctAttempts / totalAttempts) * 100);
-        if (passPct < requiredPct) return false;
-      }
+      const avgScore = getAverageScore(id);
+      if (avgScore < requiredPct) return false;
 
       const milestones = manifest?.milestones || [];
       const currentIndex = milestones.findIndex((m) => m.id === id);
@@ -2806,21 +3006,30 @@
     }
   }
   function showView(name) {
+    const isViewChange = currentView !== name;
     currentView = name;
-    if (name !== "voicetest") stopVoiceTestPlayback();
-    stopPlayback();
-    clearPlaybackHighlights();
-    clearExerciseHighlights();
-    if (name !== "lesson") {
-      [elements.actionBar, elements.bottomBar].forEach((bar) => {
-        if (bar) {
-          const existing = bar.querySelector(".complete-toggle");
-          if (existing) existing.remove();
-          const existingProgress = bar.querySelector(".auto-complete-progress");
-          if (existingProgress) existingProgress.remove();
-        }
-      });
+
+    // Only stop playback and clear highlights if we are actually changing views.
+    // This prevents dynamic re-renders (like opening a closed section during playback) from killing the audio.
+    if (isViewChange) {
+      if (name !== "voicetest") stopVoiceTestPlayback();
+      stopPlayback();
+      clearPlaybackHighlights();
+      clearExerciseHighlights();
+      if (name !== "lesson") {
+        [elements.actionBar, elements.bottomBar].forEach((bar) => {
+          if (bar) {
+            const existing = bar.querySelector(".complete-toggle");
+            if (existing) existing.remove();
+            const existingProgress = bar.querySelector(
+              ".auto-complete-progress",
+            );
+            if (existingProgress) existingProgress.remove();
+          }
+        });
+      }
     }
+
     VIEW_IDS.forEach((id) => {
       const el = elements[`${id}View`];
       if (el) el.hidden = id !== name;
@@ -3122,7 +3331,9 @@
       ).length;
       const progress = document.createElement("span");
       progress.className = "proficiency-tier__progress";
-      progress.textContent = `${completedCount}/${milestoneIds.length}`;
+      const numFmt = new Intl.NumberFormat(state.settings.appLanguage);
+      progress.textContent = `${numFmt.format(completedCount)}/${numFmt.format(milestoneIds.length)}`;
+
       const chevron = document.createElement("span");
       chevron.className = "category__chevron";
       chevron.textContent = isOpen ? "\u25BE" : "\u25B8";
@@ -3143,7 +3354,7 @@
           if (mState === "LOCKED") {
             card.classList.add("is-locked");
             card.disabled = true;
-            card.title = "Complete previous milestones to unlock";
+            card.title = t("lockedTooltip");
           } else if (mState === "IN_PROGRESS") {
             card.classList.add("is-in-progress");
           } else if (mState === "COMPLETED") {
@@ -3161,11 +3372,11 @@
           else statusIcon.textContent = "▶️";
           const titleEl = document.createElement("span");
           titleEl.className = "lesson-card__title";
+          const titleKey = `milestone_${milestone.id}`;
+          const titleObj = UI_STRINGS[titleKey] || { en: milestone.title };
           titleEl.textContent =
-            dataService.getLocalizedText(
-              { en: milestone.title },
-              preferredAppLanguages(),
-            ) || milestone.id;
+            dataService.getLocalizedText(titleObj, preferredAppLanguages()) ||
+            milestone.id;
           card.append(statusIcon, titleEl);
           body.appendChild(card);
         }
@@ -3267,20 +3478,30 @@
     card.className = "next-up-card";
     const title = document.createElement("h3");
     title.className = "next-up-card__title";
+    const titleKey = `milestone_${milestone.id}`;
+    const titleObj = UI_STRINGS[titleKey] || { en: milestone.title };
     title.textContent =
-      dataService.getLocalizedText(
-        { en: milestone.title },
-        preferredAppLanguages(),
-      ) || milestone.id;
+      dataService.getLocalizedText(titleObj, preferredAppLanguages()) ||
+      milestone.id;
     card.appendChild(title);
+
     const metaRow = document.createElement("div");
     metaRow.className = "next-up-card__meta";
-    const tags = (milestone.priority_tags || []).join(", ");
+    const rawTags = milestone.priority_tags || [];
+    const localizedTags = rawTags.map((tag) => {
+      const cleanTag = String(tag).trim();
+      const tagKey = `tag_${cleanTag}`;
+      // Fallback to the raw tag string if the translation key doesn't exist
+      const translated = t(tagKey);
+      return translated !== tagKey ? translated : cleanTag;
+    });
+    const tags = localizedTags.join(", ");
     const metaSpan = document.createElement("span");
     metaSpan.className = "next-up-card__level";
-    metaSpan.textContent = `Focus: ${tags || "General"}`;
+    metaSpan.textContent = `${t("focus")}: ${tags || t("general")}`;
     metaRow.appendChild(metaSpan);
     card.appendChild(metaRow);
+
     const navRow = document.createElement("div");
     navRow.className = "next-up-card__nav";
     const openBtn = document.createElement("button");
@@ -3288,7 +3509,7 @@
     openBtn.className = "button next-up-card__open";
     openBtn.dataset.action = "next-up-continue";
     openBtn.dataset.lessonId = previewId;
-    openBtn.textContent = "Open";
+    openBtn.textContent = t("open");
     navRow.appendChild(openBtn);
     card.appendChild(navRow);
     return card;
@@ -3563,9 +3784,11 @@
         (m) => m.id === lessonId,
       );
       if (milestone) {
+        const titleKey = `milestone_${milestone.id}`;
+        const localizedTitle = UI_STRINGS[titleKey] || { en: milestone.title };
         lessonMeta = {
           id: milestone.id,
-          title: { en: milestone.title },
+          title: localizedTitle,
           proficiency: milestone.tier,
           file: milestone.file,
         };
@@ -3575,7 +3798,50 @@
     }
     markLessonTried(lessonMeta.id);
     let content = { items: [], failed: false };
-    if (lessonMeta.file) content = await loadLessonFile(lessonMeta.file);
+    if (lessonMeta.file) {
+      const targetLang = state.settings.targetLanguage || "en";
+      const parts = lessonMeta.file.split("/");
+      const filename = parts.pop(); // e.g., "M1.json"
+
+      // 1. Fetch the Language-Agnostic Common Data (Vocab & Sentences)
+      const commonPath = `milestones/common/${filename}`;
+      const commonData = await loadLessonFile(commonPath);
+
+      // 2. Fetch the Target Language Specific Data (Grammar & Quizzes)
+      const langPath = `milestones/${targetLang}/${filename}`;
+      const langData = await loadLessonFile(langPath);
+
+      // 3. Assemble / Merge the Data
+      const commonFailed = commonData.failed || !commonData.items;
+      const langFailed = langData.failed || !langData.items;
+
+      if (commonFailed && langFailed) {
+        content = { items: [], failed: true };
+      } else {
+        const commonItems = Array.isArray(commonData.items)
+          ? commonData.items
+          : [];
+        const langItems = Array.isArray(langData.items) ? langData.items : [];
+
+        content = {
+          milestone_id: commonData.milestone_id || langData.milestone_id,
+          displayMode:
+            commonData.displayMode || langData.displayMode || "default",
+          unlock_requirements:
+            commonData.unlock_requirements ||
+            langData.unlock_requirements ||
+            {},
+          cultural_context: commonData.cultural_context || {},
+          // Append grammar items to the end of the common items
+          items: [...commonItems, ...langItems],
+          // Grammar questions are strictly language-specific
+          grammar_questions: Array.isArray(langData.grammar_questions)
+            ? langData.grammar_questions
+            : [],
+          failed: false,
+        };
+      }
+    }
 
     currentLesson = {
       meta: lessonMeta,
@@ -3584,14 +3850,10 @@
         ? content.grammar_questions
         : [],
       unlock_requirements: content.unlock_requirements || {},
+      cultural_context: content.cultural_context || {}, // 🛠️ Re-capture for the collapsible panel
       failed: Boolean(content.failed),
     };
 
-    if (content.displayMode)
-      currentLesson.meta = {
-        ...currentLesson.meta,
-        displayMode: content.displayMode,
-      };
     dataService = new DataService({ items: currentLesson.items }, registry);
     flashcardService = new FlashcardService({ dataService, registry });
     quizService = new QuizService({ dataService, registry });
@@ -3604,13 +3866,18 @@
     ensureExerciseConfigs();
     renderLesson();
   }
+
   function ensureExerciseConfigs() {
     const langs = selectedLessonLanguages();
     const appLang = state.settings.appLanguage;
     const targetLang = state.settings.targetLanguage;
-    flashcardConfig.promptLanguage = langs.includes(targetLang)
-      ? targetLang
-      : langs[0] || "";
+
+    // Only set defaults if the current selection is invalid/missing
+    if (!langs.includes(flashcardConfig.promptLanguage)) {
+      flashcardConfig.promptLanguage = langs.includes(targetLang)
+        ? targetLang
+        : langs[0] || "";
+    }
     flashcardConfig.revealLanguages = flashcardConfig.revealLanguages.filter(
       (code) => langs.includes(code) && code !== flashcardConfig.promptLanguage,
     );
@@ -3621,10 +3888,12 @@
         ) || langs.find((c) => c !== flashcardConfig.promptLanguage);
       if (reveal) flashcardConfig.revealLanguages = [reveal];
     }
-    if (!langs.includes(quizConfig.questionLanguage))
+
+    if (!langs.includes(quizConfig.questionLanguage)) {
       quizConfig.questionLanguage = langs.includes(targetLang)
         ? targetLang
         : langs[0] || "";
+    }
     if (
       !langs.includes(quizConfig.answerLanguage) ||
       quizConfig.answerLanguage === quizConfig.questionLanguage
@@ -3636,109 +3905,189 @@
     }
   }
 
-  function getMilestoneProgressText(milestoneId) {
+  function getAverageScore(milestoneId) {
     const milestoneData = (manifest?.milestones || []).find(
       (m) => m.id === milestoneId,
     );
-    if (!milestoneData) return "";
-    const requirements = milestoneData.unlock_requirements || {
-      srs_box_level: 4,
-      grammar_quiz_pass_pct: 80,
-    };
-    const requiredBox = requirements.srs_box_level || 4;
-    const requiredPct = requirements.grammar_quiz_pass_pct || 80;
+    if (!milestoneData) return 0;
 
-    const targetItems = (milestoneData.items || []).filter(
-      (i) => i.role === "target",
-    );
-    const grammarItems = (milestoneData.items || []).filter(
-      (i) => i.role === "grammar",
-    );
+    const scores = [];
+    const items = currentLesson?.items || [];
+    const requiredBox = milestoneData.unlock_requirements?.srs_box_level || 4;
 
-    let vocabText = "0/0";
+    // 1. Flashcard Score (Word & Sentence)
+    const targetItems = items.filter((i) => i.role === "target");
     if (targetItems.length > 0) {
+      const records = srsService?.records || {};
       let metCount = 0;
       for (const item of targetItems) {
-        const records = srsService?.records || {};
         const matchingKey = Object.keys(records).find((key) =>
           key.includes(item.id),
         );
         if (matchingKey && records[matchingKey].box >= requiredBox) metCount++;
       }
-      vocabText = `${metCount}/${targetItems.length}`;
+      scores.push(Math.round((metCount / targetItems.length) * 100));
     }
 
-    let grammarText = "0%";
-    const progress = milestoneService?.getProgress();
-    const mProgress = progress?.[milestoneId];
+    // 2. Quiz Score (Word & Sentence Quizzes)
+    const allQuizRecords = quizProgressService?.records || {};
+    let quizTotal = 0,
+      quizCorrect = 0;
+    for (const key in allQuizRecords) {
+      const rec = allQuizRecords[key];
+      quizTotal += (rec.correct || 0) + (rec.incorrect || 0);
+      quizCorrect += rec.correct || 0;
+    }
+    if (quizTotal > 0) {
+      scores.push(Math.round((quizCorrect / quizTotal) * 100));
+    }
 
-    if (mProgress?.grammar_quiz) {
-      grammarText = `${mProgress.grammar_quiz.best_accuracy}% (Best)`;
-    } else if (grammarItems.length > 0) {
-      let totalAttempts = 0,
-        correctAttempts = 0;
-      const quizRecords = quizProgressService?.records || {};
-      for (const item of grammarItems) {
-        const matchingKeys = Object.keys(quizRecords).filter((key) =>
-          key.startsWith(item.id + ":"),
-        );
-        for (const key of matchingKeys) {
-          const rec = quizRecords[key];
-          totalAttempts += (rec.correct || 0) + (rec.incorrect || 0);
-          correctAttempts += rec.correct || 0;
-        }
+    if (scores.length === 0) return 0;
+    return Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
+  }
+
+  function getMilestoneProgressText(milestoneId) {
+    return `${getAverageScore(milestoneId)}%`;
+  }
+
+  function renderCompleteToggle() {
+    // Clean up any previously injected elements
+    [elements.actionBar, elements.bottomBar].forEach((bar) => {
+      if (bar) {
+        const existing = bar.querySelector(".complete-toggle");
+        if (existing) existing.remove();
+        const existingProgress = bar.querySelector(".auto-complete-progress");
+        if (existingProgress) existingProgress.remove();
       }
-      const pct =
-        totalAttempts > 0
-          ? Math.round((correctAttempts / totalAttempts) * 100)
-          : 0;
-      grammarText = `${pct}%`;
+    });
+
+    if (!currentLesson) return;
+
+    const lessonId = currentLesson.meta.id;
+    const isComplete = milestoneService
+      ? milestoneService.getMilestoneState(lessonId) === "COMPLETED"
+      : false;
+
+    const progressText = getMilestoneProgressText(lessonId);
+
+    // 1. Inject Score into Action Bar (Row 1) at the very beginning
+    if (progressText && elements.actionBar) {
+      // Using a span with the button class so it inherits the exact pill shape and styling
+      const progressEl = document.createElement("span");
+      progressEl.className = "action-bar__button auto-complete-progress";
+      progressEl.textContent = progressText;
+
+      const firstExerciseBtn = elements.actionBar.querySelector(
+        ".action-bar__button",
+      );
+      if (firstExerciseBtn) {
+        elements.actionBar.insertBefore(progressEl, firstExerciseBtn);
+      } else {
+        elements.actionBar.appendChild(progressEl);
+      }
     }
 
-    return `Auto-complete progress: Vocab ${vocabText} | Grammar Quiz ${grammarText} (Need ${requiredPct}%)`;
+    // 2. Inject Complete toggle into Bottom Bar (Row 2) before Settings
+    if (elements.bottomBar) {
+      const label = document.createElement("label");
+      label.className = "complete-toggle";
+      const checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.checked = isComplete;
+      checkbox.addEventListener("change", () => {
+        if (milestoneService) {
+          milestoneService.setMilestoneComplete(lessonId, checkbox.checked);
+          renderLesson();
+        }
+      });
+
+      const text = document.createElement("span");
+      text.className = "complete-toggle__label";
+      text.textContent = t("completeQuestion");
+      label.append(checkbox, text);
+
+      const settingsBtn = elements.bottomBar.querySelector(
+        '[data-action="open-settings"]',
+      );
+      if (settingsBtn) {
+        elements.bottomBar.insertBefore(label, settingsBtn);
+      } else {
+        elements.bottomBar.appendChild(label);
+      }
+    }
   }
 
   function renderLesson() {
     showView("lesson");
     const view = elements.lessonView;
     view.innerHTML = "";
+
     const header = document.createElement("div");
     header.className = "document-header";
+
     const back = document.createElement("button");
     back.type = "button";
     back.className = "button";
     back.dataset.action = "back-home";
     back.textContent = "\u2190";
     back.setAttribute("aria-label", t("back"));
+
     const title = document.createElement("h2");
     title.className = "document-title";
+    // Title is already localized via openLesson -> UI_STRINGS mapping
     title.textContent =
       dataService.getLocalizedText(
         currentLesson.meta.title,
         preferredAppLanguages(),
       ) || currentLesson.meta.id;
+
     header.append(back, title);
 
-    console.log(
-      "[Zabon Debug] renderLesson: grammar_questions =",
-      currentLesson.grammar_questions,
+    // ── 1. Render Cultural Context Toggle (💡 Icon) ──
+    const culturalText = dataService.getLocalizedText(
+      currentLesson.cultural_context || {},
+      preferredAppLanguages(),
     );
 
-    if (
-      currentLesson.grammar_questions &&
-      currentLesson.grammar_questions.length > 0
-    ) {
-      const gqBtn = document.createElement("button");
-      gqBtn.type = "button";
-      gqBtn.className = "button";
-      gqBtn.dataset.action = "open-grammar-quiz";
-      gqBtn.textContent = "📝";
-      gqBtn.setAttribute("aria-label", t("grammarQuiz"));
-      gqBtn.title = t("grammarQuiz");
-      header.appendChild(gqBtn);
+    if (culturalText) {
+      const cultureBtn = document.createElement("button");
+      cultureBtn.type = "button";
+      cultureBtn.className = "icon-button culture-toggle-btn";
+      cultureBtn.dataset.action = "toggle-cultural-context";
+      cultureBtn.textContent = "💡";
+      cultureBtn.setAttribute(
+        "aria-label",
+        t("culturalNote") || "Cultural Note",
+      );
+      cultureBtn.title = t("culturalNote") || "Cultural Note";
+
+      const isCultureOpen = openLessonSections.has("lesson:cultural-context");
+      if (isCultureOpen) cultureBtn.classList.add("is-active");
+
+      header.appendChild(cultureBtn);
     }
 
+    // Note: The Grammar Quiz button (📝) has been intentionally omitted from the header
+    // as it is handled via the exercise engines in the bottom toolbar.
+
     view.appendChild(header);
+
+    // ── 2. Render Collapsible Cultural Context Panel ──
+    if (culturalText) {
+      const culturePanel = document.createElement("div");
+      culturePanel.className = "cultural-context-panel";
+      const isCultureOpen = openLessonSections.has("lesson:cultural-context");
+      culturePanel.hidden = !isCultureOpen;
+
+      const cultureTextEl = document.createElement("p");
+      cultureTextEl.className = "cultural-context-panel__text";
+      cultureTextEl.textContent = culturalText;
+      culturePanel.appendChild(cultureTextEl);
+
+      view.appendChild(culturePanel);
+    }
+
+    // ── 3. Handle Load Failure ──
     if (currentLesson.failed) {
       view.appendChild(makeEmptyState(t("lessonLoadError")));
       const retry = document.createElement("button");
@@ -3750,6 +4099,7 @@
       return;
     }
 
+    // ── 4. Render Lesson Sections (Vocab, Sentences, Grammar Notes) ──
     const langs = selectedLessonLanguages();
     if (!langs.length) {
       view.appendChild(makeEmptyState(t("noLanguagesSelected")));
@@ -3759,6 +4109,7 @@
     const items = currentLesson.items;
     const sections = [];
     let currentSection = { header: null, items: [] };
+
     for (const item of items) {
       if (item.header) {
         if (currentSection.items.length > 0) {
@@ -3787,68 +4138,11 @@
         renderLessonSection(titleText, section.items, langs, sectionKey),
       );
     });
+
+    // ── 5. Render Bottom Bar Controls (Score & Complete Toggle) ──
     renderCompleteToggle();
   }
 
-  function renderCompleteToggle() {
-    [elements.actionBar, elements.bottomBar].forEach((bar) => {
-      if (bar) {
-        const existing = bar.querySelector(".complete-toggle");
-        if (existing) existing.remove();
-        const existingProgress = bar.querySelector(".auto-complete-progress");
-        if (existingProgress) existingProgress.remove();
-      }
-    });
-    const targetBar = elements.bottomBar;
-    if (!targetBar || !currentLesson) return;
-    const lessonId = currentLesson.meta.id;
-    const isComplete = milestoneService
-      ? milestoneService.getMilestoneState(lessonId) === "COMPLETED"
-      : false;
-
-    const progressText = getMilestoneProgressText(lessonId);
-    if (progressText) {
-      const progressEl = document.createElement("div");
-      progressEl.className = "auto-complete-progress";
-      progressEl.style.width = "100%";
-      progressEl.style.textAlign = "center";
-      progressEl.style.fontSize = "0.85rem";
-      progressEl.style.color = "var(--muted)";
-      progressEl.style.marginBlockEnd = "0.5rem";
-      progressEl.textContent = progressText;
-      targetBar.insertBefore(progressEl, targetBar.firstChild);
-    }
-
-    const label = document.createElement("label");
-    label.className = "complete-toggle";
-    const checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    checkbox.checked = isComplete;
-    checkbox.addEventListener("change", () => {
-      if (milestoneService) {
-        milestoneService.setMilestoneComplete(lessonId, checkbox.checked);
-        renderLesson();
-      }
-    });
-    const text = document.createElement("span");
-    text.className = "complete-toggle__label";
-    text.textContent = t("completeQuestion");
-    label.append(checkbox, text);
-    const settingsBtn = targetBar.querySelector(
-      '[data-action="open-settings"]',
-    );
-    if (settingsBtn) targetBar.insertBefore(label, settingsBtn);
-    else targetBar.appendChild(label);
-  }
-
-  function ensureAllSectionsOpen() {
-    document
-      .querySelectorAll("[data-action='toggle-lesson-section']")
-      .forEach((btn) => {
-        if (btn.dataset.sectionKey)
-          openLessonSections.add(btn.dataset.sectionKey);
-      });
-  }
   function renderLessonSection(titleText, items, langs, sectionKey) {
     const section = document.createElement("section");
     section.className = "lesson-section";
@@ -3880,6 +4174,7 @@
     section.appendChild(body);
     return section;
   }
+
   function renderItemColumn(item, langs) {
     if (item.header) {
       const column = document.createElement("div");
@@ -3909,6 +4204,7 @@
       );
     return column;
   }
+
   function parseScriptConnections(connections) {
     const forms = { isolated: "", initial: "", medial: "", final: "" };
     if (!connections) return forms;
@@ -3931,10 +4227,28 @@
     }
     return forms;
   }
+
   function renderLanguageCell(item, code) {
     const kind = dataService.getItemKind(item);
-    const text = dataService.getText(item, code);
+    let text = dataService.getText(item, code);
+
+    // 🛡️ DEFENSIVE CHECK: Prevent AI "laziness" from showing English to non-English users.
+    // If this is a grammar note, and the text for the current language is identical
+    // to the English text (meaning the AI copied the English string instead of translating),
+    // force it to be treated as missing.
+    if (
+      item.role === "grammar" &&
+      code !== "en" &&
+      code !== state.settings.targetLanguage
+    ) {
+      const enText = dataService.getText(item, "en");
+      if (text && enText && text.trim() === enText.trim()) {
+        text = "";
+      }
+    }
+
     const cell = document.createElement("div");
+
     cell.className = "language-cell";
     cell.dataset.itemId = item.id;
     cell.dataset.lang = code;
@@ -3985,6 +4299,7 @@
     }
     return cell;
   }
+
   function renderPhoneticCell(item) {
     const code = state.settings.targetLanguage;
     const text = dataService.getText(item, code);
@@ -4604,11 +4919,18 @@
   }
   function getItemPool(kind) {
     if (!currentLesson) return [];
+    // STRICT FIX: Only include items explicitly marked as "target" for exercises.
+    // This prevents Grammar Notes (role: "grammar") from leaking into Word Flashcards/Quizzes.
     const items = kind
       ? currentLesson.items.filter(
-          (item) => dataService.getItemKind(item) === kind && !item.header,
+          (item) =>
+            dataService.getItemKind(item) === kind &&
+            item.role === "target" &&
+            !item.header,
         )
-      : currentLesson.items.filter((item) => !item.header);
+      : currentLesson.items.filter(
+          (item) => item.role === "target" && !item.header,
+        );
     return items.map((item) => item.id);
   }
   function buildPlaybackUnits() {
@@ -4641,7 +4963,7 @@
     return units;
   }
   function startPlaybackFromBeginning() {
-    ensureAllSectionsOpen();
+    // Panels will now open dynamically as playback reaches them.
     renderLesson();
     const units = buildPlaybackUnits();
     if (!units.length) {
@@ -4740,8 +5062,26 @@
       .forEach((el) => el.classList.remove("is-highlighted"));
   }
   function scrollUnitIntoView(unit) {
-    const cell = getCellElement(unit.itemId, unit.languageCode);
+    let cell = getCellElement(unit.itemId, unit.languageCode);
+
+    // If the cell is not in the DOM, it is likely inside a closed section.
+    if (!cell && currentLesson) {
+      const sectionKey = getSectionKeyForItem(unit.itemId);
+      if (sectionKey && !openLessonSections.has(sectionKey)) {
+        openLessonSections.add(sectionKey);
+
+        // Suppress scroll events BEFORE re-rendering to prevent the scroll
+        // listener from accidentally stopping playback.
+        programmaticScrollUntil = Date.now() + SCROLL_SUPPRESSION_MS;
+        renderLesson();
+
+        // Fetch the cell again now that the section is open
+        cell = getCellElement(unit.itemId, unit.languageCode);
+      }
+    }
+
     if (!cell) return;
+
     const target = cell.closest(".item-column") || cell;
     programmaticScrollUntil = Date.now() + SCROLL_SUPPRESSION_MS;
     target.scrollIntoView({
@@ -4750,6 +5090,42 @@
       behavior: "smooth",
     });
   }
+
+  function getSectionKeyForItem(targetItemId) {
+    if (!currentLesson?.items) return null;
+
+    // Replicate the exact section-building logic from renderLesson()
+    const sections = [];
+    let currentSection = { header: null, items: [] };
+
+    for (const item of currentLesson.items) {
+      if (item.header) {
+        if (currentSection.items.length > 0) {
+          sections.push(currentSection);
+          currentSection = { header: item, items: [] };
+        } else {
+          currentSection.header = item;
+        }
+      } else {
+        currentSection.items.push(item);
+      }
+    }
+    if (currentSection.items.length > 0) sections.push(currentSection);
+
+    // Find which section contains the target item
+    for (let index = 0; index < sections.length; index++) {
+      const section = sections[index];
+      const sectionKey = section.header
+        ? `lesson:section:${section.header.id}`
+        : `lesson:section:fallback:${index}`;
+
+      if (section.items.some((i) => i.id === targetItemId)) {
+        return sectionKey;
+      }
+    }
+    return null;
+  }
+
   function playCurrentUnit() {
     if (!playbackState || playbackState.status !== "playing") return;
     const unit = playbackState.units?.[playbackState.index];
@@ -6394,6 +6770,16 @@
         case "toggle-progress-section":
           toggleProgressSection(actionEl.dataset.sectionKey);
           break;
+        case "toggle-cultural-context": {
+          const key = "lesson:cultural-context";
+          if (openLessonSections.has(key)) {
+            openLessonSections.delete(key);
+          } else {
+            openLessonSections.add(key);
+          }
+          renderLesson(); // Re-render to toggle the 'hidden' attribute
+          break;
+        }
         case "toggle-lesson-section":
           toggleLessonSection(actionEl.dataset.sectionKey);
           break;
@@ -6545,6 +6931,16 @@
             milestoneId: currentLesson.meta.id,
           };
           renderQuiz();
+          break;
+        }
+        case "toggle-cultural-context": {
+          const key = "lesson:cultural-context";
+          if (openLessonSections.has(key)) {
+            openLessonSections.delete(key);
+          } else {
+            openLessonSections.add(key);
+          }
+          renderLesson(); // Re-render to toggle the 'hidden' attribute
           break;
         }
         default:
