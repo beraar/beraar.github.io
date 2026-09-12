@@ -2692,51 +2692,34 @@
       this.saveProgress(progress);
       return progress;
     }
+
     evaluateAutoCompletion(id) {
       const milestoneData = (manifest?.milestones || []).find(
         (m) => m.id === id,
       );
-      if (!milestoneData || !srsService || !quizProgressService) return false;
+      if (!milestoneData) return false;
+
       const currentState = this.getMilestoneState(id);
       if (currentState === "LOCKED" || currentState === "COMPLETED")
         return false;
 
-      // FIX: Read items and requirements from currentLesson if available, as manifest doesn't hold the full JSON data
-      const isCurrentLesson =
-        currentLesson && currentLesson.meta && currentLesson.meta.id === id;
-      const items = isCurrentLesson
-        ? currentLesson.items || []
-        : milestoneData.items || [];
-      const requirements = isCurrentLesson
-        ? currentLesson.unlock_requirements || {}
-        : milestoneData.unlock_requirements || {};
+      // ── OPTION B: Average Score Logic ──
+      // Calculate the holistic average of SRS (Flashcards) and Quizzes.
+      const avgScore = getLessonAverageScore(id);
 
-      const requiredBox = requirements.srs_box_level || 4;
+      const requirements =
+        currentLesson && currentLesson.meta.id === id
+          ? currentLesson.unlock_requirements || {}
+          : milestoneData.unlock_requirements || {};
       const requiredPct = requirements.grammar_quiz_pass_pct || 80;
 
-      // Ensure no trailing spaces in "target" (e.g. "target " vs "target")
-      const targetItems = items.filter((item) => item.role === "target");
-      if (targetItems.length === 0) return false;
+      // If the overall average score hasn't reached the threshold, do not auto-complete.
+      if (avgScore < requiredPct) return false;
 
-      const allTargetsMet = targetItems.every((item) => {
-        const records = srsService.records || {};
-        const matchingKey = Object.keys(records).find((key) =>
-          key.includes(item.id),
-        );
-        if (!matchingKey) return false;
-        const record = records[matchingKey];
-        return Number.isInteger(record.box) && record.box >= requiredBox;
-      });
-      if (!allTargetsMet) return false;
-
+      // ── Mark as Completed & Unlock Next ──
       let progress = this.getProgress();
       if (!progress) progress = this.initializeProgress();
       const mProgress = progress[id] || {};
-      const grammarQuizPassed =
-        mProgress.grammar_quiz && mProgress.grammar_quiz.passed;
-
-      const avgScore = getAverageScore(id);
-      if (avgScore < requiredPct) return false;
 
       const milestones = manifest?.milestones || [];
       const currentIndex = milestones.findIndex((m) => m.id === id);
@@ -3946,8 +3929,70 @@
     return Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
   }
 
+  function getLessonAverageScore(lessonId) {
+    // We can only calculate this if the lesson is currently loaded in memory
+    if (!currentLesson || currentLesson.meta.id !== lessonId) return 0;
+
+    const items = currentLesson.items || [];
+    const requiredBox = currentLesson.unlock_requirements?.srs_box_level || 4;
+    const scores = [];
+
+    // 1. Vocab/Flashcard Score (SRS Mastery)
+    const targetWordItems = items.filter(
+      (i) => i.role === "target" && dataService.getItemKind(i) === "word",
+    );
+    if (targetWordItems.length > 0) {
+      const records = srsService?.records || {};
+      let metCount = 0;
+      for (const item of targetWordItems) {
+        const matchingKey = Object.keys(records).find((key) =>
+          key.includes(item.id),
+        );
+        if (matchingKey && records[matchingKey].box >= requiredBox) metCount++;
+      }
+      scores.push(Math.round((metCount / targetWordItems.length) * 100));
+    }
+
+    // 2. Quiz Score (Word, Sentence, and Grammar Quizzes combined)
+    const allQuizRecords = quizProgressService?.records || {};
+    let quizTotal = 0,
+      quizCorrect = 0;
+
+    for (const key in allQuizRecords) {
+      // Only count quiz records that belong to this specific milestone
+      if (key.startsWith(lessonId + "_") || key.startsWith(lessonId + ":")) {
+        const rec = allQuizRecords[key];
+        quizTotal += (rec.correct || 0) + (rec.incorrect || 0);
+        quizCorrect += rec.correct || 0;
+      }
+    }
+    if (quizTotal > 0) {
+      scores.push(Math.round((quizCorrect / quizTotal) * 100));
+    }
+
+    if (scores.length === 0) return 0;
+    return Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
+  }
+
   function getMilestoneProgressText(milestoneId) {
-    return `${getAverageScore(milestoneId)}%`;
+    const score = getLessonAverageScore(milestoneId);
+
+    // Fetch the required threshold (default 80%)
+    const milestoneData = (manifest?.milestones || []).find(
+      (m) => m.id === milestoneId,
+    );
+    const requirements =
+      currentLesson && currentLesson.meta.id === milestoneId
+        ? currentLesson.unlock_requirements || {}
+        : milestoneData?.unlock_requirements || {};
+    const requiredPct = requirements.grammar_quiz_pass_pct || 80;
+
+    // Dynamic Microcopy based on threshold
+    if (score >= requiredPct) {
+      return `${score}% ✅`; // Goal Met
+    } else {
+      return `${score}% → ${requiredPct}%`; // Progressing toward goal
+    }
   }
 
   function renderCompleteToggle() {
@@ -3972,10 +4017,17 @@
 
     // 1. Inject Score into Action Bar (Row 1) at the very beginning
     if (progressText && elements.actionBar) {
-      // Using a span with the button class so it inherits the exact pill shape and styling
       const progressEl = document.createElement("span");
       progressEl.className = "action-bar__button auto-complete-progress";
       progressEl.textContent = progressText;
+
+      // 🎨 Visual State: Add a class if the goal is met
+      const currentScore = getLessonAverageScore(lessonId);
+      const requiredPct =
+        currentLesson?.unlock_requirements?.grammar_quiz_pass_pct || 80;
+      if (currentScore >= requiredPct) {
+        progressEl.classList.add("score-met");
+      }
 
       const firstExerciseBtn = elements.actionBar.querySelector(
         ".action-bar__button",
@@ -4067,8 +4119,21 @@
       header.appendChild(cultureBtn);
     }
 
-    // Note: The Grammar Quiz button (📝) has been intentionally omitted from the header
-    // as it is handled via the exercise engines in the bottom toolbar.
+    // ── 1.5 Render Grammar Quiz Trigger (📝 Icon) ──
+    // This is a Milestone-level assessment (for unlocking), distinct from the Sentence Quiz.
+    if (
+      currentLesson.grammar_questions &&
+      currentLesson.grammar_questions.length > 0
+    ) {
+      const gqBtn = document.createElement("button");
+      gqBtn.type = "button";
+      gqBtn.className = "icon-button grammar-quiz-toggle-btn";
+      gqBtn.dataset.action = "open-grammar-quiz";
+      gqBtn.textContent = "📝"; // Or use "🧠" to differentiate from Sentence Quiz
+      gqBtn.setAttribute("aria-label", t("grammarQuiz"));
+      gqBtn.title = t("grammarQuiz");
+      header.appendChild(gqBtn);
+    }
 
     view.appendChild(header);
 

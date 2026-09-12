@@ -13,13 +13,13 @@ Here is the exact roadmap to generate the entire dataset for all 7 languages.
 
 **Step 1.1: Generate the Common Core**
 
-> **Prompt:** `Follow new-lesson.md exactly. Execute Steps 1 through 3 for: M3. For Step 4, output ONLY Pass 1: The Common Core JSON (milestones/common/M3.json). Do not output the Language Extension yet.`
+> **Prompt:** `Follow new-lesson.md exactly. Execute Steps 1 through 3 for: M5. For Step 4, output ONLY Pass 1: The Common Core JSON (milestones/common/M5.json). Do not output the Language Extension yet.`
 > _Action: Save AI output as `milestones/common/M1.json`_
 
 **Step 1.2: Generate the 7 Language Extensions**
 _(You can do these one by one in the same chat thread, or batch them if the AI context allows)._
 
-> **Prompt (Thai):** `Perfect. Now execute Step 4, Pass 2 for: M1. Target Language: Thai (th). Output ONLY the Language Extension JSON (milestones/th/M1.json).`
+> **Prompt (Thai):** `Perfect. Now execute Step 4, Pass 2 for: M5. Target Language: Arabic (ar). Output ONLY the Language Extension JSON (milestones/ar/M5.json).`
 > **Prompt (English):** `Perfect. Now execute Step 4, Pass 2 for: M1. Target Language: English (en). Output ONLY the Language Extension JSON (milestones/en/M1.json).`
 > **Prompt (Chinese):** `... Target Language: Chinese (zh). Output ... (milestones/zh/M1.json).`
 > _(Repeat for `ja`, `fa`, `ar`, `es`)_
