@@ -71,6 +71,11 @@
       "id": "advanced",
       "label": "Advanced",
       "milestones": ["M11", "M12", "M13", "M14", "M15"]
+    },
+    {
+      "id": "letters",
+      "label": "Alphabet",
+      "milestones": ["L1"]
     }
   ],
   "milestones": [
@@ -178,6 +183,13 @@
       "tier": "advanced",
       "priority_tags": ["cultural", "everyday"],
       "file": "milestones/M15.json"
+    },
+    {
+      "id": "L1",
+      "title": "Mock Letter Lesson",
+      "tier": "letters",
+      "kind": "letter",
+      "file": "L1.json"
     }
   ]
 }

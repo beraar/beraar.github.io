@@ -74,6 +74,9 @@
     "flashcard",
     "quiz",
     "build",
+    "letter-flashcard",
+    "letter-quiz",
+    "letter-spell",
     "progress",
     "voicetest",
     "help",
@@ -548,13 +551,22 @@
       ja: "単語フラッシュカード",
     },
     sentenceFlashcards: {
-      en: "Sentence flashcards",
-      th: "บัตรประโยค",
-      fa: "فلش‌کارت جمله‌ها",
-      ar: "بطاقات الجمل",
-      es: "Tarjetas de oraciones",
-      zh: "句子闪卡",
-      ja: "文フラッシュカード",
+      en: "Sentence flashcards ",
+      th: "บัตรประโยค ",
+      fa: "فلش‌کارت جمله‌ها ",
+      ar: "بطاقات الجمل ",
+      es: "Tarjetas de oraciones ",
+      zh: "句子闪卡 ",
+      ja: "文フラッシュカード ",
+    },
+    letterFlashcards: {
+      en: "Letter flashcards",
+      th: "บัตรตัวอักษร",
+      fa: "فلش‌کارت حروف",
+      ar: "بطاقات الحروف",
+      es: "Tarjetas de letras",
+      zh: "字母闪卡",
+      ja: "文字フラッシュカード",
     },
     quiz: {
       en: "Quiz",
@@ -575,13 +587,31 @@
       ja: "単語クイズ",
     },
     sentenceQuiz: {
-      en: "Sentence quiz",
-      th: "แบบทดสอบประโยค",
-      fa: "آزمون جمله‌ها",
-      ar: "اختبار الجمل",
-      es: "Cuestionario de oraciones",
-      zh: "句子测验",
-      ja: "文クイズ",
+      en: "Sentence quiz ",
+      th: "แบบทดสอบประโยค ",
+      fa: "آزمون جمله‌ها ",
+      ar: "اختبار الجمل ",
+      es: "Cuestionario de oraciones ",
+      zh: "句子测验 ",
+      ja: "文クイズ ",
+    },
+    letterQuiz: {
+      en: "Letter quiz",
+      th: "แบบทดสอบตัวอักษร",
+      fa: "آزمون حروف",
+      ar: "اختبار الحروف",
+      es: "Cuestionario de letras",
+      zh: "字母测验",
+      ja: "文字クイズ",
+    },
+    letterSpell: {
+      en: "Audio spelling",
+      th: "การสะกดด้วยเสียง",
+      fa: "املای صوتی",
+      ar: "التهجئة الصوتية",
+      es: "Deletreo de audio",
+      zh: "音频拼写",
+      ja: "音声スペリング",
     },
     buildSentence: {
       en: "Build a sentence",
@@ -602,13 +632,31 @@
       ja: "あなたの文",
     },
     buildPlaceholder: {
-      en: "Tap words below to build your sentence",
-      th: "แตะคำด้านล่างเพื่อแต่งประโยค",
-      fa: "برای ساختن جمله، واژه‌های زیر را لمس کنید",
-      ar: "اضغط على الكلمات أدناه لتكوين جملتك",
-      es: "Toca las palabras de abajo para construir tu oración",
-      zh: "点击下方单词组成你的句子",
-      ja: "下の単語をタップして文を作りましょう",
+      en: "Tap words below to build your sentence ",
+      th: "แตะคำด้านล่างเพื่อแต่งประโยค ",
+      fa: "برای ساختن جمله، واژه‌های زیر را لمس کنید ",
+      ar: "اضغط على الكلمات أدناه لتكوين جملتك ",
+      es: "Toca las palabras de abajo para construir tu oración ",
+      zh: "点击下方单词组成你的句子 ",
+      ja: "下の単語をタップして文を作りましょう ",
+    },
+    letterSpellSinglePlaceholder: {
+      en: "Tap the letter you hear",
+      th: "แตะตัวอักษรที่คุณได้ยิน",
+      fa: "حرفی را که می‌شنوید لمس کنید",
+      ar: "اضغط على الحرف الذي تسمعه",
+      es: "Toca la letra que escuchas",
+      zh: "点击你听到的字母",
+      ja: "聞こえた文字をタップしよう",
+    },
+    letterSpellPlaceholder: {
+      en: "Tap letters below to build the word",
+      th: "แตะตัวอักษรด้านล่างเพื่อสร้างคำ",
+      fa: "حروف زیر را برای ساختن کلمه لمس کنید",
+      ar: "اضغط على الحروف أدناه لتكوين الكلمة",
+      es: "Toca las letras de abajo para formar la palabra",
+      zh: "点击下方字母拼出单词",
+      ja: "下の文字をタップして単語を作ろう",
     },
     hint: {
       en: "Hint",
@@ -1964,7 +2012,11 @@
   let openHelpSections = new Set(["help:first-visit"]);
   let flashcardSession = null;
   let quizSession = null;
+
+  let letterQuizSession = null;
+  let letterSpellSession = null;
   let nextUpPreviewId = null;
+
   let quizSessionSeed = "quiz:default";
   let flashcardConfig = { promptLanguage: "", revealLanguages: [] };
   let flashcardKind = "word";
@@ -2105,6 +2157,7 @@
       return this.itemsById.get(id) || null;
     }
     getItemKind(item) {
+      if (item?.kind === "letter") return "letter";
       return item?.kind || (item?.texts ? "sentence" : "word");
     }
     getTextMap(item) {
@@ -2649,6 +2702,15 @@
     getMilestoneState(id) {
       let progress = this.getProgress();
       if (!progress) progress = this.initializeProgress();
+      const milestone = (manifest?.milestones || []).find((m) => m.id === id);
+      if (milestone?.kind === "letter") {
+        // Auto-heal: Ensure letter milestones are never locked
+        if (progress[id]?.state === "LOCKED") {
+          progress[id].state = "UNLOCKED";
+          this.saveProgress(progress);
+        }
+        return progress[id].state;
+      }
       return progress[id]?.state || "LOCKED";
     }
     setMilestoneComplete(id, isComplete) {
@@ -2682,6 +2744,8 @@
         };
         for (let i = currentIndex + 1; i < milestones.length; i++) {
           const mid = milestones[i].id;
+          const nextMilestone = milestones.find((m) => m.id === mid);
+          if (nextMilestone?.kind === "letter") continue; // Skip locking letter milestones
           progress[mid] = {
             state: "LOCKED",
             completed_via: null,
@@ -3773,6 +3837,7 @@
           id: milestone.id,
           title: localizedTitle,
           proficiency: milestone.tier,
+          kind: milestone.kind || "word",
           file: milestone.file,
         };
       } else {
@@ -3786,18 +3851,30 @@
       const parts = lessonMeta.file.split("/");
       const filename = parts.pop(); // e.g., "M1.json"
 
-      // 1. Fetch the Language-Agnostic Common Data (Vocab & Sentences)
-      const commonPath = `milestones/common/${filename}`;
-      const commonData = await loadLessonFile(commonPath);
+      let commonData = { items: [] };
+      let langData = { items: [] };
+      let commonFailed = true;
+      let langFailed = true;
 
-      // 2. Fetch the Target Language Specific Data (Grammar & Quizzes)
-      const langPath = `milestones/${targetLang}/${filename}`;
-      const langData = await loadLessonFile(langPath);
+      // 🧠 ARCHITECTURE FIX: Alphabet data is strictly language-specific.
+      // Skip the 'common' fetch entirely for kind="letter" to avoid 404s.
+      if (lessonMeta.kind === "letter") {
+        const langPath = `milestones/${targetLang}/${filename}`;
+        langData = await loadLessonFile(langPath);
+        langFailed = langData.failed || !langData.items;
+      } else {
+        // 1. Fetch the Language-Agnostic Common Data (Vocab & Sentences)
+        const commonPath = `milestones/common/${filename}`;
+        commonData = await loadLessonFile(commonPath);
+        // 2. Fetch the Target Language Specific Data (Grammar & Quizzes)
+        const langPath = `milestones/${targetLang}/${filename}`;
+        langData = await loadLessonFile(langPath);
+
+        commonFailed = commonData.failed || !commonData.items;
+        langFailed = langData.failed || !langData.items;
+      }
 
       // 3. Assemble / Merge the Data
-      const commonFailed = commonData.failed || !commonData.items;
-      const langFailed = langData.failed || !langData.items;
-
       if (commonFailed && langFailed) {
         content = { items: [], failed: true };
       } else {
@@ -3805,7 +3882,6 @@
           ? commonData.items
           : [];
         const langItems = Array.isArray(langData.items) ? langData.items : [];
-
         content = {
           milestone_id: commonData.milestone_id || langData.milestone_id,
           displayMode:
@@ -3815,9 +3891,7 @@
             langData.unlock_requirements ||
             {},
           cultural_context: commonData.cultural_context || {},
-          // Append grammar items to the end of the common items
           items: [...commonItems, ...langItems],
-          // Grammar questions are strictly language-specific
           grammar_questions: Array.isArray(langData.grammar_questions)
             ? langData.grammar_questions
             : [],
@@ -4189,6 +4263,8 @@
     }
     if (currentSection.items.length > 0) sections.push(currentSection);
 
+    const isLetterLesson = currentLesson?.meta?.kind === "letter";
+
     sections.forEach((section, index) => {
       const sectionKey = section.header
         ? `lesson:section:${section.header.id}`
@@ -4198,14 +4274,65 @@
             section.header.texts,
             preferredAppLanguages(),
           ) || section.header.id
-        : t("sentences");
-      view.appendChild(
-        renderLessonSection(titleText, section.items, langs, sectionKey),
-      );
+        : isLetterLesson
+          ? t("letterFlashcards")
+          : t("sentences");
+
+      // Bypass the collapsible wrapper for letter lessons without a specific header
+      // so the alphabet letters display immediately on the initial view.
+      if (isLetterLesson && !section.header) {
+        const sectionEl = document.createElement("section");
+        sectionEl.className = "lesson-section";
+
+        const body = document.createElement("div");
+        body.className = "lesson-section__body";
+
+        if (!section.items.length) {
+          body.appendChild(makeEmptyState(t("noItems")));
+        } else {
+          const row = document.createElement("div");
+          row.className = "item-row";
+          row.dir = registry.dir(state.settings.appLanguage);
+          section.items.forEach((item) =>
+            row.appendChild(renderItemColumn(item, langs)),
+          );
+          body.appendChild(row);
+        }
+
+        sectionEl.appendChild(body);
+        view.appendChild(sectionEl);
+      } else {
+        view.appendChild(
+          renderLessonSection(titleText, section.items, langs, sectionKey),
+        );
+      }
     });
 
     // ── 5. Render Bottom Bar Controls (Score & Complete Toggle) ──
     renderCompleteToggle();
+
+    // ── 6. Toggle Action Bar Buttons based on Lesson Kind ──
+    //  const isLetterLesson = currentLesson?.meta?.kind === "letter";
+    if (elements.actionBar) {
+      const allButtons = elements.actionBar.querySelectorAll(
+        ".action-bar__button",
+      );
+      const letterActions = new Set([
+        "open-letter-flashcards",
+        "open-audio-spell",
+        "open-letter-quiz",
+      ]);
+
+      // Robust DOM iteration: Hides ALL standard buttons, shows ONLY letter buttons
+      allButtons.forEach((btn) => {
+        const action = btn.dataset.action;
+        if (isLetterLesson) {
+          btn.hidden = !letterActions.has(action);
+        } else {
+          btn.hidden = letterActions.has(action);
+        }
+      });
+    }
   }
 
   function renderLessonSection(titleText, items, langs, sectionKey) {
@@ -4407,25 +4534,34 @@
     cell.appendChild(charSpan);
     if (item.connections) {
       const forms = parseScriptConnections(item.connections);
-      const grid = document.createElement("div");
-      grid.className = "script-cell__forms";
-      ["isolated", "initial", "medial", "final"].forEach((formName) => {
-        const val = forms[formName];
-        if (!val) return;
-        const col = document.createElement("div");
-        col.className = "script-cell__form-col";
-        const glyph = document.createElement("span");
-        glyph.lang = registry.bcp47(code);
-        glyph.dir = "rtl";
-        glyph.textContent = val;
-        const label = document.createElement("span");
-        label.className = "script-cell__form-label";
-        label.textContent = formName;
-        col.appendChild(glyph);
-        col.appendChild(label);
-        grid.appendChild(col);
-      });
-      cell.appendChild(grid);
+
+      // Only render the contextual forms grid if at least one form differs from the isolated form.
+      // This prevents scripts like Thai from showing a redundant 4-column grid of the same character.
+      const hasDistinctForms = ["initial", "medial", "final"].some(
+        (formName) => forms[formName] && forms[formName] !== forms.isolated,
+      );
+
+      if (hasDistinctForms) {
+        const grid = document.createElement("div");
+        grid.className = "script-cell__forms";
+        ["isolated", "initial", "medial", "final"].forEach((formName) => {
+          const val = forms[formName];
+          if (!val) return;
+          const col = document.createElement("div");
+          col.className = "script-cell__form-col";
+          const glyph = document.createElement("span");
+          glyph.lang = registry.bcp47(targetLang);
+          glyph.dir = registry.dir(targetLang);
+          glyph.textContent = val;
+          const label = document.createElement("span");
+          label.className = "script-cell__form-label";
+          label.textContent = formName;
+          col.appendChild(glyph);
+          col.appendChild(label);
+          grid.appendChild(col);
+        });
+        back.appendChild(grid);
+      }
     }
     let note = "";
     if (item.phonetic)
@@ -4982,22 +5118,26 @@
     applyFont();
     renderHamburger();
   }
+
   function getItemPool(kind) {
     if (!currentLesson) return [];
-    // STRICT FIX: Only include items explicitly marked as "target" for exercises.
-    // This prevents Grammar Notes (role: "grammar") from leaking into Word Flashcards/Quizzes.
+    const isLetterLesson = currentLesson.meta?.kind === "letter";
     const items = kind
-      ? currentLesson.items.filter(
-          (item) =>
-            dataService.getItemKind(item) === kind &&
-            item.role === "target" &&
-            !item.header,
-        )
+      ? currentLesson.items.filter((item) => {
+          if (item.header) return false;
+          if (kind === "letter") {
+            return isLetterLesson || dataService.getItemKind(item) === "letter";
+          }
+          return (
+            dataService.getItemKind(item) === kind && item.role === "target"
+          );
+        })
       : currentLesson.items.filter(
           (item) => item.role === "target" && !item.header,
         );
     return items.map((item) => item.id);
   }
+
   function buildPlaybackUnits() {
     if (!currentLesson) return [];
     const items = currentLesson.items.filter((item) => !item.header);
@@ -5581,6 +5721,7 @@
     srsService.rateCard(card, rating);
     nextFlashcard();
   }
+
   function nextFlashcard() {
     if (!flashcardSession) return;
     flashcardSession.index += 1;
@@ -5590,6 +5731,818 @@
       return;
     }
     renderCurrentFlashcard();
+  }
+
+  function renderLetterFlashcards() {
+    showView("letter-flashcard");
+    const view = elements["letter-flashcardView"];
+    if (!view) return;
+    view.innerHTML = "";
+
+    const header = exerciseHeader(t("letterFlashcards"), "back-lesson");
+    view.appendChild(header);
+
+    const stage = document.createElement("div");
+    stage.id = "letter-flashcard-stage";
+    stage.className = "flashcard-stage";
+    view.appendChild(stage);
+
+    if (!flashcardSession) startLetterFlashcardSession();
+    else if (flashcardSession.index < flashcardSession.due.length)
+      renderCurrentLetterFlashcard();
+    else renderLetterFlashcardFinished(stage);
+  }
+
+  function startLetterFlashcardSession() {
+    const stage = document.getElementById("letter-flashcard-stage");
+    if (!stage) return;
+
+    const itemIds = getItemPool("letter");
+    const targetLang = state.settings.targetLanguage;
+    const appLang = state.settings.appLanguage;
+
+    const cards = [];
+    for (const id of itemIds) {
+      const item = dataService.getItem(id);
+      if (!item) continue;
+      const promptText = dataService.getText(item, targetLang);
+      if (!promptText) continue;
+      cards.push({
+        cardId: `letter:${id}`,
+        itemId: id,
+        itemKind: "letter",
+        promptLanguage: targetLang,
+        revealLanguages: [appLang],
+        promptText,
+        item,
+      });
+    }
+
+    // BYPASS SRS: Include ALL cards so letters can be practiced repeatedly.
+    const due = [...cards];
+    flashcardSession = { deck: { cards }, due, index: 0 };
+
+    if (!due.length) {
+      showStageMessage(stage, t("noItems"));
+      return;
+    }
+    renderCurrentLetterFlashcard();
+  }
+
+  function renderCurrentLetterFlashcard() {
+    const stage = document.getElementById("letter-flashcard-stage");
+    if (!stage) return;
+    clearExerciseHighlights();
+    stage.innerHTML = "";
+
+    const card = flashcardSession?.due?.[flashcardSession.index];
+    if (!card) {
+      renderLetterFlashcardFinished(stage);
+      return;
+    }
+
+    const item = card.item;
+    const targetLang = state.settings.targetLanguage;
+    const appLang = state.settings.appLanguage;
+
+    const status = document.createElement("div");
+    status.className = "flashcard-status";
+    status.textContent = `${flashcardSession.index + 1} / ${flashcardSession.due.length}`;
+    stage.appendChild(status);
+
+    const article = document.createElement("article");
+    article.className = "letter-flashcard";
+
+    // Front
+    const front = document.createElement("div");
+    front.className = "letter-flashcard__front";
+    const charSpan = document.createElement("span");
+    charSpan.className = "letter-flashcard__char";
+    charSpan.lang = registry.bcp47(targetLang);
+    charSpan.dir = registry.dir(targetLang);
+    charSpan.textContent = card.promptText;
+    front.appendChild(charSpan);
+    article.appendChild(front);
+
+    // Back
+    const back = document.createElement("div");
+    back.className = "letter-flashcard__back";
+    back.hidden = true;
+
+    const nameText = dataService.getText(item, appLang);
+    if (nameText) {
+      const nameEl = document.createElement("div");
+      nameEl.className = "letter-flashcard__name";
+      nameEl.textContent = nameText;
+      back.appendChild(nameEl);
+    }
+
+    if (item.phonetic) {
+      const noteText = dataService.getLocalizedText(item.phonetic, [
+        appLang,
+        "en",
+      ]);
+      if (noteText) {
+        const noteEl = document.createElement("div");
+        noteEl.className = "letter-flashcard__note";
+        noteEl.textContent = noteText;
+        back.appendChild(noteEl);
+      }
+    }
+
+    if (item.connections) {
+      const forms = parseScriptConnections(item.connections);
+      const hasDistinctForms = ["initial", "medial", "final"].some(
+        (f) => forms[f] && forms[f] !== forms.isolated,
+      );
+      if (hasDistinctForms) {
+        const grid = document.createElement("div");
+        grid.className = "script-cell__forms";
+        ["isolated", "initial", "medial", "final"].forEach((formName) => {
+          const val = forms[formName];
+          if (!val) return;
+          const col = document.createElement("div");
+          col.className = "script-cell__form-col";
+          const glyph = document.createElement("span");
+          glyph.lang = registry.bcp47(targetLang);
+          glyph.dir = registry.dir(targetLang);
+          glyph.textContent = val;
+          const label = document.createElement("span");
+          label.className = "script-cell__form-label";
+          label.textContent = formName;
+          col.appendChild(glyph);
+          col.appendChild(label);
+          grid.appendChild(col);
+        });
+        back.appendChild(grid);
+      }
+    }
+
+    article.appendChild(back);
+
+    const actions = document.createElement("div");
+    actions.className = "flashcard__actions";
+    const revealButton = document.createElement("button");
+    revealButton.type = "button";
+    revealButton.className = "button button--wide";
+    revealButton.dataset.action = "reveal-letter";
+    revealButton.textContent = t("showAnswer");
+    actions.appendChild(revealButton);
+    article.appendChild(actions);
+
+    const panel = document.createElement("div");
+    panel.className = "rating-panel";
+    panel.hidden = true;
+    ["again", "hard", "good", "easy"].forEach((rating) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "button button--wide";
+      button.dataset.action = "rate-letter";
+      button.dataset.rating = rating;
+      button.textContent = t(rating);
+      panel.appendChild(button);
+    });
+    article.appendChild(panel);
+
+    stage.appendChild(article);
+    mediaService.speakImmediate(card.promptText, targetLang);
+  }
+
+  function revealCurrentLetterCard() {
+    const stage = document.getElementById("letter-flashcard-stage");
+    if (!stage) return;
+    const back = stage.querySelector(".letter-flashcard__back");
+    const revealButton = stage.querySelector('[data-action="reveal-letter"]');
+    const ratingPanel = stage.querySelector(".rating-panel");
+    if (back) back.hidden = false;
+    if (revealButton) revealButton.hidden = true;
+    if (ratingPanel) ratingPanel.hidden = false;
+  }
+
+  function renderLetterFlashcardFinished(stage) {
+    clearExerciseHighlights();
+    stage.innerHTML = "";
+    const article = document.createElement("article");
+    article.className = "letter-flashcard";
+    const feedback = document.createElement("div");
+    feedback.className = "quiz-feedback is-correct";
+    feedback.textContent = t("quizFinished");
+    const actions = document.createElement("div");
+    actions.className = "flashcard__actions";
+    const restartButton = document.createElement("button");
+    restartButton.type = "button";
+    restartButton.className = "button button--wide";
+    restartButton.dataset.action = "restart-letter-flashcards";
+    restartButton.textContent = t("buildRestart");
+    actions.appendChild(restartButton);
+    article.append(feedback, actions);
+    stage.appendChild(article);
+  }
+
+  function renderLetterQuiz() {
+    showView("letter-quiz");
+    const view = elements["letter-quizView"];
+    if (!view) return;
+    view.innerHTML = "";
+
+    if (!letterQuizSession) initLetterQuizSession();
+
+    if (!letterQuizSession || !letterQuizSession.questions.length) {
+      view.appendChild(exerciseHeader(t("letterQuiz"), "back-lesson"));
+      view.appendChild(makeEmptyState(t("noItems")));
+      return;
+    }
+
+    if (letterQuizSession.index < letterQuizSession.questions.length) {
+      renderCurrentLetterQuizQuestion();
+    } else {
+      renderLetterQuizFinished();
+    }
+  }
+
+  function initLetterQuizSession() {
+    const poolIds = getItemPool("letter");
+    const items = poolIds.map((id) => dataService.getItem(id)).filter(Boolean);
+
+    if (items.length < 4) {
+      letterQuizSession = {
+        questions: [],
+        index: 0,
+        correct: 0,
+        answered: false,
+        selectedId: null,
+      };
+      return;
+    }
+
+    const shuffledItems = deterministicShuffle(items, `lq:${Date.now()}`);
+    const questions = [];
+
+    for (const targetItem of shuffledItems) {
+      const distractors = [];
+      const usedIds = new Set([targetItem.id]);
+
+      const candidates = items.filter((i) => !usedIds.has(i.id));
+      const shuffledCandidates = deterministicShuffle(
+        candidates,
+        `lq-d:${targetItem.id}`,
+      );
+
+      for (const cand of shuffledCandidates) {
+        if (distractors.length >= 3) break;
+        distractors.push(cand);
+        usedIds.add(cand.id);
+      }
+
+      if (distractors.length < 3) continue;
+
+      const options = [targetItem, ...distractors].map((item) => ({
+        id: item.id,
+        text: dataService.getText(item, state.settings.targetLanguage),
+        isCorrect: item.id === targetItem.id,
+      }));
+
+      const shuffledOptions = deterministicShuffle(
+        options,
+        `lq-o:${targetItem.id}`,
+      );
+
+      questions.push({
+        targetId: targetItem.id,
+        targetText: dataService.getText(
+          targetItem,
+          state.settings.targetLanguage,
+        ),
+        options: shuffledOptions,
+      });
+    }
+
+    letterQuizSession = {
+      questions,
+      index: 0,
+      correct: 0,
+      answered: false,
+      selectedId: null,
+    };
+  }
+
+  function renderCurrentLetterQuizQuestion() {
+    const view = elements.letterQuizView;
+    if (!view) return;
+    view.innerHTML = "";
+
+    const q = letterQuizSession.questions[letterQuizSession.index];
+    if (!q) {
+      renderLetterQuizFinished();
+      return;
+    }
+
+    view.appendChild(exerciseHeader(t("letterQuiz"), "back-lesson"));
+
+    const status = document.createElement("div");
+    status.className = "quiz-status";
+    status.textContent = `${letterQuizSession.index + 1} / ${letterQuizSession.questions.length}`;
+    view.appendChild(status);
+
+    const prompt = document.createElement("div");
+    prompt.className = "letter-quiz-prompt";
+
+    const promptText = document.createElement("span");
+    promptText.textContent = t("selectAnswer");
+    prompt.appendChild(promptText);
+
+    const playBtn = document.createElement("button");
+    playBtn.type = "button";
+    playBtn.className = "button";
+    playBtn.dataset.action = "letter-quiz-play";
+    playBtn.textContent = "🔊";
+    prompt.appendChild(playBtn);
+
+    view.appendChild(prompt);
+
+    const optionsGrid = document.createElement("div");
+    optionsGrid.className = "letter-quiz-options";
+
+    q.options.forEach((opt) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "letter-quiz-option";
+      btn.dataset.action = "letter-quiz-answer";
+      btn.dataset.itemId = opt.id;
+      btn.textContent = opt.text;
+      btn.lang = registry.bcp47(state.settings.targetLanguage);
+      btn.dir = registry.dir(state.settings.targetLanguage);
+      optionsGrid.appendChild(btn);
+    });
+
+    view.appendChild(optionsGrid);
+
+    const feedback = document.createElement("div");
+    feedback.className = "quiz-feedback";
+    feedback.hidden = true;
+    feedback.id = "letter-quiz-feedback";
+    view.appendChild(feedback);
+
+    mediaService.speakImmediate(q.targetText, state.settings.targetLanguage);
+  }
+
+  function answerLetterQuiz(itemId) {
+    if (!letterQuizSession || letterQuizSession.answered) return;
+
+    const q = letterQuizSession.questions[letterQuizSession.index];
+    if (!q) return;
+
+    const isCorrect = itemId === q.targetId;
+
+    letterQuizSession.answered = true;
+    letterQuizSession.selectedId = itemId;
+    if (isCorrect) letterQuizSession.correct++;
+
+    const buttons = document.querySelectorAll(".letter-quiz-option");
+    buttons.forEach((btn) => {
+      btn.disabled = true;
+      if (btn.dataset.itemId === q.targetId) btn.classList.add("is-correct");
+      else if (btn.dataset.itemId === itemId && !isCorrect)
+        btn.classList.add("is-incorrect");
+    });
+
+    const feedback = document.getElementById("letter-quiz-feedback");
+    if (feedback) {
+      feedback.hidden = false;
+      feedback.classList.add(isCorrect ? "is-correct" : "is-incorrect");
+      feedback.textContent = isCorrect ? t("quizCorrect") : t("quizIncorrect");
+
+      const nextBtn = document.createElement("button");
+      nextBtn.type = "button";
+      nextBtn.className = "button button--wide";
+      nextBtn.dataset.action = "letter-quiz-next";
+      nextBtn.textContent = t("quizNext");
+      nextBtn.style.marginInlineStart = "auto";
+      feedback.appendChild(nextBtn);
+    }
+
+    mediaService.speakImmediate(q.targetText, state.settings.targetLanguage);
+  }
+
+  function nextLetterQuizQuestion() {
+    if (!letterQuizSession) return;
+    letterQuizSession.index++;
+    letterQuizSession.answered = false;
+    letterQuizSession.selectedId = null;
+
+    if (letterQuizSession.index >= letterQuizSession.questions.length) {
+      renderLetterQuizFinished();
+    } else {
+      renderCurrentLetterQuizQuestion();
+    }
+  }
+
+  function renderLetterQuizFinished() {
+    const view = elements.letterQuizView;
+    if (!view) return;
+    view.innerHTML = "";
+
+    view.appendChild(exerciseHeader(t("letterQuiz"), "back-lesson"));
+
+    const article = document.createElement("article");
+    article.className = "quiz-question";
+
+    const feedback = document.createElement("div");
+    feedback.className = "quiz-feedback is-correct";
+    feedback.textContent = `${t("quizFinished")} ${t("quizScore")}: ${letterQuizSession.correct} / ${letterQuizSession.questions.length}`;
+
+    const actions = document.createElement("div");
+    actions.className = "quiz-options";
+
+    const restartBtn = document.createElement("button");
+    restartBtn.type = "button";
+    restartBtn.className = "button button--wide";
+    restartBtn.dataset.action = "letter-quiz-restart";
+    restartBtn.textContent = t("quizRestart");
+    actions.appendChild(restartBtn);
+
+    article.append(feedback, actions);
+    view.appendChild(article);
+  }
+
+  /* 
+  function renderCurrentLetterSpell(view) {
+    const wordData = letterSpellSession.words[letterSpellSession.index];
+    const targetLang = state.settings.targetLanguage;
+    const dir = registry.dir(targetLang);
+
+    // Dynamic placeholder based on single letter vs multi-letter word
+    const isSingleLetter = wordData.targetChips.length === 1;
+    const placeholderText = isSingleLetter
+      ? t("letterSpellSinglePlaceholder")
+      : t("letterSpellPlaceholder");
+
+    const status = document.createElement("div");
+    status.className = "flashcard-status";
+    status.textContent = `${letterSpellSession.index + 1} / ${letterSpellSession.words.length}`;
+    view.appendChild(status);
+
+    const promptArea = document.createElement("div");
+    promptArea.className = "letter-spell-prompt";
+    const playBtn = document.createElement("button");
+    playBtn.type = "button";
+    playBtn.className = "button letter-spell-play-btn";
+    playBtn.dataset.action = "letter-spell-play";
+    playBtn.textContent = "🔊";
+    playBtn.setAttribute("aria-label", t("play"));
+    promptArea.appendChild(playBtn);
+    view.appendChild(promptArea);
+
+    const targetArea = document.createElement("div");
+    targetArea.className = "letter-spell-target";
+    targetArea.dir = dir;
+    if (wordData.selected.length === 0) {
+      const placeholder = document.createElement("span");
+      placeholder.className = "letter-spell-placeholder";
+      placeholder.textContent = placeholderText;
+      targetArea.appendChild(placeholder);
+    } else {
+      wordData.selected.forEach((chip) => {
+        targetArea.appendChild(createLetterSpellChip(chip, true));
+      });
+    }
+    view.appendChild(targetArea);
+
+    const poolArea = document.createElement("div");
+    poolArea.className = "letter-spell-pool";
+    poolArea.dir = dir;
+    const remainingChips = wordData.poolChips.filter(
+      (c) => !wordData.selected.find((s) => s.id === c.id),
+    );
+    remainingChips.forEach((chip) => {
+      poolArea.appendChild(createLetterSpellChip(chip, false));
+    });
+    view.appendChild(poolArea);
+
+    const feedback = document.createElement("div");
+    feedback.className = "quiz-feedback";
+    feedback.id = "letter-spell-feedback";
+    feedback.hidden = true;
+    view.appendChild(feedback);
+
+    const actions = document.createElement("div");
+    actions.className = "build-actions";
+    const nextBtn = document.createElement("button");
+    nextBtn.type = "button";
+    nextBtn.className = "button button--wide";
+    nextBtn.dataset.action = "letter-spell-next";
+    nextBtn.textContent = t("quizNext");
+    nextBtn.disabled = true;
+    nextBtn.id = "letter-spell-next-btn";
+    actions.appendChild(nextBtn);
+    view.appendChild(actions);
+  }
+*/
+
+  // ── Letter Spell (Audio Spelling) ──
+  function getGraphemes(text, langCode) {
+    if (typeof Intl !== "undefined" && typeof Intl.Segmenter === "function") {
+      try {
+        const segmenter = new Intl.Segmenter(registry.bcp47(langCode), {
+          granularity: "grapheme",
+        });
+        return Array.from(segmenter.segment(text)).map((s) => s.segment);
+      } catch (e) {}
+    }
+    return Array.from(text);
+  }
+
+  function initLetterSpellSession() {
+    const poolIds = getItemPool("letter");
+    const items = poolIds.map((id) => dataService.getItem(id)).filter(Boolean);
+    const targetLang = state.settings.targetLanguage;
+    const validItems = items.filter((item) =>
+      dataService.getText(item, targetLang).trim(),
+    );
+
+    if (!validItems.length) {
+      letterSpellSession = { words: [], index: 0 };
+      return;
+    }
+
+    // Collect all UNIQUE graphemes from the lesson to form the distractor pool
+    const allGraphemes = [];
+    const seen = new Set();
+    validItems.forEach((item) => {
+      const text = dataService.getText(item, targetLang);
+      const graphemes = getGraphemes(text, targetLang);
+      graphemes.forEach((g) => {
+        if (!seen.has(g)) {
+          seen.add(g);
+          allGraphemes.push(g);
+        }
+      });
+    });
+
+    const words = validItems.map((item) => {
+      const text = dataService.getText(item, targetLang);
+      const graphemes = getGraphemes(text, targetLang);
+
+      // Simplified: Target is just the single letter
+      const targetChips = graphemes.map((g, i) => ({
+        id: `${item.id}_${i}`,
+        text: g,
+      }));
+
+      // Pool contains all unique letters from the lesson
+      const poolChips = allGraphemes.map((g, i) => ({
+        id: `pool_${i}_${g}`,
+        text: g,
+      }));
+
+      return {
+        itemId: item.id,
+        text,
+        targetChips,
+        poolChips: deterministicShuffle(poolChips, `ls:${item.id}`),
+        selected: [],
+      };
+    });
+
+    letterSpellSession = { words, index: 0 };
+  }
+
+  function renderAudioSpell() {
+    showView("letter-spell");
+    const view = elements.letterSpellView;
+    if (!view) return;
+
+    view.innerHTML = "";
+    view.appendChild(exerciseHeader(t("letterSpell"), "back-lesson"));
+
+    if (!letterSpellSession) initLetterSpellSession();
+    if (!letterSpellSession || !letterSpellSession.words.length) {
+      view.appendChild(makeEmptyState(t("noItems")));
+      return;
+    }
+    if (letterSpellSession.index >= letterSpellSession.words.length) {
+      renderLetterSpellFinished(view);
+      return;
+    }
+
+    // Create a dedicated stage container to isolate updates
+    const stage = document.createElement("div");
+    stage.id = "letter-spell-stage";
+    stage.className = "build-stage";
+    view.appendChild(stage);
+
+    renderLetterSpellStage();
+
+    // Speak the word ONLY on initial load / next word
+    const wordData = letterSpellSession.words[letterSpellSession.index];
+    mediaService.speakImmediate(wordData.text, state.settings.targetLanguage);
+  }
+
+  function renderLetterSpellStage() {
+    const stage = document.getElementById("letter-spell-stage");
+    if (!stage) return;
+    stage.innerHTML = "";
+
+    const wordData = letterSpellSession.words[letterSpellSession.index];
+    const targetLang = state.settings.targetLanguage;
+    const dir = registry.dir(targetLang);
+
+    const status = document.createElement("div");
+    status.className = "flashcard-status";
+    status.textContent = `${letterSpellSession.index + 1} / ${letterSpellSession.words.length}`;
+    stage.appendChild(status);
+
+    // 1. Audio Prompt (NO text shown)
+    const promptArea = document.createElement("div");
+    promptArea.className = "letter-spell-prompt";
+    const playBtn = document.createElement("button");
+    playBtn.type = "button";
+    playBtn.className = "button letter-spell-play-btn";
+    playBtn.dataset.action = "letter-spell-play";
+    playBtn.textContent = "🔊";
+    playBtn.setAttribute("aria-label", t("play"));
+    promptArea.appendChild(playBtn);
+    stage.appendChild(promptArea);
+
+    // 2. Target Build Area
+    const targetArea = document.createElement("div");
+    targetArea.className = "letter-spell-target";
+    targetArea.dir = dir; // RTL enforcement
+
+    if (wordData.selected.length === 0) {
+      const placeholder = document.createElement("span");
+      placeholder.className = "letter-spell-placeholder";
+      placeholder.textContent = t("letterSpellSinglePlaceholder");
+      targetArea.appendChild(placeholder);
+    } else {
+      wordData.selected.forEach((chip) => {
+        targetArea.appendChild(createLetterSpellChip(chip, true));
+      });
+    }
+    stage.appendChild(targetArea);
+
+    // 3. Shuffled Pool
+    const poolArea = document.createElement("div");
+    poolArea.className = "letter-spell-pool";
+    poolArea.dir = dir; // RTL enforcement
+
+    const remainingChips = wordData.poolChips.filter(
+      (c) => !wordData.selected.find((s) => s.id === c.id),
+    );
+    remainingChips.forEach((chip) => {
+      poolArea.appendChild(createLetterSpellChip(chip, false));
+    });
+    stage.appendChild(poolArea);
+
+    // 4. Feedback & Next
+    const feedback = document.createElement("div");
+    feedback.className = "quiz-feedback";
+    feedback.id = "letter-spell-feedback";
+    feedback.hidden = true;
+    stage.appendChild(feedback);
+
+    const actions = document.createElement("div");
+    actions.className = "build-actions";
+    const nextBtn = document.createElement("button");
+    nextBtn.type = "button";
+    nextBtn.className = "button button--wide";
+    nextBtn.dataset.action = "letter-spell-next";
+    nextBtn.textContent = t("quizNext");
+    nextBtn.disabled = true;
+    nextBtn.id = "letter-spell-next-btn";
+    actions.appendChild(nextBtn);
+    stage.appendChild(actions);
+  }
+
+  function createLetterSpellChip(chip, isInTarget) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "build-chip letter-spell-chip";
+    btn.dataset.action = isInTarget
+      ? "letter-spell-remove"
+      : "letter-spell-add";
+    btn.dataset.chipId = chip.id;
+
+    const text = document.createElement("span");
+    text.className = "build-chip__text";
+    text.textContent = chip.text;
+    btn.appendChild(text);
+
+    if (isInTarget) {
+      const remove = document.createElement("span");
+      remove.className = "build-chip__remove";
+      remove.textContent = "\u2715";
+      btn.appendChild(remove);
+    }
+    return btn;
+  }
+
+  function letterSpellAddChip(chipId) {
+    const wordData = letterSpellSession.words[letterSpellSession.index];
+    if (!wordData) return;
+    const chip = wordData.poolChips.find((c) => c.id === chipId);
+    if (!chip || wordData.selected.find((s) => s.id === chipId)) return;
+
+    wordData.selected.push(chip);
+    mediaService.speakImmediate(chip.text, state.settings.targetLanguage);
+
+    // ONLY update the stage, preserving the header and preventing DOM duplication
+    renderLetterSpellStage();
+    validateLetterSpell();
+  }
+
+  function letterSpellRemoveChip(chipId) {
+    const wordData = letterSpellSession.words[letterSpellSession.index];
+    if (!wordData) return;
+    const idx = wordData.selected.findIndex((c) => c.id === chipId);
+    if (idx !== -1) {
+      wordData.selected.splice(idx, 1);
+      renderLetterSpellStage();
+
+      const feedback = document.getElementById("letter-spell-feedback");
+      if (feedback) feedback.hidden = true;
+      const nextBtn = document.getElementById("letter-spell-next-btn");
+      if (nextBtn) nextBtn.disabled = true;
+    }
+  }
+
+  function validateLetterSpell() {
+    const wordData = letterSpellSession.words[letterSpellSession.index];
+    if (!wordData) return;
+
+    // Since it's simplified to single letter selection, we just check if the selected chip matches the target
+    if (wordData.selected.length !== wordData.targetChips.length) return;
+
+    const isCorrect = wordData.selected.every(
+      (chip, i) => chip.text === wordData.targetChips[i].text,
+    );
+
+    const feedback = document.getElementById("letter-spell-feedback");
+    const nextBtn = document.getElementById("letter-spell-next-btn");
+
+    if (feedback) {
+      feedback.hidden = false;
+      feedback.classList.remove("is-correct", "is-incorrect");
+      if (isCorrect) {
+        feedback.classList.add("is-correct");
+        feedback.textContent = t("quizCorrect");
+        if (nextBtn) nextBtn.disabled = false;
+      } else {
+        feedback.classList.add("is-incorrect");
+        feedback.textContent = t("buildIncorrect");
+        // Clear selection on incorrect to allow retry
+        wordData.selected = [];
+        renderLetterSpellStage();
+      }
+    }
+  }
+
+  function nextLetterSpell() {
+    if (!letterSpellSession) return;
+    letterSpellSession.index++;
+    renderAudioSpell();
+  }
+
+  function renderLetterSpellFinished(view) {
+    view.innerHTML = "";
+    view.appendChild(exerciseHeader(t("letterSpell"), "back-lesson"));
+
+    const article = document.createElement("article");
+    article.className = "quiz-question";
+
+    const feedback = document.createElement("div");
+    feedback.className = "quiz-feedback is-correct";
+    feedback.textContent = t("quizFinished");
+
+    const actions = document.createElement("div");
+    actions.className = "quiz-options";
+    const restartBtn = document.createElement("button");
+    restartBtn.type = "button";
+    restartBtn.className = "button button--wide";
+    restartBtn.dataset.action = "letter-spell-restart";
+    restartBtn.textContent = t("quizRestart");
+    actions.appendChild(restartBtn);
+
+    article.append(feedback, actions);
+    view.appendChild(article);
+  }
+  function rateCurrentLetterCard(rating) {
+    const card = flashcardSession?.due?.[flashcardSession.index];
+    if (!card) return;
+    // Still record to SRS for progress tracking, but don't filter by it.
+    srsService.rateCard(card, rating);
+    nextLetterFlashcard();
+  }
+
+  function nextLetterFlashcard() {
+    if (!flashcardSession) return;
+    flashcardSession.index += 1;
+    const stage = document.getElementById("letter-flashcard-stage");
+    if (flashcardSession.index >= flashcardSession.due.length) {
+      if (stage) renderLetterFlashcardFinished(stage);
+      return;
+    }
+    renderCurrentLetterFlashcard();
   }
 
   function buildGrammarQuizSession(
@@ -6875,6 +7828,74 @@
         case "open-build-sentence":
           renderBuildSentence();
           break;
+
+        case "open-letter-flashcards":
+          flashcardKind = "letter";
+          flashcardSession = null;
+          renderLetterFlashcards();
+          break;
+        case "reveal-letter":
+          revealCurrentLetterCard();
+          break;
+        case "rate-letter":
+          rateCurrentLetterCard(actionEl.dataset.rating);
+          break;
+        case "restart-letter-flashcards":
+          flashcardSession = null;
+          renderLetterFlashcards();
+          break;
+        case "open-audio-spell":
+          letterSpellSession = null;
+          renderAudioSpell();
+          break;
+        case "letter-spell-add":
+          letterSpellAddChip(actionEl.dataset.chipId);
+          break;
+        case "letter-spell-remove":
+          letterSpellRemoveChip(actionEl.dataset.chipId);
+          break;
+        case "letter-spell-play":
+          if (letterSpellSession) {
+            const w = letterSpellSession.words[letterSpellSession.index];
+            if (w)
+              mediaService.speakImmediate(
+                w.text,
+                state.settings.targetLanguage,
+              );
+          }
+          break;
+        case "letter-spell-next":
+          nextLetterSpell();
+          break;
+        case "letter-spell-restart":
+          letterSpellSession = null;
+          renderAudioSpell();
+          break;
+        case "open-letter-quiz":
+          letterQuizSession = null;
+          renderLetterQuiz();
+          break;
+        case "letter-quiz-answer":
+          answerLetterQuiz(actionEl.dataset.itemId);
+          break;
+        case "letter-quiz-next":
+          nextLetterQuizQuestion();
+          break;
+        case "letter-quiz-play":
+          if (letterQuizSession) {
+            const q = letterQuizSession.questions[letterQuizSession.index];
+            if (q)
+              mediaService.speakImmediate(
+                q.targetText,
+                state.settings.targetLanguage,
+              );
+          }
+          break;
+        case "letter-quiz-restart":
+          letterQuizSession = null;
+          renderLetterQuiz();
+          break;
+
         case "back-home":
           goHome();
           break;
@@ -7067,10 +8088,23 @@
     elements.homeView = document.getElementById("home-view");
     elements.lessonView = document.getElementById("lesson-view");
     elements.flashcardView = document.getElementById("flashcard-view");
+    elements.letterFlashcardView = document.getElementById(
+      "letter-flashcard-view",
+    );
+    elements.letterQuizView = document.getElementById("letter-quiz-view");
+    elements.letterSpellView = document.getElementById("letter-spell-view");
     elements.quizView = document.getElementById("quiz-view");
     elements.buildView = document.getElementById("build-view");
     elements.progressView = document.getElementById("progress-view");
     elements.voicetestView = document.getElementById("voicetest-view");
+
+    elements["letter-flashcardView"] = document.getElementById(
+      "letter-flashcard-view",
+    );
+    elements["letter-quizView"] = document.getElementById("letter-quiz-view");
+    elements["letter-spellView"] = document.getElementById("letter-spell-view");
+    elements.audioSpellView = document.getElementById("audio-spell-view");
+
     elements.actionBar = document.getElementById("action-bar");
     elements.bottomBar = document.getElementById("bottom-bar");
     elements.hamburgerPanel = document.getElementById("hamburger-panel");

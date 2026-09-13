@@ -43,6 +43,10 @@
         <div id="progress-view" class="view" hidden></div>
         <div id="voicetest-view" class="view" hidden></div>
         <div id="help-view" class="view" hidden></div>
+        <div id="letter-flashcard-view" class="view" hidden></div>
+        <section id="letter-quiz-view" class="view" hidden></section>
+        <section id="letter-spell-view" class="view" hidden></section>
+        <div id="audio-spell-view" class="view" hidden></div>
       </main>
 
       <!-- ── Action Bar (Lesson Mode) - Row 1: Exercises ── -->
@@ -79,13 +83,29 @@
         >
           📝
         </button>
-        <button
-          type="button"
-          class="action-bar__button"
-          data-action="open-build-sentence"
-          title="Build a Sentence"
-        >
+        <button class="action-bar__button" data-action="open-build-sentence">
           🧩
+        </button>
+        <button
+          class="action-bar__button"
+          data-action="open-letter-flashcards"
+          hidden
+        >
+          🃏
+        </button>
+        <button
+          class="action-bar__button"
+          data-action="open-audio-spell"
+          hidden
+        >
+          🎧
+        </button>
+        <button
+          class="action-bar__button"
+          data-action="open-letter-quiz"
+          hidden
+        >
+          ❓
         </button>
       </div>
       <!-- ── Bottom Bar (Lesson Mode) - Row 2: Media, Score & Settings ── -->

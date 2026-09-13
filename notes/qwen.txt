@@ -1,85 +1,26 @@
-The uploaded files implement a vanilla-JS SPA for learning languages.  The App is designed as a mobile first, language agnostic App.  The milestone lessons in the App are based on scenario sentences and words extracted from the scenario sentences.   The milestone JSON data for the milestones defines "kind" attributes with values "sentence" and "word" for the scenarios.  The UI has play and exercises for both "kind" word and sentence.
+The trailing spaces is a familiar bug in the interpreter; local copy does not have trailing spaces. 
 
-The task in this chat is to start an iterative set of messages to define a plan for implementing a new "kind": "letter".  The "letter" is a new feature to learn the letters in the alphabet of the 7 App languages.
+[APPROVAL TESTS - MUST PASS BEFORE MERGING]
+1. Load the app with [LANGUAGE] as the target.
+Test Passed.
 
-The plan should:
-- define a git branch for each stage of the plan that can be reversed.
-- The primary reason for each stage of the plan is to avoid AI context drift.
-- Each plan stage must define a set of tests for approving the stage.
-- If you decide to have a separate stage for each language, the order of priority is: TH, FA, EN, AR, JA, ZH
-- The App UI has a set of exercises suitable for JSON "kind" sentence and word.  There needs to be similar exercise for the new kind, letter. - The UI should adapt automatically with user selection of kind letter hiding and updating the correct exercise type.
+2. Open the "Alphabet" panel: The [LANGUAGE] letters/characters render correctly.
+Test Passed.
 
-Please comment with ideas and clarifications of choices for the plan.  Please do not generate any code.  It is expected to iterate through several messages (or chats) before the plan is finalized to a practicable plan that avoids context drift and delivers the new feature for letters.
+3. Run the Flashcards: Characters and phonetics display correctly.
+Test Passed.
 
-===================================
+4. Run the Quiz: Audio plays and options match the [LANGUAGE] script.
+Test Passed.
 
-1. UI Adaptation Mechanism: When you say "user selection of kind letter hiding and updating", do you mean the UI should automatically detect the available kinds in the current lesson and hide irrelevant buttons? Or should there be a user setting to explicitly toggle which kinds (word/sentence/letter) they want to see?
-Response: The kind letter has a collapsible panel that would be displayed under the current Beginner, Intermediate, Advanced.  Lets call the Panel, Alphabet.  The Alphabet panel is determined by the target language to study, for example, when a user chooses, Thai as the target language, the Alphabet panel for the Thai Alphabet.  On selecting any topic within Alphabet, for example, Middle class consonants, the display will render the JSON data for the Middle class consonants and the toolbar will update with the exercises suitable for kind = letter data. If the user selects another language, say Persian, the alphabet panel will update to the FA data file. 
+5. Run the Spell exercise: The audio plays the word, and the correct letter chips appear in the pool.
+Test Fails, The audio plays the word, and the correct letter chips appear but as  only choice instead of one letter in the pool of letters.
 
-2. Chinese (ZH) Strategy: Chinese doesn't have an alphabet. How should we handle ZH for the "letter" kind? 
+*(For FA/AR only: Verify RTL layout and contextual forms in Flashcards).*
 
-    Option A: Teach Pinyin (the Latin alphabet used for Chinese phonetics).
-    Option B: Treat individual Hanzi (characters) as "letters" (focusing on basic radicals or high-frequency characters).
-    Option C: Skip ZH for the "letter" kind entirely.
+=======================
 
-Response: Option B
-
-Japanese (JA) Strategy: Should the "letter" kind for Japanese cover Hiragana, Katakana, or both simultaneously?
-
-Response: Please chose one that is most prevalent.
-
-3. Letter Exercises: Do you want a "Build" equivalent for letters (e.g., "Spell the word" by tapping letters in order), or should we strictly limit letter exercises to Flashcards and Quizzes?
-
-Response: include "Spell the word" by tapping letters in order
-
-4. Contextual Forms: For FA and AR, the app already has a script display mode that shows isolated/initial/medial/final forms. Should the "letter" kind utilize this existing display mode, or should it strictly focus on the isolated letter for memorization?
-
-Response: utilize this existing display mode
-
-Please clarify any other question.  Remember, the main point of the stages plan is to avoid context drift and deliver the new letter feature.
-
-===================================
-
-A Quick Clarification on the "Spell" Exercise
-To ensure we are perfectly aligned on the "Letter Spell" exercise (Stage 2):
-
-    Prompt: The app shows a word (e.g., "CAT" or an audio clip of "CAT").
-    Action: The user is presented with a pool of shuffled letter chips (e.g., A, C, T, X, B).
-    Goal: The user taps C, then A, then T to build the word in the target area.
-    Validation: If the sequence matches the target word, it shows "Correct". If not, "Try again".
-    Does this match your vision for the "Spell" exercise?
-
-Response: If the App shows the word then the correct spelling is revealed already for the user to see! So, only and audio play icon for the user to only hear the word as many time as they wish and then the user would select the letters to spell the word they heard.
-
-Next Steps
-If this staged plan and the "Spell" exercise mechanics look good to you, please give the green light, and I will generate the code for Stage 1 (Core Data Model & Home UI Routing). We will not touch exercise logic or language data until Stage 1 is fully approved and merged.
-
-Response: Please remember this chat is to define the details of all stages in the plan, so that each stage can be implemented in a new chat.  The idea being that each chat is more likely to avoid context drift.  So the task is to have the details messages for each stage in a new chat.  The message should be self contained as described previously.
-
-=====================
-
-Another question, would it help avoid context drift if only the particular function or clearly defined blocks of code was generated to find and replace in the local files?  
-The JS and CSS files are several thousand lines and don't need to be generated if only a few blocks of code or a few CSS declarations are changed.
-==================
-
-Is there context drift in your last output.  For example, 
-Prompt for Stage 3: Thai (TH) Implementation
-Files to upload (2 files): app.js, mock_letter_en.json (The file you saved from Stage 2)
-
-I am not sure what the files would be from stage 2.  Also, we are uploading, mock_letter_en.json (en for English?) for the Thai (TH) Implementation! 
-
-A final check, is each stage practicable without context drift? Any further improvements?
-
-=====================
-Please note, there are 7 languages in the App, currently Spanish is missing in the plan.
-
-Further clarification for possible plan improvement:
-Can the Schema for languages are relatively small and so logical clarity is arguably more important that some redundancy with attributes like, connections where connections only apply to fa and ar languages.  However, can you confirm the models are complete, for example does the model include the necessary attributes for all consonants and vowels? 
-Can the model be further optimized for the letter functionality in the App? 
-
-
-
-
+Bug: the initial Letter view has a "Sentences" collapsible panel with the alphabet letters inside it.  The "sentences" panel is redundant; the initial view should display the alphabet letters.
 
 
 

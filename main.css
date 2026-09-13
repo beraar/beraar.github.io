@@ -1829,3 +1829,160 @@ Stage 4: Milestone Visual States & Auto-Complete Progress
 .chat-bubble__text {
   display: block;
 }
+/* ------------------------------------------------------------
+Letter Flashcards
+------------------------------------------------------------ */
+.letter-flashcard {
+  display: grid;
+  gap: 1rem;
+  padding: 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface);
+  text-align: center;
+}
+.letter-flashcard__front {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 10rem;
+  padding: 2rem;
+}
+.letter-flashcard__char {
+  font-size: 6rem;
+  line-height: 1.2;
+  font-weight: 600;
+  color: var(--text);
+  unicode-bidi: isolate;
+}
+.letter-flashcard__back {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+  border: 1px dashed var(--line);
+  border-radius: 14px;
+  background: var(--surface-2);
+  text-align: center;
+}
+.letter-flashcard__name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--accent);
+  unicode-bidi: isolate;
+}
+.letter-flashcard__note {
+  font-size: 1rem;
+  color: var(--muted);
+  unicode-bidi: isolate;
+}
+.letter-flashcard__back .script-cell__forms {
+  margin: 0 auto;
+  max-width: 20rem;
+}
+
+/* ------------------------------------------------------------
+Letter Quiz
+------------------------------------------------------------ */
+.letter-quiz-prompt {
+  text-align: center;
+  margin-block-end: 1.5rem;
+  font-size: 1.1rem;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.letter-quiz-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-block-end: 1.5rem;
+}
+.letter-quiz-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  font-size: 3rem;
+  font-weight: 600;
+  border: 2px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  transition:
+    border-color 0.2s,
+    background 0.2s;
+}
+.letter-quiz-option:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+.letter-quiz-option:disabled {
+  cursor: default;
+  opacity: 0.8;
+}
+.letter-quiz-option.is-correct {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 15%, var(--surface));
+  color: var(--accent);
+}
+.letter-quiz-option.is-incorrect {
+  border-color: var(--danger);
+  background: color-mix(in srgb, var(--danger) 15%, var(--surface));
+  color: var(--danger);
+}
+
+/* ------------------------------------------------------------
+Letter Spell (Audio Spelling)
+------------------------------------------------------------ */
+.letter-spell-prompt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 1.5rem;
+}
+.letter-spell-play-btn {
+  font-size: 2.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 50%;
+  background: var(--surface-2);
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  transition:
+    transform 0.1s ease,
+    background 0.2s ease;
+}
+.letter-spell-play-btn:active {
+  transform: scale(0.95);
+}
+.letter-spell-target {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  min-block-size: 4rem;
+  padding: 1rem;
+  border: 2px dashed var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  margin-block-end: 1.5rem;
+  justify-content: center;
+}
+.letter-spell-placeholder {
+  color: var(--muted);
+  font-size: 0.95rem;
+  unicode-bidi: isolate;
+}
+.letter-spell-pool {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-block-end: 1.5rem;
+}
+.letter-spell-chip {
+  font-size: 1.25rem;
+  min-width: 2.5rem;
+  justify-content: center;
+}
