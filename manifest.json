@@ -202,28 +202,32 @@
       "title": "Middle Class Consonants",
       "tier": "letters",
       "kind": "letter",
-      "file": "consonants-mid.json"
+      "file": "consonants-mid.json",
+      "targets": ["th"]
     },
     {
       "id": "consonants-high",
       "title": "High Class Consonants",
       "tier": "letters",
       "kind": "letter",
-      "file": "consonants-high.json"
+      "file": "consonants-high.json",
+      "targets": ["th"]
     },
     {
       "id": "consonants-low",
       "title": "Low Class Consonants",
       "tier": "letters",
       "kind": "letter",
-      "file": "consonants-low.json"
+      "file": "consonants-low.json",
+      "targets": ["th"]
     },
     {
       "id": "vowels",
       "title": "Thai Vowels",
       "tier": "letters",
       "kind": "letter",
-      "file": "vowels.json"
+      "file": "vowels.json",
+      "targets": ["th"]
     }
   ]
 }

@@ -1,18 +1,13 @@
-I am working on the Zabon language learning app.
+Bug: Changing the target language in the App toolbar does not update the Alphabet milestone to the newly selected language.
 
-[STRICT CODE OUTPUT RULES]
-DO NOT regenerate entire files. ONLY output specific blocks to add/modify using:
-1. // 🔍 FIND THIS (in [filename]): \n [exact lines] \n // ✏️ REPLACE WITH: \n [new code]
-2. // 📍 INSERT AFTER [function name] in [filename]: \n [new code]
-3. // 📍 INSERT NEW CASES inside the switch(action) block in app.js: \n [new cases]
+For the manifest.json,
+{
+  "id": "L1",
+  "title": "Play with Alphabets",
+  "tier": "letters",
+  "kind": "letter",
+  "file": "L1.json",
+  "targets": ["th"] 
+} 
 
-The alphabet-letters.md has generated the JSON data file for all Thai consonants.
-
-The task is to output a similar message for a new chat to:
-- generate JSON data for Thai Lower class consonants.
-- generate JSON data for Thai Middle class consonants.
-- generate JSON data for Thai High class consonants.
-- generate JSON data for Thai vowels
-
-Can kind = "letter" displays be in the alphabet language only? Default has 2 languages set.
- 
+The "Play with Alphabets" applies to all 7 languages.  Is the default all languages or the targets array need to include all languages?

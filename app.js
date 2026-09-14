@@ -3440,7 +3440,12 @@
             (m) => m.id === mId,
           );
           if (!milestone) continue;
+
+          // 🛡️ FIX: Filter out milestones that don't support the active target language
+          if (!lessonBelongsToActiveTarget(milestone)) continue;
+
           const mState = milestoneService.getMilestoneState(mId);
+
           const card = document.createElement("button");
           card.type = "button";
           card.className = "lesson-card milestone-card";
@@ -3905,7 +3910,8 @@
       // 🧠 ARCHITECTURE FIX: Alphabet data is strictly language-specific.
       // Skip the 'common' fetch entirely for kind="letter" to avoid 404s.
       if (lessonMeta.kind === "letter") {
-        const langPath = `milestones/${targetLang}/${filename}`;
+        // Add a cache-buster to ensure we always fetch the correct language data
+        const langPath = `milestones/${targetLang}/${filename}?t=${Date.now()}`;
         langData = await loadLessonFile(langPath);
         langFailed = langData.failed || !langData.items;
       } else {

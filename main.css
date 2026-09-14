@@ -1225,6 +1225,27 @@ Larger screens (responsive enhancement only)
   }
 }
 
+/* =========================================
+   TABLET ADJUSTMENTS (min-width: 768px)
+   ========================================= */
+@media (min-width: 768px) {
+  /* 4 columns on tablets for even more compactness */
+  .letter-quiz-options {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 480px;
+  }
+
+  .letter-quiz-option {
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
+
+  .letter-spell-chip {
+    font-size: 1.25rem;
+    padding: 0.6rem 1rem;
+  }
+}
+
 /* ------------------------------------------------------------
 Proficiency tiers (Stage A1)
 ------------------------------------------------------------ */
@@ -1985,4 +2006,124 @@ Letter Spell (Audio Spelling)
   font-size: 1.25rem;
   min-width: 2.5rem;
   justify-content: center;
+}
+
+/* =========================================
+   MOBILE-FIRST & COMPACT LAYOUT FIXES
+   For Letter Quiz & Audio Spelling Views
+   ========================================= */
+
+/* 1. View Containers & Bottom Bar Overlap Fix */
+/* Reduces height by 1vh and ensures flex layout for proper scrolling */
+#letter-quiz-view,
+#letter-spell-view {
+  display: flex;
+  flex-direction: column;
+  height: 99vh; /* Reduced by 1vh to prevent bottom border cutoff */
+  max-height: 99dvh; /* Dynamic viewport height for modern mobile browsers */
+  overflow: hidden;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Ensure the inner stages scroll properly so the "Next" button is never hidden */
+#letter-spell-stage,
+#letter-quiz-view .quiz-stage {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 2rem; /* Guarantees space above the fixed bottom bar */
+}
+
+/* 2. Letter Quiz: Compact Card Grid */
+/* Changes from 2 columns to 3 columns on mobile to prevent oversized cards */
+.letter-quiz-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3x3 or 3x2 grid */
+  gap: 0.5rem; /* Tighter gap */
+  padding: 0.5rem 0;
+  max-width: 360px; /* Prevents cards from stretching too wide on tablets */
+  margin: 0 auto;
+}
+
+.letter-quiz-option {
+  font-size: 1.2rem; /* Smaller, more compact text */
+  padding: 0.75rem 0.5rem;
+  min-height: auto;
+  aspect-ratio: 1 / 1; /* Keeps them perfectly square but smaller */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.1;
+}
+
+/* 3. Audio Spelling: Compact Chips & Areas */
+.letter-spell-target,
+.letter-spell-pool {
+  gap: 0.4rem; /* Tighter spacing between chips */
+  padding: 0.5rem;
+  min-height: auto;
+}
+
+.letter-spell-chip,
+.letter-spell-target .build-chip {
+  font-size: 1.1rem; /* Smaller chip text */
+  padding: 0.5rem 0.75rem;
+  min-width: auto;
+  border-radius: 8px;
+}
+
+.letter-spell-prompt {
+  margin-bottom: 0.5rem;
+}
+
+/* Ensure the "Next" button in Audio Spelling stays pinned to the bottom of the view */
+#letter-spell-stage .build-actions {
+  position: sticky;
+  bottom: 0;
+  background: var(--bg, #ffffff); /* Fallback if CSS var isn't defined */
+  padding: 0.75rem 0;
+  margin-top: auto;
+  flex-shrink: 0;
+  border-top: 1px solid var(--border, #e5e7eb);
+}
+
+/* 4. General Compactness for these Views */
+/* Reduces header and status text sizes */
+#letter-quiz-view .document-header,
+#letter-spell-view .document-header {
+  padding: 0.5rem 1rem;
+  flex-shrink: 0;
+}
+
+#letter-quiz-view .document-title,
+#letter-spell-view .document-title {
+  font-size: 1.15rem;
+}
+
+.quiz-status,
+.flashcard-status {
+  font-size: 0.85rem;
+  padding: 0.25rem 0;
+  margin-bottom: 0.5rem;
+}
+
+/* =========================================
+   TABLET ADJUSTMENTS (min-width: 768px)
+   ========================================= */
+@media (min-width: 768px) {
+  /* 4 columns on tablets for even more compactness */
+  .letter-quiz-options {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 480px;
+  }
+
+  .letter-quiz-option {
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
+
+  .letter-spell-chip {
+    font-size: 1.25rem;
+    padding: 0.6rem 1rem;
+  }
 }
