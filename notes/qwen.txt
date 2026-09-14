@@ -1,14 +1,41 @@
 
 
-The App should adhere to a mobile-first design.  The Word Quiz and Grammar quiz view layouts have a problem with the height of the view on a mobile and tablets having the bottom part of the view hidden.
-
-In general, the views need to adhere to a mobile-first design and be more compact to cater for modern mobile and tablet devices.
-
-Please review main.css to enforce a global mobile-first design system (updating CSS variables, base typography, global resets, and all view containers).
-====================
-
-Just to check again, original main.css has 2129 lines of CSS declarations and your optimized replacement for main.css has 647 lines of CSS declarations.  Is this correct?
-
-
-
-
+   {
+      "id": "alphabet",
+      "title": "Alphabet",
+      "tier": "letters",
+      "kind": "letter",
+      "file": "milestones/alphabet.json"
+    },
+    {
+      "id": "consonants_mid",
+      "title": "Middle Class Consonants",
+      "tier": "letters",
+      "kind": "letter",
+      "file": "milestones/consonants-mid.json",
+      "targets": ["th"]
+    },
+    {
+      "id": "consonants_high",
+      "title": "High Class Consonants",
+      "tier": "letters",
+      "kind": "letter",
+      "file": "milestones/consonants-high.json",
+      "targets": ["th"]
+    },
+    {
+      "id": "consonants_low",
+      "title": "Low Class Consonants",
+      "tier": "letters",
+      "kind": "letter",
+      "file": "milestones/consonants-low.json",
+      "targets": ["th"]
+    },
+    {
+      "id": "vowels",
+      "title": "Thai Vowels",
+      "tier": "letters",
+      "kind": "letter",
+      "file": "milestones/vowels.json",
+      "targets": ["th"]
+    }

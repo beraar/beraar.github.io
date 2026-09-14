@@ -8,6 +8,15 @@
       {
         "code": "th",
         "label": "Thai",
+        "names": {
+          "en": "Thai",
+          "th": "ไทย",
+          "fa": "تایلندی",
+          "ar": "التايلاندية",
+          "es": "Tailandés",
+          "zh": "泰语",
+          "ja": "タイ語"
+        },
         "bcp47": "th-TH",
         "dir": "ltr",
         "segmentation": "segmenter"
@@ -15,6 +24,15 @@
       {
         "code": "fa",
         "label": "Persian",
+        "names": {
+          "en": "Persian",
+          "th": "เปอร์เซีย",
+          "fa": "فارسی",
+          "ar": "الفارسية",
+          "es": "Persa",
+          "zh": "波斯语",
+          "ja": "ペルシャ語"
+        },
         "bcp47": "fa-IR",
         "dir": "rtl",
         "segmentation": "whitespace"
@@ -22,6 +40,15 @@
       {
         "code": "en",
         "label": "English",
+        "names": {
+          "en": "English",
+          "th": "อังกฤษ",
+          "fa": "انگلیسی",
+          "ar": "الإنجليزية",
+          "es": "Inglés",
+          "zh": "英语",
+          "ja": "英語"
+        },
         "bcp47": "en-US",
         "dir": "ltr",
         "segmentation": "whitespace"
@@ -29,6 +56,15 @@
       {
         "code": "zh",
         "label": "Chinese",
+        "names": {
+          "en": "Chinese",
+          "th": "จีน",
+          "fa": "چینی",
+          "ar": "الصينية",
+          "es": "Chino",
+          "zh": "中文",
+          "ja": "中国語"
+        },
         "bcp47": "zh-CN",
         "dir": "ltr",
         "segmentation": "segmenter"
@@ -36,6 +72,15 @@
       {
         "code": "ja",
         "label": "Japanese",
+        "names": {
+          "en": "Japanese",
+          "th": "ญี่ปุ่น",
+          "fa": "ژاپنی",
+          "ar": "اليابانية",
+          "es": "Japonés",
+          "zh": "日语",
+          "ja": "日本語"
+        },
         "bcp47": "ja-JP",
         "dir": "ltr",
         "segmentation": "segmenter"
@@ -43,6 +88,15 @@
       {
         "code": "ar",
         "label": "Arabic",
+        "names": {
+          "en": "Arabic",
+          "th": "อาหรับ",
+          "fa": "عربی",
+          "ar": "العربية",
+          "es": "Árabe",
+          "zh": "阿拉伯语",
+          "ja": "アラビア語"
+        },
         "bcp47": "ar-SA",
         "dir": "rtl",
         "segmentation": "whitespace"
@@ -50,6 +104,15 @@
       {
         "code": "es",
         "label": "Spanish",
+        "names": {
+          "en": "Spanish",
+          "th": "สเปน",
+          "fa": "اسپانیایی",
+          "ar": "الإسبانية",
+          "es": "Español",
+          "zh": "西班牙语",
+          "ja": "スペイン語"
+        },
         "bcp47": "es-ES",
         "dir": "ltr",
         "segmentation": "whitespace"
@@ -77,9 +140,9 @@
       "label": "Alphabet",
       "milestones": [
         "alphabet",
-        "consonants-low",
-        "consonants-mid",
-        "consonants-high",
+        "consonants_low",
+        "consonants_mid",
+        "consonants_high",
         "vowels"
       ]
     }
@@ -192,33 +255,33 @@
     },
     {
       "id": "alphabet",
-      "title": "Play with Alphabets",
+      "title": "Alphabet",
       "tier": "letters",
       "kind": "letter",
-      "file": "alphabet.json"
+      "file": "milestones/alphabet.json"
     },
     {
-      "id": "consonants-mid",
+      "id": "consonants_mid",
       "title": "Middle Class Consonants",
       "tier": "letters",
       "kind": "letter",
-      "file": "consonants-mid.json",
+      "file": "milestones/th/consonants-mid.json",
       "targets": ["th"]
     },
     {
-      "id": "consonants-high",
+      "id": "consonants_high",
       "title": "High Class Consonants",
       "tier": "letters",
       "kind": "letter",
-      "file": "consonants-high.json",
+      "file": "milestones/th/consonants-high.json",
       "targets": ["th"]
     },
     {
-      "id": "consonants-low",
+      "id": "consonants_low",
       "title": "Low Class Consonants",
       "tier": "letters",
       "kind": "letter",
-      "file": "consonants-low.json",
+      "file": "milestones/th/consonants-low.json",
       "targets": ["th"]
     },
     {
@@ -226,7 +289,7 @@
       "title": "Thai Vowels",
       "tier": "letters",
       "kind": "letter",
-      "file": "vowels.json",
+      "file": "milestones/th/vowels.json",
       "targets": ["th"]
     }
   ]

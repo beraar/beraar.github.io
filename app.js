@@ -451,6 +451,16 @@
       zh: "高级",
       ja: "上級",
     },
+    tierAlphabet: {
+      en: "Alphabet",
+      th: "ตัวอักษร",
+      fa: "الفبا",
+      ar: "الأبجدية",
+      es: "Alfabeto",
+      zh: "字母",
+      ja: "アルファベット",
+    },
+
     lessonsLabel: {
       en: "lessons",
       th: "บทเรียน",
@@ -1400,19 +1410,51 @@
       es: "Matices, humor y modismos",
     },
 
+    milestone_alphabet: {
+      en: "Alphabet",
+      th: "ตัวอักษร",
+      fa: "الفبا",
+      ar: "الأبجدية",
+      es: "Alfabeto",
+      zh: "字母",
+      ja: "アルファベット",
+    },
     milestone_consonants_mid: {
       en: "Middle Class Consonants",
       th: "พยัญชนะชั้นกลาง",
+      fa: "صامت‌های طبقه وسط",
+      ar: "الحروف الساكنة الطبقة الوسطى",
+      es: "Consonantes de Clase Media",
+      zh: "中辅音",
+      ja: "中声子音",
     },
     milestone_consonants_high: {
       en: "High Class Consonants",
       th: "พยัญชนะชั้นสูง",
+      fa: "صامت‌های طبقه بالا",
+      ar: "الحروف الساكنة الطبقة العليا",
+      es: "Consonantes de Clase Alta",
+      zh: "高辅音",
+      ja: "高声子音",
     },
     milestone_consonants_low: {
       en: "Low Class Consonants",
       th: "พยัญชนะชั้นต่ำ",
+      fa: "صامت‌های طبقه پایین",
+      ar: "الحروف الساكنة الطبقة السفلى",
+      es: "Consonantes de Clase Baja",
+      zh: "低辅音",
+      ja: "低声子音",
     },
-    milestone_consonants_vowels: { en: "Thai Vowels", th: "สระภาษาไทย" },
+    milestone_vowels: {
+      en: "Thai Vowels",
+      th: "สระภาษาไทย",
+      fa: "واکه‌های تایلندی",
+      ar: "حروف العلة التايلاندية",
+      es: "Vocales Tailandesas",
+      zh: "泰语元音",
+      ja: "タイ語母音",
+    },
 
     tag_everyday: {
       en: "everyday",
@@ -3391,6 +3433,7 @@
       beginner: t("tierIntroductory"),
       intermediate: t("tierIntermediate"),
       advanced: t("tierAdvanced"),
+      letters: t("tierAlphabet"),
     };
     const tierIcons = {
       beginner: TIER_ICONS.introductory,
