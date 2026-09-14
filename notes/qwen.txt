@@ -1,13 +1,14 @@
-Bug: Changing the target language in the App toolbar does not update the Alphabet milestone to the newly selected language.
 
-For the manifest.json,
-{
-  "id": "L1",
-  "title": "Play with Alphabets",
-  "tier": "letters",
-  "kind": "letter",
-  "file": "L1.json",
-  "targets": ["th"] 
-} 
 
-The "Play with Alphabets" applies to all 7 languages.  Is the default all languages or the targets array need to include all languages?
+The App should adhere to a mobile-first design.  The Word Quiz and Grammar quiz view layouts have a problem with the height of the view on a mobile and tablets having the bottom part of the view hidden.
+
+In general, the views need to adhere to a mobile-first design and be more compact to cater for modern mobile and tablet devices.
+
+Please review main.css to enforce a global mobile-first design system (updating CSS variables, base typography, global resets, and all view containers).
+====================
+
+Just to check again, original main.css has 2129 lines of CSS declarations and your optimized replacement for main.css has 647 lines of CSS declarations.  Is this correct?
+
+
+
+
