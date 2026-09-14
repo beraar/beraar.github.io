@@ -3,7 +3,7 @@
 ````text
 Context: We are building a vanilla JS language learning SPA. We have implemented the core UI and logic for `kind: "letter"` exercises (Flashcards, Quiz, and an Audio-only "Spell" exercise).
 
-Stage Goal: Create the [Chinese] ([zh]) alphabet JSON data file.
+Stage Goal: Create the [Thai] ([th]) alphabet JSON data file.
 
 Git Branch: `feat/letter-data`
 
@@ -11,18 +11,18 @@ Reference JSON Schema for `kind: "letter"`:
 
 ```json
 {
-  "id": "zh_ren",
+  "id": "th_ko_kai",
   "kind": "letter",
   "role": "target",
-  "texts": { "zh": "人", "en": "person" },
-  "phonetic": { "en": "rén" },
+  "texts": { "th": "ก", "en": "Ko Kai" },
+  "phonetic": { "en": "/k/" },
   "connections": {
-    "isolated": "人",
-    "initial": "人",
-    "medial": "人",
-    "final": "人"
+    "isolated": "ก",
+    "initial": "ก",
+    "medial": "ก",
+    "final": "ก"
   },
-  "meta": { "category": "radical", "strokes": 2 }
+  "meta": { "category": "consonant", "tone_class": "mid" }
 }
 ```
 

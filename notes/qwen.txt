@@ -1,27 +1,18 @@
-The trailing spaces is a familiar bug in the interpreter; local copy does not have trailing spaces. 
+I am working on the Zabon language learning app.
 
-[APPROVAL TESTS - MUST PASS BEFORE MERGING]
-1. Load the app with [LANGUAGE] as the target.
-Test Passed.
+[STRICT CODE OUTPUT RULES]
+DO NOT regenerate entire files. ONLY output specific blocks to add/modify using:
+1. // 🔍 FIND THIS (in [filename]): \n [exact lines] \n // ✏️ REPLACE WITH: \n [new code]
+2. // 📍 INSERT AFTER [function name] in [filename]: \n [new code]
+3. // 📍 INSERT NEW CASES inside the switch(action) block in app.js: \n [new cases]
 
-2. Open the "Alphabet" panel: The [LANGUAGE] letters/characters render correctly.
-Test Passed.
+The alphabet-letters.md has generated the JSON data file for all Thai consonants.
 
-3. Run the Flashcards: Characters and phonetics display correctly.
-Test Passed.
+The task is to output a similar message for a new chat to:
+- generate JSON data for Thai Lower class consonants.
+- generate JSON data for Thai Middle class consonants.
+- generate JSON data for Thai High class consonants.
+- generate JSON data for Thai vowels
 
-4. Run the Quiz: Audio plays and options match the [LANGUAGE] script.
-Test Passed.
-
-5. Run the Spell exercise: The audio plays the word, and the correct letter chips appear in the pool.
-Test Fails, The audio plays the word, and the correct letter chips appear but as  only choice instead of one letter in the pool of letters.
-
-*(For FA/AR only: Verify RTL layout and contextual forms in Flashcards).*
-
-=======================
-
-Bug: the initial Letter view has a "Sentences" collapsible panel with the alphabet letters inside it.  The "sentences" panel is redundant; the initial view should display the alphabet letters.
-
-
-
-
+Can kind = "letter" displays be in the alphabet language only? Default has 2 languages set.
+ 

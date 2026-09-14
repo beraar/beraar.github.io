@@ -1399,6 +1399,21 @@
       ar: "الفروق الدقيقة والفكر والأمثال",
       es: "Matices, humor y modismos",
     },
+
+    milestone_consonants_mid: {
+      en: "Middle Class Consonants",
+      th: "พยัญชนะชั้นกลาง",
+    },
+    milestone_consonants_high: {
+      en: "High Class Consonants",
+      th: "พยัญชนะชั้นสูง",
+    },
+    milestone_consonants_low: {
+      en: "Low Class Consonants",
+      th: "พยัญชนะชั้นต่ำ",
+    },
+    milestone_consonants_vowels: { en: "Thai Vowels", th: "สระภาษาไทย" },
+
     tag_everyday: {
       en: "everyday",
       th: "ชีวิตประจำวัน",
@@ -2678,41 +2693,72 @@
     saveProgress(progress) {
       saveJSON(this.progressKey, progress);
     }
+
     initializeProgress() {
       const existing = this.getProgress();
       const milestones = manifest?.milestones || [];
-      const isValid =
-        existing &&
-        typeof existing === "object" &&
-        !Array.isArray(existing) &&
-        Object.keys(existing).length === milestones.length &&
-        milestones.length > 0;
-      if (isValid) return existing;
-      const progress = {};
+
+      // Merge with existing progress to avoid wiping user data when new milestones are added
+      const progress =
+        existing && typeof existing === "object" && !Array.isArray(existing)
+          ? existing
+          : {};
+      let needsSave = false;
+
       milestones.forEach((m, index) => {
-        progress[m.id] = {
+        if (!progress[m.id]) {
+          progress[m.id] = {
+            state: index === 0 ? "UNLOCKED" : "LOCKED",
+            completed_via: null,
+            completed_at: null,
+          };
+          needsSave = true;
+        }
+      });
+
+      // Clean up any milestones that were removed from manifest.json
+      for (const key of Object.keys(progress)) {
+        if (!milestones.find((m) => m.id === key)) {
+          delete progress[key];
+          needsSave = true;
+        }
+      }
+
+      if (needsSave) {
+        this.saveProgress(progress);
+      }
+
+      return progress;
+    }
+
+    getMilestoneState(id) {
+      let progress = this.getProgress();
+      if (!progress) progress = this.initializeProgress();
+
+      // Defensive auto-heal: If a milestone is somehow missing, inject it immediately
+      if (!progress[id]) {
+        const milestones = manifest?.milestones || [];
+        const index = milestones.findIndex((m) => m.id === id);
+        progress[id] = {
           state: index === 0 ? "UNLOCKED" : "LOCKED",
           completed_via: null,
           completed_at: null,
         };
-      });
-      this.saveProgress(progress);
-      return progress;
-    }
-    getMilestoneState(id) {
-      let progress = this.getProgress();
-      if (!progress) progress = this.initializeProgress();
+        this.saveProgress(progress);
+      }
+
       const milestone = (manifest?.milestones || []).find((m) => m.id === id);
       if (milestone?.kind === "letter") {
         // Auto-heal: Ensure letter milestones are never locked
-        if (progress[id]?.state === "LOCKED") {
+        if (progress[id].state === "LOCKED") {
           progress[id].state = "UNLOCKED";
           this.saveProgress(progress);
         }
         return progress[id].state;
       }
-      return progress[id]?.state || "LOCKED";
+      return progress[id].state || "LOCKED";
     }
+
     setMilestoneComplete(id, isComplete) {
       let progress = this.getProgress();
       if (!progress) progress = this.initializeProgress();
@@ -3935,17 +3981,18 @@
         ? targetLang
         : langs[0] || "";
     }
+    const isLetterLesson = currentLesson?.meta?.kind === "letter";
     flashcardConfig.revealLanguages = flashcardConfig.revealLanguages.filter(
       (code) => langs.includes(code) && code !== flashcardConfig.promptLanguage,
     );
-    if (flashcardConfig.revealLanguages.length === 0) {
+    // Only force a reveal language if it's NOT a letter lesson
+    if (flashcardConfig.revealLanguages.length === 0 && !isLetterLesson) {
       const reveal =
         langs.find(
           (c) => c !== flashcardConfig.promptLanguage && c === appLang,
         ) || langs.find((c) => c !== flashcardConfig.promptLanguage);
       if (reveal) flashcardConfig.revealLanguages = [reveal];
     }
-
     if (!langs.includes(quizConfig.questionLanguage)) {
       quizConfig.questionLanguage = langs.includes(targetLang)
         ? targetLang
@@ -4382,18 +4429,30 @@
       column.appendChild(heading);
       return column;
     }
+
     const column = document.createElement("div");
     column.className = "item-column";
     column.dataset.itemId = item.id;
     column.dataset.kind = dataService.getItemKind(item);
-    if (currentLesson?.meta?.displayMode === "phonetic")
+
+    const isLetterLesson = currentLesson?.meta?.kind === "letter";
+
+    if (currentLesson?.meta?.displayMode === "phonetic") {
       column.appendChild(renderPhoneticCell(item));
-    else if (currentLesson?.meta?.displayMode === "script")
+    } else if (currentLesson?.meta?.displayMode === "script") {
       column.appendChild(renderScriptCell(item));
-    else
-      langs.forEach((code) =>
+    } else {
+      // 🛡️ FIX: For letter lessons, ONLY render the target language.
+      // This prevents the app from generating a second column with the English name (e.g., "Ko Kai").
+      const codesToRender = isLetterLesson
+        ? [state.settings.targetLanguage]
+        : langs;
+
+      codesToRender.forEach((code) =>
         column.appendChild(renderLanguageCell(item, code)),
       );
+    }
+
     return column;
   }
 
@@ -5567,14 +5626,15 @@
       label.append(input, flag, name);
       revealControls.appendChild(label);
     });
-    revealRow.appendChild(revealControls);
-    config.appendChild(revealRow);
+    const isLetterLesson = currentLesson?.meta?.kind === "letter";
+    if (isLetterLesson) revealRow.hidden = true;
     view.appendChild(renderExerciseSettingsPanel(settingsOpen, config));
     const stage = document.createElement("div");
     stage.id = "flashcard-stage";
     stage.className = "flashcard-stage";
     view.appendChild(stage);
-    if (langs.length < 2) {
+    //   const isLetterLesson = currentLesson?.meta?.kind === "letter";
+    if (langs.length < 2 && !isLetterLesson) {
       showStageMessage(stage, t("selectTwoLanguages"));
       return;
     }
@@ -5828,14 +5888,6 @@
     const back = document.createElement("div");
     back.className = "letter-flashcard__back";
     back.hidden = true;
-
-    const nameText = dataService.getText(item, appLang);
-    if (nameText) {
-      const nameEl = document.createElement("div");
-      nameEl.className = "letter-flashcard__name";
-      nameEl.textContent = nameText;
-      back.appendChild(nameEl);
-    }
 
     if (item.phonetic) {
       const noteText = dataService.getLocalizedText(item.phonetic, [

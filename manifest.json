@@ -75,7 +75,13 @@
     {
       "id": "letters",
       "label": "Alphabet",
-      "milestones": ["L1"]
+      "milestones": [
+        "alphabet",
+        "consonants-low",
+        "consonants-mid",
+        "consonants-high",
+        "vowels"
+      ]
     }
   ],
   "milestones": [
@@ -185,11 +191,39 @@
       "file": "milestones/M15.json"
     },
     {
-      "id": "L1",
-      "title": "Mock Letter Lesson",
+      "id": "alphabet",
+      "title": "Play with Alphabets",
       "tier": "letters",
       "kind": "letter",
-      "file": "L1.json"
+      "file": "alphabet.json"
+    },
+    {
+      "id": "consonants-mid",
+      "title": "Middle Class Consonants",
+      "tier": "letters",
+      "kind": "letter",
+      "file": "consonants-mid.json"
+    },
+    {
+      "id": "consonants-high",
+      "title": "High Class Consonants",
+      "tier": "letters",
+      "kind": "letter",
+      "file": "consonants-high.json"
+    },
+    {
+      "id": "consonants-low",
+      "title": "Low Class Consonants",
+      "tier": "letters",
+      "kind": "letter",
+      "file": "consonants-low.json"
+    },
+    {
+      "id": "vowels",
+      "title": "Thai Vowels",
+      "tier": "letters",
+      "kind": "letter",
+      "file": "vowels.json"
     }
   ]
 }
