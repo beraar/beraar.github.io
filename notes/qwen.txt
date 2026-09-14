@@ -1,41 +1,68 @@
 
+/* =========================================
+   BOTTOM BAR: COMBINED PROGRESS & COMPLETE
+   ========================================= */
 
-   {
-      "id": "alphabet",
-      "title": "Alphabet",
-      "tier": "letters",
-      "kind": "letter",
-      "file": "milestones/alphabet.json"
-    },
-    {
-      "id": "consonants_mid",
-      "title": "Middle Class Consonants",
-      "tier": "letters",
-      "kind": "letter",
-      "file": "milestones/consonants-mid.json",
-      "targets": ["th"]
-    },
-    {
-      "id": "consonants_high",
-      "title": "High Class Consonants",
-      "tier": "letters",
-      "kind": "letter",
-      "file": "milestones/consonants-high.json",
-      "targets": ["th"]
-    },
-    {
-      "id": "consonants_low",
-      "title": "Low Class Consonants",
-      "tier": "letters",
-      "kind": "letter",
-      "file": "milestones/consonants-low.json",
-      "targets": ["th"]
-    },
-    {
-      "id": "vowels",
-      "title": "Thai Vowels",
-      "tier": "letters",
-      "kind": "letter",
-      "file": "milestones/vowels.json",
-      "targets": ["th"]
-    }
+/* Base Toggle Container */
+.complete-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem; /* Compact for mobile */
+  font-weight: 600;
+  white-space: nowrap; /* Prevents wrapping on small screens */
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+/* State 1: In Progress (e.g., 25→80%) */
+.complete-toggle.is-progress {
+  background: var(--accent-light, #e0e7ff);
+  color: var(--accent-dark, #3730a3);
+  border-color: var(--accent, #6366f1);
+}
+
+/* State 2: Goal Met / Completed (e.g., Complete?) */
+.complete-toggle.is-complete {
+  background: var(--success-light, #dcfce7);
+  color: var(--success-dark, #166534);
+  border-color: var(--success, #22c55e);
+}
+
+/* Checkbox Styling */
+.complete-toggle input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+  margin: 0;
+  cursor: pointer;
+  accent-color: var(--accent, #6366f1);
+}
+
+.complete-toggle.is-complete input[type="checkbox"] {
+  accent-color: var(--success, #22c55e);
+}
+
+=========================================
+
+/* Ensure the bottom bar distributes space well on mobile */
+#bottom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  overflow-x: auto; /* Allows horizontal scroll if screen is extremely narrow */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+#bottom-bar::-webkit-scrollbar { display: none; }
+
+/* Settings button alignment */
+#bottom-bar [data-action="open-settings"] {
+  margin-inline-start: auto; /* Pushes settings to the far right */
+  flex-shrink: 0;
+}

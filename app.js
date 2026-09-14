@@ -4177,42 +4177,32 @@
     });
 
     if (!currentLesson) return;
-
     const lessonId = currentLesson.meta.id;
     const isComplete = milestoneService
       ? milestoneService.getMilestoneState(lessonId) === "COMPLETED"
       : false;
 
-    const progressText = getMilestoneProgressText(lessonId);
+    const currentScore = getLessonAverageScore(lessonId);
+    const requiredPct =
+      currentLesson?.unlock_requirements?.grammar_quiz_pass_pct || 80;
+    const goalMet = currentScore >= requiredPct;
 
-    // 1. Inject Score into Action Bar (Row 1) at the very beginning
-    if (progressText && elements.actionBar) {
-      const progressEl = document.createElement("span");
-      progressEl.className = "action-bar__button auto-complete-progress";
-      progressEl.textContent = progressText;
+    // ── 1. Action Bar (Row 1): PROGRESS REMOVED ──
+    // We no longer inject the progress pill here to save mobile space.
+    // The 3 exercise buttons (Flashcards, Spell, Quiz) now have full width.
 
-      // 🎨 Visual State: Add a class if the goal is met
-      const currentScore = getLessonAverageScore(lessonId);
-      const requiredPct =
-        currentLesson?.unlock_requirements?.grammar_quiz_pass_pct || 80;
-      if (currentScore >= requiredPct) {
-        progressEl.classList.add("score-met");
-      }
-
-      const firstExerciseBtn = elements.actionBar.querySelector(
-        ".action-bar__button",
-      );
-      if (firstExerciseBtn) {
-        elements.actionBar.insertBefore(progressEl, firstExerciseBtn);
-      } else {
-        elements.actionBar.appendChild(progressEl);
-      }
-    }
-
-    // 2. Inject Complete toggle into Bottom Bar (Row 2) before Settings
+    // ── 2. Bottom Bar (Row 2): COMBINED PROGRESS & COMPLETE TOGGLE ──
     if (elements.bottomBar) {
       const label = document.createElement("label");
       label.className = "complete-toggle";
+
+      // Add state classes for CSS styling
+      if (isComplete || goalMet) {
+        label.classList.add("is-complete");
+      } else {
+        label.classList.add("is-progress");
+      }
+
       const checkbox = document.createElement("input");
       checkbox.type = "checkbox";
       checkbox.checked = isComplete;
@@ -4225,7 +4215,16 @@
 
       const text = document.createElement("span");
       text.className = "complete-toggle__label";
-      text.textContent = t("completeQuestion");
+
+      // 🎯 DYNAMIC LABEL LOGIC
+      if (isComplete || goalMet) {
+        // Show localized "Complete?" (e.g., "Complete?", "完了？", "เสร็จแล้ว?")
+        text.textContent = t("completeQuestion");
+      } else {
+        // Show compact progress e.g., "25→80%"
+        text.textContent = `${currentScore}→${requiredPct}%`;
+      }
+
       label.append(checkbox, text);
 
       const settingsBtn = elements.bottomBar.querySelector(
