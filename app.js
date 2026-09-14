@@ -2855,9 +2855,9 @@
       if (currentState === "LOCKED" || currentState === "COMPLETED")
         return false;
 
-      // ── OPTION B: Average Score Logic ──
-      // Calculate the holistic average of SRS (Flashcards) and Quizzes.
-      const avgScore = getLessonAverageScore(id);
+      // ── ITEM MASTERY LOGIC ──
+      // Calculate progress based on Quiz accuracy for target items.
+      const avgScore = getLessonMasteryScore(id);
 
       const requirements =
         currentLesson && currentLesson.meta.id === id
@@ -4058,90 +4058,39 @@
     }
   }
 
-  function getAverageScore(milestoneId) {
-    const milestoneData = (manifest?.milestones || []).find(
-      (m) => m.id === milestoneId,
-    );
-    if (!milestoneData) return 0;
-
-    const scores = [];
-    const items = currentLesson?.items || [];
-    const requiredBox = milestoneData.unlock_requirements?.srs_box_level || 4;
-
-    // 1. Flashcard Score (Word & Sentence)
-    const targetItems = items.filter((i) => i.role === "target");
-    if (targetItems.length > 0) {
-      const records = srsService?.records || {};
-      let metCount = 0;
-      for (const item of targetItems) {
-        const matchingKey = Object.keys(records).find((key) =>
-          key.includes(item.id),
-        );
-        if (matchingKey && records[matchingKey].box >= requiredBox) metCount++;
-      }
-      scores.push(Math.round((metCount / targetItems.length) * 100));
-    }
-
-    // 2. Quiz Score (Word & Sentence Quizzes)
-    const allQuizRecords = quizProgressService?.records || {};
-    let quizTotal = 0,
-      quizCorrect = 0;
-    for (const key in allQuizRecords) {
-      const rec = allQuizRecords[key];
-      quizTotal += (rec.correct || 0) + (rec.incorrect || 0);
-      quizCorrect += rec.correct || 0;
-    }
-    if (quizTotal > 0) {
-      scores.push(Math.round((quizCorrect / quizTotal) * 100));
-    }
-
-    if (scores.length === 0) return 0;
-    return Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
-  }
-
-  function getLessonAverageScore(lessonId) {
+  function getLessonMasteryScore(lessonId) {
     // We can only calculate this if the lesson is currently loaded in memory
     if (!currentLesson || currentLesson.meta.id !== lessonId) return 0;
 
-    const items = currentLesson.items || [];
-    const requiredBox = currentLesson.unlock_requirements?.srs_box_level || 4;
-    const scores = [];
+    const targetItems = currentLesson.items.filter((i) => i.role === "target");
+    if (targetItems.length === 0) return 100; // No targets = complete
 
-    // 1. Vocab/Flashcard Score (SRS Mastery)
-    const targetWordItems = items.filter(
-      (i) => i.role === "target" && dataService.getItemKind(i) === "word",
-    );
-    if (targetWordItems.length > 0) {
-      const records = srsService?.records || {};
-      let metCount = 0;
-      for (const item of targetWordItems) {
-        const matchingKey = Object.keys(records).find((key) =>
-          key.includes(item.id),
-        );
-        if (matchingKey && records[matchingKey].box >= requiredBox) metCount++;
+    let masteredCount = 0;
+    const quizRecords = quizProgressService?.records || {};
+
+    for (const item of targetItems) {
+      let itemCorrect = 0;
+      let itemTotal = 0;
+
+      // 🛡️ FIX: Correctly match the itemId prefix in the quiz records
+      for (const key in quizRecords) {
+        if (key.startsWith(item.id + ":")) {
+          const rec = quizRecords[key];
+          itemCorrect += rec.correct || 0;
+          itemTotal += (rec.correct || 0) + (rec.incorrect || 0);
+        }
       }
-      scores.push(Math.round((metCount / targetWordItems.length) * 100));
-    }
 
-    // 2. Quiz Score (Word, Sentence, and Grammar Quizzes combined)
-    const allQuizRecords = quizProgressService?.records || {};
-    let quizTotal = 0,
-      quizCorrect = 0;
-
-    for (const key in allQuizRecords) {
-      // Only count quiz records that belong to this specific milestone
-      if (key.startsWith(lessonId + "_") || key.startsWith(lessonId + ":")) {
-        const rec = allQuizRecords[key];
-        quizTotal += (rec.correct || 0) + (rec.incorrect || 0);
-        quizCorrect += rec.correct || 0;
+      // 🎯 MASTERY CONDITION:
+      // The user must have answered at least once, and achieved >= 75% accuracy.
+      // This prevents a single lucky guess from marking it complete,
+      // but rewards consistent correct answers immediately.
+      if (itemTotal > 0 && itemCorrect > 0 && itemCorrect / itemTotal >= 0.75) {
+        masteredCount++;
       }
     }
-    if (quizTotal > 0) {
-      scores.push(Math.round((quizCorrect / quizTotal) * 100));
-    }
 
-    if (scores.length === 0) return 0;
-    return Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
+    return Math.round((masteredCount / targetItems.length) * 100);
   }
 
   function getMilestoneProgressText(milestoneId) {
@@ -4182,7 +4131,7 @@
       ? milestoneService.getMilestoneState(lessonId) === "COMPLETED"
       : false;
 
-    const currentScore = getLessonAverageScore(lessonId);
+    const currentScore = getLessonMasteryScore(lessonId);
     const requiredPct =
       currentLesson?.unlock_requirements?.grammar_quiz_pass_pct || 80;
     const goalMet = currentScore >= requiredPct;
