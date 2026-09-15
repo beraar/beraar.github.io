@@ -4355,6 +4355,7 @@
 
     // ── 5. Render Bottom Bar Controls (Score & Complete Toggle) ──
     renderCompleteToggle();
+    // mic in the player toolbar
     updateRecordToggleButton();
 
     // ── 6. Toggle Action Bar Buttons based on Lesson Kind ──
