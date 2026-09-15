@@ -1,9 +1,0 @@
-Output a summary of the App functionality and explain why it may be an effective tool for learning a new language? 
-The output should be suitable for emailing to language students and teachers.
-
-The Record & Compare feature that allowed Students to record their own voice directly in the app and play it back immediately after the native TTS to compare pronunciation and intonation was implemented previously.  Can you suggest how it could be reintroduced and incorporated into the UI.
-
-          ◼
-         
-          ⚙
-
