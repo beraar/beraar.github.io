@@ -2982,7 +2982,8 @@
         s.voices && typeof s.voices === "object" && !Array.isArray(s.voices)
           ? s.voices
           : {},
-      recordAndCompare: Boolean(s.recordAndCompare),
+      recordAndCompare:
+        typeof s.recordAndCompare === "boolean" ? s.recordAndCompare : true,
     };
   }
   function normalizeLessonLanguages(saved, targetLang) {
@@ -4354,6 +4355,7 @@
 
     // ── 5. Render Bottom Bar Controls (Score & Complete Toggle) ──
     renderCompleteToggle();
+    updateRecordToggleButton();
 
     // ── 6. Toggle Action Bar Buttons based on Lesson Kind ──
     //  const isLetterLesson = currentLesson?.meta?.kind === "letter";
@@ -5077,38 +5079,7 @@
     section.appendChild(row);
     return section;
   }
-  function renderRecordAndCompareSection() {
-    const section = document.createElement("div");
-    section.className = "sheet-section";
-    const title = document.createElement("h3");
-    title.className = "sheet-section__title";
-    title.textContent = t("recordAndCompare");
-    section.appendChild(title);
-    const desc = document.createElement("p");
-    desc.style.margin = "0 0 0.75rem 0";
-    desc.style.color = "var(--muted)";
-    desc.style.fontSize = "0.9rem";
-    desc.textContent = t("recordAndCompareDesc");
-    section.appendChild(desc);
-    const label = document.createElement("label");
-    label.className = "language-control";
-    label.style.cursor = "pointer";
-    const input = document.createElement("input");
-    input.type = "checkbox";
-    input.checked = Boolean(state.settings.recordAndCompare);
-    input.addEventListener("change", () => {
-      state.settings.recordAndCompare = input.checked;
-      saveState();
-      renderSettings();
-      renderCurrent();
-    });
-    const text = document.createElement("span");
-    text.className = "language-control__label";
-    text.textContent = t("recordAndCompare");
-    label.append(input, text);
-    section.appendChild(label);
-    return section;
-  }
+
   function renderVoicesSection() {
     const section = document.createElement("div");
     section.className = "sheet-section";
@@ -5487,6 +5458,17 @@
     }
     playCurrentUnit();
   }
+  function updateRecordToggleButton() {
+    const btn = document.getElementById("toggle-record");
+    if (!btn) return;
+    const isActive = Boolean(state.settings.recordAndCompare);
+    btn.classList.toggle("is-active", isActive);
+    btn.setAttribute("aria-label", t("recordAndCompare"));
+    btn.title = isActive
+      ? "Disable Record & Compare"
+      : "Enable Record & Compare";
+  }
+
   function refreshPlaybackUI() {
     const playButton = document.querySelector('[data-action="media-play"]');
     if (playButton) {
@@ -7611,6 +7593,40 @@
     stage.appendChild(resetPanel);
     view.appendChild(stage);
   }
+
+  function renderRecordAndCompareSection() {
+    const section = document.createElement("div");
+    section.className = "sheet-section";
+    const title = document.createElement("h3");
+    title.className = "sheet-section__title";
+    title.textContent = t("recordAndCompare");
+    section.appendChild(title);
+    const desc = document.createElement("p");
+    desc.style.margin = "0 0 0.75rem 0";
+    desc.style.color = "var(--muted)";
+    desc.style.fontSize = "0.9rem";
+    desc.textContent = t("recordAndCompareDesc");
+    section.appendChild(desc);
+    const label = document.createElement("label");
+    label.className = "language-control";
+    label.style.cursor = "pointer";
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.checked = Boolean(state.settings.recordAndCompare);
+    input.addEventListener("change", () => {
+      state.settings.recordAndCompare = input.checked;
+      saveState();
+      renderSettings();
+      renderCurrent();
+    });
+    const text = document.createElement("span");
+    text.className = "language-control__label";
+    text.textContent = t("recordAndCompare");
+    label.append(input, text);
+    section.appendChild(label);
+    return section;
+  }
+
   function renderHelp() {
     showView("help");
     const view = elements.helpView;
@@ -7956,6 +7972,12 @@
           break;
         case "media-stop":
           stopPlayback();
+          break;
+        case "toggle-record-compare":
+          state.settings.recordAndCompare = !state.settings.recordAndCompare;
+          saveState();
+          updateRecordToggleButton();
+          renderCurrent(); // Re-renders the lesson to show/hide inline mic icons
           break;
         case "voice-test-play":
           startVoiceTestPlayback();

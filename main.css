@@ -1806,6 +1806,22 @@ Record Overlay (Stage 5)
   margin-block-start: var(--space-3);
 }
 
+/* Record & Compare Toolbar Toggle */
+#toggle-record {
+  opacity: 0.4;
+  transition:
+    opacity 0.2s ease,
+    color 0.2s ease;
+}
+
+#toggle-record.is-active {
+  opacity: 1;
+  color: var(
+    --accent,
+    #007bff
+  ); /* Falls back to blue if --accent isn't defined */
+}
+
 /* ------------------------------------------------------------
 Stage 4: Milestone Visual States & Auto-Complete Progress
 ------------------------------------------------------------ */
