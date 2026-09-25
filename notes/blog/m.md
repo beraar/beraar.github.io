@@ -15,4 +15,4 @@ The above is incorrect. It should be:
 export APP_ROOT="$REPO_ROOT
 export BLOG_ROOT="$APP_ROOT/zabon/apps/blog"
 
-Does this change affect the rest of the plan?
+Does this change affect the rest of the

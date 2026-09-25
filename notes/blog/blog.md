@@ -1,9 +1,4 @@
-This beraar repo is a staging repo for the zabon App. The following plan is for a new blog feature.
-The plan is stored in /zabon/apps/blog/notes/blog.md
-I am new to the code interface but seemingly, you have direct access to the files.
-Please generate a new version of the blog.md to change from browser upload to direct file access.
-
-# Complete Revised Plan — Paste-Bundle-Qwen5, No Milestone Edits
+# Complete Plan — Paste-Bundle-Qwen5, No Milestone Edits
 
 This is the complete revised operating plan.
 
